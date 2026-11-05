@@ -6,6 +6,7 @@ package zanshin.core.tibetan
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
@@ -441,5 +442,20 @@ class BirthTest {
         assertEquals(8, BirthReckoning.goodCount(h))
         assertEquals(BirthWhole.BAD, BirthReckoning.whole(h))
         assertNull(BirthReckoning.hundred(Sign(Element.WOOD, Animal.MOUSE), 1984, Sign(Element.WATER, Animal.MONKEY), Gender.MALE, 1958, null))
+    }
+
+    /** Point 10 (p. 360): the four-slayers of the pig the tiger and the monkey, the notes' mouse and dragon, and a pair free of all four. */
+    @Test
+    fun `birth months and days meet as enemy grave seventh or four-slayer`() {
+        assertEquals(listOf(TimeMeeting.FOUR_SLAYER), MatchReckoning.timeMeetings(Animal.PIG, Animal.MONKEY).filter { it == TimeMeeting.FOUR_SLAYER })
+        assertTrue(TimeMeeting.FOUR_SLAYER in MatchReckoning.timeMeetings(Animal.TIGER, Animal.PIG))
+        assertTrue(TimeMeeting.GRAVE in MatchReckoning.timeMeetings(Animal.MOUSE, Animal.DRAGON))
+        assertTrue(TimeMeeting.GRAVE in MatchReckoning.timeMeetings(Animal.DRAGON, Animal.MOUSE))
+        assertTrue(TimeMeeting.SMALL_GRAVE in MatchReckoning.timeMeetings(Animal.MOUSE, Animal.DOG))
+        assertTrue(TimeMeeting.SEVENTH in MatchReckoning.timeMeetings(Animal.MOUSE, Animal.HORSE))
+        assertTrue(TimeMeeting.ENEMY in MatchReckoning.timeMeetings(Animal.MOUSE, Animal.HORSE))
+        assertEquals(emptyList<TimeMeeting>(), MatchReckoning.timeMeetings(Animal.MOUSE, Animal.PIG))
+        val pairs = Animal.entries.flatMap { a -> Animal.entries.map { b -> MatchReckoning.timeMeetings(a, b) to MatchReckoning.timeMeetings(b, a) } }
+        pairs.forEach { (x, y) -> assertEquals(x, y) }
     }
 }

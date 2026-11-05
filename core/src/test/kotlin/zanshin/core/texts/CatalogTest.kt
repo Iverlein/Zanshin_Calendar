@@ -127,6 +127,7 @@ import zanshin.core.tibetan.MatchWhole
 import zanshin.core.tibetan.HAND_WAVERS
 import zanshin.core.tibetan.MatchParent
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.RoundRead
 import zanshin.core.tibetan.MatchTrigramLine
 import zanshin.core.tibetan.MewaPathYear
 import zanshin.core.tibetan.TRIGRAM_CHILDREN
@@ -366,6 +367,11 @@ class CatalogTest {
         NiSha.entries.forEach { out += Texts.matchNiSha(it) }
         BadYear.entries.forEach { out += Texts.badYear(it) }
         MatchPlanet.entries.forEach { out += Texts.matchPlanet(it) }
+        listOf(true, false).forEach { out += Texts.matchTime(it) }
+        listOf("HouseholdGod" to "BLACK RED BLUE_RED GREEN YELLOW WHITE", "HouseholdPeople" to "WHITE BLACK BLUE GREEN RED YELLOW", "HouseholdTail" to "WHITE BLACK YELLOW BLUE RED",
+            "HouseholdHouse" to "WHITE BLACK BLUE_GREEN YELLOW RED", "HouseholdLeftover" to "TWO_WHITE MIXED ONE_BLACK TWO_BLACK BONE WATER GREEN", "HouseholdEnemy" to "HIGH LOW TOP", "HouseholdOmen" to "GODS_ILLNESS DEMONS")
+            .forEach { (family, keys) -> keys.split(' ').forEach { out += Texts.householdRead(RoundRead(family, it, null)) } }
+        listOf(true, false).forEach { out += Texts.householdTogether(it, emptyList()) }
         Animal.entries.filter { it != Animal.MONKEY }.forEach { out += Texts.matchSameAnimal(it) }
         PairList.entries.forEach { out += Texts.matchPairList(it) }
         MatchMewa.entries.forEach { out += Texts.matchMewa(it) }
@@ -757,7 +763,7 @@ class CatalogTest {
             "P2" to listOf("NatalTrigram", "KinObstacle"),
             "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "DeadCauseTrigram", "DeadCauseMewa", "DeadDemonTrigram", "DeadDemonMewa", "DeadRebirthMewa", "CirclePebble", "ThirtyCheck", "ThirtyBoard", "TurtleClass", "TurtleKin", "TurtleEnemy", "Building", "MomentSpirit", "MomentWealth", "DeadProvisions", "DeadGraveProvisions", "DeadNineEye", "DeadGraveDay", "DeadRitesDate", "DeadRitesPlanet", "DeadRitesMewa", "DeadRitesTrigram", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement", "MomentMewaPlace", "MomentForefathers", "MomentSquare", "MomentGuard", "MomentHouse", "MomentField", "MomentFieldThere", "MomentGrave", "MomentGraveDecline", "MomentKin", "MomentEye", "MomentGraveBack", "MomentGate", "MomentSixty", "MomentWealthThere", "MomentDemonMeet", "MomentBeer", "MomentBeerGiven", "MomentBeerDrunk", "MomentBeerTaste", "MomentHouses", "MomentSickCause", "MomentSickLife", "MomentSickBed", "MomentEaten", "MomentEatenCount", "MomentIllnessSeat", "MomentHair", "MomentTrade", "MomentDispute", "MomentLifePart", "MomentForefathersYear", "MomentGrain", "MomentGrainVessel", "MomentMarks", "MomentSign", "MomentFight"),
             // The marriage match (block 31), written in the shape: no allowance.
-            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
+            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchTime", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The year's eight direction gods (K5, block 54), 金神 and 天一神's daily direction (D9's open points, 2026-10-31), written in the shape: no allowance.
@@ -772,6 +778,8 @@ class CatalogTest {
             "R7" to listOf("RoundCut", "RoundSign"),
             // The reckonings of the time of asking (block 63), written in the shape: no allowance.
             "R8" to listOf("Abroad", "AskingSign"),
+            // The household round (block 58), written in the shape: no allowance.
+            "R9" to listOf("HouseholdTogether", "HouseholdGod", "HouseholdPeople", "HouseholdTail", "HouseholdHouse", "HouseholdLeftover", "HouseholdEnemy", "HouseholdOmen"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 

@@ -209,6 +209,16 @@ enum class MatchTrigramLine { WOOD_WOMAN_KHON, IRON_HUSBAND_GIN, KHEN_WOMAN_ZON_
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
+/**
+ * What two births' months or days meet as, each taken as an animal (point 10, p. 360; the notes, vol. 2, p. 525: "if
+ * they do not meet each other as enemy, seventh and the like"). Every one is mutual. The element is the life force's.
+ */
+enum class TimeMeeting {
+    ENEMY, GRAVE, SMALL_GRAVE, SEVENTH, FOUR_SLAYER;
+
+    val english: String get() = gloss(this)
+}
+
 /** The *ni sha* reckoning (p. 359): the man of a male year and older, the woman of a female year and younger. */
 enum class NiSha { GOOD, REVERSED }
 
@@ -288,6 +298,26 @@ object MatchReckoning {
         BirthReckoning.powerYear(man).takeIf { it == BirthReckoning.powerYear(woman) }
 
     /** The planet two spouses born on weekdays [a] and [b] are joined in (p. 360); null on different weekdays. */
+    /**
+     * What the animals [a] and [b] of two births' months or days meet as (point 10): enemy, when one's life-force
+     * element overcomes the other's; grave, when one falls on the tomb of the other's element (p. 258), and small
+     * grave on that tomb's seventh; seventh, six apart; four-slayer, three apart either way (p. 235).
+     */
+    fun timeMeetings(a: Animal, b: Animal): List<TimeMeeting> {
+        val (x, y) = Forces.of(Element.WOOD, a).vitality to Forces.of(Element.WOOD, b).vitality
+        val apart = Math.floorMod(a.ordinal - b.ordinal, 12)
+        fun tombOf(e: Element, other: Animal, step: Int) =
+            Animal.entries[Math.floorMod(Animal.entries.first { YearOfLife.sector(e, it) == Sector.ENTERING_THE_TOMB }.ordinal + step, 12)] == other
+        fun grave(step: Int) = tombOf(x, b, step) || tombOf(y, a, step)
+        return buildList {
+            if (x.overcomes == y || y.overcomes == x) add(TimeMeeting.ENEMY)
+            if (grave(0)) add(TimeMeeting.GRAVE)
+            if (grave(6)) add(TimeMeeting.SMALL_GRAVE)
+            if (apart == 6) add(TimeMeeting.SEVENTH)
+            if (apart == 3 || apart == 9) add(TimeMeeting.FOUR_SLAYER)
+        }
+    }
+
     fun samePlanet(a: Weekday, b: Weekday): MatchPlanet? = if (a != b) null else when (a) {
         Weekday.SATURDAY -> MatchPlanet.SATURDAY
         Weekday.SUNDAY, Weekday.TUESDAY -> MatchPlanet.SUN_TUE

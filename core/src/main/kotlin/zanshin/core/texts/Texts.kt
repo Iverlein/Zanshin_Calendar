@@ -84,6 +84,7 @@ import zanshin.core.tibetan.PebbleColour
 import zanshin.core.tibetan.PreciousPebble
 import zanshin.core.tibetan.RaisingDay
 import zanshin.core.tibetan.RaisingMonth
+import zanshin.core.tibetan.RoundRead
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
@@ -486,6 +487,7 @@ object Sources {
     val WHITE_BERYL_YEAR_CARE = whiteBeryl("chapter 20, p. 242, and chapter 24, pp. 415–416", volume = 1)
     /** The year of age together: the four classes' verdicts gathered (ch. 24, p. 385) and each obstacle weighed by Mipham's notes (vol. 2, pp. 492–495; D17). */
     val WHITE_BERYL_YEAR_TOGETHER = whiteBeryl("chapter 24, p. 385, with the notes in vol. 2, pp. 492–495", volume = 1)
+    val WHITE_BERYL_HOUSEHOLD = whiteBeryl("chapter 24, pp. 385–387 and 415, with the notes in vol. 2, pp. 490–491", volume = 1)
     /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
     val WHITE_BERYL_BIRTH = whiteBeryl("chapter 22, pp. 261 and 286–288, with the notes in vol. 2, p. 476", volume = 1)
     /** The birth reckoning's five children by the natal trigram (ROADMAP R2, docs/sources/year-of-life.md, RD13). */
@@ -510,6 +512,7 @@ object Sources {
     val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_PLANET = whiteBeryl("chapter 23, p. 360", volume = 1)
+    val WHITE_BERYL_MATCH_TIMES = whiteBeryl("chapter 23, p. 360, with the notes in vol. 2, p. 525", volume = 1)
     /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH = whiteBeryl("chapter 23, pp. 355–357 and 359", volume = 1)
     /** The marriage match's hidden and deeper hidden (ROADMAP R3, docs/sources/marriage.md, open question 161). */
@@ -537,7 +540,7 @@ object Sources {
     /** The four precious pebbles (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
+    val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348, with the notes in vol. 2, pp. 488–489", volume = 1)
     /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
     /** The moment's trigram and mewa (ROADMAP R2o, docs/sources/reckonings.md, RD17). */
@@ -2196,6 +2199,14 @@ object Texts {
         key = "reading.YearTogether", arg = "reading.YearTogether.${colour.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER, alsoRows = remedies, listsRites = true,
     )
 
+    /** One reading of the household round (pp. 385–387). */
+    fun householdRead(r: RoundRead): Reading = Reading(key = "reading.${r.family}", arg = "reading.${r.family}.${r.key}", source = Sources.WHITE_BERYL_HOUSEHOLD)
+
+    /** The household's pebbles taken together (p. 415), with the Remedy rows of the round's readings gathered. */
+    fun householdTogether(blackTheMore: Boolean, remedies: List<String>): Reading = Reading(
+        key = "reading.HouseholdTogether", arg = "reading.HouseholdTogether.${if (blackTheMore) "BLACK" else "WHITE"}", source = Sources.WHITE_BERYL_HOUSEHOLD, alsoRows = remedies, listsRites = true,
+    )
+
     /** An obstacle of the year graded by Mipham's notes (vol. 2, pp. 492–494; D17). */
     fun yearGrade(g: GradedObstacle): Reading =
         Reading(key = "reading.YearGrade", arg = "reading.YearGrade.${g.kind.name}.${g.grade.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER)
@@ -2775,6 +2786,8 @@ object Texts {
 
     /** Husband and wife joined in the planet [p] (WB vol. 1, ch. 23, p. 360). */
     fun matchPlanet(p: MatchPlanet): Reading = Reading(key = "reading.MatchPlanet", arg = "reading.MatchPlanet.${p.name}", source = Sources.WHITE_BERYL_MATCH_PLANET)
+    /** Point 10 for one pair of birth months or days: they [agree] when they meet as nothing bad. */
+    fun matchTime(agree: Boolean): Reading = Reading(key = "reading.MatchTime", arg = "reading.MatchTime.${if (agree) "AGREE" else "DISAGREE"}", source = Sources.WHITE_BERYL_MATCH_TIMES)
 
     /** The *ni sha* reckoning [r] (WB vol. 1, ch. 23, p. 359). */
     fun matchNiSha(r: NiSha): Reading = Reading(key = "reading.MatchNiSha", arg = "reading.MatchNiSha.${r.name}", source = Sources.WHITE_BERYL_MATCH)
