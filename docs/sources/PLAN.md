@@ -1379,3 +1379,5 @@ Searched and found wanting, so not to be repeated:
 - **RD160, the wheel's direction (2026-11-05)** (RD160, 2026-11-05):
   - BDRC's full-text search, 19 phrases on left and right circuits of the wheel, no hit; `bdrc_search.py` reads page 1 only, so «མ་ཎི་འཁོར་ལོ» (170 hits), «འཁོར་ལོའི་ཕན་ཡོན» (47) and «མ་ཎི་དུང་འཁོར» (62) stand unread past it; the list is in prayer-wheel.md, *Searched and not found*.
   - Ladner, *The Wheel of Great Compassion* (Wisdom, 2000): archive.org's `wheelgreatcompas00ladn` answered «no longer available» on 2026-11-05.
+- **RD156 (2026-11-05)** (RD156, 2026-11-05):
+  - The direction of counting the door's places: pp. 276–294 read line by line, no direction stated; pp. 242–275 not read.

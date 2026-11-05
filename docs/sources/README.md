@@ -879,8 +879,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 | [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 | [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | open; cites wb.2:p287 |
-| [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | open; cites wb.2:p282 |
-| [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | open; cites wb.2:p283-285, wb.2:p291-294 |
+| [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | answered; cites wb.2:p282 |
+| [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | answered; cites wb.2:p283-285, wb.2:p291-294 |
 | [questions/q0465.md](questions/q0465.md) | question q465 | Which earth lords of the date follow the Black Moon on pp. 361–363, and in what order | open; cites wb.2:p362-363 |
 | [questions/q0466.md](questions/q0466.md) | question q466 | Does the machine's order of hours against animals on pp. 360–361 hold on the scan | open; cites wb.2:p360-361 |
 | [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | open; cites wb.2:p366-368 |
@@ -899,7 +899,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
-| [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | open; cites wb.2:p291-294 |
+| [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
 | [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | open; cites — |
 | [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | open; cites — |
 | [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | open; cites — |
@@ -965,7 +965,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | open; cites — |
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
-| [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | open; cites — |
+| [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | answered; cites — |
 | [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | open; cites — |
 | [questions/q0551.md](questions/q0551.md) | question q551 | Which Sanskrit yogas are WB's good «self-born three, five, seven and two, eight, six» | open; cites — |
 | [questions/q0552.md](questions/q0552.md) | question q552 | The colour words in the cells of the seven members' round on KD vol. 3 p. 726 and at 19 | open; cites — |
@@ -1024,7 +1024,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | open; cites wb.1:p373-375 |
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | open; cites sdp:p238-241 |
-| [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | open; cites wb.2:p241 |
+| [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | answered; cites wb.2:p241 |
 | [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | open; cites wb.2:p305 |
 | [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | open; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | open; cites wb.2:p305-307 |
@@ -1035,6 +1035,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | open; cites — |
 | [questions/q0617.md](questions/q0617.md) | question q617 | «ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ» in the wheel text under Karma Chagme | open; cites — |
 | [questions/q0618.md](questions/q0618.md) | question q618 | The *Nges 'byed bla ma* Longchenpa quotes | open; cites — |
+| [questions/q0619.md](questions/q0619.md) | question q619 | «བྱན་ཚང» on pp. 287 and 294 | open; cites wb.2:p287, wb.2:p294 |
+| [questions/q0620.md](questions/q0620.md) | question q620 | «ས་དགའ་མ» on p. 288 | open; cites wb.2:p288 |
+| [questions/q0621.md](questions/q0621.md) | question q621 | «སྨན་གཉིས» and «མ་དགུ» on p. 276 | open; cites wb.2:p276 |
+| [questions/q0622.md](questions/q0622.md) | question q622 | «མཛེས་ཅན་མིན་པའི་མི» on p. 278 | open; cites wb.2:p278 |
 
 <!-- end pool index -->
 
