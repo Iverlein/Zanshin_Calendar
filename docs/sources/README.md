@@ -866,10 +866,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | open; cites wb.2:p313b |
 | [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | open; cites wb.2:p313, wb.2:p328-329 |
 | [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
-| [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | open; cites wb.2:p305 |
-| [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | open; cites wb.2:p335-336, wb.2:p341-342 |
+| [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | answered; cites wb.2:p305 |
+| [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | answered; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | open; cites wb.2:p349-350 |
-| [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | open; cites wb.2:p349-350 |
+| [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | answered; cites wb.2:p349-350 |
 | [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
 | [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 | [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
@@ -1020,6 +1020,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | open; cites sdp:p238-241 |
 | [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | open; cites wb.2:p241 |
+| [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | open; cites wb.2:p305 |
+| [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | open; cites wb.2:p335-336, wb.2:p341-342 |
+| [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | open; cites wb.2:p305-307 |
+| [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | open; cites wb.2:p335-336, wb.2:p341-342 |
 
 <!-- end pool index -->
 

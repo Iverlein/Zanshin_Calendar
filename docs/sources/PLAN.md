@@ -1374,3 +1374,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-04, BDRC's full-text search filtered to Mipham (the results page's Author facet; the URL takes `&author[0]=P252`): no hit for ཨོཾ་བཛྲ་པཱ་ཎི་ཧཱུྃ་ཕཊ; the only hit for the Medicine Buddha's mantra is the anthology MW2DB4624, of many authors, search-only. The Hundred Mantras has no Medicine Buddha mantra and no ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ: its guru mantra is another one, etext p. 668 of the reset copy.
   - 2026-11-04, the Rin chen gter mdzod (MW1KG14) was not used: its etext is unaligned, its [pN] marks count paragraphs and not images, so a hit does not give a page. Prints with an image group in the etext's id (VE…_I…) mostly have marks that are images (the next line is an exception).
   - 2026-11-04, the Sde dge gzungs bsdus (I1KG9227) was not reached: its etext's page 177 is not image 177, and the Medicine Buddha mantra (etext «མུཏྒ») was not found on img. 177–178.
+- **RD157 (2026-11-05)** (RD157, 2026-11-05):
+  - RD112's dictionary line for «ཁ་དབོན» and RD80's BDRC search for it stand on a machine misreading: the word to search is «ཁུ་དབོན».
