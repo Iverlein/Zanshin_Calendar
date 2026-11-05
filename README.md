@@ -41,7 +41,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   mewa, trigram and progressed sign, the aspect that matters most for the
   person, the pebbles with their predictions, the stage of each aspect's
   energy, and the year's obstacles, each with the remedies the White
-  Beryl gives for it, and the year read together, its obstacles graded
+  Beryl gives for it, the household round for a house of four or more, and
+  the year read together, its obstacles graded
   against the four aspects and its remedies gathered; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
   parent or a son brings; and the birth: what the natal trigram makes of each
@@ -86,8 +87,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   your own while it rings. The bells are
   synthesised on the phone, so no sound file is bundled.
 - **Prayer wheel:** a mantra in Tibetan script alone, seven to choose
-  from or a line of your own, on a drum or a ring in the colours you
-  choose, turning slowly by itself; a tap quickens it a bit, a swipe a lot,
+  from or a line of your own, which can turn counter-clockwise if that is
+  what your lama gave, on a drum or a ring in the colours you choose,
+  turning slowly by itself; a tap quickens it a bit, a swipe a lot,
   and a finger held on it holds it until released. Shown alone on the whole screen if you wish, the screen kept on
   if you ask. Also a live wallpaper, the same wheel on the home screen.
 - Every Tibetan term and kanji shows its English on tap; every reading comes

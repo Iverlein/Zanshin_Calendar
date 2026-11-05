@@ -44,6 +44,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
 | 25 | R5 The Together everywhere WB sums up — built 2026-10-31 (block 60); the dead's twenty roots and q428's differences left | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
+| 25 | [R9](#r9) The household round — built 2026-11-05 (block 58) | M | The year of age read for a whole house: each member's deciding pebbles and mewa zigzagged, folded into the god's, people's, house's and enemy's places | Question 258 |
 | 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6, R7 and R8 built 2026-10-31 (blocks 61–63) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
 
 ## Blocks
@@ -108,7 +109,7 @@ moves up as soon as it is unblocked.
 | <a id="block-47"></a>47 | [X8](#x8) Your day — built 2026-10-18 | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel — built 2026-10-18 | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
-| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner; the year of age's predictive pebble (RD18, D16) built 2026-10-22; the match's entries built with block 31 (R3n–R3q) but point 10, the orphaning month and the moment | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
+| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner; the year of age's predictive pebble (RD18, D16) built 2026-10-22; the match's entries built with block 31 (R3n–R3q); point 10's month and day and the orphaning month built 2026-11-05; the moment's fighting mewa (RD145) waits on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order — D8 settled 2026-10-30, built 2026-10-31 but for D8's open points | K3-R, the 暦林問答集 (kyureki.md) | — (D8's open points: the 十二直's lists, the solar terms' voice) | Build block 53: K3 as D8 settled it: the 暦林問答集 first in SPEC §8.1, §64's ranking in §7.5 and the election, 日遊's wording, the 三箇の悪日 kept from the 簠簋内伝. |
@@ -116,13 +117,14 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
-| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings); the household round built 2026-11-05 as [R9](#r9) | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 | <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
 | <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness — built 2026-10-31; the dead's general verdict over its twenty roots and a class for q428's differences left | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
 | <a id="block-61"></a>61 | [R6](#r6) Ch. 27's small reckonings by the year — built 2026-10-31 | — (read: RD38, RD51, RD89, RD90) | [28](#block-28) | Build block 61: R6, the small reckonings of ch. 27 pp. 16–17 and 20 in a view of their own, stepped by year: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power. |
 | <a id="block-62"></a>62 | [R7](#r7) The rounds by age of pp. 18–19 — built 2026-10-31 | — (read: RD38, RD51, RD90) | [61](#block-61) | Build block 62: R7, the rounds by age of ch. 27 pp. 18–19 in the small reckonings, the man's or the woman's: their cuts and the signs as printed. |
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
+| <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 
 ## Readings
 
@@ -1765,8 +1767,8 @@ verdict, and the owner's decisions of 2026-10-10:
     [58](#block-58)): a bad birth reckoning of either spouse overrules a
     good match (p. 364; the notes, p. 526).
   - **Block 31's open points read** — the hidden and the aspects' mewas
-    built 2026-10-22 as R3n; point 10's relations, `RaisingMonth`'s
-    orphaning month and the moment not yet ([O16](#o16), open questions
+    built 2026-10-22 as R3n; point 10's relations and `RaisingMonth`'s
+    orphaning month built 2026-11-05, the moment as R2z ([O16](#o16), open questions
     161–165; [marriage.md](sources/marriage.md),
     [year-of-life.md](sources/year-of-life.md),
     [reckonings.md](sources/reckonings.md), *Open questions 161–165
@@ -1946,6 +1948,23 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s and the election's counts updated; `CatalogTest`;
   SPEC §5.10 where it describes the boxes; Tuesday, the 9th hair date and
   a horse day on the emulator in both languages.
+- **Built** 2026-11-05 (block 50): point 10's relations and the
+  orphaning month. The two births' month and day animals read for enemy,
+  grave, small grave, seventh and four-slayer, all mutual, with the rite
+  against parting and the Ratnakūṭa (`MatchReckoning.timeMeetings`, family
+  `MatchTime`, SPEC §5.9.3); the hours wait, the app not asking a person's
+  birth hour. 46 of the 144 ordered pairs of animals agree. `RaisingMonth`
+  names the father's, the mother's and the child's own orphaning month: the
+  father's by which the mother dies, the mother's bad for the father, the
+  child's by which both die (the notes, pp. 488–489; the mother's on
+  p. 489 is stated, the other two the reading of
+  claims/orphaning-month-kills-the-other-parent.md, question 236).
+  Checked: `BirthTest` (the four-slayers, the notes' mouse and dragon, the
+  small grave, a free pair, every relation mutual), `CatalogTest`,
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a couple
+  of 1976 and 1978, agreeing months and days on a small grave, both
+  sheets; a man of 1984 in the mother's orphaning month), the release build
+  in both.
 - **Built** 2026-10-22 (block 50): the year of age's predictive pebble
   by places (`YearReckoning.places`, `predictive` now white, black or
   speckled), a speckled pebble reading WB's one white and one black of its
@@ -2212,8 +2231,8 @@ it a bit, a swipe left or right a lot.
   (Wisdom, 2000) is the book to read it in, not yet read.
 - **Left open:** an ornate wheel, a drum with its rim and body drawn, as
   a third form (the owner: "maybe in future").
-- **Not built: counter-clockwise for a line of one's own (the owner,
-  2026-11-04):** a few special mantras must rotate counter-clockwise. They
+- **Counter-clockwise for a line of one's own (the owner, 2026-11-04),
+  built 2026-11-05 (block [65](#block-65)):** a few special mantras must rotate counter-clockwise. They
   are usually restricted to practitioners who have received the proper
   teachings and the empowerment (དབང, dbang), so none is offered in the
   list: the seven all turn clockwise (the owner), and the option stands
@@ -2227,8 +2246,15 @@ it a bit, a swipe left or right a lot.
   caution, the only text on the screen about what the turning means (§10.12
   otherwise keeps it free of any, §8). Its English, settled by the owner:
   "The direction of a mantra is the one given by your lama with the
-  practice. Reverse it only if that is what you received." The Russian is
-  shown to the owner at the build.
+  practice. Reverse it only if that is what you received." The Russian,
+  shown to the owner at the build: «Направление мантры — то, которое дал
+  ваш лама вместе с практикой. Меняйте его, только если получили именно
+  такое.» Checked: `WheelTest` (a reversed look draws the angle the other
+  way, a plain one the same), the emulator in English and Russian (the
+  switch and caution only under "Your own"; the drum's front moving about
+  25 px right to left with it off and 32 px left to right with it on,
+  measured between two frames). The wallpaper draws through the same painter
+  and was not run with it on.
 
 ## UX
 
@@ -4697,7 +4723,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   the gathered remedies, the board's reading). Not built: the twenty-one
   children (each by conditions together, several the mother's obstacle
   reckoning at the birth or observations; no text names one on part of
-  them), the board's patterns counted, the year of age's household round (open question 258),
+  them), the board's patterns counted,
   the karma reckoning reckoned over the match (open question 210).
   **The year of age's Together built 2026-10-25** (block 58, SPEC
   §5.9.1, D17): a "Together" section atop the year, the four classes'
@@ -4766,8 +4792,7 @@ groups it shows (`tools/emulator/store_shots.py`).
     WB never sums over all thirty or all thirteen (RD23): each point and
     circle keeps its own board and pebbles. The meadow's ornament and
     Sprugtön's reckoning bring their five verdicts by aspect (p. 22) when
-    they are built. Left with R4: the birth's twenty-one children, the
-    year of age's household round (question 258).
+    they are built. Left with R4: the birth's twenty-one children.
   - **Done when** as R2… above, with each *Together*'s rule cited in the
     SPEC section of its reckoning, no number WB does not count, the
     sections below unchanged.
@@ -4883,6 +4908,24 @@ groups it shows (`tools/emulator/store_shots.py`).
   build, signed with the debug key, over blocks 61–63 in both
   languages: the small reckonings, the rounds and the moment's new
   section, no raw catalog keys.
+- <a id="r9"></a>**R9 The household round — planned and built 2026-11-05** (block
+  [58](#block-58), SPEC §5.9.10). RD43, RD54 and the claims *household-round-…*
+  left of question 258 only the speckled pebble: the zigzag runs for any
+  count, the fold by the notes' way, four rows and their leftovers. A view
+  of its own after the year of age, stepped by year: `HouseholdRound`
+  (core), `Reckonings.household`, `HouseholdRoundView`, seven families of
+  places and `HouseholdTogether` (item R9), English and Russian. Stated
+  choices: a speckled pebble stays speckled with no line (question 318);
+  the enemy's place read by its first three. Left out: the wealth's places
+  (question 319), the verdicts when many share a mewa (pp. 407–408, how
+  many is many: question 158), the household's trigrams, the three
+  unsettled words of the rites. Checked: `HouseholdTest` (the notes' zigzag
+  and fold of five, the seven of the claim, four and six, the order, a
+  member's column), `CatalogTest`, `ReckoningsTest`, the emulator in
+  English and Russian (six of a test house, its Together and rows; seven
+  with both leftovers; three with the needed line and two not counted),
+  font scale 2.0 and landscape in Russian, the release build in both, no
+  raw keys.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs

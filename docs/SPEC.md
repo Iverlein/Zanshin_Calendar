@@ -505,8 +505,8 @@ out of the brief; the trigram's and the mewa's nine-multiples and the tomb
 sign, which the notes do not weigh by a meeting, stay in its Remedy row
 ungraded. The obstacles are graded, not summed. Below, the sections show
 every obstacle WB lists, each with its reading, as before. Not built: the
-*dza zor* (not among the obstacles built), the household round (open
-question 258), the la's own six.
+*dza zor* (not among the obstacles built), the la's own six. The
+household's reckoning of the same pebbles is §5.9.10.
 
 **Building a house this year** (ROADMAP R3c, 2026-10-25; WB vol. 2,
 ch. 28, p. 42; [claims/ch28-building-doors.md](sources/claims/ch28-building-doors.md)):
@@ -550,9 +550,9 @@ secret obstacle's second clause, the son's on li and the daughter's on
 kham (open question 91, whose trigram «མ་སྤར» is); the forefathers' tomb
 obstacle (*dur keg*, question 90, whose signs at death); the progressed
 sign on the "white year" (question 92); the dead's obstacle of seven
-generations, which WB rejects; the household's pebble round, the
-household's trigrams piled and its mewa gathered by colour (questions 96
-and 158: who counts, and how many make a pile); the births by the natal trigram
+generations, which WB rejects; the household's trigrams piled and its
+mewa gathered by colour (questions 96 and 158: who counts, and how many
+make a pile; the pebble round is §5.9.10); the births by the natal trigram
 against the life force and the parents' trigrams at the birth (ch. 22,
 pp. 294, 326), which are the birth reckoning's (§5.9.2); the
 four counted signs of the progressed sign (lifeline, peg, sky and earth
@@ -658,8 +658,11 @@ on the scan that follow from the years alone. `BirthReckoning`
   dog's and ox's even count a speckled half with no reading.
   `BirthTest` holds the table.
 - **Raising the child** (pp. 347–348): the child's life force counted
-  onto the birth month's animal, its tomb heavy for the father, its womb
-  for the mother, its illness and death for the child, flourishing good;
+  onto the birth month's animal gives the orphaning month (དྭ་ཟླ, dwa zla):
+  its tomb the father's, by which the mother dies, its womb the mother's,
+  bad for the father, its illness and death the child's own, by which both
+  parents die (the notes, pp. 488–489; open question 236, the reading of
+  claims/orphaning-month-kills-the-other-parent.md), flourishing good;
   the birth day's animal against the year animal by element, overcoming
   it hard to raise, begetting it easy. `BirthTest` holds WB's examples.
 - **The natal mewa** (pp. 288–294): the births under each of the nine,
@@ -885,6 +888,14 @@ relatives (the spouse taken as the other sex where theirs is not set).
   any other happiness. Family `MatchRiseDecline`. Not built: both born
   on good stages by aspect, the other way by breath taken onto the other's
   year, and the twelve throne doors.
+- **The birth month and day** (point 10, p. 360; the notes, p. 525): with
+  both birth dates, the two months' animals and the two days', each pair
+  read for enemy (one's life-force element overcoming the other's), grave
+  (the tomb of the other's element, p. 258), small grave (that tomb's
+  seventh), seventh and four-slayer (three apart either way, p. 235), all
+  mutual. None agrees: merit great, the two long together; any disagrees:
+  parted from many children, with the rite against parting and the Ratnakūṭa
+  as the Remedy (`MatchReckoning.timeMeetings`, family `MatchTime`).
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -921,9 +932,10 @@ relatives (the spouse taken as the other sex where theirs is not set).
 pairs of year animals, whose several lists disagree; the mewa paths'
 years with five or two elements (2); the hidden and the
 deeper hidden (4, 5), the siblings' number (7), the clans (8, 9, asked),
-the birth dates' month, day and hour, the planets' and mansions'
-agreement (10, beyond the same planet) and the rest; the hidden's
-wheels (4), whose rule for each aspect's mewa is not settled.
+the birth hours, the app not asking a person's, the planets' and
+mansions' agreement (10, beyond the same planet and the months and days)
+and the rest; the hidden's wheels (4), whose rule for each aspect's mewa
+is not settled.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -1755,6 +1767,62 @@ reckoning by the hour of a casting (pp. 15–16), a throw of chance; the
 Chinese lord's banner (p. 17, «ཕྱི་གཟའ», the outer planet, not read) and
 the ogre's round (p. 18, «ཁ་སྲོག» not read); the other element enemies
 of the yungdrung and the yellow lord, which WB leaves "to intelligence".
+
+#### 5.9.10 The household round
+
+WB vol. 1, ch. 24, pp. 385–387 and 415, with the notes in vol. 2,
+pp. 490–491: the Chinese pebble round (རྒྱ་ནག་རྡེལ་སྐོར, rgya nag rdel skor), the
+year of age read for a whole house (ROADMAP R9, built 2026-11-05;
+`HouseholdRound`, core `tibetan/Household.kt`;
+[claims/household-round-inputs.md](sources/claims/household-round-inputs.md)
+and the claims beside it).
+
+- **Who.** The person and every relative marked as of the household who
+  was born by the year reckoned and had not died before it, each with a
+  birth year and a gender; not fewer than four (the notes, p. 490). The
+  others are named on the screen as not counted.
+- **What each brings.** Five pebbles: the deciding pebble of each aspect of
+  their year of age at the present hour (§5.9.1), and one of the colour of
+  their mewa of the year. Each column runs body, vitality, destiny, luck,
+  mewa, the first two exchanged as the oral instruction (the notes, p. 490).
+- **The order.** Men first, then women, each eldest to youngest; of two
+  in one year the earlier birth first.
+- **The plain row.** The columns end to end, taken alternately from the two
+  ends, the front first: a rule worked out from the notes' laying of five,
+  which it reproduces cell by cell, and from LT's stated alternation
+  (`HouseholdRound.zigzag`; question 258).
+- **The fold.** As the notes fold, in half and in half again (p. 491): the
+  fold's leftover the middle pebble of an odd row, the refold's the middle
+  column of an odd fold. So 5 × members leaves by four none, the fold's,
+  the refold's two, or all three. The four rows are the god's, people's,
+  house's and enemy's places (ལྷ་ས, མི་ས, ཁྱིམ་ས, དགྲ་ས); each is read by its first
+  three pebbles, the first two also by their tails, the rest cast off.
+  `HouseholdTest` holds the notes' twenty-five and the claim's thirty-five.
+- **The readings** (pp. 385–387, families `HouseholdGod`, `HouseholdPeople`,
+  `HouseholdTail`, `HouseholdHouse`, `HouseholdLeftover`, `HouseholdEnemy`,
+  `HouseholdOmen`): each colour that falls, with its rite. In the enemy's
+  place white raises the enemy's head, at the top it is a lawsuit, and any
+  other colour brings the head low. The two leftovers read by their white
+  and black, the three together by their set, green as gossip; the first
+  of the god's place with both remainders gives the two omens of p. 387.
+  Words not settled on the scan are left out of the rites (*ma ṭaṃ*,
+  *skyed phur*, *blo*).
+- **Together** (p. 415; claims/wb-household-general-pebbles-black-the-more.md):
+  the white and black of the whole round counted; black the more, the
+  rites matter most. Each member's dearest of the four is remedied first,
+  and one Remedy row gathers the round's (`HouseholdTogether`).
+- **Stated choices.** A speckled deciding pebble enters the round speckled,
+  and the screen says it has no line: no text lays or reads one (question
+  318). The enemy's place is read by its first three pebbles, like the
+  others.
+
+**Not calculated**: the wealth's places, named with no pebbles and no
+readings (question 319); the household's verdicts when many share a mewa
+(pp. 407–408), for want of how many are many (question 158); the
+household's trigrams.
+
+The screen (§10.11): "The household round" in the Reckonings list ("6 of
+the household in the round"), stepped by year as the year of age is.
 
 ### 5.10 Electional lists: the mansion and the day's activities
 
@@ -4809,6 +4877,14 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   stepped to is reckoned from its place in the sixty-year cycle
   (`YearOfLife.yearSign`), the same as from any day in it
   (`ReckoningsTest`).
+- **The household round** (§5.9.10, ROADMAP R9): after the year of age,
+  stepped by year as it is. Under "Together" the household's white and
+  black; under "Who is counted" each member with their four pebbles
+  ○ × ◐, their year of age and mewa; then the god's, people's, house's and
+  enemy's places, each with its pebbles named and a row for each reading,
+  and what is left over. Below four, a line saying what the round needs,
+  with those counted so far; anyone of the household without a birth year
+  or a gender is named as not counted.
 - **The small reckonings** (§5.9.9, ROADMAP R6): after the circles,
   stepped by year as the year of age is; its rows as §5.9.9 gives them.
 - **The illness reckoning** (§5.9.8, ROADMAP H2): the list's last row,
@@ -4860,6 +4936,15 @@ OpenGL.
   frees it. Nothing else stops it, a finger against the turning counts as
   with it, and it never runs backwards. From a quickened speed it eases
   back with a time constant of 5 s (`WheelMotion`).
+- **Counter-clockwise:** under "Your own" alone, with a line entered, a
+  switch off by default turns the whole wheel the other way, on the screen
+  and the wallpaper, with everything a finger does unchanged
+  (`WheelLook.reversed`, the owner, 2026-11-04). The seven all turn
+  clockwise, and the app proposes no direction for a line. Beside the
+  switch stands the owner's caution, the one text here on what the turning
+  means, the exception to *The wheel* above: "The direction of a mantra is
+  the one given by your lama with the practice. Reverse it only if that is
+  what you received."
 - **Only the wheel:** the first thing under the wheel, a button that
   gives the screen to the wheel alone: no header, settings, status bar or
   navigation bar, no word on the screen, every touch going to the wheel,
