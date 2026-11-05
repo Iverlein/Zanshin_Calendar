@@ -1376,3 +1376,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-04, the Sde dge gzungs bsdus (I1KG9227) was not reached: its etext's page 177 is not image 177, and the Medicine Buddha mantra (etext «མུཏྒ») was not found on img. 177–178.
 - **RD157 (2026-11-05)** (RD157, 2026-11-05):
   - RD112's dictionary line for «ཁ་དབོན» and RD80's BDRC search for it stand on a machine misreading: the word to search is «ཁུ་དབོན».
+- **RD160, the wheel's direction (2026-11-05)** (RD160, 2026-11-05):
+  - BDRC's full-text search, 19 phrases on left and right circuits of the wheel, no hit; `bdrc_search.py` reads page 1 only, so «མ་ཎི་འཁོར་ལོ» (170 hits), «འཁོར་ལོའི་ཕན་ཡོན» (47) and «མ་ཎི་དུང་འཁོར» (62) stand unread past it; the list is in prayer-wheel.md, *Searched and not found*.
+  - Ladner, *The Wheel of Great Compassion* (Wisdom, 2000): archive.org's `wheelgreatcompas00ladn` answered «no longer available» on 2026-11-05.
