@@ -145,7 +145,7 @@ as they are until each is moved.
 | `passage ID` | where a passage is quoted (file, heading, line, anchor) and who cites it |
 | `cites TARGET` | what cites a passage, a file or a question |
 | `questions [--open] [--source S] [--file F]` | the questions, filtered |
-| `next` | the readings whose needs are met, ranked by what waits on them (blocks, readings, open questions on their pages); the chapters with open questions and no reading planned |
+| `next` | the readings whose needs are met, ranked by what waits on them (blocks, readings, open questions on their pages); the chapters with open questions and no reading planned; the open questions no row names, done or not |
 | `search WORDS` | full text over the passages' and files' text |
 | `orphans` | files nothing links to; passages no claim, question or reading cites |
 | `graph` | readings, blocks and topic files as Mermaid |

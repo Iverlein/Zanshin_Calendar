@@ -642,8 +642,15 @@ def cmd_next(args):
                 if qs and not planned:
                     cov.append({"source": sig, "volume": vol, "chapter": ch, "pages": [start, end], "passages": read, "open_questions": qs})
     cov.sort(key=lambda c: -len(c["open_questions"]))
+    # a chapter counts as planned through its done rows too, so an open question filed after them
+    # is seen only here: named in no row at all, done or not
+    rows = "\n".join(l for l in (ix.root / "docs" / "ROADMAP.md").read_text().splitlines() if l.startswith('| <a id="'))
+    named = {int(n) for n in re.findall(r"\bq0*(\d+)\b", rows)}
+    for run in re.findall(r"[Qq]uestions? ([\d, and]+)", rows):
+        named |= {int(n) for n in re.findall(r"\d+", run)}
+    rowless = sorted(open_ids - named)
     out = {"readings": [{"id": r.id, "name": r.name, "ready": not unmet, "unmet": unmet, "blocks_waiting": waiting, "gates": r.gates, "open_questions": qs} for _, r, unmet, waiting, qs in ranked],
-           "chapters": cov}
+           "chapters": cov, "rowless": rowless}
 
     def show():
         print("Readings, the readiest first (needs met; blocks and readings waiting; open questions on its pages):")
@@ -654,6 +661,8 @@ def cmd_next(args):
             print("\nChapters with open questions and no reading planned:")
             for c in cov:
                 print(f"  {c['source'].upper()} vol. {c['volume']} ch. {c['chapter']:2} pp. {c['pages'][0]}–{c['pages'][1]}: {len(c['passages']) if isinstance(c['passages'], list) else c['passages']} passages quoted, questions {', '.join(str(x) for x in c['open_questions'][:8])}")
+        if rowless:
+            print(f"\nOpen questions no row names ({len(rowless)}): {', '.join(str(x) for x in rowless[:40])}")
     emit(args, out, show)
 
 
