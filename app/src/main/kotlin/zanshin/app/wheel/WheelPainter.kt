@@ -54,8 +54,8 @@ class WheelPainter(context: Context) {
         if (look != built || width != builtWidth || height != builtHeight) build(width, height, look)
         if (pieces.isEmpty()) return
         when (look.form) {
-            WheelForm.DRUM -> drum(canvas, width, height, angle)
-            WheelForm.RING -> ring(canvas, width, height, angle)
+            WheelForm.DRUM -> drum(canvas, width, height, look.drawn(angle))
+            WheelForm.RING -> ring(canvas, width, height, look.drawn(angle))
         }
     }
 

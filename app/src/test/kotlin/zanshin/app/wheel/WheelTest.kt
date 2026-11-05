@@ -214,4 +214,11 @@ class WheelTest {
         }
         return 0.2126 * channel(16) + 0.7152 * channel(8) + 0.0722 * channel(0)
     }
+
+    @Test
+    fun `a reversed line is drawn the other way round and a plain one as it turned`() {
+        val look = WheelLook("ཨོཾ", WheelForm.DRUM, 0, 0)
+        assertEquals(1.5, look.drawn(1.5), 0.0)
+        assertEquals(-1.5, look.copy(reversed = true).drawn(1.5), 0.0)
+    }
 }

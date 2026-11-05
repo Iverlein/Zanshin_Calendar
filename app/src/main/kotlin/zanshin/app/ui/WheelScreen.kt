@@ -242,6 +242,7 @@ private fun Options(settings: WheelSettings, onChange: () -> Unit, onAlone: () -
     var ground by remember { mutableStateOf(settings.ground) }
     var editingOwn by remember { mutableStateOf(false) }
     var keepOn by remember { mutableStateOf(settings.keepScreenOn) }
+    var reversed by remember { mutableStateOf(settings.ownReversed) }
     Column(
         modifier.verticalScroll(rememberScrollState()).padding(top = 12.dp, bottom = 32.dp),
         verticalArrangement = Arrangement.spacedBy(4.dp),
@@ -265,6 +266,14 @@ private fun Options(settings: WheelSettings, onChange: () -> Unit, onAlone: () -
                     settings.mantra = it
                     onChange()
                 }
+            }
+        }
+        // Only a line of one's own may turn the other way; the owner's caution stands beside the switch (SPEC §10.12).
+        if (mantra == WheelMantra.OWN) {
+            Toggle(stringResource(R.string.wheel_reversed), stringResource(R.string.wheel_reversed_note), reversed) {
+                reversed = it
+                settings.ownReversed = it
+                onChange()
             }
         }
         Separator()

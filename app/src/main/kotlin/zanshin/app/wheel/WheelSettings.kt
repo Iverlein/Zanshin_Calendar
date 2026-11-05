@@ -21,6 +21,11 @@ class WheelSettings(context: Context) {
         get() = prefs.getString(KEY_OWN, null).orEmpty()
         set(value) = prefs.edit().putString(KEY_OWN, BellSettings.cleanMessage(value)).apply()
 
+    /** Whether a line of the user's own turns counter-clockwise; off by default, never for an offered mantra. */
+    var ownReversed: Boolean
+        get() = prefs.getBoolean(KEY_OWN_REVERSED, false)
+        set(value) = prefs.edit().putBoolean(KEY_OWN_REVERSED, value).apply()
+
     var form: WheelForm
         get() = enumOf(KEY_FORM, WheelForm.DRUM)
         set(value) = prefs.edit().putString(KEY_FORM, value.name).apply()
@@ -42,7 +47,7 @@ class WheelSettings(context: Context) {
     val look: WheelLook
         get() {
             val text = mantra.text ?: ownLine.ifEmpty { WheelMantra.MANI.text.orEmpty() }
-            return WheelLook(text, form, script.argb, ground.argb)
+            return WheelLook(text, form, script.argb, ground.argb, mantra == WheelMantra.OWN && ownLine.isNotEmpty() && ownReversed)
         }
 
     private inline fun <reified T : Enum<T>> enumOf(key: String, default: T): T =
@@ -51,6 +56,7 @@ class WheelSettings(context: Context) {
     companion object {
         private const val KEY_MANTRA = "wheel_mantra"
         private const val KEY_OWN = "wheel_own"
+        private const val KEY_OWN_REVERSED = "wheel_own_reversed"
         private const val KEY_FORM = "wheel_form"
         private const val KEY_SCRIPT = "wheel_script"
         private const val KEY_GROUND = "wheel_ground"

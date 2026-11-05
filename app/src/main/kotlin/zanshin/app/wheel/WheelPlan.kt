@@ -52,8 +52,14 @@ enum class WheelMantra(val text: String?) {
     OWN(null),
 }
 
-/** What the painter needs: the words, the form and the two colours. */
-data class WheelLook(val text: String, val form: WheelForm, val script: Int, val ground: Int)
+/**
+ * What the painter needs: the words, the form and the two colours, and whether the wheel turns [reversed],
+ * counter-clockwise, which only a line of the user's own can (SPEC §10.12).
+ */
+data class WheelLook(val text: String, val form: WheelForm, val script: Int, val ground: Int, val reversed: Boolean = false) {
+    /** The angle to draw for [angle] turned: the same motion, the other way round when [reversed]. */
+    fun drawn(angle: Double): Double = if (reversed) -angle else angle
+}
 
 /**
  * The turning (SPEC §10.12): [angle] runs on at [speed], which eases back to the slow turn. Only a finger [held] on it
