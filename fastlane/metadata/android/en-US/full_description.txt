@@ -1,74 +1,83 @@
-Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place. A meditation timer, a mindfulness bell and a prayer wheel come with it.
+Zanshin Calendar opens on today and shows it as a Tibetan almanac or the old Japanese calendar (旧暦) would: the lunar date, what the day is good for, what to put off, and when the sun rises, stands at noon and sets where you are. Tap a line and it tells you what it means. There is also a meditation timer, a mindfulness bell and a prayer wheel.
 
 <b>Tibetan calendar, Phugpa (ཕུག་པ, phug pa)</b>
 <ul>
-<li>Lunar day, month and year, with skipped and doubled days and leap months</li>
-<li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others</li>
-<li>Monthly observances on the 8th, 10th, 15th, 25th and 30th</li>
-<li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
-<li>What changes within the day, as the almanac of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) writes it: a second mansion, a skipped yoga and the span of Viṣṭi, each with its time</li>
-<li>The date's mewa (སྨེ་བ, sme ba), with what the activity lists name it good or bad for, and the twelve links (རྟེན་འབྲེལ, rten 'brel) counted from the month's middle term, each day's link with its works, directions and remedy</li>
-<li>The hundred feet (རྐང་བརྒྱ, rkang brgya): the fangs of the moon, the sun, the five planets and Rāhu on your birth mansion, and the spear and great spear on the moon's mansion</li>
-<li>What the almanac writes at the head of each month: whether it is long or short, the planet that rises, the black months, the seven days of the sage (དྲང་སྲོང, drang srong) and of the pig, and the comet its count marks</li>
-<li>Lunar and solar eclipses as the almanac reckons them, by the karaṇa reckoning (བྱེད་རྩིས, byed rtsis) of the Kālacakra (དུས་འཁོར, dus 'khor), on their day, with the merit they multiply</li>
-<li>The readings of the lunar mansion, date, weekday, yoga, karaṇa and trigram, the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (བླ་མཁྱེན, bla mkhyen)</li>
-<li>The bride's going for you and your spouse: its seventeen checks on the day and when choosing a wedding day</li>
-<li>The earth lords of the year and the month on a compass: where each stands, the works it bars there and its remedy</li>
-<li>A day in brief, weighed as the texts rank their factors: the hours above the day, what the activity lists name good or to avoid, today as the present hour decides it, the day's tone and the one factor that decides it</li>
-<li>Choose a day: the best days for a work over one to twelve months, ranked as the texts weigh them, with its good hours in each month</li>
-<li>The works you pin, first on the page, each as the day weighs it, and the haircut beside them with its good and bad days and hours; personal days for your birth year</li>
-<li>Health: what falling ill today means by the date, the weekday, the link and the goddess of the day; where the la, the life-spirit (བླ, bla), sits today and through the day; the day's mansion for your element and the medical works of the day; and the humours and seasons of the Four Tantras (རྒྱུད་བཞི, rgyud bzhi) of medicine; each element's illness, where it lies, its door and its signs; and the illness reckoning for the moment an illness came on: the trigram, day animal, mewa and planet of that moment with their spirits, ransoms and rites, the illness named by five pebbles, the kind of harmful spirit, the progressed sign and the sky year, the nineteen pebbles, the people the sick need and the board of the fifteen starting points with its four plank-trees and the illness's class, all read together with the remedies gathered. The readings of the tradition, not medical advice</li>
-<li>A round dial of the hours: the combination period of each hour, Jupiter's nectar periods, the earth lords of the hour, the black hours, what each hour is good for, the four rough times of the sun and the works an hour turns against the day</li>
-<li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the personal mansions and the white and black pebbles of the year, month, day and each hour</li>
-<li>Reckonings, a section of their own: your year of age, year by year, by the elemental divination of the White Beryl: the mewa (སྨེ་བ, sme ba), trigram (སྤར་ཁ, spar kha) and progressed sign (ལོག་མེན, log men) of the year, what matters most for you, its twenty-four pebbles with their predictions, the stage of each aspect's energy, and the obstacle years, each with its reading and its remedies, and the year read together, its obstacles graded and its remedies gathered; the household round for a house of four or more, each member's pebbles laid into the god's, people's, house's and enemy's places; with the relatives you enter for a person, the natal trigram (སྐྱེས་སྤར, skyes spar) and the obstacles a spouse, a parent or a son brings; and the birth: what the natal trigram makes of each aspect, glory and misfortune against the parents, the line of births from the father and grandfather, the nature of the birth year, by its animal and among the sixty years, its body and its mewa, its aspects' rise and decline and the precious pebbles at the birth, the hundred pebbles on their board with the twenty deciding ones, the birth read together with its sets and its remedies gathered, whether the child is hard to raise, what the natal trigram makes one against the life force, the birth year's destiny against its life force, its luck triad and the cutting among its aspects, the year against one's clan (རུས, rus), and the readings of the parents' trigrams at the birth; and the marriage match with a spouse: the bad years, the four aspects met one by one, the two destinies together, a shared year animal or element, the pairs of year animals, the birth mewas, the natal trigrams (with both mothers entered), each life force on the other's year, the stages counted from the parents' years, the same planet of birth, whether the match is reversed, the hidden and the deeper hidden of the four aspects' mewas, the siblings' number, the kind of wife each aspect makes and one pebble for the couple's bad years, and the match read together with its remedies gathered; and for a relative who has died, whether the time of death had come, by the four aspects' deciding pebbles, the reason the death met, which spirit carried the dead off, where it is reborn and the help by virtue for it, each dead read together with the rites and provisions gathered; the thirty starting points and the thirteen circles of your year; the small reckonings of a year: the four starting points of the spiritual friend, the ministers, the soldiers and the weapons, the rounds by age of a man or a woman (the wheel, the gods' and demons' trade, the peacock, the cock's black trail, the rhinoceros), where the year makes the la, the life-spirit (བླ, bla), wander or decline, the grave entered, the end of the womb, and your birth by the year's power; and, at the moment, the month of asking for one gone abroad and the signs of the month, date and hour; and the present moment, read together by the fighting enemies' verdict and the wealth with its remedies gathered: its trigram and mewa with their readings, the mewa as a place and in the kin's places, your house, field and grave against the moment's sign, kin and enemy at your own place, wealth, beer, the neighbouring houses, the sick, food, trade and disputes, the three mewa joined over the nine squares, the thirteen gates with the counts after them and the fighting enemies, the parts of life of your kin, and the signs to watch: dreams, the asker's coming and posture, the road's omens, the oath's implements, the voices and callers</li>
+<li>The date: lunar day, month and year, including the days the calendar skips or doubles and the leap months.</li>
+<li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others, plus the monthly observances on the 8th, 10th, 15th, 25th and 30th.</li>
+<li>A day in brief: the day's factors are weighed in the order the texts rank them, with the hours above the day. You get the tone of the day, the one factor that settles it, and what the lists call good or say to avoid. On today's page the answer follows the present hour.</li>
+<li>Choose a day: pick a wedding, a journey, a haircut or any other work, then a span of one to twelve months. The best days come ranked, with the good hours of each month.</li>
+<li>Your works: the ones you pin come first on the page, each with what the day makes of it. The haircut sits next to them with its good and bad days and hours, and your birth year adds your personal days.</li>
+<li>The hours: a round dial of the day. It marks each hour's combination period, Jupiter's nectar periods, the earth lords of the hour and the black hours. It also says what each hour suits, where the sun's four rough times fall and which works an hour turns against the day.</li>
+<li>The day's signs: lunar mansion, yoga, karaṇa, the element pair of weekday and mansion, and the animal, trigram (སྤར་ཁ, spar kha) and number of the lunar day. All of them have readings, and so do the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (བླ་མཁྱེན, bla mkhyen).</li>
+<li>Changes within the day: a second mansion, a skipped yoga or the span of Viṣṭi, each with its time, as the almanac of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) writes them.</li>
+<li>Mewa and links: the date's mewa (སྨེ་བ, sme ba) and what the activity lists hold it good or bad for. The twelve links (རྟེན་འབྲེལ, rten 'brel) are counted from the month's middle term, and each day's link comes with its works, directions and remedy.</li>
+<li>The hundred feet (རྐང་བརྒྱ, rkang brgya): the fangs of the moon, the sun, the five planets and Rāhu when they land on your birth mansion, and the spear and great spear on the moon's mansion.</li>
+<li>Month headings: the almanac opens each month by saying if it is long or short and which planet rises. It goes on to the black months, the seven days of the sage (དྲང་སྲོང, drang srong) and of the pig, and any comet its count marks.</li>
+<li>Eclipses: lunar and solar, found by the karaṇa reckoning (བྱེད་རྩིས, byed rtsis) of the Kālacakra (དུས་འཁོར, dus 'khor) as the almanac does it. They appear on their day with the merit they multiply.</li>
+<li>The bride's going: seventeen checks for you and your spouse, on any day and when you choose a wedding day.</li>
+<li>Earth lords: a compass for the year and another for the month. They show where each lord stands, the works it bars there and the remedy.</li>
+<li>The four aspects: vitality, body, destiny and luck for the year. With your birth year you also get the personal mansions, and the white and black pebbles of the year, month, day and every hour.</li>
+<li>Health: what it means to fall ill today, going by the date, the weekday, the link and the goddess of the day. You can see where the la, the life-spirit (བླ, bla), sits now and how it moves through the day, the day's mansion for your element and the day's medical works. The humours and seasons of the Four Tantras (རྒྱུད་བཞི, rgyud bzhi) of medicine are here too, and each element's illness with where it lies, its door and its signs. These are the tradition's readings, not medical advice.</li>
+<li>Illness reckoning: enter the moment an illness came on. Its trigram, day animal, mewa and planet each name their spirits, ransoms and rites. Five pebbles name the illness, and the reckoning finds the kind of harmful spirit, the progressed sign (ལོག་མེན, log men), the sky year and the people the sick need. After the nineteen pebbles and the board of fifteen starting points with its four plank-trees, everything is read together and the remedies are gathered in one place.</li>
 </ul>
 
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
 <ul>
-<li>Month and day with the moon's age, rokuyō (六曜), the moon phase and the current solar term (二十四節気), with its reading and the ring of the 24</li>
-<li>The twelve stations (十二直, the middle band), the lunar lodge (二十八宿) and the day's 九星</li>
-<li>Lucky and unlucky days of the lower band (暦注下段) and the selected days (選日), such as 天赦日, 一粒万倍日, 不成就日 and 三隣亡, read after the 暦林問答集 of 1414 where it speaks</li>
-<li>Seasonal markers (雑節), festivals, the day and year signs (干支), the lucky direction of the year (恵方), the year's eight direction gods (八将神) and 金神 on a compass, and 天一神's direction of the day</li>
-<li>Choose a day: the days the annotations name good for a work, in date order, with the disputed days apart</li>
+<li>The date: month and day with the moon's age and phase, the rokuyō (六曜), and the current solar term (二十四節気) with its reading and the ring of all 24.</li>
+<li>The middle band: the twelve stations (十二直), plus the lunar lodge (二十八宿) and the day's star of the nine (九星).</li>
+<li>The lower band: lucky and unlucky days (暦注下段) and the selected days (選日), such as 天赦日, 一粒万倍日, 不成就日 and 三隣亡. Where the 暦林問答集 of 1414 speaks of a day, its reading is the one you see.</li>
+<li>Seasons and directions: seasonal markers (雑節), festivals and the signs of the day and year (干支). The lucky direction of the year (恵方), the year's eight direction gods (八将神) and 金神 stand on a compass, next to the direction 天一神 takes that day.</li>
+<li>Choose a day: the days the annotations call good for a work, in date order, with the disputed days set apart.</li>
+</ul>
+
+<b>Reckonings</b>
+<ul>
+<li>Your year of age: the elemental divination of the White Beryl, year by year. It gives the mewa, trigram and progressed sign of the year, says what matters most for you, and lays out twenty-four pebbles with their predictions. It shows the stage each aspect's energy has reached and picks out the obstacle years, each with a reading and remedies. Then the whole year is read together: obstacles graded, remedies gathered. Enter relatives and you also get the natal trigram (སྐྱེས་སྤར, skyes spar) and the obstacles a spouse, a parent or a son brings.</li>
+<li>The household round: for a house of four or more, each member's pebbles go into the god's, people's, house's and enemy's places.</li>
+<li>Your birth: what the natal trigram makes of each aspect, how glory and misfortune stand against your parents, and the line of births from father and grandfather. The birth year is described by its animal, its place among the sixty years, its body and its mewa. A hundred pebbles go on a board, and twenty of them decide. Other readings ask whether the child will be hard to raise, how destiny stands against life force, and how the year sits with your clan (རུས, rus). Everything is then read together with the remedies gathered.</li>
+<li>Marriage match: the app sets two people side by side, beginning with their bad years, the four aspects, the two destinies and the pairs of year animals, and moving on to the birth mewas, the natal trigrams if you have entered both mothers, and each life force on the other's year. It also looks for smaller things, like whether the match is reversed, what is hidden in the aspects' mewas and the number of siblings, before reading the match as a whole and gathering its remedies.</li>
+<li>A relative who has died: the deciding pebbles of the four aspects say whether the time of death had come, and from there the reckoning finds the reason the death met, which spirit carried the dead off, where they are reborn and how virtue can help them. For each person you get the rites and provisions in one list.</li>
+<li>Circles and starting points: the thirteen circles and the thirty starting points of your year.</li>
+<li>Small reckonings: the four starting points of the spiritual friend, the ministers, the soldiers and the weapons, then the rounds by age for a man or a woman, which have names like the peacock, the rhinoceros and the cock's black trail. There are also the years when the la wanders or declines, the grave entered, the end of the womb and your birth by the year's power.</li>
+<li>The present moment: its trigram and mewa, then your house, field and grave against the moment's sign. Wealth, food, trade, disputes, the sick, beer and the neighbouring houses each get a reading. Further on are the nine squares, the thirteen gates and the fighting enemies. Then come the signs to watch for: dreams, how the asker comes and sits, omens on the road, voices and callers. The fighting enemies' verdict and the wealth close it, with the remedies gathered. Two more questions sit here: the month to ask after someone gone abroad, and the signs of the month, date and hour.</li>
 </ul>
 
 <b>Meditation</b>
 <ul>
-<li>A meditation timer: a warm-up and periods of any length in one session, as a zazen of 20, 10 and 30 minutes, the bowl at the start and end and a wood block between periods</li>
-<li>Sessions saved as presets, set again with one tap</li>
-<li>Keeps time with the screen off; the countdown and a Stop button in the notification</li>
-<li>Or, if you choose, keeps the screen on from Begin until you leave the timer</li>
-<li>A mindfulness bell through the day, every 15 minutes to 2 hours, at fixed or random times, within the hours and on the days you choose, quiet while the phone is silenced, during a call or while music or a video plays; while it rings, a notice shows a message of your own</li>
-<li>A large bowl, a small bowl, a bell and the wood block, sounded on the phone itself</li>
+<li>Timer: a warm-up and periods of any length in one session, say a zazen of 20, 10 and 30 minutes. The bowl sounds at the start and end, the wood block between periods.</li>
+<li>Presets: save a session and set it again with one tap.</li>
+<li>Screen off or on: the timer keeps time with the screen off and puts the countdown and a Stop button in the notification. If you prefer, the screen stays on from Begin until you leave the timer.</li>
+<li>Mindfulness bell: rings through the day, every 15 minutes to 2 hours, at fixed or random times, in the hours and on the days you choose. It keeps quiet when the phone is silenced, during a call, and while music or a video plays. While it rings, a notice shows a message of your own.</li>
+<li>Sounds: a large bowl, a small bowl, a bell and the wood block, all made on the phone itself.</li>
 </ul>
 
 <b>Prayer wheel</b>
 <ul>
-<li>A mantra in Tibetan script alone, turning slowly by itself: a tap quickens it a bit, a swipe a lot, and a finger held on it holds it until released</li>
+<li>A mantra in Tibetan script and nothing else, turning slowly by itself: a tap speeds it up a little, a swipe a lot, and a finger held on it stops it until you let go</li>
 <li>Seven mantras to choose from, or a line of your own, which can turn counter-clockwise if that is what your lama gave</li>
 <li>A drum seen from the side or a ring seen from above, in the colours you choose</li>
-<li>Only the wheel: it alone on the whole screen, with the screen kept on if you ask</li>
-<li>Also a live wallpaper: the same wheel on the home screen, drawn only while it is seen</li>
+<li>Only the wheel: nothing else on the screen, which can stay on if you ask</li>
+<li>Live wallpaper: the same wheel on your home screen, drawn only while it is in view</li>
 </ul>
 
-Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours, what to avoid and how to remedy it; every reading comes from a published source, listed in About & sources.
+Terms you can open: every Tibetan word comes with its English, script and Wylie, and a tap gives the pronunciation. Tap a kanji for its English. Tap an almanac line to read what it means, what it favours, what to avoid and how to remedy it. Every reading comes from a published source, and About & sources lists them.
 
-Glyphs show at a glance what the day's almanac favours and warns against; dials, rings and boards in the readings show where each term stands in its cycle.
+Glyphs and dials: small glyphs show at a glance what the day favours and warns against. In the readings, dials, rings and boards show where a term stands in its cycle.
 
-In English and Russian: choose the language in the menu, or let the app follow the phone.
+Languages: English and Russian. Choose in the menu, or let the app follow the phone.
 
-In six themes: Ink, dark, as it has always been; Paper, a light page with dark ink; Night, black for OLED screens; Maroon, the robe's maroon with saffron; Sepia, a parchment page for the evening; or the phone's own dark or light setting.
+Themes: Ink is the dark default, Paper a light page with dark ink, Night black for OLED screens, Maroon the robe's colour with saffron, and Sepia a parchment page for the evening. The app can also follow the phone's own dark or light setting.
 
-Large fonts and wide screens: the pages follow the phone's font size up to twice the default, and in landscape or on a tablet stand in two columns, the day at a glance beside its sections.
+Large fonts and wide screens: the pages follow the phone's font size up to twice the default. In landscape or on a tablet they stand in two columns, with the day at a glance beside its sections.
 
-A morning notice, if you turn it on: once a day at the time you set, silently, the day in brief of the calendar you last read. On the Tibetan page, the day's tone and the factor that decides it, how many works it names good and to avoid, and the hours that run against it; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
+Morning notice: turn it on and you get one silent notice a day, at the time you set, for the calendar you last read. The Tibetan page gives the day's tone and what decides it, how many works are good or to avoid, and the hours that run against the day. The 旧暦 page gives the rokuyō and the day's mark. A tap opens the day.
 
-Two home-screen widgets for the calendar you last read, in the app's theme and language. Day: the date, the day and its tone with the factor that decides it; on the 旧暦 page, how many works the day names good and to avoid. Day and hours: the same, with the twelve hours of the Tibetan day in the colours of their verdict, the present hour marked, and the hours that run against the day, and where it is tall enough the sun's times and your own day; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
+Widgets: two for the home screen, in the app's theme and language, showing the calendar you last read. Day has the date, the day and its tone with the factor behind it; for the 旧暦 it has how many works are good or to avoid. Day and hours adds the twelve hours of the Tibetan day in the colours of their verdict, with the present hour marked and the hours that run against the day. If it is tall enough you also get the sun's times and your own day. For the 旧暦 it shows the rokuyō and the day's mark. A tap opens the day.
 
 <b>Computed on the phone</b>
-Everything is calculated on the device for any date from 1900 to 2100: Tibetan dates with Svante Janson's published arithmetic, new moons and solar terms with Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.
+Everything is calculated on the device for any date from 1900 to 2100. Tibetan dates use Svante Janson's published arithmetic, and new moons and solar terms use Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.
 
 <b>Private</b>
-The app has no internet permission. Your location is taken once from GPS when you ask for it, picked from an offline list of cities, or typed in as coordinates, and it stays on the phone.
+The app has no internet permission. You give it your location by GPS once, when you ask, or by picking from an offline list of cities, or by typing coordinates. It stays on the phone.
 
 <a href="https://zanshin.fyi/donate/">Give me a tip</a>

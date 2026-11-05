@@ -21,10 +21,10 @@ alt = "Японский день: 十三夜, 13-й день 9-го месяца,
 [[shot]]
 file = "3.png"
 [shot.en]
-caption = "Every reading explained"
+caption = "A reading opened"
 alt = "A reading opened: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), the full moon of the fourth month, explained"
 [shot.ru]
-caption = "Толкование каждой строки"
+caption = "Открытое толкование"
 alt = "Открытое толкование: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), полнолуние четвёртого месяца"
 
 [[shot]]
@@ -39,10 +39,10 @@ alt = "Альманах 旧暦: 中段, 二十八宿, 暦注下段 и 選日, у
 [[shot]]
 file = "5.png"
 [shot.en]
-caption = "Calendars, practice and settings, in groups that fold"
+caption = "The menu"
 alt = "The menu in groups that fold: Tibetan or 旧暦, Choose a day and Health; Meditation; settings closed; about and sources"
 [shot.ru]
-caption = "Календари, практика и настройки, в складных группах"
+caption = "Меню"
 alt = "Меню в складных группах: тибетский календарь или 旧暦, выбор дня и здоровье; медитация; настройки свёрнуты; о приложении и источниках"
 
 [[shot]]
@@ -58,10 +58,10 @@ alt = "Таймер медитации: дзадзэн по 20, 10 и 30 мин�
 file = "7.png"
 [shot.en]
 caption = "Your year of age"
-alt = "The year of age in the Reckonings, of a man born in a Fire Dragon year, in his 51st: the mewa (སྨེ་བ, sme ba) 8 white, the lake trigram (དྭ, dwa) the progressed sign (ལོག་མེན, log men) Earth Dragon and the natal trigram, the lake, his mother's in her 27th year; then what matters most for him, the vitality, and each aspect's predictive pebble with the stage its element's energy stands in, the stage in the womb for the vitality and the body"
+alt = "The year of age in the Reckonings, for a man born in a Fire Dragon year, now in his 51st. His mewa (སྨེ་བ, sme ba) is 8 white, his trigram the lake (དྭ, dwa) and his progressed sign (ལོག་མེན, log men) Earth Dragon. Below them stand what matters most for him, the vitality, and each aspect's predictive pebble with the stage of its energy"
 [shot.ru]
 caption = "Ваш год жизни"
-alt = "Год жизни в разделе «Расчёты»: мужчина, рождённый в год Огня-Дракона, в его 51-й год: мева (སྨེ་བ, sme ba) 8 белый, триграмма озера (དྭ, dwa) смещённый знак (ལོག་མེན, log men) Земля-Дракон и триграмма рождения, озеро, — триграмма его матери в её 27-й год; затем то, что для него важнее всего, жизненная сила, и предсказательный камень каждого аспекта со стадией, в которой стоит энергия его стихии, для жизненной силы и тела — стадия в утробе"
+alt = "Год жизни в разделе «Расчёты»: мужчина, рождённый в год Огня-Дракона, идёт 51-й год. Его мева (སྨེ་བ, sme ba) 8 белый, триграмма озеро (དྭ, dwa), смещённый знак (ལོག་མེན, log men) Земля-Дракон. Ниже то, что для него важнее всего, жизненная сила, и предсказательный камень каждого аспекта со стадией его энергии"
 
 [[shot]]
 file = "8.png"

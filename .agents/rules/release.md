@@ -40,6 +40,12 @@ On every merge of a feature, in the same branch:
    (`website/layouts/_partials/fold.html`). So start a long item with a
    short head and a colon and `short_description.txt` (80 characters at most). F-Droid
    shows them from the next release's build, the website at once.
+   Write sentences a person would say, not a list of nouns: a new reckoning
+   joins its item in a sentence or two, the full inventory stays in the
+   README. Before merging, `prose-scan` both listings and run the rendered
+   page through `ai-check --pieces 1500`, since Sapling's free form reads only
+   the head of a long text. Its Russian score moves with where the text is cut,
+   so judge Russian by the wording, with ZeroGPT beside it.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
    show has changed, review every PNG, then copy them into
