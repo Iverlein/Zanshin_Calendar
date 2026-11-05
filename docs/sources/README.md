@@ -875,7 +875,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0450.md](questions/q0450.md) | question q450 | Who is «ཆུ་བདག» in «ཉི་མ་ཤར་དགེ་ཆུ་བདག་ངན» on p. 313 and which planet stands on which of the eight points | answered; cites wb.2:p313 |
 | [questions/q0451.md](questions/q0451.md) | question q451 | What does «མ་རྒྱབ་གྲོགས་མདུན་གཏད་པ་གཅེས» ask for on p. 313 | answered; cites wb.2:p313 |
 | [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | open; cites wb.2:p313b |
-| [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | open; cites wb.2:p313, wb.2:p328-329 |
+| [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | answered; cites wb.2:p313, wb.2:p328-329 |
 | [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
 | [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | answered; cites wb.2:p305 |
 | [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | answered; cites wb.2:p335-336, wb.2:p341-342 |
@@ -1067,6 +1067,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
 | [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | open; cites wb.2:p370 |
 | [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | open; cites wb.2:p360-361 |
+| [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
+| [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | open; cites wb.2:p323 |
+| [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | open; cites wb.2:p328 |
+| [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | open; cites wb.2:p322 |
+| [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | open; cites wb.2:p323 |
+| [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | open; cites wb.2:p328-329 |
 
 <!-- end pool index -->
 
