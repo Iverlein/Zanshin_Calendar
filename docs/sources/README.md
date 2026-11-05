@@ -597,7 +597,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-p98-bkra-ro.md](claims/wbz-p98-bkra-ro.md) | claim, note | P. 98's «bkra ngo» is «bkra ro» on the blocks | cites wbz:i768, wb.2:p97-100; feeds block-31 |
 | [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
-| [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC, §10.12 |
+| [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC §10.12 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
@@ -649,7 +649,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 16 passages: 1 scan, 13 machine, 2 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 53 passages: 6 scan, 46 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
@@ -754,7 +754,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0345.md](questions/q0345.md) | question q345 | The right shoulder and «ཡམས་སྐུད» on p. 163 | open; cites wb.2:p163 |
 | [questions/q0346.md](questions/q0346.md) | question q346 | The marks' line of p. 170 and the earth hour's hair | open; cites wb.2:p170 |
 | [questions/q0347.md](questions/q0347.md) | question q347 | «ཀླུམ་མནན» or «གྲུམ་མནན» on p. 169 | open; cites wb.2:p168-169, wb.2:p169-170 |
-| [questions/q0348.md](questions/q0348.md) | question q348 | «རྨི་ལྟས» or «ཕྱི་ལྟས» at the foot of p. 144 | open; cites wb.2:p144 |
+| [questions/q0348.md](questions/q0348.md) | question q348 | «རྨི་ལྟས» or «ཕྱི་ལྟས» at the foot of p. 144 | answered; cites wb.2:p144, wb.2:p144e |
 | [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | answered; cites wb.2:p166 |
 | [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | open; cites wb.2:p164-165, wb.2:p163-164 |
 | [questions/q0351.md](questions/q0351.md) | question q351 | The thirty 'bri wang and their results | open; cites wb.2:p538 |
@@ -772,7 +772,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0363.md](questions/q0363.md) | question q363 | The la's wandering of the snake and horse, the rat and pig | open; cites wb.2:p16 |
 | [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | open; cites wb.2:p20 |
 | [questions/q0365.md](questions/q0365.md) | question q365 | For whom the four reckonings of «བརྗེ» are | open; cites wb.2:p23-25 |
-| [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | open; cites wb.2:p9, wb.2:p17 |
+| [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | answered; cites wb.2:p9, wb.2:p17 |
 | [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | answered; cites wb.2:p10-11 |
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
 | [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | answered; cites wb.2:p3-4, wbz:i631 |
@@ -816,14 +816,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
 | [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | open; cites wb.2:p428b |
 | [questions/q0409.md](questions/q0409.md) | question q409 | Is the departure's «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ» the weighing's dmigs bsal, leading over the day? | open; cites wb.1:p373-375, wb.2:p376 |
-| [questions/q0410.md](questions/q0410.md) | question q410 | Does the slight source of the date's earth lords not in ch. 31 touch their prohibitions too? | open; cites wb.2:p377 |
+| [questions/q0410.md](questions/q0410.md) | question q410 | Does the slight source of the date's earth lords not in ch. 31 touch their prohibitions too? | answered; cites wb.2:p377 |
 | [questions/q0411.md](questions/q0411.md) | question q411 | Is the place shunned in the fierce rites the seat one would face? | answered; cites wb.2:p427b |
-| [questions/q0412.md](questions/q0412.md) | question q412 | Does ch. 23's rule of joining good and bad «ཐམས་ཅད་ཀུན་ལ» reach the earth lords? | open; cites wb.1:p370 |
+| [questions/q0412.md](questions/q0412.md) | question q412 | Does ch. 23's rule of joining good and bad «ཐམས་ཅད་ཀུན་ལ» reach the earth lords? | answered; cites wb.1:p370 |
 | [questions/q0413.md](questions/q0413.md) | question q413 | What are KP's «འགྲོ་བདེ་གཉིས», and does screening a bad planet-mansion meeting leave its result? | open; cites kp:i14 |
-| [questions/q0414.md](questions/q0414.md) | question q414 | Are the earth lords' screenings after KP's weighing applied whatever the weighing gives? | open; cites kp:i14 |
+| [questions/q0414.md](questions/q0414.md) | question q414 | Are the earth lords' screenings after KP's weighing applied whatever the weighing gives? | answered; cites kp:i14 |
 | [questions/q0415.md](questions/q0415.md) | question q415 | Does the supplement set the sky dog above the other nine checks of a bride's going? | open; cites kd.3:p641-642 |
 | [questions/q0416.md](questions/q0416.md) | question q416 | DZ «སྣ་ཚོགས་བྱ» or KD's «སྣ་ཆོག་བྱ», the nose rite: which is meant? | answered; cites dz:i045 |
-| [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | open; cites — |
+| [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | answered; cites — |
 | [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
 | [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | open; cites sdp:p238-241 |
 | [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
