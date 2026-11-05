@@ -884,9 +884,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | answered; cites wb.2:p282 |
 | [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | answered; cites wb.2:p283-285, wb.2:p291-294 |
 | [questions/q0465.md](questions/q0465.md) | question q465 | Which earth lords of the date follow the Black Moon on pp. 361–363, and in what order | open; cites wb.2:p362-363 |
-| [questions/q0466.md](questions/q0466.md) | question q466 | Does the machine's order of hours against animals on pp. 360–361 hold on the scan | open; cites wb.2:p360-361 |
+| [questions/q0466.md](questions/q0466.md) | question q466 | Does the machine's order of hours against animals on pp. 360–361 hold on the scan | open; cites wb.2:p360-361, wb.2:p358-359 |
 | [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | open; cites wb.2:p366-368 |
-| [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | open; cites wb.2:p370 |
+| [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | answered; cites wb.2:p370 |
 | [questions/q0469.md](questions/q0469.md) | question q469 | Is the east line's «དང་» of the door table on p. 287 the first place cut short, and from which side are the places counted | open; cites wb.2:p287 |
 | [questions/q0470.md](questions/q0470.md) | question q470 | Which places do the nine numbers 17–25 after the hal khyi's mothers and sons count on p. 185 | open; cites wb.2:p185e |
 | [questions/q0471.md](questions/q0471.md) | question q471 | Does work 17's stack on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» when KP's contents list has «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites wb.2:p378 |
@@ -1061,6 +1061,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0640.md](questions/q0640.md) | question q640 | «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» | open; cites — |
 | [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | open; cites — |
 | [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
+| [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | open; cites wb.2:p370 |
+| [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | open; cites wb.2:p360-361 |
 
 <!-- end pool index -->
 
