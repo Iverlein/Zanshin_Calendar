@@ -866,9 +866,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0446.md](questions/q0446.md) | question q446 | What is «ཡོ» («ཁ་ཡོ») in the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» and what is served or led from it | open; cites wb.1:p133, wb.2:p224b |
 | [questions/q0447.md](questions/q0447.md) | question q447 | What does «སྦྲང་མ» stand for in «སྦྲང་མ་ཕུད་གཏོར» on p. 224 | open; cites wb.2:p224b |
 | [questions/q0448.md](questions/q0448.md) | question q448 | Does a reckoner's own gloss say whether Wangkhyi's «ཉི་མ་དུས་ཚོད» is met only when day and hour are both the animal's, or by either | open; cites wb.2:p210d |
-| [questions/q0449.md](questions/q0449.md) | question q449 | Which planet or node is «ཕུང» in «བྱ་གླང་སྦྲུལ་གསུམ་ཕུང་དར་ཚེས» on p. 313 | open; cites wb.2:p313 |
-| [questions/q0450.md](questions/q0450.md) | question q450 | Who is «ཆུ་བདག» in «ཉི་མ་ཤར་དགེ་ཆུ་བདག་ངན» on p. 313 and which planet stands on which of the eight points | open; cites wb.2:p313 |
-| [questions/q0451.md](questions/q0451.md) | question q451 | What does «མ་རྒྱབ་གྲོགས་མདུན་གཏད་པ་གཅེས» ask for on p. 313 | open; cites wb.2:p313 |
+| [questions/q0449.md](questions/q0449.md) | question q449 | Which planet or node is «ཕུང» in «བྱ་གླང་སྦྲུལ་གསུམ་ཕུང་དར་ཚེས» on p. 313 | answered; cites wb.2:p313 |
+| [questions/q0450.md](questions/q0450.md) | question q450 | Who is «ཆུ་བདག» in «ཉི་མ་ཤར་དགེ་ཆུ་བདག་ངན» on p. 313 and which planet stands on which of the eight points | answered; cites wb.2:p313 |
+| [questions/q0451.md](questions/q0451.md) | question q451 | What does «མ་རྒྱབ་གྲོགས་མདུན་གཏད་པ་གཅེས» ask for on p. 313 | answered; cites wb.2:p313 |
 | [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | open; cites wb.2:p313b |
 | [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | open; cites wb.2:p313, wb.2:p328-329 |
 | [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
@@ -1047,6 +1047,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | open; cites — |
 | [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | open; cites — |
 | [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | open; cites — |
+| [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | open; cites wb.2:p317 |
+| [questions/q0631.md](questions/q0631.md) | question q631 | Bharaṇī's minor star on p. 314: «ཕུང་རྒྱབ་ཅན» or «ཕུང་རྒྱང་ཅན» | open; cites wb.2:p314 |
 
 <!-- end pool index -->
 

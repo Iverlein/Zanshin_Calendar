@@ -350,6 +350,8 @@ QT_QPA_PLATFORM=offscreen venv/bin/python cli.py --model OCRModels/Woodblock --f
 
 Tesseract's `bod` model is no use on these prints.
 
+**Two reading notes from RD159 (2026-11-05).** A session's tool results keep only the last 27 images or so: write each comparison down while its image is in view, or the reading has to be done again. On both prints of WB a ལ under a vowel sign looks like ཡ: set a doubtful word beside a certain «ལེགས» before correcting «ལིང», «ལིངས» or «བུ་ལོན».
+
 ## Dead ends
 
 Searched and found wanting, so not to be repeated:
