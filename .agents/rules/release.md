@@ -42,11 +42,11 @@ On every merge of a feature, in the same branch:
    shows them from the next release's build, the website at once.
    Write sentences a person would say, not a list of nouns: a new reckoning
    joins its item in a sentence or two, the full inventory stays in the
-   README. Before merging, `prose-scan` both listings and run the rendered
-   page through `ai-check --pieces 1500`, since Sapling's free form reads only
-   the head of a long text. Its score moves with where the text is cut, in both
-   languages and most in Russian, so run several cuts and read Scribbr and
-   ZeroGPT beside it. What moves the score: `detector-resistant-prose` in
+   README. Before merging, run `prose-scan --profile detector --allow рокуё` on
+   the Russian listing and the rendered page through
+   `ai-check --cuts 1500,1300,1100`, as Sapling's score moves with where the text
+   is cut, and read Scribbr and ZeroGPT beside it; `ai-check --ablate` finds the
+   line behind a hot piece. What moves the score: `detector-resistant-prose` in
    `~/knowledge/`. The Russian site text has no «ё» except in рокуё.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
