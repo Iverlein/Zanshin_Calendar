@@ -538,6 +538,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p306-307-vowel-remedies-peaceful-planets.md](claims/wb-p306-307-vowel-remedies-peaceful-planets.md) | claim, remedy | WB pp. 306–307: the remedies run through twelve vowels; the three peaceful planets are Moon, Mercury and Venus | cites wb.2:p305-307; feeds block-25 |
 | [claims/wb-p313-phung-jupiter-chu-bdag-west.md](claims/wb-p313-phung-jupiter-chu-bdag-west.md) | claim, note | WB p. 313: «ཕུང» is Jupiter after the Lamp, «ཆུ་བདག» the west | cites wb.2:p313, lt:p10-11; feeds — |
 | [claims/wb-p317-p323-rjon-in-print.md](claims/wb-p317-p323-rjon-in-print.md) | claim, note | WB pp. 317, 323: the prints have རྗོན where the machine had རྔོན | cites wb.2:p317, wb.2:p323-324; feeds — |
+| [claims/wb-p322-rus-mtshan.md](claims/wb-p322-rus-mtshan.md) | claim, note | WB p. 322: Viśākhā's line reads «རུས་མཚན», not «དུས་མཚན» | cites wb.2:p322; feeds — |
+| [claims/wb-p322-tshe-sgrub-anuradha.md](claims/wb-p322-tshe-sgrub-anuradha.md) | claim, note | WB p. 322: Anurādhā's good list has rites for long life | cites wb.2:p322-323; feeds — |
+| [claims/wb-p328-tha-skar-numeral.md](claims/wb-p328-tha-skar-numeral.md) | claim, note | WB p. 328: Aśvinī's numeral is printed ༤ | cites wb.2:p328-329; feeds — |
+| [claims/wb-p329-editors-note-bharani.md](claims/wb-p329-editors-note-bharani.md) | claim, note | WB p. 329: the editors' note on Bharaṇī names no source | cites wb.2:p328-329; feeds — |
 | [claims/wb-p335-336-digits-in-brackets-saturn-zero.md](claims/wb-p335-336-digits-in-brackets-saturn-zero.md) | claim, note | WB pp. 335-336: the print gives each planet and mansion its number in brackets, Saturn as 0; the 1996 etext carries them, the reprint machine reading does not reliably | cites wb.2:p335-336; feeds — |
 | [claims/wb-p335-chub-nyi.md](claims/wb-p335-chub-nyi.md) | claim, definition | WB p. 335: the Chub day is the Paired with Jupiter on Pūrvabhādrapadā | cites wb.2:p335-336, wb.2:p341-342; feeds block-25 |
 | [claims/wb-p341-342-day-tables.md](claims/wb-p341-342-day-tables.md) | claim, table | WB pp. 341–342: the mansion of every named day-combination by planet, read cell by cell on two prints | cites wb.2:p341-342, wb.2:p335-336; feeds block-25 |
@@ -661,7 +665,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 17 passages: 15 scan, 2 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 56 passages: 24 scan, 32 machine |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
