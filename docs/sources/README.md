@@ -133,12 +133,17 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
 | [claims/ch28-spring-hand.md](claims/ch28-spring-hand.md) | claim, table | The year read on three spring dates by the moon on the hand | cites wb.2:p26-27, wb.2:p26; feeds block-31 |
+| [claims/ch32-earth-lords-of-the-vase-praise.md](claims/ch32-earth-lords-of-the-vase-praise.md) | claim, list | Ch. 32: the earth lords praised at the vase, by place and by quarter | cites wb.2:p291-294; feeds — |
+| [claims/ch32-graveyard-order-of-the-kin.md](claims/ch32-graveyard-order-of-the-kin.md) | claim, list | Ch. 32: the order of a family graveyard up the hill | cites wb.2:p276; feeds — |
 | [claims/ch32-ground-signs-when-dug.md](claims/ch32-ground-signs-when-dug.md) | claim, list | Ch. 32: the signs of a dug ground | cites wb.2:p282, wb.2:p283-285; feeds block-31 |
 | [claims/ch32-lintel-earth-from-lair.md](claims/ch32-lintel-earth-from-lair.md) | claim, remedy | Ch. 32: earth from a dog's and wolf's old lair at the door's lintel against loss | cites wb.2:p291-294; feeds block-25 |
 | [claims/ch32-lto-phye-ninth-part-digging.md](claims/ch32-lto-phye-ninth-part-digging.md) | claim, rule | Ch. 32: digging in the part where Lto-'phye lies | cites wb.2:p282, wb.2:p281; feeds block-31 |
+| [claims/ch32-lto-phye-woodcut-third-hor-month.md](claims/ch32-lto-phye-woodcut-third-hor-month.md) | claim, note | Ch. 32: the woodcut of Lto-'phye shows the fifteenth house-day of the third Hor month | cites wb.2:p280, wb.2:p281; feeds — |
+| [claims/ch32-nine-gods-of-the-numbers.md](claims/ch32-nine-gods-of-the-numbers.md) | claim, list | Ch. 32: the nine gods by number and colour | cites wb.2:p291-294; feeds — |
 | [claims/ch32-outer-door-places.md](claims/ch32-outer-door-places.md) | claim, table | Ch. 32: the outer door by its place on each side | cites wb.2:p287; feeds block-31 |
 | [claims/ch32-rooms-by-direction.md](claims/ch32-rooms-by-direction.md) | claim, list | Ch. 32: the rooms and works of a house by direction | cites wb.2:p287; feeds block-31 |
 | [claims/ch32-serpent-walk-by-house-day.md](claims/ch32-serpent-walk-by-house-day.md) | claim, rule | The serpent's place for the first stroke is its walk by the house-day, not the day's mansion | cites wb.2:p281, lcm:p181-182, bsb:p435-436, sdp:p238-241; feeds block-25 |
+| [claims/ch32-true-quarters-by-the-stars.md](claims/ch32-true-quarters-by-the-stars.md) | claim, rule | Ch. 32: the true quarters found by the stars' rising and setting | cites wb.2:p283-285; feeds — |
 | [claims/ch35-grammar-days-to-beware.md](claims/ch35-grammar-days-to-beware.md) | claim, list | WB p. 432: the dates to beware of for grammar | cites wb.2:p432; feeds — |
 | [claims/ch35-khyung-nag-shak-dar-phugpa.md](claims/ch35-khyung-nag-shak-dar-phugpa.md) | claim, note | WB ch. 35 pp. 450–451: Khyung nag Shākya dar the Phugpa named for the practice of black reckoning | cites wb.2:p450, wb.2:p451; feeds — |
 | [claims/ch35-manjushri-voice-parts-of-reckoning.md](claims/ch35-manjushri-voice-parts-of-reckoning.md) | claim, note | WB ch. 35 p. 449: the parts of reckoning read as the parts of Mañjuśrī | cites wb.2:p449; feeds — |
@@ -653,7 +658,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 7 passages: 7 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 16 passages: 1 scan, 13 machine, 2 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 17 passages: 15 scan, 2 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 53 passages: 15 scan, 37 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
