@@ -543,6 +543,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p341-342-day-tables.md](claims/wb-p341-342-day-tables.md) | claim, table | WB pp. 341–342: the mansion of every named day-combination by planet, read cell by cell on two prints | cites wb.2:p341-342, wb.2:p335-336; feeds block-25 |
 | [claims/wb-p343-344-doers-by-date.md](claims/wb-p343-344-doers-by-date.md) | claim, table | WB pp. 343–344: the eleven doers by date and half | cites wb.2:p343-346; feeds — |
 | [claims/wb-p349-yoga-verdict-and-sesame-pounding.md](claims/wb-p349-yoga-verdict-and-sesame-pounding.md) | claim, note | WB pp. 349–350: the yogas' verdict counts the 27; Sesame-pounding opens p. 350 | cites wb.2:p349-350; feeds — |
+| [claims/wb-p359-363-date-lords-in-order.md](claims/wb-p359-363-date-lords-in-order.md) | claim, list | WB pp. 359–363: the date's earth lords after the Black Moon, in the print's order | cites wb.2:p360-361, wb.2:p362-363; feeds — |
 | [claims/wb-p359-364-date-earth-lords-after-black-moon.md](claims/wb-p359-364-date-earth-lords-after-black-moon.md) | claim, note | WB pp. 359-364: after the Black Moon the date earth lords are a named run of fierce lords of day, date and hour, not the lords of the date by number | cites wb.2:p359-364; feeds — |
 | [claims/wb-p359-hours-against-animals.md](claims/wb-p359-hours-against-animals.md) | claim, note | WB p. 359: the twelve double-hours against the animals run Hare, Dragon at sunrise, Snake, Horse at midday and so on, the Bird omitted; the hour is a sharp weapon | cites wb.2:p359; feeds — |
 | [claims/wb-p365-368-sky-doors-riders-skulls.md](claims/wb-p365-368-sky-doors-riders-skulls.md) | claim, note | WB pp. 365-368: the sky doors are headed by numbered pairs (three-three to ten-three), not weekdays; riders and skulls of the eight trigrams and nine mewa as the etext has them, unchecked on the scan | cites wb.2:p365-368; feeds — |
@@ -660,7 +661,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 17 passages: 15 scan, 2 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 53 passages: 21 scan, 31 machine, 1 etext |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 56 passages: 24 scan, 32 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
