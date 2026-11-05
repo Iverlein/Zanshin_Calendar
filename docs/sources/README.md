@@ -537,6 +537,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p305-four-meetings-by-name.md](claims/wb-p305-four-meetings-by-name.md) | claim, note | WB p. 305: the four meetings are given by names, no numerals on the page | cites wb.2:p305; feeds — |
 | [claims/wb-p306-307-vowel-remedies-peaceful-planets.md](claims/wb-p306-307-vowel-remedies-peaceful-planets.md) | claim, remedy | WB pp. 306–307: the remedies run through twelve vowels; the three peaceful planets are Moon, Mercury and Venus | cites wb.2:p305-307; feeds block-25 |
 | [claims/wb-p313-phung-jupiter-chu-bdag-west.md](claims/wb-p313-phung-jupiter-chu-bdag-west.md) | claim, note | WB p. 313: «ཕུང» is Jupiter after the Lamp, «ཆུ་བདག» the west | cites wb.2:p313, lt:p10-11; feeds — |
+| [claims/wb-p317-p323-rjon-in-print.md](claims/wb-p317-p323-rjon-in-print.md) | claim, note | WB pp. 317, 323: the prints have རྗོན where the machine had རྔོན | cites wb.2:p317, wb.2:p323-324; feeds — |
 | [claims/wb-p335-336-digits-in-brackets-saturn-zero.md](claims/wb-p335-336-digits-in-brackets-saturn-zero.md) | claim, note | WB pp. 335-336: the print gives each planet and mansion its number in brackets, Saturn as 0; the 1996 etext carries them, the reprint machine reading does not reliably | cites wb.2:p335-336; feeds — |
 | [claims/wb-p335-chub-nyi.md](claims/wb-p335-chub-nyi.md) | claim, definition | WB p. 335: the Chub day is the Paired with Jupiter on Pūrvabhādrapadā | cites wb.2:p335-336, wb.2:p341-342; feeds block-25 |
 | [claims/wb-p341-342-day-tables.md](claims/wb-p341-342-day-tables.md) | claim, table | WB pp. 341–342: the mansion of every named day-combination by planet, read cell by cell on two prints | cites wb.2:p341-342, wb.2:p335-336; feeds block-25 |
@@ -659,7 +660,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 17 passages: 15 scan, 2 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 53 passages: 15 scan, 37 machine, 1 etext |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 53 passages: 21 scan, 31 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
