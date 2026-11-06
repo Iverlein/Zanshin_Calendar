@@ -125,12 +125,13 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
 | <a id="block-68"></a>68 | [R2](#r) Who is not made an old one — built 2026-11-06 | — (read: RD33) | [66](#block-66) | Built: the old born and dead on the two-black, p. 82, a row in place of the kind. |
 | <a id="block-67"></a>67 | [K5](#k5) The 大将軍's outings as a daily row — built 2026-11-06 | — (read: RD92, RD172) | [54](#block-54) | Built: the 大将軍's day by the 暦林問答集 §54 under 天一神's row, its five-day outings and its own place. |
-| <a id="block-66"></a>66 | [R2](#r) The old dead's kinds and what cuts the father by the clan — built 2026-11-06 | — (read: RD33, RD164, RD174) | [31](#block-31) | Built: the nine rounds of the old by sex and year of age, the ages they leave read by WB's other round (q309), and in The clan the birth's month and year that overcome the clan's element (p. 349, q566). |
+| <a id="block-66"></a>66 | [R2](#r) The old dead's kinds, and what cuts the father by the clan (taken out the same day, block [72](#block-72)) — built 2026-11-06 | — (read: RD33, RD164, RD174) | [31](#block-31) | Built: the nine rounds of the old by sex and year of age, the ages they leave read by WB's other round (q309), and in The clan the birth's month and year that overcome the clan's element (p. 349, q566). |
 
 ## Readings
 
@@ -1707,7 +1708,7 @@ verdict, and the owner's decisions of 2026-10-10:
 - **Gap.** Readings done since the built items they check (the *Left
   open in built work* rows) found entries that the scan reads otherwise
   than the app; each topic file says what changes, and none is built:
-  - **Ch. 33's mansion verses** ([RD159](#rd159), `corpus/wb/ch33.md`): Anurādhā's good list has rites for long life («ཚེ་སྒྲུབ», the machine's «ཚེ་སྣུབ»), Jyeṣṭhā's «ཆུ་ཀ་ལེན» is not a water channel (q649), Mūla's deity and Puṣya's avoid list read «རྗོན» (q630). The app's lists to be checked against them.
+  - **Ch. 33's mansion verses** ([RD159](#rd159), `corpus/wb/ch33.md`) — checked 2026-11-06: Anurādhā's good list gained rites for long life («ཚེ་སྒྲུབ», the machine's «ཚེ་སྣུབ»); Jyeṣṭhā's «ཆུ་ཀ་ལེན» stays drawing water channels, the sense RD176 gives it (q649); «རྗོན» (q630) is a dead end and the list stands.
   - **KP's activity table** ([O1](#o1)): the links and sme ba of boxes
     5, 7, 20, 48, 50, 53, 55, 59 and 60 as
     [kp-activities.md](sources/kp-activities.md), *What the table should
@@ -2081,12 +2082,13 @@ verdict, and the owner's decisions of 2026-10-10:
 - The day by the clan's element (*rus chen*, WB ch. 31, p. 225): it needs
   a Tibetan patrilineal clan, which the app's readers do not have, and WB
   confines it to reckoning for the dead.
-- Whatever needs the clan of the dead or of a relative (the owner,
-  2026-11-06: only Tibetans have one, and 2026-10-15): the death's eye's
-  thirteen root pebbles and verdict, the years counted together on the
-  same pages (cut-off, power, mother, friend), the clans' strikes of
-  p. 114. No decision waits here; a reckoning that asks the clan goes
-  without it.
+- Whatever needs a clan, of anyone (the owner, 2026-11-06: only Tibetans
+  have one, and 2026-10-15): the death's eye's thirteen root pebbles and
+  verdict, the years counted together on the same pages (cut-off, power,
+  mother, friend), the clans' strikes of p. 114, and the special pebble
+  and what cuts the father (R2b, R2aa), built and taken out in block
+  [72](#block-72). No decision waits here; a reckoning that asks the clan
+  goes without it, and the app asks no one's clan.
 - KP box 47 (averting rites, every entry a kind of rite) and KP's charts
   (SPEC §5.10).
 - Rāhu's course by the hour on the hours panel: the text names times of
@@ -4198,8 +4200,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   daughter, no mother, no gender and no father; both sheets), the release
   build (the list, the view and both sheets, no raw keys). The store
   shots do not show the list: unchanged.
-- **R2b The birth's special pebble — built 2026-10-19** (block 31, SPEC
-  §5.9.2, §10.5, §10.11): the clan, asked by its element in the person
+- **R2b The birth's special pebble — built 2026-10-19, taken out 2026-11-06** (block 31, then block [72](#block-72); the owner: only Tibetans have a clan): the clan, asked by its element in the person
   dialog and stored with the person; p. 261's table of the seven years
   for each clan; the end reckoning's seven readings (pp. 284–286, read
   that day on the Gser thang reprint at 2048 px, year-of-life.md) in the
@@ -4589,7 +4590,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   (families `TurtleKin`, `TurtleEnemy`); not built: the relatives'
   agreement among themselves.
 - **R2aa The old dead's kinds and what cuts the father by the clan —
-  built 2026-11-06** (block 66; SPEC §5.9.4, §5.9.2): `DeadOldKind`, the
+  built 2026-11-06, the clan's cut taken out the same day (block [72](#block-72))** (block 66; SPEC §5.9.4): `DeadOldKind`, the
   kinds of pp. 77–79 by sex and year of age; `DeadReckoning.oldRound` the
   ages they leave, read by p. 79's other round (q309), its three cases
   listed since neither companion nor son is recorded; `ClanCut`, a birth

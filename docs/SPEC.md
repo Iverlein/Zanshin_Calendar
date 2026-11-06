@@ -696,19 +696,6 @@ on the scan that follow from the years alone. `BirthReckoning`
 - **The luck triad** (pp. 280–281): one reading for each triad of birth
   years that share a luck (*klung rta*): mouse, dragon, monkey; tiger,
   horse, dog; bird, ox, snake; pig, sheep, hare.
-- **What cuts the father by the clan** (p. 349, the finer points of the oral
-  instruction; the notes, p. 489; p. 300): under the clan, a birth in a month
-  or year of the element that overcomes the clan's, a month as Mipham's earth
-  clan and tiger month, a year as p. 300's list, water's the earth's four
-  (`ClanCut`, `BirthReckoning.clanCuts`).
-- **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
-  which is asked (§10.5): the birth year's animal in p. 261's table for
-  the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
-  great penalty the element's tomb animal, the small its seventh (water's
-  as earth's), then the power, mother, son, friend and enemy years by the
-  life force against the clan's element; each with the end reckoning's
-  reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
-  needs no relative: without the mother's year the clan is still read.
 
 - **The hundred pebbles** (*rgya 'dre*, pp. 261, 329–331, with the notes'
   colour rule, vol. 2, p. 475; the board from Kun dga' rig 'dzin's worked
@@ -936,7 +923,7 @@ relatives (the spouse taken as the other sex where theirs is not set).
 **Not calculated** yet: the kin (point 1's first part, asked) and its
 pairs of year animals, whose several lists disagree; the mewa paths'
 years with five or two elements (2); the hidden and the
-deeper hidden (4, 5), the siblings' number (7), the clans (8, 9, asked),
+deeper hidden (4, 5), the siblings' number (7), the clans (8, 9; no clan is asked),
 the birth hours, the app not asking a person's, the planets' and
 mansions' agreement (10, beyond the same planet and the months and days)
 and the rest; the hidden's wheels (4), whose rule for each aspect's mewa
@@ -4238,12 +4225,10 @@ its stay, opening §53's reading with the course as a row. Each 干支
   no one saved the row goes straight to adding. A birth date saved before
   there were people reads as one person without a name, listed by the
   date, chosen. Stored as the `people` preference, one person per line
-  (epoch day, tab, name, and with a gender a tab and `m` or `f`, and with
-  a clan a tab, the gender or nothing, a tab and the clan's name; a line
-  saved before has neither and reads as not set), and `person`, the index
-  chosen or -1. The clan (ROADMAP R2b) is chosen by its element among
-  "Not set" and the five, its note naming the five great clans; only the
-  birth reckoning's special pebble reads it.
+  (epoch day, tab, name, and with a gender a tab and `m` or `f`; a line
+  saved before has none and reads as not set, and the clan a line of 3.3
+  or earlier may carry is ignored), and `person`, the index chosen or -1.
+  No clan is asked (the owner, 2026-11-06).
 - **Relatives** (ROADMAP P1, built 2026-10-15): each saved person keeps
   their own tree of relatives, which does not count toward the ten (the
   owner, 2026-10-15: each of the ten is a user of the app with their own
@@ -4264,8 +4249,9 @@ its stay, opening §53's reading with the course as a row. Each 干支
   day as the Tibetan year it falls in. A birth year or a year of death
   is needed to save; years from 1800. Deleting a relative deletes those
   entered under them, as the dialog says. At most 60 relatives a person.
-  No clan: only some families have one (the owner, 2026-10-15), so the
-  reckonings that ask for it (ch. 22, 23, 29) go without. What the
+  No clan, of a relative or a saved person: only Tibetans have one (the
+  owner, 2026-10-15, 2026-11-06), so the reckonings that ask for it
+  (ch. 22, 23, 29) go without. What the
   readings ask of each relative is in ROADMAP P1 (RD13–RD16); the year
   of age reads them since P2 (§5.9.1). Stored as the `relatives` preference, one relative per
   line, by tabs: the person's index, the relative's id, the id they are
@@ -4881,9 +4867,6 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   "The cutting and tearing", where any holds, each cut among its aspects
   ("The luck cuts the body · wood overcomes earth") and each group cut,
   shown also without the mother's year;
-  under "The clan" the year of the special pebble ("The clan's friend
-  year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note
-  asking for the clan, shown also when the mother's year is missing;
   under "The parents' trigrams" each reading that holds, or a line that
   none does, with notes asking for the gender and the father's birth year
   where they are missing; under "The hundred pebbles" the board, a
