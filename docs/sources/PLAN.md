@@ -1453,3 +1453,5 @@ Searched and found wanting, so not to be repeated:
   - «ངེས་འབྱེད་བླ་མའི་རྒྱུད», «རཱ་ལི་ནས་བཤད», «ཧེ་བཛྲ་ལས་སྤྱི་བོའི་འཁོར་ལོ་མི་བསྐྱོད་པ»: 0 hits; «ཕྱ་ཐེར་དང་སྦྲ»: 0 hits.
   - «nges 'byed bla ma», «bar rgyur», «yab skor», «bon skor», «phya ther» as headwords in 64 Steinert dictionaries: none.
   - Etexts answering 403 (snippet only): the Sakya volume of Ngag dbang kun dga' bsod nams (VE29307_094, _096), Bod ljongs nang bstan (I1PD35670), eight of the 19 «ཕྱ་ཐེར» hits.
+- **RD170, second run (2026-11-06)** (RD170, 2026-11-06):
+  - Words of turning and direction (གཡས་སྐོར, གཡོན་སྐོར, ཉི་འཁོར, ཉི་ལམ, གཡས་ཕྱོགས, གཡོན་ཕྱོགས, གནས་བརྒྱད) in the machine text of pp. 243–275 and 295–296: one hit, p. 273, a river and the sun and moon turning right as a sign of good ground; nothing about a door.
