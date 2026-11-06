@@ -809,7 +809,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
 | [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | open; cites wb.1:p428-429 |
 | [questions/q0361.md](questions/q0361.md) | question q361 | The sky year of p. 426's table | open; cites wb.1:p425-426, wb.1:p426-427 |
-| [questions/q0362.md](questions/q0362.md) | question q362 | The time «མྱུར་སྨད» of sending the ransoms | open; cites wb.1:p431-433, wb.1:p443-444 |
+| [questions/q0362.md](questions/q0362.md) | question q362 | The time «མྱུར་སྨད» of sending the ransoms | answered; cites wb.1:p431-433, wb.1:p443-444 |
 | [questions/q0363.md](questions/q0363.md) | question q363 | The la's wandering of the snake and horse, the rat and pig | open; cites wb.2:p16 |
 | [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | open; cites wb.2:p20 |
 | [questions/q0365.md](questions/q0365.md) | question q365 | For whom the four reckonings of «བརྗེ» are | open; cites wb.2:p23-25 |

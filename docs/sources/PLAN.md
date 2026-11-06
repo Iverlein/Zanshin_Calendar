@@ -1486,3 +1486,8 @@ Searched and found wanting, so not to be repeated:
 - **RD180, vol. 2's early leaves (2026-11-06)** (RD180, 2026-11-06):
   - «བཀྲ་ཕན་ངོན», «ཕན་ངོན་བཀྲ», «བཀྲ་བན་བོན», «བན་བོན་བཀྲ་དང་བདུན» in BDRC full text: no hit. «ལངས་པའི་ཉིན» in the 1996 and Zhol etexts: no hit. «དབུས་ནག» in the 1996 etext near img. 88: no hit.
   - The goat's bladder in the 1996 etext of img. 114–115 and the Zhol etext of img. 783: not in the text.
+- **RD182, vol. 1's tables and the hal khyi (2026-11-06)** (RD182, 2026-11-06):
+  - A gloss of «ཉི་མ་དུས་ཚོད» saying whether one of the two suffices: every hit in WB's etext read; BDRC 51 hits, only I2PD20755 (a Bon-side count) fetched, no gloss.
+  - A reason for the tent at the door in the 1996 etext (five hits of «སྦྲ་ཁྱིམ»): none.
+  - A gloss of the la-knower's animal in WB's etexts: none.
+  - The order of the five mother-son pairs: not on p. 185.
