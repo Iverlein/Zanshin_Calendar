@@ -2667,3 +2667,13 @@ The digest has no count lines: none of «རྡེལ་དོན», «ངོས
 
 - A reading of ya against la in this hand from a certain ya elsewhere on img. 514: none made (only the particle «ལ» after the gap was compared); a dated sheet with several of each, cut from img. 513–514, would settle it.
 - A second print of the replies to compare (Zhol print or etext of I5875): none in the cache.
+
+
+## Ch. 28 and ch. 30, what no row holds: the full moons, the sky-bird, the small foot, ordination's trigrams, the hand reckoning, the marks (RD165)
+
+Nothing read yet: RD165's passages, with the English beside them, go here.
+
+
+## The *Moonbeams* and the replies, what no row holds: the burial's eleven roots, «ར་བར», the eight pebbles, the replies' words, the half (RD166)
+
+Nothing read yet: RD166's passages, with the English beside them, go here.

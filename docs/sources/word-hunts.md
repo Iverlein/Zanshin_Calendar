@@ -152,3 +152,8 @@ The digest has «ས་བདག་ཁྲུ་ལུ་ལི་བྱི་ན
 ## The words of ch. 31–34 left open, by the other texts: a word hunt (RD162)
 
 Nothing read yet: RD162's passages, with the English beside them, go here.
+
+
+## The catalogue's questions: which print, which copy, which author (RD168)
+
+Nothing read yet: RD168's passages, with the English beside them, go here.
