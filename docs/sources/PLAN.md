@@ -1402,3 +1402,6 @@ Searched and found wanting, so not to be repeated:
   - A ཀ-stack («སྐ») of the same hand on img. 161, 162, 165 or 166 to set beside the six places: none turned up in the crops.
 - **RD155, the Tibetan thirteenth and fourteenth pairs (2026-11-06)** (RD155, 2026-11-06):
   - WB vol. 1, p. 453 on the Zhol blocks (I1KG1710 img. 602) and the Taikhang (I5877 img. 619): a Tibetan thirteenth and fourteenth pair in the order of the *Moonbeams*; none, both give the friend's horse and sheep first.
+- **RD159, third part (2026-11-06)** (RD159, 2026-11-06):
+  - Locating a word on the Gser thang reprint from Yigdzin-1's OCR line number and offset (img. 322: 28 OCR lines against 21 ink lines): fails; crops need a mapping from the ink rows (`scans.py line`) or a choice by eye from a whole-page view.
+  - The Zhol print's pp. 1066–1085 have no OCR text yet; a run waits long for a free slot.
