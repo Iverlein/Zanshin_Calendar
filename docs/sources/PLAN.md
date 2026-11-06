@@ -1400,3 +1400,5 @@ Searched and found wanting, so not to be repeated:
   - A second print of the replies (Zhol print or etext of I5875) to compare: none in the cache.
 - **RD150, the six places of «ཤི་སྒབ» (2026-11-06)** (RD150, 2026-11-06):
   - A ཀ-stack («སྐ») of the same hand on img. 161, 162, 165 or 166 to set beside the six places: none turned up in the crops.
+- **RD155, the Tibetan thirteenth and fourteenth pairs (2026-11-06)** (RD155, 2026-11-06):
+  - WB vol. 1, p. 453 on the Zhol blocks (I1KG1710 img. 602) and the Taikhang (I5877 img. 619): a Tibetan thirteenth and fourteenth pair in the order of the *Moonbeams*; none, both give the friend's horse and sheep first.

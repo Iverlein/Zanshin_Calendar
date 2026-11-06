@@ -8357,7 +8357,7 @@ Read 2026-11-03 (RD144), by eye on the scans, no model run, no agy turn: the *Mo
 ### Open
 
 - Question: In WB's plank-tree and the keg reckoning, do «ཡར» and «མར» count toward later or earlier years of the cycle, so that the sky year's fifth and sixth places below («མར་གྱི་ལྔ་མཐུན», «མར་གྱི་དྲུག་འབྲས») are named as years for a given sky year (the snake's trine partners for the harmony are bird and ox, but which of them is the one below)?
-- Question: Is there a print or manuscript of the White Beryl whose p. 453 lists the Tibetan thirteenth and fourteenth pairs in the order the *Moonbeams* gives them (the enemy's bird and monkey before the friend's horse and sheep)? The Zhol blocks (I1KG1710 img. 602) were not read.
+- Question 602 ([q0602](questions/q0602.md)), answered 2026-11-06: no such print among the Zhol blocks, the Taikhang and the 1996 print; the wider question is [q0651](questions/q0651.md).
 
 ### Searched and not found
 

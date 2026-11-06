@@ -1024,7 +1024,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | open; cites wb.2:p167-168 |
 | [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | open; cites ys.2:i016-017 |
 | [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | open; cites dz:i052-055 |
-| [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | open; cites wb.1:p453-454 |
+| [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | answered; cites wb.1:p453-454 |
 | [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | open; cites ys:i513-514 |
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | open; cites wb.1:p373-375 |
@@ -1073,6 +1073,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | open; cites wb.2:p322 |
 | [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | open; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | open; cites wb.2:p328-329 |
+| [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 
 <!-- end pool index -->
 
