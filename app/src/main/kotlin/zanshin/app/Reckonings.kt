@@ -177,6 +177,23 @@ object Reckonings {
      * (a parent's is the relation's) and a whole date of death; the hour of death where its time is known, from the
      * hare hour at 05:00, the Tibetan day turning at dawn.
      */
+    /**
+     * Those the death's eye of [dead] looks at (WB vol. 2, p. 94), [r] the reckoning of [dead]: the person and the
+     * relatives living at the death, each with a birth year, whose year animal it reaches. A relative with no year of
+     * death among those who have died is not counted, and the person is the null.
+     */
+    fun deathEye(person: Person, dead: Relative, r: DeadReckoning): List<Relative?> = buildList {
+        val year = r.year.year
+        fun animal(y: Int) = YearOfLife.yearSign(y).animal
+        val own = TibetanCalendar.of(person.birth).year
+        if (own <= year && r.eyeLooks(animal(own))) add(null)
+        person.relatives.list.filter { it.id != dead.id }.forEach { x ->
+            val born = x.birth?.tibetanYear ?: return@forEach
+            val alive = !x.died || (x.death?.tibetanYear ?: Int.MIN_VALUE) > year
+            if (born <= year && alive && r.eyeLooks(animal(born))) add(x)
+        }
+    }
+
     fun dead(person: Person): List<Pair<Relative, DeadReckoning?>> = person.relatives.list.filter { it.died }.map { r ->
         val date = r.death?.date
         val gender = r.sex

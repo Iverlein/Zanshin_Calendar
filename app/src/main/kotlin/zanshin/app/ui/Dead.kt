@@ -12,6 +12,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
+import zanshin.app.Reckonings
 import zanshin.app.LocalLabels
 import zanshin.app.Person
 import zanshin.app.Relative
@@ -101,7 +102,7 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
             CauseRows(r, onOpen)
             DemonRows(r, onOpen)
             RebirthRows(r, onOpen)
-            LaterRows(r, onOpen)
+            LaterRows(r, Reckonings.deathEye(person, relative, r).map { x -> x?.let { it.name.ifBlank { relativeLabel(person.relatives, it, labels) } } ?: personLabel(person) }, onOpen)
             // The thirty's points read for the dead (ROADMAP R2v): the dead's year and age at death.
             Text(stringResource(R.string.dead_thirty_head), style = muted)
             zanshin.core.tibetan.Thirty.forTheDead(r.year.birth, r.year.age).forEach { ThirtyRow(it, onOpen) }
@@ -168,6 +169,7 @@ private fun shownReadings(r: DeadReckoning): List<zanshin.core.texts.Reading> = 
     add(Texts.deadProvisions(r.trigram))
     r.nineEye?.let { add(Texts.deadNineEye(it)) }
     if (r.graveDay) add(Texts.deadGraveDay())
+    add(Texts.deadEye(r.trigram))
     if (r.notMadeOld) add(Texts.deadOldNotMade())
     r.oldKind?.let { add(Texts.deadOldKind(it)) }
     r.oldRound?.let { add(Texts.deadOldRound(it)) }
@@ -297,7 +299,7 @@ private fun RebirthRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
  * planet and the lunar date; the fifteenth's grave provisions by the trigram. Each rite is a Remedy row.
  */
 @Composable
-private fun LaterRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+private fun LaterRows(r: DeadReckoning, looked: List<String>, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
     Text(stringResource(R.string.dead_later_head), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     @Composable
@@ -309,6 +311,16 @@ private fun LaterRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     row(labels.string(R.string.dead_provisions_title, trigram), Texts.deadProvisions(r.trigram))
     r.nineEye?.let { row(labels.string(R.string.dead_nine_eye_title, labels.ordinal(it)), Texts.deadNineEye(it), Tone.BAD) }
     if (r.graveDay) row(stringResource(R.string.dead_grave_day_title), Texts.deadGraveDay(), Tone.BAD)
+    row(labels.string(R.string.dead_eye_title, trigram), Texts.deadEye(r.trigram), Tone.BAD)
+    looked.takeIf { it.isNotEmpty() }?.let { names ->
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.dead_eye_looks_title), english = "", tone = Tone.BAD, reading = Texts.deadEyeLooks(),
+                subtitle = names.joinToString(", "), titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
     if (r.notMadeOld) row(stringResource(R.string.dead_old_not_made_title), Texts.deadOldNotMade(), Tone.BAD)
     r.oldKind?.let { row(labels.string(R.string.dead_old_kind_title, Ewts.named(it.english, it.wylie)), Texts.deadOldKind(it)) }
     r.oldRound?.let { row(stringResource(R.string.dead_old_round_title), Texts.deadOldRound(it)) }
