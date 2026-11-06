@@ -1123,7 +1123,13 @@ relation's) and a whole date of death (`DeadReckoning`, core
   88, a woman of 60, 66 or from 91) reads WB's other round, by companion and
   son (p. 79; family `DeadOldRound`, the three cases listed since neither is
   recorded). A woman of 70–90 but 72 is the unguarded old one, WB's general
-  name for those years, a stated choice over q309's other round. The eleventh examination, the death's eye (p. 94; `DeadReckoning.eyeLooks`,
+  name for those years, a stated choice over q309's other round. Who does not handle the corpse (p. 93; families `DeadHandlerMewa`,
+  `DeadHandlerTrigram`, `DeadReckoning.mewaCutsBirth`): by the mewa of death,
+  whom it harms and the office one of that mewa leaves, the row marked black
+  where the mewa of death cuts the birth mewa; by the trigram of death, the
+  work those on it keep away from. Left out: the rounds of rise and decline
+  (pp. 92–93), which WB calls names only, the true count being the
+  commentary's. The eleventh examination, the death's eye (p. 94; `DeadReckoning.eyeLooks`,
   families `DeadEye`, `DeadEyeLooks`): the bird's sending place by the trigram
   of death, and by name the person and relatives living at the death of the
   dead's year animal or its seventh. Left out: its thirteen root pebbles,

@@ -125,6 +125,7 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
 | <a id="block-68"></a>68 | [R2](#r) Who is not made an old one — built 2026-11-06 | — (read: RD33) | [66](#block-66) | Built: the old born and dead on the two-black, p. 82, a row in place of the kind. |
@@ -4598,6 +4599,12 @@ groups it shows (`tools/emulator/store_shots.py`).
   *mche ser ma*). The departure's gold and turquoise treasuries and the
   bride's *ko long* stay out: q605 and q643 name them, but no text gives a
   day or seat they fall on (claim departure-singled-out-lords-by-time).
+- **R2ae Who does not handle the corpse — built 2026-11-06** (block 71):
+  p. 93, families `DeadHandlerMewa`, `DeadHandlerTrigram`. Which "black
+  pebble" the trigram's lines mean is not said, so their condition stands in
+  the reading. Not built: the rounds of rise and decline (WB: names only; the
+  true count is the commentary's), the birth trigram's test (the mother's
+  age).
 - **R2ad The death's eye, in part — built 2026-11-06** (block 70): p. 94's
   eight places, `eyeLooks`, `Reckonings.deathEye`, families `DeadEye`,
   `DeadEyeLooks`. Not built: its thirteen root pebbles and verdict (the
