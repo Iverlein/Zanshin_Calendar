@@ -148,4 +148,12 @@ class DeadTest {
         assertEquals(Animal.HORSE, r.year.birth.animal)
         assertEquals(setOf(Animal.HORSE, Animal.MOUSE), Animal.entries.filter { r.eyeLooks(it) }.toSet())
     }
+
+    /** The dead's reckoning pebble is black when the mewa of death cuts the birth mewa (p. 93). */
+    @Test
+    fun `the mewa of death cutting the birth mewa`() {
+        val cases = (1900..1960).mapNotNull { DeadReckoning.of(it, Gender.MALE, TibetanCalendar.of(LocalDate.of(it + 60, 10, 1)), null) }
+        assert(cases.any { it.mewaCutsBirth } && cases.any { !it.mewaCutsBirth })
+        cases.forEach { assertEquals(smeBaElement(it.mewa).overcomes == smeBaElement(it.year.natalSmeBa), it.mewaCutsBirth) }
+    }
 }

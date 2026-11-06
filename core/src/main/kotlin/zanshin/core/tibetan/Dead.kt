@@ -185,6 +185,9 @@ data class DeadReckoning(
      */
     val nineEye: Int? get() = year.age.takeIf { it in 9..81 && it % 9 == 0 }
 
+    /** The dead's reckoning pebble is black when the mewa of death cuts the birth mewa (WB vol. 2, p. 93). */
+    val mewaCutsBirth: Boolean get() = smeBaElement(mewa).overcomes == smeBaElement(year.natalSmeBa)
+
     /**
      * Whether the death's eye looks at a living person of the birth year animal [animal] (the eleventh examination, WB
      * vol. 2, p. 94): the dead's own year animal or its seventh. The verse's four executioners upward and five in accord

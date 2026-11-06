@@ -2570,6 +2570,12 @@ object Texts {
     /** The other round of the old, by companion and son, for one of [g] whose age no kind names (WB vol. 2, ch. 29, p. 79). */
     fun deadOldRound(g: Gender): Reading = Reading(key = "reading.DeadOldRound", arg = "reading.DeadOldRound.${g.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
 
+    /** Who may not handle the corpse by the mewa of death [m] (WB vol. 2, ch. 29, p. 93). */
+    fun deadHandlerMewa(m: Int): Reading = Reading(key = "reading.DeadHandlerMewa", arg = "reading.DeadHandlerMewa.$m", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** Who may not handle the corpse by the trigram of death [t] (WB vol. 2, ch. 29, p. 93). */
+    fun deadHandlerTrigram(t: Trigram): Reading = Reading(key = "reading.DeadHandlerTrigram", arg = "reading.DeadHandlerTrigram.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
     /** The bird's sending place of the death's eye by the trigram of death [t] (the eleventh examination, WB vol. 2, ch. 29, p. 94). */
     fun deadEye(t: Trigram): Reading = Reading(key = "reading.DeadEye", arg = "reading.DeadEye.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
 
