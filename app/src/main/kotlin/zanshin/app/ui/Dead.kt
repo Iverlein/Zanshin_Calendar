@@ -168,6 +168,7 @@ private fun shownReadings(r: DeadReckoning): List<zanshin.core.texts.Reading> = 
     add(Texts.deadProvisions(r.trigram))
     r.nineEye?.let { add(Texts.deadNineEye(it)) }
     if (r.graveDay) add(Texts.deadGraveDay())
+    if (r.notMadeOld) add(Texts.deadOldNotMade())
     r.oldKind?.let { add(Texts.deadOldKind(it)) }
     r.oldRound?.let { add(Texts.deadOldRound(it)) }
     add(Texts.deadRitesTrigram(r.trigram)); add(Texts.deadRitesMewa(r.mewa))
@@ -308,6 +309,7 @@ private fun LaterRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     row(labels.string(R.string.dead_provisions_title, trigram), Texts.deadProvisions(r.trigram))
     r.nineEye?.let { row(labels.string(R.string.dead_nine_eye_title, labels.ordinal(it)), Texts.deadNineEye(it), Tone.BAD) }
     if (r.graveDay) row(stringResource(R.string.dead_grave_day_title), Texts.deadGraveDay(), Tone.BAD)
+    if (r.notMadeOld) row(stringResource(R.string.dead_old_not_made_title), Texts.deadOldNotMade(), Tone.BAD)
     r.oldKind?.let { row(labels.string(R.string.dead_old_kind_title, Ewts.named(it.english, it.wylie)), Texts.deadOldKind(it)) }
     r.oldRound?.let { row(stringResource(R.string.dead_old_round_title), Texts.deadOldRound(it)) }
     row(labels.string(R.string.dead_rites_trigram_title, trigram), Texts.deadRitesTrigram(r.trigram))

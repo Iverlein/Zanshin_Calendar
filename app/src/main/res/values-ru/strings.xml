@@ -1087,6 +1087,7 @@
     <string name="dead_nine_eye_title">Удар девятки · %1$s-й год жизни</string>
     <string name="dead_grave_day_title">Удар могильного дня</string>
     <string name="dead_old_kind_title">Старые умершие · %1$s</string>
+    <string name="dead_old_not_made_title">Не делают бкра</string>
     <string name="dead_old_round_title">Старые умершие · по спутнику и сыну</string>
     <string name="dead_rites_trigram_title">Обряды при смерти на триграмме: %1$s</string>
     <string name="dead_rites_mewa_title">Колесо при смерти на меве %1$d</string>
