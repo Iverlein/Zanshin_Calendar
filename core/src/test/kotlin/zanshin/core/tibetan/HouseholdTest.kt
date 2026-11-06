@@ -88,4 +88,15 @@ class HouseholdTest {
         assertEquals(r.plain.count { it.colour == RoundColour.BLACK } > r.plain.count { it.colour == RoundColour.WHITE }, r.blackTheMore)
         assertTrue(r.reads.all { it.family.startsWith("Household") })
     }
+
+    /** The mewa's copper vessel (WB vol. 2, pp. 54–55): half of the household or more on one birth mewa, the three whites as one. */
+    @Test
+    fun `the copper vessel reads a mewa half the household share`() {
+        fun on(mewa: Int, n: Int = 0) = (1900..1990).filter { YearOfLife.yearSmeBa(it) == mewa }[n]
+        fun vessels(vararg years: Int) = HouseholdRound.of(years.map { member(it, Gender.MALE) })!!.vesselReads.map { it.key }
+        assertEquals(listOf("SEVEN_RED"), vessels(on(7), on(7, 1), on(5), on(4)))
+        assertEquals(listOf("SEVEN_RED", "TWO_BLACK"), vessels(on(2), on(2, 1), on(7), on(7, 1)))
+        assertEquals(listOf("WHITE"), vessels(on(1), on(6), on(5), on(4)))
+        assertEquals(emptyList<String>(), vessels(on(1), on(2), on(3), on(4)))
+    }
 }

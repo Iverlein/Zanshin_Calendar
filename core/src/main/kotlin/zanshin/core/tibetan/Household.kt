@@ -96,7 +96,15 @@ data class HouseholdRound(
     }
 
     /** Every reading of the round, in the order of its places. */
-    val reads: List<RoundRead> get() = godReads + peopleReads + tailReads + houseReads + leftoverReads + enemyReads + omenReads
+    /**
+     * The mewa's copper vessel (WB vol. 2, pp. 54–55; the notes, p. 502; claim dead-mewa-copper-vessel): a reading for
+     * each birth mewa many of the household share. "Many" is not counted in the text: half of the members or more, a
+     * stated choice. The text says one paternal kin; the household stands for it. The three whites read as one.
+     */
+    val vesselReads: List<RoundRead> = members.groupingBy { vessel(it.year.natalSmeBa) }.eachCount()
+        .filter { it.value * 2 >= members.size }.keys.sortedBy(VESSELS::indexOf).map { RoundRead("MewaVessel", it, false) }
+
+    val reads: List<RoundRead> get() = godReads + peopleReads + tailReads + houseReads + leftoverReads + enemyReads + omenReads + vesselReads
 
     /** Of the whole round's white and black (p. 415, the household's general pebbles), whether black are the more. */
     val blackTheMore: Boolean get() = plain.count { it.colour == RoundColour.BLACK } > plain.count { it.colour == RoundColour.WHITE }
@@ -105,6 +113,19 @@ data class HouseholdRound(
         RoundRead(family, colour.name, colour == RoundColour.WHITE).takeIf { colour in shown }
 
     companion object {
+        /** The copper vessel's readings in the text's order. */
+        private val VESSELS = listOf("SEVEN_RED", "TWO_BLACK", "FIVE_YELLOW", "FOUR_GREEN", "THREE_BLUE", "WHITE", "NINE_RED")
+
+        private fun vessel(mewa: Int) = when (mewa) {
+            7 -> "SEVEN_RED"
+            2 -> "TWO_BLACK"
+            5 -> "FIVE_YELLOW"
+            4 -> "FOUR_GREEN"
+            3 -> "THREE_BLUE"
+            9 -> "NINE_RED"
+            else -> "WHITE"
+        }
+
         /** The notes (p. 490): not fewer than four; three would give rows too short for three places and a tail. */
         const val FEWEST = 4
 

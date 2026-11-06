@@ -375,7 +375,7 @@ class CatalogTest {
         MatchPlanet.entries.forEach { out += Texts.matchPlanet(it) }
         listOf(true, false).forEach { out += Texts.matchTime(it) }
         listOf("HouseholdGod" to "BLACK RED BLUE_RED GREEN YELLOW WHITE", "HouseholdPeople" to "WHITE BLACK BLUE GREEN RED YELLOW", "HouseholdTail" to "WHITE BLACK YELLOW BLUE RED",
-            "HouseholdHouse" to "WHITE BLACK BLUE_GREEN YELLOW RED", "HouseholdLeftover" to "TWO_WHITE MIXED ONE_BLACK TWO_BLACK BONE WATER GREEN", "HouseholdEnemy" to "HIGH LOW TOP", "HouseholdOmen" to "GODS_ILLNESS DEMONS")
+            "HouseholdHouse" to "WHITE BLACK BLUE_GREEN YELLOW RED", "HouseholdLeftover" to "TWO_WHITE MIXED ONE_BLACK TWO_BLACK BONE WATER GREEN", "HouseholdEnemy" to "HIGH LOW TOP", "HouseholdOmen" to "GODS_ILLNESS DEMONS", "MewaVessel" to "SEVEN_RED TWO_BLACK FIVE_YELLOW FOUR_GREEN THREE_BLUE WHITE NINE_RED")
             .forEach { (family, keys) -> keys.split(' ').forEach { out += Texts.householdRead(RoundRead(family, it, null)) } }
         listOf(true, false).forEach { out += Texts.householdTogether(it, emptyList()) }
         Animal.entries.filter { it != Animal.MONKEY }.forEach { out += Texts.matchSameAnimal(it) }
@@ -785,7 +785,7 @@ class CatalogTest {
             // The reckonings of the time of asking (block 63), written in the shape: no allowance.
             "R8" to listOf("Abroad", "AskingSign"),
             // The household round (block 58), written in the shape: no allowance.
-            "R9" to listOf("HouseholdTogether", "HouseholdGod", "HouseholdPeople", "HouseholdTail", "HouseholdHouse", "HouseholdLeftover", "HouseholdEnemy", "HouseholdOmen"),
+            "R9" to listOf("MewaVessel", "HouseholdTogether", "HouseholdGod", "HouseholdPeople", "HouseholdTail", "HouseholdHouse", "HouseholdLeftover", "HouseholdEnemy", "HouseholdOmen"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 

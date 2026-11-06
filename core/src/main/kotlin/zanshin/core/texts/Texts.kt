@@ -575,6 +575,7 @@ object Sources {
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
+    val WHITE_BERYL_MEWA_VESSEL = whiteBeryl("chapter 29, pp. 54–55, with the notes, p. 502", volume = 2)
     val WHITE_BERYL_DEAD_LATER = whiteBeryl("chapter 29, pp. 75–132, with the notes, pp. 505–517", volume = 2)
     /** The dead's fifth and sixth examinations, the rebirth and help by virtue (ch. 29, pp. 70–72). */
     val WHITE_BERYL_DEAD_REBIRTH = whiteBeryl("chapter 29, pp. 70–72", volume = 2)
@@ -2206,7 +2207,10 @@ object Texts {
     )
 
     /** One reading of the household round (pp. 385–387). */
-    fun householdRead(r: RoundRead): Reading = Reading(key = "reading.${r.family}", arg = "reading.${r.family}.${r.key}", source = Sources.WHITE_BERYL_HOUSEHOLD)
+    fun householdRead(r: RoundRead): Reading = Reading(
+        key = "reading.${r.family}", arg = "reading.${r.family}.${r.key}",
+        source = if (r.family == "MewaVessel") Sources.WHITE_BERYL_MEWA_VESSEL else Sources.WHITE_BERYL_HOUSEHOLD,
+    )
 
     /** The household's pebbles taken together (p. 415), with the Remedy rows of the round's readings gathered. */
     fun householdTogether(blackTheMore: Boolean, remedies: List<String>): Reading = Reading(
