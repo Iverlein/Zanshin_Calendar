@@ -133,6 +133,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
 | [claims/ch28-spring-hand.md](claims/ch28-spring-hand.md) | claim, table | The year read on three spring dates by the moon on the hand | cites wb.2:p26-27, wb.2:p26; feeds block-31 |
+| [claims/ch30-place-verdicts-no-one-rule.md](claims/ch30-place-verdicts-no-one-rule.md) | claim, note | Ch. 30's places have no single verdict rule | cites wb.2:p166; feeds block-60 |
 | [claims/ch32-earth-lords-of-the-vase-praise.md](claims/ch32-earth-lords-of-the-vase-praise.md) | claim, list | Ch. 32: the earth lords praised at the vase, by place and by quarter | cites wb.2:p291-294; feeds — |
 | [claims/ch32-graveyard-order-of-the-kin.md](claims/ch32-graveyard-order-of-the-kin.md) | claim, list | Ch. 32: the order of a family graveyard up the hill | cites wb.2:p276; feeds — |
 | [claims/ch32-ground-signs-when-dug.md](claims/ch32-ground-signs-when-dug.md) | claim, list | Ch. 32: the signs of a dug ground | cites wb.2:p282, wb.2:p283-285; feeds block-31 |
@@ -351,12 +352,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-gold-grid-gyo-khang.md](claims/notes-gold-grid-gyo-khang.md) | claim, note | The gold reckoning's grid: gyo khang on Mipham's own print | cites wb.2:p538-539b; feeds — |
 | [claims/notes-hand-reckoning-three-results.md](claims/notes-hand-reckoning-three-results.md) | claim, definition | The hand reckoning in the Lu manner: phung, klung and kyis | cites wb.2:p538-539b, wb.2:p538-539; feeds — |
 | [claims/notes-karma-reckoning-power-and-list-read.md](claims/notes-karma-reckoning-power-and-list-read.md) | claim, note | The karma reckoning's six words on p. 526 and the power on p. 478, read by eye | cites wb.2:p526, wb.2:p478; feeds block-58 |
+| [claims/notes-p475-marks-no-legend.md](claims/notes-p475-marks-no-legend.md) | claim, note | The notes' p. 475 table prints a cross and a dot with no legend | cites wb.2:p475; feeds block-58 |
 | [claims/notes-p475-table-cells.md](claims/notes-p475-table-cells.md) | claim, table | The notes' worked table at p. 475: the first row and the marks, on two prints | cites wb.2:p475b, wb.2:p475; feeds — |
 | [claims/notes-p484-moon-words.md](claims/notes-p484-moon-words.md) | claim, note | The moon's light and the full moon meeting its mansion: the words of the notes at p. 484 | cites wb.2:p484; feeds — |
+| [claims/notes-p484-ngan-drug-six-bad.md](claims/notes-p484-ngan-drug-six-bad.md) | claim, note | The «ངན་དྲུག» of p. 484 are the six bad stages of rise and decline | cites wb.2:p484; feeds block-58 |
+| [claims/notes-p496-classes-by-surplus.md](claims/notes-p496-classes-by-surplus.md) | claim, note | The illness's classes are named by the surplus of one colour: a third, four, five | cites wb.2:p496; feeds block-58 |
+| [claims/notes-p497-sum-cha-rough-third.md](claims/notes-p497-sum-cha-rough-third.md) | claim, note | «སུམ་ཆ» in the notes' illness example is a rough third | cites wb.2:p497; feeds block-58 |
+| [claims/notes-p503-twenty-count.md](claims/notes-p503-twenty-count.md) | claim, note | The twenty of p. 503 add up with the last group's three | cites wb.2:p503; feeds block-60 |
 | [claims/notes-ratna-secretary.md](claims/notes-ratna-secretary.md) | claim, note | The learned secretary Ratna, read on Mipham's own print | cites wb.2:p538-539b, wb.2:p538b; feeds — |
 | [claims/notes-sroq-ma-ma-gud-pa-three-prints.md](claims/notes-sroq-ma-ma-gud-pa-three-prints.md) | claim, note | The doubled ma of «སྲོག་མ་མ་གུད་པ» stands on all three prints | cites wb.2:p483; feeds block-58 |
 | [claims/notes-thirty-bri-wang-emblems.md](claims/notes-thirty-bri-wang-emblems.md) | claim, list | The thirty 'bri wang: only the starting emblems are given | cites wb.2:p538-539b, wb.2:p538b; feeds — |
 | [claims/notes-trigram-count-fourteen-fifteen.md](claims/notes-trigram-count-fourteen-fifteen.md) | claim, note | Mipham's counts of the trigram remedies and of his thirteen classes: what the arithmetic allows | cites wb.2:p517, wb.2:p104-105; feeds block-31 |
+| [claims/notes-worked-example-six-and-count.md](claims/notes-worked-example-six-and-count.md) | claim, note | The notes' worked example: the six of the 360, and the count through the years lived | cites wb.2:p536-538; feeds block-60 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
@@ -674,7 +681,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 4 passages: 3 scan, 1 machine |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
-| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 10 passages: 8 scan, 2 machine |
+| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 16 passages: 8 scan, 8 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 23 passages: 21 scan, 2 machine |
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 32 passages: 12 scan, 20 machine |
