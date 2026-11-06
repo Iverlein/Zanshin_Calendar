@@ -186,13 +186,21 @@ data class DeadReckoning(
     val nineEye: Int? get() = year.age.takeIf { it in 9..81 && it % 9 == 0 }
 
     /** The old kind named for the dead's sex and year of age (WB vol. 2, pp. 77–79); null where none is, or the sex is not known. */
-    val oldKind: DeadOldKind? get() = year.gender?.let { DeadOldKind.of(it, year.age) }
+    val oldKind: DeadOldKind? get() = year.gender?.takeUnless { notMadeOld }?.let { DeadOldKind.of(it, year.age) }
+
+    /**
+     * One of the old who is not made an old one (WB vol. 2, p. 82): born in a tiger, monkey, pig or snake year on the
+     * two-black mewa and dead on it. The same line's *kham* and *gin* need the birth trigram, which goes by the
+     * mother's age, so they are left out; the blade, the illnesses and the fire and water of pp. 79, 82 are not reckoned.
+     */
+    val notMadeOld: Boolean get() = year.gender?.let { DeadOldKind.old(it, year.age) } == true &&
+        year.birth.animal in NOT_MADE_OLD && year.natalSmeBa == 2 && mewa == 2
 
     /**
      * The sex of an old dead whose age no kind names, read by WB's other round, by companion and son (p. 79; question
      * 309): a man of 61–69, 83 or from 88, a woman of 60, 66 or from 91. Null for the rest.
      */
-    val oldRound: Gender? get() = year.gender?.takeIf { DeadOldKind.old(it, year.age) && oldKind == null }
+    val oldRound: Gender? get() = year.gender?.takeIf { DeadOldKind.old(it, year.age) && !notMadeOld && oldKind == null }
 
     /**
      * The grave-day strike (p. 88): the 6th of each season's first month, the 16th of its middle, the 26th of its
@@ -204,6 +212,8 @@ data class DeadReckoning(
     }
 
     companion object {
+        private val NOT_MADE_OLD = setOf(Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE)
+
         private val DEMON_DAYS = setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY)
 
         /**

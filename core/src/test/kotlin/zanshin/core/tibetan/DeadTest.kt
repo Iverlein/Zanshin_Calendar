@@ -120,4 +120,24 @@ class DeadTest {
         assertNull(young.oldKind)
         assertNull(young.oldRound)
     }
+
+    /** Born and dead on the two-black in a tiger, monkey, pig or snake year: not made an old one (p. 82). */
+    @Test
+    fun `the two-black born and dead is not made an old one`() {
+        val cases = (1880..1960).flatMap { birth -> (birth + 59..birth + 100).filter { it <= 2100 }.map { birth to it } }.mapNotNull { (birth, death) ->
+            DeadReckoning.of(birth, Gender.MALE, TibetanCalendar.of(LocalDate.of(death, 10, 1)), null)
+        }
+        val not = cases.filter { it.notMadeOld }
+        assert(not.isNotEmpty())
+        not.forEach {
+            assertEquals(2, it.year.natalSmeBa)
+            assertEquals(2, it.mewa)
+            assert(it.year.birth.animal in setOf(Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE))
+            assertNull(it.oldKind)
+            assertNull(it.oldRound)
+        }
+        // A two-black birth falls on these four animals only, so the mewa alone decides; under sixty-one the rule does not reach.
+        assert(cases.filter { it.year.natalSmeBa == 2 }.all { it.year.birth.animal in setOf(Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE) })
+        assert(cases.none { it.notMadeOld && it.year.age < 61 })
+    }
 }

@@ -2566,6 +2566,9 @@ object Texts {
     /** The other round of the old, by companion and son, for one of [g] whose age no kind names (WB vol. 2, ch. 29, p. 79). */
     fun deadOldRound(g: Gender): Reading = Reading(key = "reading.DeadOldRound", arg = "reading.DeadOldRound.${g.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
 
+    /** One of the old not made an old one, by the mewa of birth and death (WB vol. 2, ch. 29, p. 82). */
+    fun deadOldNotMade(): Reading = Reading(key = "reading.DeadOldNotMade", arg = "reading.DeadOldNotMade.TWO_BLACK", source = Sources.WHITE_BERYL_DEAD_LATER)
+
     /** The thirteenth examination's rites for a death on the lunar date [d] (WB vol. 2, ch. 29, pp. 116–118). */
     fun deadRitesDate(d: Int): Reading = Reading(key = "reading.DeadRitesDate", arg = "reading.DeadRitesDate.$d", source = Sources.WHITE_BERYL_DEAD_LATER)
 
