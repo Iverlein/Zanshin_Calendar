@@ -1497,3 +1497,5 @@ Searched and found wanting, so not to be repeated:
   - A better scan of the 1996 print's p. 328 for Aśvinī's numeral: none in the cache (the Sde dge copy I1KG12740 holds 11 images).
 - **RD169b (2026-11-06)** (RD169, 2026-11-06):
   - The root book of the Clear Lamp's five topics (MW2PD17476_B43210; manuscript I4PD636 img. 414–415): cursive dbu med at 1400 px, not readable at 3×; needs a reader of the script.
+- **RD183b (2026-11-06)** (RD183, 2026-11-06):
+  - The woodcut's left edge on Taikhang img. 402 at 2× in rotated crops: only the position of four words, none readable; the circles likewise; one agy call on the right-edge strip gave no answer in 11 minutes.

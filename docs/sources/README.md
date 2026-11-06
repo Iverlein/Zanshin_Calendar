@@ -689,7 +689,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 13 passages: 7 scan, 1 machine, 5 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 65 passages: 21 scan, 37 machine, 7 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 67 passages: 23 scan, 37 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
@@ -914,7 +914,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | answered; cites wb.2:p283-285, wb.2:p291-294 |
 | [questions/q0465.md](questions/q0465.md) | question q465 | Which earth lords of the date follow the Black Moon on pp. 361–363, and in what order | open; cites wb.2:p362-363 |
 | [questions/q0466.md](questions/q0466.md) | question q466 | Does the machine's order of hours against animals on pp. 360–361 hold on the scan | open; cites wb.2:p360-361, wb.2:p358-359 |
-| [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | open; cites wb.2:p366-368 |
+| [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | answered; cites wb.2:p366-368 |
 | [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | answered; cites wb.2:p370 |
 | [questions/q0469.md](questions/q0469.md) | question q469 | Is the east line's «དང་» of the door table on p. 287 the first place cut short, and from which side are the places counted | open; cites wb.2:p287 |
 | [questions/q0470.md](questions/q0470.md) | question q470 | Which places do the nine numbers 17–25 after the hal khyi's mothers and sons count on p. 185 | open; cites wb.2:p185e |
