@@ -125,6 +125,7 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
 | <a id="block-68"></a>68 | [R2](#r) Who is not made an old one — built 2026-11-06 | — (read: RD33) | [66](#block-66) | Built: the old born and dead on the two-black, p. 82, a row in place of the kind. |
 | <a id="block-67"></a>67 | [K5](#k5) The 大将軍's outings as a daily row — built 2026-11-06 | — (read: RD92, RD172) | [54](#block-54) | Built: the 大将軍's day by the 暦林問答集 §54 under 天一神's row, its five-day outings and its own place. |
 | <a id="block-66"></a>66 | [R2](#r) The old dead's kinds and what cuts the father by the clan — built 2026-11-06 | — (read: RD33, RD164, RD174) | [31](#block-31) | Built: the nine rounds of the old by sex and year of age, the ages they leave read by WB's other round (q309), and in The clan the birth's month and year that overcome the clan's element (p. 349, q566). |
@@ -4596,6 +4597,14 @@ groups it shows (`tools/emulator/store_shots.py`).
   *mche ser ma*). The departure's gold and turquoise treasuries and the
   bride's *ko long* stay out: q605 and q643 name them, but no text gives a
   day or seat they fall on (claim departure-singled-out-lords-by-time).
+- **R2ac The mewa's copper vessel — built 2026-11-06** (block 69; SPEC
+  §5.9.10): `HouseholdRound.vesselReads`, family `MewaVessel`, in the
+  household round, its remedies in the Together's. Stated choices: "many" is
+  half of the members or more, and the household stands for WB's paternal
+  kin. Words unsettled on the scan are left out (the corpse's kind in the
+  yellow line, the blue's ox rites and *lhog pa*). Not built: the same pages'
+  years counted together (cut-off, power, mother, friend), which need the
+  clan.
 - **R2ab Who is not made an old one — built 2026-11-06** (block 68): p. 82's
   two-black born and dead, `notMadeOld`, family `DeadOldNotMade`. A two-black
   birth year falls on the four named animals only, so the verse's animals

@@ -1839,6 +1839,12 @@ household's trigrams.
 The screen (§10.11): "The household round" in the Reckonings list ("6 of
 the household in the round"), stepped by year as the year of age is.
 
+
+**The mewa's copper vessel** (WB vol. 2, pp. 54–55; the notes, p. 502;
+`HouseholdRound.vesselReads`, family `MewaVessel`): where half of the members
+or more share a birth mewa, its cause and rite, the three whites as one. WB
+says one paternal kin and "many"; the household and the half are stated
+choices. Words unsettled on the scan are left out.
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*
