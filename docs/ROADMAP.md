@@ -2081,6 +2081,12 @@ verdict, and the owner's decisions of 2026-10-10:
 - The day by the clan's element (*rus chen*, WB ch. 31, p. 225): it needs
   a Tibetan patrilineal clan, which the app's readers do not have, and WB
   confines it to reckoning for the dead.
+- Whatever needs the clan of the dead or of a relative (the owner,
+  2026-11-06: only Tibetans have one, and 2026-10-15): the death's eye's
+  thirteen root pebbles and verdict, the years counted together on the
+  same pages (cut-off, power, mother, friend), the clans' strikes of
+  p. 114. No decision waits here; a reckoning that asks the clan goes
+  without it.
 - KP box 47 (averting rites, every entry a kind of rite) and KP's charts
   (SPEC §5.10).
 - Rāhu's course by the hour on the hours panel: the text names times of
