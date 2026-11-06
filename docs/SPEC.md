@@ -1123,7 +1123,13 @@ relation's) and a whole date of death (`DeadReckoning`, core
   88, a woman of 60, 66 or from 91) reads WB's other round, by companion and
   son (p. 79; family `DeadOldRound`, the three cases listed since neither is
   recorded). A woman of 70–90 but 72 is the unguarded old one, WB's general
-  name for those years, a stated choice over q309's other round. One of the old born and dead on the two-black
+  name for those years, a stated choice over q309's other round. The eleventh examination, the death's eye (p. 94; `DeadReckoning.eyeLooks`,
+  families `DeadEye`, `DeadEyeLooks`): the bird's sending place by the trigram
+  of death, and by name the person and relatives living at the death of the
+  dead's year animal or its seventh. Left out: its thirteen root pebbles,
+  which need the clan, the four executioners upward and five in accord
+  downward and the same trigram seat, which the verse does not fix, and the
+  joined hands. One of the old born and dead on the two-black
   is not made one (p. 82, `DeadReckoning.notMadeOld`, family
   `DeadOldNotMade`): that row stands in place of the kind. The same line's
   *kham* and *gin* need the birth trigram and stay out; the way of dying is

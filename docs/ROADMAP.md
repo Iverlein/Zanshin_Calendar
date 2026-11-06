@@ -125,6 +125,7 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
 | <a id="block-68"></a>68 | [R2](#r) Who is not made an old one — built 2026-11-06 | — (read: RD33) | [66](#block-66) | Built: the old born and dead on the two-black, p. 82, a row in place of the kind. |
 | <a id="block-67"></a>67 | [K5](#k5) The 大将軍's outings as a daily row — built 2026-11-06 | — (read: RD92, RD172) | [54](#block-54) | Built: the 大将軍's day by the 暦林問答集 §54 under 天一神's row, its five-day outings and its own place. |
@@ -4597,6 +4598,12 @@ groups it shows (`tools/emulator/store_shots.py`).
   *mche ser ma*). The departure's gold and turquoise treasuries and the
   bride's *ko long* stay out: q605 and q643 name them, but no text gives a
   day or seat they fall on (claim departure-singled-out-lords-by-time).
+- **R2ad The death's eye, in part — built 2026-11-06** (block 70): p. 94's
+  eight places, `eyeLooks`, `Reckonings.deathEye`, families `DeadEye`,
+  `DeadEyeLooks`. Not built: its thirteen root pebbles and verdict (the
+  clan), the four executioners upward and five in accord downward and the
+  same trigram seat (the verse fixes no count or year), the joined hands,
+  the venomous year roots.
 - **R2ac The mewa's copper vessel — built 2026-11-06** (block 69; SPEC
   §5.9.10): `HouseholdRound.vesselReads`, family `MewaVessel`, in the
   household round, its remedies in the Together's. Stated choices: "many" is
@@ -4622,7 +4629,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   father: earth trigram, mewa 3, Venus's day, the 4th). No release build:
   no enum added. Not built: the mansions' portents (gaps in their
   table; the old dead's kinds built 2026-11-06, block 66), the strikes that need the
-  household, the death's eye, the funeral share and feast, the remains'
+  household, the funeral share and feast, the remains'
   roads and earth lords.
 - **R2w The moment's later reckonings — built 2026-10-25** (SPEC §5.9.5,
   D24): wealth, illness and harming spirit by the moment's element, the
