@@ -1052,13 +1052,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | answered; cites wb.1:p453-454 |
 | [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | open; cites ys:i513-514 |
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
-| [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | open; cites wb.1:p373-375 |
+| [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | answered; cites wb.1:p373-375 |
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | answered; cites sdp:p238-241 |
 | [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | answered; cites wb.2:p241 |
 | [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | open; cites wb.2:p305 |
-| [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | open; cites wb.2:p335-336, wb.2:p341-342 |
-| [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | open; cites wb.2:p305-307 |
+| [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | answered; cites wb.2:p335-336, wb.2:p341-342 |
+| [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | answered; cites wb.2:p305-307 |
 | [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | open; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | open; cites — |
 | [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | open; cites — |

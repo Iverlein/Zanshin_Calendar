@@ -1471,3 +1471,8 @@ Searched and found wanting, so not to be repeated:
 - **RD176, ch. 33's mansion verses (2026-11-06)** (RD176, 2026-11-06):
   - «ཆུ་ཀ་ལེན» and «ཆུ་ཀ» as a word: no hit in the Zhol etext (img. 1030–1110) except «རྐལེན» in this line.
   - The 1996 print's own scan for Aśvinī's numeral: 687 px wide, not legible.
+- **RD177, the meanings left open in ch. 33 and the notes (2026-11-06)** (RD177, 2026-11-06):
+  - «ཆུབ་ཉི» in WB, KD vol. 3, LT, UT, ZG and the Bhutan collection: WB (p. 335, tables of pp. 341–342) and the Bhutan digest (etext p. 421) only; none glosses it.
+  - «ཐུན་ཀུང», «ཐུན་ཀླུང», «ཐུན་ཀུངས», «ཐུན་གུང» in the same etexts: no hit but WB's own line.
+  - «དོ་གཅིག» besides WB and the notes: no definition. «རྒྱུག་དྲུག», «སྤུད་པ་དགུ» as a gloss: none.
+  - The departure's seven lords with a day or a grade, in LT, UT, KD vol. 3 and the Bhutan digest: no text says 'of the date'.
