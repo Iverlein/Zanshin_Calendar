@@ -125,6 +125,7 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-67"></a>67 | [K5](#k5) The 大将軍's outings as a daily row — built 2026-11-06 | — (read: RD92, RD172) | [54](#block-54) | Built: the 大将軍's day by the 暦林問答集 §54 under 天一神's row, its five-day outings and its own place. |
 | <a id="block-66"></a>66 | [R2](#r) The old dead's kinds and what cuts the father by the clan — built 2026-11-06 | — (read: RD33, RD164, RD174) | [31](#block-31) | Built: the nine rounds of the old by sex and year of age, the ages they leave read by WB's other round (q309), and in The clan the birth's month and year that overcome the clan's element (p. 349, q566). |
 
 ## Readings
@@ -645,6 +646,12 @@ as a dead end (sources/PLAN.md).
   恵方 and the eight rows (SPEC §10.4). Font subset rebuilt (the gods'
   kanji, and 78 characters missing since earlier blocks). Checked on the
   emulator in English and Russian, at font scale 2.0 and in landscape.
+- **The 大将軍's outings decided and built 2026-11-06** (the owner: a
+  daily row, by the 暦林問答集; block 67): `Daishogun`, §54's five-day
+  outings with MS's 丙子, its own place from `YearGods` on the other days,
+  under 天一神's row. The 1937 book's six days set aside. Font subset
+  rebuilt for 宮. Checked: `DaishogunTest`, `CatalogTest`, the emulator in
+  English and Russian on an outing, inside the house and at home.
 - **D9's open points decided 2026-10-31** (the owner, on RD93 and RD94):
   "show" 金神 from the 簠簋内伝, and "add" the daily 天一 row. **Built the
   same day**: `YearGods.konjin`, §5's four directions by the year's stem,

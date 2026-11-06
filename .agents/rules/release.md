@@ -42,7 +42,9 @@ On every merge of a feature, in the same branch:
    shows them from the next release's build, the website at once.
    Write sentences a person would say, not a list of nouns: a new reckoning
    joins its item in a sentence or two, the full inventory stays in the
-   README. Before merging, run `prose-scan --profile detector --allow рокуё` on
+   README. The two languages say the same things: what one names, the other
+   names (the owner, 2026-11-06), so a detector's score is lowered by the
+   wording, never by dropping content. Before merging, run `prose-scan --profile detector --allow рокуё` on
    the Russian listing and the rendered page through
    `ai-check --cuts 1500,1300,1100`, as Sapling's score moves with where the text
    is cut, and read Scribbr and ZeroGPT beside it; `ai-check --ablate` finds the

@@ -26,7 +26,7 @@ Zanshin Calendar opens on today and shows it as a Tibetan almanac or the old Jap
 <li>The date: month and day with the moon's age and phase, the rokuyō (六曜), and the current solar term (二十四節気) with its reading and the ring of all 24.</li>
 <li>The middle band: the twelve stations (十二直), plus the lunar lodge (二十八宿) and the day's star of the nine (九星).</li>
 <li>The lower band: lucky and unlucky days (暦注下段) and the selected days (選日), such as 天赦日, 一粒万倍日, 不成就日 and 三隣亡. Where the 暦林問答集 of 1414 speaks of a day, its reading is the one you see.</li>
-<li>Seasons and directions: seasonal markers (雑節), festivals and the signs of the day and year (干支). The lucky direction of the year (恵方), the year's eight direction gods (八将神) and 金神 stand on a compass, next to the direction 天一神 takes that day.</li>
+<li>Seasons and directions: seasonal markers (雑節), festivals and the signs of the day and year (干支). The lucky direction of the year (恵方), the year's eight direction gods (八将神) and 金神 stand on a compass, next to the direction 天一神 takes that day and where the 大将軍 is that day.</li>
 <li>Choose a day: the days the annotations call good for a work, in date order, with the disputed days set apart.</li>
 </ul>
 

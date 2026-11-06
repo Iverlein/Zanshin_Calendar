@@ -2930,6 +2930,7 @@ also counts 庚申 and 己巳 among the 選日; the app lists each day once, und
 | 八将神 | by the branch of the year from 立春 (the eight gods below) |
 | 金神 | by the stem of the year from 立春, from the 簠簋内伝 (below) |
 | 天一神 | by the day's 干支, its direction on the forty-four days and 天上 on the sixteen (below) |
+| 大将軍 | by the day's 干支, its outing on twenty-five days, its own place on the rest (below) |
 
 **The year's eight direction gods** (八将神, ROADMAP K5, D9; `YearGods`;
 [sources/kyureki.md](sources/kyureki.md), RD92), the printed almanac's
@@ -2962,6 +2963,17 @@ shunned", with its wanderings by the 寅 days and by the seasons (§7, §8)
 and its free days (§9) as rows; no lists, and nothing is computed by
 the day (the text gives no season boundaries, and §7 and §8 can
 disagree, question 499).
+
+**The 大将軍's day** (the owner's choice of 2026-11-06, the 暦林問答集's
+five days over the 1937 book's six; `Daishogun`; RD92, RD172): §54, with
+MS's 丙子 for GR's misprint: 甲子 to 戊辰 to 卯, 丙子 to 庚辰 to 午, 戊子 to 壬辰
+into 中宮, inside the house, 庚子 to 甲辰 to 酉, 壬子 to 丙辰 to 子; on each 巳
+day it returns, and until the next outing it stands in its year's place
+(`YearGods`, from 立春). While it is out its own direction is free, the
+direction it went to greatly bad. An outing to the direction it already
+holds, which §54 does not settle (question 490), leaves that direction
+barred. Its row stands under 天一神's, with a compass but inside the house;
+no lists (`DaishogunTest`, the five outings and the 巳 days).
 
 **天一神's daily direction** (the owner's choice of 2026-10-31, D9;
 `Tenichi`; RD94), the 暦林問答集 §53, the 江次第抄 the same: from 己酉
