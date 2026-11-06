@@ -1419,3 +1419,9 @@ Searched and found wanting, so not to be repeated:
   - BDRC full-text: «སྐབས་དོན་ལྔ་ལས», «སྐབས་དོན་ལྔ་པོ», «བྱི་སྐོར་ནང་སྐོར», «གཏོང་ཤེས་རྒྱུད»: no hit; «སྐབས་གསུམ་བཞིར་བགོས», «བསྡོམས་པས་བཞི་བརྒྱ་བཞི་བཅུར་བཞེད», «བརྩི་བྱ་གཅོད་འདྲལ», «དམར་ནག་སོགས་ཆེས་ཟབ», «གཏོང་ཤེས་ལས་བཤད»: only the White Beryl's prints.
   - The five topics of the root in the Beijing, Sde-dge and Zhol prints, KD, *Removing the Tarnish*, I1KG21886: the phrase occurs, no list.
   - Reprint I3CN5028 img. 119–130 (vol. 1 pp. 112–123): tables and woodcuts, not the colophon of ch. 12.
+- **RD166, the Moonbeams and the replies (2026-11-06)** (RD166, 2026-11-06):
+  - «ར་བར» as a placing of a pebble in the etexts of KD vol. 3, WB vols. 1 and 2, LT, the replies and the Bhutan digest: only this verse and the digest's copy.
+  - «ངན་ཐ་ཆད», «ཐ་ཆད་ངན», «ཚེ་རྩིས་ངན», «དཔྱད་འགོག», «རྦད་ཁམ» in the same etexts: none.
+  - «ཞག་འཕོ», «ཞག་བརྗེ», «ནམ་ཕྱེད» with «ཞག», «ནུབ་མོ» with «ནད» and «ཞག» (where the day of falling ill turns): none.
+  - «སུམ་ཆ་སུམ་གཉིས» as a split of the elements: none beside the children's third in WB p. 369.
+  - A Steinert clone for «བསྔོས་ཚང», «བསྡུས་ཚད», «རྟ་ཞག»: not on the machine.
