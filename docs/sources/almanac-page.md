@@ -714,7 +714,7 @@ What the eye can say: at all six places the subjoined letter is the same closed 
 
 ### Open
 
-- Question: at the six places of the run of deaths on the Taikhang (p. 105, l. 15; p. 106, ll. 2 and 15; p. 108, ll. 11, 24, 26) the subjoined letter under the ས is a closed box with a stem, the same at all of them: does a reader of this cursive take that box for ག, or can ཀ be written so in this hand?
+- Question 594 ([q594](questions/q0594.md)), narrowed: at the six places of the run of deaths on the Taikhang (p. 105, l. 15; p. 106, ll. 2 and 15; p. 108, ll. 11, 24, 26) the subjoined letter under the ས is a closed box with a stem, the same at all of them: does a reader of this cursive take that box for ག, or can ཀ be written so in this hand?
 
 ### Searched and not found
 

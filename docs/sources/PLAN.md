@@ -1398,3 +1398,5 @@ Searched and found wanting, so not to be repeated:
 - **RD151, «ཡི་བམ» and the stack before «ཁམ» (2026-11-06)** (RD151, 2026-11-06):
   - A reading of ya against la in the Taikhang hand from a certain ya elsewhere on img. 514: none made; a dated sheet with several of each, cut from img. 513–514, would settle it.
   - A second print of the replies (Zhol print or etext of I5875) to compare: none in the cache.
+- **RD150, the six places of «ཤི་སྒབ» (2026-11-06)** (RD150, 2026-11-06):
+  - A ཀ-stack («སྐ») of the same hand on img. 161, 162, 165 or 166 to set beside the six places: none turned up in the crops.
