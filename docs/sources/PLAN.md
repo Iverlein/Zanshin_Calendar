@@ -1409,3 +1409,5 @@ Searched and found wanting, so not to be repeated:
   - A table of the birth's hundred with a legend for the cross and the dot: not in the *Moonbeams* (I2533 img. 035–037, sentences only); the *Little Red Tiger-Head* is not in the registry and was not searched.
   - «གནས་སྐྱུག» / «གནས་སྒྱུག»: the Sakya and Zhol etexts have neither form at those places (`locate.py find`); the Gser thang reprint's stacks are blotted at 3.5×.
   - A text giving the twenty's last group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» a year of its own: none (as RD58).
+- **RD165, ch. 28 and ch. 30 (2026-11-06)** (RD165, 2026-11-06):
+  - «ཐུན་ཀུང», «ཀྲུང་ཞེས», «དོ་གཅིག་གི་ལོ», «ཡམས་སྐུད», «ཀླུམ་མནན», «གྲུམ་མནན», «དུས་ལོའི་སྨེ་བ», «ཤོལ་པོ», «རྐང་ཕྲན་ནག», «བླ་ལྷོར» in the regent's replies (I5876) and the Bhutan collection (I1KG11905): no hit but the unrelated «ཉ་དྲུག» of etext p. 364 and «བླ་འཁྱམས» of p. 394.

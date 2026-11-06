@@ -752,7 +752,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | answered; cites wb.2:p490-491 |
 | [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | open; cites wb.2:p26, wb.2:p537 |
 | [questions/q0322.md](questions/q0322.md) | question q322 | The parts of the hand of stars on p. 28's figure | open; cites wb.2:p26-27, wb.2:p27-28 |
-| [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | open; cites wb.2:p27-28 |
+| [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | answered; cites wb.2:p27-28 |
 | [questions/q0324.md](questions/q0324.md) | question q324 | «ནམ་མཇུག», the tail of the year, and the bird «འོལ་བ» | open; cites wb.2:p27-28, wb.2:p28-29, wb.2:p29-30 |
 | [questions/q0325.md](questions/q0325.md) | question q325 | The sky-bird's parts and «སོ་གཉིས་བར་དུ» | open; cites wb.2:p29-30 |
 | [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
@@ -985,7 +985,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0553.md](questions/q0553.md) | question q553 | Why does the second column of the first group on KD vol. 3 p. 724 carry one black pebble | open; cites — |
 | [questions/q0554.md](questions/q0554.md) | question q554 | Is KD's Chinese title the one Kun dga' rig 'dzin's register entry means | open; cites — |
 | [questions/q0555.md](questions/q0555.md) | question q555 | The second and third result names «ཀླུང» and «ཀྱཱིས» on Mipham's print | open; cites — |
-| [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | open; cites — |
+| [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | answered; cites — |
 | [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
 | [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | open; cites wb.2:p215 |
 | [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
@@ -1081,6 +1081,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | open; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | open; cites wb.2:p328-329 |
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
+| [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
+| [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | open; cites wb.1:p317 |
 
 <!-- end pool index -->
 
