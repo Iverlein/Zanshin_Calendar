@@ -851,7 +851,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0412.md](questions/q0412.md) | question q412 | Does ch. 23's rule of joining good and bad «ཐམས་ཅད་ཀུན་ལ» reach the earth lords? | answered; cites wb.1:p370 |
 | [questions/q0413.md](questions/q0413.md) | question q413 | What are KP's «འགྲོ་བདེ་གཉིས», and does screening a bad planet-mansion meeting leave its result? | open; cites kp:i14 |
 | [questions/q0414.md](questions/q0414.md) | question q414 | Are the earth lords' screenings after KP's weighing applied whatever the weighing gives? | answered; cites kp:i14 |
-| [questions/q0415.md](questions/q0415.md) | question q415 | Does the supplement set the sky dog above the other nine checks of a bride's going? | open; cites kd.3:p641-642 |
+| [questions/q0415.md](questions/q0415.md) | question q415 | Does the supplement set the sky dog above the other nine checks of a bride's going? | answered; cites kd.3:p641-642 |
 | [questions/q0416.md](questions/q0416.md) | question q416 | DZ «སྣ་ཚོགས་བྱ» or KD's «སྣ་ཆོག་བྱ», the nose rite: which is meant? | answered; cites dz:i045 |
 | [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | answered; cites — |
 | [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
@@ -986,7 +986,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | answered; cites — |
-| [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | open; cites — |
+| [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | answered; cites — |
 | [questions/q0551.md](questions/q0551.md) | question q551 | Which Sanskrit yogas are WB's good «self-born three, five, seven and two, eight, six» | open; cites — |
 | [questions/q0552.md](questions/q0552.md) | question q552 | The colour words in the cells of the seven members' round on KD vol. 3 p. 726 and at 19 | open; cites — |
 | [questions/q0553.md](questions/q0553.md) | question q553 | Why does the second column of the first group on KD vol. 3 p. 724 carry one black pebble | open; cites — |
@@ -1099,6 +1099,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | open; cites — |
 | [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | open; cites — |
 | [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | open; cites — |
+| [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | open; cites — |
+| [questions/q0664.md](questions/q0664.md) | question q664 | UT's keying of harms to the fifteen places: a restatement of WB p. 172's counts? | open; cites — |
+| [questions/q0665.md](questions/q0665.md) | question q665 | Is Sprugtön's general verdict pebble outside the colophon's 75? | open; cites — |
+| [questions/q0666.md](questions/q0666.md) | question q666 | WB vol. 1 p. 65: the true sun and the nearer node differ by one mansion at most? | open; cites — |
+| [questions/q0667.md](questions/q0667.md) | question q667 | Who dropped the 24th from the moxa dates of KL's six? | open; cites — |
 
 <!-- end pool index -->
 

@@ -1440,3 +1440,9 @@ Searched and found wanting, so not to be repeated:
   - 岡部一德's own text or any record of it: Kyoto, Tohoku, Tokyo records and a web search; only 保己一's copy.
   - 馬場真理子's 2024 article on the 暦略註 and her 2017 one on the 暦林問答集: bibliographic records only, no full text reachable.
   - The 高島暦 of today: not seen.
+- **RD179, ch. 27's reckonings (2026-11-06)** (RD179, 2026-11-06):
+  - A text with KL's six moxa dates as numbers: BDRC full text, «ཚེས་གཅིག་དྲུག་བཅོ་ལྔ་བཅོ་བརྒྱད», «བཅོ་ལྔ་བཅོ་བརྒྱད་ཉེར་གཉིས་སུམ་ཅུ», «གཏར་བསྲེག་ཚེས་གཅིག་དྲུག»: none; «ཚེས་གཅིག་དྲུག་བཅོ་བརྒྱད» five hits and «ཉེར་གཉིས་ཉེར་བཞི་ཉ་སྟོང» seven, the Blue Beryl's list with the 24th.
+  - Mercury or Venus beside the sun's eclipse other than the Seven Special Qualities: only WB p. 64 and the pool's known witness.
+  - The Black Moon's own course among the date's earth lords: none in ch. 31's twenty-seven.
+  - A text laying out the meadow's ornament leaves besides WB, the Moonbeams, ZG and KD: none («སྤང་རྒྱན་ལོ་མ» in WB and UT).
+  - «སྤྲུག་སྟོན» / «སྒྲུག་སྟོན» in UT and WB: names only.
