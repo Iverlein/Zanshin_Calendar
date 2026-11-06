@@ -1395,3 +1395,6 @@ Searched and found wanting, so not to be repeated:
 - **RD164, the Bhutan digest (2026-11-05)** (RD164, 2026-11-05):
   - The digest (Bhutan collection etext, img. 479–601) has none of these in WB's sense: the road omens, the colophon's names, «དགྲ་དར», «དགྲ་ལོ», «ཆད་ཆེན», «བླ་རྡེ», the blades, the speckled parts, the verses of pp. 70 and 80, the list of p. 92, «རྡེལ་དོན», «ངོས་རྡེལ», «ཞེ་གསུམ»: the terms are in reckonings.md, RD164.
   - «བྱ་འུ» as a mansion in the collection, LT, UT, I4949, the regent's replies and the Zhol print: the verse of bad mansions and the list at img. 259 only, neither with a number.
+- **RD151, «ཡི་བམ» and the stack before «ཁམ» (2026-11-06)** (RD151, 2026-11-06):
+  - A reading of ya against la in the Taikhang hand from a certain ya elsewhere on img. 514: none made; a dated sheet with several of each, cut from img. 513–514, would settle it.
+  - A second print of the replies (Zhol print or etext of I5875) to compare: none in the cache.

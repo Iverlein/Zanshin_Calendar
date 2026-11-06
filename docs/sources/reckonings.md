@@ -2660,8 +2660,8 @@ The digest has no count lines: none of «རྡེལ་དོན», «ངོས
 
 ### Open
 
-- Question: In reply 152 (I5875 img. 514, l. 3, page x about 2,300–2,720), is the first letter of the stack with gigu before «བམ» a ya or a la, given that the hand writes both with the same hook-and-loop, so that «ཡི་བམ» may simply be «ལི་ཁམ» written fast?
-- Question: In reply 140 (I5875 img. 498, l. 2 of the strip, page x about 4,850–5,050), does the long stroke at the right of the ra-headed stack before «ཁམ» belong to the stack as a suffix da (so «རྦད»)?
+- Question 603 ([q603](questions/q0603.md)), narrowed: in reply 152 (I5875 img. 514, l. 3, page x about 2,300–2,720), is the first letter of the stack with gigu before «བམ» a ya or a la, given that the hand writes both with the same hook-and-loop, so that «ཡི་བམ» may simply be «ལི་ཁམ» written fast?
+- Question 604 ([q604](questions/q0604.md)), narrowed: in reply 140 (I5875 img. 498, l. 2 of the strip, page x about 4,850–5,050), does the long stroke at the right of the ra-headed stack before «ཁམ» belong to the stack as a suffix da (so «རྦད»)?
 
 ### Searched and not found
 
