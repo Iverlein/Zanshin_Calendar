@@ -54,7 +54,10 @@ import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.Daishogun
+import zanshin.core.kyureki.HasshoGod
 import zanshin.core.kyureki.Tenichi
+import zanshin.core.kyureki.YearGods
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Reading
@@ -354,6 +357,34 @@ fun KyurekiPage(
                 ),
                 lead = tenichi?.let { t -> { Compass(t.bearing, 56.dp, tenichiCompass!!, Palette.bad) } },
                 diagram = tenichi?.let { t -> { DiagramFrame { Compass(t.bearing, 160.dp, tenichiCompass!!, Palette.bad) } } },
+            ),
+        ) { sheet = it }
+        // The 大将軍's day, out or in its own place, the 暦林問答集 §54 (ROADMAP K5: the owner's choice of 2026-11-06).
+        val own = YearGods.branchOf(HasshoGod.DAISHOGUN, YearGods.yearBranch(rk.date))
+        val ownDirection = Daishogun.direction(own).english
+        val outing = Daishogun.outing(rk.dayKanshi)
+        val shogunLine = when {
+            outing == null -> stringResource(R.string.kyu_shogun_home, ownDirection)
+            outing.branch == null -> stringResource(R.string.kyu_shogun_house)
+            else -> stringResource(R.string.kyu_shogun_out, outing.direction.english)
+        }
+        val shogunBearing = if (outing == null) own * 30 else outing.bearing
+        AnnotationRow(
+            Annotation(
+                "大将軍",
+                shogunLine,
+                Tone.BAD,
+                Texts.DAISHOGUN,
+                subtitle = when {
+                    outing == null -> stringResource(R.string.kyu_shogun_own, Kanshi.branchKanji(own), ownDirection)
+                    Daishogun.frees(outing, own) -> stringResource(
+                        R.string.kyu_shogun_free, outing.kanji, outing.branch?.let { outing.direction.english } ?: stringResource(R.string.kyu_shogun_inside),
+                        outing.stay.first.kanji, outing.stay.second.kanji, ownDirection,
+                    )
+                    else -> stringResource(R.string.kyu_tenichi_stay, outing.kanji, outing.direction.english, outing.stay.first.kanji, outing.stay.second.kanji)
+                },
+                lead = shogunBearing?.let { b -> { Compass(b, 56.dp, shogunLine, Palette.bad) } },
+                diagram = shogunBearing?.let { b -> { DiagramFrame { Compass(b, 160.dp, shogunLine, Palette.bad) } } },
             ),
         ) { sheet = it }
     }

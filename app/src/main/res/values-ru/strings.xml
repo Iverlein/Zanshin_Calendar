@@ -192,6 +192,12 @@
     <string name="kyu_tenichi_heaven">Тэнъити-дзин сегодня: на небе</string>
     <string name="kyu_tenichi_stay">%1$s — %2$s · с %3$s по %4$s</string>
     <string name="kyu_tenichi_above">на небе</string>
+    <string name="kyu_shogun_out">Великий полководец сегодня: вышел на %1$s</string>
+    <string name="kyu_shogun_house">Великий полководец сегодня: внутри дома</string>
+    <string name="kyu_shogun_home">Великий полководец сегодня: дома, %1$s</string>
+    <string name="kyu_shogun_inside">внутри дома</string>
+    <string name="kyu_shogun_own">%1$s — %2$s · его место в этом году</string>
+    <string name="kyu_shogun_free">%1$s — %2$s · с %3$s по %4$s · его сторона %5$s свободна</string>
     <string name="desc_tenichi_compass">Компас направления Тэнъити-дзина сегодня: %1$s</string>
     <string name="year_gods_konjin">%1$s · по стволу года %2$s</string>
     <string name="year_gods_title">Направления года</string>

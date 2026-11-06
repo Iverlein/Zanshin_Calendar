@@ -230,6 +230,12 @@
     <string name="kyu_tenichi_heaven">Ten\'ichi-jin today: in heaven</string>
     <string name="kyu_tenichi_stay">%1$s — %2$s · from %3$s to %4$s</string>
     <string name="kyu_tenichi_above">in heaven</string>
+    <string name="kyu_shogun_out">Great general today: gone to the %1$s</string>
+    <string name="kyu_shogun_house">Great general today: inside the house</string>
+    <string name="kyu_shogun_home">Great general today: at home in the %1$s</string>
+    <string name="kyu_shogun_inside">inside the house</string>
+    <string name="kyu_shogun_own">%1$s — %2$s · its own place this year</string>
+    <string name="kyu_shogun_free">%1$s — %2$s · from %3$s to %4$s · its own %5$s free</string>
     <string name="desc_tenichi_compass">Compass of Ten\'ichi-jin\'s direction today: %1$s</string>
     <string name="year_gods_konjin">%1$s · by the year\'s stem %2$s</string>
     <string name="year_gods_title">The year\'s directions</string>
