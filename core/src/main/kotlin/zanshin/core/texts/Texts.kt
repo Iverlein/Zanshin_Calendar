@@ -2570,6 +2570,12 @@ object Texts {
     /** The other round of the old, by companion and son, for one of [g] whose age no kind names (WB vol. 2, ch. 29, p. 79). */
     fun deadOldRound(g: Gender): Reading = Reading(key = "reading.DeadOldRound", arg = "reading.DeadOldRound.${g.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
 
+    /** The bird's sending place of the death's eye by the trigram of death [t] (the eleventh examination, WB vol. 2, ch. 29, p. 94). */
+    fun deadEye(t: Trigram): Reading = Reading(key = "reading.DeadEye", arg = "reading.DeadEye.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The living the death's eye looks at (WB vol. 2, ch. 29, p. 94). */
+    fun deadEyeLooks(): Reading = Reading(key = "reading.DeadEyeLooks", arg = "reading.DeadEyeLooks.LOOKS", source = Sources.WHITE_BERYL_DEAD_LATER)
+
     /** One of the old not made an old one, by the mewa of birth and death (WB vol. 2, ch. 29, p. 82). */
     fun deadOldNotMade(): Reading = Reading(key = "reading.DeadOldNotMade", arg = "reading.DeadOldNotMade.TWO_BLACK", source = Sources.WHITE_BERYL_DEAD_LATER)
 

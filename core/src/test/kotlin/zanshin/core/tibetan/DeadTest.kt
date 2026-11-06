@@ -140,4 +140,12 @@ class DeadTest {
         assert(cases.filter { it.year.natalSmeBa == 2 }.all { it.year.birth.animal in setOf(Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE) })
         assert(cases.none { it.notMadeOld && it.year.age < 61 })
     }
+
+    /** The death's eye (p. 94): the living of the dead's year animal and of its seventh. */
+    @Test
+    fun `the death's eye looks at the same animal and its seventh`() {
+        val r = DeadReckoning.of(1906, Gender.MALE, TibetanCalendar.of(LocalDate.of(1995, 10, 15)), null)!!
+        assertEquals(Animal.HORSE, r.year.birth.animal)
+        assertEquals(setOf(Animal.HORSE, Animal.MOUSE), Animal.entries.filter { r.eyeLooks(it) }.toSet())
+    }
 }

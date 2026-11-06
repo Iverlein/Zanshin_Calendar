@@ -185,6 +185,13 @@ data class DeadReckoning(
      */
     val nineEye: Int? get() = year.age.takeIf { it in 9..81 && it % 9 == 0 }
 
+    /**
+     * Whether the death's eye looks at a living person of the birth year animal [animal] (the eleventh examination, WB
+     * vol. 2, p. 94): the dead's own year animal or its seventh. The verse's four executioners upward and five in accord
+     * downward do not say from where they count, and its same trigram seat not in which year: both left out.
+     */
+    fun eyeLooks(animal: Animal): Boolean = animal == year.birth.animal || animal == cutMonth(year.birth.animal)
+
     /** The old kind named for the dead's sex and year of age (WB vol. 2, pp. 77–79); null where none is, or the sex is not known. */
     val oldKind: DeadOldKind? get() = year.gender?.takeUnless { notMadeOld }?.let { DeadOldKind.of(it, year.age) }
 
