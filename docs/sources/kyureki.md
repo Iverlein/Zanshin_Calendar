@@ -4236,3 +4236,212 @@ in HS [2] img. 7; the second word in the 未 sector of the Edo wheel.
 - A year head of the 具注暦 for 歳殺 and 黄幡 before 756: not looked for beyond KJ's pages.
 - The 高島暦 of today: the NDL lists 神宮館高島暦 without images; 高島暦 in the full-text
   search finds only mentions.
+
+## The Japanese almanac's last questions (RD172)
+
+Read 2026-11-06, by eye on the NDL Digital Collections' images (IIIF, full size,
+enlarged; no model), the NDL's machine text (the Lab full-text API) used to find
+the pages and marked *OCR only* where nothing more was done, and the library
+records of the NDL, Kyoto University and Tohoku University for dates. Questions
+488, 490 and 623–629.
+
+**Answer in short.**
+
+| Question | State | In a line |
+| --- | --- | --- |
+| 488 how wide each god's direction | narrowed | A 1937 book of the 高島 name keeps the quarter as one view and says «今は之れを用ひず» (not used now); the 1931 diagram draws sectors of one to three branches; today's paper not seen |
+| 490 the 大將軍's outings | answered for 1937, with 623 narrowed | The 1937 book prints the outings, six days each, in the order 東 中 北 南 西, and «此の遊行の間は本處に憚りなし»; the paper of today not seen |
+| 623 the 金神's 遊行 in two lists or merged | narrowed | A 1928 almanac prints them as two lists with the rule on the seat; the 1927 one merged; the paper of today not seen |
+| 624 §6–§9 added or cut | narrowed | A third short copy, 慶長16 (1611), has no list and no 異説; no copy older than 1578 found |
+| 625 RM §11's livestock | dead end | No source found |
+| 626 the exhibition's «家畜を求めるを吉» | dead end | Repeats 489/533 of RD163: no source on the page, none in any text read |
+| 627 who wrote the 假名暦略註 | narrowed | The libraries catalogue it as 保己一's from the colophon alone; the colophon says copied from 岡部一德's book; no other record of 岡部一德's own text |
+| 628 the date of the 簠簋内伝 | answered as far as the NDL goes | The NDL's own note: a forgery «鎌倉時代末期から室町時代までに成立» (late Kamakura to Muromachi) |
+| 629 the stepped line on 1931's wheel | narrowed | The line enters the 艮 strip by a small notch; whether it is meant to take 艮 in is not decided by the picture |
+
+Repeats: 626 is the exhibition half of 489/533 (RD163); 628's second half
+repeats 532 (RD163); 623 and 490 each ask what "the printed almanac of today"
+does, which no digitised page can show.
+
+### The texts and the scans
+
+- **萬曆三世相 : 永代雑書** (竜沢慎作 著, 高島易断講究所 編, 神宮館, 昭和12 [1937],
+  pid 1032282), p. 153–154, img. 84–85 (cited MS37). PDM by the NDL's rights
+  line as for RD163's other volumes.
+- **家庭寶鑑** 昭和4年 (關西信託, 1928, pid 2535587), img. 9, again at full size.
+- **御暦寶** 昭和6年 (高島易斷研究所本部 編纂, 神明館, 1930, pid 2535572), img. 3 at
+  native size (4822 × 4400): the 吉凶方位 wheel.
+- **簠簋内伝**, 慶長16 (1611) copy, 『三國相傳陰陽輨轄簠簋内傳金烏玉兎集』 5巻 (深宗 写,
+  WA16-164, pid 2532305), img. 11–12 (cited HK1611); the NDL records of this
+  copy, of the 天正6 copies (pid 2544991–2544993, WA16-51) and of the 簠簋抄 print
+  of 正保4 (1647, pid 2606709; Kyoto University RB00033336).
+- **假名暦本名頒暦畧註**: the Kyoto University record RB00028685 (和/か/035, 26 leaves)
+  beside HR (RD163).
+
+### 大將軍: the width, and the outings (Q488, Q490)
+
+MS37 p. 153, img. 84, the 大將軍's paragraph, read on the scan:
+
+> 大將軍は俗に三年塞がり又は單に塞がりといふ、火星の精、方伯の辰百事犯すべからず、之を犯せば三年死滅す、若し他人の領に宿留すること四十五日の後件の所より大將軍に當らば土を犯し造作すべからずともいふ、大將軍は十二支を四方に配し各々三年、寅卯辰の如きは東方に屬し、逆に一位退き北方を以て大將軍の所在と爲す巳午未の如き南方に屬す一位退き卯の方なり、一說に二干三支を忌むべしと例令ば卯の方に在れば甲乙と寅卯辰の方共にこれを忌む今は之
+
+and, over the page, p. 154, img. 85:
+
+> れを用ひず、又遊行の日あり。(其間日六日)
+> 甲子より東に行きて己巳に本處に返る　戊子より中央に行きて癸巳に返る　壬子より北に行きて丁巳に返る　丙子より南に行きて辛巳に返る　庚子に西に行きて乙巳に返る
+> 此の遊行の間は本處に憚りなし。大將軍は遊行の方は萬事に用ふべからず、金の精なれば深く恐るべく當るべからず。
+
+("The 大將軍 is commonly called the three-year block, or simply the block; the
+spirit of Mars (火星), the lord of the quarter's branch: nothing at all may be
+done against it, and whoever does so is wiped out in three years. If one stays
+forty-five days in another's land and then the place falls on the 大將軍, one
+must not break ground or build there. The 大將軍 distributes the twelve
+branches over the four quarters, three years each: 寅 卯 辰 belong to the east
+and it goes back one place, so the north is its seat; 巳 午 未 belong to the
+south and it goes back one place, so it is in 卯. One view says two stems and
+three branches are to be avoided: for example, when it is in the 卯 direction,
+甲 and 乙 and the directions 寅 卯 辰 are all avoided. Now this is not
+used. There are also days of outing (six days between): from 甲子 it goes east
+and returns to its place at 己巳; from 戊子 to the centre, back at 癸巳; from
+壬子 to the north, back at 丁巳; from 丙子 to the south, back at 辛巳; on 庚子
+to the west, back at 乙巳. During the outing there is no hindrance at its
+place. In the direction of an outing nothing at all may be used; it being
+the spirit of metal, one must fear it deeply and not meet it.")
+
+(The book calls the god «火星の精» in the first lines and «金の精» on p. 154; the
+two are left as printed.) What this gives:
+
+- **The width (Q488).** The 暦林問答集's ruling that 寅, 甲, 卯, 乙 and 辰 are avoided
+  together (§8) stands in the 1937 book as «一說», one view, and the book adds
+  «今は之れを用ひず»: the wide reading is not used. Its own rule is one branch
+  (the book's figure and its sentence «子の年は子の方、丑の年は丑の方を忌むべき»
+  on p. 152 are for the 太歳). Its assignment of the runs agrees with the digests'
+  table (RD92): the years 寅卯辰 are the east's, and the god sits one place back,
+  at the north (子); the years 巳午未 are the south's and it sits at 卯. This is
+  a Shōwa prose statement of how the seat is reached; it names no anchor year. The 1928 almanac says only «此方三年塞りと云ふ萬事凶»
+  (家庭寶鑑 img. 9) and the 1930 one the same without a width.
+- **A diagram.** 御暦寶 昭和6年 img. 3 (native size) draws the 吉凶方位 as a ring of
+  the twenty-four mountains, inside an octagon of the nine stars, and the gods'
+  names in sectors outside it; those sectors are **not** equal: one or two
+  branches for the 大金神 and the 死符, a group of three (歳破, 歳刑, 豹尾, all 丑
+  in a 未 year) in one sector, the rest wider, so the diagram does not give each
+  god a fixed width, only the place of each name. No shading of a quarter.
+- **The outings (Q490).** The 1937 book keeps them, in the order 東 中 北 南 西 (RM
+  §54 has 卯, centre, 午, 酉, 子), **six days each from the 子 day to the 巳 day**
+  (RM: five, 子 to 辰, and the return on the 巳 day); the 巳 day on which it
+  returns is the day after RM's last. It says the seat has no hindrance during
+  an outing («本處に憚りなし») and that the direction of the outing is bad for
+  everything. The question's second half, an outing to the direction already
+  held (甲子–戊辰 to 卯 in the eastern years), is not taken up by the book; it
+  prints the first outing as «東». So the book keeps RM's two statements, the
+  freeing of the seat and the badness of the direction gone to, and does not
+  discuss their overlap. The paper 高島暦 of today is not seen.
+
+### 金神 in the 1928 almanac (Q623)
+
+家庭寶鑑 昭和4年 (1928), pid 2535587, img. 9, the 八將神方位 page, read on the scan:
+the 金神 (with the picture of the god) sits in a box of the 八將神's page, left of
+two lists: «金神四季の遊行日» (春 乙卯の日より五日間東方に遊ぶ; 夏 丙午の日より五日間南方;
+秋 辛酉の日より五日間 [the page's reading, with 西] ; 冬 壬子の日より五日間北方) and a
+second heading «平時遊行日» with five lines (甲寅 five days south, 丙寅 west, 戊寅 centre,
+庚寅 north, 壬寅 east), and under both:
+
+> 金神遊行中は其の方凶とし本宮災なし。遊行せざる時は本宮凶とす
+
+("During the 金神's outing the direction it goes to is bad and its own seat is
+free of harm. When it is not on an outing, its seat is bad.") The two lists
+are two lists here and are not merged; RD163 read the 御重寶 of 昭和3年 (1927) as
+merging them. The rule on the seat is the one the 簠簋内伝 §9 has (RD93). The
+text beside the lists has 大金神 and 姫金神 and «金神の方位を犯せば七人まで殺す»
+(OCR only for this last line). Whether today's paper prints two lists or one
+is not shown by any record seen.
+
+### The 簠簋内伝's copies and date (Q624, Q628)
+
+**A third short copy.** The NDL's copy of 慶長16 (1611), 5 volumes, pid 2532305,
+img. 11 (right page) lists the 八将神 in §-order as «第六歳殺神 … 不渡海川造作
+則牛馬死», «第八豹尾神 … 向此方大小便凶宜不収六畜», then the 天徳神's months, and
+«金神七殺之方» with the years: the years listed in rows after it; img. 12
+(left page) continues the years and the 金神's sentence, which reads «右此金神者巨旦大王
+精魂也七魄遊行而殺戮南閻浮提諸衆生故尤可厭之者也» ("This 金神 is the spirit of the
+great king 巨旦; its seven souls go about and kill; so the beings of the
+southern continent must avoid it above all"), then «三鏡之方», and the volume
+closes (img. 12, left) with «三國相傳宣明暦註上巻終» and the copyist's colophon
+«于時慶長拾六年辛亥三月中旬 朝熊岳 明王院 … 深宗書之» (the last characters not
+read with certainty). There is no 金神遊行 list, no 異説 and no free days; the
+word 遊行 occurs once, in the sentence about the seven souls. This is the form of
+the 天正6 copies (HK1578, RD163), so three manuscripts of 1578–1611 are short and
+the printing of 1632 has the lists. **Narrowed**: the short form is not one copy's
+accident; no copy older than 1578 was found, so whether the lists are an addition
+of the print or a cut of the copies stays open. The records of the 簠簋抄 (正保4,
+1647: 簠簋内伝 with a commentary; Kyoto University RB00033336) and of the 寛文7
+(1667) print at Tohoku (Fujiwara Bunko 藤原文/3835) state no colophon on their
+pages.
+
+**The date (Q628).** The NDL's note on the 1611 copy (record R100000039-I2532305,
+解題): the work is handed down as by 安倍晴明 of the Heian period, and «鎌倉時代
+末期から室町時代までに成立した偽書と考えられる». So the catalogue's answer is a
+range, late Kamakura to Muromachi (about 1300–1570), and a forgery's attribution.
+That does not narrow the 拾芥抄's 金神七殺方 (RD163, Q532): that is a separate
+witness with its own range.
+
+### 假名暦略註 (Q627)
+
+Kyoto University's record (RB00028685, 假名暦本名頒暦畧註, other titles 寳暦甲戌元暦
+and 假名暦略注; 1 volume, 26 leaves, 23.4 × 16.2 cm, no place or publisher) names 保己一
+(塙保己一, 1746–1821) as the author and 1806 as the date, and gives its ground:
+the colophon HR img. 28, «以岡部河内守一德本書寫 文化三年正月 檢校保己一». So the library
+catalogues it as 保己一's from the colophon, which says copied. Tokyo and Tohoku
+hold copies likewise under 保己一's name. A search for a record of 岡部一德's own
+text, or of a work of that name before 1806, found none; the two lives of 保己一
+the question names are not among the pages read. **Narrowed**: the colophon is
+the only evidence either way, and it reads as a copy.
+
+### 歳破 and livestock (Q625, Q626)
+
+The clause in RM §11 («馬牛之類不可於其方求矣», above) was looked for in the Chinese
+side once more: a search of the web for 歲破 with 六畜, 牛馬 and 求, 取 found only a passage
+of 論衡 (Wikisource 論衡/73) that quotes a 移徙法 calling the place opposite the 太歲
+歲破 and saying moving, building and marrying towards it are bad, and nothing on animals.
+KK's rows (RD163) have livestock under 歳煞 (六畜) and 豹尾 only. **Dead end** for
+Q625: no source for the clause. Q626, the exhibition's «家畜を求めるを吉»: **dead
+end**, repeating RD163's 533.
+
+### The wheel (Q629)
+
+御暦寶 昭和6年 (辛未), pid 2535572, img. 3, at native size and enlarged five times:
+the ring's inner cells at the bottom of the figure (south at the top, north at
+the bottom, east at the left) run, left to right, 寅, 艮, 丑, 癸, 子, 壬. A line
+runs round the sector that carries 歳刑神, 歳破神, 豹尾神 (with 大金神's name); on its
+upper side the line enters the strip of 艮 by a small rectangular notch that
+reaches the radial between 艮 and 丑. The sector then belongs to 丑 and takes a
+slice of 艮's strip at its outer edge. Whether the printer meant 艮 as taken in or
+only shifted the line to fit the writing is not decided by the picture. **Narrowed**,
+not answered.
+
+### Open
+
+- Question: does the paper 高島暦 of today print the 大將軍's outings and the freeing of
+  its seat as the 1937 book does (six days, 子 day to 巳 day, seat free), or as RM does
+  (five days)? Only a copy of today's paper answers it.
+- Question: is there a 簠簋内伝 copy older than 1578, with or without the 金神's two
+  遊行 lists, 異説 and free days? A colophon or a catalogue record of the 室町 would
+  decide.
+- Question: who is 岡部河内守一德, and does his book exist apart from 保己一's copy?
+
+Doubts in the text: the 1611 copy's colophon characters after 朝熊岳 明王院 and the
+year's sexagenary name; the reading of the autumn line (西 or another) in the
+家庭寶鑑's four seasons; «火星» against «金の精» in MS37 p. 153–154; the notch on 1931's
+wheel.
+
+### Searched and not found
+
+- A source for the clause «馬牛之類不可於其方求» of the 歳破: not in KK's rows, the 論衡
+  passage on the 移徙法 or a web search for 歲破 with 六畜, 牛馬 (2026-11-06).
+- A copy of the 簠簋内伝 older than 1578: NDL (the records of 2532305, 2544991–2544993),
+  Kyoto and Tohoku records read for dates only; none older.
+- 岡部一德's own text, or any record of it: Kyoto, Tohoku, Tokyo records and a web
+  search (2026-11-06); only 保己一's copy.
+- 馬場真理子's 2024 article on the 暦略註 (時間学研究 15, pp. 15–31) and her 2017 one on
+  the 暦林問答集 (東京大学リポジトリ, records/47693): bibliographic records only, no
+  full text reachable (the repository answered 503).
+- The 高島暦 of today: not seen; no record found beyond RD163's.
