@@ -1478,3 +1478,11 @@ Searched and found wanting, so not to be repeated:
   - The departure's seven lords with a day or a grade, in LT, UT, KD vol. 3 and the Bhutan digest: no text says 'of the date'.
 - **RD175, letters in doubt on pp. 331–435 (2026-11-06)** (RD175, 2026-11-06):
   - A Zhol impression with a legible vowel over ཐ in «ངོ་ཐོག/ཐེག» (p. 381): only img. 499 of I1KG1710 was looked at, at 14×; no second impression of the blocks was found.
+- **RD183, ch. 32's last words (2026-11-06)** (RD183, 2026-11-06):
+  - «བྱན་ཚང»: BDRC 13 hits (WB, the Bai dkar copies, the Rmad byung, the Bod kyi rtsis rig kun 'dus, unrelated hits), no gloss. «ས་དགའ་མ»: 14 hits, only WB copies.
+  - «མ་དགུའི་ས་རུ» and «ཁྱོ་གའི་ས་རུ་བརྩི»: only copies of WB's passage; «ཁྱོ་ག་དང་མ་དགུ» and its reverse: no hit.
+  - «མཛེས་ཅན་མིན་པའི་མི»: no exact hit; «མཐེ་བོང་ཙམ་པ་ཁྱོར་གང་བླུགས» only in the Bzo rtsis zlos gar snippet.
+  - Taikhang woodcut labels: img. 402 at 8280 px, edge words and circles not resolved by eye.
+- **RD180, vol. 2's early leaves (2026-11-06)** (RD180, 2026-11-06):
+  - «བཀྲ་ཕན་ངོན», «ཕན་ངོན་བཀྲ», «བཀྲ་བན་བོན», «བན་བོན་བཀྲ་དང་བདུན» in BDRC full text: no hit. «ལངས་པའི་ཉིན» in the 1996 and Zhol etexts: no hit. «དབུས་ནག» in the 1996 etext near img. 88: no hit.
+  - The goat's bladder in the 1996 etext of img. 114–115 and the Zhol etext of img. 783: not in the text.

@@ -686,10 +686,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 7 passages: 7 scan |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 13 passages: 7 scan, 1 machine, 5 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 55 passages: 17 scan, 35 machine, 3 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 65 passages: 21 scan, 37 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
@@ -1090,8 +1090,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0640.md](questions/q0640.md) | question q640 | «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» | open; cites — |
 | [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | open; cites — |
 | [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
-| [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | open; cites wb.2:p370 |
-| [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | open; cites wb.2:p360-361 |
+| [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | answered; cites wb.2:p370 |
+| [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | answered; cites wb.2:p360-361 |
 | [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | open; cites wb.2:p323 |
 | [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | open; cites wb.2:p328 |
