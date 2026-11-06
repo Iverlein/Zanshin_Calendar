@@ -975,7 +975,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | open; cites — |
 | [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites — |
 | [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | open; cites — |
-| [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | open; cites — |
+| [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | answered; cites — |
@@ -1036,7 +1036,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | open; cites wb.1:p373-375 |
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
-| [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | open; cites sdp:p238-241 |
+| [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | answered; cites sdp:p238-241 |
 | [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | answered; cites wb.2:p241 |
 | [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | open; cites wb.2:p305 |
 | [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | open; cites wb.2:p335-336, wb.2:p341-342 |
@@ -1087,6 +1087,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | open; cites wb.1:p445 |
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
+| [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |
+| [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | open; cites ys:i383-385 |
+| [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | open; cites — |
 
 <!-- end pool index -->
 

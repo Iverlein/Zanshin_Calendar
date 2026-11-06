@@ -1431,3 +1431,6 @@ Searched and found wanting, so not to be repeated:
   - «ཤི་སྒབ» in Yigdzin-1's strips of img. 165 (all five scan lines, five windows each): not found; the strips read poorly at the edges.
 - **RD159, fourth part (2026-11-06)** (RD159, 2026-11-06):
   - The stack of «བསྐྱུར»/«བསྒྱུར» (q645) on the Gser thang reprint at 5× (img. 322, printed p. 316, line 4): a solid black blot, the ས over ཀ/ག not told; every crop of the word gives the same blot. The Zhol folio (img. 1068, 3757×606) has letters of about 30 px, too small at 4–6×. Only a cleaner print (an original-scale scan or another edition) or knowledge of the rite settles it; no more cropping.
+- **RD168, the catalogue's questions (2026-11-06)** (RD168, 2026-11-06):
+  - BDRC full-text, 0 hits: «ཚེ་ཁ་དམར་ན», «ལུས་ཁ་དམར་ན», «དབང་ཁ་དམར་ན», «རླུང་ཁ་དམར་ན», «ཚེ་ལུས་དབང་རླུང་ཁ་དམར», «བུམ་བཟང་གཤིན་རྩིས» (q524); «རྒྱ་མའི་ཐག་པ», «ཐག་པ་བརྒྱད་ཡར» (q527); «བཏང་གཅོད་སྒྱུ་འཕྲུལ་སྒྲོན་མ», «སྒྱུ་འཕྲུལ་སྒྲོན་མེ», «ཡིག་ཆ་ཉི་ཤུ་པ», «གཏན་ལ་འབེབས་པའི་སྒྱུ་འཕྲུལ» (q535); «མུ་ལ་ཏན་ཏྲ་ལས».
+  - Web search for 《西藏天文历算总汇》 with a publisher or KD's Chinese title: the register's page only (q554).
