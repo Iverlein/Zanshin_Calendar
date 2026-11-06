@@ -273,7 +273,121 @@ The page of the national register of intangible heritage for Kun dga' rig 'dzin 
 
 ## The wheel texts' and the Kun-gsal-dpe's words, what no row holds: the Longchenpa quotation, the wheel with rims, the fathers' and mothers' wheels, the parasol, the palm turned into a road (etext only, no card) (RD171)
 
-Nothing read yet: RD171's passages, with the English beside them, go here.
+RD171, 2026-11-06. Eight questions (q544, q545, q613, q614, q615, q616, q617, q618), each word sought outside the one place it stands: in BDRC's full-text search (`bdrc_search.py`, six searches of six phrases), in the etext windows its hits point to (`etextchunks`, read around the character offset), and in Steinert's 64 dictionaries (`locate.py dict`, cloned 2026-11-06). **Etext and search snippets only: no scan was read, no model was run.** A Bon text is not used for any sense here; where a hit is Bon (a *gsung rab sgo mdzod* snippet with «ནང་བསྐོར་ཕྱི་བསྐོར»), it is named and left out.
+
+### q544: «ཕྱ་ཐེར» is a cloth shelter beside the tent (narrowed to a sense)
+
+The word has no headword in the dictionaries (again: «phya ther», «phya thir» none). BDRC's search for «ཕྱ་ཐེར» has 19 hits; five of them are readable as etext and give the same picture, a cloth shelter or roof that goes up and is lived under, and is named beside the black tent (སྦྲ, sbra).
+
+The life of Longchenpa in his *gsung 'bum* (MW1KG4884, VE1KG4884_018, etext window read):
+
+> དེ་ནས་ཡར་སྟོད་རྒྱམ་ཕུར་བྱོན། རིག་འཛིན་ཆེན་པོ་དཔོན་སློབ་རྣམས་སྦྲ་དང་ཕྱ་ཐེར་བདུན་ཅུ་ཙམ་མཛད་ནས་བཞུགས་པ་དང་མཇལ།
+
+(Then he went to Gyamphu in Yarto and met the great vidyādhara, master and pupils, who were staying, having made some seventy tents and *phya ther*.) The same sentence, with «སྦྲ་ཕྱ་ཐེར» run together, is in the separate life *Dri med 'od zer gyi rnam thar mthong ba don ldan* (I1KG4889) and in the collection of lives *Bod kyi skyes chen dam pa rnams kyi rnam thar phyogs bsgrigs* (I3CN5287), both etext, Tibetan read.
+
+The Sakya Lamdre collection (*sa skya'i lam 'bras*, MW2PD19769, search snippet, Wylie): a large black frog came «ཕྱ་ཐེར་གྱི་ནང་དུ» ("into the *phya ther*") at the camp where master and pupils slept; and the testament of Tai Situ Byang chub rgyal mtshan (*Ta si byang chub rgyal mtshan gyi bka' chems*, MW1KG5772; I1KG5778, etext, Tibetan read), receiving a lama and chief on a plain:
+
+> གྱང་ར་གྲུ་བཞིའི་སྟོད་ལ་ཕྱ་ཐེར་ཕུབ་ནས། བླ་དཔོན་གྱི་བཞུགས་གདན་གུང་ལ་བྱས།
+
+(Over the top of a four-cornered wall the *phya ther* was put up, and the seat of the lama and the lord was made in the middle.) In a list of what the people of Ü gave the Hor (I1KG5764, etext, Tibetan read; the search lists the *Rgya bod yig tshang chen mo* among the hits, the volume's title was not checked): a horse-load of «ཕྱ་ཐེར། པ་བཞོན་མ། ཤས་ལུག སྦྲ་སྒ», the *phya ther*, with the tent's poles, seat-cloths and ropes. And the Fifth Dalai Lama's commentary on the monks' Vinaya (*'dul ba las chog rnam rgyal gser mdog*, MW1KG25210; same words in I1KG25212 and I1PD107955, etext), on the carrier of the fly-guard (སྦྲང་སྐྱབས, sbrang skyabs): «ཕྱ་ཐེར་ཆུང་ངུའི་དབྱིབས་ཅན་ནོ།» ("it has the shape of a small *phya ther*"), as the fan has that of a peacock's tail.
+
+So the *phya ther* is a pitched cloth shelter or tent-roof: set up, put over a wall for a seat, slept under, carried on a horse in a levy, and made in numbers beside tents. The sewing of work 17 (WB p. 317 «ཕྱ་ཐེར་སྦྲ་འཚེམ», p. 378; KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ») is the sewing of tents and these shelters, and «ཕྱ་ཐེར» is not a form of «ཕྱར» (the awning cloth, ཕྱར་བ, phyar ba, which the dictionaries give as a hair covering and as "raise up"): the two stand apart in the verse «སྦྲ་ཕྱར» and in KP's «དང་». Where the word comes from is not found. The Desi's *Vaiḍūrya dkar po* has the same list of works with «དྲ་གྱོན་ཕྱ་ཐེར་སྦྲ་འཚེམ་སྐྱས།» (three editions in the search: I1KG12907, I1KG2752, I1KG81102; the first read), the same words as WB's.
+
+Not read: eight more hits of the search whose etexts answer 403 (I4CN10468, I1KG5031, I3CN16408, I1KG21870, I4CN10068, I2PD16005, I1KG2752, I1KG81102); KP's own etext was not among the hits, KP's contents line stays a machine reading.
+
+### q545: the saying is «ཧ་ལ་ལམ་དུ་བསྒྱུར་བ», poison turned into the path (answered; repeats q503)
+
+The verse is not WB's own. WB p. 453 closes the passage with the words that the lines come from the Desi's own *Dpyod ldan snying nor*, the Do shal of the *Vaiḍūrya dkar po* ("…བཻཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས"; corpus/wb/ch35.md). The *Vaiḍūrya dkar po* itself is in BDRC's etext in two editions, and both read the line with ha, not ta (I1KG12907, window of 1000 characters, and the Phug-lugs edition I3CN5029, the same text):
+
+> མིན་ཀྱང་ལམ་ཙམ་མི་རྟོགས་པར། །ལུང་སྟོན་བྱེད་པའི་རྩིས་མཁན་རྣམས། །ཧ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ། །ལེགས་ན་ཉམས་རྟོག་ཆོད་པ་ཡི། །སྐྱེ་བོའི་ལག་ཏུ་མི་ཆུད་ལྟར། །བླང་དོར་མ་ཉམས་འབྱུང་ཡང་སྲིད། །ཉེས་ན་ཉམས་མེད་སྐྱེ་བོ་ཡི། །ལག་ལོན་སྲེད་པས་བཙེམ་པ་ཡིས། །རང་གི་སྲོག་དང་འབྲལ་བ་བཞིན། །ཉེས་པ་ཀུན་དང་ཐུག་པར་འགྱུར།
+
+(Even without understanding so much as the road, the reckoners who give prophecies are like turning poison into the path. If it goes well, it is as if it did not fall into the hand of one who had cut off experience and insight, and a keeping of the right and wrong may even come of it; if it goes badly, it is as when one without experience, held by the greed of practice, is parted from his own life: he meets every fault.) The two editions agree with WB's lines (RD84's transcription, corpus/wb/ch35.md) but for single letters («ཆོད»/«ཚོད», «ལག་ལོན»/«ལག་ཡོན», «ཏ»/«ཧ»), so the line in WB's 1996 and Zhol prints, read ཏ four times on the scan, is the same saying with a different first letter (q503's question: which letter), not another saying. Which of the two letters is the author's cannot be settled by the etexts; the source reads ཧ.
+
+The dictionaries give «ཧ་ལ» (ha la) as poison (Rangjung Yeshe, Valby), the black monkshood (བོང་ང་ནག་པོ, bong nga nag po; Ives Waldo, Tshig mdzod chen mo, Dag tshig gsar bsgrigs), and Tshig mdzod chen mo quotes the common line «ཧ་ལའི་དུག་དང་བཟང་དྲུག་གཉིས། །སྐྱེས་པའི་ངོས་ནས་མཉམ་ན་ཡང་། །ཕན་གནོད་མི་གཅིག་ཁ་ཁ་རེད།» ("poison of ha la and good medicine, equal from the man's side, differ in benefit and harm"). The palm (ཏ་ལ, ta la: the palmyra, which does not grow again when its top is cut; Ives Waldo, Tshig mdzod chen mo, Dan Martin) has no saying with «ལམ་དུ་བསྒྱུར». With «ཧ་ལ» the lines that follow make the sense: the thing is dangerous (it ends in being parted from one's life), not impossible and not merely wasted; that poison is turned into the path is a tantric phrase, which the author does not explain here and which no dictionary has. The saying as an idiom is in no dictionary; BDRC's search for «ཏ་ལ་ལམ་དུ» and «ཏཱ་ལ་ལམ་དུ» has no hit, for «ལམ་དུ་བསྒྱུར་བ་འདྲ» two (the two editions above).
+
+**q545 repeats q503** (the same line of p. 453, "the palm or another word"); q503's answer is the reading «ཧ་ལ» here.
+
+### q613: «ཕྱི་བསྐོར» is the circuit that keeps the object on the left (narrowed)
+
+Glag bla (printed p. 442) says that by the Bon circuit (བོན་བསྐོར, bon bskor) the head of the mantra is laid inward, the face inward, the tail made to come out, "and the outer turning (ཕྱི་བསྐོར, phyi bskor) must be done". Its own text does not say which way that goes. Three further sources:
+
+- Tshig mdzod chen mo has «ཕྱི་སྐོར» (phyi skor) in two senses: «མཆོད་རྟེན་སོགས་ལག་པ་གཡོན་དུ་བཞག་སྟེ་བསྐོར་བ» ("circling a stūpa and the like with the hand on the left, the object kept on the left") and «ཕྱི་ནང་བར་གསུམ་དུ་ཕྱེ་བའི་ཕྱིའི་སྐོར་ལམ» (the outer of three circumambulation paths: outer, inner, between). Ives Waldo: "turn/circle/circumambulate counter-clockwise", and the outer path. The Dharma circuit of Glag bla's own text is the one by which the roll's head comes out (clockwise, B, F); the verb form in Glag bla, «བསྐོར», is the past or imperative stem of the same «སྐོར». So the first sense of the dictionaries fits the passage and gives the reverse; the second, the outer path, does not exclude it.
+- A Nyingma accomplishment collection of Dge mang (search snippet, Wylie; I3CN... not opened, snippet only) in a rite against *dam sri* spirits: «tha mal spyi bo nas sngags mgo nang bstan nas bon bskor» ("from the crown of the ordinary head, the mantra head turned inward, then the Bon circuit"): the Bon circuit goes with the head inward, as Glag bla has it.
+- The Bon source's own «ནང་བསྐོར་ཕྱི་བསྐོར» (a pair, "turning inward and turning outward") is a Bon text and is not used.
+
+So: not a third turning beside the Dharma and Bon circuits, but the name of the Bon one seen from the wheel's side; the likeliest sense is the reverse (counter-clockwise, the object on the left). Not found: a sentence that says "the outer turning is to the left" of a wheel.
+
+### q614: the father wheel and the mother wheel are two wheels of a pair, drawn separately and joined face to face (narrowed)
+
+The «wheel with rims» (འཁོར་ལོ་མུ་ཁྱུད་མ, 'khor lo mu khyud ma) is a drawn or printed mantra wheel with concentric rims (མུ་ཁྱུད, mu khyud; the rim of a wheel's felloe: Tshig mdzod chen mo «འཁོར་ལོའི་མུ་ཁྱུད»). The *Rin chen gter mdzod* (VE1KG14_002, etext) on writing the speech support:
+
+> གསུང་རྟེན་ཙཀྲ་བཅའ་བ་ནི༔ གྲོ་ག་འམ་ནི་དར་ཤོག་ལ༔ འཁོར་ལོ་མུ་ཁྱུད་ལྔ་ལྡན་གྱི༔ ལྟེ་བར་རྡོ་རྗེ་རྩེ་ལྔའི་དབུས༔ …མུ་ཁྱུད་དང་པོ་འདབ་བཞི་ལ༔ …
+
+(To lay the wheel of the speech support: on birch bark or cloth, a wheel with five rims; in the hub the middle of a five-pointed vajra; … the first rim has four petals …). Tāranātha's rite for a protector (I1PD45495, etext, Tibetan read) has an inner, a middle and an outer rim (མུ་ཁྱུད་ནང་མ་, བར་པ་, ཕྱི་མ་) and, in the same rite, two wheels, one of the father's and one of the mother's heart-mantra: «ཡབ་རང་གི་རྩ་སྔགས» in the father's, «ཡུམ་གྱི་རྟེན་…» the mother's.
+
+The pair as a pair: a text of the collection *'Bri lugs bang mdzod skor lnga* (MW3KG218, search snippet and etext, VE1ER67 window), on the accomplishment of a wheel of the yakṣa:
+
+> འདི་ལ་ཡབ་འཁོར་ཡུམ་འཁོར་སོ་སོར་བསྒྲུབས་ནས་ཞལ་སྦྱར་བའི་ལུགས་དང་། ཡབ་རྐྱང་། ཡུམ་རྐྱང་། ཡབ་ཡུམ་སྦྲགས་པའི་འཁྲུལ་འཁོར་དང་གསུམ་སོ་སོར་བསྒྲུབ་པ་དང་། … དེ་ཡང་འཁོར་ལོ་གཉིས་རང་གཞུང་ལྟར་བྲིས་པའམ་པར་དུ་བཏབ་པ་གང་ཡིན་ཡང་ … རིན་པོ་ཆེའི་སྣོད་ … ཁར་ཕོ་འཁོར་གཡས་དང་མོ་འཁོར་གཡོན། … བསྟན་པ་སོ་སོར་ལེབ་ཆགས་སུ་བཀོད་ཅིང་གཟུང་ཐག་བཏགས།
+
+(In this there is the way of accomplishing the father wheel and the mother wheel each by itself and then joining their faces (ཞལ་སྦྱར, zhal sbyar); the way of the father alone, of the mother alone; and the combined, father-and-mother wheel; … the two wheels, drawn after their own text or printed, … the male wheel on the right and the female wheel on the left, laid out each flat, and bound with the cord.) The pair is of two separate wheels (diagrams), each with its own mantras, and the putting together is face to face. This is what Glag bla's «letters face down» for the father wheel and «letters face up» for the mother wheel lays out (they are set facing each other), and the Karma Chagme text's «ཡབ་འཁོར་ཡུམ་འཁོར་གཉིས་ལ་སྔགས་ཚན་བཞི་བཅུ་ཞེ་དྲུག» (the two hold forty-six mantra sets) counts them together. A kindred triple appears in two collections of the Bde mchog oral lineage (MW3CN2232, MW1AC375, search snippets, Wylie «yab 'khor yum 'khor / bar 'khor») and, in Tibetan, in writing a rain wheel for the nāgas (I4PD2776, I3CN2313, etext): «ཆུ་བོ་བཞི་འདུས་ཀྱི་རླུང་འཁོར་དང་མཐུན་པའི། ས་རྟ། གནམ་རྟ། ཡབ་འཁོར་ཡུམ་འཁོར། བར་འཁོར་རྣམས་» ("agreeing with the wind-wheel of the four rivers' meeting: earth-horse, sky-horse, the father wheel, the mother wheel, the middle wheels"): a set of the large, middle and small wheels, whose father and mother wheels come with a middle wheel (བར་འཁོར་, bar 'khor). Pha-bong-kha's catalogue of a pill-making collection (MW1ALS00313I) lists them among the drawings: «ཡབ་འཁོར་ཡུམ་འཁོར། རིལ་བུ་གདན་འཁོར། མཛེས་རྒྱན་འཁོར་ལོ།» ("father wheel, mother wheel, the pill's seat wheel, the ornament wheel").
+
+The direction: the writing of a wheel in the two-wheel manner turns the letters' heads outward in both and runs the upper one clockwise and the lower counter-clockwise (Longchenpa, F of prayer-wheel.md, VE1KG4884_025); a Sakya text (Ngag dbang kun dga' bsod nams, VE29307_096, search snippet, Wylie «yig mgo phyir bstan», «nang bstan») gives the heads outward in the three gentle wheels of the four actions and inward in the fierce one, "the way of the general protection wheel". So the pair differs in the direction of writing, which Glag bla turns into a laying (face down against face up). The answer, narrowed: two wheels, not one wheel's two halves; what is not found is a text that says in so many words that the prayer wheel's contents are such a pair.
+
+### q615: «མགོ་མཇུག་ལོག» is head and tail reversed (narrowed to the reading of the layout)
+
+The dictionary: Ives Waldo, «mgo mjug log»: "reversed, out of order, upside down, be the opposite". Elsewhere it is always an object put the wrong way up:
+
+- the *Sakya Lamdre* (I2PD19971, etext, Tibetan read): «ད་ལྟ་ཕྱག་ལེན་ལ། མགོ་མཇུག་ལོག་པའི་ཚུལ་གྱིས་བཞུགས་པར་བཞེད་དོ།» ("in today's practice the five letters are set in the manner of head and tail reversed");
+- the *Rin chen gter mdzod* (VE1KG14_004, etext): «བྲུབ་ཁུང་དུ་མགོ་མཇུག་ལོག་ལ་གཞུག» ("put it into the pit head and tail reversed", the lingga of a spell);
+- the *Gdams ngag mdzod* on the transference of consciousness (VE23605_017, etext): the heart seed «སྙིང་གའི་ཧཱུྃ་མགོ་མཇུག་ལོག» ("the *hūṃ* of the heart, head and tail reversed"), against «མགོ་གྱེན་དུ» (head up);
+- for what is placed inside a support, a Sakya text (Ngag dbang kun dga' bsod nams, VE29307_094, search snippet, Wylie): the written dhāraṇī put in the middle of the support removes «gzungs ma dag pa dang mgo mjug log pa dang gong 'og nor ba» (the faults of an impure dhāraṇī, of head and tail reversed, and of top and bottom confused).
+
+So wherever the idiom is not a figure of speech it is an object or a letter turned the other way up, and in the faults of a placed text a text laid in upside down. The benefit text has it with the verb: «མགོ་མཇུག་ལོག་ནས་བསྐོར་བ་ན། །སེམས་ཅན་ཞ་བོའི་ལུས་སུ་སྐྱེ།» ('Jam dbyangs don yod, I1KG16170, etext window; and the modern journal *Bod ljongs nang bstan* 1991 no. 1, MW20819, search snippet, Wylie «mgo mjug log nas bskor ba na sems can zhwa bo'i lus su skye»), "turned with head and tail reversed, the being is born lame" (the journal's «zhwa bo» a variant spelling of the Gangtok print's «ཞ་བོ»). It stands among the faults of the turning (haste, sideways), after the fault of the manner and before those of a wheel not raised clearly. Narrowed: the phrase names a head-and-tail inversion, as in all the parallels; whether of the roll inside (laid or wound the other way up) or of the way it is turned is not said in the text. The parallels favour the roll or the letters; no text was found that says a wheel "turned the wrong way" in these words.
+
+### q616: «གདུགས་ལྟར» stands against «འདུག་པར» in two witnesses (answered, as far as the prints go)
+
+'Jam dbyangs don yod has «གདུགས་ལྟར་བསྐོར་ན་གཟུགས་བཟང་ཞིང་། །སྐྱེ་མཆེད་ལེགས་ཤིང་ཚང་བར་འགྱུར།» (D of prayer-wheel.md). A second witness for the parasol: the modern journal above (*Bod ljongs nang bstan* 1991 no. 1, MW20819, search-only etext, snippet in Wylie), on the faults of turning a mani wheel: «oM ma Ni pad+me hU~M zhes pa'i chos kyi 'khor lo ni gdugs ltar bskor na gzugs bzang zhing skye mched legs shing tshang par 'gyur» ("the wheel of the Dharma *oṃ maṇi padme hūṃ*, turned like a parasol, the form is fair and the senses whole and complete"), with «tab tab tu ni bskor ba na» ("turned in haste") after it. BDRC's search for «འདུག་པར་བསྐོར་ན» and «མ་ཎི་འཁོར་ལོ་འདུག་པར» has no hit: the Gangtok reading stands alone. Two prints for «གདུགས་ལྟར», none besides the Gangtok print for «འདུག་པར»; D's next good turning is «ཐད་ཀར་དྲང་ཞིང་བསྐོར་བ་ན།» ("turned straight and upright"). The corruption of «གདུགས་ལྟར» to «འདུག་པར» (two syllables of like sound, ད and ག in place) is the likely one; the Gangtok scan was not looked at again, so the print's reading itself stands as RD recorded it.
+
+### q617: the father and mother circuits are the pair of q614; «བར་སྐོར་ལ་བར་རྒྱུར་བྱེད་པ» is not found (narrowed)
+
+«ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ»: with «སྐོར» written for «འཁོར» (the third copy, I2PD20755, has «བསྐོར»), the words are the pair of q614, and the clause reads "turning it without the father circuit and the mother circuit", that is, turning a wheel that lacks them, or turning it with no regard to them. «བར་སྐོར» is the middle circuit (bar 'khor) of the rain wheel above (the third wheel of the triple). «བར་རྒྱུར་བྱེད་པ» (bar rgyur byed pa) is in no dictionary and in no hit (BDRC's search for «བར་རྒྱུར་བྱེད» and «བར་སྐོར་ལ་བར» has one hit each, this text; «ཡབ་སྐོར་ཡུམ་སྐོར» has six, three of them the Bde mchog oral lineage's «yab skor yum skor gyi bstod pa», "the praise of the father cycle and the mother cycle", the cycles of teachings of the Cakrasaṃvara father and mother, which is another sense of the same words); it is left as the Karma Chagme text's own word, "doing something at the middle circuit". The remaining list of the fault (the perverse turning «ཕྱིན་ཅི་ལོག་ཏུ་བསྐོར་བ», the lack of the pair, the middle) all fall on the construction and direction, not on speed.
+
+### q618: the *Nges 'byed bla ma* is quoted with the *Ra li* (narrowed to a family, no title found)
+
+Longchenpa's *Grub mtha' mdzod* is in BDRC's etext in seven editions of the same words (MW1KG4884, MW22920, MW1AC16, MW3CN3026, MW00EGS1016299 and others; search snippets, the same line); the editions read in Tibetan are I3CN3160 and I1KG4900: the passage:
+
+> ཧེ་བཛྲ་ལས། སྤྱི་བོའི་འཁོར་ལོ་མི་བསྐྱོད་པ། །མགུལ་གྱི་འཕྲེང་བ་རིན་ཆེན་གདགས། །ཞེས་པ་དང་། ར་ལི་ལས། གདན་གྱི་ཁྱད་པར་རོ་ཡི་གདན། །རྒྱན་གྱི་ཁྱད་པར་རུས་པའི་རྒྱན། །གོས་ཀྱི་ཁྱད་པར་ཐལ་བའི་གོས། །ཞེས་སོ། །བཞི་པ་ཕྱོགས་ཀྱི་ཁྱད་པར་ལ། … ངེས་འབྱེད་བླ་མ་ལས། གཡོན་སྐོར་དུ་ནི་བསྐོར་བ་ཡིས། །མཆོད་པ་དགོད་དང་གཏོར་མ་བྱ། །ཞེས་སོ།
+
+(From the *Hevajra*: "the wheel of the crown immovable, a necklace of jewels hung"; from the *Ra li*: "the difference of seat, the seat of a corpse; of ornament, bone ornament; of clothing, clothing of ashes"; … Fourth, the difference of direction … the *Nges 'byed bla ma* says: "turning counter-clockwise, set out the offerings and give the torma.") In this list of the marks that tell father tantras from mother tantras Longchenpa quotes, for successive marks, the *Hevajra*, the *Ra li*, the *Nges 'byed bla ma*, the *Bde mchog* (Cakrasaṃvara) and the *Mkha' 'gro ma gsang ba'i rgyud*, so the *Nges 'byed bla ma* is cited like a tantra of its own, next to the *Ra li*.
+
+Where else the name stands: the Sakya *Sgrub thabs kun btus* (VE23681_001, window 600 characters; the same snippet in the search for «ར་ལི་ངེས་འབྱེད»), after the verse of the Yogin Bhusuku:
+
+> དཔེའི་འགྲེལ་པ་མ་བྱུང༌། དེ་ལྟར་ཡང༌། ར་ལི་ངེས་འབྱེད་བླ་མ་ནས་བཤད་པ། །ཉོན་མོངས་རྣམ་པར་བྱང་བ་ནི། །སྐུ་དང་ཡེ་ཤེས་གང་ཡིན་པ། །ཉོན་མོངས་མ་སྤངས་མི་ལྡན་པ། །དེ་ཡིས་དེ་རུ་བདེ་བ་ཆེ། །ཞེས་བཤད་པ་ལྟ་བུའོ།
+
+(No commentary on the simile has appeared. So too, as explained in the *Ra li*, the *Nges 'byed bla ma*: "the purified passions, what are body and wisdom; whoever has not left the passions does not have them; by that there the great bliss": so it is explained.) Here the two names stand together, «ར་ལི་ངེས་འབྱེད་བླ་མ», as one citation. The *Ra li* is, as the search suggests, a short name of the tantra of Vajra Ārali (རྡོ་རྗེ་ཨ་ར་ལི, rdo rje a ra li; not shown to be the same by any one text; the Sakya texts of the search: «rgyud a ra li», «bde mchog ra li», «rdo rje a ra li las», each introducing a verse; Vajrārali in the 84000 glossary as the deity of the Dharmodaya). The name «ངེས་འབྱེད་བླ་མ» (nges 'byed bla ma, "the definitive … superior/highest") reads as a section or a title in this group, but no text of that name was found, and no dictionary has the title.
+
+Searches for it made: «ངེས་འབྱེད་བླ་མ» 7 hits (all these), «ངེས་འབྱེད་བླ་མའི་རྒྱུད» 0, «ར་ལི་ངེས་འབྱེད» 1; the Kangyur and Tengyur catalogues were not searched by title.
+
+### Open
+
+- Question: Is «ཕྱ་ཐེར» (phya ther) the pitched cloth shelter that Longchenpa's lives, the Hor chronicle and the Fifth Dalai Lama's Vinaya commentary name beside the tent, and is the first syllable «ཕྱ» or a spelling of another word (the dictionaries have none)? (q544, narrowed)
+- Question: Is «ཧ་ལ་ལམ་དུ་བསྒྱུར་བ» in the Desi's *Dpyod ldan snying nor* "turning poison into the path", and does the Kālacakra tradition use it of a thing that serves the master and kills the one who does not know it? (q545)
+- Question: Is «ཕྱི་བསྐོར» in Glag bla the counter-clockwise turning that keeps the wheel on the left, as Tshig mdzod chen mo's first sense of «ཕྱི་སྐོར» has it? (q613, narrowed)
+- Question: In a manual of the maṇi wheel, is the pair of father wheel and mother wheel two rolls wound the opposite way (the mantra laid with its head out and in) or two discs? (q614, narrowed)
+- Question: Does «མགོ་མཇུག་ལོག» in the benefits of turning a wheel mean that the roll inside is wound or laid head-and-tail reversed? (q615, narrowed)
+- Question: What is «བར་རྒྱུར་བྱེད་པ» (bar rgyur byed pa) in the wheel text catalogued under Karma Chagme, if «བར་སྐོར» is the middle wheel? (q617, narrowed)
+- Question: Which tantra or section is the *Nges 'byed bla ma*, cited by Longchenpa and by the *Sgrub thabs kun btus* together with the *Ra li* (Vajra Ārali)? (q618, narrowed)
+
+### Searched and not found
+
+- «ཏ་ལ་ལམ་དུ», «ཏཱ་ལ་ལམ་དུ», «ཏ་ལ་ལམ་དུ་བསྒྱུར» (BDRC): 0 hits. «ཏ་ལ་ལམ» 9 hits, all across a word boundary ("paṇḍita la lam rim can", "sita la lam ston", "jata la lam").
+- «འདུག་པར་བསྐོར་ན», «མ་ཎི་འཁོར་ལོ་འདུག་པར», «ཐད་ཀར་དྲང་ཞིང་བསྐོར»: 0 hits (BDRC).
+- «མགོ་མཇུག་ལོག་ན་ཞ་བོར», «མགོ་མཇུག་ལོག་པར་བསྐོར», «མགོ་མཇུག་ལོག་ཏུ་བསྐོར», «འཕྲེད་ལ་བསྐོར་ན», «ཞ་བོར་སྐྱེ»: 0 hits (BDRC). «མགོ་མཇུག་ལོག་ནས་བསྐོར» 2 hits: 'Jam dbyangs don yod and the journal.
+- «ངེས་འབྱེད་བླ་མའི་རྒྱུད», «རཱ་ལི་ནས་བཤད», «ཧེ་བཛྲ་ལས་སྤྱི་བོའི་འཁོར་ལོ་མི་བསྐྱོད་པ»: 0 hits (BDRC).
+- «ཕྱ་ཐེར་དང་སྦྲ», «ཕྱ་ཐེར་ཕུབ» (1 hit: the Hor chronicle): the first none.
+- «nges 'byed bla ma», «bar rgyur», «yab skor», «bon skor», «phya ther» as headwords in the 64 dictionaries: none («phyi skor», «mgo mjug log», «mu khyud», «ha la», «ta la» found; «yum 'khor» in Dan Martin points to «'bum 'khor», which has no entry).
+- Etexts that answered 403 (search-only, snippet only): the *Sakya Lamdre* Ngag dbang kun dga' bsod nams volume (VE29307_094, 096), the journal *Bod ljongs nang bstan* (I1PD35670), eight of the nineteen «ཕྱ་ཐེར» hits.
+- The Dge mang accomplishment collection (the Bon circuit with the head inward) was read as a snippet only; its volume was not opened.
 
 
 ## The catalogue's questions, the second round: Dr. Chenagtsang's books, the Serthang edition, the *Spor thang*, the Chinese title of KD, the Bhutan digest's writer, the Drigung verse work, the Clear Lamp's root, the sheets' date (BDRC records and full-text search, no card) (RD173)
