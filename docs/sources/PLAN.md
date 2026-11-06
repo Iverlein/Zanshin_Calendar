@@ -1411,3 +1411,7 @@ Searched and found wanting, so not to be repeated:
   - A text giving the twenty's last group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» a year of its own: none (as RD58).
 - **RD165, ch. 28 and ch. 30 (2026-11-06)** (RD165, 2026-11-06):
   - «ཐུན་ཀུང», «ཀྲུང་ཞེས», «དོ་གཅིག་གི་ལོ», «ཡམས་སྐུད», «ཀླུམ་མནན», «གྲུམ་མནན», «དུས་ལོའི་སྨེ་བ», «ཤོལ་པོ», «རྐང་ཕྲན་ནག», «བླ་ལྷོར» in the regent's replies (I5876) and the Bhutan collection (I1KG11905): no hit but the unrelated «ཉ་དྲུག» of etext p. 364 and «བླ་འཁྱམས» of p. 394.
+- **RD162, the words of ch. 31–34 (2026-11-06)** (RD162, 2026-11-06):
+  - BDRC exact phrases «ཆང་རྫ་ཁ་ཡོ», «ཁ་ཡོ་ཞིང་ཆང», «རྫ་ཁ་ཡོ», «ཡོ་ནས་ཆང», «ཆང་རྫ་ཡོ་», «ཐེམ་བུར་ཆང», «གཤིན་ཆང་བཙགས», «སྦང་མ་ཡོལ་བ», «ཚེས་དགུ་ན་ཆུང», «སྐྲ་བཅད་ཚེས་དགུ»: no hit.
+  - «ཡོ་ཆང་» (13 hits): Bon and noisy OCR, none the rat day's «ཡོ». Steinert's dictionaries have no headword for «byi sker», «yo nas» or «ཉི་མའི་ཀླུང».
+  - SY printed p. 345 (img. 373 of I1PD30933) and the Drigung volume (VE1ER68, 401) are not served.

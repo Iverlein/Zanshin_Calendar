@@ -869,14 +869,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0437.md](questions/q0437.md) | question q437 | Does work 17's first syllable on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» | open; cites wb.2:p378 |
 | [questions/q0438.md](questions/q0438.md) | question q438 | How many finger-breadths is one mtho at the digging figure's navel (p. 387) | open; cites wb.2:p387 |
 | [questions/q0439.md](questions/q0439.md) | question q439 | What is the «ཡོ» of the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (p. 224), and whose is the «འདྲེན» | open; cites wb.2:p224c |
-| [questions/q0440.md](questions/q0440.md) | question q440 | Which first portion does «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» scatter, and what does the cloth screen | open; cites wb.2:p224c |
+| [questions/q0440.md](questions/q0440.md) | question q440 | Which first portion does «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» scatter, and what does the cloth screen | answered; cites wb.2:p224c |
 | [questions/q0441.md](questions/q0441.md) | question q441 | Why is a tent drawn at the door's right against the black times (p. 236) | open; cites wb.2:p236c |
 | [questions/q0442.md](questions/q0442.md) | question q442 | Does «ཉི་དུས» in Wangkhyi's lines mean the daytime hours of the animal's day or its double-hour | answered; cites wb.2:p210c, wb.2:p210a |
 | [questions/q0443.md](questions/q0443.md) | question q443 | Which animal does the «དུར» of «དུར་གྱི་སྟེང» name for each of the four first months of the seasons | open; cites wb.2:p219c |
 | [questions/q0444.md](questions/q0444.md) | question q444 | Does the light-clearer's «དུར» follow the element of the month's animal or the triads of ch. 23 | open; cites wb.2:p219c |
 | [questions/q0445.md](questions/q0445.md) | question q445 | Must Wangkhyi's animal day and animal hour fall together | open; cites wb.2:p210a |
 | [questions/q0446.md](questions/q0446.md) | question q446 | What is «ཡོ» («ཁ་ཡོ») in the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» and what is served or led from it | open; cites wb.1:p133, wb.2:p224b |
-| [questions/q0447.md](questions/q0447.md) | question q447 | What does «སྦྲང་མ» stand for in «སྦྲང་མ་ཕུད་གཏོར» on p. 224 | open; cites wb.2:p224b |
+| [questions/q0447.md](questions/q0447.md) | question q447 | What does «སྦྲང་མ» stand for in «སྦྲང་མ་ཕུད་གཏོར» on p. 224 | answered; cites wb.2:p224b |
 | [questions/q0448.md](questions/q0448.md) | question q448 | Does a reckoner's own gloss say whether Wangkhyi's «ཉི་མ་དུས་ཚོད» is met only when day and hour are both the animal's, or by either | open; cites wb.2:p210d |
 | [questions/q0449.md](questions/q0449.md) | question q449 | Which planet or node is «ཕུང» in «བྱ་གླང་སྦྲུལ་གསུམ་ཕུང་དར་ཚེས» on p. 313 | answered; cites wb.2:p313 |
 | [questions/q0450.md](questions/q0450.md) | question q450 | Who is «ཆུ་བདག» in «ཉི་མ་ཤར་དགེ་ཆུ་བདག་ངན» on p. 313 and which planet stands on which of the eight points | answered; cites wb.2:p313 |
@@ -1083,6 +1083,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
 | [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | open; cites wb.1:p317 |
+| [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | open; cites wb.1:p445 |
+| [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | open; cites wb.1:p445 |
 
 <!-- end pool index -->
 
