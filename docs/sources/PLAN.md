@@ -1499,3 +1499,5 @@ Searched and found wanting, so not to be repeated:
   - The root book of the Clear Lamp's five topics (MW2PD17476_B43210; manuscript I4PD636 img. 414–415): cursive dbu med at 1400 px, not readable at 3×; needs a reader of the script.
 - **RD183b (2026-11-06)** (RD183, 2026-11-06):
   - The woodcut's left edge on Taikhang img. 402 at 2× in rotated crops: only the position of four words, none readable; the circles likewise; one agy call on the right-edge strip gave no answer in 11 minutes.
+- **RD180b (2026-11-06)** (RD180, 2026-11-06):
+  - «ལྷང་ཕུག» in the Zhol etext at img. 782–783: no hit (the etext there is garbled).

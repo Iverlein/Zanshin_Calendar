@@ -686,7 +686,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 13 passages: 7 scan, 1 machine, 5 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 19 passages: 8 scan, 5 machine, 6 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 67 passages: 23 scan, 37 machine, 7 etext |
@@ -727,7 +727,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | answered; cites wb.2:p68-70 |
 | [questions/q0278.md](questions/q0278.md) | question q278 | Unidentified things of the funeral share and the corpse kinds | open; cites wb.2:p68-70, wb.2:p72, wb.2:p72-74 |
 | [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | answered; cites wb.2:p70-72 |
-| [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | open; cites wb.2:p70-72 |
+| [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | answered; cites wb.2:p70-72 |
 | [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
 | [questions/q0282.md](questions/q0282.md) | question q282 | How the death day's planet's state is found | open; cites wb.2:p63-65 |
 | [questions/q0283.md](questions/q0283.md) | question q283 | «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended | open; cites wb.2:p503b |
@@ -1083,12 +1083,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0633.md](questions/q0633.md) | question q633 | The goat's bladder on p. 106: lost by the Zhol or added by the 1996 print | open; cites — |
 | [questions/q0634.md](questions/q0634.md) | question q634 | The snake's «སྦོ་སྨད» on p. 122 | open; cites wb.2:p122 |
 | [questions/q0635.md](questions/q0635.md) | question q635 | The seventh of the old: «ཕན་ངོན» or «བན་བོན» | open; cites — |
-| [questions/q0636.md](questions/q0636.md) | question q636 | Khon's block of the provisions without a seal | open; cites wb.2:p129-132 |
+| [questions/q0636.md](questions/q0636.md) | question q636 | Khon's block of the provisions without a seal | answered; cites wb.2:p129-132 |
 | [questions/q0637.md](questions/q0637.md) | question q637 | How gin and zon seal each other in the provisions | open; cites wb.2:p129-132 |
 | [questions/q0638.md](questions/q0638.md) | question q638 | «དབུས» of «དབུས་ནག» in the old one sri'u, p. 80 | open; cites — |
 | [questions/q0639.md](questions/q0639.md) | question q639 | The Zhol print's wavy marks against Mipham's counts, p. 517 | open; cites wb.2:p517 |
 | [questions/q0640.md](questions/q0640.md) | question q640 | «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» | open; cites — |
-| [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | open; cites — |
+| [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | answered; cites — |
 | [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
 | [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | answered; cites wb.2:p370 |
 | [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | answered; cites wb.2:p360-361 |
