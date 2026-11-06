@@ -1086,6 +1086,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | open; cites wb.1:p445 |
 | [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | open; cites wb.1:p445 |
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
+| [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 
 <!-- end pool index -->
 

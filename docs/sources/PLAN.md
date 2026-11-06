@@ -1425,3 +1425,5 @@ Searched and found wanting, so not to be repeated:
   - «ཞག་འཕོ», «ཞག་བརྗེ», «ནམ་ཕྱེད» with «ཞག», «ནུབ་མོ» with «ནད» and «ཞག» (where the day of falling ill turns): none.
   - «སུམ་ཆ་སུམ་གཉིས» as a split of the elements: none beside the children's third in WB p. 369.
   - A Steinert clone for «བསྔོས་ཚང», «བསྡུས་ཚད», «རྟ་ཞག»: not on the machine.
+- **RD170, ch. 32 on the scan (2026-11-06)** (RD170, 2026-11-06):
+  - The direction of counting the outer door's places: the 1996 etext of pp. 242–275 searched for words of direction and turning, no statement (pp. 276–294 read line by line in RD156, also without one).
