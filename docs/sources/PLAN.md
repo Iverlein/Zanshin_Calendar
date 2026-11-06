@@ -1405,3 +1405,7 @@ Searched and found wanting, so not to be repeated:
 - **RD159, third part (2026-11-06)** (RD159, 2026-11-06):
   - Locating a word on the Gser thang reprint from Yigdzin-1's OCR line number and offset (img. 322: 28 OCR lines against 21 ink lines): fails; crops need a mapping from the ink rows (`scans.py line`) or a choice by eye from a whole-page view.
   - The Zhol print's pp. 1066–1085 have no OCR text yet; a run waits long for a free slot.
+- **RD167, the notes (2026-11-06)** (RD167, 2026-11-06):
+  - A table of the birth's hundred with a legend for the cross and the dot: not in the *Moonbeams* (I2533 img. 035–037, sentences only); the *Little Red Tiger-Head* is not in the registry and was not searched.
+  - «གནས་སྐྱུག» / «གནས་སྒྱུག»: the Sakya and Zhol etexts have neither form at those places (`locate.py find`); the Gser thang reprint's stacks are blotted at 3.5×.
+  - A text giving the twenty's last group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» a year of its own: none (as RD58).

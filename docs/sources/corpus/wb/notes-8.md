@@ -224,7 +224,7 @@ Read 2026-11-01 (RD110) in the dictionaries (Steinert's 64, `locate.py dict`), t
 - Question: On p. 165, is the print's «མཚོལ» a spelling of «མནོལ», defilement? (A second print was not read.)
 - Question: What is «ཡམས་སྐུད» as a class of kin, and who sits at the moment's mewa's right shoulder?
 - Question: Is «ལྷས་ངན་བབས» on p. 171 (img. 176) «ལྟས་ངན», a bad omen? (The word was not re-read on the scan.)
-- Question: Which of the moment's counts does the notes' «ཡར་གསུམ་སོགས» (p. 537) name, and does UT's chase upward and downward over the fifteen places read the same count?
+- Question 424 ([q0424](../../questions/q0424.md)), narrowed: which of the moment's counts does the notes' «ཡར་གསུམ་སོགས» (p. 537) name, and does UT's chase upward and downward over the fifteen places read the same count?
 - Question: Is the «དོ་གཅིག» of p. 164 a year-word, and which year?
 
 ### Searched and not found
