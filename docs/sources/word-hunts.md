@@ -269,3 +269,13 @@ The page of the national register of intangible heritage for Kun dga' rig 'dzin 
 - «བཏང་གཅོད་སྒྱུ་འཕྲུལ་སྒྲོན་མ», «གཅོད་པའི་སྒྱུ་འཕྲུལ་སྒྲོན་མ», «སྒྱུ་འཕྲུལ་སྒྲོན་མེ», «སྒྱུ་འཕྲུལ་སྒྲོན་མའི», «ཡིག་ཆ་ཉི་ཤུ་པ», «གཏན་ལ་འབེབས་པའི་སྒྱུ་འཕྲུལ» 0 hits (q535).
 - Web search for 《西藏天文历算总汇》 with the publisher or KD's Chinese title: the register's page only (q554).
 - «མུ་ལ་ཏན་ཏྲ་ལས» 0 hits.
+
+
+## The wheel texts' and the Kun-gsal-dpe's words, what no row holds: the Longchenpa quotation, the wheel with rims, the fathers' and mothers' wheels, the parasol, the palm turned into a road (etext only, no card) (RD171)
+
+Nothing read yet: RD171's passages, with the English beside them, go here.
+
+
+## The catalogue's questions, the second round: Dr. Chenagtsang's books, the Serthang edition, the *Spor thang*, the Chinese title of KD, the Bhutan digest's writer, the Drigung verse work, the Clear Lamp's root, the sheets' date (BDRC records and full-text search, no card) (RD173)
+
+Nothing read yet: RD173's passages, with the English beside them, go here.
