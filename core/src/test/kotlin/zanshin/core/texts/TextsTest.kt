@@ -111,4 +111,10 @@ class TextsTest {
         assertEquals(listOf(2, 3, 5, 7, 9, 10, 13, 16, 19, 20, 23, 26, 28, 30), Texts.RAHU_GENERAL.keys.sorted())
         assertTrue(Texts.RAHU_GENERAL.values.all { it.goodKeys.isEmpty() && it.avoidKeys.isEmpty() })
     }
+
+    /** P. 322 on the Zhol print: «ཚེ་སྒྲུབ», not the machine's «ཚེ་སྣུབ» (claims/wb-p322-tshe-sgrub-anuradha.md). */
+    @Test
+    fun `Anuradha's good list has rites for long life`() {
+        assertTrue("rites_for_long_life" in MansionVerses.LISTS.getValue(Mansion.ANURADHA).first)
+    }
 }

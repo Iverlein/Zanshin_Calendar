@@ -296,7 +296,7 @@ internal object MansionVerses {
                 "ordination", "consecration", "prosperity_rites", "medicine", "virtuous_acts", "teaching_dharma",
                 "restoring_stupas", "cutting_and_wearing_new_clothes", "giving_ornaments", "enthronement", "washing_the_hair",
                 "bloodletting_and_moxibustion", "painting", "war_and_raids", "attacking", "gtad_and_fierce_rites",
-                "power_and_increasing_rites_in_general", "field_work", "sowing", "setting_out", "games", "quick_works",
+                "power_and_increasing_rites_in_general", "rites_for_long_life", "field_work", "sowing", "setting_out", "games", "quick_works",
                 "saddling_horses_and_donkeys", "judging_disputes", "cutting_hair_and_nails", "travelling_far",
                 "prosperity_rites_for_wool", "taking_in_gains", "lawsuits_in_the_south_and_west", "taking_land",
                 "study", "taking_things_in"
