@@ -1455,3 +1455,8 @@ Searched and found wanting, so not to be repeated:
   - Etexts answering 403 (snippet only): the Sakya volume of Ngag dbang kun dga' bsod nams (VE29307_094, _096), Bod ljongs nang bstan (I1PD35670), eight of the 19 «ཕྱ་ཐེར» hits.
 - **RD170, second run (2026-11-06)** (RD170, 2026-11-06):
   - Words of turning and direction (གཡས་སྐོར, གཡོན་སྐོར, ཉི་འཁོར, ཉི་ལམ, གཡས་ཕྱོགས, གཡོན་ཕྱོགས, གནས་བརྒྱད) in the machine text of pp. 243–275 and 295–296: one hit, p. 273, a river and the sun and moon turning right as a sign of good ground; nothing about a door.
+- **RD173, the catalogue's second round (2026-11-06)** (RD173, 2026-11-06):
+  - BDRC exact phrases «དཔལ་གདོང་ཆུ་བྱ» (34 hits, none helps), «ཡེ་ཤེས་ཆོས་འཕེལ་དུ་འབོད་པས» (1 hit, the Bhutan collection only), «བརྒྱ་འདྲེའི་རྡེའུའི་ཁྲ་མ» (0), «གཙུག་ལག་སྤོར་ཐང་རྩིས་གཞུང» (1 hit, KD vol. 3 itself).
+  - «dkon mchog bstan 'dzin phrin las» (153 hits): the second Grub dbang incarnate (1923–1965), the Lho lung dkar colophons and others; BDRC has no person record for the verse work's writer.
+  - Bing for 《西藏天文历算总汇》: nothing but calendar sites; Google Books API answered 429.
+  - The Clear Lamp's root has no etext, and its manuscript was not read by eye.

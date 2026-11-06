@@ -678,7 +678,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 7 passages: 7 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 20 passages: 17 scan, 3 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 55 passages: 17 scan, 35 machine, 3 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
@@ -1091,7 +1091,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
 | [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | open; cites wb.1:p317 |
 | [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | open; cites wb.1:p445 |
-| [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | open; cites wb.1:p445 |
+| [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | answered; cites wb.1:p445 |
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 | [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |

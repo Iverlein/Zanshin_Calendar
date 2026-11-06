@@ -1004,6 +1004,8 @@ the text, not about the app.
     says it treats the la and how to guard it; the book itself was not
     seen, so whether it carries KL's tables is still open.*
 
+    *RD173 (2026-11-06): SKY Press's pages for* Tibetan Healing Massage *(294 pp.) and* The Tibetan Book of Health *(198 pp.) mention neither the la nor dates to avoid; the books are needed.*
+
 63. **Answered 2026-10-18. RS and SY.** Is the Rebkong anthology that copies SY, named in
     [personal-mansions.md](personal-mansions.md) under *The mansion of
     conception*, the *Collected Star Texts of the Rebkong Ngakmang* (RS)?
@@ -1334,6 +1336,8 @@ the text, not about the app.
     a test free of any offset between page and image. No edition fits, and
     none puts ch. 13 after ch. 14 as KL's 78 and 50 do: KL's page numbers are
     not one book's.*
+
+    *RD173 (2026-11-06): «ལྕགས་པར་མ» is a standing name for one modern typeset Four Tantras cited by many authors; which edition is open (Chengdu or Beijing typesetting, or Lokesh Chandra's Chakpori reprints MW3CN1694, MW3CN1700, MW3CN1709); none tested fits KL's six numbers as one book.*
 
 87. ~~KL p. 199: «ཉིན་དགོང་མཚན་དགོང».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): both prints read on the scan have «ཉིན་གུང་མཚན་གུང»; KL p. 199 slips.* The question as it stood: Bile rises so in KL, where the Four
     Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
@@ -2886,6 +2890,8 @@ the text, not about the app.
      cite for the hundred pebbles and the household, and does it rest on
      WB? [verdicts.md](verdicts.md), "Written reckonings: the
      practitioners' form" (RD28).
+
+    *RD173 (2026-11-06): BDRC full text on «གཙུག་ལག་སྤོར་ཐང» (92 hits, pages 1–5) shows it names the Chinese reckoning's tradition and its followers («སྤོར་ཐང་པ»), not one fetchable work: the Padma bka' thang, a Sde dge Tengyur commentary, the Fifth Dalai Lama, Khri rgan, KD, commentaries on the Four Tantras; they say Mañjuśrī taught it, name a root* Gtsug lag rtsa ba rin chen kun 'dus *(no copy found), and that Princess Kong jo brought it to Tibet. It is older than WB, whose notes and KD's charts rest on it.*
 245. ~~**«སྟངས་གཅོད» and «བཏང་གཅོད» (KD vol. 3, pp. 722, 729).**~~
      *Answered 2026-10-22 ([verdicts.md](verdicts.md), "«སྟངས་གཅོད» and
      «བཏང་གཅོད», the deciding pebble"): the same word for the same pebble.
@@ -2932,11 +2938,15 @@ the text, not about the app.
      record is *Zang chuan li suan xue da quan*? KD's Chinese title page and
      colophon (lent scans) would settle it. [verdicts.md](verdicts.md), "Kun
      dga' rig 'dzin, the writer of the sheets" (question 246).
+
+    *RD173 (2026-11-06): leaning yes, not settled: BDRC has the Tibetan title* Bod kyi rtsis rig kun 'dus chen mo *and pinyin* Zang chuan li suan xue da quan*; Baidu Baike gives 《藏传历算学大全》 (Sichuan Nationalities Publishing House, August 1998, 5 vols); the register's 《西藏天文历算总汇》 reads like a paraphrase of the Tibetan title. The lent title leaf would settle it.*
 250. **The Tibet University interview.** What does the interview with the
      elder Kun dga' rig 'dzin in Tibet University's journal (reprinted in
      MW1KG25692, Beijing 2016; scans lent on archive.org) say of his
      teachers, his training and the sheets? [verdicts.md](verdicts.md), "Kun
      dga' rig 'dzin, the writer of the sheets" (question 246).
+
+    *RD173 (2026-11-06): q538 (when KD's sheets were drawn) needs this interview or KD vol. 3's title leaf; vol. 3's preface is dated 1995 and the first edition is 1998, so the sheets were drawn no later than 1995 if they were in the volume then.*
 251. **When the sheets were drawn.** When, and for what use, were the sheets
      drawn: for KD (1995–1998), or earlier as teaching material? The year
      reckoned on the obstacle reckoning's sheets is a wood rat (ཤིང་བྱི,
