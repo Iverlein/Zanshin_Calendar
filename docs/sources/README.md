@@ -981,7 +981,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
 | [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | open; cites — |
 | [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites — |
-| [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | open; cites — |
+| [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | answered; cites — |
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
@@ -1052,7 +1052,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | open; cites — |
 | [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | open; cites — |
 | [questions/q0615.md](questions/q0615.md) | question q615 | «མགོ་མཇུག་ལོག» in the benefits texts | open; cites — |
-| [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | open; cites — |
+| [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | answered; cites — |
 | [questions/q0617.md](questions/q0617.md) | question q617 | «ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ» in the wheel text under Karma Chagme | open; cites — |
 | [questions/q0618.md](questions/q0618.md) | question q618 | The *Nges 'byed bla ma* Longchenpa quotes | open; cites — |
 | [questions/q0619.md](questions/q0619.md) | question q619 | «བྱན་ཚང» on pp. 287 and 294 | open; cites wb.2:p287, wb.2:p294 |

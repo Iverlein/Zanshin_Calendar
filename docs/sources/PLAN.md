@@ -1446,3 +1446,10 @@ Searched and found wanting, so not to be repeated:
   - The Black Moon's own course among the date's earth lords: none in ch. 31's twenty-seven.
   - A text laying out the meadow's ornament leaves besides WB, the Moonbeams, ZG and KD: none («སྤང་རྒྱན་ལོ་མ» in WB and UT).
   - «སྤྲུག་སྟོན» / «སྒྲུག་སྟོན» in UT and WB: names only.
+- **RD171, the wheel texts' and the Kun-gsal-dpe's words (2026-11-06)** (RD171, 2026-11-06):
+  - «ཏ་ལ་ལམ་དུ», «ཏཱ་ལ་ལམ་དུ», «ཏ་ལ་ལམ་དུ་བསྒྱུར» (BDRC): 0 hits; «ཏ་ལ་ལམ» 9 hits, all across a word boundary.
+  - «འདུག་པར་བསྐོར་ན», «མ་ཎི་འཁོར་ལོ་འདུག་པར», «ཐད་ཀར་དྲང་ཞིང་བསྐོར»: 0 hits.
+  - «མགོ་མཇུག་ལོག་ན་ཞ་བོར», «མགོ་མཇུག་ལོག་པར་བསྐོར», «མགོ་མཇུག་ལོག་ཏུ་བསྐོར», «འཕྲེད་ལ་བསྐོར་ན», «ཞ་བོར་སྐྱེ»: 0 hits.
+  - «ངེས་འབྱེད་བླ་མའི་རྒྱུད», «རཱ་ལི་ནས་བཤད», «ཧེ་བཛྲ་ལས་སྤྱི་བོའི་འཁོར་ལོ་མི་བསྐྱོད་པ»: 0 hits; «ཕྱ་ཐེར་དང་སྦྲ»: 0 hits.
+  - «nges 'byed bla ma», «bar rgyur», «yab skor», «bon skor», «phya ther» as headwords in 64 Steinert dictionaries: none.
+  - Etexts answering 403 (snippet only): the Sakya volume of Ngag dbang kun dga' bsod nams (VE29307_094, _096), Bod ljongs nang bstan (I1PD35670), eight of the 19 «ཕྱ་ཐེར» hits.
