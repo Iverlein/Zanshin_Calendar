@@ -22,7 +22,6 @@ import zanshin.app.BirthReading
 import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import zanshin.app.Person
-import zanshin.app.Reckonings
 import zanshin.app.Relation
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
@@ -32,8 +31,6 @@ import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.BirthReckoning
-import zanshin.core.tibetan.ClanCut
-import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.DpalByur
@@ -94,7 +91,6 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         DpalByurSection(b, onOpen)
         LineSection(person, b, onOpen)
         PowerSection(person, onOpen)
-        ClanSection(person, onOpen)
 
         Section(stringResource(R.string.birth_section_parents))
         if (person.gender == null) Text(stringResource(R.string.birth_gender_needed), style = muted)
@@ -494,52 +490,6 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
                 english = "",
                 tone = if (g.nourish) Tone.GOOD else Tone.BAD,
                 reading = Texts.groupCut(g),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
-}
-
-/** The special pebble (pp. 261, 284–286): the birth year against the clan's element, or what it needs. */
-@Composable
-fun ClanSection(person: Person, onOpen: (Annotation) -> Unit) {
-    val labels = LocalLabels.current
-    Section(stringResource(R.string.birth_section_clan))
-    val y = Reckonings.clanYear(person)
-    val clan = person.clan
-    if (y == null || clan == null) {
-        Text(stringResource(R.string.birth_clan_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
-        return
-    }
-    val born = TibetanCalendar.of(person.birth)
-    AnnotationRow(
-        Annotation(
-            title = y.english.replaceFirstChar(Char::uppercase),
-            english = "",
-            tone = when (y) {
-                ClanYear.GREAT_PENALTY, ClanYear.POWER, ClanYear.SON -> Tone.GOOD
-                ClanYear.SMALL_PENALTY, ClanYear.MOTHER -> Tone.MIXED
-                ClanYear.FRIEND, ClanYear.ENEMY -> Tone.BAD
-            },
-            reading = Texts.clanYear(y),
-            subtitle = labels.string(R.string.birth_clan_subtitle, Ewts.named(clan.english, clan.wylie), gloss(clan.element, "inText"), gloss(born.yearAnimal)),
-            titleIsKanji = false,
-            details = listOf(
-                labels.string(R.string.birth_detail_clan) to "${Ewts.named(clan.english, clan.wylie)} · ${gloss(clan.element, "inText")}",
-                labels.string(R.string.birth_detail_child) to signName(Sign(born.yearElement, born.yearAnimal), labels),
-            ),
-        ),
-        onOpen,
-    )
-    listOf(ClanCut.MONTH to born.monthNames.animal, ClanCut.YEAR to born.yearAnimal).filter { BirthReckoning.clanCuts(clan, it.second) }.forEach { (cut, animal) ->
-        AnnotationRow(
-            Annotation(
-                title = stringResource(R.string.birth_share_title, stringResource(R.string.birth_clan_cut), cut.english),
-                english = "",
-                tone = Tone.BAD,
-                reading = Texts.clanCut(cut),
-                subtitle = gloss(animal).replaceFirstChar(Char::uppercase),
                 titleIsKanji = false,
             ),
             onOpen,

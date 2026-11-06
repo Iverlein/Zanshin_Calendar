@@ -136,14 +136,6 @@ class ReckoningsTest {
         assertEquals(emptyList<BirthOmen>(), Reckonings.birth(person.copy(relatives = parents))!!.omens)
     }
 
-    /** The special pebble needs only the clan: a fire dragon of a keg (wood) clan is born in its friend year. */
-    @Test
-    fun `the special pebble from the clan`() {
-        assertNull(Reckonings.clanYear(person))
-        assertEquals(zanshin.core.tibetan.ClanYear.FRIEND, Reckonings.clanYear(person.copy(clan = zanshin.core.tibetan.Clan.KEG)))
-        assertEquals(zanshin.core.tibetan.ClanYear.GREAT_PENALTY, Reckonings.clanYear(person.copy(clan = zanshin.core.tibetan.Clan.KUNGS)))
-    }
-
     /** The match needs the person's gender and a spouse's year; the man and the woman are told apart whichever the person is. */
     @Test
     fun `the marriage match from the spouse's year`() {
