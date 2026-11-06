@@ -2465,6 +2465,8 @@ the text, not about the app.
      P. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of the
      forty, two years less at each step, gives 50: a slip of the print?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+
+    *RD175 (2026-11-06): repeats q520, answered: the Taikhang carries the same «ང་བཞི» as the other prints, so the repeated 54 is in the block.*
 184. ~~**The board of the hundred pebbles (WB vol. 1, ch. 22, p. 331).**
      The general verdict of p. 331 reads the hundred as they lie on the board
      (above, middle, below, the four corners, where the sons lie); how are

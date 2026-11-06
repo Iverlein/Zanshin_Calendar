@@ -675,7 +675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
-| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 8 passages: 3 scan, 5 machine; RD175 (2026-11-06) letters in doubt on pp. 331–435 read on the Zhol and Taikhang |
+| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 9 passages: 4 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 38 passages: 31 scan, 6 machine, 1 etext |
@@ -965,9 +965,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
 | [questions/q0516.md](questions/q0516.md) | question q516 | The la-knower's animals in the second table of p. 133: tiger, pig, monkey, snake | open; cites wb.2:p224d |
 | [questions/q0517.md](questions/q0517.md) | question q517 | The hal khyi's five mothers and five sons as the five elements' pairs | open; cites wb.2:p224d |
-| [questions/q0518.md](questions/q0518.md) | question q518 | The body's friend «བེ་ལུག» or «བུ་ལུག» on the Zhol block | open; cites wb.1:p334 |
+| [questions/q0518.md](questions/q0518.md) | question q518 | The body's friend «བེ་ལུག» or «བུ་ལུག» on the Zhol block | answered; cites wb.1:p334 |
 | [questions/q0519.md](questions/q0519.md) | question q519 | «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» on p. 335 | open; cites wb.1:p334 |
-| [questions/q0520.md](questions/q0520.md) | question q520 | Item 15 of the forty of the birth wind: «ང་བཞི» (54) for fifty | open; cites wb.1:p342 |
+| [questions/q0520.md](questions/q0520.md) | question q520 | Item 15 of the forty of the birth wind: «ང་བཞི» (54) for fifty | answered; cites wb.1:p342 |
 | [questions/q0521.md](questions/q0521.md) | question q521 | Does a bad but not utterly bad life reckoning bar the match (reply 111) | open; cites wb.1:p351b |
 | [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | open; cites wb.1:p351b |
 | [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
@@ -1009,7 +1009,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
 | [questions/q0561.md](questions/q0561.md) | question q561 | p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge | open; cites wb.2:p104 |
-| [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | open; cites wb.1:p331 |
+| [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | answered; cites wb.1:p331 |
 | [questions/q0563.md](questions/q0563.md) | question q563 | The five columns of a meadow's ornament group | open; cites wb.2:p22 |
 | [questions/q0564.md](questions/q0564.md) | question q564 | The limbs' verdict in Sprugtön's reckoning | open; cites wb.2:p23 |
 | [questions/q0565.md](questions/q0565.md) | question q565 | Revatī among p. 348's very bad and accomplishing mansions | open; cites wb.1:p348 |

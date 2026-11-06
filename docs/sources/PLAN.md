@@ -1476,3 +1476,5 @@ Searched and found wanting, so not to be repeated:
   - «ཐུན་ཀུང», «ཐུན་ཀླུང», «ཐུན་ཀུངས», «ཐུན་གུང» in the same etexts: no hit but WB's own line.
   - «དོ་གཅིག» besides WB and the notes: no definition. «རྒྱུག་དྲུག», «སྤུད་པ་དགུ» as a gloss: none.
   - The departure's seven lords with a day or a grade, in LT, UT, KD vol. 3 and the Bhutan digest: no text says 'of the date'.
+- **RD175, letters in doubt on pp. 331–435 (2026-11-06)** (RD175, 2026-11-06):
+  - A Zhol impression with a legible vowel over ཐ in «ངོ་ཐོག/ཐེག» (p. 381): only img. 499 of I1KG1710 was looked at, at 14×; no second impression of the blocks was found.
