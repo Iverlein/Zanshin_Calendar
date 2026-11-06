@@ -699,7 +699,26 @@ Question 594. *Read: Taikhang I5878 img. 161, 162, 165, 166 by eye (line crops c
 
 ## The five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, by eye (RD150)
 
-Nothing read yet: RD150's passages, with the English beside them, go here.
+Question 594. *Read: Taikhang (I5878) img. 161, 162, 165 and 166 by eye, all six places, at 4-7x (crops cut by PIL from the 8280 x 1740 scans, the line strips placed first by Yigdzin-1 run over 2200 px strips through the slot, its files in scratch); no MITRA, no agy turn.*
+
+The six places, found by the words round them (the machine's line numbers do not match the scan's five lines; the strips gave the word, the crop the stack). Each reads, on the scan, the death (ཤི, shi) with its vowel sign, then a head letter ས over a subjoined letter, then བ:
+
+- Img. 161 (p. 105, l. 15), after «ལོ་དགུ་ཡི།» ("of nine years"): «ཤི་ས(ག|ཀ)བ་ཆོད», "the run of deaths is cut" (x about 4270-4560, y 660-800 of the scan). Under the ས a closed, boxy letter with a short left foot and a vertical stem; no hook through it that would be ཀ's.
+- Img. 162 (p. 106, l. 2), after «ལོ་བཅུའི་» ("of ten years"), before «ཆོད་པར» (x about 2900-3300, y 540-650): the subjoined letter is a closed square with the stem on its right, the same box as at p. 105.
+- Img. 162 (p. 106, l. 15), after «མི་ལོ་བཅུ་གཅིག་» ("eleven years", x about 5550-5800, y 1100-1220): the same closed square under the ས, stem down on the right.
+- Img. 165 (p. 108, l. 11), at the line end after «བཅོ་ལྔའི་» ("of fifteen years", x about 7150-7330, y 940-1060): ས with a diagonal stroke, under it a closed box with a long descender, then བ and «ཆོད» with the two dots after it; here Yigdzin-1 had read ཀ, while the scan shows the same closed box as at the other places.
+- Img. 166 (p. 108, l. 24), after «མི་ལོ་བཅུ་དྲུག་» ("sixteen years", x about 1500-1850, y 760-900): the closed triangular box under the ས, then བ, «ཆོད».
+- Img. 166 (p. 108, l. 26), after «བཤད་པའི་» ("the said"), before «བཅད» (x about 5450-5750, y 800-920): the closed box with a small white counter inside and the stem, then བ; the word after it is «བཅད», "cut", not «ཆོད».
+
+What the eye can say: at all six places the subjoined letter is the same closed box with its stem, and at none is there the open hook or the crossing stroke that would make ཀ. So the six lean to ག («ཤི་སྒབ»). It is not settled: the print is a one-bit scan in which the counters of this running cursive are filled, I had no ཀ-stack of the same hand on the same folio to put beside it, and the single reading Yigdzin-1 gave as ཀ (img. 165) shows how near the two are for a machine. The answer stays a lean, held with doubt, not a reading.
+
+### Open
+
+- Question: at the six places of the run of deaths on the Taikhang (p. 105, l. 15; p. 106, ll. 2 and 15; p. 108, ll. 11, 24, 26) the subjoined letter under the ས is a closed box with a stem, the same at all of them: does a reader of this cursive take that box for ག, or can ཀ be written so in this hand?
+
+### Searched and not found
+
+- A ཀ-stack («སྐ») of the same hand on img. 161, 162, 165 or 166 to put beside the six places: none was looked for beyond these crops, and none turned up in them.
 
 
 ## The other five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, found by the words around them (RD153)
