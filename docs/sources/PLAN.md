@@ -1466,3 +1466,5 @@ Searched and found wanting, so not to be repeated:
   - «ངོ་ཐེག» outside WB's 1996 print: none.
   - Tibetan-script Sanskrit names of the 27 yogas, BDRC full text, four phrases: none.
   - The etext of Dpyod ldan snying nor (I1KG81102): HTTP 403, search only.
+- **RD178, ch. 27's first leaves (2026-11-06)** (RD178, 2026-11-06):
+  - p. 3's gloss «ཇི་ནོང» on the Zhol print, img. 629 l. 2, crops at 3× and 6×: illegible, too small and worn at that resolution.
