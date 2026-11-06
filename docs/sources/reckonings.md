@@ -2649,3 +2649,21 @@ The digest has no count lines: none of «རྡེལ་དོན», «ངོས
 
 - 2026-11-05, the digest (Bhutan collection etext, img. 479–601): the road omens («ལ་ཉེ», «ཐེབས», «ལྡོག་པའི»); the colophon's names («སྤྱུག», «སྤྲུག», «ལྡུམ», «ཆོམས་ཁྱུང»); «དགྲ་དར», «དགྲ་ལོ», «ཆད་ཆེན», «བླ་རྡེ»; «གྲི་རིགས», «ཐོག་གྲི», «གྲགས་རྒྱལ», «ཤངས་དཀར»; «བཀྲ་རྒྱལ», «བཀྲ་ལུས», «བཀྲ་དཔྱད», «བསྲུང་མེད»; the verse of p. 80 («དབུས་ནག», «གཅིག་དཀར་བཞི»); the list of p. 92 («རྟ་ཆེན», «ལྡེ་འུ», «བྱ་སྤོ»); the verse of p. 70 («དཀར་གསུམ», «བར་དོར»); «རྡེལ་དོན», «ངོས་རྡེལ», «ཞེ་གསུམ»: none in WB's sense.
 - 2026-11-05, «བྱ་འུ» as a mansion in the etexts of the collection, LT, UT, I4949, the regent's replies (I5876) and the Zhol print: the verse of bad mansions and the list at img. 259 only, neither with a number.
+
+## The Vaiḍūrya replies, «ཡི་བམ» in reply 152 and the syllable before «ཁམ» in reply 140, at 2–6× (RD151, second reading of that number)
+
+*Read: by eye on hand-cut crops of I5875 img. 514 and 498 (8,280 px wide), 1.6–6×, 2026-11-06; no model run; the Zhol print and the etext of the replies were not opened (no second print of this work is in the cache).*
+
+- Where the word of q603 lies: img. 514 has six full-width lines. «ཡི་བམ» is in the third line, at page x about 2,300–2,720, y about 600–740 (the second quarter of the page, which the earlier readings did not cut; the clause is not in the strips x 4,100–7,000 of the same line, which hold «…བབས…» of another sentence). The run reads «དེས་ན་མོ་ཡི་བམ[two dots, a gap]ལ་བབས་ནས་འབྱུང་ཆུང…», as the corpus has it.
+- q603, letters (6×): the first syllable is one stack, a loop open at the lower left with a hook, under a long tilted stroke that is the vowel sign above (gigu); the second a ba-like box with ma beneath. The hook-and-loop body is the shape this hand also gives to the particle «ལ» two syllables on (img. 514 l. 3, after the gap); a side-by-side of the two at 4× did not tell them apart. So the hand does not separate ya from la in this stack: the letters are "ya or la with gigu" («ཡི» or «ལི»), and «ལི་ཁམ» is not excluded on the first letter. The second syllable was not told from kha: its box has the ba's flat cap, not the kha's separate left stroke seen in the «ཁམ» of img. 498, but the ink fills in at 6×. Narrowed: the first letter is no longer a firm ya.
+- q604 (img. 498, the clause «…རྟོགས་པས [?]ཁམ་མི་དགོས་ཞེ་ན», page x about 4,850–5,250, y about 470–610, 5×): the stack before «ཁམ» has a flat ra-like head bar, a loop at the lower left and one long stroke running down to the right. It carries no vowel sign above (the sign over «མི» two syllables on is clear), so it is not «ལི» (li). The long right stroke may be a suffix da, in which case «རྦད» of the machine is not contradicted; ba, ga or da under the head still not told apart.
+
+### Open
+
+- Question: In reply 152 (I5875 img. 514, l. 3, page x about 2,300–2,720), is the first letter of the stack with gigu before «བམ» a ya or a la, given that the hand writes both with the same hook-and-loop, so that «ཡི་བམ» may simply be «ལི་ཁམ» written fast?
+- Question: In reply 140 (I5875 img. 498, l. 2 of the strip, page x about 4,850–5,050), does the long stroke at the right of the ra-headed stack before «ཁམ» belong to the stack as a suffix da (so «རྦད»)?
+
+### Searched and not found
+
+- A reading of ya against la in this hand from a certain ya elsewhere on img. 514: none made (only the particle «ལ» after the gap was compared); a dated sheet with several of each, cut from img. 513–514, would settle it.
+- A second print of the replies to compare (Zhol print or etext of I5875): none in the cache.
