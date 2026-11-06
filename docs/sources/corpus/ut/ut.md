@@ -53,6 +53,24 @@ UT (etext I4767, etext pp. 224–226, printed pp. 202–204; the etext is the on
 
 The chase upward (ཡར་དེད, yar ded) runs fifteen places in a fixed order: the first is one's own place, the second the child's, the third the woman's, the fourth the father's brothers', the fifth the uncle's brothers', the eighth the mother's side's maternal kin, the twelfth the horse below, the thirteenth the mule's, the fourteenth the spring of the world (the life-lake), the fifteenth the way of gods and demons; each place has something that must not rise or fall on it. The chase downward (མར་དེད, mar ded) names the same first places in a second order (the eighth is the country's place, the ninth the livestock's). A further chase upward by the twelve year-stores (ལོ་མཛོད, lo mdzod) gives each place a pair of year signs: the first, one's own place, the rat's store: the rat and the horse, "the horn cut must not fall"; the second, the child's, the ox: the ox and the sheep, "the heap and the lawsuit must not fall"; the third, the woman's, the tiger: the tiger and the monkey, "the seven corners"; the fourth, the father's brothers', the hare: the bird and the hare, "separation"; the fifth, the uncle's brothers', the dragon: the dog and the dragon, "the sky door"; the sixth, again the uncle's, the snake: the pig and the snake, "the slayer". "Where these fall on the seven corners, and an enemy meets, it is bad."
 
+## <a id="ut-p234"></a>ut:p234 The Garland of Blue Utpalas repeats the departure's singled-out earth lords and adds the seven dogs, the earth lord's sky dog the hal khyi
+
+*Read: etext, 2026-11-06.*
+
+> ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ་ནི། ཐེ་སེ་ཕ་མིང་ཐེ་ཁྱིམ་བག ། བྱ་ར་བ་ནི་ཁྱོ་ལ་ངན། སེ་བྱི་བག་མའི་ཁ་ཁྲིད་ངན། ཧལ་ཁྱི་ཀུན་ལ་ངན་པས་འཛེམ། ། བརྟན་མ་བུ་ཚའི་བཤན་པ་ཡིནན། གསེར་མཛོད་གཡུ་མཛོད་གཉིས་ལ་འཛེར། ཁྱི་བདུན། བག་མའི་གལ་ཆེ་ཁྱི་བདུན་ནི། ལོ་ཡི་གནམ་ཁྱི་བཅོ་བརྒྱད་དང་། ། སྟག་རྟ་ཁྱི་གསུམ་ལོ་ཡིན་། ། ། ཟླ་བའི་གནམ་ཁྱི་སྟོན་ཐ་ཆུང༌། ། ཞག་གི་གནམ་ཁྱི་སྟག་རྟ་། ། ཉི་མ་ནག་པོ་གནམ་ཁྱི་ཡིན། དུས་ཚོད་གནམ་ཁྱི་སྲོད་དུས། དེ་ཡང་ངོ་བོ་སྨེ་བདུན་ཡིན། སྨེ་བདུན་དང་པོ་ཤར་བ་དང་། ། བག་མ་སྒོར་ཐོན་ཁ་བྱང་བལྟས། མྱུར་དུ་འཆི་བར་ཐེ་ཚོམ་མེད། གཞན་ཡང་སྟག་རྟ་ཁྱི་གསུམ་གྱི། ལོ་ཟླ་ཞག་དང་དུས་ཚོད་ལ། ཟས་ཚོལ་ངན་པར་སྔ་འགྱུར་བཤད། སྤར་ཁའི་གནམ་ཁྱི་ཁེན་ཟོན་ལི། གཟའ་ཡི་གནམ་ཁྱི་ལྷག་རཱ་ཧུ། ས་བདག་གནམ་ཁྱི་ཧལ་ཁྱི་ཡིན། ཁྱི་བདུན་ཟུག་པའི་ཁ་ལ་བྱོལ།
+
+The *Garland of Blue Utpalas* (UT, printed p. 234, etext p. 256) restates the end of the departure's earth-lord check in WB's own verse: "As for what is singled out in particular: the *the se* for the father's name, the *the khyim* for the bride; the *bya ra ba* is bad for the husband; the *se byi* is bad for the bride's leader; the *hal khyi* is bad for all, so avoid it; the *bstan ma* is the children's slayer; of the gold and turquoise treasuries beware of both." Then, under the heading "The seven dogs" (ཁྱི་བདུན): the bride's important seven dogs are the year's sky dog (eighteen, and the tiger-horse-dog three), the month's sky dog, the day's sky dog (tiger-horse-dog), the Black Day (the sky dog), the hour's sky dog at dusk (its body the seven mewa; the first of the seven rising, the bride coming to the door, the mouth looking north, early death without doubt), the trigram's sky dog (Khen, Zon, Li), the planet's sky dog (the remainder, Rāhu), "the earth lord's sky dog is the *hal khyi*": shun the face where the seven dogs bite.
+
+## <a id="ut-p302-304"></a>ut:p302-304 UT: the three ku kung strikes, bad after, following after, turned back after
+
+*Read: etext, 2026-11-06.*
+
+> [p. 302] ཁོན་ལ་གླང་ལུག་ལོ་པ་ཤི།། ཀུ་ཀུང་རྗེས་ངན་ཞེས་བྱའི་འགྲམས། ཤུལ་དུ་རོ་ལྔ་ཡང་ན་བརྒྱད།
+> [p. 303] ཁེན་ལ་ཁྱི་འབྲུག་ལོ་པ་ཤི། ཀུ་ཀུང་རྗེས་དེད་ཅེས་བྱའི་འགྲམས། རོ་ནི་དགུ་བདུན་གང་རུང་འབྱུང་།
+> [p. 304] གིང་ལ་གླང་ལུག་ལོ་པ་ཤི།། ཀུ་ཀུང་རྗེས་ལོག་ཞེས་བྱ་བ། རོ་ལ་ལྔའམ་བཅུ་འབྱུང་འགྲམས།
+
+The *Garland of Blue Utpalas* (UT, printed pp. 302–304, etext pp. 324–326), the strikes of the trigram on which the dead died: on Khon an ox or sheep year's death is the *ku kung* "bad after" (རྗེས་ངན, rjes ngan) strike, the corpse afterwards five or eight; on Khen a dog or dragon year's death is the *ku kung* "following after" (རྗེས་དེད, rjes ded) strike, nine or seven corpses may come; on Gin an ox or sheep year's death is the *ku kung* "turned back after" (རྗེས་ལོག, rjes log), five or ten corpses come by the strike. (Three strikes of one name, on three trigrams, each by the year of death.)
+
 ## <a id="ut-p317"></a>ut:p317 The grave executioners' days: the 6th, the middle four's 26th, the last's 16th
 
 *Read: machine, 2026-11-01.*

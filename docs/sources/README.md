@@ -264,17 +264,21 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-trigram-fallen-to.md](claims/dead-trigram-fallen-to.md) | claim, rule | The dead's trigram in ch. 29 is the trigram fallen to: the descended trigram at death | cites ys:i513-514, wb.2:p86-90, wb.2:p504-512, wb.2:p75-77; feeds block-31 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
 | [claims/dead-weekday-planet-state-wb-rules.md](claims/dead-weekday-planet-state-wb-rules.md) | claim, rule | How the death day's planet's state is found: WB's two rules, the element test, the two gaps on four prints | cites wb.2:p63-65, wb.2:p313, wb.1:p176, lt:p9-11; feeds block-31, block-32 |
+| [claims/departure-singled-out-lords-by-time.md](claims/departure-singled-out-lords-by-time.md) | claim, list | The departure's singled-out lords are the year's, month's, day's and hour's: seats and courses shunned, a remedy when met | cites wb.1:p375, wb.2:p96-97, wb.2:p370, wb.2:p362-363, wb.2:p531, ut:p234, kd.3:p644; feeds — |
+| [claims/do-gcig-glossed-once-in-the-notes.md](claims/do-gcig-glossed-once-in-the-notes.md) | claim, definition | The do gcig is glossed once, in Mipham's note on the birth reckoning's results | cites wb.2:p480, wb.1:p317; feeds — |
 | [claims/dz-dead-board-rows.md](claims/dz-dead-board-rows.md) | claim, rule | The Moonbeams' board of the living out of the dead: four rows by kin, five columns by age and sex | cites dz:i061-063, wb.2:p52-54; feeds block-31 |
 | [claims/dz-five-totals-and-ch27-domains.md](claims/dz-five-totals-and-ch27-domains.md) | claim, note | The Moonbeams' five general totals and ch. 27's five domains: same pairing, third domain differs | cites dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/earth-four-executioners.md](claims/earth-four-executioners.md) | claim, note | The four executioners and the four earth years | cites ut:p56, lt:p26-28, wb.2:p499-500, wb.2:p52-54; feeds block-31 |
 | [claims/earth-lords-beside-the-weighing.md](claims/earth-lords-beside-the-weighing.md) | claim, rule | KP and SY close the weighing by sending the earth lords to screening and remedy | cites kp:i14, sy:p389-392; feeds T2.26, D4 |
 | [claims/earth-lords-bride-ten-checks.md](claims/earth-lords-bride-ten-checks.md) | claim, list | A bride is sent by ten checks, the earth lords one of them, unranked | cites dz:i045, kd.3:p634, kd.3:p641-642, lt:p38-41; feeds T2.26, D4 |
 | [claims/earth-lords-place-beside-day.md](claims/earth-lords-place-beside-day.md) | claim, note | The earth lords decide the place, the day is chosen apart | cites mta:p52-53, bsb:p435-436, lcm:p181-182, sdp:p238-241, kd.1:p493, kd.1:p495; feeds T2.26 |
+| [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
+| [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
 | [claims/hidden-body-cut-turtle.md](claims/hidden-body-cut-turtle.md) | claim, conflict | The body cut's turtle: the blocks carve the left side 7 and the left leg 6 | cites wb.1:p358, wb.2:p524; feeds block-58 |
 | [claims/household-fold-box-print.md](claims/household-fold-box-print.md) | claim, note | The box over the fold on Mipham's own print | cites wb.2:p490-491; feeds — |
 | [claims/household-mewa-verdicts.md](claims/household-mewa-verdicts.md) | claim, table | The household's general verdicts when many share a mewa of the year | cites wb.1:p407-408; feeds block-58, R4 |
@@ -301,6 +305,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-seven-elements.md](claims/illness-seven-elements.md) | claim, list | The notes' seven: three life forces, the hour's power, the descending trigram and mewa, and the kind of person | cites wb.2:p497, wb.1:p438, ys:i099, ys:i491-492, ys:i492-493; feeds block-32 |
 | [claims/illness-shares-halves-thirds.md](claims/illness-shares-halves-thirds.md) | claim, note | Halves and thirds at p. 438 are shares of a split; the notes' three-way example falls under the most taken as chief | cites wb.1:p438, wb.2:p497, wb.1:p435, wb.1:p436; feeds block-32 |
 | [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
+| [claims/illness-starting-points-by-relation.md](claims/illness-starting-points-by-relation.md) | claim, table | The illness plank-tree's starting points take a relation of the one reckoned's element, not the element of the aspect examined | cites wb.1:p417-419, lt:p43b, dz:i052-055; feeds — |
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/illness-words-dictionary-rd111.md](claims/illness-words-dictionary-rd111.md) | claim, note | Illness words: «བསྔོ», «བླངས་ལན», «གདོན་རྐྱེན» in the dictionaries and BDRC's search | cites wb.1:p419, wb.1:p438, wb.2:p497; feeds block-32 |
 | [claims/in-laws-skyug-sgyug.md](claims/in-laws-skyug-sgyug.md) | claim, conflict | gnas skyug or gnas sgyug: what the search and the print show | cites wb.2:p526; feeds — |
@@ -322,6 +327,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/lt-clan-table-is-wb.md](claims/lt-clan-table-is-wb.md) | claim, conflict | LT's clan table of cut-offs is WB's birth table and conflicts with the notes' corner rule for fire and iron | cites lt:p26-28, wb.1:p260-261, wb.2:p499-500, lt:p12; feeds block-31 |
 | [claims/lt-planet-rise-by-date-and-element.md](claims/lt-planet-rise-by-date-and-element.md) | claim, rule | A planet rises on the day's animal; the Sun, Mercury and Venus are reached through their elements | cites lt:p10-11; feeds block-31 |
 | [claims/lto-phye-shrouding-wood-rahu.md](claims/lto-phye-shrouding-wood-rahu.md) | claim, note | Lto-'phye's shrouding wood draws a Rahu on the elephant's head: the earth's Rahu, not Vishnu's | cites ys.2:i026; feeds block-25 |
+| [claims/mara-day-images-and-mansions.md](claims/mara-day-images-and-mansions.md) | claim, table | The Mara days' images are the day's persons: the mansions come from the pairs the Moonbeams' supplement names | cites wb.2:p335-336, wb.2:p341-342, kd.3:p732; feeds — |
 | [claims/marks-line-p170-wood-and-fire.md](claims/marks-line-p170-wood-and-fire.md) | claim, note | The marks' line of p. 170 holds the wood and fire hours; the earth hour's hair | cites wb.2:p170; feeds block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
@@ -332,6 +338,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/mewa-8-white-north-east.md](claims/mewa-8-white-north-east.md) | claim, note | P. 112: the 5 yellow and the 8 white both go to the north-east corner in the print | cites wb.2:p112; feeds block-31 |
 | [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
+| [claims/mewa-labels-colour-count.md](claims/mewa-labels-colour-count.md) | claim, note | The number after a mewa's colour on p. 70 and in the notes is best read as a count of pebbles | cites wb.2:p70, wb.2:p501, dz:i055-057; feeds — |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-earth-has-no-centre-in-lists.md](claims/moment-earth-has-no-centre-in-lists.md) | claim, note | Where WB's lists give earth a direction it is the south-west, not the centre | cites wb.2:p167-168, wb.2:p168-169; feeds SPEC, §5.9.5 |
@@ -363,9 +370,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-p497-sum-cha-rough-third.md](claims/notes-p497-sum-cha-rough-third.md) | claim, note | «སུམ་ཆ» in the notes' illness example is a rough third | cites wb.2:p497; feeds block-58 |
 | [claims/notes-p503-twenty-count.md](claims/notes-p503-twenty-count.md) | claim, note | The twenty of p. 503 add up with the last group's three | cites wb.2:p503; feeds block-60 |
 | [claims/notes-ratna-secretary.md](claims/notes-ratna-secretary.md) | claim, note | The learned secretary Ratna, read on Mipham's own print | cites wb.2:p538-539b, wb.2:p538b; feeds — |
+| [claims/notes-spud-pa-rgyug-is-wb-rgyu.md](claims/notes-spud-pa-rgyug-is-wb-rgyu.md) | claim, note | The notes' nine spud pa and six rgyug are WB's six spud of the going and the nine spud pa rite, with the ku kung three | cites wb.2:p517, ut:p302-304; feeds — |
 | [claims/notes-sroq-ma-ma-gud-pa-three-prints.md](claims/notes-sroq-ma-ma-gud-pa-three-prints.md) | claim, note | The doubled ma of «སྲོག་མ་མ་གུད་པ» stands on all three prints | cites wb.2:p483; feeds block-58 |
 | [claims/notes-thirty-bri-wang-emblems.md](claims/notes-thirty-bri-wang-emblems.md) | claim, list | The thirty 'bri wang: only the starting emblems are given | cites wb.2:p538-539b, wb.2:p538b; feeds — |
 | [claims/notes-trigram-count-fourteen-fifteen.md](claims/notes-trigram-count-fourteen-fifteen.md) | claim, note | Mipham's counts of the trigram remedies and of his thirteen classes: what the arithmetic allows | cites wb.2:p517, wb.2:p104-105; feeds block-31 |
+| [claims/notes-trigram-remedies-fourteen-or-fifteen.md](claims/notes-trigram-remedies-fourteen-or-fifteen.md) | claim, note | WB counts the trigram's remedies fourteen, the notes fifteen, and no commentary counts them | cites wb.2:p517; feeds — |
 | [claims/notes-worked-example-six-and-count.md](claims/notes-worked-example-six-and-count.md) | claim, note | The notes' worked example: the six of the 360, and the count through the years lived | cites wb.2:p536-538; feeds block-60 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
@@ -386,6 +395,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
 | [claims/rme-bdun-great-bear-corpse-facing.md](claims/rme-bdun-great-bear-corpse-facing.md) | claim, note | «རྨེ་བདུན» in the corpse's facing is the Great Bear | cites wb.2:p97-100, wb.2:p283-285, wb.2:p31-32; feeds block-31 |
 | [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
+| [claims/secret-obstacle-ma-spar-by-cycle.md](claims/secret-obstacle-ma-spar-by-cycle.md) | claim, note | The secret obstacle's mother trigram: li for an earth own trigram, kham for a wood one, by the generating cycle | cites wb.1:p390, wb.1:p256; feeds — |
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
@@ -635,6 +645,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
+| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 9 passages: 7 scan, 1 machine, 1 etext |
@@ -647,7 +658,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
-| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 9 passages: 8 scan, 1 machine |
+| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 10 passages: 8 scan, 1 machine, 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
@@ -660,14 +671,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
-| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 5 passages: 1 machine, 4 etext |
+| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 8 passages: 3 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 37 passages: 31 scan, 5 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 38 passages: 31 scan, 6 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 11 passages: 11 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
@@ -681,7 +692,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 55 passages: 17 scan, 35 machine, 3 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
-| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
+| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 7 passages: 3 scan, 3 machine, 1 etext |

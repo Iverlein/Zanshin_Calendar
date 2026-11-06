@@ -76,6 +76,14 @@ LT's household round, in the third branch (ཡལ་འདབ, yal 'dab) of the 
 
 So LT divides the count by four and allows a remainder of at most three; its order of taking is WB's zigzag; its four rows are runs of a quarter of the count laid in turn, not the notes' fold in half and in half again; and a member's four pebbles are each a single plain meeting, white or black, never speckled.
 
+## <a id="lt-p43b"></a>lt:p43b LT: the plank-tree's sixteen starting points by the relation of the one reckoned's element
+
+*Read: etext, 2026-11-06.*
+
+> གཉིས་པ་བརྩི་བྱའི་ཁམས་ཀྱི་དགྲའི། །སྟག་ནས་དུ་ལོན་ཐུར་སྦུབ་འཐབ། །གསུམ་པ་ཁམས་ཀྱི་མ་སྟག་དང་། །བཞི་བ་ཁམས་ཀྱི་བུ་ཡི་སྟག ༈ །ལྔ་བ་གྲོགས་ཀྱི་ཁམས་སྟག་ནས། །དུ་ལོན་ཐུར་སྦུབ་ལོ་འགྲོས་དེའི། །སྲོག་ལུས་དབང་རླུང་བཞི་པོ་ལ། །བརྩི་བྱའི་དེ་བཞིས་སོ་སོར་འཐབ། ༈། དྲུག་པ་ཁམས་ཀྱི་དགྲ་ཡོས་ནས། །གྱེན་བགྲངས་བདུན་པ་གྲོགས་ཡོས་ནས། །ཐུར་སྦུབ་བརྒྱུད་པ་ཁམས་གཅིག་ཡོས། ། དགུ་བ་མ་བུ་གང་རུང་གི། ཡོས་ནས་ཐུར་སྦུབ་སོ་སོར་འཐབ། ། བཅུ་བ་གནམ་ལོའི་ས་ནས་ནི། ། བཅུ་གསུམ་གྱེན་བགྲངས་དེ་སྟེང་ནས། །དུ་ལོན་ཐུར་སྦུབ་འཐབ་པར་བྱ། ༈ ། བཅུ་གཅིག་གནམ་ལོའི་ས་ནས་ནི། །བཅུ་གསུམ་མར་སྦུབ་དེ་སྟེང་ནས། ། བརྩི་བྱའི་དུ་ལོན་གྱེན་བགྲངས་པའི། ། སྲོག་ལུས་དབང་རླུང་བཞི་ལ་འཐབ། ༈ ། བཅུ་གཉིས་ཁམས་ཀྱི་བུ་སྟག་ནས། ། བརྩི་བྱའི་དུ་ལོན་ཐུར་སྦུབ་འཐབ། བཅུ་གསུམ་ཁམས་ཀྱི་མ་སྤྲེལ་ནས། །དུ་ལོན་གྱིན་བགྲངས་འཐབ་པར་བྱ། ༈། བཅོ་ལྔ་མར་ལྔ་དེ་སྟེང་ནས། །དུ་ལོན་གྱེན་བགྲངས་མ་ནོར་འཐབ།
+
+Lha mo tshul khrims, *Nag rtsis rdel 'grem 'bras bshad* (LT, printed p. 43, etext p. 51): the sixteen starting points of the illness plank-tree, each by the relation of the one reckoned's element. "The second: from the tiger of the enemy of the element of the one reckoned, count the years lived downward and fight. The third: the mother of the element, the tiger; the fourth: the son of the element, the tiger. The fifth: from the tiger of the friend's element, count the years lived downward by the year's course; the life, body, power and wind-horse, these four, are each fought by the four of the one reckoned. The sixth: the enemy of the element, the hare, upward; the seventh: the friend's hare; the eighth: the hare of the same element; the ninth: the hare of mother or son, each downward. The tenth: from the sky year's earth, thirteen, upward, from that downward, fought; the eleventh: from the sky year's earth, thirteen down, from that the years lived up; the twelfth: the son of the element, the tiger, downward; the thirteenth: the mother of the element, the monkey, upward; the fifteenth: five down, from it the years lived upward, fight." (The first is "from the sky year" with the four fought; the fourteenth is not in the stretch quoted.)
+
 ## <a id="lt-p43-44"></a>lt:p43-44 The plank-tree's close and the nineteen of the day and the za ma
 
 *Read: scan, 2026-10-23.*
