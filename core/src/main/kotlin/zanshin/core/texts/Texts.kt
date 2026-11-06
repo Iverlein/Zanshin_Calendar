@@ -97,8 +97,6 @@ import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
-import zanshin.core.tibetan.ClanCut
-import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.YearPlace
@@ -496,8 +494,6 @@ object Sources {
     val WHITE_BERYL_BIRTH_CHILDREN = whiteBeryl("chapter 22, p. 294", volume = 1)
     /** The parents' trigrams at the birth (ROADMAP R2, docs/sources/year-of-life.md, RD13). */
     val WHITE_BERYL_PARENTS_TRIGRAMS = whiteBeryl("chapter 22, p. 326", volume = 1)
-    /** The special pebble: the birth year against the clan's element (ROADMAP R2, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_SPECIAL_PEBBLE = whiteBeryl("chapter 22, pp. 259, 261 and 284–286", volume = 1)
     /** The cutting and tearing among one's own aspects (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -542,7 +538,6 @@ object Sources {
     /** The four precious pebbles (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_CLAN_CUT = whiteBeryl("chapter 22, pp. 300 and 349, with the notes in vol. 2, p. 489", volume = 1)
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348, with the notes in vol. 2, pp. 488–489", volume = 1)
     /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
@@ -2860,13 +2855,6 @@ object Texts {
     /** The full reading of a first, middle or last birth year (WB vol. 1, ch. 22, pp. 283–284). */
     fun yearPlaceFull(y: YearPlace): Reading =
         Reading(key = "reading.YearPlaceFull", arg = "reading.YearPlaceFull.${y.name}", source = Sources.WHITE_BERYL_YEAR_PLACE)
-
-    /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
-    fun clanYear(y: ClanYear): Reading =
-        Reading(key = "reading.ClanYear", arg = "reading.ClanYear.${y.name}", source = Sources.WHITE_BERYL_SPECIAL_PEBBLE)
-
-    /** What cuts the father by the clan, the birth's month or year (WB vol. 1, ch. 22, pp. 300, 349; the notes, vol. 2, p. 489). */
-    fun clanCut(c: ClanCut): Reading = Reading(key = "reading.ClanCut", arg = "reading.ClanCut.${c.name}", source = Sources.WHITE_BERYL_CLAN_CUT)
 
     /** A reading of the parents' trigrams at the birth (WB vol. 1, ch. 22, p. 326). */
     fun birthOmen(o: BirthOmen): Reading =
