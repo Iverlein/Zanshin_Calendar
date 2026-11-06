@@ -1434,3 +1434,9 @@ Searched and found wanting, so not to be repeated:
 - **RD168, the catalogue's questions (2026-11-06)** (RD168, 2026-11-06):
   - BDRC full-text, 0 hits: «ཚེ་ཁ་དམར་ན», «ལུས་ཁ་དམར་ན», «དབང་ཁ་དམར་ན», «རླུང་ཁ་དམར་ན», «ཚེ་ལུས་དབང་རླུང་ཁ་དམར», «བུམ་བཟང་གཤིན་རྩིས» (q524); «རྒྱ་མའི་ཐག་པ», «ཐག་པ་བརྒྱད་ཡར» (q527); «བཏང་གཅོད་སྒྱུ་འཕྲུལ་སྒྲོན་མ», «སྒྱུ་འཕྲུལ་སྒྲོན་མེ», «ཡིག་ཆ་ཉི་ཤུ་པ», «གཏན་ལ་འབེབས་པའི་སྒྱུ་འཕྲུལ» (q535); «མུ་ལ་ཏན་ཏྲ་ལས».
   - Web search for 《西藏天文历算总汇》 with a publisher or KD's Chinese title: the register's page only (q554).
+- **RD172, the Japanese almanac's last questions (2026-11-06)** (RD172, 2026-11-06):
+  - A source for the clause «馬牛之類不可於其方求» of the 歳破: not in KK's rows, the 論衡 passage on the 移徙法 or a web search for 歲破 with 六畜, 牛馬.
+  - A copy of the 簠簋内伝 older than 1578: NDL (the records of 2532305, 2544991–2544993), Kyoto and Tohoku records read for dates; none older.
+  - 岡部一德's own text or any record of it: Kyoto, Tohoku, Tokyo records and a web search; only 保己一's copy.
+  - 馬場真理子's 2024 article on the 暦略註 and her 2017 one on the 暦林問答集: bibliographic records only, no full text reachable.
+  - The 高島暦 of today: not seen.

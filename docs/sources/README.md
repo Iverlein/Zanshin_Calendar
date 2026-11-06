@@ -919,7 +919,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | answered; cites — |
 | [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | open; cites — |
 | [questions/q0489.md](questions/q0489.md) | question q489 | The 歳破 and livestock: forbidden or good | open; cites — |
-| [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | open; cites — |
+| [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | open; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | open; cites — |
 | [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | open; cites — |
@@ -1057,7 +1057,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0625.md](questions/q0625.md) | question q625 | Why the 暦林問答集 §11 adds horses and cattle to the 歳破 | open; cites — |
 | [questions/q0626.md](questions/q0626.md) | question q626 | The source of the NDL exhibition's «家畜を求めるを吉» | open; cites — |
 | [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | open; cites — |
-| [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | open; cites — |
+| [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | answered; cites — |
 | [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | open; cites — |
 | [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | open; cites wb.2:p317 |
 | [questions/q0631.md](questions/q0631.md) | question q631 | Bharaṇī's minor star on p. 314: «ཕུང་རྒྱབ་ཅན» or «ཕུང་རྒྱང་ཅན» | open; cites wb.2:p314 |
