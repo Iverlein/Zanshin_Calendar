@@ -1123,8 +1123,12 @@ relation's) and a whole date of death (`DeadReckoning`, core
   88, a woman of 60, 66 or from 91) reads WB's other round, by companion and
   son (p. 79; family `DeadOldRound`, the three cases listed since neither is
   recorded). A woman of 70–90 but 72 is the unguarded old one, WB's general
-  name for those years, a stated choice over q309's other round. The
-  mansions' portents are not shown: their table leaves mansions unnamed.
+  name for those years, a stated choice over q309's other round. One of the old born and dead on the two-black
+  is not made one (p. 82, `DeadReckoning.notMadeOld`, family
+  `DeadOldNotMade`): that row stands in place of the kind. The same line's
+  *kham* and *gin* need the birth trigram and stay out; the way of dying is
+  not recorded. The mansions' portents are not shown: their table leaves
+  mansions unnamed.
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four
