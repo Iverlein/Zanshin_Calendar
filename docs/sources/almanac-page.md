@@ -723,19 +723,27 @@ What the eye can say: at all six places the subjoined letter is the same closed 
 
 ## The other five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, found by the words around them (RD153)
 
-Question 594. *Read: Taikhang I5878 img. 162 by eye at 1x (line crops cut by y with PIL, left and right halves); no model run, no agy turn.*
+Question 594. *Read: Taikhang I5878 img. 162 and 166 by eye, the stacks in crops at 5-8x (PIL, one-bit scan, 8280 x 1740 px); Yigdzin-1 run over strips of one scan line each (2000 px wide, 1500 px step, in scratch) only to place the words, as the model gives no boxes; no MITRA, no agy turn.*
 
-- Img. 162 is cut at 1x into two crops (x 300-2100 and 2100-3900, y 380-1330); the five scan lines sit at about y 450, 660, 845, 1030 and 1215 of the full image. The hand is a running cursive: at 1x the words round the two places («ལོ་བཅུའི་ཤི་སྒབ་ཆོད་པར», left third; «ལོ་བཅུ་གཅིག་ཤི་སྒབ་ཆོད», right) could not be told apart from their neighbours by eye, so neither place was found and no stack was cut at 4-8x.
-- Img. 165 and 166 were not opened (time). Nothing is settled: the ག or ཀ of these four places stays open, and the leaning of RD150 (ག) is not strengthened.
-- Doubt for the next reading: place the words by one Yigdzin-1 run on the four images through the slot (its boxes give x, from which the scan line is found by y), then cut the stacks at 8x; by eye alone the cursive is not found in ten minutes.
+The places were found by cutting each scan line into overlapping strips and reading the strips with the model: the strip whose text holds the phrase gives the x of the word, the line is known from the strip's y. Each stack was then read on the scan, not from the model's text.
+
+- **Img. 162, scan line 2** (strip text «ནག་པོ་མགོ་གསུམ་བཏང་བ་ཡིས། །ལོ་བཅུའི་ཤི་སྒབ་ཆོད་པར་འགྱུར»; the word near x 2920-3100 of the image, y about 520-650): at 8x the syllable ཤི with its gigu, then ས whose lower part is a closed, boxy subjoined letter with one small hole and a straight right-hand stroke, then བ and ཆོད. No stroke crosses the bowl; this reads ག, with the doubt of clotted ink, as at p. 104 (`claims/wbt-p104-sgab-on-taikhang.md`).
+- **Img. 162, scan line 5** (strip text «མི་ལོ་བཅུ་གཅིག་ཤི་སྒ་བཆོད»; the word near x 5660-5900, y 1100-1240): at 7x the stack under ཤི is the same shape: ས over a closed box with a small hole, no cross stroke, then a separate བ and ཆོད. Reads ག, same doubt. The machine's «སྒ་བཆོད» is its own segmenting: on the scan the བ stands apart, as at the other places.
+- **Img. 166, scan line 3, left** («མི་ལོ་བཅུ་དྲུག་ཤི་སྒབ་ཆོད།»; word near x 1560-1860, y 760-920): the stack under ཤི is a ས over a closed box with a triangular hole; no crossing stroke. Reads ག, same doubt. (The earlier look below put this place on the fifth line; the strips give the third.)
+- **Img. 166, scan line 3, right** («བཤད་པའི་ཤི་སྒབ་བཅད་པ»; word near x 5480-5780): the subjoined letter is a larger box with two holes, one triangular and one small, divided by a diagonal stroke. Whether that diagonal is the ཀ's crossing stroke or the foot of the ས running through the box is not told at 5x; **left open, a possible ཀ**. This is the only place that does not read plainly ག.
+- **Img. 165** (the line end «བཅོ་ལྔའི་ཤི་སྒབ་ཆོད»): not found. The strips of all five lines of img. 165 give no «ཤི་ས»; line 1's end reads «བཅུ་བཞིའི་བར་དུ་བདེ་བ་སྟེར». A whole-page Yigdzin-1 run to place the line waited for a card slot and was not reached within twenty minutes (several readers held the slots); it was withdrawn.
+
+Result: of the five places, three read ག on the scan, one is open (a possible ཀ), one is not located. With RD150's p. 105 place (ག, held with doubt) four places lean ག and none shows a plain ཀ. Since the one-bit scan can lose a fine crossing stroke to the fill, question 594 is **narrowed, not closed**.
 
 ### Open
 
-- Question 594: img. 162 (two places), 165 (one) and 166 (two) still unread on the scan.
+- Question: at the Taikhang's img. 166, scan line 3, right (the «བཤད་པའི་ཤི་སྒབ་བཅད» of p. 108, l. 24), does the box under ས carry ཀ's crossing stroke, or is the diagonal the foot of the ས? A sharper print of the same page (the Zhol blocks, WBZ) would settle it.
+- Question: where on the Taikhang's img. 165 does «བཅོ་ལྔའི་ཤི་སྒབ་ཆོད» stand, and which letter is under the ས?
 
 ### Searched and not found
 
-- «ཤི་སྒབ» on img. 162 of the Taikhang by eye at 1x over the left half of lines 1-5: not found among the cursive words.
+- «ཤི་སྒབ» in the strips of img. 165 (all five scan lines, five windows each, Yigdzin-1): not found; the model's strips read poorly at the edges.
+- Img. 162 at 1x by eye (an earlier attempt of this reading): the cursive words were not told apart; replaced by the strip method above.
 
 ### A further look at img. 166 (launcher, 2026-11-03)
 
