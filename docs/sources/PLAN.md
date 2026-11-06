@@ -1427,3 +1427,5 @@ Searched and found wanting, so not to be repeated:
   - A Steinert clone for «བསྔོས་ཚང», «བསྡུས་ཚད», «རྟ་ཞག»: not on the machine.
 - **RD170, ch. 32 on the scan (2026-11-06)** (RD170, 2026-11-06):
   - The direction of counting the outer door's places: the 1996 etext of pp. 242–275 searched for words of direction and turning, no statement (pp. 276–294 read line by line in RD156, also without one).
+- **RD153, the other stacks of «ཤི་སྒབ» (2026-11-06)** (RD153, 2026-11-06):
+  - «ཤི་སྒབ» in Yigdzin-1's strips of img. 165 (all five scan lines, five windows each): not found; the strips read poorly at the edges.
