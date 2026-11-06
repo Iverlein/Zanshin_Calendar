@@ -675,7 +675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
-| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 8 passages: 3 scan, 5 machine |
+| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 8 passages: 3 scan, 5 machine; RD175 (2026-11-06) letters in doubt on pp. 331–435 read on the Zhol and Taikhang |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 38 passages: 31 scan, 6 machine, 1 etext |
