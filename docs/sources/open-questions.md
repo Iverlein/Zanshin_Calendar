@@ -2415,6 +2415,8 @@ the text, not about the app.
      each aspect (pp. 381–384), which may be the reading meant.
      [verdicts.md](verdicts.md) (RD18).
      *Narrowed 2026-10-20 (O18, [verdicts.md](verdicts.md), "D16: the Moonbeams"): the Moonbeams gives the year of age no readings, and reads a half only for the dead's rebirth (a human birth); it keeps a half, one pebble, apart from "white and black, two" (f. 29a). Question 190.*
+
+    *RD174 (2026-11-06): 'speckled' (ཁྲ་བོ) readings exist only in LT's thirteen-place board, the dead's rites (UT and the notes) and the illness reckoning, not for the year of age; dead end unchanged.*
 173. **«ཁ་སྦྲང» and «ངོ་ཐེག» (WB vol. 1, ch. 24, p. 381, img. 391, l. 2–4).** What
      are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490 reads the second
      as "the place" of a meeting; the dictionaries were not searched for
@@ -2448,6 +2450,8 @@ the text, not about the app.
      P. 340, «གཟའ་རྒོད་འདོམ་སྐྱེས», which planets are the fierce ones, and is
      their meeting a day the calendar gives?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+
+    *RD174 (2026-11-06): the RD101 claim stands (a date lord); SY marker 412 gives the same dates word for word. A tension is named, not resolved: the almanac says a birth on that day kills a parent or the child, while WB's child list makes it the child of strength.*
 181. **«དུས་ཚོད་ཚང་གི་རྩིས» (p. 349).**
      P. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
@@ -2624,6 +2628,8 @@ the text, not about the app.
      former unchanging, the latter changing"?
      [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
      the reckonings with each other" (RD24).
+
+    *RD174 (2026-11-06): dead end; the claim birth-and-year-of-age-no-ranking stands; the Moonbeams marker 624 is about the life's parts inside the birth reckoning.*
 208. **«སྐར་འབྲས་སྤྱི་སྡོམ» (WB vol. 1, ch. 23, p. 351, img. 361).**
      Does «སྐར་འབྲས་སྤྱི་སྡོམ་ཤེས་པར་བྱ» name a second conclusion of the
      match, "the general sum of the results", or head the pebble counts
@@ -2844,6 +2850,8 @@ the text, not about the app.
      birth, and is the four accomplishing a general good that the
      birth's own list of the very bad overrides? [year-of-life.md](year-
      of-life.md), "Open questions 161–165" (O16).
+
+    *RD174 (2026-11-06): repeats q565 and is narrowed with it.*
 238. **The moment's dawn (WB vol. 2, ch. 30; the notes, p. 535).**
      The day divided in eight and nine is WB's day's length, the daytime
      equal to the night at the equinox, and the count starts at

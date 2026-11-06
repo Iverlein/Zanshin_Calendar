@@ -1460,3 +1460,9 @@ Searched and found wanting, so not to be repeated:
   - «dkon mchog bstan 'dzin phrin las» (153 hits): the second Grub dbang incarnate (1923–1965), the Lho lung dkar colophons and others; BDRC has no person record for the verse work's writer.
   - Bing for 《西藏天文历算总汇》: nothing but calendar sites; Google Books API answered 429.
   - The Clear Lamp's root has no etext, and its manuscript was not read by eye.
+- **RD174, ch. 24 and ch. 26 on the birth and the year of age (2026-11-06)** (RD174, 2026-11-06):
+  - A speckled reading for the year of age's four aspects in KD vols. 1–3, UT, LT, NM, SY, YS and the notes: none.
+  - A rule for birth against year of age for one year, with «བཙས་ཀླུང», «ལོ་ཀེག་དང་བཙས», «ཀླུང་དང་ཀེག་རྩིས»: none beyond WB p. 335.
+  - «ངོ་ཐེག» outside WB's 1996 print: none.
+  - Tibetan-script Sanskrit names of the 27 yogas, BDRC full text, four phrases: none.
+  - The etext of Dpyod ldan snying nor (I1KG81102): HTTP 403, search only.
