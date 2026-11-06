@@ -696,6 +696,11 @@ on the scan that follow from the years alone. `BirthReckoning`
 - **The luck triad** (pp. 280–281): one reading for each triad of birth
   years that share a luck (*klung rta*): mouse, dragon, monkey; tiger,
   horse, dog; bird, ox, snake; pig, sheep, hare.
+- **What cuts the father by the clan** (p. 349, the finer points of the oral
+  instruction; the notes, p. 489; p. 300): under the clan, a birth in a month
+  or year of the element that overcomes the clan's, a month as Mipham's earth
+  clan and tiger month, a year as p. 300's list, water's the earth's four
+  (`ClanCut`, `BirthReckoning.clanCuts`).
 - **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
   which is asked (§10.5): the birth year's animal in p. 261's table for
   the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
@@ -1111,9 +1116,15 @@ relation's) and a whole date of death (`DeadReckoning`, core
   provisions by the trigram (pp. 129–132); families `DeadProvisions`,
   `DeadNineEye`, `DeadGraveDay`, `DeadRitesTrigram`, `DeadRitesMewa`,
   `DeadRitesPlanet`, `DeadRitesDate`, `DeadGraveProvisions`, each rite a
-  Remedy row, no spell written out. The old dead's nine kinds by age and
-  the mansions' portents are not shown: their tables leave ages and
-  mansions unnamed.
+  Remedy row, no spell written out. The old dead (བཀྲ, bkra; pp. 77–79):
+  `DeadOldKind`, the kind named for the sex and the year of age, with its
+  garment, hiding place and share, family `DeadOldKind`. A man is old from
+  61, a woman from 60, and an age with no kind (a man of 61–69, 83 or from
+  88, a woman of 60, 66 or from 91) reads WB's other round, by companion and
+  son (p. 79; family `DeadOldRound`, the three cases listed since neither is
+  recorded). A woman of 70–90 but 72 is the unguarded old one, WB's general
+  name for those years, a stated choice over q309's other round. The
+  mansions' portents are not shown: their table leaves mansions unnamed.
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four

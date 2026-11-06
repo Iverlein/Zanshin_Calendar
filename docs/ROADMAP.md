@@ -125,6 +125,7 @@ moves up as soon as it is unblocked.
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
+| <a id="block-66"></a>66 | [R2](#r) The old dead's kinds and what cuts the father by the clan — built 2026-11-06 | — (read: RD33, RD164, RD174) | [31](#block-31) | Built: the nine rounds of the old by sex and year of age, the ages they leave read by WB's other round (q309), and in The clan the birth's month and year that overcome the clan's element (p. 349, q566). |
 
 ## Readings
 
@@ -4570,6 +4571,24 @@ groups it shows (`tools/emulator/store_shots.py`).
   among the five and the executioner pairs, with each living relative
   (families `TurtleKin`, `TurtleEnemy`); not built: the relatives'
   agreement among themselves.
+- **R2aa The old dead's kinds and what cuts the father by the clan —
+  built 2026-11-06** (block 66; SPEC §5.9.4, §5.9.2): `DeadOldKind`, the
+  kinds of pp. 77–79 by sex and year of age; `DeadReckoning.oldRound` the
+  ages they leave, read by p. 79's other round (q309), its three cases
+  listed since neither companion nor son is recorded; `ClanCut`, a birth
+  in a month or year of the element that overcomes the clan's (p. 349,
+  Mipham p. 489, p. 300; q566). Families `DeadOldKind`, `DeadOldRound`,
+  `ClanCut`, English and Russian. Stated choices for the owner: a woman of
+  70–90 but 72 keeps the general unguarded old one where q309 gives the
+  other round; the kinds' English names are literal renderings of the
+  Wylie; month and year read apart, each cutting the father. Checked:
+  `DeadTest`, `BirthTest`, `CatalogTest`, the emulator in English and
+  Russian, the release build (no raw keys). Not built: the clans' strikes
+  of p. 114 (relatives carry no clan, the owner, 2026-10-15), p. 80's
+  corpses not made old ones, the kinds tied to a condition (*srid sman*,
+  *mche ser ma*). The departure's gold and turquoise treasuries and the
+  bride's *ko long* stay out: q605 and q643 name them, but no text gives a
+  day or seat they fall on (claim departure-singled-out-lords-by-time).
 - **R2x The dead's provisions, strikes and rites — built 2026-10-25**
   (SPEC §5.9.4, D18): the ninth and fifteenth examinations' provisions by
   the trigram of death, the tenth's nine-eye and grave-day strikes, the
@@ -4580,8 +4599,8 @@ groups it shows (`tools/emulator/store_shots.py`).
   Chinese seasons, no nine-eye at 90), `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, mewa 3, Venus's day, the 4th). No release build:
-  no enum added. Not built: the old dead's kinds by age and
-  the mansions' portents (gaps in their tables), the strikes that need the
+  no enum added. Not built: the mansions' portents (gaps in their
+  table; the old dead's kinds built 2026-11-06, block 66), the strikes that need the
   household, the death's eye, the funeral share and feast, the remains'
   roads and earth lords.
 - **R2w The moment's later reckonings — built 2026-10-25** (SPEC §5.9.5,
