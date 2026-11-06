@@ -2669,11 +2669,49 @@ The digest has no count lines: none of «རྡེལ་དོན», «ངོས
 - A second print of the replies to compare (Zhol print or etext of I5875): none in the cache.
 
 
-## Ch. 28 and ch. 30, what no row holds: the full moons, the sky-bird, the small foot, ordination's trigrams, the hand reckoning, the marks (RD165)
-
-Nothing read yet: RD165's passages, with the English beside them, go here.
-
-
 ## The *Moonbeams* and the replies, what no row holds: the burial's eleven roots, «ར་བར», the eight pebbles, the replies' words, the half (RD166)
 
 Nothing read yet: RD166's passages, with the English beside them, go here.
+
+## The small reckonings' fifteen questions, taken one by one (RD165)
+
+Questions 323, 325, 326, 329, 332 (WB vol. 2, ch. 28, pp. 27–40), 335 (p. 99), 345, 347, 350, 528, 598, 599 (ch. 30, pp. 163–172), 353 and 556 (the notes' hand reckoning, pp. 538–539) and 597 (p. 16). Read 2026-11-06. No model was run (the card's queue did not come free in the time, and the run was withdrawn); the existing machine files of pp. 27–40, 163–172 and 543–546 (img. 35–48, 171–180, 543–546 of the 1996 scan) were used as they stand. What was done: (1) the hand reckoning's page on the clean typeset notes of the Chengdu Collected Works (MW2DB16631_DB4BAA, vol. 1, I1PD34647 img. 685–687, printed pp. 639–641, crops of 2×) read by eye; (2) the Gser thang etext and the 1996 etext of vol. 2 (VEIE0OPI51524892, I1KG12906–12907) searched for each key word; (3) the regent's replies (VEIE0OPIF790A4DF_I5876, 546 pages) and the Bhutan collection (VEIE0OPI1829B6AF_I1KG11905, 604 pages) searched for each; (4) the 1996 scan of p. 169 (I1KG12907 img. 177, line 10, up to 7×) and the Gser thang reprint of p. 171 (I3CN5029 img. 177, line 2, 5×) looked at again.
+
+### The hand reckoning's page on the typeset notes (questions 353 and 556)
+
+The notes' last small reckoning, the hand reckoning in the Lu manner (ལག་རྩིས་ལུ་བཞིན, lag rtsis lu bzhin), stands in the typeset notes on printed p. 641 (img. 687, lines 3–5, about 2× on the right half of the image). The lines read by eye, the syllables marked below taken from the crop, the words around them from the Gser thang etext of the same page (VEIE0OPI51524892_I1KG12907, etext p. 547), which has them the same:
+
+> དེ་ནས་**ཐུན་ཀུང**་སོགས་བརྩིས་པས་ཕྱི་མ་གསུམ་པོའི་གང་རུང་བྱི་རྟ་བྱ་ཡོས་གང་རུང་དང་འཕྲད་པ་ལས་བབ་འབྲས་ངོས་བཟུང་དགོས་ཏེ། བརྒྱད་པ་དང་འཕྲད་ན་**མུང**་ཞེས་བྱ། དགུ་པ་དང་འཕྲད་ན་**ཀྲུང**་ཞེས་བྱ། བཅུ་པ་དང་འཕྲད་ན་**ཀྱིས**་ཞེས་བྱ་སྟེ། དེ་གསུམ་ཁོ་ནས་ཐམས་ཅད་བརྟག་པར་བྱའོ།
+
+"Then the watch (ཐུན, thun) and the *kung* (ཀུང, kung) and the rest are counted, and the result is fixed by whichever of the last three meets rat, horse, bird or hare; meeting the eighth is called *mung* (མུང), meeting the ninth *krung* (ཀྲུང), meeting the tenth *kyis* (ཀྱིས); by these three alone everything is examined."
+
+What this settles. **Question 556:** the word after the year's count is «ཐུན་ཀུང» on the typeset notes, on the 1996 print and on the Gser thang etext; «རྒྱན་ཀྭང» is Yigdzin-1's reading of Mipham's own block print (I2029 img. 744), which was not settled by eye at 11× (RD132), so it stands as the machine's misreading of the same two syllables unless the block shows otherwise. Answered by three typeset witnesses, the block print not decided. **Question 353:** the three results are written «མུང», «ཀྲུང», «ཀྱིས» on all three typeset witnesses. Mipham's own block print, read by the machine and by eye in RD132, gives «ཕུང» and «ཀླུང» (`claims/notes-hand-reckoning-three-results.md`, which took the typeset «mung, krung» for misreadings): so the typeset editions and the block part on the first two names. A conflict between editions, not settled: the block is the older witness and the typeset editors may have read a smeared ཕ as མ and a ཀླ as ཀྲ, but «ཀླུང» is also WB's word for luck (ཀླུང་རྟ, klung rta) and «ཕུང» for a heap, and the hand reckoning itself explains none of the three names. What the watch and the *kung* are: «ཐུན» is the watch, a division of the day (the word of WB's other chapters), and «ཀུང» occurs in no dictionary and in no other text found; the sentence counts them after the year's place (the pig in the example) and says the count falls on one of four animals, rat, horse, bird or hare; no text says more. Narrowed: names read on three witnesses, their sense open.
+
+### Question 350, «དོ་གཅིག» (p. 164)
+
+The word is a term of WB's trigram reckonings, found in four places of the etext besides the spirits' speeches of ch. 30: vol. 1, p. 317 (etext p. 327), the results of the four planets «are of two kinds, the roof-cover (ཕུབ, phub) and the *do gcig*» (ཕུབས་དང་དོ་གཅིག་རྣམ་གཉིས་ལས); vol. 2, p. 89 (etext p. 97), «དོ་གཅིག་ལ་བབས་ས་དང་ནི། མ་ཀླུང་སྤར་ཁ་དང་། ལོ་ཟླ་ཞག་དུས་བཞི་བརྩེགས་ན། འགྲམས་ནི་ཤིན་ཏུ་ཆེ་བའོ།» (the place where it has fallen on the *do gcig*, the mother's luck and trigram, year, month, day and hour, four, stacked: the strike is very great; reply 152 of the regent reads it as the descended trigram, `claims/small-element-and-do-gcig-in-reply-152.md`); vol. 1, p. 390 (etext p. 400), «དོ་གཅིག་གནམ་ལོ་དང་འཐབས་པ» (the *do gcig* fighting the sky year); and Mipham's note on the strike, vol. 2, p. 480 (etext p. 488), «དོ་གཅིག་ལ་དམར་ནི། མ་ཡི་ལོ་སྤར་ལས་བརྩི་བ་ནི་གཞུང་གིས་གསལ།» (as for the red on the *do gcig*: that it is counted from the mother's year and trigram the root text makes clear). So the *do gcig* is what the count lands on, a year-and-trigram place, set beside the mother's, and «དོ་གཅིག་གི་ལོ» in the spirits' speeches is the year at which that landing falls, the speech's own year of reckoning. Narrowed, not answered: no passage defines the word, and it is in no dictionary (Steinert's 64) nor in the Bhutan collection or the regent's replies beyond the line quoted.
+
+### The others
+
+- **323, six full moons.** The verse of p. 27 (img. 35) and RD99's claim stand: one examination, the Pleiades (སྨིན་དྲུག, smin drug) against the moon on the tenth month's 15th. The regent's replies name «ཉ་དྲུག» only as the "six fish" of Tibet's land (etext p. 364, a different list), not as a moon. Answered by RD99, confirmed.
+- **325, the sky-bird.** No new text: «ཤོལ་པོ» and «སྨྱུང་མོ» in no text beyond WB (the Bhutan collection and the regent's replies searched, 2026-11-06). Answered in part, as RD99.
+- **326, first winter's snow.** No new text; the pattern of p. 31 (every other line says what follows from not falling) stands. «སྙི» in «བུད་མེད་མི་འབྲུ་སྙི» found in no other text.
+- **329, a black small foot.** The searches of the Bhutan collection and the replies for «རྐང་ཕྲན་ནག» came to nothing beyond WB. Dead end, as RD99.
+- **332, the trigrams of ordination.** No new text; the groups of four are vol. 1's; the members wait on a scan reading of p. 39 (img. 47) that this reading did not make.
+- **335, p. 99.** The page's own lines before it set horse and snake north, bird and monkey south, tiger and hare west, rat and pig the corner; the four slayers are these four pairs, so «ཤར་དུ» is "to the east" as the side no pair takes (`claims/slayers-east-and-facing.md`); the next lines go on «if it is sent to a slayer, the friend suffers». Narrowed: the east, by elimination; why the east is not a slayer's side is not told.
+- **345, «ཡམས་སྐུད».** In the 1996 etext of vol. 1 it stands beside the wife, the father's brother and the daughter in the birth reckonings (etext pp. 336, 378, 381: «ཚང་ཟླ་ཡམས་སྐུད», «ཕ་ཁུ་ཡམས་སྐུད», «བུ་མོ་ཡམས་སྐུད»), always as a harm that falls on a kinsman; so on p. 163 it is a kinsman's class at the left side. The right shoulder stays unnamed in the line. Narrowed.
+- **347, «ཀླུམ་མནན» or «གྲུམ་མནན».** On the 1996 scan (p. 169, line 10 at 7×) the first stack is tall and blurred; it was not told, though the scan leans to «ཀླུམ». The Zhol etext has «ཀླུམ», the Sakya etext «གྲུམ», neither is in the dictionaries. A doubt, written as a doubt; the reprint's line was not found in the time.
+- **528, «ལྟས་ངན་བབས».** The reprint's first stack of line 2 (img. 177, 5× on the bitonal print) is a ལ over a lower letter with a tail at the left, not told from the ཏ-shaped one by eye; the word makes sense only as «ལྟས་ངན» (a bad omen). Stays probable, not settled.
+- **598, the mewa that fights the nine squares.** No new text: the regent's replies and the Bhutan collection have no phrase «དུས་ལོའི་སྨེ་བ» (searched 2026-11-06); `claims/moment-power-mewa-four-down.md` stands. Narrowed, as RD145.
+- **599, earth in the own place's lists.** No new text; `claims/moment-earth-has-no-centre-in-lists.md` stands (earth stands south-west with the east in the sick's and demon's lines; no person of the own place is set on it).
+- **597, the la's wandering.** «བླ་ལྷོར» and «བླ་ནི་བྱང་» in the replies and the Bhutan collection: no hit, and the Bhutan collection's «བླ་འཁྱམས» (etext p. 394) is only a heading of a table of results. Dead end, as RD62.
+
+### Open
+
+- Question: On the hand reckoning (WB vol. 2, p. 538–539, typeset notes p. 641), do the block print and the typeset editions part on the first two result names, «ཕུང» and «ཀླུང» against «མུང» and «ཀྲུང», and which did Mipham write?
+- Question: What is the *kung* (ཀུང) of «ཐུན་ཀུང», which the hand reckoning counts after the year and the watch?
+- Question: In which place do the trigram reckonings define the *do gcig* (དོ་གཅིག), the term that the birth reckoning (vol. 1, p. 317), the dead's (vol. 2, p. 89) and the moment's spirit speeches (vol. 2, p. 164) share?
+
+### Searched and not found
+
+- «ཐུན་ཀུང», «ཀྲུང་ཞེས», «དོ་གཅིག་གི་ལོ», «ཡམས་སྐུད», «ཀླུམ་མནན», «གྲུམ་མནན», «དུས་ལོའི་སྨེ་བ», «ཤོལ་པོ», «རྐང་ཕྲན་ནག», «བླ་ལྷོར» in the regent's replies (*Removing the Tarnish*, VEIE0OPIF790A4DF_I5876) and the Bhutan collection (VEIE0OPI1829B6AF_I1KG11905), 2026-11-06: no hit but the unrelated «ཉ་དྲུག» of etext p. 364 and «བླ་འཁྱམས» of p. 394.
