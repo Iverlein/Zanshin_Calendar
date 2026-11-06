@@ -1364,6 +1364,8 @@
     <string name="household_counts">%1$d белых · %2$d чёрных</string>
     <string name="household_section_members">Кто посчитан</string>
     <string name="household_member_line">%1$s-й год жизни · мева %2$d %3$s</string>
+    <string name="household_section_vessel">Медный сосуд мевы</string>
+    <string name="household_vessel_line">Половина дома или больше родились на одной меве</string>
     <string name="household_section_god">Место богов</string>
     <string name="household_section_people">Место людей</string>
     <string name="household_section_house">Место дома</string>

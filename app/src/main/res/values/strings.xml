@@ -1176,6 +1176,8 @@
     <string name="household_counts">%1$d white · %2$d black</string>
     <string name="household_section_members">Who is counted</string>
     <string name="household_member_line">%1$s year of age · mewa %2$d %3$s</string>
+    <string name="household_section_vessel">The mewa\'s copper vessel</string>
+    <string name="household_vessel_line">Half or more of the household share a birth mewa</string>
     <string name="household_section_god">The god\'s place</string>
     <string name="household_section_people">The people\'s place</string>
     <string name="household_section_house">The house\'s place</string>

@@ -77,6 +77,7 @@ fun HouseholdRoundView(person: Person, h: HouseholdReading, onOpen: (Annotation)
             Place(stringResource(R.string.household_section_house), pebblesLine(round.house, false, labels), round.houseReads, onOpen)
             Place(stringResource(R.string.household_section_enemy), pebblesLine(round.enemy, false, labels), round.enemyReads, onOpen)
             Place(stringResource(R.string.household_section_leftover), leftoverLine(round, labels), round.leftoverReads + round.omenReads, onOpen)
+            if (round.vesselReads.isNotEmpty()) Place(stringResource(R.string.household_section_vessel), stringResource(R.string.household_vessel_line), round.vesselReads, onOpen)
         }
     }
 }
