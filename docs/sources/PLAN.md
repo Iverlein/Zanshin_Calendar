@@ -1429,3 +1429,5 @@ Searched and found wanting, so not to be repeated:
   - The direction of counting the outer door's places: the 1996 etext of pp. 242–275 searched for words of direction and turning, no statement (pp. 276–294 read line by line in RD156, also without one).
 - **RD153, the other stacks of «ཤི་སྒབ» (2026-11-06)** (RD153, 2026-11-06):
   - «ཤི་སྒབ» in Yigdzin-1's strips of img. 165 (all five scan lines, five windows each): not found; the strips read poorly at the edges.
+- **RD159, fourth part (2026-11-06)** (RD159, 2026-11-06):
+  - The stack of «བསྐྱུར»/«བསྒྱུར» (q645) on the Gser thang reprint at 5× (img. 322, printed p. 316, line 4): a solid black blot, the ས over ཀ/ག not told; every crop of the word gives the same blot. The Zhol folio (img. 1068, 3757×606) has letters of about 30 px, too small at 4–6×. Only a cleaner print (an original-scale scan or another edition) or knowledge of the rite settles it; no more cropping.
