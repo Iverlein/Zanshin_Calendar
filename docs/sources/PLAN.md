@@ -1415,3 +1415,7 @@ Searched and found wanting, so not to be repeated:
   - BDRC exact phrases «ཆང་རྫ་ཁ་ཡོ», «ཁ་ཡོ་ཞིང་ཆང», «རྫ་ཁ་ཡོ», «ཡོ་ནས་ཆང», «ཆང་རྫ་ཡོ་», «ཐེམ་བུར་ཆང», «གཤིན་ཆང་བཙགས», «སྦང་མ་ཡོལ་བ», «ཚེས་དགུ་ན་ཆུང», «སྐྲ་བཅད་ཚེས་དགུ»: no hit.
   - «ཡོ་ཆང་» (13 hits): Bon and noisy OCR, none the rat day's «ཡོ». Steinert's dictionaries have no headword for «byi sker», «yo nas» or «ཉི་མའི་ཀླུང».
   - SY printed p. 345 (img. 373 of I1PD30933) and the Drigung volume (VE1ER68, 401) are not served.
+- **RD169, ch. 31–32's words and counts (2026-11-06)** (RD169, 2026-11-06):
+  - BDRC full-text: «སྐབས་དོན་ལྔ་ལས», «སྐབས་དོན་ལྔ་པོ», «བྱི་སྐོར་ནང་སྐོར», «གཏོང་ཤེས་རྒྱུད»: no hit; «སྐབས་གསུམ་བཞིར་བགོས», «བསྡོམས་པས་བཞི་བརྒྱ་བཞི་བཅུར་བཞེད», «བརྩི་བྱ་གཅོད་འདྲལ», «དམར་ནག་སོགས་ཆེས་ཟབ», «གཏོང་ཤེས་ལས་བཤད»: only the White Beryl's prints.
+  - The five topics of the root in the Beijing, Sde-dge and Zhol prints, KD, *Removing the Tarnish*, I1KG21886: the phrase occurs, no list.
+  - Reprint I3CN5028 img. 119–130 (vol. 1 pp. 112–123): tables and woodcuts, not the colophon of ch. 12.
