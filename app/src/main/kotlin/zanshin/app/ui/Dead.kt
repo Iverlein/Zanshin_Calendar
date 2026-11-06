@@ -169,6 +169,7 @@ private fun shownReadings(r: DeadReckoning): List<zanshin.core.texts.Reading> = 
     add(Texts.deadProvisions(r.trigram))
     r.nineEye?.let { add(Texts.deadNineEye(it)) }
     if (r.graveDay) add(Texts.deadGraveDay())
+    add(Texts.deadHandlerMewa(r.mewa)); add(Texts.deadHandlerTrigram(r.trigram))
     add(Texts.deadEye(r.trigram))
     if (r.notMadeOld) add(Texts.deadOldNotMade())
     r.oldKind?.let { add(Texts.deadOldKind(it)) }
@@ -311,6 +312,14 @@ private fun LaterRows(r: DeadReckoning, looked: List<String>, onOpen: (Annotatio
     row(labels.string(R.string.dead_provisions_title, trigram), Texts.deadProvisions(r.trigram))
     r.nineEye?.let { row(labels.string(R.string.dead_nine_eye_title, labels.ordinal(it)), Texts.deadNineEye(it), Tone.BAD) }
     if (r.graveDay) row(stringResource(R.string.dead_grave_day_title), Texts.deadGraveDay(), Tone.BAD)
+    AnnotationRow(
+        Annotation(
+            title = labels.string(R.string.dead_handler_mewa_title, r.mewa), english = "", tone = if (r.mewaCutsBirth) Tone.BAD else Tone.NEUTRAL,
+            reading = Texts.deadHandlerMewa(r.mewa), subtitle = if (r.mewaCutsBirth) stringResource(R.string.dead_handler_cuts) else null, titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    row(labels.string(R.string.dead_handler_trigram_title, trigram), Texts.deadHandlerTrigram(r.trigram))
     row(labels.string(R.string.dead_eye_title, trigram), Texts.deadEye(r.trigram), Tone.BAD)
     looked.takeIf { it.isNotEmpty() }?.let { names ->
         AnnotationRow(
