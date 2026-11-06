@@ -1418,7 +1418,7 @@ Searched and found wanting, so not to be repeated:
 - **RD169, ch. 31–32's words and counts (2026-11-06)** (RD169, 2026-11-06):
   - BDRC full-text: «སྐབས་དོན་ལྔ་ལས», «སྐབས་དོན་ལྔ་པོ», «བྱི་སྐོར་ནང་སྐོར», «གཏོང་ཤེས་རྒྱུད»: no hit; «སྐབས་གསུམ་བཞིར་བགོས», «བསྡོམས་པས་བཞི་བརྒྱ་བཞི་བཅུར་བཞེད», «བརྩི་བྱ་གཅོད་འདྲལ», «དམར་ནག་སོགས་ཆེས་ཟབ», «གཏོང་ཤེས་ལས་བཤད»: only the White Beryl's prints.
   - The five topics of the root in the Beijing, Sde-dge and Zhol prints, KD, *Removing the Tarnish*, I1KG21886: the phrase occurs, no list.
-  - Reprint I3CN5028 img. 119–130 (vol. 1 pp. 112–123): tables and woodcuts, not the colophon of ch. 12.
+  - Reprint I3CN5028 img. 119–130 (ch. 13's pp. 112–123, not the colophon of ch. 12; ch. 12 ends on printed p. 103 = img. 110; on I3CN5028 pp. 237–257 are page − 5, p. 91 = img. 98; on I3CN5029 p. 428 = img. 434): tables and woodcuts.
 - **RD166, the Moonbeams and the replies (2026-11-06)** (RD166, 2026-11-06):
   - «ར་བར» as a placing of a pebble in the etexts of KD vol. 3, WB vols. 1 and 2, LT, the replies and the Bhutan digest: only this verse and the digest's copy.
   - «ངན་ཐ་ཆད», «ཐ་ཆད་ངན», «ཚེ་རྩིས་ངན», «དཔྱད་འགོག», «རྦད་ཁམ» in the same etexts: none.
@@ -1495,3 +1495,5 @@ Searched and found wanting, so not to be repeated:
   - BDRC exact phrases «རྗོན་པ་ཅན», «ལྷ་ནི་རྗོན་པ་ཅན», «རྗོན་པ་ཅན་ཞེས», «རྗོན་པ་ཅན་དང», «རྗོན་རྐུ», «སྣུབས་ལྷ་རྗོན»: no hit; SY (I1PD30933) has no deity or «རྗོན» for Mūla or Puṣya.
   - The Zhol line of p. 305's fifth meeting: not located on img. 1054–1055.
   - A better scan of the 1996 print's p. 328 for Aśvinī's numeral: none in the cache (the Sde dge copy I1KG12740 holds 11 images).
+- **RD169b (2026-11-06)** (RD169, 2026-11-06):
+  - The root book of the Clear Lamp's five topics (MW2PD17476_B43210; manuscript I4PD636 img. 414–415): cursive dbu med at 1400 px, not readable at 3×; needs a reader of the script.
