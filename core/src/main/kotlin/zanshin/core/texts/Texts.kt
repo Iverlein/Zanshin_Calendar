@@ -967,6 +967,9 @@ object Texts {
     /** 天一神's daily direction and course, the 暦林問答集 §53 (ROADMAP K5, D9: the owner's choice of 2026-10-31): "anything done facing it", so no lists. */
     val TENICHI = Reading(key = "reading.Tenichi", source = Sources.RYAKURIN)
 
+    /** The 大将軍's outings day by day, the 暦林問答集 §54 (ROADMAP K5, the owner's choice of 2026-11-06). */
+    val DAISHOGUN = Reading(key = "reading.Daishogun", source = Sources.RYAKURIN)
+
     val EHOU: Map<Ehou, Reading> = Ehou.entries.associateWith {
         Reading(key = "reading.Ehou", source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_TOSHITOKU))
     }
