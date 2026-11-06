@@ -673,7 +673,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 20 passages: 17 scan, 3 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine; RD158 (2026-11-06) set four readings right on the scan and raised p428c |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -901,7 +901,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0469.md](questions/q0469.md) | question q469 | Is the east line's «དང་» of the door table on p. 287 the first place cut short, and from which side are the places counted | open; cites wb.2:p287 |
 | [questions/q0470.md](questions/q0470.md) | question q470 | Which places do the nine numbers 17–25 after the hal khyi's mothers and sons count on p. 185 | open; cites wb.2:p185e |
 | [questions/q0471.md](questions/q0471.md) | question q471 | Does work 17's stack on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» when KP's contents list has «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites wb.2:p378 |
-| [questions/q0472.md](questions/q0472.md) | question q472 | What is «ཨ་འཐས» in ch. 34's closing verse (p. 428) | open; cites wb.2:p428c |
+| [questions/q0472.md](questions/q0472.md) | question q472 | What is «ཨ་འཐས» in ch. 34's closing verse (p. 428) | answered; cites wb.2:p428c |
 | [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
 | [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | open; cites wb.2:p23-25 |
 | [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | open; cites wb.2:p23-25 |
@@ -1088,8 +1088,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 | [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |
-| [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | open; cites ys:i383-385 |
+| [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | open; cites — |
 | [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | open; cites — |
+| [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | open; cites — |
+| [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | open; cites — |
 
 <!-- end pool index -->
 
