@@ -87,6 +87,7 @@ import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.YearPlace
 import zanshin.core.tibetan.PowerYear
+import zanshin.core.tibetan.ClanCut
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.BirthChild
@@ -110,6 +111,7 @@ import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
 import zanshin.core.tibetan.ThirtyPoint
 import zanshin.core.tibetan.DeadCut
+import zanshin.core.tibetan.DeadOldKind
 import zanshin.core.tibetan.DeadRebirth
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.HundredKin
@@ -253,6 +255,7 @@ class CatalogTest {
         BirthChild.entries.forEach { c -> Element.entries.forEach { out += Texts.birthChild(c, it) } }
         BirthOmen.entries.forEach { out += Texts.birthOmen(it) }
         ClanYear.entries.forEach { out += Texts.clanYear(it) }
+        ClanCut.entries.forEach { out += Texts.clanCut(it) }
         Animal.entries.forEach { out += Texts.yearNature(it) }
         Element.entries.forEach { out += Texts.bodyNature(it) }
         (1..9).forEach { out += Texts.birthMewa(it) }
@@ -288,6 +291,8 @@ class CatalogTest {
         Trigram.entries.forEach { out += Texts.deadProvisions(it); out += Texts.deadGraveProvisions(it); out += Texts.deadRitesTrigram(it) }
         (1..9).forEach { out += Texts.deadNineEye(it * 9); out += Texts.deadRitesMewa(it) }
         out += Texts.deadGraveDay()
+        DeadOldKind.entries.forEach { out += Texts.deadOldKind(it) }
+        Gender.entries.forEach { out += Texts.deadOldRound(it) }
         (1..30).forEach { out += Texts.deadRitesDate(it) }
         Weekday.entries.forEach { out += Texts.deadRitesPlanet(it) }
         (1..9).forEach { out += Texts.momentSpirit(it) }
@@ -761,7 +766,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "DeadCauseTrigram", "DeadCauseMewa", "DeadDemonTrigram", "DeadDemonMewa", "DeadRebirthMewa", "CirclePebble", "ThirtyCheck", "ThirtyBoard", "TurtleClass", "TurtleKin", "TurtleEnemy", "Building", "MomentSpirit", "MomentWealth", "DeadProvisions", "DeadGraveProvisions", "DeadNineEye", "DeadGraveDay", "DeadRitesDate", "DeadRitesPlanet", "DeadRitesMewa", "DeadRitesTrigram", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement", "MomentMewaPlace", "MomentForefathers", "MomentSquare", "MomentGuard", "MomentHouse", "MomentField", "MomentFieldThere", "MomentGrave", "MomentGraveDecline", "MomentKin", "MomentEye", "MomentGraveBack", "MomentGate", "MomentSixty", "MomentWealthThere", "MomentDemonMeet", "MomentBeer", "MomentBeerGiven", "MomentBeerDrunk", "MomentBeerTaste", "MomentHouses", "MomentSickCause", "MomentSickLife", "MomentSickBed", "MomentEaten", "MomentEatenCount", "MomentIllnessSeat", "MomentHair", "MomentTrade", "MomentDispute", "MomentLifePart", "MomentForefathersYear", "MomentGrain", "MomentGrainVessel", "MomentMarks", "MomentSign", "MomentFight"),
+            "R2" to listOf("ClanCut", "DeadOldKind", "DeadOldRound", "BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "DeadCauseTrigram", "DeadCauseMewa", "DeadDemonTrigram", "DeadDemonMewa", "DeadRebirthMewa", "CirclePebble", "ThirtyCheck", "ThirtyBoard", "TurtleClass", "TurtleKin", "TurtleEnemy", "Building", "MomentSpirit", "MomentWealth", "DeadProvisions", "DeadGraveProvisions", "DeadNineEye", "DeadGraveDay", "DeadRitesDate", "DeadRitesPlanet", "DeadRitesMewa", "DeadRitesTrigram", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement", "MomentMewaPlace", "MomentForefathers", "MomentSquare", "MomentGuard", "MomentHouse", "MomentField", "MomentFieldThere", "MomentGrave", "MomentGraveDecline", "MomentKin", "MomentEye", "MomentGraveBack", "MomentGate", "MomentSixty", "MomentWealthThere", "MomentDemonMeet", "MomentBeer", "MomentBeerGiven", "MomentBeerDrunk", "MomentBeerTaste", "MomentHouses", "MomentSickCause", "MomentSickLife", "MomentSickBed", "MomentEaten", "MomentEatenCount", "MomentIllnessSeat", "MomentHair", "MomentTrade", "MomentDispute", "MomentLifePart", "MomentForefathersYear", "MomentGrain", "MomentGrainVessel", "MomentMarks", "MomentSign", "MomentFight"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchTime", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

@@ -45,6 +45,7 @@ import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
 import zanshin.core.tibetan.ThirtyPoint
 import zanshin.core.tibetan.DeadCut
+import zanshin.core.tibetan.DeadOldKind
 import zanshin.core.tibetan.DeadRebirth
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
@@ -96,6 +97,7 @@ import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
+import zanshin.core.tibetan.ClanCut
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.GroupCut
@@ -540,6 +542,7 @@ object Sources {
     /** The four precious pebbles (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_CLAN_CUT = whiteBeryl("chapter 22, pp. 300 and 349, with the notes in vol. 2, p. 489", volume = 1)
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348, with the notes in vol. 2, pp. 488–489", volume = 1)
     /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
@@ -2554,6 +2557,12 @@ object Texts {
     /** The grave-day strike (the tenth examination, WB vol. 2, ch. 29, p. 88). */
     fun deadGraveDay(): Reading = Reading(key = "reading.DeadGraveDay", arg = "reading.DeadGraveDay.STRIKE", source = Sources.WHITE_BERYL_DEAD_LATER)
 
+    /** The old kind [k] (the provisions of the old, WB vol. 2, ch. 29, pp. 77–79). */
+    fun deadOldKind(k: DeadOldKind): Reading = Reading(key = "reading.DeadOldKind", arg = "reading.DeadOldKind.${k.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The other round of the old, by companion and son, for one of [g] whose age no kind names (WB vol. 2, ch. 29, p. 79). */
+    fun deadOldRound(g: Gender): Reading = Reading(key = "reading.DeadOldRound", arg = "reading.DeadOldRound.${g.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
     /** The thirteenth examination's rites for a death on the lunar date [d] (WB vol. 2, ch. 29, pp. 116–118). */
     fun deadRitesDate(d: Int): Reading = Reading(key = "reading.DeadRitesDate", arg = "reading.DeadRitesDate.$d", source = Sources.WHITE_BERYL_DEAD_LATER)
 
@@ -2833,6 +2842,9 @@ object Texts {
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =
         Reading(key = "reading.ClanYear", arg = "reading.ClanYear.${y.name}", source = Sources.WHITE_BERYL_SPECIAL_PEBBLE)
+
+    /** What cuts the father by the clan, the birth's month or year (WB vol. 1, ch. 22, pp. 300, 349; the notes, vol. 2, p. 489). */
+    fun clanCut(c: ClanCut): Reading = Reading(key = "reading.ClanCut", arg = "reading.ClanCut.${c.name}", source = Sources.WHITE_BERYL_CLAN_CUT)
 
     /** A reading of the parents' trigrams at the birth (WB vol. 1, ch. 22, p. 326). */
     fun birthOmen(o: BirthOmen): Reading =

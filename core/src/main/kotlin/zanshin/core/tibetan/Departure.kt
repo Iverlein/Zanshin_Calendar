@@ -178,7 +178,7 @@ data class DepartureDay(val date: LocalDate, val day: TibetanDay, val findings: 
  * *kham yu* count, the mansions counted from Kṛttikā and Pūrvaphalgunī (p. 365); the planet's power and mother
  * planets (named, no tone); the mansions «ཤ་མ», «ཁྲག་སྐམ», wood's «རྒྱལ་སྨད» and earth's «བྱ་གཞུག» (not identified), and the
  * accomplishing and northern mansions (not listed); *chos gnyan*, Viṣṇu, the Rāhus' faces, *sribs lha*, the seven mewa,
- * the gold and turquoise treasuries and the bride's *ko long* (not built or not identified); the hour by the clan
+ * the gold and turquoise treasuries and the bride's *ko long* (named by questions 605 and 643, but no text gives the day or seat they fall on); the hour by the clan
  * element and by the hour's own element (the app has neither), the sky dog of the hour at dusk and its facings by the
  * times of day (no hour animal is named), its body by the old and new reckonings; the mewa's gods met with the mewa
  * by the general rule (only the nine meetings WB names are read); where she is placed (part 17, no reckoning).

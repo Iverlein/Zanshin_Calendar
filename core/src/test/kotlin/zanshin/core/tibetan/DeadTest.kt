@@ -86,4 +86,38 @@ class DeadTest {
         val most = counts.values.max()
         assertEquals(counts.filterValues { it == most }.keys.map { (k, e) -> e to (k == Kinship.IDENTITY) }.toSet(), r.cuts.map { it.own to it.inner }.toSet())
     }
+
+    /** The nine rounds of the old by sex and year of age (WB vol. 2, pp. 77–79), and the ages they leave to the other round (p. 79). */
+    @Test
+    fun `the old dead's kinds and the ages left to the other round`() {
+        assertEquals(DeadOldKind.SMUN, DeadOldKind.of(Gender.MALE, 70))
+        assertEquals(DeadOldKind.DROD_MED, DeadOldKind.of(Gender.MALE, 78))
+        assertEquals(DeadOldKind.NAG, DeadOldKind.of(Gender.MALE, 87))
+        assertEquals(DeadOldKind.ZA_UG, DeadOldKind.of(Gender.FEMALE, 61))
+        // A woman's 72nd has its own kind within the unguarded old one's years.
+        assertEquals(DeadOldKind.BLO_STOR, DeadOldKind.of(Gender.FEMALE, 72))
+        assertEquals(DeadOldKind.BSRUNG_MED, DeadOldKind.of(Gender.FEMALE, 71))
+        assertEquals(DeadOldKind.BSRUNG_MED, DeadOldKind.of(Gender.FEMALE, 90))
+        val menLeft = (61..100).filter { DeadOldKind.of(Gender.MALE, it) == null }
+        assertEquals((61..69).toList() + 83 + (88..100).toList(), menLeft)
+        val womenLeft = (60..100).filter { DeadOldKind.of(Gender.FEMALE, it) == null }
+        assertEquals(listOf(60, 66) + (91..100).toList(), womenLeft)
+        // A man is old from sixty-one, a woman from sixty: at sixty only she is.
+        assertEquals(false, DeadOldKind.old(Gender.MALE, 60))
+        assertEquals(true, DeadOldKind.old(Gender.FEMALE, 60))
+        var d = LocalDate.of(1995, 10, 15)
+        while (TibetanCalendar.of(d).let { !(it.month == 9 && it.day == 4) }) d = d.plusDays(1)
+        val day = TibetanCalendar.of(d)
+        // Died in the 90th year: past the men's kinds, so the other round; the unguarded old one for a woman.
+        val man = DeadReckoning.of(1906, Gender.MALE, day, null)!!
+        assertNull(man.oldKind)
+        assertEquals(Gender.MALE, man.oldRound)
+        val woman = DeadReckoning.of(1906, Gender.FEMALE, day, null)!!
+        assertEquals(DeadOldKind.BSRUNG_MED, woman.oldKind)
+        assertNull(woman.oldRound)
+        // Not old at all: neither.
+        val young = DeadReckoning.of(1960, Gender.MALE, day, null)!!
+        assertNull(young.oldKind)
+        assertNull(young.oldRound)
+    }
 }

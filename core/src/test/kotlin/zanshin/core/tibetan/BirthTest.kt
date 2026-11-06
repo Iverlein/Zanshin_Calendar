@@ -458,4 +458,14 @@ class BirthTest {
         val pairs = Animal.entries.flatMap { a -> Animal.entries.map { b -> MatchReckoning.timeMeetings(a, b) to MatchReckoning.timeMeetings(b, a) } }
         pairs.forEach { (x, y) -> assertEquals(x, y) }
     }
+
+    /** What cuts the father by the clan (p. 349): Mipham's earth clan and tiger month, and p. 300's list of executioner years. */
+    @Test
+    fun `the months and years that overcome the clan's element`() {
+        assertEquals(setOf(Animal.TIGER, Animal.RABBIT), Animal.entries.filter { BirthReckoning.clanCuts(Clan.KUNGS, it) }.toSet())
+        assertEquals(setOf(Animal.MONKEY, Animal.BIRD), Animal.entries.filter { BirthReckoning.clanCuts(Clan.KEG, it) }.toSet())
+        assertEquals(setOf(Animal.HORSE, Animal.SNAKE), Animal.entries.filter { BirthReckoning.clanCuts(Clan.SHANG, it) }.toSet())
+        assertEquals(setOf(Animal.DRAGON, Animal.SHEEP, Animal.DOG, Animal.OX), Animal.entries.filter { BirthReckoning.clanCuts(Clan.U, it) }.toSet())
+        assertEquals(setOf(Animal.PIG, Animal.MOUSE), Animal.entries.filter { BirthReckoning.clanCuts(Clan.JI, it) }.toSet())
+    }
 }

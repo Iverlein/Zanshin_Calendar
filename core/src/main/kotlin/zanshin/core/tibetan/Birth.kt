@@ -29,6 +29,13 @@ enum class Clan(val element: Element, val wylie: String) {
 }
 
 /**
+ * What cuts the father by the clan (WB vol. 1, p. 349, among the finer points of the oral instruction): a birth in the
+ * clan element's [MONTH], a month of the element that overcomes the clan's (Mipham, vol. 2, p. 489: an earth clan, the
+ * tiger month), or in its executioner [YEAR] (p. 300: a wood clan the iron monkey and bird, water the earth's four).
+ */
+enum class ClanCut { MONTH, YEAR; val english: String get() = gloss(this) }
+
+/**
  * The year's own destiny (*rang nyid lo yi dbang thang*, pp. 261, 270–280): the birth year's destiny, its element,
  * against its life force, by its animal, one of the two pebbles that cannot be lacking. Life force and destiny one
  * element, *kha yan*; destiny begetting the life force, *khong nong*; the life force begetting destiny, *se zhig*;
@@ -346,6 +353,9 @@ object BirthReckoning {
 
     /** How a birth year of [animal] stands to [clan] (p. 261). */
     fun clanYear(clan: Clan, animal: Animal): ClanYear = CLAN_YEARS.getValue(clan).entries.first { animal in it.value }.key
+
+    /** Whether a month or year of [animal] overcomes [clan]'s element, so that a birth then cuts the father (pp. 300, 349). */
+    fun clanCuts(clan: Clan, animal: Animal): Boolean = Forces.kinship(clan.element, Forces.of(Element.WOOD, animal).vitality) == Kinship.ENEMY
 
     /** What one born in a year of life force [vitality] on the natal trigram [natal] is (p. 294). */
     fun child(vitality: Element, natal: Trigram): BirthChild = kind(vitality, YearOfLife.trigramElement(natal))

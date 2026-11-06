@@ -49,6 +49,33 @@ enum class DeadRebirth { GOD, ASURA, HUMAN, ANIMAL, HUNGRY_GHOST, HELL; val engl
 enum class DeadTime { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(this) }
 
 /**
+ * The nine rounds of the old (བཀྲ, bkra; the tenth examination's provisions, WB vol. 2, ch. 29, pp. 77–79; claim
+ * dead-old-kinds-by-age): the kinds a text names for the [gender] and the [ages] at death, the year of age counted
+ * with the birth year first (question 308). [BSRUNG_MED] is the women's one name for the seventies up to ninety
+ * (p. 79), and yields the 72nd to [BLO_STOR], which stands before it for that reason.
+ */
+enum class DeadOldKind(val gender: Gender, val ages: IntRange, val wylie: String) {
+    SMUN(Gender.MALE, 70..70, "bkra smun"), BYIN(Gender.MALE, 71..72, "bkra byin"), SHANG_DKAR(Gender.MALE, 73..74, "shang dkar"),
+    DGA_RGYAL(Gender.MALE, 75..76, "dga' rgyal"), DROD_MED(Gender.MALE, 77..78, "drod med"),
+    SRI_BYAMS(Gender.MALE, 79..80, "bkra sri 'byams pa"), SEMS_MED(Gender.MALE, 81..82, "sems med"),
+    SMYOS(Gender.MALE, 84..85, "smyos bkra rkun bu"), NAG(Gender.MALE, 86..87, "bkra nag mche ba can"),
+    ZA_UG(Gender.FEMALE, 61..61, "za 'ug sman gcig ma"), SMAN_BYI(Gender.FEMALE, 62..63, "bkra sman byi ba"),
+    GANGS_CHUNG(Gender.FEMALE, 64..65, "gangs chung"), SMAN_RGYAL(Gender.FEMALE, 67..67, "bkra sman rgyal mo"),
+    SMAN_GCIG(Gender.FEMALE, 68..69, "sman gcig ma"), BLO_STOR(Gender.FEMALE, 72..72, "blo stor sems med"),
+    BSRUNG_MED(Gender.FEMALE, 70..90, "bsrung med bkra");
+
+    val english: String get() = gloss(this)
+
+    companion object {
+        /** The kind named for [gender] at [age], or null where the nine rounds name none. */
+        fun of(gender: Gender, age: Int): DeadOldKind? = entries.firstOrNull { it.gender == gender && age in it.ages }
+
+        /** Whether one of [gender] at [age] is old in the present span: a man from sixty-one, a woman from sixty (p. 79). */
+        fun old(gender: Gender, age: Int): Boolean = age >= if (gender == Gender.MALE) 61 else 60
+    }
+}
+
+/**
  * The dead's first examination: [year] the year of age reckoning of the dead at the year of death (its present year
  * the year of death, its hour the hour of death where it is known), [month] and [date] the signs of the month and the
  * lunar date of the death.
@@ -157,6 +184,15 @@ data class DeadReckoning(
      * the 9th to the 81st; null otherwise. The year of age is the app's own, the birth year the first.
      */
     val nineEye: Int? get() = year.age.takeIf { it in 9..81 && it % 9 == 0 }
+
+    /** The old kind named for the dead's sex and year of age (WB vol. 2, pp. 77–79); null where none is, or the sex is not known. */
+    val oldKind: DeadOldKind? get() = year.gender?.let { DeadOldKind.of(it, year.age) }
+
+    /**
+     * The sex of an old dead whose age no kind names, read by WB's other round, by companion and son (p. 79; question
+     * 309): a man of 61–69, 83 or from 88, a woman of 60, 66 or from 91. Null for the rest.
+     */
+    val oldRound: Gender? get() = year.gender?.takeIf { DeadOldKind.old(it, year.age) && oldKind == null }
 
     /**
      * The grave-day strike (p. 88): the 6th of each season's first month, the 16th of its middle, the 26th of its
