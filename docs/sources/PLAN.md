@@ -1468,3 +1468,6 @@ Searched and found wanting, so not to be repeated:
   - The etext of Dpyod ldan snying nor (I1KG81102): HTTP 403, search only.
 - **RD178, ch. 27's first leaves (2026-11-06)** (RD178, 2026-11-06):
   - p. 3's gloss «ཇི་ནོང» on the Zhol print, img. 629 l. 2, crops at 3× and 6×: illegible, too small and worn at that resolution.
+- **RD176, ch. 33's mansion verses (2026-11-06)** (RD176, 2026-11-06):
+  - «ཆུ་ཀ་ལེན» and «ཆུ་ཀ» as a word: no hit in the Zhol etext (img. 1030–1110) except «རྐལེན» in this line.
+  - The 1996 print's own scan for Aśvinī's numeral: 687 px wide, not legible.
