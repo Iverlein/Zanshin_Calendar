@@ -1491,3 +1491,7 @@ Searched and found wanting, so not to be repeated:
   - A reason for the tent at the door in the 1996 etext (five hits of «སྦྲ་ཁྱིམ»): none.
   - A gloss of the la-knower's animal in WB's etexts: none.
   - The order of the five mother-son pairs: not on p. 185.
+- **RD176, second part (2026-11-06)** (RD176, 2026-11-06):
+  - BDRC exact phrases «རྗོན་པ་ཅན», «ལྷ་ནི་རྗོན་པ་ཅན», «རྗོན་པ་ཅན་ཞེས», «རྗོན་པ་ཅན་དང», «རྗོན་རྐུ», «སྣུབས་ལྷ་རྗོན»: no hit; SY (I1PD30933) has no deity or «རྗོན» for Mūla or Puṣya.
+  - The Zhol line of p. 305's fifth meeting: not located on img. 1054–1055.
+  - A better scan of the 1996 print's p. 328 for Aśvinī's numeral: none in the cache (the Sde dge copy I1KG12740 holds 11 images).
