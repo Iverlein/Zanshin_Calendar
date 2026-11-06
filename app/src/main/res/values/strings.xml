@@ -1248,6 +1248,8 @@
     <string name="dead_provisions_title">The corpse\'s provisions · %1$s</string>
     <string name="dead_nine_eye_title">The nine-eye strike · %1$s year of age</string>
     <string name="dead_grave_day_title">The grave-day strike</string>
+    <string name="dead_old_kind_title">The old dead · %1$s</string>
+    <string name="dead_old_round_title">The old dead · by companion and son</string>
     <string name="dead_rites_trigram_title">Rites for a death on %1$s</string>
     <string name="dead_rites_mewa_title">The wheel for a death on mewa %1$d</string>
     <string name="dead_rites_planet_title">The wheel for a death on the day of %1$s</string>
@@ -1271,6 +1273,7 @@
     <string name="reckonings_birth_subtitle">Natal trigram %1$s · %2$s</string>
     <string name="reckonings_birth_needed">Needs your mother\'s birth year</string>
     <string name="birth_section_clan">The clan</string>
+    <string name="birth_clan_cut">Cuts the father</string>
     <string name="birth_clan_subtitle">%1$s clan, %2$s · born in a %3$s year</string>
     <string name="birth_clan_needed">The special pebble (སྒོས་རྡེལ, sgos rdel) sets your birth year against the element of your clan: set the clan in People to see it.</string>
     <string name="birth_detail_clan">Clan and its element</string>

@@ -32,6 +32,7 @@ import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.BirthReckoning
+import zanshin.core.tibetan.ClanCut
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PowerYear
@@ -531,6 +532,19 @@ fun ClanSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    listOf(ClanCut.MONTH to born.monthNames.animal, ClanCut.YEAR to born.yearAnimal).filter { BirthReckoning.clanCuts(clan, it.second) }.forEach { (cut, animal) ->
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, stringResource(R.string.birth_clan_cut), cut.english),
+                english = "",
+                tone = Tone.BAD,
+                reading = Texts.clanCut(cut),
+                subtitle = gloss(animal).replaceFirstChar(Char::uppercase),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
 }
 
 internal fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
