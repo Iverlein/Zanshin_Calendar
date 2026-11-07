@@ -63,7 +63,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 96–98 (O10e, scan); drawings described, not transcribed |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read (RD192: see its section) |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read (RD192: see its section) |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
