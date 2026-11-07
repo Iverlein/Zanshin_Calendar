@@ -1242,6 +1242,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | open; cites — |
 | [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | open; cites — |
 | [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
+| [questions/q0716.md](questions/q0716.md) | question q716 | ཚོམ་རྐུན (entry 51) and ཆོམ་རྐུན: one word? | open; cites — |
+| [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | open; cites — |
+| [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
+| [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
 
 <!-- end pool index -->
 

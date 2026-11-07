@@ -1536,3 +1536,5 @@ Searched and found wanting, so not to be repeated:
   - Which crops "the black" and "the white" are, in the key or in the entries of pp. 206–211: not said.
 - **RD193 (2026-11-07)** (RD193, 2026-11-07):
   - Yigdzin-1 on the chart pages of WB vol. 1 ch. 13 (img. 143–148 of the reprint and the 1996 scan): loops or garbage; MITRA likewise on tables, only numerals or run-together lines. Pp. 136–172 need reading cell by cell by eye.
+- **RD194 (2026-11-07)** (RD194, 2026-11-07):
+  - A passage giving the sixty years of the Little Tiger-Ear from another text, to set against entries 44–60 (kb.py search on the entry words): none.
