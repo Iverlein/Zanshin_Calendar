@@ -1289,6 +1289,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0737.md](questions/q0737.md) | question q737 | The 7th month head's weekday line | open; cites — |
 | [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | open; cites — |
 | [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
+| [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | open; cites — |
+| [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
 
 <!-- end pool index -->
 

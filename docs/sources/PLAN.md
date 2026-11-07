@@ -1551,3 +1551,5 @@ Searched and found wanting, so not to be repeated:
 - **RD202 (2026-11-07)** (RD202, 2026-11-07):
   - p. 169 (1996 print img. 179) carries no month head, only boxes; the 8th head is on p. 168, the 9th on p. 170.
   - p. 154's head, lines 5–7: not read by eye in the time given.
+- **RD201 (2026-11-07)** (RD201, 2026-11-07):
+  - The 3rd head's dar figures (end of the 7th printed line, p. 160) and the 6th head's weekday figures after «dar 5, 3, 1»: not made out on the crops; no stacked figure of the 2nd–6th heads read digit by digit.
