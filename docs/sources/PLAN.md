@@ -1534,3 +1534,5 @@ Searched and found wanting, so not to be repeated:
 - **RD190 (2026-11-07)** (RD190, 2026-11-07):
   - A page number for the key of the Tiger-Ear notation other than 210 (RD184 had 209): the 1996 print (img. 219–220) and the reprint (img. 209) both have it on the page numbered 210.
   - Which crops "the black" and "the white" are, in the key or in the entries of pp. 206–211: not said.
+- **RD193 (2026-11-07)** (RD193, 2026-11-07):
+  - Yigdzin-1 on the chart pages of WB vol. 1 ch. 13 (img. 143–148 of the reprint and the 1996 scan): loops or garbage; MITRA likewise on tables, only numerals or run-together lines. Pp. 136–172 need reading cell by cell by eye.
