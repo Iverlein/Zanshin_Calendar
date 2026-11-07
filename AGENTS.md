@@ -90,10 +90,19 @@ each other's builds. So every session, from its first edit:
    other blocks also changed, the tests run again in `$W`. Then, from the
    main checkout, `git merge --ff-only work/<name>`; if it refuses, main
    moved again: rebase and test once more.
-4. **Cleans up** once main holds its commits: `git worktree remove --force $W`
-   (forced because of the copied, untracked `local.properties` and vectors;
-   Gradle's build output goes with it) and `git branch -d work/<name>`,
-   which refuses a branch that is not merged.
+4. **Cleans up** once main holds its commits, and leaves nothing behind
+   (owner, 2026-11-07): `git worktree remove --force $W` (forced because of
+   the copied, untracked `local.properties` and vectors; Gradle's build
+   output goes with it) and `git branch -d work/<name>`, which refuses a
+   branch that is not merged; the same for every worktree and branch the
+   session's subagents made; the session's scratch
+   (`~/ai/tibetan-ocr/scratch/<name>`, the crops and model output) deleted;
+   the browser's dumps (`.playwright-mcp/` in the checkout) deleted. Before
+   the done-report: `git worktree list` shows the main checkout alone,
+   `git status` in it is clean, `~/ai/tibetan-ocr/scratch/` is empty. A
+   worktree of a session that is gone, found at the start, is rebased and
+   merged (its work kept) or, if its commit is already in `main`, removed;
+   it is never left for the next session.
 
 Pushing still waits for the owner's word. The emulator is one for all:
 sessions queue for `emulator-5554` by message, and each restores the

@@ -123,13 +123,18 @@ next report launches them. So the process is a pool, not fixed waves.
      (local, not committed). `./gradlew :core:test` in full; commit
      `docs: RD<n> done, <what it settled>`; merge fast-forward.
    - **Clean**: `git worktree remove --force` and `git branch -d` for
-     that subagent; its scratch directory deleted, the shared scan cache
-     and the transcriptions under `docs/sources/wb/` kept.
+     that subagent; its scratch directory deleted (also when the subagent
+     reported nothing: a run that read nothing still leaves a worktree, a
+     branch and crops), the shared scan cache and the transcriptions
+     under `docs/sources/wb/` kept.
    - **Replan**: `schedule.py plan` again; what became available, within
      the subagents now free, is stubbed, prompted and launched as above.
 7. **The end**, when the plan launches nothing and no subagent runs:
-   `gpu.py` clean, no browser left running, the loan returned, and the
-   report to the owner: the readings done with their commits, what
+   `gpu.py` clean, no browser left running, the loan returned, `git
+   worktree list` showing the main checkout and `work/readings` alone
+   (then that one removed too), `~/ai/tibetan-ocr/scratch/` empty, no
+   `.playwright-mcp/` in the checkout (owner, 2026-11-07: nothing is left
+   behind), and the report to the owner: the readings done with their commits, what
    stays open, what waits on what. Pushing waits for the owner's word;
    a push carries every session's commits.
 

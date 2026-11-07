@@ -52,8 +52,11 @@ once before the first plan.
    (steps 3–5 for those).
 7. **End** when the plan launches nothing and no subagent runs:
    `python3 tools/sources/gpu.py` clean, loan returned, no browser
-   left; report the readings done with their commits and what stays
-   open. Do not push.
+   left; `git worktree list` shows the main checkout alone (remove
+   `work/readings` too), `~/ai/tibetan-ocr/scratch/` is empty, no
+   `.playwright-mcp/` in the checkout: every subagent's worktree, branch
+   and scratch is gone, also a subagent's that reported nothing. Report
+   the readings done with their commits and what stays open. Do not push.
 
 Never: sign a commit, push, read from memory, edit the main checkout,
 or mark a reading done on a subagent's word alone.
