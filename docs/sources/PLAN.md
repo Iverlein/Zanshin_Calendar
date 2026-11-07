@@ -1501,3 +1501,5 @@ Searched and found wanting, so not to be repeated:
   - The woodcut's left edge on Taikhang img. 402 at 2× in rotated crops: only the position of four words, none readable; the circles likewise; one agy call on the right-edge strip gave no answer in 11 minutes.
 - **RD180b (2026-11-06)** (RD180, 2026-11-06):
   - «ལྷང་ཕུག» in the Zhol etext at img. 782–783: no hit (the etext there is garbled).
+- **RD159c (2026-11-07)** (RD159, 2026-11-07):
+  - The stack of «བསྐྱུར»/«བསྒྱུར» on the Taikhang print (I5878 img. 447, line 2 right end), cut by ink rows, 2×: a filled block, not told.
