@@ -686,7 +686,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 35 passages: 19 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 38 passages: 31 scan, 6 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 39 passages: 31 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 11 passages: 11 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
@@ -980,7 +980,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | open; cites wb.1:p351b |
 | [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
 | [questions/q0524.md](questions/q0524.md) | question q524 | A manual that gives the dead's speckled life, body, power and luck | open; cites wb.2:p46 |
-| [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | open; cites wb.2:p46 |
+| [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | narrowed; cites wb.2:p46 |
 | [questions/q0526.md](questions/q0526.md) | question q526 | Which water bird year dates The Precious Key, and who is Prajñāmaṇi | open; cites wb.2:p46 |
 | [questions/q0527.md](questions/q0527.md) | question q527 | The Brahmā lineage's count of the steelyard's rope | open; cites wb.2:p165e |
 | [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | open; cites wb.2:p165e |
@@ -996,9 +996,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0538.md](questions/q0538.md) | question q538 | When were the sheets drawn | open; cites — |
 | [questions/q0539.md](questions/q0539.md) | question q539 | Which three of the five topics of the root were divided into four (p. 249) | open; cites — |
 | [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | narrowed; cites — |
-| [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | open; cites — |
+| [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | answered; cites wb.1:p257 |
 | [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
-| [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | open; cites — |
+| [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | answered; cites — |
 | [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites — |
 | [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | answered; cites — |
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
@@ -1013,7 +1013,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0555.md](questions/q0555.md) | question q555 | The second and third result names «ཀླུང» and «ཀྱཱིས» on Mipham's print | open; cites — |
 | [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | answered; cites — |
 | [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
-| [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | open; cites wb.2:p215 |
+| [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | narrowed; cites wb.2:p215 |
 | [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
 | [questions/q0561.md](questions/q0561.md) | question q561 | p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge | open; cites wb.2:p104 |
