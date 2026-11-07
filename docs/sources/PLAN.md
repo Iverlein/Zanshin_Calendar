@@ -1540,3 +1540,6 @@ Searched and found wanting, so not to be repeated:
   - A passage giving the sixty years of the Little Tiger-Ear from another text, to set against entries 44–60 (kb.py search on the entry words): none.
 - **RD195 (2026-11-07)** (RD195, 2026-11-07):
   - WB vol. 1 ch. 13 pp. 136–147 on the Gser thang reprint (img. 143–154): by-eye crops at 1x to 3x do not make the reset face's cell glyphs reliably legible; the cell text needs another print (the 1996 print, img. 146–157, or a Zhol/Taikhang print).
+- **RD196 (2026-11-07)** (RD196, 2026-11-07):
+  - Yigdzin-1 on pp. 154–171 of WB vol. 1 ch. 13: not run, the boxes are too small and set in ovals (as RD193 found).
+  - The Gser thang reprint (I3CN5028) holds nothing of pp. 167–174 (img. 174 is p. 175); those pages exist only in the 1996 print, where the boxes are small and soft.

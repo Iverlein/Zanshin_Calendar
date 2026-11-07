@@ -1271,6 +1271,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | open; cites — |
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
+| [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | open; cites — |
 
 <!-- end pool index -->
 
