@@ -1130,6 +1130,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | open; cites — |
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 | [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
+| [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | open; cites — |
 
 <!-- end pool index -->
 

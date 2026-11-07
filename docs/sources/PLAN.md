@@ -1506,3 +1506,5 @@ Searched and found wanting, so not to be repeated:
 - **RD176d (2026-11-07)** (RD176, 2026-11-07):
   - Zhol img. 1084: the letter of «དྲོ་?ོད» is not legible at 1x–2x.
   - Zhol img. 782–806: the marks not counted (one image looked at).
+- **RD175c (2026-11-07)** (RD175, 2026-11-07):
+  - The word «སྙོངས/སྟོངས» of fire four and wind one on the Zhol print (img. 577, lines 6–7), crops at 3–8×: no legible stack found.
