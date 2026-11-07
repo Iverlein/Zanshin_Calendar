@@ -1515,3 +1515,6 @@ Searched and found wanting, so not to be repeated:
   - The owner of the door line (p. 53, Zhol img. 700, Taikhang img. 82): no heading or gloss on either print names it.
   - The base letters of the stack of p. 54, l. 1 (Taikhang img. 85 at 7x, Zhol img. 703 at 5x–10x): fused, heavy heads.
   - The gloss of p. 3 on the Taikhang at 10x: letters merged.
+- **RD180d (2026-11-07)** (RD180, 2026-11-07):
+  - «བཀྲ་སྲིའུ་དབུས», «ཕན་ངོན», «སྦོ་སྨད», «ལྟོ་བ་མཚན» in the Zhol etext (locate.py find): no hit, the etext being garbled there.
+  - q634: the 1996 etext passage with «སྦོ་སྨད» is on its p. 197, not p. 122; the question's own line is still not seen.
