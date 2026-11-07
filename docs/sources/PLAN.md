@@ -1503,3 +1503,6 @@ Searched and found wanting, so not to be repeated:
   - «ལྷང་ཕུག» in the Zhol etext at img. 782–783: no hit (the etext there is garbled).
 - **RD159c (2026-11-07)** (RD159, 2026-11-07):
   - The stack of «བསྐྱུར»/«བསྒྱུར» on the Taikhang print (I5878 img. 447, line 2 right end), cut by ink rows, 2×: a filled block, not told.
+- **RD176d (2026-11-07)** (RD176, 2026-11-07):
+  - Zhol img. 1084: the letter of «དྲོ་?ོད» is not legible at 1x–2x.
+  - Zhol img. 782–806: the marks not counted (one image looked at).
