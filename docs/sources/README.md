@@ -95,7 +95,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch18-seven-conducts.md](claims/ch18-seven-conducts.md) | claim, definition | The seven kinds of conduct of the sage's text: three told, four named | cites wb.1:p201; feeds — |
 | [claims/ch18-sme-ba-in-centre.md](claims/ch18-sme-ba-in-centre.md) | claim, list | The nine sme ba entering the centre: results (ch. 18) | cites wb.1:p212; feeds — |
 | [claims/ch18-sutra-secret-sixty-years.md](claims/ch18-sutra-secret-sixty-years.md) | claim, list | The *Sūtra of the Secret*'s list of the sixty years' results, entry by entry (WB ch. 18, pp. 206–209) | cites wb.1:p206, wb.1:p207, wb.1:p208, wb.1:p209; feeds — |
-| [claims/ch18-tiger-ear-key.md](claims/ch18-tiger-ear-key.md) | claim, definition | The key to the notation of the sūtra Tiger-Ear, and what skya rgyal is | cites wb.1:p209; feeds — |
+| [claims/ch18-tiger-ear-key.md](claims/ch18-tiger-ear-key.md) | claim, definition | The key to the notation of the sūtra Tiger-Ear, and what skya rgyal is | cites wb.1:p210; feeds — |
 | [claims/ch18-twelve-years-by-earth-lord.md](claims/ch18-twelve-years-by-earth-lord.md) | claim, list | The twelve animal years by where the earth lord dwells (WB ch. 18, pp. 209–210) | cites wb.1:p209, wb.1:p210; feeds — |
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-bare-khams-is-the-power-by-mipham.md](claims/ch27-bare-khams-is-the-power-by-mipham.md) | claim, note | Ch. 27: the notes name the circles' bare «ཁམས» the power's, the answer for the circles | cites wb.2:p533b, wb.2:p3, wb.2:p17; feeds block-25 |
@@ -1231,6 +1231,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0704.md](questions/q0704.md) | question q704 | The planet names of pp. 76–77 and the Fierce three and Peaceful two | open; cites — |
 | [questions/q0705.md](questions/q0705.md) | question q705 | The pairs of houses of the six summarised meanings (pp. 70–71) | open; cites — |
 | [questions/q0706.md](questions/q0706.md) | question q706 | «ཀུན་མཁྱེན་རིན་ཆེན་མཚན» and «རྟ་ལྡང / རྟ་ལྗང» of p. 70's homage | open; cites — |
+| [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | open; cites — |
+| [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | open; cites — |
+| [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | open; cites — |
+| [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | open; cites — |
+| [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | open; cites — |
+| [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | open; cites — |
+| [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | open; cites — |
+| [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | open; cites — |
+| [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
 
 <!-- end pool index -->
 

@@ -1531,3 +1531,6 @@ Searched and found wanting, so not to be repeated:
 - **RD188 (2026-11-07)** (RD188, 2026-11-07):
   - The figure for Saturn in the five planets' weekday numbers (p. 42): not in the machine texts of either reader; on the page image at ordinary size it looked like «0», not enlarged.
   - The planets' colours on p. 54 in the whole-page Yigdzin-1 and MITRA runs: not found (both returned only the table labels); found in a second run on the enlarged lower half.
+- **RD190 (2026-11-07)** (RD190, 2026-11-07):
+  - A page number for the key of the Tiger-Ear notation other than 210 (RD184 had 209): the 1996 print (img. 219–220) and the reprint (img. 209) both have it on the page numbered 210.
+  - Which crops "the black" and "the white" are, in the key or in the entries of pp. 206–211: not said.
