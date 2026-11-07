@@ -64,6 +64,11 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 96–98 (O10e, scan); drawings described, not transcribed |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193, RD195, RD196, RD199, RD200, RD202 | RD202 (2026-11-07): the heads of the 7th to 10th months as machine text, their weekday lines of the 7th and 10th and the 11th head's first four lines by eye at 3x, stacked figures unread; RD200 (2026-11-07, by eye): the heads of the 12th (p. 155) and 1st (p. 157) months line by line, the other ten unread; RD199 (2026-11-07, machine): pp. 136–147's 24 charts' cells as the 1996 etext reads them, shapes checked on the scan, none settled by eye; Zhol print's strip charts located (img. 151–153); RD196 (2026-11-07, by eye): model almanac boxes of pp. 154 and 165, the others unread; RD192 (2026-11-07): pp. 104–109 (the sixty years' table, years 1–30, cells read by eye on the Gser thang reprint I3CN5028, img. 111–116), pp. 122–126 and 128 (strips, flying squares; scan), pp. 127 and 129–132 figures described (machine); RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read  |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | WB ch. 1: the introduction's homages | RD198 | RD198 (2026-11-07, machine): pp. 4–5 only; pp. 3, 6–13 not read here |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | WB ch. 2: the preliminary, measures and arithmetic | RD198 | RD198 (2026-11-07, machine): pp. 14 and 20–21 only; pp. 15–19 not read here |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | WB ch. 9: how Rāhu seizes the sun and moon | RD198 | RD198 (2026-11-07, machine): pp. 56–57 and 67–69 written out (Yigdzin-1 on the 1996 scan and the Gser thang reprint, compared); the rest of ch. 9 is another section |
+| [corpus/wb/ch14.md](corpus/wb/ch14.md) | WB ch. 14: the almanacs' making | RD198 | RD198 (2026-11-07, machine): p. 179 only |
+| [corpus/wb/ch15.md](corpus/wb/ch15.md) | WB ch. 15: sign entries, breath terms, leap months | RD198 | RD198 (2026-11-07, machine): p. 183 only |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -511,10 +516,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-brje-i-ro-is-one-phrase-three-places.md](claims/wb-brje-i-ro-is-one-phrase-three-places.md) | claim, note | «བརྗེའི་རོ» on p. 54 is one phrase carved at three places of WB | cites wb.2:p54-55; feeds block-31 |
+| [claims/wb-ch1-homages-and-definite-teachings.md](claims/wb-ch1-homages-and-definite-teachings.md) | claim, note | WB ch. 1 opens with homages, then eight 'definite teachings' against the calculators of the day | cites wb.1:p4-5; feeds — |
 | [claims/wb-ch13-nine-flying-squares.md](claims/wb-ch13-nine-flying-squares.md) | claim, table | WB ch. 13: the nine flying squares of the sme ba (pp. 126, 128) | cites wb.1:p126, wb.1:p128; feeds — |
 | [claims/wb-ch13-nine-spirits-twelve-strips.md](claims/wb-ch13-nine-spirits-twelve-strips.md) | claim, table | WB ch. 13: the nine spirits placed round the twelve animals (pp. 122–125) | cites wb.1:p122-125; feeds — |
 | [claims/wb-ch13-sixty-years-1-30.md](claims/wb-ch13-sixty-years-1-30.md) | claim, table | WB ch. 13: the table of the sixty years, years 1–30 (names and the three elements) | cites wb.1:p104, wb.1:p106, wb.1:p108; feeds — |
 | [claims/wb-ch13-sme-ba-by-year-rule.md](claims/wb-ch13-sme-ba-by-year-rule.md) | claim, rule | WB ch. 13: the three sme ba of each year and the wind-horse element, years 1–30 | cites wb.1:p105, wb.1:p107, wb.1:p109; feeds — |
+| [claims/wb-ch14-day-length.md](claims/wb-ch14-day-length.md) | claim, note | WB ch. 14 ends: the day's length in Tibet grows and shrinks by two srang a day, to about thirty-three chu tshod and thirty srang | cites wb.1:p179; feeds — |
+| [claims/wb-ch15-month-postponing.md](claims/wb-ch15-month-postponing.md) | claim, rule | WB ch. 15 ends with the rule for stacking and postponing a month by the day the moon rises | cites wb.1:p183; feeds — |
 | [claims/wb-ch16-colophon.md](claims/wb-ch16-colophon.md) | claim, note | The chapter's colophon: what the author draws from Nor bzang rgya mtsho and what he settles himself | cites wb.1:p189; feeds — |
 | [claims/wb-ch17-circles-from-one-another.md](claims/wb-ch17-circles-from-one-another.md) | claim, rule | Ch. 17: finding one of the three circles from another | cites wb.1:p195, wb.1:p196, wb.1:p197; feeds — |
 | [claims/wb-ch17-colophon-faults.md](claims/wb-ch17-colophon-faults.md) | claim, note | Ch. 17's colophon: its source in Dpal-'phrin and the errors it names | cites wb.1:p197; feeds — |
@@ -522,6 +530,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch17-house-circle-rule.md](claims/wb-ch17-house-circle-rule.md) | claim, rule | Ch. 17: the rule for the sun's house-circle and the tithi-circle | cites wb.1:p190; feeds — |
 | [claims/wb-ch19-carrying-the-reckoning-forward.md](claims/wb-ch19-carrying-the-reckoning-forward.md) | claim, rule | Ch. 19: carrying the reckoning forward, the carries of the planets, sun, Rahu, year-lord and the three days | cites wb.1:p213, wb.1:p214, wb.1:p215; feeds — |
 | [claims/wb-ch19-turning-back.md](claims/wb-ch19-turning-back.md) | claim, rule | Ch. 19: turning the reckoning back from a later year to an earlier | cites wb.1:p215, wb.1:p216, wb.1:p217; feeds — |
+| [claims/wb-ch2-kalacakra-year-start.md](claims/wb-ch2-kalacakra-year-start.md) | claim, note | WB ch. 2: in the Kālacakra's arrangement Aries is the first house, the sphere turns to the right, and Aśvinī rises first | cites wb.1:p14; feeds — |
+| [claims/wb-ch2-multiply-divide-rules.md](claims/wb-ch2-multiply-divide-rules.md) | claim, rule | WB ch. 2 states the rules of the written multiplying and dividing: zero rules, direction, and the carry | cites wb.1:p21; feeds — |
+| [claims/wb-ch2-nine-table.md](claims/wb-ch2-nine-table.md) | claim, table | WB ch. 2 gives the full multiplication table of the digits one to nine, and its values are correct | cites wb.1:p20-21; feeds — |
+| [claims/wb-ch2-number-names.md](claims/wb-ch2-number-names.md) | claim, list | WB ch. 2 names the numbers from one to the great numbers, ten times each step | cites wb.1:p20-21; feeds — |
+| [claims/wb-ch2-number-synonyms.md](claims/wb-ch2-number-synonyms.md) | claim, list | WB ch. 2 lists the number-words that stand for the numbers one to thirty-two, and calls the list no measure | cites wb.1:p20-21; feeds — |
+| [claims/wb-ch2-operation-words.md](claims/wb-ch2-operation-words.md) | claim, list | WB ch. 2 lists the words that mean add, subtract, multiply, divide, erase and find | cites wb.1:p21; feeds — |
+| [claims/wb-ch2-year-measures.md](claims/wb-ch2-year-measures.md) | claim, list | WB ch. 2 gives the year's measures: 360 breaths to a chu tshod, 21,600 breaths a day, 360 sign-days and 365 civil days | cites wb.1:p14; feeds — |
 | [claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md](claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md) | claim, note | «བསྒྲིལ་བས» sums the list before it where it can be tested; the fourth's 87 is not such a sum | cites wb.2:p47, wb.2:p50, wb.2:p45; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
 | [claims/wb-ch29-counts-recomputed.md](claims/wb-ch29-counts-recomputed.md) | claim, note | WB ch. 29's counts recomputed: the parts close, the whole is 57 over | cites wb.2:p50; feeds block-31 |
@@ -561,6 +576,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch7-planet-weekday-numbers.md](claims/wb-ch7-planet-weekday-numbers.md) | claim, list | The five planets' weekday figures in chapter seven | cites wb.1:p42; feeds — |
 | [claims/wb-ch8-dus-sbyor-breaths.md](claims/wb-ch8-dus-sbyor-breaths.md) | claim, rule | The union of times: 21,600 breaths in twelve parts, the sun's and the moon's remainders | cites wb.1:p52, wb.1:p55; feeds — |
 | [claims/wb-ch8-planet-colours.md](claims/wb-ch8-planet-colours.md) | claim, list | The colours of the planets in chapter eight | cites wb.1:p54, wb.1:p55; feeds — |
+| [claims/wb-ch9-eclipse-colours.md](claims/wb-ch9-eclipse-colours.md) | claim, list | WB ch. 9 gives the colour of an eclipse by the part of Rāhu that seizes | cites wb.1:p67-69; feeds — |
+| [claims/wb-ch9-eclipse-direction.md](claims/wb-ch9-eclipse-direction.md) | claim, rule | WB ch. 9 gives the side of an eclipse's seizing and the side of its recovery | cites wb.1:p67-69; feeds — |
+| [claims/wb-ch9-eclipse-writers.md](claims/wb-ch9-eclipse-writers.md) | claim, list | WB ch. 9's colophon names earlier writers on eclipses and the author's use of them | cites wb.1:p67-69; feeds — |
+| [claims/wb-ch9-kalacakra-rahu.md](claims/wb-ch9-kalacakra-rahu.md) | claim, note | WB ch. 9: the Kālacakra's account makes Rāhu half the sphere, head and tail of beryl, and body empty space | cites wb.1:p57; feeds — |
+| [claims/wb-ch9-moon-seizure-chu-tshod.md](claims/wb-ch9-moon-seizure-chu-tshod.md) | claim, note | WB ch. 9 holds that the moon's whole seizure lasts fifteen chu tshod, from experience and the great commentary | cites wb.1:p68-69; feeds — |
+| [claims/wb-ch9-rahu-accounts.md](claims/wb-ch9-rahu-accounts.md) | claim, note | WB ch. 9 gives the accounts of Rāhu's seizing in sūtra, tantra, the Vedas and medicine, and holds only the Kālacakra's as definitive | cites wb.1:p56-57; feeds — |
 | [claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md) | claim, definition | «ཁ་སྨྲང» and «ངོ་ཐེག» at p. 381: the count by account and by place | cites wb.1:p381b; feeds block-58 |
 | [claims/wb-dar-gud-rta-la-bskyon.md](claims/wb-dar-gud-rta-la-bskyon.md) | claim, note | The «ཏ» of «དར་གུད་ཏ་ལ་བསྐྱོན» is the horse (རྟ) | cites wb.1:p334, wbz:i433; feeds block-58 |
 | [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
@@ -763,14 +784,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 2 passages: 2 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 15 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 3 passages: 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 44 passages: 21 scan, 23 machine |
+| [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
+| [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
