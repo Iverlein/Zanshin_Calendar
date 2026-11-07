@@ -1221,6 +1221,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0699.md](questions/q0699.md) | question q699 | The thirty parts given to the planets, p. 55 | open; cites — |
 | [questions/q0700.md](questions/q0700.md) | question q700 | The Sanskrit term of ch. 8 for the instant union of times | open; cites — |
 | [questions/q0701.md](questions/q0701.md) | question q701 | «ཐིག་ཡོན» in the purified month's multiplier, p. 37 | open; cites — |
+| [questions/q0702.md](questions/q0702.md) | question q702 | The dotted syllables of pp. 70, 72 and 75 | open; cites — |
+| [questions/q0703.md](questions/q0703.md) | question q703 | «བསྐལ་ལི» (bskal li) of p. 70 | open; cites — |
+| [questions/q0704.md](questions/q0704.md) | question q704 | The planet names of pp. 76–77 and the Fierce three and Peaceful two | open; cites — |
+| [questions/q0705.md](questions/q0705.md) | question q705 | The pairs of houses of the six summarised meanings (pp. 70–71) | open; cites — |
+| [questions/q0706.md](questions/q0706.md) | question q706 | «ཀུན་མཁྱེན་རིན་ཆེན་མཚན» and «རྟ་ལྡང / རྟ་ལྗང» of p. 70's homage | open; cites — |
 
 <!-- end pool index -->
 
