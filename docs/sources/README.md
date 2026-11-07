@@ -1121,6 +1121,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0667.md](questions/q0667.md) | question q667 | Who dropped the 24th from the moxa dates of KL's six? | open; cites — |
 | [questions/q0668.md](questions/q0668.md) | question q668 | Which clan stands after «རུས་མཚན» in Viśākhā's verse (WB vol. 2, p. 322) | open; cites — |
 | [questions/q0669.md](questions/q0669.md) | question q669 | Does the crab's house on p. 382 read «ཀཥྚ» or «ཀརྞ» | open; cites — |
+| [questions/q0670.md](questions/q0670.md) | question q670 | The manuscript I1LT0800's two series of cells: dates of death and the nine mewa? | open; cites — |
+| [questions/q0671.md](questions/q0671.md) | question q671 | The uncut lower parts of the life reckoning's short leaves: the colophon's «སྟོང་མང་»? | open; cites — |
+| [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | open; cites — |
+| [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 
 <!-- end pool index -->
 
