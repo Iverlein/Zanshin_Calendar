@@ -58,7 +58,9 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | Ch17: the sections below, one per reading | RD185 | RD185 (2026-11-07): WB vol. 1 ch. 17 (pp. 190-197) and ch. 19 (pp. 213-217), the three kinds of day and carrying the reckoning forward, thirteen passages written out as machine readings (Yigdzin-1 on the 1996 scan and the Gser thang reprint, the figures checked at flagged places), the small stacked figures of the print not read; seven claims |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | Ch16: the sections below, one per reading | RD186 | Read 2026-11-07: pp. 184–189 (img. 194–199) on the Gser thang reprint (I3CN5028 img. 183–188) over Yigdzin-1 and MITRA; the figures in brackets and the table corrected by eye, the 65-year table cell by cell only in its last block (the rest on O10) |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | Ch03: the sections below, one per reading | RD187 | RD187 (2026-11-07): pp. 22–36 (chs. 3–5) as 15 passages, machine state (Yigdzin-1 with the etext as witness; dates corrected by the chain of reductions); questions and what was not checked in the file's *Open* |
-| [corpus/wb/ch06.md](corpus/wb/ch06.md) | Ch06: the sections below, one per reading | RD188 | Stub: nothing read yet |
+| [corpus/wb/ch06.md](corpus/wb/ch06.md) | WB ch. 6: the five planets' day-count; the RD188 section covers chs. 6–8 | RD188 | RD188 (2026-11-07): pp. 37–41 as 5 passages, machine state (Yigdzin-1 with MITRA, words checked on the scan, bracketed figures only on p. 37); questions in the file's *Open* |
+| [corpus/wb/ch07.md](corpus/wb/ch07.md) | WB ch. 7: the planets' pure tithi-conduct | RD188 | RD188 (2026-11-07): pp. 42–50 as 7 passages, machine state; the tables of pp. 44–47 described, cells not read |
+| [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
@@ -541,6 +543,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch5-rahu-head-and-tail.md](claims/wb-ch5-rahu-head-and-tail.md) | claim, rule | WB ch. 5: Rāhu found by the pure month, head and tail, hour of rising, the sight | cites wb.1:p34, wb.1:p35; feeds — |
 | [claims/wb-ch5-twelve-houses-numbers.md](claims/wb-ch5-twelve-houses-numbers.md) | claim, table | WB ch. 5: the twelve houses' numbers for the lord of the year's planet and stick | cites wb.1:p36; feeds — |
 | [claims/wb-ch5-year-lord-and-kar-myang.md](claims/wb-ch5-year-lord-and-kar-myang.md) | claim, rule | WB ch. 5: the making-year's lord, its king and minister, the Kar myang reckoning and its rain signs | cites wb.1:p35, wb.1:p36; feeds — |
+| [claims/wb-ch6-8-lost-and-remade.md](claims/wb-ch6-8-lost-and-remade.md) | claim, note | Chapters 7 and 8 say of themselves that their methods were lost and remade | cites wb.1:p50, wb.1:p55; feeds — |
+| [claims/wb-ch6-common-day-no-special-day.md](claims/wb-ch6-common-day-no-special-day.md) | claim, note | The five planets' days from the common day, without the special day | cites wb.1:p37, wb.1:p41; feeds — |
+| [claims/wb-ch6-purified-month.md](claims/wb-ch6-purified-month.md) | claim, rule | The purified month, the first step of the planets' chapters | cites wb.1:p37, wb.1:p42; feeds — |
+| [claims/wb-ch7-planet-weekday-numbers.md](claims/wb-ch7-planet-weekday-numbers.md) | claim, list | The five planets' weekday figures in chapter seven | cites wb.1:p42; feeds — |
+| [claims/wb-ch8-dus-sbyor-breaths.md](claims/wb-ch8-dus-sbyor-breaths.md) | claim, rule | The union of times: 21,600 breaths in twelve parts, the sun's and the moon's remainders | cites wb.1:p52, wb.1:p55; feeds — |
+| [claims/wb-ch8-planet-colours.md](claims/wb-ch8-planet-colours.md) | claim, list | The colours of the planets in chapter eight | cites wb.1:p54, wb.1:p55; feeds — |
 | [claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md) | claim, definition | «ཁ་སྨྲང» and «ངོ་ཐེག» at p. 381: the count by account and by place | cites wb.1:p381b; feeds block-58 |
 | [claims/wb-dar-gud-rta-la-bskyon.md](claims/wb-dar-gud-rta-la-bskyon.md) | claim, note | The «ཏ» of «དར་གུད་ཏ་ལ་བསྐྱོན» is the horse (རྟ) | cites wb.1:p334, wbz:i433; feeds block-58 |
 | [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
@@ -617,6 +625,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p50-size-order-is-not-wbs-usual-order.md](claims/wb-p50-size-order-is-not-wbs-usual-order.md) | claim, note | p. 50's «ཆེ་ཆུང་འབྲིང» is not WB's usual order of the sizes, and no colour is paired to it | cites wb.2:p50a; feeds block-31 |
 | [claims/wb-p64-65-mercury-venus-sun-and-smaller-part.md](claims/wb-p64-65-mercury-venus-sun-and-smaller-part.md) | claim, note | WB's Mercury and Venus clause: the true sun by its context, a smaller part by the Seven Special Qualities alone | cites wb.1:p64-65, kd.2:p441; feeds — |
 | [claims/wb-p65-true-sun-node-difference-subtracted.md](claims/wb-p65-true-sun-node-difference-subtracted.md) | claim, note | WB vol. 1 p. 65: one mansion, or a difference of one, then subtract the fewer | cites wb.1:p64-65; feeds — |
+| [claims/wb-planet-four-courses.md](claims/wb-planet-four-courses.md) | claim, rule | The four courses of a planet by foot: swift east, slow south, crooked west, elemental north | cites wb.1:p40, wb.1:p49; feeds — |
 | [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
 | [claims/wb-planets-mansions-1874-against-1828.md](claims/wb-planets-mansions-1874-against-1828.md) | claim, conflict | The planets-and-mansions round: 1,874 in WB closes the twelfth, 1,828 is Mipham's | cites wb.2:p50, wb.2:p513; feeds block-31 |
 | [claims/wb-print-numbers-16-29-nine-places.md](claims/wb-print-numbers-16-29-nine-places.md) | claim, note | The print numbers the hal khyi's group 16–25 and Dkar-sham 26; Langging is 28 in the print | cites wb.2:p185e, wb.2:p186e; feeds — |
@@ -719,7 +728,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 15 machine |
-| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | Ch06 | 0 passages: nothing read yet |
+| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 machine |
+| [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
+| [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 0 passages: nothing read yet |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
