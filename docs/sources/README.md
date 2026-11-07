@@ -57,6 +57,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | Ch18: the sections below, one per reading | RD184 | Stub: nothing read yet |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | Ch17: the sections below, one per reading | RD185 | Stub: nothing read yet |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | Ch16: the sections below, one per reading | RD186 | Read 2026-11-07: pp. 184–189 (img. 194–199) on the Gser thang reprint (I3CN5028 img. 183–188) over Yigdzin-1 and MITRA; the figures in brackets and the table corrected by eye, the 65-year table cell by cell only in its last block (the rest on O10) |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | Ch03: the sections below, one per reading | RD187 | Stub: nothing read yet |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
