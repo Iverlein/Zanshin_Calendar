@@ -1546,3 +1546,5 @@ Searched and found wanting, so not to be repeated:
 - **RD199 (2026-11-07)** (RD199, 2026-11-07):
   - A readable cell text of any of the 24 charts of WB vol. 1 ch. 13 pp. 136–147: the 1996 scan at 3× and the Zhol leaf at 1.5× give shapes, not syllables; only BDRC's etext reading exists.
   - The Zhol leaves of the ring charts (pp. 136–141): not found on Zhol img. 120–172.
+- **RD200 (2026-11-07)** (RD200, 2026-11-07):
+  - The stacked two-digit figures of the 12th and 1st month heads (breath-taking and sgang dates, day and night lengths): not read digit by digit.
