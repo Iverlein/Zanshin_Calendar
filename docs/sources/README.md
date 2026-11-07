@@ -785,12 +785,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
-| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 7 passages: 7 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 15 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 3 passages: 3 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 44 passages: 21 scan, 23 machine |
@@ -1320,6 +1320,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0743.md](questions/q0743.md) | question q743 | The mantra after «dus 'khor lo'r» on p. 14 | open; cites — |
 | [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | open; cites — |
 | [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
+| [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | open; cites — |
 
 <!-- end pool index -->
 
