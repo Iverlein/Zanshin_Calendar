@@ -62,7 +62,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | WB ch. 7: the planets' pure tithi-conduct | RD188 | RD188 (2026-11-07): pp. 42–50 as 7 passages, machine state; the tables of pp. 44–47 described, cells not read |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Stub: nothing read yet |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 96–98 (O10e, scan); drawings described, not transcribed |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read (RD192: see its section) |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
@@ -683,6 +683,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch10-authorities.md](claims/wb1-ch10-authorities.md) | claim, list | The scholars and works the chapter draws its tables from | cites wb.1:p73, wb.1:p74, wb.1:p75; feeds — |
 | [claims/wb1-ch10-table-families.md](claims/wb1-ch10-table-families.md) | claim, list | The families of tables: Fierce three, Peaceful two, slow, pure, quick-pure | cites wb.1:p72, wb.1:p73, wb.1:p76, wb.1:p77; feeds — |
 | [claims/wb1-ch10-time-units.md](claims/wb1-ch10-time-units.md) | claim, list | The units of the tables' base and the six summarised meanings given to house pairs | cites wb.1:p70, wb.1:p71; feeds — |
+| [claims/wb1-ch11-close.md](claims/wb1-ch11-close.md) | claim, note | WB ch. 11's last pages: the quick tables of Rāhu, the Kar myang reckoning, the year's actor, Īśvara and the king and minister, and Nor bzang rgya mtsho's abridgement | cites wb.1:p86, wb.1:p87, wb.1:p88, wb.1:p89, wb.1:p90; feeds — |
+| [claims/wb1-ch12-brahma.md](claims/wb1-ch12-brahma.md) | claim, list | The Brahma wheel's nine sets of three mansions and their results (WB p. 95) | cites wb.1:p95; feeds — |
+| [claims/wb1-ch12-five-harms.md](claims/wb1-ch12-five-harms.md) | claim, list | The five harms of the planets on the name mansion (WB pp. 97–98) | cites wb.1:p97, wb.1:p98; feeds — |
+| [claims/wb1-ch12-plan.md](claims/wb1-ch12-plan.md) | claim, note | WB ch. 12: title, plan and what the author leaves out of the Dbyangs 'char | cites wb.1:p91, wb.1:p102, wb.1:p103; feeds — |
+| [claims/wb1-ch12-planet-relations.md](claims/wb1-ch12-planet-relations.md) | claim, note | Friends, foes, strength, kind and action of the planets, and the time-union (WB pp. 99-101) | cites wb.1:p99, wb.1:p100, wb.1:p101; feeds — |
+| [claims/wb1-ch12-rain.md](claims/wb1-ch12-rain.md) | claim, rule | Reading a failing rain from the planets over the elements' mansions (WB ch. 12) | cites wb.1:p94, wb.1:p95; feeds — |
+| [claims/wb1-ch12-twelve-results.md](claims/wb1-ch12-twelve-results.md) | claim, list | The twelve results of the seven-star enjoyment (WB p. 102) | cites wb.1:p102; feeds — |
+| [claims/wb1-ch12-wheels.md](claims/wb1-ch12-wheels.md) | claim, list | The wheels of WB ch. 12 in order: turtle, lion throne, parasol, great mutual, Brahma, the mansions' syllables | cites wb.1:p91, wb.1:p92, wb.1:p93, wb.1:p94, wb.1:p95, wb.1:p96, wb.1:p103; feeds — |
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
@@ -746,8 +754,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 1 passages: 1 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 3 passages: 1 scan, 2 machine |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 5 passages: 3 scan, 2 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
