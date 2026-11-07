@@ -1543,3 +1543,6 @@ Searched and found wanting, so not to be repeated:
 - **RD196 (2026-11-07)** (RD196, 2026-11-07):
   - Yigdzin-1 on pp. 154–171 of WB vol. 1 ch. 13: not run, the boxes are too small and set in ovals (as RD193 found).
   - The Gser thang reprint (I3CN5028) holds nothing of pp. 167–174 (img. 174 is p. 175); those pages exist only in the 1996 print, where the boxes are small and soft.
+- **RD199 (2026-11-07)** (RD199, 2026-11-07):
+  - A readable cell text of any of the 24 charts of WB vol. 1 ch. 13 pp. 136–147: the 1996 scan at 3× and the Zhol leaf at 1.5× give shapes, not syllables; only BDRC's etext reading exists.
+  - The Zhol leaves of the ring charts (pp. 136–141): not found on Zhol img. 120–172.

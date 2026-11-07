@@ -763,7 +763,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 19 passages: 16 scan, 3 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 32 passages: 17 scan, 15 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
@@ -1276,6 +1276,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | open; cites — |
 | [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
 | [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | open; cites — |
+| [questions/q0734.md](questions/q0734.md) | question q734 | What the 24 charts of pp. 136–147 place, and the cells' lists | open; cites — |
+| [questions/q0735.md](questions/q0735.md) | question q735 | The order of the twelve strip charts, Zhol against the 1996 print | open; cites — |
 
 <!-- end pool index -->
 
