@@ -56,7 +56,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [prayer-wheel.md](prayer-wheel.md) | Which way a prayer wheel turns and why, in published Tibetan sources: turning as reading and the fault of reversal (Glag bla, pp. 442–443), the Dharma circuit from the right and the Bon circuit (Milarepa's songs), the rules of turning in three benefits texts, counter-clockwise by class of tantra and work (Longchenpa, Gorampa, Zhuchen) | M2 | RD160: Glag bla, Longchenpa, the Gangtok print's rules, 'Jam dbyangs don yod's verses and Milarepa's key lines read on the scan 2026-11-05; Gorampa, Tāranātha, Zhuchen and the *sgrub thabs kun btus* etext or search snippet only; Ladner not reached |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | Ch18: the sections below, one per reading | RD184 | Stub: nothing read yet |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | Ch17: the sections below, one per reading | RD185 | Stub: nothing read yet |
-| [corpus/wb/ch16.md](corpus/wb/ch16.md) | Ch16: the sections below, one per reading | RD186 | Stub: nothing read yet |
+| [corpus/wb/ch16.md](corpus/wb/ch16.md) | Ch16: the sections below, one per reading | RD186 | Read 2026-11-07: pp. 184–189 (img. 194–199) on the Gser thang reprint (I3CN5028 img. 183–188) over Yigdzin-1 and MITRA; the figures in brackets and the table corrected by eye, the 65-year table cell by cell only in its last block (the rest on O10) |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -490,6 +490,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-brje-i-ro-is-one-phrase-three-places.md](claims/wb-brje-i-ro-is-one-phrase-three-places.md) | claim, note | «བརྗེའི་རོ» on p. 54 is one phrase carved at three places of WB | cites wb.2:p54-55; feeds block-31 |
+| [claims/wb-ch16-colophon.md](claims/wb-ch16-colophon.md) | claim, note | The chapter's colophon: what the author draws from Nor bzang rgya mtsho and what he settles himself | cites wb.1:p189; feeds — |
 | [claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md](claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md) | claim, note | «བསྒྲིལ་བས» sums the list before it where it can be tested; the fourth's 87 is not such a sum | cites wb.2:p47, wb.2:p50, wb.2:p45; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
 | [claims/wb-ch29-counts-recomputed.md](claims/wb-ch29-counts-recomputed.md) | claim, note | WB ch. 29's counts recomputed: the parts close, the whole is 57 over | cites wb.2:p50; feeds block-31 |
@@ -528,6 +529,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-earth-lords-474-sum.md](claims/wb-earth-lords-474-sum.md) | claim, definition | The sum of the earth lords of year, month, day and time is 474 and leaves out the 102 that never move | cites wb.2:p175b; feeds — |
 | [claims/wb-earth-lords-family-sum.md](claims/wb-earth-lords-family-sum.md) | claim, note | WB's sum of the earth-lord families before the fixed list | cites wb.2:p175-176; feeds — |
 | [claims/wb-eight-appearances-quarter-lords.md](claims/wb-eight-appearances-quarter-lords.md) | claim, list | The Eight Appearances and the quarter and corner lords of p. 175–176 | cites wb.2:p175-176; feeds — |
+| [claims/wb-elapsed-days-five-places.md](claims/wb-elapsed-days-five-places.md) | claim, rule | The elapsed days worked into weekday, animal, element, sme ba and trigram | cites wb.1:p187; feeds — |
 | [claims/wb-enemy-rising-needs-company.md](claims/wb-enemy-rising-needs-company.md) | claim, note | The enemy rising makes an aspect bad only with company: the grammar of «སྲོག་མ་མ་གུད་པ» | cites wb.2:p483; feeds block-58 |
 | [claims/wb-fierce-works-facing-seat.md](claims/wb-fierce-works-facing-seat.md) | claim, rule | On the earth lords' best day for fierce works, the place facing them is still shunned | cites wb.2:p427b, wb.2:p364-365; feeds T2.26 |
 | [claims/wb-five-days-gya-bdud.md](claims/wb-five-days-gya-bdud.md) | claim, rule | The five days: Gyā, Jung-wa, Yangdag, Nectar, Destroyer, Demon | cites wb.2:p224-225; feeds — |
@@ -600,6 +602,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-rat-day-yo-nas-wb-own-table.md](claims/wb-rat-day-yo-nas-wb-own-table.md) | claim, note | The rat day's short form «ཁ་ཡོ་ནས་འདྲེན» is WB's own, and the verb of the line is «strain» | cites wb.1:p133, wb.2:p224b, wb.2:p224c; feeds — |
 | [claims/wb-rd56-additions.md](claims/wb-rd56-additions.md) | claim, note | What RD56 adds to and settles in the topic files | cites wb.2:p175-176, wb.2:p387, wb.2:p378-384, wb.2:p236-237, wb.2:p240; feeds — |
 | [claims/wb-rough-years-lo-rta-snang-par.md](claims/wb-rough-years-lo-rta-snang-par.md) | claim, definition | «ལོ་རྟ» and «སྣང་པར་བཤད»: the rough years and the rough seven as they appear | cites wb.1:p391; feeds block-58 |
+| [claims/wb-sage-pig-days.md](claims/wb-sage-pig-days.md) | claim, definition | The sage's and the pig's seven days fixed by the true mean sun | cites wb.1:p187, wb.1:p188; feeds T2.21 |
+| [claims/wb-sage-pig-table.md](claims/wb-sage-pig-table.md) | claim, table | The 65-year table of the sage's and the pig's days and its rule | cites wb.1:p188, wb.1:p189; feeds T2.21 |
 | [claims/wb-sbang-ma-is-the-beer-mash.md](claims/wb-sbang-ma-is-the-beer-mash.md) | claim, note | The rat day's «སྦང་མ» is the beer's mash, read so on the Gser thang reprint | cites wb.2:p224c; feeds — |
 | [claims/wb-sbo-is-dbo-uttara-phalguni.md](claims/wb-sbo-is-dbo-uttara-phalguni.md) | claim, definition | «སྦོ» on p. 65 is U. Phalgunī's second spelling, not a misprint | cites wb.2:p65-66; feeds block-31 |
 | [claims/wb-secret-obstacle-ma-spar-in-the-manuals.md](claims/wb-secret-obstacle-ma-spar-in-the-manuals.md) | claim, definition | The secret obstacle's «མ་སྤར»: the mother's trigram among the four relatives, in other manuals | cites wb.1:p390, wb.2:p491-492; feeds block-58 |
@@ -608,6 +612,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
 | [claims/wb-skar-bras-spyi-sdom-counts.md](claims/wb-skar-bras-spyi-sdom-counts.md) | claim, note | «སྐར་འབྲས་སྤྱི་སྡོམ» heads the match's counts of pebbles; «སྐར་འབྲས» itself stays open | cites wb.1:p351b, wb.1:p355; feeds block-58 |
+| [claims/wb-solstice-sixty-wheels.md](claims/wb-solstice-sixty-wheels.md) | claim, rule | The sixty wheels of twelve petals: the wheel and the cell from the years elapsed | cites wb.1:p185; feeds — |
+| [claims/wb-solstice-summer-from-winter.md](claims/wb-solstice-summer-from-winter.md) | claim, rule | The other solstice from the first: six days and the desired part, seven house-days at the place | cites wb.1:p185; feeds — |
+| [claims/wb-solstice-wheel-cell.md](claims/wb-solstice-wheel-cell.md) | claim, rule | The solstice wheel: the year's cell by the years elapsed plus 26 over 65 | cites wb.1:p184, wb.1:p185, wb.1:p186; feeds T2.28 |
 | [claims/wb-spra-khyim-black-times.md](claims/wb-spra-khyim-black-times.md) | claim, remedy | The black times' remedy at the door's right is «སྤྲ་ཁྱིམ»; the first letter of the stack is not settled | cites wb.2:p236b; feeds — |
 | [claims/wb-spra-khyim-is-a-tent.md](claims/wb-spra-khyim-is-a-tent.md) | claim, definition | The black times' door figure «སྤྲ་ཁྱིམ» is a tent | cites wb.2:p236b, wb.2:p236c; feeds — |
 | [claims/wb-sun-klung-is-the-days-klung-rta.md](claims/wb-sun-klung-is-the-days-klung-rta.md) | claim, note | The sun's klung of p. 186 is a klung-horse counted by the sun, probably the day's | cites wb.2:p186b, wb.2:p186c; feeds — |
@@ -685,13 +692,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
+| [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
+| [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 0 passages: nothing read yet |
+| [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | Ch18 | 0 passages: nothing read yet |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 5 passages: 5 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 35 passages: 19 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 39 passages: 31 scan, 7 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 40 passages: 32 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 11 passages: 11 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
