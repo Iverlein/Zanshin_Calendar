@@ -1518,3 +1518,6 @@ Searched and found wanting, so not to be repeated:
 - **RD180d (2026-11-07)** (RD180, 2026-11-07):
   - «བཀྲ་སྲིའུ་དབུས», «ཕན་ངོན», «སྦོ་སྨད», «ལྟོ་བ་མཚན» in the Zhol etext (locate.py find): no hit, the etext being garbled there.
   - q634: the 1996 etext passage with «སྦོ་སྨད» is on its p. 197, not p. 122; the question's own line is still not seen.
+- **RD186 (2026-11-07)** (RD186, 2026-11-07):
+  - «རི་ཏི» for the sage's name: the reprint reads «རི་ཏི» where Yigdzin-1 reads «རྀ་ཥི» (p. 176 has «རི་ཥི»); which spelling WB intends is not decided, no etext search made.
+  - The wheel's petals (p. 184): the diagram's figures too small on the reprint, worse on the 1996 print; no other copy looked for.
