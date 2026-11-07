@@ -1525,3 +1525,6 @@ Searched and found wanting, so not to be repeated:
   - A list of the sixty year-names with their Indian names in the pool or the code: none.
   - MITRA over pp. 198–212 of the 1996 print: not run, no slot came free.
   - The sixty years' lists of ch. 18 elsewhere in the pool (kb.py search on «རྣམ་འཕྱང», «གསེར་འཕྱང», «བློ་ངན»): nothing outside the ch. 13 list of names.
+- **RD185 (2026-11-07)** (RD185, 2026-11-07):
+  - MITRA over the 690-px scan of WB vol. 1 img. 200-203: looped garbage on the numerals; stopped, output deleted.
+  - A larger scan of pp. 190-197 and 213-217 in which the stacked figures are legible: the 1996 scan is 690 px wide and the Gser thang reprint's small digits are broken; the Zhol (I1KG1710) and Taikhang (I5878) prints not opened.

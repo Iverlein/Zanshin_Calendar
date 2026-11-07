@@ -1178,6 +1178,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | open; cites — |
 | [questions/q0685.md](questions/q0685.md) | question q685 | «སད» and «སད་སེར» on the crops (pp. 199, 204, 209) | open; cites — |
 | [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | open; cites — |
+| [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | open; cites — |
+| [questions/q0688.md](questions/q0688.md) | question q688 | «ཚད་ནད» and «མཇུག» in ch. 17's colophon | open; cites — |
+| [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | open; cites — |
+| [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | open; cites — |
 
 <!-- end pool index -->
 
