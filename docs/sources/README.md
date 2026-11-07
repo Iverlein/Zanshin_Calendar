@@ -677,9 +677,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
-| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
-| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 9 passages: 4 scan, 5 machine |
-| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
+| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 5 passages: 5 scan |
+| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 35 passages: 19 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 38 passages: 31 scan, 6 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
@@ -692,7 +692,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 19 passages: 8 scan, 5 machine, 6 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 67 passages: 23 scan, 37 machine, 7 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 24 scan, 37 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 28 scan, 29 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
@@ -924,8 +924,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0471.md](questions/q0471.md) | question q471 | Does work 17's stack on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» when KP's contents list has «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites wb.2:p378 |
 | [questions/q0472.md](questions/q0472.md) | question q472 | What is «ཨ་འཐས» in ch. 34's closing verse (p. 428) | answered; cites wb.2:p428c |
 | [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
-| [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | open; cites wb.2:p23-25 |
-| [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | open; cites wb.2:p23-25 |
+| [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | narrowed; cites wb.2:p23-25 |
+| [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | narrowed; cites wb.2:p23-25 |
 | [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | answered; cites wb.2:p442, wb.2:p443 |
 | [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | open; cites wb.2:p440 |
 | [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | answered; cites wb.2:p443, wb.2:p442 |
@@ -954,11 +954,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | answered; cites — |
 | [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
 | [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | open; cites wb.2:p453 |
-| [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | open; cites wb.2:p448 |
+| [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | narrowed; cites wb.2:p448 |
 | [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | open; cites wb.2:p450 |
-| [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | open; cites wb.2:p16 |
-| [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | open; cites wb.2:p23c |
-| [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | open; cites wb.2:p16c |
+| [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | narrowed; cites wb.2:p16 |
+| [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | narrowed; cites wb.2:p23c |
+| [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | narrowed; cites wb.2:p16c |
 | [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | open; cites wb.2:p48 |
 | [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
@@ -990,7 +990,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | open; cites — |
 | [questions/q0538.md](questions/q0538.md) | question q538 | When were the sheets drawn | open; cites — |
 | [questions/q0539.md](questions/q0539.md) | question q539 | Which three of the five topics of the root were divided into four (p. 249) | open; cites — |
-| [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | open; cites — |
+| [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | narrowed; cites — |
 | [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | open; cites — |
 | [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
 | [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | open; cites — |
