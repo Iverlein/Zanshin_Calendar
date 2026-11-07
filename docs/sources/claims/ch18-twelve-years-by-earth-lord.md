@@ -1,0 +1,24 @@
+---
+kind: claim
+type: list
+terms: [sa-bdag]
+cites: ['wb.1:p209', 'wb.1:p210']
+feeds: []
+open: []
+---
+# The twelve animal years by where the earth lord dwells (WB ch. 18, pp. 209–210)
+
+Where the earth lord (ས་བདག, *sa bdag*) dwells in each of the twelve animal years, with what follows from it for crops, water, unrest and disease. It stands after the *Sūtra of the Secret*'s list, on pp. 209–210, and is the only list of the chapter by the animal alone, without element. The rank of the earth lord is named for most years: king (mouse, snake, monkey, bird), minister (ox, tiger, sheep, dog); for the hare, the horse and the dragon the lines name none; for the pig the earth lord "stands up" (བཞེངས).
+
+Mouse: the earth lord dwells as king. The black [crop], sheep, buckwheat and peas good; barley and the white middling, a great wind comes; the mountain field (རི་ཞིང, *ri zhing*) wins, *gshongs* and is defeated; in early summer grain is scarce, in the garden mice do harm; many die by weapons; epidemics come scattered; wealth and livestock lose in price.
+Ox: the earth lord dwells as minister. Buckwheat, peas and *ju tse* good; the whites middling; in spring water is scarce; unrest comes in spring; at the end of spring hunger is great; girls are sold to feed boys; livestock and famine come in great number.
+Tiger: the earth lord dwells with the minister. The black good, "from the north the border does not enter" (བྱང་ནས་མཐའ་མི་འཇུག, not settled); famine comes and sheep are harmed; at the end of summer and in early autumn water is scarce; *so* and *zar* locked up, buckwheat and peas damp; bad subjects, the king takes the capital; in the south hunger and heavy rain; *ju tse* wins, it is said.
+Hare: the earth lord dwells [no rank is named]. The black good and the white bad; disease of people and omens of many bad kinds come; in the first half of summer water is scarce and hail comes; at the end the crops are good of themselves.
+Dragon: barley and sheep good; peas few and the black harmed; people and grain dwindle and it is bad for the king; the law decays and public affairs are many; food and goods scarce; in the first half of summer water is scarce. [No earth lord is named in the lines.]
+Snake: the earth lord dwells as king. Horses and donkeys have *sgab* trouble (སྒབ་ཉེས, not settled); pregnant women, wild animals and grain dwindle; the year is good and the harmers (དམེ་བྱེད, not settled) are many; epidemics from early summer to the end of autumn; among women and youths many mad and seized; famine comes from the east; corpses are hidden badly and the dead are many; wheat and barley locked up, peas and the black harmed; unrest in the south-west, the west and north, and much famine; "the eastern sea without limit is bad for the earth".
+Horse: the earth lord dwells [no rank named]. Great unrest comes in the realm; harm to livestock and famine; in the first half of summer water is scarce; disease of the eyes on wheat and barley; the sky-army is raised everywhere; especially *gshongs* and harm by hunger (ཟན་པས); *so* and *zar* middling, *khre* harmed; wind comes from the head of the year; from early summer to the end of winter epidemics great and small are many.
+Sheep: the earth lord dwells as minister. Livestock good, and in early autumn barley scarce or the season short; epidemics for children, and for women "the long heart-thread"; wheat and barley win; *so* and *zar* middling and "great cold water" (ཚན་ཆུ་ཆེ, not settled); *gshongs*, early drought, middle autumn rowdy; epidemics come; children "eat oaths" and the early sowing is harmed (བྱིས་པ་མནའ་ཟ, not settled).
+Monkey: the earth lord dwells as king. In mid-autumn the sky-army comes; *so* and *zar* locked up, wheat and barley [the line goes on at the head of p. 210].
+Bird: the earth lord dwells as king. Barley and sheep good, and buckwheat and peas; *ju tse* middling and wheat dies; the commons obey the king's command; people are afraid and many hold grudges; in early summer the subjects contend against the king; cutting wood [is meant] (ཤིང་གཅོད, not settled); early drought and later *zhod*; livestock and all middling and thieves rowdy; at the end of autumn little, and the end is not brought out (not settled); wind and *sad* come, all dry goods have no price (མི་བྲིན་འབྱུང, not settled).
+Dog: the earth lord dwells as minister. Early drought, later *zhod* and a good year; wheat and barley win, *so* and *zar* damp; *ju tse* middling and many grudges; the black bad, sheep good, women have disease of grain (བུད་མེད་འབྲུ་སྙི) and great drought; unrest in the west and north, and livestock good.
+Pig: the earth lord stands up (བཞེངས, "rises"). *Nam stod* dry, *nam smad zhod*; the minister contends against the king and thieves rise; unrest in the west and north, and in the east famine comes and "the bridge of Gtsang is set up" (གཙང་ཟམ་ཚུགས, not settled).
