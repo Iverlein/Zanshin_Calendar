@@ -1528,3 +1528,6 @@ Searched and found wanting, so not to be repeated:
 - **RD185 (2026-11-07)** (RD185, 2026-11-07):
   - MITRA over the 690-px scan of WB vol. 1 img. 200-203: looped garbage on the numerals; stopped, output deleted.
   - A larger scan of pp. 190-197 and 213-217 in which the stacked figures are legible: the 1996 scan is 690 px wide and the Gser thang reprint's small digits are broken; the Zhol (I1KG1710) and Taikhang (I5878) prints not opened.
+- **RD188 (2026-11-07)** (RD188, 2026-11-07):
+  - The figure for Saturn in the five planets' weekday numbers (p. 42): not in the machine texts of either reader; on the page image at ordinary size it looked like «0», not enlarged.
+  - The planets' colours on p. 54 in the whole-page Yigdzin-1 and MITRA runs: not found (both returned only the table labels); found in a second run on the enlarged lower half.

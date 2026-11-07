@@ -1209,6 +1209,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0695.md](questions/q0695.md) | question q695 | «དོ་རའི་གར་མཁན» and «འདྲེན་བྱེད་གཡོས» in p. 22's verse | open; cites — |
 | [questions/q0696.md](questions/q0696.md) | question q696 | The units «དབྱུ་གུ», «སྲང», «དབུགས», «ཆ» and the divisor «བགོད་བྱེད» (pp. 29–32) | open; cites — |
 | [questions/q0697.md](questions/q0697.md) | question q697 | The twelve houses' number pairs on p. 36 | open; cites — |
+| [questions/q0698.md](questions/q0698.md) | question q698 | The length of the day sign by sign, p. 51 | open; cites — |
+| [questions/q0699.md](questions/q0699.md) | question q699 | The thirty parts given to the planets, p. 55 | open; cites — |
+| [questions/q0700.md](questions/q0700.md) | question q700 | The Sanskrit term of ch. 8 for the instant union of times | open; cites — |
+| [questions/q0701.md](questions/q0701.md) | question q701 | «ཐིག་ཡོན» in the purified month's multiplier, p. 37 | open; cites — |
 
 <!-- end pool index -->
 
