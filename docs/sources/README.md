@@ -762,7 +762,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 18 passages: 16 scan, 2 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 19 passages: 16 scan, 3 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
@@ -1234,8 +1234,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | open; cites — |
 | [questions/q0691.md](questions/q0691.md) | question q691 | The first year of p. 23: 2587 or 2567 (the Kālacakra taught when the Buddha passed?) | answered; cites wb.1:p23 |
 | [questions/q0692.md](questions/q0692.md) | question q692 | Srong btsan's coming to the kingship, p. 23: 1048 or 1058 | answered; cites wb.1:p23 |
-| [questions/q0693.md](questions/q0693.md) | question q693 | The reductions between 601 and 578 on p. 24 | answered; cites wb.1:p23 |
-| [questions/q0694.md](questions/q0694.md) | question q694 | The figures 298 and 288 of p. 27 (Chos 'khor rgyal) | answered; cites wb.1:p23 |
+| [questions/q0693.md](questions/q0693.md) | question q693 | The reductions between 601 and 578 on p. 24 | answered; cites wb.1:p24 |
+| [questions/q0694.md](questions/q0694.md) | question q694 | The figures 298 and 288 of p. 27 (Chos 'khor rgyal) | answered; cites wb.1:p27 |
 | [questions/q0695.md](questions/q0695.md) | question q695 | «དོ་རའི་གར་མཁན» and «འདྲེན་བྱེད་གཡོས» in p. 22's verse | open; cites — |
 | [questions/q0696.md](questions/q0696.md) | question q696 | The units «དབྱུ་གུ», «སྲང», «དབུགས», «ཆ» and the divisor «བགོད་བྱེད» (pp. 29–32) | open; cites — |
 | [questions/q0697.md](questions/q0697.md) | question q697 | The twelve houses' number pairs on p. 36 | open; cites — |
@@ -1272,6 +1272,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | open; cites — |
+| [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | open; cites — |
+| [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
 
 <!-- end pool index -->
 
