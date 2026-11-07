@@ -673,6 +673,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-year-charts-hold-names-only.md](claims/wb-year-charts-hold-names-only.md) | claim, note | The year charts of ch. 13 carry the lords' names only | cites wb.1:p116-121; feeds block-25 |
 | [claims/wb-yo-nas-in-the-dictionaries.md](claims/wb-yo-nas-in-the-dictionaries.md) | claim, note | «ཡོ་ནས» in the dictionaries: crooked or aslant, no place; «འདྲེན» serves or leads | cites wb.1:p133, wb.2:p224c; feeds — |
 | [claims/wb-ys-no-rank-earth-lords-results.md](claims/wb-ys-no-rank-earth-lords-results.md) | claim, note | WB and the regent's replies give no rank between the earth lords and the day's factors | cites wb.2:p428b, wb.2:p369, ys:i108-111, ys:i113-116, wb.2:p377; feeds T2.26 |
+| [claims/wb1-ch10-aim.md](claims/wb1-ch10-aim.md) | claim, note | WB ch. 10 sets out new and widely used table-making rules of the Phug school | cites wb.1:p70, wb.1:p78; feeds — |
+| [claims/wb1-ch10-authorities.md](claims/wb1-ch10-authorities.md) | claim, list | The scholars and works the chapter draws its tables from | cites wb.1:p73, wb.1:p74, wb.1:p75; feeds — |
+| [claims/wb1-ch10-table-families.md](claims/wb1-ch10-table-families.md) | claim, list | The families of tables: Fierce three, Peaceful two, slow, pure, quick-pure | cites wb.1:p72, wb.1:p73, wb.1:p76, wb.1:p77; feeds — |
+| [claims/wb1-ch10-time-units.md](claims/wb1-ch10-time-units.md) | claim, list | The units of the tables' base and the six summarised meanings given to house pairs | cites wb.1:p70, wb.1:p71; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
 | [claims/wbt-shi-sgab-places-by-machine.md](claims/wbt-shi-sgab-places-by-machine.md) | claim, note | The run of deaths' places on the Taikhang located, the stack not yet read by eye | cites wb.2:p104-105, wb.2:p105-106, wb.2:p107-108; feeds block-31 |
@@ -734,7 +738,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
-| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 0 passages: nothing read yet |
+| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 1 passages: 1 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 2 passages: 2 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 15 passages: 15 machine |
