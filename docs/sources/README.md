@@ -116,6 +116,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-ur-zhogs-on-both-scans.md](claims/ch27-ur-zhogs-on-both-scans.md) | claim, note | Ch. 27, p. 17, l. 26: «འུར་ཞོགས», an alarm, on the reprint and the 1996 scan | cites wb.2:p17, wb.2:p17c; feeds block-31 |
 | [claims/ch27-words-in-steinert-dictionaries.md](claims/ch27-words-in-steinert-dictionaries.md) | claim, note | Ch. 27: the unread words in Steinert's 64 dictionaries, and ZG's «ཚང་ཟླ» | cites wb.2:p9, wb.2:p17, wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p20-22, wb.2:p23-25, zg:p352; feeds block-31 |
+| [claims/ch27-zhol-executioners-door-is-a-head.md](claims/ch27-zhol-executioners-door-is-a-head.md) | claim, note | The four executioners' door of p. 53 is a stanza head in the Zhol and Taikhang run | cites wb.2:p50a; feeds — |
+| [claims/ch27-zhol-thor-tshugs-tha.md](claims/ch27-zhol-thor-tshugs-tha.md) | claim, note | The feat of the body on p. 440 is «ཐོར་ཚུགས» on the Zhol print too | cites wb.2:p440; feeds — |
 | [claims/ch28-360-six-aspects.md](claims/ch28-360-six-aspects.md) | claim, rule | The 360's six aspects by the notes; the word phyi rtsis | cites wb.2:p42-43, wb.2:p537; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
 | [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
