@@ -1316,6 +1316,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
 | [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | open; cites — |
 | [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
+| [questions/q0742.md](questions/q0742.md) | question q742 | The bracketed numerals of the great number-names, p. 20 | open; cites — |
+| [questions/q0743.md](questions/q0743.md) | question q743 | The mantra after «dus 'khor lo'r» on p. 14 | open; cites — |
+| [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | open; cites — |
+| [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
 
 <!-- end pool index -->
 
