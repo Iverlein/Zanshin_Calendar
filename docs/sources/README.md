@@ -63,7 +63,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 96–98 (O10e, scan); drawings described, not transcribed |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read (RD192: see its section) |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD192 (2026-11-07): pp. 104–109 (the sixty years' table, years 1–30, cells read by eye on the Gser thang reprint I3CN5028, img. 111–116), pp. 122–126 and 128 (strips, flying squares; scan), pp. 127 and 129–132 figures described (machine); RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read  |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -511,6 +511,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-brje-i-ro-is-one-phrase-three-places.md](claims/wb-brje-i-ro-is-one-phrase-three-places.md) | claim, note | «བརྗེའི་རོ» on p. 54 is one phrase carved at three places of WB | cites wb.2:p54-55; feeds block-31 |
+| [claims/wb-ch13-nine-flying-squares.md](claims/wb-ch13-nine-flying-squares.md) | claim, table | WB ch. 13: the nine flying squares of the sme ba (pp. 126, 128) | cites wb.1:p126, wb.1:p128; feeds — |
+| [claims/wb-ch13-nine-spirits-twelve-strips.md](claims/wb-ch13-nine-spirits-twelve-strips.md) | claim, table | WB ch. 13: the nine spirits placed round the twelve animals (pp. 122–125) | cites wb.1:p122-125; feeds — |
+| [claims/wb-ch13-sixty-years-1-30.md](claims/wb-ch13-sixty-years-1-30.md) | claim, table | WB ch. 13: the table of the sixty years, years 1–30 (names and the three elements) | cites wb.1:p104, wb.1:p106, wb.1:p108; feeds — |
+| [claims/wb-ch13-sme-ba-by-year-rule.md](claims/wb-ch13-sme-ba-by-year-rule.md) | claim, rule | WB ch. 13: the three sme ba of each year and the wind-horse element, years 1–30 | cites wb.1:p105, wb.1:p107, wb.1:p109; feeds — |
 | [claims/wb-ch16-colophon.md](claims/wb-ch16-colophon.md) | claim, note | The chapter's colophon: what the author draws from Nor bzang rgya mtsho and what he settles himself | cites wb.1:p189; feeds — |
 | [claims/wb-ch17-circles-from-one-another.md](claims/wb-ch17-circles-from-one-another.md) | claim, rule | Ch. 17: finding one of the three circles from another | cites wb.1:p195, wb.1:p196, wb.1:p197; feeds — |
 | [claims/wb-ch17-colophon-faults.md](claims/wb-ch17-colophon-faults.md) | claim, note | Ch. 17's colophon: its source in Dpal-'phrin and the errors it names | cites wb.1:p197; feeds — |
@@ -755,7 +759,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 5 passages: 3 scan, 2 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 16 passages: 14 scan, 2 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
