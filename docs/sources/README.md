@@ -63,7 +63,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 96–98 (O10e, scan); drawings described, not transcribed |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | RD192 (2026-11-07): pp. 104–109 (the sixty years' table, years 1–30, cells read by eye on the Gser thang reprint I3CN5028, img. 111–116), pp. 122–126 and 128 (strips, flying squares; scan), pp. 127 and 129–132 figures described (machine); RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read  |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193, RD195, RD196 | RD196 (2026-11-07, by eye): model almanac boxes of pp. 154 and 165, the others unread; RD192 (2026-11-07): pp. 104–109 (the sixty years' table, years 1–30, cells read by eye on the Gser thang reprint I3CN5028, img. 111–116), pp. 122–126 and 128 (strips, flying squares; scan), pp. 127 and 129–132 figures described (machine); RD195 (2026-11-07, by eye): pp. 136–147's 24 charts' layout and woodcuts, cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read  |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -695,6 +695,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch12-rain.md](claims/wb1-ch12-rain.md) | claim, rule | Reading a failing rain from the planets over the elements' mansions (WB ch. 12) | cites wb.1:p94, wb.1:p95; feeds — |
 | [claims/wb1-ch12-twelve-results.md](claims/wb1-ch12-twelve-results.md) | claim, list | The twelve results of the seven-star enjoyment (WB p. 102) | cites wb.1:p102; feeds — |
 | [claims/wb1-ch12-wheels.md](claims/wb1-ch12-wheels.md) | claim, list | The wheels of WB ch. 12 in order: turtle, lion throne, parasol, great mutual, Brahma, the mansions' syllables | cites wb.1:p91, wb.1:p92, wb.1:p93, wb.1:p94, wb.1:p95, wb.1:p96, wb.1:p103; feeds — |
+| [claims/wb1-ch13-model-almanac-box.md](claims/wb1-ch13-model-almanac-box.md) | claim, note | What a day box of the model almanac holds, and what was read | cites wb.1:p154, wb.1:p165; feeds — |
+| [claims/wb1-ch13-model-almanac-layout.md](claims/wb1-ch13-model-almanac-layout.md) | claim, note | The model almanac: twelve months of thirty boxes, five to a row | cites wb.1:p154, wb.1:p165; feeds — |
+| [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
@@ -759,7 +762,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 16 passages: 14 scan, 2 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 18 passages: 16 scan, 2 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 9 scan, 8 machine |
