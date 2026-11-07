@@ -62,6 +62,8 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | WB ch. 7: the planets' pure tithi-conduct | RD188 | RD188 (2026-11-07): pp. 42–50 as 7 passages, machine state; the tables of pp. 44–47 described, cells not read |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | WB ch. 8: the union of times (*dus sbyor*) | RD188 | RD188 (2026-11-07): pp. 51–55 as 5 passages, machine state; p. 54's prose from an enlarged second run, tables not read cell by cell |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Stub: nothing read yet |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193 | Stub: nothing read yet |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
