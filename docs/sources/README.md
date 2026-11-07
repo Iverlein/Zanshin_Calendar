@@ -1254,6 +1254,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | open; cites — |
 | [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
+| [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | open; cites — |
+| [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | open; cites — |
+| [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | open; cites — |
+| [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | open; cites — |
+| [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | open; cites — |
+| [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 
 <!-- end pool index -->
 
