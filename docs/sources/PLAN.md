@@ -1538,3 +1538,5 @@ Searched and found wanting, so not to be repeated:
   - Yigdzin-1 on the chart pages of WB vol. 1 ch. 13 (img. 143–148 of the reprint and the 1996 scan): loops or garbage; MITRA likewise on tables, only numerals or run-together lines. Pp. 136–172 need reading cell by cell by eye.
 - **RD194 (2026-11-07)** (RD194, 2026-11-07):
   - A passage giving the sixty years of the Little Tiger-Ear from another text, to set against entries 44–60 (kb.py search on the entry words): none.
+- **RD195 (2026-11-07)** (RD195, 2026-11-07):
+  - WB vol. 1 ch. 13 pp. 136–147 on the Gser thang reprint (img. 143–154): by-eye crops at 1x to 3x do not make the reset face's cell glyphs reliably legible; the cell text needs another print (the 1996 print, img. 146–157, or a Zhol/Taikhang print).
