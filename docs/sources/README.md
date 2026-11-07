@@ -553,6 +553,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
 | [claims/wb-other-verdicts-as-each-fits-gathered.md](claims/wb-other-verdicts-as-each-fits-gathered.md) | claim, rule | «ཁ་དམར་ཅི་རིགས་གདགས»: other verdicts laid as each fits, then gathered into the four | cites wb.1:p385b; feeds block-58 |
 | [claims/wb-p133-tables-do-not-gloss-kha-yo.md](claims/wb-p133-tables-do-not-gloss-kha-yo.md) | claim, note | The tables of p. 133 do not gloss «ཁ་ཡོ» or «སྦྲང་མ» | cites wb.1:p133b, wb.2:p224b; feeds — |
+| [claims/wb-p257-circuit-faults-listed.md](claims/wb-p257-circuit-faults-listed.md) | claim, note | Ch. 21's verse puts the reckoned's cutting, parting and spreading among rejected circuits | cites wb.1:p257; feeds block-31 |
+| [claims/wb-p281-rang-zhal-do.md](claims/wb-p281-rang-zhal-do.md) | claim, note | p. 281: the width's «do» reads clearly on the reprint | cites wb.2:p281; feeds block-31 |
 | [claims/wb-p303-304-seed-letters-vs-khadbon-sites.md](claims/wb-p303-304-seed-letters-vs-khadbon-sites.md) | claim, note | WB pp. 303-304: the Kalacakra seed-letter sites and the sites of the Phug uncle and nephew differ on most dates; both climb from the foot to the head and come back | cites wb.2:p303-304; feeds — |
 | [claims/wb-p303-khu-dbon-uncle-and-nephew.md](claims/wb-p303-khu-dbon-uncle-and-nephew.md) | claim, note | WB p. 303: the Phugpa way of the life-spirit sites is the uncle and nephew's, ཁུ་དབོན, not Khadbon | cites wb.2:p303-304; feeds — |
 | [claims/wb-p305-four-meetings-by-name.md](claims/wb-p305-four-meetings-by-name.md) | claim, note | WB p. 305: the four meetings are given by names, no numerals on the page | cites wb.2:p305; feeds — |
@@ -673,6 +675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
+| [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 9 passages: 4 scan, 5 machine |
