@@ -57,7 +57,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | Ch18: the sections below, one per reading | RD184 | RD184 (2026-11-07): the whole chapter, pp. 198–212, machine-read (Yigdzin-1 on the Gser thang reprint I3CN5028 img. 197–211, the 1996 etext as second reader, page 198 and the flagged places by eye); English for pp. 198–205 and 212, the terse lists of pp. 206–211 only decoded; eight claims, six questions |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | Ch17: the sections below, one per reading | RD185 | RD185 (2026-11-07): WB vol. 1 ch. 17 (pp. 190-197) and ch. 19 (pp. 213-217), the three kinds of day and carrying the reckoning forward, thirteen passages written out as machine readings (Yigdzin-1 on the 1996 scan and the Gser thang reprint, the figures checked at flagged places), the small stacked figures of the print not read; seven claims |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | Ch16: the sections below, one per reading | RD186 | Read 2026-11-07: pp. 184–189 (img. 194–199) on the Gser thang reprint (I3CN5028 img. 183–188) over Yigdzin-1 and MITRA; the figures in brackets and the table corrected by eye, the 65-year table cell by cell only in its last block (the rest on O10) |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | Ch03: the sections below, one per reading | RD187 | Stub: nothing read yet |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | Ch03: the sections below, one per reading | RD187 | RD187 (2026-11-07): pp. 22–36 (chs. 3–5) as 15 passages, machine state (Yigdzin-1 with the etext as witness; dates corrected by the chain of reductions); questions and what was not checked in the file's *Open* |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | Ch06: the sections below, one per reading | RD188 | Stub: nothing read yet |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 
@@ -516,6 +516,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch29-parts-recounted-from-the-verses.md](claims/wb-ch29-parts-recounted-from-the-verses.md) | claim, note | WB ch. 29's parts counted from their verses: nine close, three do not, none holds the 57 | cites wb.2:p45, wb.2:p47, wb.2:p50, wb.2:p513; feeds block-31 |
 | [claims/wb-ch29-sources-leads.md](claims/wb-ch29-sources-leads.md) | claim, note | The colophon's authorities: Sprug ston, 'Chi med bde ba, the crane and the tail-tip | cites wb.2:p142-143; feeds block-31 |
 | [claims/wb-ch29-words-in-the-dictionaries.md](claims/wb-ch29-words-in-the-dictionaries.md) | claim, definition | WB ch. 29's unexplained words that the dictionaries do gloss | cites wb.2:p54-55, wb.2:p57-58, wb.2:p58-60, wb.2:p60-62, wb.2:p65-66, wb.2:p66-68, wb.2:p68-70; feeds block-31 |
+| [claims/wb-ch3-5-sources-named.md](claims/wb-ch3-5-sources-named.md) | claim, list | The works WB chs. 3 to 5 name and rest on | cites wb.1:p22, wb.1:p28, wb.1:p32, wb.1:p35, wb.1:p36; feeds — |
+| [claims/wb-ch3-buddha-and-doctrine-dates.md](claims/wb-ch3-buddha-and-doctrine-dates.md) | claim, list | The dated acts of the Buddha and of the doctrine in Tibet, WB pp. 22–28 (by the chain) | cites wb.1:p22, wb.1:p23, wb.1:p24, wb.1:p25; feeds — |
+| [claims/wb-ch3-machine-numerals-misread.md](claims/wb-ch3-machine-numerals-misread.md) | claim, note | Both machine readings misread the figures of ch. 3; the chain and the number words correct them | cites wb.1:p22, wb.1:p23, wb.1:p24, wb.1:p29, wb.1:p30; feeds — |
+| [claims/wb-ch3-years-passed-chain.md](claims/wb-ch3-years-passed-chain.md) | claim, rule | WB ch. 3 counts passed years back to the writing year, each date the previous one less a reduction | cites wb.1:p22, wb.1:p23, wb.1:p28; feeds — |
 | [claims/wb-ch34-closing-verse-words.md](claims/wb-ch34-closing-verse-words.md) | claim, note | Ch. 34's closing verse: «ཨ་འཐས» is a word, «དར་གུད» rise and decline, «དམར་ནག» is not in the chapter | cites wb.2:p428b, wb.2:p428c; feeds block-25 |
 | [claims/wb-ch34-digging-figure-half-mtho.md](claims/wb-ch34-digging-figure-half-mtho.md) | claim, rule | Digging figure p. 387: a mtho is twelve finger-breadths, so the navel's six are half and the figure's five add up | cites wb.2:p387, wb.2:p281; feeds block-25 |
 | [claims/wb-ch34-digging-figure-measure.md](claims/wb-ch34-digging-figure-measure.md) | claim, rule | Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep | cites wb.2:p387, wb.2:p281; feeds block-25 |
@@ -532,6 +536,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-work17-stack-and-kp-title.md](claims/wb-ch34-work17-stack-and-kp-title.md) | claim, note | Work 17 on p. 378: the stack before «ཕྱར» has the height of a two-tier stack; KP's title lists «སྦྲ» and «ཕྱ་ཐེར» as two things | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch34-work17-tent-and-awning.md](claims/wb-ch34-work17-tent-and-awning.md) | claim, note | Work 17 «སྦྲ་ཕྱར»: the dictionaries give the hair tent and the awning cloth; «ཕྱ་ཐེར» has no entry | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch35-small-words.md](claims/wb-ch35-small-words.md) | claim, note | Ch. 35's small words: the topknot feat, «གུད་སྦས» on p. 448, the palm and the root tantra | cites wb.2:p440, wb.2:p448, wb.2:p450, wb.2:p453; feeds block-25 |
+| [claims/wb-ch4-byed-rtsis-grub-rtsis.md](claims/wb-ch4-byed-rtsis-grub-rtsis.md) | claim, definition | WB ch. 4: the accomplishing and the making reckoning, the five limbs | cites wb.1:p29, wb.1:p31, wb.1:p32, wb.1:p33; feeds — |
+| [claims/wb-ch4-units-and-constants.md](claims/wb-ch4-units-and-constants.md) | claim, table | WB ch. 4: the chain of units and the constants as printed | cites wb.1:p29, wb.1:p30; feeds — |
+| [claims/wb-ch5-rahu-head-and-tail.md](claims/wb-ch5-rahu-head-and-tail.md) | claim, rule | WB ch. 5: Rāhu found by the pure month, head and tail, hour of rising, the sight | cites wb.1:p34, wb.1:p35; feeds — |
+| [claims/wb-ch5-twelve-houses-numbers.md](claims/wb-ch5-twelve-houses-numbers.md) | claim, table | WB ch. 5: the twelve houses' numbers for the lord of the year's planet and stick | cites wb.1:p36; feeds — |
+| [claims/wb-ch5-year-lord-and-kar-myang.md](claims/wb-ch5-year-lord-and-kar-myang.md) | claim, rule | WB ch. 5: the making-year's lord, its king and minister, the Kar myang reckoning and its rain signs | cites wb.1:p35, wb.1:p36; feeds — |
 | [claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md) | claim, definition | «ཁ་སྨྲང» and «ངོ་ཐེག» at p. 381: the count by account and by place | cites wb.1:p381b; feeds block-58 |
 | [claims/wb-dar-gud-rta-la-bskyon.md](claims/wb-dar-gud-rta-la-bskyon.md) | claim, note | The «ཏ» of «དར་གུད་ཏ་ལ་བསྐྱོན» is the horse (རྟ) | cites wb.1:p334, wbz:i433; feeds block-58 |
 | [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
@@ -709,7 +718,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 0 passages: nothing read yet |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 15 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | Ch06 | 0 passages: nothing read yet |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 1 passages: 1 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 0 passages: nothing read yet |
