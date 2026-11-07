@@ -563,6 +563,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p317-p323-rjon-in-print.md](claims/wb-p317-p323-rjon-in-print.md) | claim, note | WB pp. 317, 323: the prints have རྗོན where the machine had རྔོན | cites wb.2:p317, wb.2:p323-324; feeds — |
 | [claims/wb-p322-rus-mtshan.md](claims/wb-p322-rus-mtshan.md) | claim, note | WB p. 322: Viśākhā's line reads «རུས་མཚན», not «དུས་མཚན» | cites wb.2:p322; feeds — |
 | [claims/wb-p322-tshe-sgrub-anuradha.md](claims/wb-p322-tshe-sgrub-anuradha.md) | claim, note | WB p. 322: Anurādhā's good list has rites for long life | cites wb.2:p322-323; feeds — |
+| [claims/wb-p322-visakha-deities-indra-agni.md](claims/wb-p322-visakha-deities-indra-agni.md) | claim, note | WB p. 322: «དབང་པོ་མེ་ལྷ» in Viśākhā's verse is Indra and Agni by the verses' own usage | cites wb.2:p322; feeds — |
 | [claims/wb-p328-tha-skar-numeral.md](claims/wb-p328-tha-skar-numeral.md) | claim, note | WB p. 328: Aśvinī's numeral is printed ༤ | cites wb.2:p328-329; feeds — |
 | [claims/wb-p329-editors-note-bharani.md](claims/wb-p329-editors-note-bharani.md) | claim, note | WB p. 329: the editors' note on Bharaṇī names no source | cites wb.2:p328-329; feeds — |
 | [claims/wb-p335-336-digits-in-brackets-saturn-zero.md](claims/wb-p335-336-digits-in-brackets-saturn-zero.md) | claim, note | WB pp. 335-336: the print gives each planet and mansion its number in brackets, Saturn as 0; the 1996 etext carries them, the reprint machine reading does not reliably | cites wb.2:p335-336; feeds — |
@@ -1022,7 +1023,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0569.md](questions/q0569.md) | question q569 | The hour's sky dog 43 in the twelfth's and fourteenth's blocks | open; cites wb.2:p50, wb.2:p51 |
 | [questions/q0570.md](questions/q0570.md) | question q570 | Which course gives each date its one direction in KP's square for Rāhu | open; cites kp:i078 |
 | [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | open; cites wb.2:p395 |
-| [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | open; cites wb.1:p380 |
+| [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | narrowed; cites wb.1:p380 |
 | [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | answered; cites dz:i046 |
 | [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
 | [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | open; cites dz:i056 |
@@ -1037,8 +1038,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0584.md](questions/q0584.md) | question q584 | «སྣང་པར་བཤད» or «སྣད་པར་བཤད» on p. 391 | open; cites wb.1:p391 |
 | [questions/q0585.md](questions/q0585.md) | question q585 | The Zhol's «མི་ཆེན» and «བོན» on ch. 26's board | open; cites wb.1:p472 |
 | [questions/q0586.md](questions/q0586.md) | question q586 | «སུམ་ཆ» in the notes' example and the spirits-and-conditions share | open; cites wb.1:p438 |
-| [questions/q0587.md](questions/q0587.md) | question q587 | The first stack of «ཞྭ་བཞིན» on p. 435 | open; cites wb.1:p435 |
-| [questions/q0588.md](questions/q0588.md) | question q588 | The first word of the fever of fire four and wind one on p. 435 | open; cites wb.1:p435 |
+| [questions/q0587.md](questions/q0587.md) | question q587 | The first stack of «ཞྭ་བཞིན» on p. 435 | narrowed; cites wb.1:p435 |
+| [questions/q0588.md](questions/q0588.md) | question q588 | The first word of the fever of fire four and wind one on p. 435 | narrowed; cites wb.1:p435 |
 | [questions/q0589.md](questions/q0589.md) | question q589 | «སྐྱུག» or «སྒྱུག» after «གནས» on the Taikhang leaf | open; cites wb.1:p362 |
 | [questions/q0590.md](questions/q0590.md) | question q590 | A leaf missing at the dog day on the Zhol print (img. 728–729)? | open; cites wb.2:p70-72 |
 | [questions/q0591.md](questions/q0591.md) | question q591 | The Zhol's «ལོངས་པའི་ཉིན» against «ལངས་པའི་ཉིན» on p. 37 | open; cites wb.2:p37 |
@@ -1056,7 +1057,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | open; cites ys:i513-514 |
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | answered; cites wb.1:p373-375 |
-| [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
+| [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | narrowed; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | answered; cites sdp:p238-241 |
 | [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | answered; cites wb.2:p241 |
 | [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | open; cites wb.2:p305 |
