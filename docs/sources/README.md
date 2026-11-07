@@ -1274,6 +1274,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | open; cites — |
 | [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | open; cites — |
 | [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
+| [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | open; cites — |
 
 <!-- end pool index -->
 
