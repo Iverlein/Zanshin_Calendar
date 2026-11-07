@@ -339,6 +339,7 @@ check them on the scans.
 | <a id="rd187"></a>RD187 | The chronology of the doctrine, the byed rtsis and grub rtsis, Rāhu and the Kar myang reckoning (WB ch. 3–5) | WB vol. 1, ch. 3–5, pp. 22–36 (img. 32–46), on the scan | — | — | corpus/wb/ch03.md (new) | Read RD187: WB vol. 1 ch. 3, 4 and 5 on the scan, passage by passage: what each says, in Tibetan as read with the English, the sources it names. |
 | <a id="rd188"></a>RD188 | The five planets and the dus sbyor (WB ch. 6–8) | WB vol. 1, ch. 6–8, pp. 37–55 (img. 47–65), on the scan | — | — | corpus/wb/ch06.md (new) | Read RD188: WB vol. 1 ch. 6, 7 and 8 on the scan, passage by passage: the planets, the days of the planets, the exact reckoning (tshes spyod) and the dus sbyor. |
 | <a id="rd189"></a>RD189 | Making new tables and keeping the old (WB ch. 10) | WB vol. 1, ch. 10, pp. 70–78 (img. 80–88), on the scan | — | — | corpus/wb/ch10.md (new) | Read RD189: WB vol. 1 ch. 10 on the scan, passage by passage. |
+| <a id="rd190"></a>RD190 | The sixty years' year lists on the scan (WB ch. 18, pp. 206–211) | WB vol. 1, ch. 18, pp. 206–211 (img. 216–221 of the 1996 print; the Gser thang reprint img. 205–210), on the scan; MITRA beforehand; the key of p. 209 first | RD184 | — | corpus/wb/ch18.md | Read RD190: the year lists of pp. 206–211 (the Sūtra of the Secret and the Chinese Little Tiger-Ear) on the scan, entry by entry, each year with its result, the key of p. 209 settled first; raise the passages to scan. |
 
 ### Left open in built work
 

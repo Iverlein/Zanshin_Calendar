@@ -1165,6 +1165,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
 | [questions/q0679.md](questions/q0679.md) | question q679 | p. 187's fifth-place count: «བུ་གས» and the quarters' clearing | open; cites — |
 | [questions/q0680.md](questions/q0680.md) | question q680 | p. 188's sign after «མཁའ་མེ་སྲང» and the four off-step cells of the sage's table | open; cites — |
+| [questions/q0681.md](questions/q0681.md) | question q681 | The skya of «སྐྱ་རྒྱལ» and «སྐྱ་འཕམ» (WB ch. 18) | open; cites — |
+| [questions/q0682.md](questions/q0682.md) | question q682 | «ཞོད» and «གཤོངས» in the sixty years' results | open; cites — |
+| [questions/q0683.md](questions/q0683.md) | question q683 | The seven kinds of conduct of p. 201: the four lists not given | open; cites — |
+| [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | open; cites — |
+| [questions/q0685.md](questions/q0685.md) | question q685 | «སད» and «སད་སེར» on the crops (pp. 199, 204, 209) | open; cites — |
+| [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | open; cites — |
 
 <!-- end pool index -->
 

@@ -1521,3 +1521,7 @@ Searched and found wanting, so not to be repeated:
 - **RD186 (2026-11-07)** (RD186, 2026-11-07):
   - «རི་ཏི» for the sage's name: the reprint reads «རི་ཏི» where Yigdzin-1 reads «རྀ་ཥི» (p. 176 has «རི་ཥི»); which spelling WB intends is not decided, no etext search made.
   - The wheel's petals (p. 184): the diagram's figures too small on the reprint, worse on the 1996 print; no other copy looked for.
+- **RD184 (2026-11-07)** (RD184, 2026-11-07):
+  - A list of the sixty year-names with their Indian names in the pool or the code: none.
+  - MITRA over pp. 198–212 of the 1996 print: not run, no slot came free.
+  - The sixty years' lists of ch. 18 elsewhere in the pool (kb.py search on «རྣམ་འཕྱང», «གསེར་འཕྱང», «བློ་ངན»): nothing outside the ch. 13 list of names.
