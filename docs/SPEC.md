@@ -3149,10 +3149,13 @@ Gnam lcags rtsa gsum gter bdag gling pa, Tsasum Lingpa (རྩ་གསུམ་
 rtsa gsum gling pa, 1694–1738; [sources/README.md](sources/README.md),
 TSL), everything that traces back to him (his incarnations, the holders of
 his lineage), and every text of Khenpo Tsewang Dongyal (མཁན་པོ་ཚེ་དབང་དོན་རྒྱལ,
-mkhan po tshe dbang don rgyal, b. 1951; KTD) count as sources beside the
-manuals, below WB and Mipham's word, under the licence rule above: the
-treasures are public domain, the modern works give facts only, never their
-wording.
+mkhan po tshe dbang don rgyal, b. 1951; KTD) count as sources under the
+licence rule above: the treasures are public domain, the modern works give
+facts only, never their wording. **The treasures count equal to Mipham's
+word** (owner, 2026-11-07): below WB and the Four Tantras on medicine,
+above the *Moonbeams*, the manuals and the modern authors; where Mipham
+and the treasures disagree, the owner decides. Khenpo Tsewang Dongyal's
+own works stand beside the manuals.
 
 **Every Tibetan word is named so that it can be found** (owner,
 2026-10-08 for titles, 2026-10-09 for every word): its English name

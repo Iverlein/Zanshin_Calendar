@@ -73,5 +73,7 @@ paths:
   what only it gives.
   **The treasures of Rtsa gsum gling pa (TSL), everything that traces
   back to him, and every text of Khenpo Tsewang Dongyal (KTD) are
-  sources** (owner, 2026-11-07): rank 3 beside the manuals, under the
-  same licence rule (the modern works facts only, never their wording).
+  sources** (owner, 2026-11-07): the treasures (TSL) rank equal to
+  Mipham's word, below WB; a disagreement between the two is the owner's
+  to settle; KTD ranks beside the manuals; the same licence rule for both
+  (the modern works facts only, never their wording).

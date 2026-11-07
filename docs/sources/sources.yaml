@@ -11,7 +11,7 @@
 # the next one's first page), `pages` (the printed extent). `locator`: what a passage
 # id counts by when there is no printed page: `image`, `folio`, `box`. `licence`:
 # public-domain, or the licence of a modern work. `rank`: 1 WB, 2 Mipham's notes and
-# writings, 3 the rest (rules .agents/rules/sources.md). `role`: source, or witness
+# writings and, equal to them, the treasures of Rtsa gsum gling pa (TSL, owner 2026-11-07), 3 the rest (rules .agents/rules/sources.md). `role`: source, or witness
 # (read to check WB, never built or cited alone).
 
 wb:
@@ -468,10 +468,10 @@ tsl:
   edition: "edited by Mkhan chen Dpal ldan shes rab, 30 vols (typeset)"
   bdrc: {work: MW4CZ1042, scans: [I1PD108789]}
   licence: "the treasures public-domain; the modern edition's own matter copyrighted: facts only"
-  rank: 3
+  rank: 2
   role: source
   locator: image
-  notes: "a source at the owner's word (2026-11-07), with everything that traces back to Rtsa gsum gling pa: his incarnations (the second, Rig 'dzin mi 'jigs rdo rje, P8LS3512) and the holders of his lineage at Sgo chen dgon (G1KG5757) and Padma Samye Ling (KTD); vol. n = I1PD1087(88+n), open, etext excellent; other prints MW1KG15423 (12 vols, etext unaligned), MW27492 (dbu med, 11 vols, I4560–I4570, no etext), MW4CZ302225 (no etext); the catalogue read on BDRC on 2026-11-07, no page yet"
+  notes: "a source at the owner's word (2026-11-07), equal to Mipham's word (rank 2; a disagreement between the two is the owner's to settle), with everything that traces back to Rtsa gsum gling pa: his incarnations (the second, Rig 'dzin mi 'jigs rdo rje, P8LS3512) and the holders of his lineage at Sgo chen dgon (G1KG5757) and Padma Samye Ling (KTD); vol. n = I1PD1087(88+n), open, etext excellent; other prints MW1KG15423 (12 vols, etext unaligned), MW27492 (dbu med, 11 vols, I4560–I4570, no etext), MW4CZ302225 (no etext); the catalogue read on BDRC on 2026-11-07, no page yet"
 
 ktd:
   title: "The works of Mkhan po Tshe dbang don rgyal (Khenpo Tsewang Dongyal): Bdud 'joms 'jigs bral ye shes rdo rje 'gro 'dul gling pa rtsal gyi rnam thar ye shes rdo rje'i 'od zer (2003) first among them"
