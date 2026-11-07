@@ -1508,3 +1508,6 @@ Searched and found wanting, so not to be repeated:
   - Zhol img. 782–806: the marks not counted (one image looked at).
 - **RD175c (2026-11-07)** (RD175, 2026-11-07):
   - The word «སྙོངས/སྟོངས» of fire four and wind one on the Zhol print (img. 577, lines 6–7), crops at 3–8×: no legible stack found.
+- **RD181b (2026-11-07)** (RD181, 2026-11-07):
+  - The archive.org loan not opened again: KD vol. 3's leaves are served at 1002 px only, so q552 and q553 gain nothing from a second loan.
+  - The Bhutan wheels' (I1KG11905 img. 446) box directions: not read, the inner ring's words too ligatured.
