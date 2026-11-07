@@ -1511,3 +1511,7 @@ Searched and found wanting, so not to be repeated:
 - **RD181b (2026-11-07)** (RD181, 2026-11-07):
   - The archive.org loan not opened again: KD vol. 3's leaves are served at 1002 px only, so q552 and q553 gain nothing from a second loan.
   - The Bhutan wheels' (I1KG11905 img. 446) box directions: not read, the inner ring's words too ligatured.
+- **RD178c (2026-11-07)** (RD178, 2026-11-07):
+  - The owner of the door line (p. 53, Zhol img. 700, Taikhang img. 82): no heading or gloss on either print names it.
+  - The base letters of the stack of p. 54, l. 1 (Taikhang img. 85 at 7x, Zhol img. 703 at 5x–10x): fused, heavy heads.
+  - The gloss of p. 3 on the Taikhang at 10x: letters merged.
