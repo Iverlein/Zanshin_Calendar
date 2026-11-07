@@ -3143,6 +3143,16 @@ sources:** a text read only to check a reading of WB, the Bon *snang srid
 me long* among them ([sources/README.md](sources/README.md), SN), is never
 an annotation's `Source`, and nothing that only it states is shown. No Bon
 text is a source of the app.
+**The treasures of Rtsa gsum gling pa and his lineage are sources**
+(owner, 2026-11-07): the treasure teachings (གཏེར་ཆོས, gter chos) of
+Gnam lcags rtsa gsum gter bdag gling pa, Tsasum Lingpa (རྩ་གསུམ་གླིང་པ,
+rtsa gsum gling pa, 1694–1738; [sources/README.md](sources/README.md),
+TSL), everything that traces back to him (his incarnations, the holders of
+his lineage), and every text of Khenpo Tsewang Dongyal (མཁན་པོ་ཚེ་དབང་དོན་རྒྱལ,
+mkhan po tshe dbang don rgyal, b. 1951; KTD) count as sources beside the
+manuals, below WB and Mipham's word, under the licence rule above: the
+treasures are public domain, the modern works give facts only, never their
+wording.
 
 **Every Tibetan word is named so that it can be found** (owner,
 2026-10-08 for titles, 2026-10-09 for every word): its English name

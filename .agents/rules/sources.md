@@ -71,3 +71,7 @@ paths:
   *Moonbeams*, the manuals and modern authors such as Gyurme Dorje (SPEC §8). The Bon *snang srid me long* (`docs/sources/README.md`,
   SN) is a witness to WB only: read it to check WB, never build or cite
   what only it gives.
+  **The treasures of Rtsa gsum gling pa (TSL), everything that traces
+  back to him, and every text of Khenpo Tsewang Dongyal (KTD) are
+  sources** (owner, 2026-11-07): rank 3 beside the manuals, under the
+  same licence rule (the modern works facts only, never their wording).
