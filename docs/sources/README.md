@@ -1191,6 +1191,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0688.md](questions/q0688.md) | question q688 | «ཚད་ནད» and «མཇུག» in ch. 17's colophon | open; cites — |
 | [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | open; cites — |
 | [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | open; cites — |
+| [questions/q0691.md](questions/q0691.md) | question q691 | The first year of p. 23: 2587 or 2567 (the Kālacakra taught when the Buddha passed?) | open; cites — |
+| [questions/q0692.md](questions/q0692.md) | question q692 | Srong btsan's coming to the kingship, p. 23: 1048 or 1058 | open; cites — |
+| [questions/q0693.md](questions/q0693.md) | question q693 | The reductions between 601 and 578 on p. 24 | open; cites — |
+| [questions/q0694.md](questions/q0694.md) | question q694 | The figures 298 and 288 of p. 27 (Chos 'khor rgyal) | open; cites — |
+| [questions/q0695.md](questions/q0695.md) | question q695 | «དོ་རའི་གར་མཁན» and «འདྲེན་བྱེད་གཡོས» in p. 22's verse | open; cites — |
+| [questions/q0696.md](questions/q0696.md) | question q696 | The units «དབྱུ་གུ», «སྲང», «དབུགས», «ཆ» and the divisor «བགོད་བྱེད» (pp. 29–32) | open; cites — |
+| [questions/q0697.md](questions/q0697.md) | question q697 | The twelve houses' number pairs on p. 36 | open; cites — |
 
 <!-- end pool index -->
 
