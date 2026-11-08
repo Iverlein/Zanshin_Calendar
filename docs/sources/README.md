@@ -646,6 +646,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p322-rus-mtshan.md](claims/wb-p322-rus-mtshan.md) | claim, note | WB p. 322: Viśākhā's line reads «རུས་མཚན», not «དུས་མཚན» | cites wb.2:p322; feeds — |
 | [claims/wb-p322-tshe-sgrub-anuradha.md](claims/wb-p322-tshe-sgrub-anuradha.md) | claim, note | WB p. 322: Anurādhā's good list has rites for long life | cites wb.2:p322-323; feeds — |
 | [claims/wb-p322-visakha-deities-indra-agni.md](claims/wb-p322-visakha-deities-indra-agni.md) | claim, note | WB p. 322: «དབང་པོ་མེ་ལྷ» in Viśākhā's verse is Indra and Agni by the verses' own usage | cites wb.2:p322; feeds — |
+| [claims/wb-p328-aswini-numeral-zero.md](claims/wb-p328-aswini-numeral-zero.md) | claim, note | WB p. 328: Aśvinī's numeral in the unstable-mansions class is 0 on the Zhol and Taikhang prints; the 4 of the 1996 print and the reprint is a shared misprint | cites wb.2:p328; feeds — |
 | [claims/wb-p328-tha-skar-numeral.md](claims/wb-p328-tha-skar-numeral.md) | claim, note | WB p. 328: Aśvinī's numeral is printed ༤ | cites wb.2:p328-329; feeds — |
 | [claims/wb-p329-editors-note-bharani.md](claims/wb-p329-editors-note-bharani.md) | claim, note | WB p. 329: the editors' note on Bharaṇī names no source | cites wb.2:p328-329; feeds — |
 | [claims/wb-p335-336-digits-in-brackets-saturn-zero.md](claims/wb-p335-336-digits-in-brackets-saturn-zero.md) | claim, note | WB pp. 335-336: the print gives each planet and mansion its number in brackets, Saturn as 0; the 1996 etext carries them, the reprint machine reading does not reliably | cites wb.2:p335-336; feeds — |
@@ -825,7 +826,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 30 passages: 13 scan, 10 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 43 scan, 18 machine, 7 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 30 scan, 27 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 11 passages: 7 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
