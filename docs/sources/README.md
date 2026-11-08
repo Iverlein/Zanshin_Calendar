@@ -797,14 +797,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 6 scan, 9 machine |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 7 scan, 8 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 1 scan, 6 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 11 scan, 7 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 56 passages: 34 scan, 22 machine |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 14 scan, 4 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 59 passages: 37 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
@@ -828,7 +828,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 31 scan, 26 machine |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 11 passages: 7 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
@@ -1355,6 +1355,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0767.md](questions/q0767.md) | question q767 | WB p. 40: the stacked figure after «victor, hand, eye, two, two» (number-words 222224, glyphs not matching), the figure after «mind», and the two seven-glyph figures after «mtshams» (number-words 676405) are not readable on the reprint: what do the 1996 print or the Zhol print give? | open; cites wb.1:p40 |
 | [questions/q0768.md](questions/q0768.md) | question q768 | WB p. 52: is the Crab's own srang measure 360 (as the print's glyphs read on p. 52) or 340 (as p. 53's table reads)? Which glyph reading is right? | open; cites wb.1:p52 |
 | [questions/q0769.md](questions/q0769.md) | question q769 | WB p. 52: what is the exact spelling of the Sanskrit word printed «ཏཏྐལ» (is its second letter ཏྐ?), and of the Crab's name («ཀཎྜར», «ཀརྚ་ཊ», «ཀརྐ», «ཀརྞ» in one stacked-letter form)? | open; cites wb.1:p52 |
+| [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | open; cites wb.1:p32 |
+| [questions/q0771.md](questions/q0771.md) | question q771 | The figure after «འཁོར་ཕྱེད» on p. 32, line 3 of the verse | open; cites wb.1:p32 |
 
 <!-- end pool index -->
 
