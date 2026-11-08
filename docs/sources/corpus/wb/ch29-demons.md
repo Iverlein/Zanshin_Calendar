@@ -205,3 +205,11 @@ The eating demon (ཟ་འདྲེ, za 'dre), the executioner (གཤེད, g
 - Question 285 ([q0285](../../questions/q0285.md)): The months of the day's-animal entries.
 - Question 286 ([q0286](../../questions/q0286.md)): «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry.
 - Question 287 ([q0287](../../questions/q0287.md)): Objects and rites of the third examination left unexplained.
+
+## <a id="wb-2-p106"></a>wb.2:p106 p. 106, the dwa passage on the Zhol print: both lines with the heart-and-nose container
+
+*Read: machine, 2026-11-08.*
+
+> ལ་དྭ་ལ་གང་ཤི་སྙིང་འགྲམས་ཞས། །རོ་མཆན་གཡས་སུ་ཁྱིམ་བྱ་དང་། །གཡོན་མར་གླུད་བཅུག་ཁྲབ་རྨོག་གཡོག །སྙིང་སྣ་ར་ཡི་ལྒང་ཕུག་བཅུག །དེ་ཉིད་རོ་ཡི་ཁ་ནང་གཞུག
+
+Zhol print img. 780 (machine reading, Yigdzin-1), the dwa passage of p. 106: for the one who dies on the dwa day, at the heart's edge, the right side of the corpse gets a house-bird, the left a figure-offering (གླུད, glud) with armour and helmet put in; the heart and nose of a goat are put in «ལྒང་ཕུག» (the 1996 print has «ལྷང་ཕུག»), and that very thing is put into the corpse's mouth. The Zhol thus has both lines that the 1996 img. 114 has; its short line alone on img. 783 belongs to the zin passage, not to this one.
