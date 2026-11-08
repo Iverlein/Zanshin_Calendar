@@ -1357,6 +1357,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0769.md](questions/q0769.md) | question q769 | WB p. 52: what is the exact spelling of the Sanskrit word printed «ཏཏྐལ» (is its second letter ཏྐ?), and of the Crab's name («ཀཎྜར», «ཀརྚ་ཊ», «ཀརྐ», «ཀརྞ» in one stacked-letter form)? | open; cites wb.1:p52 |
 | [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | open; cites wb.1:p32 |
 | [questions/q0771.md](questions/q0771.md) | question q771 | The figure after «འཁོར་ཕྱེད» on p. 32, line 3 of the verse | open; cites wb.1:p32 |
+| [questions/q0772.md](questions/q0772.md) | question q772 | p. 411: «འཆོལ» or «འཚོལ», «ཐུར་མ» or «ཟུར་མ» | open; cites wb.2:p411 |
 
 <!-- end pool index -->
 
