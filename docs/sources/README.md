@@ -1332,6 +1332,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
 | [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | open; cites wb.1:p95 |
+| [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | open; cites wb.1:p105b |
+| [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
 
 <!-- end pool index -->
 
