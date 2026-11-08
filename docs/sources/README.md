@@ -818,17 +818,17 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 42 passages: 34 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
-| [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 11 passages: 11 scan |
+| [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 30 passages: 13 scan, 10 machine, 7 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 33 passages: 15 scan, 11 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 30 scan, 27 machine |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 31 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 11 passages: 7 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
