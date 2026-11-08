@@ -562,7 +562,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-mtho-is-a-span.md](claims/wb-ch34-mtho-is-a-span.md) | claim, definition | One mtho is a span of twelve finger-breadths in the dictionaries, which makes the digging figure's six finger-breadths a half mtho | cites wb.2:p387, wb.2:p281; feeds block-25 |
 | [claims/wb-ch34-ninth-hair-date-other-witnesses.md](claims/wb-ch34-ninth-hair-date-other-witnesses.md) | claim, note | The 9th hair date's result has no other witness than the haircut verses; the words judge nothing | cites wb.2:p404; feeds block-25 |
 | [claims/wb-ch34-ninth-hair-date.md](claims/wb-ch34-ninth-hair-date.md) | claim, note | The 9th hair date stands bad by ch. 33; its result is company of young women | cites wb.2:p404; feeds block-25 |
+| [claims/wb-ch34-phya-ther-attested.md](claims/wb-ch34-phya-ther-attested.md) | claim, definition | «ཕྱ་ཐེར» (phya ther) is a sewn tent-like shelter named beside the yak-hair tent and the manuals' pair with «སྦྲ» varies between it and «ཕྱར» | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch34-sbra-phyar-tents-and-covers.md](claims/wb-ch34-sbra-phyar-tents-and-covers.md) | claim, definition | Work 17 is the sewing of tents and covering sheets: sbra is a yak-hair tent, phyar a covering; phya ther stays unglossed | cites wb.2:p378-384; feeds block-25 |
+| [claims/wb-ch34-svarodaya-title-and-colophon.md](claims/wb-ch34-svarodaya-title-and-colophon.md) | claim, note | The colophon's «ས་རོད་ཡ» (sA rod ya) is the transliteration of the Tanjur's Svarodaya, «དབྱངས་འཆར་བའི་དོན་བསྡུས་པ»; «ཨ་འཐས་བདེན་ཞེན» is attested elsewhere | cites wb.2:p428c; feeds block-25 |
 | [claims/wb-ch34-work17-stack-and-kp-title.md](claims/wb-ch34-work17-stack-and-kp-title.md) | claim, note | Work 17 on p. 378: the stack before «ཕྱར» has the height of a two-tier stack; KP's title lists «སྦྲ» and «ཕྱ་ཐེར» as two things | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch34-work17-tent-and-awning.md](claims/wb-ch34-work17-tent-and-awning.md) | claim, note | Work 17 «སྦྲ་ཕྱར»: the dictionaries give the hair tent and the awning cloth; «ཕྱ་ཐེར» has no entry | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch35-small-words.md](claims/wb-ch35-small-words.md) | claim, note | Ch. 35's small words: the topknot feat, «གུད་སྦས» on p. 448, the palm and the root tantra | cites wb.2:p440, wb.2:p448, wb.2:p450, wb.2:p453; feeds block-25 |
@@ -819,7 +821,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 24 scan, 37 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 30 scan, 27 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 6 scan, 4 machine |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 11 passages: 7 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
