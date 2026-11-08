@@ -795,10 +795,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 15 machine |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 3 scan, 12 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
-| [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 4 machine, 1 scan |
+| [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 1 scan, 4 machine |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 11 scan, 7 machine |
@@ -825,7 +825,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 30 passages: 13 scan, 10 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 25 scan, 36 machine, 7 etext |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 29 scan, 32 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 57 passages: 30 scan, 27 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 11 passages: 7 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
@@ -1341,6 +1341,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | open; cites wb.1:p30 |
 | [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | open; cites wb.1:p34 |
 | [questions/q0757.md](questions/q0757.md) | question q757 | The figure after «ཟླ་བ» before «རི་དབང་༥༧་དབྱུག» in the houses of WB p. 36: «(༡)» or «༡༡»? | open; cites wb.1:p36 |
+| [questions/q0758.md](questions/q0758.md) | question q758 | WB p. 244 l. 2, the place-name in «ན་ཀོང་ལྗན་ལྗིན་ཀླུ་ཡི་གནས»: is the first word ལྗན (Yigdzin-1) or ལྡན (MITRA)? A heavy stack on the reprint; another print would settle it. | open; cites wb.2:p244 |
+| [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | open; cites wb.2:p245 |
+| [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | open; cites wb.2:p243 |
+| [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | open; cites wb.2:p245 |
 
 <!-- end pool index -->
 
