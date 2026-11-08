@@ -798,17 +798,17 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 6 passages: 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 9 scan, 6 machine |
-| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 4 scan, 1 machine |
+| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 3 scan, 9 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 6 scan, 6 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 18 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 59 passages: 37 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
-| [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 5 scan, 8 machine |
+| [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 7 scan, 6 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 12 scan, 5 machine |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
@@ -1365,6 +1365,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | open; cites wb.1:p205 |
 | [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
 | [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | open; cites wb.1:p41 |
+| [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | open; cites wb.1:p24 |
+| [questions/q0781.md](questions/q0781.md) | question q781 | Ch. 3 p. 23 line 12: Nāgārjuna's year prints (༧༡༦༧) and (༢༩༤) | open; cites wb.1:p23 |
+| [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | open; cites wb.1:p24 |
 
 <!-- end pool index -->
 
