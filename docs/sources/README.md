@@ -64,9 +64,9 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | Ch10: the sections below, one per reading | RD189 | Stub: nothing read yet |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | Ch12: the sections below, one per reading | RD191 | Read 2026-11-07 (RD191): WB ch. 11 pp. 86–90 and ch. 12 pp. 91–103 on the Gser thang reprint (I3CN5028 img. 93–110), Yigdzin-1 with the dropped lines of pp. 92 and 95 re-read on crops, machine state except pp. 86–103 (scan; pp. 102–103 line by line at 3× 2026-11-08) and p. 90 (scan); pp. 86–89 also compared on the scan (2026-11-08; p. 86's table cell by cell, the code-number figures at 4–5× and searched in the 1996 etext, figures in round brackets; one figure on p. 88 still in doubt); drawings described, not transcribed |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | Ch13: the sections below, one per reading | RD192, RD193, RD195, RD196, RD199, RD200, RD202 | RD202 (2026-11-07): the heads of the 7th to 10th months as machine text, their weekday lines of the 7th and 10th and the 11th head's first four lines by eye at 3x, stacked figures unread; RD200 (2026-11-07, by eye): the heads of the 12th (p. 155) and 1st (p. 157) months line by line, the other ten unread; RD199 (2026-11-07, machine): pp. 136–147's 24 charts' cells as the 1996 etext reads them, shapes checked on the scan, none settled by eye; Zhol print's strip charts located (img. 151–153); RD196 (2026-11-07 and 2026-11-08, by eye): model almanac boxes of pp. 154 (boxes 1-15) and 165 (1-5), p. 155's first row and the layout of pp. 155-156, the other boxes unread; RD192 (2026-11-07, second run 2026-11-08): pp. 104–109 (the sixty years' table, years 1–30, cells read by eye on the Gser thang reprint I3CN5028, img. 111–116; columns 12–14 read by eye 2026-11-08, spellings of column 12 doubtful), pp. 122–126 and 128 (strips, flying squares; scan), p. 129's names cell by cell (numerals unread), pp. 127 and 130–132 figures described (machine); RD195 (2026-11-07, by eye; 2026-11-08: p. 136's upper chart's top row read, wb.1:p136b): pp. 136–147's 24 charts' layout and woodcuts, other cells unread; RD193 (2026-11-07, machine): pp. 134–135 written out; pp. 136–172 charts and tables not read  |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | WB ch. 1: the introduction's homages | RD198 | RD198 (2026-11-07, machine): pp. 4–5 only; pp. 3, 6–13 not read here |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | WB ch. 1: the introduction's homages | RD198, RD203 | RD198 (2026-11-07, machine): pp. 4–5; RD203 (2026-11-08, machine): pp. 3 and 6–13 as plan-of-the-page passages, the figures unchecked by eye, the long figure of p. 10 not read |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | WB ch. 2: the preliminary, measures and arithmetic | RD198, RD203 | RD198 (2026-11-07, machine): pp. 14 and 20–21; RD203 (2026-11-07, machine): pp. 15–19, Sanskritised names unsettled |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | WB ch. 9: how Rāhu seizes the sun and moon | RD198 | RD198 (2026-11-07, machine): pp. 56–57 and 67–69 written out (Yigdzin-1 on the 1996 scan and the Gser thang reprint, compared); the rest of ch. 9 is another section |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | WB ch. 9: how Rāhu seizes the sun and moon | RD198, RD203 | RD198 (2026-11-07, machine): pp. 56–57 and 67–69 written out (Yigdzin-1 on the 1996 scan and the Gser thang reprint, compared); RD203 (2026-11-08, machine): pp. 58–66, the tables' figures tested against their number-words and the wrong ones corrected (sky-fire 30, 8280, and others) and looked at on the scan, the cells of the tables not each read by eye |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | WB ch. 14: the almanacs' making | RD198 | RD198 (2026-11-07, machine): p. 179 only |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | WB ch. 15: sign entries, breath terms, leap months | RD198 | RD198 (2026-11-07, machine): p. 183 only |
 
@@ -795,13 +795,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 6 passages: 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 7 scan, 8 machine |
-| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 2 scan, 3 machine |
-| [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 3 scan, 4 machine |
+| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 3 scan, 2 machine |
+| [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 1 scan, 11 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 18 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 59 passages: 37 scan, 22 machine |
