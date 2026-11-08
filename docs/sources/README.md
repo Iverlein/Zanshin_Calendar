@@ -1351,6 +1351,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0765.md](questions/q0765.md) | question q765 | WB p. 249 print line 1: «བྱ་ཟེ་གློ་སྙིང» and «ཁྲག་ཟོ་ནམ་མཁའ་ནས» (Yigdzin-1) or «བྱ་རྩེ» and «ཁྲག་ཐོ» (MITRA)? The top strokes of ཟ, ཙ and ཐ cannot be told apart. | open; cites wb.2:p249 |
 | [questions/q0766.md](questions/q0766.md) | question q766 | WB p. 250: «ཁ་སྨྲས» or «ཁ་སྤྲས», and «གློ་གཅོང» or «བློ་གཙང» (print line 23)? The first letter and the ཅ/ཙ hook are not settled; and does «རྭ» (p. 250 l. 21, p. 252 l. 18) carry a wa-zur (Yigdzin-1) or not (MITRA «ར»)? | open; cites wb.2:p250 |
 | [questions/q0767.md](questions/q0767.md) | question q767 | WB p. 40: the stacked figure after «victor, hand, eye, two, two» (number-words 222224, glyphs not matching), the figure after «mind», and the two seven-glyph figures after «mtshams» (number-words 676405) are not readable on the reprint: what do the 1996 print or the Zhol print give? | open; cites wb.1:p40 |
+| [questions/q0768.md](questions/q0768.md) | question q768 | WB p. 52: is the Crab's own srang measure 360 (as the print's glyphs read on p. 52) or 340 (as p. 53's table reads)? Which glyph reading is right? | open; cites wb.1:p52 |
+| [questions/q0769.md](questions/q0769.md) | question q769 | WB p. 52: what is the exact spelling of the Sanskrit word printed «ཏཏྐལ» (is its second letter ཏྐ?), and of the Crab's name («ཀཎྜར», «ཀརྚ་ཊ», «ཀརྐ», «ཀརྞ» in one stacked-letter form)? | open; cites wb.1:p52 |
 
 <!-- end pool index -->
 
