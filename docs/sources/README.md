@@ -1362,6 +1362,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0774.md](questions/q0774.md) | question q774 | The chu srang figures of p. 62: holding, release, pressing | open; cites wb.1:p62 |
 | [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | open; cites wb.1:p10-11 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | open; cites wb.1:p12-13 |
+| [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | open; cites wb.1:p205 |
 
 <!-- end pool index -->
 
