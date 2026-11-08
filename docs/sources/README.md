@@ -720,7 +720,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch12-twelve-results.md](claims/wb1-ch12-twelve-results.md) | claim, list | The twelve results of the seven-star enjoyment (WB p. 102) | cites wb.1:p102; feeds — |
 | [claims/wb1-ch12-wheels.md](claims/wb1-ch12-wheels.md) | claim, list | The wheels of WB ch. 12 in order: turtle, lion throne, parasol, great mutual, Brahma, the mansions' syllables | cites wb.1:p91, wb.1:p92, wb.1:p93, wb.1:p94, wb.1:p95, wb.1:p96, wb.1:p103; feeds — |
 | [claims/wb1-ch13-charts-reprint-eye-read.md](claims/wb1-ch13-charts-reprint-eye-read.md) | claim, note | Ch. 13 charts pp. 136-147: what the reprint gives by eye beyond the etext | cites wb.1:p136b, wb.1:p136-147; feeds — |
-| [claims/wb1-ch13-model-almanac-box.md](claims/wb1-ch13-model-almanac-box.md) | claim, note | What a day box of the model almanac holds, and what was read | cites wb.1:p154, wb.1:p165; feeds — |
+| [claims/wb1-ch13-model-almanac-box.md](claims/wb1-ch13-model-almanac-box.md) | claim, note | What a day box of the model almanac holds, and what was read | cites wb.1:p154, wb.1:p154c, wb.1:p165; feeds — |
 | [claims/wb1-ch13-model-almanac-layout.md](claims/wb1-ch13-model-almanac-layout.md) | claim, note | The model almanac: twelve months of thirty boxes, five to a row | cites wb.1:p154, wb.1:p165; feeds — |
 | [claims/wb1-ch13-month-head-1st-beyond-rd2.md](claims/wb1-ch13-month-head-1st-beyond-rd2.md) | claim, note | The 1st month's head: the festival of wonders and an unsettled weekday line beyond RD2's table | cites wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-heads-7th-to-10th.md](claims/wb1-ch13-month-heads-7th-to-10th.md) | claim, note | The 7th to 10th month heads follow the fixed run; the twelve-link words 9 to 12 | cites wb.1:p166-167, wb.1:p168, wb.1:p170, wb.1:p171; feeds — |
@@ -797,7 +797,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 45 passages: 22 scan, 23 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 47 passages: 24 scan, 23 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
@@ -1329,6 +1329,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | open; cites wb.2:p428c |
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
+| [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | open; cites wb.1:p95 |
 
 <!-- end pool index -->
 
