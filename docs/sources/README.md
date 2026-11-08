@@ -816,7 +816,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 26 passages: 10 scan, 9 machine, 7 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 30 passages: 13 scan, 10 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 24 scan, 37 machine, 7 etext |
@@ -1327,6 +1327,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
 | [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | open; cites wb.2:p428c |
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
+| [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
 
 <!-- end pool index -->
 
