@@ -730,6 +730,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-month-heads-fixed-run.md](claims/wb1-ch13-month-heads-fixed-run.md) | claim, note | The model almanac's month head is one fixed run of phrases (12th and 1st heads read line by line) | cites wb.1:p155, wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-heads-links-and-seasons.md](claims/wb1-ch13-month-heads-links-and-seasons.md) | claim, note | The month heads of the 2nd to 6th months: link word, work and months' names by the fixed run | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b; feeds — |
 | [claims/wb1-ch13-month-heads-solar-turnings.md](claims/wb1-ch13-month-heads-solar-turnings.md) | claim, note | The 2nd head's equinox and the 5th head's solstice | cites wb.1:p158-159, wb.1:p163; feeds — |
+| [claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md](claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md) | claim, note | The 7th head's weekday line has 3 twice and no 4; the 10th's reads 5 1 3 / 6 / 0 / 2 4 | cites wb.1:p167b, wb.1:p171b; feeds — |
 | [claims/wb1-ch13-month-heads-weekday-lines.md](claims/wb1-ch13-month-heads-weekday-lines.md) | claim, note | The weekday lines of the 2nd to 6th heads and the wrapped line | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b, wb.1:p157; feeds — |
 | [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
 | [claims/wb1-ch13-strip-charts-zhol-order.md](claims/wb1-ch13-strip-charts-zhol-order.md) | claim, note | The twelve strip charts of WB vol. 1 ch. 13: order on the Zhol print and the 1996 print | cites wb.1:p142, wb.1:p147; feeds — |
@@ -800,7 +801,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 11 scan, 7 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 52 passages: 29 scan, 23 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 56 passages: 34 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
@@ -1319,7 +1320,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0735.md](questions/q0735.md) | question q735 | The order of the twelve strip charts, Zhol against the 1996 print | open; cites — |
 | [questions/q0736.md](questions/q0736.md) | question q736 | The 1st month head's weekday numerals in the model almanac | answered; cites wb.1:p157 |
 | [questions/q0737.md](questions/q0737.md) | question q737 | The 7th month head's weekday line | open; cites — |
-| [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | open; cites — |
+| [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | answered; cites wb.1:p171b |
 | [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
 | [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | open; cites — |
 | [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
