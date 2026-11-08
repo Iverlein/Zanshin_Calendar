@@ -1347,6 +1347,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | open; cites wb.2:p245 |
 | [questions/q0762.md](questions/q0762.md) | question q762 | WB p. 34, the first two syllables of the first verse gloss («གོ་ཌཱ་བ་ལྡོག་པའི་མཛེས་པ་བསྔགས་པ»): «གོ་ཌཱ» or «ཀོ་དྲ»? The print is heavy there. | open; cites wb.1:p34 |
 | [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | open; cites wb.1:p36 |
+| [questions/q0764.md](questions/q0764.md) | question q764 | WB p. 247 print line 4: «ས་རྦད་ཐུ་བཅད་འདྲ» (Yigdzin-1) or «ས་ཐད་ཐུ་བཅད་འདྲ» (MITRA)? The heavy glyph is not settled and neither gives a clear sense. | open; cites wb.2:p247 |
+| [questions/q0765.md](questions/q0765.md) | question q765 | WB p. 249 print line 1: «བྱ་ཟེ་གློ་སྙིང» and «ཁྲག་ཟོ་ནམ་མཁའ་ནས» (Yigdzin-1) or «བྱ་རྩེ» and «ཁྲག་ཐོ» (MITRA)? The top strokes of ཟ, ཙ and ཐ cannot be told apart. | open; cites wb.2:p249 |
+| [questions/q0766.md](questions/q0766.md) | question q766 | WB p. 250: «ཁ་སྨྲས» or «ཁ་སྤྲས», and «གློ་གཅོང» or «བློ་གཙང» (print line 23)? The first letter and the ཅ/ཙ hook are not settled; and does «རྭ» (p. 250 l. 21, p. 252 l. 18) carry a wa-zur (Yigdzin-1) or not (MITRA «ར»)? | open; cites wb.2:p250 |
 
 <!-- end pool index -->
 
