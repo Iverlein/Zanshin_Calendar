@@ -1553,3 +1553,6 @@ Searched and found wanting, so not to be repeated:
   - p. 154's head, lines 5–7: not read by eye in the time given.
 - **RD201 (2026-11-07)** (RD201, 2026-11-07):
   - The 3rd head's dar figures (end of the 7th printed line, p. 160) and the 6th head's weekday figures after «dar 5, 3, 1»: not made out on the crops; no stacked figure of the 2nd–6th heads read digit by digit.
+- 2026-11-08, RD176: Taikhang I5878 img. 466, Revatī's «ལས་སྣ་དྲོ» line not identified among rows at 0.6–0.8×.
+- 2026-11-08, RD175: a fifth run on the one Zhol impression (pp. 335, 377, 381, 435): lines cut at 3× again, no ཕ/ལ loop and no vowel over ཐ told; no second impression on BDRC.
+- 2026-11-08, RD159 (first run): Taikhang I5878 img. 447 line 5, the stack «བསྐྱུར»/«བསྒྱུར» at ¾ size: a filled block, not told.
