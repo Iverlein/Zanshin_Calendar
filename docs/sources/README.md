@@ -1336,6 +1336,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | open; cites wb.1:p95 |
 | [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | open; cites wb.1:p105b |
 | [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
+| [questions/q0754.md](questions/q0754.md) | question q754 | The figure after «འབྱུང་ཆུས» on WB p. 30 (line «སྐར་མཚམས་ཆུ་ཚོད་འབྱུང་ཆུས(?)སྦྱངས»): the print's figure is damaged, the number words give 54, the machine read 55. | open; cites wb.1:p30 |
+| [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | open; cites wb.1:p30 |
+| [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | open; cites wb.1:p34 |
+| [questions/q0757.md](questions/q0757.md) | question q757 | The figure after «ཟླ་བ» before «རི་དབང་༥༧་དབྱུག» in the houses of WB p. 36: «(༡)» or «༡༡»? | open; cites wb.1:p36 |
 
 <!-- end pool index -->
 
