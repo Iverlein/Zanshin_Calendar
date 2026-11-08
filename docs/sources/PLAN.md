@@ -1556,3 +1556,4 @@ Searched and found wanting, so not to be repeated:
 - 2026-11-08, RD176: Taikhang I5878 img. 466, Revatī's «ལས་སྣ་དྲོ» line not identified among rows at 0.6–0.8×.
 - 2026-11-08, RD175: a fifth run on the one Zhol impression (pp. 335, 377, 381, 435): lines cut at 3× again, no ཕ/ལ loop and no vowel over ཐ told; no second impression on BDRC.
 - 2026-11-08, RD159 (first run): Taikhang I5878 img. 447 line 5, the stack «བསྐྱུར»/«བསྒྱུར» at ¾ size: a filled block, not told.
+- 2026-11-08, RD180: «ལྷང་ཕུག» spelled so on the Zhol print: none; the machine has «ལྒང་ཕུག» there (img. 780). The Taikhang syllable for q561 (I5878 img. 160, end of line 3) unread: `scans.py line` is off by one line on the landscape folios and on Zhol img. 780, so crops there are cut by hand.
