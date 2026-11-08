@@ -732,6 +732,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
 | [claims/wb1-ch13-strip-charts-zhol-order.md](claims/wb1-ch13-strip-charts-zhol-order.md) | claim, note | The twelve strip charts of WB vol. 1 ch. 13: order on the Zhol print and the 1996 print | cites wb.1:p142, wb.1:p147; feeds — |
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
+| [claims/wb1-ch13-zhol-strip-charts-legible.md](claims/wb1-ch13-zhol-strip-charts-legible.md) | claim, note | Ch. 13 strip charts: the Zhol print's hand is the legible one, syllables still unsettled | cites wb.1:p147z, wb.1:p136-147; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
 | [claims/wbt-shi-sgab-places-by-machine.md](claims/wbt-shi-sgab-places-by-machine.md) | claim, note | The run of deaths' places on the Taikhang located, the stack not yet read by eye | cites wb.2:p104-105, wb.2:p105-106, wb.2:p107-108; feeds block-31 |
@@ -796,8 +797,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 machine |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 4 passages: 4 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 3 scan, 15 machine |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 47 passages: 24 scan, 23 machine |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 11 scan, 7 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 48 passages: 25 scan, 23 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 1 scan, 5 machine |
