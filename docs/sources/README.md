@@ -1316,7 +1316,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | open; cites — |
 | [questions/q0734.md](questions/q0734.md) | question q734 | What the 24 charts of pp. 136–147 place, and the cells' lists | open; cites — |
 | [questions/q0735.md](questions/q0735.md) | question q735 | The order of the twelve strip charts, Zhol against the 1996 print | open; cites — |
-| [questions/q0736.md](questions/q0736.md) | question q736 | The 1st month head's weekday numerals in the model almanac | open; cites — |
+| [questions/q0736.md](questions/q0736.md) | question q736 | The 1st month head's weekday numerals in the model almanac | answered; cites wb.1:p157 |
 | [questions/q0737.md](questions/q0737.md) | question q737 | The 7th month head's weekday line | open; cites — |
 | [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | open; cites — |
 | [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
