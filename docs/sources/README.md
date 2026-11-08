@@ -795,7 +795,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 1 passages: 1 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 3 scan, 12 machine |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 6 scan, 9 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 1 scan, 4 machine |
@@ -1345,6 +1345,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | open; cites wb.2:p245 |
 | [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | open; cites wb.2:p243 |
 | [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | open; cites wb.2:p245 |
+| [questions/q0762.md](questions/q0762.md) | question q762 | WB p. 34, the first two syllables of the first verse gloss («གོ་ཌཱ་བ་ལྡོག་པའི་མཛེས་པ་བསྔགས་པ»): «གོ་ཌཱ» or «ཀོ་དྲ»? The print is heavy there. | open; cites wb.1:p34 |
+| [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | open; cites wb.1:p36 |
 
 <!-- end pool index -->
 
