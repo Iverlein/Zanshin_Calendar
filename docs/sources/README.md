@@ -798,10 +798,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 6 passages: 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 8 passages: 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 7 scan, 8 machine |
-| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 3 scan, 2 machine |
+| [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 1 scan, 11 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 3 scan, 9 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 18 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 59 passages: 37 scan, 22 machine |
@@ -829,7 +829,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 12 passages: 8 scan, 4 machine |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 13 passages: 8 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 28 passages: 26 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -1363,6 +1363,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | open; cites wb.1:p10-11 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | open; cites wb.1:p12-13 |
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | open; cites wb.1:p205 |
+| [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
+| [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | open; cites wb.1:p41 |
 
 <!-- end pool index -->
 
