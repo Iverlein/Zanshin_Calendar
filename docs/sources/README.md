@@ -1358,6 +1358,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | open; cites wb.1:p32 |
 | [questions/q0771.md](questions/q0771.md) | question q771 | The figure after «འཁོར་ཕྱེད» on p. 32, line 3 of the verse | open; cites wb.1:p32 |
 | [questions/q0772.md](questions/q0772.md) | question q772 | p. 411: «འཆོལ» or «འཚོལ», «ཐུར་མ» or «ཟུར་མ» | open; cites wb.2:p411 |
+| [questions/q0773.md](questions/q0773.md) | question q773 | The unit of the eclipse tables' figures on pp. 60–62 and the four courses | open; cites wb.1:p60, wb.1:p61, wb.1:p62 |
+| [questions/q0774.md](questions/q0774.md) | question q774 | The chu srang figures of p. 62: holding, release, pressing | open; cites wb.1:p62 |
+| [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | open; cites wb.1:p10-11 |
+| [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | open; cites wb.1:p12-13 |
 
 <!-- end pool index -->
 
