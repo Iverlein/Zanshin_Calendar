@@ -1274,7 +1274,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | open; cites — |
 | [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | open; cites — |
 | [questions/q0688.md](questions/q0688.md) | question q688 | «ཚད་ནད» and «མཇུག» in ch. 17's colophon | open; cites — |
-| [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | open; cites — |
+| [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | answered; cites wb.1:p196 |
 | [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | open; cites — |
 | [questions/q0691.md](questions/q0691.md) | question q691 | The first year of p. 23: 2587 or 2567 (the Kālacakra taught when the Buddha passed?) | answered; cites wb.1:p23 |
 | [questions/q0692.md](questions/q0692.md) | question q692 | Srong btsan's coming to the kingship, p. 23: 1048 or 1058 | answered; cites wb.1:p23 |
