@@ -1325,6 +1325,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
 | [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | open; cites — |
 | [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
+| [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | open; cites wb.2:p428c |
+| [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
 
 <!-- end pool index -->
 
