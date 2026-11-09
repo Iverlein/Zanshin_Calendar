@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD213 (2026-11-09): the contents of the volume from the NDL record only; the book itself was not read (it is in no online form), see q786.
+
 ## <a id="eb9-p1-378"></a>eb9:p1-378 The volume's contents, from the NDL record (the book not opened)
 
 *Read: etext, 2026-11-09.*
