@@ -1682,3 +1682,7 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 317 line 8: the last syllable of «འབྲས་བུ་ལྡན་ན་བློ་མེད་…» is a stack with a vowel sign that 1.9× does not settle (Derge etext «བློ»).
   - Peking img. 318, end of line 4 and start of line 5 (Derge's «རྨི་ལམ་བརྟག་པ་རྫོགས་སོ»): one syllable more than expected looks present; unsettled at 2.2×.
   - Peking contrast is low (grey on grey): crops need autocontrast; img. 316 needs a −45 px vertical offset, img. 318 −5 px (text lines 8, 8, 8, 5).
+- **RD234, 2026-11-09** (RD234, 2026-11-09):
+  - The row's Peking vol. 49 (I1KG13218) was not opened: the work is in vol. 46 (I1KG13215); found through the abstract work WA0RT4282 (workHasInstance) reached from the Derge MW23703_2100 via instanceOf, then purl.bdrc.io/resource/MW….json for the content locations.
+  - The Dpe bsdur ma etext (W1PD95844 vol. 25 pp. 415–418) with its variant notes was not fetched; the Narthang (W2KG5015 vol. 46 pp. 289–291) and W22704 vol. 46 images were located, not fetched or read.
+  - bdrc.py scans OUT VOLUME FIRST-LAST takes the image group once; PLAN.md's example repeats it. Peking grey print crops are faint until autocontrasted; 1.1–2× reads best, a 3× zoom of a 40 px letter goes blocky.

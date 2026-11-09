@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD234 (2026-11-09): SVI on the Peking print (W1KG13126 vol. 46, I1KG13215 img. 309–312).
+
 Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–262 (image = printed page).
 
 Read by RD234 (2026-11-09): the examination of dreams in the Peking Tengyur (W1KG13126 vol. 46, I1KG13215 img. 309–312) by eye on enlargements, against the Derge etext.

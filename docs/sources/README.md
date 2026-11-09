@@ -1610,6 +1610,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0832.md](questions/q0832.md) | question q832 | Rin spungs pa glosses the boy's sign as the mother's «ལུས་ཡང་ཤིང་ཆེ་བ»: is ཆེ་བ the raised right side or a second property of the body? | open; cites st:p21 |
 | [questions/q0833.md](questions/q0833.md) | question q833 | Is the Svapnohana's fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» absent in the Narthang prints and the Co ne print too, or only in Peking? | open; cites svo:p271d |
 | [questions/q0834.md](questions/q0834.md) | question q834 | What is the Sanskrit title of the Svapnohana on the Peking print (img. 315 line 1)? | open; cites svo:p271d |
+| [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | open; cites svi:p309-312 |
+| [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | open; cites svi:p309-312 |
+| [questions/q0837.md](questions/q0837.md) | question q837 | Which is the third syllable of «ཛ་ཏ་པ/ཀ་ཡི་ཕྲེང་བ» (the jātaka garland)? | open; cites svi:p309-312 |
 
 <!-- end pool index -->
 
