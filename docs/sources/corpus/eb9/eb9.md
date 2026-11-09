@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD261 (2026-11-09): EB9's dream book, the 国文研 copy (kokusho.nijl.ac.jp/biblio/200013909) 10 IIIF images at full size.
+
 Read by RD213 (2026-11-09): the contents of the volume from the NDL record only; the book itself was not read (it is in no online form), see q786. RD256 (2026-11-09) identified the dream book through CiNii and the 国書データベース (p2) and found its plates online (not read through); the 大雑書 remains unlocated online.
 
 RD261 (2026-11-09) read the 国文研 copy of the 嘉永5 (1852) printing (10 IIIF images from kokusho.nijl.ac.jp/biblio/200013909/manifest, fetched whole; image 1 the front cover, 2 the first leaf's front beside the lining of the cover, 3-9 leaves in spreads, 10 the back cover): by eye at crops, no OCR; entries and table in eb9:i9, eb9:i4, eb9:i9b and eb9:i9c, the claim eb9-dream-book-calendar-rules.

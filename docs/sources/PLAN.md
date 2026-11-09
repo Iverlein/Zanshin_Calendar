@@ -1750,3 +1750,6 @@ Searched and found wanting, so not to be repeated:
   - The page image of the Shechen etext's second place (VE1KG14_037, «མཁའ་འགྲོ་ལྔ་སྐོར», etext p. 36): the etext's page markers restart with each text and its 2087 pages run past the print volume I1KG52 (about 830 images); Yigdzin-1 on every hundredth image of I1KG52, I1KG53 and I1KG54 (img. 100–800) and locate.py map gave no hit, so its volume and image are not known.
   - Zhe chen second syllable: no crop at 3–12× tells «རུག» from «དྲུག» or «ཟུག»; MITRA reads «དྲུག» on every crop.
   - Sbas-yul first syllable: «རྟ», «རི», «རཾ», «རྀ» across the machines' crops, not settled by eye.
+- **RD261, 2026-11-09** (RD261, 2026-11-09):
+  - Waseda bunko30_e0277 not opened (maintenance); the ten images of the 国文研 manifest carry no OCR text layer, so the reading is by eye; no Japanese OCR model available.
+  - The branch cells of the ゆ六 table are not all decoded glyph by glyph; what the slash divides in a cell is unexplained on the page; the title's particle and verb are doubtful cursive.
