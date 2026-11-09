@@ -1705,3 +1705,6 @@ Searched and found wanting, so not to be repeated:
   - KCM in the Rin chen gter mdzod, I1KG52 (vol. 37, image = printed page + 17 at img. 640, 700 and 730, 810 images in all): the KCM page was not reached; the etext VE1KG14_037 is about 1.17M characters but its text up to img. 800 reaches only about 534k of 830k, KCM at about 762k, so the etext covers more than the images the manifest serves or is ordered differently; img. 1000 and 1180 do not exist.
   - bdrc.py etext of the whole IE0OPIC2BFA6FE (15 volumes) is slow (over 3 minutes) and was stopped; its KCM hit (VEIE0OPIC2BFA6FE_I1KG81132) was not read.
   - The Rin chen gter mdzod KCM paragraph has no «ཚོད» after «དུས», so it is a variant of the Tashijong print, not a copy.
+- **RD239, 2026-11-09** (RD239, 2026-11-09):
+  - scans.py line fails with IndexError on I6320 img. 276; the page has 6 text rows at a pitch of about 125 px (y about 20, 145, 270, 395, 520, 645): use scans.py crop with pixel boxes.
+  - The dro'i kha / dro zhig place was not identified on the W24769 print (probably around «བརྐྱང་འདུག» / «ཞལ་འཛུམ» on img. 277 lines 1–2); 'dod/'ong on img. 277 line 5 «འདོད་དོན» not looked at by eye; «ཡོང་ངོ» vs «ཡོད་དོ» on img. 278 line 4 not settled at 1.0×.
