@@ -1708,6 +1708,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0863.md](questions/q0863.md) | question q863 | Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part from midnight to dawn named anywhere in the Four Tantras' tradition? | open; cites gt:i42 |
 | [questions/q0864.md](questions/q0864.md) | question q864 | Does the Co ne Svapnohana (vol. 28, 133b3–135a3, img. 270–273) read «བགྲོད་མིན» or «བཟློག་མིན», «འགྲོན་བུ» or «འགྲོན་དུ», «བཅུ་ཡི་བར» or «བཅུ་པི་བར», «ག་ཡ་ཏྲི» or «གས་ཏྲི», and does its fourth-watch line end «ཟླ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་བར་དུ»? | open; cites svo:p271g |
 | [questions/q0865.md](questions/q0865.md) | question q865 | What do the watch lines and «ལ་མོ»/«བླ་མོ» of Advayavajra's Svapnekṣā read in the Co ne (vol. 49, 130a1–130b7, img. 263–264)? | open; cites svo:p271g |
+| [questions/q0866.md](questions/q0866.md) | question q866 | Which book is the puṇyakāṇḍa of the Kāṇva branch in which the Brahmavaivarta says the good dream is set out? | open; cites skd:p470-471 |
+| [questions/q0867.md](questions/q0867.md) | question q867 | Is the Vāgbhaṭa Śārīrasthāna 6 passage in the Śabdakalpadruma the Aṣṭāṅgahṛdaya's, and what does its line on the early night and the cows' path say in an edition? | open; cites skd:p471-472 |
+| [questions/q0868.md](questions/q0868.md) | question q868 | Does the Bṛhaspati Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's i, Leipzig 1178) read three fortnights and a month as Negelein prints it, or eight months, three months, half a month? | open; cites neg:p14-16 |
+| [questions/q0869.md](questions/q0869.md) | question q869 | Is the Brahmavaivarta's dream chapter older than the Svapnohana's Tibetan translation of about 1200, and does Scheuermann name a Sanskrit parallel? | open; cites svo:p271f |
 
 <!-- end pool index -->
 
