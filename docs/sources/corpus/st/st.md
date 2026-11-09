@@ -21,6 +21,8 @@ Read by RD229 (2026-11-09): the treatments that follow the dream lines of ch. 15
 
 Read by RD211 (2026-11-09): ST etext pp. 34, 44, 202, 225, 260, 362–363, 507 on the Gser thang scan I3CN5038 (printed pp. 21, 34, 241, 218, 183, 350–351, 493).
 
+Read by RD267 (2026-11-09): the Explanatory Tantra's lines on the dream by night, «མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངེས་འབྲས་བུ་མེད། ཐོ་རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན།», are in ch. 7 (the Yu thog, Grwa thang and Peking etexts; the claim st-dream-night-first-part-dawn), on the Serthang print's pp. 31–32, which the scan I3CN5038 lacks (img. 43 = p. 30, img. 45 = p. 33, img. 44 and 46 = p. 34; the claim st-serthang-scan-pp31-32-missing). No passage of the Serthang scan is added; the lines are read on the Drathang print (gt:i42, machine, partly by eye), in etexts of other editions and in the commentaries (bjp:p183, rsp:p213).
+
 ## <a id="st-p21"></a>st:p21 Ch. 2 of the Explanatory Tantra, the child in the womb: the mother's dream of a man marks a boy
 
 *Read: scan, 2026-11-09.*
@@ -187,3 +189,15 @@ Question: In ch. 91 the pair «མོ་ཕྱྭ» (mo phywa) heads the remedie
 ## Searched and not found (RD264)
 
 Serthang etext (IE0OPIFEF6EACA, all 622 pages, 2026-11-09) for «རྨི་ལམ་བྱི་ལ», «འཆི་བདག་གིས་ཟིན», «དུར་ཁྲོད་ཉལ», «ཡིད་འཇུག་བུ་ག་ནད་ཀྱིས», «མི་བཟང་བ» and «མི་ཟད་པ»: no hit in ch. 7 (only «རྨི་ལམ་རྣམ་འགྱུར་རིང་དང་མ་ངེས་ལྟས» at etext pp. 44 and 46). Yigdzin-1 over Serthang img. 33, 35–58: the bad-dream verse on none. The wa-zur of «ཕྱྭ» was not looked up in a dictionary (Steinert's clone, 4.5 GB, is not on this machine). The 2005 *Man ngag lhan thabs*'s ch. 81 was read on archive.org's lending copy (bdrc-W1PD4) at p. 325 only; its other pages were not opened. The Bhutan scan's sister clause «རང་ཚོར་དུས་ཡིན» (the Bhutan etext reads ངང་ཚོར) was read at 11× with moderate confidence for the first letter (mnb:p267); the Drathang's and the 2005 print's were not.
+
+## Open (RD267)
+
+Question: (The Drathang print GT img. 42 has the lines; the question is for the Serthang print itself.) The Serthang scan I3CN5038 lacks printed pp. 31–32 of the Explanatory Tantra (ch. 6's end and ch. 7's first half with the dream verses); is there another scan of the Serthang print, or another print whose leaf can be opened (Chag po ri, Zhol, Derge of the Four Tantras), on which the two lines of the dream by night can be read by eye?
+
+Question: The Yu thog, Grwa thang and Peking etexts read «བརྗེད་ངས» (forgetfulness) in the first line and other etexts and the modern quotations «བརྗེད་ངེས» (surely forgotten): which does the Serthang print have on p. 31 or 32?
+
+Question: Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part of the night from midnight to dawn named anywhere in the Four Tantras' tradition?
+
+## Searched and not found (RD267)
+
+BDRC's full-text search, 2026-11-09, for «མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངེས་འབྲས་བུ་མེད», «ཐོ་རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན», «ཐོ་རེངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན», «མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངེས», «རྨི་ལམ་བརྗེད་ངེས་འབྲས་བུ་མེད», «མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན», and for the verses around them: 8 hits for the first, 13 for the second, 1 for «ཐོ་རེངས» (the Gso bya lus kyi rnam bshad, restricted). The Serthang etext (IE0OPIFEF6EACA) has none of the lines or of the verses around them. The etexts of the Gso bya lus kyi rnam bshad (MW8LS18598), of I4795 and of four others (I1KG10372, I1KG21894, I4PD4564, I2PD16002, I8LS18618, I4721) answer 403 or empty; only their snippets were seen.

@@ -3,11 +3,12 @@
 ---
 # Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes
 
+# GT, the Four Tantras, Drathang woodblock print with interlinear notes (BDRC I4CZ327131)
+
+
 Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
-
-Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA as well and by eye; the dream verses whole are gt:i42-43 below.
 
 ## <a id="gt-i42"></a>gt:i42 Ch. 7, the distant signs of death: the verse of the bad dreams, in the Drathang print
 
@@ -17,6 +18,17 @@ Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA a
 > རྨི་ལམ་བྱི་ལ་སྤྲེའུ་སྟག་དང་ཝ། །རོ་ལ་ཞོན་རྨིས་འཆི་བདག་ཟིན་པའི་རྟགས། །མ་ཧེ་རྟ་ཕག་བོང་བུ་རྔ་མོ་ལ། །གཅེར་བུར་ཞོན་ནས་ལྷོ་ཕྱོགས་འགྲོ་རྨིས་འཆི། །སྤྱི་བོར་ལྕུག་མ་སྐྱེས་ཏེ་བྱ་ཚང་བཅས། །ཏཱ་ལ་ཚེར་མ་ཅན་ཤིང་སྙིང་གར་སྐྱེས། །པདྨ་ཕྱུང་དང་གཡང་ལྷུང་དུར་ཁྲོད་ཉལ། །མགོ་ཆག་བྱ་རོག་ཡི་དགས་རྨེ་ཅན་བསྐོར། །རྐང་པགས་ལྷུང་དང་མ་ཡི་མངལ་དུ་འཇུག །ཆུས་ཁྱེར་འདམ་བྱིང་ཉ་ཡིས་མིད་པ་དང་། །ལྕགས་གསེར་རྙེད་དང་ཚོང་དང་འཐབ་མོ་ཕམ། །བྲོ་པའི་ཁྲལ་འདེད་བག་མ་ལན་པ་དང་། །གཅེར་བུར་འདུག་དང་སྐྲ་དང་ཁ་སྤུ་བྲེགས། །གཤིན་དང་ལྷན་ཅིག་ཆང་འཐུང་ངེས་འདྲུད་དང་། །གོས་དང་ཕྲེང་བ་དམར་པོས་བརྒྱན་པ་ཡི། །གཤིན་པོ་དག་དང་ལྷན་ཅིག་གར་བྱེད་པ། །དེ་དག་འཆི་བདག་དབང་དུ་སོང་བའི་ལྟས། །དེ་ལ་སོགས་ཏེ་རྨི་ལམ་མི་བཟང་བ། །ཡིད་འཇུག་བུ་ག་ནད་ཀྱིས་བཀག་ཕྱིར་མཐོང་། །རྒྱུན་ཏུ་རྨ་བའི་ནད་པ་འཆི་འགྱུར་ཏ། །ནད་མེད་མ་ངེས་རིམ་གྲོས་ཐར་བར་འགྱུར། །མཐོང་ཐོས་མྱོང་དང་གསོལ་བ་བཏབ་པ་དང་། །གྲུབ་པ་ནད་ལས་བྱུང་དང་རྣམ་པ་དྲུག །མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས་འབྲས་བུ་མེད། །ཐོ་རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན། …
 
 The seventh chapter of the Explanatory Tantra (the signs of the body's destruction, ལུས་ཀྱི་འཇིག་ལྟས, lus kyi 'jig ltas) in the Drathang woodblock print (BDRC I4CZ327131, 2622 px, one folio side an image), the opening on img. 41 and the verse of the bad dreams at the head of img. 42. The chapter opens by naming four kinds of sign, distant, near, uncertain and certain, and the distant ones as the messenger (ཕོ་ཉ, pho nya), the dream (རྨི་ལམ, rmi lam) and the change of bearing (རྣམ་འགྱུར, rnam 'gyur). Img. 42 holds the verse that names the bad dreams of the sick (riding a corpse, a buffalo, a horse, a pig or a donkey naked toward the south; a tree growing from the heart; falling into a pit; lying in a charnel ground; the head cut off; entering the mother's womb again; carried off by water; sinking in mud; drinking and dancing with the dead) as the signs that the lord of death has the sick; then the lines that give the cause (the passages of the mind's entry blocked by the illness), who dies of them (the sick who dream them constantly), the healthy (uncertain; the rite of service, རིམ་གྲོ, rim gro, brings release) and the six kinds of dream. The words of the verse are as Yigdzin-1 reads them; the line **དེ་ལ་སོགས་ཏེ་རྨི་ལམ་མི་བཟང་བ** was read by eye (crops x 150–560 and 385–500, y 250–312, 5–14×, the row second from the foot of the page): after མི the syllable has a boxed བ as its first letter and then a small ཟ and ང (the root is small and overlaid by an interlinear note's strokes), and the last syllable is the boxed བ; **མི་བཟང་བ**, not མི་ཟད་པ, which has no prefix བ.
+
+## <a id="gt-i42"></a>gt:i42 Ch. 7, the dream rule of the night in the Drathang print: the first part of the night forgotten, the dawn dream clear
+
+*Read: machine, 2026-11-09.*
+
+> སོགས་ཏེ་རྨི་ལམ་མི་བཟང་བ། །ཡིད་འཇུག་བུ་ག་ནད་ཀྱིས་བཀག་ཕྱིར་མཐོང་། །རྒྱུན་ཏུ་རྨ་བའི་ནད་པ་འཆི་འགྱུར་ཏ། །ནད་མེད་མ་ངེས་རིམ་གྲོས་ཐར་བར་འགྱུར། །མཐོང་ཐོས་མྱོང་དང་གསོལ་བ་བཏབ་པ་དང་། །གྲུབ་པ་ནད་ལས་བྱུང་
+> དང་རྣམ་པ་དྲུག །མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས་འབྲས་བུ་མེད། །ཐོ་རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན། །ལྷ་དང་ཁྱུ་མཆོག་སྐྱེས་བུ་གྲགས་པ་ལྡན། །མེ་འབར་མཚོ་དང་ལུས་ཁྲག་མི་གཙང་བྱུགས། །གོས་དཀར་གྱོན་དང་ཕན་
+
+(Drathang woodblock, img. 42; the cause of the bad dreams, who dies of them, the six kinds, and the rule of the dream by night.) Thus and the like, bad dreams: seen because the illness blocks the openings where the mind enters; the sick who dream them constantly die; for the one without illness it is uncertain, and by the rite of service (རིམ་གྲོ, rim gro) he is freed; seen, heard, felt, a prayer made, a sign of accomplishment, born of illness: six kinds. «A dream of the first part of the night (མཚན་སྟོད, mtshan stod) is forgotten, no fruit; at dawn (ཐོ་རངས, tho rangs) seen and clear, it gives fruit.» Then the good dreams begin: gods, the best of the herd, a man of renown, a burning fire, a lake, blood and filth smeared on the body, white clothes, a parasol…
+
+Yigdzin-1 over img. 36–44 (RD267, 2026-11-09); the lowest text line of img. 42 read on crops at 3× and 5× (the first half, «དང་རྣམ་པ་དྲུག །མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས་འབྲས་བུ་མེད། །ཐོ་རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན།»), the glyphs agreeing with the machine reading, the last syllable of «བརྗེད་ངས» a ས over the stack. The rest of the quoted lines was not read by eye, hence *machine*. The machine reading has «རྨ་བའི» for «རྨི་བའི» and «ཏ» for «ཏེ» in the third verse line, and «ངེས» for «ངས» in the drinking line; left as the model has it. The print runs on from img. 41 (the omens) and on to img. 43 (the near signs); img. 40 is ch. 6's end. GT img. 42 stands for Serthang pp. 31–32, which the Serthang scan lacks.
 
 ## <a id="gt-i42-43"></a>gt:i42-43 Ch. 7, the dream verses whole: the bad dreams that mark the lord of death, their cause, who dies, the six kinds, the good dreams, in the Drathang print
 
@@ -92,3 +104,5 @@ Words told apart on the scan (img. 42 and 43), where Yigdzin-1 and MITRA differ 
 - Line 7, **པདྨ་ཕྱུང** (padma phyung, a lotus drawn out; Yigdzin-1, the Drikung and Khro ru) against **པདྨ་བྱུང** (padma byung, a lotus arisen; Byang pa, Rin spungs pa) and MITRA's «པདམ ཕྱུང འཇག ཡང»: read as Yigdzin-1.
 
 The verse's place: it begins in the first printed line of img. 42, after the messenger's omens (the last of them «རླུང་མེད་མེ་ཤི་སྣོད་ཆག་ངན་པའི་ལྟས», a windless fire dying, a vessel broken: a bad sign), and ends in line 2 of img. 43, where «ཐ་མལ་རྣམ་འགྱུར་འཆི་བའི་ལྟས་བསྟན་པ» opens the change of bearing (རྣམ་འགྱུར, rnam 'gyur), the second of the distant signs; img. 44 and 45 (Yigdzin-1 only) run through the near signs and the dissolving of the five senses.
+
+Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA as well and by eye; the dream verses whole are gt:i42-43 below.

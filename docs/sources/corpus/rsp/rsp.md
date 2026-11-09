@@ -31,6 +31,14 @@ Rin spungs pa's *Stainless All-Clarifying* (rsp), the Explanatory Tantra's seven
 
 Read in the etext only, 2026-11-09 (RD255); no scan was opened. The etext has no tsheg after many shads and lines run together (the verse runs on to its gloss with no gap); runs of tshegs are taken out; nothing else is put right. The close of the chapter is rsp:p229-230.
 
+## <a id="rsp-p213"></a>rsp:p213 Ch. 7, the dream's fruit: the first part of the night forgotten, the dawn dream clear, why dawn
+
+*Read: etext, 2026-11-09.*
+
+> ལྔ་པ་ནིམཚན་སྟོད་རྨི་ལམ་བརྗེད་ངན་འབྲས་བུ་མེད། རངས་མཐོང་དང་གསལ་ན་འབྲས་བུ་འབྱིན།ཞེས་པ། སྤྱིར་མཚན་སྟོད་ཀྱི་ རྨི་ལམ་མི་གསལ་ཞིང་། རྨི་ལམ་དེའི་རྗེས་སུ་གཉིད་མཐུག་མཐུག་པོས་ནོན་པས། གོང་དུ་རྨི་ལམ་བྱུང་བ་དེ་དག་ཀྱང་བརྗེད་ངས་པར་འགྱུར་། དེས་ན་རྨི་ལམ་ དེའི་འབྲས་བུ་མཐོང་བར་མི་འགྱུར་བས་འབྲས་བུ་མེད་ལཐོ་རངས་སེམས་ཅན་ ཕལ་ཆེ་རླུང་སེམས་དབུ་མར་འཇུག་པའི་དུས་སྟེ་ཁམས་གསལ་ཞིང་དྭངས་ལ། གཉིད་ཀྱང་སྲབ་ལ་དེ་དུས་རྨི་ལམ་བཟང་ངན་གང་ཡང་མངོང་སུམ་དུ་མཐོང་བ་ ལྟརགསལ་པོར་མ་བརྗེད་ནབཟང་ངན་གྱི་འབྲས་བུའང་འབྱིན་པར་འགྱུར་ ཞེས་པའོ།ཟེར་ལས་ཀྱང་། མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང་། མཐོང་བ་ ཆུང་དུ་བྱེད་པ་ཡིན། ནང་པར་མཐོང་དང་གཉིད་མ་ལོགམི་མཐུན་གཏམ་གྱི་ བར་མ་ཆོདདེ་ཡི་ཉིན་པར་འབྲས་ཆེར་འགྱུརགང་ཞིག་རྨི་ལམ་ངན་མཐོང་ ལསསླར་ཡང་གནས་སྐབས་དེ་ཉིད་། རྨི་ལམ་བཟང་པོ་མཐོང་གྱུར་ན འབྲས་བུ་བཟང་པོ་ཉིད་ཐོབ་འགྱུརཞེས་སོགས་བཤད
+
+Fifth, "First part of the night: a dream, surely forgotten, has no fruit; dawn: seen and clear, it gives fruit." In general the dream of the first part of the night (མཚན་སྟོད, mtshan stod) is not clear; heavy sleep presses on after the dream, so the dreams that arose before are forgotten; hence one does not see the fruit of that dream and it has none. Dawn (ཐོ་རངས, tho rangs) is the time when the wind-mind of most beings enters the central channel, the body's elements are clear and bright and sleep is thin; a good or bad dream seen then, as if seen in front of one, if clear and not forgotten, gives its fruit, good or bad. The *Moonbeams* (Zla zer) too: «a dream of the first part of the night: its fruit is far, what is seen is made small; seen at daybreak, sleep not taken again, not cut by talk that does not suit, it becomes a great fruit that very day; whoever sees a bad dream and in that same state sees a good dream, gets the good fruit.»
+
 ## <a id="rsp-p229-230"></a>rsp:p229-230 Ch. 7: dreams among the distant signs, and the means that turn them back
 
 *Read: etext, 2026-11-09.*

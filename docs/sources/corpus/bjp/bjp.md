@@ -33,6 +33,14 @@ The second verse, the cause: *the opening of the mind blocked by the illness*. *
 
 Read in the etext only, 2026-11-09 (RD255); no scan was opened. The etext carries runs of tshegs and stray marks inside the lines (taken out, a few letters at line ends lost with them) and a stray «བའི་རྟགས» after the verse's last lines (the verse runs «དེ་དག་འཆི་བདག་དབང་དུ་སོང་བའི་རྟགས»). The verse as the Four Tantras have it; the gloss in our own words; bjp:p197 gives the close of the chapter.
 
+## <a id="bjp-p183"></a>bjp:p183 Ch. 7, the dream's fruit: the first part of the night forgotten, the dawn dream clear, with Moonbeams quoted
+
+*Read: etext, 2026-11-09.*
+
+> ལྔ་པ། རྨི་ལམ་གྱི་འབྲས་བུ་འབྱིན་ཚུལ་སྟོན་པ་ནི། མཚན་སྟོད་རྨི་ལམ་ བརྗེད་ངེས་འབྲས་བུ་མེད། ། ཐོ་རང་མཐོང་དང་གསལ་ན་འབྲས་བུ་ འབྱིན། །ཞེས་པའི་དོན། སྤྱིར་མཚན་སྟོད་ཀྱི་རྨི་ལམ་མི་གསལ་ཅིང་རྨི་ལམ་ བྱུང་བ་དེ་དག་ཀྱང་བརྗེད་པ་ནས་འབྲས་བུ་མེད་པ་སྟེ། ཐོ་རངས་རྨི་ལམ་ བཟང་བ་མཐོང་བ་དང་། ངན་པ་མཐོང་པ་གང་བྱུང་ཡང་གསལ་ཞིང་མ་ བརྗེད་པ་ན་བཟང་ངན་གྱི་འབྲས་བུ་འབྱུང་བར་འགྱུར་ཞེས་པའོ རྒྱས་པར་ཟླ་ཟེར་གྱི་གོང་གི་འགྲེལ་ཚིག་དེ་མ་ཐག་པར། དེ་ལ་དང་པོའི་ ལྔ་པོ་དང་། རང་གི་རང་བཞིན་ཉིན་མོ་བརྗོད། ཤིན་ཏུ་རིང་ཐུང་འབྲས་བུ་མེད། ཅེས་བྱ་བ་ལ་རྨི་ལམ་དེ་དག་གི་ནང་ནས་དང་པོའི་རྨི་ལམ་ལྔ་པོ་འབྲས་བུ་མེད་ ཅིང་མི་བདེན་པ་ཡིན་ནོ། །དེ་བཞིན་དུ་རང་གི་རང་བཞིན་གྱི་ནད་གཞི་ལས་ བྱུང་བ་དང་། རྗེས་སུ་མཐུན་པ་དེ་ཡང་འབྲས་བུ་མེད་པ་ཡིན་ཏེ། རླུང་གི་རང་ བཞིན་ཅན་ལ་རླུང་གི་རང་བཞིན་དང་མཐུན་པ་རྨིས་པའི་རྨི་ལམ་དང༌། མཁྲིས་པའི་རང་བཞིན་ཅན་ལ་མཁྲིས་པ་དང་རྗེས་སུ་མཐུན་པའི་རྨི་ལམ་རྨིས་ པ་ཡང་དོན་མེད་པ་ཡིན་ནོ། །དེ་བཞིན་དུ་ཉིན་མོ་རྨིས་པ་ཡང་། རྨིས་ནས་ བརྗེད་པ་དང་། ཤིན་ཏུ་ཡུན་རིང་བ་དང་། ཤིན་ཏུ་ཡུན་ཐུང་བ་ཡང་འབྲས་བུ་ མེད་པ་ཡིན་ནོ། །མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང་། མཐོང་བ་ཆུང་དུ་བྱེད་པ་ ཡིན། ཞེས་བྱ་བ་ལ། མཚན་སྟོད་ཕྱེད་པ་ཡན་ཆད་རྨི་ལམ་རྨིས་པ་ནི་དེའི་ འབྲས་བུ་ཐག་རིང་བ་ཡིན་ལ། མཐོང་བ་དེ་ཡང་ཤས་ཆུང་ཞིང་མཐོང་བ་ཞན་ པ་ཡིན་ནོ། །
+
+Fifth, how a dream gives its fruit. «First part of the night: a dream, surely forgotten, has no fruit; dawn: seen and clear, it gives fruit.» The sense: in general the dreams of the first part of the night (མཚན་སྟོད, mtshan stod) are not clear, and even those that arose are forgotten, so they have no fruit; but at dawn (ཐོ་རངས, tho rangs), whether a good dream or a bad one is seen, if it is clear and not forgotten, the fruit, good or bad, comes. (The extended explanation is from the *Moonbeams*, Zla zer, the commentary on the Eight Limbs, which Byang pa quotes next to it:) the first five of the six kinds, one's own nature and day-dreams, and the very long and the very short have no fruit; and the lines «a dream of the first part of the night: its fruit is far, what is seen is made small»: a dream dreamt up to the half of the first part of the night (མཚན་སྟོད་ཕྱེད་པ་ཡན་ཆད, mtshan stod phyed pa yan chad) has its fruit far off, and what is seen is for the most part small and weak.
+
 ## <a id="bjp-p197"></a>bjp:p197 Ch. 7: dreams are the distant signs, and what turns them back
 
 *Read: etext, 2026-11-09.*

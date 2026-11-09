@@ -521,6 +521,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
+| [claims/night-watches-st-rule-against-thirds-and-svapnohana.md](claims/night-watches-st-rule-against-thirds-and-svapnohana.md) | claim, note | The Four Tantras' dream rule beside the three-thirds rule of LGD and RST and the Svapnohana's watches | cites bjp:p183, rsp:p213, svo:p268, lgd:p966-967, rst:p1-8, bdk:p53-54; feeds block-73 |
 | [claims/night-watches.md](claims/night-watches.md) | claim, note | The night's watches in the Tibetan sources: counted, never bounded by the clock | cites svo:p271e, wb.1:p101, wb.1:p17b, wb.2:p403, wb.1:p134-135, wb.1:p22, wb.2:p156, wb.2:p535-537, svo:p268, svi:p261; feeds block-73 |
 | [claims/notes-collection-not-found.md](claims/notes-collection-not-found.md) | claim, note | The collection of deep points to be written separately: not found | cites wb.2:p538-539b; feeds — |
 | [claims/notes-gold-grid-gyo-khang-reprint-and-1996.md](claims/notes-gold-grid-gyo-khang-reprint-and-1996.md) | claim, note | The gold reckoning's grid is gyo khang on the reprint and the 1996 print too | cites wb.2:p538-539b; feeds — |
@@ -595,12 +596,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
 | [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, gt:i42-43, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57, gt:i42; feeds S1 |
 | [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351, ktr:p329-332, bdk:p580-581, mbl:p521-522; feeds S1 |
+| [claims/st-dream-night-first-part-dawn.md](claims/st-dream-night-first-part-dawn.md) | claim, rule | The Explanatory Tantra's rule of the dream by night: the first part of the night forgotten and without fruit, the clear dawn dream gives it | cites gt:i42, bjp:p183, rsp:p213, bdk:p53-54, ktr:p303-307; feeds S1 |
 | [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21, bjp:p57, rsp:p57, ktr:p175-177, bdk:p34; feeds S1 |
 | [claims/st-dream-rims-cham.md](claims/st-dream-rims-cham.md) | claim, rule | The dream among the signs of the cham of the pestilence (ch. 27) | cites st:p241, st:p241-242b; feeds S1 |
 | [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493, ktr:p684-685, bdk:p789-790, ktr:p688; feeds S1 |
 | [claims/st-dream-unripe-fever.md](claims/st-dream-unripe-fever.md) | claim, rule | The dream among the signs of the unripe fever (ch. 15) | cites st:p183, st:p185-186; feeds S1 |
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218, st:p222-223; feeds S1 |
 | [claims/st-lhas-tshor-lder-bzo.md](claims/st-lhas-tshor-lder-bzo.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ and ལྡེར་བཟོ་འགུལ in ST ch. 81: what the other prints and the commentaries read | cites st:p350-351, ktr:p329-332, bdk:p580-581, lth:p325, lhq:p509, mnb:p267, mbl:p521-522; feeds S1 |
+| [claims/st-serthang-scan-pp31-32-missing.md](claims/st-serthang-scan-pp31-32-missing.md) | claim, note | The Serthang scan lacks printed pp. 31–32, the leaf of ch. 7's dream lines | cites st:p34; feeds S1 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
@@ -958,7 +961,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
 | [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 1 passages: 1 machine |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
-| [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 3 passages: 3 etext |
+| [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
@@ -970,7 +973,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
-| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 2 passages: 2 machine |
+| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 3 passages: 3 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
@@ -1007,7 +1010,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
-| [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 3 passages: 3 etext |
+| [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
