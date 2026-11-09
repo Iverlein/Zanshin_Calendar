@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD221 (2026-11-09): RST etext MW1ALS06558E pp. 3–20, KBS pp. 66–80, KDL pp. 235–240.
+
 Read by RD209 (2026-11-09): KCM pp. 679–682, SKP pp. 40–55, DTD vol. 10 pp. 219–220 and the NLM manuscript pp. 155–158, RBG vol. 3 pp. 203–205 (witness), RST etext, RRT vol. 41 pp. 186–195.
 
 ## <a id="rst-p1-8"></a>rst:p1-8 The dream part: the three watches, the good and bad images, whose apparition each is, the dreams of death

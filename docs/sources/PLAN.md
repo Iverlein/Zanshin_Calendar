@@ -1620,3 +1620,6 @@ Searched and found wanting, so not to be repeated:
 - **RD217, 2026-11-09** (RD217, 2026-11-09):
   - No MITRA slot came within ten minutes (rd218 and rd220 held the card).
   - The cursive TDR and SRM scans (2173×460 and 4320×896) were not legible enough to check by eye; `scans.py line` fails on these landscape pages (IndexError), crops with explicit coordinates work.
+- **RD221, 2026-11-09** (RD221, 2026-11-09):
+  - MDP (MW21880): etext IE0OPIE0503306_I4992 answers 403 again; the iiifpres manifest of I4992 lists 41 canvases and an image beyond them answers 401; no route to its dream part (pp. 134–137). BDRC full-text search shows MDP holds the same verses (snippets only).
+  - BDRC: no print of this text from Klong rdol's gsung 'bum found; KDL (MW29669_5E6E42, pp. 235–240) begins at Garga with no dream part; a part of the women's title stands separately as MW29669_8009F4 (pp. 255–258, not compared). ldspdi POST /osearch/search and /search answer 405, the Person_Works query template fails with 500; the person record is P22.
