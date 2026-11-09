@@ -1746,3 +1746,7 @@ Searched and found wanting, so not to be repeated:
   - Waseda's 古典籍総合データベース answered 503 maintenance throughout; Waseda's 夢占吉凶秘傳書 (bunko30_e0277) not opened.
   - The NDL fulltext API (lab.ndl.go.jp/dl/api/book/fulltext-json/<pid>) answers 403 for the 和古書 microfilm items (the 大雑書 prints 14970xxx, 14487xxx); only pids 2539476, 2533938, 2541867 and 9892379 returned text; the NDL search lists 76 大雑書 titles, almost all restricted.
   - komonjo.rokumeibunko.com (the transcribed 夢合長寿鑑絵抄) and 575.jpn.org gave certificate errors, not bypassed; Aozora and the 立命館 ARC portal gave only portal pages; the 江戸東京博物館 answer on 初夢 (secondary) says 大晦日, then from the Tenmei years the morning of 1–2 January, then the night of 2 January, naming no source text.
+- **RD254, 2026-11-09** (RD254, 2026-11-09):
+  - The page image of the Shechen etext's second place (VE1KG14_037, «མཁའ་འགྲོ་ལྔ་སྐོར», etext p. 36): the etext's page markers restart with each text and its 2087 pages run past the print volume I1KG52 (about 830 images); Yigdzin-1 on every hundredth image of I1KG52, I1KG53 and I1KG54 (img. 100–800) and locate.py map gave no hit, so its volume and image are not known.
+  - Zhe chen second syllable: no crop at 3–12× tells «རུག» from «དྲུག» or «ཟུག»; MITRA reads «དྲུག» on every crop.
+  - Sbas-yul first syllable: «རྟ», «རི», «རཾ», «རྀ» across the machines' crops, not settled by eye.
