@@ -1660,3 +1660,8 @@ Searched and found wanting, so not to be repeated:
   - No Chag-po-ri or Derge print of the Four Tantras found served on BDRC; the only second print used is the Drathang woodblock GT (I4CZ327131), images 1763-2669 px wide with red interlinear notes illegible at that size (ST img. = GT img. + about 5 early on and around ch. 81; ST 362-363 = GT 462; ST 507 = GT 647; ST 34 = GT 29).
   - Steinert's dictionaries by Wylie headword: ལྕོལ, སྡིག་སྡོམ, ལྷས་ཚོར, ཕྱུ have no headword; ནིའུ་གསིང only as ne'u gsing with one Vinaya line.
   - GT img. 660, 662 read the Final Tantra, not ch. 91: ch. 91's end is GT 647-649.
+- **RD228, 2026-11-09** (RD228, 2026-11-09):
+  - The Dpe bsdur ma scans of vol. 14 (I1PD95859) and vol. 25 (I1PD95870) are restricted: BDRC serves 41 images, none of these pages; only the OCR etext with its variant notes was read, note markers lost, each note assigned to its word by order only.
+  - No etext of the Peking or Narthang prints (W22704) and no Co ne print with scans found; the Narthang etext of W2KG5015 is badly garbled OCR and not used.
+  - bdrc.py volumes and the collection manifest answer 'Insufficient rights' for these Tengyur instances; volume ids come from purl.bdrc.io/resource/W….json (instanceHasVolume, then volumeNumber): Peking vol. 28 is I1KG13197, Narthang I2KG212312 and I3279, the gser bris ma I1PD31365; bdrc_search.py found the five LGD prints (MW01CT0060, MW18978, MW23445, MW2PD17514, MW1LT3204) with open scans.
+  - No Sanskrit parallel of the Svapnohana's dream catalogue published that was found.

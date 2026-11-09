@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318) and Narthang (W2KG5015 img. 284–288) prints and the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); LGD in the Palri Parkhang, Kazi, Ngodrup and Sherab Drimay, Sbas-yul prints and the Shechen etext.
+
 Read by RD208 (2026-11-09): LGD: Rin chen gter mdzod vol. 42, printed pp. 961–971 (I1KG57 img. 980–990, image = page + 19).
 
 ## <a id="lgd-p961-966"></a>lgd:p961-966 The rite of examining dreams: the approach, the application, the way of lying down

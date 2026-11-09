@@ -383,7 +383,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-throne.md](claims/dream-throne.md) | claim, list | Sitting on a throne | cites svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-treasure-wealth-found.md](claims/dream-treasure-wealth-found.md) | claim, conflict | Wealth, a treasure, gold or jewels found | cites wb.2:p144, lgd:p967, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-trees.md](claims/dream-trees.md) | claim, list | Trees: planted, flourishing, climbed | cites lgd:p967, lgd:p969-970, svo:p269, skp:p40-50, kbs:p72-78; feeds S2, RD216 |
-| [claims/dream-unsettled-words.md](claims/dream-unsettled-words.md) | claim, list | Dream images whose verdict rests on an unsettled word | cites svo:p268-271, svo:p269, svo:p270, svo:p271, svi:p261-262, lgd:p968-969, st:p350-351, st:p493, st:p21; feeds S2, RD216 |
+| [claims/dream-unsettled-words.md](claims/dream-unsettled-words.md) | claim, list | Dream images whose verdict rests on an unsettled word | cites svo:p268-271, svo:p269, svo:p270, svo:p271, svi:p261-262, lgd:p968-969, st:p21; feeds S2, RD216 |
 | [claims/dream-vessels-full-empty.md](claims/dream-vessels-full-empty.md) | claim, list | Vessels full or empty; tools fine or broken | cites lgd:p967, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-vomiting-thieves.md](claims/dream-vomiting-thieves.md) | claim, list | Vomiting; goods carried off by thieves; goods or clothing taken | cites skp:p40-50, rrt:p186-195; feeds S2, RD216 |
 | [claims/dream-wandering-alone-plain.md](claims/dream-wandering-alone-plain.md) | claim, list | Walking alone on a plain | cites lgd:p968-969, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
@@ -1594,6 +1594,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0822.md](questions/q0822.md) | question q822 | ཕྱུ in ST ch. 91 «མོ་ཕྱུ་རིམ་གྲོ་རྟེན་འབྲེལ»: what is the second of the four remedies? | open; cites st:p493 |
 | [questions/q0823.md](questions/q0823.md) | question q823 | ST ch. 2 «རྨི་ལམ་དག་ན»: is དག the plural marker or 'clear'? | open; cites st:p21 |
 | [questions/q0824.md](questions/q0824.md) | question q824 | Are the two bracketed remedies of ST ch. 91 (the thread; the milk of cattle and goats) interlinear notes that entered the Serthang text? | open; cites st:p493 |
+| [questions/q0825.md](questions/q0825.md) | question q825 | Which animal or thing is the «ལ་མོ» of the Svapnohana, and is «བླ་མོ» a mistake for it? | open; cites svo:p271b |
+| [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
 
 <!-- end pool index -->
 

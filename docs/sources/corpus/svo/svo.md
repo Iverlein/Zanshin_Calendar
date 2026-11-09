@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318) and Narthang (W2KG5015 img. 284–288) prints and the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); LGD in the Palri Parkhang, Kazi, Ngodrup and Sherab Drimay, Sbas-yul prints and the Shechen etext.
+
 Read by RD216 (2026-11-09): the passages of RD59, RD207–RD212 and RD215, and WB ch. 25's dreams of the sick (no page read afresh).
 
 Read by RD215 (2026-11-09): WB vol. 1 pp. 17, 22, 101, 134–135, vol. 2 pp. 156, 403, 535–537 and SVO p. 268, SVI p. 261.
