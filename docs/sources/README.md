@@ -1725,6 +1725,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0867.md](questions/q0867.md) | question q867 | Is the Vāgbhaṭa Śārīrasthāna 6 passage in the Śabdakalpadruma the Aṣṭāṅgahṛdaya's, and what does its line on the early night and the cows' path say in an edition? | open; cites skd:p471-472 |
 | [questions/q0868.md](questions/q0868.md) | question q868 | Does the Bṛhaspati Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's i, Leipzig 1178) read three fortnights and a month as Negelein prints it, or eight months, three months, half a month? | open; cites neg:p14-16 |
 | [questions/q0869.md](questions/q0869.md) | question q869 | Is the Brahmavaivarta's dream chapter older than the Svapnohana's Tibetan translation of about 1200, and does Scheuermann name a Sanskrit parallel? | open; cites svo:p271f |
+| [questions/q0870.md](questions/q0870.md) | question q870 | In the Co ne Svapnohana the fourth-watch line stands after «ཐུན་གཉིས/གསུམ་གྱི་བར»: does it read «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» as the Narthang prints, «ཟླ་བ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་པར་དུ», and is the third watch's line there «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར» or the shorter «ཐུན་གཉིས་གསུམ་གྱི་བར»? | open; cites svo:p271g |
 
 <!-- end pool index -->
 
