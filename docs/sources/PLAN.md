@@ -1627,3 +1627,11 @@ Searched and found wanting, so not to be repeated:
   - No dream image is read by WB ch. 30 beyond p. 144, and WB ch. 25 has only four dream lines (the ox-day rough dreams, the five-yellow mewa's dreams of za zi, the dragon-year skull remedy, the pig-year omen of the ritualist bitten in the sick person's dream).
   - KCM, DTD, RBG and KDL give no images with verdicts, and neither does MDP, which is unreachable.
   - Klong rdol's dream text is the ACIP etext RST (RD221), so KBS and RST are not independent witnesses; their agreement on images is not two sources.
+- **RD218, 2026-11-09**: the scans of I1344 img. 268–270 and I1365 img.
+  261–262 are bitmaps with letters about 8 px high, so la/ba, the tsheg's
+  place and the stacked letters of Sanskrit words cannot be read; Yigdzin-1
+  and MITRA agree on 96–99 % of each page and the passages moved from etext
+  to machine, not to scan. Only a higher-resolution scan (the archive.org loan,
+  or BDRC's original) can settle RD207's spelling doubts. `scans.py line`
+  finds only 1–2 lines on these 7-line strips; cut bands by hand, line k at
+  about y = 42 + 37.5 × (k − 1) px.
