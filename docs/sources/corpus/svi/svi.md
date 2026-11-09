@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD276 (2026-11-09): SVI in the Co ne print (vol. 49, I1GS66080 img. 263–264) by Yigdzin-1 and MITRA on frames and strips; the three parts of the night and the families' line only; see svi:p130.
+
 Read by RD236 (2026-11-09): SVI in the Narthang manuscript (W2KG5015 vol. 46, I2KG212330 img. 289–291) by eye, W22704 (I3297 img. 291–293) as a copy of it, and the Dpe bsdur ma notes (W1PD95844 vol. 25 etext pp. 415–418).
 
 Read by RD234 (2026-11-09): SVI on the Peking print (W1KG13126 vol. 46, I1KG13215 img. 309–312).
@@ -16,6 +18,26 @@ Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–26
 Read by RD234 (2026-11-09): the examination of dreams in the Peking Tengyur (W1KG13126 vol. 46, I1KG13215 img. 309–312) by eye on enlargements, against the Derge etext.
 
 Read by RD218 (2026-11-09): the same pages again with Yigdzin-1 and MITRA (img. 268–271 of I1344, 261–262 of I1365) and, on the scan, the layout and the doubts below by eye on 4–6× crops. The scans are bitmaps whose letters are about 8 pixels high: la/ba, the vowel signs and the stacked letters of a loan-word cannot be told apart on them, so none of RD207's spelling doubts is settled by the eye; each is left as a doubt with what the two machines read.
+
+## <a id="svi-p130"></a>svi:p130 The examination of dreams in the Co ne print (vol. 49, 130a1-130b7)
+
+*Read: machine.*
+
+> Co ne vol. 49 (I1GS66080), img. 263 (130a), the three parts of the night:
+> དང་པོའི་ཆ་ནི་བག་ཆགས་འཁྲུག །གཉིས་པར་ཡི་དགས་རྒྱུ་བར་འགྱུར། །ཐ་མར་རྨི་ལམ་བརྟགས་ལ་ཉལ། །
+> 
+> Co ne vol. 49, img. 264 (130b), the families' line:
+> འོད་དཔག་མེད་དང་དོན་ཡོད་གྲུབ་པ་དང་། །མི་བསྐྱོད་པ་དང་རྡོ་རྗེ་སེམས་རིགས་དྲུག །
+
+The Co ne print of Advayavajra's examination of dreams (rKTs 4282, Co ne item C2052, vol. 49 «rgyud tshi» 130a1-130b7, images 263-264 of I1GS66080; the place found by RD273). Two places read, by Yigdzin-1 on the frame at 1.5x and at 2x (unsharp mask) and by MITRA on the 1.5x frame and a half-line strip; letters about 25 px, bitonal, dotted.
+
+The three parts of the night (img. 263, line 3): the first part disturbs the habit-traces (bag chags), in the second the hungry ghosts (yi dwags) go about, in the last one sleeps having examined the dream. Both Yigdzin-1 readings give «ཐ་མར་རྨི་ལམ་བརྟགས་ལ་ཉལ», as the Derge etext; MITRA's frame gives «མཐར་…ཞལ» and its strip «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ» (the extra «པ» of the Peking, svi:p309-312, as a doubt); not read letter by letter by eye (the line is too dotted at 4x), so the Co ne agrees with Derge on the two Yigdzin-1 readings and with Peking's extra syllable on one MITRA strip.
+
+The families' line (img. 264): after Vairocana and Ratnasambhava, Amitabha (འོད་དཔག་མེད, 'od dpag med), then Amoghasiddhi («དོན་ཡོད་གྲུབ་པ», don yod grub pa), Akshobhya (མི་བསྐྱོད་པ, mi bskyod pa) and the six families' Vajrasattva (རྡོ་རྗེ་སེམས, rdo rje sems): the Amoghasiddhi syllables are the same in all four runs; the line ends «རིགས་དྲུག» in both Yigdzin-1 readings and «རིགས་བྱུང་» in MITRA's, as the Derge etext's «རིགས་དྲུག»; by eye not read.
+
+Img. 263 opens with the preceding work's colophon (མཛད་པའོ) and the Sanskrit title, which each run garbles (Yigdzin-1 «སྭ་པ་ན་མི་ཀྵ», MITRA «སྤང་ཐ་མི་ཥྛ»). Img. 264 ends with the colophon: the work is by the Indian pandit Advayavajra (དཔལ་ལྡན་གཉིས་སུ་མེད་པ), translated by a yogin (the translator's name garbled: «ཛྙཱ་ན» and «ཤྲཱི» are read).
+
+Not done: the Co ne's other watch-lines are the three parts only (the work has no half-month watch verse); the two lines above were not read letter by letter, so none of the Peking-Derge differences of svi:p309-312 is settled for the Co ne.
 
 ## <a id="svi-p261"></a>svi:p261 Title, preparation, the three parts of the night, the images by family
 
