@@ -801,7 +801,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
-| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 6 scan, 6 machine |
+| [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 18 passages: 18 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 59 passages: 37 scan, 22 machine |
@@ -809,7 +809,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 7 scan, 6 machine |
-| [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 12 scan, 5 machine |
+| [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 14 scan, 3 machine |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 5 passages: 5 scan |
@@ -1369,6 +1369,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0781.md](questions/q0781.md) | question q781 | Ch. 3 p. 23 line 12: Nāgārjuna's year prints (༧༡༦༧) and (༢༩༤) | open; cites wb.1:p23 |
 | [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | open; cites wb.1:p24 |
 | [questions/q0783.md](questions/q0783.md) | question q783 | Ch. 3 p. 27 line 26: the stack in «བིགས» | open; cites wb.1:p27 |
+| [questions/q0784.md](questions/q0784.md) | question q784 | Written sources on reading dreams, and whether any ties them to the calendar | answered; cites wb.2:p144, wb.2:p144e |
 
 <!-- end pool index -->
 

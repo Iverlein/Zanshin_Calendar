@@ -1570,3 +1570,14 @@ Searched and found wanting, so not to be repeated:
 - 2026-11-08, RD205: ch. 7 p. 43, the table's tops and middles (twelve columns of three small figures) read again at 4–7× but not settled (only the bottom row 0, 15, 10, 45 ×3 is secure); the column of five small figures between lines 10 and 12 beside «Mars» (roughly a dot, 11, 1, 14, 144) not read.
 - 2026-11-08, RD184c: WB ch. 18 pp. 198 and 204 on the reprint I3CN5028 (img. 197, 203), one line per crop in two halves at 3–4× (zoom 7–8×), were legible (this supersedes the RD184b entry for crops) and every line was compared with the stored text. Three stacks resist the 1-bit print at any enlargement: p. 204 l. 7 «ལྟོག/ལྷོག», l. 24 «ལྗང/ལྡང», ll. 11–12 and p. 198 l. 19 «སྨྱུ/སྒྱུ». Next time: another witness for those three words (the Taikhang I5877 at its own resolution, or a clean ལྟ / ལྗ / སྒྱུ in the same print to compare shapes), not more enlargement of the reprint.
 - 2026-11-08, RD184d: WB ch. 18 pp. 200–202 on the reprint I3CN5028 (img. 199–201), one line per crop in two halves at 2.2× (zoom 5–6×), legible; pp. 200 and 201 raised to scan. One stack is not told apart in the 1-bit print: p. 202 l. 2 «ལྡང / ལྟང / ལྷང» (last syllable of «མཁྲིས་པའི་ནད་ལྡང»); the page stays machine. Next time: another witness for that word (the Taikhang I5877, ch. 18 = folios 237–246, at its own resolution), not more enlargement of the reprint. The viewer shows about 2000 px across: a half-line at 2.2× is the effective limit; stacking 4–5 lines of one half per image halves the views.
+- **Dreams and the calendar, 2026-11-09** (question 784): BDRC's full-text
+  search finds no text that reads dreams by date: «རྨི་ལམ་ལ་བརྟེན་པའི་འཆི་ལྟས» no
+  hit, «ཐོ་རངས་རྨིས» once (Tāranātha's autobiography), «ཚེས་ལ་རྨི་ལམ» four times, all
+  biographies dating a dream, «གཟའ་ལ་རྨི་ལམ» none; «རྨི་ལམ་བརྟག» (863 hits) and «རྨི་ལྟས»
+  (2172) are manuals by image and ritual, listed in the question. Brill's
+  chapter pages answer "Human Verification" (405) and OAPEN "Making sure
+  you're not a bot" (403) to the headed browser as to a static fetch;
+  nichibun.repo.nii.ac.jp answered 503 to both; the Hokkaidō repository's
+  PDF link is not in the record page's text. A static fetch of the Four
+  Tantras' etext (IE0OPIFEF6EACA, one volume, 692 chunks) works with
+  `bdrc.py etext` in under a minute.
