@@ -15,6 +15,8 @@ Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–26
 
 Read by RD218 (2026-11-09): the same pages again with Yigdzin-1 and MITRA (img. 268–271 of I1344, 261–262 of I1365) and, on the scan, the layout and the doubts below by eye on 4–6× crops. The scans are bitmaps whose letters are about 8 pixels high: la/ba, the vowel signs and the stacked letters of a loan-word cannot be told apart on them, so none of RD207's spelling doubts is settled by the eye; each is left as a doubt with what the two machines read.
 
+Read by RD228 (2026-11-09): the Svapnohana in the Peking (I1KG13197 img. 315–318) and Narthang (I2KG212312 img. 284–288) Tengyur and in the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); the Lama Gongdü's goods of gossip in five prints (corpus/lgd/lgd.md).
+
 ## <a id="svo-p268"></a>svo:p268 Title, the watches of the night and their spans, the first images (page 268 lines 4–7)
 
 ## <a id="svo-p268-271"></a>svo:p268-271 The examination of dreams, whole: the watches of the night, the images, the remedy
@@ -77,3 +79,36 @@ Remedy: "Red sandalwood sticks smeared with butter: make a fire offering (སྦ
 Notes. The Gāyatrī's name is «ག་ཡ་ཏྲི» in the etext and «ག་ཡ་ཏཱི» in Yigdzin-1, a spelling doubt not settled on the scan. The work's last line, «རྨི་ལམ་བརྟག་པ་རྫོགས་སོ།།», stands in line 4 on the scan, with the translator's colophon (read on Yigdzin-1 and in the etext's second chunk of the page; the etext's first chunk stops at «རྫོགས་སོ»).
 
 RD218: the Gāyatrī's name: Yigdzin-1 «ག་ཡ་ཏཱི», MITRA «གཡ་ཏི», the etext «ག་ཡ་ཏྲི»; on the scan the stacked letter is too coarse to choose, a doubt (the Sanskrit is gāyatrī, which none of the three spells with certainty).
+
+## <a id="svo-p271b"></a>svo:p271b Other prints of the Svapnohana: Peking, Narthang, the Dpe bsdur ma etext
+
+*Read: scan, 2026-11-09.*
+
+> Peking (img. 317, 315, 318 of I1KG13197), the five places read by eye on the scan:
+> 
+> རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །
+> འགྲོན་བུ་གླང་དང་བ་རྣམས་དང་། །
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །
+> རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
+> ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །
+> 
+> Narthang (I2KG212312 img. 286 by eye, img. 284 and 287 by Yigdzin-1):
+> 
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །
+> རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
+
+The Svapnohana in two other prints of the Tengyur (Peking, Narthang) and in the Dpe bsdur ma etext, for the five places the Derge scan's 8-pixel letters would not settle. Peking (BDRC W1KG13126, vol. 28, printed on red; image group I1KG13197, img. 315–318, letters about 40 pixels high), read by Yigdzin-1 and each of the five places then by eye on enlargements: "(dreams) are not a road taken: auspicious" (བགྲོད་མིན, bgrod min), "traveller (འགྲོན་བུ, 'gron bu), ox and cow", "within ten (བཅུ་ཡི་བར, bcu yi bar)", "a horse, la mo (ལ་མོ), a pot-belly (ལྟོ་འཕྱེ)", "the Gāyatrī (ག་ཡ་ཏྲི) recited a thousand times". Narthang (W2KG5015, vol. 28 pp. 282–285, I2KG212312 img. 284–287, a hand-cut print with letters about 30 pixels high): the same «བཅུ་ཡི་བར» and «རྟ་ལ་མོ» read by eye on enlargements; the rest by Yigdzin-1, which reads the other three places as Peking does (the Gāyatrī's third syllable by eye as ཏྲི, less certain). The Dpe bsdur ma etext (W1PD95844 vol. 14 pp. 1364–1368, the Derge text collated with the Peking, Narthang and Co ne prints; its scans are restricted, the etext is OCR with the printed variant notes) has the same text as the Derge etext in all five places and a note that Peking and Narthang read «ལ» where it has «བླ».
+
+### Open (RD228)
+
+- Question: In the Peking and Narthang prints «རྟ་ལ་མོ» (without the subjoined la) stands where the Derge text has «རྟ་བླ་མོ», in "a horse, ___, a pot-belly, a water creature seized"; which animal or thing is the «ལ་མོ» (la mo) of the Svapnohana, and is «བླ་མོ» a mistake for it?
+- Question: In the Lama Gongdü's list of goods of gossip (མི་ཁའི་རྫས, mi kha'i rdzas) the five prints give «རམ་རུག» in three places and then «སྤང་གཡེང», «སྤང་གཡེར», «སྦང་གཡེར», «སྦང་མ», «སྦར་ཁྱེར»; what are the goods called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma?
+
+### Searched and not found (RD228)
+
+- The Dpe bsdur ma scans of vol. 14 (I1PD95859) and vol. 25 (I1PD95870) are restricted: BDRC serves 41 images, none of these pages; only the OCR etext with its variant notes was read, and its note markers did not survive, so each note was assigned to its word by order only.
+- The Peking etext (IE0OPI647D7CBC) and the Narthang etext of W22704 and the Co ne print: no etext served; the Co ne print has no BDRC instance of the work with scans found (the Dpe bsdur ma notes cite it, «ཅོ་», in one variant only).
+- The two further Narthang prints (W22704 vol. 28 I3279 pp. 286–289; the gser bris ma W23702 vol. 28 I1PD31365 pp. 386–391) were fetched and not read for lack of time; the Narthang etext of W2KG5015 is badly garbled OCR and was not used as a reading.
+- Advayavajra's examination (SVI) in the Peking (W1PD95844 vol. 25 pp. 415–418 is the Dpe bsdur ma; Peking W1KG13126) was not looked for: none of its words was on the row's list.
+- Lama Gongdü: the Zhe chen mkhar dmar print (W2PD17514 vol. 33 I4PD2250 img. 303–314) was fetched and not read; the Kazi and Sbas-yul readings are Yigdzin-1 only, not looked at on the scan; the vol. 37 copy of the Shechen set was read as etext only; no Sanskrit parallel is published (none found).
+- The Palri Parkhang print's pages 534–545 (I01CT0067) hold the whole dream text; only img. 542 was read.

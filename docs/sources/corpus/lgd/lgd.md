@@ -61,6 +61,29 @@ Third, the signs of the bad. In general the reverse of those good ones: darkness
 
 Fourth, the good and bad arising mixed. For the good and bad mixed at dusk and dawn there is no certainty. Good first and bad after: it turns to the side of the bad. Bad first and good after: it turns good. If it is mixed and not recognised, it is to be known as a trick.
 
+## <a id="lgd-42-p969b"></a>lgd.42:p969b Other prints of the Lama Gongdü's dream signs: the goods of gossip
+
+*Read: scan, 2026-11-09.*
+
+> Palri Parkhang (I01CT0067 img. 542, line 1, by eye on the typeset page):
+> རྟ་རྒོད་ལ་ཞོན་ནས་དབང་མེད་དུ་ཁྲིད་པ༔ རམ་རུག་སྤང་གཡེང་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
+> 
+> Kazi (I6132 img. 559, Yigdzin-1 only):
+> རམ་རུག་སྤང་གཡེར་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
+> 
+> Ngodrup and Sherab Drimay (I1867 img. 309, line 4, by eye on the hand script):
+> རི་ཏུག་སྦར་ཁྱེར་ལ་སོགས་པ་མི་ཁའི་རྫས་ལ་སྤྱད་པ༔
+> 
+> Sbas-yul manuscript (I1LT3208 img. 148, Yigdzin-1 only):
+> རྟ་ཇུག་སྦང་ཕྱེར་ལ་སོཌ་པ་མི་ཁའི་རྫས་ལ་སྤྱད་པ༔
+> 
+> Shechen, the other copy in vol. 37 (etext, a different place of the same set), the same list:
+> རམ་རུག་སྦང་གཡེར་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
+> and a parallel in the same volume, in the list of what feeds the gossip:
+> སྣམ་སྒྱེ་ཁྲ་བོའི་ནང་དུ་ཞབས་རམ་རུག་དང་སྦང་མ་ལ་སོགས་མི་ཁའི་རྫས་ཀྱིས་བཀང༔
+
+The bad list's item "using things such as … , goods of gossip" (མི་ཁའི་རྫས, mi kha'i rdzas) in five prints of the Lama Gongdü's dream signs, for the three words the Shechen scan (vol. 42 pp. 968–969) would not settle. Palri Parkhang (BDRC W01CT0060 vol. 7 pp. 533–544; a clean typeset page): «རམ་རུག» (ram rug), then «སྤང་» and «གཡེང» (spang, g.yeng). Kazi (W18978 vol. 7): the machine reads «རམ་རུག་སྤང་གཡེར». Ngodrup and Sherab Drimay (W23445 vol. 9 pp. 299–308; hand script): «རི་ཏུག་སྦར་ཁྱེར» by eye and by machine, a different wording. The Sbas-yul manuscript (W1LT3204 vol. 5 pp. 141–150): the machine reads «རྟ་ཇུག་སྦང་ཕྱེར». The other Shechen copy in vol. 37 (VE1KG14_037, etext; its page images not read) has the same list as the vol. 42 etext, «རམ་རུག་སྦང་གཡེར», and another place of the volume, in a list of what a gossip-sign is to be turned back with, names «ཞབས་རམ་རུག» and «སྦང་མ» as goods of gossip. The prints do not agree on the words; the ones that agree on the first two syllables (ram rug) are Palri, Kazi and the two Shechen places.
+
 ## <a id="lgd-p969-970"></a>lgd:p969-970 The bad that resembles good
 
 *Read: scan, 2026-11-09.*

@@ -467,6 +467,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/lgd-dream-signs-that-reverse.md](claims/lgd-dream-signs-that-reverse.md) | claim, list | The bad that resembles good and the good that resembles bad in LGD | cites lgd:p969-970, lgd:p970; feeds S2, RD216 |
 | [claims/lgd-dream-times-of-night.md](claims/lgd-dream-times-of-night.md) | claim, rule | Which dreams of the night are of habit, the afflictions and omen (LGD) | cites lgd:p966-967; feeds S2, RD216 |
 | [claims/lgd-good-dream-signs.md](claims/lgd-good-dream-signs.md) | claim, list | The good dream signs of LGD | cites lgd:p967; feeds S2, RD216 |
+| [claims/lgd-goods-of-gossip-prints.md](claims/lgd-goods-of-gossip-prints.md) | claim, conflict | The prints of the Lama Gongdu's dream signs differ on the three words of the goods of gossip | cites lgd.42:p969b, lgd:p968-969; feeds RD228 |
 | [claims/lgd-rite-stages.md](claims/lgd-rite-stages.md) | claim, rule | The three stages of the Lama Gongdü dream examination: approach, application, examination | cites lgd:p961-966; feeds S2, RD216 |
 | [claims/lgd-three-yogins.md](claims/lgd-three-yogins.md) | claim, rule | The three grades of yogin before a dream in LGD | cites lgd:p971; feeds S2, RD216 |
 | [claims/life-reckoning-middling-does-not-bar.md](claims/life-reckoning-middling-does-not-bar.md) | claim, note | A middling life reckoning does not bar the match by reply 111's letter | cites ys:i467-468, wb.1:p349; feeds block-58 |
@@ -591,8 +592,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
+| [claims/svo-gayatri-spelling.md](claims/svo-gayatri-spelling.md) | claim, note | The Gayatri's name in the Svapnohana is ga ya tri in Peking | cites svo:p271b, svo:p271; feeds RD228 |
 | [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
 | [claims/svo-images-unfortunate.md](claims/svo-images-unfortunate.md) | claim, list | The Svapnohana's unfortunate images and their verdicts | cites svo:p269, svo:p270, svo:p271; feeds block-73 |
+| [claims/svo-la-mo-conflict.md](claims/svo-la-mo-conflict.md) | claim, conflict | Peking and Narthang read rta la mo where the Derge text has rta bla mo | cites svo:p271b, svo:p270; feeds RD228 |
+| [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-remedy.md](claims/svo-remedy.md) | claim, remedy | The Svapnohana's remedy for bad dreams | cites svo:p271; feeds block-73 |
 | [claims/svo-time-ties-other-than-the-watch.md](claims/svo-time-ties-other-than-the-watch.md) | claim, note | The Svapnohana's ties of a dream to a time other than the watch | cites svo:p268, svo:p269, svo:p270, svo:p271, svi:p261; feeds block-73 |
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
@@ -943,7 +947,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
-| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 8 passages: 8 scan |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 9 passages: 9 scan |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
@@ -967,7 +971,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 8 passages: 8 scan |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 3 passages: 2 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 5 passages: 4 machine, 1 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 6 passages: 1 scan, 4 machine, 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
