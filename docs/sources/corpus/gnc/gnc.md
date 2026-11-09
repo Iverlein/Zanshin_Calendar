@@ -15,6 +15,8 @@ Read by RD222 (2026-11-09): GNC img. 565-569 run through Yigdzin-1 and MITRA (on
 
 Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6 pp. 386–389 (I3JW3517 img. 392–395), GNC vol. 1 pp. 557–558 (I1662 img. 565–566).
 
+Read by RD239 (2026-11-09): not reached; no second print of GNC was searched for in BDRC (the time ran out on SRM).
+
 ## <a id="gnc-1-p557-558"></a>gnc.1:p557-558 Gnam chos: the end of a horse spell and the heading of the Great Compassionate One's examination of dreams, with the wheel at the pillow
 
 *Read: machine, 2026-11-09.*
