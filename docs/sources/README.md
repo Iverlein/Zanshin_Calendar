@@ -1700,6 +1700,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0861.md](questions/q0861.md) | question q861 | Is there another scan of the Serthang print, or another print whose leaf can be opened, on which the two lines of the dream by night can be read by eye? | open; cites gt:i42 |
 | [questions/q0862.md](questions/q0862.md) | question q862 | The Yu thog, Grwa thang and Peking etexts read «བརྗེད་ངས» in the first line and other etexts «བརྗེད་ངེས»: which does the Serthang print have on p. 31 or 32? | open; cites gt:i42 |
 | [questions/q0863.md](questions/q0863.md) | question q863 | Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part from midnight to dawn named anywhere in the Four Tantras' tradition? | open; cites gt:i42 |
+| [questions/q0864.md](questions/q0864.md) | question q864 | Does the Co ne Svapnohana (vol. 28, 133b3–135a3, img. 270–273) read «བགྲོད་མིན» or «བཟློག་མིན», «འགྲོན་བུ» or «འགྲོན་དུ», «བཅུ་ཡི་བར» or «བཅུ་པི་བར», «ག་ཡ་ཏྲི» or «གས་ཏྲི», and does its fourth-watch line end «ཟླ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་བར་དུ»? | open; cites svo:p271g |
+| [questions/q0865.md](questions/q0865.md) | question q865 | What do the watch lines and «ལ་མོ»/«བླ་མོ» of Advayavajra's Svapnekṣā read in the Co ne (vol. 49, 130a1–130b7, img. 263–264)? | open; cites svo:p271g |
 
 <!-- end pool index -->
 
