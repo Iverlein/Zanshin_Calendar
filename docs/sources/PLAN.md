@@ -1794,3 +1794,6 @@ Searched and found wanting, so not to be repeated:
 - **RD269, 2026-11-09** (RD269, 2026-11-09):
   - No older Indian text with the Brahmavaivarta/Svapnohana series found (not searched beyond Negelein's own list: Śabdakalpadruma, the Bṛhaspati Svapnādhyāya MSS unread); Bṛhadyātrā vv. 1–3 (p. 40) and Negelein pp. XXI, 17, 35 not opened; the OCR-based Atharva (apv) and Svapnohana lines not re-read.
   - Ids keep wrong page numbers (renaming would break cites): bvp:p662-665 (true p. 661), mtp:p453-455 (493–494), agp:p280-281 (281–282), agv:p186 (185), agv:p259-260 (260–261); the RD265 row text is stale.
+- **RD266, 2026-11-09** (RD266, 2026-11-09):
+  - Co ne vol. 63 (I1GS66094) img. 400–604 and vol. 65 (I1GS66096) img. 1–18 do not hold the Svapnohana; next places: the end of vol. 64 (only img. 480–544 every sixth sampled before), the end of vol. 65, vol. 66, or the Co ne number of the work from a Co ne catalogue (the Peking number is not the Co ne's).
+  - iiif.bdrc.io answers 429 to parallel requests: download one image at a time with a 0.5 s pause and backoff; the GPU slot is shared and waits several minutes a call at 14–19 s an image, a full OCR of 160 images about 40 minutes, a stride search is cheaper.
