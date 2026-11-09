@@ -853,8 +853,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 8 passages: 8 scan |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 2 passages: 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 4 passages: 2 machine, 2 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 3 passages: 3 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 5 passages: 2 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
