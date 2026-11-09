@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD277 (2026-11-09): Penn Ms. Coll. 390 items 1871, 673, 2730, 687, the Peerzada volume (Srinagar), Ramtek M 856, the Odia print of 1929.
+
 Read by RD276 (2026-11-09): the Co ne Svapnohana (vol. 28 img. 270–273) by eye on deskewed, enlarged crops and by Yigdzin-1 and MITRA on whole frames and half-line strips; q833's Co ne part answered (the fourth-watch line is there); see svo:p271g.
 
 Read by RD274 (2026-11-09): The claims of RD227–RD273 and every dream-* image claim.

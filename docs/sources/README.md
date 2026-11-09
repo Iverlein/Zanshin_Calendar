@@ -1001,7 +1001,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
 | [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 scan |
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
-| [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 2 passages: 2 machine |
+| [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
@@ -1732,6 +1732,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0868.md](questions/q0868.md) | question q868 | Does the Bṛhaspati Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's i, Leipzig 1178) read three fortnights and a month as Negelein prints it, or eight months, three months, half a month? | open; cites neg:p14-16 |
 | [questions/q0869.md](questions/q0869.md) | question q869 | Is the Brahmavaivarta's dream chapter older than the Svapnohana's Tibetan translation of about 1200, and does Scheuermann name a Sanskrit parallel? | open; cites svo:p271f |
 | [questions/q0870.md](questions/q0870.md) | question q870 | In the Co ne Svapnohana the fourth-watch line stands after «ཐུན་གཉིས/གསུམ་གྱི་བར»: does it read «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» as the Narthang prints, «ཟླ་བ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་པར་དུ», and is the third watch's line there «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར» or the shorter «ཐུན་གཉིས་གསུམ་གྱི་བར»? | open; cites svo:p271g |
+| [questions/q0871.md](questions/q0871.md) | question q871 | The Penn, Srinagar and Ramtek manuscripts of Bṛhaspati's Svapnādhyāya give the fourth watch a month (māsaikena), the Brahmavaivarta and the Svapnohana half a month, the Odia print a month and a half glossed fifteen days: which reading is older, and could ardhamāsena be a correction of māsena? | open; cites svo:p271f |
+| [questions/q0872.md](questions/q0872.md) | question q872 | In Negelein's manuscript i (Leipzig 1178) 'dvitīye cāṣṭame māse triyāme ca tripakṣake' has three fortnights for the third watch: does the Leipzig manuscript itself read tripakṣake, or is it Negelein's emendation of trimāsake? | open; cites neg:p14-16 |
 
 <!-- end pool index -->
 
