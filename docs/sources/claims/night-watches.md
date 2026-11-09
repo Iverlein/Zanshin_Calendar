@@ -1,0 +1,24 @@
+---
+kind: claim
+type: note
+terms: [thun, thun-mtshams, nam-phyed, tho-rengs, nam-langs]
+cites: ['wb.1:p101', 'wb.1:p17b', 'wb.2:p403', 'wb.1:p134-135', 'wb.1:p22', 'wb.2:p156',
+  'wb.2:p535-537', 'svo:p268', 'svi:p261']
+feeds: [block-73]
+open: []
+---
+# The night's watches in the Tibetan sources: counted, never bounded by the clock
+
+No Tibetan source read so far fixes the four watches of the night (ཐུན, thun) in clock terms. What the White Beryl (WB) and the other texts give is a count, not bounds, and the count differs by text.
+
+**WB: four watches by night, but unbounded.** In the passage on the Rāhu of the sessions (ཐུན་མཚམས་རྭ་ཧུ, thun mtshams rahu; vol. 1, p. 101) the sessions are "divided into four by day and four by night" (ཉིན་བཞི་མཚན་བཞི). The planets' stretches are then set as positions in this eightfold count and as spans in water-hours (ཆུ་ཚོད, chu tshod): the sun from the middle of the fourth, the moon from the middle of the seventh, Mars from the start of the second, Mercury from the start of the fifth, Jupiter from the middle of the eighth (so the day takes the first four and the night the last four, the fifth beginning at sunset). WB gives no hour, no water-hour count and no event (sunset, midnight, cockcrow) as the edge of a watch, and does not say whether the four are equal parts of the night. Ch. 34 (vol. 2, p. 403) says the same count in other words: the "own time" divides day and night into eight watches, one planet and one nāga arising at each. Ch. 13 (vol. 1, pp. 134–135, machine-read) counts eight watches in a tithi's yoginī, each with a vowel and called first to eighth, and divides "the day-and-night measure by the nāga (eight)"; it does not say whether that is one eightfold division of the whole day-and-night or one each of the day and of the night. WB's rule for the mewa and the trigrams (vol. 2, p. 156; the notes p. 535) divides the day's length alone by eight, and the notes add that the night's length is divided the same way; that is a division of each, and it is a different use from the Rāhu's four-and-four.
+
+**WB: the night of the six times and the three watches.** WB's own list of the Chinese-style times (vol. 1, p. 17, read on the scan) sets the night from sunset (ཉི་ནུབ) to dawn (ཐོ་རེངས), names its hours in this order: sunset, dusk (ས་སྲོས), the evening round (སྲོད་འཁོར), midnight (ནམ་ཕྱེད), past midnight (ཕྱེད་ཡོལ), dawn; the day's six start at "dawn" (ནམ་ལངས, the hare). So the night is six double-hours and dawn (ཐོ་རེངས) is the last of them, the close of the night, before the day's first time begins. In the same list the night is named "the time of lying down in the dark, the three watches, those where the night lotus opens": here WB counts the night in three watches (ཐུན་གསུམ). So WB itself carries a three-watch name of the night, a four-watch count in the Rāhu passage and a six-time scheme for the hours, without joining them.
+
+**The texts' own night.** The Svapnohana gives four watches and a fifth term of dawn (SVO p. 268; the claim svo-watches-and-spans); it does not bound them. The Svapna-īkṣā has three parts of the night and no word ཐུན (the claim svi-night-parts). The Buddha's night of awakening in WB (vol. 1, p. 22) is told in three: dusk (སྲོད), the first part of the night (ནམ་གྱི་ཆ་སྟོད), the middle (གུང), then dawn (ཐོ་རངས). The ritual manuals read for the four rough times (weighing.md) use the word ཐུན for the practice sessions of the day (four: dawn, morning, afternoon, dusk; or six: dusk, midnight, dawn, sunrise, noon, evening shadow), not for the watches of a night; they name moments, not spans, and none fixes a watch by the clock.
+
+**Mipham's notes and the manuals.** The etext of WB's notes (vol. 2, pp. 474–541) holds no «ཐུན་བཞི», «མཚན་ཐུན», «ནམ་ཐུན» or «སྲོད་ཐུན»; its «ཐུན» words are the hand reckoning's (q353), the nectar session (བདུད་རྩིའི་ཐུན་མཚམས, p. 471) and the half-watch (ཐུན་ཕྱེད, p. 542). No watch of the night is bounded there.
+
+**So, in clock terms.** For the four watches the only footing the sources give is that the night runs from sunset to dawn and that WB divides it into four; the bounds are therefore the night's own measure cut in four, with no stated rule that the parts are equal, and the Indian quarters of the night from sunset to sunrise are the fallback (this last point not checked against a published study). For dawn, the sources give a place in the order of the night, not a time: WB's last night time (ཐོ་རེངས) before the day's first time (ནམ་ལངས); the Svapnohana's dawn-breaking (སྐྱ་རེངས) is a fifth term after the four watches, to which "within ten days" belongs, so it is a time of its own, not the fourth watch's end.
+
+**State.** The Svapnohana and Svapna-īkṣā lines rest on the etext (RD207); WB vol. 1 p. 101, p. 17 and vol. 2 p. 403 are read on the scan; pp. 134–135 are machine-read.
