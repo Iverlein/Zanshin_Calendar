@@ -1733,3 +1733,5 @@ Searched and found wanting, so not to be repeated:
 - **RD250, 2026-11-09** (RD250, 2026-11-09):
   - Peking img. 315 line 8 last glyph (x about 4770–4820, frame at about 4830): a head-line with a left hook and a long stroke falling right, ས or ན with a tail, not told apart at 4×.
   - Seven doubtful places of the Peking Svapnohana left unread at 4× (listed in the RD250 note of svo:p271d); one crop on img. 317 line 1 hit the page number «༧༡» instead of the target.
+- **RD249, 2026-11-09** (RD249, 2026-11-09):
+  - Peking img. 318 lines 1–3: the line breaks and the start of line 1 («བཞོན») not fixed at 2×; 3–4× re-crops at the doubtful places not made.
