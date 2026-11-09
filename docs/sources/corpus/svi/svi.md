@@ -7,7 +7,11 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–262 (image = printed page).
+
 ## <a id="svi-p261"></a>svi:p261 Title, preparation, the three parts of the night, the images by family
+
+## <a id="svi-p261-262"></a>svi:p261-262 Advayavajra's examination of dreams, whole: the images by Buddha family
 
 *Read: etext, 2026-11-09.*
 

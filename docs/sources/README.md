@@ -1432,6 +1432,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0793.md](questions/q0793.md) | question q793 | Which work ends on TDR printed p. 343, and does the registry's TDR begin at the title two thirds down the page? | open; cites tdr:p343-344 |
 | [questions/q0794.md](questions/q0794.md) | question q794 | Does the Śramaṇā text's «yar ngo'i dus bzang po» mean any day of the waxing half, or does the tradition name one? | open; cites srm.6:p386-389 |
 | [questions/q0795.md](questions/q0795.md) | question q795 | What are «Dpal rno bkra» and «ma mar mo» in the GNC heading and the mantra-water rite? | open; cites gnc.1:p557-558 |
+| [questions/q0796.md](questions/q0796.md) | question q796 | Is Ngag dbang at the end of the Svapnohana's remedy Vāgīśvarakīrti, whose Deceiving Death stands before it on p. 268? | open; cites svo:p271, svo:p268 |
+| [questions/q0797.md](questions/q0797.md) | question q797 | Ten of what is «བཅུ་ཡི་བར» for the white snake seizing the right hand? | open; cites svo:p270 |
+| [questions/q0798.md](questions/q0798.md) | question q798 | How are the four watches (ཐུན) of the Svapnohana bounded: four equal parts of the night, or the monastic watches? | open; cites svo:p268 |
+| [questions/q0799.md](questions/q0799.md) | question q799 | Does «དེ་ཡིས་དེ་དུས་སྙིང་སྡུག་འཐོབ» in the Svapnohana mean getting what is dear to the heart, or sorrow? | open; cites svo:p270 |
+| [questions/q0800.md](questions/q0800.md) | question q800 | What is the animal «བླ་མོ» in «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་», and what is the clause «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ»? | open; cites svo:p270, svo:p268 |
 
 <!-- end pool index -->
 
