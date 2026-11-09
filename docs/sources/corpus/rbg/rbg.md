@@ -11,6 +11,8 @@ Read by RD259 (2026-11-09): The Co ne Tengyur volumes 63–66 sampled, MDP pp. 1
 
 Read by RD209 (2026-11-09): KCM pp. 679–682, SKP pp. 40–55, DTD vol. 10 pp. 219–220 and the NLM manuscript pp. 155–158, RBG vol. 3 pp. 203–205 (witness), RST etext, RRT vol. 41 pp. 186–195.
 
+Read by RD278 (2026-11-09): a second print of the entry searched for and not found; the open Derge scan of the witness list located.
+
 ## <a id="rbg-p203-205"></a>rbg:p203-205 The eighteen dream signs of the latter times: RBG's entry not reached, the list it takes from the Derge Tengyur (witness)
 
 *Read: etext, 2026-11-09.*
@@ -26,3 +28,6 @@ The eighteen are the dreams of King Kṛki (ཀྲྀ་ཀཱི, kri kI), told
 - RBG vol. 3 pp. 203–205 (2026-11-09): the work-level manifest `wvo:bdr:MW1KG2733_B7BF9B::bdr:I1KG2753` answers 401 (restricted); `vo:bdr:I1KG2753` serves 41 images, none of these pages; the etext API 403; `bdrc.py volumes` with the MW id likewise fails. No route to the pages without the archive.org loan, which is not this reading's.
 - RBG vol. 3 pp. 203–205, other routes (RD259, 2026-11-09): archive.org `bdrc-W1KG2733` exists (*Chos rnam kun btus*, 41 volume files; access restricted in China, in library lending); `bdrc-W1KG2733_bdrc.zip` answers 401 for a plain download, so the pages are reachable only by the loan; `bdrc-W1KG2753` (the volume's id) has no item. No other print of the entry found. Dead end for RD259.
 
+
+- RD278 (2026-11-09): BDRC's full-text search for «དུས་ཕྱི་མར་འབྱུང་བའི་རྨི་ལྟས་བཅོ་བརྒྱད» gives five hits: RBG's own entry (MW1KG2733_B7BF9B, scans archive.org, etext search-only), the Derge Tengyur's Ska ba dpal brtsegs text (MW23703_4362, Tengyur vol. 206 pp. 464–579, scans open access, etext best quality), the Peking-comparative Tengyur's (MW1PD95844_3606, scans archive.org), RBG's whole etext (MW1KG2733) and its section. The abstract work WA1KG2733 lists only MW1KG2733 and W1KG2733: no other print of RBG. So a legible second source exists only for the witness list (the open Derge scan, not read by eye in this reading), not for RBG's own pages 203–205, which stay behind the archive.org loan.
+- RD278 (2026-11-09): the Derge scan of the witness list: the Tengyur volume 206 is the image group I1524 (open; img. N is the printed page N + 2 here: img. 546 carries the page numbered 544 and the list's heading «དུས་ཕྱི་མར་འབྱུང་བའི་རྨི་ལྟས་བཅོ་བརྒྱད» on its line 5, the list on lines 5–9 and onward through img. 547). The image is a 1980×307 bitmap of a whole woodblock side, the letters 5–8 px: not legible by eye at 3–5×, so the witness stays at state etext. Yigdzin-1 over img. 545–552 reads the heading and the eighteen items as the Derge etext VE23703_1524 has them with slips only («སྤྲོད་པ» for «སྐྲོད་པ», «རྡོས» for «རྔོས»).
