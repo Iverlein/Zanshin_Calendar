@@ -1730,3 +1730,6 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 315 at 2× is too blurred for syllable certainty on the doubtful stacks; a 4× or higher crop of each (last glyph of line 8, the first stacks of «བཞོན་པ» and «ཁང་བཟངས», «དང་བ») is needed; line centres for lines 3–8 at y about 571, 682, 793, 904, 1015, 1126 on the 5384×1405 scan.
 - **RD246, 2026-11-09** (RD246, 2026-11-09):
   - Peking img. 316 at 2× is blurry (letters about 40 px): «གང་ལ» against «གང་བ» and «འོ་མ» against «ཨོ་མ» are not told apart, the etext's reading taken; shad and tsheg spacing not compared.
+- **RD250, 2026-11-09** (RD250, 2026-11-09):
+  - Peking img. 315 line 8 last glyph (x about 4770–4820, frame at about 4830): a head-line with a left hook and a long stroke falling right, ས or ན with a tail, not told apart at 4×.
+  - Seven doubtful places of the Peking Svapnohana left unread at 4× (listed in the RD250 note of svo:p271d); one crop on img. 317 line 1 hit the page number «༧༡» instead of the target.
