@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD274 (2026-11-09): The claims of RD227–RD273 and every dream-* image claim.
+
 Read by RD273 (2026-11-09): the Svapnohana found in the Co ne print by the rKTs catalogue (vol. 28, 133b3–135a3 = img. 270–273) and read by Yigdzin-1; Advayavajra's Svapnekṣā located (vol. 49, 130a1–130b7 = img. 263–264), read by Yigdzin-1 on enhanced line strips only; see svo:p271g.
 
 Read by RD274 (2026-11-09): no scan opened; the Svapnohana's rows in the dream catalogue read against RD228–RD273 (claims only): the seized creatures of p. 270 are a centipede, a snake and a water creature, not "a horse" (svo-rta-bla-mo-is-the-centipede), the spellings of «བཅུ་ཡི་བར», «བགྲོད་མིན», «འགྲོན་བུ» and the Gāyatrī are settled (svo-other-prints-agree, svo-gayatri-spelling), the rule of the watches stands in the table of dream-catalogue beside the Indian texts whose series it is (indian-dream-spans-by-watch-nine-texts).
