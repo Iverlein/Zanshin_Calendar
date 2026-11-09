@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD265 (2026-11-09): Negelein 1912, Kohlbrugge 1938, the Aṅgavijjā chs. 41–44 and 59, the Kālaprakāśikā, Varāhamihira's Bṛhadyātrā 16, the Adbhutasāgara, the Matsya 242, Agni 229, Brahmavaivarta Kṛṣṇajanmakhaṇḍa 73, the Yogayātrā and the Garuḍapurāṇa, in OCR text layers.
+
 Read by RD262 (2026-11-09): Padma rdo rje (MW25126) and Bya mdo Klu byams rgyal (MW8LS18598) through BDRC search snippets.
 
 Read by RD259 (2026-11-09): The Co ne Tengyur volumes 63–66 sampled, MDP pp. 134–137 (bdrc-W21880 img. 142–145).

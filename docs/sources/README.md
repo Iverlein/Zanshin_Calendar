@@ -1667,6 +1667,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0849.md](questions/q0849.md) | question q849 | Does the Four Tantras' own text carry «mtshan stod rmi lam brjed nges 'bras bu med; tho rangs mthong dang gsal na 'bras bu 'byin», in which chapter, and does a Tibetan commentary read «mtshan stod» as the first part of the night? | open; cites svo:p271f, st:p44 |
 | [questions/q0850.md](questions/q0850.md) | question q850 | The Serthang scan (I3CN5038) has no image of the page between img. 43 (ch. 6) and img. 45 (ch. 7), and its img. 44 and img. 46 are the same page: is the missing page (the opening of ch. 7 with the distant signs and the bad-dream verse) on another BDRC scan of the Serthang print, and does it read «རྨི་ལམ་མི་བཟང་བ» as the Drathang print? | open; cites st:p44 |
 | [questions/q0851.md](questions/q0851.md) | question q851 | In ch. 91 what is ཕྱྭ (phywa) in the pair «མོ་ཕྱྭ» that heads the remedies of the spirit: a divination, the fortune of the sick, or an offering? | open; cites st:p493 |
+| [questions/q0852.md](questions/q0852.md) | question q852 | Which text is Negelein's 'b' (the verse he prints as b 5–6)? | open; cites svo:p271f |
+| [questions/q0853.md](questions/q0853.md) | question q853 | Is the series year, eight months, three months, half a month, ten days at dawn, shared by the Svapnohana and the Brahmavaivartapurāṇa, older than the Purāṇa, and which older Indian dream text has it? | open; cites svo:p271f |
+| [questions/q0854.md](questions/q0854.md) | question q854 | In the Kālaprakāśikā ch. XLII v. 66 does the Sanskrit give a half-month for the fourth watch besides the twelve days at dawn that Iyer's English has? | open; cites svo:p271f |
+| [questions/q0855.md](questions/q0855.md) | question q855 | In the Bṛhadyātrā 16.10 which part of the night and which humour go with which of the three seasons? | open; cites svo:p271f |
+| [questions/q0856.md](questions/q0856.md) | question q856 | In the Aṅgavijjā the bright 'beginning and root' is the forenoon in ch. 42 and the afternoon in ch. 41: which is the original reading? | open; cites svo:p271f |
 
 <!-- end pool index -->
 
