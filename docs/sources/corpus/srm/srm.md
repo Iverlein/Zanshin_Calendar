@@ -15,6 +15,8 @@ Read by RD222 (2026-11-09): SRM img. 392-395 run through Yigdzin-1 and MITRA, wh
 
 Retry of RD222 (2026-11-09, by eye, no model): the text block of img. 392 lies at y = 160 to 690 of 896, so the six lines are about 88 px each from y = 160 (not 80 px from 0); bands cut at 3x in quarters of the width are legible at that size. Only the first line-6 band of img. 392 and two bands of img. 393 line 2 were looked at before the time ended; at "sa'i dkyil 'khor ... bzhi" of img. 392 line 6 the syllable before bzhi looks more like gru (the square mandala, gru bzhi) than grub, but the foot of the letter was not isolated, so it stays a doubt; no other flagged place was settled. The passage stays machine.
 
+Second retry of RD222 (2026-11-09, by eye): the text block's rows per image, from the ink profile, are img. 392 y = 172-681, 393 y = 226-724, 394 y = 185-691, 395 y = 219-743, so the line pitch is 83-85 px and differs per image; a band needs at least 30 px of margin above the line, since the ascenders of cursive reach into the line above (a band with 6 px margin cut the tops of the letters). With that margin, img. 392 line 6, quarters 0 and 1 (x 0-2280), reads as far as the vase clause "du bum pa bcud dang chu gtsang ..." and the cluster after 'khor in the first quarter shows a gru-shape followed by one ba-shape and zhi, which fits gru bzhi (four cubits square) better than grub bzhi, but the loop of the ba cannot be told from a second ba at this hand, so grub/gru stays a doubt, leaning gru. The 393, 394 and 395 doubts were not reached; the passage stays machine.
+
 ## <a id="srm-6-p386-389"></a>srm.6:p386-389 The examination of dreams through the goddess Śramaṇā: preparation, sadhana, the sleep, the signs and the result
 
 *Read: machine, 2026-11-09.*
