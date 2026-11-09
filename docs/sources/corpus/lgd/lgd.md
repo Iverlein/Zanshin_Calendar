@@ -70,14 +70,18 @@ Fourth, the good and bad arising mixed. For the good and bad mixed at dusk and d
 > Palri Parkhang (I01CT0067 img. 542, line 1, by eye on the typeset page):
 > རྟ་རྒོད་ལ་ཞོན་ནས་དབང་མེད་དུ་ཁྲིད་པ༔ རམ་རུག་སྤང་གཡེང་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
 > 
-> Kazi (I6132 img. 559, Yigdzin-1 only):
+> Kazi (I6132 img. 559, line 1, by eye on the typeset page, small and grainy; the last letter of the fourth syllable reads ར, not ང):
 > རམ་རུག་སྤང་གཡེར་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
 > 
 > Ngodrup and Sherab Drimay (I1867 img. 309, line 4, by eye on the hand script):
 > རི་ཏུག་སྦར་ཁྱེར་ལ་སོགས་པ་མི་ཁའི་རྫས་ལ་སྤྱད་པ༔
 > 
-> Sbas-yul manuscript (I1LT3208 img. 148, Yigdzin-1 only):
+> Sbas-yul manuscript (I1LT3208 img. 148, line 3, cursive hand; Yigdzin-1 gives the words below and the hand is consistent with them, but by eye the four syllables are not settled; the line runs «ཞོན་པ༔ ཞོན་ནས་དབང་མེད་དུ་ཁྱེར་བ༔ …»):
 > རྟ་ཇུག་སྦང་ཕྱེར་ལ་སོཌ་པ་མི་ཁའི་རྫས་ལ་སྤྱད་པ༔
+> 
+> Shechen scan (I4PD2250 img. 310, line 6, hand script, crops at 5–6×; the line is the last of the page, after «རླུང་དམར་འཚུབས་མས་དེད་པ༔ རྟ་རྒོད་ལ་ཞོན་ནས་དབང་མེད་དུ་ཁྲིད་པ༔»): Yigdzin-1 reads
+> རམ་རྒྱུག་སྦང་གཡེར་ལ་སོགས་མི་ཁའི་སྫས་ལ་སྤྱོད་པ༔
+> by eye the first syllable is རམ, the third a stack with a subjoined letter (སྦང), the fourth ends in ར, then «ལ་སོགས་»; whether the second is «རུག» or «རྒྱུག» the cursive does not settle.
 > 
 > Shechen, the other copy in vol. 37 (etext, a different place of the same set), the same list:
 > རམ་རུག་སྦང་གཡེར་ལ་སོགས་མི་ཁའི་རྫས་ལ་སྤྱོད་པ༔
