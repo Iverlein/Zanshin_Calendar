@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD240 (2026-11-09): GNC in the manuscript W1ER167 vol. 1 (I1ER1055 img. 729–735) and TDR in the etext VEIE0OPI0BD8769F_I1PD407.
+
 Sought by RD237 (2026-11-09): no second print of this text was looked for before the time ran out; left to RD239.
 
 Read by RD217 (2026-11-09): GNC vol. 1 pp. 559–561 (I1662 img. 567–569), machine only (Yigdzin-1, no MITRA).

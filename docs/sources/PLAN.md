@@ -1708,3 +1708,7 @@ Searched and found wanting, so not to be repeated:
 - **RD239, 2026-11-09** (RD239, 2026-11-09):
   - scans.py line fails with IndexError on I6320 img. 276; the page has 6 text rows at a pitch of about 125 px (y about 20, 145, 270, 395, 520, 645): use scans.py crop with pixel boxes.
   - The dro'i kha / dro zhig place was not identified on the W24769 print (probably around «བརྐྱང་འདུག» / «ཞལ་འཛུམ» on img. 277 lines 1–2); 'dod/'ong on img. 277 line 5 «འདོད་དོན» not looked at by eye; «ཡོང་ངོ» vs «ཡོད་དོ» on img. 278 line 4 not settled at 1.0×.
+- **RD240, 2026-11-09** (RD240, 2026-11-09):
+  - The abstract work WA0XL78B598345102 (TDR) has one instance only (MW25101_78B598); no second scan print of TDR was found under its title.
+  - BDRC full-text search for «སྒྲོལ་དཀར་རྨི་ལམ་བརྟག་པ» finds 0 hits; «སྒྲོལ་མ་དཀར་མོའི་སྒོ་ནས་རྨི་ལམ་བརྟག་པ» finds the contents line only; «ཨ་ནུ་ཏ་ར་ཞེས་པའི་ཡི་གེ» hits 4 etexts, none TDR (VE1ALS05317E and VEIE0OPI9244B62A_I3PD274 are a dream-yoga text, read and rejected; VEIE0OPIDB282A46_I3CN4662 and VEIE0OPI51EA6051_I2PD16008 not opened); «དངུལ་གྱི་མེ་ལོང་བཞི་བསམ» hits VE23681_001, not opened, and the TDR etext.
+  - The scan of W1PD2 I1PD407 (the print behind the TDR etext) was not fetched; MITRA not run over the GNC manuscript; crops at 1.5–2× of the four-mirror lines, the vulture-flesh sentence (img. 731 lines 4–5) and the Mtsho rgyal passage not made.

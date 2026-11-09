@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD240 (2026-11-09): GNC in the manuscript W1ER167 vol. 1 (I1ER1055 img. 729–735) and TDR in the etext VEIE0OPI0BD8769F_I1PD407.
+
 Sought by RD237 (2026-11-09): no second print of this text was looked for before the time ran out; left to RD239.
 
 Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6 pp. 386–389 (I3JW3517 img. 392–395), GNC vol. 1 pp. 557–558 (I1662 img. 565–566).
@@ -43,6 +45,6 @@ End of the Śākyamuni rite (the frame it shares). After the accomplishment of t
 
 The White Tārā rite (title: the examination of dreams through White Tārā; the instruction by which dependent origination arises as clairvoyance). First one meditates one's own deity and does the full self-generation once. From that state one generates the Venerable White Tārā; in the heart, a lotus opened and a white tāṃ blazing with light that fills the inside of the body. Light goes out from the tāṃ and draws Tārā from Akaniṣṭha with her retinue; she is honoured and asked that dependent origination arise as clairvoyance. One imagines four silver mirrors in the four directions of the tāṃ, with the letters A, NU, TA, RA on the east, south, west and north mirrors, the images appearing one after another. Whatever one wishes is imagined as two white tāṃ, from which light goes out to do the work of the realm, in particular one's own aim; a light like a star-arrow from the tāṃ strikes the point between one's eyebrows; with the wish for accomplishment the tāṃ is dissolved without remainder into the tāṃ at the heart, and one imagines that whatever one wants will be told in a dream without doubt. One lies down in the lion posture.
 
-Reading of the mirrors. The east mirror, bearing A: appearances marked by A are accomplished. The south, with NU: all omens (mtshan ma) are accomplished. The west, with TA: all appearances of omens come true, and what does not come true does not accomplish. The north, with RA: the appearances of the life-force (srog) are accomplished, and no others.
+Reading of the mirrors. The east mirror, bearing A: appearances marked by A are accomplished. The south, with NU: all omens (mtshan ma) are accomplished. The west, with TA: all appearances of omens come true, and what does not come true does not accomplish. The north, with RA: the appearances of living beings (srog chags; the Delhi machine reading had «སྤོག་ཆཊ», RD240) are accomplished, and no others.
 
 Colophon of the text: the lion-faced dakini's rite follows; homage to the lama, the assembly of one's own dakinis. The history of the instruction (Ri lo tsā ba against the non-Buddhist Skal ldan nag po, seven days) is the next section.
