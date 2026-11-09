@@ -10,6 +10,10 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD271 (2026-11-09): ch. 7's unexplained words (བྲོ་པའི་ཁྲལ, བག་མ་ལན་པ, རྔ་མོ, རྨེ་ཅན) against the dictionaries and BDRC's etexts, no scan: claims gt-bro-ba-khral-ded-a-levy, gt-bag-ma-lan-pa-is-bag-ma-len-pa, gt-rnga-mo-is-the-camel, gt-rme-can-a-man-with-a-black-birthmark, gt-water-or-beer-fiends-or-the-dead.
+
+Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA as well and by eye; the dream verses whole are gt:i42-43 below.
+
 ## <a id="gt-i42"></a>gt:i42 Ch. 7, the distant signs of death: the verse of the bad dreams, in the Drathang print
 
 *Read: machine (Yigdzin-1 over img. 41 and 42), 2026-11-09; the line of མི་བཟང་བ by eye, 2026-11-09 (RD264).*

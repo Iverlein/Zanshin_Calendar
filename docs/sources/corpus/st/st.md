@@ -9,6 +9,9 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD267 (2026-11-09): The lines of ch. 7 in BDRC etexts, the Serthang scan I3CN5038 img. 40–46 (foot numbers), the Drathang GT img. 42.
 
+Read by RD271 (2026-11-09): the unexplained words of ch. 81 and ch. 91 (ལྷས, ལྡེར་བཟོ, རྟ་བླ, གཏད་དུ་ཚུད་པ, ཕྱྭ) and of ch. 7's dream verse (བྲོ་པའི་ཁྲལ, བག་མ་ལན་པ, རྔ་མོ, རྨེ་ཅན; the lines' water and beer) in Steinert's 64 public dictionaries by Wylie headword, in a medical dictionary's etext on BDRC (Bod lugs gso rig tshig mdzod chen mo, I00EGS1017132, OCR) and in BDRC's exact full-text search; no scan opened. Licences: every dictionary sense is stated in our own words, nothing quoted; the dictionaries' copyright is their authors' (Steinert's README), and no sense is taken from the 84000 or ITLR sets (non-commercial). Claims st-lder-bzo-is-the-temples-clay-statues, st-lhas-tshor-felt-by-the-god, st-rta-bla-is-the-centipede, st-gtad-du-tshud-pa-under-a-sent-harm, st-mo-phywa-divination-and-omen, gt-bro-ba-khral-ded-a-levy, gt-bag-ma-lan-pa-is-bag-ma-len-pa, gt-rnga-mo-is-the-camel, gt-rme-can-a-man-with-a-black-birthmark, gt-water-or-beer-fiends-or-the-dead.
+
+
 Read by RD268 (2026-11-09): the dream verses of ch. 7 whole on the Drathang print (I4CZ327131 img. 42–43, `gt:i42-43`; Yigdzin-1 over img. 38–48, MITRA over img. 42 and 43, the verse by eye at 3.4–10×), compared with the four commentaries' quotations; the Serthang page is still missing, so `st:p34` here holds the closing lines only and the verse is in corpus/gt.
 
 Read by RD264 (2026-11-09): The Bhutan print (I1KG13565 img. 267, 418), the 2005 Man ngag lhan thabs leaf 362 (archive.org lending copy bdrc-W1PD4, borrowed one hour and returned), the Serthang scan I3CN5038 and the Drathang I4CZ327131 img. 42.

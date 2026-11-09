@@ -30,3 +30,5 @@ Where the Drathang print's verse of the bad dreams (gt:i42-43, the Explanatory T
 | 26 | ཕན (pennant) | the Drikung འཕན | prefix not told on the print |
 
 For the sense of a dream, three of these matter: the beer and the water in line 13 (a drink with the dead), the dead and the fiends in line 15 (the dancing partners), and the head broken or cut in line 8; the rest is spelling. The Drathang agrees with Khro ru and the Drikung more often than with Byang pa and Rin spungs pa; what print each commentator had before him is not known, so the count proves nothing about descent.
+
+RD271 (2026-11-09): the rows rnga mo (the camel: gt-rnga-mo-is-the-camel), rme can / rje can (one word, a man with a black birthmark: gt-rme-can-a-man-with-a-black-birthmark), bro pa'i / bro ba'i and khral 'ded / 'dod (the common spelling is bro ba'i khral 'ded: gt-bro-ba-khral-ded-a-levy), lan pa / len pa (one verb: gt-bag-ma-lan-pa-is-bag-ma-len-pa) and the water and fiends of line 13 and 15 (Byang pa's alone among the etexts found: gt-water-or-beer-fiends-or-the-dead) are looked up in the dictionaries and BDRC's etexts.

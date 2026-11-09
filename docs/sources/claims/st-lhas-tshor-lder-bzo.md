@@ -25,3 +25,7 @@ Three prints, each on its scan by eye at 5–16×, against the Serthang scan (`s
 The sister clause on the Bhutan scan reads «རང་ཚོར་དུས་ཡིན» (the etext's ངང་ is again its OCR; moderate confidence for the first letter, `mnb:p267`), so the pair ལྷས་ཚོར་ / རང་ཚོར་ stands in that print as in the Serthang print.
 
 What is unchanged: the guess that ལྷས is a misprint for ལུས finds no scan or etext that has ལུས, so it has no support.
+
+## RD271 (2026-11-09)
+
+The dictionaries and BDRC's search say more than the commentaries: ལྡེར་བཟོ (lder bzo) is a clay statue, so the phrase is "the temple's clay statues move", and ལྡེར་སོ is a known spelling of it (st-lder-bzo-is-the-temples-clay-statues); ལྷས is the god in the agent case, "felt by the god", against རང་ཚོར་, "felt by oneself" (st-lhas-tshor-felt-by-the-god). Questions q821 answered.

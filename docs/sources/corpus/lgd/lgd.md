@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD271 (2026-11-09): LGD's «མི་ཁའི་རྫས», «རམ་རུག» and «སྦང་གཡེར» in Steinert's 64 public dictionaries, BDRC's exact full-text search (143 hits for the goods, 10 for ram rug) and the etexts' windows; no scan opened. Claims lgd-mi-kha-goods-of-gossip-are-rite-substances, lgd-ram-rug-is-the-ram-bu-spelling, lgd-sbang-g-yer-beer-mash-and-pepper.
+
 Read by RD254 (2026-11-09): LGD's phrase «རམ་རུག་སྤང་གཡེང» (the goods of gossip) in the Zhe chen (I4PD2250 img. 310 line 6), Kazi (I6132 img. 559 line 1) and Sbas-yul (I1LT3208 img. 148 line 3) scans at 3–12×, contrast-stretched, syllable by syllable, with Yigdzin-1 and MITRA on line crops; the Shechen vol. 37 etext's two places; the Palri print img. 541 and 543 whole as passages lgd.42:p533 and lgd.42:p535.
 
 Read by RD238 (2026-11-09): LGD in the Palri Parkhang print (W01CT0060 vol. 7, I01CT0067 img. 533–545, printed pp. 525–537; image = page + 8): Yigdzin-1 over all, the dream folios img. 539–544 and the title page img. 533 compared by eye on half-page crops, the goods-of-gossip line and the one doubtful «པུ་ས» at zoom; img. 534–538 (the rite) by machine against RD208's rite only.
