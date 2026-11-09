@@ -5208,19 +5208,48 @@ groups it shows (`tools/emulator/store_shots.py`).
   (`.agents/rules/sources.md`).
 - **Check.** Every topic file holds its reading; `kb.py check` and
   `SourcesTest` clean; the readings marked done in the table.
-- **Read 2026-11-09** (RD207–RD213, RD215–RD217, RD219–RD225; most in
-  part, see their rows): no text read ties a dream to a lunar day,
-  weekday or month; the watch of the night is the one time rule, and
-  only the Svapnohana gives spans for it (a year, eight months, three
-  months, half a month, ten days). The Lama Gongdü, Klong rdol's text
-  (RST, KBS, one witness) and SVI instead cut the night in three (dusk habit, midnight spirits, dawn the only
-  omen); DTD examines the last of four watches. No Tibetan source
-  bounds the watches by the clock (`claims/night-watches.md`). The
-  catalogue is `claims/dream-catalogue.md`: 85 images, 13 not to be
-  offered yet (`dream-unsettled-words`), eight read in opposite ways.
-  Still unread: Scheuermann (RD214, the PDF), the Ebara 大雑書 (q786),
-  the folk collection's dream part (RD221) and RBG; the scan proof of
-  most passages (RD218, RD219, RD222).
+- **Read 2026-11-09** (RD207–RD278; most in part, see their rows):
+  - **Time.** No text read ties a dream or its fruit to a lunar day,
+    weekday or month; the only calendar ties are the Ebara dream book's
+    table of days a dream is not told (the same as the 万代大雑書's ゆ六),
+    one autumn rule, and the Aṅgavijjā's dating of the dream by fortnight
+    and season. The watch of the night is the one time rule. The
+    Svapnohana's series (a year, eight months, three months, half a
+    month, ten days at dawn) is the Brahmavaivartapurāṇa's whole (the
+    Atharva-Veda appendix has the same five spans; Matsya and Agni have
+    six months for the second watch; the Kālaprakāśikā a year, half a
+    year, three months, a month, twelve days); the Four Tantras' own
+    rule (Explanatory Tantra ch. 7: the first part of the night
+    forgotten, no fruit; only the dawn dream counts) is two-way and gives
+    no spans; the Lama Gongdü, Klong rdol's text (RST, KBS, one witness)
+    and SVI cut the night in three; DTD examines the last of four
+    watches. No Tibetan source bounds the watches by the clock
+    (`claims/night-watches.md`); the table of the rules by text is in
+    `claims/dream-catalogue.md`.
+  - **Images.** `claims/dream-catalogue.md`: 98 images, the Four Tantras'
+    ch. 7 list of bad dreams of the sick (Drathang, Chag-po-ri prints)
+    above WB ch. 25; five words still unsettled
+    (`dream-unsettled-words`).
+  - **Prints.** The Svapnohana is read whole on the Peking print and
+    placed in the Co ne (vol. 28, 133b–135a, through the rKTs
+    catalogue; the fourth-watch line is in the Co ne, Narthang and
+    gser bris ma, only Peking omits it); «རྟ་བླ་མོ» is a centipede and a
+    snake; Advayavajra's examination is in Peking vol. 46 and the Co ne
+    vol. 49.
+- **Further readings needed** (2026-11-09, after RD278):
+
+  | What | Blocked by | State |
+  | --- | --- | --- |
+  | Scheuermann's chapter on the Svapnohana (RD214, RD257) | Brill's human check; needs the owner's PDF or a library copy | Abstract and Stearns, Wayman read |
+  | The Ebara reprint's own 大雑書 (q786) | Not online | The 夢占吉凶秘傳書 read on the 国文研 copy (RD261) |
+  | The Four Tantras ch. 7 verse on the Serthang print | Printed pp. 31–32 absent from the pool's scan | Drathang, Chag-po-ri prints read (RD268, RD270, RD275) |
+  | The Co ne Svapnohana letter by letter | Worn bitonal scan, no sharper copy | By vote of runs (RD276) |
+  | Single Peking stacks (about nine places) | Blur at 40 px | Doubts listed in svo:p271d |
+  | The Bṛhaspati Svapnādhyāya manuscript (Penn, Leipzig) | Slow server, closed catalogues | RD277 |
+  | TDR's scan (W1PD2 I1PD407) and GNC's headless manuscript | Restricted scan; unresolved hand | Etext and machine only (RD240, RD241) |
+  | RBG vol. 3 pp. 203–205 | Only the archive.org loan | Not read |
+  | Older Indian source of the five-span series; the Brahmavaivarta's date | Hazra, Rocher unread | Unsettled (RD272) |
+  | The goods of gossip (རམ་རུག, the plant) | No headword in the dictionaries | Rite substances, plant unknown (RD271) |
 
 #### <a id="s2"></a>S2 A dream reading in the app — planned 2026-11-09
 
