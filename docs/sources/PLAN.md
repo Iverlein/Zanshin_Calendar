@@ -1686,3 +1686,8 @@ Searched and found wanting, so not to be repeated:
   - The row's Peking vol. 49 (I1KG13218) was not opened: the work is in vol. 46 (I1KG13215); found through the abstract work WA0RT4282 (workHasInstance) reached from the Derge MW23703_2100 via instanceOf, then purl.bdrc.io/resource/MW….json for the content locations.
   - The Dpe bsdur ma etext (W1PD95844 vol. 25 pp. 415–418) with its variant notes was not fetched; the Narthang (W2KG5015 vol. 46 pp. 289–291) and W22704 vol. 46 images were located, not fetched or read.
   - bdrc.py scans OUT VOLUME FIRST-LAST takes the image group once; PLAN.md's example repeats it. Peking grey print crops are faint until autocontrasted; 1.1–2× reads best, a 3× zoom of a 40 px letter goes blocky.
+- **RD235, 2026-11-09** (RD235, 2026-11-09):
+  - Co ne print: no scan served, and the Dpe bsdur ma notes name «ཅོ་» at no place in the watches' verse; its reading of the fourth-watch line is unknown (q833 answered for Narthang and the gser bris ma, open for Co ne).
+  - I2KG212312 img. 284 is the same page and layout as I3279 img. 286: the two Narthang scans are one print family, not independent witnesses.
+  - The Dpe bsdur ma etext's note markers are lost in the OCR: the minus-sign entry for «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར» is placed under «པེ་» by order among the notes only.
+  - First segment's spelling «བརྒྱད་པ་ལ» (Narthang, gser bris ma) against «བརྒྱད་བར་ལ» (Peking, Derge etext) and «བར» against «བར་དུ» at the end of the third watch's line: not settled at 30–40 px.
