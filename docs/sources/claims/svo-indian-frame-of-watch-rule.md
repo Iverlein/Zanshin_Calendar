@@ -2,7 +2,7 @@
 kind: claim
 type: note
 terms: [thun]
-cites: ['svo:p268']
+cites: ['svo:p268', 'apv:p445', 'kps:p232-236', 'agv:p120-121', 'bsm:p8-12', 'yyt:p188']
 feeds: [block-73]
 open: []
 ---
@@ -15,3 +15,10 @@ The Indian frame, as Wayman reports it: the Atharva-Veda tradition holds that a 
 Wayman names Jagaddeva's *Svapnacintāmaṇi* (twelfth century, with a German translation, Negelein 1912), the short Sanskrit *Svapnādhyāya* and a Hindi *Svapnavicāra* as the Indian books devoted wholly to dreams, and says that in Tibet, besides brief passages in biographies, tantras and works on medicine and astrology, the dream (rmi lam) is classified in the appendix of the Gesar epic (good and bad dream omens, one page each). He does not mention the Svapnohana, the Tengyur or Vibhūticandra.
 
 Not drawn from this: any statement of how Tibetan readers used the Svapnohana. The Indian numbers are quoted by Wayman from translations (Iyer 1917 for the *Kālaprakāśikā*) and from the Atharva-Veda appendix, and were not checked in the originals.
+
+RD263 (2026-11-09) checked this against the texts, on the Internet Archive: the Atharva-Veda appendix 68, the *Svapnādhyāya* (apv:p445), the *Kālaprakāśikā* in Iyer's translation (kps:p232-236), the *Aṅgavijjā* chapter 42 (agv:p120-121) and Varāhamihira's *Bṛhatsaṃhitā* and *Yogayātrā* (bsm:p8-12, yyt:p188). What changes in the paragraph above:
+
+- The Atharva-Veda appendix reads **eight months** for the second watch, not six (the six months are the *Kālaprakāśikā*'s), so the Svapnohana's "eight months" is the appendix's and its first two spans agree with it; the third watch there takes "half of that", the cows' release a month, dawn at once. The comparison, with the variants, is [indian-dream-time-atharva-kalaprakasika](indian-dream-time-atharva-kalaprakasika.md).
+- The *Aṅgavijjā* asks the time at which the dream was seen (night or day and its part, the fortnight, the six seasons) and gives no time to the fruit: [angavijja-dream-time-fortnight-season](angavijja-dream-time-fortnight-season.md).
+- No chapter of Varāhamihira's works is on dreams: [brhatsamhita-no-dream-chapter](brhatsamhita-no-dream-chapter.md).
+- Of all the texts read, none ties the time of a dream's fruit to a lunar day, a weekday or a month. The only ties of a dream to the moon or a season are the *Aṅgavijjā*'s fortnight and seasons of the dream's own time.

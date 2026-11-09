@@ -800,3 +800,57 @@ mbl:
   rank: 3
   role: witness
   notes: "etext only, read 2026-11-09 (RD255); the Supplement's verse (lth, lhq) with the annotator's glosses written into its lines; page = the etext page (ch. 81's dream lines on pp. 521-522)"
+
+# --- RD263 (2026-11-09): the Indian frame of the watch rule, from published texts on the
+# Internet Archive (text layers read in the headed browser). Facts only; the Sanskrit and
+# Prakrit words of the old works are quoted no further than the facts need.
+
+apv:
+  title: "Atharvaveda-Pariśiṣṭa 68, Svapnādhyāya (the chapter on dreams, ascribed to Kroṣṭuki)"
+  author: "ascribed in the text itself to Kroṣṭuki; the appendix of the Śukracāra attributed to Padmayoni"
+  edition: "The Pariśiṣṭas of the Atharvaveda, ed. George Melville Bolling and Julius von Negelein, vol. 1 part 2, Harrassowitz, Leipzig 1910, pp. 438–446 and the variant readings pp. 455–457 (Roman transliteration, Gurukul Kangri copy on the Internet Archive, id OFQd_the-parisistas-of-the-atharva-veda-edited-by-goerge-melville-bolling-and-julius-)"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD263: verses 68.2.58–59 (the watches) read in the text layer of this edition and in two Devanagari editions on the Internet Archive (ids parisistas-of-the-atharvaveda, 1976, and AtharvavedaParishishta), three witnesses agreeing; the layer is OCR of a scan, not read on the page image"
+
+kps:
+  title: "Kālaprakāśikā (the standard book on election, muhūrta), ch. XLII, the interpretation of dreams"
+  author: "the work's author is not named in the translator's front matter as read; translation by N. P. Subramania Iyer"
+  edition: "Kalaprakasika, with original text in Devanagari and English translation, N. P. Subramania Iyer, 1917; Asian Educational Services reprint, New Delhi 1982, ch. XLII pp. 232–236 (Internet Archive ids in.ernet.dli.2015.45999, kalaprakasika; the Devanagari of the original is missing from the text layers)"
+  licence: "public-domain (1917 translation; the Internet Archive marks the 1982 reprint scan public domain): facts in our own words, the English quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD263: the English of ch. XLII read whole in the text layer; the Sanskrit verse was not reached (no Devanagari in the layers of four scans of this edition)"
+
+agv:
+  title: "Aṅgavijjā (Prakrit, Jaina divination by limbs and signs), ch. 42, Suviṇajjhāya (the chapter on dreams)"
+  author: "anonymous; the text puts its teaching in the mouth of a great man (mahāpurisa), taken to be Mahāvīra"
+  edition: "Aṅgavijjā, ed. Muni Puṇyavijaya, Prakrit Text Society Series 1, Varanasi 1957, ch. 42 at about pp. 118–121 (Internet Archive ids xuqq_angavijja-… and dli.ernet.424497, two text layers of the same edition, Devanagari)"
+  licence: "the old Prakrit text public-domain; the 1957 edition is modern: facts only, the Prakrit words quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD263: the end of ch. 42 (the time of the dream) read in both text layers, which agree on the last sentence and differ in the lines before it; machine reading of OCR, not read on the page image"
+
+bsm:
+  title: "Bṛhatsaṃhitā of Varāhamihira, English translation (searched for a chapter on dreams)"
+  author: "Varāhamihira (6th c.); translation N. Chidambaram Iyer"
+  edition: "The Brihat Samhita, translated into English by N. Chidambaram Iyer, Madura 1884 (Internet Archive id b29353130)"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD263: the whole text layer searched for dream, svapna: the work has no chapter on dreams; three mentions (ch. 2 on the astrologer's duties, ch. 1 on the benefit of knowing the moon's motion, ch. 47 on the king's bath) are in the claim"
+
+yyt:
+  title: "Yogayātrā of Varāhamihira (the astrologer's work on the king's march; the Bṛhatsaṃhitā points to it for dreams)"
+  author: "Varāhamihira"
+  edition: "Yogayātrā, ed. Sudhākara Dvivedi with Harinandana Miśra's commentary, Diamond Jubilee Press, Benares 1907 (Internet Archive id xnmx_yoga-yatra-of-varahamihira-ed-by-sudhakar-dvivedi-1907-diamond-jubilee-print)"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD263: the Devanagari text layer searched for svapna; no chapter on dreams; the thirteenth chapter's last verse extends the omens of departure to dreams"
