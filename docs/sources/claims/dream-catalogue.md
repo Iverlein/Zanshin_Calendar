@@ -136,8 +136,8 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 
 - [Any dream as a distant, uncertain sign of death](dream-sick-any-dream-death-sign.md): ST, WB25 (only when ill)
 - [Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang)](dream-sick-confused-dreams.md): ST, WB25 (only when ill)
-- [The dreams that mark the harmful nāga spirits' illness (ch. 81)](dream-sick-naga-illness-dreams.md): ST (unsettled; only when ill)
-- [Women leading the dreamer away](dream-sick-women-lead-away.md): ST (unsettled; only when ill)
+- [The dreams that mark the harmful nāga spirits' illness (ch. 81)](dream-sick-naga-illness-dreams.md): ST (only when ill)
+- [Women leading the dreamer away](dream-sick-women-lead-away.md): ST (only when ill)
 - [The shapes of whatever bad came in dreams, poured into a skull](dream-sick-bad-dream-shapes-poured.md): WB25 (only when ill)
 - [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md): ST (unsettled; only when ill)
 

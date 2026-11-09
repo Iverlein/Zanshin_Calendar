@@ -14,4 +14,4 @@ At least one verdict below rests on an unsettled word: this image is listed apar
 
 | Text | Verdict (tone) | Passage | State |
 | --- | --- | --- | --- |
-| Four Tantras (for a sick dreamer) (for a sick dreamer; rests on an unsettled word) | one of the signs of a boy at the ninth month (ch. 2), together with lying on the right side, a light body, the right breast giving milk first; not a sign of illness, no remedy; two words of the line are unsettled (mixed or turning) | `st:p21` | scan |
+| Four Tantras (for a sick dreamer) (for a sick dreamer; rests on དག, plural or "clear") | one of the signs of a boy at the ninth month (ch. 2), together with lying on the right side, a light body, the right breast giving milk first; not a sign of illness, no remedy; one word of the line, དག, stays open (plural marker or "clear"); ཡང is the light body | `st:p21` | scan |
