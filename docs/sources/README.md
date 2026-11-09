@@ -1596,6 +1596,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0824.md](questions/q0824.md) | question q824 | Are the two bracketed remedies of ST ch. 91 (the thread; the milk of cattle and goats) interlinear notes that entered the Serthang text? | open; cites st:p493 |
 | [questions/q0825.md](questions/q0825.md) | question q825 | Which animal or thing is the «ལ་མོ» of the Svapnohana, and is «བླ་མོ» a mistake for it? | open; cites svo:p271b |
 | [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
+| [questions/q0827.md](questions/q0827.md) | question q827 | Are the «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» of WB ch. 25 and 27 dreams of the images listed as bad in ch. 30 p. 144, or only restless sleep? | open; cites wb.1:p428b, wb.1:p431 |
+| [questions/q0828.md](questions/q0828.md) | question q828 | On the Gser thang reprint p. 144 l. 13, the glyph after «མ་ཧེ» is ink-filled: is it «རྟ» (horse) or another animal? | open; cites wb.2:p144 |
 
 <!-- end pool index -->
 

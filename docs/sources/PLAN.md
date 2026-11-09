@@ -1665,3 +1665,6 @@ Searched and found wanting, so not to be repeated:
   - No etext of the Peking or Narthang prints (W22704) and no Co ne print with scans found; the Narthang etext of W2KG5015 is badly garbled OCR and not used.
   - bdrc.py volumes and the collection manifest answer 'Insufficient rights' for these Tengyur instances; volume ids come from purl.bdrc.io/resource/W….json (instanceHasVolume, then volumeNumber): Peking vol. 28 is I1KG13197, Narthang I2KG212312 and I3279, the gser bris ma I1PD31365; bdrc_search.py found the five LGD prints (MW01CT0060, MW18978, MW23445, MW2PD17514, MW1LT3204) with open scans.
   - No Sanskrit parallel of the Svapnohana's dream catalogue published that was found.
+- **RD230, 2026-11-09** (RD230, 2026-11-09):
+  - The machine reading of WB vol. 2 pp. 474–541 (img. 482–549): no gloss of «རྨི་ལམ་རྩུབ», «ཟ་ཟི» or the skull remedy of the dragon year; the only «རྨི་ལམ» is p. 535's list of preliminaries.
+  - The Taikhang reproduction (I5877 img. 587, 589, 590, which should hold pp. 428, 430, 431; the offset page + 159 is a guess) fetched and not read; the Zhol print not opened.
