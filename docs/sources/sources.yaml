@@ -954,3 +954,53 @@ bvp:
   role: source
   locator: page
   notes: "RD265: the chapter read in the Devanagari text layers of both printings, which agree in verses 4-7; machine reading of OCR, the page images not read RD269: verses 5-7 read on the page image of the Jivananda print, where they stand on p. 661 (the id bvp:p662-665 keeps RD265's page)"
+
+pn1871:
+  title: "Svapnādhyāya (Bṛhaspati's, by its colophon) with a hymn to the nine planets, a manuscript of 5 leaves, Penn Ms. Coll. 390 Item 1871"
+  author: "attributed to Bṛhaspati in the colophon of the first work (f. 4r); the second work, a Navagrahastotra, to Kālidāsa by the catalogue"
+  edition: "University of Pennsylvania, Kislak Center, Ms. Coll. 390 Item 1871, paper, 13 x 24 cm, 10 lines a leaf, 18th-19th century (circa 1700-1850 by the catalogue); OPenn https://openn.library.upenn.edu/Data/0002/mscoll390_item1871/ (TEI file mscoll390_item1871_TEI.xml; web images data/web/3014_0000 to 3014_0006, 1632 x 1800 px; image n of this siglum = 3014_000n_web.jpg)"
+  licence: "public-domain (OPenn: CC BY 4.0 for the description, no known copyright for the images)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD277: the first leaf (3014_0002) read by eye on the partly downloaded image, lines 1-9; the OPenn server delivers about 1 kB/s, so the later leaves were fetched only in part"
+
+pn673:
+  title: "Svapnādhyāya, a manuscript of 6 leaves dated saṃvat 1881 (1824), Penn Ms. Coll. 390 Item 673"
+  author: "no author named in the catalogue"
+  edition: "University of Pennsylvania, Kislak Center, Ms. Coll. 390 Item 673, paper, 11 x 25 cm, 7-8 lines a leaf, colophon on f. 6v: iti svapnādhyāyaḥ samāptaḥ, saṃvat 1881 jyeṣṭhe likhitaṃ; OPenn https://openn.library.upenn.edu/Data/0002/mscoll390_item673/ (web images data/web/5905_0000 to 5905_0006; image n of this siglum = 5905_000n_web.jpg)"
+  licence: "public-domain (OPenn: CC BY 4.0 for the description, no known copyright for the images)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD277: the first leaf (5905_0001) read by eye on the partly downloaded image, lines 1-6"
+
+osv:
+  title: "Svapnādhyāya (No. 1), Sanskrit verses with an Odia verse paraphrase, 'what is seen in dreams at night and its fruit'"
+  author: "no author named on the title page; published by Edward Pustakalaya (the proprietor), Cuttack"
+  edition: "Svapnādhyāya, Edward Pustakalaya, Bankabazar, Cuttack 1929 (title page 1929 by the digitiser's record; 12 pages in the PDF; Internet Archive id swapnadhyaya-1929, scanned by Srujanika, Bhubaneswar, for the Odia Vibhava project); the verse of the spans on the first page of the text, PDF page 3"
+  licence: "public-domain (a Cuttack print of 1929 of an old text; digitised by Srujanika)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD277: PDF pages 1, 3, 4 and 5 read on the page images at 220 dpi and the span lines at 450 and 600 dpi; the OCR layer is garbled Odia and was not used"
+
+pzs:
+  title: "Svapnodhyāya (Bṛhaspati speaks, by its opening), folios 67-72 of a Devanagari manuscript volume of stotras, Mohd Ashraf Peerzada Collection, Srinagar (ACC-NMM-16)"
+  author: "Bṛhaspati speaks (bṛhaspatir uvāca on the first page of the text); the volume holds a Kāśīkhaṇḍa hymn before it and Shiva, Shankaracharya and other stotras after it"
+  edition: "Peerzada Muhammad Ashraf Collection, Srinagar, manuscript 7 (ACC-NMM-16), Devanagari, digitised by the Sarayu Trust / eGangotri Trust under the IKS programme; Internet Archive id jqjc_svapnodhyaya-shukashtaka-shiva-nirvana-hari-tattva-muktavali-others-devanagari-m (a 109-page PDF; the Svapnodhyāya verses 1-13 on PDF pages 102-106, verse 14 to the end on PDF pages 3-10)"
+  licence: "public-domain (CC0 by the Internet Archive record)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD277: PDF pages 102 and 103 read at 260-400 dpi, verses 1-4; the rest of the text not read; no date or scribe read"
+
+rmk:
+  title: "Svapnādhyāya (Bṛhaspati speaks), manuscript M 856 of the Kavikulaguru Kalidas Sanskrit University, Ramtek"
+  author: "Bṛhaspati speaks (bṛhaspatir uvāca at the head of the text)"
+  edition: "Kavikulguru Kalidas Sanskrit University, Ramtek (Jnanayogi Dr. Shrikant Jichkar Knowledge Resource Center), accession M 856, Sanskrit manuscripts; Internet Archive id lVHJ_m-856-svapnadhyaya-kavikulguru-kalidas-sanskrit-university-ramtek-collection (a 7-page PDF of large page images, CC0; the text on PDF page 2)"
+  licence: "public-domain (CC0 by the Internet Archive record)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD277: PDF page 2 read at 24 and 70 dpi, the first four lines; no date or scribe read; the remaining pages not read"

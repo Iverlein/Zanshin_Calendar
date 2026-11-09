@@ -13,6 +13,8 @@ Read by RD274 (2026-11-09): The claims of RD227–RD273 and every dream-* image 
 
 Read by RD273 (2026-11-09): the Svapnohana found in the Co ne print by the rKTs catalogue (vol. 28, 133b3–135a3 = img. 270–273) and read by Yigdzin-1; Advayavajra's Svapnekṣā located (vol. 49, 130a1–130b7 = img. 263–264), read by Yigdzin-1 on enhanced line strips only; see svo:p271g.
 
+Read by RD277 (2026-11-09): the Svapnādhyāya of Bṛhaspati in the Penn manuscript Ms. Coll. 390 Item 1871 (pn1871:i2) and in the Item 673 of 1824 (pn673:i1), in the Srinagar volume (pzs:i102-103), the Ramtek M 856 (rmk:i2) and in an Odia print of 1929 (osv:i3) on the images, for the series of spans of the watches: the four manuscripts give a year, eight months, three months, a month, ten days (not Negelein's i, not the Svapnohana's half-month); see claims/penn-odia-svapnadhyaya-series.md.
+
 Read by RD274 (2026-11-09): no scan opened; the Svapnohana's rows in the dream catalogue read against RD228–RD273 (claims only): the seized creatures of p. 270 are a centipede, a snake and a water creature, not "a horse" (svo-rta-bla-mo-is-the-centipede), the spellings of «བཅུ་ཡི་བར», «བགྲོད་མིན», «འགྲོན་བུ» and the Gāyatrī are settled (svo-other-prints-agree, svo-gayatri-spelling), the rule of the watches stands in the table of dream-catalogue beside the Indian texts whose series it is (indian-dream-spans-by-watch-nine-texts).
 
 Read by RD266 (2026-11-09): Co ne vol. 63 img. 400–604 and vol. 65 img. 1–18 by Yigdzin-1.
@@ -381,4 +383,12 @@ Title: Sanskrit given as a garbled «སམྦྷ་ཨུ་སྨན», Tibeta
 
 - The Co ne images on BDRC are the only Co ne copy tried; the archive.org zip was shown by RD273 to be the same scan, and none was looked for again. The Dpe bsdur ma notes (vol. 14 p. 1368) cite «ཅོ་» at none of the five words; no higher-resolution Co ne.
 - By eye, at 2.5×–14× on blurred, sharpened, dilated and deskewed crops, none of the five doubtful words nor the fourth-watch line's inner syllables could be read letter by letter: the ink of these stretches is dotted and partly absent (the half-leaf was printed from a worn block and reproduced as a bitonal image); the votes above are the evidence.
+
+### Searched and not found (RD277, 2026-11-09)
+
+- The verse of the spans on the Penn Ms. Coll. 390 Item 2730 (2 leaves, "iti vṛhasyatiproktaḥ svapnādhyāyaḥ"): its first image (4951_0000) did not arrive from the OPenn server in the time of the reading; the second leaf (4951_0002, top lines) has a verse that recommends reading the treatise in the morning against bad dreams, like Negelein's i 86ff. (neg:p32). Item 687 (Svapnādhyāyastotra, 2 leaves, 6029_0001) delivered no text lines.
+- The leaves 2 to 5 of Item 1871 arrived only in their upper lines (images 3014_0003 to 0005): the table on f. 1r (3014_0001) and the colophon on f. 4r were not seen on an image; the colophon and the date "circa 1700–1850" are from the TEI file. The OPenn server delivered about 1–3 kB a second.
+- Negelein's i, the Leipzig manuscript 1178 and the Oxford MS. Sansk. d. 215: the Leipzig portal's host did not resolve (mymssportal.dl.uni-leipzig.de), the Bodleian's South Asian catalogue answers 403 to a fetch (records d. 215 and Chandra Shum Shere d. 765(1), a Bṛhaspati Svapnādhyāya of 4 folios, known only from a search summary); no image of either was found. The Berlin SBB Hs. or. 6301-12 (a Svapnādhyāya, named in a Leipzig MyCoRe search result) was not opened.
+- The Surat manuscript svapnadhyaya-CGV-PSS-0182-1515 (Internet Archive; Bṛhaspati's, V. S. 1842 by RD272) is a photograph of small leaves: its first leaf shows the span verse's opening ("svapnasya prathame …saṃvatsara phala… dvitīye cāṣṭabhi… triyāmake" and "…daśā… sadyaḥ svapna…") but the page edge cuts the fourth span, so it is not registered; the second Surat item (0183-1516) was not read. The Telugu palm leaf Telugu_TEL_B_0582_D_2396 (svapnādhyāyamu) has a text layer without the words for year and watch, the Hindi Svapnaprakāśikā likewise.
+- The Source Library page (sourcelibrary.org/book/svapanadhyaya, "Treatise on Dreams", the eGangotri scan No. 1083-Gha of the Dharmartha Trust, 3 folios) answers a Cloudflare challenge to a fetch; its text is not on the page summary the fetch tool returned. Not read; its Internet Archive original was not identified.
 
