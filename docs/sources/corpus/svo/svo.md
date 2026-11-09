@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD263 (2026-11-09): Atharva-Veda Pariśiṣṭa 68 (Bolling and Negelein 1910 and two Devanagari editions), Kālaprakāśikā ch. XLII (Iyer 1917 translation), Aṅgavijjā ch. 42 (Puṇyavijaya 1957), Bṛhatsaṃhitā (Iyer 1884), Yogayātrā (Dvivedi 1907).
+
 Read by RD252 (2026-11-09): SVO on the Peking print, I1KG13197 img. 317 line 1 at 4–6×.
 
 Read by RD251 (2026-11-09): SVO on the Peking print, I1KG13197 img. 315 lines 3, 5, 6, 7 at 3–5×.

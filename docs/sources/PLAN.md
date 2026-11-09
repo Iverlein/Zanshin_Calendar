@@ -1766,3 +1766,7 @@ Searched and found wanting, so not to be repeated:
 - **RD260, 2026-11-09** (RD260, 2026-11-09):
   - The Zhol print was not opened for the four ch. 25 lines; the last line's «རྨི་ལྟས»/«ཕྱི་ལྟས» stack of p. 144 was not enlarged on either print; the Zhol folio number (lower left «ཐ», 四百十九) is a low-confidence reading.
   - Print notes: Taikhang vol. 2 (I5878, MW30116) p. 144 is img. 222, printed folio 212 = image − 10, img. 220 ends ch. 29's colophon; Zhol (I1KG1710) the same text is img. 840, img. 835 ends ch. 29's colophon; Taikhang vol. 1 (I5877) printed numbers are image − 10 (the earlier 'page + 159' does not hold).
+- **RD263, 2026-11-09** (RD263, 2026-11-09):
+  - Pariś. 68 searched whole for tithi, pakṣa, weekday and season names, māsa, ṛtu, nakṣatra: no tie of a dream to any of them; the only time ties are the watches and the five states of the night.
+  - The Kālaprakāśikā's Sanskrit verse: none of four Iyer scans on the Internet Archive has Devanagari in its text layer; the Tamil-press scan failed to download; Wikisource, GRETIL and Sanskrit Documents do not hold the work.
+  - Bṛhatsaṃhitā and Yogayātrā: no dream chapter. Not read: Kohlbrugge 1938, Modak 1993, Negelein's German Svapnacintāmaṇi (1912), the other Aṅgavijjā chapters (43–44); the Aṅgavijjā morning and midday lines are garbled in both OCR layers.
