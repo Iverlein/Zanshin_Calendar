@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD242 (2026-11-09): SVO on the Peking print, I1KG13197 img. 315 line 2 at 2×.
+
 Read by RD235 (2026-11-09): the watches' verse in the Narthang print (W22704 vol. 28, I3279 img. 286; the same page on I2KG212312 img. 284), the gser bris ma (I1PD31365 img. 386–387) and Peking again (I1KG13197 img. 315 line 2), and the Dpe bsdur ma etext's notes (vol. 14 p. 1368).
 
 Read by RD233 (2026-11-09): the Svapnohana whole on the Peking print (W1KG13126 vol. 28, I1KG13197 img. 315–318), by eye on enlargements.
