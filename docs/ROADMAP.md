@@ -5156,6 +5156,21 @@ groups it shows (`tools/emulator/store_shots.py`).
   (`.agents/rules/sources.md`).
 - **Check.** Every topic file holds its reading; `kb.py check` and
   `SourcesTest` clean; the readings marked done in the table.
+- **Read 2026-11-09** (RD207–RD213, RD215–RD217, RD219–RD225; most in
+  part, see their rows): no text read ties a dream to a lunar day,
+  weekday or month; the watch of the night is the one time rule, and
+  only the Svapnohana gives spans for it (a year, eight months, three
+  months, half a month, ten days, no unit named for the fifth beyond
+  days). The Lama Gongdü, Klong rdol's text (RST, KBS, one witness), the
+  Svapnohana's companion SVI and the Yigdzin-read manuals instead cut
+  the night in three (dusk habit, midnight spirits, dawn the only
+  omen); DTD examines the last of four watches. No Tibetan source
+  bounds the watches by the clock (`claims/night-watches.md`). The
+  catalogue is `claims/dream-catalogue.md`: 85 images, 13 not to be
+  offered yet (`dream-unsettled-words`), eight read in opposite ways.
+  Still unread: Scheuermann (RD214, the PDF), the Ebara 大雑書 (q786),
+  the folk collection's dream part (RD221) and RBG; the scan proof of
+  most passages (RD218, RD219, RD222).
 
 #### <a id="s2"></a>S2 A dream reading in the app — planned 2026-11-09
 
@@ -5221,7 +5236,11 @@ groups it shows (`tools/emulator/store_shots.py`).
     catalog entries; the CLI prints a dream read for a date, a watch and
     a list of images.
 - **Stated choices**, for the owner to overrule: equal quarters of the
-  night from sunset to sunrise until RD215 gives WB's own spans; the
+  night from sunset to sunrise (RD215 found no span of WB's own; the
+  fallback stays, marked as such on the screen); the fruit date shown
+  for the Svapnohana's watches only, since no other text gives spans,
+  and a dream in the three-part night's dusk or midnight shown with
+  those texts' words (habit, spirits' display) beside the image rows; the
   fruit date counted in civil months and days from the morning after the
   dream; an image whose verdict rests on an unsettled word is not offered
   (as the moment's signs, §5.9.5); the deity rites' asked-for dreams
