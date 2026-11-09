@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD237 (2026-11-09): KCM in the Rin chen gter mdzod etext (VE1KG14_037) and SRM in the second print W24769 vol. 6 (I6320 img. 275–279).
+
 Read by RD209 (2026-11-09): KCM pp. 679–682, SKP pp. 40–55, DTD vol. 10 pp. 219–220 and the NLM manuscript pp. 155–158, RBG vol. 3 pp. 203–205 (witness), RST etext, RRT vol. 41 pp. 186–195.
 
 ## <a id="kcm-p679-682"></a>kcm:p679-682 The magic mirror, whole: the rite of asking in a dream, the tenth day, the three days of offering

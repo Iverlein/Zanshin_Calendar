@@ -1700,3 +1700,8 @@ Searched and found wanting, so not to be repeated:
   - Palri img. 539: «ཐོ་རེངས» (machine) against «ཐོ་རངས», and «བསྐྱངས་བས» against «བསྐྱར་བས», not settled by eye.
   - Palri img. 534–538 (the rite) not read by eye, only diffed against RD208's rite; the Yigdzin-1 reading drops the page-head «ཨོཾ» marks and does not read the seed string at the head of img. 534.
   - scans.py line not used; crops with pixel boxes work: the Palri text block is x about 500–3900, y 140–820 in the 4350×975 strip, 5–6 lines to a page, a half-width crop at 1.1× reads well. img. 545 starts another text (the sadhana of the little white boy who announces in the ear).
+- **RD237, 2026-11-09** (RD237, 2026-11-09):
+  - The abstract work WA0XL5DC139EF13C8 (KCM) has one instance only (MW23766_5DC139); no other print of KCM by its own title found in BDRC's catalogue.
+  - KCM in the Rin chen gter mdzod, I1KG52 (vol. 37, image = printed page + 17 at img. 640, 700 and 730, 810 images in all): the KCM page was not reached; the etext VE1KG14_037 is about 1.17M characters but its text up to img. 800 reaches only about 534k of 830k, KCM at about 762k, so the etext covers more than the images the manifest serves or is ordered differently; img. 1000 and 1180 do not exist.
+  - bdrc.py etext of the whole IE0OPIC2BFA6FE (15 volumes) is slow (over 3 minutes) and was stopped; its KCM hit (VEIE0OPIC2BFA6FE_I1KG81132) was not read.
+  - The Rin chen gter mdzod KCM paragraph has no «ཚོད» after «དུས», so it is a variant of the Tashijong print, not a copy.
