@@ -8,6 +8,9 @@ the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
 Read by RD243 (2026-11-09, partial): SVO on the Peking print, I1KG13197 img. 315 line 1 at 2× (x 480–3350); lines 3–8 not read at 2×.
+
+Read by RD244 (2026-11-09, partial): SVO on the Peking print, I1KG13197 img. 316 lines 1 and 2 at 2×.
+
 Read by RD242 (2026-11-09): SVO on the Peking print, I1KG13197 img. 315 line 2 at 2×.
 
 Read by RD235 (2026-11-09): the watches' verse in the Narthang print (W22704 vol. 28, I3279 img. 286; the same page on I2KG212312 img. 284), the gser bris ma (I1PD31365 img. 386–387) and Peking again (I1KG13197 img. 315 line 2), and the Dpe bsdur ma etext's notes (vol. 14 p. 1368).
@@ -167,6 +170,9 @@ Differences from the Derge text: (1) the line of the fourth watch, «ཐུན�
 *Read by RD242, 2026-11-09 (partial): img. 315 line 2 only, on contrast-stretched 2× crops (x 480–4100, four overlapping chunks).* The line reads «…ལོ་གཅིག་ནང་དུ་འབྲས་བུ་འབྱིན། །ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པ་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར་དུ། །མཐོང་བར་འགྱུར་…»: no fourth-watch line between the third watch's line and «མཐོང་བར་འགྱུར», as RD233 and RD235 found; the third watch's line ends «བར་དུ». The first segment looks like «བརྒྱད་པ་ལ» (པ, not བར), against the Derge etext's «བརྒྱད་བར་ལ» and RD233's reading; weak, the stroke after «བརྒྱད» is not clean at this size, a doubt and not a claim. The remaining lines of img. 315 and all of img. 316 were not read at 2× by RD242; svo:p271d stands as RD233 left it.
 
 *Read by RD243, 2026-11-09 (partial): img. 315 line 1 at 2×, contrast-stretched crops, x 480–3350 (the first 2000 px).* It reads «རྒྱ་གར་སྐད་དུ། [Sanskrit title, five signs] །བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ། སངས་རྒྱས་ལ་ཕྱག་འཚལ་ལོ། །རྨི་ལམ་སྣ་ཚོགས་ལས་བྱུང་བ། །དེ་ཡི་བརྟག་པ་བཤད་པར་…»: the same as the Derge etext, no variant; the Sanskrit title's stack is still not told apart. The rest of line 1 (x 3350–4900) and lines 3–8 not read at 2×; svo:p271d unchanged.
+
+*Read by RD244, 2026-11-09 (partial): img. 316 (5358 × 1421 px) lines 1 and 2 only, on contrast-stretched 2× crops, four overlapping chunks per two lines (x 470–4900); the lines lie at y about 300 and 411 (pitch 111 px), so the −45 px offset against img. 315 was not needed once found on a 1/3-size overview.* Line 1 runs from the end of «བུ་མོ་ཤིང་ལོ་འབྲས་བུ་ཟན། །གཉིད་ཀྱི་མཐའ་མར་གང་གིས་མཐོང་། །བླ་ན་མེད་པའི་དཔལ་ཐོབ་འགྱུར། །མི་དག་གི་ཤ་རྣམས་ནི། །བཙོས་སམ་མ་བཙོས་གང་ཡང་རུང་། །རྨི་ལམ་དུ་ནི་གང་གིས་ཟོས། །» and the shapes of every verse line agree with the Derge etext; no syllable differing was seen, but the chunks were read for shape against the etext, not syllable by syllable. Line 2 begins with the merit of the flesh eaten (foot, hand, head) and goes on to the entrails; its shapes also agree, with the same limit. Lines 3–8 of img. 316 were not read at 2× by RD244; svo:p271d stands as RD233 left it for them.
+
 
 ## <a id="svo-p271e"></a>svo:p271e The watches' verse in the Narthang prints, the gser bris ma and the Dpe bsdur ma notes: the fourth watch's line
 
