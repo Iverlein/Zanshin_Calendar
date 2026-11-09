@@ -982,7 +982,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lth/lth.md](corpus/lth/lth.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs, the Supplement to the Instruction Tantra (Beijing 2005) | 1 passages: 1 etext |
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
-| [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 1 passages: 1 etext |
+| [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 2 passages: 1 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 1 passages: 1 etext |
@@ -1001,7 +1001,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 5 passages: 2 scan, 2 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 9 passages: 4 scan, 4 machine, 1 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
