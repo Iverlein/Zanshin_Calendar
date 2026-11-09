@@ -1691,3 +1691,7 @@ Searched and found wanting, so not to be repeated:
   - I2KG212312 img. 284 is the same page and layout as I3279 img. 286: the two Narthang scans are one print family, not independent witnesses.
   - The Dpe bsdur ma etext's note markers are lost in the OCR: the minus-sign entry for «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར» is placed under «པེ་» by order among the notes only.
   - First segment's spelling «བརྒྱད་པ་ལ» (Narthang, gser bris ma) against «བརྒྱད་བར་ལ» (Peking, Derge etext) and «བར» against «བར་དུ» at the end of the third watch's line: not settled at 30–40 px.
+- **RD236, 2026-11-09** (RD236, 2026-11-09):
+  - Narthang manuscript's «བྱ་ཤ…ཏེ» (I2KG212330 img. 290): the middle syllable's lower sign (ད, ང or ར) and whether «འུ» follows «ཏེ» at the frame are not settled at 3–5×; the W22704 copy is too coarse to help.
+  - Dpe bsdur ma scans (vol. 25, I1PD95870) restricted; the notes' markers are lost, each entry assigned to its word by content only.
+  - The Narthang pages are hand-written strips and the OCR line numbers do not map to page lines; lines were found by an ink-row profile of the strip (img. 290: 7 lines, centres near y 318, 364, 410, 456, 502, 550, 595); autocontrast then 2.7–5× crops read well.
