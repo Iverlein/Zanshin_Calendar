@@ -2,7 +2,7 @@
 kind: claim
 type: note
 terms: [thun]
-cites: ['svo:p268', 'apv:p445', 'kps:p232-236', 'agv:p120-121', 'bsm:p8-12', 'yyt:p188']
+cites: ['svo:p268', 'apv:p445', 'kps:p232-236', 'agv:p120-121', 'bsm:p8-12', 'yyt:p188', 'bvp:p662-665', 'bya:p41-46']
 feeds: [block-73]
 open: []
 ---
@@ -22,3 +22,5 @@ RD263 (2026-11-09) checked this against the texts, on the Internet Archive: the 
 - The *Aṅgavijjā* asks the time at which the dream was seen (night or day and its part, the fortnight, the six seasons) and gives no time to the fruit: [angavijja-dream-time-fortnight-season](angavijja-dream-time-fortnight-season.md).
 - No chapter of Varāhamihira's works is on dreams: [brhatsamhita-no-dream-chapter](brhatsamhita-no-dream-chapter.md).
 - Of all the texts read, none ties the time of a dream's fruit to a lunar day, a weekday or a month. The only ties of a dream to the moon or a season are the *Aṅgavijjā*'s fortnight and seasons of the dream's own time.
+
+RD265 (2026-11-09) read nine more Indian texts and corrects the line above that the Svapnohana follows the *Kālaprakāśikā* "in kind but not in its numbers": its five spans (a year, eight months, three months, half a month, ten days at dawn) are the series of the *Brahmavaivartapurāṇa*'s *Svapnādhyāya* (bvp:p662-665), whole; the *Agni* and the *Matsya* share its third and fifth spans with a six-month second watch; Varāhamihira's *Bṛhadyātrā* (bya:p41-46) has a dream chapter after all. The table and the comparison: [indian-dream-spans-by-watch-nine-texts](indian-dream-spans-by-watch-nine-texts.md). No text read ties a dream to a lunar day, a weekday or a month; the *Aṅgavijjā*'s ties are of the time the dream was seen ([angavijja-dream-time-fortnight-season](angavijja-dream-time-fortnight-season.md)).

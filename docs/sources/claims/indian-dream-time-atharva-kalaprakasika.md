@@ -2,7 +2,7 @@
 kind: claim
 type: conflict
 terms: [thun]
-cites: ['apv:p445', 'kps:p232-236', 'svo:p268']
+cites: ['apv:p445', 'kps:p232-236', 'kpd:p184-189', 'bvp:p662-665', 'svo:p268']
 feeds: [block-73]
 open: []
 ---
@@ -14,4 +14,6 @@ The Atharva-Veda appendix 68, the *Svapnādhyāya* (apv:p445, Bolling and Negele
 
 So the "six months" that Wayman gives for the Atharva-Veda's second watch is the *Kālaprakāśikā*'s number: the appendix reads eight months in every witness, including the variant readings of its manuscripts. The Svapnohana (a year, eight months, three months, half a month, ten days at dawn) agrees with the appendix in the number of times (five), in the year and the eight months, and in a third span that is shorter than the second; it parts from the appendix in the later spans (three months and half a month against half of the second and a month) and from the *Kālaprakāśikā* in the second span. None of the three ties its spans to a lunar day, a weekday or a month: they run by the watch of the night alone.
 
-The edition of the *Kālaprakāśikā* printed the Sanskrit above the translation, but the text layers of the four scans read have no Devanagari; its verse was not reached, and the author of the work is not named in the front matter as read. The sentence "of two dreams the later prevails" is in both the appendix (68.2.57) and the *Kālaprakāśikā*.
+The Sanskrit of the *Kālaprakāśikā*, which RD263 could not reach, was found in RD265 in another printing (kpd:p184-189, ch. XLII, verses 66–69; the author named in the colophon of the last chapter as Nṛsiṃhasūri). It agrees with Iyer's English in the year, the half-year, the twelve days at dawn and, for the hour of the cows' release, the same day; the third and fourth watch terms are partly garbled in the layer. The sentence "of two dreams the later prevails" is in the appendix (68.2.57), the *Kālaprakāśikā* and the Purāṇas.
+
+RD265 (2026-11-09) widened the comparison to nine texts: [indian-dream-spans-by-watch-nine-texts](indian-dream-spans-by-watch-nine-texts.md). The Svapnohana's series, which the paragraph above sets beside the appendix's and the *Kālaprakāśikā*'s, is word for number that of the *Brahmavaivartapurāṇa*'s *Svapnādhyāya* (bvp:p662-665): a year, eight months, three months, half a month, ten days at dawn.

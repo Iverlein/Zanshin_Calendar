@@ -823,7 +823,7 @@ kps:
   rank: 3
   role: source
   locator: page
-  notes: "RD263: the English of ch. XLII read whole in the text layer; the Sanskrit verse was not reached (no Devanagari in the layers of four scans of this edition)"
+  notes: "RD263: the English of ch. XLII read whole in the text layer; the Sanskrit verse was not reached (no Devanagari in the layers of four scans of this edition); RD265: the Sanskrit found in another printing, siglum kpd"
 
 agv:
   title: "Aṅgavijjā (Prakrit, Jaina divination by limbs and signs), ch. 42, Suviṇajjhāya (the chapter on dreams)"
@@ -833,7 +833,7 @@ agv:
   rank: 3
   role: source
   locator: page
-  notes: "RD263: the end of ch. 42 (the time of the dream) read in both text layers, which agree on the last sentence and differ in the lines before it; machine reading of OCR, not read on the page image"
+  notes: "RD263: the end of ch. 42 (the time of the dream) read in both text layers, which agree on the last sentence and differ in the lines before it; machine reading of OCR, not read on the page image. RD265: the lines before it recovered from three other layers (xpwp, 321409, and the parallel of ch. 41); the edition prints ch. 42 at pp. 186-191 (the running head of the next page reads 191), so agv:p120-121 is the same page as agv:p190-191, the first misread by OCR; ch. 59 pp. 259-260"
 
 bsm:
   title: "Bṛhatsaṃhitā of Varāhamihira, English translation (searched for a chapter on dreams)"
@@ -853,4 +853,94 @@ yyt:
   rank: 3
   role: source
   locator: page
-  notes: "RD263: the Devanagari text layer searched for svapna; no chapter on dreams; the thirteenth chapter's last verse extends the omens of departure to dreams"
+  notes: "RD263: the Devanagari text layer searched for svapna; no chapter on dreams; the thirteenth chapter's last verse extends the omens of departure to dreams; RD265: ch. 2, verses 23-24, the king hears the day's tithi, nakṣatra and weekday and bad dreams are destroyed (p. 28-29)"
+
+neg:
+  title: "Der Traumschlüssel des Jagaddeva (Svapnacintāmaṇi), Sanskrit text with German translation and commentary"
+  author: "Julius von Negelein (editor and translator); the text is Jagaddeva's Svapnacintāmaṇi, a dream book of about the twelfth century"
+  edition: "Julius von Negelein, Der Traumschlüssel des Jagaddeva. Ein Beitrag zur indischen Mantik, Religionsgeschichtliche Versuche und Vorarbeiten 11.4, Töpelmann, Giessen 1912 (Internet Archive id von-negelein-der-traumschlussel-des-jagaddeva; Roman transliteration, German)"
+  licence: "public-domain (1912): facts in our own words, the Sanskrit quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the text layer (about 840,000 characters) searched whole for the watches, tithi, the weekdays, the lunar fortnights, the seasons and the months; verses 1.15-17 and Negelein's parallels read; the passages on omens and seasons in the Introduction and the notes read; machine reading of OCR, the page images not read"
+
+bya:
+  title: "Bṛhadyātrā of Varāhamihira (the astrologer's work on the king's march, also called the Aśvamedhīyayātrā), ch. 16, the dreams"
+  author: "Varāhamihira (6th century)"
+  edition: "Varāhamihira's Bṛhadyātrā, ed. D. Pingree, Tamil Nadu Government Oriental Manuscripts Library, Madras 1972 (Internet Archive id BrhadyatraOfVarahamihira, 73 leaves of two pages, Devanagari with a Latin apparatus)"
+  licence: "the old Sanskrit text public-domain; the 1972 edition is modern: facts only, the verses quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: ch. 16 (Svapnādhyāya, 32 verses, printed pp. 41-46) read in the Devanagari text layer (Tesseract; the apparatus is garbled); the page images opened, not read verse by verse"
+
+kpd:
+  title: "Kālaprakāśikā (the standard book on election, muhūrta), Sanskrit text, ch. XLII, the dreams"
+  author: "Nṛsiṃhasūri, by the colophon of the last chapter (ch. XLV: 'iti …siṃhasūri-viracitāyāṃ Kālaprakāśikāyāṃ pañcacatvāriṃśo 'dhyāyaḥ, samāpteyaṃ Kālaprakāśikā'; the first syllables are garbled by OCR and read as nṛ-)"
+  edition: "Kālaprakāśikā, Devanagari text, Lawley Press, Madras (Muthulakshmi Research Academy scans from the Oriental Research Institute, Mysore; Internet Archive id ZBAx_kalaprakasika-n-p-iyer-tamil-lawley-press; the English is in kps); ch. XLII on pp. 184-189 of its printing"
+  licence: "public-domain (an old Indian printing of an old text)"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the Devanagari of ch. XLII (69 verses) read in the text layer, which RD263's four scans of Iyer's edition lack; machine reading of OCR, the page images not read"
+
+adb:
+  title: "Adbhutasāgara of Ballālasena (the compilation of omens, begun about 1168), the Svapnādbhutāvarta and the omen chapters"
+  author: "Ballālasena, king of Bengal, who began the work; completed by his son Lakṣmaṇasena; the verses are quotations from older authors named in the text"
+  edition: "Adbhutasāgara, ed. Murali Dhara Jha, Benares 1905 (Chaukhamba; Internet Archive ids nnkj-adbhutasagara-by-vallala-sena-deva-edited-by-mural, abqv-adbhuta-sagara-by-vallala-sena-deva-edited-by-mura, cCPQ_adbhuta-sagara-of-vallala-sena-deva-1905-varanasi-pt.-murali-dhara-jha; the dream chapter at pp. 499-515)"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the dream chapter and the nirghāta chapter read in the Devanagari text layers of three copies of one printing; machine reading of OCR"
+
+mtp:
+  title: "Matsyapurāṇa ch. 242, Svapnādhyāya (dreams as omens of the king's march)"
+  author: "attributed to Vyāsa (the Purāṇa's own colophon)"
+  edition: "Matsyapurāṇa, Ānandāśrama Sanskrit Series 54, Poona (the year of the title page is garbled in the text layer; Internet Archive id ozcr-matsya-purana-aa-54-ananda-ashram), ch. 242 at pp. 453-455"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: ch. 242 read in the Devanagari text layer; machine reading of OCR"
+
+agp:
+  title: "Agnipurāṇa, the Svapnādhyāya (dreams as omens of the king's march)"
+  author: "attributed to Vyāsa (the Purāṇa's own colophon)"
+  edition: "Agnipurāṇa, Ānandāśrama Sanskrit Series 41, Poona 1900 (Internet Archive id SP4182AgniPuranaAnandAshram411900AnandAshramSeries), the dream chapter (229 in this edition, 228 in Rajendralal Mitra's) at pp. 280-281; the same verses in Mitra's edition (Bibliotheca Indica, Calcutta 1870-79) read in the GRETIL e-text, which is not cited"
+  licence: "the Sanskrit text public-domain; the GRETIL e-text of Mitra's edition is under CC BY-NC-SA and is not used for any quotation: the verses are those of the 1900 Ānandāśrama scan"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: verses 16-19 of the dream chapter read in the Devanagari text layer of the 1900 scan and compared with Mitra's text; machine reading of OCR"
+
+kho:
+  title: "Atharvaveda-pariśiṣṭa über Omina (Dutch doctoral thesis, in German), on the Pariśiṣṭas 57-71 and their parallels"
+  author: "Dina Johanna Kohlbrugge"
+  edition: "Dina Johanna Kohlbrugge, Atharvaveda-pariśiṣṭa über Omina, Proefschrift Utrecht, Veenman, Wageningen 1938 (Internet Archive id kohlbrugge-atharvaveda-parisista-uber-omina)"
+  licence: "a modern thesis, copyright not settled: facts only, in our own words, no wording quoted"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the whole text layer (about 320,000 characters) read for any dream and any tie of an omen to a lunar day, a weekday, a month or a season; machine reading of OCR"
+
+gpu:
+  title: "Garuḍapurāṇa, English by Manmatha Nath Dutt (searched for a chapter on dreams)"
+  author: "attributed to Vyāsa; translator Manmatha Nath Dutt"
+  edition: "The Garuda Puranam, ed. and published by Manmatha Nath Dutt, Society for the Resuscitation of Indian Literature, Calcutta 1908 (Internet Archive id kuug_shree-garuda-purana-800-pages, a Cornell copy); the Sanskrit of the Saroddhāra and Hindi editions (ids didb_garuda-purana-saroddhara-satika-by-naunidhirama-editor-harimasa-sanskrit-pu, torw-garuda-purana-saroddhara-bhasha-tika-sahitam-edito, aHnC_garuda-purana-part-1-acharya-sriram-sharma) searched too"
+  licence: "public-domain (1908): facts in our own words"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the whole English text layer searched for dream; the Devanagari layers of three further editions searched for svapna, prathame yāme and daśāhena: the Garuḍapurāṇa has no chapter on dreams; two passages mention them"
+
+bvp:
+  title: "Brahmavaivartapurāṇa, Kṛṣṇajanmakhaṇḍa ch. 73, the Svapnādhyāya (Nanda asks, Kṛṣṇa answers)"
+  author: "attributed to Vyāsa (the Purāṇa's own colophon)"
+  edition: "Brahmavaivartapurāṇa, ed. Jivananda Vidyasagara, vol. 2, Calcutta 1888 (Internet Archive id xnrj_brahmavaivarta-purana-volume-2-jibananda-vidyasagara-1888-jivananda-vidyasagar-calcutta; the chapter at pp. 662-665 by the page numbers of its running heads); the same chapter printed alone as the Svapnādhyāya with a Nepali commentary, Babu Shivaprasad Raghoram, Gorkha Pustakalaya, Banaras 1935 (id iipt-swapnadhyaya-brahmavaivarta-purana-with-nepali-com)"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD265: the chapter read in the Devanagari text layers of both printings, which agree in verses 4-7; machine reading of OCR, the page images not read"

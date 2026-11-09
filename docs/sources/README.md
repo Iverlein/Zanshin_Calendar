@@ -82,15 +82,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 
 | File | Kind | Title | State |
 | --- | --- | --- | --- |
-| [claims/angavijja-dream-time-fortnight-season.md](claims/angavijja-dream-time-fortnight-season.md) | claim, rule | The Aṅgavijjā's chapter on dreams asks when the dream was seen: night or day, the part of it, the fortnight, the season (RD263) | cites agv:p120-121; feeds block-73 |
+| [claims/angavijja-dream-time-fortnight-season.md](claims/angavijja-dream-time-fortnight-season.md) | claim, rule | The Aṅgavijjā's chapter on dreams asks when the dream was seen: night or day in six parts, the fortnight, the season (RD263, RD265) | cites agv:p120-121, agv:p190-191, agv:p186, agv:p191-193, agv:p259-260; feeds block-73 |
 | [claims/birth-and-year-of-age-no-ranking.md](claims/birth-and-year-of-age-no-ranking.md) | claim, note | No reader ranks the birth reckoning against the year of age for one year | cites wb.1:p349, wb.2:p483; feeds block-58 |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
-| [claims/brhatsamhita-no-dream-chapter.md](claims/brhatsamhita-no-dream-chapter.md) | claim, note | Varāhamihira's Bṛhatsaṃhitā and Yogayātrā have no chapter on dreams (RD263) | cites bsm:p8-12, yyt:p188; feeds block-73 |
+| [claims/brhatsamhita-no-dream-chapter.md](claims/brhatsamhita-no-dream-chapter.md) | claim, note | Varāhamihira's Bṛhatsaṃhitā and Yogayātrā have no chapter on dreams (RD263) | cites bsm:p8-12, yyt:p188, bya:p41-46; feeds block-73 |
 | [claims/bsgrub-all-prints.md](claims/bsgrub-all-prints.md) | claim, note | The five graves' «བསྒྲུབ» is carved the same in all prints read | cites wb.2:p124-125, wbz:i809; feeds block-31 |
 | [claims/btsad-po-old-word-for-lord.md](claims/btsad-po-old-word-for-lord.md) | claim, note | «བཙད་པོ» is the old word for king or lord, and the nine-red's guard is not a slip | cites wb.2:p97-100, wb.2:p126-128; feeds block-31 |
+| [claims/bya-dream-humours-parts-of-night-seasons.md](claims/bya-dream-humours-parts-of-night-seasons.md) | claim, rule | The Bṛhadyātrā ties the dream's humour to the part of the night and to the rains, autumn and spring (RD265) | cites bya:p41-46, neg:p17-19, apv:p445, gpu:p131; feeds block-73 |
 | [claims/ch18-four-lists-of-the-years.md](claims/ch18-four-lists-of-the-years.md) | claim, note | WB ch. 18 holds four lists of the sixty years' results, from four texts, side by side | cites wb.1:p198, wb.1:p202, wb.1:p206, wb.1:p209, wb.1:p212; feeds — |
 | [claims/ch18-little-tiger-ear-years-end.md](claims/ch18-little-tiger-ear-years-end.md) | claim, list | The Chinese *Little Tiger-Ear*'s list of the years, fire sheep to water pig (WB ch. 18, p. 212) | cites wb.1:p211, wb.1:p212; feeds — |
 | [claims/ch18-little-tiger-ear-years.md](claims/ch18-little-tiger-ear-years.md) | claim, list | The Chinese *Little Tiger-Ear*'s list of the years, wood mouse to fire sheep (WB ch. 18, pp. 210–211) | cites wb.1:p210, wb.1:p211; feeds — |
@@ -409,6 +410,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
+| [claims/garuda-purana-no-dream-chapter.md](claims/garuda-purana-no-dream-chapter.md) | claim, note | The Garuḍapurāṇa has no chapter on dreams (RD265) | cites gpu:p131; feeds block-73 |
 | [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558, gnc.1:p559-561; feeds S1 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
@@ -444,7 +446,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/illness-words-dictionary-rd111.md](claims/illness-words-dictionary-rd111.md) | claim, note | Illness words: «བསྔོ», «བླངས་ལན», «གདོན་རྐྱེན» in the dictionaries and BDRC's search | cites wb.1:p419, wb.1:p438, wb.2:p497; feeds block-32 |
 | [claims/in-laws-skyug-sgyug.md](claims/in-laws-skyug-sgyug.md) | claim, conflict | gnas skyug or gnas sgyug: what the search and the print show | cites wb.2:p526; feeds — |
-| [claims/indian-dream-time-atharva-kalaprakasika.md](claims/indian-dream-time-atharva-kalaprakasika.md) | claim, conflict | The time of a dream's fruit by the watches of the night: the Atharva-Veda appendix 68 (eight months), the Kālaprakāśikā (six months) and the Svapnohana (RD263) | cites apv:p445, kps:p232-236, svo:p268; feeds block-73 |
+| [claims/indian-dream-spans-by-watch-nine-texts.md](claims/indian-dream-spans-by-watch-nine-texts.md) | claim, table | The time of a dream's fruit by the watch of the night in the Indian texts: the Svapnohana's series is the Brahmavaivartapurāṇa's (RD265) | cites apv:p445, kps:p232-236, kpd:p184-189, bya:p41-46, mtp:p453-455, agp:p280-281, bvp:p662-665, neg:p14-16, adb:p513-515, svo:p268; feeds block-73 |
+| [claims/indian-dream-time-atharva-kalaprakasika.md](claims/indian-dream-time-atharva-kalaprakasika.md) | claim, conflict | The time of a dream's fruit by the watches of the night: the Atharva-Veda appendix 68 (eight months), the Kālaprakāśikā (six months) and the Svapnohana (RD263) | cites apv:p445, kps:p232-236, kpd:p184-189, bvp:p662-665, svo:p268; feeds block-73 |
+| [claims/indian-omens-tied-to-lunar-day-nakshatra-season.md](claims/indian-omens-tied-to-lunar-day-nakshatra-season.md) | claim, note | Other Indian omens are tied to the lunar day, the nakṣatra and the season; dreams are not (RD265) | cites kho:p72-74, kho:p58-61, kho:p48, kho:p140-141, adb:p307-309, adb:p513-515, neg:p17-19, neg:p35, yyt:p28-29; feeds block-73 |
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
 | [claims/kbs-bad-dream-signs.md](claims/kbs-bad-dream-signs.md) | claim, list | Klong rdol, bad omens, for a practitioner and for others | cites kbs:p72-78; feeds S1 |
 | [claims/kbs-death-omen-dreams.md](claims/kbs-death-omen-dreams.md) | claim, list | Klong rdol, dreams that foretell death | cites kbs:p72-78; feeds S1 |
@@ -586,7 +590,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-reading-the-answer.md](claims/srm-reading-the-answer.md) | claim, rule | Śramaṇā rite: how the answer is read, changed and repeated | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
-| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57; feeds S1 |
+| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57, gt:i42; feeds S1 |
 | [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351, ktr:p329-332, bdk:p580-581, mbl:p521-522; feeds S1 |
 | [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21, bjp:p57, rsp:p57, ktr:p175-177, bdk:p34; feeds S1 |
 | [claims/st-dream-rims-cham.md](claims/st-dream-rims-cham.md) | claim, rule | The dream among the signs of the cham of the pestilence (ch. 27) | cites st:p241, st:p241-242b; feeds S1 |
@@ -606,7 +610,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-gayatri-spelling.md](claims/svo-gayatri-spelling.md) | claim, note | The Gayatri's name in the Svapnohana is ga ya tri in Peking | cites svo:p271b, svo:p271; feeds RD228 |
 | [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
 | [claims/svo-images-unfortunate.md](claims/svo-images-unfortunate.md) | claim, list | The Svapnohana's unfortunate images and their verdicts | cites svo:p269, svo:p270, svo:p271; feeds block-73 |
-| [claims/svo-indian-frame-of-watch-rule.md](claims/svo-indian-frame-of-watch-rule.md) | claim, note | The rule of the watches in older Indian dream books (Wayman 1967); the Svapnohana not mentioned | cites svo:p268, apv:p445, kps:p232-236, agv:p120-121, bsm:p8-12, yyt:p188; feeds block-73 |
+| [claims/svo-indian-frame-of-watch-rule.md](claims/svo-indian-frame-of-watch-rule.md) | claim, note | The rule of the watches in older Indian dream books (Wayman 1967); the Svapnohana not mentioned | cites svo:p268, apv:p445, kps:p232-236, agv:p120-121, bsm:p8-12, yyt:p188, bvp:p662-665, bya:p41-46; feeds block-73 |
 | [claims/svo-la-mo-conflict.md](claims/svo-la-mo-conflict.md) | claim, conflict | Peking and Narthang read rta la mo where the Derge text has rta bla mo | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-la-mo-further-narthang.md](claims/svo-la-mo-further-narthang.md) | claim, note | The two further Narthang prints read rta la mo, as Peking and the first Narthang print do | cites svo:p271c, svo:p271b; feeds RD231 |
 | [claims/svo-modern-tibetan-quotations.md](claims/svo-modern-tibetan-quotations.md) | claim, note | Modern Tibetan books quote the Svapnohana's rule of the watches; no earlier quotation found | cites svo:p268, svo:p271f; feeds block-73 |
@@ -945,7 +949,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
-| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 1 passages: 1 machine |
+| [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 2 machine |
+| [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 1 passages: 1 machine |
+| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 5 passages: 5 machine |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
 | [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 1 passages: 1 machine |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
@@ -953,11 +959,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
+| [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 machine |
+| [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 machine |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 2 passages: 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
+| [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 1 passages: 1 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
@@ -968,7 +977,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 12 passages: 2 scan, 1 machine, 9 etext |
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
 | [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 1 passages: 1 machine |
+| [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
+| [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 machine |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
@@ -988,6 +999,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
+| [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 machine |
+| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 3 passages: 3 machine |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
@@ -1058,7 +1071,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 32 passages: 12 scan, 20 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
-| [corpus/yyt/yyt.md](corpus/yyt/yyt.md) | corpus | YYT | 1 passages: 1 machine |
+| [corpus/yyt/yyt.md](corpus/yyt/yyt.md) | corpus | YYT | 2 passages: 2 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 5 passages: 3 scan, 1 machine, 1 etext |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
@@ -1771,6 +1784,15 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **AGV** | *Aṅgavijjā*, a Jaina Prakrit text of divination, ch. 42 *Suviṇajjhāya* | ed. Muni Puṇyavijaya, Prakrit Text Society 1, Varanasi 1957 | Internet Archive ids xuqq_angavijja-science-of-divination-… and dli.ernet.424497 (two text layers); the end of ch. 42 read (RD263, 2026-11-09), by machine; facts only |
 | **BSM** | Varāhamihira, *Bṛhatsaṃhitā*, searched for a chapter on dreams; English by N. Chidambaram Iyer | Madura 1884 | Internet Archive id b29353130; searched whole (RD263, 2026-11-09): none |
 | **YYT** | Varāhamihira, *Yogayātrā*, with Harinandana Miśra's commentary | ed. Sudhākara Dvivedi, Benares 1907 | Internet Archive id xnmx_yoga-yatra-of-varahamihira-ed-by-sudhakar-dvivedi-1907-diamond-jubilee-print; searched for *svapna* (RD263, 2026-11-09): no chapter on dreams |
+| **NEG** | Julius von Negelein, *Der Traumschlüssel des Jagaddeva* (*Svapnacintāmaṇi*, a dream book of about the twelfth century, Sanskrit in Roman transliteration with German translation and commentary), *Religionsgeschichtliche Versuche und Vorarbeiten* 11.4 | Giessen 1912 | Internet Archive id von-negelein-der-traumschlussel-des-jagaddeva; OCR text layer searched whole (RD265, 2026-11-09); public domain |
+| **BYA** | Varāhamihira, *Bṛhadyātrā* (also the *Aśvamedhīyayātrā*), ch. 16 *Svapnādhyāya* | ed. D. Pingree, Madras 1972 | Internet Archive id BrhadyatraOfVarahamihira (73 leaves of two pages); Devanagari OCR layer (RD265); the old text public domain, the edition modern: facts only |
+| **KPD** | *Kālaprakāśikā*, ch. XLII on dreams, the Sanskrit text (its English is KPS) | Lawley Press, Madras (Muthulakshmi Research Academy scans from the Oriental Research Institute, Mysore) | Internet Archive id ZBAx_kalaprakasika-n-p-iyer-tamil-lawley-press; Devanagari OCR layer (RD265) |
+| **ADB** | Ballālasena, *Adbhutasāgara*, the compilation of omens, with the *Svapnādbhutāvarta* | ed. Murali Dhara Jha, Benares 1905 | Internet Archive ids nnkj-adbhutasagara-by-vallala-sena-deva-edited-by-mural, abqv-adbhuta-sagara-by-vallala-sena-deva-edited-by-mura, cCPQ_adbhuta-sagara-of-vallala-sena-deva-1905-varanasi-pt.-murali-dhara-jha; Devanagari OCR layers (RD265) |
+| **MTP** | *Matsyapurāṇa* ch. 242 *Svapnādhyāya* | Ānandāśrama Sanskrit Series 54, Poona | Internet Archive id ozcr-matsya-purana-aa-54-ananda-ashram (RD265) |
+| **AGP** | *Agnipurāṇa*, the *Svapnādhyāya* (ch. 229 of the Ānandāśrama edition, 228 of Mitra's) | Ānandāśrama Sanskrit Series 41, Poona 1900 | Internet Archive id SP4182AgniPuranaAnandAshram411900AnandAshramSeries (RD265); Mitra's text (Bibliotheca Indica 1870–79) compared in the GRETIL e-text, which is under CC BY-NC-SA and not cited |
+| **KHO** | Dina Johanna Kohlbrugge, *Atharvaveda-pariśiṣṭa über Omina*, Proefschrift Utrecht (in German); on the Pariśiṣṭas 57–71 and their parallels, not on ch. 68; facts only | Veenman, Wageningen 1938 | Internet Archive id kohlbrugge-atharvaveda-parisista-uber-omina; OCR layer read whole (RD265) |
+| **GPU** | *Garuḍapurāṇa*, searched for a chapter on dreams; English by Manmatha Nath Dutt | Calcutta 1908 | Internet Archive id kuug_shree-garuda-purana-800-pages; searched whole with three Sanskrit and Hindi editions (RD265): no dream chapter |
+| **BVP** | *Brahmavaivartapurāṇa*, *Kṛṣṇajanmakhaṇḍa* ch. 73, the *Svapnādhyāya* (also printed alone) | ed. Jivananda Vidyasagara, vol. 2, Calcutta 1888; the chapter alone with a Nepali commentary, Banaras 1935 | Internet Archive ids xnrj_brahmavaivarta-purana-volume-2-jibananda-vidyasagara-1888-jivananda-vidyasagar-calcutta, iipt-swapnadhyaya-brahmavaivarta-purana-with-nepali-com (RD265) |
 | **EB9** | 『京都大学蔵潁原文庫選集』 第9巻, 雑書 1 (大雑書・暦占・随筆 1): an Edo 大雑書 and the dream book 夢占吉凶秘伝書 (いろは引夢うらなひ) reprinted side by side, with 毎年暦考見, a 天明八年伊勢暦 and 東見記 | 京都大学文学部国語学国文学研究室 編, 臨川書店, Kyoto 2018, 378 pp. | NDL KG211-M1 (R100000002-I029406484); the Edo texts public-domain, the reprint's own matter facts only; the reprint is not online and not read (contents from the NDL record); its dream book is the 新版ゆめあはせ, read on the 国文研 copy of the 1852 printing by RD261 (2026-11-09) |
 | **MDZ** | 伊藤孝行 (transcriber), 翻刻『万代大雑書古今大成』(十五), the 夢はんじ and the table of days on which a dream is not told, from a Tenpō 大雑書 | メディア・コミュニケーション研究 78, Hokkaido University, 2025, pp. 1–11 | HUSCAP hdl.handle.net/2115/94454; the transcription's own matter facts and short quotations only; the original print not seen |
 | **YMK** | 夢合延寿袋大成, an Edo dream book ascribed to 安倍清明 (preface Anei 6), the dream chapters, the five dreams and the count by eights | 上総屋利兵衛, Bunka 11 (1814), NDL Digital Collections pid 2533938 | open without login; read as the NDL's OCR text with the quoted lines checked on the page images; the OCR is rough, so passages are machine-state |
