@@ -139,7 +139,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 - [The dreams that mark the harmful nāga spirits' illness (ch. 81)](dream-sick-naga-illness-dreams.md): ST (only when ill)
 - [Women leading the dreamer away](dream-sick-women-lead-away.md): ST (only when ill)
 - [The shapes of whatever bad came in dreams, poured into a skull](dream-sick-bad-dream-shapes-poured.md): WB25 (only when ill)
-- [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md): ST (unsettled; only when ill)
+- [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md): ST (dag settled as "again and again" by two commentaries, RD229; only when ill)
 
 ## The images by text
 
@@ -229,7 +229,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 | [The dreams that mark the harmful nāga spirits' illness (ch. ](dream-sick-naga-illness-dreams.md) |  | B/S? |  |  |  |  |  |  |  |  |
 | [Women leading the dreamer away](dream-sick-women-lead-away.md) |  | B/S? |  |  |  |  |  |  |  |  |
 | [The shapes of whatever bad came in dreams, poured into a sku](dream-sick-bad-dream-shapes-poured.md) |  |  | X/S |  |  |  |  |  |  |  |
-| [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md) |  | X/S? |  |  |  |  |  |  |  |  |
+| [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md) |  | X/S |  |  |  |  |  |  |  |  |
 
 Images read, by text: WB30 28, ST 12, WB25 3, LGD 49, SVO 35, SVI 30, SKP 34, RST 36, KBS 39, RRT 6, KCM 1. 85 images in all; 13 with an unsettled verdict; 13 with a sick-dreamer row.
 
