@@ -10,6 +10,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD275 (2026-11-09): ch. 7's dream verse on two more prints, the Zhol print I5910 (img. 56–57) the Chag-po-ri print I1KG13487 (img. 48–49) the Chag-po-ri reprint I5907 (img. 66) and the Derge I00JW501163 (img. 41), found with Yigdzin-1 and looked at by eye at 8–14×; the readings by print in the claim `gt-dream-verse-chag-po-ri-prints`, section RD275. In these whole-work volumes the verse is not near img. 36–45.
+
 Read by RD270 (2026-11-09): Chag-po-ri scans I3CN1711 img. 40, I3CN1696 img. 44, I3CN1702 img. 36 and the Bhutan scan I1KG13565 img. 37–53.
 
 Read by RD271 (2026-11-09): ch. 7's unexplained words (བྲོ་པའི་ཁྲལ, བག་མ་ལན་པ, རྔ་མོ, རྨེ་ཅན) against the dictionaries and BDRC's etexts, no scan: claims gt-bro-ba-khral-ded-a-levy, gt-bag-ma-lan-pa-is-bag-ma-len-pa, gt-rnga-mo-is-the-camel, gt-rme-can-a-man-with-a-black-birthmark, gt-water-or-beer-fiends-or-the-dead.
