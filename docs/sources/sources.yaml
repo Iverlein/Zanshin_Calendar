@@ -697,3 +697,23 @@ skf:
   role: source
   locator: page
   notes: "the poem has no page here; p1 stands for the one poem"
+
+bjp:
+  title: "Bshad rgyud kyi 'grel chen bdud rtsi'i chu rgyun (the great commentary on the Explanatory Tantra, the Stream of Nectar)"
+  author: "Byang pa Rnam rgyal grags pa bzang po"
+  edition: "Si khron mi rigs dpe skrun khang, Chengdu 2001 (a second record, MW15590, gives the same title)"
+  bdrc: {work: MW27496, etext: IE0OPI74E38BEB}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext only, read 2026-11-09 (RD229); printed page = etext page - 36 at pp. 93 and 233 (the print's number stands at the foot of each page); found by BDRC's full-text search for the Four Tantras' lines of ch. 2 and ch. 7"
+
+rsp:
+  title: "Bshad rgyud kyi 'grel chen dri med kun gsal (the great commentary on the Explanatory Tantra, the Stainless, All-Clarifying), stod cha"
+  author: "Rin spungs pa'i bla sman Bsod nams ye shes rgyal mtshan"
+  edition: "Si khron mi rigs dpe skrun khang, Chengdu 2002 (Bod kyi gso rig dpe rnying phyogs sgrigs, no. 5)"
+  bdrc: {work: MW27494, etext: IE0OPI65E2C626}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext only, read 2026-11-09 (RD229); the first of two volumes; printed page = etext page - 26 at pp. 83 and 255-256 (the print's number stands at the foot of each page); the BDRC note calls it a sixteenth-century commentary by the court physician of the Rin spungs rulers"
