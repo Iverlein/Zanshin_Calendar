@@ -1775,3 +1775,7 @@ Searched and found wanting, so not to be repeated:
   - Adarsha's Tengyur is Derge only; the Dpe bsdur ma bdrc-W1PD95844 restricted in China, bdrc-W1PD95859 and bdrc-W1PD95870 have no item; Derge bdrc-W23703 restricted in China; Open Library OL44152045M asked for human verification.
   - RBG vol. 3 pp. 203–205: archive.org bdrc-W1KG2733 exists but is restricted in China and lent only (zip 401), bdrc-W1KG2753 has no item; only the loan reaches it. The Lhasa Tengyur printing, rKTs and ACIP were not opened.
   - Tool note: a background loop with pgrep -f on 'hf_read.py yigdzin' matches its own command line and hangs; use until [ -f out.txt ].
+- **RD262, 2026-11-09** (RD262, 2026-11-09):
+  - The full etexts of MW25126 and MW8LS18598: etextchunks 403, etextrefs empty for both MW ids, a guessed IE8LS18598 gives 404; chains of searches stop at chunk boundaries (Padma's at «rmi lam rnams ni bgrod min la zhugs shis pa'o», «gang gis gnyid kyi mtha' mar» and the end «[ 2 ]de'i [26 .]»; Bya mdo's at «lus la 'byar dang gseb na 'a»); the sentences before «rmi lam sna tshogs las byung ba» in Padma and after p. 26 not reached by a dozen guesses.
+  - The page of Bya mdo's second place (char. 318035): no marker in the window.
+  - Neither book is registered as a source with a siglum; cited by MW id.

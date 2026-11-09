@@ -1648,6 +1648,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0844.md](questions/q0844.md) | question q844 | In ch. 81 two later witnesses read «ལྷས་ཚོར་ངུས་ཏེ» and the Serthang scan and most others «ལྷས་ཚོར་དུས་ཏེ»: is ངུས a reading of the Bhutan print and the 2005 Lhan thabs, or a fault of the etext, and what does ལྷས་ mean? | open; cites st:p350-351 |
 | [questions/q0845.md](questions/q0845.md) | question q845 | Khro ru glosses the creatures of ch. 81 with «རྟ་བླ» and «གྲོག་མ», and Sde srid's verse has «རྟ་བླ» where the Four Tantras have «འབུ་སྦྲང»: what is the rta bla? | open; cites st:p350-351 |
 | [questions/q0846.md](questions/q0846.md) | question q846 | The 'Bri gung glosses the dreams of water, trees and the green meadow as «གཏད་དུ་ཚུད་པ» (Khro ru «བཏད་དུ་ཚུད་པ»): a pledge, a trust, or a different word? | open; cites st:p350-351 |
+| [questions/q0847.md](questions/q0847.md) | question q847 | Padma rdo rje quotes the whole Svapnohana on about pp. 17–26 of his book: what does the sentence that introduces it say about its source and author, and does he gloss the watches after it? | open; cites svo:p271f |
+| [questions/q0848.md](questions/q0848.md) | question q848 | Bya mdo Klu byams rgyal's «tho rengs gsum cha phyis 'byung gsal byed yin»: what do «gsum cha phyis» and «gsal byed» mean, and from what text does he take it? | open; cites svo:p271f |
+| [questions/q0849.md](questions/q0849.md) | question q849 | Does the Four Tantras' own text carry «mtshan stod rmi lam brjed nges 'bras bu med; tho rangs mthong dang gsal na 'bras bu 'byin», in which chapter, and does a Tibetan commentary read «mtshan stod» as the first part of the night? | open; cites svo:p271f, st:p44 |
 
 <!-- end pool index -->
 
