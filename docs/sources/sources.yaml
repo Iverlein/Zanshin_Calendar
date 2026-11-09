@@ -512,12 +512,17 @@ svi:
 lgd:
   title: "Bla ma dgongs pa 'dus pa las rmi lam bzang ngan brda rtags kyi rim pa (the stages of the signs of good and bad dreams, from the Lama Gongdü)"
   author: "the treasure of Sangs rgyas gling pa (1340–1396)"
-  edition: "Rin chen gter mdzod chen mo, Shechen Publications, New Delhi 2007–, vol. 42, pp. 799–810 (6 ff.)"
+  edition: "Rin chen gter mdzod chen mo, Shechen Publications, New Delhi 2007–, vol. 42, pp. 961–971 (the volume's own contents page: «རྨི་ལམ་བརྟག་པ», 6 ff., 961–971)"
   bdrc: {work: MW1KG14_2DD1B5, etext: VE1KG14_042, scans: [W1KG14]}
+  volumes:
+    42:
+      scan: I1KG57
+      image_offset: 19
+      pages: [961, 971]
   licence: public-domain
   rank: 3
   role: source
-  notes: "many other prints (MW01CT0060, MW1LT3204, MW18978, MW23445, MW1PD96185, MW2PD17514, MW20578, MW3CN827); located 2026-11-09 (q784), not read"
+  notes: "many other prints (MW01CT0060, MW1LT3204, MW18978, MW23445, MW1PD96185, MW2PD17514, MW20578, MW3CN827); located 2026-11-09 (q784); read on the scan 2026-11-09 (RD208); the pages 799–810 first given for it are other texts of the volume; image = printed page + 19"
 
 kcm:
   title: "Rmi lam brtag thabs 'phrul gyi me long (the magic mirror, a method of examining dreams)"
