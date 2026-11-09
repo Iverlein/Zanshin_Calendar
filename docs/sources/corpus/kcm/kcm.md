@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD258 (2026-11-09): the time phrase on a scan of a third print (I1KG81132 img. 480–482, the Kun dga' bstan pa'i rgyal mtshan collection), and the Rin chen gter mdzod scan route shown a dead end.
+
 Read by RD239 (2026-11-09): SRM on the second print W24769 vol. 6 (I6320 img. 275–279).
 
 Read by RD237 (2026-11-09): KCM in the Rin chen gter mdzod etext (VE1KG14_037) and SRM in the second print W24769 vol. 6 (I6320 img. 275–279).
@@ -14,6 +16,14 @@ Read by RD237 (2026-11-09): KCM in the Rin chen gter mdzod etext (VE1KG14_037) a
 Read by RD239 (2026-11-09): not reached (the Rin chen gter mdzod scan page of «ཐོ་རེངས་ཀྱི་དུས» was not looked for).
 
 Read by RD209 (2026-11-09): KCM pp. 679–682, SKP pp. 40–55, DTD vol. 10 pp. 219–220 and the NLM manuscript pp. 155–158, RBG vol. 3 pp. 203–205 (witness), RST etext, RRT vol. 41 pp. 186–195.
+
+## <a id="kcm-p474"></a>kcm:p474 The time of dawn on a third print's scan (Kun dga' bstan pa'i rgyal mtshan's bka' 'bum vol. 20, img. 482)
+
+*Read: scan, 2026-11-09.*
+
+> > [Kun dga' bstan pa'i rgyal mtshan, bka' 'bum vol. 20 (I1KG81132), printed p. 474 = img. 482, lines 2–4] …ཉལ་ཁར་གོང་གི་སྒོམ་བཟླས་ནན་ཏན་བྱས་ལ། གཞན་དུ་གཏམ་སྨྲ་བ་དང་། རེ་དོགས་ཀྱི་བློ་སྤངས་ཏེ་ལྷའི་གསལ་སྣང་དང་མོས་གུས་ཀྱི་ངང་དུ་གཉིད་དུ་འགྲོ་བར་བྱས་པས་ཐོ་རེང་གི་དུས་མངོན་སུམ་དུ་ལུང་སྟོན་པའི་ཚིག་གམ། བརྡ་རྟགས་ཀྱི་རིམ་པ་གང་རུང་འབྱུང་བས་དཔྱད་ཤེས་པར་བྱའོ། །མངྒ་ལཾ།།
+
+The closing paragraph of the magic mirror on a third print, a scan. Going to sleep in the clear appearance of the deity and in devotion, "at the time of dawn (ཐོ་རེང, tho reng) words of prophecy in person, or some sequence of signs, appear, and one examines and knows by that." The scan reads «ཐོ་རེང་གི་དུས» (tho reng gi dus), "the time of dawn", where the Tashijong cursive print has the unread ligature before «རང་གི་དུས་ཚོད» and the Rin chen gter mdzod etext has «ཐོ་རེངས་ཀྱི་དུས»; the three agree in sense, so the first syllable of the Tashijong phrase is ཐོ (tho) and the phrase is "dawn", not "its own time".
 
 ## <a id="kcm-p679-682"></a>kcm:p679-682 The magic mirror, whole: the rite of asking in a dream, the tenth day, the three days of offering
 
@@ -35,6 +45,10 @@ The text is not a table of dream images but a rite for calling a clear dream and
 **RD237 (2026-11-09): a second print of the whole text, typeset.** BDRC full-text search for «ཉལ་ཁ་བརྒྱ་རྩ་བརྒྱད་བཟླས་ནས», «ཆུ་བུར་མིག་གི་སྒོ་སོལ་ཅིག» and «ཉལ་ཁ་དམོད་བཙུགས» finds the same text, with its title «རྨི་ལམ་བརྟགས་ཐབས་འཕྲུལ་གྱི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ», in the etext VE1KG14_037 (the Rin chen gter mdzod, W1KG14 vol. 37, image group I1KG52, a second etext IE0OPIC2BFA6FE_I1KG81132 also hits). Its last paragraph reads, after «གཉིད་དུ་འགྲོ་བར་བྱས་པས་»: «ཐོ་རེངས་ཀྱི་དུས་མངོན་སུམ་དུ་ལུང་སྟོན་པའི་ཚིག་གམ། བརྡ་རྟགས་ཀྱི་རིམ་པ་གང་རུང་འབྱུང་བས་དཔྱད་ཤེས་པར་བྱའོ།» ("at the time of dawn, words of prophecy in person or some sequence of signs appear, and one examines and knows by that"). So the phrase of the Tashijong print is, on this print, the time of dawn (ཐོ་རེངས, tho rengs), not a name of a watch of the night and not "its own time"; this agrees with the cursive scan's ligature before «རང་» (ཐོ་རངས་ with the ཐོ joined into one stroke), but the Tashijong scan itself was not read again, and this print has no «ཚོད» after «དུས». The rest of the etext agrees with the machine reading of the Tashijong print in the rite's wording (checked by eye on the etext's text, not on a scan). State of the phrase: etext of a second print, not scan; q819 and q801 can be answered from it with that reserve. The etext's text is not in the Gser thang/Tashijong pagination (its [pN] marks count paragraphs); the scan of the Rin chen gter mdzod volume (I1KG52, 810 images, image = printed page + 17 up to img. 760) was fetched in part (img. 640, 700, 730, 760, 780, 800) and the KCM page was not reached: the etext of this volume is longer than its images, so KCM lies in a part of the etext that the scan sequence of I1KG52 does not cover.
 
 *Searched and not found (RD237).* The abstract work WA0XL5DC139EF13C8 has one instance only (MW23766_5DC139); no other print of KCM by its own title in BDRC's catalogue. The scan of the Rin chen gter mdzod KCM page: not found in I1KG52 img. 640-800.
+
+**RD258 (2026-11-09): the page of the time phrase found, on another print.** The Rin chen gter mdzod scans do not carry the page: the etext VE1KG14_037 is longer than its scan volume I1KG52 (803 images, img. 3–805, ending at about etext offset 752k of 1.174M; the etext's [pN] marks restart at each text, so they are not pages). KCM stands in the etext at offset 1 076 584, after the Dgongs 'dus and Pra se na texts, which the neighbouring scan volume I1KG53 (vol. 38, 839 images) does not follow in order: Yigdzin-1 over 25 probe images of I1KG53 matched the etext only at img. 440 and 460, and nowhere else. The second etext found by RD237, VEIE0OPIC2BFA6FE_I1KG81132 (the bka' 'bum of Kun dga' bstan pa'i rgyal mtshan, gleg bam 20; image group I1KG81132, 592 images, served), holds KCM at [p480]–[p482] (title at p. 480 end, «ཐོ་རེང་གི་དུས» on p. 482), and its scans are served: image = etext page, printed folio = image minus 8 (img. 482 carries the folio 474). The title and the first part are on img. 480–481 (Yigdzin-1 read them; not read by eye), the closing paragraph on img. 482 lines 2–4. By eye at 3×, line 3 ends «…གཉིད་དུ་འགྲོ་བར་བྱས་པས་ཐོ་རེང་གི་དུས་མངོན་», then line 4 «སུམ་དུ་ལུང་སྟོན་པའི་ཚིག་གམ།»; Yigdzin-1 and the etext give the same. So the phrase is «ཐོ་རེང་གི་དུས» (tho reng gi dus), "the time of dawn", with «དུས» alone and no «ཚོད»: this print, the Rin chen gter mdzod etext («ཐོ་རེངས་ཀྱི་དུས») and the ligature seen by RD226 agree, and q819 and q801 can be answered "dawn" with the reserve that the Tashijong syllable itself is a ligature read by inference. See passage kcm:p474. The print is a typeset-looking dbu can page of the collected works with its own variants (e.g. «ཧྲཱིཿམ་ཧ་རི་ནི་ས་ཕུ་ཕུ་ཏུང་ཏུང»); it was not collated beyond the closing paragraph.
+
+*Searched and not found (RD258).* The KCM page in I1KG52 (img. 3–805: the volume ends before KCM's place in the etext) and in I1KG53 (probes img. 5, 40–560 step 20–40, 580–820 step 40: only the Pra se na text at img. 440/460 matches the etext, KCM not reached); bdrc.py volumes W1KG14 answers HTTP 401, so the work's own volume list was not read.
 
 ## Open
 
