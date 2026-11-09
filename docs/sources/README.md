@@ -1395,6 +1395,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | open; cites wb.1:p24 |
 | [questions/q0783.md](questions/q0783.md) | question q783 | Ch. 3 p. 27 line 26: the stack in «བིགས» | open; cites wb.1:p27 |
 | [questions/q0784.md](questions/q0784.md) | question q784 | Written sources on reading dreams, and whether any ties them to the calendar | answered; cites wb.2:p144, wb.2:p144e |
+| [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | open; cites mdz:p11 |
+| [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11 |
+| [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | open; cites skf:p1 |
+| [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | open; cites nip:p1 |
 
 <!-- end pool index -->
 

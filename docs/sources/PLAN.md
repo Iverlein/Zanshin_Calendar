@@ -1581,3 +1581,11 @@ Searched and found wanting, so not to be repeated:
   PDF link is not in the record page's text. A static fetch of the Four
   Tantras' etext (IE0OPIFEF6EACA, one volume, 692 chunks) works with
   `bdrc.py etext` in under a minute.
+- **RD213, 2026-11-09**: the Ebara volume (EB9, 『京都大学蔵潁原文庫選集』 vol. 9) is
+  in no online form and has no table of contents beyond the NDL record
+  (R100000002-I029406484), no page numbers per text; the 日本大百科全書
+  entries 初夢 and 夢占 name no Edo source by title; 山家集 on ja.wikisource is
+  an empty page, no critical edition or poem number found online;
+  森田登代子's 「大雑書研究序説」 and nichibun.repo.nii.ac.jp/records/651 not
+  reachable; no 大雑書 dream table tied to 庚申, the stems or dates besides ゆ六
+  in the 万代大雑書 part 15.
