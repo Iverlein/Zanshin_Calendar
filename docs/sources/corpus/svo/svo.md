@@ -13,6 +13,9 @@ Read by RD243 (2026-11-09, partial): SVO on the Peking print, I1KG13197 img. 315
 
 Read by RD244 (2026-11-09, partial): SVO on the Peking print, I1KG13197 img. 316 lines 1 and 2 at 2×.
 
+Read by RD245 (2026-11-09, partial): SVO on the Peking print, I1KG13197 img. 317 line 8 and img. 318 lines 4-5 at 2x.
+
+
 Read by RD242 (2026-11-09): SVO on the Peking print, I1KG13197 img. 315 line 2 at 2×.
 
 Read by RD235 (2026-11-09): the watches' verse in the Narthang print (W22704 vol. 28, I3279 img. 286; the same page on I2KG212312 img. 284), the gser bris ma (I1PD31365 img. 386–387) and Peking again (I1KG13197 img. 315 line 2), and the Dpe bsdur ma etext's notes (vol. 14 p. 1368).
@@ -174,6 +177,8 @@ Differences from the Derge text: (1) the line of the fourth watch, «ཐུན�
 *Read by RD243, 2026-11-09 (partial): img. 315 line 1 at 2×, contrast-stretched crops, x 480–3350 (the first 2000 px).* It reads «རྒྱ་གར་སྐད་དུ། [Sanskrit title, five signs] །བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ། སངས་རྒྱས་ལ་ཕྱག་འཚལ་ལོ། །རྨི་ལམ་སྣ་ཚོགས་ལས་བྱུང་བ། །དེ་ཡི་བརྟག་པ་བཤད་པར་…»: the same as the Derge etext, no variant; the Sanskrit title's stack is still not told apart. The rest of line 1 (x 3350–4900) and lines 3–8 not read at 2×; svo:p271d unchanged.
 
 *Read by RD244, 2026-11-09 (partial): img. 316 (5358 × 1421 px) lines 1 and 2 only, on contrast-stretched 2× crops, four overlapping chunks per two lines (x 470–4900); the lines lie at y about 300 and 411 (pitch 111 px), so the −45 px offset against img. 315 was not needed once found on a 1/3-size overview.* Line 1 runs from the end of «བུ་མོ་ཤིང་ལོ་འབྲས་བུ་ཟན། །གཉིད་ཀྱི་མཐའ་མར་གང་གིས་མཐོང་། །བླ་ན་མེད་པའི་དཔལ་ཐོབ་འགྱུར། །མི་དག་གི་ཤ་རྣམས་ནི། །བཙོས་སམ་མ་བཙོས་གང་ཡང་རུང་། །རྨི་ལམ་དུ་ནི་གང་གིས་ཟོས། །» and the shapes of every verse line agree with the Derge etext; no syllable differing was seen, but the chunks were read for shape against the etext, not syllable by syllable. Line 2 begins with the merit of the flesh eaten (foot, hand, head) and goes on to the entrails; its shapes also agree, with the same limit. Lines 3–8 of img. 316 were not read at 2× by RD244; svo:p271d stands as RD233 left it for them.
+
+*Read by RD245, 2026-11-09 (partial): img. 317 line 8 (x 450-4950, five contrast-stretched 2x crops) and img. 318 line 4 end and line 5 start.* Img. 317 line 8 runs «…འབྲས་བུ་ལྡན་ན་?་མེད་…། །མེ་འབར་བ་ནི་འཇིགས་པར་…» to the line's end; the syllable between «ལྡན་ན» and «མེད» is a single glyph of the shape of a stack with a vowel sign, not told apart from «བློ» nor from another reading; kept as a doubt. Img. 318 line 4 ends with «…ངན་པ་ཟློག་པར་འགྱུར། །རྨི་ལམ་བ…» (the line's last syllables cut at the frame, «བརྟ» not clean) and line 5 begins with «པ་» followed by a stacked syllable «…ག» and «ས», then possibly a second «པ» and a stack before «སོ། །»: one syllable more than «པ་རྫོགས་སོ» seems present, as RD233 found; the stacks are not resolved at 2x. Other lines of img. 317-318 not read by RD245.
 
 
 ## <a id="svo-p271e"></a>svo:p271e The watches' verse in the Narthang prints, the gser bris ma and the Dpe bsdur ma notes: the fourth watch's line
