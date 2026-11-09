@@ -15,3 +15,5 @@ Klong rdol bla ma (Ngag dbang blo bzang, a Dge lugs lama of Chab mdo; BDRC gives
 - the dawn third (ཐོ་རངས, tho rangs): the dream from which the good or bad fruit is examined; this one alone is read.
 
 So his rule gives no span of days or months for the fruit; the time is only which third of the night the dream came in. The article reads «ཐུན», watch, as the same word as the third and counts three, where Vibhūticandra's Svapnohana counts four watches with the dawn apart (svo:p268-271); how the thirds map to clock times is not given, and the article's remark that the thirds match sleep research is its own opinion.
+
+The verses are in the ACIP etext RST pp. 3-4 (rst:p1-8), which ends with Klong rdol bla ma's colophon (rst-is-klong-rdols-dream-text); the etext adds that part of the evening third is the deeds of former lives (rst-and-kbs-wording).
