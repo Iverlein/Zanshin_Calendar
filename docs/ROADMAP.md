@@ -5160,10 +5160,8 @@ groups it shows (`tools/emulator/store_shots.py`).
   part, see their rows): no text read ties a dream to a lunar day,
   weekday or month; the watch of the night is the one time rule, and
   only the Svapnohana gives spans for it (a year, eight months, three
-  months, half a month, ten days, no unit named for the fifth beyond
-  days). The Lama Gongdü, Klong rdol's text (RST, KBS, one witness), the
-  Svapnohana's companion SVI and the Yigdzin-read manuals instead cut
-  the night in three (dusk habit, midnight spirits, dawn the only
+  months, half a month, ten days). The Lama Gongdü, Klong rdol's text
+  (RST, KBS, one witness) and SVI instead cut the night in three (dusk habit, midnight spirits, dawn the only
   omen); DTD examines the last of four watches. No Tibetan source
   bounds the watches by the clock (`claims/night-watches.md`). The
   catalogue is `claims/dream-catalogue.md`: 85 images, 13 not to be
