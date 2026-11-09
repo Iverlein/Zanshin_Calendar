@@ -114,3 +114,17 @@ The Svapnohana in two other prints of the Tengyur (Peking, Narthang) and in the 
 - Advayavajra's examination (SVI) in the Peking (W1PD95844 vol. 25 pp. 415–418 is the Dpe bsdur ma; Peking W1KG13126) was not looked for: none of its words was on the row's list.
 - Lama Gongdü: the Zhe chen mkhar dmar print (W2PD17514 vol. 33 I4PD2250 img. 303–314) was fetched and not read; the Kazi and Sbas-yul readings are Yigdzin-1 only, not looked at on the scan; the vol. 37 copy of the Shechen set was read as etext only; no Sanskrit parallel is published (none found).
 - The Palri Parkhang print's pages 534–545 (I01CT0067) hold the whole dream text; only img. 542 was read.
+
+## <a id="svo-p271c"></a>svo:p271c The la mo line in two further Narthang prints (W22704, gser bris ma W23702)
+
+*Read: scan.*
+
+> Narthang, W22704 vol. 28 (I3279 img. 288, printed p. 284), by eye at 8×:
+> 
+> རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
+> 
+> Gser bris ma, W23702 (I1PD31365 img. 389, printed p. 387), by eye at 6×:
+> 
+> རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
+
+The line "a horse, la mo (ལ་མོ), a pot-belly (ལྟོ་འཕྱེ), a water creature seized" in two further Narthang prints of the Tengyur, apart from the one of RD228 (W2KG5015, I2KG212312). The Narthang print of vol. 28 (W22704, I3279, img. 286–289, a hand-cut print; the scan shows the printed number 284 on img. 288) and the gser bris ma (W23702, I1PD31365, img. 386–391, the scan shows the printed number 387 on img. 389) were read by Yigdzin-1, and the line found by it (Narthang img. 288, line 4 of Yigdzin-1's text; gser bris ma img. 389, its line 6) was read by eye on enlargements of 6× and 8×. Both prints show «རྟ» then a plain «ལ» then «མོ»: no «བ» over a subjoined «ལ», so «ལ་མོ» as in Peking and the first Narthang print. Yigdzin-1 gives «ལ་མོ» in both. The other doubtful places by Yigdzin-1 only, in both prints: «བགྲོད་མིན» (Narthang img. 286, gser bris ma img. 387), «འགྲོན་བུ» (the same images), «བཅུ་ཡི་བར» (img. 288, 389) and «ག་ཡ་ཏྲི» (img. 289, 391, with ཏྲི, not ཏཱི) agree with Peking; these were not read by eye, only the «ལ་མོ» line was.
