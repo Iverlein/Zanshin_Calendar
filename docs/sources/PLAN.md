@@ -1602,3 +1602,6 @@ Searched and found wanting, so not to be repeated:
   to the headed Playwright browser alike; library.oapen.org answers the
   Anubis page; Crossref holds metadata only. The reading waits for the
   chapter's PDF from the owner (solved in his browser, or a library copy).
+- **RD209, 2026-11-09** (RD209, 2026-11-09):
+  - RBG vol. 3 pp. 203–205: the BDRC etext IE0OPIBC148677 answers 403 and the scan manifest vo:I1KG2753 serves 41 images, none near these pages; visible only as a snippet in BDRC full-text search.
+  - `bdrc.py volumes W<instance>` answers 401; scans for KCM, SKP and DTD were fetched through the work-level collection manifest wvo:bdr:MW…::bdr:I…; `bdrc.py scans` with the MW id fails on KCM (500).

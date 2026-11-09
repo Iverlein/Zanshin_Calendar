@@ -1453,6 +1453,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0798.md](questions/q0798.md) | question q798 | How are the four watches (ཐུན) of the Svapnohana bounded: four equal parts of the night, or the monastic watches? | open; cites svo:p268 |
 | [questions/q0799.md](questions/q0799.md) | question q799 | Does «དེ་ཡིས་དེ་དུས་སྙིང་སྡུག་འཐོབ» in the Svapnohana mean getting what is dear to the heart, or sorrow? | open; cites svo:p270 |
 | [questions/q0800.md](questions/q0800.md) | question q800 | What is the animal «བླ་མོ» in «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་», and what is the clause «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ»? | open; cites svo:p270, svo:p268 |
+| [questions/q0801.md](questions/q0801.md) | question q801 | Is «བཻ་རང་གི་དུས་ཚོད» in KCM p. 682 a mistake for a named watch or day, or the text's own phrase? | open; cites kcm:p679-682 |
+| [questions/q0802.md](questions/q0802.md) | question q802 | Is «པདྨ་དཀར» at the end of SKP's second text Padma dkar po of the 'Brug pa, and whose 'third of Vairocana' does it follow? | open; cites skp:p50-55 |
+| [questions/q0803.md](questions/q0803.md) | question q803 | Is the Sakya Paṇḍita attribution on SKP's first text right, given its colophon names Kun dga' rgyal mtshan dpal bzang po? | open; cites skp:p40-50 |
 
 <!-- end pool index -->
 
