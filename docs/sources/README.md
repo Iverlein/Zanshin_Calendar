@@ -958,6 +958,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
+| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 1 passages: 1 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
@@ -985,7 +986,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 2 passages: 1 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
-| [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 1 passages: 1 etext |
+| [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
@@ -1621,7 +1622,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0817.md](questions/q0817.md) | question q817 | Which creatures does ST ch. 81 name among the dreams of the nāga spirits' illness, and what are the mantra and the ingredient «བ་ར» of ch. 91's thread? | open; cites st:p350-351, st:p493 |
 | [questions/q0818.md](questions/q0818.md) | question q818 | Does ST ch. 2's dream of a man mean the pregnant woman sees a man, or sees clearly? | open; cites st:p21 |
 | [questions/q0819.md](questions/q0819.md) | question q819 | What is the first syllable of «?་རང་གི་དུས་ཚོད» on p. 682 of the magic mirror, and does the phrase fix a watch of the night? | open; cites kcm:p679-682 |
-| [questions/q0820.md](questions/q0820.md) | question q820 | What does ལྷས་ཚོར་དུས་ཏེ say in ST ch. 81 (img. 363 ll. 3-4)? | open; cites st:p350-351 |
+| [questions/q0820.md](questions/q0820.md) | question q820 | What does ལྷས་ཚོར་དུས་ཏེ say in ST ch. 81 (img. 363 ll. 3-4)? | answered; cites st:p350-351, mnb:p267, lth:p325 |
 | [questions/q0821.md](questions/q0821.md) | question q821 | ལྡེར་བཟོ་འགུལ (Serthang) or ལྡེར་སོ་འགུལ (Drathang, machine) in ST ch. 81: which is printed, and what is ལྡེར? | open; cites st:p350-351 |
 | [questions/q0822.md](questions/q0822.md) | question q822 | ཕྱུ in ST ch. 91 «མོ་ཕྱུ་རིམ་གྲོ་རྟེན་འབྲེལ»: what is the second of the four remedies? | open; cites st:p493 |
 | [questions/q0823.md](questions/q0823.md) | question q823 | ST ch. 2 «རྨི་ལམ་དག་ན»: is དག the plural marker or 'clear'? | open; cites st:p21 |
@@ -1645,7 +1646,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0841.md](questions/q0841.md) | question q841 | In the Sbas-yul manuscript and the Ngodrup and Sherab Drimay print the phrase begins «རི་ཏུག»/«རྟ་ཏུག» and ends «ཁྱེར»/«ཕྱེར»: the same list item under a different hand, or a different item? | open; cites lgd.42:p969b |
 | [questions/q0842.md](questions/q0842.md) | question q842 | Does Scheuermann's chapter name a Sanskrit original or a parallel text for the Svapnohana, and does it say how Tibetan readers used the work? | open; cites sch:p161-180 |
 | [questions/q0843.md](questions/q0843.md) | question q843 | Rin spungs pa's ch. 7 verse reads «རྨི་ལམ་མི་ཟད་པ» where Byang pa, Khro ru and the 'Bri gung quote «རྨི་ལམ་མི་བཟང་བ»: which does the Serthang print have? | open; cites st:p507 |
-| [questions/q0844.md](questions/q0844.md) | question q844 | In ch. 81 two later witnesses read «ལྷས་ཚོར་ངུས་ཏེ» and the Serthang scan and most others «ལྷས་ཚོར་དུས་ཏེ»: is ངུས a reading of the Bhutan print and the 2005 Lhan thabs, or a fault of the etext, and what does ལྷས་ mean? | open; cites st:p350-351 |
+| [questions/q0844.md](questions/q0844.md) | question q844 | In ch. 81 two later witnesses read «ལྷས་ཚོར་ངུས་ཏེ» and the Serthang scan and most others «ལྷས་ཚོར་དུས་ཏེ»: is ངུས a reading of the Bhutan print and the 2005 Lhan thabs, or a fault of the etext, and what does ལྷས་ mean? | answered; cites st:p350-351, mnb:p267, lth:p325 |
 | [questions/q0845.md](questions/q0845.md) | question q845 | Khro ru glosses the creatures of ch. 81 with «རྟ་བླ» and «གྲོག་མ», and Sde srid's verse has «རྟ་བླ» where the Four Tantras have «འབུ་སྦྲང»: what is the rta bla? | open; cites st:p350-351 |
 | [questions/q0846.md](questions/q0846.md) | question q846 | The 'Bri gung glosses the dreams of water, trees and the green meadow as «གཏད་དུ་ཚུད་པ» (Khro ru «བཏད་དུ་ཚུད་པ»): a pledge, a trust, or a different word? | open; cites st:p350-351 |
 | [questions/q0847.md](questions/q0847.md) | question q847 | Padma rdo rje quotes the whole Svapnohana on about pp. 17–26 of his book: what does the sentence that introduces it say about its source and author, and does he gloss the watches after it? | open; cites svo:p271f |

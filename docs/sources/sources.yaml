@@ -771,7 +771,7 @@ lth:
   licence: public-domain
   rank: 3
   role: witness
-  notes: "etext only, read 2026-11-09 (RD255); the Supplement versifies the Instruction Tantra's chapters, with changes; printed page = etext page - 38 (the print's number '325' stands at the head of etext p. 363); the etext has spaces inside words"
+  notes: "etext read 2026-11-09 (RD255); the Supplement versifies the Instruction Tantra's chapters, with changes; printed page = etext page - 38 (the print's number '325' stands at the head of etext p. 363); the etext has spaces inside words; the scan is a lending copy on archive.org (item bdrc-W1PD4, 763 leaves, p. 325 = leaf 362), read for p. 325 in RD264; its etext reads ངུས where the scan has དུས"
 
 lhq:
   title: "Man ngag lhan thabs (the Supplement to the Instruction Tantra), Qinghai print of 1991"
@@ -789,7 +789,7 @@ mnb:
   licence: public-domain
   rank: 3
   role: witness
-  notes: "etext only, read 2026-11-09 (RD255), a poor OCR (the etext garbles many letters; only the words of the lines quoted are told apart); a scan is served (open access) and was not opened; page = the etext page (ch. 81's dream lines on p. 267)"
+  notes: "etext read 2026-11-09 (RD255), a poor OCR (the etext garbles many letters); the scan (open access, 1980 x 364 px, six rows a page) read by eye at ch. 81's dream lines (img. 267) and ch. 91's close (img. 418) in RD264; image = the etext page"
 
 mbl:
   title: "Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations added)"
