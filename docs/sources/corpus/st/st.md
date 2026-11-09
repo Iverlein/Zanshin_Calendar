@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD271 (2026-11-09): Steinert's public dictionaries, the Bod lugs gso rig tshig mdzod chen mo etext (I00EGS1017132), BDRC searches.
+
 Read by RD267 (2026-11-09): The lines of ch. 7 in BDRC etexts, the Serthang scan I3CN5038 img. 40–46 (foot numbers), the Drathang GT img. 42.
 
 Read by RD271 (2026-11-09): the unexplained words of ch. 81 and ch. 91 (ལྷས, ལྡེར་བཟོ, རྟ་བླ, གཏད་དུ་ཚུད་པ, ཕྱྭ) and of ch. 7's dream verse (བྲོ་པའི་ཁྲལ, བག་མ་ལན་པ, རྔ་མོ, རྨེ་ཅན; the lines' water and beer) in Steinert's 64 public dictionaries by Wylie headword, in a medical dictionary's etext on BDRC (Bod lugs gso rig tshig mdzod chen mo, I00EGS1017132, OCR) and in BDRC's exact full-text search; no scan opened. Licences: every dictionary sense is stated in our own words, nothing quoted; the dictionaries' copyright is their authors' (Steinert's README), and no sense is taken from the 84000 or ITLR sets (non-commercial). Claims st-lder-bzo-is-the-temples-clay-statues, st-lhas-tshor-felt-by-the-god, st-rta-bla-is-the-centipede, st-gtad-du-tshud-pa-under-a-sent-harm, st-mo-phywa-divination-and-omen, gt-bro-ba-khral-ded-a-levy, gt-bag-ma-lan-pa-is-bag-ma-len-pa, gt-rnga-mo-is-the-camel, gt-rme-can-a-man-with-a-black-birthmark, gt-water-or-beer-fiends-or-the-dead.

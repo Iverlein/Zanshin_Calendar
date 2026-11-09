@@ -1797,3 +1797,6 @@ Searched and found wanting, so not to be repeated:
 - **RD266, 2026-11-09** (RD266, 2026-11-09):
   - Co ne vol. 63 (I1GS66094) img. 400–604 and vol. 65 (I1GS66096) img. 1–18 do not hold the Svapnohana; next places: the end of vol. 64 (only img. 480–544 every sixth sampled before), the end of vol. 65, vol. 66, or the Co ne number of the work from a Co ne catalogue (the Peking number is not the Co ne's).
   - iiif.bdrc.io answers 429 to parallel requests: download one image at a time with a 0.5 s pause and backoff; the GPU slot is shared and waits several minutes a call at 14–19 s an image, a full OCR of 160 images about 40 minutes, a stride search is cheaper.
+- **RD271, 2026-11-09** (RD271, 2026-11-09):
+  - ram rug, ram rug sbang g.yer, mi kha'i rdzas, spang g.yeng and spang g.yer have no headword in Steinert's public sets or on the online Steinert site; BDRC's exact search for «རྨེ་ཅན་ནི་གདོང་ལ» gave 0 hits; «གཏད་དུ་ཚུད་པ» has no dictionary headword.
+  - The Brda yig ming don gsal ba'i sgron me page (I1KG16860 img. 263) lists bro pa'i khral 'ded in a headword list but the cursive glosses could not be read; Das and Jäschke exist in Steinert's set only as page scans and were not checked; the Bod rgya tshig mdzod chen mo etext was not found; the medical dictionary's images (I00EGS1017132) are not served.
