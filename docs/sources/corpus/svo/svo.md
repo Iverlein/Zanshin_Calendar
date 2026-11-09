@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD259 (2026-11-09): The Co ne Tengyur volumes 63–66 sampled, MDP pp. 134–137 (bdrc-W21880 img. 142–145).
+
 Read by RD263 (2026-11-09): Atharva-Veda Pariśiṣṭa 68 (Bolling and Negelein 1910 and two Devanagari editions), Kālaprakāśikā ch. XLII (Iyer 1917 translation), Aṅgavijjā ch. 42 (Puṇyavijaya 1957), Bṛhatsaṃhitā (Iyer 1884), Yogayātrā (Dvivedi 1907).
 
 Read by RD259 (2026-11-09, partial): the Co ne Tengyur found with open scans (BDRC W1GS66030, 209 volumes); the Svapnohana's place in it not yet found; see svo:p271f.

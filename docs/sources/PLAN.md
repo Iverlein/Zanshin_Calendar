@@ -1770,3 +1770,8 @@ Searched and found wanting, so not to be repeated:
   - Pariś. 68 searched whole for tithi, pakṣa, weekday and season names, māsa, ṛtu, nakṣatra: no tie of a dream to any of them; the only time ties are the watches and the five states of the night.
   - The Kālaprakāśikā's Sanskrit verse: none of four Iyer scans on the Internet Archive has Devanagari in its text layer; the Tamil-press scan failed to download; Wikisource, GRETIL and Sanskrit Documents do not hold the work.
   - Bṛhatsaṃhitā and Yogayātrā: no dream chapter. Not read: Kohlbrugge 1938, Modak 1993, Negelein's German Svapnacintāmaṇi (1912), the other Aṅgavijjā chapters (43–44); the Aṅgavijjā morning and midday lines are garbled in both OCR layers.
+- **RD259, 2026-11-09** (RD259, 2026-11-09):
+  - Higher-resolution Peking: archive.org bdrc-W1KG13126 has a 94 GB original zip that answers 401, the per-volume derivatives are the same scan, a range read of the zip directory failed with 500 twice; Otani's only online resource is the Peking Tripitaka Online Search (catalogue and concordance, no page images); dsr.nii.ac.jp/tibetan-tripitaka/ answers 404.
+  - Adarsha's Tengyur is Derge only; the Dpe bsdur ma bdrc-W1PD95844 restricted in China, bdrc-W1PD95859 and bdrc-W1PD95870 have no item; Derge bdrc-W23703 restricted in China; Open Library OL44152045M asked for human verification.
+  - RBG vol. 3 pp. 203–205: archive.org bdrc-W1KG2733 exists but is restricted in China and lent only (zip 401), bdrc-W1KG2753 has no item; only the loan reaches it. The Lhasa Tengyur printing, rKTs and ACIP were not opened.
+  - Tool note: a background loop with pgrep -f on 'hf_read.py yigdzin' matches its own command line and hangs; use until [ -f out.txt ].
