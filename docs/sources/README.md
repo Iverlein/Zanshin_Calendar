@@ -767,29 +767,46 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
+| [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 0 passages: nothing read yet |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
+| [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 0 passages: nothing read yet |
+| [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 0 passages: nothing read yet |
+| [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 0 passages: nothing read yet |
+| [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 0 passages: nothing read yet |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 9 passages: 7 scan, 1 machine, 1 etext |
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 12 passages: 2 scan, 1 machine, 9 etext |
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
+| [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 0 passages: nothing read yet |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 0 passages: nothing read yet |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 10 passages: 8 scan, 1 machine, 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
+| [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 0 passages: nothing read yet |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
+| [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 0 passages: nothing read yet |
+| [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 0 passages: nothing read yet |
+| [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 0 passages: nothing read yet |
+| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
+| [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 0 passages: nothing read yet |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
+| [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 0 passages: nothing read yet |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 1 passages: 1 scan |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 0 passages: nothing read yet |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 0 passages: nothing read yet |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
+| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 0 passages: nothing read yet |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
@@ -1458,6 +1475,23 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **BK** | *Gter chen bdud klong zung gi gter byon smin byed thams cad chu 'babs su bkod pa*, 4 vols, cited by volume | BDRC MW3CN7543, scans I3CN7545 (vol. 1) |
 | **TSL** | Gnam lcags rtsa gsum gter bdag gling pa (Rtsa gsum gling pa, 1694–1738), *Gter chos*, his treasure teachings (*O rgyan rtsa gsum gling pa'i zab gter*). A source at the owner's word (2026-11-07), **equal to Mipham's word** (rank 2), with everything that traces back to him: his incarnations and the holders of his lineage (Sgo chen dgon, Padma Samye Ling) | edited by Mkhan chen Dpal ldan shes rab, 30 vols, typeset | BDRC MW4CZ1042 (person P680), scans I1PD108789–I1PD108818 (vol. n = I1PD1087(88+n)), open, etext excellent; other prints MW1KG15423 (12 vols), MW27492 (dbu med, 11 vols), MW4CZ302225; the treasures public-domain, the edition's own matter facts only; nothing read yet |
 | **KTD** | Sgo chen mkhan po Tshe dbang don rgyal (Khenpo Tsewang Dongyal, b. 1951), every text of his, in Tibetan or in translation; *Bdud 'joms 'jigs bral ye shes rdo rje … rnam thar ye shes rdo rje'i 'od zer* first among them. A source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL) | Pema Samye Chokhor Ling, Sarnath 2003, 241 pp. | BDRC MW29259 (person P5639), open scans; also MW24036, MW2KG5060 (*Khyad chos che ba drug …*), MW00EGS1016761 (the Sgo chen dgon *chos spyod*, 1984, etext); modern, copyrighted: facts only, never its wording; nothing read yet |
+| **SVO** | Vibhūticandra (Bi bhU ti tsandra), *Rmi lam brtag pa* (*Svapnohana*, the examination of dreams), his own translation; a dream's fulfilment by the watch of the night, a catalogue of dream images, a remedy | Derge Tengyur, Delhi 1982–1985 reprint of the Sde dge blocks, vol. 28, pp. 268 l. 4 – 271 l. 4 | BDRC MW23703_1749; etext VE23703_1344 (read whole 2026-11-09, q784); scans I1344 |
+| **SVI** | Dpal ldan Gnyis su med pa (Advayavajra), *Rmi lam brtag pa* (*Svapna-īkṣā*), in the Mañjuśrī cycle, translated by Prajñāśrījñānakīrti | Derge Tengyur, the same reprint, vol. 49, pp. 261–262 | BDRC MW23703_2100; etext VE23703_1365; scans I1365; not read |
+| **LGD** | Sangs rgyas gling pa's treasure *Bla ma dgongs pa 'dus pa*, *Rmi lam bzang ngan brda rtags kyi rim pa* (the stages of the signs of good and bad dreams) | *Rin chen gter mdzod chen mo*, Shechen Publications, New Delhi 2007–, vol. 42, pp. 799–810 (6 ff.) | BDRC MW1KG14_2DD1B5; etext VE1KG14_042; scans W1KG14; many other prints; not read |
+| **KCM** | Mkhas grub Karma chags med, *Rmi lam brtag thabs 'phrul gyi me long* (the magic mirror, a method of examining dreams) | *Gsung thor bu*, Tibetan Craft Community, Tashijong 1985, from a Gru gu dgon pa manuscript, pp. 679–682 (2 ff., dbu med) | BDRC MW23766_5DC139; scans W23766; not read |
+| **RST** | *Rmi ltas sna tshogs brtag thabs* (a method of examining the various dream signs) | ACIP digital text | BDRC MW1ALS06558E; etext IE1ALS06558E; manuscripts of the title in the Mongolian National Library (MW1NLM9044, MW1NLM9419); not read |
+| **RRT** | *Rmi ltas rtags thabs rgyas pa* (the extended method of reading dream signs), among the wrathful Yamāntaka practices | *'Bri lugs bang mdzod skor lnga*, Chengdu 2021, 136 vols, vol. 41, pp. 186–195 | BDRC MW3KG218_O3KG218_VTCXE7; etext IE3KG218; scans W3KG218; the modern edition's own matter facts only; not read |
+| **DTD** | Dam tshig rdo rje (1781–1855), *Rmi lam brtag pa'i gdams pa zab mo* (a profound instruction on examining dreams) and *Rmi lam brtag thabs* | *Gsung 'bum*, Lanzhou 200?, vol. 10, pp. 219–220 (photostat, unclear); the *gdams pa* in Mongolian National Library manuscripts MW1NLM4232 (pp. 155–158) and MW1NLM4231 | BDRC MW6457_3B97BD; scans W6457, W1NLM4232, W1NLM4231; not read |
+| **RBG** | *Dus phyi mar 'byung ba'i rmi ltas bco brgyad* (the eighteen dream signs of the latter times) | *Chos rnam kun btus*, ed. Nor brang o rgyan, Pe cin 2008, vol. 3, pp. 203–205 | BDRC MW1KG2733_B7BF9B; etext IE0OPIBC148677; scans W1KG2733; the edition's own matter facts only; not read |
+| **SKP** | *Rmi lam brtag thabs dpal sa skya paN+Di tas mdzad pa* (a method of examining dreams, composed by Sakya Paṇḍita, the manuscript's attribution) | Mongolian National Library manuscript, in a bundle headed *Mgon po'i zhi ba'i sbyin sreg gi 'don cha sogs*, pp. 40–55 (8 ff.) | BDRC MW1NLM933_A02C49; scans W1NLM933; not read |
+| **KDL** | Klong rdol bla ma Ngag dbang blo bzang (1719–1794), *Ltas sna tshogs brtag thabs* drawn from his collected works (methods of examining various omens) | in *Mo dpe phyogs bsdus snang srid gsal ba'i me long*, Ngagyur Nyingma Institute, Bylakuppe 2001, pp. 235–240 | BDRC MW29669_5E6E42; scans W29669; the edition's own matter facts only; not read |
+| **MDP** | *Mo dpe dang sa dpyad rmi lam brtag thabs: dmangs srol yig cha phyogs bsgrigs* (divination books, geomancy and the examination of dreams: folk texts), collected by Tshe ring and 'Brug rgyal mkhar | Kan su'u mi rigs dpe skrun khang, Lan kru'u 1997 | BDRC MW21880; etext IE0OPIE0503306; scans W21880; the collection's own matter facts only; not read |
+| **KBS** | *Klong rdol bla ma'i rmi lam gyi ltas la brtag pa byed tshul zhes bya ba la rags tsam dpyad pa*, an article on Klong rdol bla ma's way of examining dream omens | *Krung go'i bod kyi shes rig* 1993 no. 4 (vol. 24), pp. 66–80 | BDRC MW20242_55798C (also MW1CZ690_FBE63E); modern, copyrighted: facts only, never its wording; not read |
+| **TDR** | *Sgrol ma dkar mo'i sgo nas rmi lam brtag pa* (the examination of dreams through White Tārā) | *'Brong rtse'i be'u bum dkar po*, Damchoe Sangpo, [Delhi] 1983, from an LTWA manuscript, pp. 343–344 | BDRC MW25101_78B598; scans W25101; not read |
+| **SRM** | Dge 'dun grub pa (the First Dalai Lama, 1391–1474), *Lha mo shra ma Na'i sgo nas rmi lam brtag pa* (the examination of dreams through the goddess Śramaṇā) | *Gsung 'bum*, Gangtok 1978–1981, vol. 6, ff. 51v–53r (pp. 386–389) | BDRC MW759_306C1B; etext IE0OPIAB2E5954; scans W759; another print MW24769_B767AF; not read |
+| **GNC** | Gnam chos Mi 'gyur rdo rje's treasure: *Thugs rje chen po'i rmi lam brtag pa* and *Mtsho rgyal rmi lam brtag pa* (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal) | *Gnam chos*, Dilgo Khyentse Rinpoche, Paro 1983, vol. 1, ff. 61r–61v (pp. 557–558), and MW21578_A09994 | BDRC MW21578_87C398; scans W21578; a dbu med manuscript MW1ER167; not read |
+| **SCH** | Rolf Scheuermann, *Vibhūticandra's Svapnohana and the Examination of Dreams*, the modern study of SVO | in *Glimpses of Tibetan Divination: Past and Present*, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180 | DOI 10.1163/9789004410688_009; modern, copyrighted: facts only, never its wording; Brill and OAPEN refuse automated browsers; not read |
+| **EB9** | 『京都大学蔵潁原文庫選集』 第9巻, 雑書 1 (大雑書・暦占・随筆 1): an Edo 大雑書 and the dream book 夢占吉凶秘伝書 (いろは引夢うらなひ) reprinted side by side, with 毎年暦考見, a 天明八年伊勢暦 and 東見記 | 京都大学文学部国語学国文学研究室 編, 臨川書店, Kyoto 2018, 378 pp. | NDL KG211-M1 (R100000002-I029406484); the Edo texts public-domain, the reprint's own matter facts only; not online, not read |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

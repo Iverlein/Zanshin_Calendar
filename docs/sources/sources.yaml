@@ -483,3 +483,173 @@ ktd:
   role: source
   locator: page
   notes: "a source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL): every text of his, in Tibetan or in translation, under the same licence rule; on BDRC also MW24036 and MW2KG5060 (Khyad chos che ba drug gi tshul nas brjod pa'i mkhan slob chos rgyal lo paN rnams kyi bka' drin rjes dran gyi gtam, open scans; the second with an unaligned etext) and the Sgo chen dgon chos spyod MW00EGS1016761 (1984, etext); the catalogue read on BDRC on 2026-11-07, no page yet"
+
+# --- Dreams (question q784, 2026-11-09): the dream manuals found by title on BDRC and the
+# two sides' modern studies. All rank 3; WB's dream omens (ch. 30) and the Four Tantras (st)
+# stand above them where they overlap. Nothing read on a scan yet but the Four Tantras'
+# etext and the Svapnohana's etext (q784).
+
+svo:
+  title: "Rmi lam brtag pa (Svapnohana, the examination of dreams)"
+  author: "Vibhūticandra (Bi bhU ti tsandra, eastern Indian paṇḍita, 12th–13th c.), his own translation"
+  edition: "Derge Tengyur, Delhi Karmapae Choedhey reprint of the Sde dge blocks, 1982–1985, vol. 28, pp. 268 l. 4 – 271 l. 4"
+  bdrc: {work: MW23703_1749, etext: VE23703_1344, scans: [I1344]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "read whole in the etext on 2026-11-09 (q784): the one time rule found, by the watch of the night (a year, eight months, three months, half a month, ten days at dawn), a catalogue of dream images, a remedy; not yet read on the scan; etext page = the reprint's page; the modern study is sch"
+
+svi:
+  title: "Rmi lam brtag pa (Svapna-īkṣā, the examination of dreams), in the Mañjuśrī cycle"
+  author: "Dpal ldan Gnyis su med pa (Advayavajra), translated by the yogin Prajñāśrījñānakīrti"
+  edition: "Derge Tengyur, the same reprint, vol. 49, pp. 261–262"
+  bdrc: {work: MW23703_2100, etext: VE23703_1365, scans: [I1365]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "located 2026-11-09 (q784), not read"
+
+lgd:
+  title: "Bla ma dgongs pa 'dus pa las rmi lam bzang ngan brda rtags kyi rim pa (the stages of the signs of good and bad dreams, from the Lama Gongdü)"
+  author: "the treasure of Sangs rgyas gling pa (1340–1396)"
+  edition: "Rin chen gter mdzod chen mo, Shechen Publications, New Delhi 2007–, vol. 42, pp. 799–810 (6 ff.)"
+  bdrc: {work: MW1KG14_2DD1B5, etext: VE1KG14_042, scans: [W1KG14]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "many other prints (MW01CT0060, MW1LT3204, MW18978, MW23445, MW1PD96185, MW2PD17514, MW20578, MW3CN827); located 2026-11-09 (q784), not read"
+
+kcm:
+  title: "Rmi lam brtag thabs 'phrul gyi me long (the magic mirror, a method of examining dreams)"
+  author: "Mkhas grub Karma chags med (1613–1678)"
+  edition: "Mkhas grub karma chags med kyi gsung thor bu, Tibetan Craft Community, Tashijong 1985, reproduced from a manuscript of Gru gu dgon pa, Nang chen; pp. 679–682 (2 ff.)"
+  bdrc: {work: MW23766_5DC139, scans: [W23766]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "dbu med; located 2026-11-09 (q784), not read"
+
+rst:
+  title: "Rmi ltas sna tshogs brtag thabs (a method of examining the various dream signs)"
+  edition: "ACIP digital text, no print identified"
+  bdrc: {work: MW1ALS06558E, etext: IE1ALS06558E}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext only; also a Mongolian National Library manuscript of the same title (MW1NLM9044_O1NLM9044_009) and Rmi ltas brtag thabs (MW1NLM9419_O1NLM9419_007); located 2026-11-09 (q784), not read"
+
+rrt:
+  title: "Rmi ltas rtags thabs rgyas pa (the extended method of reading dream signs)"
+  edition: "'Bri lugs bang mdzod skor lnga, Chengdu 2021, 136 vols (typeset), vol. 41, pp. 186–195"
+  bdrc: {work: MW3KG218_O3KG218_VTCXE7, etext: IE3KG218, scans: [W3KG218]}
+  licence: "the text public-domain; the modern edition's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  notes: "in the section of the wrathful Yamāntaka practices (sgrub sde gshin rje yang zlog skor); located 2026-11-09 (q784), not read"
+
+dtd:
+  title: "Rmi lam brtag pa'i gdams pa zab mo (a profound instruction on examining dreams) and Rmi lam brtag thabs"
+  author: "Dam tshig rdo rje (Mongolian Gelug author, 1781–1855)"
+  edition: "Gsung 'bum, Nub byang mi rigs slob grwa chen mo, Lanzhou 200?, 21 vols (photostat, unclear), vol. 10, pp. 219–220; the gdams pa in Mongolian National Library manuscripts MW1NLM4232 (pp. 155–158) and MW1NLM4231"
+  bdrc: {work: MW6457_3B97BD, scans: [W6457, W1NLM4232, W1NLM4231]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "the attribution the manuscripts' own colophon («dam tshig rdo rjes bris pa»); located 2026-11-09 (q784), not read"
+
+rbg:
+  title: "Dus phyi mar 'byung ba'i rmi ltas bco brgyad (the eighteen dream signs of the latter times)"
+  edition: "Chos rnam kun btus, ed. Nor brang o rgyan, Krung go'i bod rig pa dpe skrun khang, Pe cin 2008, 3 vols, vol. 3, pp. 203–205 (continuous pp. 3009–3011)"
+  bdrc: {work: MW1KG2733_B7BF9B, etext: IE0OPIBC148677, scans: [W1KG2733]}
+  licence: "the text public-domain; the modern edition's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  notes: "located 2026-11-09 (q784), not read"
+
+skp:
+  title: "Rmi lam brtag thabs dpal sa skya paN+Di tas mdzad pa (a method of examining dreams, composed by Sakya Paṇḍita)"
+  author: "attributed to Sa skya Paṇḍita Kun dga' rgyal mtshan (1182–1251) by the manuscript's title"
+  edition: "Mongolian National Library manuscript, in a bundle headed Mgon po'i zhi ba'i sbyin sreg gi 'don cha sogs, pp. 40–55 (8 ff.)"
+  bdrc: {work: MW1NLM933_A02C49, scans: [W1NLM933]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "the attribution is the manuscript's, not the Sa skya bka' 'bum's; located 2026-11-09 (q784), not read"
+
+kdl:
+  title: "Klong rdol bla ma rin po che'i gsung 'bum las phyung ba'i ltas sna tshogs brtag thabs (methods of examining various omens, drawn from Klong rdol bla ma's collected works)"
+  author: "Klong rdol bla ma Ngag dbang blo bzang (1719–1794)"
+  edition: "in Mo dpe phyogs bsdus snang srid gsal ba'i me long, Ngagyur Nyingma Institute, Bylakuppe 2001, pp. 235–240"
+  bdrc: {work: MW29669_5E6E42, scans: [W29669]}
+  licence: "the text public-domain; the modern edition's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  notes: "located 2026-11-09 (q784), not read; kbs is a modern article on his dream method"
+
+mdp:
+  title: "Mo dpe dang sa dpyad rmi lam brtag thabs: dmangs srol yig cha phyogs bsgrigs (divination books, geomancy and the examination of dreams: a collection of folk texts)"
+  author: "collected by Tshe ring and 'Brug rgyal mkhar"
+  edition: "Kan su'u mi rigs dpe skrun khang, Lan kru'u 1997"
+  bdrc: {work: MW21880, etext: IE0OPIE0503306, scans: [W21880]}
+  licence: "the texts public-domain where old; the collection's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  notes: "located 2026-11-09 (q784), not read; which of its texts are old is to be seen"
+
+kbs:
+  title: "Klong rdol bla ma'i rmi lam gyi ltas la brtag pa byed tshul zhes bya ba la rags tsam dpyad pa (a rough examination of Klong rdol bla ma's way of examining dream omens)"
+  edition: "Krung go'i bod kyi shes rig (China Tibetology, Tibetan edition), Pe cin, 1993 no. 4 (vol. 24), pp. 66–80"
+  bdrc: {work: MW20242_55798C, scans: [W20242]}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  notes: "another print MW1CZ690_FBE63E; located 2026-11-09 (q784), not read"
+
+tdr:
+  title: "Sgrol ma dkar mo'i sgo nas rmi lam brtag pa (the examination of dreams through White Tārā)"
+  edition: "'Brong rtse'i be'u bum dkar po, Damchoe Sangpo, [Delhi] 1983, reproduced from a manuscript in the Library of Tibetan Works and Archives, pp. 343–344"
+  bdrc: {work: MW25101_78B598, scans: [W25101]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "located 2026-11-09 (q784), not read"
+
+srm:
+  title: "Lha mo shra ma Na'i sgo nas rmi lam brtag pa (the examination of dreams through the goddess Śramaṇā)"
+  author: "Dge 'dun grub pa (the First Dalai Lama, 1391–1474)"
+  edition: "Gsung 'bum, Dodrup Lama Sangye, Gangtok 1978–1981, 6 vols, from the 'Bras spungs Dga' ldan pho brang blocks of about 1894; vol. 6, ff. 51v–53r (pp. 386–389)"
+  bdrc: {work: MW759_306C1B, etext: IE0OPIAB2E5954, scans: [W759]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "another print MW24769_B767AF (vol. 6, ff. 39r–41r); located 2026-11-09 (q784), not read"
+
+gnc:
+  title: "Gnam chos: Thugs rje chen po'i rmi lam brtag pa and Mtsho rgyal rmi lam brtag pa (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal)"
+  author: "the treasure of Gnam chos Mi 'gyur rdo rje (1645–1667)"
+  edition: "Gnam chos, Dilgo Khyentse Rinpoche, Paro 1983, 13 vols, from the Rmug sangs blocks; vol. 1, ff. 61r–61v (pp. 557–558) and the Mtsho rgyal text (MW21578_A09994)"
+  bdrc: {work: MW21578_87C398, scans: [W21578]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "a dbu med manuscript of the Gnam chos with both, MW1ER167; located 2026-11-09 (q784), not read"
+
+sch:
+  title: "Vibhūticandra's Svapnohana and the Examination of Dreams"
+  author: "Rolf Scheuermann"
+  edition: "in Glimpses of Tibetan Divination: Past and Present, eds. Petra Maurer, Donatella Rossi and Rolf Scheuermann, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180, DOI 10.1163/9789004410688_009"
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  locator: page
+  notes: "the modern study of svo; Brill and OAPEN refuse automated browsers (PLAN.md, Dead ends): to be read in the owner's browser or a library copy"
+
+eb9:
+  title: "京都大学蔵潁原文庫選集 第9巻, 雑書 1 (大雑書・暦占・随筆 1): 毎年暦考見, 天明八年伊勢暦, 大雑書, 夢占吉凶秘伝書 (いろは引夢うらなひ), 東見記"
+  author: "京都大学文学部国語学国文学研究室 編; supervised by 川上陽介, 藤原英城, 母利司朗, 山本秀樹"
+  edition: "臨川書店, Kyoto, December 2018, 378 pp.; NDL call no. KG211-M1, NDL Search R100000002-I029406484"
+  licence: "the Edo texts public-domain; the reprint's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "an Edo 大雑書 and a dream book (夢占吉凶秘伝書) reprinted side by side: the one place found where Japanese dream reading stands beside the calendar's lore (q784); the book is not online, not read"

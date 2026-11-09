@@ -356,6 +356,14 @@ check them on the scans.
 | <a id="rd204"></a>RD204 | WB ch. 4 and 5 on the scan: pp. 29–36 raised from machine (RD187 wrote them as machine passages; the number words were the only check) | WB vol. 1, ch. 4 pp. 29–33 and ch. 5 pp. 34–36 (Gser thang reprint I3CN5028, image = page + 7), the passages of corpus/wb/ch03.md listed as machine by `kb.py coverage`, on the scan | — | — | corpus/wb/ch03.md | Read RD204: the machine passages of ch. 4 and 5 (pp. 29–36), line by line on the reprint at 2–3× beside the Yigdzin-1 text and the etext; every syllable and figure confirmed raises a passage to scan; each doubt is named. |
 | <a id="rd205"></a>RD205 | WB ch. 6 and 7 on the scan: pp. 37–50 raised from machine (RD188 read them with MITRA, figures not checked) | WB vol. 1, ch. 6 pp. 37–41 and ch. 7 pp. 42–50 (Gser thang reprint I3CN5028, image = page + 7), the passages of corpus/wb/ch06.md and ch07.md that `kb.py coverage` lists as machine, on the scan | — | — | corpus/wb/ch06.md, corpus/wb/ch07.md | Read RD205: the machine passages of ch. 6 and 7 (pp. 37–50), the figures digit by digit on the reprint at 3×, the words against MITRA; passages confirmed throughout are raised to scan; doubts named. |
 | <a id="rd206"></a>RD206 | WB ch. 8 and 10 on the scan: pp. 51–55 and 70–78 raised from machine (the tables of pp. 53–54 not read cell by cell) | WB vol. 1, ch. 8 pp. 51–55 and ch. 10 pp. 70–78 (Gser thang reprint I3CN5028, image = page + 7), the passages of corpus/wb/ch08.md and ch10.md that `kb.py coverage` lists as machine, on the scan | — | — | corpus/wb/ch08.md, corpus/wb/ch10.md | Read RD206: the machine passages of ch. 8 and 10, the tables of pp. 53–54 cell by cell at 3× or named unread, the prose line by line; passages confirmed throughout are raised to scan; doubts named. |
+| <a id="rd207"></a>RD207 | The Svapnohana on the scan: Vibhūticandra's rule by the watch of the night, his catalogue of dream images and the remedy; Advayavajra's examination beside it | SVO: Derge Tengyur vol. 28 (I1344), pp. 268 l. 4 – 271 l. 4, etext VE23703_1344 (read whole in the etext 2026-11-09, q784); SVI: vol. 49 (I1365), pp. 261–262, etext VE23703_1365 | — | [S1](#s1) | corpus/svo/svo.md, corpus/svi/svi.md | Read RD207: the Svapnohana line by line on the Derge scan against its etext, every image with its verdict as a passage, the watches and their spans as a claim, the remedy as a claim; then Advayavajra's text the same way; name every place either text ties a dream to a time other than the watch of the night. |
+| <a id="rd208"></a>RD208 | The Lama Gongdü's signs of good and bad dreams | LGD: Rin chen gter mdzod vol. 42, pp. 799–810 (6 ff.), etext VE1KG14_042, scans W1KG14 | — | [S1](#s1) | corpus/lgd/lgd.md | Read RD208: the six folios on the scan against the etext, the good and the bad signs each a passage with the English beside it, the stages (rim pa) as a claim; note whether a sign depends on the time of night, the lunar day or the practice in hand. |
+| <a id="rd209"></a>RD209 | The short dream manuals: Karma chags med's magic mirror, the method under Sakya Paṇḍita's name, Dam tshig rdo rje's instruction and method, the eighteen signs of the latter times, the ACIP method, the 'Bri gung extended method | KCM pp. 679–682 (dbu med); SKP pp. 40–55; DTD vol. 10 pp. 219–220 and the NLM manuscripts (pp. 155–158); RBG vol. 3 pp. 203–205 (etext IE0OPIBC148677); RST (etext only); RRT vol. 41 pp. 186–195 (etext IE3KG218) | — | [S1](#s1) | corpus/kcm/kcm.md, corpus/skp/skp.md, corpus/dtd/dtd.md, corpus/rbg/rbg.md, corpus/rst/rst.md, corpus/rrt/rrt.md | Read RD209: each manual whole, on its scan where there is one and in the etext where there is none (state honest), its images and verdicts as passages, its method (what is asked, when the dream counts, what is done with a bad one) as claims; a table at the end of which manual gives which time rule. |
+| <a id="rd210"></a>RD210 | Dream divination through a deity: White Tārā, the goddess Śramaṇā, the Great Compassionate One and Mtsho rgyal | TDR pp. 343–344; SRM vol. 6, ff. 51v–53r (etext IE0OPIAB2E5954); GNC vol. 1, ff. 61r–61v and the Mtsho rgyal text | — | [S1](#s1) | corpus/tdr/tdr.md, corpus/srm/srm.md, corpus/gnc/gnc.md | Read RD210: the rite before sleep, the dream asked for, and how the dream is read, as passages and claims; whether the dawn dream alone counts, and whether the lunar day of the rite is prescribed. |
+| <a id="rd211"></a>RD211 | The Four Tantras' dream passages on the scan: ch. 7's distant signs of death, the nāga dreams, the fevers' dreams, the pregnancy dream, the poison dream | ST etext pp. 34, 44, 202, 225, 260, 362–363, 507 (image = etext page) on the scan I3CN5038; GT as witness | — | [S1](#s1) | corpus/st/st.md | Read RD211: each passage on the Gser thang scan line by line against the etext (q784 quotes them from the etext), the dream named with what it marks and what is done, as passages and one claim per illness; the chapter and its printed page for each. |
+| <a id="rd212"></a>RD212 | Klong rdol bla ma's omen methods, the folk collection and the article on his dream method | KDL pp. 235–240; MDP, the dream part (etext IE0OPIE0503306); KBS pp. 66–80 (facts only) | — | [S1](#s1) | corpus/kdl/kdl.md, corpus/mdp/mdp.md, corpus/kbs/kbs.md | Read RD212: Klong rdol's methods whole on the scan, the dream texts of the folk collection in the etext with their sources named where the collection names them, the article for the facts it adds in our own words; a claim for each time rule found. |
+| <a id="rd213"></a>RD213 | Japan: the dream book beside the 大雑書 in the Ebara reprint, and the 初夢 in the old texts | EB9: the 大雑書 (its contents, any 夢合 section) and the 夢占吉凶秘伝書 (its order, its rules, any date); the 初夢 night in 『山家集』 and the Edo sources named by 日本大百科全書 *夢占* | the book, not online | [S3](#s3) | corpus/eb9/eb9.md | Read RD213: the two texts' tables of contents and every dream rule that names a date, a day of the cycle or a season, quoted in the original with the English beside it; the 初夢 night's history as claims with their sources. |
+| <a id="rd214"></a>RD214 | Scheuermann's study of the Svapnohana | SCH pp. 161–180, facts only; access past Brill's human check in the owner's browser, or a library copy | RD207; access | [S1](#s1) | corpus/sch/sch.md | Read RD214: what the chapter settles on the text's author, date, Sanskrit original and parallels, and on how Tibetan readers used it, in our own words; where it corrects RD207's reading, a claim of type conflict. |
 
 ### Left open in built work
 
@@ -5094,6 +5102,78 @@ groups it shows (`tools/emulator/store_shots.py`).
   enemy of the vitality, the black undertakers, the progressed sign on
   a tomb), none is written; the relatives' obstacles (P2) are in the
   shape already and name none either.
+
+## Dreams
+
+### <a id="s"></a>S. Dreams and their reading — asked 2026-11-09 (question q784)
+
+- **Why.** The owner asked (2026-11-09) whether written sources on
+  reading dreams exist and whether any ties them to the calendar.
+  [q784](sources/questions/q0784.md) answers: they exist on both sides,
+  and the one time rule found is the watch of the night the dream came
+  in; no source found reads a dream by the lunar day, the weekday, the
+  month or the year. In Japan a dream meets the calendar once, in the
+  first dream of the year (初夢). The texts found are registered in
+  [sources.yaml](sources/sources.yaml) (SVO, SVI, LGD, KCM, RST, RRT,
+  DTD, RBG, SKP, KDL, MDP, KBS, TDR, SRM, GNC, SCH, EB9), all rank 3,
+  below WB's own dream omens (ch. 30) and the Four Tantras (ST).
+- **What the pool holds** (q784): WB's dream omens before the asking or
+  the reckoning (ch. 30, p. 144; built, the family `MomentSign.DREAM`),
+  dreams as symptoms of the sick by birth animal and sme ba (ch. 25),
+  in the sixty years (ch. 18), the turtle classes (ch. 27) and the
+  years of life, before the grave ground (ch. 32), and the clan's token
+  animal found from dreams (the digest, p. 474); the Four Tantras'
+  Explanatory Tantra ch. 7, dreams the distant and uncertain signs of
+  death, and its dreams of nāga illness, fever, pregnancy and poison
+  (ST, etext); the Svapnohana whole in the etext.
+
+#### <a id="s1"></a>S1 The dream manuals read — planned 2026-11-09
+
+- **Work.** RD207–RD212 and RD214 read the registered texts: the
+  Svapnohana and Advayavajra's examination on the Derge scan, the Lama
+  Gongdü's signs, the short manuals, the deity rites, the Four Tantras'
+  passages on the scan, Klong rdol bla ma's methods and the folk
+  collection, and Scheuermann's study for its facts. Each passage in
+  Tibetan with the English beside it; each method's rule on *when* a
+  dream counts (the watch of the night, dawn, the lunar day of the rite)
+  as a claim; a table at the end of which text gives which time rule.
+- **What to settle.** Whether any manual names a date, weekday, mansion
+  or month (none did in q784's searches); the variants of the
+  watch-of-the-night spans; what a bad dream's remedy is in each
+  tradition; and where the manuals and WB's ch. 30 overlap, WB stands
+  (`.agents/rules/sources.md`).
+- **Check.** Every topic file holds its reading; `kb.py check` and
+  `SourcesTest` clean; the readings marked done in the table.
+
+#### <a id="s2"></a>S2 A dream reading in the app — undecided
+
+- **Gap.** The app shows WB's dream omens as observed signs of the
+  moment's reckoning (SPEC §5.9.5) and nothing else on dreams.
+- **Options**, for the owner after S1: a rule by the hour of the night
+  on the day page, from the Svapnohana (the watch the dream came in and
+  the span within which it bears fruit, the hours as WB divides the
+  night, SPEC §5.8); or a glossary of dream images with their verdicts,
+  by text, off the day; or nothing, dreams staying with the reckoning
+  where WB puts them. No text ties a dream to the day, so no row of the
+  day page follows from the sources as they stand. Not built; the store
+  listing names nothing of it.
+
+#### <a id="s3"></a>S3 The first dream of the year on the 旧暦 page — planned 2026-11-09
+
+- **Gap.** 初夢, the first dream of the year, is a dated observance: the
+  dream of the night of 2 January today, earlier of the night of 節分
+  before 立春 and then of New Year's night, with the 宝船 picture under
+  the pillow (q784). SPEC §7.3 lists the sekku, 十五夜, 十三夜, 旧正月
+  and O-Bon, and nothing of this kind.
+- **Work.** RD213 reads the sources (EB9 and the texts 日本大百科全書
+  names) for the night's history and any rule the dream book ties to a
+  date. Then, on the owner's word, a festival line on 2 January
+  ("初夢の夜", labelled Gregorian as O-Bon is), its reading the history
+  in a paragraph and the 宝船 custom as a row, in both languages;
+  SPEC §7.3 and the listing updated with it (*Docs on every feature
+  merge*).
+- **Check.** The line on 2 January of two years in `KyurekiElectionTest`'s
+  neighbour or a festival test; the reading in the shape of SPEC §8.1.
 
 ## Appearance
 
