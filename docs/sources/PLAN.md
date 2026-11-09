@@ -1737,3 +1737,5 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 318 lines 1–3: the line breaks and the start of line 1 («བཞོན») not fixed at 2×; 3–4× re-crops at the doubtful places not made.
 - **RD251, 2026-11-09** (RD251, 2026-11-09):
   - Peking img. 315 at 3–5×: the stacks of «བཞོན་པ», «ཁང་བཟངས», «དང་བ», «རྣམ་པར» are blurred past telling from their neighbours (letters about 40 px); line 7 «ཁང་བཟངས» crop not aligned, line 5 «རྣམ་པར» not re-cropped tighter.
+- **RD252, 2026-11-09** (RD252, 2026-11-09):
+  - Peking img. 316 lines 5–6 at 4×: the crops landed on other syllables or the letters were not told apart cleanly (line 5's «གང་ལ» perhaps at x about 2740–2900, unconfirmed); the RD246 doubts stand.
