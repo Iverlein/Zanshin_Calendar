@@ -5246,7 +5246,8 @@ groups it shows (`tools/emulator/store_shots.py`).
   | The Four Tantras ch. 7 verse on the Serthang print | Printed pp. 31–32 absent from the pool's scan | Drathang, Chag-po-ri prints read (RD268, RD270, RD275) |
   | The Co ne Svapnohana letter by letter | Worn bitonal scan, no sharper copy | By vote of runs (RD276) |
   | Single Peking stacks (about nine places) | Blur at 40 px | Doubts listed in svo:p271d |
-  | The Bṛhaspati Svapnādhyāya manuscript (Penn, Leipzig) | Slow server, closed catalogues | RD277 |
+  | Negelein's i (Leipzig 1178, "three fortnights") and Oxford d. 215 | No open images | Penn, Srinagar, Ramtek read: a month for the fourth watch (RD277) |
+  | The Four Tantras ch. 7 line 17 («བཟང་བ»/«བཟད་པ») on the Drathang I1KG116089, I3CN1705, I4CZ327147 | Not yet read | Four prints each way (RD275, RD279) |
   | TDR's scan (W1PD2 I1PD407) and GNC's headless manuscript | Restricted scan; unresolved hand | Etext and machine only (RD240, RD241) |
   | RBG vol. 3 pp. 203–205 | Only the archive.org loan | Not read |
   | Older Indian source of the five-span series; the Brahmavaivarta's date | Hazra, Rocher unread | Unsettled (RD272) |
