@@ -895,6 +895,16 @@ adb:
   locator: page
   notes: "RD265: the dream chapter and the nirghāta chapter read in the Devanagari text layers of three copies of one printing; machine reading of OCR"
 
+skd:
+  title: "Śabdakalpadruma of Raja Radhakanta Deva (the Sanskrit encyclopaedic dictionary), vol. 5, the article svapna (pp. 470-473)"
+  author: "Raja Radhakanta Deva, Calcutta (first edition in parts 1819-1858); the article's verses are quotations from the Brahmavaivartapurāṇa, the Suśrutasaṃhitā and Vāgbhaṭa, named in the article"
+  edition: "Śabdakalpadruma, 2nd edition ed. Varada Prasada Basu and Hari Prasada Basu, Calcutta, vol. 5 (the Internet Archive item TheSabdakalpadrumaPart5RsktS is the Nag Publishers reprint of 2002 for the Rashtriya Sanskrit Sansthan, a facsimile; 563 leaves, the article svapna on leaves n474-n477 = printed pp. 470-473, image n = printed page + 4; the volume is 'vol. 5 pp. 470-1, 473' of Negelein's citations; a second copy, the Chowkhamba Sanskrit Series reprint, id sabdakalpadrumavol5vardaprasadvasuhariprasadvasuchowkambhasanskritseries_441_O, has p. 470 at n477 with the same plates; the Internet Archive item in.ernet.dli.2015.345206 labelled vols. 4-5, 1892, holds the entries ka to ha and not svapna)"
+  licence: "public-domain text (1886-1893 printing of a work of 1819-1858); the 2002 reprint is a facsimile: the verses quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD272: the article svapna read on the page images (n474-n477), the verses of the Brahmavaivarta quoted in it, its list of other places, the Suśruta and Vāgbhaṭa quotations; the Devanagari text layer (poor) used only to find the page"
+
 mtp:
   title: "Matsyapurāṇa ch. 242, Svapnādhyāya (dreams as omens of the king's march)"
   author: "attributed to Vyāsa (the Purāṇa's own colophon)"

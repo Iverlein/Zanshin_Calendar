@@ -11,6 +11,9 @@ Read by RD273 (2026-11-09): the Svapnohana found in the Co ne print by the rKTs 
 
 Read by RD266 (2026-11-09): Co ne vol. 63 img. 400–604 and vol. 65 img. 1–18 by Yigdzin-1.
 
+Read by RD272 (2026-11-09): the Śabdakalpadruma's article svapna (vol. 5 pp. 470–473, corpus/skd/skd.md) and Negelein's Introduction pp. XVIII, XXI and pp. 17–18, 32, 376 (corpus/neg/neg.md) on the older Indian source of the series; the series stands on a second print of the Brahmavaivarta's chapter, no older text with it was found, no Sanskrit original of the Svapnohana is named in the Indian sources read: claims/skd-brahmavaivarta-series-second-print.md, claims/neg-manuscripts-and-the-series.md, claims/indian-dream-series-earliest-witness-and-dates.md, claims/svo-sanskrit-original-not-named-in-indian-sources.md.
+
+
 Read by RD269 (2026-11-09): the Indian dream-time verses on the page images, in place of the OCR layers: Brahmavaivarta Kṛṣṇajanmakhaṇḍa 73.5–7 (Jivananda 1888, p. 661), Negelein 1912 pp. 14–16 and Introduction pp. XIX–XX (his letters), Kālaprakāśikā ch. 42 vv. 63–69 (Lawley Press, Devanagari p. 189), Bṛhadyātrā 16 (Pingree 1972, pp. 41–46), Aṅgavijjā ch. 41–42 time lists (Puṇyavijaya 1957, pp. 185, 190–191), Matsya 242 (Ānandāśrama, pp. 493–494), Agni 229 (Ānandāśrama, pp. 281–282), Adbhutasāgara p. 514, Aṅgavijjā ch. 59 pp. 260–261; see claims/indian-dream-spans-by-watch-nine-texts.md.
 
 Read by RD265 (2026-11-09): Negelein 1912, Kohlbrugge 1938, the Aṅgavijjā chs. 41–44 and 59, the Kālaprakāśikā, Varāhamihira's Bṛhadyātrā 16, the Adbhutasāgara, the Matsya 242, Agni 229, Brahmavaivarta Kṛṣṇajanmakhaṇḍa 73, the Yogayātrā and the Garuḍapurāṇa, in OCR text layers.

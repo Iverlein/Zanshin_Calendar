@@ -455,6 +455,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/illness-words-dictionary-rd111.md](claims/illness-words-dictionary-rd111.md) | claim, note | Illness words: «བསྔོ», «བླངས་ལན», «གདོན་རྐྱེན» in the dictionaries and BDRC's search | cites wb.1:p419, wb.1:p438, wb.2:p497; feeds block-32 |
 | [claims/in-laws-skyug-sgyug.md](claims/in-laws-skyug-sgyug.md) | claim, conflict | gnas skyug or gnas sgyug: what the search and the print show | cites wb.2:p526; feeds — |
+| [claims/indian-dream-series-earliest-witness-and-dates.md](claims/indian-dream-series-earliest-witness-and-dates.md) | claim, note | The earliest text with the Svapnohana's series: the dates as far as published (RD272) | cites skd:p470-471, neg:p14-16, adb:p513-515, bya:p41-46, svo:p268, svo:p271; feeds block-73 |
 | [claims/indian-dream-spans-by-watch-nine-texts.md](claims/indian-dream-spans-by-watch-nine-texts.md) | claim, table | The time of a dream's fruit by the watch of the night in the Indian texts: the Svapnohana's series is the Brahmavaivartapurāṇa's (RD265) | cites apv:p445, kps:p232-236, kpd:p184-189, bya:p41-46, mtp:p453-455, agp:p280-281, bvp:p662-665, neg:p14-16, adb:p513-515, svo:p268; feeds block-73 |
 | [claims/indian-dream-time-atharva-kalaprakasika.md](claims/indian-dream-time-atharva-kalaprakasika.md) | claim, conflict | The time of a dream's fruit by the watches of the night: the Atharva-Veda appendix 68 (eight months), the Kālaprakāśikā (six months) and the Svapnohana (RD263) | cites apv:p445, kps:p232-236, kpd:p184-189, bvp:p662-665, svo:p268; feeds block-73 |
 | [claims/indian-omens-tied-to-lunar-day-nakshatra-season.md](claims/indian-omens-tied-to-lunar-day-nakshatra-season.md) | claim, note | Other Indian omens are tied to the lunar day, the nakṣatra and the season; dreams are not (RD265) | cites kho:p72-74, kho:p58-61, kho:p48, kho:p140-141, adb:p307-309, adb:p513-515, neg:p17-19, neg:p35, yyt:p28-29; feeds block-73 |
@@ -529,6 +530,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
+| [claims/neg-manuscripts-and-the-series.md](claims/neg-manuscripts-and-the-series.md) | claim, table | Negelein's manuscripts a–w and which of them carry the Svapnohana's five-span series (RD272) | cites neg:p14-16, neg:p32, neg:p376, skd:p470-471; feeds block-73 |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
 | [claims/night-watches-st-rule-against-thirds-and-svapnohana.md](claims/night-watches-st-rule-against-thirds-and-svapnohana.md) | claim, note | The Four Tantras' dream rule beside the three-thirds rule of LGD and RST and the Svapnohana's watches | cites bjp:p183, rsp:p213, svo:p268, lgd:p966-967, rst:p1-8, bdk:p53-54; feeds block-73 |
 | [claims/night-watches.md](claims/night-watches.md) | claim, note | The night's watches in the Tibetan sources: counted, never bounded by the clock | cites svo:p271e, wb.1:p101, wb.1:p17b, wb.2:p403, wb.1:p134-135, wb.1:p22, wb.2:p156, wb.2:p535-537, svo:p268, svi:p261; feeds block-73 |
@@ -590,6 +592,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
+| [claims/skd-brahmavaivarta-series-second-print.md](claims/skd-brahmavaivarta-series-second-print.md) | claim, note | The Śabdakalpadruma prints the Brahmavaivarta's series of spans on p. 470, with two lines the other print lacks (RD272) | cites skd:p470-471, bvp:p662-665, svo:p268; feeds block-73 |
+| [claims/skd-svapna-article-parts-and-sources.md](claims/skd-svapna-article-parts-and-sources.md) | claim, list | What the Śabdakalpadruma's article svapna holds, and where it names its sources (RD272) | cites skd:p470-471, skd:p471-472, skd:p473; feeds block-73 |
 | [claims/skp-auspicious-and-bad-dreams.md](claims/skp-auspicious-and-bad-dreams.md) | claim, list | SKP, first text: the verdict of each dream image, no time rule | cites skp:p40-50; feeds block-73 |
 | [claims/skp-second-text-is-the-rst-verses.md](claims/skp-second-text-is-the-rst-verses.md) | claim, conflict | SKP, second text: the verses of the ACIP method under Vairocana's name | cites skp:p50-55, rst:p1-8; feeds block-73 |
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |
@@ -639,6 +643,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
 | [claims/svo-remedy.md](claims/svo-remedy.md) | claim, remedy | The Svapnohana's remedy for bad dreams | cites svo:p271; feeds block-73 |
 | [claims/svo-rta-bla-mo-is-the-centipede.md](claims/svo-rta-bla-mo-is-the-centipede.md) | claim, definition | The Svapnohana's རྟ་བླ་མོ: the centipede; the line names creatures | cites svo:p270; feeds S2 |
+| [claims/svo-sanskrit-original-not-named-in-indian-sources.md](claims/svo-sanskrit-original-not-named-in-indian-sources.md) | claim, note | No Sanskrit original of the Svapnohana is named in the Indian sources read (RD272) | cites svo:p268, svo:p271, skd:p473, neg:p376; feeds block-73 |
 | [claims/svo-time-ties-other-than-the-watch.md](claims/svo-time-ties-other-than-the-watch.md) | claim, note | The Svapnohana's ties of a dream to a time other than the watch | cites svo:p268, svo:p269, svo:p270, svo:p271, svi:p261; feeds block-73 |
 | [claims/svo-vibhuticandra-dates.md](claims/svo-vibhuticandra-dates.md) | claim, note | Vibhūticandra and the date of the Svapnohana: Stearns 1996 and the early catalogues | cites svo:p271; feeds block-73 |
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
@@ -1021,7 +1026,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
-| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 3 passages: 2 scan, 1 machine |
+| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 5 passages: 2 scan, 3 machine |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
@@ -1030,13 +1035,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
+| [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |
 | [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 2 passages: 2 etext |
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 2 passages: 2 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 5 passages: 2 scan, 2 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 11 passages: 5 scan, 4 machine, 2 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 12 passages: 5 scan, 5 machine, 2 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
