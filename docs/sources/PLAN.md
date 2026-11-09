@@ -1791,3 +1791,6 @@ Searched and found wanting, so not to be repeated:
 - **RD267, 2026-11-09** (RD267, 2026-11-09):
   - BDRC full-text search for the two lines and their variants: 8 hits for the first, 13 for the second, 1 for «ཐོ་རེངས» (the Gso bya lus kyi rnam bshad, restricted); the Serthang etext has none of the lines or the verses around them; the etexts of the Gso bya lus kyi rnam bshad (MW8LS18598), I4795 and I1KG10372, I1KG21894, I4PD4564, I2PD16002, I8LS18618, I4721 answer 403 or empty, only snippets seen.
   - The 'Bum nag gsal sgron is not registered as a source; cited by its BDRC etext id.
+- **RD269, 2026-11-09** (RD269, 2026-11-09):
+  - No older Indian text with the Brahmavaivarta/Svapnohana series found (not searched beyond Negelein's own list: Śabdakalpadruma, the Bṛhaspati Svapnādhyāya MSS unread); Bṛhadyātrā vv. 1–3 (p. 40) and Negelein pp. XXI, 17, 35 not opened; the OCR-based Atharva (apv) and Svapnohana lines not re-read.
+  - Ids keep wrong page numbers (renaming would break cites): bvp:p662-665 (true p. 661), mtp:p453-455 (493–494), agp:p280-281 (281–282), agv:p186 (185), agv:p259-260 (260–261); the RD265 row text is stale.
