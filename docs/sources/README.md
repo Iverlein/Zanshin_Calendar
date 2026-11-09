@@ -1583,6 +1583,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0816.md](questions/q0816.md) | question q816 | What are the first words of LGD's «རམ་རུག་སྦང་གཡེར», the goods of gossip among the bad signs? | open; cites lgd:p968-969 |
 | [questions/q0817.md](questions/q0817.md) | question q817 | Which creatures does ST ch. 81 name among the dreams of the nāga spirits' illness, and what are the mantra and the ingredient «བ་ར» of ch. 91's thread? | open; cites st:p350-351, st:p493 |
 | [questions/q0818.md](questions/q0818.md) | question q818 | Does ST ch. 2's dream of a man mean the pregnant woman sees a man, or sees clearly? | open; cites st:p21 |
+| [questions/q0819.md](questions/q0819.md) | question q819 | What is the first syllable of «?་རང་གི་དུས་ཚོད» on p. 682 of the magic mirror, and does the phrase fix a watch of the night? | open; cites kcm:p679-682 |
 
 <!-- end pool index -->
 
