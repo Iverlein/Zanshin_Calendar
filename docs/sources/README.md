@@ -1675,6 +1675,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0854.md](questions/q0854.md) | question q854 | In the Kālaprakāśikā ch. XLII v. 66 does the Sanskrit give a half-month for the fourth watch besides the twelve days at dawn that Iyer's English has? | open; cites svo:p271f |
 | [questions/q0855.md](questions/q0855.md) | question q855 | In the Bṛhadyātrā 16.10 which part of the night and which humour go with which of the three seasons? | open; cites svo:p271f |
 | [questions/q0856.md](questions/q0856.md) | question q856 | In the Aṅgavijjā the bright 'beginning and root' is the forenoon in ch. 42 and the afternoon in ch. 41: which is the original reading? | open; cites svo:p271f |
+| [questions/q0857.md](questions/q0857.md) | question q857 | What is the 'bro pa's tax in the Drathang line «བྲོ་པའི་ཁྲལ་འདེད་བག་མ་ལན་པ»? | open; cites gt:i42-43 |
+| [questions/q0858.md](questions/q0858.md) | question q858 | Which animal is the rnga mo of line 3 (Byang pa and Rin spungs pa རྔ་མོང, Khro ru ཇ་མོ, glossed jo mo, the female dzo)? | open; cites gt:i42-43 |
+| [questions/q0859.md](questions/q0859.md) | question q859 | What is meant by the «rme can» (རྨེ་ཅན; Byang pa and the Drikung རྗེ་ཅན) that rings the dreamer with crows and hungry ghosts? | open; cites gt:i42-43 |
 
 <!-- end pool index -->
 
