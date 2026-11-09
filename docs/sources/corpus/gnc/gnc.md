@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Sought by RD237 (2026-11-09): no second print of this text was looked for before the time ran out; left to RD239.
+
 Read by RD217 (2026-11-09): GNC vol. 1 pp. 559–561 (I1662 img. 567–569), machine only (Yigdzin-1, no MITRA).
 
 Read by RD222 (2026-11-09): GNC img. 565-569 run through Yigdzin-1 and MITRA (one text line a page in the machine files), which agree at 92, 96, 97, 99 and 98 percent; the flags are almost all in mantra syllables (Sanskrit seeds and the horse-spirit mantra) and a few spellings (sbrel/sprel, zla'i). Not read on the scan; the passages stay machine.
