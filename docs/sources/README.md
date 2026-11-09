@@ -570,7 +570,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
 | [claims/ozassho-dream-judgments.md](claims/ozassho-dream-judgments.md) | claim, note | A 大雑書 with a dream section by image only (万代大雑書古今大成) | cites mdz:p5; feeds S3 |
 | [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
-| [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar volume and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
+| [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
@@ -1047,7 +1047,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/pn673/pn673.md](corpus/pn673/pn673.md) | corpus | PN673 | 1 passages: 1 scan |
 | [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 1 passages: 1 scan |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
-| [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 0 passages: nothing read yet |
+| [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 1 passages: 1 scan |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
