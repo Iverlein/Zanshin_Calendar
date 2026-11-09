@@ -1742,3 +1742,7 @@ Searched and found wanting, so not to be repeated:
 - **RD253, 2026-11-09** (RD253, 2026-11-09):
   - scans.py line unusable on I6320 pages; the row's y positions do not hold per page; ink-profile centres per image (img. 275: 107, 220, 332, 458, 570, 687; 276: 111, 221, 349, 456, 569, 682; 277: 117, 226, 338, 445, 552, 665; 278: 128, 241, 352, 458, 566, 678; 279: 132, 236, 339, 447, 559, 665), crop from centre−75 to centre+50, lines 2–6 start at x about 250–330.
   - Not settled at 1.4–3.4× on W24769: «དངོས་སམ»/«དངོས་སུམ» (img. 275 line 6), «བརྐྱངས»/«བརྐྱང» (277 line 1), «ཐམས་ཀྱང»/«ཐམས་ཅད» and «ཟྭ་ཚོད»/«ཟ་ཚོད» (276 line 3), «སེམས་སྐྱེད»/«སེམས་བསྐྱེད» (276 line 4), «མགོ་པོ»/«མགོ་བོ» (277 line 6); the ra-stack of «རྡ/རྔ་ཡབ» (276 line 6).
+- **RD256, 2026-11-09** (RD256, 2026-11-09):
+  - Waseda's 古典籍総合データベース answered 503 maintenance throughout; Waseda's 夢占吉凶秘傳書 (bunko30_e0277) not opened.
+  - The NDL fulltext API (lab.ndl.go.jp/dl/api/book/fulltext-json/<pid>) answers 403 for the 和古書 microfilm items (the 大雑書 prints 14970xxx, 14487xxx); only pids 2539476, 2533938, 2541867 and 9892379 returned text; the NDL search lists 76 大雑書 titles, almost all restricted.
+  - komonjo.rokumeibunko.com (the transcribed 夢合長寿鑑絵抄) and 575.jpn.org gave certificate errors, not bypassed; Aozora and the 立命館 ARC portal gave only portal pages; the 江戸東京博物館 answer on 初夢 (secondary) says 大晦日, then from the Tenmei years the morning of 1–2 January, then the night of 2 January, naming no source text.
