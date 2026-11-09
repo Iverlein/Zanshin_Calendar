@@ -1815,3 +1815,7 @@ Searched and found wanting, so not to be repeated:
 - **RD275, 2026-11-09** (RD275, 2026-11-09):
   - Line 11 (བྲོ་བའི/བྲོ་པའི, འདེད/འདོད, ལེན་པ/ལན་པ) and line 26 ཕན/འཕན on Zhol I5910 img. 56–57, Chag-po-ri I1KG13487 img. 48–49 and Derge I00JW501163 img. 41 not settled by eye at 5–14× (bilevel or grey scans, glyphs broken); I5907 img. 66 line 11 not looked at by eye.
   - The verse is not on img. 36–45 of I1KG13487, I5907, I5910 or I00JW501163 (those are chs. 2–6 and the Root Tantra's end; the Zhol Explanatory Tantra starts at img. 38, ch. 7 is on img. 56–59); not reached to the verse: Drathang I1KG116089, MW3CN1703 (I3CN1705), MW4CZ321191 (I4CZ327147), Chag-po-ri MW8228 (I1KG10010, img. 30–52 fetched, not OCR'd), Derge MW1KG12776 (I1KG12862, img. 30–52 fetched, not OCR'd); the verse is about three images before each print's ch. 7 colophon.
+- **RD278, 2026-11-09** (RD278, 2026-11-09):
+  - SKP: WA0XLA02C496D030E has one instance only; BDRC's range for MW1NLM9044_009 (pp. 153–164) is a king-spirit rite, not a dream text; the dawn line of NLM933 img. 50 not settled.
+  - RRT: «རྨི་ལྟས་བརྟག་ཐབས་རྒྱས་པ» has one hit only (MW3KG218_O3KG218_VTCXE7); RBG: WA1KG2733 lists only MW1KG2733 and W1KG2733; BDRC search finds the Derge and Peking Tengyur texts of the witness list, not RBG itself.
+  - Tool note: curl https://purl.bdrc.io/query/table/volumesForInstance?R_RES=bdr:W23703&format=json&pageNumber=N works GET with no auth and lists a work's volume ids and numbers when bdrc.py volumes gives 401 (W23703: volume 206 is I1524).
