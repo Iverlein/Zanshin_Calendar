@@ -11,6 +11,8 @@ Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6
 
 Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MITRA slot; the manuscript hand was not legible enough by eye), the passages stay machine; see RD222.
 
+Read by RD222 (2026-11-09): TDR img. 347-348 run through Yigdzin-1 and MITRA, which agree at only 86 and 85 percent (29 flags a page: manuscript hand, sa/ska, nya/zha, ba/pa, wa-zur and Sanskrit seeds); not read on the scan, the passages stay machine. Longer stretches where the two differ in whole phrases: img. 348 line 2 (bsnyems rten 'brel mngon shes su 'chad pa'i gsol ba), line 2 and line 6 end.
+
 ## <a id="tdr-p343-344"></a>tdr:p343-344 The examination of dreams through White Tārā, with the end of the Śākyamuni rite before it
 
 *Read: machine, 2026-11-09.*

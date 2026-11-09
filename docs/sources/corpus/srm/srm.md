@@ -11,6 +11,8 @@ Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6
 
 Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MITRA slot; the manuscript hand was not legible enough by eye), the passages stay machine; see RD222.
 
+Read by RD222 (2026-11-09): SRM img. 392-395 run through Yigdzin-1 and MITRA, which agree at 96-98 percent a page (five to seven flags a page, all of the kind ba/pa, ra/la, vowel signs). Yigdzin-1 on the whole Śramaṇā text matches the passage below syllable for syllable at 97 percent (the rest is the missing opening verse line and the text after it). The page begins with the end of a Garuda rite (img. 392 lines 1-3); the Śramaṇā text itself begins on line 4 of img. 392 and ends on line 6 of img. 395, where the next text opens with hūṃ. The flagged syllables could not be settled by eye in the time given (the cursive hand is about 40 pixels a syllable and the crops at 3x did not isolate the line); the passage stays machine. Doubts to read on the scan: img. 392 line 6 grub/gru, img. 393 line 2 dro'i kha/dro zhig, 'dzam/'dzem, line 4 shra mo/me (the goddess's name, shra ma Na elsewhere), line 6 sbas/spas, img. 394 line 2 bstan/bsten, line 3 'og/khog, line 5 bzhag/gzhag, img. 395 line 2 'dod/'ong, ngos/des.
+
 ## <a id="srm-6-p386-389"></a>srm.6:p386-389 The examination of dreams through the goddess Śramaṇā: preparation, sadhana, the sleep, the signs and the result
 
 *Read: machine, 2026-11-09.*

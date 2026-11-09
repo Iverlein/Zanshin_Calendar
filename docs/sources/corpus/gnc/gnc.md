@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD217 (2026-11-09): GNC vol. 1 pp. 559–561 (I1662 img. 567–569), machine only (Yigdzin-1, no MITRA).
 
+Read by RD222 (2026-11-09): GNC img. 565-569 run through Yigdzin-1 and MITRA (one text line a page in the machine files), which agree at 92, 96, 97, 99 and 98 percent; the flags are almost all in mantra syllables (Sanskrit seeds and the horse-spirit mantra) and a few spellings (sbrel/sprel, zla'i). Not read on the scan; the passages stay machine.
+
 Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6 pp. 386–389 (I3JW3517 img. 392–395), GNC vol. 1 pp. 557–558 (I1662 img. 565–566).
 
 ## <a id="gnc-1-p557-558"></a>gnc.1:p557-558 Gnam chos: the end of a horse spell and the heading of the Great Compassionate One's examination of dreams, with the wheel at the pillow
