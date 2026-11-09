@@ -468,6 +468,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/lgd-dream-times-of-night.md](claims/lgd-dream-times-of-night.md) | claim, rule | Which dreams of the night are of habit, the afflictions and omen (LGD) | cites lgd:p966-967; feeds S2, RD216 |
 | [claims/lgd-good-dream-signs.md](claims/lgd-good-dream-signs.md) | claim, list | The good dream signs of LGD | cites lgd:p967; feeds S2, RD216 |
 | [claims/lgd-goods-of-gossip-prints.md](claims/lgd-goods-of-gossip-prints.md) | claim, conflict | The prints of the Lama Gongdu's dream signs differ on the three words of the goods of gossip | cites lgd.42:p969b, lgd:p968-969; feeds RD228 |
+| [claims/lgd-palri-print-against-rd208.md](claims/lgd-palri-print-against-rd208.md) | claim, conflict | The Palri Parkhang print of the Lama Gongdü's dream signs has the whole text of RD208's passages; its differences | cites lgd.42:p966-971b, lgd:p966-967, lgd:p967, lgd:p968-969, lgd:p969, lgd:p969-970, lgd:p970, lgd:p971, lgd.42:p969b; feeds RD238 |
 | [claims/lgd-rite-stages.md](claims/lgd-rite-stages.md) | claim, rule | The three stages of the Lama Gongdü dream examination: approach, application, examination | cites lgd:p961-966; feeds S2, RD216 |
 | [claims/lgd-three-yogins.md](claims/lgd-three-yogins.md) | claim, rule | The three grades of yogin before a dream in LGD | cites lgd:p971; feeds S2, RD216 |
 | [claims/life-reckoning-middling-does-not-bar.md](claims/life-reckoning-middling-does-not-bar.md) | claim, note | A middling life reckoning does not bar the match by reply 111's letter | cites ys:i467-468, wb.1:p349; feeds block-58 |
@@ -953,7 +954,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
-| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 9 passages: 9 scan |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 10 passages: 9 scan, 1 machine |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
@@ -977,7 +978,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 4 passages: 1 scan, 2 machine, 1 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 5 passages: 2 scan, 2 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 9 passages: 4 scan, 4 machine, 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
