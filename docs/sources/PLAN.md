@@ -1593,3 +1593,6 @@ Searched and found wanting, so not to be repeated:
   backwards from about img. 199 to img. 261 (img. 202 = printed p. 241,
   img. 225 = p. 218, img. 260 = p. 183), so a chapter's colophon lies on a
   lower image than its text; the registry's page rule holds only to img. 39.
+- **RD210, 2026-11-09** (RD210, 2026-11-09):
+  - The etext IE0OPIAB2E5954 (vol. 6 of the First Dalai Lama's Gsung 'bum) is unusable for SRM printed pp. 386–389 (garbled OCR); the scan must be read.
+  - `bdrc.py volumes W…` answers 401 for these W ids; volume ids come from ldspdi.bdrc.io/resource/W….json (instanceHasVolume, then volumeNumber).

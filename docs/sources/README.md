@@ -1418,6 +1418,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | open; cites st:p183, st:p218, st:p241 |
 | [questions/q0791.md](questions/q0791.md) | question q791 | What are ལྗོང, ལྕོལ, སྡིག་སྡོམ and ནིའུ་གསིང in ch. 81's dream list, and what does «ལྷས་ཚོར་དུས་ཏེ» say? | open; cites st:p350-351 |
 | [questions/q0792.md](questions/q0792.md) | question q792 | In ch. 91's closing causes, what is the failing the chapter treats, and what are ཕྱུ, དྲི་ཆེན and བ་ར in its remedies? | open; cites st:p493 |
+| [questions/q0793.md](questions/q0793.md) | question q793 | Which work ends on TDR printed p. 343, and does the registry's TDR begin at the title two thirds down the page? | open; cites tdr:p343-344 |
+| [questions/q0794.md](questions/q0794.md) | question q794 | Does the Śramaṇā text's «yar ngo'i dus bzang po» mean any day of the waxing half, or does the tradition name one? | open; cites srm.6:p386-389 |
+| [questions/q0795.md](questions/q0795.md) | question q795 | What are «Dpal rno bkra» and «ma mar mo» in the GNC heading and the mantra-water rite? | open; cites gnc.1:p557-558 |
 
 <!-- end pool index -->
 

@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6 pp. 386–389 (I3JW3517 img. 392–395), GNC vol. 1 pp. 557–558 (I1662 img. 565–566).
+
 ## <a id="tdr-p343-344"></a>tdr:p343-344 The examination of dreams through White Tārā, with the end of the Śākyamuni rite before it
 
 *Read: machine, 2026-11-09.*
