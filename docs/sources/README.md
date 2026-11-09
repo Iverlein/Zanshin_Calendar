@@ -589,6 +589,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
+| [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
 | [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
 | [claims/svo-images-unfortunate.md](claims/svo-images-unfortunate.md) | claim, list | The Svapnohana's unfortunate images and their verdicts | cites svo:p269, svo:p270, svo:p271; feeds block-73 |
@@ -950,7 +951,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 10 passages: 8 scan, 1 machine, 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 1 passages: 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 2 passages: 2 scan |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
