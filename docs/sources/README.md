@@ -848,7 +848,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
-| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 8 passages: 7 scan, 1 machine |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 8 passages: 8 scan |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
