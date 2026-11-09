@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD241 (2026-11-09): TDR on the scan of W1PD2 (I1PD407) not reached, the open manifest serves only img. 3-22 and 373-391 (printed pp. 313-316 lie between); GNC img. 731 line 3-5 looked at in three crops at 1.2x, nothing settled by eye (headless dbu med hand), the text stays machine.
+
 Read by RD240 (2026-11-09): GNC in the manuscript W1ER167 vol. 1 (I1ER1055 img. 729–735) and TDR in the etext VEIE0OPI0BD8769F_I1PD407.
 
 Sought by RD237 (2026-11-09): no second print of this text was looked for before the time ran out; left to RD239.
