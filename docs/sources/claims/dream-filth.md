@@ -2,18 +2,19 @@
 kind: claim
 type: conflict
 terms: [rmi-lam]
-cites: ['lgd:p968-969', 'svo:p268-271', 'svi:p262', 'rst:p1-8', 'kbs:p72-78']
+cites: ['lgd:p968-969', 'svo:p268-271', 'svi:p262', 'rst:p1-8', 'kbs:p72-78', 'gt:i42-43']
 feeds: [S2, RD216]
 open: []
 ---
 # Filth: a mire, excrement, eating or washing in filth
 
-Image group: body and mind. Read by 5 texts: Lama Gongdü (LGD), Svapnohana (SVO), Svapna-īkṣā (SVI), ACIP method (RST), Klong rdol's verses as the article quotes them (KBS).
-Offered to any dreamer.
+Image group: body and mind. Read by 6 texts: Four Tantras (for a sick dreamer), Lama Gongdü (LGD), Svapnohana (SVO), Svapna-īkṣā (SVI), ACIP method (RST), Klong rdol's verses as the article quotes them (KBS).
+Offered to any dreamer; the Four Tantras' or WB ch. 25's rows join when the dreamer is ill.
 At least one verdict below rests on an unsettled word: this image is listed apart in dream-unsettled-words and is not offered by the picker until the word is settled.
 
 | Text | Verdict (tone) | Passage | State |
 | --- | --- | --- | --- |
+| Four Tantras (for a sick dreamer) | sinking in mud (འདམ་བྱིང, 'dam byings): a sign that the lord of death (འཆི་བདག, 'chi bdag) has seized the sick, who dies of it if he dreams it constantly (gt-dream-death-rule) (bad) | `gt:i42-43` | machine |
 | Lama Gongdü (LGD) | sunk in a mire of filth (bad) | `lgd:p968-969` | scan |
 | Svapnohana (SVO) (rests on an unsettled word) | following excrement: auspicious "in dreams, when it is not a road taken" (clause not settled) (good) | `svo:p268-271` | etext |
 | Svapna-īkṣā (SVI) | eating and drinking filth; bound with thread and covered with filth (bad) | `svi:p262` | etext |

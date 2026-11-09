@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD273 (2026-11-09): the Svapnohana found in the Co ne print by the rKTs catalogue (vol. 28, 133b3–135a3 = img. 270–273) and read by Yigdzin-1; Advayavajra's Svapnekṣā located (vol. 49, 130a1–130b7 = img. 263–264), read by Yigdzin-1 on enhanced line strips only; see svo:p271g.
 
+Read by RD274 (2026-11-09): no scan opened; the Svapnohana's rows in the dream catalogue read against RD228–RD273 (claims only): the seized creatures of p. 270 are a centipede, a snake and a water creature, not "a horse" (svo-rta-bla-mo-is-the-centipede), the spellings of «བཅུ་ཡི་བར», «བགྲོད་མིན», «འགྲོན་བུ» and the Gāyatrī are settled (svo-other-prints-agree, svo-gayatri-spelling), the rule of the watches stands in the table of dream-catalogue beside the Indian texts whose series it is (indian-dream-spans-by-watch-nine-texts).
+
 Read by RD266 (2026-11-09): Co ne vol. 63 img. 400–604 and vol. 65 img. 1–18 by Yigdzin-1.
 
 Read by RD272 (2026-11-09): the Śabdakalpadruma's article svapna (vol. 5 pp. 470–473, corpus/skd/skd.md) and Negelein's Introduction pp. XVIII, XXI and pp. 17–18, 32, 376 (corpus/neg/neg.md) on the older Indian source of the series; the series stands on a second print of the Brahmavaivarta's chapter, no older text with it was found, no Sanskrit original of the Svapnohana is named in the Indian sources read: claims/skd-brahmavaivarta-series-second-print.md, claims/neg-manuscripts-and-the-series.md, claims/indian-dream-series-earliest-witness-and-dates.md, claims/svo-sanskrit-original-not-named-in-indian-sources.md.

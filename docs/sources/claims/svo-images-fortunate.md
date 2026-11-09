@@ -21,7 +21,7 @@ Fortunate images of the *Svapnohana*, each with the text's own verdict (pages 26
 - Sun's disc or moon seen: the sick are freed, the well become glorious (p. 270).
 - A white snake seizing the right hand: property "within ten" (p. 270).
 - A wife or kinsman speaking, or being seized and bound or lassoed by the hand: a son, or a great station (p. 270).
-- Seizing a horse, a «བླ་མོ» (unclear), a snake or a water creature: victory or goods, or a son (p. 270).
+- Seizing a centipede (རྟ་བླ་མོ; the Derge etext's «བླ», Peking's and Narthang's «ལ»; RD271, svo-rta-bla-mo-is-the-centipede), a snake or a water creature: victory or goods, or a son (p. 270; RD274: not "a horse").
 - Drinking blood or beer: for a brahmin knowledge, for others wealth (p. 270).
 - Drinking cow's milk: milk to drink, or a fire offering will be done; curd seen: comfort; a village seen: wealth; mustard: gain (p. 270).
 - A seat, bed, mount, body, chariot or house burning at the waking: glory increases (p. 271).
