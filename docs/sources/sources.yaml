@@ -722,3 +722,23 @@ rsp:
   rank: 3
   role: source
   notes: "etext only, read 2026-11-09 (RD229); the first of two volumes; printed page = etext page - 26 at pp. 83 and 255-256 (the print's number stands at the foot of each page); the BDRC note calls it a sixteenth-century commentary by the court physician of the Rin spungs rulers"
+
+ymk:
+  title: "夢合延寿袋大成 (Yume-awase enju-bukuro taisei), an Edo dream book ascribed to 安倍清明, preface 安永6 (1777)"
+  author: "no author named; ascribed in the title to 安部清明"
+  edition: "上総屋利兵衛, Bunka 11 (1814), one volume, NDL Digital Collections pid 2533938 (call no. 京-311), open without login; read as the NDL's own OCR text (lab.ndl.go.jp fulltext API) with the quoted lines checked on the page images (IIIF, dl.ndl.go.jp); passage ids number the NDL frames (コマ), the frame carrying the line"
+  licence: "public-domain (Edo print); the NDL's OCR text and images used for facts and short quotations"
+  rank: 3
+  role: source
+  locator: page
+  notes: "an 目録 of the dream chapters on frames 4-6; 五夢の伝 (frames 62-63), the numbered 夢 table (64-65) and the 八つ引き divination (66-67); the OCR is rough in the cursive and was corrected only where the page image was read"
+
+ezs:
+  title: "永代大雑書 (Eitai ōzassho), an Edo 大雑書 with 夢はんじ, NDL 和古書 print of 1856"
+  author: "no author named in the OCR"
+  edition: "NDL Digital Collections pid 2539476 (1856), 39 frames, open without login; the NDL's OCR text with the quoted line checked on the page image (frame 31); passage ids number the frames"
+  licence: "public-domain (Edo print); the NDL's OCR text and images used for facts and short quotations"
+  rank: 3
+  role: source
+  locator: page
+  notes: "the OCR is very rough; the 夢の論 and 夢はんじ stand on frames 30-32 after the lamp-wick omens, the 節分 article on frame 10"

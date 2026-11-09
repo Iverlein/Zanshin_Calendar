@@ -400,6 +400,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/earth-lords-bride-ten-checks.md](claims/earth-lords-bride-ten-checks.md) | claim, list | A bride is sent by ten checks, the earth lords one of them, unranked | cites dz:i045, kd.3:p634, kd.3:p641-642, lt:p38-41; feeds T2.26, D4 |
 | [claims/earth-lords-place-beside-day.md](claims/earth-lords-place-beside-day.md) | claim, note | The earth lords decide the place, the day is chosen apart | cites mta:p52-53, bsb:p435-436, lcm:p181-182, sdp:p238-241, kd.1:p493, kd.1:p495; feeds T2.26 |
 | [claims/eb9-contents.md](claims/eb9-contents.md) | claim, list | The volume's five texts and the dream book beside the 大雑書 | cites eb9:p1-378; feeds S3 |
+| [claims/edo-dream-books-calendar-rules.md](claims/edo-dream-books-calendar-rules.md) | claim, rule | What two more Edo dream texts say of a date, season or night: seasons and a half-night, never the first dream's night | cites ymk:p6, ymk:p30, ymk:p52, ymk:p59, ymk:p63, ezs:p31, ezs:p30; feeds S3 |
 | [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
@@ -940,7 +941,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 2 passages: 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
-| [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 1 passages: 1 etext |
+| [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 2 passages: 2 etext |
+| [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 1 passages: 1 machine |
@@ -973,7 +975,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
-| [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 1 passages: 1 etext |
+| [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 2 passages: 2 etext |
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 2 passages: 2 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
@@ -1031,6 +1033,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 16 passages: 8 scan, 8 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 23 passages: 21 scan, 2 machine |
+| [corpus/ymk/ymk.md](corpus/ymk/ymk.md) | corpus | 夢合延寿袋大成 | 7 passages: 7 machine |
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 32 passages: 12 scan, 20 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
@@ -1725,6 +1728,8 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **SCH** | Rolf Scheuermann, *Vibhūticandra's Svapnohana and the Examination of Dreams*, the modern study of SVO | in *Glimpses of Tibetan Divination: Past and Present*, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180 | DOI 10.1163/9789004410688_009; modern, copyrighted: facts only, never its wording; Brill and OAPEN refuse automated browsers; not read |
 | **EB9** | 『京都大学蔵潁原文庫選集』 第9巻, 雑書 1 (大雑書・暦占・随筆 1): an Edo 大雑書 and the dream book 夢占吉凶秘伝書 (いろは引夢うらなひ) reprinted side by side, with 毎年暦考見, a 天明八年伊勢暦 and 東見記 | 京都大学文学部国語学国文学研究室 編, 臨川書店, Kyoto 2018, 378 pp. | NDL KG211-M1 (R100000002-I029406484); the Edo texts public-domain, the reprint's own matter facts only; not online, not read: its contents only from the NDL record (2026-11-09) |
 | **MDZ** | 伊藤孝行 (transcriber), 翻刻『万代大雑書古今大成』(十五), the 夢はんじ and the table of days on which a dream is not told, from a Tenpō 大雑書 | メディア・コミュニケーション研究 78, Hokkaido University, 2025, pp. 1–11 | HUSCAP hdl.handle.net/2115/94454; the transcription's own matter facts and short quotations only; the original print not seen |
+| **YMK** | 夢合延寿袋大成, an Edo dream book ascribed to 安倍清明 (preface Anei 6), the dream chapters, the five dreams and the count by eights | 上総屋利兵衛, Bunka 11 (1814), NDL Digital Collections pid 2533938 | open without login; read as the NDL's OCR text with the quoted lines checked on the page images; the OCR is rough, so passages are machine-state |
+| **EZS** | 永代大雑書, an Edo 大雑書 with the lamp-wick omens and 夢はんじ | NDL Digital Collections pid 2539476, 1856 | open without login; the NDL's OCR text, very rough, one line checked on the image |
 | **NIP** | 日本大百科全書 (ニッポニカ), Shogakukan, the entries 初夢 (竹内利美) and 夢占 (井之口章次, 上田紀行) | web edition, kotobank.jp | copyrighted: facts in our own words; the entries numbered p1, p2 for want of pages |
 | **SKF** | 西行 (Saigyō), 山家集, the spring poem on the first dream | as quoted by Japanese Wikipedia 初夢 and a reading blog | no edition named; the critical text not seen |
 
