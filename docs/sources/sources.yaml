@@ -652,4 +652,33 @@ eb9:
   rank: 3
   role: source
   locator: page
-  notes: "an Edo 大雑書 and a dream book (夢占吉凶秘伝書) reprinted side by side: the one place found where Japanese dream reading stands beside the calendar's lore (q784); the book is not online, not read"
+  notes: "an Edo 大雑書 and a dream book (夢占吉凶秘伝書) reprinted side by side: the one place found where Japanese dream reading stands beside the calendar's lore (q784); the book is not online, not read: only its contents (NDL record, 2026-11-09) are in the pool, with the 大雑書 dream parts of MDZ standing in"
+
+mdz:
+  title: "万代大雑書古今大成 (Bandai ōzassho kokon taisei), a Tenpō-era 大雑書, in a modern transcription, part 15, from 「き一」 to 「ゆ六」"
+  author: "transcribed by 伊藤孝行 (Itō Takayuki)"
+  edition: "翻刻『万代大雑書古今大成』(十五), メディア・コミュニケーション研究 78 (北海道大学), 31 March 2025, pp. 1–11 (the transcription's own numbering <1>–<11>); HUSCAP https://hdl.handle.net/2115/94454"
+  licence: "the Edo text public-domain; the transcription's own matter copyrighted: facts and short quotations only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "read 2026-11-09 from the PDF's text layer and, for the quoted items, on the page images (pp. <5> and <11>); the 夢はんじ (ゆ二, 132 articles) and the table 夢を見て語らざる日 (ゆ六) are the one dream part found in a 大雑書; the original print (Tenpō, revised in Meiji) was not seen"
+
+nip:
+  title: "日本大百科全書 (ニッポニカ), the entries 初夢 (竹内利美) and 夢占 (井之口章次, 上田紀行)"
+  author: "小学館 (Shogakukan); entries by 竹内利美, 井之口章次, 上田紀行"
+  edition: "web edition on kotobank.jp (https://kotobank.jp/word/初夢-115268, https://kotobank.jp/word/夢占-145377), read 2026-11-09; the passage ids number the entries (p1 初夢, p2 夢占), the entries having no pages"
+  licence: "copyrighted: facts in our own words, short quotations only"
+  rank: 3
+  role: source
+  locator: page
+
+skf:
+  title: "山家集 (Sankashū), Saigyō's poems, the spring poem on the first dream, as quoted on the web"
+  author: "西行 (Saigyō, 1118–1190)"
+  edition: "no edition named: the poem as quoted by Japanese Wikipedia 初夢 and by a reading blog (https://ichiou.asablo.jp/blog/2024/03/02/), read 2026-11-09; the critical text (新編国歌大観, 岩波文庫) not seen"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "the poem has no page here; p1 stands for the one poem"

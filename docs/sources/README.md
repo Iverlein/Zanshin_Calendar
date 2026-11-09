@@ -305,6 +305,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/earth-lords-beside-the-weighing.md](claims/earth-lords-beside-the-weighing.md) | claim, rule | KP and SY close the weighing by sending the earth lords to screening and remedy | cites kp:i14, sy:p389-392; feeds T2.26, D4 |
 | [claims/earth-lords-bride-ten-checks.md](claims/earth-lords-bride-ten-checks.md) | claim, list | A bride is sent by ten checks, the earth lords one of them, unranked | cites dz:i045, kd.3:p634, kd.3:p641-642, lt:p38-41; feeds T2.26, D4 |
 | [claims/earth-lords-place-beside-day.md](claims/earth-lords-place-beside-day.md) | claim, note | The earth lords decide the place, the day is chosen apart | cites mta:p52-53, bsb:p435-436, lcm:p181-182, sdp:p238-241, kd.1:p493, kd.1:p495; feeds T2.26 |
+| [claims/eb9-contents.md](claims/eb9-contents.md) | claim, list | The volume's five texts and the dream book beside the 大雑書 | cites eb9:p1-378; feeds S3 |
 | [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
@@ -312,6 +313,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
+| [claims/hatsuyume-night-history.md](claims/hatsuyume-night-history.md) | claim, rule | The night of the first dream: from 節分 to 2 January | cites nip:p1, skf:p1; feeds S3 |
+| [claims/hatsuyume-takarabune.md](claims/hatsuyume-takarabune.md) | claim, remedy | The treasure ship under the pillow and the remedies for a bad first dream | cites nip:p1, nip:p2; feeds S3 |
 | [claims/hidden-body-cut-turtle.md](claims/hidden-body-cut-turtle.md) | claim, conflict | The body cut's turtle: the blocks carve the left side 7 and the left leg 6 | cites wb.1:p358, wb.2:p524; feeds block-58 |
 | [claims/household-fold-box-print.md](claims/household-fold-box-print.md) | claim, note | The box over the fold on Mipham's own print | cites wb.2:p490-491; feeds — |
 | [claims/household-mewa-verdicts.md](claims/household-mewa-verdicts.md) | claim, table | The household's general verdicts when many share a mewa of the year | cites wb.1:p407-408; feeds block-58, R4 |
@@ -412,6 +415,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-worked-example-six-and-count.md](claims/notes-worked-example-six-and-count.md) | claim, note | The notes' worked example: the six of the 360, and the count through the years lived | cites wb.2:p536-538; feeds block-60 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
+| [claims/ozassho-dream-judgments.md](claims/ozassho-dream-judgments.md) | claim, note | A 大雑書 with a dream section by image only (万代大雑書古今大成) | cites mdz:p5; feeds S3 |
+| [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
@@ -769,7 +774,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 0 passages: nothing read yet |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
-| [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 0 passages: nothing read yet |
+| [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 1 passages: 1 etext |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 0 passages: nothing read yet |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 0 passages: nothing read yet |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 0 passages: nothing read yet |
@@ -783,7 +788,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
-| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 0 passages: nothing read yet |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
@@ -791,20 +796,23 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 10 passages: 8 scan, 1 machine, 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 0 passages: nothing read yet |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 2 passages: 2 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
+| [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 0 passages: nothing read yet |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 0 passages: nothing read yet |
-| [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 0 passages: nothing read yet |
+| [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 1 passages: 1 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
+| [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 1 passages: 1 etext |
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 0 passages: nothing read yet |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 0 passages: nothing read yet |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 1 passages: 1 scan |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 0 passages: nothing read yet |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 0 passages: nothing read yet |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 1 passages: 1 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 1 passages: 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 0 passages: nothing read yet |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1491,7 +1499,10 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **SRM** | Dge 'dun grub pa (the First Dalai Lama, 1391–1474), *Lha mo shra ma Na'i sgo nas rmi lam brtag pa* (the examination of dreams through the goddess Śramaṇā) | *Gsung 'bum*, Gangtok 1978–1981, vol. 6, ff. 51v–53r (pp. 386–389) | BDRC MW759_306C1B; etext IE0OPIAB2E5954; scans W759; another print MW24769_B767AF; not read |
 | **GNC** | Gnam chos Mi 'gyur rdo rje's treasure: *Thugs rje chen po'i rmi lam brtag pa* and *Mtsho rgyal rmi lam brtag pa* (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal) | *Gnam chos*, Dilgo Khyentse Rinpoche, Paro 1983, vol. 1, ff. 61r–61v (pp. 557–558), and MW21578_A09994 | BDRC MW21578_87C398; scans W21578; a dbu med manuscript MW1ER167; not read |
 | **SCH** | Rolf Scheuermann, *Vibhūticandra's Svapnohana and the Examination of Dreams*, the modern study of SVO | in *Glimpses of Tibetan Divination: Past and Present*, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180 | DOI 10.1163/9789004410688_009; modern, copyrighted: facts only, never its wording; Brill and OAPEN refuse automated browsers; not read |
-| **EB9** | 『京都大学蔵潁原文庫選集』 第9巻, 雑書 1 (大雑書・暦占・随筆 1): an Edo 大雑書 and the dream book 夢占吉凶秘伝書 (いろは引夢うらなひ) reprinted side by side, with 毎年暦考見, a 天明八年伊勢暦 and 東見記 | 京都大学文学部国語学国文学研究室 編, 臨川書店, Kyoto 2018, 378 pp. | NDL KG211-M1 (R100000002-I029406484); the Edo texts public-domain, the reprint's own matter facts only; not online, not read |
+| **EB9** | 『京都大学蔵潁原文庫選集』 第9巻, 雑書 1 (大雑書・暦占・随筆 1): an Edo 大雑書 and the dream book 夢占吉凶秘伝書 (いろは引夢うらなひ) reprinted side by side, with 毎年暦考見, a 天明八年伊勢暦 and 東見記 | 京都大学文学部国語学国文学研究室 編, 臨川書店, Kyoto 2018, 378 pp. | NDL KG211-M1 (R100000002-I029406484); the Edo texts public-domain, the reprint's own matter facts only; not online, not read: its contents only from the NDL record (2026-11-09) |
+| **MDZ** | 伊藤孝行 (transcriber), 翻刻『万代大雑書古今大成』(十五), the 夢はんじ and the table of days on which a dream is not told, from a Tenpō 大雑書 | メディア・コミュニケーション研究 78, Hokkaido University, 2025, pp. 1–11 | HUSCAP hdl.handle.net/2115/94454; the transcription's own matter facts and short quotations only; the original print not seen |
+| **NIP** | 日本大百科全書 (ニッポニカ), Shogakukan, the entries 初夢 (竹内利美) and 夢占 (井之口章次, 上田紀行) | web edition, kotobank.jp | copyrighted: facts in our own words; the entries numbered p1, p2 for want of pages |
+| **SKF** | 西行 (Saigyō), 山家集, the spring poem on the first dream | as quoted by Japanese Wikipedia 初夢 and a reading blog | no edition named; the critical text not seen |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two
