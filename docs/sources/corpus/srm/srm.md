@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD210 (2026-11-09): TDR pp. 343–344 (I3856 img. 347–348), SRM vol. 6 pp. 386–389 (I3JW3517 img. 392–395), GNC vol. 1 pp. 557–558 (I1662 img. 565–566).
 
+Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MITRA slot; the manuscript hand was not legible enough by eye), the passages stay machine; see RD222.
+
 ## <a id="srm-6-p386-389"></a>srm.6:p386-389 The examination of dreams through the goddess Śramaṇā: preparation, sadhana, the sleep, the signs and the result
 
 *Read: machine, 2026-11-09.*
