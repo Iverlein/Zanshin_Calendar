@@ -1735,3 +1735,5 @@ Searched and found wanting, so not to be repeated:
   - Seven doubtful places of the Peking Svapnohana left unread at 4× (listed in the RD250 note of svo:p271d); one crop on img. 317 line 1 hit the page number «༧༡» instead of the target.
 - **RD249, 2026-11-09** (RD249, 2026-11-09):
   - Peking img. 318 lines 1–3: the line breaks and the start of line 1 («བཞོན») not fixed at 2×; 3–4× re-crops at the doubtful places not made.
+- **RD251, 2026-11-09** (RD251, 2026-11-09):
+  - Peking img. 315 at 3–5×: the stacks of «བཞོན་པ», «ཁང་བཟངས», «དང་བ», «རྣམ་པར» are blurred past telling from their neighbours (letters about 40 px); line 7 «ཁང་བཟངས» crop not aligned, line 5 «རྣམ་པར» not re-cropped tighter.
