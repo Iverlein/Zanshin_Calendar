@@ -1717,3 +1717,5 @@ Searched and found wanting, so not to be repeated:
   - GNC I1ER1055 img. 731 lines 3–5 at 1.2×: the letters of the headless hand are not told apart; the vulture-flesh sentence (after «ཅེས་བྲི༔») was not located line by line and the stop after «རྫས» not settled; 1.5–2× crops of img. 730–733 and MITRA over the manuscript remain undone.
 - **RD242, 2026-11-09** (RD242, 2026-11-09):
   - Peking img. 315 is only 1405 px high, so the row-ink profile gives no line positions; line 2 sits at y about 400–520, and the first line centres tried (y = 324, 435, 549, 654, 768, 876, 990, 1104) cut off the lower line: find the lines from a 1/3-size overview.
+- **RD243, 2026-11-09** (RD243, 2026-11-09):
+  - Peking img. 315 lines 3–8 and the rest of line 1 (x 3350–4900) not reached at 2× in the 14 minutes.
