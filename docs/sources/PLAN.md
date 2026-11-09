@@ -1651,3 +1651,8 @@ Searched and found wanting, so not to be repeated:
   crops in the wrong place. A scan reader needs line-by-line crops cut from
   the printed line boxes. Yigdzin-1 and MITRA agree at 96–98 % on SRM, 85–86 %
   on TDR and 92–99 % on GNC; the doubts are listed in srm.md.
+- **RD223, 2026-11-09**: the 夢はんじ of the 万代大雑書 part 15 (HUSCAP
+  hdl.handle.net/2115/94454, 78_06_Ito.pdf, leaves <5>–<8>, 132 articles) holds
+  no date, season, month or 初夢 rule; 初夢 does not occur in the PDF. The one
+  calendar rule in its dream part is ゆ六, the table of days a dream is not told.
+  The Ebara reprint's own 大雑書 and 夢占吉凶秘伝書 stay unread (q786).
