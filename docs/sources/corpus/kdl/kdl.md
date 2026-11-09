@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD212 (2026-11-09): KDL pp. 235–241 (I5556 img. 241–247), KBS pp. 66–80 (I1PD36011 img. 70–84), MDP the dream part (printed pp. 134–137).
+
 ## <a id="kdl-p235-241"></a>kdl:p235-241 Garga's omens in the abridgement of Klong rdol bla ma: rainbows, great sounds and various omens, whole (no dream in it)
 
 *Read: machine, 2026-11-09.*

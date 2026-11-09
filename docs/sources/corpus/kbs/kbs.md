@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD212 (2026-11-09): KDL pp. 235–241 (I5556 img. 241–247), KBS pp. 66–80 (I1PD36011 img. 70–84), MDP the dream part (printed pp. 134–137).
+
 ## <a id="kbs-p68-70"></a>kbs:p68-70 Klong rdol bla ma's verses on the three thirds of the night, as the article quotes them
 
 *Read: machine, 2026-11-09.*

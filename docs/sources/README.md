@@ -1477,6 +1477,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0805.md](questions/q0805.md) | question q805 | Which demon is «མཉམ་པོར་འོང་བའི་བདུད» among the causes of dreams in LGD? | open; cites lgd:p970 |
 | [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | open; cites lgd:p966-967, svo:p268 |
 | [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
+| [questions/q0808.md](questions/q0808.md) | question q808 | Where does Klong rdol bla ma's own text on examining the omens of dreams, the source of KBS's verses, stand in his collected works? | open; cites kbs:p68-70 |
+| [questions/q0809.md](questions/q0809.md) | question q809 | What is the dream part of MDP (printed pp. 134–137), and who composed it: an old text or the collectors' own? | open; cites mdp:p134-138 |
 
 <!-- end pool index -->
 

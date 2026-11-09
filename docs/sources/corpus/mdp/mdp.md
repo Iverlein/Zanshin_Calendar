@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD212 (2026-11-09): KDL pp. 235–241 (I5556 img. 241–247), KBS pp. 66–80 (I1PD36011 img. 70–84), MDP the dream part (printed pp. 134–137).
+
 ## <a id="mdp-p134-138"></a>mdp:p134-138 The collection's contents: the dream part pp. 134–137 (contents line only; the dream text itself not reachable)
 
 *Read: etext, 2026-11-09.*
