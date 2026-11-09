@@ -1577,6 +1577,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0810.md](questions/q0810.md) | question q810 | Which three watches does WB vol. 1 p. 17 mean by the night's name «ཐུན་གསུམ་ཀུ་མུད་བཞད་རྣམས», against four watches by night on p. 101 and vol. 2 p. 403? | open; cites wb.1:p17b, wb.1:p101, wb.2:p403 |
 | [questions/q0811.md](questions/q0811.md) | question q811 | Is «ཉིན་མཚན་ཐུན་བརྒྱད» one division of the day and night into eight watches, or the day's and night's lengths each divided by eight? | open; cites wb.2:p403, wb.1:p134-135 |
 | [questions/q0812.md](questions/q0812.md) | question q812 | Are the four watches of the night in WB vol. 1 p. 101 equal, and what is the unit of their planets' stretches (ཆུ་ཚོད 5, 4, 6, 3, 7, 4, 1)? | open; cites wb.1:p101 |
+| [questions/q0813.md](questions/q0813.md) | question q813 | What does the clause «བགྲོད་མིན» in SVO's second verse limit? | open; cites svo:p268 |
+| [questions/q0814.md](questions/q0814.md) | question q814 | What does the word before «a snake, a water creature seized» in SVO p. 270 («བླ་མོ») read, and is «བཅུ་ཡི་བར» in days? | open; cites svo:p270 |
+| [questions/q0815.md](questions/q0815.md) | question q815 | Is the SVI sign «བྱ་ཤར་ཏེ་རུ» (a bird sent as messenger, Amoghasiddhi's family) a bird, and is it a fortunate sign? | open; cites svi:p261 |
+| [questions/q0816.md](questions/q0816.md) | question q816 | What are the first words of LGD's «རམ་རུག་སྦང་གཡེར», the goods of gossip among the bad signs? | open; cites lgd:p968-969 |
+| [questions/q0817.md](questions/q0817.md) | question q817 | Which creatures does ST ch. 81 name among the dreams of the nāga spirits' illness, and what are the mantra and the ingredient «བ་ར» of ch. 91's thread? | open; cites st:p350-351, st:p493 |
+| [questions/q0818.md](questions/q0818.md) | question q818 | Does ST ch. 2's dream of a man mean the pregnant woman sees a man, or sees clearly? | open; cites st:p21 |
 
 <!-- end pool index -->
 

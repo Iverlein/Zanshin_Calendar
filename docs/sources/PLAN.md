@@ -1623,3 +1623,7 @@ Searched and found wanting, so not to be repeated:
 - **RD221, 2026-11-09** (RD221, 2026-11-09):
   - MDP (MW21880): etext IE0OPIE0503306_I4992 answers 403 again; the iiifpres manifest of I4992 lists 41 canvases and an image beyond them answers 401; no route to its dream part (pp. 134–137). BDRC full-text search shows MDP holds the same verses (snippets only).
   - BDRC: no print of this text from Klong rdol's gsung 'bum found; KDL (MW29669_5E6E42, pp. 235–240) begins at Garga with no dream part; a part of the women's title stands separately as MW29669_8009F4 (pp. 255–258, not compared). ldspdi POST /osearch/search and /search answer 405, the Person_Works query template fails with 500; the person record is P22.
+- **RD216, 2026-11-09** (RD216, 2026-11-09):
+  - No dream image is read by WB ch. 30 beyond p. 144, and WB ch. 25 has only four dream lines (the ox-day rough dreams, the five-yellow mewa's dreams of za zi, the dragon-year skull remedy, the pig-year omen of the ritualist bitten in the sick person's dream).
+  - KCM, DTD, RBG and KDL give no images with verdicts, and neither does MDP, which is unreachable.
+  - Klong rdol's dream text is the ACIP etext RST (RD221), so KBS and RST are not independent witnesses; their agreement on images is not two sources.
