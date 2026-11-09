@@ -1739,3 +1739,6 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 315 at 3–5×: the stacks of «བཞོན་པ», «ཁང་བཟངས», «དང་བ», «རྣམ་པར» are blurred past telling from their neighbours (letters about 40 px); line 7 «ཁང་བཟངས» crop not aligned, line 5 «རྣམ་པར» not re-cropped tighter.
 - **RD252, 2026-11-09** (RD252, 2026-11-09):
   - Peking img. 316 lines 5–6 at 4×: the crops landed on other syllables or the letters were not told apart cleanly (line 5's «གང་ལ» perhaps at x about 2740–2900, unconfirmed); the RD246 doubts stand.
+- **RD253, 2026-11-09** (RD253, 2026-11-09):
+  - scans.py line unusable on I6320 pages; the row's y positions do not hold per page; ink-profile centres per image (img. 275: 107, 220, 332, 458, 570, 687; 276: 111, 221, 349, 456, 569, 682; 277: 117, 226, 338, 445, 552, 665; 278: 128, 241, 352, 458, 566, 678; 279: 132, 236, 339, 447, 559, 665), crop from centre−75 to centre+50, lines 2–6 start at x about 250–330.
+  - Not settled at 1.4–3.4× on W24769: «དངོས་སམ»/«དངོས་སུམ» (img. 275 line 6), «བརྐྱངས»/«བརྐྱང» (277 line 1), «ཐམས་ཀྱང»/«ཐམས་ཅད» and «ཟྭ་ཚོད»/«ཟ་ཚོད» (276 line 3), «སེམས་སྐྱེད»/«སེམས་བསྐྱེད» (276 line 4), «མགོ་པོ»/«མགོ་བོ» (277 line 6); the ra-stack of «རྡ/རྔ་ཡབ» (276 line 6).
