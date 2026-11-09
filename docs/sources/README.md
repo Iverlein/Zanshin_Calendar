@@ -609,7 +609,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-indian-frame-of-watch-rule.md](claims/svo-indian-frame-of-watch-rule.md) | claim, note | The rule of the watches in older Indian dream books (Wayman 1967); the Svapnohana not mentioned | cites svo:p268, apv:p445, kps:p232-236, agv:p120-121, bsm:p8-12, yyt:p188; feeds block-73 |
 | [claims/svo-la-mo-conflict.md](claims/svo-la-mo-conflict.md) | claim, conflict | Peking and Narthang read rta la mo where the Derge text has rta bla mo | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-la-mo-further-narthang.md](claims/svo-la-mo-further-narthang.md) | claim, note | The two further Narthang prints read rta la mo, as Peking and the first Narthang print do | cites svo:p271c, svo:p271b; feeds RD231 |
-| [claims/svo-modern-tibetan-quotations.md](claims/svo-modern-tibetan-quotations.md) | claim, note | Modern Tibetan books quote the Svapnohana's rule of the watches; no earlier quotation found | cites svo:p268; feeds block-73 |
+| [claims/svo-modern-tibetan-quotations.md](claims/svo-modern-tibetan-quotations.md) | claim, note | Modern Tibetan books quote the Svapnohana's rule of the watches; no earlier quotation found | cites svo:p268, svo:p271f; feeds block-73 |
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
@@ -1002,7 +1002,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 5 passages: 2 scan, 2 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 10 passages: 5 scan, 4 machine, 1 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 11 passages: 5 scan, 4 machine, 2 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1652,6 +1652,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0847.md](questions/q0847.md) | question q847 | Padma rdo rje quotes the whole Svapnohana on about pp. 17–26 of his book: what does the sentence that introduces it say about its source and author, and does he gloss the watches after it? | open; cites svo:p271f |
 | [questions/q0848.md](questions/q0848.md) | question q848 | Bya mdo Klu byams rgyal's «tho rengs gsum cha phyis 'byung gsal byed yin»: what do «gsum cha phyis» and «gsal byed» mean, and from what text does he take it? | open; cites svo:p271f |
 | [questions/q0849.md](questions/q0849.md) | question q849 | Does the Four Tantras' own text carry «mtshan stod rmi lam brjed nges 'bras bu med; tho rangs mthong dang gsal na 'bras bu 'byin», in which chapter, and does a Tibetan commentary read «mtshan stod» as the first part of the night? | open; cites svo:p271f, st:p44 |
+| [questions/q0850.md](questions/q0850.md) | question q850 | The Serthang scan (I3CN5038) has no image of the page between img. 43 (ch. 6) and img. 45 (ch. 7), and its img. 44 and img. 46 are the same page: is the missing page (the opening of ch. 7 with the distant signs and the bad-dream verse) on another BDRC scan of the Serthang print, and does it read «རྨི་ལམ་མི་བཟང་བ» as the Drathang print? | open; cites st:p44 |
+| [questions/q0851.md](questions/q0851.md) | question q851 | In ch. 91 what is ཕྱྭ (phywa) in the pair «མོ་ཕྱྭ» that heads the remedies of the spirit: a divination, the fortune of the sick, or an offering? | open; cites st:p493 |
 
 <!-- end pool index -->
 

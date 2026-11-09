@@ -1779,3 +1779,6 @@ Searched and found wanting, so not to be repeated:
   - The full etexts of MW25126 and MW8LS18598: etextchunks 403, etextrefs empty for both MW ids, a guessed IE8LS18598 gives 404; chains of searches stop at chunk boundaries (Padma's at «rmi lam rnams ni bgrod min la zhugs shis pa'o», «gang gis gnyid kyi mtha' mar» and the end «[ 2 ]de'i [26 .]»; Bya mdo's at «lus la 'byar dang gseb na 'a»); the sentences before «rmi lam sna tshogs las byung ba» in Padma and after p. 26 not reached by a dozen guesses.
   - The page of Bya mdo's second place (char. 318035): no marker in the window.
   - Neither book is registered as a source with a siglum; cited by MW id.
+- **RD264, 2026-11-09** (RD264, 2026-11-09):
+  - Serthang etext (IE0OPIFEF6EACA, all 622 pages) for «རྨི་ལམ་བྱི་ལ», «འཆི་བདག་གིས་ཟིན», «དུར་ཁྲོད་ཉལ», «ཡིད་འཇུག་བུ་ག་ནད་ཀྱིས», «མི་བཟང་བ» and «མི་ཟད་པ»: no hit in ch. 7; Yigdzin-1 over Serthang img. 33, 35–58: the bad-dream verse on none.
+  - The wa-zur of ཕྱྭ was not looked up in a dictionary (Steinert's clone is not on this machine); the 2005 Man ngag lhan thabs's ch. 81 read at leaf 362 only (borrowed one hour under the owner's login and returned, the cookie file shredded); the Bhutan scan's sister clause and ལྡེར་སོ are by eye at poor resolution (moderate); the Drathang's and the 2005 print's sister clause not read.

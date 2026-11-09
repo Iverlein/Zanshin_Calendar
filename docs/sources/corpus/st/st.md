@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD264 (2026-11-09): The Bhutan print (I1KG13565 img. 267, 418), the 2005 Man ngag lhan thabs leaf 362 (archive.org lending copy bdrc-W1PD4, borrowed one hour and returned), the Serthang scan I3CN5038 and the Drathang I4CZ327131 img. 42.
+
 Read by RD255 (2026-11-09): the commentaries on the dream lines of ch. 2, 7, 81 and 91, in the etext only, no scan opened (none is served for these commentaries, and the row asked for the etext): Khro ru Mkhan po Tshe rnam, a modern author (`ktr`, MW29701, etext pp. 175–177, 303–307, 323–324, 329–332, 684–685, 688), the 'Bri gung *Dka' mchan* (`bdk`, MW1KG24729, printed pp. 34, 53–54, 57, 580–581, 789–790), Byang pa (`bjp:p177-181`) and Rin spungs pa (`rsp:p208-211`) on the dream list of ch. 7, and, for the readings of ch. 81, Sde srid's *Man ngag lhan thabs* in two prints (`lth`, `lhq`), its annotated form by Blo bzang dbang rgyal (`mbl`) and the Bhutan print of the Instruction Tantra (`mnb`). Byang pa and Rin spungs pa do not reach ch. 81 and 91 (Searched and not found, below). What they say is in the claims `st-dream-pregnancy-boy`, `st-dream-death-signs`, `st-dream-naga-illness`, `st-dream-spirit-women` and `st-lhas-tshor-lder-bzo`; the passages are in the corpus files of those sigla, the root verses as the Four Tantras have them being in the passages below.
 
 Read by RD229 (2026-11-09): ST ch. 15, 23 and 27 treatments (I3CN5038 img. 258–257, 221–220, 202–201, printed pp. 185–186, 222–223, 241–242) by Yigdzin-1 and in part by eye, and the commentaries of Byang pa and Rin spungs pa in the etext.
