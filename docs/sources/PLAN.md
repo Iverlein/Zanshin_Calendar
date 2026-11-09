@@ -1677,3 +1677,8 @@ Searched and found wanting, so not to be repeated:
 - **RD229, 2026-11-09** (RD229, 2026-11-09):
   - BDRC full-text search for «ལུས་ཡང་རྨི་ལམ་དག་ན་སྐྱེས་པ་མཐོང་» and four other dream phrases of the Explanatory Tantra: etext commentaries by Byang pa (MW27496, also MW15590), Rin spungs pa (MW27494), Khro ru Mkhan po Tshe rnam (MW29701) and Bri gung Chos kyi grags pa's Dka' mchan (MW1KG24729); none of Zur khar, Lho brag or Mkhyen rab nor bu turned up. The Drikung Dka' mchan (etext p. 61) has ch. 2's verse with glosses and no word on དག; Khro ru's glosses (etext pp. 175, 320–322) seen in part, not recorded (modern author).
   - The two commentaries have no scans served (lent or archive.org); read in etext only.
+- **RD233, 2026-11-09** (RD233, 2026-11-09):
+  - Peking img. 315 line 1, the Sanskrit title: five signs after «སྭ», the stack before «ཨུ་ཧ» not told apart even at 2.4×.
+  - Peking img. 317 line 8: the last syllable of «འབྲས་བུ་ལྡན་ན་བློ་མེད་…» is a stack with a vowel sign that 1.9× does not settle (Derge etext «བློ»).
+  - Peking img. 318, end of line 4 and start of line 5 (Derge's «རྨི་ལམ་བརྟག་པ་རྫོགས་སོ»): one syllable more than expected looks present; unsettled at 2.2×.
+  - Peking contrast is low (grey on grey): crops need autocontrast; img. 316 needs a −45 px vertical offset, img. 318 −5 px (text lines 8, 8, 8, 5).
