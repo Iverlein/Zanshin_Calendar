@@ -1605,3 +1605,7 @@ Searched and found wanting, so not to be repeated:
 - **RD209, 2026-11-09** (RD209, 2026-11-09):
   - RBG vol. 3 pp. 203–205: the BDRC etext IE0OPIBC148677 answers 403 and the scan manifest vo:I1KG2753 serves 41 images, none near these pages; visible only as a snippet in BDRC full-text search.
   - `bdrc.py volumes W<instance>` answers 401; scans for KCM, SKP and DTD were fetched through the work-level collection manifest wvo:bdr:MW…::bdr:I…; `bdrc.py scans` with the MW id fails on KCM (500).
+- **RD208, 2026-11-09** (RD208, 2026-11-09):
+  - The page numbers 799–810 for LGD (registry, README, ROADMAP) do not hold the text; it is at pp. 961–971 of Rin chen gter mdzod vol. 42 (I1KG57 img. 980–990), found from the volume's contents page in the etext, not from BDRC's outline (whose contentLocationEndPage 990 is the volume's image sequence).
+  - The etext's [pN] marks in VE1KG14_042 count paragraphs, not pages or images; the contents page at its start lists printed pages that match the scan's printed numbers (image = page + 19).
+  - No individual sign in LGD's four lists has its verdict changed by the hour or the lunar day (searched the whole text).

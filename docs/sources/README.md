@@ -852,7 +852,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
-| [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 1 passages: 1 etext |
+| [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 2 passages: 1 machine, 1 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
@@ -1464,6 +1464,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0801.md](questions/q0801.md) | question q801 | Is «བཻ་རང་གི་དུས་ཚོད» in KCM p. 682 a mistake for a named watch or day, or the text's own phrase? | open; cites kcm:p679-682 |
 | [questions/q0802.md](questions/q0802.md) | question q802 | Is «པདྨ་དཀར» at the end of SKP's second text Padma dkar po of the 'Brug pa, and whose 'third of Vairocana' does it follow? | open; cites skp:p50-55 |
 | [questions/q0803.md](questions/q0803.md) | question q803 | Is the Sakya Paṇḍita attribution on SKP's first text right, given its colophon names Kun dga' rgyal mtshan dpal bzang po? | open; cites skp:p40-50 |
+| [questions/q0804.md](questions/q0804.md) | question q804 | What are the three words «རམ་རུག་སྦང་གཡེར» among the gossip goods in LGD's bad list? | open; cites lgd:p968-969 |
+| [questions/q0805.md](questions/q0805.md) | question q805 | Which demon is «མཉམ་པོར་འོང་བའི་བདུད» among the causes of dreams in LGD? | open; cites lgd:p970 |
+| [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | open; cites lgd:p966-967, svo:p268 |
+| [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
 
 <!-- end pool index -->
 

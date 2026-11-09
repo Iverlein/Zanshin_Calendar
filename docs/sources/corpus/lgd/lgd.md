@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD208 (2026-11-09): LGD: Rin chen gter mdzod vol. 42, printed pp. 961–971 (I1KG57 img. 980–990, image = page + 19).
+
 ## <a id="lgd-p961-966"></a>lgd:p961-966 The rite of examining dreams: the approach, the application, the way of lying down
 
 *Read: machine, 2026-11-09.*
