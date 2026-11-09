@@ -1635,3 +1635,13 @@ Searched and found wanting, so not to be repeated:
   or BDRC's original) can settle RD207's spelling doubts. `scans.py line`
   finds only 1–2 lines on these 7-line strips; cut bands by hand, line k at
   about y = 42 + 37.5 × (k − 1) px.
+- **RD219, 2026-11-09**: RBG vol. 3 pp. 203–205: the work-level manifest
+  `wvo:bdr:MW1KG2733_B7BF9B::bdr:I1KG2753` answers 401 (restricted);
+  `vo:bdr:I1KG2753` serves 41 images, none of these pages; the etext API 403;
+  `bdrc.py volumes` with the MW id likewise. No route without the archive.org
+  loan. Tool note: `bdrc.py volumes W<instance>` answers 401 for KCM, SKP and
+  DTD, so their scans need the `wvo:bdr:MW…::bdr:I…` manifest (KCM I2638 img.
+  689–692, SKP I1NLM933_001 img. 40–55, DTD print I3877 img. 221–222; for
+  MW1NLM4232 the plain `vo:bdr:I1NLM4232_001` manifest works; RRT is I3KG732,
+  img. N = printed folio N − 11). The scan fetch would belong in `bdrc.py` as a
+  `scans` mode taking a `wvo:` manifest.

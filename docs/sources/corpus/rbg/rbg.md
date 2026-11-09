@@ -21,4 +21,4 @@ The eighteen are the dreams of King Kṛki (ཀྲྀ་ཀཱི, kri kI), told
 
 ## Searched and not found
 
-- RBG vol. 3 pp. 203–205 (2026-11-10): the work-level manifest `wvo:bdr:MW1KG2733_B7BF9B::bdr:I1KG2753` answers 401 (restricted); `vo:bdr:I1KG2753` serves 41 images, none of these pages; the etext API 403; `bdrc.py volumes` with the MW id likewise fails. No route to the pages without the archive.org loan, which is not this reading's.
+- RBG vol. 3 pp. 203–205 (2026-11-09): the work-level manifest `wvo:bdr:MW1KG2733_B7BF9B::bdr:I1KG2753` answers 401 (restricted); `vo:bdr:I1KG2753` serves 41 images, none of these pages; the etext API 403; `bdrc.py volumes` with the MW id likewise fails. No route to the pages without the archive.org loan, which is not this reading's.
