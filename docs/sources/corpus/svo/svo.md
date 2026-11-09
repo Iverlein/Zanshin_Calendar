@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD246 (2026-11-09): SVO on the Peking print, I1KG13197 img. 316 lines 3–8 at 2×.
+
 Read by RD248 (2026-11-09): SVO on the Peking print, I1KG13197 img. 315 lines 3–8 at 2×.
 
 Read by RD247 (2026-11-09): SVO on the Peking print, I1KG13197 img. 317 lines 1–7 at 2×.

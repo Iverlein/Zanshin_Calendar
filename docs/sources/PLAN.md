@@ -1728,3 +1728,5 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 317 lines 4–5 joint: line 4 ends «བྲམ་ཟེ» (3–4×), line 5 begins with a tall-tailed stack not told from «ར» or the «ཕྱུ» of the next syllable. scans.py line fails on img. 317; lines found from the ink profile (peaks at y 225–1223, 225 the frame; line centres y 342, 450, 561, 672, 780, 886, 996).
 - **RD248, 2026-11-09** (RD248, 2026-11-09):
   - Peking img. 315 at 2× is too blurred for syllable certainty on the doubtful stacks; a 4× or higher crop of each (last glyph of line 8, the first stacks of «བཞོན་པ» and «ཁང་བཟངས», «དང་བ») is needed; line centres for lines 3–8 at y about 571, 682, 793, 904, 1015, 1126 on the 5384×1405 scan.
+- **RD246, 2026-11-09** (RD246, 2026-11-09):
+  - Peking img. 316 at 2× is blurry (letters about 40 px): «གང་ལ» against «གང་བ» and «འོ་མ» against «ཨོ་མ» are not told apart, the etext's reading taken; shad and tsheg spacing not compared.
