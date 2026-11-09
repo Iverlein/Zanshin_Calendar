@@ -1668,3 +1668,5 @@ Searched and found wanting, so not to be repeated:
 - **RD230, 2026-11-09** (RD230, 2026-11-09):
   - The machine reading of WB vol. 2 pp. 474–541 (img. 482–549): no gloss of «རྨི་ལམ་རྩུབ», «ཟ་ཟི» or the skull remedy of the dragon year; the only «རྨི་ལམ» is p. 535's list of preliminaries.
   - The Taikhang reproduction (I5877 img. 587, 589, 590, which should hold pp. 428, 430, 431; the offset page + 159 is a guess) fetched and not read; the Zhol print not opened.
+- **RD231, 2026-11-09** (RD231, 2026-11-09):
+  - scans.py line fails with IndexError on I3279 img. 288 and I1PD31365 img. 389: the strips carry a black frame that defeats the row-ink line finder; scans.py crop with pixel boxes works (gser bris ma 1540 255 1820 320; Narthang 600 190 800 235). The OCR line numbers do not map to scan rows, so look at a stack of the whole image first.

@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD231 (2026-11-09): SVO in the Narthang print (W22704 vol. 28, I3279 img. 286–289) and the gser bris ma Narthang (W23702, I1PD31365 img. 386–391).
+
 Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318) and Narthang (W2KG5015 img. 284–288) prints and the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); LGD in the Palri Parkhang, Kazi, Ngodrup and Sherab Drimay, Sbas-yul prints and the Shechen etext.
 
 Read by RD216 (2026-11-09): the passages of RD59, RD207–RD212 and RD215, and WB ch. 25's dreams of the sick (no page read afresh).
@@ -110,7 +112,7 @@ The Svapnohana in two other prints of the Tengyur (Peking, Narthang) and in the 
 
 - The Dpe bsdur ma scans of vol. 14 (I1PD95859) and vol. 25 (I1PD95870) are restricted: BDRC serves 41 images, none of these pages; only the OCR etext with its variant notes was read, and its note markers did not survive, so each note was assigned to its word by order only.
 - The Peking etext (IE0OPI647D7CBC) and the Narthang etext of W22704 and the Co ne print: no etext served; the Co ne print has no BDRC instance of the work with scans found (the Dpe bsdur ma notes cite it, «ཅོ་», in one variant only).
-- The two further Narthang prints (W22704 vol. 28 I3279 pp. 286–289; the gser bris ma W23702 vol. 28 I1PD31365 pp. 386–391) were fetched and not read for lack of time; the Narthang etext of W2KG5015 is badly garbled OCR and was not used as a reading.
+- The two further Narthang prints (W22704 vol. 28 I3279 pp. 286–289; the gser bris ma W23702 vol. 28 I1PD31365 pp. 386–391) were read for the «ལ་མོ» line in RD231 (the other words by machine only); the Narthang etext of W2KG5015 is badly garbled OCR and was not used as a reading.
 - Advayavajra's examination (SVI) in the Peking (W1PD95844 vol. 25 pp. 415–418 is the Dpe bsdur ma; Peking W1KG13126) was not looked for: none of its words was on the row's list.
 - Lama Gongdü: the Zhe chen mkhar dmar print (W2PD17514 vol. 33 I4PD2250 img. 303–314) was fetched and not read; the Kazi and Sbas-yul readings are Yigdzin-1 only, not looked at on the scan; the vol. 37 copy of the Shechen set was read as etext only; no Sanskrit parallel is published (none found).
 - The Palri Parkhang print's pages 534–545 (I01CT0067) hold the whole dream text; only img. 542 was read.
