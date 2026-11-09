@@ -1753,3 +1753,7 @@ Searched and found wanting, so not to be repeated:
 - **RD261, 2026-11-09** (RD261, 2026-11-09):
   - Waseda bunko30_e0277 not opened (maintenance); the ten images of the 国文研 manifest carry no OCR text layer, so the reading is by eye; no Japanese OCR model available.
   - The branch cells of the ゆ六 table are not all decoded glyph by glyph; what the slash divides in a cell is unexplained on the page; the title's particle and verb are doubtful cursive.
+- **RD257, 2026-11-09** (RD257, 2026-11-09):
+  - Scheuermann's chapter: Brill 405 human verification (chapter and front matter), Google Books human check and API out of quota, OAPEN Anubis ends in HTTP 500, Unpaywall and OpenAlex closed, LMU and FAU metadata only, Semantic Scholar no open PDF, Academia and Sapienza 403, CORE a human check, DOAB API refuses, HAL no hit, the Internet Archive has no scan of the volume; the Anubis check at journals.ub.uni-heidelberg.de passes by itself in the headed browser.
+  - BDRC strings «བི་བྷཱུ་ཏི་ཙནྡྲའི་རྨི་ལམ་བརྟག་པ» and five variants gave 0 hits; bdrc_search 'Author:' lines can attach to the next hit and were not relied on (MW2KG5015_1402 is a Tārā sādhana, rejected).
+  - Schuh, Cornu, Mayer, Kapstein, Mills: none found open that discusses the Svapnohana; the open dream chapters found are on Bon texts or closed; Scheuermann's 2018 'One Will Quickly Die!' not found open.
