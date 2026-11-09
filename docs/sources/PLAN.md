@@ -1656,3 +1656,7 @@ Searched and found wanting, so not to be repeated:
   no date, season, month or 初夢 rule; 初夢 does not occur in the PDF. The one
   calendar rule in its dream part is ゆ六, the table of days a dream is not told.
   The Ebara reprint's own 大雑書 and 夢占吉凶秘伝書 stay unread (q786).
+- **RD227, 2026-11-09** (RD227, 2026-11-09):
+  - No Chag-po-ri or Derge print of the Four Tantras found served on BDRC; the only second print used is the Drathang woodblock GT (I4CZ327131), images 1763-2669 px wide with red interlinear notes illegible at that size (ST img. = GT img. + about 5 early on and around ch. 81; ST 362-363 = GT 462; ST 507 = GT 647; ST 34 = GT 29).
+  - Steinert's dictionaries by Wylie headword: ལྕོལ, སྡིག་སྡོམ, ལྷས་ཚོར, ཕྱུ have no headword; ནིའུ་གསིང only as ne'u gsing with one Vinaya line.
+  - GT img. 660, 662 read the Final Tantra, not ch. 91: ch. 91's end is GT 647-649.

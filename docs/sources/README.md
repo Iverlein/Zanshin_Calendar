@@ -1585,6 +1585,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0817.md](questions/q0817.md) | question q817 | Which creatures does ST ch. 81 name among the dreams of the nāga spirits' illness, and what are the mantra and the ingredient «བ་ར» of ch. 91's thread? | open; cites st:p350-351, st:p493 |
 | [questions/q0818.md](questions/q0818.md) | question q818 | Does ST ch. 2's dream of a man mean the pregnant woman sees a man, or sees clearly? | open; cites st:p21 |
 | [questions/q0819.md](questions/q0819.md) | question q819 | What is the first syllable of «?་རང་གི་དུས་ཚོད» on p. 682 of the magic mirror, and does the phrase fix a watch of the night? | open; cites kcm:p679-682 |
+| [questions/q0820.md](questions/q0820.md) | question q820 | What does ལྷས་ཚོར་དུས་ཏེ say in ST ch. 81 (img. 363 ll. 3-4)? | open; cites st:p350-351 |
+| [questions/q0821.md](questions/q0821.md) | question q821 | ལྡེར་བཟོ་འགུལ (Serthang) or ལྡེར་སོ་འགུལ (Drathang, machine) in ST ch. 81: which is printed, and what is ལྡེར? | open; cites st:p350-351 |
+| [questions/q0822.md](questions/q0822.md) | question q822 | ཕྱུ in ST ch. 91 «མོ་ཕྱུ་རིམ་གྲོ་རྟེན་འབྲེལ»: what is the second of the four remedies? | open; cites st:p493 |
+| [questions/q0823.md](questions/q0823.md) | question q823 | ST ch. 2 «རྨི་ལམ་དག་ན»: is དག the plural marker or 'clear'? | open; cites st:p21 |
+| [questions/q0824.md](questions/q0824.md) | question q824 | Are the two bracketed remedies of ST ch. 91 (the thread; the milk of cattle and goats) interlinear notes that entered the Serthang text? | open; cites st:p493 |
 
 <!-- end pool index -->
 
