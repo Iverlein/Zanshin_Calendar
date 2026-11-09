@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD229 (2026-11-09): ST ch. 15, 23 and 27 treatments (I3CN5038 img. 258–257, 221–220, 202–201, printed pp. 185–186, 222–223, 241–242) by Yigdzin-1 and in part by eye, and the commentaries of Byang pa and Rin spungs pa in the etext.
+
 Read again by RD227 (2026-11-09): img. 34, 362–363 and 507 line by line on crops at stated coordinates, the doubtful words against the Drathang woodblock print (GT, BDRC I4CZ327131; Yigdzin-1 over img. 29, 460, 462 and 647, the words by eye on img. 29 and 462) and the dictionaries (Steinert's 64, by Wylie headword).
 
 Read by RD229 (2026-11-09): the treatments that follow the dream lines of ch. 15, 23 and 27 (img. 258, 257, 256 by etext only, 221, 220, 202, 201; printed pp. 185–186, 222–223, 241–242), Yigdzin-1 with the scan laid beside it in part (MITRA was queued behind other readers' slots and cancelled); the commentaries on ch. 2 and ch. 7 in the two corpus files `bjp` and `rsp`.

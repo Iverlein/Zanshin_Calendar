@@ -1674,3 +1674,6 @@ Searched and found wanting, so not to be repeated:
   - Palri img. 541 and 543 not read: only line 1 of img. 542 carries the phrase.
   - Sbas-yul img. 148: the cursive hand does not settle «རྟ་ཇུག་སྦང་ཕྱེར» by eye; the phrase is on line 3 after «ཞོན་པ༔ ཞོན་ནས་དབང་མེད་དུ་ཁྱེར་བ༔».
   - Zhe chen img. 310 line 6: the phrase lies at x 1750–2750, y 305–395 (scans.py crop); the second syllable «རུག» or «རྒྱུག» is not settled by eye; Kazi ར against ང is a moderate-confidence reading of a grainy print.
+- **RD229, 2026-11-09** (RD229, 2026-11-09):
+  - BDRC full-text search for «ལུས་ཡང་རྨི་ལམ་དག་ན་སྐྱེས་པ་མཐོང་» and four other dream phrases of the Explanatory Tantra: etext commentaries by Byang pa (MW27496, also MW15590), Rin spungs pa (MW27494), Khro ru Mkhan po Tshe rnam (MW29701) and Bri gung Chos kyi grags pa's Dka' mchan (MW1KG24729); none of Zur khar, Lho brag or Mkhyen rab nor bu turned up. The Drikung Dka' mchan (etext p. 61) has ch. 2's verse with glosses and no word on དག; Khro ru's glosses (etext pp. 175, 320–322) seen in part, not recorded (modern author).
+  - The two commentaries have no scans served (lent or archive.org); read in etext only.

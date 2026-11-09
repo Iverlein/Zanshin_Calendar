@@ -1601,6 +1601,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
 | [questions/q0827.md](questions/q0827.md) | question q827 | Are the «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» of WB ch. 25 and 27 dreams of the images listed as bad in ch. 30 p. 144, or only restless sleep? | open; cites wb.1:p428b, wb.1:p431 |
 | [questions/q0828.md](questions/q0828.md) | question q828 | On the Gser thang reprint p. 144 l. 13, the glyph after «མ་ཧེ» is ink-filled: is it «རྟ» (horse) or another animal? | open; cites wb.2:p144 |
+| [questions/q0829.md](questions/q0829.md) | question q829 | In the treatment of the unripe fever (st:p185-186) what is the medicine «བིག་པན» (ཐིག་པན in the etext), named with ash and beer, and which letter does the print have? | open; cites st:p185-186 |
+| [questions/q0830.md](questions/q0830.md) | question q830 | What is «བུར་སྙིང་ཐང» in the decoction for the wind-unripe fever: a sugar or a heart-wood? | open; cites st:p185-186 |
+| [questions/q0831.md](questions/q0831.md) | question q831 | Which fever is meant by འགྲམས་འཁྲུགས in ch. 15's «འགྲམས་འཁྲུགས་ཚ་བ་དགྲ་ཟིན་ལྟ་བུར་དབྱེ»? | open; cites st:p185-186 |
+| [questions/q0832.md](questions/q0832.md) | question q832 | Rin spungs pa glosses the boy's sign as the mother's «ལུས་ཡང་ཤིང་ཆེ་བ»: is ཆེ་བ the raised right side or a second property of the body? | open; cites st:p21 |
 
 <!-- end pool index -->
 
