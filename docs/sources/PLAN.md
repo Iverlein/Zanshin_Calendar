@@ -1724,3 +1724,5 @@ Searched and found wanting, so not to be repeated:
 - **RD245, 2026-11-09** (RD245, 2026-11-09):
   - scans.py line raised IndexError on Peking img. 317 and found 10 lines on img. 318 (the text part has 5), so its numbering does not match; take lines from a 1/3-size overview, pitch about 111 px.
   - Peking img. 317 lines 1–7 and img. 318 lines 1–3 not read at 2×.
+- **RD247, 2026-11-09** (RD247, 2026-11-09):
+  - Peking img. 317 lines 4–5 joint: line 4 ends «བྲམ་ཟེ» (3–4×), line 5 begins with a tall-tailed stack not told from «ར» or the «ཕྱུ» of the next syllable. scans.py line fails on img. 317; lines found from the ink profile (peaks at y 225–1223, 225 the frame; line centres y 342, 450, 561, 672, 780, 886, 996).
