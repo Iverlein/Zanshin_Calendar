@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD211 (2026-11-09): ST etext pp. 34, 44, 202, 225, 260, 362–363, 507 on the Gser thang scan I3CN5038 (printed pp. 21, 34, 241, 218, 183, 350–351, 493).
+
 ## <a id="st-p21"></a>st:p21 Ch. 2 of the Explanatory Tantra, the child in the womb: the mother's dream of a man marks a boy
 
 *Read: scan, 2026-11-09.*
@@ -26,9 +28,6 @@ Read on the scan, 2026-11-09. The etext and Yigdzin-1 agree with the scan in eve
 Serthang p. 34, img. 44, ll. 9–14 of the scan (the end of the seventh chapter, on the signs of the body's destruction, ལུས་ཀྱི་འཇིག་ལྟས, lus kyi 'jig ltas, in the Explanatory Tantra, བཤད་རྒྱུད, bshad rgyud, by the same run of colophons as on etext p. 35). Not knowing the signs of death, the choice of what to take up and give up in treatment is blocked, and without knowing them one gains no good name; so whoever wishes to be wise should understand the signs of death. Dreams (རྨི་ལམ, rmi lam) and changes of bearing are the distant and uncertain signs: gathering merit, recitation and the practice of the yidam deity (ཡི་དམ, yi dam), three means, turn them back. For the near and certain signs the death ransom (འཆི་བསླུ, 'chi bslu) is done. For the very near signs there is no means of turning them back. Thus it was said. The colophon names the whole work, the Heart of Nectar in Eight Branches, the Secret Instruction (བདུད་རྩི་སྙིང་པོ་ཡན་ལག་བརྒྱད་པ་གསང་བ་མན་ངག་གི་རྒྱུད, bdud rtsi snying po yan lag brgyad pa gsang ba man ngag gi rgyud), the title of the Four Tantras together, and then the chapter showing the signs of the body's destruction, the seventh.
 
 Read on the scan, 2026-11-09. The etext has ལས་ for the print's ལྟས་ in «ཤིན་ཏུ་ཉེ་བའི་ལྟས་ལ་ཟློག་ཐབས་མེད» and a stray run of marks after འཇིག; q784 quotes the line right. The print has རྟོགས་པར་བུ་ (Yigdzin-1 reads བྱ), the same old spelling as ཞེས་བུ་ on p. 241. The print's page number is the image minus 10 here, not 13 (the registry's rule stops at img. 39).
-
-Read by RD211 (2026-11-09): ST etext pp. 34, 44, 202, 225, 260, 362–363, 507 on the Gser thang scan I3CN5038 (printed pp. 21, 34, 241, 218, 183, 350–351, 493).
-
 
 ## <a id="st-p92"></a>st:p92 Ch. 31, the physician: the Medicine Buddha's dhāraṇī over the medicine
 
