@@ -1612,3 +1612,8 @@ Searched and found wanting, so not to be repeated:
 - **RD212, 2026-11-09** (RD212, 2026-11-09):
   - MDP etext IE0OPIE0503306 answers 403 to the etext API (search-only); scans I4992 serve only img. 1–22 (front matter and contents), img. 135+ returns nothing.
   - BDRC full-text search: about a dozen guessed phrases for MDP's dream part found no snippet from MW21880 (e.g. «རྨི་ལམ་བརྟག་པ་བསྒྲིགས་སོ» 0 hits); the only snippet is its contents line, from «རྨི་ལམ་བརྟག་པ་བཞུགས་སོ».
+- **RD215, 2026-11-09** (RD215, 2026-11-09):
+  - WB etext IE0OPI51524892 (vols. 1 and 2, searched on syllable boundaries): «ནམ་ཐུན», «སྲོད་ཐུན», «དགོང་ཐུན», «སྔ་ཐུན», «ཐུན་ཐ་མ», «མཚན་མོའི་ཐུན» do not occur; «མཚན་ཐུན» once, in «ཉིན་མཚན་ཐུན་བརྒྱད» (vol. 2 p. 403); «ཐུན་བཞི» only in the vowel-watch list of vol. 1 p. 134 and a hand-reckoning sentence.
+  - Mipham's notes (vol. 2 pp. 474–541): no watch of the night, no clock bound.
+  - The row's «twelve of night on p. 162»: vol. 2 p. 162 holds the mewa and trigram verses; the twelve times are vol. 1 p. 17 and vol. 2 p. 156.
+  - The Indian yāma as Sanskrit background: no published study found; the claim's fallback is unchecked.

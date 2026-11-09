@@ -1480,6 +1480,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
 | [questions/q0808.md](questions/q0808.md) | question q808 | Where does Klong rdol bla ma's own text on examining the omens of dreams, the source of KBS's verses, stand in his collected works? | open; cites kbs:p68-70 |
 | [questions/q0809.md](questions/q0809.md) | question q809 | What is the dream part of MDP (printed pp. 134–137), and who composed it: an old text or the collectors' own? | open; cites mdp:p134-138 |
+| [questions/q0810.md](questions/q0810.md) | question q810 | Which three watches does WB vol. 1 p. 17 mean by the night's name «ཐུན་གསུམ་ཀུ་མུད་བཞད་རྣམས», against four watches by night on p. 101 and vol. 2 p. 403? | open; cites wb.1:p17b, wb.1:p101, wb.2:p403 |
+| [questions/q0811.md](questions/q0811.md) | question q811 | Is «ཉིན་མཚན་ཐུན་བརྒྱད» one division of the day and night into eight watches, or the day's and night's lengths each divided by eight? | open; cites wb.2:p403, wb.1:p134-135 |
+| [questions/q0812.md](questions/q0812.md) | question q812 | Are the four watches of the night in WB vol. 1 p. 101 equal, and what is the unit of their planets' stretches (ཆུ་ཚོད 5, 4, 6, 3, 7, 4, 1)? | open; cites wb.1:p101 |
 
 <!-- end pool index -->
 

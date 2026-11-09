@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD215 (2026-11-09): WB vol. 1 pp. 17, 22, 101, 134–135, vol. 2 pp. 156, 403, 535–537 and SVO p. 268, SVI p. 261.
+
 Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–262 (image = printed page).
 
 ## <a id="svo-p268"></a>svo:p268 Title, the watches of the night and their spans, the first images (page 268 lines 4–7)
