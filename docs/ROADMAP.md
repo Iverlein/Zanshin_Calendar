@@ -126,6 +126,7 @@ moves up as soon as it is unblocked.
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 | <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
+| <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216) ([RD214](#rd214) beside) | — | Build block 73: S2, the dream reading in the Reckonings: the night and its watch (chips or a clock time), the images as a grouped, searchable multi-select with WB first, "The dreamer is ill" as a checkbox that brings the Four Tantras' readings into the rows, each image's verdict as a row and the watch's fruit date opening its day; no net verdict. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -364,6 +365,8 @@ check them on the scans.
 | <a id="rd212"></a>RD212 | Klong rdol bla ma's omen methods, the folk collection and the article on his dream method | KDL pp. 235–240; MDP, the dream part (etext IE0OPIE0503306); KBS pp. 66–80 (facts only) | — | [S1](#s1) | corpus/kdl/kdl.md, corpus/mdp/mdp.md, corpus/kbs/kbs.md | Read RD212: Klong rdol's methods whole on the scan, the dream texts of the folk collection in the etext with their sources named where the collection names them, the article for the facts it adds in our own words; a claim for each time rule found. |
 | <a id="rd213"></a>RD213 | Japan: the dream book beside the 大雑書 in the Ebara reprint, and the 初夢 in the old texts | EB9: the 大雑書 (its contents, any 夢合 section) and the 夢占吉凶秘伝書 (its order, its rules, any date); the 初夢 night in 『山家集』 and the Edo sources named by 日本大百科全書 *夢占* | the book, not online | [S3](#s3) | corpus/eb9/eb9.md | Read RD213: the two texts' tables of contents and every dream rule that names a date, a day of the cycle or a season, quoted in the original with the English beside it; the 初夢 night's history as claims with their sources. |
 | <a id="rd214"></a>RD214 | Scheuermann's study of the Svapnohana | SCH pp. 161–180, facts only; access past Brill's human check in the owner's browser, or a library copy | RD207; access | [S1](#s1) | corpus/sch/sch.md | Read RD214: what the chapter settles on the text's author, date, Sanskrit original and parallels, and on how Tibetan readers used it, in our own words; where it corrects RD207's reading, a claim of type conflict. |
+| <a id="rd215"></a>RD215 | The watches of the night (ཐུན, thun): how the Tibetan sources divide the night into four, and dawn, in clock terms | WB vol. 2, ch. 30, p. 162 (the twelve of night, read on the scan by RD17) and the notes, vol. 2, p. 535; vol. 1's divisions of the day where `locate.py` finds «ཐུན་བཞི», «མཚན་ཐུན», «ནམ་ཐུན», «སྲོད་ཐུན», «ཐོ་རངས»; Mipham's notes; SVO p. 268 for the text's own usage; the Indian yāma as the Sanskrit background, from the published studies only | — ; RD207 | [S2](#s2) | corpus/wb/ch30.md, corpus/svo/svo.md | Read RD215: find where WB, Mipham or the manuals divide the night into watches and name their bounds (sunset, midnight, cockcrow, dawn, or fixed double hours), each passage on the scan with the English beside it; a claim (claims/night-watches.md) giving the four watches' spans and dawn's place in clock terms, or stating that no Tibetan source fixes them and the Indian quarters of the night from sunset to sunrise are the fallback; name every text that uses a three-watch night instead. |
+| <a id="rd216"></a>RD216 | The dream images gathered into one catalogue: every image read with each text's verdict, WB first, the medical ones marked | The passages of RD59 (WB ch. 30, p. 144), RD207 (SVO, SVI), RD208 (LGD), RD209 (the manuals), RD211 (ST, the dreamer ill), RD212 (KDL, MDP); WB ch. 25's dreams of the sick (corpus/wb/ch25.md) | RD207, RD208, RD209, RD211; RD212, RD214 | [S2](#s2) | corpus/wb/ch30.md, corpus/svo/svo.md | Read RD216: from the read passages, one claim per dream image (claims/dream-*.md, indexed by claims/dream-catalogue.md) naming the texts that read it and each text's verdict with its passage id, WB's ch. 30 verdict first, the Four Tantras' rows marked as readings for a sick dreamer (and ST above WB ch. 25 where both read one), a bad dream's remedy per text once, and the images whose verdict rests on an unsettled word listed apart; a table at the end of the images by text, so the app's picker can be built from it without reading the corpus again. |
 
 ### Left open in built work
 
@@ -5137,6 +5140,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   Tibetan with the English beside it; each method's rule on *when* a
   dream counts (the watch of the night, dawn, the lunar day of the rite)
   as a claim; a table at the end of which text gives which time rule.
+  Then, for S2, [RD215](#rd215) settles the watches of the night in clock
+  terms and [RD216](#rd216) gathers every read image into one catalogue
+  with each text's verdict.
 - **What to settle.** Whether any manual names a date, weekday, mansion
   or month (none did in q784's searches); the variants of the
   watch-of-the-night spans; what a bad dream's remedy is in each
@@ -5145,18 +5151,91 @@ groups it shows (`tools/emulator/store_shots.py`).
 - **Check.** Every topic file holds its reading; `kb.py check` and
   `SourcesTest` clean; the readings marked done in the table.
 
-#### <a id="s2"></a>S2 A dream reading in the app — undecided
+#### <a id="s2"></a>S2 A dream reading in the app — planned 2026-11-09
 
 - **Gap.** The app shows WB's dream omens as observed signs of the
-  moment's reckoning (SPEC §5.9.5) and nothing else on dreams.
-- **Options**, for the owner after S1: a rule by the hour of the night
-  on the day page, from the Svapnohana (the watch the dream came in and
-  the span within which it bears fruit, the hours as WB divides the
-  night, SPEC §5.8); or a glossary of dream images with their verdicts,
-  by text, off the day; or nothing, dreams staying with the reckoning
-  where WB puts them. No text ties a dream to the day, so no row of the
-  day page follows from the sources as they stand. Not built; the store
-  listing names nothing of it.
+  moment's reckoning (SPEC §5.9.5) and nothing else on dreams. No text
+  ties a dream to the day (q784), so the reading is not an election,
+  which searches days for a work, and no row of the day page follows
+  from the sources: it is a reckoning with inputs, like the illness
+  reckoning (H2), whose input is what was dreamt and when, and whose
+  output is each image's verdict. Free text is not an option: the app
+  is offline and has no language model, and the catalogue is finite.
+- **Design** (the owner, 2026-11-09, after the sources of q784):
+  - **The screen.** "Read a dream" in the Reckonings list (§10.11) and
+    a link from the moment screen's "Dreams before the reckoning"
+    sheet; a full screen with a back arrow, Tibetan page only (Japan
+    has no dream reading, only the dated 初夢 of S3).
+  - **When.** The night: by default the night before the shown day,
+    since the Tibetan day turns at 05:00 and last night belongs to
+    today (SPEC §3). The watch of the night (ཐུན, thun), the one time
+    rule any source gives (the Svapnohana, SVO): a chip row, first,
+    second, third, fourth and dawn (སྐྱ་རེངས, skya rengs); or a clock
+    time typed as the illness reckoning takes one, mapped onto the
+    watches by [RD215](#rd215)'s spans (its fallback: the night from
+    sunset to sunrise in four equal parts, `SunTimes`, dawn the last
+    part's end). The watch gives the span within which the dream bears
+    fruit (a year, eight months, three months, half a month, ten days)
+    and the app turns it into a date: "dreamt in the third watch: bears
+    fruit within three months, by 9 Feb 2027", the date opening its
+    day.
+  - **The dreamer is ill.** A checkbox among the inputs, not a section
+    (the owner, 2026-11-09): when set, the Four Tantras' dream readings
+    (ST, RD211) join the images' rows in their place in the catalogue,
+    each saying what the dream marks for a sick person ("marks an
+    illness sent by the nāgas", "a distant and uncertain sign of
+    death, turned back by merit, recitation and the yidam") with its
+    remedy; unset, the medical images are not offered. The Four
+    Tantras stand above WB on medicine (SPEC §8.1), so where WB ch. 25
+    and ST both read a sick person's dream, ST's row is the one shown.
+  - **What.** The dream images as a grouped, searchable multi-select,
+    the election's work picker generalised (§10.8): groups by source
+    text in rank order, WB's good and bad dreams (ch. 30, the
+    `MomentSign.DREAM` rows reused, never copied), the Svapnohana's
+    catalogue, the Lama Gongdü's signs and the short manuals as S1
+    reads them, the Four Tantras' when the dreamer is ill; each image a
+    toggle, several per dream the normal case; a search over the
+    images' names in the app's language. An image two texts both read
+    is one entry, with each text's verdict as a row, WB first
+    ([RD216](#rd216)'s catalogue).
+  - **The reading.** The watch's line first; then one row per chosen
+    image, its verdict and tone dot, under its text's heading, in the
+    shape of SPEC §8.1 (English and Russian, `CatalogTest`); one Remedy
+    row for a bad dream (WB: incense smoke and washing, then striving
+    for good omens again; SVO: a fire offering of red sandalwood and
+    reading the text in the morning), each once. **No net verdict**: no
+    source sums images, so the screen never calls the dream good or bad
+    as a whole; each image speaks for itself (the rule of the brief,
+    which never shows outweighed factors, applied the other way: nothing
+    is weighed).
+  - **Core.** `DreamReading` in `core/tibetan/Dream.kt`: the watch from
+    a clock time and the night's sun times, the fruit date from the
+    watch, the catalogue as a family per text (`DreamImage` entries
+    keyed by text and image, verdict tone, medical flag) with their
+    catalog entries; the CLI prints a dream read for a date, a watch and
+    a list of images.
+- **Stated choices**, for the owner to overrule: equal quarters of the
+  night from sunset to sunrise until RD215 gives WB's own spans; the
+  fruit date counted in civil months and days from the morning after the
+  dream; an image whose verdict rests on an unsettled word is not offered
+  (as the moment's signs, §5.9.5); the deity rites' asked-for dreams
+  (TDR, SRM, GNC, RD210) are not an input until their texts are read and
+  the owner wants them, then as a "Dreamt after a rite" chip.
+- **Block.** [73](#block-73); reads [RD207](#rd207)–[RD212](#rd212),
+  [RD215](#rd215), [RD216](#rd216) ([RD214](#rd214) beside, access
+  permitting); waits on no block (the moment screen and the work picker
+  are built).
+- **Done when.** `DreamTest`: the watches of a night in Lhasa in
+  summer and winter from `SunTimes`, a clock time at the night's
+  quarters and at dawn, the five fruit dates; a catalogue entry per read
+  image; `CatalogTest` with no allowance; `:app:testDebugUnitTest`
+  (`ReckoningsTest` with the new entry); `kb.py check`; on the emulator
+  in English and Russian: the picker, the search, a dream of three
+  images in the second watch, the same with "The dreamer is ill" set,
+  the fruit date opening its day; the release-build check (new enums);
+  SPEC §5.9.11 (new), §10.11 and §8.2, this item, the README, both
+  listings, a screenshot of the reading, the website and the GitHub
+  description (*Docs on every feature merge*).
 
 #### <a id="s3"></a>S3 The first dream of the year on the 旧暦 page — planned 2026-11-09
 
