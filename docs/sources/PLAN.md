@@ -1788,3 +1788,6 @@ Searched and found wanting, so not to be repeated:
 - **RD268, 2026-11-09** (RD268, 2026-11-09):
   - Drathang img. 42 and 43 by eye at up to 10×: the vowel over ལ in «ལན་པ»/«ལེན་པ», the prefix of «བྲོ་པའི»/«བྲོ་བའི», the vowel of «འདེད»/«འདོད» (line 11), the pair «རྟ་ཕག» and «རྔ་མོ» (line 3), and the prefix of «ཕན་»/«འཕན་» at the end of a printed line (img. 42 → 43, line 26) not settled (35 px a syllable).
   - The Serthang page of the verse is still missing; the Drathang interlinear notes on img. 42–43 (small red or black glosses) and the Drathang colophon of ch. 7 not read; img. 44 and 45 by Yigdzin-1 only.
+- **RD267, 2026-11-09** (RD267, 2026-11-09):
+  - BDRC full-text search for the two lines and their variants: 8 hits for the first, 13 for the second, 1 for «ཐོ་རེངས» (the Gso bya lus kyi rnam bshad, restricted); the Serthang etext has none of the lines or the verses around them; the etexts of the Gso bya lus kyi rnam bshad (MW8LS18598), I4795 and I1KG10372, I1KG21894, I4PD4564, I2PD16002, I8LS18618, I4721 answer 403 or empty, only snippets seen.
+  - The 'Bum nag gsal sgron is not registered as a source; cited by its BDRC etext id.

@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD267 (2026-11-09): The lines of ch. 7 in BDRC etexts, the Serthang scan I3CN5038 img. 40–46 (foot numbers), the Drathang GT img. 42.
+
 Read by RD268 (2026-11-09): the dream verses of ch. 7 whole on the Drathang print (I4CZ327131 img. 42–43, `gt:i42-43`; Yigdzin-1 over img. 38–48, MITRA over img. 42 and 43, the verse by eye at 3.4–10×), compared with the four commentaries' quotations; the Serthang page is still missing, so `st:p34` here holds the closing lines only and the verse is in corpus/gt.
 
 Read by RD264 (2026-11-09): The Bhutan print (I1KG13565 img. 267, 418), the 2005 Man ngag lhan thabs leaf 362 (archive.org lending copy bdrc-W1PD4, borrowed one hour and returned), the Serthang scan I3CN5038 and the Drathang I4CZ327131 img. 42.

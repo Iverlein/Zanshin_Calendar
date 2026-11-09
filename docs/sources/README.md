@@ -1682,6 +1682,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0858.md](questions/q0858.md) | question q858 | Which animal is the rnga mo of line 3 (Byang pa and Rin spungs pa རྔ་མོང, Khro ru ཇ་མོ, glossed jo mo, the female dzo)? | open; cites gt:i42-43 |
 | [questions/q0859.md](questions/q0859.md) | question q859 | What is meant by the «rme can» (རྨེ་ཅན; Byang pa and the Drikung རྗེ་ཅན) that rings the dreamer with crows and hungry ghosts? | open; cites gt:i42-43 |
 | [questions/q0860.md](questions/q0860.md) | question q860 | Byang pa's line has the dead drinking water (ཆུ) and dancing with fiends (སྲིན་པོ) where the Drathang has beer (ཆང) and the dead (གཤིན་པོ): his print or his own change? | open; cites gt:i42-43 |
+| [questions/q0861.md](questions/q0861.md) | question q861 | Is there another scan of the Serthang print, or another print whose leaf can be opened, on which the two lines of the dream by night can be read by eye? | open; cites gt:i42 |
+| [questions/q0862.md](questions/q0862.md) | question q862 | The Yu thog, Grwa thang and Peking etexts read «བརྗེད་ངས» in the first line and other etexts «བརྗེད་ངེས»: which does the Serthang print have on p. 31 or 32? | open; cites gt:i42 |
+| [questions/q0863.md](questions/q0863.md) | question q863 | Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part from midnight to dawn named anywhere in the Four Tantras' tradition? | open; cites gt:i42 |
 
 <!-- end pool index -->
 
