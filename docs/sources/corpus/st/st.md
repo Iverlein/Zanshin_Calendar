@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD270 (2026-11-09): Chag-po-ri scans I3CN1711 img. 40, I3CN1696 img. 44, I3CN1702 img. 36 and the Bhutan scan I1KG13565 img. 37–53.
+
 Read by RD271 (2026-11-09): Steinert's public dictionaries, the Bod lugs gso rig tshig mdzod chen mo etext (I00EGS1017132), BDRC searches.
 
 Read by RD267 (2026-11-09): The lines of ch. 7 in BDRC etexts, the Serthang scan I3CN5038 img. 40–46 (foot numbers), the Drathang GT img. 42.

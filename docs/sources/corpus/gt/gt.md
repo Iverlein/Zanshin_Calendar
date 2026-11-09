@@ -10,6 +10,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD270 (2026-11-09): Chag-po-ri scans I3CN1711 img. 40, I3CN1696 img. 44, I3CN1702 img. 36 and the Bhutan scan I1KG13565 img. 37–53.
+
 Read by RD271 (2026-11-09): ch. 7's unexplained words (བྲོ་པའི་ཁྲལ, བག་མ་ལན་པ, རྔ་མོ, རྨེ་ཅན) against the dictionaries and BDRC's etexts, no scan: claims gt-bro-ba-khral-ded-a-levy, gt-bag-ma-lan-pa-is-bag-ma-len-pa, gt-rnga-mo-is-the-camel, gt-rme-can-a-man-with-a-black-birthmark, gt-water-or-beer-fiends-or-the-dead.
 
 Read by RD270 (2026-11-09): the verse's five unsettled places on three other open prints, the Chag-po-ri prints of the Lokesh Chandra Collection (BDRC MW3CN1709 scans I3CN1711 img. 40, MW3CN1694 scans I3CN1696 img. 44, MW3CN1700 scans I3CN1702 img. 36), Yigdzin-1 to locate and by eye at 5–12× contrast-stretched; what they give is in the claim `gt-dream-verse-chag-po-ri-prints`, and the Drathang passage below is unchanged.
