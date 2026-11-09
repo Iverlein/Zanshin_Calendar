@@ -497,7 +497,7 @@ svo:
   licence: public-domain
   rank: 3
   role: source
-  notes: "read whole in the etext on 2026-11-09 (q784): the one time rule found, by the watch of the night (a year, eight months, three months, half a month, ten days at dawn), a catalogue of dream images, a remedy; not yet read on the scan; etext page = the reprint's page; the modern study is sch"
+  notes: "read whole in the etext on 2026-11-09 (q784) and split by page in RD207 (svo:p268–271; image = printed page, I1344 img. 268–271; p. 268 lines 1–3 are the preceding work's colophon): the one time rule found, by the watch of the night (a year, eight months, three months, half a month, ten days at dawn), a catalogue of dream images, a remedy; pp. 270–271 etext against Yigdzin-1 (99.7 %), pp. 268–269 etext only, the layout of every page seen on the scan, the syllables not read one by one (1990-pixel strips); etext page = the reprint's page; the modern study is sch"
 
 svi:
   title: "Rmi lam brtag pa (Svapna-īkṣā, the examination of dreams), in the Mañjuśrī cycle"
@@ -507,7 +507,7 @@ svi:
   licence: public-domain
   rank: 3
   role: source
-  notes: "located 2026-11-09 (q784), not read"
+  notes: "located 2026-11-09 (q784); read in RD207 as svi:p261–262 (image = printed page, I1365 img. 261–262), etext with the layout seen on the scan, syllables not read one by one"
 
 lgd:
   title: "Bla ma dgongs pa 'dus pa las rmi lam bzang ngan brda rtags kyi rim pa (the stages of the signs of good and bad dreams, from the Lama Gongdü)"
@@ -564,7 +564,7 @@ rbg:
   licence: "the text public-domain; the modern edition's own matter copyrighted: facts only"
   rank: 3
   role: source
-  notes: "located 2026-11-09 (q784), not read"
+  notes: "located 2026-11-09 (q784); read in RD207 as svi:p261–262 (image = printed page, I1365 img. 261–262), etext with the layout seen on the scan, syllables not read one by one"
 
 skp:
   title: "Rmi lam brtag thabs dpal sa skya paN+Di tas mdzad pa (a method of examining dreams, composed by Sakya Paṇḍita)"

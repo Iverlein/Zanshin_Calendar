@@ -457,6 +457,17 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493; feeds S1 |
 | [claims/st-dream-unripe-fever.md](claims/st-dream-unripe-fever.md) | claim, rule | The dream among the signs of the unripe fever (ch. 15) | cites st:p183; feeds S1 |
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218; feeds S1 |
+| [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
+| [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
+| [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
+| [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
+| [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
+| [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
+| [claims/svo-images-unfortunate.md](claims/svo-images-unfortunate.md) | claim, list | The Svapnohana's unfortunate images and their verdicts | cites svo:p269, svo:p270, svo:p271; feeds block-73 |
+| [claims/svo-remedy.md](claims/svo-remedy.md) | claim, remedy | The Svapnohana's remedy for bad dreams | cites svo:p271; feeds block-73 |
+| [claims/svo-time-ties-other-than-the-watch.md](claims/svo-time-ties-other-than-the-watch.md) | claim, note | The Svapnohana's ties of a dream to a time other than the watch | cites svo:p268, svo:p269, svo:p270, svo:p271, svi:p261; feeds block-73 |
+| [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
+| [claims/svo-women-by-colour.md](claims/svo-women-by-colour.md) | claim, table | The Svapnohana: the embraced woman by the colour of her clothes, and white and black things | cites svo:p270; feeds block-73 |
 | [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-shakyamuni-frame.md](claims/tdr-shakyamuni-frame.md) | claim, rule | The Śākyamuni rite printed before White Tārā: the posture, the repetition and the grades of answer | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
@@ -826,8 +837,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 8 passages: 8 scan |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 1 passages: 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 1 passages: 1 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 2 passages: 2 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 4 passages: 2 machine, 2 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
