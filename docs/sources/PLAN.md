@@ -1719,3 +1719,5 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 315 is only 1405 px high, so the row-ink profile gives no line positions; line 2 sits at y about 400–520, and the first line centres tried (y = 324, 435, 549, 654, 768, 876, 990, 1104) cut off the lower line: find the lines from a 1/3-size overview.
 - **RD243, 2026-11-09** (RD243, 2026-11-09):
   - Peking img. 315 lines 3–8 and the rest of line 1 (x 3350–4900) not reached at 2× in the 14 minutes.
+- **RD244, 2026-11-09** (RD244, 2026-11-09):
+  - Peking img. 316 lines 3–8 not read at 2×; bands y 684–909, 906–1131, 1128–1353 on the 5358×1421 scan, line pitch 111 px, lines 1–2 at y about 300 and 411.
