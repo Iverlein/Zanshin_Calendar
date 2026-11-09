@@ -1617,3 +1617,6 @@ Searched and found wanting, so not to be repeated:
   - Mipham's notes (vol. 2 pp. 474–541): no watch of the night, no clock bound.
   - The row's «twelve of night on p. 162»: vol. 2 p. 162 holds the mewa and trigram verses; the twelve times are vol. 1 p. 17 and vol. 2 p. 156.
   - The Indian yāma as Sanskrit background: no published study found; the claim's fallback is unchecked.
+- **RD217, 2026-11-09** (RD217, 2026-11-09):
+  - No MITRA slot came within ten minutes (rd218 and rd220 held the card).
+  - The cursive TDR and SRM scans (2173×460 and 4320×896) were not legible enough to check by eye; `scans.py line` fails on these landscape pages (IndexError), crops with explicit coordinates work.
