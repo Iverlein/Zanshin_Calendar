@@ -14,7 +14,7 @@ Offered to any dreamer.
 
 | Text | Verdict (tone) | Passage | State |
 | --- | --- | --- | --- |
-| WB ch. 30 | riding upward on a mount adorned with a good saddle: a good omen (lion, elephant, buffalo; the fourth beast, read horse, is not settled) (good) | `wb.2:p144` | scan |
+| WB ch. 30 | riding upward on a mount adorned with a good saddle: a good omen (lion, elephant, buffalo; the fourth beast reads horse on the Zhol and Taikhang prints, RD260) (good) | `wb.2:p144` | scan |
 | Lama Gongdü (LGD) | going upward (good) | `lgd:p967` | scan |
 | Svapnohana (SVO) | riding an ox or an elephant: goods are always gained (good) | `svo:p268-271` | etext |
 | Svapna-īkṣā (SVI) | Ratnasambhava's family sign: riding a horse and going to the continent of jewels (a sign only) | `svi:p261-262` | etext |
@@ -22,4 +22,4 @@ Offered to any dreamer.
 | ACIP method (RST) | riding a lion, tiger or dragon upward among the good images (good) | `rst:p1-8` | etext |
 | Klong rdol's verses as the article quotes them (KBS) | riding a lion, tiger, garuda or dragon upward: a high place is gained (good) | `kbs:p72-78` | machine |
 
-WB's fourth animal is read «རྟ» (horse) on an ink-filled stack and left unsettled; the verdict of the line does not rest on it.
+WB's fourth animal is «རྟ» (horse): on the Gser thang reprint the glyph is ink-filled (RD230), but on the Taikhang print (vol. 2 img. 222, printed folio 212) it is a crisp ra-over-ta after «མ་ཧེ», and on the Zhol print (WBZ img. 840) the same word is legible; the three prints agree on the line (RD260).
