@@ -311,6 +311,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
+| [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558; feeds S1 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
 | [claims/hatsuyume-night-history.md](claims/hatsuyume-night-history.md) | claim, rule | The night of the first dream: from 節分 to 2 January | cites nip:p1, skf:p1; feeds S3 |
@@ -445,6 +446,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/spo-is-uttaraphalguni.md](claims/spo-is-uttaraphalguni.md) | claim, note | «སྤོ» is a name of U. Phalgunī; «ལག་སོར» is lha mtshams | cites wb.2:p65-66, wb.2:p122, wbz:i720, wbz:i805; feeds block-31 |
 | [claims/spor-thang-name.md](claims/spor-thang-name.md) | claim, note | The Spor thang is the Chinese reckoning's tradition that WB, Mipham and KD's charts all name | cites kd.3:p718, kd.3:p726c; feeds block-58 |
+| [claims/srm-dawn-dream-not-alone.md](claims/srm-dawn-dream-not-alone.md) | claim, rule | Śramaṇā rite: the dawn dream alone does not count; the answer is graded by its manner | cites srm.6:p386-389; feeds S1 |
+| [claims/srm-reading-the-answer.md](claims/srm-reading-the-answer.md) | claim, rule | Śramaṇā rite: how the answer is read, changed and repeated | cites srm.6:p386-389; feeds S1 |
+| [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
+| [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
 | [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34; feeds S1 |
 | [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351; feeds S1 |
 | [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21; feeds S1 |
@@ -452,6 +457,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493; feeds S1 |
 | [claims/st-dream-unripe-fever.md](claims/st-dream-unripe-fever.md) | claim, rule | The dream among the signs of the unripe fever (ch. 15) | cites st:p183; feeds S1 |
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218; feeds S1 |
+| [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
+| [claims/tdr-shakyamuni-frame.md](claims/tdr-shakyamuni-frame.md) | claim, rule | The Śākyamuni rite printed before White Tārā: the posture, the repetition and the grades of answer | cites tdr:p343-344; feeds S1 |
+| [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -782,7 +790,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 0 passages: nothing read yet |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 1 passages: 1 etext |
-| [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 0 passages: nothing read yet |
+| [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 1 passages: 1 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 0 passages: nothing read yet |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 0 passages: nothing read yet |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
@@ -816,12 +824,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 1 passages: 1 etext |
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 0 passages: nothing read yet |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
-| [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 0 passages: nothing read yet |
+| [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 8 passages: 8 scan |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 1 passages: 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 1 passages: 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
-| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 0 passages: nothing read yet |
+| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |

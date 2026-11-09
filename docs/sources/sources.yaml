@@ -608,31 +608,41 @@ kbs:
 tdr:
   title: "Sgrol ma dkar mo'i sgo nas rmi lam brtag pa (the examination of dreams through White Tārā)"
   edition: "'Brong rtse'i be'u bum dkar po, Damchoe Sangpo, [Delhi] 1983, reproduced from a manuscript in the Library of Tibetan Works and Archives, pp. 343–344"
-  bdrc: {work: MW25101_78B598, scans: [W25101]}
+  bdrc: {work: MW25101_78B598, scans: [I3856]}
   licence: public-domain
   rank: 3
   role: source
-  notes: "located 2026-11-09 (q784), not read"
+  notes: "located 2026-11-09 (q784); one volume, I3856: image = printed page + 4 (p. 343 = img. 347); BDRC's contentLocation pp. 347–348 counts images; the manuscript hand; the pages begin with the end of a Śākyamuni dream rite and the title of this text stands two thirds down p. 343; read by machine 2026-11-09 (RD210)"
 
 srm:
   title: "Lha mo shra ma Na'i sgo nas rmi lam brtag pa (the examination of dreams through the goddess Śramaṇā)"
   author: "Dge 'dun grub pa (the First Dalai Lama, 1391–1474)"
   edition: "Gsung 'bum, Dodrup Lama Sangye, Gangtok 1978–1981, 6 vols, from the 'Bras spungs Dga' ldan pho brang blocks of about 1894; vol. 6, ff. 51v–53r (pp. 386–389)"
-  bdrc: {work: MW759_306C1B, etext: IE0OPIAB2E5954, scans: [W759]}
+  bdrc: {work: MW759_306C1B, etext: IE0OPIAB2E5954, scans: [I3JW3517]}
   licence: public-domain
   rank: 3
   role: source
-  notes: "another print MW24769_B767AF (vol. 6, ff. 39r–41r); located 2026-11-09 (q784), not read"
+  volumes:
+    6:
+      scan: I3JW3517
+      image_offset: 6
+      pages: [386, 389]
+  notes: "another print MW24769_B767AF (vol. 6, ff. 39r–41r); located 2026-11-09 (q784); BDRC's contentLocation pp. 392–395 counts images (printed 386–389 = img. 392–395); the etext of these pages is too garbled to build on, the scan is read (machine, RD210 2026-11-09)"
 
 gnc:
   title: "Gnam chos: Thugs rje chen po'i rmi lam brtag pa and Mtsho rgyal rmi lam brtag pa (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal)"
   author: "the treasure of Gnam chos Mi 'gyur rdo rje (1645–1667)"
   edition: "Gnam chos, Dilgo Khyentse Rinpoche, Paro 1983, 13 vols, from the Rmug sangs blocks; vol. 1, ff. 61r–61v (pp. 557–558) and the Mtsho rgyal text (MW21578_A09994)"
-  bdrc: {work: MW21578_87C398, scans: [W21578]}
+  bdrc: {work: MW21578_87C398, scans: [I1662]}
   licence: public-domain
   rank: 3
   role: source
-  notes: "a dbu med manuscript of the Gnam chos with both, MW1ER167; located 2026-11-09 (q784), not read"
+  volumes:
+    1:
+      scan: I1662
+      image_offset: 8
+      pages: [557, 561]
+  notes: "the Great Compassionate One's text begins at the foot of p. 557 (img. 565, after a horse spell) and its heading stands on p. 558 (img. 566); the Mtsho rgyal text MW21578_A09994 is ff. 61v–63v, pp. 558–561 (img. 566–569); a dbu med manuscript of the Gnam chos with both, MW1ER167; located 2026-11-09 (q784), not read"
 
 sch:
   title: "Vibhūticandra's Svapnohana and the Examination of Dreams"
