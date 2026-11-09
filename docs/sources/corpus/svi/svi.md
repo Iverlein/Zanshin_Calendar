@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD236 (2026-11-09): SVI in the Narthang manuscript (W2KG5015 vol. 46, I2KG212330 img. 289–291) by eye, W22704 (I3297 img. 291–293) as a copy of it, and the Dpe bsdur ma notes (W1PD95844 vol. 25 etext pp. 415–418).
+
 Read by RD234 (2026-11-09): SVI on the Peking print (W1KG13126 vol. 46, I1KG13215 img. 309–312).
 
 Read by RD207 (2026-11-09): SVO I1344 img. 268–271 and SVI I1365 img. 261–262 (image = printed page).
@@ -48,6 +50,34 @@ Continuing the "of the mind" signs: fine clothes worn and tree-fruit eaten; the 
 Remedy: for a fortunate dream, begin the practice, according to the rite told for the Jewel Seal (རིན་ཆེན་ཕྱག་རྒྱ); for a bad sign, a sesame fire offering (ཏིལ་གྱི་སྦྱིན་སྲེག, til gyi sbyin sreg), purified a thousand times in that family. Then: habitual traces (བག་ཆགས, bag chags), the hungry ghosts, what pleases the mind: all things of saṃsāra are like a dream, the yogin should see them so, for the delusion is not real. "From realising the good, wisdom is born; what is made by the mind has no birth. So, in secret mantra, take the means that depend on dependent arising as the chief." The dreams of generating the mind of awakening and of empowerment are "gathered from Nāgārjuna's text"; "may the clear stages of good and bad lead to seeing the face of Mañjuśrī-jñānasattva." End of the examination of dreams by the Indian abbot Dpal ldan Gnyis su med pa (Advayavajra); made as his own translation by the yogin, almsman Prajñāśrījñānakīrti.
 
 Notes. The text names no time of night but the three parts of page 261, and no day, month or year. The syllables are the etext's, not read one by one on the scan.
+
+## <a id="svi-p289-291"></a>svi:p289-291 The examination of dreams in the Narthang manuscript (vol. 46, img. 289-291)
+
+*Read: scan, 2026-11-09.*
+
+> Narthang (I2KG212330 img. 289 lines 4–6, 290), the places read by eye on enlargements:
+> 
+> ༄༅། །རྒྱ་གར་སྐད་དུ། སྭ་པ་ནེ་ཀྵ། བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ། (title as Yigdzin-1 reads it; the Sanskrit's last letters not told apart by eye)
+> ཛ་ཏ་པ་ཡི་ཕྲེང་བ་བཅིང་། (the third syllable པ, moderate)
+> ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ། (the syllable after «རྨི་ལམ» begins བཏ, the line breaks after it)
+> བྱ་ཤ…ཏེ། (end of a line, three syllables, the middle one a ཤ with a lower sign not told apart; the next line begins «ཕོ་ཉར་གཏོང»)
+> ཆུལ་མི་ནུབ་རྐྱལ་བ་དང་། («ཆུ་ལ» written as one stack with ལ; «རྐྱལ» with ya-btags, moderate)
+> སྦྲུལ་དང་སྡིག་པ་ཟ་བ་དང་། (first syllable a tall stack with ba and ra below, moderate)
+
+Narthang (W2KG5015 vol. 46 pp. 289-291, a hand-written manuscript preserved at Tibet House, New Delhi, in BDRC's digital replica; I2KG212330 img. 289-291, 3000 x 889 px strips, letters about 30 px). The work begins in line 5 of img. 289, after the colophon of Advayavajra's ten kinds of conduct (line 4), and ends on img. 291 with the translator's colophon. Title: the Sanskrit as «སྭ་པ་ནེ་ཀྵ», as in the Peking print; the examination of dreams (རྨི་ལམ་བརྟག་པ, rmi lam brtag pa). The jātaka garland (ཛ་ཏ་པ, as the Peking print); "in the last part one lies down" with «བཏབ» where Derge has «བརྟགས»; the Amoghasiddhi line «བྱ་ཤ…ཏེ» ends the line and «ཕོ་ཉར་གཏོང» (sent as messenger) opens the next; swimming «རྐྱལ»; the snake «སྦྲུལ».
+
+### The second Narthang image group and the Dpe bsdur ma notes (RD236)
+
+W22704 (vol. 46 pp. 291–293, I3297 img. 291–293, 2125 x 470 px, one-bit): the same pages as the Narthang manuscript, line for line (the same page label «288» at the right margin, the same break after «བཏབ་», the same colophon lines); it reads as a thresholded copy of the same images, not as a second print. At its Amoghasiddhi line the bitmap is too broken to tell the letters apart by eye (img. 292, a 5× crop). Yigdzin-1 reads the two groups to 99–99.5 % alike; where they differ it is machine noise (W22704: «བྱ་ཤར་ཏེའུ», «ཆུ་ལ་མི་ནུབ»; Narthang: «བྱ་ཤད་ཏེ», «ཕུལ་མི་ནུབ»), none settled by eye on W22704.
+
+Dpe bsdur ma (W1PD95844 vol. 25, etext VEIE0OPIA3E40644_I1PD95870, pp. 415–418; the Derge text collated with Peking «པེ», Narthang «སྣར», Co ne «ཅོ»; the scans are restricted, the etext is OCR). pp. 415–417 give the text as the Derge etext has it, including «བརྟགས་“ལ་ཉལ», «བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང», «རྐྱལ», «སྦྲུལ», «ཛཱ་ཏ་ཀ་༤ཡི» (note 4). p. 418 holds the notes, their markers lost in the OCR; the entries that name a reading, in the OCR's order: «པེ» «སྣར» ནེ (the title's Sanskrit, with Peking and Narthang agreeing); «པེ» «སྣར» རྩ་ལ་རྔས; «པེ» «སྣར» ཛ་ཏ་པ (for «ཛཱ་ཏ་ཀ»); «པེ» «སྣར» བྱུག; «པེ» «སྣར» དབཏབ; «པེ» «སྣར» པདྨ་འཐུ; «པེ» «སྣར» སྙི (for «རྨ་བྱ་རྙི་ཡིས»); «པེ» «སྣར» དམ་ཆོས་འཆད་པའོ (for «པདྨ་ཆོས་འཆང་བའོ»); «པེ» ཤིང་ཏེའུ, «སྣར» ཤང་ཏེའུ (the Amoghasiddhi line: Peking «ཤིང་ཏེའུ», Narthang «ཤང་ཏེའུ»); «པེ» «སྣར» ཉིན (for «ཉི»); «པེ» «སྣར» ཟེར (for «ཆུ་སེར»); «པེ» «སྣར» བརྫི (for «རྫི»); ... འཐུང; ཅོང (for «གཅོང»); ལྕེ (for «ཅེ»); དུང; རིམ; བཟུང (for «གཟུང»); «སྣར» པ; «སྣར» ཤི. The notes have no entry for «རྐྱལ», «སྦྲུལ» or «བརྟགས་ལ»; the OCR line of the note that would be about «བརྟགས» is «དབཏབ», which agrees with what the Narthang manuscript shows by eye («བཏབ»), but names Peking too, where the Peking print shows «བརྟགས་པ་ལ» by eye (RD234).
+
+Notes. By eye on the Narthang manuscript: «བཏབ་ལ་ཉལ» (Derge «བརྟགས་ལ་ཉལ»; Yigdzin-1 reads «བཏབ་ལ» on the Peking print too), «ཛ་ཏ་པ» (as Peking, against the etext's «ཛཱ་ཏ་ཀ»), «རྐྱལ» (as Peking and the etext), «སྦྲུལ» (as the etext, against Peking's «སྤྲུལ»); the Amoghasiddhi line is «བྱ་ཤ…ཏེ» with the middle syllable's lower sign not told apart (ད, ང or ར): the Dpe bsdur ma note's «ཤང་ཏེའུ» for Narthang and «ཤིང་ཏེའུ» for Peking would fit three syllables ending «ཏེ» at the line's edge, with «འུ» lost at the frame, but the eye does not confirm it.
+
+### Searched and not found (RD236)
+
+- The Narthang manuscript's «བྱ་ཤ…ཏེ»: the middle syllable's lower sign (ད, ང or ར) and whether «འུ» follows «ཏེ» at the frame, not settled at 3–5× on I2KG212330 img. 290 (the second W22704 copy is too coarse to help).
+- Dpe bsdur ma scans (vol. 25, I1PD95870) not read: restricted (PLAN.md, RD228); the notes' markers lost, each entry assigned to its word by its content only.
 
 ## <a id="svi-p309-312"></a>svi:p309-312 The examination of dreams in the Peking print (vol. 46, img. 309–312)
 

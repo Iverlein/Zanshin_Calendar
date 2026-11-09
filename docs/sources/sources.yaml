@@ -507,6 +507,11 @@ svi:
   licence: public-domain
   rank: 3
   role: source
+  prints:
+    peking: {work: MW1KG13126_2951, scans: [I1KG13215], images: [309, 312], read: svi:p309-312}
+    narthang: {work: MW2KG5015_1746, scans: [I2KG212330], images: [289, 291], read: svi:p289-291}
+    narthang_copy: {work: MW22704_1746, scans: [I3297], images: [291, 293], note: "the same pages as a one-bit copy"}
+    dpe_bsdur_ma: {work: MW1PD95844, etext: VEIE0OPIA3E40644_I1PD95870, pages: [415, 418], note: "scans I1PD95870 restricted; variant notes on p. 418"}
   notes: "located 2026-11-09 (q784); read in RD207 as svi:p261–262 (image = printed page, I1365 img. 261–262), etext with the layout seen on the scan, syllables not read one by one"
 
 lgd:

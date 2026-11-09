@@ -588,6 +588,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218, st:p222-223; feeds S1 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
+| [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
 | [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
 | [claims/svi-peking-variants.md](claims/svi-peking-variants.md) | claim, note | The examination of dreams in the Peking print | cites svi:p309-312; feeds — |
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
