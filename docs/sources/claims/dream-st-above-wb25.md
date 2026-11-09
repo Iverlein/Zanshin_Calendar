@@ -2,7 +2,7 @@
 kind: claim
 type: rule
 terms: [rmi-lam]
-cites: ['st:p183', 'st:p218', 'st:p241', 'wb.1:p428-429', 'wb.1:p431-433']
+cites: ['st:p183', 'st:p218', 'st:p241', 'wb.1:p428b', 'wb.1:p431']
 feeds: [S2, RD216]
 open: []
 ---

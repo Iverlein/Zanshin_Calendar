@@ -2,7 +2,7 @@
 kind: claim
 type: list
 terms: [rmi-lam]
-cites: ['wb.1:p429-431']
+cites: ['wb.1:p430']
 feeds: [S2, RD216]
 open: []
 ---
@@ -13,4 +13,4 @@ Offered only when the dreamer is ill: every row is a reading for a sick dreamer 
 
 | Text | Verdict (tone) | Passage | State |
 | --- | --- | --- | --- |
-| WB ch. 25 (the sick) | in the dragon-year ransom, the shapes of whatever bad came in dreams are poured into a human skull with the washing waters and sent north-west by one of the horse year (a remedy, not a verdict) (mixed or turning) | `wb.1:p429-431` | machine |
+| WB ch. 25 (the sick) | in the dragon-year ransom, the shapes of whatever bad came in dreams are poured into a human skull with the washing waters and sent north-west by one of the horse year (a remedy, not a verdict) (mixed or turning) | `wb.1:p430` | scan |

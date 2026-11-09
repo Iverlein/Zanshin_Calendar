@@ -13,7 +13,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 
 **Order inside a claim.** WB ch. 30 first (rank 1, the app's `MomentSign.DREAM` rows are its thirteen groups, never copied); then the Four Tantras' rows (ST), marked as readings for a sick dreamer; then WB ch. 25's lines on the sick, under ST where both read one dream (claim dream-st-above-wb25); then the rank-3 texts, which no source outranks: LGD (scan), SVO, SVI, SKP, RST, KBS, RRT, the scan before the machine before the etext.
 
-**State of each passage** is carried into every row: scan (every quoted syllable read on the page image), machine (Yigdzin-1 only, the layout checked by eye), etext (the printed etext, not read on a scan). SVO's and SVI's passages are etext or machine; RD207's pp. 268–269 are etext only, p. 270–271 machine, and SVI is etext only. SKP's two texts, KCM and DTD are machine; RST and RRT are etext; KBS is an article quoting Klong rdol's verses (machine), his own text not located (RD221). WB ch. 30 p. 144 is scan; the Four Tantras' dream passages are scan; WB ch. 25 pp. 428–429 scan, pp. 429–433 machine; LGD is scan except its rite pp. 961–966 (machine).
+**State of each passage** is carried into every row: scan (every quoted syllable read on the page image), machine (Yigdzin-1 only, the layout checked by eye), etext (the printed etext, not read on a scan). SVO's and SVI's passages are etext or machine; RD207's pp. 268–269 are etext only, p. 270–271 machine, and SVI is etext only. SKP's two texts, KCM and DTD are machine; RST and RRT are etext; KBS is an article quoting Klong rdol's verses (machine), his own text not located (RD221). WB ch. 30 p. 144 is scan; the Four Tantras' dream passages are scan; WB ch. 25 pp. 428–429 scan, pp. 429–433 machine except the four dream lines (pp. 428, 430, 430–431, 431), read on the scan (RD230); LGD is scan except its rite pp. 961–966 (machine).
 
 **Cells of the table at the end:** the tone (G good, B bad, X mixed or turning, N a sign only) and the state (S scan, M machine, E etext), `?` where the verdict rests on an unsettled word. Texts that give an image more than one row show each.
 
@@ -150,7 +150,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 | [Sun and moon setting, hidden by cloud or eclipse; a red sun](dream-sun-moon-darkened.md) | B/S | B/S |  | B/S |  |  | B/M |  |  |  |
 | [Darkness spreading, thunder sounding, hail](dream-darkness-thunder-hail.md) | B/S | B/S |  | B/S |  |  |  | B/E | B/M |  |
 | [White snow, clear crystal, a polished mirror](dream-mirror-snow-crystal.md) | G/S |  |  |  |  | N/E |  |  |  |  |
-| [One's own mind clear and glad; the feeling on waking](dream-mind-clear-glad.md) | G/S |  |  |  |  |  |  | X/E | X/M |  |
+| [One's own mind clear and glad; the feeling on waking](dream-mind-clear-glad.md) | G/S |  |  |  |  |  |  | X/E | X/S |  |
 | [Adornment: people well adorned, fine or new clothes, ornamen](dream-adorned-fine-clothes.md) | G/S |  |  | G/S B/S |  | N/E | G/M | G/E | G/M |  |
 | [A flag planted on a castle, a banner raised, a fort built, g](dream-banner-fort-gods-worshipped.md) | G/S |  |  | G/S |  | N/E | G/M |  |  |  |
 | [Another's great banner raised on one's own house and ground](dream-banner-on-own-house.md) |  |  |  | X/S |  |  |  |  |  |  |
@@ -190,7 +190,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 | [A landslide, an earth fort falling; running downhill](dream-landslide.md) |  |  |  | B/S |  |  |  |  |  |  |
 | [The house fallen apart, its earth swept out, its roof fallin](dream-house-fallen.md) | B/S | B/S |  | B/S |  |  | B/M |  |  |  |
 | [A house, door or monastery burning; a seat, bed or mount bur](dream-house-burning.md) | B/S |  |  |  | G/M |  | B/M |  |  |  |
-| [Fire: a blaze with smoke, a forest or one's own body burnt, ](dream-fire-blaze.md) |  |  |  | X/S | B/M | N/E | B/M | B/E | B/M | X/E |
+| [Fire: a blaze with smoke, a forest or one's own body burnt, ](dream-fire-blaze.md) |  |  |  | X/S | B/S | N/E | B/M | B/E | B/M | X/E |
 | [Stūpas and images made; a temple or stūpa collapsing; climbi](dream-stupa-temple.md) |  |  |  |  |  | N/E | G/M B/M | B/E | B/M |  |
 | [The ground shaking greatly](dream-ground-shaking.md) |  |  |  |  | B/E |  |  |  |  |  |
 | [A pond made, a channel dug](dream-pond-channel.md) |  |  |  | G/S |  |  |  |  |  |  |
@@ -204,7 +204,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 | [Beasts, birds of prey, tigers, jackals, wolves, a monkey or ](dream-beasts-chasing.md) |  | B/S |  | B/S | B/E | B/E | B/M | B/E | B/M |  |
 | [Snakes, frogs and water creatures](dream-snake-frog-water-creature.md) |  | B/S |  |  | G/M? | N/E | B/M | N/E | N/M |  |
 | [A female vulture, a house-bird, a krauñca; a white cuckoo; a](dream-birds.md) |  |  |  |  | G/M | N/E? | G/M |  |  |  |
-| [Red clothes, red flowers, a red woman](dream-red-clothes-flowers.md) |  |  |  | X/S | B/M |  |  | B/E | B/M |  |
+| [Red clothes, red flowers, a red woman](dream-red-clothes-flowers.md) |  |  |  | X/S | B/S |  |  | B/E | B/M |  |
 | [Chased by a red whirlwind](dream-red-whirlwind.md) |  |  |  | B/S |  |  |  |  |  |  |
 | [The body entering a net](dream-net-entered.md) |  |  |  | B/S |  |  |  |  |  |  |
 | [Led by a throng of the dead; dancing with the dead; driven b](dream-the-dead.md) |  |  |  | B/S |  | B/E |  | B/E | B/M |  |
@@ -224,11 +224,11 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 | [Lightning on a man's heart](dream-lightning-on-heart.md) |  |  |  |  |  |  | B/M |  |  |  |
 | [Rivers and sea dry](dream-rivers-sea-dry.md) |  |  |  |  |  |  | B/M |  |  |  |
 | [Vomiting; goods carried off by thieves; goods or clothing ta](dream-vomiting-thieves.md) |  |  |  |  |  |  | B/M |  |  | X/E |
-| [Any dream as a distant, uncertain sign of death](dream-sick-any-dream-death-sign.md) |  | X/S | B/M |  |  |  |  |  |  |  |
-| [Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang)](dream-sick-confused-dreams.md) |  | B/S B/S B/S | B/S B/M |  |  |  |  |  |  |  |
+| [Any dream as a distant, uncertain sign of death](dream-sick-any-dream-death-sign.md) |  | X/S | B/S |  |  |  |  |  |  |  |
+| [Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang)](dream-sick-confused-dreams.md) |  | B/S B/S B/S | B/S B/S |  |  |  |  |  |  |  |
 | [The dreams that mark the harmful nāga spirits' illness (ch. ](dream-sick-naga-illness-dreams.md) |  | B/S? |  |  |  |  |  |  |  |  |
 | [Women leading the dreamer away](dream-sick-women-lead-away.md) |  | B/S? |  |  |  |  |  |  |  |  |
-| [The shapes of whatever bad came in dreams, poured into a sku](dream-sick-bad-dream-shapes-poured.md) |  |  | X/M |  |  |  |  |  |  |  |
+| [The shapes of whatever bad came in dreams, poured into a sku](dream-sick-bad-dream-shapes-poured.md) |  |  | X/S |  |  |  |  |  |  |  |
 | [A pregnant woman dreaming of a man](dream-pregnant-man-seen.md) |  | X/S? |  |  |  |  |  |  |  |  |
 
 Images read, by text: WB30 28, ST 12, WB25 3, LGD 49, SVO 35, SVI 30, SKP 34, RST 36, KBS 39, RRT 6, KCM 1. 85 images in all; 13 with an unsettled verdict; 13 with a sick-dreamer row.

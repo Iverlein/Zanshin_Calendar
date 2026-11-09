@@ -358,7 +358,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-prophecy-sign.md](claims/dream-prophecy-sign.md) | claim, list | The sign (བརྡ, brda): a clean girl, a boy with a top-knot, a well-dressed monk showing signs | cites lgd:p966-967, kcm:p679-682; feeds S2, RD216 |
 | [claims/dream-red-clothes-flowers.md](claims/dream-red-clothes-flowers.md) | claim, list | Red clothes, red flowers, a red woman | cites lgd:p969-970, svo:p270, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-red-whirlwind.md](claims/dream-red-whirlwind.md) | claim, list | Chased by a red whirlwind | cites lgd:p968-969; feeds S2, RD216 |
-| [claims/dream-remedies.md](claims/dream-remedies.md) | claim, table | The remedy for a bad dream, per text, once | cites wb.2:p144, st:p34, st:p493, wb.1:p429-431, lgd:p970, lgd:p961-966, svo:p271, svi:p262, rrt:p186-195; feeds S2, RD216 |
+| [claims/dream-remedies.md](claims/dream-remedies.md) | claim, table | The remedy for a bad dream, per text, once | cites wb.2:p144, st:p34, st:p493, wb.1:p430, lgd:p970, lgd:p961-966, svo:p271, svi:p262, rrt:p186-195; feeds S2, RD216 |
 | [claims/dream-riding-donkey-bare.md](claims/dream-riding-donkey-bare.md) | claim, list | Riding a horse or donkey without a saddle; the donkey, the cart and the wild horse | cites wb.2:p144, lgd:p968-969, svo:p269, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-riding-upward.md](claims/dream-riding-upward.md) | claim, list | Riding upward on a lion, elephant, buffalo or horse, well saddled | cites wb.2:p144, lgd:p967, svo:p268-271, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-ringed-by-iron-mountain.md](claims/dream-ringed-by-iron-mountain.md) | claim, list | Encircled by a ring such as an iron mountain | cites lgd:p967; feeds S2, RD216 |
@@ -366,14 +366,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-rivers-sea-dry.md](claims/dream-rivers-sea-dry.md) | claim, list | Rivers and sea dry | cites skp:p40-50; feeds S2, RD216 |
 | [claims/dream-road-journey.md](claims/dream-road-journey.md) | claim, list | The road: a path escaped, the road lost, a journey begun | cites lgd:p967, lgd:p968-969, svo:p269, svi:p262, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-rosary-broken.md](claims/dream-rosary-broken.md) | claim, list | A rosary broken | cites skp:p40-50; feeds S2, RD216 |
-| [claims/dream-sick-any-dream-death-sign.md](claims/dream-sick-any-dream-death-sign.md) | claim, list | Any dream as a distant, uncertain sign of death | cites st:p34, wb.1:p429-431; feeds S2, RD216 |
-| [claims/dream-sick-bad-dream-shapes-poured.md](claims/dream-sick-bad-dream-shapes-poured.md) | claim, list | The shapes of whatever bad came in dreams, poured into a skull | cites wb.1:p429-431; feeds S2, RD216 |
-| [claims/dream-sick-confused-dreams.md](claims/dream-sick-confused-dreams.md) | claim, list | Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang) | cites st:p183, st:p218, st:p241, wb.1:p428-429, wb.1:p431-433; feeds S2, RD216 |
+| [claims/dream-sick-any-dream-death-sign.md](claims/dream-sick-any-dream-death-sign.md) | claim, list | Any dream as a distant, uncertain sign of death | cites st:p34, wb.1:p430b; feeds S2, RD216 |
+| [claims/dream-sick-bad-dream-shapes-poured.md](claims/dream-sick-bad-dream-shapes-poured.md) | claim, list | The shapes of whatever bad came in dreams, poured into a skull | cites wb.1:p430; feeds S2, RD216 |
+| [claims/dream-sick-confused-dreams.md](claims/dream-sick-confused-dreams.md) | claim, list | Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang) | cites st:p183, st:p218, st:p241, wb.1:p428b, wb.1:p431; feeds S2, RD216 |
 | [claims/dream-sick-naga-illness-dreams.md](claims/dream-sick-naga-illness-dreams.md) | claim, list | The dreams that mark the harmful nāga spirits' illness (ch. 81) | cites st:p350-351; feeds S2, RD216 |
 | [claims/dream-sick-women-lead-away.md](claims/dream-sick-women-lead-away.md) | claim, list | Women leading the dreamer away | cites st:p493; feeds S2, RD216 |
 | [claims/dream-snake-frog-water-creature.md](claims/dream-snake-frog-water-creature.md) | claim, conflict | Snakes, frogs and water creatures | cites st:p350-351, svo:p270, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-spirit-classes.md](claims/dream-spirit-classes.md) | claim, list | A dream's figures sorted by the class of spirit (RST, KBS) | cites rst:p1-8, kbs:p72-78; feeds S2, RD216 |
-| [claims/dream-st-above-wb25.md](claims/dream-st-above-wb25.md) | claim, rule | Where the Four Tantras and WB ch. 25 both read a sick dreamer's dream, the Four Tantras' row is shown | cites st:p183, st:p218, st:p241, wb.1:p428-429, wb.1:p431-433; feeds S2, RD216 |
+| [claims/dream-st-above-wb25.md](claims/dream-st-above-wb25.md) | claim, rule | Where the Four Tantras and WB ch. 25 both read a sick dreamer's dream, the Four Tantras' row is shown | cites st:p183, st:p218, st:p241, wb.1:p428b, wb.1:p431; feeds S2, RD216 |
 | [claims/dream-struck-by-weapons.md](claims/dream-struck-by-weapons.md) | claim, conflict | Struck or pierced by weapons; afraid of enemies; weapons broken | cites wb.2:p144, lgd:p968-969, svo:p268-271, svi:p262, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-stupa-temple.md](claims/dream-stupa-temple.md) | claim, list | Stūpas and images made; a temple or stūpa collapsing; climbing a stūpa | cites svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-sun-moon-darkened.md](claims/dream-sun-moon-darkened.md) | claim, list | Sun and moon setting, hidden by cloud or eclipse; a red sun | cites wb.2:p144, st:p350-351, lgd:p968-969, skp:p40-50; feeds S2, RD216 |
@@ -998,7 +998,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 5 passages: 5 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
-| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 35 passages: 19 scan, 16 machine |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 39 passages: 23 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 42 passages: 34 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
@@ -1009,7 +1009,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 33 passages: 15 scan, 11 machine, 7 etext |
-| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
+| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 24 passages: 23 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
