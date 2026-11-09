@@ -742,3 +742,61 @@ ezs:
   role: source
   locator: page
   notes: "the OCR is very rough; the 夢の論 and 夢はんじ stand on frames 30-32 after the lamp-wick omens, the 節分 article on frame 10"
+
+ktr:
+  title: "Rgyud bzhi'i 'grel chen (the great commentary on the Four Tantras), in the Gsung 'bum of Khro ru Mkhan po Tshe rnam"
+  author: "Khro ru Mkhan po Tshe rnam (1928-2005, by BDRC; a modern author)"
+  edition: "Gsung 'bum, Lhasa (11 vols, printed 2004-2005 by BDRC's note); the Four Tantras' commentary in MW29701 parts"
+  bdrc: {work: MW29701, etext: IE0OPI4CEE4109}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255); page = the etext page (the print's own page numbers are written in words, in the margin, and were not used); etext volumes VEIE0OPI4CEE4109_I5618 (root and Explanatory Tantra to ch. 15: ch. 2 on pp. 175-176, ch. 7 on pp. 295-326), _I5622 (Instruction Tantra ch. 61-84: ch. 81 on pp. 328-331), _I5623 (ch. 85-92: ch. 91 on pp. 683-685); the etext carries the print's running headers and side numbers inside the text, taken out here"
+
+bdk:
+  title: "'Bri gung rgyud bzhi'i dka' mchan (the annotated commentary on the difficult points of the Four Tantras)"
+  author: "'Bri gung Chung tshang Chos kyi grags pa (1595-1659, by BDRC)"
+  edition: "Mi rigs dpe skrun khang, Pe cin 2014 (Bod kyi gso ba rig pa'i gna' dpe phyogs bsgrigs dpe tshogs, no. 102)"
+  bdrc: {work: MW1KG24729, etext: VEIE0OPI7984ABB9_I1KG24731}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255); the commentary works its glosses into the root verses; printed page = etext page - 27 (the print's number stands at the head of each page: p. 60 = 33, p. 63 = 36, p. 65 = 38, p. 608 = 581, p. 813 = 786, p. 817 = 790); ch. 2 on printed p. 34, ch. 81 on pp. 580-581, ch. 91 on pp. 789-790"
+
+lth:
+  title: "Man ngag lhan thabs (the Supplement to the Instruction Tantra), in Man ngag lhan thabs dang lde mig"
+  author: "Sde srid Sangs rgyas rgya mtsho (1653-1705)"
+  edition: "Mi rigs dpe skrun khang, Pe cin 2005 (BDRC MW1PD4, work MW1PD4_408035); a second print is lhq"
+  bdrc: {work: MW1PD4_408035, etext: VEIE0OPIBB34BBF9_I1PD403}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255); the Supplement versifies the Instruction Tantra's chapters, with changes; printed page = etext page - 38 (the print's number '325' stands at the head of etext p. 363); the etext has spaces inside words"
+
+lhq:
+  title: "Man ngag lhan thabs (the Supplement to the Instruction Tantra), Qinghai print of 1991"
+  author: "Sde srid Sangs rgyas rgya mtsho (1653-1705)"
+  edition: "Mtsho sngon mi rigs dpe skrun khang, Zi ling 1991 (BDRC MW20041, 'Man ngag yon tan rgyud kyi lhan thabs')"
+  bdrc: {work: MW20041, etext: VEIE0OPIF0CDCC87_I4971}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255); printed page = etext page - 22 (the print's number stands at the foot of each page: 508 at the foot of etext p. 530, 509 at the foot of p. 531); the Supplement's ch. 81 on printed pp. 508-510"
+
+mnb:
+  title: "Man ngag rgyud (the Instruction Tantra), a print from Bum thang chos 'khor rab brtan, Bhutan (210 ff.), in Gene Smith's collection"
+  bdrc: {work: MW4CZ16923, etext: VEIE0OPIA6533CA3_I1KG13565}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255), a poor OCR (the etext garbles many letters; only the words of the lines quoted are told apart); a scan is served (open access) and was not opened; page = the etext page (ch. 81's dream lines on p. 267)"
+
+mbl:
+  title: "Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations added)"
+  author: "Sman pa Blo bzang dbang rgyal (BDRC dates him '17XX', the 18th century)"
+  edition: "Bod kyi gso ba rig pa'i gna' dpe phyogs bsgrigs dpe tshogs, Pe cin 2008 (BDRC MW1KG14616)"
+  bdrc: {work: MW1KG14616, etext: VEIE0OPI94148111_I1KG15621}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "etext only, read 2026-11-09 (RD255); the Supplement's verse (lth, lhq) with the annotator's glosses written into its lines; page = the etext page (ch. 81's dream lines on pp. 521-522)"

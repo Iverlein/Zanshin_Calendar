@@ -583,13 +583,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-reading-the-answer.md](claims/srm-reading-the-answer.md) | claim, rule | Śramaṇā rite: how the answer is read, changed and repeated | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
-| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, bjp:p197, rsp:p229-230; feeds S1 |
-| [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351; feeds S1 |
-| [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21, bjp:p57, rsp:p57; feeds S1 |
+| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57; feeds S1 |
+| [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351, ktr:p329-332, bdk:p580-581, mbl:p521-522; feeds S1 |
+| [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21, bjp:p57, rsp:p57, ktr:p175-177, bdk:p34; feeds S1 |
 | [claims/st-dream-rims-cham.md](claims/st-dream-rims-cham.md) | claim, rule | The dream among the signs of the cham of the pestilence (ch. 27) | cites st:p241, st:p241-242b; feeds S1 |
-| [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493; feeds S1 |
+| [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493, ktr:p684-685, bdk:p789-790, ktr:p688; feeds S1 |
 | [claims/st-dream-unripe-fever.md](claims/st-dream-unripe-fever.md) | claim, rule | The dream among the signs of the unripe fever (ch. 15) | cites st:p183, st:p185-186; feeds S1 |
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218, st:p222-223; feeds S1 |
+| [claims/st-lhas-tshor-lder-bzo.md](claims/st-lhas-tshor-lder-bzo.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ and ལྡེར་བཟོ་འགུལ in ST ch. 81: what the other prints and the commentaries read | cites st:p350-351, ktr:p329-332, bdk:p580-581, lth:p325, lhq:p509, mnb:p267, mbl:p521-522; feeds S1 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
@@ -942,7 +943,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
-| [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 2 passages: 2 etext |
+| [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
+| [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 3 passages: 3 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 2 passages: 2 machine |
@@ -960,23 +962,28 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
 | [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 1 passages: 1 machine |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
+| [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
 | [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 12 passages: 9 scan, 3 machine |
+| [corpus/lhq/lhq.md](corpus/lhq/lhq.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs (Qinghai 1991) | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 10 passages: 8 scan, 1 machine, 1 etext |
+| [corpus/lth/lth.md](corpus/lth/lth.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs, the Supplement to the Instruction Tantra (Beijing 2005) | 1 passages: 1 etext |
+| [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 1 passages: 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
+| [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 1 passages: 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
-| [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 2 passages: 2 etext |
+| [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 3 passages: 3 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
@@ -1698,6 +1705,12 @@ work for its facts only, never its wording):
 | **GT** | the Four Tantras, Drathang woodblock print with interlinear notes, a witness | BDRC MW4CZ321183, scans I4CZ327131 |
 | **BJP** | Byang pa Rnam rgyal grags pa bzang po, *Bshad rgyud kyi 'grel chen bdud rtsi'i chu rgyun*, a commentary on the Explanatory Tantra, Chengdu 2001 | BDRC MW27496, etext IE0OPI74E38BEB |
 | **RSP** | Rin spungs pa Bsod nams ye shes rgyal mtshan, *Bshad rgyud kyi 'grel chen dri med kun gsal*, vol. 1, Chengdu 2002 | BDRC MW27494, etext IE0OPI65E2C626 |
+| **KTR** | Khro ru Mkhan po Tshe rnam (1928–2005), *Rgyud bzhi'i 'grel chen* in his *Gsung 'bum*, Lhasa: a modern commentary on the Four Tantras, a witness for what the lines mean (etext only; page = etext page) | BDRC MW29701, etext IE0OPI4CEE4109 |
+| **BDK** | 'Bri gung Chung tshang Chos kyi grags pa (1595–1659), *'Bri gung rgyud bzhi'i dka' mchan*, Beijing 2014: the annotated commentary on the Four Tantras (etext only; printed page = etext page − 27) | BDRC MW1KG24729, etext VEIE0OPI7984ABB9_I1KG24731 |
+| **LTH** | Sde srid Sangs rgyas rgya mtsho, *Man ngag lhan thabs* (the Supplement to the Instruction Tantra), in *Man ngag lhan thabs dang lde mig*, Beijing 2005 (etext only; printed page = etext page − 38) | BDRC MW1PD4_408035, etext VEIE0OPIBB34BBF9_I1PD403 |
+| **LHQ** | The same *Man ngag lhan thabs*, Qinghai print of 1991 (etext only; printed page = etext page − 22) | BDRC MW20041, etext VEIE0OPIF0CDCC87_I4971 |
+| **MBL** | Sman pa Blo bzang dbang rgyal (18th century by BDRC), *Mchan brgyab lhan thabs*, Beijing 2008: Sde srid's Supplement with the annotator's glosses written into its lines (etext only; page = etext page) | BDRC MW1KG14616, etext VEIE0OPI94148111_I1KG15621 |
+| **MNB** | *Man ngag rgyud*, the Instruction Tantra in a print from Bum thang chos 'khor rab brtan, Bhutan (210 ff.): a witness of the root text's spellings (etext only, a poor OCR; page = etext page) | BDRC MW4CZ16923, etext VEIE0OPIA6533CA3_I1KG13565 |
 | **MP** | Ju Mipham, *Treatise on Passion* (*'Dod pa'i bstan bcos*), in his Collected Works | BDRC I1KG8551 |
 | **DM** | Deumar Geshe Tenzin Phuntsok, *Precious Garland* (*Rin chen phreng ba*), Xining 1993 | BDRC MW21588, lent scans |
 | **KL** | Nyida Heruka Chenagtsang, *Manual of Massage* (2001) | BDRC I1KG21795 |
