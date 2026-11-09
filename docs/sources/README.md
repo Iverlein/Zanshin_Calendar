@@ -369,7 +369,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-rivers-sea-dry.md](claims/dream-rivers-sea-dry.md) | claim, list | Rivers and sea dry | cites skp:p40-50; feeds S2, RD216 |
 | [claims/dream-road-journey.md](claims/dream-road-journey.md) | claim, list | The road: a path escaped, the road lost, a journey begun | cites lgd:p967, lgd:p968-969, svo:p269, svi:p262, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-rosary-broken.md](claims/dream-rosary-broken.md) | claim, list | A rosary broken | cites skp:p40-50; feeds S2, RD216 |
-| [claims/dream-sick-any-dream-death-sign.md](claims/dream-sick-any-dream-death-sign.md) | claim, list | Any dream as a distant, uncertain sign of death | cites st:p34, wb.1:p430b; feeds S2, RD216 |
+| [claims/dream-sick-any-dream-death-sign.md](claims/dream-sick-any-dream-death-sign.md) | claim, list | Any dream as a distant, uncertain sign of death | cites st:p34, gt:i42-43, wb.1:p430b; feeds S2, RD216 |
 | [claims/dream-sick-bad-dream-shapes-poured.md](claims/dream-sick-bad-dream-shapes-poured.md) | claim, list | The shapes of whatever bad came in dreams, poured into a skull | cites wb.1:p430; feeds S2, RD216 |
 | [claims/dream-sick-confused-dreams.md](claims/dream-sick-confused-dreams.md) | claim, list | Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang) | cites st:p183, st:p218, st:p241, wb.1:p428b, wb.1:p431; feeds S2, RD216 |
 | [claims/dream-sick-naga-illness-dreams.md](claims/dream-sick-naga-illness-dreams.md) | claim, list | The dreams that mark the harmful nāga spirits' illness (ch. 81) | cites st:p350-351; feeds S2, RD216 |
@@ -593,7 +593,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-reading-the-answer.md](claims/srm-reading-the-answer.md) | claim, rule | Śramaṇā rite: how the answer is read, changed and repeated | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
-| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57, gt:i42; feeds S1 |
+| [claims/st-dream-death-signs.md](claims/st-dream-death-signs.md) | claim, rule | Dreams as the distant, uncertain signs of death, and the remedy by grade | cites st:p34, gt:i42-43, bjp:p197, rsp:p229-230, ktr:p303-307, ktr:p323-324, bjp:p177-181, rsp:p208-211, bdk:p53-54, bdk:p57, gt:i42; feeds S1 |
 | [claims/st-dream-naga-illness.md](claims/st-dream-naga-illness.md) | claim, list | The dreams that mark the nāga spirits' illness (ch. 81) | cites st:p350-351, ktr:p329-332, bdk:p580-581, mbl:p521-522; feeds S1 |
 | [claims/st-dream-pregnancy-boy.md](claims/st-dream-pregnancy-boy.md) | claim, rule | The mother's dream of a man among the signs of a boy | cites st:p21, bjp:p57, rsp:p57, ktr:p175-177, bdk:p34; feeds S1 |
 | [claims/st-dream-rims-cham.md](claims/st-dream-rims-cham.md) | claim, rule | The dream among the signs of the cham of the pestilence (ch. 27) | cites st:p241, st:p241-242b; feeds S1 |
@@ -1678,6 +1678,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0857.md](questions/q0857.md) | question q857 | What is the 'bro pa's tax in the Drathang line «བྲོ་པའི་ཁྲལ་འདེད་བག་མ་ལན་པ»? | open; cites gt:i42-43 |
 | [questions/q0858.md](questions/q0858.md) | question q858 | Which animal is the rnga mo of line 3 (Byang pa and Rin spungs pa རྔ་མོང, Khro ru ཇ་མོ, glossed jo mo, the female dzo)? | open; cites gt:i42-43 |
 | [questions/q0859.md](questions/q0859.md) | question q859 | What is meant by the «rme can» (རྨེ་ཅན; Byang pa and the Drikung རྗེ་ཅན) that rings the dreamer with crows and hungry ghosts? | open; cites gt:i42-43 |
+| [questions/q0860.md](questions/q0860.md) | question q860 | Byang pa's line has the dead drinking water (ཆུ) and dancing with fiends (སྲིན་པོ) where the Drathang has beer (ཆང) and the dead (གཤིན་པོ): his print or his own change? | open; cites gt:i42-43 |
 
 <!-- end pool index -->
 
