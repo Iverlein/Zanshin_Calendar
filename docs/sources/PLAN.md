@@ -1721,3 +1721,6 @@ Searched and found wanting, so not to be repeated:
   - Peking img. 315 lines 3–8 and the rest of line 1 (x 3350–4900) not reached at 2× in the 14 minutes.
 - **RD244, 2026-11-09** (RD244, 2026-11-09):
   - Peking img. 316 lines 3–8 not read at 2×; bands y 684–909, 906–1131, 1128–1353 on the 5358×1421 scan, line pitch 111 px, lines 1–2 at y about 300 and 411.
+- **RD245, 2026-11-09** (RD245, 2026-11-09):
+  - scans.py line raised IndexError on Peking img. 317 and found 10 lines on img. 318 (the text part has 5), so its numbering does not match; take lines from a 1/3-size overview, pitch about 111 px.
+  - Peking img. 317 lines 1–7 and img. 318 lines 1–3 not read at 2×.
