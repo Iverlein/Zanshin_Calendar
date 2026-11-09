@@ -1695,3 +1695,8 @@ Searched and found wanting, so not to be repeated:
   - Narthang manuscript's «བྱ་ཤ…ཏེ» (I2KG212330 img. 290): the middle syllable's lower sign (ད, ང or ར) and whether «འུ» follows «ཏེ» at the frame are not settled at 3–5×; the W22704 copy is too coarse to help.
   - Dpe bsdur ma scans (vol. 25, I1PD95870) restricted; the notes' markers are lost, each entry assigned to its word by content only.
   - The Narthang pages are hand-written strips and the OCR line numbers do not map to page lines; lines were found by an ink-row profile of the strip (img. 290: 7 lines, centres near y 318, 364, 410, 456, 502, 550, 595); autocontrast then 2.7–5× crops read well.
+- **RD238, 2026-11-09** (RD238, 2026-11-09):
+  - Palri img. 542 line 1: after «གཅིག་པུ» the print has ས; «པུ་ས» or «པུས» is not settled at 2×.
+  - Palri img. 539: «ཐོ་རེངས» (machine) against «ཐོ་རངས», and «བསྐྱངས་བས» against «བསྐྱར་བས», not settled by eye.
+  - Palri img. 534–538 (the rite) not read by eye, only diffed against RD208's rite; the Yigdzin-1 reading drops the page-head «ཨོཾ» marks and does not read the seed string at the head of img. 534.
+  - scans.py line not used; crops with pixel boxes work: the Palri text block is x about 500–3900, y 140–820 in the 4350×975 strip, 5–6 lines to a page, a half-width crop at 1.1× reads well. img. 545 starts another text (the sadhana of the little white boy who announces in the ear).

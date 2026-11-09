@@ -1615,6 +1615,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | open; cites svi:p309-312 |
 | [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | open; cites svi:p309-312 |
 | [questions/q0837.md](questions/q0837.md) | question q837 | Which is the third syllable of «ཛ་ཏ་པ/ཀ་ཡི་ཕྲེང་བ» (the jātaka garland)? | open; cites svi:p309-312 |
+| [questions/q0838.md](questions/q0838.md) | question q838 | In the Palri print's mixed kind the last clause reads «སྤེལ་ཞིང་མ་བྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ», where the Rin chen gter mdzod has «མ་ཤེས་ན»: does «མ་བྱེད་ན» mean the mixed dream is not to be followed, or is it a misspelling? | open; cites lgd.42:p966-971b |
+| [questions/q0839.md](questions/q0839.md) | question q839 | In the middling yogin's line the Palri print reads «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག་པར་བྱས་ཏེ» against «རང་གཞན་ལ་ཉེ་བརྟགས་པར་བྱས་ཏེ» in the Rin chen gter mdzod: which is the better reading? | open; cites lgd.42:p966-971b |
 
 <!-- end pool index -->
 
