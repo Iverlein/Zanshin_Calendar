@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD269 (2026-11-09): p. 514 (the spans of the watches quoted from Parāśara, Varāha and the Matsya- and Viṣṇudharmottara-purāṇas) and p. 513, on the page image of the nnkj copy (images n561, n560).
+
 ## <a id="adb-p307-309"></a>adb:p307-309 Adbhutasāgara, the Nirghātādbhutāvarta: an omen's fruit by direction, time, lunar day and nakṣatra (the omen frame, not dreams)
 
 *Read: machine, 2026-11-09 (RD265).*
@@ -23,20 +25,21 @@ This is the Indian frame of the omens, which the same compilation applies to dre
 
 ## <a id="adb-p513-515"></a>adb:p513-515 Adbhutasāgara, the Svapnādbhutāvarta: the spans of the watches as quoted from Parāśara, Varāha and the Matsya- and Viṣṇudharmottara-purāṇas
 
-*Read: machine, 2026-11-09 (RD265).*
+*Read: scan, 2026-11-09 (RD269), p. 514 (the section "darśananimittānubandhi-phalam" with the spans and the remedies); machine, 2026-11-09 (RD265), pp. 513 and 515.*
 
-> (वराहः) आद्ये वर्षात् वत्सरार्धाद् द्वितीये पाको वर्षार्धार्धभागे तृतीये ।
-> मासात् पाकः शर्वरीपश्चिमान्ते सद्यः पाको गोविसर्गे च दृष्टे ॥
+> (पराशरः) पादादिपादोत्तरपादवृद्ध्या वर्षार्धमासत्रयमासकालाः ।
+> क्षया(?) विभागेषु चतुर्षु दृष्टाः स्वप्ना अनिष्टेष्टफलप्रदाः स्युः ॥
+> (वराहः) आद्ये वर्षाद्वत्सरार्धाद्द्वितीये पाको वर्षार्धार्धभागे तृतीये ।
+> मासात्पाकः शर्वरीपश्चिमान्ते सद्यः पाको गोविसर्गेषु दृष्टः ॥
 > (मत्स्यपुराणविष्णुधर्मोत्तरयोः) स्वप्नास्तु प्रथमे यामे संवत्सरविपाकिनः ।
-> षड्भिर्मासैर्द्वितीये तु त्रिभिर्मासैस्त्रियामिकाः । चतुर्थे मासमात्रेण पच्यन्ते नात्र संशयः ॥
-> (पराशरः) शुभाशुभस्वप्नविधानमुक्तम् ... पादादिपादोत्तरपाददृष्ट्या वर्षार्धमासत्रयमासकालाः ...
-> (garbled in all three copies)
+> षड्भिर्मासैर्द्वितीये तु त्रिभिर्मासैस्त्रियामिकाः ।
+> चतुर्थे मासमात्रेण पच्यन्ते नात्र संशयः ॥
 
-*Adbhutasāgara*, the *Svapnādbhutāvarta* (the chapter of the dream omens), the section "darśana-nimittānubandhi-phalam" (the fruit that follows the sight), p. 513, the remedies on pp. 514–515; the chapter ends on p. 515 ("iti … Adbhutasāgare Svapnādbhutāvarttaḥ") and the next chapter, on the body's signs of death (*Kāyariṣṭādbhutāvarta*), begins on the same page. Read in three Devanagari copies of one printing (Murali Dhara Jha, Benares 1905), which agree in the verses above and differ in OCR slips. Ballālasena's book is a compilation: each verse is given with the name of the older work it is taken from, and the sigla in brackets are those the copies print before it.
+*Adbhutasāgara*, the *Svapnādbhutāvarta* (the chapter of the dream omens), the section "darśana-nimittānubandhi-phalam" (the fruit that follows the sight), p. 514 (p. 513, which precedes it, quotes dream omens from the *Rāmāyaṇa*, the *Āgneyapurāṇa*, the *Liṅgapurāṇa* and the *Mausala* and gives no spans), the remedies on pp. 514–515; the chapter ends on p. 515 ("iti … Adbhutasāgare Svapnādbhutāvarttaḥ") and the next chapter, on the body's signs of death (*Kāyariṣṭādbhutāvarta*), begins on the same page. Read in three Devanagari copies of one printing (Murali Dhara Jha, Benares 1905), which agree in the verses above and differ in OCR slips. Ballālasena's book is a compilation: each verse is given with the name of the older work it is taken from, and the sigla in brackets are those the copies print before it.
 
 What the compilation gives on the time of the fruit, in our words:
 
-- Parāśara's lines (garbled in all three copies) say that dreams seen in the four divisions of the night give their good or bad fruit in a year, half a year, three months and a month ("varṣārdha-māsatraya-māsa-kālāḥ").
+- Parāśara's lines (garbled in the OCR copies, legible on the page image) say that dreams seen in the four divisions of the night (the word before *vibhāgeṣu*, "kṣayā"/"kṣapā", is not clear on the print) give their bad or good fruit, the times growing "quarter on quarter" (*pādādi-pādottara-pāda-vṛddhyā*): a year, half a year, three months and a month ("varṣa-ardha-māsatraya-māsa-kālāḥ", read as four terms). Parāśara's series is the *Kālaprakāśikā*'s.
 - Varāha (Varāhamihira, here the verse that is *Bṛhadyātrā* 16.30, bya:p41-46): the first watch, a year; the second, half a year; the third, "half of the half-year" (a quarter, three months); the last part of the night, a month; at the cows' release, at once.
 - The *Matsyapurāṇa* and the *Viṣṇudharmottara* (the verse of mtp:p453-455 and agp:p280-281): a year; six months; three months; a month for the fourth watch.
 - After a good dream one does not sleep again; the dream seen last in the night decides ("paścād dṛṣṭo yaḥ sa pākaṃ vidhatte", Varāha; "ekasyāṃ yadi vā rātrau … paścād dṛṣṭas tu yas tatra tasya pākaṃ vinirdiśet", the Purāṇas).
@@ -45,4 +48,4 @@ What the compilation gives on the time of the fruit, in our words:
 
 No tie of a dream to a *tithi*, a weekday, a nakṣatra or a month of the year appears in the chapter, which was searched in the Devanagari layer for those words and found none beside the spans.
 
-Doubt: the second line of Parāśara's verse is garbled in all three copies; the three layers agree on Varāha's and the Purāṇas' lines.
+Doubt: only p. 514 was read on the page image (the nnkj copy, image n561; the abqv copy carries the page at n561 and the cCPQ copy at n563); the word before *vibhāgeṣu* in Parāśara's second line is "kṣayā" or "kṣapā" on the print; the verse of the *Matsya* and *Viṣṇudharmottara* is given in the print as three lines (the fourth, ten days at dawn, is not quoted).

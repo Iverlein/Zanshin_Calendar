@@ -833,7 +833,7 @@ agv:
   rank: 3
   role: source
   locator: page
-  notes: "RD263: the end of ch. 42 (the time of the dream) read in both text layers, which agree on the last sentence and differ in the lines before it; machine reading of OCR, not read on the page image. RD265: the lines before it recovered from three other layers (xpwp, 321409, and the parallel of ch. 41); the edition prints ch. 42 at pp. 186-191 (the running head of the next page reads 191), so agv:p120-121 is the same page as agv:p190-191, the first misread by OCR; ch. 59 pp. 259-260"
+  notes: "RD263: the end of ch. 42 (the time of the dream) read in both text layers, which agree on the last sentence and differ in the lines before it; machine reading of OCR, not read on the page image. RD265: the lines before it recovered from three other layers (xpwp, 321409, and the parallel of ch. 41); the edition prints ch. 42 at pp. 186-191 (the running head of the next page reads 191), so agv:p120-121 is the same page as agv:p190-191, the first misread by OCR; ch. 59 pp. 259-260 RD269: the time lists of ch. 41 (p. 185) and ch. 42 (pp. 190-191) read on the page images of the xpwp item"
 
 bsm:
   title: "Bṛhatsaṃhitā of Varāhamihira, English translation (searched for a chapter on dreams)"
@@ -863,7 +863,7 @@ neg:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: the text layer (about 840,000 characters) searched whole for the watches, tithi, the weekdays, the lunar fortnights, the seasons and the months; verses 1.15-17 and Negelein's parallels read; the passages on omens and seasons in the Introduction and the notes read; machine reading of OCR, the page images not read"
+  notes: "RD265: the text layer (about 840,000 characters) searched whole for the watches, tithi, the weekdays, the lunar fortnights, the seasons and the months; verses 1.15-17 and Negelein's parallels read; the passages on omens and seasons in the Introduction and the notes read; machine reading of OCR, the page images not read RD269: pp. 14-16 and the Introduction pp. XIX-XX read on the page images (image = page + 29); the list of his letters read, b = the Brahmavaivarta's Svapnadhyaya"
 
 bya:
   title: "Bṛhadyātrā of Varāhamihira (the astrologer's work on the king's march, also called the Aśvamedhīyayātrā), ch. 16, the dreams"
@@ -873,7 +873,7 @@ bya:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: ch. 16 (Svapnādhyāya, 32 verses, printed pp. 41-46) read in the Devanagari text layer (Tesseract; the apparatus is garbled); the page images opened, not read verse by verse"
+  notes: "RD265: ch. 16 (Svapnādhyāya, 32 verses, printed pp. 41-46) read in the Devanagari text layer (Tesseract; the apparatus is garbled); the page images opened, not read verse by verse RD269: ch. 16 vv. 4-32 read on the page images (images n27-n30)"
 
 kpd:
   title: "Kālaprakāśikā (the standard book on election, muhūrta), Sanskrit text, ch. XLII, the dreams"
@@ -883,7 +883,7 @@ kpd:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: the Devanagari of ch. XLII (69 verses) read in the text layer, which RD263's four scans of Iyer's edition lack; machine reading of OCR, the page images not read"
+  notes: "RD265: the Devanagari of ch. XLII (69 verses) read in the text layer, which RD263's four scans of Iyer's edition lack; machine reading of OCR, the page images not read RD269: vv. 63-69 read on the page image of the Devanagari section (printed 189, leaf n476; the English translation is a second sequence of pages in the same item)"
 
 adb:
   title: "Adbhutasāgara of Ballālasena (the compilation of omens, begun about 1168), the Svapnādbhutāvarta and the omen chapters"
@@ -903,7 +903,7 @@ mtp:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: ch. 242 read in the Devanagari text layer; machine reading of OCR"
+  notes: "RD265: ch. 242 read in the Devanagari text layer; machine reading of OCR RD269: ch. 242 read on the page images; it stands on pp. 493-494 of the print (the id mtp:p453-455 keeps RD265's page)"
 
 agp:
   title: "Agnipurāṇa, the Svapnādhyāya (dreams as omens of the king's march)"
@@ -913,7 +913,7 @@ agp:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: verses 16-19 of the dream chapter read in the Devanagari text layer of the 1900 scan and compared with Mitra's text; machine reading of OCR"
+  notes: "RD265: verses 16-19 of the dream chapter read in the Devanagari text layer of the 1900 scan and compared with Mitra's text; machine reading of OCR RD269: ch. 229 read on the page images; it stands on pp. 281-282 (31 verses; the id agp:p280-281 keeps RD265's page); the spans stand in a bracket that two manuscripts lack"
 
 kho:
   title: "Atharvaveda-pariśiṣṭa über Omina (Dutch doctoral thesis, in German), on the Pariśiṣṭas 57-71 and their parallels"
@@ -943,4 +943,4 @@ bvp:
   rank: 3
   role: source
   locator: page
-  notes: "RD265: the chapter read in the Devanagari text layers of both printings, which agree in verses 4-7; machine reading of OCR, the page images not read"
+  notes: "RD265: the chapter read in the Devanagari text layers of both printings, which agree in verses 4-7; machine reading of OCR, the page images not read RD269: verses 5-7 read on the page image of the Jivananda print, where they stand on p. 661 (the id bvp:p662-665 keeps RD265's page)"

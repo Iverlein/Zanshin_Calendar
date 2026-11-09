@@ -955,9 +955,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
-| [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 2 machine |
-| [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 1 passages: 1 machine |
-| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 5 passages: 5 machine |
+| [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 1 scan, 1 machine |
+| [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 1 passages: 1 scan |
+| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 5 passages: 3 scan, 2 machine |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
 | [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 1 passages: 1 machine |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
@@ -965,8 +965,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
-| [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 machine |
-| [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 machine |
+| [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 scan |
+| [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 2 passages: 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
@@ -985,7 +985,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 1 passages: 1 machine |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
-| [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 machine |
+| [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
@@ -1005,8 +1005,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
-| [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 machine |
-| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 3 passages: 3 machine |
+| [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
+| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 3 passages: 2 scan, 1 machine |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |

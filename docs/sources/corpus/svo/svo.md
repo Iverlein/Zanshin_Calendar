@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD269 (2026-11-09): the Indian dream-time verses on the page images, in place of the OCR layers: Brahmavaivarta Kṛṣṇajanmakhaṇḍa 73.5–7 (Jivananda 1888, p. 661), Negelein 1912 pp. 14–16 and Introduction pp. XIX–XX (his letters), Kālaprakāśikā ch. 42 vv. 63–69 (Lawley Press, Devanagari p. 189), Bṛhadyātrā 16 (Pingree 1972, pp. 41–46), Aṅgavijjā ch. 41–42 time lists (Puṇyavijaya 1957, pp. 185, 190–191), Matsya 242 (Ānandāśrama, pp. 493–494), Agni 229 (Ānandāśrama, pp. 281–282), Adbhutasāgara p. 514, Aṅgavijjā ch. 59 pp. 260–261; see claims/indian-dream-spans-by-watch-nine-texts.md.
+
 Read by RD265 (2026-11-09): Negelein 1912, Kohlbrugge 1938, the Aṅgavijjā chs. 41–44 and 59, the Kālaprakāśikā, Varāhamihira's Bṛhadyātrā 16, the Adbhutasāgara, the Matsya 242, Agni 229, Brahmavaivarta Kṛṣṇajanmakhaṇḍa 73, the Yogayātrā and the Garuḍapurāṇa, in OCR text layers.
 
 Read by RD262 (2026-11-09): Padma rdo rje (MW25126) and Bya mdo Klu byams rgyal (MW8LS18598) through BDRC search snippets.

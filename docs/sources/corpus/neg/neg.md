@@ -7,38 +7,45 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD269 (2026-11-09): Negelein's Introduction pp. XIX–XX (the list of his letters), the verses 1.15–17 with his parallels, pp. 14–16, and p. 19 on the page images (image = page + 29).
+
 ## <a id="neg-p14-16"></a>neg:p14-16 Svapnacintāmaṇi 1.15–17: the watches of the night and the span to the fruit, with Negelein's parallels
 
-*Read: machine, 2026-11-09 (RD265).*
+*Read: scan, 2026-11-09 (RD269); the Arabic and Greek report of pp. XX–XXI: machine, 2026-11-09 (RD265).*
 
-> svapnaḥ prathame yāme dṛṣṭaḥ saṃvatsareṇa phaladaḥ syāt |
-> saṃvatsarārdha-phalado dvitīya-yāme triyāminyāḥ || 15
-> māsatrayeṇa rātreḥ tṛtīya-yāme nṛṇāṃ sphuṭaṃ phaladaḥ |
-> māsaika-phalo dṛṣṭaś caturtha-yāme bhaved svapnaḥ || 16
+> svapnaḥ prathame yāme | dṛṣṭaḥ saṃvatsareṇa phaladaḥ syāt ||
+> saṃvatsarā-'rdha-phalado | dvitīya-yāme triyāminyāḥ || 15
+> māsatrayeṇa rātreḥ | tṛtīyayāme nṛṇāṃ sphuṭaṃ phaladaḥ |
+> māsai-'ka-phalo dṛṣṭaś | caturthayāme bhavet svapnaḥ || 16
 > carama-niśā-ghaṭikā-dvaya-samaye phalati dhruvaṃ daśāhe 'ntaḥ |
 > sūryodaye tu dṛṣṭaḥ sadyaḥ phaladāyakaḥ svapnaḥ || 17
 
-Jagaddeva's *Svapnacintāmaṇi*, book 1, verses 15–17, in Negelein's Roman transliteration (diacritics restored by us where the text layer prints plain letters; the second line of 16 is garbled there: "māsaj-ka-phalo", read māsaika-phalo), with his German beside, pp. 14–16 of the 1912 print; the note on pp. 15–16 sets the parallel verses of other dream texts beside it.
+Jagaddeva's *Svapnacintāmaṇi*, book 1, verses 15–17, in Negelein's Roman transliteration, with his German beside, pp. 14–16 of the 1912 print (Internet Archive item von-negelein-der-traumschlussel-des-jagaddeva: p. 14 = image n43, p. 15 = n44, p. 16 = n45; image = page + 29). Read on the page images by RD269. v. 15 is printed with the readings "dṛṣṭaḥ saṃvatsareṇa phaladaḥ syāt" (his note: B °tsaraika-, C °tsaraikaḥ; A dvitīyāme, C dvitīyāyāme; BC triyāmāyāḥ), v. 16 with the second line as above, v. 17 "daśāhe 'ntaḥ" with the notes B varame, C dhrutam, ACD daśāhena. The German beside v. 17: "a dream dreamt in the time of the last two *ghaṭikā* (= the last 48 minutes) of the night goes surely into fulfilment within ten days; a dream seen at sunrise, however, is fulfilled at once"; "Cf. 1.15".
 
-The verses of the work itself give six times, by the part of the night in which the dream was seen: the first watch (*yāma*), a year; the second, half a year; the third, three months; the fourth, a month; in the last two *ghaṭikā*s of the night (the last 48 minutes, Negelein), within ten days; at sunrise, at once. Negelein's note on v. 17 says the same, and adds that the verse "aruṇodaya-velāyāṃ sadya eva phalaṃ bhavet" (at the hour of dawn the fruit is at once) is ascribed in one manuscript (his r, fol. 151a) to the sage Bṛhaspati.
+The verses of the work itself give six times, by the part of the night in which the dream was seen: the first watch (*yāma*), a year; the second, half a year; the third, three months; the fourth, a month; in the last two *ghaṭikā*s of the night, within ten days; at sunrise, at once. His note on v. 17 adds that the half-verse "aruṇodaya-velāyāṃ sadya eva phalaṃ bhavet" (at the hour of dawn the fruit is at once) is ascribed in manuscript r (fol. 151a) to the sage Bṛhaspati, and that the Atharva-Veda appendix (AP 68.2.55) names kings' sons, thieves and courtiers as the groups for whom dreams are fulfilled.
 
-The parallel verses Negelein prints under it (his letters b, f, h, m, n, q, s are other dream texts and manuscripts he collated; the layer does not name them) give the same series with these variants:
+**Negelein's parallels** (his letters are explained in the same print, Introduction p. XIX, below; every line is as the page prints it):
 
-- second watch "aṣṭabhir māsaiḥ" (eight months, as the Atharva-Veda appendix), third "tribhir māsaiḥ", fourth "ardhamāsena", at the sight of dawn "daśāhe", and a dream of the morning bears fruit at once if one is woken at that moment (b 5–6; "prātaḥ svapnaś ca phaladas tatkṣaṇaṃ yadi bodhitaḥ");
-- "dvitīye cāṣṭame māse triyāme ca tripakṣake | tūrye yāme tu māsena … aruṇodaya-(pra)velāyāṃ daśāhena phalaṃ bhavet" (s 2f): eight months, three fortnights, a month, ten days at dawn;
-- "ṣaḍbhir māsair dvitīye tu tribhir māsais triyāmikāḥ | caturthe māsamātreṇa" (h 16f, quoted from the *Adbhutasāgara* p. 514: a year, six months, three months, a month);
-- "govisarjana-velāyāṃ sadyaḥ svapno vidhīyate" (the hour of the cows' release: at once).
+- **b 5–6**, the *Svapnādhyāya* of the *Brahmavaivartapurāṇa* (bvp:p662-665): "svapnas tu prathame yāme saṃvatsaraphalapradaḥ | dvitīye cā'ṣṭabhir māsais tribhir māsais tṛtīyake || caturthe cā'rdhamāsena svapnaḥ syāt tu phalapradaḥ | daśāhe phaladaḥ svapno 'py aruṇo-'daya-darśane | prātaḥ svapnaś ca phaladas tatkṣaṇaṃ yadi bhoditaḥ ||": a year, eight months, three months, half a month, ten days at dawn.
+- **f 2** (very like m 2–4 and n 2–4, which differ only in 2d "tribhir māsaiḥ triyāmakaḥ"; q 12–14): "svapnās tu prathame yāme saṃvatsara-vipākinaḥ | dvitīye cā'ṣṭabhir māsaiḥ ṣaḍbhir māsaiḥ triyāmakaiḥ(!) || caturtha-prahare svapne(!) māsena phaladāḥ smṛtāḥ | aruṇo-'daya-velāyāṃ daśāhena phalaṃ bhavet || govisarjana-velāyāṃ sadyaḥ svapno vidhīyate"; he compares o 2–3. The manuscript f is the Leipzig 1180, "called the *Svapnādhyāya* of the *Matsyapurāṇa*"; its second line has both "eight" and "six" months, which he marks (!): a year, eight or six months, three months, a month, ten days at dawn, at once at the cows' release.
+- **h 16f.**, from the *Adbhutasāgara* p. 514, "very like s 17f." (h is Agni 229, s Matsya 241.2ff. of the Calcutta 1876 print): "svapnās tu prathame yāme saṃvatsara-vipākinaḥ | ṣaḍbhir māsair dvitīye tu tribhir māsais triyāmikāḥ | cathurthe māsamātreṇa pacyante nātra saṃśayaḥ |": a year, six months, three months, a month.
+- **i 2f.** (like s 2–3; i is the Leipzig manuscript 1178): "svapnasya prathame yāme phalaṃ saṃvatsaraṃ bhavet | dvitīye cā'ṣṭame māse triyāme ca tripakṣake || 3 tūrye yāme tu yaḥ svapno māsena phalado bhavet | aruṇodaya-(pra)velāyāṃ daśāhena phalaṃ bhavet ||": a year, eight months, three fortnights, a month, ten days at dawn.
+- **a 3–5b**, "cf. AP 68.2.58f.", the Oxford manuscript: "svapnas tu prathame yāme saṃvatsara-vipākadaḥ | dvitīye yāma aṣṭabhis tribhir māsais triyāmake || caturthe prahare svapnaṃ(!) māsaikena vipacyate | aruṇo-'daya-velāyāṃ dhvakha(!) 'phalaṃ diśet || godauhana(!)-velāyāṃ sadhva(!) svapno vidhīyate ||": a year, eight months, three months, a month, then a garbled dawn line and the milking hour of the cows (*godohana* for *govisarjana*).
 
-So the dream book's own verse has the series year, half-year, three months, month, ten days, at once; the parallels differ in the second span (six or eight months), the third (three months, or three fortnights) and the fourth (a month or half a month). None ties a span to a lunar day, a weekday or a month: the only clock is the watch of the night.
+So the dream book's own verse has the series year, half-year, three months, month, ten days, at once; the parallels differ in the second span (six or eight months), the third (three months, or three fortnights) and the fourth (a month or half a month; the Brahmavaivarta alone gives half a month with the eight months). None ties a span to a lunar day, a weekday or a month: the only clock is the watch of the night. **Correction to RD265:** the layer's letters were wrong in two places: the "s 2f" verse is **i 2f**, and the manuscript a (not the Atharva appendix itself) has a month for the fourth watch.
 
-Negelein's Introduction (pp. XX–XXI) adds a report on the Arab and Greek books, from Zedler's old lexicon citing Dapper's *Asia* and from the "Traumbuch Apomasaris": by the Arabs, a dream of the early night is fulfilled in 20 years, one at midnight in 10 years, one at morning in a month, one at noon in 10 days; Apomasar gives a stepped series from 20 years down to a year and ten days (the layer is garbled in the middle). He says the Indian influence shows plainly. This is a report of what a late lexicon says, not a text read.
+**Negelein's list of the dream texts he collated** (Introduction p. XIX, read on the scan: "Viele der herangezogenen Traumbücher sind von uns der Einfachheit wegen mit Buchstaben bezeichnet worden, und zwar bedeutet"): a the Ms. Sanscr. d 215 of the Oxford Bodleian; **b the Svapnādhyāya of the Brahmavaivarttapurāṇa**, for whose text he used the printed parts of the Śabdakalpadruma vol. 5 pp. 470–1, the Calcutta Śaka 1812 edition vol. II p. 503ff. and the Leipzig Ms. 1179 (which, "in dubio", is put to the base); c the same Purāṇa 2.70.1ff., compared with the Śabdakalpadruma's quotation; d "the same text" 2.63.1–30; e the same text after the Leipzig Ms. 1179, compared with the printed edition 2.82.2–59; f the Leipzig Ms. 1180, "called the Svapnādhyāya of the Matsyapurāṇa"; g the Bhaviṣyapurāṇa, Bombay 1896–7; **h Agnipurāṇa chapter 229, 1ff.**; i the Leipzig Ms. 1178; k Suśruta 1.29.14ff. in the Nirṇayasāgara edition; m, n the Leipzig Mss. 1176, 1177; o Chambers 608; p Chambers 793 o (a piece of the Śārṅgadhara-Saṃhitā). On p. XX: q the Svapnādhyāya of the Ācāramayūkha with the Hindi commentary of Rāmanātha (Benares 1876); r Chambers 326 (the Parāśarāmaprakāśa: Nidrāmayūkha, compared with the quotation in the Śabdakalpadruma 5 p. 473, "Paraśurāma-dṛṣṭa-duḥsvapnaḥ", from the Brahmavaivarta's Gaṇeśakhaṇḍa ch. 33); **s Matsyapurāṇa 241.2ff.** after the Calcutta 1876 text, compared with v. 21 in the Adbhutasāgara of Benares 1905 p. 499 (said to come from the Viṣṇupurāṇa and the Viṣṇudharmottara) and with the parallel quotation of the Adbhutasāgara p. 502f.; u the Royal Asiatic Society Ms. Tod 51; v the Svapnādhyāya of Vāgbhaṭa in the Śabdakalpadruma under *svapna*; w Agnipurāṇa 231.1ff. ("titled śakunāni, but plainly dealing with the belief in dreams"). The list has no j, l or t.
+
+Negelein's Introduction (the footnote of p. XX, continued on p. XXI) adds a report on the Arab and Greek books, from Zedler's old lexicon citing Dapper's *Asia* (p. 430) and from the "Traumbuch Apomasaris": by the Arabs, a dream of the early night is fulfilled in 20 years, one at midnight in 10 years, one at morning in a month, one at noon in 10 days; Apomasar gives a stepped series from 20 years down to a year and ten days. He says the Indian influence shows plainly. The footnote of p. XX was read on the image; its continuation on p. XXI was not opened. This is a report of what a late lexicon says, not a text read.
+
+Doubt: the Roman print of the verses is read; the page images of pp. 17–19, 35 and XXI were not opened (the next two passages stay machine).
 
 ## <a id="neg-p17-19"></a>neg:p17-19 Negelein on the time in which an omen is fulfilled: never over a year; the twilights; the comet's 45 days
 
-*Read: machine, 2026-11-09 (RD265).*
+*Read: scan, 2026-11-09 (RD269), the verses and the sentences on the time, the comet and the twilights on p. 19; machine, 2026-11-09 (RD265), p. 17 and the rest of p. 18 (the page image of p. 18 shows the groups of persons struck, AP 71.19.7 and Matsya 229–230, which the summary below does not use).*
 
 > tatro 'tpāta-phalaṃ divyaṃ pūrṇe varṣe vipacyate |
-> antarikṣaṃ tathā bhaumaṃ māsaiḥ ṣadbhis tu bhartṛṣu ||
+> āntarikṣaṃ tathā bhaumaṃ māsaiḥ ṣaḍbhis tu bhartṛṣu ||
 > anukteṣv api cānyeṣu paraṃ saṃvatsarāt phalam |
 
 Negelein's note on the time in which an omen is fulfilled (p. 18, on 1.17), pp. 17–19. He draws on the *pākasamayādbhutāvarta* of the *Adbhutasāgara* (his pp. 744–51), which tells the times well, and on Parāśara, whose verses are quoted above in Roman transliteration with the German.
@@ -64,11 +71,19 @@ In the same note: because the art of the dream belongs to astrology, a competent
 
 ### Open (RD265, 2026-11-09)
 
-- Question: Which text is Negelein's "b" (the verse he prints as b 5–6, "dvitīye cāṣṭabhir māsais tribhir māsais tṛtīyake | caturthe cārdhamāsena … daśāhe phaladaḥ svapno 'py aruṇodaya-darśane | prātaḥ svapnaś ca phaladas tatkṣaṇaṃ yadi bodhitaḥ")? Its words are the *Brahmavaivartapurāṇa*'s *Svapnādhyāya* (bvp:p662-665), but the list of his letters a–e is garbled in the text layer; the page image of his Introduction, pp. XIX–XX, settles it.
+- Question (settled by RD269, below): Which text is Negelein's "b" (the verse he prints as b 5–6, "dvitīye cāṣṭabhir māsais tribhir māsais tṛtīyake | caturthe cārdhamāsena … daśāhe phaladaḥ svapno 'py aruṇodaya-darśane | prātaḥ svapnaś ca phaladas tatkṣaṇaṃ yadi bodhitaḥ")? Its words are the *Brahmavaivartapurāṇa*'s *Svapnādhyāya* (bvp:p662-665), but the list of his letters a–e is garbled in the text layer; the page image of his Introduction, pp. XIX–XX, settles it.
 - Question: Is the series year, eight months, three months, half a month, ten days at dawn, which the *Svapnohana* and the *Brahmavaivartapurāṇa* share, older than the Purāṇa? Which older Indian dream text, if any, has it (the Bṛhaspati *Svapnādhyāya* of Negelein's manuscript i, the *Śaunaka-kārikā*, the *Śabdakalpadruma*'s Vāgbhaṭa *Svapnādhyāya*), and could the Tibetan translator have known it?
-- Question: In the *Kālaprakāśikā* ch. XLII v. 66 (kpd:p184-189), does the Sanskrit give a half-month for the fourth watch besides the twelve days at dawn that Iyer's English has? The line is garbled in the OCR; the page image of p. 189 shows it.
-- Question: In the *Bṛhadyātrā* 16.10 (bya:p41-46), which part of the night and which humour go with which of the three seasons (rains, autumn, spring)? The page image (leaf 28 of 73) settles the order.
-- Question: In the *Aṅgavijjā* the bright "beginning and root" is the forenoon in ch. 42 (agv:p190-191) and the afternoon in ch. 41 (agv:p186); which is the original reading by the manuscripts of Puṇyavijaya's apparatus?
+- Question (settled by RD269, below): In the *Kālaprakāśikā* ch. XLII v. 66 (kpd:p184-189), does the Sanskrit give a half-month for the fourth watch besides the twelve days at dawn that Iyer's English has? The line is garbled in the OCR; the page image of p. 189 shows it.
+- Question (settled by RD269, below): In the *Bṛhadyātrā* 16.10 (bya:p41-46), which part of the night and which humour go with which of the three seasons (rains, autumn, spring)? The page image (leaf 28 of 73) settles the order.
+- Question (partly settled by RD269, below): In the *Aṅgavijjā* the bright "beginning and root" is the forenoon in ch. 42 (agv:p190-191) and the afternoon in ch. 41 (agv:p186); which is the original reading by the manuscripts of Puṇyavijaya's apparatus?
+
+### Settled by RD269 (2026-11-09), on the page images
+
+- Negelein's "b" is the *Svapnādhyāya* of the *Brahmavaivarttapurāṇa* (Introduction p. XIX); his "b 5–6" is its verses 5–6 on p. 661 of the Jivananda print (bvp:p662-665), one reading apart (his *bhoditaḥ*, the print's *bodhitaḥ*). The layer's "h 16f" is right (h is Agni 229); its "s 2f" is in fact i 2f.
+- The *Kālaprakāśikā* v. 66–67 (p. 189 of the Devanagari section, kpd:p184-189) gives year, half a year, three months, a month, twelve days at dawn: the fourth watch has a month, not half a month.
+- The *Bṛhadyātrā* 16.10 names three lists in one order (bya:p41-46): the last, middle and first parts of the night; rains, autumn, Mādhava (spring); wind, bile, phlegm. The verse does not pair them in words; the order of the lists is the only pairing.
+- The *Aṅgavijjā* ch. 42 reads *puvvaṇha* (forenoon) for the bright beginning on the page (p. 190), ch. 41 reads *avaraṇha* (afternoon) on p. 185; the apparatus notes no variant for the word in either (agv:p190-191, agv:p186). Which is the original reading by the manuscripts is not settled; ch. 42's own list (evening, midnight, break of day, forenoon, midday, afternoon) is the regular one.
+- Still open: the older source of the Svapnohana's series (the first question above).
 
 ### Searched and not found (RD265, 2026-11-09)
 
