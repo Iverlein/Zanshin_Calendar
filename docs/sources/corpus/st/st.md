@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD275 (2026-11-09): ch. 7's dream verse on two more prints, the Zhol print I5910 (img. 56–57) the Chag-po-ri print I1KG13487 (img. 48–49) the Chag-po-ri reprint I5907 (img. 66) and the Derge I00JW501163 (img. 41), found with Yigdzin-1 and looked at by eye at 8–14×; the readings by print in the claim `gt-dream-verse-chag-po-ri-prints`, section RD275. In these whole-work volumes the verse is not near img. 36–45.
 
+Read by RD279 (2026-11-09): the last copies for ch. 7's line 17, in part. Chag-po-ri MW8228 (I1KG10010, img. 30–58) and Derge MW1KG12776 (I1KG12862, img. 36–52) read with Yigdzin-1 for the verse (རྟ་ཕག, བཟང་བ, བཟད་པ): not on them; these two volumes, in the range fetched, are a commentary on the Root Tantra's structure (summaries of the chapters and their branches, not the Explanatory Tantra's own text), so no ch. 7 colophon was found there either; no line 17 count was added. See the claim `gt-dream-verse-chag-po-ri-prints`, end.
+
 Read by RD270 (2026-11-09): Chag-po-ri scans I3CN1711 img. 40, I3CN1696 img. 44, I3CN1702 img. 36 and the Bhutan scan I1KG13565 img. 37–53.
 
 Read by RD271 (2026-11-09): Steinert's public dictionaries, the Bod lugs gso rig tshig mdzod chen mo etext (I00EGS1017132), BDRC searches.
