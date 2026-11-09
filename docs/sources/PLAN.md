@@ -1645,3 +1645,9 @@ Searched and found wanting, so not to be repeated:
   MW1NLM4232 the plain `vo:bdr:I1NLM4232_001` manifest works; RRT is I3KG732,
   img. N = printed folio N − 11). The scan fetch would belong in `bdrc.py` as a
   `scans` mode taking a `wvo:` manifest.
+- **RD222, 2026-11-09**: the cursive hand of TDR, SRM and GNC is about 40 px
+  a syllable on a 4320×896 page with six lines of about 80 px an image;
+  mapping a flagged syllable to an x position by character fraction put 3×
+  crops in the wrong place. A scan reader needs line-by-line crops cut from
+  the printed line boxes. Yigdzin-1 and MITRA agree at 96–98 % on SRM, 85–86 %
+  on TDR and 92–99 % on GNC; the doubts are listed in srm.md.
