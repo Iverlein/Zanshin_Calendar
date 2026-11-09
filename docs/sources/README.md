@@ -508,7 +508,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
-| [claims/night-watches.md](claims/night-watches.md) | claim, note | The night's watches in the Tibetan sources: counted, never bounded by the clock | cites wb.1:p101, wb.1:p17b, wb.2:p403, wb.1:p134-135, wb.1:p22, wb.2:p156, wb.2:p535-537, svo:p268, svi:p261; feeds block-73 |
+| [claims/night-watches.md](claims/night-watches.md) | claim, note | The night's watches in the Tibetan sources: counted, never bounded by the clock | cites svo:p271e, wb.1:p101, wb.1:p17b, wb.2:p403, wb.1:p134-135, wb.1:p22, wb.2:p156, wb.2:p535-537, svo:p268, svi:p261; feeds block-73 |
 | [claims/notes-collection-not-found.md](claims/notes-collection-not-found.md) | claim, note | The collection of deep points to be written separately: not found | cites wb.2:p538-539b; feeds — |
 | [claims/notes-gold-grid-gyo-khang-reprint-and-1996.md](claims/notes-gold-grid-gyo-khang-reprint-and-1996.md) | claim, note | The gold reckoning's grid is gyo khang on the reprint and the 1996 print too | cites wb.2:p538-539b; feeds — |
 | [claims/notes-gold-grid-gyo-khang.md](claims/notes-gold-grid-gyo-khang.md) | claim, note | The gold reckoning's grid: gyo khang on Mipham's own print | cites wb.2:p538-539b; feeds — |
@@ -599,7 +599,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-la-mo-conflict.md](claims/svo-la-mo-conflict.md) | claim, conflict | Peking and Narthang read rta la mo where the Derge text has rta bla mo | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-la-mo-further-narthang.md](claims/svo-la-mo-further-narthang.md) | claim, note | The two further Narthang prints read rta la mo, as Peking and the first Narthang print do | cites svo:p271c, svo:p271b; feeds RD231 |
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
-| [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p268-271; feeds RD233 |
+| [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
 | [claims/svo-remedy.md](claims/svo-remedy.md) | claim, remedy | The Svapnohana's remedy for bad dreams | cites svo:p271; feeds block-73 |
 | [claims/svo-time-ties-other-than-the-watch.md](claims/svo-time-ties-other-than-the-watch.md) | claim, note | The Svapnohana's ties of a dream to a time other than the watch | cites svo:p268, svo:p269, svo:p270, svo:p271, svi:p261; feeds block-73 |
@@ -977,7 +977,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 1 passages: 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 4 passages: 1 scan, 2 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 8 passages: 3 scan, 4 machine, 1 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 9 passages: 4 scan, 4 machine, 1 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |

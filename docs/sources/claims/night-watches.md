@@ -2,7 +2,7 @@
 kind: claim
 type: note
 terms: [thun, thun-mtshams, nam-phyed, tho-rengs, nam-langs]
-cites: ['wb.1:p101', 'wb.1:p17b', 'wb.2:p403', 'wb.1:p134-135', 'wb.1:p22', 'wb.2:p156',
+cites: ['svo:p271e', 'wb.1:p101', 'wb.1:p17b', 'wb.2:p403', 'wb.1:p134-135', 'wb.1:p22', 'wb.2:p156',
   'wb.2:p535-537', 'svo:p268', 'svi:p261']
 feeds: [block-73]
 open: []
@@ -15,7 +15,7 @@ No Tibetan source read so far fixes the four watches of the night (ཐུན, th
 
 **WB: the night of the six times and the three watches.** WB's own list of the Chinese-style times (vol. 1, p. 17, read on the scan) sets the night from sunset (ཉི་ནུབ) to dawn (ཐོ་རེངས), names its hours in this order: sunset, dusk (ས་སྲོས), the evening round (སྲོད་འཁོར), midnight (ནམ་ཕྱེད), past midnight (ཕྱེད་ཡོལ), dawn; the day's six start at "dawn" (ནམ་ལངས, the hare). So the night is six double-hours and dawn (ཐོ་རེངས) is the last of them, the close of the night, before the day's first time begins. In the same list the night is named "the time of lying down in the dark, the three watches, those where the night lotus opens": here WB counts the night in three watches (ཐུན་གསུམ). So WB itself carries a three-watch name of the night, a four-watch count in the Rāhu passage and a six-time scheme for the hours, without joining them.
 
-**The texts' own night.** The Svapnohana gives four watches and a fifth term of dawn (SVO p. 268; the claim svo-watches-and-spans); it does not bound them. The Svapna-īkṣā has three parts of the night and no word ཐུན (the claim svi-night-parts). The Buddha's night of awakening in WB (vol. 1, p. 22) is told in three: dusk (སྲོད), the first part of the night (ནམ་གྱི་ཆ་སྟོད), the middle (གུང), then dawn (ཐོ་རངས). The ritual manuals read for the four rough times (weighing.md) use the word ཐུན for the practice sessions of the day (four: dawn, morning, afternoon, dusk; or six: dusk, midnight, dawn, sunrise, noon, evening shadow), not for the watches of a night; they name moments, not spans, and none fixes a watch by the clock.
+**The texts' own night.** The Svapnohana gives four watches and a fifth term of dawn (SVO p. 268; the claim svo-watches-and-spans); it does not bound them. The four stand in the Derge, Narthang and gser bris ma prints and the Dpe bsdur ma text; only the Peking print lacks the fourth's line, so it is a Peking omission, not a Derge addition (svo-peking-fourth-watch-line). The Svapna-īkṣā has three parts of the night and no word ཐུན (the claim svi-night-parts). The Buddha's night of awakening in WB (vol. 1, p. 22) is told in three: dusk (སྲོད), the first part of the night (ནམ་གྱི་ཆ་སྟོད), the middle (གུང), then dawn (ཐོ་རངས). The ritual manuals read for the four rough times (weighing.md) use the word ཐུན for the practice sessions of the day (four: dawn, morning, afternoon, dusk; or six: dusk, midnight, dawn, sunrise, noon, evening shadow), not for the watches of a night; they name moments, not spans, and none fixes a watch by the clock.
 
 **Mipham's notes and the manuals.** The etext of WB's notes (vol. 2, pp. 474–541) holds no «ཐུན་བཞི», «མཚན་ཐུན», «ནམ་ཐུན» or «སྲོད་ཐུན»; its «ཐུན» words are the hand reckoning's (q353), the nectar session (བདུད་རྩིའི་ཐུན་མཚམས, p. 471) and the half-watch (ཐུན་ཕྱེད, p. 542). No watch of the night is bounded there.
 
