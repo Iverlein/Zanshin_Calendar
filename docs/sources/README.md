@@ -412,6 +412,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
 | [claims/garuda-purana-no-dream-chapter.md](claims/garuda-purana-no-dream-chapter.md) | claim, note | The Garuḍapurāṇa has no chapter on dreams (RD265) | cites gpu:p131; feeds block-73 |
 | [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558, gnc.1:p559-561; feeds S1 |
+| [claims/gt-dream-death-images.md](claims/gt-dream-death-images.md) | claim, list | The bad dreams of the sick that mark the lord of death: every image in the Drathang's verse and what it marks | cites gt:i42-43, bjp:p177-181; feeds S2, RD216 |
+| [claims/gt-dream-death-rule.md](claims/gt-dream-death-rule.md) | claim, rule | After the bad dreams: the cause, who dies, the six kinds, the dawn dream and the good dreams, in the Drathang's verse | cites gt:i42-43, bdk:p53-54; feeds S2, RD216 |
+| [claims/gt-dream-verse-variants.md](claims/gt-dream-verse-variants.md) | claim, conflict | The Drathang's dream verse against the four commentaries' quotations: the syllable variants | cites gt:i42-43, bjp:p177-181, rsp:p208-211, ktr:p303-307, bdk:p53-54; feeds S2 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
 | [claims/hatsuyume-night-history.md](claims/hatsuyume-night-history.md) | claim, rule | The night of the first dream: from 節分 to 2 January | cites nip:p1, skf:p1; feeds S3 |
@@ -967,7 +970,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
-| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 1 passages: 1 machine |
+| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 2 passages: 2 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |

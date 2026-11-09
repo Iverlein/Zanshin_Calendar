@@ -134,7 +134,7 @@ The catalogue of the dream images, built from the passages RD59, RD207–RD212 r
 
 ### The dreamer ill
 
-- [Any dream as a distant, uncertain sign of death](dream-sick-any-dream-death-sign.md): ST, WB25 (only when ill)
+- [Any dream as a distant, uncertain sign of death](dream-sick-any-dream-death-sign.md): ST, WB25 (only when ill); the Four Tantras' list of the bad dreams of the sick, image by image: [gt-dream-death-images](gt-dream-death-images.md) (RD268)
 - [Many confused dreams (རྨི་ལམ་ཟ་ཟི་མང, rmi lam za zi mang)](dream-sick-confused-dreams.md): ST, WB25 (only when ill)
 - [The dreams that mark the harmful nāga spirits' illness (ch. 81)](dream-sick-naga-illness-dreams.md): ST (only when ill)
 - [Women leading the dreamer away](dream-sick-women-lead-away.md): ST (only when ill)
