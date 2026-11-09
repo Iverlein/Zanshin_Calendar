@@ -953,7 +953,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
-| [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 1 passages: 1 machine |
+| [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
@@ -1636,6 +1636,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0840.md](questions/q0840.md) | question q840 | What are «རམ་རུག» (ram rug) and «སྦང» (sbang) in the Lama Gongdü's goods of gossip, and is the dream phrase one three-word name or two items? | open; cites lgd.42:p969b |
 | [questions/q0841.md](questions/q0841.md) | question q841 | In the Sbas-yul manuscript and the Ngodrup and Sherab Drimay print the phrase begins «རི་ཏུག»/«རྟ་ཏུག» and ends «ཁྱེར»/«ཕྱེར»: the same list item under a different hand, or a different item? | open; cites lgd.42:p969b |
 | [questions/q0842.md](questions/q0842.md) | question q842 | Does Scheuermann's chapter name a Sanskrit original or a parallel text for the Svapnohana, and does it say how Tibetan readers used the work? | open; cites sch:p161-180 |
+| [questions/q0843.md](questions/q0843.md) | question q843 | Rin spungs pa's ch. 7 verse reads «རྨི་ལམ་མི་ཟད་པ» where Byang pa, Khro ru and the 'Bri gung quote «རྨི་ལམ་མི་བཟང་བ»: which does the Serthang print have? | open; cites st:p507 |
+| [questions/q0844.md](questions/q0844.md) | question q844 | In ch. 81 two later witnesses read «ལྷས་ཚོར་ངུས་ཏེ» and the Serthang scan and most others «ལྷས་ཚོར་དུས་ཏེ»: is ངུས a reading of the Bhutan print and the 2005 Lhan thabs, or a fault of the etext, and what does ལྷས་ mean? | open; cites st:p350-351 |
+| [questions/q0845.md](questions/q0845.md) | question q845 | Khro ru glosses the creatures of ch. 81 with «རྟ་བླ» and «གྲོག་མ», and Sde srid's verse has «རྟ་བླ» where the Four Tantras have «འབུ་སྦྲང»: what is the rta bla? | open; cites st:p350-351 |
+| [questions/q0846.md](questions/q0846.md) | question q846 | The 'Bri gung glosses the dreams of water, trees and the green meadow as «གཏད་དུ་ཚུད་པ» (Khro ru «བཏད་དུ་ཚུད་པ»): a pledge, a trust, or a different word? | open; cites st:p350-351 |
 
 <!-- end pool index -->
 
