@@ -1670,3 +1670,7 @@ Searched and found wanting, so not to be repeated:
   - The Taikhang reproduction (I5877 img. 587, 589, 590, which should hold pp. 428, 430, 431; the offset page + 159 is a guess) fetched and not read; the Zhol print not opened.
 - **RD231, 2026-11-09** (RD231, 2026-11-09):
   - scans.py line fails with IndexError on I3279 img. 288 and I1PD31365 img. 389: the strips carry a black frame that defeats the row-ink line finder; scans.py crop with pixel boxes works (gser bris ma 1540 255 1820 320; Narthang 600 190 800 235). The OCR line numbers do not map to scan rows, so look at a stack of the whole image first.
+- **RD232, 2026-11-09** (RD232, 2026-11-09):
+  - Palri img. 541 and 543 not read: only line 1 of img. 542 carries the phrase.
+  - Sbas-yul img. 148: the cursive hand does not settle «རྟ་ཇུག་སྦང་ཕྱེར» by eye; the phrase is on line 3 after «ཞོན་པ༔ ཞོན་ནས་དབང་མེད་དུ་ཁྱེར་བ༔».
+  - Zhe chen img. 310 line 6: the phrase lies at x 1750–2750, y 305–395 (scans.py crop); the second syllable «རུག» or «རྒྱུག» is not settled by eye; Kazi ར against ང is a moderate-confidence reading of a grainy print.
