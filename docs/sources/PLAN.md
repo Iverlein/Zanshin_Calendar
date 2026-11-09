@@ -1596,3 +1596,9 @@ Searched and found wanting, so not to be repeated:
 - **RD210, 2026-11-09** (RD210, 2026-11-09):
   - The etext IE0OPIAB2E5954 (vol. 6 of the First Dalai Lama's Gsung 'bum) is unusable for SRM printed pp. 386–389 (garbled OCR); the scan must be read.
   - `bdrc.py volumes W…` answers 401 for these W ids; volume ids come from ldspdi.bdrc.io/resource/W….json (instanceHasVolume, then volumeNumber).
+- **RD214, 2026-11-09**: Scheuermann's chapter (Brill, DOI
+  10.1163/9789004410688_009, https://brill.com/display/book/9789004410688/BP000009.xml)
+  answers HTTP 405 "Human Verification" (a CloudFront WAF captcha) to curl and
+  to the headed Playwright browser alike; library.oapen.org answers the
+  Anubis page; Crossref holds metadata only. The reading waits for the
+  chapter's PDF from the owner (solved in his browser, or a library copy).
