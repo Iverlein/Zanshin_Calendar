@@ -61,7 +61,7 @@ class SourcesTest {
                 assertTrue(file.exists(), "${r.id} is done, but $name does not exist")
                 val text = file.readText()
                 assertTrue(Regex("""\b${r.id}\b""").containsMatchIn(text), "${r.id} is done, but $name does not name it")
-                assertTrue(tibetan.containsMatchIn(text) || name == "kyureki.md" && kanji.containsMatchIn(text), "${r.id} is done, but $name holds no passage in its script")
+                assertTrue(tibetan.containsMatchIn(text) || (name == "kyureki.md" || name.startsWith("corpus/eb9/")) && kanji.containsMatchIn(text), "${r.id} is done, but $name holds no passage in its script")
             }
         }
     }
