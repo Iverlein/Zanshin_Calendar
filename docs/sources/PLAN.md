@@ -1589,3 +1589,7 @@ Searched and found wanting, so not to be repeated:
   森田登代子's 「大雑書研究序説」 and nichibun.repo.nii.ac.jp/records/651 not
   reachable; no 大雑書 dream table tied to 庚申, the stems or dates besides ゆ六
   in the 万代大雑書 part 15.
+- **RD211, 2026-11-09**: the Gser thang print I3CN5038 runs its pages
+  backwards from about img. 199 to img. 261 (img. 202 = printed p. 241,
+  img. 225 = p. 218, img. 260 = p. 183), so a chapter's colophon lies on a
+  lower image than its text; the registry's page rule holds only to img. 39.

@@ -27,6 +27,9 @@ Serthang p. 34, img. 44, ll. 9–14 of the scan (the end of the seventh chapter,
 
 Read on the scan, 2026-11-09. The etext has ལས་ for the print's ལྟས་ in «ཤིན་ཏུ་ཉེ་བའི་ལྟས་ལ་ཟློག་ཐབས་མེད» and a stray run of marks after འཇིག; q784 quotes the line right. The print has རྟོགས་པར་བུ་ (Yigdzin-1 reads བྱ), the same old spelling as ཞེས་བུ་ on p. 241. The print's page number is the image minus 10 here, not 13 (the registry's rule stops at img. 39).
 
+Read by RD211 (2026-11-09): ST etext pp. 34, 44, 202, 225, 260, 362–363, 507 on the Gser thang scan I3CN5038 (printed pp. 21, 34, 241, 218, 183, 350–351, 493).
+
+
 ## <a id="st-p92"></a>st:p92 Ch. 31, the physician: the Medicine Buddha's dhāraṇī over the medicine
 
 *Read: scan, 2026-11-04.*
