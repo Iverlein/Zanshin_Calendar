@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD233 (2026-11-09): the Svapnohana whole on the Peking print (W1KG13126 vol. 28, I1KG13197 img. 315–318), by eye on enlargements.
+
 Read by RD231 (2026-11-09): SVO in the Narthang print (W22704 vol. 28, I3279 img. 286–289) and the gser bris ma Narthang (W23702, I1PD31365 img. 386–391).
 
 Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318) and Narthang (W2KG5015 img. 284–288) prints and the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); LGD in the Palri Parkhang, Kazi, Ngodrup and Sherab Drimay, Sbas-yul prints and the Shechen etext.
@@ -130,3 +132,29 @@ The Svapnohana in two other prints of the Tengyur (Peking, Narthang) and in the 
 > རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
 
 The line "a horse, la mo (ལ་མོ), a pot-belly (ལྟོ་འཕྱེ), a water creature seized" in two further Narthang prints of the Tengyur, apart from the one of RD228 (W2KG5015, I2KG212312). The Narthang print of vol. 28 (W22704, I3279, img. 286–289, a hand-cut print; the scan shows the printed number 284 on img. 288) and the gser bris ma (W23702, I1PD31365, img. 386–391, the scan shows the printed number 387 on img. 389) were read by Yigdzin-1, and the line found by it (Narthang img. 288, line 4 of Yigdzin-1's text; gser bris ma img. 389, its line 6) was read by eye on enlargements of 6× and 8×. Both prints show «རྟ» then a plain «ལ» then «མོ»: no «བ» over a subjoined «ལ», so «ལ་མོ» as in Peking and the first Narthang print. Yigdzin-1 gives «ལ་མོ» in both. The other doubtful places by Yigdzin-1 only, in both prints: «བགྲོད་མིན» (Narthang img. 286, gser bris ma img. 387), «འགྲོན་བུ» (the same images), «བཅུ་ཡི་བར» (img. 288, 389) and «ག་ཡ་ཏྲི» (img. 289, 391, with ཏྲི, not ཏཱི) agree with Peking; these were not read by eye, only the «ལ་མོ» line was.
+
+## <a id="svo-p271d"></a>svo:p271d The Svapnohana whole on the Peking print (img. 315–318)
+
+*Read: scan, 2026-11-09.*
+
+> Peking (W1KG13126 vol. 28, I1KG13197 img. 315–318), the places read by eye on enlargements of 1.25× to 2.4×:
+> 
+> img. 315 line 2 (the watches), the fourth-watch line absent:
+> ཐུན་གཉིས་ཟླ་བ་བརྒྱད་བར་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར་དུ། །མཐོང་བར་འགྱུར་བ་ཐེ་ཚོམ་མེད། །
+> 
+> img. 315 line 5, img. 317 lines 3, 5, 8, img. 318 line 4:
+> རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །
+> འགྲོན་བུ་གླང་དང་བ་རྣམས་དང་། །
+> རྒོད་མ་ཁྱིམ་བྱ་ཀྲ་ཨུཉྩི། །
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །
+> རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ་དང་། །
+> གཞན་རྣམས་དཀར་པོ་མངོན་པར་དགའ། །
+> གང་གིས་ནང་པར་ཀློག་པ་དེའི། །
+> ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །
+> འདི་ནི་ངག་དབང་དགོངས་པ་སྟེ། །
+> རྨི་ལམ་བརྟག་པ་རྫོགས་སོ། །
+> རྒྱ་གར་ཤར་ཕྱོགས་ཀྱི་པཎྜི་ཏ་བི་བྷཱུ་ཏི་ཙནྡྲས་རང་འགྱུར་དུ་མཛད་པའོ།
+
+The Svapnohana on the Peking print of the Tengyur (BDRC W1KG13126, vol. 28; image group I1KG13197, img. 315–318; red print, letters about 40 pixels, text block x about 480–4890, 8 lines on img. 315, 316 and 317, 5 on img. 318, line pitch about 111 px; printed page numbers 3 digits at the margin) read line by line by eye on crops of 1.25× to 2.4×, two lines at a time, 1500-pixel stretches; the Derge text of RD207 (svo:p268-271) beside it. The text runs: img. 315 from the title (line 1: "in Sanskrit …, in Tibetan the examination of dreams, homage to the Buddha, the many dreams, their examination I shall tell") through the watches (line 2), the first good images (lines 3–4), the road (line 5), the traveller and the end of sleep (lines 5–6), the lotus, the lamp and the girl (lines 7–8); img. 316 from the lamp list through the flesh eaten (lines 1–2), the entrails, the sword and the boat (lines 2–4), the bad dreams (lines 4–6), the cart of the donkey and the she-camel, the woman in red and the woman in white (lines 6–8) to the woman in black; img. 317 from the black woman's verse through the yellow woman, sun and moon, the white snake (lines 3), the krauñca (line 3), kin and the bound (line 4), the white and black things (lines 4–5), the horse, la mo and water creature (lines 5–6), blood and beer, milk (lines 6–7), curd, village, barley offering, mustard, flower, fruit (lines 7–8), to the fire "declared fearful" at the end of line 8; img. 318 line 1–2 the burning seat, bed, mount, chariot and house, the sign worshipped, the body seen, what gods, brahmins, father and women say; lines 3–4 the dancing gods, running on a terrace, the remedy (red sandalwood, butter, fire offering, the Gāyatrī a thousand times), "the intention of Ngag dbang" and the one who reads it at dawn (nang par); line 5 the end of the examination and the translator's line (Vibhūticandra, the eastern Indian paṇḍita, his own translation), after which the next work's title begins in the same line.
+
+Differences from the Derge text: (1) the line of the fourth watch, «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ», is not on the Peking print, and the third watch ends «བར་དུ» with the verse's last line following at once; read on a 2× crop of img. 315 line 2 (moderate confidence). (2) No other syllable differs in the places read; the rest of the Peking text was read at 1.25× with the Derge text in mind, so a single-syllable difference in an unremarkable word could have passed (the lines were checked for the shape of each verse line, not syllable by syllable). Peking reads «རྟ་ལ་མོ» (plain la, 2.2× crop of img. 317 line 5), «འགྲོན་བུ», «བགྲོད་མིན», «བཅུ་ཡི་བར», «ག་ཡ་ཏྲི» (with ཏྲི, not ཏཱི) and «ཨུཉྩི» (the stack ཉྩ with i, not ཙྪི; moderate). Not settled: the Sanskrit title on img. 315 line 1 (five signs, the first «སྭ», the third «ཨུ», the stack after it not told apart; neither «སྭབྣཱ་ཨུ་ཧཱ་ན» nor the machines' readings confirmed); the last syllable of «འབྲས་བུ་ལྡན་ན་བློ་མེད་…» on img. 317 line 8 (the Derge etext «བློ»; a stack with a vowel sign on the Peking print not told apart); the start of img. 318 line 5 (where the Derge's «རྨི་ལམ་བརྟག་པ་རྫོགས་སོ» is split between lines 4 and 5, one syllable more than expected looked present); the first syllables of the colophon's «བི་བྷཱུ་ཏི» (read as the Derge etext, vowel signs coarse).
