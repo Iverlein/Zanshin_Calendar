@@ -2161,6 +2161,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1048.md](questions/q1048.md) | question q1048 | In the lines «བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད» (mmk.1:p400-401) is the Sanskrit's word «krama» (order) or «sama» (equal), and does «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས» mean all dreams are set aside or only the «dream-named» kind? | open; cites mmk.1:p400-401 |
 | [questions/q1049.md](questions/q1049.md) | question q1049 | Is the Sakya explanation that the first watch is mixed with the day, the midnight watches are deep sleep and the dawn watch is clear (Kun dga' rin chen; Rgyud sde kun btus pp. 460-461) older than him, for instance in a Sakya or Indian commentary on the Mañjuśrīmūlakalpa? | open; cites mmk.1:p397-399 |
 | [questions/q1050.md](questions/q1050.md) | question q1050 | In ch. 18 of the Mañjuśrī root tantra a watch is «four chu tshod» and also «four yud tsam» while the day has «thirty yud tsam» (pp. 438-439); how are these counted, and is the dream verse's fourth watch the one between midnight and dawn, given that the omens count three watches, midnight, dawn and sunrise (pp. 436-437)? | open; cites mmk.1:p397-399 |
+| [questions/q1051.md](questions/q1051.md) | question q1051 | The 六甲の夢うらなひ takes the same lines for every dream of a day and is no list of dream objects; is it a rendering of a known older day-table for the sixty days (Chinese 六十甲子 dream tables, Japanese 夢占 of the 大雑書), and which one does the 夢合長寿鑑絵抄 follow? | open; cites mdz:i426556b |
 
 <!-- end pool index -->
 
