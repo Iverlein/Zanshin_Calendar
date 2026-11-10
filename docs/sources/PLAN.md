@@ -1873,3 +1873,7 @@ Searched and found wanting, so not to be repeated:
   - The Svapnohana's colophons on the Derge, Peking and Narthang: no author, reviser or place named; the title-like tag after «༡༡» at the end of Peking img. 314 line 8 not told apart at 1.5×.
   - The Derge dkar chag and the Peking and Narthang catalogues were not opened (no etext or scan located); the catalogue statements stand as RD257 recorded them.
   - BDRC person records of Vibhūticandra and Vāgīśvarakīrti: no work, teacher or pupil link between them, no entry naming the remedy's Ngag dbang.
+- **RD295** (RD295, 2026-11-10):
+  - A text of the Aṣṭāṅgahṛdaya Śārīrasthāna on GRETIL: the site holds only the Sūtrasthāna (and under a non-commercial licence); the Śārīrasthāna was read on the Kunte page images.
+  - A variant of the cows' line (go-sarga against go-mārga) in Kunte's notes: the page has no apparatus.
+  - A commentary on Bṛhadyātrā 16.10 that states the pairing: none open.
