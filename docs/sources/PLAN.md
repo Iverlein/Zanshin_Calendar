@@ -1952,3 +1952,6 @@ Searched and found wanting, so not to be repeated:
 - **RD317** (RD317, 2026-11-10):
   - A Sanskrit dream text with the half-month for the fourth watch other than the Brahmavaivarta's chapter: Internet Archive title search for Ācāramayūkha and Svapnādhyāya gave six items: two photographed manuscripts of the Bhagavantabhāskara (text layer noise), the Bṛhaspati Svapnādhyāya manuscripts already read (RD277), and the CC BY-NC-ND Romanian translation of the Ācāramayūkha (a lead only).
   - A public-domain print of the Ācāramayūkha with the dream chapter: not found in the Internet Archive title search; HathiTrust not searched.
+- **RD315** (RD315, 2026-11-10):
+  - BDRC full-text search, 2026-11-10, no hit: «ས་སྐྱ་པཎྜི་ཏ་རྨི་ལམ་བརྟག་ཐབས», «རྨི་ལམ་བསྟགས་པའི་དཔལ», «བླ་མ་རྒ་ལོ་ཟེ་དམར་བ», «བི་ཁྱཱ་ཏ་དེ་བ་ཤཱཀྱ་ཤྲཱི་དཱ་ན་ཤྲཱི», «དམར་མོའི་གདུང་ཐལ», «དམར་མོ་ཤི་བའི་རོ་བསྲེགས་པའི་ཐལ», «སྒྲ་ཚད་པ་རིན་ཆེན་རྣམ་རྒྱལ་བུ་སྟོན»; «རྣོ་བཀྲའི་ལོ་རྒྱུས» two hits, titles only; «ལེགས་པར་བཤད་པ་པདྨ་དཀར» 34 hits, all titles.
+  - SKP img. 50 lines 3–4 at 3×: cursive not resolved; no MITRA on GNC img. 501–502; MDP's second text (p. 138 ff.) not read to its end; Steinert's dictionaries not consulted, so «dmar mo» and «rno bkra» are not looked up there; no author or colophon name at the end of White Tārā's text in the other TDR print.
