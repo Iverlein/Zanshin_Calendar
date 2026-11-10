@@ -625,6 +625,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mph-sukhavati-dream-sign-of-rebirth.md](claims/mph-sukhavati-dream-sign-of-rebirth.md) | claim, note | Mipham: a dream of the field and the Teacher is the lowest sign of progress toward Sukhāvatī | cites mph.104:i236-237; feeds S1, RD362 |
 | [claims/mvy-thun-gsum-pa-third-of-five-watches.md](claims/mvy-thun-gsum-pa-third-of-five-watches.md) | claim, note | The Mahāvyutpatti's thun gsum pa is the third of five watches of the night (RD322) | cites svo:p271q; feeds block-73 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
+| [claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md](claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md) | claim, note | The Narthang catalogue names the Deceiving Death's author Ngag dbang grags pa (img. 197) and has no Examination of Dreams entry where the Derge order would put it (img. 196–206) (RD365) | cites svo:i197; feeds — |
 | [claims/neg-acaramayukha-quotes-month-series.md](claims/neg-acaramayukha-quotes-month-series.md) | claim, note | Nīlakaṇṭha's Ācāramayūkha quotes a Svapnādhyāya with a month for the fourth watch (RD317) | cites neg:p14-16, neg:p32; feeds block-73 |
 | [claims/neg-i-tripaksake-unmarked-ramtek-masake.md](claims/neg-i-tripaksake-unmarked-ramtek-masake.md) | claim, note | Negelein marks nothing at 'tripakṣake' of his manuscript i; the Ramtek copy has a locative in -māsake for the third watch (RD312) | cites neg:p14-16, rmk:i2b, pzs:i102-103b; feeds block-73 |
 | [claims/neg-manuscripts-and-the-series.md](claims/neg-manuscripts-and-the-series.md) | claim, table | Negelein's manuscripts a–w and which of them carry the Svapnohana's five-span series (RD272) | cites neg:p14-16, neg:p32, neg:p376, skd:p470-471; feeds block-73 |
@@ -1250,7 +1251,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 26 passages: 10 scan, 8 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 43 passages: 13 scan, 7 machine, 23 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 44 passages: 14 scan, 7 machine, 23 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 6 passages: 1 scan, 1 machine, 4 etext |

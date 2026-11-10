@@ -127,6 +127,32 @@ Jo nang abbot Phyogs las rnam rgyal, *Catalogue of the translated treatises* (Bs
 
 The one difference from the Derge catalogue that matters: the Deceiving Death's author is written «ངག་དབང་གྲགས་པ» (Ngag dbang grags pa), the short form of Ngag gi dbang phyug grags pa (Vāgīśvarakīrti), and its translators are given as "Jo bo rje and Rin chen bzang po" where the Derge catalogue and colophon say Dīpaṃkaraśrījñāna. State: etext (the scans are lent only on archive.org; HTTP 401).
 
+## <a id="svo-i197"></a>svo:i197 The Narthang catalogue (vol. 225, img. 197 line 4): the Deceiving Death's instruction by Ngag dbang grags pa, with illustrations, translated by Dīpaṃkaraśrījñāna and Rin chen bzang po (RD365)
+
+*Read: scan, 2026-11-10 (RD365): the whole of the Narthang catalogue's images 141–206 that carry the works on the deities, Yigdzin-1 on whole images and on crops of the text block, one line enlarged by eye; the image number is the image of I2KG212509 (vol. 225), not of a volume of the Svapnohana.*
+
+> ངག་དབང་གྲགས་པའི་འཆི་བླུའི་བསྡུས་དོན་གཉིས། མན་ངག་ངག་དབང་གྲགས་པས་མཛད་པ་དཔེ་རིས་དང་བཅས་པ་པཎྜི་ཏ་དཱི་པཾ་ཀ་ར་ཤྲཱི་ཛྙཱ་ན་དང་། ལོ་ཙཱ་བ་རིན་ཆེན་བཟང་པོའི་འགྱུར།
+
+Narthang Tengyur manuscript (Tibet House, New Delhi; BDRC W2KG5015, vol. 225, the catalogue "Bstan bcos 'gyur ro cog gi dkar chag tshangs pa'i dbyangs", image group I2KG212509), img. 197, line 4, in the run of the works on Yamāntaka (Vajrabhairava). The line, read by Yigdzin-1 on the whole image and checked by eye on a 1.3× crop (the end of the line after "paṇḍita Dīpaṃkaraśrījñāna and" is read by the model and looks the same on the crop, but was not enlarged further):
+
+"Ngag dbang grags pa's two condensed meanings of the Deceiving Death (འཆི་བླུའི་བསྡུས་དོན་གཉིས). The instruction (མན་ངག) made by Ngag dbang grags pa, with illustrations (དཔེ་རིས་དང་བཅས་པ): translation of the paṇḍita Dīpaṃkaraśrījñāna and the lotsāba Rin chen bzang po."
+
+The catalogue is arranged by deity, not in the order of the Derge catalogue, and its entries give "made by" (མཛད་པ) and "translation of" (འགྱུར) after each title. Whether these "two condensed meanings" are the 360-verse Deceiving Death (the work the Derge and Jo nang catalogues name) or other pieces of the same cycle is not settled by the line: it names no number of verses. Its author is written, as in the Jo nang catalogue, «ངག་དབང་གྲགས་པ» (Ngag dbang grags pa), and the translators are Dīpaṃkaraśrījñāna and Rin chen bzang po, the Derge catalogue's pair. On img. 200 (the end of the Yamāntaka and Mañjuśrī runs, read on a crop) a list of the subjects of a work ends "…the prolonging of life (ཚེ་བསྒྲུབ་པ), the Deceiving Death (འཆི་བ་བླུ་བ), the remedy of the signs of approaching death (འཆི་ཁ་མའི་ལྟས་བཅོས), burning a corpse (རོ་སྲེག་པ)…", then a paṇḍita "Mar me mdzad ye shes" (Atiśa); that is a list of a work's topics, not a title with a maker. Another entry, img. 168, the Tārā run, has "the white Tārā's practice of the Deceiving Death (འཆི་བ་བླུ་བའི་སྒྲོལ་མ་དཀར་མོའི་སྒྲུབ་ཐབས) by the pupil of Ngag gi dbang phyug grags pa" and a "Tārā practice of the Deceiving Death instruction"; these are other works.
+
+**No entry for the Examination of Dreams (the Svapnohana) was found** in images 141–206, where the Derge and Jo nang order would put it, between the Deceiving Death and the Black Lord run (the Black Lord run begins about img. 202 and runs past img. 206): the Yigdzin-1 text of images 196–206 (crops for the even images, which the whole-image run returned empty) has no word «རྨི་ལམ» and no «བརྟག་པ»-titled entry there. The only dream titles in the whole run are on img. 141 (a list of practices: "turning back the wrong view of dreams" རྨི་ལམ་གྱི་ལྟ་བ་ལོག་པ་རྣམ་པར་བཟློག་པ, "showing dreams" རྨི་ལམ་སྟོན་པར་བྱེད་པ, "meditating the stainless dream" རྨི་ལམ་དྲི་མ་མེད་པ་བསྒོམ་པ), none of them the Svapnohana. The pages outside this range were not read (OCR of the etext is corrupt; see RD359).
+
+### Open (RD365)
+
+Question: Does the Narthang catalogue list the Examination of Dreams at all, and where? Its order is by deity, so the entry may stand in a run not read here (images 3–140, 207–290 were not read page by page; only the etext's corrupt text and Yigdzin-1 on images 286 and 262–266, 274, 233 were looked at).
+
+Question: Are the "two condensed meanings of the Deceiving Death" of img. 197 line 4 the 360-verse work of the Derge catalogue or shorter pieces?
+
+### Searched and not found (RD365)
+
+- Padma rdo rje's etext (VEIE0OPI409E1122_I1KG10372): `bdrc.py etext` answers HTTP 403 for every window on 2026-11-10, as it did for RD282: the book was not fetched and none of its pages, 16–17, was read; q847 and q1003 stay open. (A request with browser-like headers was not made; that would only be a way round the access the library withholds.)
+- The Peking Tengyur catalogue "in vols. 221–224 of W1KG13126": the volumes (I1KG13390–13393, 730, 720, 580, 704 images) were sampled (img. 4–6, 12, 100, 300, 500, 700–707 of vol. 224, and 12, 100, 300, 500 of vols. 221 and 223): they are ordinary running text in 6–8 lines to the page (vol. 224's last leaves carry repeated formulas of a sūtra commentary and the folio mark «第二百三十六函 … 下三百四十八»), no list of titles and translators. No catalogue stands in them at the places sampled; where the Peking catalogue is (if on BDRC at all) is not known.
+- Narthang vol. 225's etext (VEIE0OPIF6EAA761_I2KG212509) is served whole (288 pages) but its OCR garbles the entries; phrase search in it for «རྨི་ལམ་བརྟག», «འཆི་བ་བསླུ», «སྭཔྣ» found nothing and is not evidence.
+
 ## <a id="svo-p268"></a>svo:p268 Title, the watches of the night and their spans, the first images (page 268 lines 4–7)
 
 ## <a id="svo-p268-271"></a>svo:p268-271 The examination of dreams, whole: the watches of the night, the images, the remedy
