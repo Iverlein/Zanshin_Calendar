@@ -1165,7 +1165,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 9 passages: 5 scan, 4 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 9 passages: 6 scan, 3 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
@@ -1979,6 +1979,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0981.md](questions/q0981.md) | question q981 | Is the writer of the copies, Blo bzang karma bkra shis of the Red-Hat family (GDM's volume, 2nd text) or Blo bzang nyi ma (GDR's volume), the same hand as the dream text's, and can a reader of Mongolian manuscript hands date the three volumes by paper and hand? | open; cites gdm:i82, gdr:i37 |
 | [questions/q0982.md](questions/q0982.md) | question q982 | In the Sha za brtsegs pa'i rgyud's ninth section the signs of nearness (black man, black dog, raven, tiger, thunder) stand under the title «the chapter of the dream signs»: are they dreams of the practitioner at the approach, and are the lines after «ཐོག་འཚག་ཉེ་བའི་མཚན་མའོ» a second group, signs of the work succeeding? | open; cites szb:i463 |
 | [questions/q0983.md](questions/q0983.md) | question q983 | Does Dbang chen dgyes rab rdo rje follow a text for the dream step (he cites the Mantra Stages, «སྔགས་རིམ་ཆེན་མོ»), and does the Vairocana initiation tradition name signs a teacher reads in the pupils' dawn dreams? | open; cites dgd:i80-82 |
+| [questions/q0984.md](questions/q0984.md) | question q984 | Is the 夢合長者鑑, a dream book listed at forty sen in the publisher's list of the 万代大雑書三世相 (Suzuki Kiemon, 1886), set out in the NDL or any library, and does it carry the table of the days on which a dream is not told with a legend for the slash, or a 初夢 night? | open; cites mdz:i190 |
 
 <!-- end pool index -->
 

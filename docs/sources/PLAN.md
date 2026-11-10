@@ -2026,3 +2026,6 @@ Searched and found wanting, so not to be repeated:
   - A list of dream images in Dbang chen's img. 80–82: none, one expected dream, the mandala (2026-11-10); a line in the Sha za brtsegs pa'i rgyud's img. 463 that says dream apart from the colophon: none.
   - BDRC's IIIF route for Dbang chen: bdrc.py scans with the VE id (VE1ER1992) answers 500, the image group I4CZ30840 found from the work's record (I4CZ30837–30841 for vols. 1–5); bdrc.py volumes W4CZ30835 answers 401, with the MW id it lists only VE ids; for the Sha za brtsegs scan bdrc.py volumes MW2CZ7955 gives I1KG3558 directly.
   - No MITRA witness, so img. 463 lines 3–4 and the garbled words stay machine-read.
+- **RD339** (RD339, 2026-11-10):
+  - The table, 語らざる日 and 初夢 on images 128, 132–139 and 190 of pid 760742: not found; images 140–189 (the lots) seen only through the OCR sorted by image, not by eye; images 1–107 (front matter and almanac day-choosing tables) not read leaf by leaf, only 33, 36 and 101 looked at.
+  - The OCR text of the volume has no hit for 語らざる, 初夢 or 夢を見て, as in RD308; the cursive of the articles looked at, not read letter by letter.
