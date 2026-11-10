@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD385 (2026-11-10): the dream lines of the Nag rtsis part of the volume, Kun bzang blo gros's *Garland of Stars*, in the Kun 'dus chen mo vol. 3 etext (VEIE0OPI2F246A26_I4717) at etext pp. 584, 609 (from 608), 617, 668 (from 667), 670, 719 and 721 (printed page = etext page minus 20); the loaned scans not opened, no model run; each line's parallel in WB found by BDRC's exact-phrase search and read in WB's 1996 etext (VEIE0OPI51524892_I1KG12906, I1KG12907), the Gser thang page of vol. 2 p. 160 (I3CN5029 img. 166) only opened; the 24 places of «རྒྱ་བལ་ཁ་ཅིག» in the Mchog dga' counted in the etext.
+
 Read by RD376 (2026-11-10): the Dbyangs 'char's dream verses (ch. 3) on the Derge scan (I1521 img. 121-122, folio 60a-60b), the Narthang scans (I3462, I2KG212495 img. 127-128), the Peking scan (I1KG13380 img. 119-120), the Gser bris ma (I1PD31548 img. 176-178) and the Dpe bsdur ma etext [p1134]-[p1135]; the Mchog dga's Saturn and «Chinese-Nepalese» lines (Kun 'dus etext p. 198).
 
 Read by RD369 (2026-11-10): the Phug pa Mchog dga's dream section (Kun 'dus chen mo vol. 3 etext pp. 197-200, printed 177-180) with its houses, five places and thirty parts (pp. 104-105, 140-150), the root verses in the Dbyangs 'char itself (Derge Tengyur etext VE23703_1521 ch. 3 pp. 121-122, checked against the Dpe bsdur ma [p1134]-[p1135]) and the Mongolian dbu can print img. 276-279.
@@ -134,6 +136,62 @@ Saturn's Ketu: bile disease, fever and cold disease come; strife with children, 
 
 (Mchog dga' ch. 6, a verse line on Saturn with Ketu; etext only. Dream here is one of several results named for the conjunction, with no time of the night.)
 
+## <a id="kd-3-p564"></a>kd.3:p564 Kun bzang blo gros's Garland of Stars: the person of the water hare year dreams of a great precipice
+
+*Read: etext, 2026-11-10.*
+
+> ཆུ་མོ་ཡོས་ཀྱི་ལོ་པ་ནི། ། མི་རྣམས་ཀུན་ལ་བློ་མི་གཏོད། ། སྨྲ་རུ་ངོ་ལྡོག་སྡིག་གྲོགས་ཆེ། ། ཆང་དང་གཉིད་ལ་དགའ་བ་སྟེ། ། ཕ་ཡི་གདན་ས་འཕྲོག་པ་ཡིན། །བརྗེད་ངས་དང་ནི་སེར་སྣ་ཆེ། །དུར་ཁྲོད་ལྷ་ཁང་རྒྱལ་པོ་གནོད། ། གཡང་ས་ཆེན་པོ་རྨི་བར་བྱེད། །ཚེ་ཚད་བདུན་ཅུ་རྩ་གཉིས་ཐུབ། །བུ་སྐལ་ཡ་འུད་ཆེ་བ་ཡིན།
+
+The person of the water hare year (ཆུ་མོ་ཡོས་ཀྱི་ལོ་པ, chu mo yos kyi lo pa): trusts no one at all; in speech turns his face back (ངོ་ལྡོག, ngo ldog); many bad companions; fond of liquor and of sleep; he takes the father's seat; forgetful (བརྗེད་ངས, brjed ngas, the pair as printed) and very miserly; the graveyard, the temple and the king-spirits (རྒྱལ་པོ, rgyal po) harm him; he dreams of a great precipice (གཡང་ས་ཆེན་པོ་རྨི་བར་བྱེད, g.yang sa chen po rmi bar byed); he lives to seventy-two; the lot of children (བུ་སྐལ, bu skal) is «ཡ་འུད་ཆེ» (ya 'ud che; the word ya 'ud is not settled here).
+
+## <a id="kd-3-p588-589"></a>kd.3:p588-589 The Garland of Stars, the hour's elements: the close of the iron entry, the night's bed and the troubled dream
+
+*Read: etext, 2026-11-10.*
+
+> ནོར་འདོད་ཅན་ལ་དཀོར་བདག་ཆགས། །དཀར་ཆོས་རྒྱལ་མཚན་མདོས་གཏོར་དང་། ། ཁྲོམ་བཟློག་ཁ་བསྒྱུར་སྲོག་བསླུ་བྱ། །གདན་ནི་སྔོ་ནག་པོ་ཞིག །བཏིང་ལ་ཤིང་གིས་ [p. 589] སྔས་ཀྱང་བྱས། །སྐབས་སུ་ཚིག་པ་ཟ་བར་འདུག །ཟུར་གཞོགས་ཐལ་ཕུང་ཡང་ན་མེའི། ། ཕུང་ངམ་རྩིག་པར་བསྡད་ནས་འདུག ། རྨི་ལམ་འཚུབ་ལ་ཕ་མེས་པོ། །སྤུན་ལྔ་གསུམ་མམ་གྲིར་འཆི་ཡོད། ། ལྷ་ནི་མི་དཀར་རྟ་དཀར་ཞིག ། ང་ལྟོགས་ང་སྐོམ་དྲང་ཐབ་གླུ། །ཐང་ཆད་ཟེར་བ་གཅིག་འདུག་གོ
+
+[The close of the iron entry of the hour's elements; the entry opens, on p. 587, «ལྕགས་ལ་མི་རིགས་གྲོང་ནག་པ», «for iron: a village-black people»; the next entry opens «ཆུ་ཤར», water rising.] For one who longs for wealth the owner of the treasure (དཀོར་བདག, dkor bdag) has settled. The white rite (དཀར་ཆོས, dkar chos), the victory-banner cake with scattering (རྒྱལ་མཚན་མདོས་གཏོར, rgyal mtshan mdos gtor), the turning back of the crowd (ཁྲོམ་བཟློག, khrom bzlog), the turning of the mouth (ཁ་བསྒྱུར, kha bsgyur) and the ransom of the life (སྲོག་བསླུ, srog bslu) are to be done. A dark-blue mat is spread (the etext prints a variant «ཀོམ» in brackets) and a wooden pillow made; at times burnt food is eaten; he sat to one side on an ash heap, or a heap of embers, or against a wall. The dream is troubled (རྨི་ལམ་འཚུབ, rmi lam 'tshub); the father and the forefathers (ཕ་མེས་པོ, pha mes po, the last syllable as printed): of five or three brothers there is a death by the knife. The god is a white man on a white horse (the same man as the enemy-god, དགྲ་ལྷ, dgra lha, of the lines a little before on p. 588, «a white man, a white horse: I am worn out, my mouth is dry, I want to go»), saying «I am hungry, I am thirsty» (the words «དྲང་ཐབ་གླུ» are not settled), and there is one who says «worn out» (ཐང་ཆད, thang chad).
+
+## <a id="kd-3-p597"></a>kd.3:p597 The Garland of Stars, the mewa five yellow of birth: the gods displeased and the dreams «tsab tsub»
+
+*Read: etext, 2026-11-10.*
+
+> དཀོར་སྲུང་བན་བོན་ཆོས་སྐྱོང་གནོད། །བསྐང་བཤགས་གཙུག་ཏོར་སྟོང་བཟློག་བྱ། །རྟག་ཏུ་ལྷ་མི་དགའ་བ་དང་། ། རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང་། །ཡུལ་བདག་ཕ་མིང་སྲུང་མ་འགོ་བན་བརྒྱུད་བོན་བརྒྱུད་པ་ཡིན་ན་བཟང་། །མིན་ན་ཕུར་ཁ་དམ་སྲི་གནོད༑ །ཇིབ་གྲིར་ཤིའམ་ཡུལ་མཁར་ལ། དགུ་ཡིས་ཁྱེར་རམ་འཕོ་སྐུས་བྱས། །
+
+[Within the mewa five yellow of birth (ལྔ་སེར, lnga ser; the entry opens on this page, «ལྔ་སེར་འདི་ལ་གང་སྐྱེས་པ», «whoever is born on this five yellow»): from the harm of the guardians to the manner of death.] The treasure guardian, the monk-and-bon (བན་བོན, ban bon) and the Dharma protector harm; fulfilment and confession, the crown-protrusion rite (གཙུག་ཏོར, gtsug tor) and the thousandfold turning back (སྟོང་བཟློག) are to be done. Always the gods are displeased, and the dreams are «tsab tsub», very many (རྟག་ཏུ་ལྷ་མི་དགའ་བ་དང་། རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང, rtag tu lha mi dga' ba dang / rmi lam tsab tsub shin tu mang; the word tsab tsub is not settled). The country's lord, the father-name and the protector lead (the line «ཡུལ་བདག་ཕ་མིང་སྲུང་མ་འགོ» as printed); if it is of a monk's line or a bon's line it is good, if not the phur ka and the dam sri harm; he dies by the knife of a collapse (the etext's «ཇིབ་གྲིར»; the Gser thang print of WB reads «རྡིབ་གྲིར»; not settled) or in the country's fort, an enemy carries him off, or an exchange of place (འཕོ་སྐུས) is made.
+
+## <a id="kd-3-p647-648"></a>kd.3:p647-648 The Garland of Stars, the black life pebbles: the dream of lying down in a «byes»
+
+*Read: etext, 2026-11-10.*
+
+> སྲོག་རྡེལ་ནག་པོ་གཉིས་བབས་ན། །གནམ་ལོ་རྒྱལ་པོའི་བཀའ་ཆད་འབྱུང་། ། ཟླ་བ་བློན་པོའི་དམག་ [p. 648] ལ་བསྡུས། །འབྱུང་བ་དུས་ཀྱི་རྐྱ་མདའ་ཐུག །རིན་ཆེན་སྲོག་གི་ཐང་ཤིང་ཆག །གསེར་གྱི་ཟམ་པ་རྩ་ནས་འགྱེལ། །སྟེང་ནས་བདུད་ཀྱི་བྱ་ནག་ལྡིང་། །འོག་ན་དམ་སྲིའི་ཁྱི་ནག་ཟུགས། ། རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི། །ཕ་ཁུ་འཕུང་པའི་ཕུང་སྲི་གནོད། ཁྱོད་ལ་གྲི་ངོ་བཙོན་ངོ་ཡོད། ། བྱས་པ་མེད་ཀྱང་སྙིང་མི་དགའ། ། བླ་ལ་བདུད་ཀྱི་རྐུན་མ་འབྱུང༌། ། ཤ་བཤོར་ཡོད་ན་ཤ་བ་བསླུས: ། ཉ་བཤོར་ཡོད་ན་ཉ་མོ་བསླུས །འཆི་ངེས་པ་ལ་སྲོག་བསླུ་གྱིས། །དུར་མཚུ་གསོལ་ལ་དུར་སྲི་གནོན། ། ཚེ་ཆོག་བླ་བསླུ་དྲག་ཏུ་གྱིས། །ཚེ་གཟུངས་འདོན་ཅིང་སྲོག་མི་བཅད།
+
+[The black life pebbles (སྲོག་རྡེལ, srog rdel) in the four red mouths (ཁ་དམར, kha dmar) of the root pebbles; the number is read «two» in the etext's line «སྲོག་རྡེལ་ནག་པོ་གཉིས་བབས་ན» at the foot of p. 647.] When two black pebbles fall: the punishment (བཀའ་ཆད) of the king of the sky-year (གནམ་ལོ, gnam lo) comes; the moon is gathered into the minister's army; the element meets the end of the time's arrow (the words «རྐྱ་མདའ» are not settled); the precious plank-tree of life (སྲོག་གི་ཐང་ཤིང, srog gi thang shing) is broken; the golden bridge falls from its root; above, the black crow of the mara flies, below the black dog of the dam sri (the verb «ཟུགས» is not settled); he dreams of lying down in a «byes» (རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི, rmi lam byes su nyal ba rmi; the word byes su is not settled); the ruin sri of a father and uncles who fell (འཕུང་, 'phung) harms; for you there is the face of the knife, the face of the prison; though nothing was done the heart is not glad; a thief of the mara comes to the la; where a flesh-ransom (ཤ་བཤོར, sha bshor) is, the flesh-eater is cheated, where a fish-ransom, the fish-woman; for the one fated to die the life is ransomed; the graveyard-lord is offered to and the grave sri pressed down; the life-rite and the la-ransom are done strongly; the long-life dhāraṇī is recited and the life is not cut.
+
+## <a id="kd-3-p650"></a>kd.3:p650 The Garland of Stars, the power pebbles white and black: goods like the goods of a dream
+
+*Read: etext, 2026-11-10.*
+
+> དབང་རྡེལ་དཀར་ནག་གཉིས་བབས་ན། །དབང་ཐང་ཁ་ལུད་ཟས་ནོར་ལ། །འབོ་འཁྱོམས་གོད་ཁ་འོང་བ་སྟེ། །ཟས་ནོར་ལོངས་སྤྱོད་མི་རྟག་པ་། །ཉི་མས་གདུངས་པའི་སྒྲིག་སྒྱུ་འདྲ། །རེས་ཡོད་རེས་མེད་མ་བྱུང་ངམ། །ནོར་རྫས་རྨི་ལམ་ནོར་དང་འདྲ། །ཡིད་མི་ཆེས་ཤིང་གང་སྟོང་ཆེ། །དཀར་ནག་རྒྱ་འདྲེས་མ་ལན་ནམ།
+
+[The power pebbles (དབང་རྡེལ, dbang rdel) in the same sets: a white and a black, the two, fallen.] When a white and a black pebble fall, the two: in power, in food and goods, wandering and mishap come (the words «ཁ་ལུད» and «གོད་ཁ» are not settled); food, goods and enjoyment are not lasting, like a mirage scorched by the sun; «has it not been now there, now none?»; goods are like the goods of a dream (ནོར་རྫས་རྨི་ལམ་ནོར་དང་འདྲ, nor rdzas rmi lam nor dang 'dra); not to be trusted, much emptiness; «has not white and black been mixed (the line «དཀར་ནག་རྒྱ་འདྲེས་མ་ལན་ནམ» as printed; the sense of «རྒྱ་འདྲེས» is not settled)?»
+
+## <a id="kd-3-p699"></a>kd.3:p699 The Garland of Stars, the sickness mewa five yellow on top: many confused dreams
+
+*Read: etext, 2026-11-10.*
+
+> ལྔ་སེར་སྟེང་དུ་ན་གྱུར་ན། །འོན་ལྐུགས་ཕོ་ནད་ལྕི་འཐིབས་དང་། །རིམས་ནད་ཁྲག་སྐྱུག་བསྐྱུགས་ནས་ན། ། རྨི་ལམ་ཟ་ཟི་མང་བ་དང་། །དགོང་ཁ་སྙིང་མི་དགའ་བ་འོང་། ། གདོན་དུ་གནམ་ཐེ་རྒྱལ་པོ་དང་། །རོགས་པོའི་ཆགས་འདྲེ་ཟ་ཁར་འཇུག །དཀོར་དང་འོད་ཕྱིར་འོང་བ་གནོད། །ཕུར་ཁ་བཟློག་པའི་ཆོ་ག་དང་། །རྒྱལ་མདོས་བྱ་ཞིང་སཱཙྪ་གདབ། ། རྫས་ནོར་འདྲེ་ཅན་ཕྱི་ལ་བཅུག
+
+[The sickness mewa (སྨེ་བ, sme ba), the entry of the five yellow on top: its signs, spirits and first rites.] When the five yellow stands on top: dumbness, a stomach illness, heavy murk (འཐིབས), a plague illness, vomiting of blood; many confused dreams (རྨི་ལམ་ཟ་ཟི་མང་བ, rmi lam za zi mang ba) and unease of the heart at evening come. The spirits: the sky-meeting king (གནམ་ཐེ་རྒྱལ་པོ), and the friend's attachment-demon (རོགས་པོའི་ཆགས་འདྲེ) enters the mouth; goods and brightness go out again and harm. The rite to turn back the phur ka (ཕུར་ཁ), the king's cake (རྒྱལ་མདོས) and the sealing (སཱཙྪ་གདབ) are done; the goods the demon holds are put outside.
+
+## <a id="kd-3-p701"></a>kd.3:p701 The Garland of Stars, the sun's illness and spirit: the ox's rough dreams
+
+*Read: etext, 2026-11-10.*
+
+> ཉི་མའི་ནད་དང་གདོན་ངོས་གཟུང་། ། བྱི་བ་ཕོ་ཡང་མོ་ལྕི་སྟེ། ། ཚགས་ཚིགས་ན་བའམ་འབར་འབུར་སྐྲངས། །གདོན་དུ་རྣལ་འདྲེ་གཡོས་པའམ། ། ལྷ་ཀླུ་སྔར་མ་མཆོད་པ་དང་། ། ལྷ་མི་དགའ་ཞིང་ཐེའུ་བྲང་གནོད། ། ལྷ་ཀླུ་མཆོད་པ་ཐེའུ་བྲང་བཀར་། །་གླིང་ལ་ཕོ་ཡང་མོ་ལྕི་སྟེ། །སྙིང་རྩ་འདར་ལ་ལྡང་དུབ་བྱེད། ། ཆུ་སེར་ཆེ་ལ་ཕྲུམ་སེར་འཁྱེར། ། ལྷུ་ཚིགས་ན་ཞིང་ལྕི་བ་དང་། །ཐང་ཆད་ཀླད་པ་ན་བ་འོང་། ། ཕོ་མཆིན་མི་བདེ་རྨི་ལམ་རྩུབ། །གདོན་དུ་ཕུང་འདྲེ་བསེ་རག་དང་། །གྲི་བོ་གྲི་མོ་གནོད་པ་ཡིན། །འཕུང་སྲི་བསེ་རག་རང་སྒྲོལ་བྱ།
+
+[«The sun's illness and spirit identified», the first two animals: the rat and the ox.] The identification of the sun's illness and spirit (ཉི་མའི་ནད་དང་གདོན་ངོས་གཟུང་): the rat (བྱི་བ), male light, female heavy: the joints ache, or swellings and tumours; the spirit a stirred «rnal 'dre» or the gods and nāgas not offered to before, the gods displeased, the theurang (ཐེའུ་བྲང) harms; offer to the gods and nāgas and drive out the theurang. The ox (the etext prints «གླིང་ལ», an OCR spelling; WB's print has «གླང་ལ»): male light, female heavy: the heart-vessels tremble, he is weary; much yellow fluid and a «phrum ser» (the word is not settled); the limbs ache and are heavy, exhaustion and a headache come; the liver and spleen are uneasy, the dreams are rough (ཕོ་མཆིན་མི་བདེ་རྨི་ལམ་རྩུབ, pho mchin mi bde rmi lam rtsub); the spirits are the ruin demon (ཕུང་འདྲེ), the bse rag (བསེ་རག), the gre bo and gre mo (གྲི་བོ་གྲི་མོ), they harm; the ruin sri (འཕུང་སྲི) and the bse rag are freed by themselves (རང་སྒྲོལ).
+
 ## <a id="kd-3-p732"></a>kd.3:p732 The element reckoning's seven Mara days named by planet and mansion (the Moonbeams' supplement)
 
 *Read: etext, 2026-11-06.*
@@ -141,3 +199,16 @@ Saturn's Ketu: bile disease, fever and cold disease come; strife with children, 
 > གཉིས་པ་འབྱུང་རྩིས་པའི་ལུགས་ཀྱི། །འཕྲོད་ལའང་ལྔ་ལས་བདུད་ཉི་བདུན། །དྲག་པོའི་ལས་ལ་ཤིས་པ་ཡིན། །ལམ་ཞུགས་བག་མ་ཤིད་ལས་དང་། །དབང་པོའི་བྱ་བ་ཐམས་ཅད་ངན། ཁྱད་པར་ཉི་མ་སྨིན་དྲུག་འཛོམ། ། ལྷ་གསོལ་བདུད་ཀྱི་ཉི་མ་ཡིན། །དེ་བཞིན་ཟླ་དབོ་མོ་བཙུན་དང་། །མིག་དམར་སྐག་འཛོམ་དམག་དཔོན་ཏེ། །ལྷག་པ་ཆུ་སྟོད་ནས་་་འཇལ་དང་། །ཕུར་བུ་མགོ་འཛོམ་བན་བོན་ལས། ། པ་སངས་རྒྱལ་འཛོམ་ཆེ་བཙན་དང་། །སྤེན་པ་མོན་གྲུར་རྟ་ཚོང་སྟེ། །རང་རང་ལས་ལ་འཛེམ་པར་བྱ། །བདུད་ལས་རྒྱལ་བ་རྣམ་པོ་བདུན། ། བྱ་བ་ཀུན་དང་ཁྱད་པར་དུ། །ཕར་རྒོལ་དྲག་པོའི་ལས་ལ་བཟང། །འཇིག་ཉི་་་་དང་ནི་མི་འཕྲོད་ཉི། ། མི་མཐུན་པ་ཡི་ཉི་རྣམས་ལ། །བག་མ་ཤིད་ཀྱི་བྱ་བ་འཛེམ། །གཟའ་་་སྐར་སོ་སོ་བཟང་ན་ཡང་། །
 
 "Second, in the manner of the element reckoning (འབྱུང་རྩིས, 'byung rtsis), of the meetings there are the seven Mara days (བདུད་ཉི, bdud nyi) among the five: they are good for fierce works; for setting out on the road, taking a bride, a funeral feast and all the works of the powerful they are bad. In particular: the Sun meeting the Pleiades (སྨིན་དྲུག, smin drug) is the Mara day for asking the gods; likewise the Moon meeting Uttaraphalgunī (དབོ, dbo) is the nun's (མོ་བཙུན); Mars meeting Āśleṣā (སྐག, skag) is the general's (དམག་དཔོན); Mercury, from Pūrvāṣāḍhā (ཆུ་སྟོད, chu stod), the barley-measurer's (ནས་འཇལ); Jupiter meeting the Head (མགོ, mgo, Mṛgaśiras) is the monk's and the Bon-man's (བན་བོན); Venus meeting Puṣya (རྒྱལ, rgyal) is the great and mighty one's; Saturn meeting Śatabhiṣaj (མོན་གྲུ, mon gru) is the horse-dealer's. For each one's own work they are to be shunned. The seven that conquer the Mara (བདུད་ལས་རྒྱལ་བ, bdud las rgyal ba): good for all works and in particular for attacking and for fierce works. The Destroying days, the Unfit days and the Disagreeable days: shun the work of taking a bride and a funeral feast."
+
+## Open (RD385)
+
+- Question: What does «བྱེས་སུ» (byes su) mean in «རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི» (he dreams of lying down «byes su»; kd.3:p647-648, WB vol. 1 p. 381)? WB's verses use it also in «བྱེས་སུ་འཁྱམས» and «བྱེས་སུ་ཤི་བ» (wandering, dying «byes su»), and no gloss has been found.
+- Question: What is «ཙབ་ཙུབ» (tsab tsub) in «རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང» (the five yellow of birth, kd.3:p597, WB vol. 1 pp. 290-291)? The pool's «རྨི་ལམ་རྩུབ» (rough) and «ཟ་ཟི» (confused) do not gloss it.
+- Question: In the entries of the hour's elements, do the lines on the asker's bed, pillow and burnt food, with «the dream is troubled; the father and the forefathers; of five or three brothers a death by the knife; the god a white man on a white horse» (kd.3:p588-589; WB vol. 2 p. 160), tell of the asker's own last night before coming, as the diviner's patter of a pebble asking, or of the sleep of a sick one?
+
+## Searched and not found (RD385)
+
+- BDRC exact-phrase search (2026-11-10, a headed Chromium): the day animals, weekdays, elements and the dream together: «བྱི་བའི་ཉིན་རྨི་ལམ», «གླང་གི་ཉིན་རྨི་ལམ», «ཞག་གི་རྨི་ལམ་འབྲས་བུ», «ཚེས་ལ་རྨི་ལམ་རྨིས་ན», «གཟའ་ཉི་མའི་ཉིན་རྨི་ལམ», «ཤིང་གི་ཉིན་རྨི་ལམ», «ཉི་མའི་གཟའ་ལ་རྨི་ལམ»: no hit; «རྨི་ལམ་རྨི་བའི་ཉིན»: one hit, a guide to a mountain (MW2CZ6238), a day on which one dreamt, not a rule.
+- The same search for the seven Nag rtsis lines: «རྨི་ལམ་འཚུབ་ལ་ཕ་མེས་པོ» (3: WB, its Gser thang copy, the Kun 'dus), «རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི» (2), «ཕོ་མཆིན་མི་བདེ་རྨི་ལམ་རྩུབ» (2), «རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང» (2), «ནོར་རྫས་རྨི་ལམ་ནོར་དང་འདྲ» (4: WB, the Kun 'dus, and *'Bras rtsis bar gsal li dwangs ma'i me long* MW1KG21827), «གཡང་ས་ཆེན་པོ་རྨི» (7, among them the Nag rtsis commentaries MW1KG21818 and MW21984_2571E2, and the *Bzo rtsis zlos gar*), «རྨི་ལམ་ཟ་ཟི་མང་བ» (29, WB, the Kun 'dus and the medical texts): every hit on the Nag rtsis lines is WB's text or a copy of it; no Nag rtsis book of another line has a dream line of its own.
+- The Kun 'dus etext pp. 536-766 for «རྨིས», «རྨིའོ», «རྨི་ལྟས» (none) and «རྒྱ་བལ» (none): the Nag rtsis part does not quote the «Chinese-Nepalese» of the Mchog dga'. WB vol. 2 p. 160 on the Gser thang page (I3CN5029 img. 166) was opened but not read line by line.
+- BDRC exact-phrase search for the Mchog dga's Saturn lines of the tenth and eleventh place and with Ketu: «ནོར་སྣ་ཚོགས་ཐོབ་རྨི་ལམ་རྣོ་བ», «རྨི་ལམ་རྣོ་བ་དང་དགྲ་ཉམས»: no hit; «སྤེན་པ་ལ་གྲགས་པ་ངན་པ་འབྱུང», «མཁྲིས་ནད་ཚད་ནད་གྲང་ནད་འོང», «བུ་དང་གཉེན་གྲོགས་རྣམས་དང་འཐབ», «རྨི་ལམ་ངན་དང་མྱ་ངན་འོང»: two hits each, the Kun 'dus and the *Bzo rtsis zlos gar* vol. 2 (MW1PD95727), the same commentary, none in a book of Chinese reckoning.
