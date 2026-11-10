@@ -2003,3 +2003,6 @@ Searched and found wanting, so not to be repeated:
   - A list of good and bad dream images in Bu ston's two folios (img. 833–836), read through: none, the title line only (2026-11-10).
   - A list of good and bad dream images in Tsong kha pa's img. 385–388: two images only (img. 386), the rest remedies; the section's own heading is not on these images.
   - A second print of Bu ston's text (MW22106_CC9683, MW1934_6BFB80) not looked at; no MITRA witness and no disagree.py sheets, so no flag read against a second reader.
+- **RD326** (RD326, 2026-11-10):
+  - BDRC exact-phrase searches, 2026-11-10: «སྟོབས་ཀྱི་རྒྱུ་ཕུར་བུ», «ཐུན་ཕྱེད་རེ་རེ་ལ་གཟའ», «གཟའ་དང་ཀླུ་ལྷན་ཅིག་འཆར» and «གཡུལ་ལས་རྣམ་པར་རྒྱལ་བ་ཐུན་ཕྱེད» no hit; «དབྱངས་འཆར་གཞུང་ལས» 5 hits and «དབྱངས་འཆར་རྒྱུད» 73, none a Dbyangs 'char text that holds the verse.
+  - The etexts of Karma rat+na's Sman yig gces btus (I1KG1117), the Drang srong zhal lung (I4726), the 'Bras rtsis bar gsal li dwangs ma'i me long (I1KG21916) and the Yul mdo khams stod vol. 10 (I2PD18783) answer 0 chunks (search only); BDRC's record of the Rnam dpyod has no creator; the author of the verse manual «Skar rtsis kyi lag len byed grub sgang dril ltar bkod pa» (MW3CN3480) not looked up.
