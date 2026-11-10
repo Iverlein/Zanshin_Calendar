@@ -1434,7 +1434,7 @@ cdb:
   rank: 3
   role: source
   locator: image
-  notes: "RD375 (2026-11-10): P.3908 images 13-16 read by eye (chapters 19-23); 永樂大典 20181-20182 the per-day entries 甲辰-辛酉; IDP, Gallica and ctext.org refused automated access (bot check) and were not worked around"
+  notes: "RD375 (2026-11-10): P.3908 images 13-16 read by eye (chapters 19-23); 永樂大典 20181-20182 the per-day entries 甲辰-辛酉; IDP, Gallica and ctext.org refused automated access (bot check) and were not worked around; RD380 (2026-11-10): P.3908 images 1-12 and 17-21 read (headings of chapters 3-18, preface, end), the other 永樂大典 volumes of the entry 日, 選擇要略, 玉匣記, 直齋書錄解題 and the Commons record of 雷英發's Yuan book added as boxes"
 
 dyc:
   title: "Dpal g.yul las rnam par rgyal ba zhes pa'i rgyud kyi rgyal po dbyangs 'char ba zhes bya ba (the Dbyangs 'char, the root text the Mchog dga' comments on)"

@@ -467,6 +467,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/eb9-contents.md](claims/eb9-contents.md) | claim, list | The volume's five texts and the dream book beside the 大雑書 | cites eb9:p1-378; feeds S3 |
 | [claims/eb9-dream-book-calendar-rules.md](claims/eb9-dream-book-calendar-rules.md) | claim, note | The Ebara dream book's calendar content: the table of days a dream is not told (as in the 万代大雑書), one autumn entry, no 初夢 | cites eb9:i9, eb9:i4, eb9:i9c, mdz:p11; feeds q786 |
 | [claims/edo-dream-books-calendar-rules.md](claims/edo-dream-books-calendar-rules.md) | claim, rule | What two more Edo dream texts say of a date, season or night: seasons and a half-night, never the first dream's night | cites ymk:p6, ymk:p30, ymk:p52, ymk:p59, ymk:p63, ezs:p31, ezs:p30; feeds S3 |
+| [claims/edo-sixty-days-against-the-yongle-days-and-p3908.md](claims/edo-sixty-days-against-the-yongle-days-and-p3908.md) | claim, note | The Edo sixty-day cells against the Yongle dadian's day omens (eighteen days) and P.3908's branch chapter: no agreement beyond chance | cites cdb:box1, cdb:i13-16, mdz:i426556b; feeds S3 |
 | [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
@@ -711,6 +712,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
 | [claims/ozassho-dream-table-which-prints.md](claims/ozassho-dream-table-which-prints.md) | claim, note | The days-a-dream-is-not-told table is in the 万代大雑書 and the Ebara dream book, not in the two 永代 prints read | cites mdz:p11, mdz:i31, mdz:i72, eb9:i9; feeds S3 |
 | [claims/p3908-bad-dream-not-told.md](claims/p3908-bad-dream-not-told.md) | claim, rule | P.3908: a bad dream is not told on waking, and not told for three days turns to treasure; bad dreams only, no day or month | cites cdb:i13-16; feeds S3 |
+| [claims/p3908-chapters-1-23-and-the-end-of-the-booklet.md](claims/p3908-chapters-1-23-and-the-end-of-the-booklet.md) | claim, note | P.3908 has twenty-three chapters, the day chapters at 19-21, no ten-stem chapter; the booklet ends without a colophon | cites cdb:i1-4, cdb:i5-12, cdb:i13-16, cdb:i17-21; feeds S3 |
 | [claims/p3908-dream-by-day-hour-officer.md](claims/p3908-dream-by-day-hour-officer.md) | claim, note | P.3908 chapters 19-21: a dream's omen by day branch, double-hour and day officer, not by month; no cell for the Edo table | cites cdb:i13-16; feeds S3 |
 | [claims/peking-only-one-tengyur-instance.md](claims/peking-only-one-tengyur-instance.md) | claim, note | BDRC has one Peking Tengyur only, W1KG13126; no second scan of the Peking exists to check the Dpe bsdur ma's Peking entries (RD327) | cites svo:p271w; feeds RD327 |
 | [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
@@ -1226,6 +1228,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC §10.12 |
 | [claims/yamagashu-first-dream-poem-two-texts.md](claims/yamagashu-first-dream-poem-two-texts.md) | claim, conflict | The 山家集 first-dream poem: the common text and the old 異本 text differ in headnote and in the third line | cites skf:p3, skf:p4, skf:p5, skf:p1, skf:p2; feeds S3 |
 | [claims/yongle-dream-omens-by-day-and-month.md](claims/yongle-dream-omens-by-day-and-month.md) | claim, note | Yongle dadian 20181-20182: per-day lists of months for the omen of a dream seen on that day; not the Edo table | cites cdb:box1, mdz:p11; feeds S3 |
+| [claims/yongle-ox-yellow-bujiang-and-the-books.md](claims/yongle-ox-yellow-bujiang-and-the-books.md) | claim, note | 牛黃, 廨 欄 倉, 不將 in the Yongle day lines; the books of 雷英發 and 呂茂明 and their dates | cites cdb:box1, cdb:box2, cdb:box3, cdb:box4, cdb:box5; feeds S3 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/yumeawase-chojakagami-no-table.md](claims/yumeawase-chojakagami-no-table.md) | claim, note | The 夢合長者鑑 of 1886 (NDL pid 899567) is the dream part of the 万代大雑書 plates and has no table of days and no 初夢 | cites mdz:i899567, mdz:i108, mdz:i190; feeds S3 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
@@ -1257,7 +1260,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbd/cbd.md](corpus/cbd/cbd.md) | corpus | CBD | 1 passages: 1 etext |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 5 passages: 1 scan, 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
-| [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 2 passages: 1 scan, 1 etext |
+| [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 9 passages: 4 scan, 5 etext |
 | [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 29 passages: 29 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
