@@ -204,6 +204,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch35-what-the-chapter-holds.md](claims/ch35-what-the-chapter-holds.md) | claim, note | WB ch. 35 is the account of the fields of knowledge; star reckoning is one of five minor fields | cites wb.2:p429, wb.2:p432, wb.2:p433; feeds — |
 | [claims/chi-bslu-and-svo-colophons-side-by-side.md](claims/chi-bslu-and-svo-colophons-side-by-side.md) | claim, table | The colophons of 'Deceiving Death' and of the Svapnohana side by side | cites cbs:p267-268, svo:p268, svo:p271; feeds block-73 |
 | [claims/chi-bslu-dream-verses-cbl-against-derge.md](claims/chi-bslu-dream-verses-cbl-against-derge.md) | claim, note | The death-dream verses of CBL against the Derge: the same verses and times, seven differing readings | cites cbl:p236-238, cbl:p238b, cbs:p247-249; feeds S1 |
+| [claims/chi-bslu-dream-verses-scan-readings.md](claims/chi-bslu-dream-verses-scan-readings.md) | claim, note | The dream verses' doubted places on the scans: CBL's three readings are the print's own | cites cbs:p248-249s, cbl:p236-238, cbl:p238b, cbs:p247-249; feeds S1 |
 | [claims/chi-bslu-names-its-sources.md](claims/chi-bslu-names-its-sources.md) | claim, note | 'Deceiving Death' names the works it rests on, not a source for the dream verses | cites cbs:p267-268, cbl:p278-279; feeds S1 |
 | [claims/circle-01-king.md](claims/circle-01-king.md) | claim, table | The circles: the first, the white garuḍa, for the king | cites wb.2:p3-4, wb.2:p533b; feeds block-31 |
 | [claims/circle-02-spiritual-friends.md](claims/circle-02-spiritual-friends.md) | claim, table | The circles: the second, the white snow lioness, for spiritual friends | cites wb.2:p4-5, wb.2:p533b; feeds block-31 |
@@ -1124,7 +1125,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 scan |
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 4 passages: 4 etext |
-| [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 3 passages: 3 etext |
+| [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
