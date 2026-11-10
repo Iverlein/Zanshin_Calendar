@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD311 (2026-11-10): the Co ne Svapnohana (vol. 28 img. 270, 272, 273) by Yigdzin-1 on deskewed line strips, 472 runs, the eye settling nothing; see svo:p271m.
 
+Read by RD314 (2026-11-10): the watches of the night in the etexts only, no scan: the 1996 etext of WB (vol. 1 p. 375, vol. 2 notes pp. 474-541 searched for every word of the night), BDRC's full-text search for the watch phrases (Hevajra and Kālacakra commentaries, Tsong kha pa, a Sakya Vinaya treatise); see svo:p271n, svo:p271o, svo:p271p.
+
 Read by RD305 (2026-11-10): the Peking print I1KG13197 img. 315 line 5 and img. 317 lines 3 and 5 by eye at 2.5–5× («བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ» with a plain ལ); the row's Derge group I00JW501163 is the Four Tantras; see svo:p271k.
 
 Read by RD305 (2026-11-10): SVO on the Peking print I1KG13197 img. 315 and 317.
@@ -683,3 +685,118 @@ Tallies of the runs that gave the place (RD276's and RD273's runs, in svo:p271g,
 - The Co ne's watch lines, «བགྲོད/བཟློག», the word after «བཅུ» and the Gāyatrī's first word by eye on deskewed, blurred crops at 4–7×: the ink is dotted and partly absent; not one letter told.
 - The Svapnekṣā (vol. 49 img. 263–264, q865): left half-lines of img. 263 were read by Yigdzin-1 (the opening lines, the three parts of the night of svi:p130, the images); the Svapnekṣā has no watch lines and no «ལ་མོ» (svi:p130, q865's own note); the right halves of the strips returned nothing or invented text and no further reading was made; the Co ne's Svapnekṣā «དང་པོའི་ཆ…གཉིས་པར…ཐ་མར» line reads as in svi:p130.
 - Narrow windows (330–350 px) of the line and the right half of a line as a strip: nothing usable; whole-line strips at 1.5× give the stretches above.
+
+Nothing read yet: RD311's passages, with the English beside them, go here.
+
+## <a id="svo-p271n"></a>svo:p271n Mipham's notes and WB on the night's halves: sunset, midnight, dawn (RD314)
+
+*Read: etext, 2026-11-10.*
+
+> WB vol. 1 p. 375 (the sky dog's facing by season, WB's own verse; 1996 etext VEIE0OPI51524892_I1KG12906, etext p. 385 = printed p. 375):
+> 
+> དཔྱིད་གསུམ་ཉི་ནུབ་ནམ་ཕྱེད་བར། །ཁ་ནི་ལྷོ་བལྟ་ནམ་ཕྱེད་ནས། །ཉི་ཤར་བར་ལ་ཁ་ནུབ་བལྟ། །ཉི་ཤར་ཉི་ཕྱེད་བར་བྱང་བལྟ། །ཉི་ཕྱེད་ཉི་ནུབ་བར་དུ་ཤར། །དབྱར་གསུམ་ཉི་གོང་ནམ་ཕྱེད་བར། །ཁ་ནུབ་ཕྱེད་ནས་ནམ་ལངས་བར། །ཁ་ནི་བྱུང་བལྟ་ནམ་ལངས་ནས། །ཉི་ཕྱེད་བར་དུ་ཤར་དུ་བལྟ། །ཕྱེད་ནས་ཉི་ནུབ་བར་དུ་ལྷོ། །སྟོན་གསུམ་ཉི་ནུབ་ནམ་ཕྱེད་བར། །ཁ་བྱང་ཕྱེད་ནས་ཉི་ཤར་བར། །ཤར་བལྟ་ཤར་ནས་ཉི་ཕྱེད་ལྷོ། །ཉི་ཕྱེད་དགོངས་པར་ནུབ་ཏུ་བལྟ། །དགུན་གསུམ་ཉི་མ་ནུབ་པ་དང་། །ནམ་ཕྱེད་བར་ལ་ཤར་དུ་བལྟ། །ནམ་ཕྱེད་ཉི་ཤར་བར་ལ་ལྷོ། །ཤར་ནས་ཕྱེད་བར་ནུབ་ཏུ་བལྟ།
+> 
+> Mipham's notes on WB (vol. 2 p. 532, etext p. 540), on the same rule:
+> 
+> དུས་བཞིའི་ཁ་ལྟ་ཕྱོགས་དང༌། ས་བདག་ལེའུ་ལྟར་བརྩིས་པས་སྟོན་གསུམ་ཉི་ནུབ་ནས་ནམ་ཕྱེད་བར་བྱང་ལ་བལྟ་དུས། ལི་ལ་ཁ་ཟོན་ལ་མཆེ་གཡས་ཁོན་ལ་མཆེ་གཡོན་ཡོད་པས་བྱང་ནས་ལྷོར་སོང་ན་ཁ། ནུབ་བྱང་ནས་ཤར་ལྷོར་སོང་ན་མཆེ་གཡས། བྱང་ཤར་ནས་ལྷོ་ནུབ་སོང་ན་མཆེ་གཡོན་ལ་ཕྲད་པ་དང་། ལྷོ་ནས་བྱང་དུ་སོང་ན་ལྟོ་བ་དང་ཕྲད་པ་ལྟ་བུའོ།
+> 
+> The same notes, the one place where they name a watch-like word of the day-and-night (vol. 2 p. 542, etext p. 550, in a list of the hand reckoning's and the wheel's words): «ཐུན་མཚམས་རཱ་ཧུ། མིག་དམར་རཱ་ཧུ། … རྣལ་འབྱོར་མ། བིཏྟི། ཐུན་ཕྱེད་སོགས། དུས་མཚན་མ།»
+
+The quotations are the 1996 etext, not read on the scan in this reading (the verse of p. 375 was read on the scan in earlier readings, see wb.1:p375).
+
+WB's verse, in the sky dog's reckoning, gives the direction the dog's mouth looks (ཁ་ལྟ, kha lta) in each season by four stretches of the day-and-night, always cut at the same events. Spring: sunset to midnight south; midnight to sunrise west; sunrise to noon north; noon to sunset east. Summer: (to) midnight west; midnight to dawn (ནམ་ལངས, nam langs) north (the etext prints «བྱུང»); dawn to noon east; noon to sunset south. Autumn: sunset to midnight north; midnight to sunrise east; sunrise to noon south; noon to dusk west. Winter: sunset and midnight east, midnight to sunrise south, sunrise to noon west, to the end north. The directions are as the etext prints them and are not re-checked here. The night is cut at midnight (ནམ་ཕྱེད, nam phyed) into two halves, the day at noon (ཉི་ཕྱེད, nyi phyed); no watch (ཐུན, thun) is named.
+
+Mipham's note on it: counting by the earth-lord chapter, in the three autumn months, from sunset to midnight, while the dog looks north, the mouth and the right and left tusks lie so that, going from north to south one meets the mouth, from north-west to south-east the right tusk, from north-east to south-west the left tusk, and from south to north the belly. He repeats the chapter's halves of the night and adds nothing about watches.
+
+The notes' only words of the thun kind outside this: the session Rāhu (ཐུན་མཚམས་རཱ་ཧུ, thun mtshams rahu) and the half-watch (ཐུན་ཕྱེད, thun phyed) as names in a list of what the hand reckoning and the wheel give; no bound of a watch is stated.
+
+## <a id="svo-p271o"></a>svo:p271o The day-and-night in eight watches in the Hevajra and Kālacakra commentaries (RD314)
+
+*Read: etext, 2026-11-10.*
+
+> 1. Ratnākaraśānti (Rin chen 'byung gnas zhi ba), Muktāvalī on the Hevajra (དཔལ་དགྱེས་པའི་རྡོ་རྗེའི་དཀའ་འགྲེལ་མུ་ཏིག་ཕྲེང་བ), Derge Tengyur etext VE23703_1320 (MW23703_1189), etext p. 468; the same text in the Dpe bsdur ma etext VEIE0OPIA3E40644_I1PD95847 (MW1PD95844_0084), etext p. 1366:
+> 
+> འཕོ་བ་བཅུ་དྲུག་ཅེས་པ་ནི་སྣའི་བུ་ག་དེ་གཉིས་ཉིད་ནས་ཐུན་ཕྱེད་ཕྱེད་རྒྱུའོ། །ཉིན་མཚན་གྱི་འཕོ་བ་བཅུ་དྲུག་ཏུ་འགྱུར་རོ། །དབྱུ་གུ་དྲུག་ཅུ་རྩ་བཞི་ཞེས་པ་ནི་ཉིན་མཚན་གྱིས་སོ། །དབྱུ་གུ་གཉིས་ནི་ཆུ་ཚོད་དོ། །ཆུ་ཚོད་སུམ་ཅུ་རྩ་གཉིས་སུ་ཉིན་མཚན་ཉིད་ཀྱིས་སོ། །ཐུན་གྱི་བཞི་ཆ་ནི་ཆུ་ཚོད་དོ། །ཐུན་བཞི་ཞེས་པ་ནི་ཉིན་མོའམ་མཚན་གཅིག་ལ་སྟེ་ཉིན་ཞག་གཅིག་པ་ནི་བརྒྱད་དོ། །དེ་ལ་ཚིགས་སུ་བཅད་པ་ནི། མཚན་མོ་ཐུན་བཞི་ཉིན་མོ་སྟེ། །ཐུན་གཅིག་བཞི་ཆ་ཆུ་ཚོད་དོ། །
+> 
+> 2. Zhwa dmar IV Chos grags ye shes, a commentary on the Hevajra (དཔལ་ཀྱེའི་རྡོ་རྗེའི་རྒྱུད་ཀྱི་རྒྱལ་པོའི་སྙིང་པོ་གསལ་བར་བྱེད་པའི་སྒྲོན་མེ), etext VEIE0OPI22333339_I1KG4882, etext p. 681 (the sentence is in his gsung 'bum twice; the second copy, in a ritual for the arhats, MW1KG4876_676E94, has the same lines):
+> 
+> རྒྱས་པར་སློབ་དཔོན་བྷ་ཝ་བྷ་དྲས་འདིའི་འགྲེལ་པ་དང༌། མཁས་པ་རཏྣ་ཀ་ར་ཤཱནྟི་པས་བཤད་ཅིང་། ཕྱི་མས། ཉིན་མོ་མཚན་མོ་ཐུན་བཞི་སྟེ། །ཐུན་གཅིག་བཞི་ཆ་ཆུ་ཚོད་དོ། །དབྱུ་གུ་གཉིས་ལ་ཆུ་ཚོད་གཅིག །སྣ་བུག་གཉིས་ན་འགྲོ་འོང་རླུང་། །དབུགས་དྲུག་གིས་ནི་སྲོག་གཅིག་སྟེ། །སྲོག་དེ་ལྔ་བཅུ་ཐམ་པ་དང་། །དབུགས་ནི་གསུམ་དང་བཞི་ཆ་གསུམ། །བྱང་དང་ལྷོ་རུ་འགྲོ་བ་ཡི། །ཉིན་མཚན་དང་པོ་དག་ལའོ། །ཞེས་སོ།
+> 
+> 3. Padma dkar po, etext VE10736_015, etext p. 34:
+> 
+> འདི་དང་རྡོར་འཕྲེང་སོགས་སུ་ཉིན་ཞག་གཅིག་ལ་དབྱུག་གུ་དྲུག་ཅུ་རྩ་བཞི། དེ་གཉིས་བསྡོམས་པའི་ཆུ་ཚོད་སོ་གཉིས། དེ་གཉིས་བསྡོམས་པའི་འཕོ་བ་བཅུ་དྲུག དེ་གཉིས་བསྡོམས་པའི་ཐུན་ཚོད་བརྒྱད་དུ་གསུངས་པ་ནི་རྩའི་ཐོབ་སྐལ་བརྩིས་པ་ཡིན་ལ།
+> 
+> 4. Rang byung rdo rje, etext VE30541_013, etext p. 165:
+> 
+> འཁོར་ལོ་གཞན་ཐམས་ཅད་ནི་ཐུན་ཚོད་བརྒྱད་ཀྱི་རང་བཞིན་ཡིན་པས། ཐུན་ཚོད་བརྒྱད་ཀྱི་རྩ་བརྒྱད་བསྣན་པས་ན་སོ་དྲུག་ཏུ་བྱེད་པ་ནི། འགྲེལ་པ་ཉིད་དུ་གསལ་ཞིང༌།
+> 
+> 5. Chos kyi grags pa, etext VE22082_012, etext p. 13:
+> 
+> དེའང་ཞག་གཅིག་ལ་ཐུན་ཚོད་བརྒྱད། ཐུན་ཚོད་རེ་ལ་འཕོ་བ་གཉིས་རེ། འཕོ་བ་རེ་ལ་ས་ཆུ་མེ་རླུང་གི་དབྱུག་གུ་བཞི་རེ་ཡོད་པས་དྲུག་ཅུ་རྩ་བཞི་ཡིན་ལ།
+> 
+> 6. A meditation instruction in the Rin chen gter mdzod chen mo (BDRC's label; the same words in Ngag dbang dpal bzang's gsung 'bum), etext VE1KG14_040, etext p. 36:
+> 
+> ཕྱིའི་ཐུན་ཚོད་ཉིན་མོ་ཡིན་ན་ཐུར་ཤིང་གི་གྲིབ་མ་ལྟ་བུས་ཉི་གྲིབ་གཞལ་ཏེ་གྲངས་བརྩི། མཚན་མོ་ལྟ་བུ་དང་ནང་གི་ཐུན་ཚོད་དབུགས་འགྱུ་བའི་གྲངས་ཀྱིས་གཟུང་སྟེ། ཐུན་ཚོད་རེ་ལ་དབུགས་ཕར་གཏོང་ཚུར་རྔུབ་ཀྱི་ཁུགས་པ་བདུན་སྟོང་ཉིས་བརྒྱ་རེ་འབྱུང་ཞིང༌། ཉིན་ཞག་ཕྲུགས་རེ་ལ་ཐུན་ཚོད་བརྒྱད་རེ་འབྱུང་བས་ནམ་ཟླ་དུས་བཞིའི་དབང་གིས་ཉིན་མཚན་རིང་ཐུང་ལ་དཔགས་ཏེ། ཉིན་བཞི་དང་མཚན་བཞིར་བགོས་ཏེ་ཆ་དབྱེ་ཞིང་ཚད་ལ་ཕབ་སྟེ་བསྒོམས་པས་ཁམས་མི་འཁྲུགས། …ཐུན་ཚོད་བརྒྱད་པོའང་གཉིས་གཉིས་སུ་བཅད་དེ་ཐུན་ཆུང་བཅུ་དྲུག་ཏུ་བགོས་པ་ཉིན་མོ་གྲིབ་ཚོད་ཀྱིས་གཞལ་ཏེ་གྲིབ་ཚོད་རེ་རེ་བསྒོམ།
+
+All six are etext only (BDRC etexts, the Tibetan as the etext prints it; no scan opened; the page numbers are the etext's page markers). Read for the Hevajra and Kālacakra traditions' reckoning of the day-and-night in watches (ཐུན, thun; also ཐུན་ཚོད, thun tshod, "watch-time").
+
+1. The Muktāvalī on the Hevajra, glossing a line about the breath: "Sixteen moves (འཕོ་བ, 'pho ba)" means that out of the two nostrils [the breath] goes in half-watches (ཐུན་ཕྱེད, thun phyed) each; the moves of the day-and-night become sixteen. "Sixty-four dbyu gu" is by the day-and-night. Two dbyu gu are one water-hour (ཆུ་ཚོད, chu tshod). Thirty-two water-hours are by the day-and-night itself. A quarter of a watch is a water-hour. "Four watches" is by day or by night, one night; a day-and-night is eight. On this the verse: "The night, four watches, [and] the day; one watch, its quarter, is a water-hour."
+
+2. The fourth Zhwa dmar, a commentary on the Hevajra, gives the same verse (as the later of two: "in full the teacher Bhavabhadra's commentary and the learned Ratnākaraśānti have explained, and the latter [says]"): day and night four watches [each]; a watch's quarter is a water-hour; two dbyu gu one water-hour; the breath goes in and out at the two nostrils; six breaths are one life-breath (སྲོག, srog); and so on to the breaths north and south in the first day-and-night. The line after is a breath count (not needed here).
+
+3. Padma dkar po (on the Kālacakra's and the Vajra Garland's breath reckoning): in the day-and-night 64 dbyug gu; the sum of two of them, 32 water-hours; of two of these, 16 moves; of two of these, eight watch-times (ཐུན་ཚོད, thun tshod): this is the reckoning of the channels' shares.
+
+4. Rang byung rdo rje (the Kālacakra's channels): all the other wheels are of the nature of the eight watch-times; adding the eight channels of the eight watch-times makes thirty-six, as the commentary says.
+
+5. Chos kyi grags pa: in one day-and-night eight watch-times; in each watch-time two moves; in each move four dbyug gu of earth, water, fire and wind; so sixty-four.
+
+6. A meditation instruction (a hand-book of sessions): the outer watch-time by day is measured by the shadow of a post, the night's and the inner watch-times by the count of breaths; each watch-time has 7,200 breaths; a day-and-night has eight watch-times; "following the season's long or short day-and-night" (ནམ་ཟླ་དུས་བཞིའི་དབང་གིས་ཉིན་མཚན་རིང་ཐུང་ལ་དཔགས་ཏེ), it is divided into four of the day and four of the night; the eight are cut into two each as sixteen small watches (ཐུན་ཆུང་, thun chung), the day's measured by the shadow-hour.
+
+(The text of 6 stands, with a gap marked «…», for the stretch about the effect of sitting; only the division is given.)
+
+## <a id="svo-p271p"></a>svo:p271p The night in three watches (thun gsum) in the Bodhisattva-vow and Vinaya literature, and WB's night of awakening (RD314)
+
+*Read: etext, 2026-11-10.*
+
+> 1. Tsong kha pa, the bodhisattva's vows (Byang chub sems dpa'i tshul khrims kyi rnam bshad byang chub gzhung lam), etext VEIE0OPI9244B62A_I3PD266, etext p. 475 (folio 14b); the same words in the etext VE1ALS05271M p. 28:
+> 
+> …ཧ་ཅང་འགྲངས་པ་དང་ཧ་ཅང་བཀྲེས་ཏེ་བརྩོན་འགྲུས་རྩོམ་པར་མི་ནུས་པའི་མཐའ་གཉིས་སུ་མ་ལྷུང་བར་ལུས་གནས་པའི་ཕྱིར་དུ་རན་པར་ཟ་བའི་ཟས་ཀྱི་ཚོད་རིག་པ་དང་། མཚན་མོ་ལ་ཐུན་གསུམ་དུ་བྱས་པའི་བར་པ་ལ་ཉལ་ཞིང་སྔ་ཕྱི་གཉིས་དང་ཉིན་པར་ལ་ཁ་ཏོན་དང་རྣལ་འབྱོར་དུ་བྱེད་པ་ནམ་གྱི་ཆ་སྟོད་དང་ཆ་སྨད་ལ་མི་ཉལ་བར་རྣལ་འབྱོར་ལ་བརྩོན་པ་དང་།
+> 
+> 2. A commentary on the Abhidharmasamuccaya (BDRC's label «དམ་པའི་ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་རྒྱ་ཅེར་འགྲེལ་པ»), etext VEIE0OPID7D67446_I3CN7873, etext p. 541; the root verse is quoted «ཡང་དེ་ཉིད་ལས»:
+> 
+> ཡང་དེ་ཉིད་ལས། རིགས་པའི་བདག་ཉིད་ཉིན་ཀུན་དང་། །མཚན་མོའང་སྟོད་སྨད་ཐུན་ལ་གནས། །མནལ་ཚེའང་འབྲས་མེད་མི་འགྱུར་བར། །དྲན་ལྡན་དེ་སྲིད་བར་དུ་གནོལ། །ཞེས་གསུངས་པ་ལྟར། །མཚན་མོ་ལ་ཐུན་གསུམ་དུ་བྱས་པའི་ཆ་སྟོད་དང་ཆ་སྨད་ལ་མི་ཉལ་བར། ཞི་གནས་དང་ལྷག་མཐོང་གི་རྣལ་འབྱོར་ལ་བརྩོན་པ་དང་
+> 
+> 3. A Sakya treatise on the Vinaya (the author is not named in the etext reached; the same page is in four BDRC etexts: VEIE0OPI5905F5F2_I1KG17516 p. 163, VEIE0OPIBBE88D74_I2PD17687 p. 300, VEIE0OPIFD211FF5_I2PD18409 p. 125, and a fourth, VEIE0OPIC051F77A_I4CN10469, whose etext answers 403), the question of when the dawn (སྐྱ་རེངས, skya rengs) arises:
+> 
+> སྐྱ་རེངས་དེ་ནམ་གྱི་ཚེ་འཆར་ཞེ་ན། ཤཁ་ཅིག་མཚན་མོ་ལ་ཐུན་གསུམ་དུ་བྱས་པའི་ཐུན་ཐ་མའི་ཕྱེད་ན་འཆར། ཐུན་དགུར་བྱས་པའི་ཐུན་བདུན་པའི་ཕྱེད་ནས་འཆར་ཏེ། དགེ་སློང་མའི་སོ་ཐར་འགྲེལ་པར་ཐུན་ཐ་མའི་ཕྱེད་རྒྱལ་པོ་རྔ་བརྡུང་དུ་ཉེ་བ་ན་ཞེས་གསུངས་པའི་ཕྱིར་ཞེས་གསུང་བ་མི་འཐད་དེ། ཁྱེད་ཀྱི་དུས་གོ་བརྗོད་པའི་སྐབས་སུ་ཐུན་ཐ་མ་མཐུན་ཐ་མའི་ཕྱེད། སྐྱ་རེངས་མ་ཤར་བ་སྐྱ་རེངས་ཤར་བ་ཞེས་པ་དང་འགལ་བའི་ཕྱིར། དེས་ན་མཚན་མོ་ལ་ཐུན་དགུར་བྱས་པའི་ཐུན་བརྒྱད་པའི་ཕྱེད་ནས་འཆར་ཏེ། ལུང་དུ། ཆ་བརྒྱད་པ་ལུས་པ་ན་འཆར་ཞེས་པ་དང་། ཐུན་ཐ་མའི་དང་པོའི་ཕྱེད་རྒྱལ་པོ་རྔ་བརྡུང་དུ་ཉེ་བ་ན་ཞེས་གསུངས་པའི་ཕྱིར་དང་ཆ་དགུར་བྱས་པའི་ཆ་དགུ་པ་དེ་ཐུན་ཐ་མ་ཡིན་ལ། དེའི་དང་པོའི་ཕྱེད་ཆ་བརྒྱད་པ་དེ་ཡིན་པའི་ཕྱིར།
+> 
+> 4. WB vol. 1 p. 22 and p. 23 (1996 etext VEIE0OPI51524892_I1KG12906, etext pp. 32, 33), the Buddha's night of awakening and the night of the Kālacakra's teaching:
+> 
+> བྱང་ཆུབ་ཤིང་དྲུང་དུ་གཤེགས་ནས། །རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་ཐུན་གཅིག་གིས། །བདུད་དམག་སྲོད་ལ་ཚར་བཅད་དེ། ནམ་གྱི་ཆ་སྟོད་བསམ་གཏན་བཞི། །གུང་ལ་མངོན་ཤེས་ལྔ་བསྐྱེད་དེ། །རྡོ་རྗེའི་རྣལ་འབྱོར་བཞེས་པ་ནས། །ཐོ་རངས་རྒྱལ་རྔ་རྡུང་བའི་ཚེ། … བཅོ་ལྔའི་མཚན་གྱི་གུང་ཐུན་ལ། །རྩྭ་མཆོག་གྲོང་དུ་ཐུབ་པའི་དབང་།
+
+All etext only (no scan opened in this reading; the pages are the etext's markers).
+
+1. Tsong kha pa, on what a bodhisattva keeps in the preliminary conduct: knowing the measure of food, so as not to fall into the two extremes of too full and too hungry; "dividing the night into three watches (ཐུན་གསུམ, thun gsum), lying down in the middle one, and in the first and last [watch] and in the day doing recitation and yoga: not lying down in the night's upper part and lower part (ནམ་གྱི་ཆ་སྟོད་དང་ཆ་སྨད, nam gyi cha stod dang cha smad), but being devoted to yoga".
+
+2. The Abhidharmasamuccaya's commentary quotes the verse "from the same [source]": "The wise one, all day and in the night's upper and lower watches, abides [in practice]; even in sleep not without fruit, mindful, lies until [waking]", and glosses it the same way as 1: the night divided in three watches, no sleep in the upper and lower, devotion to calm abiding and insight.
+
+3. A Sakya Vinaya treatise, on the dawn: "When does the dawn arise? Some say: dividing the night into three watches, it arises in the middle of the last watch; dividing into nine, from the middle of the seventh; since the commentary on the bhikṣuṇī's prātimokṣa says 'in the middle of the last watch, when the king's drum is near'. This is not tenable, because it conflicts with your own words in giving the time ('the last watch, the middle of the last watch'; 'dawn not risen / dawn risen'). So, dividing the night into nine, it arises from the middle of the eighth: since the scripture says 'it arises when the eighth part is left' and 'in the first half of the last watch, when the king's drum is near'; and the ninth of nine parts is the last watch, [and] its first half is that eighth part." The last clause as the etext has it is not clear (the ninth part's first half cannot be the eighth part); it stays a doubt. Page numbers inside the text («160», «156») are footnote-like numbers of the etext.
+
+4. WB, on the night of awakening (p. 22): seated under the bodhi tree in the vajra posture, "in one sitting" (ཐུན་གཅིག, thun gcig, one session) he defeated Māra's army at dusk (སྲོད, srod); in the first part of the night (ནམ་གྱི་ཆ་སྟོད) the four meditations; in the middle (གུང, gung) he produced the five higher cognitions; and when taking the vajra yoga, at dawn (ཐོ་རངས, tho rangs), when the royal drum is beaten, the full awakening. On p. 23, the Kālacakra was taught "in the middle watch (གུང་ཐུན, gung thun) of the night of the fifteenth" of the month.
+
+### Open (RD314)
+
+- Question: which author wrote the Sakya Vinaya treatise that sets the dawn (སྐྱ་རེངས) against the night's three watches and nine parts (svo:p271p, item 3), from which text does he take the nine parts, and is his last clause («the ninth part is the last watch; its first half is the eighth part») the etext's error?
+- Question: do WB's commentaries (the regent's *G.ya' sel*, the manuals) say that WB's eight watches of the day-and-night (vol. 1 p. 135, vol. 2 p. 403) are the Hevajra and Kālacakra tradition's eight equal watches, four by day and four by night (svo:p271o)?
+- Question: is the Svapnohana's «དེ་ཡིས་དེ་དུས་སྙིང་སྡུག་འཐོབ» to be read "then something dear to the heart comes" or "then heartache comes"; does any Tibetan commentary on the Svapnohana or a Sanskrit text of the bird verse (female vulture, house-bird, krauñca) decide it? (q799, unchanged: no gloss was found.)
+- Question: is the night's name «ཐུན་གསུམ» in WB's list the Tibetan of the Sanskrit *triyāmā*, "three-watch", a name of the night in the Amarakośa and the Tibetan lists of synonyms?
+
+### Searched and not found (RD314)
+
+- BDRC full-text search (2026-11-10), no hit: «མཚན་ཐུན་བཞི», «མཚན་མོའི་ཐུན་བཞི», «ཐུན་རེ་ལ་ཆུ་ཚོད», «ཐུན་རེར་ཆུ་ཚོད», «མཚན་མོ་ཐུན་བཞིར», «ཉིན་མཚན་ཐུན་བརྒྱད» (WB's own words: no hit, although the 1996 etext holds them at vol. 2 p. 403, so the index reads that page differently and a miss proves little), «ཆུ་ཚོད་བདུན་ཕྱེད་རེ», «མཚན་མོ་ཐུན་བཞིར་བགོས», «ཐུན་རེ་ལ་ཆུ་ཚོད་བདུན་ཕྱེད», «མཚན་མོའི་ཐུན་བཞི་པ», «ཐུན་གསུམ་པ་ནམ་ཕྱེད», «ཆུ་ཚོད་བཅོ་ལྔ་ཐུན», «ཐུན་རེ་ལ་ཆུ་ཚོད་བཅོ་ལྔ», «ཐུན་ནི་ཆུ་ཚོད», «ཐུན་བཞི་པ་སྐྱ་རེངས», «ཐུན་གསུམ་ཞེས་པ་ནི་མཚན», «ཉིན་མཚན་ཐུན་བརྒྱད་དུ», «ཐུན་བརྒྱད་དུ་བགོས་པ» (7 hits, none read): none of the phrases tried gives a watch of seven and a half water-hours (the Indian *yāma*, an eighth of 60) or in hours.
+- «ཐུན་བཞིར་བགོས» (11 hits) and «མཚན་ཐུན་བཞིར» (40): the hits read are ritual sessions of the day (བསྒོམ་ཐུན, retreat rules), not the night.
+- A text that ties the Svapnohana's watches to any of these reckonings: none among the hits; only modern books quote the verse (RD262). The Narthang Tengyur etext (VEIE0OPIF6EAA761_I2KG212312, char. 420824) and the Dpe bsdur ma volume I1PD95859 carry the bird verse under unrelated outline titles (four Tārā sādhanas, MW2KG5015_1400–1417): the outline there is mislabelled, the lines are the Svapnohana's.
+- «དེ་དུས་སྙིང་སྡུག་འཐོབ» and «སྙིང་སྡུག་འཐོབ»: seven hits, all the Svapnohana in its prints and Padma rdo rje's book; «སྙིང་སྡུག་ཐོབ» one hit (a modern English-Tibetan phrase book, not relevant), «སྙིང་སྡུག་ཐོབ་པར་འགྱུར», «སྙིང་སྡུག་པ་འཐོབ», «སྙིང་སྡུག་ཅེས་པ་ནི», «སྙིང་སྡུག་པ་ནི་བརྩེ་བ», «སྙིང་སྡུག་པ་ནི་ཡིད་དུ», «རྨི་ལམ་སྙིང་སྡུག», «སྙིང་སྡུག་རྙེད» none. Steinert's dictionaries were not cloned in this reading.
+- «ཐུན་གསུམ་མ», «ཐུན་གསུམ་ལྡན» and «ཀུ་མུད་བཞད»: sessions of rites and WB's prints and manuals that repeat its list of the night's names (Bod kyi rtsis rig kun 'dus chen mo p. 246, Dag yig mkhas pa'i 'byung gnas, Rigs ldan zhal lung byis pa'i mig 'byed, Dpyod ldan snying nor); no Amarakośa or synonym list with the epithet was reached.
+- The Tibetan Amarakośa (Mngon brjod 'chi med mdzod) was not located by these searches.
+- Mipham's other writings were not searched by author (BDRC's search cannot be limited to one); the two hits with his name (the *Nye ba'i sras brgyad rtogs brjod*, a Mañjuśrī sādhana) use "the first watch of the night" and "three night sessions" and bound nothing; a third hit with his name (an alchemical text, «ཉིན་བཞི་མཚན་བཞི») concerns days and nights of a process, not watches.
