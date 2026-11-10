@@ -1306,3 +1306,23 @@ What differs between the editors' Peking and the eye reading is therefore one pl
 - BDRC exact-phrase searches, 2026-11-10: «ཐུན་ཕྱེད་སོ་སོ་ལ་དབྱུ་གུ་བཞི་བཞི» no hit; «དབྱུ་གུ་བཞི་བཞི» 6 hits (KD vol. 3 and five other etexts, the others not read); «ཆུ་སྲང་ང་དྲུག་རྐང་བཅས» 13 hits (KD vol. 3, the Karma pa gsum pa's volume 13, Kālacakra commentaries and Tengyur etexts, two read: VE30541_013 p. 207 and VE23660_004 p. 116); «ཐུན་བྱེད་རཱ་ཧུ» 1 hit (KD vol. 3 only); «ཐུན་ཕྱེད་པའི་རཱ་ཧུ» 4 hits (KD vol. 3, VE23703_1521, and the I2PD16001 etext, which answers 0 chunks); «གཡུལ་རྒྱལ་མཆོག་དགའ» no hit.
 - The Mchog dga' outside KD vol. 3: BDRC has its dbu can print as the National Library of Mongolia copy (MW1NLM5184, the PL of README.md; scans open); its folio of the chapter 9 passage was not looked for.
 - A planet–nāga pair (Mtha' yas, Nor rgyas and the rest) in the Mchog dga's pages on the half-watches (etext pp. 448–455): none; «མཐའ་ཡས», «ནོར་རྒྱས», «དུང་སྐྱོང» do not occur there.
+
+## <a id="svo-i626"></a>svo:i626 The Mchog dga' on the half-watch dbyu gu of 56¼ chu srang, the dbu can print img. 626 (RD341)
+
+*Read: machine, 2026-11-10.*
+
+> ཐུན་ཕྱེད་སོ་སོའི་ཚད་ཤེས་པར་བྱེད་དགོས་ཏེ། ལེའུ་གཉིས་པར་བཤད་པ་ལྟར་རོ། །སྐབས་འདིར་ཐུན་ཕྱེད་སོ་སོ་ལ་། དབྱུག་བཞི་བཞིས་བར་བཤད་པའི་དབྱུག་གུ་ཡང་། དཔལ་དུས་ཀྱི་འཁོར་ལོ་ལ་སོཌ་པ་གནས་གསུང་པའི་ཆུ་སྲང་ང་དྲུག་རྐང་བཅས་ལ་ཚོུད་་
+> དུ་མཛད་པའི་བཞི་བཞི་ཡིན་གྱི། ཉིན་ཞག་རེ་ལ་ཚོང་དྲུག་བཅུར་བྱས་པའི་ཚོང་དང་ལྟོ་མི་འགྲིག་པས། ཉིན་ཞག་རེ་ལ་སྐབས་འདིའི་ཚོང་རེ་བཞི་བར་བྱེད་དགོས་སོ། དེ་ལྟར་བཤད་པའི་ཐུན་ཕྱེད་པའི་རཱཧུ་རྣམས་ཀྱི་ནང་ནས་ཀྱང་རཱཧུའི་(རཱཧུའི)སོཌ་ནི་ཤིན་ཏུ་རྩུབ་པར་་་་
+> འཆར་བས་ན། དེའི་འཆར་ཚུལ་གྱི་མཚན་ཉིད་ལེཌ་པར་ཤེས་པར་བྱས་པའི་སྒོ་ནས། དེའི་ཕྱོཌ་སུ་ཡུལ་བཤོམ་པ་ལ་སོཌ་པའི་བྱ་བ་རྣཾས་གཟེམ་(འརོལས)བར་བྱའོ། །རྗེ་བཙུན་མ་ཞེས་པའོ། །དེ་ཡང་དཀར་ཕྱོཌ་ཀྱི་ཉིན་མོ་རེས་གཟའ་ཉི་མ་ཡོད་པའི་ཚེ་ཐུན་ཕྱེད་
+
+Machine reading (Yigdzin-1) of the first three lines of img. 626 of the National Library of Mongolia print of the Mchog dga' (MW1NLM5184, image group I1NLM5184_001), a handwritten dbu can with interlinear corrections; its OCR errors (for instance «དབྱུག» for «དབྱུ་གུ», «ཚོུད»/«ཚོང» for «ཆུ་ཚོད», «སོཌ་པ» for «སོགས་པ») are left as read. Read by eye on 2x crops, the lines carry: «ཐུན་ཕྱེད་སོ་སོ་ལ» (with ེ, not the etext's ཕྱིད), then the dbyu gu (དབྱུ་གུ, dbyu gu, the rod) of four to each half-watch, «ཆུ་སྲང་ང་དྲུག་རྐང་བཅས» (the 56 and a quarter chu srang, ཆུ་སྲང, chu srang, as the Kalacakra's measure), the sixty of the day-and-night not tallying, and the sentence ends «ཆུ་ཚོད་རེ་བཞི་བར་བྱེད་དགོས་སོ» (so each day-and-night must be made «ཆུ་ཚོད་རེ་བཞི་བར»; no number is written after it). On the lines below, the eight of the half-watches is written «བརྒྱད» (img. 626 line 3 «ཐུན་ཕྱེད་བརྒྱད་པ་ལ་འཆར»), as in the etext.
+
+### Open (RD341)
+
+- Question: on the Mchog dga' print (img. 626, MW1NLM5184) is the last word of «ཆུ་ཚོད་རེ་བཞི་བར་བྱེད་དགོས་སོ» «བཞི་བར» or «བཞིར», and what is meant by "each day-and-night must be made re bzhi bar" without a number?
+- Question: the print's half-watch lines were read by eye only on img. 626 lines 1-3; the lines of img. 625 and 627 (the rest of the half-watch list and the verse) are not yet read on the scan, and the folio is only found by OCR: img. 625-627 of 664 images read, chapter 9's first page (etext p. 449) lies before img. 620.
+
+### Searched and not found (RD341)
+
+- Chapter 9's start (etext p. 449, «ཐོག་མར་དཀར་པོའི་ཕྱོགས་ཀྱི་ཐུན་ཕྱེད») in img. 620-649 by Yigdzin-1 (img. 620-649 done, 650-665 fetched but not read): not located; the half-watch text already runs at img. 620-628, so it starts earlier.
+- The verse of etext p. 454 (the multiplier words) was not looked for on the scan.
