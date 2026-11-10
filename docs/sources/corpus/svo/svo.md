@@ -117,6 +117,16 @@ Read by RD218 (2026-11-09): the same pages again with Yigdzin-1 and MITRA (img. 
 
 Read by RD228 (2026-11-09): the Svapnohana in the Peking (I1KG13197 img. 315–318) and Narthang (I2KG212312 img. 284–288) Tengyur and in the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); the Lama Gongdü's goods of gossip in five prints (corpus/lgd/lgd.md).
 
+## <a id="svo-i64"></a>svo:i64 The Jo nang Tengyur catalogue (etext p. 64): the Deceiving Death's author written Ngag dbang grags pa, the Examination of Dreams Vibhūticandra's own translation (RD359)
+
+*Read: etext, 2026-11-10.*
+
+> > སློབ་དཔོན་ངག་དབང་གྲགས་པས་མཛད་པའི་འཆི་བ་བླུ་བའི་མན་ངག་ཤློ་ཀ་སུམ་བརྒྱ་དྲུག་ཅུ་པ། ཇོ་བོ་རྗེ་དང་ལོ་ཙཱ་བ་རིན་ཆེན་བཟང་པོའི་འགྱུར། འདི་ཕྱི་ནང་གི་རྒྱུད་དུ་མ་དང་འབྲེལ་ཡང་ཁྱད་པར་མ་རྒྱུད་རྡོ་རྗེ་མཁའ་འགྲོ་དང་གདན་བཞི་དང་འབྲེལ་པར་སྣང་བས་འདིར་བཀོད་དོ། །རྨི་ལམ་བརྟག་པ་བི་བྷུ་ཏི་ཙནྡྲའི་རང་འགྱུར། མ་རྒྱུད་ཀྱི་ཕྱོགས་དང་མཐུན་པ་མགོན་པོ་ནག་པོའི་སྐོར་ལ། ནག་པོ་ཆེན་པོའི་རྒྱུད་དྲག་པོའི་བརྟག་པ་དུར་ཁྲོད་…
+
+Jo nang abbot Phyogs las rnam rgyal, *Catalogue of the translated treatises* (Bstan bcos 'gyur ro 'tshal gyi dkar chag, Jo nang dpe tshogs 23, Beijing 2010; BDRC MW1KG9028, etext VEIE0OPI28138A6F_I1KG9048, good OCR, etext p. 64), which follows the Derge catalogue's order and words here: "The Teaching on Deceiving Death in three hundred and sixty verses, made by the teacher Ngag dbang grags pa (ངག་དབང་གྲགས་པ); translated by Jo bo rje [Atiśa] and the lotsāba Rin chen bzang po. Although it is tied to many tantras, outer and inner, it seems tied especially to the mother tantras, the Vajraḍāka and the Four Seats, so it is set down here. The Examination of Dreams: Vibhūticandra's own translation. In the Black Lord section, in line with the mother tantras: the Great Black One's tantra, the Examination of the Fierce, in the charnel ground…"
+
+The one difference from the Derge catalogue that matters: the Deceiving Death's author is written «ངག་དབང་གྲགས་པ» (Ngag dbang grags pa), the short form of Ngag gi dbang phyug grags pa (Vāgīśvarakīrti), and its translators are given as "Jo bo rje and Rin chen bzang po" where the Derge catalogue and colophon say Dīpaṃkaraśrījñāna. State: etext (the scans are lent only on archive.org; HTTP 401).
+
 ## <a id="svo-p268"></a>svo:p268 Title, the watches of the night and their spans, the first images (page 268 lines 4–7)
 
 ## <a id="svo-p268-271"></a>svo:p268-271 The examination of dreams, whole: the watches of the night, the images, the remedy
@@ -1330,6 +1340,14 @@ What differs between the editors' Peking and the eye reading is therefore one pl
 The title: after "In the Indian language" the Peking carries five stacks, the first read «སྭ» (sva), the third «ཨུ» (u), the second a boxy head over a subjoined ན (ྣ), the fourth and fifth read «ཧཱ» and «ནཱ» by Yigdzin-1 only (the eye sees two further stacks, not told apart letter by letter); then "In the Tibetan language: Examining dreams (rmi lam brtag pa)". The Gāyatrī: "the Gāyatrī (ga ya tri) recited a thousand times"; the three-syllable name on both prints.
 The etext witnesses: the Narthang etext (machine text, poor quality: «brgyad pal») has the fourth watch «ཕྱེད་བར་དུ» and the second watch's «བརྒྱད་པ་ལ» (as the Narthang manuscript on the scan); the Derge etext, the Dpe bsdur ma etext and the two modern books have «བར» at the second watch, «བགྲོད་མིན», «འགྲོན་བུ», «རྟ་བླ་མོ» and the three-syllable «ག་ཡ་ཏྲི».
 
+## <a id="svo-i409"></a>svo:i409 Bu ston's Chos 'byung (ACIP etext p. 409): the Examination of Dreams, Vibhūticandra's own translation (RD359)
+
+*Read: etext, 2026-11-10.*
+
+> > …དཔལ་ཀམ་པ་ལའི་ཡུམ་གྱིས་མཛད་པའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི་སྒྲོན་མ། རྨི་ལམ་བརྟག་པ་བི་བྷུ་ཏི་ཙནྡྲའི་རང་འགྱུར། སློབ་དཔོན་ཆོས་ཀྱི་དབང་པོས་མཛད་པའི་དེ་ཁོ་ན་ཉིད་ཀྱི་སྙིང་པོ་བསྡུས་པ་རིན་ཆེན་བཟང་པོའི་འགྱུར།
+
+Bu ston's *Chos 'byung* (ACIP etext VE1ALS12060E, etext p. 409, read again here): "…the Lamp that makes Reality clear, made by Dpal kam pa la's wife; the Examination of Dreams, Vibhūticandra's own translation; the Summary of the Essence of Reality made by the teacher Chos kyi dbang po, translated by Rin chen bzang po…". A second «rmi lam brtag pa» stands on p. 373, in the run of Advayavajra's works. Neither gives an author for the first. State: etext.
+
 ## <a id="svo-i626"></a>svo:i626 The Mchog dga' on the half-watch dbyu gu of 56¼ chu srang, the dbu can print img. 626 (RD341)
 
 *Read: machine, 2026-11-10.*
@@ -1424,9 +1442,43 @@ Nothing read dates the chapter alone; Jagaddeva (neg:i20) gives no date; the old
 
 ## Who wrote the Svapnohana, how its watches are bounded, and where its series of spans comes from (q796, q798, q799, q847, q853): whether «ངག་དབང» at the end of its remedy is Vāgīśvarakīrti and what the Tengyur's colophons and catalogues (Derge, Peking, Narthang, Co ne dkar chag, Bu ston's Chos 'byung, Tāranātha) say of its translator and author, how Padma rdo rje introduces his whole quotation of it (pp. 17–26 of his book) and whether he glosses the watches, what the Tibetan commentaries and medical or divination books say of the four watches' bounds, and whether an older Indian text has the series year, eight months, three months, half a month, ten days (RD359)
 
-Nothing read yet: RD359's passages, with the English beside them, go here.
+*Read: etext, 2026-11-10 (RD359): BDRC etexts of the Derge Tengyur's catalogue volume (vol. 213, VE23703_1531), the Jo nang Tengyur catalogue (VEIE0OPI28138A6F_I1KG9048), Bu ston's Chos 'byung (VE1ALS12060E), the Narthang manuscript's catalogue volume (vol. 225, I2KG212509, OCR too corrupt to read), and BDRC exact-phrase searches (about 40 phrases, Tibetan script); no scan of the catalogues was served (Derge vol. 213: HTTP 500; Jo nang: 401), no model run. Passages: [svo:i736](#svo-i736), [svo:i64](#svo-i64), [svo:i409](#svo-i409) (named by etext page, the catalogues having no printed page in the pool's registry).*
+
+**What was found.**
+
+1. q796. The Derge catalogue (Tshul khrims rin chen's, in the print's vol. 213) lists the Examination of Dreams right after the Deceiving Death, as Vibhūticandra's own translation, with no author; the Deceiving Death it gives to Ngag gi dbang phyug grags pa. The Jo nang Tengyur catalogue (Phyogs las rnam rgyal, 2010), which copies the same entries, writes that author's name «ངག་དབང་གྲགས་པ» (Ngag dbang grags pa). So «ངག་དབང» is an attested short form of Vāgīśvarakīrti's name, and the man whose work stands directly before the Svapnohana in the volume. No catalogue says that the remedy's «ངག་དབང» is he: the identification stays probable, now with an attested form of the name (claims/svo-ngag-dbang-grags-pa-short-name.md). The catalogues do not name an author for the Svapnohana; Bu ston, the Derge and the Jo nang catalogues all give "Vibhūticandra's own translation" (claims/svo-catalogues-derge-jo-nang.md).
+2. q847. Padma rdo rje's book closes its quotation with the Tengyur's colophon sentence «རྒྱ་གར་ཤར་ཕྱོགས་ཀྱི་པཎྜི་ཏ་བི་བྷཱུ་ཏི་ཙནྡྲས་རང་འགྱུར་དུ་མཛད་པའོ» (BDRC snippet in EWTS, "rgya gar shar phyogs kyi paN+Di ta bi b+hU ti tsan+d+ras rang 'gyur du mdzad pa'o", etext volume VEIE0OPI409E1122_I1KG10372, the chunk at char. 25516 that follows «rmi lam brtag pa rdzogs so»): he copies the colophon, so his quotation names Vibhūticandra and no other. The sentence that introduces the quotation was still not reached (below).
+3. q798. No catalogue, colophon or phrase search gives a gloss of the four watches' bounds: «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» and the other lines of the verse are found only in the Derge, Narthang and Dpe bsdur ma volumes of the Svapnohana (which also print it inside the Tārā sādhanas of the Narthang etext's misaligned OCR), Padma rdo rje's book and Bya mdo Klu byams rgyal's (RD262); the searches for the first, second and fourth watch with «རྨི་ལམ» in the Tibetan order gave no hit. Open as before.
+4. q799 and q853: nothing new; the lexica of RD322 and the Indian texts of RD312 and RD357 are the readings that bear on them.
+
+### Open (RD359)
+
+- Question: What sentence introduces Padma rdo rje's quotation of the Svapnohana (his pp. 16–17, etext chars about 18600–21345, the paragraphs between the account of the dream's length and the quotation's first line), and does he name the Tengyur, the translator or an author there? (q847 unchanged; the quotation's close names Vibhūticandra by the colophon.)
+- Question: Does the Narthang Tengyur catalogue («Bstan pa chos 'gyur ro cog gi dkar chag tshangs pa'i dbyangs», vol. 225 of the Tibet House manuscript, I2KG212509; the etext is unreadable, the entry probably near etext pp. 168 and 200, where «འཆི་བ་བླུ་བ» stands) list the Svapnohana, and with what words for its maker?
+
+### Searched and not found (RD359)
+
+- Derge catalogue vol. 213 (I1531) images 736–737, and the Derge vol. 28 image 268, answered HTTP 500 on 2026-11-10 (the first only after earlier 429s); the catalogue entries are etext only.
+- The Jo nang catalogue scans (I1KG9048): 401 (lent only).
+- The Peking catalogue and the Co ne catalogue: no etext or scan was located in this session (the Peking vols. 221–224 of BDRC's W1KG13126 were not opened; the Co ne W1GS66030 has no catalogue entry of the work).
+- Tāranātha: no search string of the work's title with Vibhūticandra's name found it; his history names translators, not works.
+- Phrases «ངག་དབང་གྲགས་པས་མཛད་པའི་རྨི་ལམ», «ངག་གི་དབང་ཕྱུག་གྲགས་པའི་རྨི་ལམ», «རྨི་ལམ་ཐུན་བཞི», «ཐུན་དང་པོར་རྨི་ལམ», «ཞག་བཅུའི་ནང་དུ་འབྲས་བུ་འབྱིན» (only the known books), «བསྟན་འགྱུར་རྨི་ལམ་བརྟག་པ», «རྨི་ལམ་བརྟག་པ་ལས་ཀྱང»: no new hit. «མཚན་ཐུན་བཞི» and «མཚན་ཐུན་དང་པོ» have 21 and 25 hits, none a dream text in the listed ones (the first eight of each not opened one by one).
+- The older Indian text with the series: not looked for again; RD312 and RD357 hold it.
+
 
 
 ## The Svapnohana and Advayavajra's examination, scan proof of RD207 (RD218)
 
 Nothing read yet: RD218's passages, with the English beside them, go here.
+
+## <a id="svo-i736"></a>svo:i736 The Examination of Dreams in the Derge Tengyur catalogue (vol. 213, etext pp. 736 and 765): translator only, set after the Deceiving Death (RD359)
+
+*Read: etext, 2026-11-10.*
+
+> > འཆི་བ་བསླུ་བའི་མན་ངག་ཅེས་བྱ་བ་སློབ་དཔོན་ངག་གི་དབང་ཕྱུག་གྲགས་པས་མཛད་པ། ཤླཽ་ཀ་སུམ་བརྒྱ་དྲུག་ཅུ་པ། རྒྱ་གར་གྱི་མཁན་པོ་དཱི་པཾ་ཀ་ར་ཤྲཱི་ཛྙཱ་ན་དང༌། ལོ་ཙཱ་བ་དགེ་སློང་རིན་ཆེན་བཟང་པོའི་འགྱུར། འདི་ཕྱི་ནང་གི་རྒྱུད་དུ་མ་དང་འབྲེལ་ཡང༌། ཁྱད་པར་མ་རྒྱུད་རྡོ་རྗེ་མཁའ་འགྲོ་དང༌། གདན་བཞི་དང་འབྲེལ་པར་སྣང་བས་འདིར་བཀོད་དོ། །རྨི་ལམ་བརྟག་པ་རྒྱ་གར་ཤར་ཕྱོགས་ཀྱི་པཎྜི་ཏ་བི་བྷཱུ་ཏི་ཙནྡྲའི་རང་འགྱུར། པདྨ་དྲ་བ་འབྱུང་བའི་སྒྲུབ་ཐབས་རྒྱལ་བ་དཔལ་ཡེ་ཤེས་ཀྱིས་མཛད་པ་དང༌། …
+> >
+> > (the same catalogue, a page later, in the list of Advayavajra's works:) …རང་བཞིན་དུ་གནས་པའི་སྔགས་ཀྱི་སྤྱོད་པ་བཅུ་པ། རྨི་ལམ་བརྟག་པ། སངས་རྒྱས་བྱང་ཆུབ་བསམ་གཏན་གྱི་དུག་སེལ་བར་བྱེད་པའི་མར་མེ་ཞེས་བྱ་བ། …རྣམས་རྒྱ་གར་གྱི་མཁན་པོ་དཔལ་ལྡན་གཉིས་སུ་མེད་པའི་རྡོ་རྗེས་མཛད་པ། རྣལ་འབྱོར་པ་བསོད་སྙོམས་པ་པྲཛྙཱ་ཤྲཱི་ཛྙཱ་ན་ཀཱིརྟིའི་རང་འགྱུར།
+
+Derge Tengyur catalogue (the catalogue volume of the Derge print, vol. 213, BDRC etext VE23703_1531, etext p. 736 and p. 765–766; the author's closing verse names the monk Tshul khrims rin chen who wrote it out at Lhun grub steng). In the section of the mother-tantra works, after the Tārā works: "The Teaching on Deceiving Death ('chi ba bslu ba'i man ngag), made by the teacher Ngag gi dbang phyug grags pa, in three hundred and sixty verses; translated by the Indian abbot Dīpaṃkara-śrījñāna and the monk and lotsāba Rin chen bzang po. Although this is tied to many tantras, outer and inner, it seems tied especially to the mother tantras, the Vajraḍāka and the Four Seats, so it is set down here. The Examination of Dreams (rmi lam brtag pa): the eastern Indian paṇḍita Vibhūticandra's own translation. The Padma-net sādhana made by the Victor Dpal ye shes, and …" (the entry ends there; the next group is the Black Lord's, Mahākāla). A page later, among the works of Advayavajra: "…the Ten-part Mantra Conduct of Natural Abiding, the Examination of Dreams, the Lamp that Removes the Poison of Meditation…, all made by the Indian abbot, the glorious Advayavajra; Prajñāśrījñānakīrti's own translation" (this is Advayavajra's own dream work, the Svapnekṣā).
+
+Which entry gives which fact: the Svapnohana's line names one man, Vibhūticandra, with «རང་འགྱུར» (own translation, rang 'gyur) and no author; it stands directly after the Deceiving Death and before the Padma-net sādhana, the order of the Derge volume itself; the catalogue says of the Deceiving Death alone that it was set in the mother tantras by the cataloguer's own judgement. The remedy's «ངག་དབང» is not mentioned. State: etext (the Derge catalogue's scans were not served, HTTP 500, 2026-11-10); the Tibetan is the etext's, not read on a page image.

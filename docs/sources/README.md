@@ -749,6 +749,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-authorship-witnesses.md](claims/svo-authorship-witnesses.md) | claim, conflict | Translator only or author as well: the catalogues against the Derge colophon | cites svo:p271, svo:p268; feeds block-73 |
+| [claims/svo-catalogues-derge-jo-nang.md](claims/svo-catalogues-derge-jo-nang.md) | claim, note | The Derge and Jo nang catalogues and Bu ston: Vibhūticandra's own translation, no author; Padma rdo rje copies the colophon | cites svo:i736, svo:i64, svo:i409, svo:p271; feeds block-73 |
 | [claims/svo-co-ne-machine-tallies.md](claims/svo-co-ne-machine-tallies.md) | claim, note | The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips | cites svo:p271m, svo:p271g; feeds RD311 |
 | [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
 | [claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md](claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md) | claim, note | The Derge print reads «བགྲོད་མིན», «བཅུ་ཡི་བར» and «བླ་མོ» | cites svo:p271l; feeds RD310 |
@@ -769,6 +770,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-narthang-ms-rta-la-mo-plain.md](claims/svo-narthang-ms-rta-la-mo-plain.md) | claim, conflict | The Narthang manuscript reads «རྟ་ལ་མོ» with a plain la | cites svo:p271i, svo:p271b; feeds RD289 |
 | [claims/svo-narthang-watch-verse-by-eye.md](claims/svo-narthang-watch-verse-by-eye.md) | claim, note | The Narthang manuscript has all four watch lines, and the third ends «བར» without «དུ» | cites svo:p271h, svo:p271e; feeds — |
 | [claims/svo-ngag-dbang-bdrc-records.md](claims/svo-ngag-dbang-bdrc-records.md) | claim, note | BDRC's records of Vāgīśvarakīrti and Vibhūticandra: dates overlap, no link to the remedy's Ngag dbang | cites svo:p271j, svo:p271; feeds block-73 |
+| [claims/svo-ngag-dbang-grags-pa-short-name.md](claims/svo-ngag-dbang-grags-pa-short-name.md) | claim, note | «ངག་དབང་གྲགས་པ» is the Jo nang catalogue's spelling of Vāgīśvarakīrti's name: the remedy's Ngag dbang is probably he | cites svo:i64, svo:i736, svo:p271; feeds block-73 |
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-rta-la-mo-plain-5x.md](claims/svo-peking-rta-la-mo-plain-5x.md) | claim, conflict | The Peking print reads «རྟ་ལ་མོ» with a plain la at 5× | cites svo:p271k, svo:p271d; feeds — |
@@ -1215,7 +1217,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 26 passages: 10 scan, 8 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 40 passages: 13 scan, 7 machine, 20 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 43 passages: 13 scan, 7 machine, 23 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
