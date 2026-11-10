@@ -127,3 +127,7 @@ Doubts that stay: «བརྟགས་པ་ལ་ཉལ» (an extra «པ» on 
 
 - The Dpe bsdur ma etext (W1PD95844 vol. 25 pp. 415–418) with its variant notes was not fetched.
 - The Narthang (W2KG5015 vol. 46 pp. 289–291) and W22704 vol. 46 images were not fetched.
+
+### Searched and not found (RD280)
+
+- The Narthang SVI strip (I2KG212330 img. 289) was glanced at and not reread by RD280; the Co ne SVI (vol. 49, 130a1–130b7), W22704 SVI and the Dpe bsdur ma notes were not touched. RD234, RD236 and RD276 stand.
