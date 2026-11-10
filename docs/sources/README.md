@@ -1765,6 +1765,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0886.md](questions/q0886.md) | question q886 | Does the Zhol print's སྦལ་ལྗོངས་ (a ས after ལྗོང) in ch. 81 stand on the scan, and what do the Derge and the Chag-po-ri copy read there? | open; cites st:p350-351 |
 | [questions/q0887.md](questions/q0887.md) | question q887 | Does the Serthang print (printed pp. 31–32, the leaf absent from the pool's scan I3CN5038) read «བརྗེད་ངས» as all eight other prints do, or «བརྗེད་ངེས»? | open; cites gt:i42 |
 | [questions/q0888.md](questions/q0888.md) | question q888 | Does any commentary of the Four Tantras' tradition give the stretch of the night from midnight to dawn a name or a rule of its own, as the three-thirds rule of LGD and RST does, or is it simply the approach of «ཐོ་རངས»? | open; cites gt:i42 |
+| [questions/q0889.md](questions/q0889.md) | question q889 | Is the third syllable of the Gāyatrī's first word in the Svapnohana «ཏྲི» (Peking) or «ཏྲེ» (Yigdzin-1 on the Narthang strip), and is the word the Sanskrit gāyatrī rendered «ག་ཡ་ཏྲི»? | open; cites svo:p271i |
+| [questions/q0890.md](questions/q0890.md) | question q890 | What is the Sanskrit title of the Svapnohana, «སྭ…བྣ/པྣ…ཨུ་ཧཱ་ནཱ»: which stacks stand second and third on the Narthang manuscript (img. 284 line 2) and in the Peking print, and is it svapnoha or svapnoddhāra? | open; cites svo:p271i |
 
 <!-- end pool index -->
 

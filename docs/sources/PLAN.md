@@ -1856,3 +1856,7 @@ Searched and found wanting, so not to be repeated:
   - «བརྗེད་ངེས» on any of the eight prints' scans of ch. 7, Yigdzin-1 over the line and by eye on two: not found; all have ངས.
   - A part of the night between midnight and dawn named in Byang pa, Khro ru, Rin spungs pa, the Drikung and the 'Bum nag gsal sgron (the passages in the pool): not found.
   - The Gso bya lus kyi rnam bshad (etext restricted) and a second published etext of Byang pa or Khro ru: not opened.
+- **RD289** (RD289, 2026-11-10):
+  - The Narthang manuscript's second and third title signs at 5–6× (img. 284 line 2): ink-filled stacks, not told apart.
+  - The Narthang manuscript's «ལྷོ»/«ལྟོ» (img. 286 line 4) and «སྙིང་སྡུག»/«སྔག» (line 2 end): the head of the stack not told apart at 7–8×.
+  - Yigdzin-1 over the whole frame of img. 286 returns only 20 characters (a colophon); the frame needs line strips.
