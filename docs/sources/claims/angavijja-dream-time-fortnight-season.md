@@ -15,3 +15,5 @@ The chapter then says that the bright and the dark fortnight (*sukka-pakkha*, *k
 It gives no span from the dream to its fruit, no lunar day (*tithi*) by number, no weekday, no nakṣatra. The "part of the phase" Wayman names is the "bright or dark fortnight" and the parts of the day and night of the list above.
 
 Doubt: RD269 read the time list of ch. 42 on the page images of the print (pp. 190–191): it is whole there, with "kaṇhesu" lost in one place only (printed "ka[ṇhesu]", the editor's own bracket); ch. 41's list stands on p. 185 (not p. 186, where the id agv:p186 keeps its old number) and has "afternoon" for the bright beginning where ch. 42's print has "forenoon"; the editor's notes give no variant for the word in either chapter, so which reading is the original is not settled.
+
+RD295 (2026-11-10): ch. 53 (p. 210, line 10) has the forenoon for the bright beginning and the afternoon for the bright end, as ch. 42 does; ch. 41 alone has the afternoon for both (claim angavijja-ch53-bright-beginning-forenoon).
