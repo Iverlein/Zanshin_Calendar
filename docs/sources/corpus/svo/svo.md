@@ -486,3 +486,38 @@ Count by print, as now known, of the places read by eye: «བགྲོད་མ
 - The Narthang manuscript's second and third title signs at 5–6× (img. 284 line 2): the stacks are ink-filled and not told apart; not settled.
 - The Narthang manuscript's «ལྷོ»/«ལྟོ» (img. 286 line 4) and «སྙིང་སྡུག»/«སྔག» (line 2 end): the head of the stack is not told apart at 7–8×.
 - The whole-frame run of Yigdzin-1 on img. 286 returns only 20 characters (a colophon); the frame needs line strips, as the Co ne frames do.
+
+## <a id="svo-p271j"></a>svo:p271j The colophons of the Svapnohana and of the work before it, on the Peking print and the Narthang manuscript (RD292)
+
+*Read: scan, 2026-11-10.*
+
+> Peking, I1KG13197 img. 314 line 8 (end of the preceding work):
+> རྒྱ་གར་གྱི་མཁན་པོ་དཱི་པཾ་ཀ་ར་ཤྲཱི་ཛྙཱ་ན་དང་། ལོ་ཙཱ་བ་དགེ་སློང་རིན་ཆེན་བཟང་པོས་བསྒྱུར་ཅིང་ཞུས་པའོ། (end of the line unread)
+> 
+> Peking, img. 318 line 6 (end of the Svapnohana):
+> རྨི་ལམ་བརྟག་པ་རྫོགས་སོ། །རྒྱ་གར་ཤར་ཕྱོགས་ཀྱི་པཎྜི་ཏ་བི་བྷཱུ་ཏི་ཙནྡྲས་རང་འགྱུར་དུ་མཛད་པའོ། །
+> 
+> Narthang manuscript, I2KG212312 img. 287 line 3 (printed p. 285):
+> རྨི་ལམ་བརྟག་པ་རྫོགས་སོ། །རྒྱ་གར་ཤར་ཕྱོགས་ཀྱི་པཎྜི་ཏ་བི་བྷཱུ་ཏི་ཙནྡྲས་རང་འགྱུར་དུ་མཛད་པའོ། །
+> 
+> BDRC work records (catalogue transcription, Wylie): MW23703_1748 'chi ba bslu ba'i man ngag: slob dpon ngag gi dbang phyug grags pas mdzad pa'i 'chi ba bslu ba bstan pa las le'u bzhi pa'o// ngag gi dbang phyug grags pas mdzad pa 'chi ba bslu ba zhes bya ba rdzogs so// rgya gar gyi mkhan po dI pam ka ra shrI dz+nyA na dang/ lo tsA ba dge slong rin chen bzang pos bsgyur ba'o//
+> MW23703_1749: rmi lam brtag pa rdzogs so// rgya gar shar phyogs kyi paN+Di ta bi bhU ti tsandras rang 'gyur du mdzad pa'o//
+
+Peking img. 314 line 8: "translated and revised by the Indian abbot Dīpaṃkaraśrījñāna and the lotsāba, the monk Rin chen bzang po" (the colophon of the work that stands before the Svapnohana; the words «བསྒྱུར་ཅིང་ཞུས» at 1.5×, the sense moderate). A short title-like tag follows at the end of the line, «རྨི་ལམ་བརྟག་པ་…བཞུགས་སོ» after a mark «༡༡», not told apart.
+
+Peking img. 318 line 6: the end of the Svapnohana and its colophon, in the Derge wording: "made by the eastern Indian paṇḍita Vibhūticandra as his own translation"; the next line carries the title of the next work (a Padma-net Avalokiteśvara practice, «པདྨ་དྲྭ…སྤྱན་རས་གཟིགས…»), then the mark «༡༡» and the Sanskrit title line of that work.
+
+Narthang manuscript img. 287 line 3: the same two sentences as the Derge text, «རང་འགྱུར་དུ་མཛད་པའོ» read plainly.
+
+The BDRC transcription of the preceding work's colophon says: "Chapter four of the Teaching on Deceiving Death, made by the teacher Ngag gi dbang phyug grags pa; the Deceiving Death by Ngag gi dbang phyug grags pa is complete; translated by the Indian abbot Dīpaṃkaraśrījñāna and the lotsāba, the monk Rin chen bzang po." The Svapnohana's BDRC colophon is the Derge text's.
+
+### Open (RD292)
+
+- Question: is the «ངག་དབང» of «འདི་ནི་ངག་དབང་དགོངས་པ་སྟེ» the abbreviated name of Ngag gi dbang phyug grags pa (Vāgīśvarakīrti), whose Deceiving Death stands before the Svapnohana in the Derge, Peking and Narthang volumes, or another teacher, or a name of Mañjuśrī? (q796 unchanged: the colophons and BDRC's person records name nobody else; claims/svo-ngag-dbang-bdrc-records.md.)
+- Question: how are the watches (ཐུན) bounded in the Svapnohana: four equal parts of the night, or otherwise? (q798 unchanged; claims/svo-watch-bounds-not-in-colophons.md.)
+
+### Searched and not found (RD292)
+
+- The colophons on the Derge, Peking and Narthang: no author named for the Svapnohana, no reviser, no place; the Peking line at the end of img. 314 line 8 after the preceding work's colophon (a title-like tag after the mark «༡༡») not told apart at 1.5×.
+- The Derge dkar chag, the Peking and Narthang catalogues were not opened for this reading (no etext or scan located); the catalogue statements stand as RD257 recorded them.
+- BDRC person records of both men: no work, teacher or pupil link between Vibhūticandra and Vāgīśvarakīrti; no entry names the remedy's Ngag dbang.

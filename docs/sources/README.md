@@ -656,6 +656,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-authorship-witnesses.md](claims/svo-authorship-witnesses.md) | claim, conflict | Translator only or author as well: the catalogues against the Derge colophon | cites svo:p271, svo:p268; feeds block-73 |
+| [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
 | [claims/svo-gayatri-spelling.md](claims/svo-gayatri-spelling.md) | claim, note | The Gayatri's name in the Svapnohana is ga ya tri in Peking | cites svo:p271b, svo:p271; feeds RD228 |
 | [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
@@ -667,6 +668,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-narthang-ms-bgrod-min-bcu-yi-bar.md](claims/svo-narthang-ms-bgrod-min-bcu-yi-bar.md) | claim, note | The Narthang manuscript reads «བགྲོད་མིན» and «བཅུ་ཡི་བར» | cites svo:p271i; feeds RD289 |
 | [claims/svo-narthang-ms-rta-la-mo-plain.md](claims/svo-narthang-ms-rta-la-mo-plain.md) | claim, conflict | The Narthang manuscript reads «རྟ་ལ་མོ» with a plain la | cites svo:p271i, svo:p271b; feeds RD289 |
 | [claims/svo-narthang-watch-verse-by-eye.md](claims/svo-narthang-watch-verse-by-eye.md) | claim, note | The Narthang manuscript has all four watch lines, and the third ends «བར» without «དུ» | cites svo:p271h, svo:p271e; feeds — |
+| [claims/svo-ngag-dbang-bdrc-records.md](claims/svo-ngag-dbang-bdrc-records.md) | claim, note | BDRC's records of Vāgīśvarakīrti and Vibhūticandra: dates overlap, no link to the remedy's Ngag dbang | cites svo:p271j, svo:p271; feeds block-73 |
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
@@ -675,6 +677,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-sanskrit-original-not-named-in-indian-sources.md](claims/svo-sanskrit-original-not-named-in-indian-sources.md) | claim, note | No Sanskrit original of the Svapnohana is named in the Indian sources read (RD272) | cites svo:p268, svo:p271, skd:p473, neg:p376; feeds block-73 |
 | [claims/svo-time-ties-other-than-the-watch.md](claims/svo-time-ties-other-than-the-watch.md) | claim, note | The Svapnohana's ties of a dream to a time other than the watch | cites svo:p268, svo:p269, svo:p270, svo:p271, svi:p261; feeds block-73 |
 | [claims/svo-vibhuticandra-dates.md](claims/svo-vibhuticandra-dates.md) | claim, note | Vibhūticandra and the date of the Svapnohana: Stearns 1996 and the early catalogues | cites svo:p271; feeds block-73 |
+| [claims/svo-watch-bounds-not-in-colophons.md](claims/svo-watch-bounds-not-in-colophons.md) | claim, note | No text read in RD292 bounds a watch of the night | cites svo:p271j, svo:p268; feeds block-73 |
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
 | [claims/svo-women-by-colour.md](claims/svo-women-by-colour.md) | claim, table | The Svapnohana: the embraced woman by the colour of her clothes, and white and black things | cites svo:p270; feeds block-73 |
 | [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
@@ -1079,7 +1082,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 6 passages: 2 scan, 3 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 15 passages: 7 scan, 5 machine, 3 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 16 passages: 8 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
