@@ -1848,6 +1848,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0923.md](questions/q0923.md) | question q923 | Which tantra do Rang byung rdo rje and Kong sprul mean by «rgyud rnams las», and the Blue Beryl and Zur mkhar ba by «རྒྱུད་ནས་མང་དུ་གསུངས་པ», for the verse «སྲོད་ལ་བད་ཀན་ཤས་ཆེ་སྟེ། ནམ་ཕྱེད་དུས་སུ་མཁྲིས་པར་བརྗོད། ཐོ་རངས་རླུང་གི་དུས་ཉིད་དེ»? | open; cites st:p31-32c |
 | [questions/q0924.md](questions/q0924.md) | question q924 | Do the two editions of Byang pa's commentary (MW27496, the Si khron print of 2001, and MW15590, the Mi rigs dpe skrun khang first printing) differ on the page in the Moonbeams' line (མི་བཟང་ against མི་བཟད), and which is the author's own? | open; cites st:p30-31 |
 | [questions/q0925.md](questions/q0925.md) | question q925 | Does Bya mdo Klu byams rgyal join the Klong rdol line and the Four Tantras' first line into one rule (dusk and midnight without fruit, dawn with), or only set them side by side as two authorities? | open; cites st:p31-32c |
+| [questions/q0926.md](questions/q0926.md) | question q926 | In the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར and the fourth watch's «ཕྱེད་པར་» likewise: is «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it? | open; cites svo:p271m |
+| [questions/q0927.md](questions/q0927.md) | question q927 | The Co ne's third watch line reads «ཐུན་གཉིས་གསུམ་གྱི་བར» (no «ཟླ་བ», «གཉིས» for «གསུམ»): is it the scribe's slip or the print's own text? | open; cites svo:p271m |
 
 <!-- end pool index -->
 
