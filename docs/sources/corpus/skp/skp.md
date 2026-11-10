@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD315 (2026-11-10): p. 50 (I1NLM933_001 img. 50) again at 2x and 3x, lines 3 and 4 of the second text's opening and the whole page in two halves: the colophon of the first text is not resolved by eye (see below); BDRC's work record MW1NLM933_A02C49 and its content location (CL23B32BF26BEA7736, pp. 40–55, W1NLM933) and BDRC's full-text search for the colophon's formula, for «ལེགས་པར་བཤད་པ་པདྨ་དཀར» and for the title; the parallel text on MDP p. 138 (mdp:p138).
+
 Read by RD286 (2026-11-10): p. 50 (I1NLM933_001 img. 50) lines 3-5 looked at in crops at 2x, p. 55 (img. 55) last lines read by eye at 2.2x; BDRC's work record of MW1NLM933_A02C49 and its abstract work, BDRC's title index and full-text search for the names and the closing words.
 
 Read by RD278 (2026-11-09): DTD on four Mongolian National Library manuscripts, SKP's second text in NLM9419, the Derge Tengyur vol. 206 for RBG.
@@ -85,4 +87,13 @@ Nothing read yet: RD219's passages, with the English beside them, go here.
 
 ## The names and authors in the short dream manuals and rites, from the BDRC catalogue and the collected works: the Sakya Paṇḍita attribution of SKP's first text and its colophon (q803, q882), «པདྨ་དཀར» at the end of SKP's second text and the 'third of Vairocana' (q802, q883), «Dpal rno bkra» and «ma mar mo»/«dmar mo» in GNC (q795, q880, q881), the monk Sgra tshad pa whose notes close MDP's rebirth-seeing rite (q877), and the TDR printed p. 343 boundary and the section «gsum» (q793, q878, q879) (RD315)
 
-Nothing read yet: RD315's passages, with the English beside them, go here.
+## Open (RD315)
+
+Question: Can a reader of the manuscript hand confirm the colophon of the first text (p. 50, lines 3–4) as «ཤཱཀྱའི་དགེ་སློང་ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ» and tell «གསུམ་པ» from «གསུངས་པ» in the second text's opening line («… བཻ་རོ་ཙ་ན་ཡི། གསུམ་པ་ཇི་བཞིན་འདིར་…»)? The title page and the colophon's name agree (Sa skya Paṇḍita's full name); what is open is only the reading of the cursive.
+
+Question: Is «ལེགས་པར་བཤད་པ་པདྨ་དཀར» at the end of the second text a title (the white lotus of good explanation) or the signature of a person, and does the second text close so in the Mongolian copy NLM9419 and in MDP's copy (p. 138 ff.), whose end was not read?
+
+## Searched and not found (RD315)
+
+- BDRC's full-text search, 2026-11-10: «ས་སྐྱ་པཎྜི་ཏ་རྨི་ལམ་བརྟག་ཐབས» and «རྨི་ལམ་བསྟགས་པའི་དཔལ»: no hit (the first text is not found by title in any etext). «ལེགས་པར་བཤད་པ་པདྨ་དཀར»: 34 hits, all titles of astronomical or Abhisamaya works, none a dream text.
+- The cursive of p. 50 lines 3–4 at 3x: not resolved (the syllables of the colophon and of «གསུམ་པ/གསུངས་པ»).

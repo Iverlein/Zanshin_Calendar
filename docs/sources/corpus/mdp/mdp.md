@@ -77,4 +77,14 @@ Printed p. 138 (BDRC W21880, archive.org copy bdrc-W21880, img. 146): the headin
 ### Searched and not found (RD284)
 
 - A collectors' note, preface or list of sources in the volume: none in the preview images 4–19 (title page, imprint, contents, the first text's heading); the dream part's own pages carry only the lineage and the monk's note.
-- A composer's name for the rite of pp. 134–137: none; the lineage ends with Bu ston and the note names only the note-taker.
+- A composer's name for the rite of pp. 134–137: none; the lineage ends with Bu ston and the note names only the note-taker.Read by RD315 (2026-11-10): the name «དགེ་སློང་སྒྲ་ཚད་པ» and the lineage's names in BDRC's full-text search (12 searches over RD315's two batches), for mdp:p135b and mdp:p137b; no page of MDP was opened.
+
+## Open (RD315)
+
+Question: Is the «Rga lo» of the lineage on p. 135 the translator Rga lo tsā ba, or a misreading or short form of «G.yag sde lo tsā ba» (Bsod nams bzang po), whom three Sa skya lineages name as the teacher of Ze dmar ba Sangs rgyas ye shes, who taught Bu ston?
+
+Question: Is the monk Sgra tshad pa of p. 137 Rin chen rnam rgyal, Bu ston's pupil and biographer, whom BDRC's records call «dge slong sgra tshad pa» (mdp:p137b)?
+
+## Searched and not found (RD315)
+
+- BDRC's full-text search, 2026-11-10: «བླ་མ་རྒ་ལོ་ཟེ་དམར་བ» and «བི་ཁྱཱ་ཏ་དེ་བ་ཤཱཀྱ་ཤྲཱི་དཱ་ན་ཤྲཱི»: no hit; «སྒྲ་ཚད་པ་རིན་ཆེན་རྣམ་རྒྱལ་བུ་སྟོན»: no hit. The lineage as the MDP gives it is in no etext found; «ཟེ་དམར་བ་སངས་རྒྱས་ཡེ་ཤེས» has 11 hits in the Sa skya and Gdan sa lineage lists.

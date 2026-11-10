@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD315 (2026-11-10): the editor's table of contents of the other print (VEIE0OPI0BD8769F_I1PD407, etext pp. 20–21) and its pages [p337]–[p346] by headings, for the numbering «gsum» and «bzhi pa»: tdr:p21e. No scan.
+
 Read by RD286 (2026-11-10): the headings of p. 343 on the scan (I3856 img. 347, line 6, read by eye at 2x: the title written twice, with the letter tho between; the machine's «སློལ» is «སྒྲོལ»), img. 346 looked at (the catchword at the foot of p. 342 not legible); the work before White Tārā's from BDRC's records of MW25101 and the etext IE0OPI0BD8769F, pp. 335-343 of its numbering (headings only, no scan of that print).
 
 Read by RD241 (2026-11-09): TDR on the scan of W1PD2 (I1PD407) not reached, the open manifest serves only img. 3-22 and 373-391 (printed pp. 313-316 lie between); GNC img. 731 line 3-5 looked at in three crops at 1.2x, nothing settled by eye (headless dbu med hand), the text stays machine.
@@ -24,6 +26,37 @@ Read by RD240 (2026-11-09, no scan, an etext of another print): the abstract wor
 Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MITRA slot; the manuscript hand was not legible enough by eye), the passages stay machine; see RD222.
 
 Read by RD222 (2026-11-09): TDR img. 347-348 run through Yigdzin-1 and MITRA, which agree at only 86 and 85 percent (29 flags a page: manuscript hand, sa/ska, nya/zha, ba/pa, wa-zur and Sanskrit seeds); not read on the scan, the passages stay machine. Longer stretches where the two differ in whole phrases: img. 348 line 2 (bsnyems rten 'brel mngon shes su 'chad pa'i gsol ba), line 2 and line 6 end.
+
+## <a id="tdr-p21e"></a>tdr:p21e The contents of the lower part of the other print: the numbered sections of the 'Brong rtse be'u bum's instructions
+
+*Read: etext, 2026-11-10.*
+
+> [etext p. 20, end] སྨད་ཆ། 
+> འབྲོང་རྩེ་བེའུ་བུམ་མན་ངག་གི་བང་མཛོད་ཆེན་།།
+> དང་པོ།གྲུབ་ཆེན་ཨོ་རྒྱན་པའི་དངུལ་ཆུ་གདམས་པའི་སྐོར
+> 257
+> 4
+> 
+> 
+> [etext p. 21]
+> གཉིས་པདངུལ་ཆུ་བཤིག་འདུལ་མཁས་པའི་ཁྱད་འདོན་
+> གྱི་གདམས་པའི་སྐོར.305
+> ལྷ་མོ་ཤྲ་མ་ན་ཤཱཀྱ་ཐུབ་པ་སྒྲོལ་མ་རྣམས་ལ་གསུམ་པ
+> བརྟེན་པའི་རྨི་ལམ་བརྟག་པ།309
+> བཞི་པ།མཁའ་འགྲོ་མ་སེང་གེ་གདོང་ཅན་གྱི་ལས་ཚོགས།
+> 315
+> ལྔ་པཕ་དམ་པའི་ས་དུ་རྦད་ཀྱི་ལས་ཚོགས།318
+> དྲུག་པ།བསྲུང་འཁོར་འདྲི་ལུགས་གཉིས་ཀྱི་སྐོར། 323
+> བདུན་པའཕགས་པ་ཀླུ་སྒྲུབ་ཀྱི་མཛད་པའི་ནག་པོ་
+> དགུ་སྦྱོར་བཅས་ཡོད།325
+> བརྒྱད་པ།ཁ་འཐོར་རིན་ཆེན་ཕྲེང་བའི་སྐོར།327
+> དགུ་པ།གོང་གི་སྨན་གྱི་འཁོར་ལོའི་ལག་ལེན་ཞི་བྱེད་སྦྱོར་བ་
+> སྨན་དཔྱད་མན་ངག་སྡེ་ཚན་ལྔ་པའི་སྐོར། 338
+> ཚ་རིམས་སེལ་བའི་སྨན་གསེར་གྱི་ཞལ་གདམས།བཅུ་པ
+> 359
+> 5
+
+[Contents of the other print's lower part, etext pp. 20-21, headings and printed page numbers only] "The lower part: the great treasury of the 'Brong rtse be'u bum's instructions (མན་ངག, man ngag). 1: the mercury instructions of the great adept Orgyan pa, p. 257. 2: the instructions on the speciality of breaking and subduing mercury, p. 305. 3: the examinations of dreams relying on the goddess Śramaṇā, Śākyamuni and Tārā (three of them), p. 309. 4: the rites of the lion-faced dakini, p. 315. 5: the rites of the holy Pha dam pa, «ས་དུ་རྦད» (the keyed word is not understood), p. 318. 6: the two ways of drawing the protection wheel (བསྲུང་འཁོར, bsrung 'khor), p. 323. 7: the noble Nāgārjuna's 'black nine' with their combinations (ནག་པོ་དགུ་སྦྱོར, nag po dgu sbyor), p. 325. 8: the scattered jewel rosary (ཁ་འཐོར་རིན་ཆེན་ཕྲེང་བ), p. 327. 9: the practice of the medicine wheel above, the pacifying compounds, the fifth section of the medical instructions, p. 338. 10: the gold instruction that clears the fevers, p. 359." The printed numbers of the headings are the print's own; the keyed text runs the ordinal of each heading into the preceding title, so the order above is read from the ordinals (གཉིས་པ ... བཅུ་པ).
 
 ## <a id="tdr-p337-345e"></a>tdr:p337-345e The headings of the Śramaṇā, Śākyamuni and Tārā section in the etext of the other print
 
@@ -81,3 +114,13 @@ Question: The etext heading names Śramaṇā, Śākyamuni and Tārā as "three"
 
 - The scan of the Delhi print img. 346 (p. 342, foot): the catchword at the lower right is not legible at the scan's resolution, so the closing words of p. 342 and the Śramaṇā text's own colophon were not read on the scan; the etext of the other print gives no author or colophon name for either text.
 - BDRC's records of MW25101 parts 64–66 give no author for any of the three works.
+
+Note on tdr:p21e (RD315): the table of contents is the modern editor's; the print's ten sections of the «man ngag gi bang mdzod chen» are numbered in the keyed text by ordinals that the keying has run into the neighbouring titles; the facts used are the order, the headings and the printed page numbers (309 for section 3, 315 for section 4), which agree with the running numbers in the body (the body's «[p337] 309 gsum», «[p343] 315 bzhi pa»). The editor's front matter says the book belongs to 'Brong rtse Lha btsun Rin chen rgya mtsho (Blo gros dpal bzang), whose lineage of the instructions, as the editor gives it, names Mkhas grub Dge legs dpal bzang before him; not quoted further.
+
+## Open (RD315)
+
+Question: Who wrote, or compiled, the three dream examinations of the third section (Śramaṇā, Śākyamuni, Tārā) in the 'Brong rtse be'u bum? The print names no author for any of the three and the editor's own words give only the book's owner, 'Brong rtse Lha btsun Rin chen rgya mtsho.
+
+## Searched and not found (RD315)
+
+- No author or colophon name stands at the end of White Tārā's text in the etext of the other print ([p343]; the next heading is the fourth section).
