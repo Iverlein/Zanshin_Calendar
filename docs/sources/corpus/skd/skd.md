@@ -78,3 +78,9 @@ What the physician's verses say about time, in our words (the print's line 4 is 
 - No span in years, months or days is given by the physician.
 
 The physician's pages give the same pair of ideas as the Purāṇic series — the early night is far, the hour of the cows' release is at once — and a remedy of gift, offering and recitation (as the *Svapnohana*'s remedy, svo:p271), but no numbers.
+
+## RD291 (2026-11-10): the Kāṇva "book of merit", the chapter's age, and the Kālaprakāśikā's fourth span
+
+Read by RD291: the *Kālaprakāśikā*'s Devanagari page (printed १८९) again on the page image, where v. 67 reads "karoti varṣād varṣārdhāt trimāsān māsatas tathā" and the dawn "dvādaśāhāt phalapradaḥ": a month for the fourth watch, no half-month (claim kalaprakasika-xlii-67-fourth-span-is-a-month; q854); the Brahmavaivarta's line on the Kāṇva branch against the Purāṇa's own use of that branch in Jivananda's print and Basu's translation (claim brahmavaivarta-kanva-puranakanda-not-traced; q866); Hazra 1940 and Rocher 1986 on the Purāṇa's date (claim brahmavaivarta-date-hazra-rocher; q869). The passage this file quotes, skd:p470-471 ("kāṇvaśākhāyāṃ puṇyakāṇḍe manohare", the series "dvitīye cāṣṭabhir māsais tribhir māsais tṛtīyake / caturthe cārdhamāsena"), was not re-read on its image.
+
+Searched and not found (RD291): a *puṇyakāṇḍa* of the Kāṇva branch in any catalogue or study open to the session; a date for the dream chapter alone; Scheuermann's chapter (Brill 2020, pp. 161–180) in an open copy (brill.com refuses an automated browser; OAPEN, DOAB and the Internet Archive do not hold it).
