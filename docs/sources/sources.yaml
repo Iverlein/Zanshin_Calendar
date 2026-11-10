@@ -1221,3 +1221,12 @@ dhd:
   rank: 3
   role: source
   locator: folio
+
+dds:
+  title: "Dreams tied to a date in the Tibetan sources: the hits of a systematic search of the BDRC etexts"
+  author: "various; each passage names its text, author and etext"
+  edition: "the BDRC etexts as served, named in each passage"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
