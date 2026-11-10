@@ -425,6 +425,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
 | [claims/garuda-purana-no-dream-chapter.md](claims/garuda-purana-no-dream-chapter.md) | claim, note | The Garuḍapurāṇa has no chapter on dreams (RD265) | cites gpu:p131; feeds block-73 |
 | [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558, gnc.1:p559-561; feeds S1 |
+| [claims/gnc-rno-bkra-and-dmar-mo.md](claims/gnc-rno-bkra-and-dmar-mo.md) | claim, definition | «Dpal rno bkra» names the cycle of the Gnam chos the rites are drawn from; «ma mar mo» is «dmar mo» (RD286) | cites gnc.1:p558h, gnc.1:p557-558; feeds — |
 | [claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md](claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md) | claim, definition | བག་མ་ལན་པ in ch. 7's verse: taking a bride, lan pa a spelling of len pa | cites gt:i42-43; feeds S2 |
 | [claims/gt-bro-ba-khral-ded-a-levy.md](claims/gt-bro-ba-khral-ded-a-levy.md) | claim, definition | བྲོ་པའི་ཁྲལ་འདེད in ch. 7's verse: a levy of the bro being demanded; bro ba'i is the common spelling | cites gt:i42-43, bjp:p177-181; feeds S2 |
 | [claims/gt-dream-death-images.md](claims/gt-dream-death-images.md) | claim, list | The bad dreams of the sick that mark the lord of death: every image in the Drathang's verse and what it marks | cites gt:i42-43, bjp:p177-181; feeds S2, RD216 |
@@ -613,6 +614,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/skd-brahmavaivarta-series-second-print.md](claims/skd-brahmavaivarta-series-second-print.md) | claim, note | The Śabdakalpadruma prints the Brahmavaivarta's series of spans on p. 470, with two lines the other print lacks (RD272) | cites skd:p470-471, bvp:p662-665, svo:p268; feeds block-73 |
 | [claims/skd-svapna-article-parts-and-sources.md](claims/skd-svapna-article-parts-and-sources.md) | claim, list | What the Śabdakalpadruma's article svapna holds, and where it names its sources (RD272) | cites skd:p470-471, skd:p471-472, skd:p473; feeds block-73 |
+| [claims/skp-attribution-and-padma-dkar.md](claims/skp-attribution-and-padma-dkar.md) | claim, note | SKP: the Sa skya Paṇḍita attribution rests on the title; the colophon's name is his, but unread by eye; «པདྨ་དཀར» is not tied to a person (RD286) | cites skp:p55h, skp:p40-50, skp:p50-55; feeds — |
 | [claims/skp-auspicious-and-bad-dreams.md](claims/skp-auspicious-and-bad-dreams.md) | claim, list | SKP, first text: the verdict of each dream image, no time rule | cites skp:p40-50; feeds block-73 |
 | [claims/skp-second-text-is-the-rst-verses.md](claims/skp-second-text-is-the-rst-verses.md) | claim, conflict | SKP, second text: the verses of the ACIP method under Vairocana's name | cites skp:p50-55, rst:p1-8; feeds block-73 |
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |
@@ -671,6 +673,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-shakyamuni-frame.md](claims/tdr-shakyamuni-frame.md) | claim, rule | The Śākyamuni rite printed before White Tārā: the posture, the repetition and the grades of answer | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
+| [claims/tdr-work-before-and-title.md](claims/tdr-work-before-and-title.md) | claim, note | The work that ends on TDR p. 343 is the Śramaṇā text; White Tārā's begins at the doubled title in line 6 (RD286) | cites tdr:p343h, tdr:p337-345e, tdr:p343-344; feeds — |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -1011,7 +1014,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
-| [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 2 passages: 2 machine |
+| [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 3 passages: 1 scan, 2 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 3 passages: 3 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
@@ -1062,14 +1065,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |
 | [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 2 passages: 2 etext |
-| [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 2 passages: 2 machine |
+| [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 3 passages: 1 scan, 2 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 6 passages: 2 scan, 3 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 14 passages: 6 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
-| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
+| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |

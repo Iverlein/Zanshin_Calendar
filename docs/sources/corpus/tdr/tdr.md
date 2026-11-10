@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD286 (2026-11-10): the headings of p. 343 on the scan (I3856 img. 347, line 6, read by eye at 2x: the title written twice, with the letter tho between; the machine's «སློལ» is «སྒྲོལ»), img. 346 looked at (the catchword at the foot of p. 342 not legible); the work before White Tārā's from BDRC's records of MW25101 and the etext IE0OPI0BD8769F, pp. 335-343 of its numbering (headings only, no scan of that print).
+
 Read by RD241 (2026-11-09): TDR on the scan of W1PD2 (I1PD407) not reached, the open manifest serves only img. 3-22 and 373-391 (printed pp. 313-316 lie between); GNC img. 731 line 3-5 looked at in three crops at 1.2x, nothing settled by eye (headless dbu med hand), the text stays machine.
 
 Read by RD240 (2026-11-09): GNC in the manuscript W1ER167 vol. 1 (I1ER1055 img. 729–735) and TDR in the etext VEIE0OPI0BD8769F_I1PD407.
@@ -22,6 +24,24 @@ Read by RD240 (2026-11-09, no scan, an etext of another print): the abstract wor
 Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MITRA slot; the manuscript hand was not legible enough by eye), the passages stay machine; see RD222.
 
 Read by RD222 (2026-11-09): TDR img. 347-348 run through Yigdzin-1 and MITRA, which agree at only 86 and 85 percent (29 flags a page: manuscript hand, sa/ska, nya/zha, ba/pa, wa-zur and Sanskrit seeds); not read on the scan, the passages stay machine. Longer stretches where the two differ in whole phrases: img. 348 line 2 (bsnyems rten 'brel mngon shes su 'chad pa'i gsol ba), line 2 and line 6 end.
+
+## <a id="tdr-p337-345e"></a>tdr:p337-345e The headings of the Śramaṇā, Śākyamuni and Tārā section in the etext of the other print
+
+*Read: etext, 2026-11-10.*
+
+> [p337] གསུམ་། ལྷ་མོ་ཤྲ་མ་ན་ཤཱཀྱ་ཐུབ་པ་སྒྲོལ་མ་རྣམས་ལ་བརྟེན་པའི་རྨི་ལམ་བརྟག་པ་གསུམ། མན་ངག་རྒྱ་མཚོའི་གླིང་ལ་དབང་བསྒྱུར་བའི་དེད་དཔོན་བླ་མའི་ཞབས་ལ་གུས་བཏུད་ནས། གནས་སྐབས་མཐར་ཐུག་ཚེ་འདིའི་དགོས་འདོད་ཀུན།། དངོས་སམ་རྨི་ལམ་བརྟགས་པའི་ཞལ་གདམས་བྲི༎ ༈ ལྷ་མོ་ཤྲ་མ་ཎའི་སྒོ་ནས་རྨི་ལམ་བརྟགས་པ་ལ་གཉིས། དང་པོ། འགལ་རྐྱེན་བསལ།
+> [p341] ཨོཾ་བུདྷ་ཙུ་རུ་མཱ་ཙུ་རུ་ཀེ་སྭཱ། ཞེས་པ། རྗེ་བཙུན་ཤཱཀྱ་ཐུབ་པའི་སྒོ་ནས་བརྟག་པའོ༈ སྒྲོལ་མ་ཀར་[དཀར]མོའི་རྨི་ལམ་བརྟག་པ་རྟེན་འབྲེལ་མངོན་ཤེས་སུ་འཆར་བའི་མན་ངག་ནི།
+> [p343] བཞི་པ། མཁའ་འགྲོ་མ་སེང་གེ་གདོང་ཅན་གྱི་ལས་ཚོགས།
+
+Etext (not a scan) of the other print, the 'Brong rtse be'u bum chen mo (W1PD2, I1PD407; etext page [p337] = printed p. 309, [p341] = 313, [p343] = 315), read for the headings only. [p337] opens a section numbered "three" (gsum): "Three examinations of dreams relying on the goddess Śramaṇā (lha mo shra ma Na), the Śākyamuni and Tārā", with a verse of homage to the lama; then "the examination of dreams through the goddess Śramaṇā, in two parts: first, removing the hindrances and gathering the conditions; second, the method of practice". The mantra of the Śākyamuni rite closes on [p341] with the words "this is the examination through the Venerable Śākyamuni" (བརྟག་པའོ); then, after ༈, White Tārā's text begins on [p341] (the Delhi scan's p. 343) with the same title as on the Delhi scan. The lion-faced dakini's rite after it is headed "fourth".
+
+## <a id="tdr-p343h"></a>tdr:p343h The two headings of White Tārā's text on the scan, line 6 of p. 343
+
+*Read: scan, 2026-11-10.*
+
+> ... རྗེ་བཙུན་ཤཱཀ་ཐུབ་པའི་སྒོ་ནས་རྨི་ལམ་བརྟག་པའོ། ༈ སྒྲོལ་དཀར་མོའི་སྒོ་ནས་རྨི་ལམ་བརྟག་པ་ཡོད། ཐོ། སྒྲོལ་མ་དཀར་མོའི་སྒོ་ནས་རྨི་ལམ་བརྟག་པ་རྟེན་འབྲེལ་མངོན་ཤེས་སུ་འཆར་བའི་མན་ངག་ནི།
+
+Printed p. 343 (I3856 img. 347), the end of line 5 and line 6 as read on the scan: "... (the rite) of the Venerable Śākyamuni is the examination of dreams. ༈ The examination of dreams through White Tārā is here. [the section letter tho (ཐོ) in a scribal loop] The instruction for the examination of dreams through the Venerable White Tārā, by which dependent origination arises as clairvoyance: ..." The title is thus written twice, once short after the mark ༈, once in full after the letter.
 
 ## <a id="tdr-p343-344"></a>tdr:p343-344 The examination of dreams through White Tārā, with the end of the Śākyamuni rite before it
 
@@ -50,3 +70,14 @@ The White Tārā rite (title: the examination of dreams through White Tārā; th
 Reading of the mirrors. The east mirror, bearing A: appearances marked by A are accomplished. The south, with NU: all omens (mtshan ma) are accomplished. The west, with TA: all appearances of omens come true, and what does not come true does not accomplish. The north, with RA: the appearances of living beings (srog chags; the Delhi machine reading had «སྤོག་ཆཊ», RD240) are accomplished, and no others.
 
 Colophon of the text: the lion-faced dakini's rite follows; homage to the lama, the assembly of one's own dakinis. The history of the instruction (Ri lo tsā ba against the non-Buddhist Skal ldan nag po, seven days) is the next section.
+
+## Open (RD286)
+
+Question: Is the section numbered «gsum» at the head of the other print's [p337] (printed p. 309) the third of a series of dream-examination sets in the 'Brong rtse be'u bum, and what do the earlier numbered sections hold?
+
+Question: The etext heading names Śramaṇā, Śākyamuni and Tārā as "three" (gsum), yet the lion-faced dakini's rite after White Tārā is numbered «bzhi pa» (fourth): is the lion-faced dakini the fourth of the same set, so that the set has four rites, or a new section whose number was carried on?
+
+## Searched and not found (RD286)
+
+- The scan of the Delhi print img. 346 (p. 342, foot): the catchword at the lower right is not legible at the scan's resolution, so the closing words of p. 342 and the Śramaṇā text's own colophon were not read on the scan; the etext of the other print gives no author or colophon name for either text.
+- BDRC's records of MW25101 parts 64–66 give no author for any of the three works.

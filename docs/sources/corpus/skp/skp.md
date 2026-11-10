@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD286 (2026-11-10): p. 50 (I1NLM933_001 img. 50) lines 3-5 looked at in crops at 2x, p. 55 (img. 55) last lines read by eye at 2.2x; BDRC's work record of MW1NLM933_A02C49 and its abstract work, BDRC's title index and full-text search for the names and the closing words.
+
 Read by RD278 (2026-11-09): DTD on four Mongolian National Library manuscripts, SKP's second text in NLM9419, the Derge Tengyur vol. 206 for RBG.
 
 Read by RD209 (2026-11-09): KCM pp. 679–682, SKP pp. 40–55, DTD vol. 10 pp. 219–220 and the NLM manuscript pp. 155–158, RBG vol. 3 pp. 203–205 (witness), RST etext, RRT vol. 41 pp. 186–195.
@@ -55,3 +57,22 @@ The second text of the same bundle (pp. 50–55, img. 50–55), headed "Examinin
 - RD278 (2026-11-09): the abstract work WA0XLA02C496D030E (SKP, MW1NLM933_A02C49) has this one instance only. A second copy of the second text's verses (the three thirds, «ནམ་གྱི་མཚན་མོ་ཐུན་གསུམ…») is in the Mongolian National Library MW1NLM9419_O1NLM9419_007 (pp. 151–158, img. 151–157; titled «རྨི་ལྟས་བརྟག་ཐབས», it opens by saying the verses are from a profound text of the Gcod tradition, «མ་གཅིག་ཟབ་མོ་གཅོད་ཀྱི་…», with the three parts «སྲོད་ཀྱི་ཆ… གུང་གི་ཆ… ཐོ་རངས་ཆ…»): read by Yigdzin-1 only (a running hand with many slips; the crops at 4× were not legible syllable by syllable): state machine, wording not quoted; the same division of the night into three, evening habit, middle the trick of demons and flesh-eaters, dawn clear.
 - MW1NLM9044_O1NLM9044_009 (BDRC's «རྨི་ལྟས་སྣ་ཚོགས་བརྟག་ཐབས» copy, pp. 153–164 by BDRC's numbers): the images 153–164 hold a rite for the king spirit (རྒྱལ་པོའི་གདོན་ལ་མདོས་གཏོང་ཚུལ), not a dream text; BDRC's page range for it does not hold the text.
 - NLM933 img. 50: the verse of the three thirds is on the leaf's last two lines; at 4× the crops of line 8 (the last) were legible only in part («དེ་ཡང་སྲོད་ལ་འབྱུང་བ་ཕལ་ཆེར་ནི» of the next sentence made out); the dawn line not settled; no crop reached it cleanly.
+
+## <a id="skp-p55h"></a>skp:p55h The last lines of the second text on the scan: the verse naming Padma dkar
+
+*Read: scan, 2026-11-10.*
+
+> ལེགས་པར་བཤད་པ་པདྨ་དཀར།། རྨི་ལམ་བརྟགས་པའི་ལེའུ་སྟེ་དག་པའོ། ལེགས་སོ།
+
+End of the bundle's second text, p. 55 (I1NLM933_001 img. 55), the last line and a half as read on the scan (a legible small cursive hand, the word «པདྨ་དཀར» read at 2.2x with the reserve below): "Well explained by Padma dkar (padma dkar). The chapter on the examination of dreams, here it is complete. Good!" Whether the two syllables are a person's name (Padma dkar po) is not settled by the scan: the word stands alone, with no «པོ» and no title.
+
+## Open (RD286)
+
+Question: Is the colophon of the first text (p. 50, «ཤཱཀྱའི་དགེ་སློང་ …»), read only by machine, really «ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ»? The cursive of p. 50 lines 3–4 did not resolve to syllables by eye.
+
+Question: Is «པདྨ་དཀར» at the end of the second text (p. 55) the name Padma dkar po, and which text is «well explained»?
+
+## Searched and not found (RD286)
+
+- BDRC full-text search for «རྨི་ལམ་བརྟགས་པའི་ལེའུ» and «རྨི་ལམ་བརྟག་པ་པདྨ་དཀར»: no hit; for «རྨི་ལམ་བརྟག་པའི་ལེའུ»: only the sixth chapter of the Nyingma Man ngag rin chen nyi ma'i sgron ma (Rin chen gter mdzod, VE1KG14_019) and an unrelated NLM manuscript.
+- BDRC's record of the first text has no author field.

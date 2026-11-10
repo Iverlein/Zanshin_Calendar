@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD286 (2026-11-10): the heading and the first two lines of p. 558 on the scan (I1662 img. 566, woodblock, crops at 2.4-6x): «དཔལ་རྣོ་བཀྲ» and «དམར་མོ་འདས་པའི་གདུང་ཐལ» read; the BDRC outline of MW21578 (the Rno bkra section, partIndex 7) and BDRC's full-text search for the name; the rest of the page stays machine.
+
 Read by RD241 (2026-11-09): TDR on the scan of W1PD2 (I1PD407) not reached, the open manifest serves only img. 3-22 and 373-391 (printed pp. 313-316 lie between); GNC img. 731 line 3-5 looked at in three crops at 1.2x, nothing settled by eye (headless dbu med hand), the text stays machine.
 
 Read by RD240 (2026-11-09): GNC in the manuscript W1ER167 vol. 1 (I1ER1055 img. 729–735) and TDR in the etext VEIE0OPI0BD8769F_I1PD407.
@@ -36,6 +38,14 @@ End of p. 557: the last of a horse spell (rta gzungs; two dhāraṇīs against h
 
 p. 558: homage to Lokeśvara (lo kI shwa ra). "The examination of dreams from the Dpal rno bkra": the rite of the water with mantra, a prostration to the image of the Great Compassionate One, and a mantra recited on the ashes of the cremated remains of a dead woman (ma mar mo) [machine reading unclear]; the mantra «oṃ hūṃ hūṃ hūṃ patraṃ maṇi dhe va tu ra ...». The ashes are then smeared on the five places of the body, the water drunk or washed in. Colophon: spoken in person by the four-armed Great Compassionate One on the fourteenth night of a Fire-Monkey month and put into letters by Arāgas (machine reading). A second text then begins: "the new prophecy of the examination of dreams from the Dpal rno bkra": homage to Guru Padmasambhava; "to examine a dream, draw this wheel at one's pillow: in the centre of the wheel a lotus born from the middle of a lake, and inside its ten spokes the mantra «oṃ dha ha ri ha na ston cig svāhā»".
 
+## <a id="gnc-1-p558h"></a>gnc.1:p558h The heading of the Great Compassionate One's examination of dreams and the dmar mo of the ashes, lines 1-2 of p. 558 on the scan
+
+*Read: scan, 2026-11-10.*
+
+> རྨི་ལམ་བརྟགས་པ་བཞུགས༔ ན་མོ་ལོ་ཀཱི་ཤྭ་ར་ཡེ༔ དཔལ་རྣོ་བཀྲ་ལས་རྨི་ལམ་བརྟགས་པ་ནི༔ ཆུ་མང་པོ་སྔགས༔ ཐུགས་ཆེན་གྱི་སྐུ་ལ་ཕྱག་སྐོར་བྱ༔ དམར་མོ་འདས་པའི་གདུང་ཐལ་ལ་སྔགས་འདེབས༔
+
+Printed p. 558 (I1662 img. 566), lines 1 and 2 as read on the woodblock scan, the line break falling inside "dmar mo": "The examination of dreams is here. Homage to Lokeśvara. The examination of dreams from the Dpal rno bkra is this: (charge) much water with mantra; make circumambulation of the image of the Great Compassionate One; recite the mantra over the cremation ashes of a dead dmar mo (the Red One? the red woman?)." The machine reading «ང་མར་མོ» of gnc.1:p557-558 is this «དམར་མོ»; the same «དམར་མོ་འདས་པའི་གདུང་ཐང» recurs two lines further on in the machine text and is read on the scan as «དེ་ནས་དམར་མོ» at the end of line 2 of the page.
+
 ## <a id="gnc-1-p559-561"></a>gnc.1:p559-561 Gnam chos: the new prophecy of the examination of dreams, the wheel, the powders and the colophon of Mtsho rgyal
 
 *Read: machine, 2026-11-09.*
@@ -55,3 +65,14 @@ The wheel again, its centre. At its centre a vulture, white in the middle; round
 Colophon: prophesied by the dakini Ye shes mtsho rgyal on the fourteenth night of the Pleiades month (smin drug zla ba). Then "maṅgalaṃ", and a new text begins, a divination of clairvoyance from the Dpal rno bkra (mo mngon shes 'dra ma), starting with a mo divination done with a small counter or grains (machine reading, doubtful); not read further.
 
 No lunar day: the text prescribes none for the rite, only the sleep after the washing and the recitation until sleep comes; the fourteenth night belongs to the colophon's date of the prophecy. As the two earlier colophons (pp. 557-558) likewise give dates of speaking, the dates are all of revelation.
+
+## Open (RD286)
+
+Question: What is «Dpal rno bkra», and why is this part of the Gnam chos so called? Its history («rno bkra'i lo rgyus», vol. 1 ff. 29r–29v, pp. 493–494, I1662 img. 501–502) is catalogued and not yet read.
+
+Question: Who or what is the «dmar mo» (the Red One, a red woman) whose cremation ashes are used in the rite on p. 558?
+
+## Searched and not found (RD286)
+
+- BDRC's full-text search, «དམར་མོ་འདས་པའི་གདུང་ཐལ»: no hit (the etexts of BDRC do not hold the phrase).
+- Steinert's 64 dictionaries (`locate.py dict`) were not consulted: the clone is not in the scratch (4.5 GB); «dmar mo» and «rno bkra» are not looked up there.
