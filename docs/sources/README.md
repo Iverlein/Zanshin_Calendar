@@ -600,6 +600,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mewa-labels-colour-count.md](claims/mewa-labels-colour-count.md) | claim, note | The number after a mewa's colour on p. 70 and in the notes is best read as a count of pebbles | cites wb.2:p70, wb.2:p501, dz:i055-057; feeds — |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/mipham-notes-no-watch-of-the-night-halves-by-events.md](claims/mipham-notes-no-watch-of-the-night-halves-by-events.md) | claim, note | Mipham's notes name no watch of the night; WB and the notes cut it by sunset, midnight and dawn | cites svo:p271n, wb.2:p532, wb.1:p375; feeds block-73 |
+| [claims/mmk-bad-dream-remedy-wrathful-king-mantra.md](claims/mmk-bad-dream-remedy-wrathful-king-mantra.md) | claim, note | The root tantra's remedy of bad dreams is the wrathful king's mantra; it does not name the Ender of Obstructors (RD370) | cites mmk.1:p404-405, snr:p367-371; feeds — |
+| [claims/mmk-dream-verse-four-watches-phlegm-bile-wind-true.md](claims/mmk-dream-verse-four-watches-phlegm-bile-wind-true.md) | claim, note | The Mañjuśrī root tantra's verse of the four watches: phlegm, bile, wind, the fourth true (RD370) | cites mmk.1:p396-397, mmk.2:p146, snr:p367-371; feeds — |
+| [claims/mmk-first-watch-phlegm-signs.md](claims/mmk-first-watch-phlegm-signs.md) | claim, list | Signs of the first watch's dream, of phlegm (RD370) | cites mmk.1:p397-399; feeds — |
+| [claims/mmk-fourth-watch-no-list-of-its-own.md](claims/mmk-fourth-watch-no-list-of-its-own.md) | claim, note | No list of signs under the fourth watch; the true dream's marks and the houses (RD370) | cites mmk.1:p401-403, mmk.1:p403-404, mmk.2:p152-153; feeds — |
+| [claims/mmk-no-day-or-month-for-dreams.md](claims/mmk-no-day-or-month-for-dreams.md) | claim, note | The root tantra's dream chapter gives no lunar day or month for a dream, only the half-month, a good day and the watches (RD370) | cites mmk.1:p396-397, mmk.1:p403-404; feeds — |
+| [claims/mmk-rite-of-asking-the-dream-bright-half-first-watch.md](claims/mmk-rite-of-asking-the-dream-bright-half-first-watch.md) | claim, note | The root tantra's own rite for asking a dream: bright half, first watch, kusha, head east (RD370) | cites mmk.1:p396-397, mmk.2:p146, snr:p367-371; feeds — |
+| [claims/mmk-second-watch-bile-signs.md](claims/mmk-second-watch-bile-signs.md) | claim, list | Signs of the second watch's dream, of bile (RD370) | cites mmk.1:p399-400; feeds — |
+| [claims/mmk-snr-quotes-the-verse-and-adds-the-reason.md](claims/mmk-snr-quotes-the-verse-and-adds-the-reason.md) | claim, note | The Sngags rim chen mo quotes the verse word for word and the reason for the fourth watch is Tsong kha pa's own (RD370) | cites mmk.1:p396-397, snr:p367-371; feeds — |
+| [claims/mmk-third-watch-wind-signs.md](claims/mmk-third-watch-wind-signs.md) | claim, list | Signs of the third watch's dream, of wind, and the three poisons (RD370) | cites mmk.1:p400-401; feeds — |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-earth-has-no-centre-in-lists.md](claims/moment-earth-has-no-centre-in-lists.md) | claim, note | Where WB's lists give earth a direction it is the south-west, not the centre | cites wb.2:p167-168, wb.2:p168-169; feeds SPEC, §5.9.5 |
 | [claims/moment-eight-places.md](claims/moment-eight-places.md) | claim, table | The moment's eight places: house, field, grave and one's own place | cites wb.2:p166, wb.2:p167-168; feeds SPEC §5.9.5, block-31 |
@@ -1223,7 +1232,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 17 passages: 10 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
-| [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 0 passages: nothing read yet |
+| [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 9 passages: 2 machine, 7 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 9 passages: 8 machine, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |

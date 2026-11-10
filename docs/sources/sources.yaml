@@ -1306,10 +1306,15 @@ kgy:
   notes: "RD360 (2026-11-10): [p63]-[p67], the list of the First Dalai Lama's collected works received and their lineage; etext only"
 
 mmk:
-  title: "The Mañjuśrīmūlakalpa ('Jam dpal rtsa rgyud) on dreams and the watches of the night, in the Derge Kanjur and the Sanskrit editions"
-  author: "the Mañjuśrīmūlakalpa, translated in the Derge Kanjur; Sanskrit editions named in each passage"
-  edition: "the Derge Kanjur as served by BDRC; the Sanskrit editions named in each passage"
+  title: "The Mañjuśrīmūlakalpa ('Phags pa 'jam dpal gyi rtsa ba'i rgyud, Toh 543, 'Jam dpal rtsa rgyud) on dreams and the watches of the night, in the Derge Kanjur and the Sanskrit edition"
+  author: "the Mañjuśrīmūlakalpa; Tibetan translation by the Indian preceptor Kumārakalaśa and the translator Shākya blo gros, by the Derge colophon; the Sanskrit edited by T. Gaṇapati Śāstrī"
+  edition: "volume 1: the Derge Kanjur as the BDRC etext MW4CZ5369_0543 (volume etext VE4CZ5369_I1KG9214, image group I1KG9214, Derge vol. 88, the etext's own page markers [pN] = scan image N); volume 2: The Āryamañjuśrīmūlakalpa, ed. T. Gaṇapati Śāstrī, Trivandrum Sanskrit Series 70, 1920-25 (Internet Archive ids in.ernet.dli.2015.345315 for part 1, 1920, and a 2008 reprint lmjb_arya-manjusri-mula-kalpa-by-unknown-edited-by-t-ganapati-sastri-sanskrit-bu), the text layer's Devanagari is OCR"
+  bdrc: {work: MW4CZ5369_0543, etext: VE4CZ5369_I1KG9214, scans: [I1KG9214]}
   licence: public-domain
   rank: 3
   role: source
-  locator: folio
+  locator: page
+  volumes:
+    1: {etext: VE4CZ5369_I1KG9214, scan: I1KG9214, image_offset: 0, notes: "image = etext page marker; Toh 543 begins at [p212], the dream passage is in the Derge 15th chapter at [p396]-[p403]; the Derge folio mark of a side is in the left margin and was not legible on the scan at the size read"}
+    2: {notes: "printed pages of the Trivandrum edition; the 15th paṭalavisara from p. 146 (the reprint header '146 mañjuśrīmūlakalpa'), the dream verses on pp. 146-153"}
+  notes: "RD370 (2026-11-10): the four watches of the night and the three humours in the 15th chapter, Tibetan [p397]-[p403], Sanskrit pp. 146-153"
