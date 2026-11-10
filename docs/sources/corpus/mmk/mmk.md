@@ -532,3 +532,13 @@ Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; e
 A narrative mention of the last watch of the night; not about a dream.
 
 Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+
+## The Sakya and Gelug explanations of why only the last watch of the night is read (q1031, q1049): the Rgyud sde kun btus pp. 460–461 (I2PD14800) read whole around the passage, the wording of Shes rab 'od zer (1518–1584), Chos kyi grags pa (1595–1659), Kun dga' rin chen (the volume answers 403: by search snippet only), Padma dkar po, Pha bong kha pa and the Sngags rim chen mo's commentators on the first watch mixed with the day, the second and third deep sleep, the last clear; whether any of them cites an older source for it; and the order of the lines against the root tantra's four humours (RD377)
+
+Nothing read yet: RD377's passages, with the English beside them, go here.
+
+
+## The measure of the day and the watches in the Mañjuśrī root tantra's ch. 18 (q1050): pp. 436–439 of the Derge etext (VE4CZ5369_I1KG9214) and the Sanskrit of the Gaṇapati Śāstrī edition pp. 179–181 read whole: the watch as «four chu tshod» and as «four yud tsam», the thirty yud tsam of the day, the three watches with midnight, dawn and sunrise in the earthquake omens, and whether the dream verse's fourth watch is the one between midnight and dawn; set against the Indian jyotiṣa units (ghaṭikā, muhūrta, yāma) and against the Kālacakra's units in the pool (RD338, RD361) (RD378)
+
+Nothing read yet: RD378's passages, with the English beside them, go here.
