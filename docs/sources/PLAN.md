@@ -1908,3 +1908,7 @@ Searched and found wanting, so not to be repeated:
 - **RD301** (RD301, 2026-11-10):
   - BDRC full-text search 2026-11-10: the exact ch. 2 line 19 hits, neither the Blue Beryl nor the Moonbeams among them (the Blue Beryl's etext searched whole: «རྨི་ལམ་དག་ན» once, in its own sentence with an added ཡང, «རྨི་ལམ་དག་ནའང་»); «མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང» 11 hits, among them the Moonbeams and Byang pa; the Moonbeams on the Four Tantras' own verse «བརྗེད་ངས» or «བརྗེད་ངེས»: not in it.
   - No scan of the Blue Beryl (I1PD411) or of the Moonbeams (Tengyur) looked at; both rest on machine-made etext, so nothing is quoted from them without a scan check. Dharmaśrī's Moonbeams in dz is another work (elemental divination).
+- **RD302** (RD302, 2026-11-10):
+  - «རྨི་ལམ་མི་བཟད་པ» as the Tantra's line in Skyem pa, Zur mkhar ba, the Blue Beryl, the Drikung dka' mchan or Rin spungs pa, spaces and tsheg stripped: not found; «མི་བཟད་པ» stands only as an adjective in Zur mkhar ba and the Blue Beryl.
+  - «སྤྲེའུ་སྟག» in Zur mkhar ba, the Blue Beryl and Skyem pa Tshe dbang: not found as a quoted line of the Tantra.
+  - «མི་ཟད་པ» as the Tantra's line in Skyem pa, Zur mkhar ba, the Blue Beryl and the Drikung: not found; Byang pa and Khro ru not reopened.
