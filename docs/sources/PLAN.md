@@ -2062,3 +2062,7 @@ Searched and found wanting, so not to be repeated:
   - The Blue Beryl's printed page (Dpe tshogs print, p. 1148): BDRC's I1PD411 and I1PD412 have only 41 canvases each in their manifests and the pages beyond answer 401; I8LS20838 is not the Blue Beryl's page.
   - Chag-po-ri I1KG13487 img. 37 line 4 (ch. 2's boy line): dashed and faint, not legible by eye; Yigdzin-1 on a line strip gives garbage.
   - The Drathang print's hand notes of ch. 81 (img. 463) at 2658 px: no note can be shown or excluded.
+- **RD357 (2026-11-10)** (RD357, 2026-11-10):
+  - GRETIL has no Brahmavaivarta; no dated manuscript of its dream chapter found (the Colenda Brahmavaivarta is Bengali, 1852, with no contents given; the Berlin and Leipzig portal did not resolve; the Hamburg NGMCP record A 433-50 answers 404).
+  - No quotation of the Brahmavaivarta's dream chapter in the medieval digests was found by search; Scheuermann's study is refused again (Brill HTTP 405, LMU record without full text, FAU record with the DOI only).
+  - Penn Item 1871's later leaves only looked through at reduced size for time words, none seen; not a word-by-word read. The way in: Penn's Colenda IIIF (colenda.library.upenn.edu/items/ark:/81431/<ark>/manifest, images .../full/2670,/0/default.jpg) answers at once, OPenn is the slow one; arks p3jz6w (1871), p3hm52k1p (2730), p3df6k63n (673), p39c6s18p (687).
