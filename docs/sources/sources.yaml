@@ -1212,3 +1212,12 @@ mph:
   rank: 2
   role: source
   locator: image
+
+dhd:
+  title: "The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein), as edited and as imaged by the International Dunhuang Project and Gallica"
+  author: "anonymous scribes of the Dunhuang documents; editions by modern scholars (facts only)"
+  edition: "IDP and Gallica images; the Old Tibetan Documents Online transcriptions; the editions named in each passage"
+  licence: "the manuscripts public-domain; the modern editions' own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: folio
