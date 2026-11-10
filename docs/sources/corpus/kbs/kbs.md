@@ -55,4 +55,26 @@ Nothing read yet: RD320's passages, with the English beside them, go here.
 
 ## The Chöd source of Klong rdol bla ma's dream verses: the dream passage of Ma gcig's Zab mo gcod kyi dmigs 'bum (or the text Klong rdol says he follows), its good and bad images, its three thirds of the night and the dawn third as the clarifier, and whether WB's list (RD319) and KBS's verses draw on it; the same verses in the Chöd collections that quote them (Sha bo Tshe ring, Padma rdo rje, the ritual-customs book) and the parallels of the good-sign block (RD324)
 
-Nothing read yet: RD324's passages, with the English beside them, go here.
+Read by RD324 (2026-11-10): BDRC's exact-phrase searches on the verses (eight etexts, all but RST search-only), and a Mongolian National Library manuscript of the whole text under the Mother's Chöd title, BDRC MW1NLM3822_O1NLM3822_004, scans open: text pages 87-113 of its volume, images 87-113 of I1NLM3822_001, read by Yigdzin-1 and, at the thirds of the night and the dawn third, by eye. The passage is [gdm:i88-93](../gdm/gdm.md#gdm-i88-93), state machine.
+
+What the reading found, in the claims:
+
+- [gdm-is-the-text-rst-names-as-ma-gcigs](../../claims/gdm-is-the-text-rst-names-as-ma-gcigs.md): the words «མ་གཅིག་ཟབ་མོ་གཅོད་ཀྱི་དམིགས་འབུམ་ལས་གསུངས་པ» ("as taught in the Mother's profound Chöd visualisation collection") are the text's own second verse, in the manuscript as in RST; the manuscript carries the whole text (dream verses, death omens, Garga's omens, men, women) with no author's name in what survives, so "the Chöd source" is a claim of the text about itself and no Chöd collection holding the passage was found;
+- [gdm-readings-against-rst-and-kbs](../../claims/gdm-readings-against-rst-and-kbs.md): the manuscript, RST and KBS are one text; in the thirds of the night (the manuscript and KBS «སུམ་ཆར», RST «གསུམ་ཆ») and the dawn third (the manuscript and KBS «ཐོ་རངས་དུས་ཀྱི་ནམ་གྱི་གསུམ་ཆ་ལ», RST «ཐོ་རངས་ཁ་ཡིན་ནམ་གྱི་གསུམ་ཆ་ལ») KBS follows the manuscript, not RST; the line «ཐོ་རངས་གསུམ་ཆ་ཕྱིས་འབྱུང་གསལ་བྱེད་ཡིན» is the same in all;
+- [dream-verses-witnesses-on-bdrc](../../claims/dream-verses-witnesses-on-bdrc.md): each witness BDRC's search finds (RST, the two prints of the KBS article, MDP, Padma rdo rje's work, the book of Tibet's old rites, the volume of crafts and reckoning, Bya mdo's book on psychology) and how it reads; the books quote the text beside other matter and are copies, not older witnesses;
+- WB's list (RD319) and the Chöd text: every image of the concordance (dream-wb30-concordance) that cites RST and KBS stands in the manuscript with the same tone: G1 (the manuscript has both the cloudless sun rising, img. 89, and, for the practitioner, sun and moon rising and darkness cleared, img. 93), G3, G5 (as the rule of the waking feeling), G6, G7 and G8 (one verse: drums and conches blown and struck), G9 and G11 (the closing couplet), G10, G13, G15, G16 and, in the bad list, B2 (hail), B4 (the dream of sorrow), B5 and B6 (nakedness; the unsaddled donkey, with «རྒ་མེད» as the machine reads it where RST and KBS have «སྒ་མེད»), B7 (a pit), B11 (arrows, an army) and B14, B16 (terror, a demon's trick). So the manuscript is a third witness of these lines and changes no verdict. WB's items that RST and KBS lack (G2 the snow, crystal and mirror together, G4, G12, G14, B3, B8-B10, B12, B13, B15, C1, C2) are not in the manuscript either; its snow mountains (གངས་རི, gangs ri) are, as in RST, the gods' display, no verdict. No line of the verses has WB's wording, so WB's list does not draw on them.
+
+## Open
+
+Question: the manuscript has no author's name in the part that survives (the page after 13b is lost), is undated, and the catalogue gives no date for its volume of the Dga' ldan Byang rtse college's collection: is the text older than Klong rdol bla ma (1719-1794), and is the Mother's Chöd collection a real book that holds these verses or only the authority the verses name?
+
+Question: the manuscript and KBS read «སུམ་ཆར» and «ཐོ་རངས་དུས་ཀྱི་ནམ་གྱི་གསུམ་ཆ་ལ», RST «གསུམ་ཆ» and «ཐོ་རངས་ཁ་ཡིན་ནམ་གྱི་གསུམ་ཆ་ལ»: which is the earlier wording, and which print did the KBS article use (it quotes the verses with Klong rdol bla ma's name)?
+
+Question: the unsaddled donkey, «རྟ་བོང་རྒ་མེད་ཞོན» in the manuscript (machine, not settled) against «སྒ་མེད» in RST, KBS and WB: is the manuscript's first letter «རྒ» ("old age") or «སྒ» (a saddle)?
+
+## Searched and not found
+
+- BDRC's exact-phrase search, 2026-11-10: «ཟབ་མོ་གཅོད་ཀྱི་དམིགས་འབུམ» seven hits, all this text; «གཅོད་ཀྱི་དམིགས་འབུམ་ལས་གསུངས་པ» two (the manuscript's title, Padma rdo rje's work); «ཕྱིས་འབྱུང་གསལ་བྱེད་ཡིན་ནམ་གྱི» none; «ཐོ་རངས་ཁ་ཡིན་ནམ་གྱི་གསུམ་ཆ» only RST; «རྨི་ལམ་བཟང་ངན་གྱི་འབྲས་བུ» three hits in three etexts, not opened. No Chöd collection (a dmigs 'bum) was found that holds the dream passage.
+- The etexts of MW21880, MW25126, MW1AC12, MW1PD95727, MW8LS18598 and the two prints of the KBS article answer 403 (search-only): only the snippets BDRC's search shows were read.
+- Not read: the Mongolian National Library manuscripts of the same title named in sources.yaml under rst (MW1NLM9044_O1NLM9044_009, MW1NLM9419_O1NLM9419_007); the manuscript's pages past img. 95 (Garga's omens, men, women) beyond the machine reading, which was not compared with kdl.
+

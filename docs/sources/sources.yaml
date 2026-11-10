@@ -548,6 +548,15 @@ rst:
   role: source
   notes: "etext only (no scans on BDRC); author Klong rdol bla ma Ngag dbang blo bzang (BDRC P22, and the colophon, p. 20); the dream part pp. 3-8, then Garga's omens (KDL's text), men's and women's marks; also a Mongolian National Library manuscript of the same title (MW1NLM9044_O1NLM9044_009) and Rmi ltas brtag thabs (MW1NLM9419_O1NLM9419_007); located 2026-11-09 (q784), read in the etext 2026-11-09 (RD209, RD221)"
 
+gdm:
+  title: "Ma gcig zab mo gcod kyi dmigs 'bum las gsungs pa mtshan lam gyi 'bras bu bzang ngan kun gyi rnam dbye (the sorting of all the fruits, good and bad, of night dreams, as taught in the Mother's profound Chöd visualisation collection)"
+  edition: "Mongolian National Library manuscript (dbu can), the 4th text of the volume Dga' ldan byang rtse grwa tshang gi lugs kyi blo rigs legs bshad kun btus lung gi dbang mdzod ces bya ba dbus phyogs sogs, vol. 1, text pages 87-113 (13 ff., 1a-13b, the page after 13b lost)"
+  bdrc: {work: MW1NLM3822_O1NLM3822_004, scans: [W1NLM3822]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "no author named in the part that survives; the same verses as RST, which names Klong rdol bla ma; locator = BDRC image number (title leaf img. 87); located 2026-11-10 (RD324) by BDRC's exact-phrase search on the title's words"
+
 rrt:
   title: "Rmi ltas rtags thabs rgyas pa (the extended method of reading dream signs)"
   edition: "'Bri lugs bang mdzod skor lnga, Chengdu 2021, 136 vols (typeset), vol. 41, pp. 186–195"
