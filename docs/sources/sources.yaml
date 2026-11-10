@@ -641,7 +641,7 @@ bsr:
   licence: public-domain
   rank: 3
   role: source
-  notes: "RD329 (2026-11-10): read on the scan by Yigdzin-1, the cursive manuscript hand; the 2008 print's imprint is on img. 837; the same work in MW22106_CC9683 and MW1934_6BFB80 (other prints), not looked at"
+  notes: "RD329 (2026-11-10): read on the scan by Yigdzin-1, the cursive manuscript hand; the 2008 print's imprint is on img. 837; the same work in two further prints read by RD332 (2026-11-10): MW22106_CC9683 (Zhol par ma, Delhi reprint, I1KG11857, printed pp. 617-621 on images 629-634) and MW1934_6BFB80 (Zhol par khang, I0761, printed pp. 599-603 on images 601-606), in the passages bsr:p617-621 and bsr:p599-603"
 
 tkg:
   title: "Dkyil 'khor gdeg cing rmi ltas bzang ngan ji ltar bya ba (the laying out of a mandala, and how to act on good and bad dream signs), a section of Tsong kha pa's mandala-rite text in his collected works, vol. 3"
@@ -1122,3 +1122,13 @@ ahs:
   role: source
   locator: image
   notes: "RD312: leaf n259 (the page with the passage on dreams) read on the image; the preface on leaf n3"
+
+kcs:
+  title: "Rmi lam lung bstan gyi bstab pa tshigs bcad 'don bde bar bkod pa (verses, easy to recite, to make a dream prophecy firm), in Karma chags med's collected works, vol. 52"
+  author: "Karma chags med (Rāga asya), by the colophon's own signing «རཱ་ག་ཨ་སྱ»"
+  edition: "Karma chags med's gsung 'bum, Gnas mdo dpe rnying nyams gso khang print (MW1KG8321), vol. 52 = I1KG8395, pp. 273-279 of the print on BDRC images 281-287 (BDRC's statement pp. 273-280; image = printed page + 8)"
+  bdrc: {work: MW1KG8321_0BE0FB, scans: [I1KG8395]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD332 (2026-11-10): scan open, read by Yigdzin-1; a chod-like body offering to the four-armed Mahakala and the dakinis, not a list of dream signs"
