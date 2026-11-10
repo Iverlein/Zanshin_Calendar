@@ -1889,3 +1889,6 @@ Searched and found wanting, so not to be repeated:
   - A second BDRC instance, scan or etext, of the Serthang Four Tantras: the work record WA3CN5036 lists MW3CN5036 only; searches for «gso rig rgyud bzhi» with «gser thang», «gser thang bla rung lnga rig nang bstan slob gling», «gser rta» and «gso rig sde bzhi» give that instance alone (2026-11-10).
   - The ch. 7 bad-dream verse and the two night lines anywhere in the Serthang etext (all 622 pages, spaces and tsheg stripped; «རྨི་ལམ་བྱི་ལ», «སྤྲེའུ་སྟག», «འཆི་བདག་ཟིན», «དུར་ཁྲོད་ཉལ», «མི་བཟང་བ», «མི་ཟད་པ», «མཚན་སྟོད»): none; the leaf is not misplaced elsewhere in the volume.
   - «བརྗེད་ངེས» in the Lhasa 1982 and Beijing typeset etexts of the verse: not found (ངས on both). A BDRC full-text search of «brjed nges» also hit Bon texts, not used.
+- **RD297** (RD297, 2026-11-10):
+  - I2638 img. 692, the syllable before «རང་གི་དུས་ཚོད» (end of line 3 and start of line 4, crops up to 5×): not settled by eye as ཐོ, བཻ or ཕམ; comparing it with the same hand's ཐོ elsewhere on the page not finished.
+  - The Rin chen gter mdzod scan page of KCM: no route beyond RD258's; DTD p. 158 comparison not done.
