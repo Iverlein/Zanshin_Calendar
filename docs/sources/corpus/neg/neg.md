@@ -115,3 +115,17 @@ What the page says, in our words. In verse 2.160 the Jagaddeva says that the dre
 - The page images: the Internet Archive's BookReader image of the *Bṛhadyātrā* (leaf 29) opened in the browser, but its viewport of 293 px wide did not show a verse legibly, so no passage is marked *scan*.
 - Not read: Modak, *The Ancillary Literature of the Atharva Veda* (1993; modern); the *Śabdakalpadruma*'s article *svapna* (Negelein's source v and the Brahmavaivarta *Gaṇeśakhaṇḍa* 33, "Paraśurāma-dṛṣṭa-duḥsvapnāḥ"); the manuscripts of Negelein's i and r (Leipzig 1178, Chambers 326).
 
+
+## RD317 (2026-11-10): the page naming Negelein's sources checked against the pool, and one more witness for the series
+
+Read by RD317: nothing of the page images was re-opened. Negelein's Introduction pp. XIX–XX (the letters a–w, scan, RD269 and RD272), the Brahmavaivarta's series in script (skd:p470-471, scan RD272; bvp:p662-665, RD269), the *Kālaprakāśikā* line in script (RD291) and the physician Vāgbhaṭa's verses in script (RD295) were checked against each other and against the claims, and the Purāṇa's date against Hazra and Rocher (claim brahmavaivarta-date-hazra-rocher). What follows from them for the row: q852 is answered (b is the Brahmavaivarta's *Svapnādhyāya*, RD269); for q853 no Indian text older than the Purāṇa's earliest layer (Hazra: about the 8th century for the first version, the dream chapter undated) has the half-month series; the Śaunaka *Kārikā* and the physician Vāgbhaṭa have no span; the Bṛhaspati *Svapnādhyāya* (i) and its copies, the Matsya (f, s), the Agni (h), the *Kālaprakāśikā* and the *Ācāramayūkha* all give a month for the fourth watch (claim neg-acaramayukha-quotes-month-series, text layer only).
+
+### Open (RD317)
+
+- Question: Does the Sanskrit of Nīlakaṇṭha's *Ācāramayūkha* (Negelein's q, Benares 1876 with Rāmanātha's Hindi commentary) read the fourth watch "māsena phalada" and the dawn "daśāhena" in a printed Sanskrit edition, as the Romanian translation's text layer shows? The page image of a public-domain print is needed.
+- Question: Does Scheuermann (Brill 2020, pp. 161–180) name a Sanskrit parallel for the *Svapnohana*'s half-month? (still q869; the book was not reachable.)
+
+### Searched and not found (RD317)
+
+- A Sanskrit dream text with the half-month for the fourth watch other than the Brahmavaivarta's chapter: Internet Archive title search for Ācāramayūkha and Svapnādhyāya gave six items: two photographed manuscripts of the *Bhagavantabhāskara* (text layer noise), the Bṛhaspati *Svapnādhyāya* manuscripts already read (RD277), and the CC BY-NC-ND Romanian translation of the *Ācāramayūkha* (used as a lead only, not copied).
+- A public-domain print of the *Ācāramayūkha* with the dream chapter: not found in the Internet Archive title search; HathiTrust was not searched.
