@@ -689,6 +689,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-authorship-witnesses.md](claims/svo-authorship-witnesses.md) | claim, conflict | Translator only or author as well: the catalogues against the Derge colophon | cites svo:p271, svo:p268; feeds block-73 |
+| [claims/svo-co-ne-machine-tallies.md](claims/svo-co-ne-machine-tallies.md) | claim, note | The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips | cites svo:p271m, svo:p271g; feeds RD311 |
 | [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
 | [claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md](claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md) | claim, note | The Derge print reads «བགྲོད་མིན», «བཅུ་ཡི་བར» and «བླ་མོ» | cites svo:p271l; feeds RD310 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
@@ -1121,7 +1122,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 18 passages: 8 scan, 4 machine, 6 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 20 passages: 10 scan, 5 machine, 5 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 21 passages: 10 scan, 6 machine, 5 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |

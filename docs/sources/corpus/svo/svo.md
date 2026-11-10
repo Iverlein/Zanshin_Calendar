@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD311 (2026-11-10): the Co ne Svapnohana (vol. 28 img. 270, 272, 273) by Yigdzin-1 on deskewed line strips, 472 runs, the eye settling nothing; see svo:p271m.
+
 Read by RD305 (2026-11-10): the Peking print I1KG13197 img. 315 line 5 and img. 317 lines 3 and 5 by eye at 2.5–5× («བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ» with a plain ལ); the row's Derge group I00JW501163 is the Four Tantras; see svo:p271k.
 
 Read by RD305 (2026-11-10): SVO on the Peking print I1KG13197 img. 315 and 317.
@@ -633,4 +635,51 @@ The apparatus of Puṇyavijaya's print was read at the three lists (ch. 41 p. 18
 
 ## The Co ne prints of the Svapnohana (vol. 28, 133b3–135a3, img. 270–273) and the Svapnekṣā (vol. 49, 130a1–130b7): does the Co ne read «བགྲོད་མིན» or «བཟློག་མིན», «འགྲོན་བུ» or the other word (q864), «ལ་མོ»/«བླ་མོ» and the watch lines (q865), the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» (q870) and its ending «པར་དུ» or «པར་བྱ» (q873), and the second-watch line's first segment «བརྒྱད་པ་ལ» or «བརྒྱད་བར་ལ» (q874) (RD311)
 
-Nothing read yet: RD311's passages, with the English beside them, go here.
+## <a id="svo-p271m"></a>svo:p271m The Co ne Svapnohana's doubtful places, read by Yigdzin-1 on deskewed contrast-stretched line strips (RD311)
+
+*Read: machine, 2026-11-10.*
+
+> Co ne, W1GS66030 vol. 28 (I1GS66059), the Svapnohana, Yigdzin-1 on deskewed contrast-stretched line strips (machine readings, the eye did not settle any letter):
+> 
+> img. 270 line 4 (from x about 650 to the line's end, 1.5× with blur 0.8):
+> ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པར་ལ། །ཐུན་གཉིས་གསུམ་གྱི་བར། །ཐུན་གཞི་ཟླ་བ་ཕྱེད་པར་ལ། །མཐོང་བ་…མེད།
+> 
+> (2×, 2.5×, 3× without blur, the same stretch:) ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པར་བ། །ཐུན་གསུམ་གསུམ་གྱི་བར། …མཐོང་ལམ་འཁྲུལ་པའི་ཆོས་མེད།
+> 
+> img. 270 line 6 end (1100 to the end, 1.5× blur 0.8):
+> བཤད་པའི་…། །རྨི་ལམ་རྣམས་ན་བཟློག་
+> 
+> img. 270 line 7 (from the line's start to x 1300, 1.5×, blur 0.5 or 0.8):
+> མིན་ལ་ཞུགས་ཤིས་པའོ། །རྒྱལ་པོ་གླང་ཆེན་རྟ་མཆོག་དང་། །འགྲོན་དུ་གླང་དང་བ་རྣམས་དང་། །གང་གིས་གཉིད་ཀྱི་མཐའ་མ་མཐོང་།
+> 
+> img. 272 line 3: གང་ལ་ཡང་དག་བཅུའི་བར། །དེ་ཡིས་ནོར་ནི་ཐོབ་པར་ངེས།
+> 
+> img. 272 line 4 (end): གཞན་རྣམས་དཀར་པོ་མངོན་པར་དགའ། །རྟ་བླ་མོ་དང་ལྟོ་འཕྱེད།
+> 
+> img. 273 line 1 (end): ཙནྡན་དམར་པོའི་ཤིང་…། །མར་གྱིས་ཕྱུགས་ལ་སྦྱིན་སྲེག་བྱ། །གས་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །དེ་ཡིས་ཞི་བ་ཐོབ་པར་འགྱུར།
+
+The Co ne print of the Svapnohana (the examination of dreams, རྨི་ལམ་བརྟག་པ), read again by Yigdzin-1 on deskewed line strips of the bitonal frames img. 270, 272 and 273 (vol. 28, 133b-135a): "the second watch: within the eighth month ... the second (third) watch: within three ... the fourth watch: within half a month ... seen, without doubt"; "in dreams, [the clause] 'not walked'..., entering it is auspicious"; "a king, an elephant, the best horse; a guest, oxen and cows"; "whoever ... the ten ..., (from) it wealth is certainly got"; "the others, white, are delightful. A horse, bla mo, the belly-walker"; "the Gayatri recited a thousand times: by it peace is got".
+
+The tallies are in the claims; the doubtful syllables are machine votes, not eye readings.
+
+Method. The frames img. 270, 272, 273 (2055 × 486 and 2030 × 492 px, bitonal) were deskewed (−0.75°, −0.25°, −0.5°), cut by the ink rows into lines (img. 270 lines at y 135, 178, 217, 252, 289, 326, 359, 402), and Yigdzin-1 was run through the slot on 168 half-line strips (2×, 2.5×, 3×, blur 0–0.8), 172 windows of 330–350 px and 132 longer strips of one line (x from the start or from 650–1450 to the end, 1.5–3×, blur 0–0.8). Narrow windows of a few syllables return nothing or invented text, and the right half of a line as a strip returns invented text («འབུམ་ཁ་པ་བཞུགས་སོ»): the model needs the line's own run, and answers best at 1.5× with a blur of 0.5–0.8; a reading counts only where its words are the print's. By eye (4–6× crops, blur 0.5) the dots of the ink did not give one letter of the watch lines, of «བགྲོད/བཟློག», of the word after «བཅུ» or of the Gāyatrī's first word; so nothing here is a scan reading, and every vote below is of the machine.
+
+Tallies of the runs that gave the place (RD276's and RD273's runs, in svo:p271g, counted with these):
+
+- Watch lines (img. 270 line 4): the second watch's first segment ends «བརྒྱད་པར» with ར in every run that reached it (nine here, and RD276's «བརྒྱད་པར་ལ»); never «བརྒྱད་པ་ལ» and never «བརྒྱད་བར་ལ»; the syllable after it is «ལ» (3), «བ» (4), «བྱ» (2), «ཐ» (2): not settled. The third watch's line is «ཐུན་གཉིས་གསུམ་གྱི་བར» (five runs here, and RD276's) — the shorter form, without «ཟླ་བ», with «གཉིས» where the Narthang prints have «ཐུན་གསུམ»; one 2×–3× run reads «ཐུན་གསུམ་གསུམ་གྱི་བར». The fourth watch's line: «ཐུན་བཞི» (the 1.5× blur 0.8 run «ཐུན་གཞི», RD276's «ཐུན་བཞི»), «ཟླ་བ» present in that run and in RD276's two, absent in RD273's, «ཕྱེད»; the ending «པར» + «ལ» (two runs here), «པ» (one), «དུ» (RD276's two and RD273's), «བྱ» (RD276's two): so «པར», never «བར», and the last syllable not settled between «དུ» and «བྱ», the new runs adding «ལ».
+- «བགྲོད་མིན»/«བཟློག་མིན»: one new run reaches the end of line 6 (1.5× blur 0.8) and reads «རྨི་ལམ་རྣམས་ན་བཟློག», as RD273's crop; RD276's two read «བགྲོད»; the line 7 start reads «མིན་ལ་ཞུགས་ཤིས་པའོ» in the 1.5× runs (6) and «མིན་མ་ཞུགས» in the others. Tally with RD273 and RD276: «བཟློག» 2, «བགྲོད» 2, undecided; the scribe's own «བགྲོད» elsewhere (img. 271) stays the only support for «བགྲོད».
+- «འགྲོན་བུ»/«འགྲོན་དུ» (line 7): the runs on the line from its start to x 1300 read «འགྲོན་དུ» in 11 of 12, the shorter ones «བུ» in 5 (with «འགྲོད»/«འགྲོན»); with RD276's (3 : 2 for «དུ») the vote is «འགྲོན་དུ» about 15 to 7; moderate-low.
+- «བཅུ་ཡི་བར» (img. 272 line 3): «བཅུའི་བར» in two windows here and in RD276's three, «བཅུ་པ་བར»/«བཅུ་བ་པར»/«བཅུ་བ་བར» in four, «བཅུ་པི་བར» in RD273's and one, «བསྐུལ་བར» in two (the 3× runs, worthless): a vowel sign after «བཅུ» is not decided, and «ཡི» is neither confirmed nor excluded.
+- «བླ་མོ» (img. 272 line 4, end): «རྟ་བླ་མོ» in 14 of 16 runs here and in all of RD276's; «ཉམ་མོ» in two 3× runs; no run reads a plain «ལ་མོ»; the word after it «ལྟོ་འཕྱེད» (not «ལྷོ»; «འཕྱེད» for the Derge's «འཕྱེ»).
+- The Gāyatrī (img. 273 line 1): «གས་ཏྲི» in all nine runs that reached it (RD276's, RD273's and eight here): two syllables, never «ག་ཡ་ཏྲི».
+
+### Open (RD311)
+
+- Question: in the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར (not «བརྒྱད་པ་ལ» as the Narthang and Peking, not «བརྒྱད་བར་ལ» as the Derge etext), and the fourth watch's «ཕྱེད་པར་» likewise with པ before ར; is the Co ne's wording «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it?
+- Question: the Co ne's third watch line reads «ཐུན་གཉིས་གསུམ་གྱི་བར» (no «ཟླ་བ», «གཉིས» for «གསུམ»); is it the scribe's slip or the print's own text?
+
+### Searched and not found (RD311)
+
+- The Co ne's watch lines, «བགྲོད/བཟློག», the word after «བཅུ» and the Gāyatrī's first word by eye on deskewed, blurred crops at 4–7×: the ink is dotted and partly absent; not one letter told.
+- The Svapnekṣā (vol. 49 img. 263–264, q865): left half-lines of img. 263 were read by Yigdzin-1 (the opening lines, the three parts of the night of svi:p130, the images); the Svapnekṣā has no watch lines and no «ལ་མོ» (svi:p130, q865's own note); the right halves of the strips returned nothing or invented text and no further reading was made; the Co ne's Svapnekṣā «དང་པོའི་ཆ…གཉིས་པར…ཐ་མར» line reads as in svi:p130.
+- Narrow windows (330–350 px) of the line and the right half of a line as a strip: nothing usable; whole-line strips at 1.5× give the stretches above.
