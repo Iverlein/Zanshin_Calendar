@@ -228,3 +228,9 @@ The Amoghasiddhi sign on the Peking print, img. 310, line 5 (RD309): "led to the
 - The Co ne line by eye (I1GS66080 img. 263, line 5 end): a dense bitonal bitmap with the lines run together, not readable by eye; machine only.
 - The Derge scan's second syllable's ར, and the ུ of «རུ»: 8 px letters at 5×, not told apart from other letters.
 - RD306's search for the Peking line among img. 311 failed because the line is on img. 310 (line 5), not 311; img. 311 holds the later list (bad signs, Derge p. 262).
+
+
+
+## The Svapnekṣā's spellings on the prints at full size (q865, q953, q961, q815): the watch lines and «ལ་མོ/བླ་མོ» of Advayavajra's text on the Co ne (vol. 49, 130a1–130b7), the last part of the night on the Peking (I1KG13215 img. 310 l. 1), «བྱ་ཤར་ཏེ་རུ» against «ཤང་ཏེའུ» on the Narthang (RD354)
+
+Nothing read yet: RD354's passages, with the English beside them, go here.

@@ -1326,3 +1326,14 @@ Machine reading (Yigdzin-1) of the first three lines of img. 626 of the National
 
 - Chapter 9's start (etext p. 449, «ཐོག་མར་དཀར་པོའི་ཕྱོགས་ཀྱི་ཐུན་ཕྱེད») in img. 620-649 by Yigdzin-1 (img. 620-649 done, 650-665 fetched but not read): not located; the half-watch text already runs at img. 620-628, so it starts earlier.
 - The verse of etext p. 454 (the multiplier words) was not looked for on the scan.
+
+
+## The Svapnohana's spellings on the prints at full size (q834, q864, q870, q873, q874, q889, q890, q813, q814, q825): the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ/པར་བྱ», «བརྒྱད་པ་ལ/བརྒྱད་བར་ལ», «བགྲོད་མིན/བཟློག་མིན», «འགྲོན་བུ», the Gāyatrī's «ཏྲི/ཏྲེ», «བླ་མོ/ལ་མོ», the Sanskrit title's stacks on the Peking (img. 315 l. 1) and the Co ne prints (RD353)
+
+Nothing read yet: RD353's passages, with the English beside them, go here.
+
+
+## The Sanskrit side of the dream texts (q866, q868, q869, q871): the Brahmavaivarta's dream chapter and its date against the Svapnohana's translation of about 1200, the puṇyakāṇḍa of the Kāṇva branch, Bṛhaspati's Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's edition) on the three fortnights and the month of the fourth watch (RD357)
+
+Nothing read yet: RD357's passages, with the English beside them, go here.
+
