@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD306 (2026-11-10): SVI on the Peking print I1KG13215 img. 310.
+
 Read by RD276 (2026-11-09): SVI in the Co ne print (vol. 49, I1GS66080 img. 263–264) by Yigdzin-1 and MITRA on frames and strips; the three parts of the night and the families' line only; see svi:p130.
 
 Read by RD236 (2026-11-09): SVI in the Narthang manuscript (W2KG5015 vol. 46, I2KG212330 img. 289–291) by eye, W22704 (I3297 img. 291–293) as a copy of it, and the Dpe bsdur ma notes (W1PD95844 vol. 25 etext pp. 415–418).

@@ -1805,6 +1805,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0903.md](questions/q0903.md) | question q903 | Does the Moonbeams' gloss of the Eight Limbs' «རྨི་ལམ་སྐྱེས་པ་མཐོང» (a man and an elephant) belong to ch. 2's line, or only to the Eight Limbs' text that the Blue Beryl quotes beside it? | open; cites st:p21 |
 | [questions/q0904.md](questions/q0904.md) | question q904 | Where the Moonbeams on the Heart of Medicine (Aṣṭāṅgahṛdaya, Body ch. 6) read «མི་ཟད་རྨི་ལམ་» in the verse Rin spungs pa quotes, do the Derge and Peking-type Tengyur etexts (MW23703_4312, MW1PD95844_3549) spell it so too, and does Byang pa's lemma of the Four Tantras' line 17 follow the Tantra or the Moonbeams? | open; cites gt:i42 |
 | [questions/q0905.md](questions/q0905.md) | question q905 | Is the Drikung dka' mchan's wording «མི་བཟང་བ» at p. 80 a lemma of the verse or only the commentator's gloss? | open; cites gt:i42 |
+| [questions/q0906.md](questions/q0906.md) | question q906 | On the Derge, Narthang and Peking prints, is the bird of Amoghasiddhi's signs «བྱ་ཤར་ཏེ་རུ», «བྱ་ཤིང་ཏེའུ» or «བྱ་ཤང་ཏེའུ», and is it a bird sent as messenger or something else? | open; cites svi:p310 |
 
 <!-- end pool index -->
 

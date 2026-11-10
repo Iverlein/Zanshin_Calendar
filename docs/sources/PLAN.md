@@ -1912,3 +1912,6 @@ Searched and found wanting, so not to be repeated:
   - «རྨི་ལམ་མི་བཟད་པ» as the Tantra's line in Skyem pa, Zur mkhar ba, the Blue Beryl, the Drikung dka' mchan or Rin spungs pa, spaces and tsheg stripped: not found; «མི་བཟད་པ» stands only as an adjective in Zur mkhar ba and the Blue Beryl.
   - «སྤྲེའུ་སྟག» in Zur mkhar ba, the Blue Beryl and Skyem pa Tshe dbang: not found as a quoted line of the Tantra.
   - «མི་ཟད་པ» as the Tantra's line in Skyem pa, Zur mkhar ba, the Blue Beryl and the Drikung: not found; Byang pa and Khro ru not reopened.
+- **RD306** (RD306, 2026-11-10):
+  - The Peking bird line: img. 311 lines 4–5 were cropped at 1–1.5× in two halves and the line was not found among the eight lines; not located, so not read.
+  - BDRC full-text search for the sign in the Tibetan commentaries and the Indian sources was not run; the Derge, Co ne and Narthang places were not reread.
