@@ -1699,7 +1699,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0824.md](questions/q0824.md) | question q824 | Are the two bracketed remedies of ST ch. 91 (the thread; the milk of cattle and goats) interlinear notes that entered the Serthang text? | open; cites st:p493 |
 | [questions/q0825.md](questions/q0825.md) | question q825 | Which animal or thing is the «ལ་མོ» of the Svapnohana, and is «བླ་མོ» a mistake for it? | open; cites svo:p271b |
 | [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
-| [questions/q0827.md](questions/q0827.md) | question q827 | Are the «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» of WB ch. 25 and 27 dreams of the images listed as bad in ch. 30 p. 144, or only restless sleep? | open; cites wb.1:p428b, wb.1:p431 |
+| [questions/q0827.md](questions/q0827.md) | question q827 | Are the «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» of WB ch. 25 and 27 dreams of the images listed as bad in ch. 30 p. 144, or only restless sleep? | answered; cites wb.1:p428b, wb.1:p431, wb.1:p428c |
 | [questions/q0828.md](questions/q0828.md) | question q828 | On the Gser thang reprint p. 144 l. 13, the glyph after «མ་ཧེ» is ink-filled: is it «རྟ» (horse) or another animal? | open; cites wb.2:p144 |
 | [questions/q0829.md](questions/q0829.md) | question q829 | In the treatment of the unripe fever (st:p185-186) what is the medicine «བིག་པན» (ཐིག་པན in the etext), named with ash and beer, and which letter does the print have? | open; cites st:p185-186 |
 | [questions/q0830.md](questions/q0830.md) | question q830 | What is «བུར་སྙིང་ཐང» in the decoction for the wind-unripe fever: a sugar or a heart-wood? | open; cites st:p185-186 |
@@ -1756,6 +1756,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0881.md](questions/q0881.md) | question q881 | Who or what is the «dmar mo» (the Red One, a red woman) whose cremation ashes are used in the rite on GNC p. 558? | open; cites gnc.1:p558h |
 | [questions/q0882.md](questions/q0882.md) | question q882 | Is the colophon of SKP's first text (p. 50, «ཤཱཀྱའི་དགེ་སློང་ …»), read only by machine, really «ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ»? | open; cites skp:p55h |
 | [questions/q0883.md](questions/q0883.md) | question q883 | Is «པདྨ་དཀར» at the end of SKP's second text (p. 55) the name Padma dkar po, and which text is «well explained»? | open; cites skp:p55h |
+| [questions/q0884.md](questions/q0884.md) | question q884 | Does «ཟ་ཟི» in «རྨི་ལམ་ཟ་ཟི་མང་བ» (WB vol. 1 p. 431) have a meaning of its own (confused, restless, repeated) in the reckoners' or physicians' usage, or is it a doubled sound with the sense «many dreams» only? | open; cites wb.1:p431b |
 
 <!-- end pool index -->
 

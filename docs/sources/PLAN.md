@@ -1843,3 +1843,8 @@ Searched and found wanting, so not to be repeated:
   - 国書データベース title search 大雑書: 305 records, several open-image prints (永代大雑書 Ansei 3 on the NDL, 星槎ラボ's 大ざつしよ Enpō 2, 彰考館, 北大's 安政雑書大成) but no 京都大学 潁原文庫 copy of EB9's 大雑書.
   - 京都大学貴重資料デジタルアーカイブ: its keyword search ignores a keyword given in the address and returns the whole archive (27,627 items); no 大雑書 found there.
   - The NDL fulltext API is 403 for the other 大雑書 prints and for 校註国歌大系, 西行法師全集 (春陽堂 1926) and 山家集詳解; it works for 日本歌学全書 (pids 993401–993412), 異本山家集 and 西行全集 (1930). 山家集 on Wikisource and the 国歌大観 numbers: not open.
+- **RD283** (RD283, 2026-11-10):
+  - WB vol. 1 pp. 428 and 429 are absent from the 1996 scan I1KG12906 (img. 437 = p. 427, img. 438 = p. 430); p. 428 read on the Gser thang reprint, Zhol and Taikhang.
+  - No verb of seeing and no image beside «རྨི་ལམ་རྩུབ» or «རྨི་ལམ་ཟ་ཟི་མང་བ» at the three places, on any print read.
+  - No gloss of «རྩུབ» or «ཟ་ཟི» in Mipham's notes by the machine reading of img. 482–549; the Chengdu etext of the notes is search-only (API 403) and was not opened.
+  - The Zhol etext (IE0OPI7850CC9C) is unusable for searching: no tshegs and full of OCR noise.
