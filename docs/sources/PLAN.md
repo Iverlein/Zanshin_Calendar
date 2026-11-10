@@ -1964,3 +1964,7 @@ Searched and found wanting, so not to be repeated:
 - **RD316** (RD316, 2026-11-10):
   - Mipham's notes on WB ch. 25 and 27: the Chengdu etext is search-only; BDRC searches for «ཟ་ཟི་མང་བ་དང», «རྨི་ལམ་ཟ་ཟི་མང་བ», «ཟ་ཟི་ནི», «ཟ་ཟི་ཞེས་པ», «ཟ་ཟི་ཞེས», «ཟ་ཟི་ཡིན», «ཟ་ཟི་ལ», «ཟ་ཟིའི་» showed no Mipham hit among the twenty each lists; the unlisted hits (236 for «ཟ་ཟི་མང», 161 for «རྨི་ལམ་ཟ་ཟི») not seen, a weak negative.
   - No lexicon entry for «ཟ་ཟི་མང» itself; glosses in the forms «ཟ་ཟི་ཞེས་པ་ནི», «ཟ་ཟི་ཞེས་པའི», «ཟ་ཟི་སྟེ»: 0 hits; the Blue Beryl and Zur mkhar ba not opened for this word; the Zhol, Derge and other prints of st:p183, st:p218, st:p241 not located; the Great Tibetan–Chinese dictionary not read by its own title.
+- **RD314** (RD314, 2026-11-10):
+  - About 20 BDRC phrase searches for night-watch bounds (among them «མཚན་ཐུན་བཞི», «ཆུ་ཚོད་བདུན་ཕྱེད», «ཐུན་རེ་ལ་ཆུ་ཚོད», «ཉིན་མཚན་ཐུན་བརྒྱད») gave no hit; no text read gives a watch in hours or in 7½ water-hours; «ཐུན་བཞིར་བགོས» and «མཚན་ཐུན་བཞིར» hit only day retreat sessions.
+  - For «སྙིང་སྡུག»: seven hits, all the Svapnohana itself; Steinert's dictionaries not cloned; no Tibetan Amarakośa found; Mipham's other works cannot be searched by author, the three hits carrying his name bound no watch.
+  - The Narthang Tengyur etext (char. 420824) files the bird verse under four unrelated Tārā-sādhana titles, the BDRC outline there being mislabelled.
