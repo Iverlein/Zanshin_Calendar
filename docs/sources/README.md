@@ -617,6 +617,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/mongolian-volumes-undated-qing-peking-colophon-and-the-colophon-senses.md](claims/mongolian-volumes-undated-qing-peking-colophon-and-the-colophon-senses.md) | claim, note | No volume of the dream text's Mongolian copies carries a date; one text of GDR's volume is Qing; the quoting books are modern; the senses of Klong rdol's colophon | cites gdm:i82, gdm:i135, gdr:i37, gdn:i175; feeds S1 |
+| [claims/mph-bad-dreams-turned-back.md](claims/mph-bad-dreams-turned-back.md) | claim, note | Mipham turns back bad dreams by a mantra and names no time | cites mph.25:i459-460, mph.128:i189-192; feeds S1, RD362 |
+| [claims/mph-dream-omens-karunapundarika.md](claims/mph-dream-omens-karunapundarika.md) | claim, note | Dream images with readings in Mipham's Śākyamuni compilation: the omen that comes before (sngar ltas) | cites mph.101:i42-43, mph.101:i44-45, mph.101:i46, mph.101:i220-221, mph.101:i233; feeds S1, RD362 |
+| [claims/mph-dream-practice-mantras-and-rite.md](claims/mph-dream-practice-mantras-and-rite.md) | claim, note | Mipham's dream mantras and the Skul byed ma rite ask for a dream; they give no meanings, name sources and a few times | cites mph.128:i189-192, mph.25:i374-376; feeds S1, RD362 |
+| [claims/mph-dream-sign-time-day-source.md](claims/mph-dream-sign-time-day-source.md) | claim, note | RD362: Mipham names no time or day for reading a dream sign; sources only for the rites and the sūtra's readings | cites mph.128:i189-192, mph.25:i374-376, mph.104:i236-237, mph.101:i42-43, mph.101:i220-221, wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
+| [claims/mph-notes-wb-dream-words.md](claims/mph-notes-wb-dream-words.md) | claim, note | Mipham's notes on the White Beryl name dreams twice and gloss no dream sign | cites wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
+| [claims/mph-sukhavati-dream-sign-of-rebirth.md](claims/mph-sukhavati-dream-sign-of-rebirth.md) | claim, note | Mipham: a dream of the field and the Teacher is the lowest sign of progress toward Sukhāvatī | cites mph.104:i236-237; feeds S1, RD362 |
 | [claims/mvy-thun-gsum-pa-third-of-five-watches.md](claims/mvy-thun-gsum-pa-third-of-five-watches.md) | claim, note | The Mahāvyutpatti's thun gsum pa is the third of five watches of the night (RD322) | cites svo:p271q; feeds block-73 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/neg-acaramayukha-quotes-month-series.md](claims/neg-acaramayukha-quotes-month-series.md) | claim, note | Nīlakaṇṭha's Ācāramayūkha quotes a Svapnādhyāya with a month for the fourth watch (RD317) | cites neg:p14-16, neg:p32; feeds block-73 |
@@ -1215,7 +1221,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 15 passages: 8 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
-| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 0 passages: nothing read yet |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 9 passages: 8 machine, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
@@ -1291,7 +1297,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 16 passages: 11 scan, 5 machine |
-| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 29 passages: 27 scan, 2 etext |
+| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 7 passages: 3 scan, 3 machine, 1 etext |

@@ -1233,11 +1233,29 @@ tsd:
 mph:
   title: "Mipham's writings on dream signs and dream divination (Gsung 'bum) and his notes on the White Beryl"
   author: "'Ju Mi pham rgya mtsho (1846–1912)"
-  edition: "the collected works as served by BDRC; the volumes named in the passages"
+  edition: "the collected works as served by BDRC; the volumes named in the passages (RD362, 2026-11-10): vols. 1, 4, 25 and 28 of the 'Gzhung 'grel skor' reset (Mi pham gsung 'bum las gzhung 'grel skor, MW1PD76231, etext VEIE0OPI08B0BB3C_I1PD84565…) are given here as 101, 104, 125 and 128, so that they do not collide with the vol. 25 of the Chengdu Gsung 'bum (W2DB16631, 32 vols, typeset, scans open) kept as 25"
+  bdrc: {work: MW1PD76231}
   licence: public-domain
   rank: 2
   role: source
   locator: image
+  volumes:
+    25:
+      scan: I1PD34671
+      image_offset: -6
+      notes: "Chengdu Gsung 'bum (MW2DB16631), vol. 25; image = printed page + 6 (img. 384 prints 378); BDRC's contentLocation pages are images; its etext (IE0OPI814E11F4) is search-only"
+    101:
+      scan: I1PD84565
+      notes: "Gzhung 'grel skor vol. 1 (MW1PD76231, etext VEIE0OPI08B0BB3C_I1PD84565, good OCR, [pN] = image N); Thub chog byin rlabs gter mdzod kyi rgyab chos Padma dkar po, images 9-420"
+    104:
+      scan: I1PD84568
+      notes: "Gzhung 'grel skor vol. 4 (etext VEIE0OPI08B0BB3C_I1PD84568, [pN] = image N, printed page = image − 9); Bde ba can gyi zhing sbyong ba'i dad pa gsal bar byed pa drang srong lung gi nyi ma, images 218-241; the list of Mipham's own works, images 137-138"
+    125:
+      scan: I1PD84589
+      notes: "Gzhung 'grel skor vol. 25 (etext VEIE0OPI08B0BB3C_I1PD84589, [pN] = image N)"
+    128:
+      scan: I1PD84592
+      notes: "Gzhung 'grel skor vol. 28 (etext VEIE0OPI08B0BB3C_I1PD84592, [pN] = image N); Las sna tshogs pa'i sngags kyi be bum dgos 'dod kun 'byung gter gyi bum pa bzang po"
 
 dhd:
   title: "The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein), as edited and as imaged by the International Dunhuang Project and Gallica"
