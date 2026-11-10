@@ -1927,3 +1927,6 @@ Searched and found wanting, so not to be repeated:
 - **RD309** (RD309, 2026-11-10):
   - A commentary on the Svapnekṣā that names the Amoghasiddhi bird: BDRC full-text search «བྱ་ཤར་ཏེ་རུ» 3 hits (the Derge Tengyur etext, the Dpe bsdur ma etext, a modern medical collection), «བྱ་ཤིང་ཏེའུ» 0, «བྱ་ཤང་ཏེའུ» 0, «བྱ་ཤར་ཏེའུ» 0, «བྱ་ཤིང་ཏེ» 0, «བྱ་ཏེའུ་ཕོ་ཉར» 0, «བྱ་ཤར་ཏེ» 5 (two unrelated).
   - The Narthang line by eye at 3× and 8× is a smear of the verso's show-through; the Co ne line is a dense bitonal bitmap not readable by eye; the Derge ར and ུ of «རུ» at 8 px are not told apart.
+- **RD304** (RD304, 2026-11-10):
+  - The Blue Beryl, Skyem pa, the Mes po'i zhal lung, Zur mkhar ba (I8LS19191) and Sde srid's Man ngag lhan thabs (I1PD403) searched whole in the etext, 2026-11-10, for «མོ་ཕྱྭ», «རིམ་གྲོ་རྟེན་འབྲེལ», «རྡོ་རྗེའི་མདུད་པ་བདུན» and «བ་རའི་འོ་མ»: no gloss of ཕྱྭ, བ་ར or the milk's purpose; Zur mkhar ba and the Lhan thabs have no lines on ch. 91, the Mes po'i zhal lung only the kapha-causes verse.
+  - Steinert's dictionaries (locate.py dict) not cloned (4.5 GB): དྲི་ཆེན and བ་ར not looked up there; BDRC's full-text search not run; the Zhol print's img. 675 not re-read.

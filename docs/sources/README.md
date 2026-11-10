@@ -1822,6 +1822,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0911.md](questions/q0911.md) | question q911 | Is the Blue Beryl's gloss of ch. 81's dream list the same text as Khro ru's, and which came first? | open; cites st:p350-351 |
 | [questions/q0912.md](questions/q0912.md) | question q912 | On the Narthang manuscript (I2KG212330 img. 290, end of line 2) is the bird «བྱ་ཤང་ཏེའུ» as the Dpe bsdur ma note gives it, or «བྱ་ཤང་ཤང་ཏེའུ» with the full name? | open; cites svi:p310b |
 | [questions/q0913.md](questions/q0913.md) | question q913 | Is the sign of Amoghasiddhi's family «ཤང་ཤང་ཏེའུ» (shang shang te'u, the jīvajīvaka bird of the lists), and what does a bird of that name sent as a messenger (ཕོ་ཉར་གཏོང) foretell in the commentaries of the tradition? | open; cites svi:p310b, svi:p261b |
+| [questions/q0914.md](questions/q0914.md) | question q914 | What exactly do the notes say on the Derge (img. 605 last line, img. 606 first line) and the Chag-po-ri (img. 603 first line) prints, letter by letter, and does the Chag-po-ri set the whole run in smaller type? | open; cites st:p493b |
+| [questions/q0915.md](questions/q0915.md) | question q915 | What is བ་ར (ba ra) in «བ་རའི་འོ་མ», a milk of which animal, and why is the milk with dung rubbed on the soles for a spirit's dream? | open; cites st:p493b, st:p493c |
 
 <!-- end pool index -->
 
