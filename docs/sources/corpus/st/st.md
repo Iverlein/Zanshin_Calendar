@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD301 (2026-11-10): the Blue Beryl (BDRC etext VEIE0OPICF5AF372_I1PD411, etext pp. 138–139, 208–209, 216–217) and the Moonbeams (Tengyur commentary on the Eight Limbs, etext VE23703_1517, pp. 37, 160–161) on ch. 2's boy's-dream line and ch. 7's «མཚན་སྟོད»; etext only, no scan. The claims `st-dream-ch2-blue-beryl-moonbeams` and `st-night-rule-blue-beryl-moonbeams`.
+
 Read by RD300 (2026-11-10): the commentaries' sentences on ch. 2's boy's-dream line (st:p21) in BDRC etexts found by exact-phrase search: Byang pa Rnam rgyal grags pa bzang po (I4706, I1PD380), Dri med kun gsal (I4707), the great commentary I5618, the gsal sgron I1PD409 and the Drikung dka' mchan I1KG24731; the root text in five more editions. Four commentaries take the dream as of men seen many times, ཡང as the body's lightness, none དག as "clear". The claim `st-dream-ch2-commentaries`.
 
 Read by RD290 (2026-11-10): ch. 81's dream list on the Derge print (I00JW501163 img. 434; Yigdzin-1 and MITRA, lines 5–6 by eye at 2×) and the Chag-po-ri print (I1KG13487 img. 426; Yigdzin-1, by eye at 1.7–4×); the Zhol's img. 483 cropped by eye without result; ཟ་ཟི in the Drikung commentary's etext. The claim `st-dream-ch81-derge-chag-po-ri-prints`.
@@ -275,3 +277,13 @@ Question: Do the Blue Beryl and the Moonbeams gloss ch. 2's line «ལུས་�
 ## Searched and not found (RD300)
 
 BDRC full-text search, 2026-11-10, «རྨི་ལམ་དག་ན» (106 hits, mostly other works: tantra commentaries and collected works) and the full line (19 hits): no commentary reads དག as "clear" and none restricts the sign to a clear dream; no commentary glosses དག on its own as a word; the Drikung dka' mchan only quotes. Six volumes empty (listed above), not read.
+
+## Open (RD301)
+
+Question: In the Blue Beryl's ch. 7 the first part of the night is up to midnight on the Eight Limbs' verse (etext p. 209) and dusk, with midnight alike, on the Four Tantras' verse (p. 216): is this one rule read twice, or two different spans?
+
+Question: Does the Moonbeams' gloss of the Eight Limbs' «རྨི་ལམ་སྐྱེས་པ་མཐོང» (a man and an elephant) belong to ch. 2's line, or only to the Eight Limbs' text that the Blue Beryl quotes beside it?
+
+## Searched and not found (RD301)
+
+BDRC full-text search, 2026-11-10: the exact line «ལུས་ཡང་རྨི་ལམ་དག་ན་སྐྱེས་པ་མཐོང» 19 hits, neither the Blue Beryl nor the Moonbeams among them (the Blue Beryl does not quote that line; its etext was fetched and searched whole: «རྨི་ལམ་དག་ན» once, in its own sentence with an added ཡང, «རྨི་ལམ་དག་ནའང་»). «མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང» 11 hits, among them the Moonbeams (MW23703_4312, and MW1PD95844_3549 in another set) and Byang pa; «མཚན་སྟོད་ཕྱེད་པ་ཡན་ཆད» 3 hits. The Moonbeams on the Four Tantras' own verse «བརྗེད་ངས» or «བརྗེད་ངེས»: not in it. The Blue Beryl's page images (I1PD411) and the Moonbeams' (the Tengyur) not looked at, so no reading on a scan. The Moonbeams by Dharmaśrī in dz is another work (on the elemental divination); this one is the commentary on the Eight Limbs. The ch. 2 line on the Blue Beryl's other print (I8LS19191 and the Mes po'i zhal lung hit): not opened.
