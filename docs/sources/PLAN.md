@@ -2058,3 +2058,7 @@ Searched and found wanting, so not to be repeated:
   - BDRC width upscaling (--width 4000 and 6000) returns empty files for the Co ne, Derge, Peking and Narthang scans of the Svapnekṣā.
   - Yigdzin-1 on wide high-contrast windows of the Peking night line returns stock phrases; only whole-line strips worked earlier. Windows of Co ne lines must be cut with the slope in mind: 70 px windows pick up two lines.
   - BDRC exact phrases «བརྟགས་པ་ལ་ཉལ», «བཏབ་ལ་ཉལ», «བརྟགས་པ་ཉལ», «བྱ་ཤང་ཏེའུ», «ཤང་ཤང་ཏེའུ་ཕོ་ཉ»: no hit (2026-11-10); «ཤང་ཤང་ཏེའུ» alone 369 hits, not opened.
+- **RD356 (2026-11-10)** (RD356, 2026-11-10):
+  - The Blue Beryl's printed page (Dpe tshogs print, p. 1148): BDRC's I1PD411 and I1PD412 have only 41 canvases each in their manifests and the pages beyond answer 401; I8LS20838 is not the Blue Beryl's page.
+  - Chag-po-ri I1KG13487 img. 37 line 4 (ch. 2's boy line): dashed and faint, not legible by eye; Yigdzin-1 on a line strip gives garbage.
+  - The Drathang print's hand notes of ch. 81 (img. 463) at 2658 px: no note can be shown or excluded.
