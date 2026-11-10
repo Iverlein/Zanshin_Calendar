@@ -2037,3 +2037,5 @@ Searched and found wanting, so not to be repeated:
 - **RD336** (RD336, 2026-11-10):
   - No 'physician's own dream' phrase in any of the Moonbeams, Byang pa, Rin spungs pa, Blue Beryl or Khro ru etexts; the Gtsang sman is the only place; no «ཟླ་ཟེར» near pp. 263–264 of Gtsang sman.
   - The name colophons at Gtsang sman pp. 169 and 422 belong to other works in the collection, p. 372 names none; the Drikung dka' mchan etext was not read at this verse (working ids: Blue Beryl VEIE0OPICF5AF372_I1PD411, Drikung VEIE0OPI7984ABB9_I1KG24731).
+- **RD342** (RD342, 2026-11-10):
+  - BDRC full-text search: «ཡ་མཚན་ཅན་ནི་བརྟུལ་ཞུགས་ཀྱི་བྱེ་བྲག་ལ་གནས་པའི་ཕྱི་རོལ་པ» 0 hits; «དྲྭ་ཕད་རྐང་གླིང» and «རྦད་མགོ་དང་དྲྭ་ཕད» one hit each, in the Blue Beryl (I1PD411); «རྦད་མགོ» and «རྐང་གླིང་རུས་རྒྱན» occur nowhere else in the Drikung, Skyem pa or Blue Beryl etexts; Skyem pa's etext cites «ཟླ་ཟེར» many times but not at this verse (pp. 187–188); the Drikung and Skyem pa read on etext only.

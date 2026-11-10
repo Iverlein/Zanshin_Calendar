@@ -1990,6 +1990,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0986.md](questions/q0986.md) | question q986 | Does the Dbyangs 'char verse, the Gso rig gces btus piece and WB vol. 2 p. 403's «ཆུ་སྲང་བཞི་རེ» use the same 56¼-chu-srang unit as the Mchog dga'? | open; cites svo:p271z |
 | [questions/q0987.md](questions/q0987.md) | question q987 | The Kun 'dus chen mo etext's spellings «ཐུན་ཕྱིད», «བརྒྱུད» for eight and «ང་དྲུག»: are they the print's, and what follows «ཆུ་ཚོད་རེ་བཞིར» where the etext cuts off before the number? | open; cites svo:p271z |
 | [questions/q0988.md](questions/q0988.md) | question q988 | What does the Blue Beryl's clause on Drukpa yogis and Khri srong lde btsan's communities say among those of like kind to the good messenger, broken in the etext, and does the Drikung dka' mchan comment on the verse? | open; cites gt:i41b |
+| [questions/q0989.md](questions/q0989.md) | question q989 | What are «རྦད་མགོ» and «དྲྭ་ཕད» among the Drukpa realised ones' marks in the Blue Beryl's clause on those of like kind to the good messenger? | open; cites gt:i41c |
 
 <!-- end pool index -->
 
