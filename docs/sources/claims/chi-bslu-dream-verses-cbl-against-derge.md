@@ -1,0 +1,11 @@
+---
+kind: claim
+type: note
+terms: [rmi-lam, chi-ltas]
+cites: ['cbl:p236-238', 'cbl:p238b', 'cbs:p247-249']
+feeds: [S1]
+open: []
+---
+# The death-dream verses of CBL against the Derge: the same verses and times, seven differing readings
+
+The dream verses of CBL (verses 19-20, cbl:p236-238) are, line for line, the Derge's text at the end of the first chapter (cbs:p247-249): the same order of signs, the same time for each, so the times (six months for most, seven days for the black girl's "time-sign", three months for the man with the iron staff, eight months for a scent, red garland or red clothes, a year for being eaten or carried off) belong to the verses and not to the explanation. CBL adds only glosses in the verse: that the dream signs are examined once the dreams that are untrue have been set aside, that fruit seen on the tree planted on the body is good (cbl:p237), and, after "a year", the question how death is to be treated, answered by the remedy given in passing ("treat the sign with a mind like an illusion"). Readings that differ between the etexts: (1) the Derge's «ཀོ་པི་ད་ར» (ko pi da ra), the Dpe bsdur ma's «ཀོ་བི་ད་ར» and CBL's «ཀོ་བི་དར་ལི་ཤི» for the second tree of the first sign; (2) the Derge's «ལྷ་གང་གི་ནི་མཆོད་སྡོང» (the offering post of any god) against CBL's «ལྷ་ཁང་གི་ནི་མཆོད་སྡོང» (of a temple); (3) the black girl's binding, Derge «གང་ཞིག་བཅིངས་པས་འཆི་བ་ནི» (whoever dies bound) against CBL «གང་གིས་ཞགས་པས་བཅིངས་པས་འཆིང་བ་ནི» (bound with a noose), and the seventh day, Derge «ཞག་བདུན་ནས་ནི་འཆི་བྱེད་ཡིན» against CBL «ཞག་བདུན་ནས་ནི་འཆི་བ་ཡིན» (the same sense); (4) «ཁྱི་ཁྲ» (Derge) against «ཁྱི་ཁྭ» (CBL and the Dpe bsdur ma), and «བྱ་རྒོད» (Derge, Dpe bsdur ma) against «སྤྱང་རྒོད» (CBL); (5) the buffalo: Derge «སྤྱོན་ཏེ» against CBL «ཞོན་ཏེ» (rides); (6) the anointing of the sleeper's body: Derge and Dpe bsdur ma «དྲི་དམར» (red scent), CBL «དྲི་མར» (so the English "dirt" of cbl:p236-238 is a doubt); (7) the outer signs are beyond counting: "for eight years some may tell" (Derge, ལོ་བརྒྱད) against "a hundred years" (CBL ལོ་ནི་བརྒྱར; cbl:p238b), one letter apart. The Dpe bsdur ma etext (vol. 14 pp. 1335-1336, OCR) agrees with the Derge in all the signs and times; its apparatus (pp. 1359-1362) is garbled in the etext and was not read as notes. State: etext only for all three.

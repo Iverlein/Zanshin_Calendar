@@ -7,6 +7,17 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+## <a id="cbl-p217"></a>cbl:p217 Title, homage and the first note: the author's name in full
+
+*Read: etext, 2026-11-10.*
+
+> རྒྱ་གར་གྱི་པཎྜི་ཏ་ཆེན་པོ་ངག་གི་དབང་ཕྱུག་གྲགས་པས་མཛད་པའི་འཆི་བ་སླུའི་
+> མན་ངག་ཕྱི་ནང་འཆི་ལྟས་བཤད་པ་དང་བཅས་པ་བཞུགས་སོ། །རྒྱ་གར་སྐད་དུ། མྲྀ་ཏུ་པཉྩནོ་པ་དེ་ཤ །བོད་སྐད་དུ། འཆི་བ་བསླུ་བའི་མན་ངག །བཅོམ་ལྡན་འདས་འཕགས་པ་འཇམ་དཔལ་ལ་ཕྱག་
+> འཚལ་ལོ། །ཐོག་མར་ཤིས་པ་བརྗོད་པའི་དགོས་པ་ནི། རང་གི་དད་པའི་ལྷ་ལ་ཤིས་པར་བརྗོད་པའི་ཚུལ་གྱིས་བསྔགས་པས་ཚོགས་བསགས་པ་དང་། བཀྲ་ཤིས་པ་དང་། བདག་ཉིད་དམ་པའི་སྤྱོད་པ་དང་མཐུན་པར་སྟོན་པའོ། །
+
+Page 217 of the etext, the opening of the work (the page begins with the last words of the work before it, a note that says it was written by Mañjughoṣa, མཉྫུགྷོ་ཥ, as a memorandum for himself and others). Heading: "The pith instruction on deceiving death (འཆི་བ་བསླུ་བའི་མན་ངག, 'chi ba bslu ba'i man ngag), with the explanation of the outer and inner death signs, made by the great Indian paṇḍita Ngag gi dbang phyug grags pa (ངག་གི་དབང་ཕྱུག་གྲགས་པ, ngag gi dbang phyug grags pa), is here." Title: in Sanskrit as the etext spells it «མྲྀ་ཏུ་པཉྩནོ་པ་དེ་ཤ» (the Derge etext has «མྲྀ་ཏྱཱ་པཉྩ་ནོ་པ་དེ་ཤ», the same three Tibetan syllables differing in vowel signs); in Tibetan "The pith instruction on deceiving death". Homage to the Blessed Noble Mañjuśrī (འཇམ་དཔལ, 'jam dpal). Then the explanation's first note: the purpose of beginning with an auspicious word is to gather the accumulation by praising one's own deity of faith, to bring good fortune, and to show that the author agrees with the conduct of the holy.
+Etext only; the etext prints the heading and title twice (an overlap of its chunks), once here. The same author is named in full as ངག་གི་དབང་ཕྱུག་གྲགས་པ at the Derge's chapter colophons (cbs:p247-249, cbs:p267-268); the short «ངག་དབང» does not occur.
+
 ## <a id="cbl-p236-238"></a>cbl:p236-238 Verses 19-20: dreams that foretell death
 
 *Read: etext, 2026-11-10.*
@@ -34,4 +45,52 @@ text's order, each under its id, with its `*Read:*` line.
 Etext pp. 236-238. Read in the etext only, not on the scan; the etext runs the root verses together with a gloss in prose and with the marginal numbers 19 and 20, and a lama's remark stands in the verses on p. 237.
 
 Verse 19, the examination of the changes in dreams (རྨི་ལམ་གྱི་འགྱུར་པ་ལ་བརྟག་པ, rmi lam gyi 'gyur pa la brtag pa): not every dream is true, yet it is wrong to call them wholly untrue, since a god taught the way of examining dreams; whoever does not trust dreams sets them aside and examines the other signs of death. The dreams of death: climbing, at the dream's end, a tree, a temple's offering post or a heap of sand and ash, or a long tree, a stupa's life-pole (སྲོག་ཤིང, srog shing), an ant-hill or a heap in a charnel ground (six months); riding a donkey south and not returning (the life goes likewise); riding a monkey south and waking there (as before), or riding a monkey east and waking (this is the last night); darkness, a pit or a prison, or falling from a tree (he dwells near the Lord of Death); fruitless trees, grass or wood planted on head and body (six months); an enraged black girl binding him with a noose (the sign called "time", dus mtshan, དུས་མཚན: by the lama's gloss the time of death has come, death on the seventh day); a woman in black and a man of desire with a red garland of karavira flowers (he goes to the house of the Lord of Death); being eaten by a dog, crow, jackal, flesh-eater, fierce spirit or hungry ghost, or carried off riding a donkey, pig, she-camel or buffalo (death in a year). The means of treating, given in passing: apply the illusion-like remedy with the mind once a sign is seen.
-Verse 20 (p. 238): a man with an iron staff, black, in black clothes, sitting before the sleeper (three months); the sleeper's own body smeared with dirt, adorned with a red garland, anointed with sesame oil, shaved, in red clothes, riding a donkey fast to the south (six months); finding a scent, a red garland or red clothes in a dream (eight months).
+Verse 20 (p. 238): a man with an iron staff, black, in black clothes, sitting before the sleeper (three months); the sleeper's own body smeared with «དྲི་མར» (the etext; the Derge and the Dpe bsdur ma read «དྲི་དམར», red scent, cbs:p247-249, so "dirt" is a doubt), adorned with a red garland, anointed with sesame oil, shaved, in red clothes, riding a donkey fast to the south (six months); finding a scent, a red garland or red clothes in a dream (eight months).
+
+## <a id="cbl-p238b"></a>cbl:p238b Verse 21 and the colophon of chapter 1
+
+*Read: etext, 2026-11-10.*
+
+> ཕྱི་རོལ་གྱི་ནི་འཆི་གདམས་པ་སྟོན་བ་ཡི། །ལྟས་མཚན་མ་གྲངས་ལས་འདས་པ་མང་པོ་ཡོད་པས་ནི། །ལོ་ནི་བརྒྱར་ཡང་ཁ་ཅིག་གིས། །སྨྲ་བར་ཡང་ནི་སུ་ཡིས་ནུས་ཏེ་མི་ནུས་སོ། ༢༡ །འཆི་བར་སྟོན་པར་བྱེད་པ་ཡི། །
+> ཕྱི་ཡི་རྟགས་གོང་དུ་ཇི་ལྟར་བཤད། །འདི་དག་ཤེས་བྱས་རྟགས་སོ་སོའི་སྒོ་ནས་རྒྱུ་སོ་སོར་ལྷ་འཁྲུགས་ན་འབྱུང་བ་གཉིས་ཀར་ནོར་བུ་སྔགས་སོགས་ཀྱིས། །བསླུ་བའི་འབད་པ་མྱུར་དུ་བྱ། །སློབ་དཔོན་ངག་གི་དབང་ཕྱུག་གྲགས་
+> པས་སྦྱར་བའི་འཆི་བ་བསླུ་བ་བསྟན་པ་ལས་ལེའུ་དང་པོའོ།། ༡ །།
+
+The end of the dream verses and the close of chapter 1, etext p. 238, after verse 20 (cbl:p236-238). Verse 21 (the etext's marginal number ༢༡ of chapter 1): the outer signs of death that point the way to dying are beyond counting; some say that even in a hundred years nobody can tell them all, "for who could, they cannot". Then: the outer signs have been told above; having known them, quickly make the effort to deceive death (the etext's gloss inserts: through the gate of each sign, by its own cause, whether it comes from the gods' anger (ལྷ་འཁྲུགས, lha 'khrugs) or from the elements, with a jewel (ནོར་བུ, nor bu), mantra and the like). Colophon: "The first chapter, from the Teaching on Deceiving Death (འཆི་བ་བསླུ་བ་བསྟན་པ, 'chi ba bslu ba bstan pa) composed (སྦྱར་བ, sbyar ba) by the teacher (སློབ་དཔོན, slob dpon) Ngag gi dbang phyug grags pa", the chapter number ༡ in the etext. The inner signs follow.
+Etext only. The wording of verse 21 differs from the Derge's (cbs:p247-249) in the first lines («ཕྱི་རོལ་གྱི་ནི་འཆི་གདམས་པ་སྟོན་བ་ཡི། །ལྟས་མཚན་མ་གྲངས་ལས་འདས་པ་མང་པོ་ཡོད་པས་ནི» for «ཕྱི་རོལ་གྱི་ནི་འཆི་བ་ཡི། །མཚན་མ་གྲངས་ལས་འདས་པ་ནི། །ལོ་བརྒྱད་ཡང་ནི་ཁ་ཅིག་གིས»): the Derge says "eight years", CBL "a hundred years"; the etext's «བརྒྱ» against «བརྒྱད» is one letter and may be a misreading on either side, a doubt.
+
+## <a id="cbl-p278-279"></a>cbl:p278-279 The sources the work names, the colophons, and the editor's note on the old annotation
+
+*Read: etext, 2026-11-10.*
+
+> མདོར་བསྡུ་བ་ལས། བཤད་ཟིན་དྲན་པས་མཚམས་སྦྱར་ཏེ་འབད་པར་གདམས་པ་དེ་ལྟར་འཆི་བདག་དགྲ་བོ་ནི།
+> བསླུ་བའི་ཐབས་ནི་བཤད་པ་ཡིན། །རང་སངས་རྒྱས་པ་དང་གཞན་མུ་སྟེགས་བྱེད་ཀྱི་ལྷ་དང་དྲང་སྲོང་གིས་བྱས་པའི་གཞུང་ལས་གྲུབ་པ་ཡི། །བསམ་གཏན་ལས་ནི་རབ་བསྒྲུབ་བྱ། །བརྩེ་མེད་འཆི་བའི་འཇིགས་པ་ལས། །
+> ཐར་པའི་ཐབས་ནི་འབད་དེ་བྱ། །གང་ཕྱིར་འདི་ན་ཡིད་འོངས་པ། །སྲོག་ལས་གཞན་པ་ཡོད་མ་ཡིན། ༢༡ །འབད་བྱའི་གཞུང་འདི་རང་བཟོ་མ་ཡིན་པར་རྒྱུད་གང་ལས་བསྡུས་པ་བསྟན་པ་རྡོ་རྗེ་མཁའ་འགྲོ་གདན་བཞི་དང་།
+> སངས་རྒྱས་བླ་གབ་ལ་སོགས་བྱ། །དུས་ཀྱི་ཕྱི་མ་དུ་ཕྲེང་བ། །དུས་ཀྱི་ལྔ་བཅུ་པ་དང་ནི། །ནཱ་གརྫུ་ནའི་འཚོ་བ་ལྔ་བཅུ་པ་ལ་སོགས། །གཞན་ཡང་སྨན་དཔྱད་སྦྱོར་ཕྲེང་སོགས། །བསྟན་བཅོས་འབད་དེ་བརྟགས་ནས་ནི། །
+> འཆི་བདག་རྣམ་པར་བསླུ་བ་འདི། །འགྲོ་ལ་རྗེས་སུ་བརྩེ་བས་བཤད། ༢༢ །ཡོངས་སུ་བསྔོ་བས་མཚམས་སྦྱར་བ་ནམ་མཁའ་ཡོངས་སུ་དག་པ་ལ་སྟོན་ཀའི་ཟླ་བ་ཤར་བ་དང་འདྲ་བར། །བསམ་སྦྱོར་དག་ཅིང་ནམ་མཁའ་ལས་
+> ཀྱང་མི་ཤོང་བའི། བསོད་ནམས་ཀྱི་དངོས་པོ་ལས་ཐོབ་པའི་དགེ་བ་འདི་ལས་བསོད་ནམས་གང་ཐོབ་པ། །དེས་ནི་འགྲོ་བ་འཆི་བདག་ལས་ཐར་ཤོག ༢༣ །ཞར་བྱུང་གཞུང་གི་ཚད་བསྡུས་ཏེ་བསྟན་པ་ཉོན་མོངས་ཡི་གེ་པ་རྣམས་
+> [p279]
+> ༄༅། །ནི། །བརྩི་བ་ཡི་ནི་ངལ་ཞལ་བཤུས་པའོ། ༈ །འཆི་བསླུའི་མཆན་འདི་སྔ་གྱི་མཆན་རྙིང་ཞིག་རྗེ་མཁྱེན་བརྩེའི་ཕྱག་བྲིས་ཀྱི་ཞལ་སྐོང་མཛད་པ་འདི་གལ་གནད་ཆེ་བར་བསམ་ནས་སྤར་དུ་བཀོད་རུང་། །
+> སྤར་གཞི་འབྲི་བ་པོས་བྲི་ནོར་དང་། མ་དཔེ་མཆན་མ་དག་ཤིང་བརྡ་རྙིང་སོགས་དཔྱད་བྱར་མང་བས་ཕྱིན་ཆད་རྒྱུད་དོན་ལ་མཁས་པ་རྣམས་ཀྱིས་ལེགས་པར་གཟིགས་ཤིང་དཔྱད་གསུམ་གྱིས་དག་པར་བགྱིད་
+> འཚལ་ལོ། །གྱུར་ན། །གཞུང་འདིའི་ཚད་དུ་གྱུར་པ་ནི། །སུམ་བརྒྱ་དྲུག་ཅུ་ཐམ་པའོ། །བརྒྱད་ཅུར་བཅས་པ་ཡིན། །ཞེས་པའང་གདའ། །སློབ་དཔོན་ངག་གི་དབང་ཕྱུག་གྲགས་པས་མཛད་པའི་འཆི་བ་བསླུ་བ་བསྟན་པ་
+> ལས་ལེའུ་བཞི་པའོ།། །།ངག་གི་དབང་ཕྱུག་གྲགས་པས་མཛད་པའི་འཆི་བ་བསླུ་བ་ཞེས་བྱ་བ་རྫོགས་སོ། །རྒྱ་གར་གྱི་མཁན་པོ་དཱི་པཾ་ཀ་ར་ཤྲཱི་ཛྙཱ་ན་དང་། ལོ་ཙཱ་བ་དགེ་སློང་རིན་ཆེན་བཟང་པོས་བསྒྱུར་བའོ། །
+> མཆན་རྙིང་བཏབ་པ་པོ་གང་ཡིན་མ་ངེས་པ་ཞིག་གི་ཁ་སབ་ཏུ་རྗེ་བླ་མས་ཕྱག་མཚན་བཏབ་པ་ལས་ཞལ་བཤུས་བའོ།། ༈ །།
+
+The end of the work and the colophons, etext pp. 278-279. The summary (མདོར་བསྡུ་བ, mdor bsdu ba) of chapter 4, the etext's marginal numbers ༢༡ to ༢༣: having told the ways of deceiving the enemy, the lord of death (འཆི་བདག, 'chi bdag), "let the meditation (བསམ་གཏན, bsam gtan) established from the treatises of the Buddhists and of the gods and seers of the other sects (མུ་སྟེགས་བྱེད, mu stegs byed) be well accomplished"; strive for the means of release from the pitiless fear of death; nothing in this world is dearer than life. The gloss to the next verse says why the work is no invention of the author, giving the sources it was gathered from (number ༢༢): the Vajraḍāka (རྡོ་རྗེ་མཁའ་འགྲོ, rdo rje mkha' 'gro), the Four Seats (གདན་བཞི, gdan bzhi), the Buddha's «བླ་གབ» (bla gab) and others, the «དུས་ཀྱི་ཕྱི་མ» (dus kyi phyi ma) and the garland (ཕྲེང་བ, phreng ba) of Time, the Fifty of Time (དུས་ཀྱི་ལྔ་བཅུ་པ, dus kyi lnga bcu pa), "Nāgārjuna's Fifty on Life" (འཚོ་བ་ལྔ་བཅུ་པ, 'tsho ba lnga bcu pa) and others, also the books on medical examination and the garland of formulae (སྨན་དཔྱད་སྦྱོར་ཕྲེང, sman dpyad sbyor phreng); having weighed these treatises with effort, this deceiving of the lord of death is told out of kindness to beings. Number ༢༣ dedicates the merit. Then the size of the work: "should the scribes be wearied by counting, the measure of this text is exactly three hundred and sixty (verses)", with a note in the etext, "with eighty added; so it is said" (བརྒྱད་ཅུར་བཅས་པ་ཡིན། ཞེས་པའང་གདའ). The colophon: "The fourth chapter, from the Teaching on Deceiving Death made by the teacher Ngag gi dbang phyug grags pa" and "'Deceiving Death' made by Ngag gi dbang phyug grags pa is finished; translated by the Indian abbot (མཁན་པོ, mkhan po) Dīpaṃkaraśrījñāna and the lotsāba, the monk Rin chen bzang po".
+The editor's note, which the etext sets into the middle of the verse about the scribes (between «ངལ་» and «གྱུར་ན», the place a marginal note would be copied in): "This note on 'Deceiving Death' is an old earlier note supplemented in the handwriting of the Lord Mkhyen brtse (རྗེ་མཁྱེན་བརྩེ, rje mkhyen brtse); thinking it important I allow it to be put in the print. The scribe of the print's base made writing mistakes, and the model copy and the notes are unclean and in old script and much to be examined, so let later ones skilled in the tantras look at it well and make it correct by the three examinations (དཔྱད་གསུམ, dpyad gsum)." Last line: "From the note made by someone not known to be an old annotator, on whose margin the Lord Lama (རྗེ་བླ་མ, rje bla ma) put his hand-marks, copied (ཞལ་བཤུས, zhal bshus)." The next work, a summary of the Guhyasamāja path from the division of the four tantras, begins after it.
+Etext only; the etext repeats the short text of p. 279's first line before the note (an overlap of chunks, here dropped).
+
+### Open (RD331)
+
+- Question: In the lama's remark in the dream verses (cbl:p236-238) the etext reads «འོ་ཡུག་པ་གཤིན་རྗེ་དུས་མཚན་ནག་མོ་ཡིན་གསུང་སྐད» after the lama's saying that the black girl's binding is the sign of the time of death's arrival; who or what is the «འོ་ཡུག་པ» (o yug pa), and is the remark the old annotator's or Mkhyen brtse's?
+- Question: In the verse on the outer signs the Derge reads «ལོ་བརྒྱད» (eight years) and CBL «ལོ་ནི་བརྒྱར» (a hundred years); which is the Indian reading, and which print of the Derge blocks has which?
+- Question: In the list of the works the treatise rests on (cbs:p267-268, cbl:p278-279) which works are the «བླ་གབ» (bla gab), the «དུས་ཀྱི་ཕྱི་མ» (dus kyi phyi ma) and the «དུས་ཕྲེང་བ» (dus phreng ba), and is the Fifty on Life the Nāgārjuna work that CBL says it is?
+- Question: Is the «ངག་དབང» (ngag dbang) of the Svapnohana's remedy the author of 'Deceiving Death'? (q796; the texts give no short form of his name, claim ngag-dbang-not-found-in-chi-bslu.)
+
+### Searched and not found (RD331)
+
+- «ངག་དབང» and «ངག་དབང་དགོངས» in the Derge volume 28 etext outside svo:p271, and in the first five etext volumes of Mkhyen brtse's collected works (IE0OPIC2BFA6FE, I1KG81113-81117): none (2026-11-10).
+- The Gāyatrī's name «ག་ཡ་ཏྲི» in the Derge etext pp. 239-268 and in CBL vol. 5: none.
+- The Dpe bsdur ma variant notes for 'Deceiving Death' (vol. 14 etext pp. 1359-1362): the OCR is garbled and the note markers are lost; no note could be assigned to its word, and the text of pp. 1335-1336 and 1358 was compared with the Derge instead. The scans of vol. 14 (I1PD95859) are restricted.
+- The scans of CBL (I1KG81117) and of the Derge pages 247-249 and 267-268 (I1344) were not read: every quotation above is the etext's. No Sanskrit or other Tibetan translation of 'Deceiving Death' and no catalogue note on the origin of its dream verses was looked for beyond BDRC's records of Vāgīśvarakīrti (P8946, claim svo-ngag-dbang-bdrc-records).
+- Steinert's dictionaries (locate.py dict) were not consulted for «ངག་དབང»: the 4.5 GB clone is not on the machine.
+

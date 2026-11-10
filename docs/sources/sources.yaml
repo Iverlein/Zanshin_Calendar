@@ -693,6 +693,16 @@ cbl:
   role: source
   notes: "RD320 (2026-11-10): the etext (volume VEIE0OPIC2BFA6FE_I1KG81117) read at the dream verses 19-20, etext pp. 236-238; the etext runs the root verses and the gloss together; the volume is at BDRC the fifth of 25; IE3PD1002 answers 404, the volume's own IE is IE0OPIC2BFA6FE"
 
+cbs:
+  title: "'Chi ba bslu ba'i man ngag (Mṛtyuvañcanopadeśa as the Derge etext gives it; Deceiving Death) in the Derge Tengyur"
+  author: "Slob dpon Ngag gi dbang phyug grags pa (Vāgīśvarakīrti per BDRC P8946), translated by the Indian abbot Dīpaṃkaraśrījñāna and the lotsāba Rin chen bzang po"
+  edition: "Derge Tengyur, Delhi Karmapae Choedhey reprint of the Sde dge blocks, 1982-1985, vol. 28, pp. 238 l. 1 - 268 l. 3; the Dpe bsdur ma etext (W1PD95844 vol. 14, etext pp. 1335-1362) beside it"
+  bdrc: {work: MW23703_1749, etext: VE23703_1344, scans: [I1344]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD331 (2026-11-10): etext of VE23703_1344 (the same volume as svo); the work stands before the Svapnohana, four chapters, the dream verses at the end of ch. 1 (pp. 247-249), the colophon of ch. 4 on p. 268 lines 1-3; the line above its title (Te phu pa and Rma ban Chos 'bar, translators) closes the work before it; the etext prints a chunk twice at the page ends. Dpe bsdur ma: vol. 14 etext id VEIE0OPIA3E40644_I1PD95859 (OCR, noisy, the apparatus of pp. 1359-1362 garbled)"
+
 rgd:
   title: "Spyan ras gzigs dang 'Jam dpal gyi sgo nas tshe tshad dang rmi lam brtag pa Rat+na gling pa'i gter ma (the examination of the lifespan and of dreams through Avalokiteśvara and Mañjuśrī, a treasure of Ratna gling pa)"
   author: "the treasure of Rat+na gling pa"
