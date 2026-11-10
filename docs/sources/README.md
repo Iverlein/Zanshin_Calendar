@@ -2018,6 +2018,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0997.md](questions/q0997.md) | question q997 | Is the Brahmavaivarta's v. 2 of Kṛṣṇajanmakhaṇḍa 73 «tathaiva» or «tatraiva» in the manuscripts of the Kṛṣṇajanmakhaṇḍa? | open; cites bvp:p660 |
 | [questions/q0998.md](questions/q0998.md) | question q998 | Do Svapnādhyāya copies older than the 18th century, if any exist, read a month, half a month or three fortnights for the fourth watch? | open; cites pn1871:i4 |
 | [questions/q0999.md](questions/q0999.md) | question q999 | What are the last words of Item 687's marginal line «yāme caturthe māsaikaṃ …» (Penn Ms. Coll. first leaf), and is the month a corrector's own wording or taken from another manuscript? | open; cites pn1871:i4 |
+| [questions/q1000.md](questions/q1000.md) | question q1000 | The 雑書夢合 / 三世相小鑑 (Koizumi DIG-ORMK-02344, image 27) and the 清明秘鈔夢判事 (image 34) each carry a table of day branches in seal-script heads with a cell of cursive under each; read the cells letter by letter at 3000 px: is each cell the charm for a bad dream seen on that day, the same in both books, and does either carry the days on which a dream is not told? | open; cites mdz:i2533938 |
+| [questions/q1001.md](questions/q1001.md) | question q1001 | Does the 東都歳事記 (1838) entry for the second day of the first month (the canvases after 16 of the Ochanomizu copy, DIG-OCHA-00706, or the Hiroshima, Tsukuba or Kokubunken copies) name the 初夢, and does the 歳時記栞草's source 紀事 fix the night at New Year's Eve? | open; cites mdz:i2533938 |
+| [questions/q1002.md](questions/q1002.md) | question q1002 | Do the 東都歳事記's and the 歳時記栞草's wordings of the 初夢 entry, and the 江戸歳事記 reprints of the 1890s, all keep the eve-to-dawn night, and from which year does a 2 January night appear in print? | open; cites mdz:i2533938 |
 
 <!-- end pool index -->
 
