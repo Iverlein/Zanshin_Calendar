@@ -1307,6 +1307,29 @@ What differs between the editors' Peking and the eye reading is therefore one pl
 - The Mchog dga' outside KD vol. 3: BDRC has its dbu can print as the National Library of Mongolia copy (MW1NLM5184, the PL of README.md; scans open); its folio of the chapter 9 passage was not looked for.
 - A planet–nāga pair (Mtha' yas, Nor rgyas and the rest) in the Mchog dga's pages on the half-watches (etext pp. 448–455): none; «མཐའ་ཡས», «ནོར་རྒྱས», «དུང་སྐྱོང» do not occur there.
 
+## <a id="svo-p271a"></a>svo:p271a The Svapnohana's spellings on the prints at full size: the Peking title and Gāyatrī, the Narthang Gāyatrī, the etext witnesses (RD353)
+
+*Read: scan, 2026-11-10.*
+
+> > Peking, W1KG13126 vol. 28, I1KG13197, the Svapnohana, img. 315 line 1 (x about 1050–2200 of 5384, 4–7× crops), the title, as the five stacks read after «རྒྱ་གར་སྐད་དུ།»:
+> > སྭ་[པྣ/བྣ]་ཨུ་ཧཱ་ནཱ། བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ།
+> > (Yigdzin-1, 1.5× on the title line, through the slot: «། རྒྱ་གར་སྐད་དུ། སྭབྣ་ཨུ་ཧཱ་ནཱ། བོད་སྐད་དུ། རྨི་ལམ་བ་…», the line cut at «བ».)
+> >
+> > Peking, I1KG13197 img. 318 line 4 (x about 880–1450, 4×), the Gāyatrī:
+> > ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །
+> >
+> > Narthang manuscript, I2KG212312 img. 287 (printed p. 285) line 2 (x about 2040–2300 of 3000, 7×), the Gāyatrī:
+> > ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །
+> >
+> > BDRC exact-phrase searches of 2026-11-10, the etext witnesses (snippets, EWTS of the machine text):
+> > Narthang etext (MW2KG5015_1416, «rmi lam brtag pa», poor quality): thun gnyis zla ba brgyad pa l/ … thun bzhi zla ba phyed bar du/ … bgrod min la zhugs shis pa'o
+> > Derge etext (MW23703_1749): ཐུན་གཉིས་ཟླ་བ་བརྒྱད་བར་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར། །ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ། །
+> > Dpe bsdur ma etext (I1PD95859): rmi lam rnams na bgrod min la zhugs shis pa'o; rta bla mo dang lto 'phye dang; ga ya tri ni stong phrag bzlas
+> > Padma rdo rje 2002 (MW25126): thun gnyis zla ba brgyad bar la; thun bzhi zla ba phyed bar du; 'gron bu glang dang ba rnams dang; rta bla mo dang lto 'phye dang
+
+The title: after "In the Indian language" the Peking carries five stacks, the first read «སྭ» (sva), the third «ཨུ» (u), the second a boxy head over a subjoined ན (ྣ), the fourth and fifth read «ཧཱ» and «ནཱ» by Yigdzin-1 only (the eye sees two further stacks, not told apart letter by letter); then "In the Tibetan language: Examining dreams (rmi lam brtag pa)". The Gāyatrī: "the Gāyatrī (ga ya tri) recited a thousand times"; the three-syllable name on both prints.
+The etext witnesses: the Narthang etext (machine text, poor quality: «brgyad pal») has the fourth watch «ཕྱེད་བར་དུ» and the second watch's «བརྒྱད་པ་ལ» (as the Narthang manuscript on the scan); the Derge etext, the Dpe bsdur ma etext and the two modern books have «བར» at the second watch, «བགྲོད་མིན», «འགྲོན་བུ», «རྟ་བླ་མོ» and the three-syllable «ག་ཡ་ཏྲི».
+
 ## <a id="svo-i626"></a>svo:i626 The Mchog dga' on the half-watch dbyu gu of 56¼ chu srang, the dbu can print img. 626 (RD341)
 
 *Read: machine, 2026-11-10.*
@@ -1330,7 +1353,34 @@ Machine reading (Yigdzin-1) of the first three lines of img. 626 of the National
 
 ## The Svapnohana's spellings on the prints at full size (q834, q864, q870, q873, q874, q889, q890, q813, q814, q825): the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ/པར་བྱ», «བརྒྱད་པ་ལ/བརྒྱད་བར་ལ», «བགྲོད་མིན/བཟློག་མིན», «འགྲོན་བུ», the Gāyatrī's «ཏྲི/ཏྲེ», «བླ་མོ/ལ་མོ», the Sanskrit title's stacks on the Peking (img. 315 l. 1) and the Co ne prints (RD353)
 
-Nothing read yet: RD353's passages, with the English beside them, go here.
+*Read: scan for the Peking and Narthang places and the Co ne tries, search snippets for the etexts, 2026-11-10 (RD353); passage svo:p271a above.*
+
+**The row's Peking image group is the wrong volume.** I1KG13215 is the Peking vol. 46 (the Svapnekṣā, RD327); its img. 315 is a page of mantras, not the Svapnohana. The Svapnohana on the Peking is I1KG13197 (vol. 28) img. 315–318, and the title stands in img. 315 line 1.
+
+*The Co ne (q864, q870, q873; I1GS66059 img. 270, 272, 273).* The BDRC frame was fetched again: the image service answers `--width 4000` with empty files, and the plain fetch is byte for byte the scan already in the cache (2055 × 486 px, bitonal), so there is no sharper Co ne scan. Line 3–4 of img. 270 (the three watch lines) and line 6 end («བགྲོད་/བཟློག་མིན»), line 7 («འགྲོན་བུ/དུ») were cut at 3–7×, deskewed by −0.75° and blurred 1.2–2 px with a contrast stretch: the strokes are broken into dots, the stretch of the fourth-watch line shows its bar-separated segments and the stack «ཐུན» and nothing else, and the end of line 6 and line 7 show rules and specks without letters. No letter of the five doubtful words was told apart; RD276's votes stand unchanged. Nothing was added by Yigdzin-1 beyond RD276 and RD311's sixteen runs.
+
+*The fourth watch's ending (q870, q873).* No witness anywhere on BDRC reads «པར་དུ» or «པར་བྱ»: the exact phrases «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་དུ», «ཐུན་བཞི་ཟླ་ཕྱེད་པར་དུ» and «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་བྱ» give no hit in any etext, while «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» gives eight: the Derge etext (twice, MW23703_1748 and 1749, the verse stands under both works), four Narthang etext pages (MW2KG5015_1400–1402 and 1416, the same page of the manuscript's etext filed under neighbouring works), Bya mdo Klu byams rgyal and Padma rdo rje. «པར་བྱ» is thus the machine's reading of the Co ne (Yigdzin-1 1.5×) and no printed or etext witness has it; the Co ne's own ending stays unseen.
+
+*The second watch's first segment (q874).* «ཟླ་བ་བརྒྱད་བར་ལ» stands in four texts: the Derge etext (twice), Bya mdo and Padma rdo rje; the Narthang etext (machine text, poor) reads «brgyad pal», that is «བརྒྱད་པ་ལ», as the Narthang manuscript does on the scan (RD280) and the Peking (RD327); the Dpe bsdur ma's notes record Peking and Narthang «པ» against the base (RD323). So «པ་ལ» is the two Narthang witnesses' and the Peking's, «བར་ལ» the Derge etext's and the modern books' (which quote the Derge); which is older is not told by any witness, and the Co ne's is not seen. The Derge scan's 8 px letters were not cut again.
+
+*The Peking title (q834, q890).* After «རྒྱ་གར་སྐད་དུ།» five stacks, read at 4–7× on I1KG13197 img. 315 line 1: the first «སྭ» (ས over the hooked ཝ), the second a head like a box with horizontal strokes over a subjoined ན-like foot (the same box as the པ of «བརྟག་པ» and the བ before it on the line, so པ and བ are not told apart), the third «ཨུ» (clear), then two more stacks. Yigdzin-1 on the title line gives «སྭབྣ་ཨུ་ཧཱ་ནཱ», the same as its reading of the Narthang strip (RD289): so the two prints agree on the machine's text, the second stack's first letter (པ or བ) is not settled by the eye, and no other letter than «བྣ/པྣ» fits the box. The word is then «sva-pna/bna u-hā-nā» with the vowel signs as the machine reads them; that the first two stacks and «ཨུ་ཧ» spell svapna and uha («svapnoha»-like) is a reading of the letters, not of a source. Whether the Sanskrit is svapnoha or svapnoddhāra stays open; no «ད» or «ཌ» stack of «uddhāra» was seen.
+
+*The Gāyatrī (q889).* On the Peking (I1KG13197 img. 318 line 4) the word is three syllables ག, ཡ and a stack «ཏྲ» with a vowel sign above it that is a curved hook, the same form as the ི of «ནི» after it; on the Narthang manuscript (img. 287 line 2) the sign above «ཏྲ» is a curved hook with a loop, and the ེ of «དེ» in the same line is a long straight stroke leaning from the upper left, not this shape. So «ཏྲི» on both, moderately; Yigdzin-1's «ཏྲེ» on the Narthang strip is not supported. The word is three syllables «ག་ཡ་ཏྲི» also in the Derge etext, the Dpe bsdur ma etext (search: «ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས», three hits) and, by RD276, not in the Co ne's two-syllable «གས་ཏྲི». The three syllables ga ya tri carry the consonants of gāyatrī; the long ā of the Sanskrit is not marked in the spelling.
+
+*The other places (q813, q814, q825).* No new letter: the Peking, Derge, Narthang manuscript and, in the etexts, the Narthang etext, the Dpe bsdur ma etext and Padma rdo rje read «བགྲོད་མིན་ལ་ཞུགས» (search, 8 hits; «བཟློག་མིན་ལ་ཞུགས» no hit), «འགྲོན་བུ་གླང་དང་བ» (the Derge etext, Padma rdo rje; no «འགྲོན་དུ་…» was searched for the Co ne's sake, since no etext holds it) and «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ» (the Derge and Dpe bsdur ma etexts and Padma rdo rje; «རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ» no hit anywhere, so the plain-ལ spelling is known only from the Peking and Narthang scans read by eye). Padma rdo rje's book, which quotes the Derge, reads «bgrod min» and «rta bla mo» too. The sense of «བགྲོད་མིན» (q813) and the meaning of «བཅུ་ཡི་བར» (q814) are not touched by any of these; «རྟ་བླ་མོ» as the centipede (q825) stands on RD271's note and on no new reading.
+
+### Open (RD353)
+
+- Question: on the Co ne print the second stack of the Svapnohana's Sanskrit title, the end of the fourth watch's line («བར་དུ» as in every other witness, or «པར་དུ»/«པར་བྱ» as the machine reads), and the five words of q864 can be read only from a Co ne image sharper than BDRC's bitonal 2055 px frame; does a reader who holds the Co ne volume (rgyud sha, vol. 28, 133b3–135a3) read them?
+- Question: the Svapnohana's title stands as «སྭ…ཨུ་ཧཱ་ནཱ» on the Peking and the Narthang with a box-headed second stack («པྣ» or «བྣ»); is the Sanskrit svapnoha or svapnoddhāra, and does a Sanskritist know the work under a name that fixes the stack?
+
+### Searched and not found (RD353)
+
+- A Co ne image sharper than the bitonal 2055 px frame: BDRC's service answers `--width 4000` with empty files; the full-size fetch is the cached scan.
+- The Co ne's letters at 3–7× after deskew, blur and contrast stretch (img. 270 lines 3–7): no letter told apart; the fourth-watch line, line 6's end and line 7 stay machine readings.
+- «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་དུ», «ཐུན་བཞི་ཟླ་ཕྱེད་པར་དུ», «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་བྱ», «བཟློག་མིན་ལ་ཞུགས», «རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ»: no hit in BDRC's full-text search (2026-11-10).
+- The second and third letters of the Narthang manuscript's title stacks (img. 284 line 2, 7×): not told apart again; the ring-headed stack after the first is not decided between «ཨ» and a stack of the same ring.
+- The Derge frames' letters (8 px, I1344 img. 268, 270) were not cut again for པ/བ at the second watch: not resolvable at that size.
 
 
 ## The Sanskrit side of the dream texts (q866, q868, q869, q871): the Brahmavaivarta's dream chapter and its date against the Svapnohana's translation of about 1200, the puṇyakāṇḍa of the Kāṇva branch, Bṛhaspati's Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's edition) on the three fortnights and the month of the fourth watch (RD357)

@@ -749,6 +749,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-dpe-watch-line-entries.md](claims/svo-dpe-watch-line-entries.md) | claim, note | The Dpe bsdur ma's notes at the Svapnohana's watch lines | cites svo:p271u; feeds RD323 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
 | [claims/svo-four-watches-three-reckonings-beside-it.md](claims/svo-four-watches-three-reckonings-beside-it.md) | claim, note | RD314: the Svapnohana's four watches are unbounded; the two four-watch reckonings agree on quarters of the night | cites svo:p268, svo:p271o, svo:p271p; feeds block-73 |
+| [claims/svo-fourth-watch-line-only-bar-du-in-etexts.md](claims/svo-fourth-watch-line-only-bar-du-in-etexts.md) | claim, note | The fourth-watch line of the Svapnohana is «བར་དུ» in every etext; «པར་དུ» and «པར་བྱ» are machine readings of the Co ne alone | cites svo:p271a, svo:p271g, svo:p271h; feeds — |
 | [claims/svo-gayatri-spelling.md](claims/svo-gayatri-spelling.md) | claim, note | The Gayatri's name in the Svapnohana is ga ya tri in Peking | cites svo:p271b, svo:p271; feeds RD228 |
 | [claims/svo-images-fortunate.md](claims/svo-images-fortunate.md) | claim, list | The Svapnohana's fortunate images and their verdicts | cites svo:p268, svo:p269, svo:p270, svo:p271; feeds block-73 |
 | [claims/svo-images-unfortunate.md](claims/svo-images-unfortunate.md) | claim, list | The Svapnohana's unfortunate images and their verdicts | cites svo:p269, svo:p270, svo:p271; feeds block-73 |
@@ -1200,8 +1201,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 24 passages: 10 scan, 6 machine, 8 etext |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 37 passages: 11 scan, 7 machine, 19 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 11 passages: 5 scan, 4 machine, 2 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 39 passages: 13 scan, 7 machine, 19 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
