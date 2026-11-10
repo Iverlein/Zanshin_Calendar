@@ -76,3 +76,13 @@ Question: Is «པདྨ་དཀར» at the end of the second text (p. 55) the
 
 - BDRC full-text search for «རྨི་ལམ་བརྟགས་པའི་ལེའུ» and «རྨི་ལམ་བརྟག་པ་པདྨ་དཀར»: no hit; for «རྨི་ལམ་བརྟག་པའི་ལེའུ»: only the sixth chapter of the Nyingma Man ngag rin chen nyi ma'i sgron ma (Rin chen gter mdzod, VE1KG14_019) and an unrelated NLM manuscript.
 - BDRC's record of the first text has no author field.
+
+
+## The short dream manuals on the scan: KCM, SKP and DTD, the time phrase of KCM, RBG and RRT (RD219)
+
+Nothing read yet: RD219's passages, with the English beside them, go here.
+
+
+## The names and authors in the short dream manuals and rites, from the BDRC catalogue and the collected works: the Sakya Paṇḍita attribution of SKP's first text and its colophon (q803, q882), «པདྨ་དཀར» at the end of SKP's second text and the 'third of Vairocana' (q802, q883), «Dpal rno bkra» and «ma mar mo»/«dmar mo» in GNC (q795, q880, q881), the monk Sgra tshad pa whose notes close MDP's rebirth-seeing rite (q877), and the TDR printed p. 343 boundary and the section «gsum» (q793, q878, q879) (RD315)
+
+Nothing read yet: RD315's passages, with the English beside them, go here.
