@@ -9,6 +9,9 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD305 (2026-11-10): the Peking print I1KG13197 img. 315 line 5 and img. 317 lines 3 and 5 by eye at 2.5–5× («བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ» with a plain ལ); the row's Derge group I00JW501163 is the Four Tantras; see svo:p271k.
 
+Read by RD305 (2026-11-10): SVO on the Peking print I1KG13197 img. 315 and 317.
+
+
 Read by RD289 (2026-11-10): the Narthang manuscript I2KG212312 img. 284–287 (printed pp. 282–285) by Yigdzin-1 and by eye at 4–8×: «བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ», the Gāyatrī, the Sanskrit title; see svo:p271i.
 
 Read by RD277 (2026-11-09): Penn Ms. Coll. 390 items 1871, 673, 2730, 687, the Peerzada volume (Srinagar), Ramtek M 856, the Odia print of 1929.

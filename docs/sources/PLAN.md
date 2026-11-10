@@ -1915,3 +1915,6 @@ Searched and found wanting, so not to be repeated:
 - **RD306** (RD306, 2026-11-10):
   - The Peking bird line: img. 311 lines 4–5 were cropped at 1–1.5× in two halves and the line was not found among the eight lines; not located, so not read.
   - BDRC full-text search for the sign in the Tibetan commentaries and the Indian sources was not run; the Derge, Co ne and Narthang places were not reread.
+- **RD305** (RD305, 2026-11-10):
+  - The Derge print of the Svapnohana in the image group I00JW501163 named by the row: that group is the Derge Four Tantras; the Derge Tengyur frames are in I1344 img. 268–271, letters of 8 px.
+  - A syllable of «བགྲོད་མིན» and of «བཅུ་ཡི་བར» that differs on the Peking: none seen at 2.5–4×.
