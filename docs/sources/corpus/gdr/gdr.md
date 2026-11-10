@@ -9,6 +9,14 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD328 (2026-11-10): W1NLM9044 img. 250–266 (part 30 img. 252–263), W1NLM9419 img. 149–160 (part 7 img. 151–157), GDM img. 90 and 113–116.
 
+## <a id="gdr-i37"></a>gdr:i37 The colophon of the first text of the volume W1NLM9419: the Tibetan temple of Peking in the reign of the Mañjuśrī emperor
+
+*Read: machine, 2026-11-10.*
+
+> འཇམ་དབྱངས་གོང་མའི་རྒྱལ་ཁབས་པེ་ཅིང་གི་བོད་ཆོས་ལྷ་ཁང་དུ་རྫོགས་པར་སྦྱར་བའི་ཡི་གེ་པ་ནི་སྡེ་སྣོད་རབ་འབྱམས་ལ་རྣམ་དཔྱོད་ཡངས་པའི་སྡོམ་རྩོན་རབ་འབྱམས་སྨྲ་བ་བློ་བཟང་ཉི་མའོ། །
+
+The colophon of the first text of the volume W1NLM9419 (printed pages 1-37, 19 folios; the last words of it, img. 37, in the machine reading; the catalogue's transcription of BDRC for the whole colophon agrees with it in these words): the text was completed in the Tibetan Dharma temple of Peking, in the reign of the 'Jam dbyangs emperor (the title of the Qing emperors, Mañjuśrī), by Ngag dbang blo bzang chos ldan, a young monk from the far north, at the request of the monk Blo bzang chos grags; the scribe is Blo bzang nyi ma. No year is given.
+
 ## <a id="gdr-i151-157"></a>gdr:i151-157 The dream verses in the copy W1NLM9419 part 7: the thirds of the night, the dawn line, the donkey, the close without author
 
 *Read: machine.*

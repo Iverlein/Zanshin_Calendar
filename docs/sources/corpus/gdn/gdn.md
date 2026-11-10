@@ -9,6 +9,14 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD328 (2026-11-10): W1NLM9044 img. 250–266 (part 30 img. 252–263), W1NLM9419 img. 149–160 (part 7 img. 151–157), GDM img. 90 and 113–116.
 
+## <a id="gdn-i175"></a>gdn:i175 The colophon of the 10th text of the volume W1NLM9044: the only dated text, an ox year of the Srid gsal era
+
+*Read: machine, 2026-11-10.*
+
+> ཞེས་དམ་ཅན་མཆོད་འཕྲེང་དཔའ་བོའི་ཡིད་འཕྲོག་ཞེས་བྱ་བ་འདིའི་སྔ་མོ་ནས་རང་གིས་བརྩོམ་བདུན་ཡོད་ཐོག་ཉེ་ལམ་འདི་ལྟ་བརྩོམ་ཞིག་ཡར་ཆོས་སྐྱོང་རང་གིས་བཀའ་གནང་དང་དུ་བླང་སྟེ། གཞན་བསྐུལ་བ་པོ་འགའ་ཞིག་གིས་ཀྱང་འཚམ་སྦྱར་ཏེ་སྔགས་སྨྱོན་པདྨ་འོད་ཟེར་གྱིས་སྲིད་གསལ་གྱི་ཁྲི་ལོ་དགུ་པ་གླང་ལོའི་ས་ག་ཟླ་བའི་ཚེས་བཅོ་ལྔའི་ཉིན་གང་དྲན་ཐོལ་འབྱུང་དུ་བྲིས་པ་སརྦ་སིདྡྷི་ཛཱ་ཡནྟུ། །
+
+The colophon of the 10th text of the volume W1NLM9044 (the garland of offerings to the oath-bound protector, 'the heart-ravisher of heroes'; printed pages 165-176, here img. 175, machine reading, the catalogue's Wylie agrees): the mantra-madman (sngags smyon) Padma 'od zer wrote it down as it came to mind, on the fifteenth day of the month of Sa ga of the ox year, the ninth year of the 'Srid gsal' (a reign or era name, here the only date in the volume; not identified).
+
 ## <a id="gdn-i252-254"></a>gdn:i252-254 The dream verses in the copy W1NLM9044 part 30: the thirds of the night written with a numeral, the dawn line, the unsaddled donkey
 
 *Read: machine.*

@@ -7,6 +7,14 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+## <a id="gdm-i82"></a>gdm:i82 The colophon of the Mi skar text in the volume of the Dga' ldan Byang rtse manuscript (the dream text's volume)
+
+*Read: machine, 2026-11-10.*
+
+> ཞེས་མི་སྐར་ལྔ་ཆེན་ལ་མཆོད་གཏོར་འབུལ་བར་བྱེད། ཚུལ་སྟོབས་འབྱོར་དབང་བསྐྱེད་འདི་ནི་ཚེ་བདག་ཟབ། མན་ངག་སྲིད་པའི་གཏེར་ཁྲིམས་སོགས་ནས་ཀྱང་ཞིབ་མོར་དཔྱད་དེ་ས་ཆེན་ཞྭ་ནག་པ་རིག་འཛིན་རྡོ་རྗེ་རྩལ་གྱི་མི་སྐར་གསོལ་གྱི་ངག་འདོན་དུ། དགེ་ཆེན་ཞྭ་སེར་བསྟན་པའི་སློང་བློ་བཟང་འཇིགས་མེད་རྒྱལ་མཚན་གྱིས་ལོ་ཆེན་ཟླ་རི་པའི་ཡར་ངོ་ལ་སྦྱར་བའི་ཡི་གེ་པ་ནི་རྙིང་ཆེན་ཞྭ་དམར་པོའི་རིགས་བློ་བཟང་ཀརྨ་བཀྲ་ཤིས་བྲིས་པའི་དགེ་ལེགས་འཕེལ།
+
+The colophon of the 2nd text of the volume W1NLM3822 (the Dga' ldan Byang rtse volume; printed pages 65-82, here img. 82, machine reading, the catalogue's Wylie agrees): the offering and torma to the five great Mi skar was put together by the Yellow-Hat virtuous teacher Blo bzang 'jigs med rgyal mtshan on the waxing half of a month, 'of the great translator Zla ri pa' (the phrase is the catalogue's too, and its sense unsettled); the scribe is Blo bzang karma bkra shis of the Red-Hat family. No year is given.
+
 ## <a id="gdm-i88-93"></a>gdm:i88-93 The dream verses of the Chöd-titled manuscript: the thirds of the night, the good and bad images, whose display each is, the dreams of death (the verses RST and KBS give)
 
 *Read: machine, 2026-11-10.*
@@ -94,3 +102,28 @@ Question: the unsaddled donkey is «སྒ་མེད» in KBS, RST, WB and (by
 - A date or an author in GDM and GDR: none; GDM's ending is lost (img. 113), GDR ends with «འཆི་ལྟས་རྫོགས་སོ» (img. 157) and an empty leaf.
 - A name for the writer of GDN's second colophon on the scan: only «མཁན་པོས་བྲིས་པའོ» is plain.
 - The Garga part of GDM past img. 95: not read beyond the machine reading of RD324; GDN and GDR were read for the dream part, the death omens' beginning and the colophons only.
+
+## <a id="gdm-i135"></a>gdm:i135 The colophon of the text after the dream text in its volume: Ngag dbang bkra shis's words as notes
+
+*Read: machine, 2026-11-10.*
+
+> ཅེས་པ་འདི་ནི་ཁམས་གསུམ་ཆོས་ཀྱི་རྒྱལ་པོ་སྙིགས་དུས་བསྟན་པའི་སྲོག་ཤིང་ཀུན་མཁྱེན་ངག་དབང་བཀྲ་ཤིས་པས་ཚིག་བཞག་དུ་གནང་བ་བདག་གིས་ཟིན་བྲིས་སུ་བགྱིས་པས་བཀྲ་ཤིས་པར་གྱུར་ཅིག །དགེའོ། །
+
+The colophon of the 5th text of the volume W1NLM3822, the text that follows the dream text (printed pages 114-135, here img. 135, machine reading, the catalogue's Wylie agrees): this was made as notes by the writer from the words that the omniscient Ngag dbang bkra shis, the 'king of the dharma of the three realms, the life-pole of the teaching in the age of strife', gave. No year is given.
+
+## RD334: the age of the text
+
+Read by RD334 (2026-11-10): BDRC's records of the three volumes, of their parts and of the quoting books (catalogue Wylie, 2026-11-10), and the colophon images of neighbouring texts by Yigdzin-1 through the slot (gdm:i82, gdm:i135, gdr:i37, gdn:i175; machine, the catalogue's own transcription agreeing; not read by eye, the hands being cursive at the scale of the page). The facts are in [the claim](../../claims/mongolian-volumes-undated-qing-peking-colophon-and-the-colophon-senses.md): no volume is dated by its record; GDR's volume holds a Qing-period text (Peking, the «འཇམ་དབྱངས» emperor); GDN's volume holds one text dated in an ox year of the era «སྲིད་གསལ», unidentified; GDM's neighbours have names and no years; the quoting books are prints of 1993-2012; Klong rdol bla ma's «བྲིས་པའོ» can mean composed, compiled or copied, not owned.
+
+## Open (RD334)
+
+Question: which reign or era is «སྲིད་གསལ» in the dated colophon of the 10th text of W1NLM9044 (the ninth year, an ox year, fifteenth of the month Sa ga), and who is the mantra-madman Padma 'od zer?
+
+Question: is the writer of the copies, Blo bzang karma bkra shis of the Red-Hat family (GDM's volume, 2nd text) or Blo bzang nyi ma (GDR's volume), the same hand as the dream text's, and can a reader of Mongolian manuscript hands date the three volumes by paper and hand?
+
+## Searched and not found (RD334)
+
+- A date in any record of the three volumes or of their parts on BDRC (records read as JSON, 2026-11-10): none.
+- BDRC exact-phrase search «སྲིད་གསལ་གྱི་ཁྲི་ལོ» and «སྔགས་སྨྱོན་པདྨ་འོད་ཟེར»: 0 hits each.
+- BDRC persons for Dkon mchog bstan pa'i sgron me by the name autosuggest: no person record with dates found.
+- The colophons of GDM's 3rd text (img. 85-86) and of the parts of GDR's volume other than the 1st and 8th were not read on the scan.

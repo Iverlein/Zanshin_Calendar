@@ -593,6 +593,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-start-phugpa.md](claims/moment-trigram-start-phugpa.md) | claim, rule | The moment's trigram starts as the Phugpa practice has it, not the General Tantra's halves of the year | cites ys.2:i016-017, wb.2:p535-537, wb.2:p161-162; feeds block-31 |
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
+| [claims/mongolian-volumes-undated-qing-peking-colophon-and-the-colophon-senses.md](claims/mongolian-volumes-undated-qing-peking-colophon-and-the-colophon-senses.md) | claim, note | No volume of the dream text's Mongolian copies carries a date; one text of GDR's volume is Qing; the quoting books are modern; the senses of Klong rdol's colophon | cites gdm:i82, gdm:i135, gdr:i37, gdn:i175; feeds S1 |
 | [claims/mvy-thun-gsum-pa-third-of-five-watches.md](claims/mvy-thun-gsum-pa-third-of-five-watches.md) | claim, note | The Mahāvyutpatti's thun gsum pa is the third of five watches of the night (RD322) | cites svo:p271q; feeds block-73 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/neg-acaramayukha-quotes-month-series.md](claims/neg-acaramayukha-quotes-month-series.md) | claim, note | Nīlakaṇṭha's Ācāramayūkha quotes a Svapnādhyāya with a month for the fourth watch (RD317) | cites neg:p14-16, neg:p32; feeds block-73 |
@@ -1126,9 +1127,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
 | [corpus/ezs/ezs.md](corpus/ezs/ezs.md) | corpus | 永代大雑書 | 3 passages: 3 machine |
-| [corpus/gdm/gdm.md](corpus/gdm/gdm.md) | corpus | GDM | 1 passages: 1 machine |
-| [corpus/gdn/gdn.md](corpus/gdn/gdn.md) | corpus | The copy of the dream text in W1NLM9044 | 2 passages: 2 machine |
-| [corpus/gdr/gdr.md](corpus/gdr/gdr.md) | corpus | The copy of the dream text in W1NLM9419 | 1 passages: 1 machine |
+| [corpus/gdm/gdm.md](corpus/gdm/gdm.md) | corpus | GDM | 3 passages: 3 machine |
+| [corpus/gdn/gdn.md](corpus/gdn/gdn.md) | corpus | The copy of the dream text in W1NLM9044 | 3 passages: 3 machine |
+| [corpus/gdr/gdr.md](corpus/gdr/gdr.md) | corpus | The copy of the dream text in W1NLM9419 | 2 passages: 2 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 4 passages: 1 scan, 3 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 1 passages: 1 etext |
