@@ -1971,6 +1971,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0977.md](questions/q0977.md) | question q977 | Are WB's eight watches on p. 403 («ཉིན་མཚན་ཐུན་བརྒྱད») eight of the day and night together, or eight of the day with a further eight of the night? Its division line reads «ཉིན་ཚད», its first line «ཉིན་མཚན». | open; cites wb.2:p403c |
 | [questions/q0978.md](questions/q0978.md) | question q978 | On p. 375, the summer's first stretch «དབྱར་གསུམ་ཉི་གོང[?]་ནམ་ཕྱེད་བར»: is the second word «ཉི་གོང» as Yigdzin-1 has it, or «ཉི་ནུབ» as in spring and autumn? | open; cites wb.1:p375 |
 | [questions/q0979.md](questions/q0979.md) | question q979 | On p. 403, line 5, «མིག་དམར་འཇོག[?]»: is the last letter ཇ (the earlier passages) or ཛ (Yigdzin-1)? | open; cites wb.2:p403c |
+| [questions/q0980.md](questions/q0980.md) | question q980 | Which reign or era is «སྲིད་གསལ» in the dated colophon of the 10th text of W1NLM9044 (the ninth year, an ox year, fifteenth of the month Sa ga), and who is the mantra-madman Padma 'od zer? | open; cites gdn:i175 |
+| [questions/q0981.md](questions/q0981.md) | question q981 | Is the writer of the copies, Blo bzang karma bkra shis of the Red-Hat family (GDM's volume, 2nd text) or Blo bzang nyi ma (GDR's volume), the same hand as the dream text's, and can a reader of Mongolian manuscript hands date the three volumes by paper and hand? | open; cites gdm:i82, gdr:i37 |
 
 <!-- end pool index -->
 

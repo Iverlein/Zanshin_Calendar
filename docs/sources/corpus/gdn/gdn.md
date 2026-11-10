@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD334 (2026-11-10): BDRC records of W1NLM3822, W1NLM9044, W1NLM9419; I1NLM3822_001 img. 82 and 135, I1NLM9419_001 img. 37, I1NLM9044_001 img. 175.
+
 Read by RD328 (2026-11-10): W1NLM9044 img. 250–266 (part 30 img. 252–263), W1NLM9419 img. 149–160 (part 7 img. 151–157), GDM img. 90 and 113–116.
 
 ## <a id="gdn-i175"></a>gdn:i175 The colophon of the 10th text of the volume W1NLM9044: the only dated text, an ox year of the Srid gsal era
