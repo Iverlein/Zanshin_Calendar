@@ -1827,3 +1827,5 @@ Searched and found wanting, so not to be repeated:
 - **RD280** (RD280, 2026-11-10):
   - W22704 (I3279 img. 286) at 3–4×: the thresholded letters are broken, not readable syllable by syllable; the manuscript replica I2KG212312 is the legible Narthang witness.
   - Co ne SVO (I1GS66059 img. 270 lines 3–4) at 3×: dotted, partly missing ink; no watch-line syllable told apart by eye except the stack «ཐུན་བཞི».
+- **RD282** (RD282, 2026-11-10):
+  - About 90 exact-string searches on BDRC (2026-11-10, EWTS) for the paragraph between char. 18559 and 21346 of Padma rdo rje's book and for the one after char. 25516: forms of «rmi lam brtag pa» with a particle or noun, «bstan 'gyur las rmi lam», the translator and author names, «slob dpon», «lo tsA ba», «ngag dbang gi dgongs pa», «de ltar» and «thun» openings: more than ten hits (none his book) or none. Only the lent scan can settle it.
