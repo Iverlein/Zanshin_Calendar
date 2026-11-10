@@ -1221,7 +1221,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 17 passages: 8 scan, 9 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 17 passages: 10 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 0 passages: nothing read yet |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
@@ -2086,6 +2086,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1025.md](questions/q1025.md) | question q1025 | In the opening of Mipham's notes on WB (wb.2:p474) «དུས་ཁམས» is printed where the sense wants «རུས་ཁམས» (clan element); is it a misprint? | open; cites wb.2:p474 |
 | [questions/q1026.md](questions/q1026.md) | question q1026 | Does the Narthang Tengyur catalogue (I2KG212509, vol. 225) list the Svapnohana anywhere, and where? Images 3-140 and the rest were not read; the entry is absent from the Black Lord run (images 202-206) where the Derge and Jo nang order would put it. | open; cites svo:i197 |
 | [questions/q1027.md](questions/q1027.md) | question q1027 | Are the «two condensed meanings» of the Deceiving Death by Ngag dbang grags pa in the Narthang catalogue (svo:i197) the 360-verse work that stands before the Svapnohana in the Derge? The line names no verse count. | open; cites svo:i197 |
+| [questions/q1028.md](questions/q1028.md) | question q1028 | What do the two groups of day branches in each month of the table of the days a dream is not told mean (the gap or slash before the last group: mdz:p11, mdz:i234427b, the 萬歳大雑書日用寳 image 121)? No print gives a legend. | open; cites mdz:i234427b |
+| [questions/q1029.md](questions/q1029.md) | question q1029 | Do the 嘉永大雑書三世相 prints (Kokubunken 200024108, 300132222) and the 大雜書三世相 copies of Nagoya and Tohoku (100339325, 100445829, 100445244), and the other eleven 三世相小鑑 prints, carry the same leaf? | open; cites mdz:i234427b |
 
 <!-- end pool index -->
 
