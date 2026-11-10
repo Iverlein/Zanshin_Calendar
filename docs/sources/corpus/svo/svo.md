@@ -557,11 +557,40 @@ What «བགྲོད་མིན» limits (q813): the clause stands at the end
 - The Derge print of the Svapnohana in the image group I00JW501163 named by the row: that group is the Derge Four Tantras (ch. 91 and the Root Tantra were searched on it by earlier readings); the Derge Tengyur frames are in I1344 img. 268–271, 8 px letters.
 - A syllable of «བགྲོད་མིན» and of «བཅུ་ཡི་བར» that differs on the Peking: none seen at 2.5–4×.
 
-
 ## The Svapnohana on the Derge Tengyur frames (I1344 img. 268–271, letters of about 8 px, so only enlarged and contrast-stretched crops): «བགྲོད་མིན», «བཅུ་ཡི་བར», «བླ་མོ» and the word after it, on the Derge, to set beside the Peking and Narthang of RD305 and RD289 (q813, q814), and the Co ne print of the same (RD310)
 
-Nothing read yet: RD310's passages, with the English beside them, go here.
+## <a id="svo-p271l"></a>svo:p271l The three doubtful places of the Svapnohana on the Derge print, read by eye (RD310)
 
+*Read: scan, 2026-11-10.*
+
+> Derge Tengyur, I1344 (BDRC), the Svapnohana (the examination of dreams, རྨི་ལམ་བརྟག་པ):
+> 
+> img. 268 line 7 (x about 770–1130 of 1990, 10×):
+> རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །
+> 
+> img. 270 line 3 (x about 1430–1700 of 2027, 12×):
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །དེ་ཡིས་
+> 
+> img. 270 line 5 (x about 1085–1260 of 2027, 11–20×):
+> གཞན་རྣམས་དཀར་པོ་མངོན་པར་དགའ། །རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་།
+
+Three places of the Svapnohana on the Derge print of the Tengyur, read by eye on crops of 10–20 times and with Yigdzin-1 on whole-line crops as a second witness. The Derge frames are small woodblock scans (1990–2050 by 310–330 px for seven lines), the letters 8 px: every reading is moderate at best.
+
+"In dreams, [the clause] 'not walked', entering it is auspicious" (img. 268 line 7); "whoever ... the ten ..., (from) it wealth is certainly got" (img. 270 line 3); "the others, white, are delightful. A horse, bla mo, and the belly-walker" (img. 270 line 5).
+
+Lines are numbered on the ink rows of the page: img. 268 has the colophon of the preceding work on lines 1–3, the Svapnohana title on line 4, and the clause on line 7; img. 270 line 3 holds «ལག་པ་གཡས་པ་བཟུང་བ་ན། །གང་ལ་ཡང་དག་བཅུ་ཡི་བར», line 5 the word after «དགའ། །».
+
+«བགྲོད་མིན» (img. 268 line 7): after «རྨི་ལམ་རྣམས་ན» the stack with ྲ and ོ is བགྲོད (ག with the subjoined ྲ, a ོ over it, final ད), then མིན (མི with its vowel, ན), then ལ, ཞུགས, ཤིས (moderate). Not «བཟློག». Yigdzin-1 on the line crop reads «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ». «བཅུ་ཡི་བར» (img. 270 line 3): བཅུ with the round ུ foot, ཡི with a small vowel over it, བར, then «དེ་ཡིས»: no variant (moderate-high); Yigdzin-1 reads the same. «བླ་མོ» (img. 270 line 5): after «རྟ» the stack has two small loops one above the other (the ཝ-like head and the lower loop), where a plain ལ elsewhere on the same page (img. 270 line 3 «གང་ལ») has one loop and its wedge; so the Derge reads «བླ་མོ» with the subjoined ླ, as the etext (moderate-low; the loops are 2–3 px). Yigdzin-1 reads «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་». The word after «དང་»: a ལ ring over a hook (ྟ) reads «ལྟོ»; ྷ against ྟ not told apart at 18× (doubt, not a variant).
+
+### Open (RD310)
+
+- Question: on the Derge print the word before «ལྟོ་འཕྱེ» (the belly-walker, the snake) reads «བླ་མོ» by the two loops of its stack, against the plain ལ of the Peking and the Narthang prints; is the subjoined ླ a real variant of the Derge tradition (the Derge and the Dpe bsdur ma etext on one side, the Peking and Narthang on the other), and does a reader of the tradition know the word as «རྟ་བླ་མོ» (the centipede) in a list of creatures?
+
+### Searched and not found (RD310)
+
+- The Co ne print of the same three places by eye: the Co ne scans (RD277) were read by machine only and no new Co ne image was taken here; the places stay machine readings there.
+- A variant of «བགྲོད་མིན» or «བཅུ་ཡི་བར» on the Derge frames at 10–12×: none seen; «བཟློག» for «བགྲོད» and «པི» for «ཡི» are not what the strokes show.
+- A telling of ྷ from ྟ in the stack after «དང་» before «འཕྱེ» at 18×: not possible at 8 px letters.
 
 ## The Sanskrit dream texts beside the Svapnohana, from open editions and scans: the Bṛhadyātrā 16.10 (which part of the night and which humour go with which of the three seasons, q855), the Aṅgavijjā chs. 41–42 (the bright beginning and root as forenoon or afternoon, q856, q892), the Bṛhaspati Svapnādhyāya in Negelein's manuscripts and the Penn, Srinagar and Ramtek copies (three fortnights or a month for the fourth watch, q868, q871, q872), and the Aṣṭāṅgahṛdaya Śārīrasthāna 6.63 «gosarge» or «gomuktra» (q891) (RD312)
 
