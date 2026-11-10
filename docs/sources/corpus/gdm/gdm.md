@@ -70,3 +70,27 @@ Whose display (img. 91-92). A lone white man, a white bird soaring, snow mountai
 For the one who meditates (img. 92-93). Finding a book, going in the sky, climbing a tree, reciting verses, debate and questions and eloquence, pleasant gardens, flowers, fruit and leaves, music, a jewelled sword in the hand, fine clothes and ornaments: the sign of one's own practice reaching its mark. Lands and houses never seen, lovely boys and girls smiling and giving flowers, fruit, food and drink: the qualities of realisation, great and small, arising by the gods. A boat made, a bridge built, a vessel found or a lost one found, sun and moon rising, darkness clearing: good for helpers and disciples. Rain from cloud, staying in water, a great flood suddenly falling: things found.
 
 Omens of death in dreams (img. 93). A black woman with the entrails (the machine reads «ཐལ་བ», ashes, where KBS has «བྲལ་བ», parted from), ashes, climbing a mountain to a stupa; a camel facing south, a donkey east, a monkey facing north ridden away; red clothes worn, red flowers, going over a plain, the head bound: dreaming this one dies; drinking beer and dancing with the dead: these are the death omens of the examination of dreams. Then follows the examination of the signs of death by body, speech and mind (not given here).
+
+## RD328: the other two Mongolian copies
+
+Read by RD328 (2026-11-10): the dream text in W1NLM9044 part 30 (img. 252-263, siglum GDN, [gdn.md](../gdn/gdn.md)) and W1NLM9419 part 7 (img. 151-158, siglum GDR, [gdr.md](../gdr/gdr.md)) by Yigdzin-1 through the slot; the lines of the thirds of the night, the dawn third, the unsaddled donkey and the colophons by eye on the scans, enlarged 3x to 5x, each with its image and line (per-line crops at the fraction of the line the machine's offset gives). GDM's donkey line (img. 90 line 5) was read by eye again, and img. 113-116 by the machine: img. 113 carries the library's note "Final pages are missing 14 A", and img. 114 opens the next text (a title leaf), so GDM has no ending.
+
+What the reading found, in the claims:
+
+- [gdm-gdn-gdr-three-copies-the-thirds-and-the-donkey](../../claims/gdm-gdn-gdr-three-copies-the-thirds-and-the-donkey.md): GDR has «སུམ་ཆར» and «ཐོ་རངས་དུས་ཀྱི» like GDM and KBS, without the number in the three parts and the dawn line; GDN writes numerals where the question lies; the donkey is «སྒ» in GDR by eye, «རྒ» in GDM and GDN by the machine, unsettled in the hands;
+- [gdn-colophons-klong-rdol-and-a-second-hand](../../claims/gdn-colophons-klong-rdol-and-a-second-hand.md): GDN ends with Klong rdol bla ma's colophon (the end of the name unsettled) and has a second writer's colophon after the men's marks; GDR and GDM name nobody.
+
+BDRC's page range for the part the catalogue gives to the title in W1NLM9044 (part 9, img. 153-164) is a rite for the king spirit; the text is part 30 (img. 252-263). sources.yaml's note under RST had the wrong part.
+
+## Open (RD328)
+
+Question: the copy in W1NLM9044 part 30 writes the number of the thirds of the night as a numeral and ends with Klong rdol bla ma's colophon and a second writer's («ཅེས་པ་འདི་སྔ་སུམ་པ་མཁན་པོས་བྲིས་པའོ»): who is the writer of the second colophon, and does the numeral stand for «སུམ» or «གསུམ»?
+
+Question: the unsaddled donkey is «སྒ་མེད» in KBS, RST, WB and (by eye) GDR but «རྒ་མེད» in the machine reading of GDM and GDN: is the scribe's letter a ra-head or a sa-head, and does a reader of the hand know the contraction?
+
+## Searched and not found (RD328)
+
+- W1NLM9044 part 9 (MW1NLM9044_O1NLM9044_009, img. 153-164), the part sources.yaml named: a king-spirit rite, not the dream text (colophon by Dkon mchog bstan pa'i nyi ma; BDRC's own record). The dream text is part 30.
+- A date or an author in GDM and GDR: none; GDM's ending is lost (img. 113), GDR ends with «འཆི་ལྟས་རྫོགས་སོ» (img. 157) and an empty leaf.
+- A name for the writer of GDN's second colophon on the scan: only «མཁན་པོས་བྲིས་པའོ» is plain.
+- The Garga part of GDM past img. 95: not read beyond the machine reading of RD324; GDN and GDR were read for the dream part, the death omens' beginning and the colophons only.

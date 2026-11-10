@@ -546,7 +546,7 @@ rst:
   licence: public-domain
   rank: 3
   role: source
-  notes: "etext only (no scans on BDRC); author Klong rdol bla ma Ngag dbang blo bzang (BDRC P22, and the colophon, p. 20); the dream part pp. 3-8, then Garga's omens (KDL's text), men's and women's marks; also a Mongolian National Library manuscript of the same title (MW1NLM9044_O1NLM9044_009) and Rmi ltas brtag thabs (MW1NLM9419_O1NLM9419_007); located 2026-11-09 (q784), read in the etext 2026-11-09 (RD209, RD221)"
+  notes: "etext only (no scans on BDRC); author Klong rdol bla ma Ngag dbang blo bzang (BDRC P22, and the colophon, p. 20); the dream part pp. 3-8, then Garga's omens (KDL's text), men's and women's marks; also a Mongolian National Library manuscript of the same title (MW1NLM9044_O1NLM9044_030, not the _009 an earlier note gave) and Rmi ltas brtag thabs (MW1NLM9419_O1NLM9419_007); located 2026-11-09 (q784), read in the etext 2026-11-09 (RD209, RD221)"
 
 gdm:
   title: "Ma gcig zab mo gcod kyi dmigs 'bum las gsungs pa mtshan lam gyi 'bras bu bzang ngan kun gyi rnam dbye (the sorting of all the fruits, good and bad, of night dreams, as taught in the Mother's profound Chöd visualisation collection)"
@@ -556,6 +556,24 @@ gdm:
   rank: 3
   role: source
   notes: "no author named in the part that survives; the same verses as RST, which names Klong rdol bla ma; locator = BDRC image number (title leaf img. 87); located 2026-11-10 (RD324) by BDRC's exact-phrase search on the title's words"
+
+gdn:
+  title: "Rmi ltas sna tshogs brtag thabs bzhugs so (a method of examining the various dream signs, the copy of the Mongolian National Library volume W1NLM9044)"
+  edition: "Mongolian National Library manuscript (dbu med), part 30 of W1NLM9044, text pages 252-263 (1a-6a), BDRC's page numbers equal the image numbers"
+  bdrc: {work: MW1NLM9044_O1NLM9044_030, scans: [W1NLM9044]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "the text of RST and GDM with Klong rdol bla ma's name in its colophon (img. 262); BDRC's part 9 of the same volume (MW1NLM9044_O1NLM9044_009) is a king-spirit rite, not this text; located 2026-11-10 (RD328); locator = BDRC image number"
+
+gdr:
+  title: "Rmi ltas brtag thabs (the method of examining dreams, the copy of the Mongolian National Library volume W1NLM9419)"
+  edition: "Mongolian National Library manuscript (dbu med), part 7 of W1NLM9419, text pages 151-158 (1a-4a)"
+  bdrc: {work: MW1NLM9419_O1NLM9419_007, scans: [W1NLM9419]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "the text of RST and GDM, in a clear hand, no author and no date; spelled as GDM and KBS at the thirds of the night; read 2026-11-10 (RD328); locator = BDRC image number"
 
 rrt:
   title: "Rmi ltas rtags thabs rgyas pa (the extended method of reading dream signs)"
