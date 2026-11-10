@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD290 (2026-11-10): ch. 81's dream list on the Derge print (I00JW501163 img. 434; Yigdzin-1 and MITRA, lines 5–6 by eye at 2×) and the Chag-po-ri print (I1KG13487 img. 426; Yigdzin-1, by eye at 1.7–4×); the Zhol's img. 483 cropped by eye without result; ཟ་ཟི in the Drikung commentary's etext. The claim `st-dream-ch81-derge-chag-po-ri-prints`.
+
 Read by RD281 (2026-11-10): ch. 2's boy's-dream line on the Zhol print I5910 (img. 44) and the Derge I00JW501163 (img. 28), by Yigdzin-1 and by eye; ch. 81's dream list on the Zhol print (img. 483, Yigdzin-1 only); the Drikung commentary's etext for both. The claim `st-dream-ch2-ch81-other-prints`.
 
 Read by RD279 (2026-11-09): I1KG10010 img. 30–58 and I1KG12862 img. 36–52 by Yigdzin-1.
@@ -234,3 +236,11 @@ Question: Does the Zhol print's སྦལ་ལྗོངས་ (a ས after ལ�
 ## Searched and not found (RD281)
 
 Ch. 2's birth lines on the Chag-po-ri print I1KG13487 (img. 35–37): Yigdzin-1's text of img. 36 breaks off before the line «ཟླ་དགུ་འདས་ནས», so no reading by print there. Ch. 81 on the Derge and the Chag-po-ri copy: not located (the Zhol's is img. 483). BDRC full-text search, 2026-11-10, «ནིའུ་གསིང་དང་སྦལ་ལྗོང» no hit; «ལྷས་ཚོར་དུས་ཏེ» 14 hits, all the same verse (Serthang, Drikung, Grwa pa, Sde srid's life of Nam mkha' seng ge and others) with no gloss on the clause; the Blue Beryl and the Moonbeams were not looked at for want of a hit on the words.
+
+## Open (RD290)
+
+Question: Is the last letter of «ལྷས་ཚོར་» in ch. 81 on the Chag-po-ri print (I1KG13487 img. 426, line 6) a ར or a ང (Yigdzin-1 reads ལྷས་ཚོང)?
+
+## Searched and not found (RD290)
+
+The Zhol print's ch. 81 (I5910 img. 483), cropped at 3–4×: the bilevel strokes are too crowded for a reading by eye of the list's syllables, so the Zhol's ལྗོངས (q886) stays the machine's reading. The Zhol, Derge, Chag-po-ri and Drathang pages of ST pp. 183, 218 and 241 (q790): not located, and the Drikung commentary's etext (VEIE0OPI7984ABB9_I1KG24731) has no gloss of ཟ་ཟི, only some thirty uses of it. ལྷས་ཚོར་ in the commentary: quoted without a gloss. Chag-po-ri img. 425–448 and Derge img. 400–446 hold no second copy of the list.
