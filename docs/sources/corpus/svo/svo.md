@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD322 (2026-11-10): the words of the night's watches and snying sdug in Steinert's dictionaries (Mahāvyutpatti, Negi, Tibetan lexica; etext), the author of the Sakya Vinaya treatise from three etexts' colophon and preface and BDRC's records, and WB's eight watches against the commentaries' etexts and BDRC snippets; no scan; see svo:p271q, svo:p271r, svo:p271s.
 
+Read by RD327 (2026-11-10): the Peking print again, I1KG13197 img. 315 line 2 (the second and third watches) and I1KG13215 img. 310 line 1 by eye and by Yigdzin-1; the Tengyur's instances on BDRC searched for a second Peking (none); see svo:p271w.
+
 Read by RD323 (2026-11-10): the Dpe bsdur ma etext of vol. 14 (I1PD95859, etext pp. 1364-1368) and vol. 25 (I1PD95870, pp. 415-418), the apparatus entry by entry; see svo:p271t, svo:p271u, svo:p271v.
 
 Read by RD311 (2026-11-10): the Co ne Svapnohana (vol. 28 img. 270, 272, 273) by Yigdzin-1 on deskewed line strips, 472 runs, the eye settling nothing; see svo:p271m.
@@ -1104,4 +1106,48 @@ Read from the etext only; the Dpe bsdur ma scans are restricted, so every statem
 
 ## A second scan of the Peking Tengyur for the Svapnohana and the Svapnekṣā, to settle where the Dpe bsdur ma's Peking entries (Peking «པ» at the second watch, «བར་དུ» at the third watch's end, «བཏབ» at «བརྟགས», «ཤིང་ཏེའུ» for the bird) and the eye reading of the Peking print I1KG13197/I1KG13215 differ (q836, q926, q927): other BDRC instances of the Peking (the Otani reprint, the Beijing Peking of the Tibetan Tripitaka, any Peking volume lent on archive.org), found by the catalogue, and the places read on them (RD327)
 
-Nothing read yet: RD327's passages, with the English beside them, go here.
+## <a id="svo-p271w"></a>svo:p271w The Peking print's watch lines and the Svapnekṣā's two places read again, and the Peking instances of the Tengyur on BDRC (RD327)
+
+*Read: scan, 2026-11-10.*
+
+> Peking, W1KG13126 vol. 28, I1KG13197 img. 315 line 2 (x about 2100–3900 of the 5384 px frame, contrast-stretched, 1× and 2× crops; Yigdzin-1 on three strips of the line, 1×, 1.5× and the whole line):
+> ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པ་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར་དུ། །མཐོང་བར་འགྱུར་བ་ཐེ་ཚོམ་མེད། །
+> 
+> (Yigdzin-1 on the whole line, with the lines before it:)
+> བྱ། །དང་པོའི་ཐུན་ལ་རྨི་ལམ་བྱུང་། །ལོ་གཅིག་ནང་དུ་འབྲས་བུ་འབྱིན། །ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པ་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར་དུ། །མཐོང་བར་འགྱུར་བར་ཐེ་ཚོམ་མེད། །སྐྱ་རེང་ཤར་བའི་
+> 
+> Peking, W1KG13126 vol. 46, I1KG13215 img. 310 line 1 (x about 3600–4600 of the 5385 px frame, 2× and 3× crops; Yigdzin-1 on eight strips of the line, 1×–2×):
+> ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ། །མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང་། (the eye's reading; the machine's: ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ།)
+> 
+> Peking, W1KG13126 vol. 46, I1KG13215 img. 310 line 5 (RD309, svi:p310b, not read again here):
+> ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤིང་ཏེའུ་ཕོ་ཉར་གཏོང་། །
+
+The Svapnohana's watch verse on the Peking print (second and third watches, in one line): "the second watch, within eight months; the third watch, within three months; it will be seen, without doubt". The second watch's first segment ends «བརྒྱད་པ་ལ» (with པ, not «བར»), the third watch's segment ends «གསུམ་གྱི་བར་དུ» (with «དུ»), and nothing stands between this and the next verse line: the fourth watch's line is not printed, as the Dpe bsdur ma's entry says. Yigdzin-1 reads the same in all three runs.
+
+From the Svapnekṣā on the Peking print: "in the last part of the night one lies down having examined the dream" (the eye's reading, with an extra པ; the machine reads «བཏབ»), and "led to the work of peace; the bird «བྱ་ཤིང་ཏེའུ» sends a messenger" (RD309).
+
+### The Peking instances on BDRC, and what the one print gives (RD327)
+
+**Only one Peking Tengyur is on BDRC.** The abstract work of the Tengyur (WA0BC002, «བསྟན་འགྱུར») has these instances: the Derge (W23703, W2KG209989, 213 volumes), the Narthang (W22704, W2KG5013, W2KG5015, W23702 the gser bris ma, 213–225 volumes), the Co ne (W1GS66030, 209 volumes), the Dpe bsdur ma (W1PD95844, 120 volumes so far, restricted), an ACIP etext of the Narthang (W1ER201) and the Peking, W1KG13126 (224 volumes, «བསྟན་འགྱུར་ (པེ་ཅིང་)», the copy of Raghu Vira's collection, a gift of Zhou Enlai from Kumbum, quality grade 5, 'isComplete'). No second Peking record stands among them, and no other archive.org item is a Peking Tengyur (an archive.org title search for Peking, Otani, Tengyur, Tanjur and «པེ་ཅིན་/པེ་ཅིང་» finds only `bdrc-W1KG13126`; the other hits are the Peking Kangyur `bdrc-W1PD96684`, a Peking-printed Kangyur reproduction `bdrc-W3CN1094`, and W1KG13703, a catalogue of the Otani University's Peking print, not its images). The Otani reprint itself is not served anywhere found (PLAN.md, *Dead ends*, RD235: the Otani online resource has no page images). The Svapnekṣā's abstract work WA0RT4282 lists four instances only (Derge MW23703_2100, Narthang MW2KG5015_1746 and MW22704_1746, Peking MW1KG13126_2951): the Peking's is vol. 46 pp. 309–312.
+
+**So the Dpe editors' Peking cannot be compared with a second scan; the one print was read again.** The Peking vol. 28 (I1KG13197) and vol. 46 (I1KG13215) images of the places were opened and read by eye on contrast-stretched crops and by Yigdzin-1 through the slot, with these results:
+
+- **Second watch (q874, q926).** The Peking reads «བརྒྱད་པ་ལ» (པ, one letter between «བརྒྱད» and «ལ»); the eye at 2× saw it as the Narthang's, and Yigdzin-1 in three runs of different crops gave «བརྒྱད་པ་ལ» each time. RD233–RD235 had said "Peking like བར"; the new crops do not show a ར. The Dpe bsdur ma's entry (Peking and Narthang «པ», RD323) and the print agree. The Co ne's machine «པར» is therefore not shared by the Peking, and whether the base reads «པར» or «བར» stays open (it needs the restricted scan of the Dpe bsdur ma).
+- **Third watch's end (q927).** The Peking reads «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར་དུ» with «ཟླ་བ» and «དུ» (clear at 2×, the three letters བ, ར, དུ read, and the same in all three machine runs): no short line, so the Co ne's «ཐུན་གཉིས་གསུམ་གྱི་བར» is the Co ne's alone and the Peking is the Narthang's wording, with «དུ» at the end. The Dpe bsdur ma records no entry for this «དུ» (RD323), so its silence is not proof that the prints agree with the base: the editors do not list every difference.
+- **The fourth watch's line.** Between «བར་དུ» and «མཐོང་བར་འགྱུར» nothing stands in the Peking: the omission is the print's (RD235's reading holds, and the Dpe bsdur ma's entry with the minus sign).
+- **«བརྟགས»/«བཏབ» (q836).** On img. 310 line 1 the eye sees, after «ཐ་མར་རྨི་ལམ», a བ, a wide stack with a long tail, a letter shaped like པ and then «ལ་ཉལ»: the width of the cluster is that of two syllables, not of the three letters of «བཏབ», so the eye keeps the earlier readers' «བརྟགས་པ་ལ» (RD234, RD306) with moderate confidence. Yigdzin-1 reads «བཏབ་ལ་ཉལ» in eight of eight runs (1×, 1.25×, 1.5× and 2× on two crops), as the Dpe bsdur ma's Peking entry does. The eye and the machine differ, as before, and this is not decided: the machine's agreement with the Dpe editors' entry is the one thing that points to «བཏབ», the eye's reading of a faint grey print the one thing against it. The question stays open.
+- **The bird (q912).** Not read again: img. 310 line 5 «བྱ་ཤིང་ཏེའུ» was read by eye and by Yigdzin-1 in RD309 (svi:p310b) and agrees with the Dpe bsdur ma's Peking entry «ཤིང་ཏེའུ»; the ང is the one letter the eye holds only moderately.
+
+What differs between the editors' Peking and the eye reading is therefore one place, «བཏབ»/«བརྟགས་པ», and in the Svapnohana none: the second watch's «པ» and the omission of the fourth watch's line are the print's, and the third watch's «བར་དུ» is a place the notes do not list.
+
+### Open (RD327)
+
+- Question: on the Peking print (I1KG13215 img. 310, line 1) the Svapnekṣā's last part of the night reads either «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ» (the Dpe bsdur ma's Peking and Narthang entry, and eight of eight Yigdzin-1 runs) or «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» (the eye on three readings); is there a sharper image of this leaf (the Otani reprint, a Beijing photocopy) or a reader of the Peking's hand who can say how many syllables stand between «ལམ» and «ལ»?
+- Question: does the Dpe bsdur ma, in the Svapnohana's third watch line, leave «བར» against «བར་དུ» unrecorded because the Peking and the Narthang differ from the base there, or because the base reads «བར་དུ» too?
+
+### Searched and not found (RD327)
+
+- A second Peking instance on BDRC: the abstract works WA0BC002 (Tengyur) and WA0RT4282 (the Svapnekṣā, four): only W1KG13126; the Peking Kangyur (W1PD96684) and a Kangyur reproduction (W3CN1094) are not the Tengyur; W1KG13703 is the Otani University's catalogue of its Peking print, without images.
+- A Peking Tengyur on archive.org other than `bdrc-W1KG13126` (title searches for Peking, Otani, Tengyur, Tanjur, Tibetan Tripitaka and the Tibetan spelling of Peking): none; the archive.org page-image derivatives are the same scan as BDRC's (RD235).
+- BDRC's ldspdi and library search endpoints answer 405 to a POST (the catalogue search by query could not be run outside the browser); the instance lists above come from the abstract works' `workHasInstance`.
+- The Peking's second watch «ར» after «བརྒྱད་པ»: none seen on the 1× and 2× crops of img. 315 line 2.

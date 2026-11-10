@@ -611,6 +611,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ozassho-dream-judgments.md](claims/ozassho-dream-judgments.md) | claim, note | A 大雑書 with a dream section by image only (万代大雑書古今大成) | cites mdz:p5; feeds S3 |
 | [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
 | [claims/ozassho-dream-table-which-prints.md](claims/ozassho-dream-table-which-prints.md) | claim, note | The days-a-dream-is-not-told table is in the 万代大雑書 and the Ebara dream book, not in the two 永代 prints read | cites mdz:p11, mdz:i31, mdz:i72, eb9:i9; feeds S3 |
+| [claims/peking-only-one-tengyur-instance.md](claims/peking-only-one-tengyur-instance.md) | claim, note | BDRC has one Peking Tengyur only, W1KG13126; no second scan of the Peking exists to check the Dpe bsdur ma's Peking entries (RD327) | cites svo:p271w; feeds RD327 |
 | [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
@@ -708,6 +709,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-narthang-ms-title-sanskrit.md](claims/svi-narthang-ms-title-sanskrit.md) | claim, note | The Narthang manuscript's Sanskrit title reads «སྭ་པ་ནེ་ཀྵ» | cites svi:p289-291b, svi:p309-312, svi:p261-262; feeds RD298 |
 | [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
 | [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
+| [claims/svi-peking-btab-or-brtags-reread.md](claims/svi-peking-btab-or-brtags-reread.md) | claim, conflict | On the Peking the eye keeps «བརྟགས་པ་ལ», Yigdzin-1 gives «བཏབ་ལ» eight of eight, the Dpe entry is «བཏབ»: unresolved (RD327) | cites svo:p271w, svi:p310, svi:p289-291b; feeds RD327 |
 | [claims/svi-peking-variants.md](claims/svi-peking-variants.md) | claim, note | The examination of dreams in the Peking print | cites svi:p309-312; feeds — |
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
@@ -734,6 +736,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-rta-la-mo-plain-5x.md](claims/svo-peking-rta-la-mo-plain-5x.md) | claim, conflict | The Peking print reads «རྟ་ལ་མོ» with a plain la at 5× | cites svo:p271k, svo:p271d; feeds — |
+| [claims/svo-peking-watch-lines-reread.md](claims/svo-peking-watch-lines-reread.md) | claim, note | The Peking's second watch ends «བརྒྱད་པ་ལ» and its third «གསུམ་གྱི་བར་དུ»; the fourth watch's line is absent (RD327) | cites svo:p271w, svo:p271e, svo:p271u; feeds RD327 |
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
 | [claims/svo-remedy.md](claims/svo-remedy.md) | claim, remedy | The Svapnohana's remedy for bad dreams | cites svo:p271; feeds block-73 |
 | [claims/svo-rta-bla-mo-is-the-centipede.md](claims/svo-rta-bla-mo-is-the-centipede.md) | claim, definition | The Svapnohana's རྟ་བླ་མོ: the centipede; the line names creatures | cites svo:p270; feeds S2 |
@@ -1160,7 +1163,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 23 passages: 10 scan, 5 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 31 passages: 10 scan, 6 machine, 15 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 32 passages: 11 scan, 6 machine, 15 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
