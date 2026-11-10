@@ -2034,3 +2034,6 @@ Searched and found wanting, so not to be repeated:
 - **RD338** (RD338, 2026-11-10):
   - BDRC exact phrases «ཐུན་ཕྱེད་སོ་སོ་ལ་དབྱུ་གུ་བཞི་བཞི» and «གཡུལ་རྒྱལ་མཆོག་དགའ»: no hit; «ཐུན་ཕྱེད་པའི་རཱ་ཧུ»: 4 hits, KD vol. 3 and two others (the I2PD16001 etext answers 0 chunks, VE23703_1521 not read); «དབྱུ་གུ་བཞི་བཞི»: 6 hits, only KD vol. 3 read; «ཆུ་སྲང་ང་དྲུག་རྐང་བཅས»: 13 hits, two read (VE30541_013 p. 207, VE23660_004 p. 116).
   - The dbu can print of the Mchog dga' (MW1NLM5184, scans open) not searched for the chapter 9 folio; the lent KD scans not opened.
+- **RD336** (RD336, 2026-11-10):
+  - No 'physician's own dream' phrase in any of the Moonbeams, Byang pa, Rin spungs pa, Blue Beryl or Khro ru etexts; the Gtsang sman is the only place; no «ཟླ་ཟེར» near pp. 263–264 of Gtsang sman.
+  - The name colophons at Gtsang sman pp. 169 and 422 belong to other works in the collection, p. 372 names none; the Drikung dka' mchan etext was not read at this verse (working ids: Blue Beryl VEIE0OPICF5AF372_I1PD411, Drikung VEIE0OPI7984ABB9_I1KG24731).

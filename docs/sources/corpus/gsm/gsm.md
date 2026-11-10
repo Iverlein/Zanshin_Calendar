@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD336 (2026-11-10): Moonbeams VE23703_1517 pp. 145–161; Byang pa p. 205; Rin spungs pa pp. 227–229; Khro ru I5618 pp. 296–297; Blue Beryl VEIE0OPICF5AF372_I1PD411 pp. 198–202; Gtsang sman pp. 261–262.
+
 ## <a id="gsm-p261-262"></a>gsm:p261-262 The opening verses of the Zhal gdams do shal: the sources he names for his instructions
 
 *Read: etext, 2026-11-10.*
