@@ -1905,3 +1905,6 @@ Searched and found wanting, so not to be repeated:
   - A part of the night between midnight and dawn named in the Blue Beryl (I1PD411), Zur mkhar ba (I8LS19191), Skyem pa Tshe dbang (I4711) and the Moonbeams (MW23703_4312, MW1PD95844_3549): not found (BDRC etexts, 2026-11-10).
   - «མཚན་སྟོད་སྲོད» as an exact phrase on BDRC full-text search: 0 hits; «མཚན་གུང་རྨི་ལམ»: 4 hits, all modern prose or verse, none a commentary.
   - The Four Tantras commentary I1KG10372: the volume is closed (0 chunks); I2PD16002 (1.5 million characters) not fetched; the Dri med kun gsal and Drang srong zhal lung etexts not opened.
+- **RD301** (RD301, 2026-11-10):
+  - BDRC full-text search 2026-11-10: the exact ch. 2 line 19 hits, neither the Blue Beryl nor the Moonbeams among them (the Blue Beryl's etext searched whole: «རྨི་ལམ་དག་ན» once, in its own sentence with an added ཡང, «རྨི་ལམ་དག་ནའང་»); «མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང» 11 hits, among them the Moonbeams and Byang pa; the Moonbeams on the Four Tantras' own verse «བརྗེད་ངས» or «བརྗེད་ངེས»: not in it.
+  - No scan of the Blue Beryl (I1PD411) or of the Moonbeams (Tengyur) looked at; both rest on machine-made etext, so nothing is quoted from them without a scan check. Dharmaśrī's Moonbeams in dz is another work (elemental divination).

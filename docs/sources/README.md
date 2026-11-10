@@ -1799,6 +1799,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0899.md](questions/q0899.md) | question q899 | The Narthang manuscript and the Peking print share «ཛ་ཏ་པ» and «སྭ་པ་ནེ་ཀྵ» against the Derge etext: is the Derge etext's «ཛཱ་ཏ་ཀ» (jātaka) a correction by the Derge editors, or does the Sanskrit of the Peking line stand for another word (jātapa)? | open; cites svi:p289-291b |
 | [questions/q0900.md](questions/q0900.md) | question q900 | Does the Blue Beryl's commentary on the Explanatory Tantra (Vaidūrya sngon po, part 2) say anything on the Four Tantras' own two night lines beyond the Moonbeams' gloss read at etext p. 209 (BDRC I1PD411)? | open; cites gt:i42 |
 | [questions/q0901.md](questions/q0901.md) | question q901 | Is Bya mdo Klu byams rgyal's quotation of «gsum cha phyis 'byung gsal byed yin» beside the Four Tantras' two lines (BDRC MW8LS18598, search snippet only) a joining of two rules of the same night, as the modern Tibetan books do, or does he read them as one? | open; cites gt:i42 |
+| [questions/q0902.md](questions/q0902.md) | question q902 | In the Blue Beryl's ch. 7 the first part of the night is up to midnight on the Eight Limbs' verse (etext p. 209) and dusk with midnight alike on the Four Tantras' verse (p. 216): is this one rule read twice, or two different spans? | open; cites gt:i42 |
+| [questions/q0903.md](questions/q0903.md) | question q903 | Does the Moonbeams' gloss of the Eight Limbs' «རྨི་ལམ་སྐྱེས་པ་མཐོང» (a man and an elephant) belong to ch. 2's line, or only to the Eight Limbs' text that the Blue Beryl quotes beside it? | open; cites st:p21 |
 
 <!-- end pool index -->
 
