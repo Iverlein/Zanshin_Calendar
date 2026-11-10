@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD309 (2026-11-10): the Amoghasiddhi bird line on the Peking print (I1KG13215 img. 310 line 5, by eye; see svi:p310b), the Derge (I1365 img. 261) and the Co ne (I1GS66080 img. 263) by Yigdzin-1 on line strips, the three spellings by BDRC full-text search; see the claims svi-amoghasiddhi-bird-spellings and svi-amoghasiddhi-bird-is-shang-shang-te-u.
+
 Read by RD306 (2026-11-10): SVI on the Peking print I1KG13215 img. 310.
 
 Read by RD276 (2026-11-09): SVI in the Co ne print (vol. 49, I1GS66080 img. 263–264) by Yigdzin-1 and MITRA on frames and strips; the three parts of the night and the families' line only; see svi:p130.
@@ -42,6 +44,19 @@ Img. 263 opens with the preceding work's colophon (མཛད་པའོ) and th
 Not done: the Co ne's other watch-lines are the three parts only (the work has no half-month watch verse); the two lines above were not read letter by letter, so none of the Peking-Derge differences of svi:p309-312 is settled for the Co ne.
 
 ## <a id="svi-p261"></a>svi:p261 Title, preparation, the three parts of the night, the images by family
+
+## <a id="svi-p261b"></a>svi:p261b The Amoghasiddhi bird line on the Derge and the Co ne prints (RD309)
+
+*Read: machine, 2026-11-10.*
+
+> Derge (I1365 img. 261, line 5 of 7, about x 1550–1950, the frame 2003 x 322 px; letters about 8 px, enlarged 3× and 5×), Yigdzin-1 on a 3× strip of the line:
+> དམག་མི་གཡུལ་དུ་བསྐོར་བ་དང་། །ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང་། །ནགས་ཚལ་མེ་ཡིས་བསྲེགས་པའོ།
+> 
+> Co ne (vol. 49, I1GS66080 img. 263, line 5 end), Yigdzin-1 on 3× half-line strips:
+> དམག་མིག་ཡུལ་དུ་བསྐོར་བ་དང་། །ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་
+> (the line breaks after «ཉར»; the next strip opens «ནགས་ཚལ་མེ་ཡིས་བསྲེག་པར་བའོ»)
+
+The Amoghasiddhi sign on the Derge and the Co ne prints (RD309): "... the armed man circled on the field; led to the work of peace; the bird «བྱ་ཤར་ཏེ་རུ» (bya shar te ru) sends a messenger; burnt by fire in the forest." Both prints give the Derge etext's «བྱ་ཤར་ཏེ་རུ» as Yigdzin-1 reads them on strips of the one line (the Co ne's line 5 ends at the break after «ཕོ་ཉར»). By eye on the Derge, 5×, the groups are བྱ, ཤ (a ར after it moderate), ཏེ, a stack with ུ (རུ), ཕོ, ཉར and གཏོང: the same count of groups as the etext, but at 8 px the ར of «ཤར» and the ུ of «རུ» are not told apart from other letters, so the Derge scan is read as agreeing with its etext, no more. The Co ne leaf is a dense bitmap whose lines run together: nothing was read by eye there, the reading is machine only (svi:p130 had only the night's parts and the families' line).
 
 ## <a id="svi-p261-262"></a>svi:p261-262 Advayavajra's examination of dreams, whole: the images by Buddha family
 
@@ -190,3 +205,26 @@ Peking print, img. 310, first line of the leaf (RD306): the line that closes the
 
 - The Peking bird line: img. 311 lines 4–5 were cropped at 1–1.5× in two halves and the line was not found among the eight lines; not located, so not read.
 - BDRC full-text search for the sign in the Tibetan commentaries and the Indian sources was not run; the Derge, Co ne and Narthang places were not reread.
+
+## <a id="svi-p310b"></a>svi:p310b The Amoghasiddhi bird line on the Peking print, img. 310 line 5 (RD309)
+
+*Read: scan, 2026-11-10.*
+
+> Peking (I1KG13215 img. 310, line 5, about x 4300–4900 of the 5385 px frame; the lines of this print are about 108 px apart, the letters about 25 px, faint grey; crop 2× of a contrast-stretched line, then 4×):
+> ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤིང་ཏེའུ་ཕོ་ཉར་གཏོང་། །
+> (line 5 ends with the closing shad after «གཏོང»; the next line, 6, opens «ནགས་ཚལ་མེ་ཡིས་བསྲེགས་པའོ། །ཆུ་ལ་མི་ནུབ་རྐྱལ་པ་དང་། །»)
+
+The Amoghasiddhi sign on the Peking print, img. 310, line 5 (RD309): "led to the work of peace; the bird «བྱ་ཤིང་ཏེའུ» (bya shing te'u) sends a messenger." Line 5 was found by reading the print's lines as strips with Yigdzin-1 (line 5, right half: «ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤིང་ཏེའུ་ཕོ་ཉར་གཏོང་། །») and then read on the enlargement: after the shad a བྱ with its ya below, ཤ with ི above and a separate ང with its dot, ཏ with ེ above, an oval stack that is འ with ུ, then ཕོ, ཉར, གཏོང with the closing shad. The ང (against ད or ར) is the one letter the eye holds only moderately; the machine and the Dpe bsdur ma note (svi:p289-291, «པེ» ཤིང་ཏེའུ) both give ང. Img. 311 holds the later list (bad signs), not this line: RD306's search among img. 311 lines was in the wrong image.
+
+### Open (RD309)
+
+- Question: on the Narthang manuscript (I2KG212330 img. 290, end of line 2) is the bird «བྱ་ཤང་ཏེའུ» as the Dpe bsdur ma note gives it, or «བྱ་ཤང་ཤང་ཏེའུ» with the full name; a reader of the manuscript's hand, or a better scan, is needed (q835 unchanged).
+- Question: is the sign of Amoghasiddhi's family «ཤང་ཤང་ཏེའུ» (shang shang te'u, the jīvajīvaka bird of the lists), and what does a bird of that name sent as a messenger (ཕོ་ཉར་གཏོང) foretell in the commentaries of the tradition: a fortunate sign, as the list of the family's signs suggests, or another thing (q815)?
+
+### Searched and not found (RD309)
+
+- A commentary on the Svapnekṣā that names the Amoghasiddhi bird: BDRC full-text search for «བྱ་ཤར་ཏེ་རུ» (3 hits: the Derge Tengyur etext, the Dpe bsdur ma etext, a modern medical collection that quotes the verse), «བྱ་ཤིང་ཏེའུ» (0), «བྱ་ཤང་ཏེའུ» (0), «བྱ་ཤར་ཏེའུ» (0), «བྱ་ཤིང་ཏེ» (0), «བྱ་ཏེའུ་ཕོ་ཉར» (0), «བྱ་ཤར་ཏེ» (5, two unrelated: a Karmapa's collected works and the Four Tantras' «བྱ་ཤར་ཏེ» in another sentence). No Tibetan or Indian commentary quotes the line with a gloss.
+- The Narthang line by eye: the end of img. 290 line 2 at 3× and 8×: the line is a smear of the verso's show-through; the syllables after «ཏེ» and the second syllable's lower sign are not told apart (RD298's result holds).
+- The Co ne line by eye (I1GS66080 img. 263, line 5 end): a dense bitonal bitmap with the lines run together, not readable by eye; machine only.
+- The Derge scan's second syllable's ར, and the ུ of «རུ»: 8 px letters at 5×, not told apart from other letters.
+- RD306's search for the Peking line among img. 311 failed because the line is on img. 310 (line 5), not 311; img. 311 holds the later list (bad signs, Derge p. 262).

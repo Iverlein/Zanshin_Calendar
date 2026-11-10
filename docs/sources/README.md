@@ -665,6 +665,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-night-rule-blue-beryl-moonbeams.md](claims/st-night-rule-blue-beryl-moonbeams.md) | claim, note | The Blue Beryl and the Moonbeams on «མཚན་སྟོད» in ch. 7: dusk, and up to midnight | cites gt:i42; feeds S1 |
 | [claims/st-rta-bla-is-the-centipede.md](claims/st-rta-bla-is-the-centipede.md) | claim, definition | རྟ་བླ in ch. 81's commentary: a many-legged worm, the centipede | cites st:p350-351, ktr:p329-332; feeds S1 |
 | [claims/st-serthang-scan-pp31-32-missing.md](claims/st-serthang-scan-pp31-32-missing.md) | claim, note | The Serthang scan lacks printed pp. 31–32, the leaf of ch. 7's dream lines | cites st:p34; feeds S1 |
+| [claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md](claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md) | claim, note | The Amoghasiddhi bird of the three spellings is probably the shang shang te'u, jīvajīvaka; no commentary on the Svapnekṣā says so (RD309) | cites svi:p310b, svi:p261b; feeds RD309 |
+| [claims/svi-amoghasiddhi-bird-spellings.md](claims/svi-amoghasiddhi-bird-spellings.md) | claim, note | The Amoghasiddhi bird line reads «བྱ་ཤར་ཏེ་རུ» on the Derge and the Co ne, «བྱ་ཤིང་ཏེའུ» on the Peking (read on the scan), «ཤང་ཏེའུ» on the Narthang by the note (RD309) | cites svi:p310b, svi:p261b, svi:p289-291b; feeds RD309 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md](claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md) | claim, note | The Narthang manuscript's Amoghasiddhi line «བྱ་ཤ?་ཏེ…» is not settled | cites svi:p289-291b, svi:p289-291, svi:p309-312, svi:p261-262; feeds RD298 |
@@ -1104,7 +1106,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 8 passages: 4 scan, 3 machine, 1 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 17 passages: 9 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
