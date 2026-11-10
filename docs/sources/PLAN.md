@@ -1869,3 +1869,7 @@ Searched and found wanting, so not to be repeated:
   - No puṇyakāṇḍa of the Kāṇva branch in any open catalogue or study; Ganga Sagar Rai (Purāṇa Bulletin 8, 1966) and Bonazzoli unread, not open.
   - No separate date for the Brahmavaivarta's dream chapter (IV 73 in Jivananda's numbering); Hazra and Rocher read in text layers only.
   - Internet Archive access: iiif.archive.org serves full-size leaves of the Kālaprakāśikā scan, and the _djvu.txt files of Hazra and Rocher download without a loan.
+- **RD292** (RD292, 2026-11-10):
+  - The Svapnohana's colophons on the Derge, Peking and Narthang: no author, reviser or place named; the title-like tag after «༡༡» at the end of Peking img. 314 line 8 not told apart at 1.5×.
+  - The Derge dkar chag and the Peking and Narthang catalogues were not opened (no etext or scan located); the catalogue statements stand as RD257 recorded them.
+  - BDRC person records of Vibhūticandra and Vāgīśvarakīrti: no work, teacher or pupil link between them, no entry naming the remedy's Ngag dbang.
