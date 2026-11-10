@@ -2051,6 +2051,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1011.md](questions/q1011.md) | question q1011 | In the Dpe bsdur ma vol. 46 (I1PD95891, printed p. 1096-1097) is «གཤིན་རྗེའི་ཆུང་མ» the verse or a small-letter gloss run into it? The scan was not reached (images 1098-1099 returned nothing). | open; cites cbl:p237s |
 | [questions/q1012.md](questions/q1012.md) | question q1012 | Which Vairocana-specific preparation text (the Vairocanābhisambodhi or its commentaries) names signs that a teacher reads in the pupils' dawn dreams? | open; cites cbl:p237s |
 | [questions/q1013.md](questions/q1013.md) | question q1013 | Who is the lama of the Śramaṇā rite of the 'Brong rtse be'u bum's dream set, and are the Śākyamuni and Tārā rites in any collected works? | open; cites cbl:p237s |
+| [questions/q1014.md](questions/q1014.md) | question q1014 | The 雑書夢合／三世相小鑑's table (mdz:i234427) and the 万代大雑書古今大成's (mdz:p11) agree in the twelve columns legible; is the slash of the one print present in the other, and which cells of the second month and of the eighth to tenth months read the same (the cells read here in part)? | open; cites mdz:i234427 |
+| [questions/q1015.md](questions/q1015.md) | question q1015 | In the 清明秘鈔夢判事's ten cells (mdz:i65134) what are the second lines of each cell (the place and manner of sending the dream away), and why do 子 and 丑 have no cell? | open; cites mdz:i65134 |
+| [questions/q1016.md](questions/q1016.md) | question q1016 | What is the work 紀事 that the 歳時記栞草 cites for the 初夢, and does the 栞草's nearby entry 鶏旦 (the dawn of the first day) fix anything about the night? | open; cites mdz:i7333115 |
 
 <!-- end pool index -->
 
