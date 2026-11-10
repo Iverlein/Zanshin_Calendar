@@ -494,6 +494,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/la-board-root-is-wb-p45-lt-copies-p260.md](claims/la-board-root-is-wb-p45-lt-copies-p260.md) | claim, rule | The notes' root text for the la board is WB vol. 2, p. 45; LT's count is WB's birth verse copied | cites wb.2:p45, wb.2:p499-500, wb.1:p260-261, lt:p26-28, dz:i055-057; feeds block-31 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/lgd-bad-dream-signs.md](claims/lgd-bad-dream-signs.md) | claim, list | The bad dream signs of LGD and what they foretell | cites lgd:p968-969; feeds S2, RD216 |
+| [claims/lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.md](claims/lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.md) | claim, note | LGD's demon who comes alongside is the pair of the co-born god in other texts, kind not settled | cites lgd:p970; feeds S1 |
 | [claims/lgd-dream-seven-kinds.md](claims/lgd-dream-seven-kinds.md) | claim, list | The seven kinds of dream examined in LGD | cites lgd:p966-967, lgd:p967, lgd:p968-969, lgd:p969, lgd:p969-970, lgd:p970; feeds S2, RD216 |
 | [claims/lgd-dream-signs-dependence.md](claims/lgd-dream-signs-dependence.md) | claim, note | What a dream sign depends on in LGD: the hour, the lunar day, the practice | cites lgd:p961-966, lgd:p966-967, lgd:p969, lgd:p970, lgd:p971; feeds S2, RD216 |
 | [claims/lgd-dream-signs-that-reverse.md](claims/lgd-dream-signs-that-reverse.md) | claim, list | The bad that resembles good and the good that resembles bad in LGD | cites lgd:p969-970, lgd:p970; feeds S2, RD216 |
@@ -501,10 +502,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/lgd-good-dream-signs.md](claims/lgd-good-dream-signs.md) | claim, list | The good dream signs of LGD | cites lgd:p967; feeds S2, RD216 |
 | [claims/lgd-goods-of-gossip-prints.md](claims/lgd-goods-of-gossip-prints.md) | claim, conflict | The prints of the Lama Gongdu's dream signs differ on the three words of the goods of gossip | cites lgd.42:p969b, lgd:p968-969; feeds RD228, RD254 |
 | [claims/lgd-mi-kha-goods-of-gossip-are-rite-substances.md](claims/lgd-mi-kha-goods-of-gossip-are-rite-substances.md) | claim, definition | མི་ཁའི་རྫས in the Lama Gongdü's bad dreams: the substances of a rite against gossip | cites lgd.42:p969b, lgd:p968-969; feeds S2 |
+| [claims/lgd-p962-seed-string-is-ornamental-and-unread.md](claims/lgd-p962-seed-string-is-ornamental-and-unread.md) | claim, note | The string after Om on LGD p. 962 is in an ornamental letter and is not read | cites lgd.42:p962; feeds S1 |
 | [claims/lgd-palri-print-against-rd208.md](claims/lgd-palri-print-against-rd208.md) | claim, conflict | The Palri Parkhang print of the Lama Gongdü's dream signs has the whole text of RD208's passages; its differences | cites lgd.42:p966-971b, lgd:p966-967, lgd:p967, lgd:p968-969, lgd:p969, lgd:p969-970, lgd:p970, lgd:p971, lgd.42:p969b; feeds RD238 |
 | [claims/lgd-ram-rug-is-the-ram-bu-spelling.md](claims/lgd-ram-rug-is-the-ram-bu-spelling.md) | claim, note | རམ་རུག in the goods of gossip: the slot of ram bu or ram pa, a spelling by ear | cites lgd.42:p969b, lgd:p968-969; feeds S2 |
 | [claims/lgd-rite-stages.md](claims/lgd-rite-stages.md) | claim, rule | The three stages of the Lama Gongdü dream examination: approach, application, examination | cites lgd:p961-966; feeds S2, RD216 |
 | [claims/lgd-sbang-g-yer-beer-mash-and-pepper.md](claims/lgd-sbang-g-yer-beer-mash-and-pepper.md) | claim, definition | སྦང་གཡེར in the goods of gossip: the beer's mash and the Sichuan pepper, written short | cites lgd.42:p969b, lgd:p968-969; feeds S2 |
+| [claims/lgd-three-parts-of-night-share-the-names-of-rst-thirds.md](claims/lgd-three-parts-of-night-share-the-names-of-rst-thirds.md) | claim, note | LGD's dusk, midnight and dawn are the names of RST's three thirds of the night, with no hours | cites lgd:p966-967, mdp:p138, rst:p1-8; feeds S1 |
 | [claims/lgd-three-yogins.md](claims/lgd-three-yogins.md) | claim, rule | The three grades of yogin before a dream in LGD | cites lgd:p971; feeds S2, RD216 |
 | [claims/life-reckoning-middling-does-not-bar.md](claims/life-reckoning-middling-does-not-bar.md) | claim, note | A middling life reckoning does not bar the match by reply 111's letter | cites ys:i467-468, wb.1:p349; feeds block-58 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
@@ -521,6 +524,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/match-kinds-in-general.md](claims/match-kinds-in-general.md) | claim, rule | A match of mixed kinds is judged in general; no text counts the kinds into one | cites wb.1:p355, wb.2:p524; feeds block-58 |
 | [claims/match-trigram-grave.md](claims/match-trigram-grave.md) | claim, table | The trigram's grave joined: a broken line | cites wb.1:p362, wb.2:p526, wb.1:p258; feeds block-58 |
 | [claims/match-two-bad-lives.md](claims/match-two-bad-lives.md) | claim, rule | The match barred by two utterly bad lives, each judged by one verdict pebble | cites ys:i467-468, wb.2:p526; feeds block-58 |
+| [claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md](claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md) | claim, note | MDP's dream part (pp. 134-137) is a transmitted rite with a lineage ending in Bu ston, signed as a monk's notes | cites mdp:p134-137, mdp:p135b, mdp:p137b; feeds S1 |
+| [claims/mdp-p138-is-the-rst-text.md](claims/mdp-p138-is-the-rst-text.md) | claim, note | MDP's second dream item (p. 138) is the RST text of Klong rdol bla ma | cites mdp:p138, rst:p1-8; feeds S1 |
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/mewa-8-white-north-east.md](claims/mewa-8-white-north-east.md) | claim, note | P. 112: the 5 yellow and the 8 white both go to the north-east corner in the print | cites wb.2:p112; feeds block-31 |
 | [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
@@ -1025,7 +1030,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
-| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 12 passages: 9 scan, 3 machine |
+| [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 13 passages: 10 scan, 3 machine |
 | [corpus/lhq/lhq.md](corpus/lhq/lhq.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs (Qinghai 1991) | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
@@ -1035,7 +1040,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lth/lth.md](corpus/lth/lth.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs, the Supplement to the Instruction Tantra (Beijing 2005) | 1 passages: 1 etext |
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
-| [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 2 passages: 1 scan, 1 etext |
+| [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
