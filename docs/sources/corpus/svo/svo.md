@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD305 (2026-11-10): the Peking print I1KG13197 img. 315 line 5 and img. 317 lines 3 and 5 by eye at 2.5–5× («བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ» with a plain ལ); the row's Derge group I00JW501163 is the Four Tantras; see svo:p271k.
+
 Read by RD289 (2026-11-10): the Narthang manuscript I2KG212312 img. 284–287 (printed pp. 282–285) by Yigdzin-1 and by eye at 4–8×: «བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ», the Gāyatrī, the Sanskrit title; see svo:p271i.
 
 Read by RD277 (2026-11-09): Penn Ms. Coll. 390 items 1871, 673, 2730, 687, the Peerzada volume (Srinagar), Ramtek M 856, the Odia print of 1929.
@@ -521,3 +523,33 @@ The BDRC transcription of the preceding work's colophon says: "Chapter four of t
 - The colophons on the Derge, Peking and Narthang: no author named for the Svapnohana, no reviser, no place; the Peking line at the end of img. 314 line 8 after the preceding work's colophon (a title-like tag after the mark «༡༡») not told apart at 1.5×.
 - The Derge dkar chag, the Peking and Narthang catalogues were not opened for this reading (no etext or scan located); the catalogue statements stand as RD257 recorded them.
 - BDRC person records of both men: no work, teacher or pupil link between Vibhūticandra and Vāgīśvarakīrti; no entry names the remedy's Ngag dbang.
+
+## <a id="svo-p271k"></a>svo:p271k The Svapnohana's three doubtful places on the Peking print again (RD305)
+
+*Read: scan, 2026-11-10.*
+
+> Peking, W1KG13126 vol. 28, I1KG13197:
+> 
+> img. 315 line 5 (x about 2750–3550, 4×):
+> རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །
+> 
+> img. 317 line 3 (x about 1300–2700, 2.5×):
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །དེ་ཡིས་
+> 
+> img. 317 line 5 (x about 2700–3450, 5×):
+> གཞན་རྣམས་དཀར་པོ་མངོན་པར་དགའ། །རྟ་ལ་མོ་
+
+Three places of the Svapnohana on the Peking print, read again by eye: "in dreams, [the clause] 'not walked', entering it is auspicious" (img. 315 line 5); "whoever ... the ten ..., (from) it wealth is certainly got" (img. 317 line 3); "the others, white, are delightful. A horse, la mo ..." (img. 317 line 5, the word «ལ་མོ» with a plain ལ). Other places of these lines are in svo:p271d.
+
+RD305 read these on the Peking frames at 2.5–5× with the Derge text beside them. «བགྲོད་མིན»: the glyphs run ན, བ+ག with ྲ and ོ, then ད, མི, ན, ལ, ཞུགས, ཤིས, པ: the same clause as the Derge etext and the Narthang manuscript; the syllable before «མིན» is not «བཟློག» (moderate; the print is a blur of a few pixels per stroke). «བཅུ་ཡི་བར»: བཅུ, ཡི, བར clear at 2.5×, followed by «དེ་ཡིས»: no variant. «རྟ་ལ་མོ»: at 5× the word after «དགའ། །» is རྟ, then a ལ with its wedge and no subjoined ླ under the head, then མོ (high): the Peking carries a plain ལ. The next word «ལྟོ»/«ལྷོ» was not in the crops. The Derge print of the Tengyur is image group I1344 (img. 268–271), not I00JW501163, which is the Derge print of the Four Tantras and has no Svapnohana; the Derge Tengyur frame's letters are 8 px and were not read by eye again.
+
+What «བགྲོད་མིན» limits (q813): the clause stands at the end of a list of ill signs (the entrails, the sword, the boat, blood flowing from the body) and before the next verse's «the king, the elephant, the best horse» in the Peking line 5 itself, with no particle that ties it to the line before or after except «ན» and «ལ་ཞུགས»; the reading «what is not walked is entered» against «dreams ... walking no more» is not decided by the print, so q813's sense stays open. The ten of «བཅུ་ཡི་བར» is not marked as days in the line either (it follows «when the right hand is seized by a white snake»).
+
+### Open (RD305)
+
+- Question: «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ» closes a list of ill signs; does it say that entering a path not to be walked is auspicious, or that the signs just listed are auspicious when one is not walking, and is there a commentary on the Svapnohana that glosses it?
+
+### Searched and not found (RD305)
+
+- The Derge print of the Svapnohana in the image group I00JW501163 named by the row: that group is the Derge Four Tantras (ch. 91 and the Root Tantra were searched on it by earlier readings); the Derge Tengyur frames are in I1344 img. 268–271, 8 px letters.
+- A syllable of «བགྲོད་མིན» and of «བཅུ་ཡི་བར» that differs on the Peking: none seen at 2.5–4×.
