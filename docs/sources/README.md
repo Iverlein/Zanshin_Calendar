@@ -1877,6 +1877,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0940.md](questions/q0940.md) | question q940 | Does «སྙིང་སྡུག» in the Svapnohana mean something dear to the heart or heartache? | open; cites svo:p271n |
 | [questions/q0941.md](questions/q0941.md) | question q941 | Is «ཐུན་གསུམ» the Tibetan of Sanskrit triyāmā, and is it in the Amarakośa? | open; cites svo:p271p |
 | [questions/q0942.md](questions/q0942.md) | question q942 | On KCM img. 691 line 5 does the fruit of the rite end «…སྲིད་གསུམ་མཐོང་» (the three existences seen) or does the line name something else («ཁམས་སུ་མཆོད»)? | open; cites kcm:p474 |
+| [questions/q0943.md](questions/q0943.md) | question q943 | SKP's line «ཁ་ནས་སོ་ནི་འབུད་གྱུར་ན» (p. 50), read as vomiting, reads letter by letter 'if teeth are thrown out of the mouth': which is it, and does it then match WB's «སོ་གོག» (teeth falling)? | open; cites wb.2:p144l |
+| [questions/q0944.md](questions/q0944.md) | question q944 | Does WB's dream list come from the stock of dream images that Klong rdol's verses (given from the Chöd collection of Ma gcig) and the 'Bri gung method also draw on, or from a text not yet in the pool? | open; cites wb.2:p144l |
 
 <!-- end pool index -->
 

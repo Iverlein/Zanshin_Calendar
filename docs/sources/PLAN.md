@@ -1971,3 +1971,7 @@ Searched and found wanting, so not to be repeated:
 - **RD219** (RD219, 2026-11-10):
   - KCM img. 691 line 5 and img. 692 line 3: the cursive hand's letters cannot be told apart at 1.4–2×; the DTD photostat I3877 img. 222 is a 2099×476 bitmap with letters of a few pixels.
   - SKP p. 51 line 2: ཚོང against ཚོད is not decided by the scan; RBG: no route to pp. 203–205 beyond the loan; bdrc.py scans fetches KCM, DTD and SKP images directly although bdrc.py volumes answers 401.
+- **RD319** (RD319, 2026-11-10):
+  - A dream list with WB's lines in WB's order among the pool's non-WB corpus files: none (a search for each line's phrases, 2026-11-10).
+  - A statement of where the dream examination of p. 144 comes from: none in WB ch. 30 p. 144 nor in the notes' p. 535.
+  - Teeth falling (WB's «སོ་གོག»): no text of the pool names it as a dream image; only SKP's doubtful line comes near.
