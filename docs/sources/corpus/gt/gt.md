@@ -10,6 +10,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD296 (2026-11-10): BDRC searched for another scan or etext of the Serthang print (MW3CN5036, scan I3CN5038, etext IE0OPIFEF6EACA): none; the leaf of printed pp. 31–32 is absent from the digitization itself (the printed numbers on img. 43–47 run 30, 34, 33, 34, 35; the etext repeats p. 34 at its pp. 44 and 46); no model run, the scan pages 43–47 looked at in a montage, the 622 etext pages searched; the typeset etexts of the Lhasa 1982 «རྒྱུད་བཞི» (MW16778, pp. 49–50) and the Beijing Explanatory Tantra (MW1KG25027, pp. 44–45) read for «བརྗེད་ངས» (ངས on both) and line 17 («མི་བཟང་བ» and «མི་བཟང་པ», not བཟད་ or ཟད་): claim gt-serthang-leaf-absent-two-typeset-etexts.
+
 Read by RD288 (2026-11-10): the two lines of the night rule («མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས…») on eight prints with Yigdzin-1 (Drathang img. 42; Zhol I5910 img. 56-57; I1KG13487 img. 48-49; I5907 img. 66; Derge I00JW501163 img. 41-42; I3CN1711 img. 40-41; I3CN1696 img. 44-45; I3CN1702 img. 36-37) and by eye on the Derge and I3CN1711: every print has བརྗེད་ངས, none བརྗེད་ངེས; the claim `gt-night-rule-brjed-ngas-on-eight-prints`.
 
 Read by RD279 (2026-11-09): I1KG10010 img. 30–58 and I1KG12862 img. 36–52 by Yigdzin-1.
@@ -133,3 +135,13 @@ Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA a
 - «བརྗེད་ངེས» on any print's scan of ch. 7 (Drathang, Zhol, Chag-po-ri I1KG13487, I5907, I3CN1711, I3CN1696, I3CN1702, Derge I00JW501163), Yigdzin-1 over the line and by eye on two: not found; all have ངས.
 - A part of the night between midnight and dawn named in Byang pa, Khro ru, Rin spungs pa, the Drikung and the 'Bum nag gsal sgron (the passages already in the pool): not found.
 - A second published etext of Byang pa or Khro ru in the pool beyond the ones already cited: none opened in this reading.
+
+## Open (RD296)
+
+- Question: is the Serthang print's own book (the Larung Gar typeset edition of the Four Tantras, 611 pages) held complete in a library whose scan BDRC lacks, so that printed pp. 31–32 could be read for «བརྗེད་ངས» and «མི་བཟང་བ»?
+
+## Searched and not found (RD296)
+
+- A second BDRC instance, scan or etext, of the Serthang Four Tantras: the work record WA3CN5036 lists MW3CN5036 only; BDRC's catalogue search for «gso rig rgyud bzhi» with «gser thang», «gser thang bla rung lnga rig nang bstan slob gling», «gser rta» and for «gso rig sde bzhi» gives that instance alone (2026-11-10).
+- The ch. 7 bad-dream verse and the two night lines anywhere in the Serthang etext (all 622 pages, spaces and tsheg stripped, searched for «རྨི་ལམ་བྱི་ལ», «སྤྲེའུ་སྟག», «འཆི་བདག་ཟིན», «དུར་ཁྲོད་ཉལ», «མི་བཟང་བ», «མི་ཟད་པ», «མཚན་སྟོད»): none; the leaf is not misplaced elsewhere in the volume.
+- «བརྗེད་ངེས» in the Lhasa 1982 and Beijing typeset etexts of the verse: not found (ངས on both).
