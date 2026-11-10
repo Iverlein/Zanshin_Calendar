@@ -1198,11 +1198,37 @@ kcs:
 kcd:
   title: "The Kālacakra Tantra and the Vimalaprabhā (Dri med 'od) on dreams, with the Tibetan commentaries (Bu ston, Mkhas grub rje)"
   author: "the Kālacakra Tantra (Dus kyi 'khor lo) and Puṇḍarīka's Vimalaprabhā; commentaries by Bu ston Rin chen grub and Mkhas grub rje"
-  edition: "the Derge Tengyur and the collected works as served by BDRC; the volumes named in the passages"
+  edition: "Derge Tengyur, rgyud 'grel vols. 11-13 (Delhi Karmapae Choedhey reprint), as served by BDRC; the volumes named in the passages"
+  bdrc: {work: MW23703_1347, etext: VE23703_1327}
   licence: public-domain
   rank: 3
   role: source
-  locator: image
+  volumes:
+    11:
+      scan: I1327
+      etext: VE23703_1327
+      image_offset: 0
+      notes: "etext page = image number; the printed page is the etext page - 2 (img. 538 prints 536). pp. 4-215 the Laghukālacakra tantra (five chapters), pp. 216-444 the Vimalaprabhā on the world chapter, pp. 445-555 on the individual chapter (nang gi le'u) as far as the volume goes (the chapters' summaries at pp. 231-235)"
+    12:
+      scan: I1328
+      etext: VE23703_1328
+      image_offset: 0
+      notes: "the Vimalaprabhā continued (the initiation chapter's rite of the ground at pp. 226-230); etext page = image number"
+    13:
+      scan: I1329
+      etext: VE23703_1329
+      image_offset: 0
+      notes: "pp. 4-40 the Paramārthasevā, pp. 41-145 the Mi g.yo ba'i snying po snang ba (Vimalaprabhā-based commentary), pp. 146-441 the Padminī pañjikā (Pad ma can, BDRC: Dus zhabs pa chen po 'Jam pa'i rdo rje; MW23703_1350), pp. 442-579 the Sekoddeśaṭīkā and its short commentary; etext page = image number"
+
+tsd:
+  title: "Tā ra nā tha, Sbyor drug gi dri lan (answers on the six yogas of the Kālacakra), in the Jo nang rje btsun Tā ra nā tha'i gsung 'bum dpe bsdur ma, vol. 8"
+  author: "Jo nang rje btsun Tā ra nā tha (1575-1634)"
+  edition: "Dpal brtsegs bod yig dpe rnying zhib 'jug khang, Krung go'i bod rig pa dpe skrun khang, dpe bsdur ma vol. 8 (BDRC VE1PD45495_008)"
+  bdrc: {work: MW1PD45495, etext: VE1PD45495_008}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "RD361 (2026-11-10): etext only, no scan; page = the etext page of the text's own counter, which restarts at [p1] after the volume's front matter (the Sbyor drug gi dri lan at etext offset 0-506 812, its pages numbered 1-221 inside the volume's text)"
 
 mph:
   title: "Mipham's writings on dream signs and dream divination (Gsung 'bum) and his notes on the White Beryl"
