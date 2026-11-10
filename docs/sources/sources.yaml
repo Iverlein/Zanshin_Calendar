@@ -1501,3 +1501,36 @@ bpp:
   role: source
   locator: page
   notes: "RD377 (2026-11-10): VE1ER24 [p237]; etext only; author and date not established"
+
+dycn:
+  title: "Dbyangs 'char (as dyc), the Narthang print with interlinear glosses"
+  author: "as dyc; the glosses are not signed"
+  edition: "Bstan 'gyur, Snar thang print, the digital replica of the Shantarakshita Library as served by BDRC (work MW2KG5015_4604, image group I2KG212495, images 87-232; the dream verses at img. 127-128, folio 63a-63b); the same print in a second scan (work MW22704_4604, image group I3462, img. 129-130, folio 63a-63b) carries the same text and glosses"
+  bdrc: {work: MW2KG5015_4604, scans: [I2KG212495]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD376 (2026-11-10), read by Yigdzin-1 and by eye on enlarged crops; the page image is the image number BDRC labels `img. N`"
+
+dycp:
+  title: "Dbyangs 'char (as dyc), the Peking print (vermilion) with interlinear glosses"
+  author: "as dyc; the glosses are not signed"
+  edition: "Bstan 'gyur, Peking print (BDRC: pe cing), work MW1KG13126_5813, image group I1KG13380, images 90-199 (the work's first leaf is folio 43b); the dream verses at img. 119-120, folios 58a-58b; served in full at 5400 px, vermilion on paper, which Yigdzin-1 reads badly: read by eye on the green channel"
+  bdrc: {work: MW1KG13126_5813, scans: [I1KG13380]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD376 (2026-11-10); the dpe bsdur ma etext (VEIE0OPIA3E40644_I1PD95959) is the Peking-based edition's text, its scan answers 401 (fair use) for these pages"
+
+dycg:
+  title: "Dbyangs 'char (as dyc), the Gser bris ma (golden manuscript) Tengyur"
+  author: "as dyc"
+  edition: "Bstan 'gyur, Gser bris ma (BDRC work MW23702_3818, image group I1PD31548, images 134-295); the dream verses at img. 176-178, folios 87b-88b"
+  bdrc: {work: MW23702_3818, scans: [I1PD31548]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD376 (2026-11-10), Yigdzin-1 only; the glosses between the lines make its readings noisy; no letter checked by eye"
