@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD332 (2026-11-10): Bu ston: I1KG11857 img. 629–634, I0761 img. 601–606; Karma chags med: I1KG8395 img. 281–287.
+
 ## <a id="kcs-p273-279"></a>kcs:p273-279 Karma chags med, verses to make a dream prophecy firm: a body feast to the four-armed Mahakala, the dakinis and the lineage
 
 *Read: machine, 2026-11-10.*

@@ -2010,3 +2010,6 @@ Searched and found wanting, so not to be repeated:
   - W1NLM9044 part 9 (MW1NLM9044_O1NLM9044_009, img. 153–164), the part sources.yaml named: a king-spirit rite, not the dream text (BDRC's own record); the dream text is part 30.
   - A date or an author in GDM and GDR: none; GDM's ending is lost (img. 113), GDR ends with «འཆི་ལྟས་རྫོགས་སོ» (img. 157) and an empty leaf; a name for the writer of GDN's second colophon on the scan: only «མཁན་པོས་བྲིས་པའོ» plain.
   - The Garga part of GDM past img. 95: read only by machine (RD324), not compared with the two new copies; GDN and GDR read for the dream part, the death omens' beginning and the colophons only.
+- **RD332** (RD332, 2026-11-10):
+  - bdrc.py volumes given an MW part id prints the MW id as the group, and given a W root id it returns 401; the real image group comes from the wvo:bdr:<MW>::bdr:<I…> manifest id in iiifpres.bdrc.io/collection/wio:bdr:<MW part>.
+  - I4PD2674 (Rngog mdo sde's Zhal gdams rmi ltas ma) serves nothing near the pages (images 1–3 only); at about 1280 px wide the cursive letters ལྗ and ལྡ could not be told apart by eye; no MITRA witness and no disagree.py sheet were run.
