@@ -1758,6 +1758,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0882.md](questions/q0882.md) | question q882 | Is the colophon of SKP's first text (p. 50, «ཤཱཀྱའི་དགེ་སློང་ …»), read only by machine, really «ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ»? | open; cites skp:p55h |
 | [questions/q0883.md](questions/q0883.md) | question q883 | Is «པདྨ་དཀར» at the end of SKP's second text (p. 55) the name Padma dkar po, and which text is «well explained»? | open; cites skp:p55h |
 | [questions/q0884.md](questions/q0884.md) | question q884 | Does «ཟ་ཟི» in «རྨི་ལམ་ཟ་ཟི་མང་བ» (WB vol. 1 p. 431) have a meaning of its own (confused, restless, repeated) in the reckoners' or physicians' usage, or is it a doubled sound with the sense «many dreams» only? | open; cites wb.1:p431b |
+| [questions/q0885.md](questions/q0885.md) | question q885 | What does «ལྷས་ཚོར་དུས་ཏེ» (ch. 81, the last clause of the dream list) say: is ལྷས་ཚོར་ «the time of feeling the god (spirit)» or «when the time of feeling comes»? | open; cites st:p350-351 |
+| [questions/q0886.md](questions/q0886.md) | question q886 | Does the Zhol print's སྦལ་ལྗོངས་ (a ས after ལྗོང) in ch. 81 stand on the scan, and what do the Derge and the Chag-po-ri copy read there? | open; cites st:p350-351 |
 
 <!-- end pool index -->
 

@@ -1848,3 +1848,7 @@ Searched and found wanting, so not to be repeated:
   - No verb of seeing and no image beside «རྨི་ལམ་རྩུབ» or «རྨི་ལམ་ཟ་ཟི་མང་བ» at the three places, on any print read.
   - No gloss of «རྩུབ» or «ཟ་ཟི» in Mipham's notes by the machine reading of img. 482–549; the Chengdu etext of the notes is search-only (API 403) and was not opened.
   - The Zhol etext (IE0OPI7850CC9C) is unusable for searching: no tshegs and full of OCR noise.
+- **RD281** (RD281, 2026-11-10):
+  - ST ch. 2's birth lines on the Chag-po-ri print I1KG13487 (img. 35–37): Yigdzin-1's text of img. 36 breaks off before «ཟླ་དགུ་འདས་ནས»; no reading by print there.
+  - ST ch. 81 on the Derge and the Chag-po-ri copy: not located (the Zhol's is img. 483; by proportion near img. 440 and 442).
+  - BDRC full-text search 2026-11-10: «ནིའུ་གསིང་དང་སྦལ་ལྗོང» no hit; «ལྷས་ཚོར་དུས་ཏེ» 14 hits, all the same verse with no gloss of the clause. The Blue Beryl and the Moonbeams gave no hit on the words.
