@@ -1341,11 +1341,12 @@ mmk:
 cdb:
   title: "Chinese dream books and the rule of the days a dream is not told: the Dunhuang dream books, the Zhou gong dream books and the Chinese almanacs and handbooks"
   author: "various; each passage names its text, author and edition"
-  edition: "open full texts (ctext.org, Wikisource) and images (IDP, Gallica, NDL, Kokubunken) named in each passage"
+  edition: "P.3908: BnF Pelliot chinois 3908, images of the e-Dunhuang IIIF set (dlcdata.mgk.org.cn, 21 images, the passage ids number them); 永樂大典 vols 20181-20182: Zhonghua facsimile as transcribed on zh.wikisource.org from the Commons PDFs; other texts and images named in each passage"
   licence: public-domain
   rank: 3
   role: source
-  locator: folio
+  locator: image
+  notes: "RD375 (2026-11-10): P.3908 images 13-16 read by eye (chapters 19-23); 永樂大典 20181-20182 the per-day entries 甲辰-辛酉; IDP, Gallica and ctext.org refused automated access (bot check) and were not worked around"
 
 dyc:
   title: "Dpal g.yul las rnam par rgyal ba zhes pa'i rgyud kyi rgyal po dbyangs 'char ba zhes bya ba (the Dbyangs 'char, the root text the Mchog dga' comments on)"
