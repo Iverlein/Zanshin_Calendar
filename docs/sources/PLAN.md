@@ -1949,3 +1949,6 @@ Searched and found wanting, so not to be repeated:
 - **RD311** (RD311, 2026-11-10):
   - The Co ne's watch lines, «བགྲོད/བཟློག», the word after «བཅུ» and the Gāyatrī's first word by eye on deskewed, blurred crops at 4–7×: the ink is dotted and partly absent; not one letter told.
   - The Svapnekṣā vol. 49 img. 263–264: the right halves of the strips returned nothing or invented text; narrow windows of 330–350 px and the right half of a line as a strip gave nothing usable, whole-line strips at 1.5× give the stretches recorded.
+- **RD317** (RD317, 2026-11-10):
+  - A Sanskrit dream text with the half-month for the fourth watch other than the Brahmavaivarta's chapter: Internet Archive title search for Ācāramayūkha and Svapnādhyāya gave six items: two photographed manuscripts of the Bhagavantabhāskara (text layer noise), the Bṛhaspati Svapnādhyāya manuscripts already read (RD277), and the CC BY-NC-ND Romanian translation of the Ācāramayūkha (a lead only).
+  - A public-domain print of the Ācāramayūkha with the dream chapter: not found in the Internet Archive title search; HathiTrust not searched.

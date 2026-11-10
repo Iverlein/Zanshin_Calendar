@@ -1851,6 +1851,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0925.md](questions/q0925.md) | question q925 | Does Bya mdo Klu byams rgyal join the Klong rdol line and the Four Tantras' first line into one rule (dusk and midnight without fruit, dawn with), or only set them side by side as two authorities? | open; cites st:p31-32c |
 | [questions/q0926.md](questions/q0926.md) | question q926 | In the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར and the fourth watch's «ཕྱེད་པར་» likewise: is «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it? | open; cites svo:p271m |
 | [questions/q0927.md](questions/q0927.md) | question q927 | The Co ne's third watch line reads «ཐུན་གཉིས་གསུམ་གྱི་བར» (no «ཟླ་བ», «གཉིས» for «གསུམ»): is it the scribe's slip or the print's own text? | open; cites svo:p271m |
+| [questions/q0928.md](questions/q0928.md) | question q928 | Does the Sanskrit of Nīlakaṇṭha's Ācāramayūkha (Negelein's q, Benares 1876 with Rāmanātha's Hindi commentary) read the fourth watch «māsena phalada» and the dawn «daśāhena» in a printed Sanskrit edition, as the Romanian translation's text layer shows? | open; cites neg:p14-17 |
 
 <!-- end pool index -->
 
