@@ -1,0 +1,11 @@
+---
+kind: claim
+type: list
+terms: [shog-dril-bzhi, mtshur-ston-dbang-nge]
+cites: ['dds.19:p97-102', 'dds.19:p99-100', 'dds.42:p165-166', 'dds.41:p496', 'dds.46:p104']
+feeds: []
+open: []
+---
+# The chains of holders of the four sheets after Marpa, in two lines (the Breakthrough alone; the complete four), as the history, Padma dkar po, Kong sprul's catalogue and Zhu chen give them (RD383)
+
+RD383. The chains of holders of the four sheets after Marpa run in two lines, and the sources give them in different fullness. The history: the line of the Breakthrough alone, Mtshur dbang nge; «the two brothers»; 'Dza' phu rgya gar; Stod lung 'Gar ras; the master Nyi ma lung pa; Bde gshegs rin chen (dds.19:p97-102); and the line of the complete four, Mtshur ston Dbang nge; a disciple of Lo ras chung ba, Snyag sgom; Dwags po Mdo rtse, to whom he tells it and who asks him; and the master Nyi ma lung pa (dds.19:p99-100). Padma dkar po's record has the same two: the Breakthrough through the brothers, 'Jang phu rgya ras, Stod lung 'Gar ras, Nyi ma lung pa, Bde legs rin chen, Gling; and all four through Mtshur (dbang), Myags sgom Dge chung, Dwags po Gdung rtse, Nyi ma lung pa, Bde legs rin chen, Gling ras, then Rgya ras, Dbon ras, Rgod tshang pa and on to Padma dkar po (dds.42:p165-166). Kong sprul's catalogue gives the complete-four line, Dol's Mtshur ston Dbang nge; Gshan sgom Sgom chung; Dwags po Mdo rtse; Nyi ma lung pa; Bde gshegs rin po che Tog rtse sgang pa; Snye mdo Kun dga' don grub; Gyung ston Rdo rje dpal, and on as in the Whispered Lineage (dds.41:p496). Zhu chen's list: Rdo rje 'chang; Dākki Rus pa'i rgyan can; Pen da ba; Marpa; Tshur ston Dbang nge; Gnyags sgom Dmar po; Dwags po's Mdo rtse Nyi ma lung; Mgar ras pa; Rog rtse Lha sgang pa; Snye mdo Kun don; Gyung ston pa; Bsod bzang; Tshul khrims mgon po; Bsod nams rgyal mtshan; Gnyags phu ba; Seng ge dpal (dds.46:p104). The name after Mtshur ston Dbang nge is spelt Snyag sgom (the history), Myags sgom Dge chung (Padma dkar po), Gshan sgom Sgom chung (Kong sprul's catalogue) and Gnyags sgom Dmar po (Zhu chen, and the supplication at the head of the Gdams ngag mdzod's Khrid brgya volume, VE23605_018 [p28], not recorded as a passage). The history ends its chain at Bde gshegs rin chen; the Drukpa record adds Gling after him.
