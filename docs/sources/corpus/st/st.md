@@ -244,3 +244,24 @@ Question: Is the last letter of «ལྷས་ཚོར་» in ch. 81 on the Ch
 ## Searched and not found (RD290)
 
 The Zhol print's ch. 81 (I5910 img. 483), cropped at 3–4×: the bilevel strokes are too crowded for a reading by eye of the list's syllables, so the Zhol's ལྗོངས (q886) stays the machine's reading. The Zhol, Derge, Chag-po-ri and Drathang pages of ST pp. 183, 218 and 241 (q790): not located, and the Drikung commentary's etext (VEIE0OPI7984ABB9_I1KG24731) has no gloss of ཟ་ཟི, only some thirty uses of it. ལྷས་ཚོར་ in the commentary: quoted without a gloss. Chag-po-ri img. 425–448 and Derge img. 400–446 hold no second copy of the list.
+
+## Read by RD294 (2026-11-10): ch. 91's closing causes on the Zhol print
+
+The Zhol print I5910 (2280 × 438 px, six lines a page) has the passage on img. 675 (lines 4–6, the chapter on making the flavour, རོ་ཙ་བར་བྱ་བ, ro tsa bar bya ba, after the rejuvenation chapter that ends on img. 670); the colophon would stand on img. 676–678 and was not read. Yigdzin-1 reads lines 4–5 as the Serthang scan has them up to «ནད་ཀྱི་གྲང་རླུང་མཁལ་མའི་དྲོད་ཉམས་པས། རྩ་ཁ་མ་ཐུབ་ཆུ་དང་བསྡོངས་ནས་འཛག བཅུ་གསུམ་བཅུ་དགུ་ནང་ལོང་གདོང་ངོས་བསྲེག བོང་ཤ་སྲམ་ཤ་…» and «དུག་བྱུང་ཕྱི་ནང་གསང་རྟགས་ངོས་བཟུང་ལ། དེ་ཡི་གཉེན་པོས་བསང་ཅིང་ལུས་ཟུངས་བསྲུང་། གདོན་ཡིན་རྨི་ལམ་བུད་མེད་འདྲེན་པར་འགྱུར། མོ་ཕྱྭ་རིམ་གྲ…».
+
+By eye, line 6 of img. 675 (crop 4× of x 220–2060): after «མོ་ཕྱྭ་རིམ་གྲ…» the print turns to a run of smaller, faint letters in the middle of the line and goes back to full size for «…ཀྱིས་གསོ། །»; so in the Zhol print the bracketed remedies are set in small type inside the verse line, as interlinear notes, and not as lines of their own. The small letters are broken on the bilevel scan and are not read here; Yigdzin-1's reading of them, «ཏ་དགྲེལ་བ་རའི་འོ་མ་སུ་བྱུང་བ་ལྟར་མཐའ་འཁྱུག», is a reading of damaged letters and is not taken, but it does carry «བ་རའི་འོ་མ» (milk of cattle and goats), the milk remedy's words, and the next line the thread note's words (the sheep's wool, the clean boy, seven vajra knots, the mantra «ཨོཾ་ཧ་ར་»), both in the small type.
+
+So the Zhol print carries both bracketed remedies, in small type, which answers the line of [q824](../../questions/q0824.md) in part: they are not an addition of the Serthang alone. Whether they are the author's own notes or an early editor's is not shown by a print.
+
+The Derge print (I00JW501163): the chapter was not located (img. 450 ends a chapter whose number ends «…ཅུ་རྩ་གཉིས་པ», and the images sampled at 500, 540, 580 and 620 hold other matter; the ninety-first was not found).
+
+## Open (RD294)
+
+Question: In ch. 91's remedies for a spirit that leads the sleeper away in his dream, what does ཕྱྭ (phywa) mean beside མོ (mo, divination)?
+
+Question: On a sharper scan of the Zhol print img. 675 line 6 (or the Chag-po-ri print), what do the small letters after «མོ་ཕྱྭ་རིམ་གྲ» say, and do they agree with the Serthang's two bracketed remedies word for word?
+
+## Searched and not found (RD294)
+
+The ninety-first chapter on the Derge print I00JW501163: not found in img. 447–452, 500, 540, 580 and 620 by Yigdzin-1 (a search of the OCR for «རིམ་གྲོ», «རྟེན་འབྲེལ», «བུད་མེད་འདྲེན», «རོ་ཙ», «ཕྱྭ»). The Zhol print on img. 513–528 (chs. 82–83): none of those words either.
+

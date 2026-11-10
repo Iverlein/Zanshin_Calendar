@@ -991,6 +991,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
 | [claims/wb1-ch13-zhol-strip-charts-legible.md](claims/wb1-ch13-zhol-strip-charts-legible.md) | claim, note | Ch. 13 strip charts: the Zhol print's hand is the legible one, syllables still unsettled | cites wb.1:p147z, wb.1:p136-147; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
+| [claims/wb30-dream-fourth-riding-animal-horse.md](claims/wb30-dream-fourth-riding-animal-horse.md) | claim, list | Ch. 30's good dreams name four riding animals: lion, elephant, buffalo, horse | cites wb.2:p144r, wb.2:p144; feeds — |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
 | [claims/wbt-shi-sgab-places-by-machine.md](claims/wbt-shi-sgab-places-by-machine.md) | claim, note | The run of deaths' places on the Taikhang located, the stack not yet read by eye | cites wb.2:p104-105, wb.2:p105-106, wb.2:p107-108; feeds block-31 |
 | [claims/wbt-ur-mnan-eight-seeds-by-eye.md](claims/wbt-ur-mnan-eight-seeds-by-eye.md) | claim, note | The pressing-down wheel's first spoke row on the Taikhang: eight letters, the fifth plain | cites wb.2:p112-114; feeds block-31 |
@@ -1126,7 +1127,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 33 passages: 15 scan, 11 machine, 7 etext |
-| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 25 passages: 24 scan, 1 machine |
+| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 26 passages: 25 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
