@@ -464,6 +464,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gt-dream-death-rule.md](claims/gt-dream-death-rule.md) | claim, rule | After the bad dreams: the cause, who dies, the six kinds, the dawn dream and the good dreams, in the Drathang's verse | cites gt:i42-43, bdk:p53-54; feeds S2, RD216 |
 | [claims/gt-dream-verse-chag-po-ri-prints.md](claims/gt-dream-verse-chag-po-ri-prints.md) | claim, conflict | The dream verse of ch. 7 in three Chag-po-ri prints: the unsettled places against the Drathang | cites gt:i42-43; feeds S2 |
 | [claims/gt-dream-verse-variants.md](claims/gt-dream-verse-variants.md) | claim, conflict | The Drathang's dream verse against the four commentaries' quotations: the syllable variants | cites gt:i42-43, bjp:p177-181, rsp:p208-211, ktr:p303-307, bdk:p53-54; feeds S2 |
+| [claims/gt-drikung-skyem-pa-ya-mtshan-can-blue-beryl-clause.md](claims/gt-drikung-skyem-pa-ya-mtshan-can-blue-beryl-clause.md) | claim, note | The Drikung dka' mchan takes the Moonbeams' outsider; Skyem pa reads a man of qualities and neither states the physician's rule; the Blue Beryl's clause lists the Drukpa yogis, monks and the white-robed mantra-holders of Khri srong lde btsan's two seats | cites gt:i41c, gt:i41b; feeds S1 |
 | [claims/gt-line-17-in-five-commentaries.md](claims/gt-line-17-in-five-commentaries.md) | claim, note | Ch. 7's dream verse, line 17 in five commentaries: four spell it mi bzang ba, Rin spungs pa mi zad pa, none mi bzad pa | cites gt:i42; feeds S2 |
 | [claims/gt-line-17-moonbeams-mi-bzad-byang-pa-mi-bzang.md](claims/gt-line-17-moonbeams-mi-bzad-byang-pa-mi-bzang.md) | claim, note | Line 17: the Moonbeams reads མི་བཟད, Byang pa's lemma follows the Tantra's མི་བཟང་པ, the Drikung works the verse's words into prose | cites st:p30-31; feeds S2 |
 | [claims/gt-moonbeams-ya-mtshan-can-an-outsider.md](claims/gt-moonbeams-ya-mtshan-can-an-outsider.md) | claim, note | The Moonbeams reads the good messenger «ya mtshan can» as an outsider ascetic; Rin spungs pa and Khro ru read a monk or Brahmin, the Blue Beryl both | cites gt:i41b, gt:i41; feeds S1 |
@@ -1141,7 +1142,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 4 passages: 1 scan, 3 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 2 passages: 2 etext |
-| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 5 passages: 4 machine, 1 etext |
+| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 6 passages: 4 machine, 2 etext |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
