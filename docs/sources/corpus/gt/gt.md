@@ -10,6 +10,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD288 (2026-11-10): the two lines of the night rule («མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས…») on eight prints with Yigdzin-1 (Drathang img. 42; Zhol I5910 img. 56-57; I1KG13487 img. 48-49; I5907 img. 66; Derge I00JW501163 img. 41-42; I3CN1711 img. 40-41; I3CN1696 img. 44-45; I3CN1702 img. 36-37) and by eye on the Derge and I3CN1711: every print has བརྗེད་ངས, none བརྗེད་ངེས; the claim `gt-night-rule-brjed-ngas-on-eight-prints`.
+
 Read by RD279 (2026-11-09): I1KG10010 img. 30–58 and I1KG12862 img. 36–52 by Yigdzin-1.
 
 Read by RD275 (2026-11-09): ch. 7's dream verse on two more prints, the Zhol print I5910 (img. 56–57) the Chag-po-ri print I1KG13487 (img. 48–49) the Chag-po-ri reprint I5907 (img. 66) and the Derge I00JW501163 (img. 41), found with Yigdzin-1 and looked at by eye at 8–14×; the readings by print in the claim `gt-dream-verse-chag-po-ri-prints`, section RD275. In these whole-work volumes the verse is not near img. 36–45.
@@ -120,3 +122,14 @@ Words told apart on the scan (img. 42 and 43), where Yigdzin-1 and MITRA differ 
 The verse's place: it begins in the first printed line of img. 42, after the messenger's omens (the last of them «རླུང་མེད་མེ་ཤི་སྣོད་ཆག་ངན་པའི་ལྟས», a windless fire dying, a vessel broken: a bad sign), and ends in line 2 of img. 43, where «ཐ་མལ་རྣམ་འགྱུར་འཆི་བའི་ལྟས་བསྟན་པ» opens the change of bearing (རྣམ་འགྱུར, rnam 'gyur), the second of the distant signs; img. 44 and 45 (Yigdzin-1 only) run through the near signs and the dissolving of the five senses.
 
 Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA as well and by eye; the dream verses whole are gt:i42-43 below.
+
+## Open (RD288)
+
+- Question: does the Serthang print (printed pp. 31-32, the leaf absent from the pool's scan I3CN5038) read «བརྗེད་ངས» as all eight other prints do, or «བརྗེད་ངེས»?
+- Question: does any commentary of the Four Tantras' tradition give the stretch of the night from midnight to dawn a name or a rule of its own, as the three-thirds rule of LGD and RST does, or is it simply the approach of «ཐོ་རངས»?
+
+## Searched and not found (RD288)
+
+- «བརྗེད་ངེས» on any print's scan of ch. 7 (Drathang, Zhol, Chag-po-ri I1KG13487, I5907, I3CN1711, I3CN1696, I3CN1702, Derge I00JW501163), Yigdzin-1 over the line and by eye on two: not found; all have ངས.
+- A part of the night between midnight and dawn named in Byang pa, Khro ru, Rin spungs pa, the Drikung and the 'Bum nag gsal sgron (the passages already in the pool): not found.
+- A second published etext of Byang pa or Khro ru in the pool beyond the ones already cited: none opened in this reading.
