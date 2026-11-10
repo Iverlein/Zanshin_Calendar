@@ -379,6 +379,39 @@ Second reading of the table 夢をみてかたらぬ日 of the 雑書夢合／�
 
 The three prints give the same twelve cells, differing only in spelling (ね written 祢, いぬ as ぬ, ゐ as い). The ORMK print has no closing line on this leaf (the lines left of the table are the picture's caption and the colophon); the TOKY print has one. The colophon of the ORMK print, left edge of the left page, read at 2x: 安永三午春新板 / 享和元酉春新板 / 京松原通冨小路東(入) … 屋吉右衛門 (the bookseller's name below it not read letter by letter), that is, a block of 1774 reissued in 1801 (the RD364 reading 新刻 for 新板 is corrected: the character is 板).
 
+## <a id="mdz-i426556"></a>mdz:i426556 夢合長寿鑑絵抄 (Kyoto, 安政4), image 27: 六甲の夢うらなひ, a dream divination by the day of the sixty-day cycle (RD371)
+
+*Read: machine.*
+
+> 〔夢合長寿鑑絵抄 (京大谷村文庫 DIG-KYOT-06268)、画像27、右頁、右から〕
+> ○六甲の夢うらなひ
+> これは六十日の甲子よりつゞき（て）夢のよしあしをうらなふ（…）くわしくしるす（読み切れず）
+> ○甲子日　今日見たる夢は親しき人遠方へ行事となるべし（読み切れず）
+> ○乙丑日　西の方より…酒食の…（読み切れず）
+> ○丙寅日　我家に思ひがけざる人来り…吉事を告る…（読み切れず）
+> ○丁卯日　南の方の…（読み切れず）
+> ○戊辰日　北の方の…（読み切れず）
+> ○己巳日　西の方…（読み切れず）
+> ○庚午日　東の方より人…（読み切れず）
+> 〔左頁に辛未日から己卯日まで九欄、同じ作り、読まず〕
+
+A page of dream divination by the day of the sixty-day cycle, headed "The dream divination of the six jia" (六甲の夢うらなひ, rokkō no yume uranai): one column to each day from 甲子 (jiazi) on, each a circle, the day's name and one article beginning "if" the dream seen on that day, with a quarter of the compass (west, south, north, east) in most columns and a happening: a close person goes far away, an unexpected person comes to the house, and so on. Read in part in the cursive; the heading's second line says it runs from the jiazi day through the sixty days and tells good or bad of the dream.
+
+## <a id="mdz-i446903"></a>mdz:i446903 夢合長寿宝 (National Museum of Asian Art DIG-FSGR-00169, 1851), images 2-3 and 33: title, preface, contents (RD371)
+
+*Read: machine.*
+
+> 〔夢合長寿宝 (国立アジア美プルヴェラー DIG-FSGR-00169)、画像2、題簽〕
+> 増補新刻 夢合長壽寶 全
+> 積翠陳人撰 / 東都文溪堂 發兌
+> 〔画像2、左頁、序の末〕
+> 夢合長壽寶の序 …（本文は読み切れず）
+> 嘉永辛亥初冬日 金水山人題
+> 〔画像3、夢合目録大概〕天地の部、人倫の部 …（部ごとに「一」で始まる見出し、月日の語は読まず）
+> 〔画像33、奥付〕…丁子屋平兵衛版（書名の広告「万歳大雑書」「夢合長寿宝」など、読み切れず）
+
+Title, preface and contents leaves of the Dream-matching jewel of long life (夢合長寿宝), enlarged and newly cut, complete; compiled by Sekisui Chinjin (積翠陳人), issued by the Tokyo shop Bunkeido (文溪堂); the preface is dated the early winter day of the metal-pig year, Kaei 4 (1851), signed Kinsui Sanjin (金水山人). The contents leaf (image 3, read at 5000 px) lists the articles by heading ("heaven and earth", "human relations", and so on) as "one if one sees X"; the headings name things dreamed of (sun and moon, clouds, mountain, sea, river, gods and buddhas, living things), and the contents' last line, read in part, speaks of bad dreams. Image 33 carries an advertisement leaf of the publisher Chojiya Heibei. No heading of the contents, and no leaf of the 34 images, is a table of months or a title with 語らず or 夢見て.
+
 ## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
 
 *Read: by eye on the page images 3 and 33, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
@@ -578,3 +611,28 @@ Open:
 - Question: the 万歳大雑書 / 万代大雑書 family (TOKY-01831 image 121, Shunan Kano, the 万代大雑書古今大成 of mdz:p11) is one text; do the 嘉永大雑書三世相 (国文研 200024108, Koizumi 300132222), the 大雜書三世相 of Nagoya (100339325) and Tohoku (100445829, 100445244) carry the same leaf (downloaded as sheets, not looked at)?
 
 Searched and not found (RD368), 2026-11-10: (1) the table in the Nagoya 隨一大雜書古今大成 images 100-104 (the dream section proper, no table); (2) the source 紀事 of the 栞草: not reached (the 凡例 was the only place looked at, RD364); (3) the 嘉永大雑書 of the Edo-Tokyo Museum, the 夢合長寿宝 text and the Waseda 夢占吉凶秘傳書 (Waseda answers 503 for the fourth time): not opened; (4) the 清明秘鈔夢判事's ten second lines: not re-read.
+
+## RD371 (2026-11-10): the remaining prints of the table of the days a dream is not told; Open; Searched and not found
+
+*Read: by eye on the page images, 2026-11-10 (18:11-18:40). The two passages above (mdz:i426556, mdz:i446903) are marked machine only because the pool tool's state field takes scan for Tibetan script alone. Images were fetched from the Kokubunken IIIF servers (kokusho.nijl.ac.jp/biblio/<bid>/manifest), ordered into contact sheets with three-digit names, and the leaves named below enlarged.*
+
+**Answers.** (1) In none of the prints named below, thirteen 三世相小鑑 prints, five 大雑書三世相 prints, the 萬歳大雑書日用寳 images 133-202 and the two dream books, is there a second or third table 夢と見て語らざる日: the table stands only in the three prints of mdz:i234427b, in the 万代大雑書古今大成 (mdz:p11) and in the Ebara dream book (eb9:i9). (2) No print gives a legend or note for the gap before the last group of each month; the closing line «右の日ミる夢ハ善悪とも語らず» of mdz:i183121 remains the only explanation any print offers, and it says only that a dream seen on the days of the table is not told. (3) The 国文研 copy ヤ…/54-254 (bid 200013909, 10 images, the book of eb9) was looked at again on image 9 at 5616 px: its table has no printed slash at all, the last group of each month stands lower after a space; the slash in the transcription of eb9:i9 is the editor's mark for that gap, as in the other prints. Its colophon, lower left of the same leaf, reads 安永三午春新板 / 嘉永五子春新板 and a bookseller's line whose first words I read as 京綾小路ふやゝ町西入 and then …屋吉兵衛板, not 京松原通冨小路西入 墨屋吉兵衛板 as eb9:i9b has it; the three glyphs between 綾小路 and 西入 are cursive and the two readings are left as a doubt. (4) The neighbouring dream pages of the 大雑書-type books say nothing of days: the 夢せんじ and 夢はんじ of the Nagoya 隨一大雜書古今大成 (RD368) and the 夢合長寿宝's articles are lists of "if one sees X". (5) A different kind of day table was found in the 夢合長寿鑑絵抄 (Kyoto, image 27, mdz:i426556): a dream divination by the day of the sixty-day cycle, "the dream divination of the six jia" (六甲の夢うらなひ), each day an article saying what a dream of that day brings. It is not the table of the days a dream is not told, and nothing in it is a day of silence; it shows that Edo dream books also gave the day of the dream a meaning of its own.
+
+**Images looked at** (bid, images; "sheet" is a contact sheet of 300-520 px an image, "enlarged" 2400-6000 px):
+
+- 三世相小鑑 (all 13 prints, sheets of the whole book, no leaf enlarged unless named; running text and pictured strips, the 年暦輪 title leaf, the 四季皇帝 leaf and the colophon, no month table): Koizumi 100300481 再販 (14 images), 100300482 増補改正三世相小鏡 (14), 100300483 and 100300484 新板絵入 (15 each); Tokyo Gakugei 100408615 (14) and 100409055 (15); Riken 100228503 (12); Hirosaki 100376378, 100376379 (19 each), 100376380 (13); Yokohama 100301855 (16); Himeji 300106529 三世相小かゞみ (30 images, sheets; image 23 left page enlarged to 3000 px: the table of the twelve stages 胎養長沐冠臨帝衰病死墓絶 against the five natures, with the months in numerals, not a dream table); Tohoku 100237027 新刻改正三世相小鑑 (52 images, bound with a 庭訓往来; sheets, the title leaf of the 三世相 on image 18).
+- 嘉永大雑書三世相: 国文研 200024108 (68 images; sheets of images 13-62; images 19-43, 59 enlarged to 2400-3200 px, image 38 at 6000 px, image 21 at 6000 px: the numbered articles of the days, the 灸せざる日 and 葬せざる日 lists, the 俗くろ日 chart, then the age-by-age Buddhas and the pictured fortunes on images 44-58, image 59 the 天父日, 大陰日 and 大陽日 and the days of birth; no 夢 article and no table of months with day branches); Koizumi 300132222 (73 images, all on sheets of 12 images; image 70 enlarged: colophon 嘉永四辛亥年三月 書林 江戸日本橋通壱丁目 須原屋茂兵衛 / 大阪心斎橋 敦賀屋九兵衛 / 秋田屋太右衛門, the same print as 200024108); the other 嘉永 entries named by the catalogue (Edo-Tokyo Museum 100450762, Himeji 300106373, 蓬左 100145738) were listed, not opened.
+- 大雜書三世相: Nagoya 100339325 (113 images, sheets of images 1-32, a cropped sheet of images 33-113: day tables, the nine-star tables, pictured pages, the colophon 嘉永六癸丑年春 大坂書林 河内屋茂兵衛 河内屋藤兵衛 / 江戸書林 吉田屋文三郎 read at thumbnail size only); Tohoku 100445829 (26 images, sheet; images 18, 22-25 enlarged to 3000 px: the numbered articles to 百三十二 and the end of the book) and 100445244 (大雜書三世相／附頭書, 13 images, one sheet; image 3 is missing in the scan, 欠).
+- 萬歳大雑書日用寳, TOKY-01831 (bid 100451582), images 133-202 on sheets of 12 and images 150 and 198 at 3200 px: images 133-146 the 三世相 Buddhas by age and the tables of years; images 147-198 the one-hundred lots (百籤), each a numbered 吉 or 凶 with a picture (image 150: 第四吉 and 第五凶; image 198: 第一百凶); on image 198 left the list 月の異名 (the months' other names), the ten stems and twelve branches and the 元版 colophon 慶應二丁卯年仲秋再刻, 大阪 豊田屋宇左衛門 / 綱屋茂兵衛 / 河内屋佐助; images 199-202 covers. No dream leaf.
+- 夢合長寿宝, National Museum of Asian Art DIG-FSGR-00169 (bid 100446903, 34 images; sheet; images 2, 3 (5000 px), 31-33 enlarged to 3400 px; mdz:i446903): the dream articles in running text with the heading groups, the pictures (a bear, a carp, a woman at a mirror), no table. The 国文研 copy 200021844 (36 images) and the 東洋大 copy 夢の説 300092463 (35 images) were looked at as sheets and are the same book.
+- 夢合長寿鑑絵抄, Kyoto Tanimura DIG-KYOT-06268 (bid 100426556, 35 images, sheet; images 27, 31, 33 enlarged to 3200 px, image 27 at 6000 px, mdz:i426556): images 7-26 pictured pages of dream articles, 27 the six jia, 31 the method of lying down to sleep (寝臥之法) with a strip of day-officers 定 破 成 開 執 危 收 開 (each a short counsel), 33 the end, 34 the colophon 河内屋 (name not read).
+- 夢占吉凶秘傳書, 国文研松野 54-254 (bid 200013909, 10 images, sheets and image 9 at 5616 px): see the answer (3).
+
+**Not reached:** the Edo-Tokyo Museum 嘉永大雑書 (bid 100450762, 78 images) and the Himeji 嘉永三世相大雑書 (300106373, 39 images), listed but not opened; the 蓬左文庫 copies (bids 100145740, 100145738, no manifest); the Tohoku 夢合長壽鑑繪抄 (100446527, manifest 404); the 夢占 Waseda copy (Waseda answers 503, not tried again); the sheets of the 三世相小鑑 prints are at sheet size and a sentence about a dream or a day could hide in their running cursive.
+
+Open:
+
+- Question: the 国文研 print (bid 200013909) and the Ebara volume bind the 夢人に咄さぬ日 table with a colophon that names a Kyoto bookseller; is the street line 京綾小路ふやゝ町西入 or 京松原通冨小路西入 (the cursive of three glyphs after 綾小路 or 松原通)?
+- Question: the 六甲の夢うらなひ of the 夢合長寿鑑絵抄 (image 27) gives a meaning to a dream for each of the sixty days; do its articles for the days of the table (the days named by branch in mdz:p11, e.g. 未 申 戌 in the first month) speak of keeping the dream silent, and what are its sixty articles in full?
+
+Searched and not found (RD371), 2026-11-10: (1) a table 夢と見て語らざる日 or 夢をみてかたらぬ日 in the thirteen 三世相小鑑 prints, the two 嘉永大雑書三世相 prints, the three 大雜書三世相 prints and the 萬歳大雑書日用寳 images 133-202 (sheets and the enlarged leaves named; running cursive not read letter by letter); (2) any legend, note or marginal line on the gap before the last group of each month in any print; (3) a sentence on the days in the 夢合長寿宝 and the 夢合長寿鑑絵抄 other than the six jia (the running text not read letter by letter).

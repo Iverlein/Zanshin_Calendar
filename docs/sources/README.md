@@ -708,6 +708,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
 | [claims/rme-bdun-great-bear-corpse-facing.md](claims/rme-bdun-great-bear-corpse-facing.md) | claim, note | «རྨེ་བདུན» in the corpse's facing is the Great Bear | cites wb.2:p97-100, wb.2:p283-285, wb.2:p31-32; feeds block-31 |
 | [claims/rnam-dpyod-blo-gros-spyan-stong-bkra-ba-orgyan-bstan-dzin.md](claims/rnam-dpyod-blo-gros-spyan-stong-bkra-ba-orgyan-bstan-dzin.md) | claim, note | The Rnam dpyod blo gros spyan stong bkra ba was written by Orgyan bstan 'dzin, a Gsho thang mantrin (RD326, q947) | cites svo:p271w; feeds block-73 |
+| [claims/rokko-yume-uranai-day-of-cycle-dream-divination.md](claims/rokko-yume-uranai-day-of-cycle-dream-divination.md) | claim, note | The 夢合長寿鑑絵抄 has a dream divination by each day of the sixty-day cycle (六甲の夢うらなひ), a different table from the days a dream is not told | cites mdz:i426556; feeds S3 |
 | [claims/rrt-bad-shown-as-good-by-deity.md](claims/rrt-bad-shown-as-good-by-deity.md) | claim, table | RRT: the bad sign that is good for one practice, by deity | cites rrt:p186-195; feeds block-73 |
 | [claims/rrt-no-time-rule.md](claims/rrt-no-time-rule.md) | claim, note | RRT: no watch of the night and no day count | cites rrt:p186-195; feeds block-73 |
 | [claims/rrt-obstacle-signs.md](claims/rrt-obstacle-signs.md) | claim, list | RRT: the signs of an obstacle, the king spirit and the dam sri | cites rrt:p186-195; feeds block-73 |
@@ -1190,6 +1191,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/za-zi-confused-not-many.md](claims/za-zi-confused-not-many.md) | claim, note | ཟ་ཟི (za zi) in «རྨི་ལམ་ཟ་ཟི་མང» is a word of its own: unclear, confused, troubled | cites wb.1:p431b, st:p183, st:p218, st:p241; feeds S1, q790, q884 |
 | [claims/zassho-sanseiso-kokagami-colophon-ita.md](claims/zassho-sanseiso-kokagami-colophon-ita.md) | claim, note | The colophon of the 雑書夢合／三世相小鑑 reads 新板, with a Kyoto bookseller | cites mdz:i234427b; feeds S3 |
+| [claims/zassho-table-no-printed-slash-in-kokubunken-54-254.md](claims/zassho-table-no-printed-slash-in-kokubunken-54-254.md) | claim, note | The 国文研 print of the Ebara dream book has no printed slash in the table of the days a dream is not told, only a space before the last group | cites eb9:i9; feeds S3 |
 | [claims/zassho-three-prints-not-told-days-same-cells.md](claims/zassho-three-prints-not-told-days-same-cells.md) | claim, note | The table 夢を見て語らざる日 stands in three prints with the same twelve cells; the slash is a gap before the last group | cites mdz:i183121, mdz:i234427b, mdz:p11; feeds S3 |
 | [claims/zassho-yumeawase-not-told-days-second-print.md](claims/zassho-yumeawase-not-told-days-second-print.md) | claim, note | The 雑書夢合 / 三世相小鑑 prints the table 夢をみてかたらぬ日 too, agreeing with the 万代大雑書 | cites mdz:i234427, mdz:p11; feeds S3 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
@@ -1261,7 +1263,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 17 passages: 10 scan, 7 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 19 passages: 10 scan, 9 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 9 passages: 2 machine, 7 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
