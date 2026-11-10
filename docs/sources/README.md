@@ -1994,6 +1994,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0988.md](questions/q0988.md) | question q988 | What does the Blue Beryl's clause on Drukpa yogis and Khri srong lde btsan's communities say among those of like kind to the good messenger, broken in the etext, and does the Drikung dka' mchan comment on the verse? | open; cites gt:i41b |
 | [questions/q0989.md](questions/q0989.md) | question q989 | What are «རྦད་མགོ» and «དྲྭ་ཕད» among the Drukpa realised ones' marks in the Blue Beryl's clause on those of like kind to the good messenger? | open; cites gt:i41c |
 | [questions/q0990.md](questions/q0990.md) | question q990 | The 夢合延寿袋大成 (1814, 夢占道人), the 夢合判断大成 (1830) and the 清明秘鈔夢判事 (1862), dream books listed in the catalogue without a digitised copy at the NDL, may be held open at another library (Waseda, the University of Tokyo, a university's collection): does any of them set out the table of the days on which a dream is not told, with a legend for the slash, or a 初夢 night and its calendar? | open; cites mdz:i899567 |
+| [questions/q0991.md](questions/q0991.md) | question q991 | On the Mchog dga' print (img. 626, MW1NLM5184) is the last word of «ཆུ་ཚོད་རེ་བཞི་བར་བྱེད་དགོས་སོ» «བཞི་བར» or «བཞིར», and what is meant by each day-and-night must be made re bzhi bar without a number? | open; cites svo:i626 |
 
 <!-- end pool index -->
 

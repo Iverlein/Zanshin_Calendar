@@ -2042,3 +2042,5 @@ Searched and found wanting, so not to be repeated:
 - **RD340** (RD340, 2026-11-10):
   - The NDL catalogue (ndl.py, 2026-11-10) for 夢合長者鑑, 夢合, 夢判断, 夢占, 夢解, 夢見, 夢合延寿袋, いろは引夢うらなひ, 夢うらない, ゆめはんじ, 夢判じ and 夢相, titles before 1925 with 夢 or ゆめ: apart from the 夢合長者鑑 (pid 899567, open) and the 1913 book (pid 917353) no record carries a Digital Collections pid; 759978 and 760913 stay restricted.
   - The 夢合長者鑑 on all 34 images: no table of days, no slash legend, no 語らざる日, no 初夢 (the running text not read letter by letter, so a sentence on the days could hide in it); the NDL OCR of pids 899567 and 917353 for 語ら, 初夢, 夢を見て, かたらず and 語らず: no hit, the OCR of 899567 noise.
+- **RD341** (RD341, 2026-11-10):
+  - Chapter 9's start (etext p. 449, «ཐོག་མར་དཀར་པོའི་ཕྱོགས་ཀྱི་ཐུན་ཕྱེད») in img. 620–649 by Yigdzin-1 (img. 650–665 fetched, not read): not located, the half-watch text already runs at img. 620–628 so it starts earlier; the verse of etext p. 454 (the multiplier words) not looked for on the scan; no MITRA second witness.
