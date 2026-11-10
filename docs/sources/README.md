@@ -2065,6 +2065,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1014.md](questions/q1014.md) | question q1014 | The 雑書夢合／三世相小鑑's table (mdz:i234427) and the 万代大雑書古今大成's (mdz:p11) agree in the twelve columns legible; is the slash of the one print present in the other, and which cells of the second month and of the eighth to tenth months read the same (the cells read here in part)? | open; cites mdz:i234427 |
 | [questions/q1015.md](questions/q1015.md) | question q1015 | In the 清明秘鈔夢判事's ten cells (mdz:i65134) what are the second lines of each cell (the place and manner of sending the dream away), and why do 子 and 丑 have no cell? | open; cites mdz:i65134 |
 | [questions/q1016.md](questions/q1016.md) | question q1016 | What is the work 紀事 that the 歳時記栞草 cites for the 初夢, and does the 栞草's nearby entry 鶏旦 (the dawn of the first day) fix anything about the night? | open; cites mdz:i7333115 |
+| [questions/q1017.md](questions/q1017.md) | question q1017 | Do the Vimalaprabhā's «short vowels from noon to midnight, thirty long vowels from midnight to noon» (vol. 11 p. 409) and «the long vowel is the dream's nature» (p. 539) mean that the dream belongs to midnight-to-midday, or are they two different lists of vowels? | open; cites kcd.11:p409 |
+| [questions/q1018.md](questions/q1018.md) | question q1018 | In the Mchog dga's reckoning of when a dream comes (kd.3:p177-179), what are the thirty parts of the tattāla junction and the «five places» they stand in, and is «ten parts, a third of the night» a misprint, given that 6, 10, 15 and 30 are not one scale? | open; cites kd.3:p177-179 |
+| [questions/q1019.md](questions/q1019.md) | question q1019 | Which planet is «གཟའ་ལག» in the Mchog dga's list of dream planets (the one that makes the dreamer teach and hear the Dharma)? It may be Mercury, ལྷག་པ. | open; cites kd.3:p177-179 |
+| [questions/q1020.md](questions/q1020.md) | question q1020 | Is the Padminī's verse of the bed rite (Derge vol. 13 p. 320) the Vimalaprabhā's own ritual text, or another work's, and whose? | open; cites kcd.13:p320 |
+| [questions/q1021.md](questions/q1021.md) | question q1021 | Is the seventh house from the sun's house, where the Mchog dga' puts the moon for a clear dream, counted with the first house as one? | open; cites kd.3:p177-179 |
 
 <!-- end pool index -->
 
