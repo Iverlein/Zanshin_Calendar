@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD369 (2026-11-10): the Phug pa Mchog dga's dream section (Kun 'dus chen mo vol. 3 etext pp. 197-200, printed 177-180) with its houses, five places and thirty parts (pp. 104-105, 140-150), the root verses in the Dbyangs 'char itself (Derge Tengyur etext VE23703_1521 ch. 3 pp. 121-122, checked against the Dpe bsdur ma [p1134]-[p1135]) and the Mongolian dbu can print img. 276-279.
+
 ## <a id="kd-3-p84-85"></a>kd.3:p84-85 The Mchog dga' ch. 2: the twelve houses and their lords, Mercury given as «gza' lag pa» at Gemini and Virgo
 
 *Read: etext, 2026-11-10.*

@@ -2141,6 +2141,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1039.md](questions/q1039.md) | question q1039 | In vol. 30 i139, what does «བཅུ་གསུམ་རང་ལོ་སྐག་ཐོག་ལ» mean (the age-thirteen term with «སྐག»)? Is it a technical year or term, or a scribal mistake? | open; cites tsl.30:i138-140 |
 | [questions/q1040.md](questions/q1040.md) | question q1040 | Is the tenth day on which Rtsa gsum gling pa's goddess-sister fixes his start of Dharma, and the ninth day of the Heruka dream, tied to the lunar-day series of the tenth (Guru's day) in the lineage, or only the date of that one dream? | open; cites tsl.30:i86-88 |
 | [questions/q1041.md](questions/q1041.md) | question q1041 | Is the verse list at tsl.27:i203-205 Rtsa gsum gling pa's own treasure text (the Gsang ba zil gnon) quoted by the compiler, or the compiler's verse? | open; cites tsl.27:i203-205 |
+| [questions/q1042.md](questions/q1042.md) | question q1042 | From what is the night counted for the thirty parts of the Mchog dga's dream rule (dusk is the only start that fits «dawn» for thirty), why is a part of the junction that holds the moment of the question read as a part of the night, and which night does a question about a dream mean? | open; cites kd.3:p179-180 |
+| [questions/q1043.md](questions/q1043.md) | question q1043 | In the thirty-part chart (kd.3:p129-130) the Kun 'dus etext prints the left row of numbers for the equal houses as 5, 5, 8, 7, 5 although it says «reversed». Is it 5, 7, 8, 5, 5? The author's example (27 = Mars) fits the reversed stretches. | open; cites kd.3:p129-130 |
+| [questions/q1044.md](questions/q1044.md) | question q1044 | Are the «staff» (dbyu gu, kd.3:p140) and the «water-hour» (chu tshod, pp. 141-143) the same third place of the five places in the Mchog dga'? | open; cites kd.3:p125-126 |
 
 <!-- end pool index -->
 
