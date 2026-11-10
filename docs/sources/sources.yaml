@@ -1273,7 +1273,22 @@ dds:
   licence: public-domain
   rank: 3
   role: source
-  locator: image
+  locator: page
+  volumes:
+    1: {etext: VEIE0OPI6685101E_I2PD19084, notes: "Snying thig ya bzhi (Klong chen pa), MW2PD19078; page = the etext's [pN] marker"}
+    2: {etext: VE1ER73, notes: "Bka' brgyud mgur mtsho (Drikung print), MW21963; page = the etext's [pN] marker"}
+    3: {etext: VEIE0OPI7770D117_I4616, notes: "Bdud 'joms gling pa, Zab gsang mkha' 'gro'i snying thig kha byang, MW28732_CD241B; page = the etext's [pN] marker"}
+    4: {etext: VEIE0OPID229B8DD_I2197, notes: "'Gyur med rdo rje, 'Khrul snang, MW22096_C4F657; page = the etext's [pN] marker"}
+    5: {etext: VEIE0OPI7770D117_I4634, notes: "Bdud 'joms gling pa's life, MW28732_3D8797; page = the etext's [pN] marker"}
+    6: {etext: VEIE0OPIFEB26077_I1KG11732, notes: "a master's life, BDRC title not matched; page = the etext's [pN] marker"}
+    7: {etext: VEIE0OPI42515047_I4PD946, notes: "Mgur chung mu tig phreng ba, 'Khrul zhig Dbang drag rgya mtsho, MW4PD929; page = the etext's [pN] marker"}
+    8: {etext: VEIE0OPIDA762E97_I00KG09714, notes: "letters and verses, MW00KG09693_D010B7; page = the etext's [pN] marker"}
+    9: {etext: VEIE0OPI37DD35AD_I1KG12251, notes: "Gdams ngag mdzod (Shechen print MW23605 and others); page = the etext's [pN] marker"}
+    10: {etext: VE1ALS00989E, notes: "Khal kha Ngag dbang dpal ldan, Dus tshigs kyi mchan 'grel, MW1ALS00989E; page = the etext's [pN] marker"}
+    11: {etext: VEIE0OPIE746BECA_I1KG25164, notes: "Klong rdol bla ma's biography, MW1KG25162; page = the etext's [pN] marker"}
+    12: {etext: VEIE0OPIB807CC27_I1PD440, notes: "Byis pa'i chung dpyad, MW00EGS1017462; page = the etext's [pN] marker"}
+    13: {etext: VEIE0OPI7CD7D2D9_I4210, notes: "Dpal ldan bkra shis, gsung mgur, MW24575_18F32C; page = the etext's [pN] marker"}
+    14: {etext: VEIE0OPI1A1EFFFF_I1831, notes: "'Jam dbyangs chos kyi blo gros ris med bstan pa'i rgyal mtshan, biography (Mkhyen brtse bkra shis dpal 'byor), MW21809_31CD7E; page = the etext's [pN] marker"}
 
 snr:
   title: "Rgyal ba khyab bdag rdo rje 'chang chen po'i lam gyi rim pa gsang ba kun gyi gnad rnam par phye ba (the Great Exposition of Secret Mantra, the Sngags rim chen mo), the chapter on the preparation (sta gon) of the initiation"

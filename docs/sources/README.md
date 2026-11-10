@@ -230,6 +230,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
 | [claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md](claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md) | claim, note | The Dbyangs 'char's half-watch verse in the 'Bri lugs bang mdzod and the eight planet-nāga pairs in the later books (RD326) | cites svo:p271w, svo:p271x; feeds block-73 |
 | [claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md](claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md) | claim, note | The Dbyangs 'char's half-watches are eight by day and eight by night, equal within each (RD326, q946) | cites svo:p271w, svo:p271x, svo:p271y; feeds block-73 |
+| [claims/dds-dated-dreams-are-log-entries.md](claims/dds-dated-dreams-are-log-entries.md) | claim, note | Dated dreams in Tibetan biographies and treasure texts are log entries; the tenth and fifteenth are the usual nights | cites dds.1:p523, dds.2:p280, dds.3:p8, dds.4:p524, dds.5:p297, dds.5:p346, dds.6:p44, dds.7:p23, dds.11:p340, dds.13:p209, dds.14:p332; feeds block-73 |
+| [claims/dds-dream-date-matched-to-the-day-of-a-death.md](claims/dds-dream-date-matched-to-the-day-of-a-death.md) | claim, note | A dream's date set beside the day of a death, after the event | cites dds.8:p259; feeds block-73 |
+| [claims/dds-dream-month-is-a-month-name.md](claims/dds-dream-month-is-a-month-name.md) | claim, note | The dream month (rmi lam gyi zla ba) is the twelfth of twelve month names of the Catuspitha list | cites dds.10:p38; feeds block-73 |
+| [claims/dds-mar-ngo-rmi-lam-doubt.md](claims/dds-mar-ngo-rmi-lam-doubt.md) | claim, note | mar ngo'i rmi lam in a rite for conceiving a boy: doubtful | cites dds.12:p439; feeds block-73 |
+| [claims/dds-midnight-dream-in-the-death-signs.md](claims/dds-midnight-dream-in-the-death-signs.md) | claim, note | The midnight dream is the first of the outer death-signs in a teaching on the transference of consciousness | cites dds.9:p173; feeds block-73 |
+| [claims/dds-no-dream-verdict-by-date-in-bdrc-etext-search.md](claims/dds-no-dream-verdict-by-date-in-bdrc-etext-search.md) | claim, note | No sentence found in the BDRC etexts makes a dream's fruit depend on the lunar day, weekday, month, season or day animal | cites dds.1:p523, dds.2:p280, dds.5:p346, dds.8:p259, dds.9:p173, dds.10:p38; feeds block-73 |
 | [claims/dead-belly-strike-khon-typeset.md](claims/dead-belly-strike-khon-typeset.md) | claim, note | «ལུག་ལོ་ཁོ་ན་ཤི» in the notes is «ཁོན་ཤི»: the belly strike's eight | cites wb.2:p86-90, wb.2:p504-512; feeds block-31 |
 | [claims/dead-burial-root-pebbles.md](claims/dead-burial-root-pebbles.md) | claim, rule | The dead's burial reckoning: eleven root pebbles of time, the mewa and trigram among them | cites dz:i057-061; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
@@ -1186,7 +1192,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbd/cbd.md](corpus/cbd/cbd.md) | corpus | CBD | 1 passages: 1 etext |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 5 passages: 1 scan, 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
-| [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 0 passages: nothing read yet |
+| [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 15 passages: 15 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
