@@ -1958,3 +1958,6 @@ Searched and found wanting, so not to be repeated:
 - **RD318** (RD318, 2026-11-10):
   - No other print or source quotes either line: searched in the two etexts (identical wording at both places) and in the Yigdzin-1 text of five other prints.
   - The Zhe chen and Ngodrup hands could not be read by eye at the key syllables (scans too small and cursive); the ཕ/བ letter on Kazi (looked at by eye at 9–12×) not settled; no MITRA pass.
+- **RD222** (RD222, 2026-11-10):
+  - RD222 second run: TDR img. 347–348 and GNC img. 565–569 (2173×460 and 2165×461 px) cannot be read syllable by syllable at 2.3×; only a higher-resolution scan or another print helps.
+  - On SRM (4320×896) cropping by character fraction put the window across two lines; crops must be cut from per-line y centres (window about −42 to +26 px). disagree.py's «line N» does not map to scan lines on these pages.
