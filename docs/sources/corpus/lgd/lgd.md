@@ -9,6 +9,9 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD284 (2026-11-10): LGD in the Rin chen gter mdzod print (I1KG57 img. 981, printed p. 962, and img. 989, p. 970): the first line of p. 962 at 3- to 10-fold (the six ornamental glyphs, compared with the same string in the Palri print I01CT0067 img. 534) and the last line of p. 970 with the demon's phrase; BDRC's exact-string search for the phrase and its partners. Claims lgd-p962-seed-string-is-ornamental-and-unread, lgd-three-parts-of-night-share-the-names-of-rst-thirds, lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.
 
+Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).
+
+
 Read by RD271 (2026-11-09): LGD's «མི་ཁའི་རྫས», «རམ་རུག» and «སྦང་གཡེར» in Steinert's 64 public dictionaries, BDRC's exact full-text search (143 hits for the goods, 10 for ram rug) and the etexts' windows; no scan opened. Claims lgd-mi-kha-goods-of-gossip-are-rite-substances, lgd-ram-rug-is-the-ram-bu-spelling, lgd-sbang-g-yer-beer-mash-and-pepper.
 
 Read by RD254 (2026-11-09): LGD's phrase «རམ་རུག་སྤང་གཡེང» (the goods of gossip) in the Zhe chen (I4PD2250 img. 310 line 6), Kazi (I6132 img. 559 line 1) and Sbas-yul (I1LT3208 img. 148 line 3) scans at 3–12×, contrast-stretched, syllable by syllable, with Yigdzin-1 and MITRA on line crops; the Shechen vol. 37 etext's two places; the Palri print img. 541 and 543 whole as passages lgd.42:p533 and lgd.42:p535.

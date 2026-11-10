@@ -1829,3 +1829,8 @@ Searched and found wanting, so not to be repeated:
   - Co ne SVO (I1GS66059 img. 270 lines 3–4) at 3×: dotted, partly missing ink; no watch-line syllable told apart by eye except the stack «ཐུན་བཞི».
 - **RD282** (RD282, 2026-11-10):
   - About 90 exact-string searches on BDRC (2026-11-10, EWTS) for the paragraph between char. 18559 and 21346 of Padma rdo rje's book and for the one after char. 25516: forms of «rmi lam brtag pa» with a particle or noun, «bstan 'gyur las rmi lam», the translator and author names, «slob dpon», «lo tsA ba», «ngag dbang gi dgongs pa», «de ltar» and «thun» openings: more than ten hits (none his book) or none. Only the lent scan can settle it.
+- **RD284** (RD284, 2026-11-10):
+  - The Zhe chen, Kazi and Sbas-yul prints' first line of the LGD rite (the six glyphs of p. 962): their dream folios only are in the scan cache and the rite's first folio was not located; no plain-letter witness seen.
+  - BDRC exact-string search (2026-11-10) for «མཉམ་པོར་འོང་བའི་བདུད» (68 hits), «མཉམ་པོར་འོང་བའི་ལྷ» (1), «ལྷན་ཅིག་སྐྱེས་པའི་བདུད» (88), «རང་དང་ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» (9), «ལྷན་སྐྱེས་ཀྱི་བདུད» (12): snippets only, none glosses the phrase or names a dream.
+  - A span for LGD's dusk, midnight and dawn (hours or watches): none in LGD, in RST's thirds or in the pages read.
+  - A collectors' note, preface or list of sources in MDP: none in the front matter (I4992 img. 4–19) or on pp. 134–138; a composer's name for the rite of pp. 134–137: none.

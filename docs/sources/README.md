@@ -1676,7 +1676,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | open; cites lgd:p966-967, svo:p268 |
 | [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
 | [questions/q0808.md](questions/q0808.md) | question q808 | Where does Klong rdol bla ma's own text on examining the omens of dreams, the source of KBS's verses, stand in his collected works? | answered; cites kbs:p68-70, rst:p1-8, rst:p17-20 |
-| [questions/q0809.md](questions/q0809.md) | question q809 | What is the dream part of MDP (printed pp. 134–137), and who composed it: an old text or the collectors' own? | open; cites mdp:p134-138 |
+| [questions/q0809.md](questions/q0809.md) | question q809 | What is the dream part of MDP (printed pp. 134–137), and who composed it: an old text or the collectors' own? | answered; cites mdp:p134-138, mdp:p137b |
 | [questions/q0810.md](questions/q0810.md) | question q810 | Which three watches does WB vol. 1 p. 17 mean by the night's name «ཐུན་གསུམ་ཀུ་མུད་བཞད་རྣམས», against four watches by night on p. 101 and vol. 2 p. 403? | open; cites wb.1:p17b, wb.1:p101, wb.2:p403 |
 | [questions/q0811.md](questions/q0811.md) | question q811 | Is «ཉིན་མཚན་ཐུན་བརྒྱད» one division of the day and night into eight watches, or the day's and night's lengths each divided by eight? | open; cites wb.2:p403, wb.1:p134-135 |
 | [questions/q0812.md](questions/q0812.md) | question q812 | Are the four watches of the night in WB vol. 1 p. 101 equal, and what is the unit of their planets' stretches (ཆུ་ཚོད 5, 4, 6, 3, 7, 4, 1)? | open; cites wb.1:p101 |
@@ -1742,6 +1742,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0872.md](questions/q0872.md) | question q872 | In Negelein's manuscript i (Leipzig 1178) 'dvitīye cāṣṭame māse triyāme ca tripakṣake' has three fortnights for the third watch: does the Leipzig manuscript itself read tripakṣake, or is it Negelein's emendation of trimāsake? | open; cites neg:p14-16 |
 | [questions/q0873.md](questions/q0873.md) | question q873 | Does the Co ne print's fourth-watch line of the Svapnohana end «པར་དུ» or «པར་བྱ»? | open; cites svo:p271h |
 | [questions/q0874.md](questions/q0874.md) | question q874 | Is the first segment of the Svapnohana's second-watch line «བརྒྱད་པ་ལ» (Narthang, Peking) or «བརྒྱད་བར་ལ» (Derge etext) the older reading, and which does the Dpe bsdur ma's collation give? | open; cites svo:p271h |
+| [questions/q0875.md](questions/q0875.md) | question q875 | Is the string of six ornamental glyphs after the page-opening Om in the first line of LGD p. 962 (and p. 526 of the Palri print) a string of seed syllables, a mantra in ornamental letters or an invocation, and in plain letters what does it read? | open; cites lgd:p962 |
+| [questions/q0876.md](questions/q0876.md) | question q876 | Is «མཉམ་པོར་འོང་བའི་བདུད» the demon of self-clinging that Chöd teaches as the co-born demon (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), or an attendant adversary of the person set beside «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ»? | open; cites lgd:p970 |
+| [questions/q0877.md](questions/q0877.md) | question q877 | Who is the monk Sgra tshad pa (དགེ་སློང་སྒྲ་ཚད་པ) whose notes close MDP's rebirth-seeing rite on p. 137, and is the Rga lo of its lineage the translator Rga lo tsā ba? | open; cites mdp:p137b |
 
 <!-- end pool index -->
 

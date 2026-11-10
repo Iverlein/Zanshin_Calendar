@@ -9,6 +9,9 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD284 (2026-11-10): MDP pp. 134–138 (bdrc-W21880 img. 142–146, the archive.org copy; printed p. 134 = img. 142): Yigdzin-1 on the pages 134 to 138 and a crop of the end of p. 137, the lineage, the monk's note and the heading of p. 138 by eye at 2- and 3-fold; the front matter of the preview scans (I4992 img. 4–19). Claims mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes, mdp-p138-is-the-rst-text.
 
+Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).
+
+
 Read by RD259 (2026-11-09): The Co ne Tengyur volumes 63–66 sampled, MDP pp. 134–137 (bdrc-W21880 img. 142–145).
 
 Read by RD212 (2026-11-09): KDL pp. 235–241 (I5556 img. 241–247), KBS pp. 66–80 (I1PD36011 img. 70–84), MDP the dream part (printed pp. 134–137).
