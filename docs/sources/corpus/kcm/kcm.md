@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD297 (2026-11-10): the Tashijong scan's time phrase looked at again by eye (I2638 img. 692, wvo manifest MW23766_5DC139::bdr:I2638, crops at 1.2–5×), no new reading; the Rin chen gter mdzod scan page not found.
+
 Read by RD258 (2026-11-09): the time phrase on a scan of a third print (I1KG81132 img. 480–482, the Kun dga' bstan pa'i rgyal mtshan collection), and the Rin chen gter mdzod scan route shown a dead end.
 
 Read by RD239 (2026-11-09): SRM on the second print W24769 vol. 6 (I6320 img. 275–279).
@@ -49,6 +51,8 @@ The text is not a table of dream images but a rite for calling a clear dream and
 **RD258 (2026-11-09): the page of the time phrase found, on another print.** The Rin chen gter mdzod scans do not carry the page: the etext VE1KG14_037 is longer than its scan volume I1KG52 (803 images, img. 3–805, ending at about etext offset 752k of 1.174M; the etext's [pN] marks restart at each text, so they are not pages). KCM stands in the etext at offset 1 076 584, after the Dgongs 'dus and Pra se na texts, which the neighbouring scan volume I1KG53 (vol. 38, 839 images) does not follow in order: Yigdzin-1 over 25 probe images of I1KG53 matched the etext only at img. 440 and 460, and nowhere else. The second etext found by RD237, VEIE0OPIC2BFA6FE_I1KG81132 (the bka' 'bum of Kun dga' bstan pa'i rgyal mtshan, gleg bam 20; image group I1KG81132, 592 images, served), holds KCM at [p480]–[p482] (title at p. 480 end, «ཐོ་རེང་གི་དུས» on p. 482), and its scans are served: image = etext page, printed folio = image minus 8 (img. 482 carries the folio 474). The title and the first part are on img. 480–481 (Yigdzin-1 read them; not read by eye), the closing paragraph on img. 482 lines 2–4. By eye at 3×, line 3 ends «…གཉིད་དུ་འགྲོ་བར་བྱས་པས་ཐོ་རེང་གི་དུས་མངོན་», then line 4 «སུམ་དུ་ལུང་སྟོན་པའི་ཚིག་གམ།»; Yigdzin-1 and the etext give the same. So the phrase is «ཐོ་རེང་གི་དུས» (tho reng gi dus), "the time of dawn", with «དུས» alone and no «ཚོད»: this print, the Rin chen gter mdzod etext («ཐོ་རེངས་ཀྱི་དུས») and the ligature seen by RD226 agree, and q819 and q801 can be answered "dawn" with the reserve that the Tashijong syllable itself is a ligature read by inference. See passage kcm:p474. The print is a typeset-looking dbu can page of the collected works with its own variants (e.g. «ཧྲཱིཿམ་ཧ་རི་ནི་ས་ཕུ་ཕུ་ཏུང་ཏུང»); it was not collated beyond the closing paragraph.
 
 *Searched and not found (RD258).* The KCM page in I1KG52 (img. 3–805: the volume ends before KCM's place in the etext) and in I1KG53 (probes img. 5, 40–560 step 20–40, 580–820 step 40: only the Pra se na text at img. 440/460 matches the etext, KCM not reached); bdrc.py volumes W1KG14 answers HTTP 401, so the work's own volume list was not read.
+
+*Searched and not found (RD297).* The syllable before «རང་གི་དུས་ཚོད» on I2638 img. 692, crops of the end of line 3 and the start of line 4 at up to 5×: the cursive hand's one joined form still cannot be told as ཐོ, བཻ or ཕམ by eye, and the comparison with the same hand's ཐོ elsewhere on the page was not settled; no new scan of the Rin chen gter mdzod page was found beyond what RD258 recorded (I1KG52, I1KG53). The answer "dawn" rests on the third print's scan (kcm:p474) and the etext.
 
 ## Open
 
