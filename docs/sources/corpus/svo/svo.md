@@ -1387,3 +1387,12 @@ Machine reading (Yigdzin-1) of the first three lines of img. 626 of the National
 
 Nothing read yet: RD357's passages, with the English beside them, go here.
 
+
+## Who wrote the Svapnohana, how its watches are bounded, and where its series of spans comes from (q796, q798, q799, q847, q853): whether «ངག་དབང» at the end of its remedy is Vāgīśvarakīrti and what the Tengyur's colophons and catalogues (Derge, Peking, Narthang, Co ne dkar chag, Bu ston's Chos 'byung, Tāranātha) say of its translator and author, how Padma rdo rje introduces his whole quotation of it (pp. 17–26 of his book) and whether he glosses the watches, what the Tibetan commentaries and medical or divination books say of the four watches' bounds, and whether an older Indian text has the series year, eight months, three months, half a month, ten days (RD359)
+
+Nothing read yet: RD359's passages, with the English beside them, go here.
+
+
+## The Svapnohana and Advayavajra's examination, scan proof of RD207 (RD218)
+
+Nothing read yet: RD218's passages, with the English beside them, go here.
