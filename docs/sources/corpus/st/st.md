@@ -287,3 +287,13 @@ Question: Does the Moonbeams' gloss of the Eight Limbs' «རྨི་ལམ་�
 ## Searched and not found (RD301)
 
 BDRC full-text search, 2026-11-10: the exact line «ལུས་ཡང་རྨི་ལམ་དག་ན་སྐྱེས་པ་མཐོང» 19 hits, neither the Blue Beryl nor the Moonbeams among them (the Blue Beryl does not quote that line; its etext was fetched and searched whole: «རྨི་ལམ་དག་ན» once, in its own sentence with an added ཡང, «རྨི་ལམ་དག་ནའང་»). «མཚན་སྟོད་རྨི་ལམ་འབྲས་བུ་རིང» 11 hits, among them the Moonbeams (MW23703_4312, and MW1PD95844_3549 in another set) and Byang pa; «མཚན་སྟོད་ཕྱེད་པ་ཡན་ཆད» 3 hits. The Moonbeams on the Four Tantras' own verse «བརྗེད་ངས» or «བརྗེད་ངེས»: not in it. The Blue Beryl's page images (I1PD411) and the Moonbeams' (the Tengyur) not looked at, so no reading on a scan. The Moonbeams by Dharmaśrī in dz is another work (on the elemental divination); this one is the commentary on the Eight Limbs. The ch. 2 line on the Blue Beryl's other print (I8LS19191 and the Mes po'i zhal lung hit): not opened.
+
+
+## The Four Tantras' ch. 81 dream list as the commentaries read it: ལྗོང, ལྕོལ, སྡིག་སྡོམ and ནིའུ་གསིང (q791), the creatures of the nāga spirits' dreams (q817), and «ལྷས་ཚོར་དུས་ཏེ» with its sister clause (q885, q893), in Byang pa, Khro ru, Zur mkhar ba, Rin spungs pa, Skyem pa Tshe dbang, the Blue Beryl and the Drikung dka' mchan (RD303)
+
+Nothing read yet: RD303's passages, with the English beside them, go here.
+
+
+## The Four Tantras' ch. 91 remedies for the spirit that leads the sleeper away in his dream: ཕྱྭ beside མོ (q896), ཕྱུ, དྲི་ཆེན and བ་ར (q792, q817), and whether the two bracketed remedies are interlinear notes that entered the Serthang text (q824), on the Derge, Chag-po-ri, Zhol and Drathang prints and in the commentaries (RD304)
+
+Nothing read yet: RD304's passages, with the English beside them, go here.
