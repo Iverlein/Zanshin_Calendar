@@ -1981,6 +1981,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0982.md](questions/q0982.md) | question q982 | In the Sha za brtsegs pa'i rgyud's ninth section the signs of nearness (black man, black dog, raven, tiger, thunder) stand under the title «the chapter of the dream signs»: are they dreams of the practitioner at the approach, and are the lines after «ཐོག་འཚག་ཉེ་བའི་མཚན་མའོ» a second group, signs of the work succeeding? | open; cites szb:i463 |
 | [questions/q0983.md](questions/q0983.md) | question q983 | Does Dbang chen dgyes rab rdo rje follow a text for the dream step (he cites the Mantra Stages, «སྔགས་རིམ་ཆེན་མོ»), and does the Vairocana initiation tradition name signs a teacher reads in the pupils' dawn dreams? | open; cites dgd:i80-82 |
 | [questions/q0984.md](questions/q0984.md) | question q984 | Is the 夢合長者鑑, a dream book listed at forty sen in the publisher's list of the 万代大雑書三世相 (Suzuki Kiemon, 1886), set out in the NDL or any library, and does it carry the table of the days on which a dream is not told with a legend for the slash, or a 初夢 night? | open; cites mdz:i190 |
+| [questions/q0985.md](questions/q0985.md) | question q985 | On the Derge print (I1344 img. 248–249) are the letters of «དྲི་དམར», «ལོ་བརྒྱད» and «ཀོ་པི་ད་ར» (Yigdzin-1 «ཀོ་བི་དར») those of the Derge etext, or does the eye's pa/ba and da/ra reading differ on a sharper image? | open; cites cbs:p248-249s |
 
 <!-- end pool index -->
 

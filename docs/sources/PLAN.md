@@ -2029,3 +2029,5 @@ Searched and found wanting, so not to be repeated:
 - **RD339** (RD339, 2026-11-10):
   - The table, 語らざる日 and 初夢 on images 128, 132–139 and 190 of pid 760742: not found; images 140–189 (the lots) seen only through the OCR sorted by image, not by eye; images 1–107 (front matter and almanac day-choosing tables) not read leaf by leaf, only 33, 36 and 101 looked at.
   - The OCR text of the volume has no hit for 語らざる, 初夢 or 夢を見て, as in RD308; the cursive of the articles looked at, not read letter by letter.
+- **RD337** (RD337, 2026-11-10):
+  - The Derge pa/ba and da cannot be read by eye at 8 px (3–10× crops show blurs); no MITRA witness run; scans.py line failed on the Derge page, finding one line, so crops were cut by hand; the first slot run showed finished while another reader's job held the card.
