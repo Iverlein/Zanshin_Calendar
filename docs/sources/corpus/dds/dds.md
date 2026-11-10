@@ -305,3 +305,13 @@ The history is anonymous in its words: it speaks of Marpa in the third person an
 - Death-sign dream lists that name no part of the night but were not read beyond the snippet: Ras chung snyan brgyud skor's other texts, Rol pa'i rdo rje's and the Gsang sngags Wam volume's quotations of Tsong kha pa, the Klong gsal rdo rje snying po khrid rim (the «dngos sam rmi lam gyi 'chi ltas» line only), the Rnam shes gong du 'pho ba's other copy (I6006), and the modern Krung go'i gso rig kun 'dus.
 - The Four Tantras' root text was read in the Sichuan Minzu «Gso rig 'bum bzhi» etext only (not on a scan, not in the Derge-style prints, not in Zur mkhar's, Sde srid's or Khro ru's commentaries, which BDRC lists); the «Zla zer» that Byang pa cites for the fuller words was not found.
 - The scans: only the Gdams ngag mdzod pages (I1KG12251 img. 173-174 = printed pp. 141-142) were looked at; the Marpa gsung 'bum (I1KG15196), the Bka' brgyud sngags mdzod (I3CN3133), the Ras chung collection (I4PD2765), Tsong kha pa (I3PD276, the ACIP copy), the Rgyud sde kun btus (I4670), Byang pa (I4706), the Gso rig 'bum bzhi (I3CN8196), the Bri lugs bang mdzod (VE1ER95) and 'Jig rten mgon po's works (VE3JT13348_013) were read in their etexts only, so every Tibetan passage but the first lines of dds.9:p173-174 is etext. The etexts have OCR noise and the spaces inside words are dropped in the quoted Tibetan.
+
+
+## The Saṃvarodaya's and the Hevajra's dream signs of death (q1065, q1066): the whole of ch. 19 of the Śrī Mahāsaṃvarodaya Tantrarāja (Derge Kanjur etext VE4CZ5369_I1KG9204 from the page 580 on) read with its scan, the verses on the black woman «Time-Night» (དུས་མཚན) and the months, the Sanskrit (Tsuda's or another open edition, archive.org), the other Tibetan translations (Peking, Narthang, Dpe bsdur ma), the commentaries (Bhavabhaṭṭa, Jayabhadra, Sachen, Tsong kha pa's Sdom 'byung notes) and the Hevajra Tantra's own dream verses (Toh 417 and 418, Snellgrove's Sanskrit) against the Hevajra rite of Marpa's collected works (RD382)
+
+Nothing read yet: RD382's passages, with the English beside them, go here.
+
+
+## The authorship of Marpa's four sheets and their companion methods (q1064): the Kagyu catalogues and the works records of BDRC for the Lho brag pa transference text («'pho ba spyi rtol») and its history «Rje btsun Lho brag pa'i khyad par gyi gdams pa snyan gyi shog dril bzhi», who the «I» of the history is, the Gdams ngag mdzod's and the Bka' brgyud sngags mdzod's own notes on their sources, and the lineage histories (Deb ther sngon po, Mkhas pa'i dga' ston, Bka' brgyud gser 'phreng) for the transmission of the four sheets (RD383)
+
+Nothing read yet: RD383's passages, with the English beside them, go here.
