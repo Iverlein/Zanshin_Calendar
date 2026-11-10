@@ -910,6 +910,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-rat-day-lines-on-all-prints.md](claims/wb-rat-day-lines-on-all-prints.md) | claim, note | The rat day's lines are the same on every print; the Bhutan collection's table adds «ཁ་ཡོ་ནས» | cites wb.2:p224b, wb.2:p224c; feeds — |
 | [claims/wb-rat-day-yo-nas-wb-own-table.md](claims/wb-rat-day-yo-nas-wb-own-table.md) | claim, note | The rat day's short form «ཁ་ཡོ་ནས་འདྲེན» is WB's own, and the verb of the line is «strain» | cites wb.1:p133, wb.2:p224b, wb.2:p224c; feeds — |
 | [claims/wb-rd56-additions.md](claims/wb-rd56-additions.md) | claim, note | What RD56 adds to and settles in the topic files | cites wb.2:p175-176, wb.2:p387, wb.2:p378-384, wb.2:p236-237, wb.2:p240; feeds — |
+| [claims/wb-rmi-lam-rtsub-is-restless-sleep.md](claims/wb-rmi-lam-rtsub-is-restless-sleep.md) | claim, note | WB ch. 25 and 27: «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» are the sleep of the sick, not an image of ch. 30 | cites wb.1:p428c, wb.1:p431b, wb.2:p21, wb.1:p428b, wb.1:p431, wb.2:p144; feeds S2, RD216 |
 | [claims/wb-rough-years-lo-rta-snang-par.md](claims/wb-rough-years-lo-rta-snang-par.md) | claim, definition | «ལོ་རྟ» and «སྣང་པར་བཤད»: the rough years and the rough seven as they appear | cites wb.1:p391; feeds block-58 |
 | [claims/wb-sage-pig-days.md](claims/wb-sage-pig-days.md) | claim, definition | The sage's and the pig's seven days fixed by the true mean sun | cites wb.1:p187, wb.1:p188; feeds T2.21 |
 | [claims/wb-sage-pig-table.md](claims/wb-sage-pig-table.md) | claim, table | The 65-year table of the sage's and the pig's days and its rule | cites wb.1:p188, wb.1:p189; feeds T2.21 |
@@ -1098,9 +1099,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 5 passages: 5 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
-| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 39 passages: 23 scan, 16 machine |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 43 passages: 34 scan, 8 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 44 passages: 36 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
