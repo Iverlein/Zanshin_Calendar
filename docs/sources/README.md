@@ -1658,7 +1658,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0784.md](questions/q0784.md) | question q784 | Written sources on reading dreams, and whether any ties them to the calendar | answered; cites wb.2:p144, wb.2:p144e |
 | [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | open; cites mdz:p11 |
 | [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11 |
-| [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | open; cites skf:p1 |
+| [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | answered; cites skf:p1, skf:p3 |
 | [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | open; cites nip:p1 |
 | [questions/q0789.md](questions/q0789.md) | question q789 | In the Four Tantras' ch. 2 line on the boy's dream, is ཡང light or also, and is དག clear or a plural? | open; cites st:p21 |
 | [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | open; cites st:p183, st:p218, st:p241 |

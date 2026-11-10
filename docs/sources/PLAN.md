@@ -1839,3 +1839,7 @@ Searched and found wanting, so not to be repeated:
   - BDRC records of MW25101 parts 64–66 give no author for any of the three works; BDRC's record of SKP's first text has no author field.
   - BDRC full-text search «དམར་མོ་འདས་པའི་གདུང་ཐལ»: no hit; «རྨི་ལམ་བརྟགས་པའི་ལེའུ» and «རྨི་ལམ་བརྟག་པ་པདྨ་དཀར»: no hit (for «རྨི་ལམ་བརྟག་པའི་ལེའུ» only the Man ngag rin chen nyi ma'i sgron ma ch. 6, VE1KG14_019, and an unrelated NLM manuscript).
   - Steinert's 64 dictionaries (locate.py dict) not consulted: the clone is not in the scratch; «dmar mo» and «rno bkra» not looked up.
+- **RD285** (RD285, 2026-11-10):
+  - 国書データベース title search 大雑書: 305 records, several open-image prints (永代大雑書 Ansei 3 on the NDL, 星槎ラボ's 大ざつしよ Enpō 2, 彰考館, 北大's 安政雑書大成) but no 京都大学 潁原文庫 copy of EB9's 大雑書.
+  - 京都大学貴重資料デジタルアーカイブ: its keyword search ignores a keyword given in the address and returns the whole archive (27,627 items); no 大雑書 found there.
+  - The NDL fulltext API is 403 for the other 大雑書 prints and for 校註国歌大系, 西行法師全集 (春陽堂 1926) and 山家集詳解; it works for 日本歌学全書 (pids 993401–993412), 異本山家集 and 西行全集 (1930). 山家集 on Wikisource and the 国歌大観 numbers: not open.

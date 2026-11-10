@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD285 (2026-11-10): 異本山家集 (NDL pid 872857, image 61), 西行全集 (pid 1879989, image 122) and 日本歌学全書 vol. 8 (pid 993408, image 120).
+
 ## <a id="skf-p1"></a>skf:p1 The poem on the first dream, headed 'composed on the morning of the beginning of spring'
 
 *Read: etext, 2026-11-09.*
