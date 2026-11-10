@@ -652,6 +652,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-la-mo-conflict.md](claims/svo-la-mo-conflict.md) | claim, conflict | Peking and Narthang read rta la mo where the Derge text has rta bla mo | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-la-mo-further-narthang.md](claims/svo-la-mo-further-narthang.md) | claim, note | The two further Narthang prints read rta la mo, as Peking and the first Narthang print do | cites svo:p271c, svo:p271b; feeds RD231 |
 | [claims/svo-modern-tibetan-quotations.md](claims/svo-modern-tibetan-quotations.md) | claim, note | Modern Tibetan books quote the Svapnohana's rule of the watches; no earlier quotation found | cites svo:p268, svo:p271f; feeds block-73 |
+| [claims/svo-narthang-watch-verse-by-eye.md](claims/svo-narthang-watch-verse-by-eye.md) | claim, note | The Narthang manuscript has all four watch lines, and the third ends «བར» without «དུ» | cites svo:p271h, svo:p271e; feeds — |
 | [claims/svo-other-prints-agree.md](claims/svo-other-prints-agree.md) | claim, note | Peking, Narthang and the Dpe bsdur ma text settle the spelling of the Svapnohana's bcu yi bar, bgrod min and 'gron bu | cites svo:p271b, svo:p270; feeds RD228 |
 | [claims/svo-peking-fourth-watch-line.md](claims/svo-peking-fourth-watch-line.md) | claim, conflict | The Peking print of the Svapnohana lacks the fourth watch's line | cites svo:p271d, svo:p271e, svo:p268-271; feeds RD233, RD235 |
 | [claims/svo-peking-whole-agrees.md](claims/svo-peking-whole-agrees.md) | claim, note | The Peking print of the Svapnohana agrees with the Derge text but for the fourth watch | cites svo:p271d, svo:p268-271, svo:p269, svo:p270, svo:p271; feeds RD233 |
@@ -1061,7 +1062,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 6 passages: 2 scan, 3 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 12 passages: 5 scan, 5 machine, 2 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 14 passages: 6 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |

@@ -397,7 +397,26 @@ Title: Sanskrit given as a garbled «སམྦྷ་ཨུ་སྨན», Tibeta
 
 ## The Svapnohana's watch lines in the Narthang and Co ne prints: is the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» present, and how does the third watch's line read — q833, q870, q864, q865, q836 (RD280)
 
-Nothing read yet: RD280's passages, with the English beside them, go here.
+## <a id="svo-p271h"></a>svo:p271h The watch verse on the Narthang manuscript of the Svapnohana, read again by eye (RD280)
+
+*Read: scan, 2026-11-10.*
+
+> Narthang manuscript, W2KG5015 vol. 28 (I2KG212312 img. 284, printed p. 282, line 3, 3000 px strip, letters about 36 px; the third row of the frame), read on crops at 2–3×:
+> …བརྒྱད་པ་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར། །ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ། །མཐོང་བར་འགྱུར་བ་ཐེ་ཚོམ་མེད། །སྐྱ་རེངས་ཤར་བའི་དུས་ཉིད་ལ།
+
+...in the eighth month. The third watch: within three months. The fourth watch: within half a month. It will be seen, without doubt. At the time the dawn rises...
+The watch verse in the prints that carry it, read again by eye (RD280). Read: the Narthang manuscript's page (I2KG212312 img. 284, printed p. 282), 2–3× crops of the third row of the frame, every syllable of the verse; the Narthang one-bit copy (W22704, I3279 img. 286) at 3–4× (letters broken, the verse located and not read syllable by syllable); the Co ne (I1GS66059 img. 270, lines 3–4) at 3×; the Svapnekṣā not reread (RD234, RD236 and RD276 stand). Result: the Narthang manuscript has the four segments, the second watch's «ཐུན་གཉིས་ཟླ་བ་བརྒྱད་པ་ལ», the third watch's «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར» (the shad follows «བར» directly, no «དུ», as the Derge etext; the Peking print has «བར་དུ»), and «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» with «དུ» present (moderate; the stack is clear, the vowel-less «དུ» small); «མཐོང་བར་འགྱུར་བ་ཐེ་ཚོམ་མེད» and then the dawn line follow. The first segment's «བརྒྱད་པ་ལ» stands in the Narthang manuscript with པ (the first syllable's stack is cut at the crop's left edge; པ moderate, not «བར»), as Peking reads it at 2× (RD242), against the Derge etext's «བརྒྱད་བར་ལ». The Co ne's worn dotted ink did not give a syllable by eye at 3× (only the stack «ཐུན་བཞི» in line 4 is plain); its reading stays RD276's, by machine vote. Count by print as now known: four watches in the Derge etext, the two Narthang scans (one print family), the gser bris ma and the Dpe bsdur ma text; the Co ne carries the line by machine reading; three watches in the Peking print alone. The third watch's line ends «བར» in the Narthang and the Derge etext and «བར་དུ» in the Peking.
+
+### Open (RD280)
+
+- Question: does the Co ne print's fourth-watch line end «པར་དུ» or «པར་བྱ»? The ink is too broken to settle by eye (RD276's machine runs differ).
+- Question: is the first segment «བརྒྱད་པ་ལ» (Narthang, Peking) or «བརྒྱད་བར་ལ» (Derge etext) the older reading, and which does the Dpe bsdur ma's collation give? The notes' markers are lost in the OCR.
+
+### Searched and not found (RD280)
+
+- The Narthang one-bit copy W22704 (I3279 img. 286) at 3–4×: letters broken by thresholding, not readable syllable by syllable; the manuscript replica of the same page is the legible witness.
+- The Co ne img. 270 lines 3–4 at 3×: dotted, partly missing ink; no syllable of the watch lines told apart by eye except the stack «ཐུན་བཞི».
+
 
 
 ## Padma rdo rje's book that quotes the whole Svapnohana (about pp. 17–26): the sentence that introduces the quotation, its named source and author, and any gloss of the watches — q847, q796, q798 (RD282)
