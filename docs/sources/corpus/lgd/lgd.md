@@ -14,6 +14,23 @@ Read by RD307 (2026-11-10): BDRC etexts I3CN4779, I1KG24707, I1KG13062, I3154, I
 
 Read by RD318 (2026-11-10): the Palri print's two places by eye at 3× (img. 542, the mixed kind's last clause «མ་བྱེད»; img. 544, the middling yogin's «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག»), with the Rin chen gter mdzod and Shechen etexts (VE1KG14_042, _037) and Yigdzin-1 on the Kazi, Zhe chen, Ngodrup and Sbas-yul pages beside; the Kazi stack by eye at 9–12×, the hands not read by eye. Passage lgd.42:p966-971c; claims lgd-palri-mixed-clause-mabyed-against-maphyed, lgd-middling-yogin-rang-bzhin-against-rang-gzhan.
 
+Read by RD355 (2026-11-10, 16:56–17:34): the questions on the string after the Om (q807, q875), the goods of gossip (q804, q816, q840), the pair of p. 970 (q805, q908) and the three parts of the night (q806), each on the scan or in the etexts of the other copies. Scans: the Sbas-yul manuscript (I1LT3208 img. 141–152), the Ngodrup and Sherab Drimay print (I1867 img. 299–313), the Rin chen gter mdzod vol. 38 (I1KG53 img. 452–469 and every fourth of 644–668, by Yigdzin-1, to find the page), the Rin chen gter mdzod p. 962, 966, 970 (I1KG57 img. 981, 985, 989); etexts VE1KG14_038, VE1KG14_027, VE1KG14_037, and the Karmapa's collected works VE30541_005. Passage lgd.42:p962b; claims lgd-p962-seed-string-is-ornamental-and-unread (rewritten), lgd-p962-page-opening-om-is-a-page-head-mark, lgd-attendant-god-and-demon-swap-epithets-in-the-oath-bound-rite, lgd-three-parts-of-night-named-in-the-karmapa-and-the-rin-chen-gter-mdzod, lgd-ram-rug-ngodrup-reads-ri-tug-by-eye. The Shechen etext (vol. 42 p. 2 of the text) writes the string as six placeholder marks and opens three other Gongdü texts of the volume the same way (claim lgd-p962-seed-string-is-ornamental-and-unread).
+
+**Text outside LGD, read for q805 and q908** (not a passage of LGD: the Rin chen gter mdzod vol. 38's text «དམ་ཅན་སྐྱེས་བུ་ཆེན་པོའི་སྒྲུབ་སྐོར», etext p. 13, I1KG53 img. 656, the lines at the middle of the page, 4-fold by eye, Yigdzin-1 and the etext agreeing on every syllable):
+
+> དགུག་པའི་སྙིང་པོ་ཞག་བདུན་བཟླ། །གསད་པའི་དུས་ཀྱི་ཏིང་འཛིན་ནི། །གྲུ་གསུམ་ནག་པོའི་གཏིང་རུམ་དུ། །དམིགས་པའི་དགྲ་བོ་གསལ་བ་ལ། །ནད་ཡམས་དུག་ཁྲག་འཚུབས་མ་ཡིས། །མཉམ་པོར་འོང་བའི་ལྷ་དང་ཕྱེ། །ལྷན་ཅིག་སྐྱེས་པའི་བདུད་དེ་ནི། །གཅན་གཟན་གདུག་པའི་མཆེ་བ་ཅན། །དམ་ཅན་ཁྲོས་པའི་ཕོ་ཉར་གྱུར། །ཤ་ཟ་ཁྲག་འཐུང་རུས་པ་འཆའ། །སྲོག་སྙིང་དྲང་ཞིང་སྟོབ་པར་བསམ། །གསད་པའི་སྙིང་པོ་ཞག་བདུན་བཟླ། །
+
+"Recite the heart of summoning seven days. The meditation of the time of killing: in the depth of a black triangle, on the enemy visualised clearly, by the plague, poison and blood, and the whirlwind he is parted from the god who comes alongside (མཉམ་པོར་འོང་བའི་ལྷ, mnyam por 'ong ba'i lha); the demon born together with him (ལྷན་ཅིག་སྐྱེས་པའི་བདུད, lhan cig skyes pa'i bdud) turns a wrathful oath-bound messenger with a beast's fangs, flesh-eating, blood-drinking, bone-adorned; think that he draws out the life-heart and takes the strength. Recite the heart of killing seven days."
+
+**Two texts on the three parts of the night, read for q806** (etext only; the Karmapa's volume has no open scan, the vol. 27 page was not opened): the third Karmapa's «རྨི་ལམ་གྱི་ཚིག་བཅད», Rang byung rdo rje's collected works vol. 5, etext p. 57:
+
+> སྤྱིར་སྲོད་ཀྱི་རྨི་ལམ་བག་ཆགས་ཡིན། །ནམ་ཕྱེད་ཀྱི་རྨི་ལམ་གདོན་དབང་ཡིན། །ཐོ་རངས་གང་བྱུང་བདེན་ནོ་ཞེས། །བླ་མ་མར་པའི་ཞལ་ནས་གསུངས། །
+
+"In general the dream of dusk is habit; the dream of midnight is the power of spirits (གདོན་དབང, gdon dbang); whatever comes at dawn is true, so the lama Marpa said." And the Rin chen gter mdzod vol. 27's instruction on the four bardos: «འཆི་ཀའི་བར་དོ་ནི༔ སྲོད་ལ་གཏི་མུག་གི་དུས་སུ་སྣང་བ་ནི་ནུབ་པ༔ … སྲིད་པའི་བར་དོ་ནི༔ རྨི་ལམ་གྱི་བར་དོ་ཆོས་མཐུན་པས༔ ནམ་གུང་གི་རྨི་ལམ་གྱི་དུས་སུ་ཐིག་ལེ་ཀློང་བརྡོལ་བ༔ … ཆོས་ཉིད་ཀྱི་བར་དོ་ནི༔ ཐོ་རངས་ཀྱི་རྣམ་རྟོག་མགོ་ལང་བ་མཐུན་ཏེ༔» — the bardo of dying is likened to dusk (the time of dullness, when appearance sets), that of becoming to the dream «of midnight (ནམ་གུང)», that of the nature of things to the rising of thoughts at dawn.
+
+**The dusk line on three copies** (I1KG57 img. 985, the third row, the start of «ནམ་སྲོད་ཀྱི་དུས་ཕལ་ཆེར་བག་ཆགས་ཀྱི་རྨི་ལམ་འཆར༔ གུང་ལ་ཉོན་མོངས་པའི་རྨི་ལམ་འཆར༔ ཐོ་རངས་རྟེན་འབྲེལ་བཟང་ངན་གྱི་རྨི་ལམ་འཆར་ཞིང༔», read by eye at 2×; the Sbas-yul manuscript I1LT3208 img. 145, last line, and the Ngodrup print I1867 img. 307, by Yigdzin-1 only, the cursive and the small cut not read by eye letter by letter): the three copies give the same three names and no hour, watch or measure.
+
+
 Read by RD284 (2026-11-10): LGD in the Rin chen gter mdzod print (I1KG57 img. 981, printed p. 962, and img. 989, p. 970): the first line of p. 962 at 3- to 10-fold (the six ornamental glyphs, compared with the same string in the Palri print I01CT0067 img. 534) and the last line of p. 970 with the demon's phrase; BDRC's exact-string search for the phrase and its partners. Claims lgd-p962-seed-string-is-ornamental-and-unread, lgd-three-parts-of-night-share-the-names-of-rst-thirds, lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.
 
 Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).
@@ -74,6 +91,24 @@ The first line of printed p. 962 in the Rin chen gter mdzod print (I1KG57 img. 9
 Homage to the guru, the deva, the dākinī, hūṃ. The yogin who takes devotion to the lama, the deity and the dākinīs as his path, wishing to examine good and bad dreams…
 
 The ornamental letter is the printer's: the same six glyphs stand in the same place in the Palri Parkhang print (I01CT0067 img. 534, printed p. 526), smaller and as ornamental, so the string is in the text of both prints and is not a smudge of one scan. Read glyph by glyph, left to right, at 10-fold: (1) a flat top bar, a curved body and a long tail running down to the left, near ཧ or ད; (2) a squared top with a curl at the foot running to the right, near ཀྱ or ཉ; (3) a top bar, a left curl and a long diagonal tail, near ཏ or ན; (4) a closed top with a vertical stroke on the right, near ཀ; (5) a diagonal head, a right vertical and a hooked foot, near ས with a subjoined letter; (6) a squared head with a long curving tail ending in a hook, near ཧ or ཀ with the u-vowel. None of the six is settled by eye, and the machine readings (Yigdzin-1 ཧཀྱཊཏཀསཱདུ, MITRA ཉཀྱཊཿཀསྭུཊ, read by RD220) share only three letters; they are not repeated here as text.
+
+## <a id="lgd-42-p962b"></a>lgd.42:p962b The first line of the rite in four copies: the six ornamental glyphs after the Om (Rin chen gter mdzod, Palri, Ngodrup and Sherab Drimay, Sbas-yul)
+
+*Read: scan, 2026-11-10.*
+
+> Rin chen gter mdzod (I1KG57 img. 981, p. 962, line 1): ཨོཾ༔ [the six ornamental glyphs, not rendered as text] ན་མོ་གུ་རུ་དྷེ་ཝ་ཌཱ་ཀི་ནཱི་ཧཱུྃ༔ བླ་མ་ཡི་དམ་མཁའ་འགྲོ་ལ་མོས་པ་ལམ་དུ་བྱེད་པའི་རྣལ་འབྱོར་པས༔
+> 
+> Palri Parkhang (I01CT0067 img. 534, p. 526, line 1): ཨོཾ༔ [the same six glyphs, smaller] ན་མོ་གུ་རུ་དྷེ་ཝ་ཌཱ་ཀི་ནཱི་ཧཱུྃ༔
+> 
+> Ngodrup and Sherab Drimay (I1867 img. 304, line 1): ཨོཾ༔ [the same six glyphs, in a coarse typeset cut] ན་མོ་གུ་རུ་དྷེ་ཝ་ཌཱ་ཀི་ནཱི་ཧཱུྃ༔ བླ་མ་ཡི་དམ་མཁའ་འགྲོ་ལ་མོས་པ་ལམ་དུ་བྱེད་པའི་རྣལ་འབྱོར་པས༔ (the words after the string by Yigdzin-1, the homage by eye)
+> 
+> Sbas-yul manuscript (I1LT3208 img. 142, line 1, the first folio of the text): ཨོཾ༔ [a single red ornamental glyph] ༔ [the same six glyphs in black, between two small ornaments] ༔ [red words, not read]
+
+The first line of the rite of examining dreams in four copies that can be opened, at 5- to 10-fold. In all four the string of six ornamental glyphs stands between the page-opening Om and the homage «namo guru deva ḍākinī hūṃ», in a heavy letter between two small ornaments of the shad kind; in none is it written in plain letters.
+
+The Sbas-yul manuscript (a cursive hand) is the clearest: img. 142 opens the text with a black Om at the left, a red glyph, the string in black (the same six forms in the same order as the prints, 5-fold, with a small ornament before and after it), and then red words that are the title or the homage, which the cursive did not settle by eye.
+
+The Ngodrup and Sherab Drimay print (img. 304; img. 303 holds only the title «Bla ma dgongs pa 'dus pa las, the stages of the signs of good and bad dreams, here is set down») has the string in the same place and the same six shapes, coarsely cut. The Zhe chen (I4PD2250) and Kazi (I6132) scans are restricted: BDRC answers only a window of about twenty images from img. 303 and img. 559, which start inside the text, so their first folio was not opened.
 
 ## <a id="lgd-p966-967"></a>lgd:p966-967 The times of the night and the seven kinds, with the first, the sign
 
@@ -261,3 +296,18 @@ Samaya. *The stages of telling the signs of good and bad dreams apart.* Set down
 - No text found that names the pair in a list of dream causes besides LGD: Bdud 'joms gling pa's instruction lists dreams among what the pair throws into tumult, but not as a dream-cause section.
 - No text found that says what «རམ་རུག» is: in all ten places it stands in a list of rite goods, none glosses it as a plant.
 - Chöd texts in the Gcod tshogs (I2PD20734, etext pp. 460–461) and the Karma Chags med ritual (I2PD20752, p. 264) use «མཉམ་པོར་འོང་བའི་བདུད» in lists of enemies to be dispatched or swallowed ("eaters, death-slayers and demons who come alongside"); there it is an outer foe, not self-clinging. The Machik gloss is therefore one use of the name, not the only.
+
+### Open (RD355)
+
+- Question: The six ornamental glyphs after the Om of LGD p. 962 stand in the same order in four copies (Rin chen gter mdzod, Palri, Ngodrup and Sherab Drimay, Sbas-yul manuscript), in none in plain letters; what do they read, and is the string a seed-syllable string, a mantra in an ornamental script or an invocation?
+- Question: The Shechen etext opens four Lama Gongdü texts of vol. 42 (the dream text and three others) with a run of 6 to 8 placeholder marks before «namo guru deva ḍākinī hūṃ»; is the ornamental string before the homage one fixed opening of the cycle's texts, written with as many glyphs as the text needs, and what is it?
+- Question: In the rite of killing of the oath-bound great man (Rin chen gter mdzod vol. 38) the god «who comes alongside» and the demon «born together» are the two attendants of the enemy; is this the use LGD p. 970 follows, so that «མཉམ་པོར་འོང་བའི་བདུད» is the person's attendant demon and not Chöd's self-clinging?
+- Question: The third Karmapa's verses (after Marpa) call the dream of midnight (ནམ་ཕྱེད) the power of spirits, LGD's «གུང» the time of the afflictions: are the two the same part of the night under two characterisations, or do the traditions differ?
+
+### Searched and not found (RD355)
+
+- The first folio of the rite in the Zhe chen (I4PD2250) and Kazi (I6132) scans: BDRC answers only a window of about twenty images from img. 303 and img. 559 (restricted), so the images before them, which would hold the string, come back empty.
+- A plain-letter writing of the string after the Om in any of the four copies compared: none.
+- BDRC's exact-string search (2026-11-10): «རམ་རུག་སྤང་གཡེར» (0), «ནམ་ཕྱེད་ཀྱི་རྨི་ལམ་ཉོན་མོངས» (0), «ཐོ་རངས་ཀྱི་རྨི་ལམ་རྟེན་འབྲེལ» (0), «ནམ་སྲོད་ཀྱི་རྨི་ལམ» (0), «ཐོ་རངས་ཀྱི་རྨི་ལམ་བཟང་ངན» (0): no other text gives LGD's pairing of dusk, midnight and dawn with habit, afflictions and omen; «ནམ་གུང་གི་རྨི་ལམ» (6 hits) is in dream-yoga and modern prose, none with a span in hours.
+- What «རམ་རུག»/«རི་ཏུག» is: «རམ་རུག་སྦང» finds only the two places already known; no text glosses the first word of the list.
+
