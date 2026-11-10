@@ -30,6 +30,21 @@ Read by RD270 (2026-11-09): the verse's five unsettled places on three other ope
 
 Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA as well and by eye; the dream verses whole are gt:i42-43 below.
 
+## <a id="gt-i41"></a>gt:i41 Ch. 7, the distant signs of death: the messenger, the physician's setting out and the road signs, in the Drathang print
+
+*Read: machine, 2026-11-10.*
+
+> གནས་དང་རིང་དུ་འཚོ་བར་བྱ། །རྣམ་གྱུར་ནད་ཀྱིས་བཅོམ་པའི་ལུས་དེ་གསོ། །ཞེས་གསུངས་སོ། །བདུད་རྩི་སྙིང་པོ་ཡན་ལག་བརྒྱད་པ་གསང་བ་མན་ངག་གི་རྒྱུད་ལས་ལུས་ཀྱི་ལས་དང་དབྱེ་བ་བསྟན་པའི་ལེའུ་སྟེ་དྲུག་པའོ།། །།
+> དེ་ནས་ཡང་དྲང་སྲོང་རིག་པའི་ཡེ་ཤེས་ཀྱིས་འདི་སྐད་ཅེས་གསུངས་སོ། །ཀྱེ་དྲང་སྲོང་ཆེན་པོ་ཉོན་ཅིག། ལུས་ཀྱི་འཇིག་ལྟས་རྣམ་པ་བཞི་ཡིན་ཏེ། །རིང་དང་ཉེ་བ་མ་ངེས་ངེས་པའོ། །རིང་ལྟས་ཕོ་ཉ་རྨི་ལམ་རྣམ་འགྱུར་གསུམ། །ཕོ་ཉ་ཡ
+> མཚན་ཅན་དང་དགེ་སྦྱོང་དང། །རིགས་མཐུན་པ་ནི་ནད་པ་སོས་པའི་རྟགས། །དེ་ལས་བཟློག་པ་འགྲུབ་པར་མི་འགྱུར་ཏེ། །འཇིགས་རིངས་དངངས་ཤིང་རྡོ་དང་བོང་བ་ཉེད། །རིང་ནས་འབོང་ཅིང་སྡིག་པའི་ལས་ལ་སྤྱོད། །བཀྲ་མི་ཤིས་པའི
+> རྒྱན་དང་སྨྲ་བརྗོད་བྱེད། །དེ་ལྟ་བུ་ཡི་ཕོ་ཉས་ལས་མི་འགྲུབ། །སྨན་པ་སེམས་རྩུབ་མི་ཤིས་སྨྲ་བ་དང། །གཅོང་བཤིག་མཚུན་གཏོར་སྦྱིན་བསྲེག་བྱེད་པའི་དུས། །ཕོ་ཉ་འོངས་པ་ནད་པ་འཆི་བའ་ལྟས། །ཚེས་དྲུག་བཞི་དགུ་ཉི་ཟླ་གཟའ་ཟིན་དང།།
+> གཟའ་སྐར་ངན་དང་མཚན་མོ་ལམ་འཇུག་ངན། །འགྲོ་ཚེ་ལམ་དུ་ཆད་ཚིག་ཆག་པ་དང། །དུ་བསིད་སྨྲ་བ་ཐོས་དང་མཐོང་བ་དང། །བྱི་ལ་སྤྲེའུ་སྲམ་སྦྲུལ་ལམ་བཅད་ཅིང། །བཀྲ་མི་ཤིས་པ་གང་མཐོང་ངན་པའི་ལྟས། །དགེ་བ་འབྲུ་དང་ཞོ
+> སོགས་སྣོད་གང་དང། །དྲིལ་བུ་མར་མེ་མེ་ཏོག་འབྲས་ཡོས་ཟན། །ལྷ་ཡི་སྐུ་དང་ལུས་ཀྱི་རྒྱན་དཀར་པོ། །ཆོས་སྤྱོད་པ་དང་རྒྱལ་མཚན་སྒྲང་བ་དང། །མེ་འབར་རྟ་ལུག་བ་སོགས་ཕུག་གུར་བཅས། །ཡིད་དུ་འོང་བའི་སྒྲ་འམ་བཟའ་བཏུང་རྒྱན།།
+
+The Explanatory Tantra's (བཤད་རྒྱུད, bshad rgyud) seventh chapter in the Drathang print, img. 41 (the strip before gt:i42): the close of the sixth chapter with its colophon, and the opening of the seventh on the signs of the body's destruction (ལུས་ཀྱི་འཇིག་ལྟས, lus kyi 'jig ltas). Four kinds of sign, distant, near, uncertain and certain; the distant ones are the messenger (ཕོ་ཉ, pho nya), the dream (རྨི་ལམ, rmi lam) and the change of bearing (རྣམ་འགྱུར, rnam 'gyur). Then the verses on the messenger. A messenger who is a ya mtshan can (ཡ་མཚན་ཅན; the commentaries disagree on who is meant, see the claim), a monk (དགེ་སྦྱོང, dge sbyong) or of the physician's own kind (རིགས་མཐུན་པ, rigs mthun pa) is the sign that the sick will recover; the opposite does not succeed: one frightened, stiff, trembling, toying with stones and lumps of earth (བོང་བ, bong ba), calling from afar, doing evil, with unlucky ornaments and speech. Bad also is the physician's own state when the messenger comes: a rough mind, unlucky speech, cutting, tearing down, the offering for the dead (མཚུན་གཏོར, mtshun gtor), the burnt offering (སྦྱིན་སྲེག, sbyin sreg); and bad the day of setting out: the sixth, fourth and ninth of the lunar day, an eclipse of sun or moon, a bad planet or star, the night. On the road, bad: a broken or burning thing, the cry «kill», a cat, a monkey, a mongoose or a snake cutting across the road; good: vessels full of curds or grain, a bell, a lamp, flowers, the image of a god, white ornaments, one who keeps the dharma, a raised banner, a blazing fire, a horse, a sheep, a cow and the like with their young, pleasing sounds, food and drink, seen on the road or on entering the house. These are the signs of recovery. The strip ends at the road signs; the dream verses follow on gt:i42.
+
+Read by Yigdzin-1 (machine), 2026-11-10 (RD330); not read by eye, so the state is machine. A few places differ from the commentaries' quotation of the same lines and are not settled: «འབོང་ཅིང» here, «འབོད་ཅིང» in Byang pa p. 204 and Khro ru p. 296; «གཅོང་བཤིག» here, «གཅོད་འཇིག» in Byang pa, «གཙོད་བཤིག» in Khro ru; «ཆག་པ» here and in Byang pa, «ཚག་པ» in Khro ru; the line «འབྲས་ཡོས་ཟན» here and in Khro ru, «འབྲས་ཡོས་བཟང་» in Byang pa. Line breaks inside a word («ཡ / མཚན་ཅན») are the model's.
+
 ## <a id="gt-i42"></a>gt:i42 Ch. 7, the distant signs of death: the verse of the bad dreams, in the Drathang print
 
 *Read: machine (Yigdzin-1 over img. 41 and 42), 2026-11-09; the line of མི་བཟང་བ by eye, 2026-11-09 (RD264).*

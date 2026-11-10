@@ -380,6 +380,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-rivers-sea-dry.md](claims/dream-rivers-sea-dry.md) | claim, list | Rivers and sea dry | cites skp:p40-50; feeds S2, RD216 |
 | [claims/dream-road-journey.md](claims/dream-road-journey.md) | claim, list | The road: a path escaped, the road lost, a journey begun | cites lgd:p967, lgd:p968-969, svo:p269, svi:p262, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-rosary-broken.md](claims/dream-rosary-broken.md) | claim, list | A rosary broken | cites skp:p40-50; feeds S2, RD216 |
+| [claims/dream-rules-three-texts-compared.md](claims/dream-rules-three-texts-compared.md) | claim, table | Siddhasāra ch. 5, the Four Tantras' ch. 7 and Gtsang sman's thirteen examinations side by side: the messenger, the physician's setting out, whose dream, the rule to decline | cites sds:p72-73, sds:p75-77, gt:i41, gt:i42-43, st:p34, gsm:p263-264; feeds S1 |
 | [claims/dream-sick-any-dream-death-sign.md](claims/dream-sick-any-dream-death-sign.md) | claim, list | Any dream as a distant, uncertain sign of death | cites st:p34, gt:i42-43, wb.1:p430b, bjp:p197, rsp:p229-230, ktr:p323-324, bjp:p177-181; feeds S2, RD216 |
 | [claims/dream-sick-bad-dream-shapes-poured.md](claims/dream-sick-bad-dream-shapes-poured.md) | claim, list | The shapes of whatever bad came in dreams, poured into a skull | cites wb.1:p430; feeds S2, RD216 |
 | [claims/dream-sick-cat-monkey-tiger-fox.md](claims/dream-sick-cat-monkey-tiger-fox.md) | claim, list | A cat, a monkey, a tiger or a fox seen by the sick | cites gt:i42-43; feeds S2, RD216, RD274 |
@@ -447,6 +448,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gdn-colophons-klong-rdol-and-a-second-hand.md](claims/gdn-colophons-klong-rdol-and-a-second-hand.md) | claim, note | A Mongolian copy of the dream text carries Klong rdol bla ma's name and a second writer's colophon | cites gdn:i262, gdr:i151-157, rst:p17-20; feeds S1 |
 | [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558, gnc.1:p559-561; feeds S1 |
 | [claims/gnc-rno-bkra-and-dmar-mo.md](claims/gnc-rno-bkra-and-dmar-mo.md) | claim, definition | «Dpal rno bkra» names the cycle of the Gnam chos the rites are drawn from; «ma mar mo» is «dmar mo» (RD286) | cites gnc.1:p493-494, gnc.1:p558h, gnc.1:p557-558; feeds — |
+| [claims/gsm-physician-dawn-dream-first-rests-on-neither-older-text.md](claims/gsm-physician-dawn-dream-first-rests-on-neither-older-text.md) | claim, note | Gtsang sman's physician's dawn dream as the first examination rests on neither the Siddhasāra nor the Four Tantras' messenger chapter; the dawn rule and the figures echo them | cites gsm:p263-264, sds:p75-77, gt:i41, gt:i42-43; feeds S1 |
 | [claims/gsm-physician-dawn-dream.md](claims/gsm-physician-dawn-dream.md) | claim, rule | Gtsang sman: the physician's dawn dream before the messenger comes | cites gsm:p263-264; feeds S1 |
 | [claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md](claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md) | claim, definition | བག་མ་ལན་པ in ch. 7's verse: taking a bride, lan pa a spelling of len pa | cites gt:i42-43; feeds S2 |
 | [claims/gt-bro-ba-khral-ded-a-levy.md](claims/gt-bro-ba-khral-ded-a-levy.md) | claim, definition | བྲོ་པའི་ཁྲལ་འདེད in ch. 7's verse: a levy of the bro being demanded; bro ba'i is the common spelling | cites gt:i42-43, bjp:p177-181; feeds S2 |
@@ -462,6 +464,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gt-rnga-mo-is-the-camel.md](claims/gt-rnga-mo-is-the-camel.md) | claim, definition | རྔ་མོ in ch. 7's verse: the camel | cites gt:i42-43; feeds S2 |
 | [claims/gt-serthang-leaf-absent-two-typeset-etexts.md](claims/gt-serthang-leaf-absent-two-typeset-etexts.md) | claim, conflict | The Serthang print's ch. 7 leaf is absent from its whole digitization, no second Serthang copy on BDRC; two typeset etexts add brjed ngas and mi bzang ba | cites gt:i42; feeds S1 |
 | [claims/gt-water-or-beer-fiends-or-the-dead.md](claims/gt-water-or-beer-fiends-or-the-dead.md) | claim, conflict | Ch. 7's lines 13 and 15: water and fiends are Byang pa's alone among the etexts found | cites gt:i42-43, bjp:p177-181; feeds S2 |
+| [claims/gt-ya-mtshan-can-messenger-three-readings-and-sds.md](claims/gt-ya-mtshan-can-messenger-three-readings-and-sds.md) | claim, conflict | The good messenger «ya mtshan can» in the Four Tantras: Byang pa's outsider in a vow, Rin spungs pa's monk or Brahmin, Khro ru's man of qualities; the Siddhasāra's bad non-Buddhist ascetic | cites gt:i41, sds:p75-77; feeds S1 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
 | [claims/hatsuyume-edo-calendar-not-stated.md](claims/hatsuyume-edo-calendar-not-stated.md) | claim, note | No open Edo source reached that names the calendar of the 初夢 night of 2 January | cites nip:p1, mdz:i31, mdz:i72; feeds S3 |
@@ -652,6 +655,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rst-whose-apparition.md](claims/rst-whose-apparition.md) | claim, list | RST: whose apparition each figure of a dream is | cites rst:p1-8; feeds block-73 |
 | [claims/sch-svapnohana-abstract.md](claims/sch-svapnohana-abstract.md) | claim, note | Scheuermann's chapter on the Svapnohana: what its abstract says, and that the chapter is unread | cites svo:p268, svo:p271; feeds block-73 |
 | [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
+| [claims/sds-chapter-ordinals-colophons-against-contents.md](claims/sds-chapter-ordinals-colophons-against-contents.md) | claim, table | The Siddhasāra's colophon numbers of chapters 4 to 6 run one too high and are corrected in brackets; the opening list and the contents differ in the order of chapters 4 and 5 | cites sds:p19, sds:p27, sds:p34-113, sds:p72-73, sds:p75-77, sds:p230-231; feeds S1 |
 | [claims/sds-dream-signs-of-the-sick.md](claims/sds-dream-signs-of-the-sick.md) | claim, list | The Sidha-sa-ra's dream signs of the sick and the dream of each nature | cites sds:p75-77, sds:p32; feeds S1 |
 | [claims/secret-obstacle-ma-spar-by-cycle.md](claims/secret-obstacle-ma-spar-by-cycle.md) | claim, note | The secret obstacle's mother trigram: li for an earth own trigram, kham for a wood one, by the generating cycle | cites wb.1:p390, wb.1:p256; feeds — |
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
@@ -1120,7 +1124,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 4 passages: 1 scan, 3 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 1 passages: 1 etext |
-| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 3 passages: 3 machine |
+| [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 4 passages: 4 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
@@ -1168,7 +1172,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
-| [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 2 passages: 2 etext |
+| [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 7 passages: 7 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |
 | [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 5 passages: 3 machine, 2 etext |
