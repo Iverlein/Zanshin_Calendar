@@ -46,3 +46,13 @@ Four verse passages of Klong rdol bla ma's own text on examining the omens of dr
 > འཆི་ལྟས་རྨི་ལམ་ངན་པ་འགའ་ཞིག་ཏུ། །བུད་མེད་ནག་མོས་རྒྱུ་ལྟོ་བྲལ་བ་རྨིས། །རྒྱ་སྐྱེགས་ཐལ་བ་མཆོད་རྟེན་རིག་འཛེགས་རྨིས། །རྔ་མོང་ཁ་ལྷོར་བོང་བུ་ཁ་ཤར་དང་། །སྤྲེའུ་ཁ་བྱང་བལྟས་ནས་ཞོན་པས་འགྲོ། །གོས་དམར་གྱོན་དང་མེ་ཏོག་དམར་པོ་འཐུས། །ཐང་ལ་འགྲོ་དང་ཐོད་ཅིང་རྨི་པ་འཆི། །གཤིན་དང་མཉམ་པོར་ཆང་འཐུང་གར་བྱེད་དང་། །དེ་དག་འཆི་ལྟས་རྨི་ལམ་བརྟག་པའོ།།
 
 Four blocks of Klong rdol bla ma's verses on dreams as the article quotes them, read by Yigdzin-1 alone (state machine; not checked on the scan). Their sense is given in the claims kbs-good-dream-signs, kbs-bad-dream-signs, kbs-spirit-class-signs and kbs-five-kinds-and-the-waking-feeling and kbs-death-omen-dreams, not repeated here word by word. Block (1), pp. 72–73: the signs of a good dream, ending with drinking sweet water, long life. Block (2), p. 74: the practitioner's obstacles and the bad omens of the others, in rhymed lines. Block (3), pp. 75–76 (with the lines of waking feeling on p. 76): the spirit classes by their figures; the closing lines say what a pleasing or frightening dream on waking means and what a returning dream is. Block (4), pp. 77–78: the dreams of death, closing «དེ་དག་འཆི་ལྟས་རྨི་ལམ་བརྟག་པའོ», "these are the examination of death-omen dreams". The article sorts the verses beyond the first block into its five kinds; the practitioner's good signs (a tree in leaf, jewelled swords, a smiling child giving fruit, a boat built, a vase found) stand in the verses between blocks (1) and (3) and are not copied here.
+
+
+## A survey of the Tibetan dream-examination texts that BDRC holds as etexts and the pool does not yet cite: titles with «རྨི་ལམ» (བརྟག་པ, བརྟགས་པ, ལུང་བསྟན, དཔྱད, བཟང་ངན, རྟགས) in the gsung 'bum registers and the Tibetan medical, astrological and Chöd collections, checked against sources.yaml, each candidate with its BDRC id, author, date, size and the dream passage's place, for the readings that come after (RD320)
+
+Nothing read yet: RD320's passages, with the English beside them, go here.
+
+
+## The Chöd source of Klong rdol bla ma's dream verses: the dream passage of Ma gcig's Zab mo gcod kyi dmigs 'bum (or the text Klong rdol says he follows), its good and bad images, its three thirds of the night and the dawn third as the clarifier, and whether WB's list (RD319) and KBS's verses draw on it; the same verses in the Chöd collections that quote them (Sha bo Tshe ring, Padma rdo rje, the ritual-customs book) and the parallels of the good-sign block (RD324)
+
+Nothing read yet: RD324's passages, with the English beside them, go here.
