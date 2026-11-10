@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD329 (2026-11-10): Bu ston vol. 28 pp. 825–828 (I2DB62486 img. 833–837); Tsong kha pa vol. 3 (I1KG2238 img. 385–388).
+
 ## <a id="bsr-p825-828"></a>bsr:p825-828 The examination of dreams, a rite to ask for a dream of one's birth and death: the preparation, the sleep, the six lights, the lineage
 
 *Read: machine, 2026-11-10.*

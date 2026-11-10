@@ -1999,3 +1999,7 @@ Searched and found wanting, so not to be repeated:
   - A second Peking instance on BDRC: the abstract works WA0BC002 and WA0RT4282 give only W1KG13126; the Peking Kangyur (W1PD96684) and a Kangyur reproduction (W3CN1094) are not the Tengyur; W1KG13703 is the Otani University's catalogue of its Peking print, without images.
   - A Peking Tengyur on archive.org other than bdrc-W1KG13126 (title searches for Peking, Otani, Tengyur, Tanjur, Tibetan Tripitaka): none; BDRC's ldspdi and library search endpoints answer 405 to a POST.
   - The Peking's second watch «ར» after «བརྒྱད་པ»: none seen on the 1× and 2× crops of img. 315 line 2.
+- **RD329** (RD329, 2026-11-10):
+  - A list of good and bad dream images in Bu ston's two folios (img. 833–836), read through: none, the title line only (2026-11-10).
+  - A list of good and bad dream images in Tsong kha pa's img. 385–388: two images only (img. 386), the rest remedies; the section's own heading is not on these images.
+  - A second print of Bu ston's text (MW22106_CC9683, MW1934_6BFB80) not looked at; no MITRA witness and no disagree.py sheets, so no flag read against a second reader.
