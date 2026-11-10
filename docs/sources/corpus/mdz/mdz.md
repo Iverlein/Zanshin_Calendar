@@ -306,3 +306,13 @@ Open:
 - Question: do the Kyoto, Kyushu or Tohoku copies, or images 7-74 of pid 2533938 looked at by eye, hold the table of days on which a dream is not told with the slash legend (q785, q990) or a 初夢 night with its calendar (q788)? The 夢合長寿鑑絵抄, the 夢合長寿宝 and the 夢合早占大成 were not opened.
 
 Searched and not found (RD343), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda.ac.jp/kotenseki): the site answered 503 "Site Maintenance" on every page, nothing searched; (2) Kokusho's search for 夢合 (82 records): no record for the 夢合判断大成, 清明秘鈔夢判事, 万物分類夢相手鑑, ゆめはんじ or 善惡夢はんじ with an image; (3) the NDL full-text of pid 2533938 for 語ら, かたら, ざる日, 子丑 and 初夢: only the Fuji entry; the National Archives, the University of Tokyo and archive.org not tried.
+
+## <a id="mdz-i2533938"></a>mdz:i2533938 夢合延寿袋大成 (1814, NDL pid 2533938), images 7-74 by eye (RD344)
+
+*Read: by eye on the page images, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
+
+> 見徳夢石
+> 冨士山 三百九十一 / 鷹 二千 四十八 / 茄子 三百 十一 / 鶴 一千
+> 延壽袋大成後編 / 文化十一年甲戌五月 東都書林 上總屋利兵衞版
+
+Images 7-74 of NDL pid 2533938 (the 夢合延寿袋大成, Bunka 11 = 1814, Kazusaya Rihei) looked at by eye on six contact sheets (twelve images each), 2026-11-10; images 58-62 (the headings 夢現幻之傳, 吉夢と祭らぬ伝, 悪夢の伝, 何時も朝夢の伝, 五夢の秘伝) in full size, image 64 (the table 見徳夢石) and image 72 (the colophon) in full size. The leaves are plain articles in cursive kana with a circle or a triangle before each, no table of twelve months with day branches, no legend for a slash, no 語らざる日 and no 初夢 night with a calendar. The only table is the 見徳夢石 (images 64-65): a grid of objects (Mount Fuji, hawk, aubergine, crane, tortoise, pine, bamboo, sun, moon, star, dragon and others) each with a number, the dream-stone's count of virtue; it has no days. Images 67-71 are numbered lots with hexagram marks; image 72 the colophon: Bunka 11 (1814) fifth month, Tōto shorin, Kazusaya Rihei of Nihonbashi Yokkaichi, with the announcement of a sequel (延壽袋大成後編). Images 73-74 are the covers. Not read letter by letter; the NDL OCR was used only to pick leaves.
