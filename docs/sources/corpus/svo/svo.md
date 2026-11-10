@@ -960,3 +960,12 @@ Read 2026-11-10 (RD322), the 1996 etexts of WB for the verses and BDRC search sn
 - BDRC phrase searches (2026-11-10): «ཐུན་རེ་ལ་གཟའ་རེ» and «ཐུན་བརྒྱད་པོ་རེ་རེ་ལ་གཟའ» no hit; «ཐུན་རེ་གཟའ་རེ» 3 hits (WB's 1996 etext, the Gser thang reprint, the Dpyod ldan snying nor), «ཀླུ་རེ་ལྷན་ཅིག་འཆར» 4 (those three and the 'Bri lugs bang mdzod and the Yul mdo khams stod anthology).
 - The Tibetan Amarakośa (Mngon brjod 'chi med mdzod) with ཐུན་གསུམ for triyāmā: not located again; the equivalence rests on Negi.
 
+
+## The critical edition's apparatus (Dpe bsdur ma, Tengyur vol. 14 pp. 1364–1368 for the Svapnohana, the Svapnekṣā in the same volume) read as a witness list: for every place the pool has doubted (the Co ne's «པར» in the second and fourth watch lines and the short third line, q926, q927; «བགྲོད/བཟློག», «འགྲོན་བུ/དུ», «བཅུ་ཡི་བར», «རྟ་བླ་མོ/ལ་མོ», q864, q865, q874; the Svapnekṣā's bird and the closing line, q912, q913, q836), which prints the editors' notes name for which wording, with the sigla of the prints decoded from the volume's introduction (RD323)
+
+Nothing read yet: RD323's passages, with the English beside them, go here.
+
+
+## The Dbyangs 'char's eight half-watches of the day-and-night: the verse «nyin mtshan thun phyed ni / brgyad bgos res gza' …» in Tibetan from the Dbyangs 'char itself and the anthologies (the 'Bri lugs bang mdzod skor lnga, the Yul mdo khams stod anthology) with their sources, whether the eight are equal, each with a planet and a nāga, and who wrote the Rnam dpyod blo gros spyan stong bkra ba that quotes it (RD322) (RD326)
+
+Nothing read yet: RD326's passages, with the English beside them, go here.
