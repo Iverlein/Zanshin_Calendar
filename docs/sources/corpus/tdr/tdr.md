@@ -29,6 +29,19 @@ Read by RD217 (2026-11-09): the scan proof was attempted and not reached (no MIT
 
 Read by RD222 (2026-11-09): TDR img. 347-348 run through Yigdzin-1 and MITRA, which agree at only 86 and 85 percent (29 flags a page: manuscript hand, sa/ska, nya/zha, ba/pa, wa-zur and Sanskrit seeds); not read on the scan, the passages stay machine. Longer stretches where the two differ in whole phrases: img. 348 line 2 (bsnyems rten 'brel mngon shes su 'chad pa'i gsol ba), line 2 and line 6 end.
 
+## <a id="tdr-p15-23e"></a>tdr:p15-23e The editors' note on what the book holds and the lineage of its instructions, as the book gives it
+
+*Read: etext, 2026-11-10.*
+
+> [p15]
+> གཞན་དམ་པ་གོང་མ་ རྣམས་ཀྱི་ཐུན་མིན་གྱི་ཞལ་གདམས་དང་ཆིག་བརྒྱུད་ཀྱི་གདམས་པ་མང་པོ་དག་ ཕྱོགས་སྒྲིག་མཛད་ནས་བཀོད་ཡོད་ལལྷག་པར་དུ་གཟའི་བཅོས་ཐབས་དང་ དམུ་ཆུའི་བཅོས་ཐབསརིམས་བསྲུང་གི་སྐོར་སོགས་གཞུང་གཞན་དང་མི་ མཐུན་པའི་སྨན་སྔགས་ཟུང་འབྲེལ་གྱི་བཅོས་ཀ་ཕུན་སུམ་ཚོགས་པ་དང་ལྡན། མན་ངག་བང་མཛོད་ཀྱི་ནང་གཙོ་བོ་མན་ངག་གི་སྐོར་གྲུབ་ཆེན་ཨོ་རྒྱན་པའི་ དངུལ་བཙོ་བཀྲུ་ཆེ་ཆུང་དང་དངུལ་ཆུ་སྐོར་གསུམ་གྱི་གདམས་པ་སོགས་ཆ་ ཚང་བ་དང་། གཞན་བསྲུང་འཁོར་འབྲི་ལུགས་དང་རྨི་ལམ་བརྟག་པམཁའ་ འགྲོ་མའི་ལས་ཚོགས་སོགས་མན་ངག་གི་སྐོར་ཤིན་ཏུ་རྒྱས་པར་གསུངས་ཡོད་དོ༎
+> 
+> [p23]
+> བེ་བུམ་འདིའི་སྐད་བཅོས་སྐབས་སུ་ གདམས་པའི་བརྒྱུད་པ་གསུངས་སྐབས་ཐོག་མར་གུ་། དེ་ནས་ཡེ་ཤེས་མཚོ་ རྒྱལམྱང་ཉི་མའི་སྙིང་པོསྲས་མི་བསྐྱོད་རྡོ་། མཉམ་མེད་འོད་པ་རས་པ། ཆོས་རྒྱལ་རིན་ཆེན་གླིང་བདྲིན་ཅན་ཀུ་མ་རཱ་། སློབ་དཔོན་ཧོར་སྟོནནཆུ་ བོ་རི་བ་བླ་མ་བསོད་ནམསཆོས་ཀྱི་རྗེ་མཁས་གྲུབ་དགེ་ལེགས་དཔལ་བའི་ ཞལ་སྔ་ནས། དེ་ལྷའི་བཙུན་པ་རིན་ཆེན་རྒྱ་མཚོའམ་བློ་གྲོས་དཔལ་བཟང་པོ་ བདག་ལའོ༎ ཞེས་གསལ་བས་མཁས་གྲུབ་དགེ་ལེགས་དཔལ་བཟང་ནི་དུས་ རབས་བཅུ་གསུམ་པའི་མཁས་པ་ཞིག་ཡིན་སྟབསའབྲོང་རྩེ་ཁོང་ཉིད་ཀྱང་དེ་ དང་དུས་མཚུངས་པར་སྙམ།
+
+Etext pages [p15] and [p23]/[p68] (printed pp. 3 and 1/42), the editors' note and the book's own lineage list. [p15]: the 'Brong rtse be'u bum is the sixteenth volume of the series of Tibetan medical old books; besides the many experience-tried cures of Lha btsun himself it holds "many special oral instructions and instructions of the oral lineage of other holy forebears, arranged and set down" (གཞན་དམ་པ་གོང་མ་རྣམས་ཀྱི་ཐུན་མིན་གྱི་ཞལ་གདམས་དང་ཆིག་བརྒྱུད་ཀྱི་གདམས་པ་མང་པོ་དག་ཕྱོགས་སྒྲིག་མཛད་ནས་བཀོད་ཡོད་ལ), among them, in the lower part, the protection wheel, the examination of dreams, the rites of the dakini. [p23] "The summary introduction of the author": Lha btsun Rin chen rgya mtsho (Blo gros dpal bzang) of the royal line, born at 'Brong rtse in Gtsang; the lineage of the instructions as the book itself gives it when it speaks of the lineage: first Gu ru, then Ye shes mtsho rgyal, Myang Nyi ma'i snying po and his son Mi bskyod rdo rje, Mnyam med 'od po ras pa, the Dharma-king Rin chen gling pa and Drin can Ku ma rā (the etext's «བདྲིན་ཅན་ཀུ་མ་རཱ», a doubt), the teacher Hor ston ('od stong in the etext's bracket) of Chu bo ri, the lama Bsod nams, the lord of the Dharma Mkhas grub Dge legs dpal, from whose mouth to Lha btsun Rin chen rgya mtsho (Blo gros dpal bzang po) himself; the editors add that Mkhas grub Dge legs dpal bzang, as this shows, was a scholar of the thirteenth (བཅུ་གསུམ་པ) century, and that 'Brong rtse seems to be of his time (their dating is not checked here). The lineage list stands in the book at [p67]-[p68] (printed pp. 41-42), where it closes a medical instruction (the cure of the blocked voice and throat), and is said of that instruction only: «འདིའི་བརྒྱུད་པ་ནི།»
+Etext only. The lineage list is the book's lineage for that instruction and for the cures it names, not a statement about the dream set; the editors give no author for the dream set.
+
 ## <a id="tdr-p21e"></a>tdr:p21e The contents of the lower part of the other print: the numbered sections of the 'Brong rtse be'u bum's instructions
 
 *Read: etext, 2026-11-10.*
@@ -69,6 +82,26 @@ Read by RD222 (2026-11-09): TDR img. 347-348 run through Yigdzin-1 and MITRA, wh
 > [p343] བཞི་པ། མཁའ་འགྲོ་མ་སེང་གེ་གདོང་ཅན་གྱི་ལས་ཚོགས།
 
 Etext (not a scan) of the other print, the 'Brong rtse be'u bum chen mo (W1PD2, I1PD407; etext page [p337] = printed p. 309, [p341] = 313, [p343] = 315), read for the headings only. [p337] opens a section numbered "three" (gsum): "Three examinations of dreams relying on the goddess Śramaṇā (lha mo shra ma Na), the Śākyamuni and Tārā", with a verse of homage to the lama; then "the examination of dreams through the goddess Śramaṇā, in two parts: first, removing the hindrances and gathering the conditions; second, the method of practice". The mantra of the Śākyamuni rite closes on [p341] with the words "this is the examination through the Venerable Śākyamuni" (བརྟག་པའོ); then, after ༈, White Tārā's text begins on [p341] (the Delhi scan's p. 343) with the same title as on the Delhi scan. The lion-faced dakini's rite after it is headed "fourth".
+
+## <a id="tdr-p338-340e"></a>tdr:p338-340e The dream set's own voice: 'so it is said', 'the lama says, and it is established by experience', the verse that opens the Śākyamuni rite
+
+*Read: etext, 2026-11-10.*
+
+> [p338]
+> ཞེས་པ་བཟླས་ཏེའདི་ཁྲི་ཚོ་བཅུ་གཉིས་བསྙེན་པ་བྱས་ས་འོག་གཏེར་ཡང་ དངོས་སུ་མཐོང་བར་འགྱུར་རོ་གསུང་ངོ་།།
+> 
+> [p339]
+> རྨི་རྟག་[བརྟག]རྣམས་ཀྱི་ནང་ནས་སྒྲོལ་མའི་སྤྲུལ་བ་ཤྲ་མ་ཎའི་གདམས་ པ་འདི་འདྲ་བ་མེད་པར་བླ་མས་གསུང་ཞིང་མྱོང་བས་གྲུབ་བོ།
+> 
+> [p340]
+> ཐབས་ མཁས་ཐུགས་ རྗེ་ ཚད་ མེད་པའིའགྲོ་ལ་ཕན་ པ་ གསུང་མཚད་[ མཛད ] པ།། རྫོགས་པའི་སངས་རྒྱས་ལ་བཏུད་ནས།། སྐྱེ་བ་ དྲག་[བརྟག]པའི་ཆོ་ག་བྲི།།
+
+Etext pages [p338]-[p340] of the 'Brong rtse be'u bum chen mo (the other print, vol. I1PD407): three places where the dream set speaks in its own voice.
+[p338] At the end of the Śramaṇā recitation: "…reciting this, if one does twelve times ten thousand as the preliminary, one will see even the treasure under the earth directly; so it is said" («གསུང་ངོ», gsung ngo; the speaker is not named).
+[p339] "Among the examinations of dreams there is none like this instruction of Śramaṇā, an emanation of Tārā, the lama says, and it is established by experience." (the lama, བླ་མ, is not named).
+[p340] The opening of the Śākyamuni rite, in verse: "Bowing to the Complete Buddha, skilled in means, of measureless compassion, who spoke for the good of beings, I write the rite for examining births (the etext's «དྲག», corrected in its own brackets to «བརྟག», is a doubt)". The next lines give the time (the waxing moon, a constellation like Rgyal) and the setting: the room swept, a drawing of the Blessed One, offerings, the torma, the mantra of twenty-one recitations.
+No author, compiler or colophon stands at the end of any of the three rites in this print (the fourth section begins at [p343] with the history of a different instruction).
+Etext only; the verse of the Śākyamuni rite is the keyed text's own wording with its brackets.
 
 ## <a id="tdr-p343h"></a>tdr:p343h The two headings of White Tārā's text on the scan, line 6 of p. 343
 

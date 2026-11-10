@@ -1,0 +1,11 @@
+---
+kind: claim
+type: note
+terms: []
+cites: ['dgd:i80-82', 'snr:p349', 'snr:p367-371']
+feeds: [S1]
+open: []
+---
+# Dbang chen dgyes rab rdo rje's fifth step is the Sngags rim chen mo's fifth part, verse by verse, and the Sngags rim chen mo reads the dawn dream (RD360)
+
+Dbang chen dgyes rab rdo rje closes his dream step with the words that whether or not these words stand in the preparation rite they must be said, "as the Mantra Stages says" (dgd:i80-82). Tsong kha pa's Sngags rim chen mo has the step and its wording: the five parts of the pupils' preparation end in «སྤྲོ་བ་བསྐྱེད་ཅིང་བསྲུང་ཏེ་རྨི་ལམ་བརྟག་པར་གདམས་པ», the title of Dbang chen's fifth step (snr:p349); the step opens with the same verse of rejoicing, «འཇིག་རྟེན་དུ་ནི་ཀུན་མཁྱེན་རྣམས», explained in the same way (the udumbara, "very rare", the four-line groups, the three things for seeing the mandala; dgd's explanation of the lines is the Sngags rim's), continues with the kusha, the lion's posture and «ནང་པར་ང་ལ་སྨྲོས་ཤིག» ("tell me at dawn"), and has the verse of Saraha «ས་ར་ཧས་ཀུ་ཤའི་སྟན་ལ་ཁྱོད་ཉོལ་ལ། །ནང་པར་བཞིན་བཟང་རྣམས་ལོངས་ཤིག …», in which Tsong kha pa has «དཔལ་ལྡན་སངས་རྒྱས་ཐོད་པ» (Buddhakapāla) and says "the skull is only an example", and Dbang chen has «བཅོམ་ལྡན་རྣམ་པར་སྣང་མཛད» (Vairocana) in its place (snr:p367-371). BDRC's full-text search finds the verse also in Padma dkar po's Hevajra rite, Chos kyi grags pa's, Blo bzang 'phrin las's and the Skyid shod Zhabs drung's works (with Buddhakapāla or Amitāyus in the last line): the verse is a general one of the mandala preparation, which Dbang chen follows through the Sngags rim chen mo. Dbang chen leaves out the reading of the dreams (snr:p367-371 has it: the Three Jewels or friends seen, the pupil is made glad; a fall from a mountain, the guarding is done; the first three parts of the night uncertain and the fourth used, by the Mañjuśrī root tantra's four watches (phlegm, bile, wind, true); remedies of the Garland, Mar me mdzad bzang po, Klu byang, the Common Tantra and Dārikapa), which is why dgd names no sign (claim dgd-dream-step-no-signs). Whether a Vairocana-specific initiation text names such signs was not looked for: the signs of the Sngags rim are from the Mañjuśrī tantra and the others, and are said of the preparation generally. State: etext of the Sngags rim and of the other prints; dgd as in its passage.

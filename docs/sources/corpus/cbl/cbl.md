@@ -47,6 +47,16 @@ Etext pp. 236-238. Read in the etext only, not on the scan; the etext runs the r
 Verse 19, the examination of the changes in dreams (རྨི་ལམ་གྱི་འགྱུར་པ་ལ་བརྟག་པ, rmi lam gyi 'gyur pa la brtag pa): not every dream is true, yet it is wrong to call them wholly untrue, since a god taught the way of examining dreams; whoever does not trust dreams sets them aside and examines the other signs of death. The dreams of death: climbing, at the dream's end, a tree, a temple's offering post or a heap of sand and ash, or a long tree, a stupa's life-pole (སྲོག་ཤིང, srog shing), an ant-hill or a heap in a charnel ground (six months); riding a donkey south and not returning (the life goes likewise); riding a monkey south and waking there (as before), or riding a monkey east and waking (this is the last night); darkness, a pit or a prison, or falling from a tree (he dwells near the Lord of Death); fruitless trees, grass or wood planted on head and body (six months); an enraged black girl binding him with a noose (the sign called "time", dus mtshan, དུས་མཚན: by the lama's gloss the time of death has come, death on the seventh day); a woman in black and a man of desire with a red garland of karavira flowers (he goes to the house of the Lord of Death); being eaten by a dog, crow, jackal, flesh-eater, fierce spirit or hungry ghost, or carried off riding a donkey, pig, she-camel or buffalo (death in a year). The means of treating, given in passing: apply the illusion-like remedy with the mind once a sign is seen.
 Verse 20 (p. 238): a man with an iron staff, black, in black clothes, sitting before the sleeper (three months); the sleeper's own body smeared with «དྲི་མར» (the etext; the Derge and the Dpe bsdur ma read «དྲི་དམར», red scent, cbs:p247-249, so "dirt" is a doubt), adorned with a red garland, anointed with sesame oil, shaved, in red clothes, riding a donkey fast to the south (six months); finding a scent, a red garland or red clothes in a dream (eight months).
 
+## <a id="cbl-p237s"></a>cbl:p237s The two sayings in the black girl's verse: 'the lama says' and ''O yug pa'
+
+*Read: scan, 2026-11-10.*
+
+> བླ་མ་ན་རེ། འཆི་བའི་དུས་ལ་བབ་པའི་མཚན་མ་ཡིན་གསུང་སྐད། འོ་ཡུག་པ་གཤིན་རྗེ་དུས་མཚན་ནག་མོ་ཡིན་གསུང་སྐད།
+
+CBL printed folio 229, line 2 (etext p. 237, image 237 of I1KG81117), the small-letter remark inside the verse on the black girl's noose, read on the scan at 4x (the vowel sign over the a-chung of «འོ» is plain, and a shad stands before it): "The lama says: it is the sign that the time of death has come, so he said. 'O yug pa: the Lord of Death (is) the Time-sign, the black one, so he said."
+Two sayings stand side by side, each closed by «གསུང་སྐད» ("so he said"): the first is "the lama's", the second is introduced by the name «འོ་ཡུག་པ» and says that the Lord of Death (or the Lord of Death's) Time-sign (དུས་མཚན, dus mtshan) is the black one (ནག་མོ, nag mo). The grammar does not tell whether «གཤིན་རྗེ་དུས་མཚན་ནག་མོ» is "Yama's Time-sign Black" (a name) or "Yama (is) Dus mtshan nag mo"; the Dpe bsdur ma volume 46 puts «གཤིན་རྗེའི་ཆུང་མ་དུས་མཚན» ("the wife of the Lord of Death, the Time-sign") into the verse itself (cbd:p1065-1066). The etext's reading is the print's own (cbs:p248-249s).
+Scan, one line; the remark's author is not named beyond «འོ་ཡུག་པ» and «བླ་མ», and the remark stands in the old note that Mkhyen brtse supplemented (cbl:p278-279).
+
 ## <a id="cbl-p238b"></a>cbl:p238b Verse 21 and the colophon of chapter 1
 
 *Read: etext, 2026-11-10.*
@@ -94,3 +104,18 @@ Etext only; the etext repeats the short text of p. 279's first line before the n
 - The scans of CBL (I1KG81117) and of the Derge pages 247-249 and 267-268 (I1344) were not read: every quotation above is the etext's. No Sanskrit or other Tibetan translation of 'Deceiving Death' and no catalogue note on the origin of its dream verses was looked for beyond BDRC's records of Vāgīśvarakīrti (P8946, claim svo-ngag-dbang-bdrc-records).
 - Steinert's dictionaries (locate.py dict) were not consulted for «ངག་དབང»: the 4.5 GB clone is not on the machine.
 
+
+### Open (RD360)
+
+- Question: Which 'O yug pa is meant in the remark of the noose girl's verse (cbl:p237s): 'O yug pa Bsod nams seng ge, 'O yug pa Rig pa'i seng ge or another, and does a Sakya record give this saying under his name?
+- Question: In the Dpe bsdur ma volume 46 is «གཤིན་རྗེའི་ཆུང་མ» (cbd:p1065-1066) the verse or a small-letter gloss run into it, and which of the Peking and Narthang prints has it? (The scan of the volume was not reached.)
+- Question: Which Vairocana-specific preparation text (the Vairocanābhisambodhi commentaries, the Sarvadurgatipariśodhana rites) names signs read in the pupils' dawn dreams, beyond those of the Sngags rim chen mo (snr:p367-371)?
+- Question: Who is the lama of «བླ་མས་གསུང་ཞིང་མྱོང་བས་གྲུབ་བོ» in the Śramaṇā rite (tdr:p338-340e), and is the Śākyamuni or the Tārā rite found in a collected works?
+
+### Searched and not found (RD360)
+
+- BDRC exact strings (2026-11-10) «འོ་ཡུག་པ་ན་རེ», «ཨོ་ཡུག་པ», «འོ་ཡུག་པ་གསུང», «འོ་ཡུག་པ་འཆི་», «འཆི་བ་བསླུ་བ་འོ་ཡུག་པ», «བླ་མ་ན་རེ། འཆི་བའི་དུས་ལ་བབ་པ»: no hit; the remark's words only in CBL; the Dpe bsdur ma volumes 14 and 46 have no «འོ་ཡུག» and no «བླ་མ་ན་རེ» at the verses.
+- The Śākyamuni rite's mantra «ཨོཾ་བུདྷ་ཙུ་རུ་མཱ་ཙུ་རུ་ཀེ་སྭཱ» and «རྗེ་བཙུན་ཤཱཀྱ་ཐུབ་པའི་སྒོ་ནས་བརྟག་པ»: the 'Brong rtse etext only, or none; «ཨོཾ་ཤྲ་མ་ཎ་པི་ཤ་ཙི་མུན་དྷེ་སྭཱཧཱ» none (spelling variants).
+- WB's dream-list lines and the 'Ma gcig' phrase: see claim wb-dream-list-no-third-witness-rd360; the Chöd collection of Ma gcig was not found as an etext, and the modern article's own context for it (MW20242_55798C, MW1CZ690_FBE63E) was not opened.
+- The Sngags rim chen mo etext has no scan attached, so snr:p349 and snr:p367-371 are etext; the Vairocana abhisambodhi itself and its commentaries were not opened.
+- The scan of the Dpe bsdur ma volume 46 (I1PD95891): bdrc.py scans returned nothing for images 1098-1099 (restricted or out of range); not read.

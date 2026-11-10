@@ -1230,3 +1230,33 @@ dds:
   rank: 3
   role: source
   locator: image
+
+snr:
+  title: "Rgyal ba khyab bdag rdo rje 'chang chen po'i lam gyi rim pa gsang ba kun gyi gnad rnam par phye ba (the Great Exposition of Secret Mantra, the Sngags rim chen mo), the chapter on the preparation (sta gon) of the initiation"
+  author: "Tsong kha pa Blo bzang grags pa, as BDRC ascribes it"
+  edition: "Asian Legacy Library etext (BDRC MW1ALS05281E, IE1ALS05281E, volume VE1ALS05281E, 861 etext pages); the etext's page markers [pN] are the pages cited; no scan is attached"
+  bdrc: {work: MW1ALS05281E, etext: IE1ALS05281E}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD360 (2026-11-10): the chapter on the preparation rite (the sixth, closing on [p372]) read in the etext at [p349]-[p350] and [p368]-[p371]; the passage that Dbang chen dgyes rab rdo rje names (dgd:i80-82); etext only, not read on a scan"
+
+cbd:
+  title: "'Chi ba bslu ba'i man ngag (Deceiving Death) as the Dpe bsdur ma prints it in its volume 46, the rgyud lhag ma volume that holds the Peking and Narthang group, with the summary of its meaning before it"
+  author: "Slob dpon Ngag gi dbang phyug grags pa; translated by the Indian abbot Dīpaṃkaraśrījñāna and the monk Rin chen bzang po (the volume's own catalogue)"
+  edition: "Bstan 'gyur dpe bsdur ma, Krung go'i bod kyi shes rig dpe skrun khang, vol. 46 (rgyud 'grel gu, no. 89 of the volume's own heading), etext volume VEIE0OPIA3E40644_I1PD95891 of the instance IE0OPIA3E40644; text nos. 2678-2680 of the volume's catalogue, the man ngag on printed pp. 1049-1073 (the dream verses on pp. 1064-1066), the etext's [p1096]-[p1097]"
+  bdrc: {work: MW1PD95844_2680, etext: IE0OPIA3E40644}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD360 (2026-11-10): the etext (noisy OCR with the small-letter glosses run into the verses) read at the dream verses and the volume's catalogue; the scan was not reached; the registry's cbs notes the same print's other volume (vol. 14, I1PD95859), whose text of the dream verses agrees with the Derge"
+
+kgy:
+  title: "Mdo sngags kyi dbang lung khrid gsum thob pa'i gsan yig thar pa'i them skas kyi stod cha (the record of the empowerments, transmissions and instructions received, upper part), by Klong rdol bla ma Ngag dbang blo bzang"
+  author: "Klong rdol bla ma Ngag dbang blo bzang (the etext's author line)"
+  edition: "Asian Legacy Library etext (BDRC MW1ALS06548I1, volume VE1ALS06548I1, 186 etext pages); the etext's page markers [pN] are the pages cited"
+  bdrc: {work: MW1ALS06548I1, etext: IE1ALS06548I1}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD360 (2026-11-10): [p63]-[p67], the list of the First Dalai Lama's collected works received and their lineage; etext only"
