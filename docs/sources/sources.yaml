@@ -1346,3 +1346,14 @@ cdb:
   rank: 3
   role: source
   locator: folio
+
+dyc:
+  title: "Dpal g.yul las rnam par rgyal ba zhes pa'i rgyud kyi rgyal po dbyangs 'char ba zhes bya ba (the Dbyangs 'char, the root text the Mchog dga' comments on)"
+  author: "translated and settled by the Indian abbot Paṇḍita Jayānanda (Dpal Ja ya A nan da) and the Tibetan translator Dgos 'dod thams cad 'byung ba (the colophon, Derge etext p. 184)"
+  edition: "Bstan 'gyur, Sde dge print as served by BDRC (work MW23703_4322, etext volume VE23703_1521, 552 etext pages; ch. 3 ends at p. 126, the dream verses are at pp. 121-122); the Bstan 'gyur dpe bsdur ma etext (VEIE0OPIA3E40644_I1PD95959, [p1134]-[p1136]) and the Narthang etext (VEIE0OPIF6EAA761_I2KG212495, [p128], too noisy to read) beside it"
+  bdrc: {work: MW23703_4322, etext: VE23703_1521}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "found by BDRC exact-phrase search on the Mchog dga's own words, RD369 (2026-11-10); etext only"
