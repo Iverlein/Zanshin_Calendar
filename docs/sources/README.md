@@ -1165,7 +1165,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 8 passages: 5 scan, 3 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 9 passages: 5 scan, 4 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |

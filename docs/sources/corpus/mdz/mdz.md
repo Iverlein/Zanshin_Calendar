@@ -231,3 +231,28 @@ Open:
 - Question: in which Edo source is the 初夢 night fixed at 2 January, and is it counted by the lunar months of the Edo calendar, which was the only one in use until 1872? The Japanese Wikipedia's entry 初夢 (read 2026-11-10; a modern encyclopedia, a lead and not a source) says that in the Edo period three nights were held, New Year's Eve to New Year's Day, the night of 1 to 2 January and the night of 2 to 3 January, the last the commonest in the late Edo period, and the night of 1 to 2 January commoner after the 1873 reform; it names no Edo text for it.
 
 Searched and not found (RD308), 2026-11-10: (1) the NDL catalogue (`ndl.py`, 2026-11-10) for 夢を見て語らざる日, 夢 語らざる日 大雑書, 大雑書, 万代大雑書, 永代大雑書, 夢合, 夢判断, 夢占 and 三世相: two new records that carry the words, the 永代大雑書大成 (pid 759978, 1883) and the 吉凶禍福夢判断 (pid 760913, 1890), both answer "NG" to the IIIF manifest and "This PID is not allowed" to the full-text API, so neither can be read open; the 万代大雑書三世相 (pid 760742) is open and was read (mdz:i108); (2) the NDL full-text API (lab.ndl.go.jp/dl/api/book/fulltext-json) fetched for the 104 open items among the 360 records of those searches: 語らざる, かたらざる and 語らず occur in no almanac or dream book among them (夢を見て only in a 1928 essay book, a 1919 book and an 1819 play), and 初夢 in no almanac (the preface of the 一九全集 and the 弘法大師夢判断 of 1926, a dream book with 初夢に鷹を見れば and no night); (3) the 江戸歳事記 of 1838 (pids 8369316 and 14670261; the 東都歳事記 is its other name) is in the catalogue but restricted (manifest NG, full text not allowed), so its entry for 2 January was not reached; (4) the 守貞謾稿 and the 類聚近世風俗志: only the Iwanami reprints, restricted; (5) the 俳諧歳時記栞草 and the 江戸府内絵本風俗往来: no record with a pid; (6) ja.wikisource: no page for the 守貞漫稿 or the 東都歳事記; (7) the NDL full-text search (lab.ndl.go.jp/dl/api/book/search) for 初夢 with 二日: modern local histories and Edo picture books by title only.
+
+## <a id="mdz-i190"></a>mdz:i190 RD339: 万代大雑書三世相 (1886), the colophon and the publisher's list on image 190
+
+*Read: by eye on the page image (image 190), 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
+
+> 明治十八年十二月廿八日　翻刻御届
+> 同十九年二月　発免
+> 原版人　丁子屋平兵衛
+> 翻刻出版人　鈴木喜右衛門
+> 夢合長者鑑　定価金四十銭　全一冊
+> 元三大師御籤抄　定価金五十銭　全一冊
+
+The colophon and the publisher's list at the end of the 万代大雑書三世相: the reprint was notified on the 28th day of the 12th month of Meiji 18 and licensed in the 2nd month of Meiji 19 (1886); the original publisher is Chojiya Heibei (丁子屋平兵衛), the reprint publisher Suzuki Kiemon (鈴木喜右衛門). The list of the publisher's other books (right leaf) names, among others, a dream book, the 夢合長者鑑 (the "wealthy man's mirror of dream matching", forty sen, one volume), and the 元三大師御籤抄 (the lots of Ganzan Daishi, fifty sen).
+
+## RD339 (2026-11-10): the rest of the 万代大雑書三世相; Open; Searched and not found
+
+Images looked at on the page images (bitonal, 3620 px wide), 2026-11-10: 128 and 132-139 one by one, 190 (the colophon), and from the front of the almanac images 33, 36 and 101, which are the leaves where the NDL's OCR of the volume shows 夢. The OCR of the whole volume was sorted by image to find the leaves: it is too rough to search for words, so the choice of leaves is a guess and the front matter was not read leaf by leaf.
+
+What was found: (1) the dream articles do not end at image 131 (mdz:i108). They run on image 128 (articles marked with a circle, some on persons and marriage), images 129-131 (the growing things, 生植の部), image 132 (the group of form and breath, 氣形の部, a heading at the foot of the left leaf), and images 133-136 (fish, birds and beasts, with the picture of a carp on image 133 and a game of go on image 129 as the pictures of the groups); on image 137 the dream matter ends and the leaf of the Kannon charms and the Kannon lots begins, image 138 holds the circle of the sixty-year cycle with a demon, image 139 the table of the five natures and the numbers of holes and then the first lot ("the first, great luck", 第一大吉), and the leaves from 140 to 189 are the lots, numbered into the eighties (by the OCR). (2) On none of the leaves 128-139 is there a table of twelve months with day branches, a legend for a slash, the words 語らざる日 or a 初夢; the circles mark the articles, each a plain "if one sees X" entry in running cursive that was looked at, not read letter by letter. (3) Images 33, 36 and 101 hold no dream matter: 33 is the rules for moving house, 36 the days for cutting clothes, 101 the signs of the face (長寿之相, 夭死之相); the OCR's 夢 there is a misreading. (4) The colophon (mdz:i190) dates the reprint to 1885-1886 and names a dream book of the same publisher, the 夢合長者鑑.
+
+Open:
+
+- Question: is the 夢合長者鑑, a dream book listed at forty sen in the publisher's list of the 万代大雑書三世相 (Suzuki Kiemon, 1886), set out in the NDL or any library, and does it carry the table of the days on which a dream is not told with a legend for the slash (q785) or a 初夢 night (q788)?
+
+Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざる日 and the words 語らざる日, and any 初夢, on the page images 128 and 132-139 and on 190 of pid 760742 (images 140-189 are the numbered lots and were looked at only through the OCR sorted by image, which shows lot texts and no dream table; not by eye); (2) images 1-107 (the front matter and the almanac's day-choosing tables) were not read leaf by leaf: three leaves were looked at (33, 36, 101); the slash table and the 初夢 are therefore not excluded from the front, only not found where the dream articles lie (images 108-137 hold the dream section whole); (3) the OCR text of the volume for 語らざる, 初夢 and 夢を見て: no hit (as RD308).
