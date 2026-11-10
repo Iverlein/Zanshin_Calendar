@@ -1977,6 +1977,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0979.md](questions/q0979.md) | question q979 | On p. 403, line 5, «མིག་དམར་འཇོག[?]»: is the last letter ཇ (the earlier passages) or ཛ (Yigdzin-1)? | open; cites wb.2:p403c |
 | [questions/q0980.md](questions/q0980.md) | question q980 | Which reign or era is «སྲིད་གསལ» in the dated colophon of the 10th text of W1NLM9044 (the ninth year, an ox year, fifteenth of the month Sa ga), and who is the mantra-madman Padma 'od zer? | open; cites gdn:i175 |
 | [questions/q0981.md](questions/q0981.md) | question q981 | Is the writer of the copies, Blo bzang karma bkra shis of the Red-Hat family (GDM's volume, 2nd text) or Blo bzang nyi ma (GDR's volume), the same hand as the dream text's, and can a reader of Mongolian manuscript hands date the three volumes by paper and hand? | open; cites gdm:i82, gdr:i37 |
+| [questions/q0982.md](questions/q0982.md) | question q982 | In the Sha za brtsegs pa'i rgyud's ninth section the signs of nearness (black man, black dog, raven, tiger, thunder) stand under the title «the chapter of the dream signs»: are they dreams of the practitioner at the approach, and are the lines after «ཐོག་འཚག་ཉེ་བའི་མཚན་མའོ» a second group, signs of the work succeeding? | open; cites szb:i463 |
+| [questions/q0983.md](questions/q0983.md) | question q983 | Does Dbang chen dgyes rab rdo rje follow a text for the dream step (he cites the Mantra Stages, «སྔགས་རིམ་ཆེན་མོ»), and does the Vairocana initiation tradition name signs a teacher reads in the pupils' dawn dreams? | open; cites dgd:i80-82 |
 
 <!-- end pool index -->
 

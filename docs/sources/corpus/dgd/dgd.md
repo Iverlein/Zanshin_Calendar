@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD335 (2026-11-10): Sha za brtsegs pa'i rgyud I1KG3558 img. 458–468; Dbang chen dgyes rab rdo rje I4CZ30840 img. 78–92.
+
 ## <a id="dgd-i80-82"></a>dgd:i80-82 The fifth step of the preparation: rejoicing, guarding and the instruction to examine dreams
 
 *Read: machine.*

@@ -2022,3 +2022,7 @@ Searched and found wanting, so not to be repeated:
 - **RD334** (RD334, 2026-11-10):
   - A date in any record of the three volumes or of their parts on BDRC (records read as JSON, 2026-11-10): none; BDRC exact-phrase search «སྲིད་གསལ་གྱི་ཁྲི་ལོ» and «སྔགས་སྨྱོན་པདྨ་འོད་ཟེར»: 0 hits each; BDRC persons for Dkon mchog bstan pa'i sgron me by autosuggest: no person record with dates found.
   - The colophons of GDM's 3rd text (img. 85–86) and of the parts of GDR's volume other than the 1st and 8th not read on the scan; the colophon readings are machine only, the catalogue's Wylie transcription agreeing.
+- **RD335** (RD335, 2026-11-10):
+  - A list of dream images in Dbang chen's img. 80–82: none, one expected dream, the mandala (2026-11-10); a line in the Sha za brtsegs pa'i rgyud's img. 463 that says dream apart from the colophon: none.
+  - BDRC's IIIF route for Dbang chen: bdrc.py scans with the VE id (VE1ER1992) answers 500, the image group I4CZ30840 found from the work's record (I4CZ30837–30841 for vols. 1–5); bdrc.py volumes W4CZ30835 answers 401, with the MW id it lists only VE ids; for the Sha za brtsegs scan bdrc.py volumes MW2CZ7955 gives I1KG3558 directly.
+  - No MITRA witness, so img. 463 lines 3–4 and the garbled words stay machine-read.
