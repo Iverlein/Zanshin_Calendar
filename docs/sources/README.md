@@ -2081,6 +2081,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1023.md](questions/q1023.md) | question q1023 | What is the «ru rta'i lde gur» of the be bum's dream rites? Read as rue-root only as a guess. | open; cites mph.128:i189-192 |
 | [questions/q1024.md](questions/q1024.md) | question q1024 | What does the colophon date «རབ་ཚེས་མེ་རྟ་ཟླ་ཚེས» of Mipham's Flaming Uṣṇīṣa sādhana for turning back bad dreams (Chengdu vol. 25, image 460) say? | open; cites mph.25:i459-460 |
 | [questions/q1025.md](questions/q1025.md) | question q1025 | In the opening of Mipham's notes on WB (wb.2:p474) «དུས་ཁམས» is printed where the sense wants «རུས་ཁམས» (clan element); is it a misprint? | open; cites wb.2:p474 |
+| [questions/q1026.md](questions/q1026.md) | question q1026 | Does the Narthang Tengyur catalogue (I2KG212509, vol. 225) list the Svapnohana anywhere, and where? Images 3-140 and the rest were not read; the entry is absent from the Black Lord run (images 202-206) where the Derge and Jo nang order would put it. | open; cites svo:i197 |
+| [questions/q1027.md](questions/q1027.md) | question q1027 | Are the «two condensed meanings» of the Deceiving Death by Ngag dbang grags pa in the Narthang catalogue (svo:i197) the 360-verse work that stands before the Svapnohana in the Derge? The line names no verse count. | open; cites svo:i197 |
 
 <!-- end pool index -->
 
