@@ -1852,3 +1852,7 @@ Searched and found wanting, so not to be repeated:
   - ST ch. 2's birth lines on the Chag-po-ri print I1KG13487 (img. 35–37): Yigdzin-1's text of img. 36 breaks off before «ཟླ་དགུ་འདས་ནས»; no reading by print there.
   - ST ch. 81 on the Derge and the Chag-po-ri copy: not located (the Zhol's is img. 483; by proportion near img. 440 and 442).
   - BDRC full-text search 2026-11-10: «ནིའུ་གསིང་དང་སྦལ་ལྗོང» no hit; «ལྷས་ཚོར་དུས་ཏེ» 14 hits, all the same verse with no gloss of the clause. The Blue Beryl and the Moonbeams gave no hit on the words.
+- **RD288** (RD288, 2026-11-10):
+  - «བརྗེད་ངེས» on any of the eight prints' scans of ch. 7, Yigdzin-1 over the line and by eye on two: not found; all have ངས.
+  - A part of the night between midnight and dawn named in Byang pa, Khro ru, Rin spungs pa, the Drikung and the 'Bum nag gsal sgron (the passages in the pool): not found.
+  - The Gso bya lus kyi rnam bshad (etext restricted) and a second published etext of Byang pa or Khro ru: not opened.
