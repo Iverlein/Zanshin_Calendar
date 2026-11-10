@@ -728,6 +728,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md](claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md) | claim, note | The Amoghasiddhi bird of the three spellings is probably the shang shang te'u, jīvajīvaka; no commentary on the Svapnekṣā says so (RD309) | cites svi:p310b, svi:p261b; feeds RD309 |
 | [claims/svi-amoghasiddhi-bird-spellings.md](claims/svi-amoghasiddhi-bird-spellings.md) | claim, note | The Amoghasiddhi bird line reads «བྱ་ཤར་ཏེ་རུ» on the Derge and the Co ne, «བྱ་ཤིང་ཏེའུ» on the Peking (read on the scan), «ཤང་ཏེའུ» on the Narthang by the note (RD309) | cites svi:p310b, svi:p261b, svi:p289-291b; feeds RD309 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
+| [claims/svi-co-ne-night-and-bird-machine-tallies.md](claims/svi-co-ne-night-and-bird-machine-tallies.md) | claim, note | The Co ne Svapnekṣā: Yigdzin-1's windows give «བརྟགས་པ་ཉལ» for the night and «བྱ་ཤར་ཏེ་རུ» for the bird | cites svi:p263, svi:p130; feeds RD354 |
 | [claims/svi-dpe-bird-note-and-brtags-note.md](claims/svi-dpe-bird-note-and-brtags-note.md) | claim, note | The Dpe bsdur ma's notes on the Svapnekṣā's bird and on «བརྟགས་ལ་ཉལ» | cites svo:p271v; feeds RD323 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md](claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md) | claim, note | The Narthang manuscript's Amoghasiddhi line «བྱ་ཤ?་ཏེ…» is not settled | cites svi:p289-291b, svi:p289-291, svi:p309-312, svi:p261-262; feeds RD298 |
@@ -737,6 +738,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
 | [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
 | [claims/svi-peking-btab-or-brtags-reread.md](claims/svi-peking-btab-or-brtags-reread.md) | claim, conflict | On the Peking the eye keeps «བརྟགས་པ་ལ», Yigdzin-1 gives «བཏབ་ལ» eight of eight, the Dpe entry is «བཏབ»: unresolved (RD327) | cites svo:p271w, svi:p310, svi:p289-291b; feeds RD327 |
+| [claims/svi-peking-night-line-group-count.md](claims/svi-peking-night-line-group-count.md) | claim, note | The Peking's last part of the night: six groups from བ to the shad, which fits «བཏབ་ལ་ཉལ» (RD354) | cites svi:p263, svi:p310; feeds RD354 |
 | [claims/svi-peking-variants.md](claims/svi-peking-variants.md) | claim, note | The examination of dreams in the Peking print | cites svi:p309-312; feeds — |
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
@@ -1201,7 +1203,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 24 passages: 10 scan, 6 machine, 8 etext |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 11 passages: 5 scan, 4 machine, 2 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 39 passages: 13 scan, 7 machine, 19 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |

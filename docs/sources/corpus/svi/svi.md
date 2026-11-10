@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD354 (2026-11-10): the Svapnekṣā's last part of the night and the Amoghasiddhi bird line on the Co ne (I1GS66080 img. 263), the Peking (I1KG13215 img. 310), the Narthang (I2KG212330 img. 290) and the Derge (I1365 img. 261) at 4–9x, Yigdzin-1 on windows of the Co ne, BDRC exact-phrase searches; see svi:p263.
+
 Read by RD309 (2026-11-10): the Amoghasiddhi bird line on the Peking print (I1KG13215 img. 310 line 5, by eye; see svi:p310b), the Derge (I1365 img. 261) and the Co ne (I1GS66080 img. 263) by Yigdzin-1 on line strips, the three spellings by BDRC full-text search; see the claims svi-amoghasiddhi-bird-spellings and svi-amoghasiddhi-bird-is-shang-shang-te-u.
 
 Read by RD306 (2026-11-10): SVI on the Peking print I1KG13215 img. 310.
@@ -89,6 +91,39 @@ Continuing the "of the mind" signs: fine clothes worn and tree-fruit eaten; the 
 Remedy: for a fortunate dream, begin the practice, according to the rite told for the Jewel Seal (རིན་ཆེན་ཕྱག་རྒྱ); for a bad sign, a sesame fire offering (ཏིལ་གྱི་སྦྱིན་སྲེག, til gyi sbyin sreg), purified a thousand times in that family. Then: habitual traces (བག་ཆགས, bag chags), the hungry ghosts, what pleases the mind: all things of saṃsāra are like a dream, the yogin should see them so, for the delusion is not real. "From realising the good, wisdom is born; what is made by the mind has no birth. So, in secret mantra, take the means that depend on dependent arising as the chief." The dreams of generating the mind of awakening and of empowerment are "gathered from Nāgārjuna's text"; "may the clear stages of good and bad lead to seeing the face of Mañjuśrī-jñānasattva." End of the examination of dreams by the Indian abbot Dpal ldan Gnyis su med pa (Advayavajra); made as his own translation by the yogin, almsman Prajñāśrījñānakīrti.
 
 Notes. The text names no time of night but the three parts of page 261, and no day, month or year. The syllables are the etext's, not read one by one on the scan.
+
+## <a id="svi-p263"></a>svi:p263 The Svapnekṣā's last part of the night and the Amoghasiddhi bird line on the Co ne, Peking, Narthang and Derge prints at full size (RD354)
+
+*Read: scan, 2026-11-10.*
+
+> Co ne vol. 49 (I1GS66080), img. 263 (130a), the three parts of the night; Yigdzin-1 on 3x windows (650 x 70 px) of the frame at ten heights and two or three offsets (2026-11-10), the reading of nearly every window:
+> དང་པོའི་ཆ་ནི་བག་ཆགས་འཁྲུག །གཉིས་པར་ཡི་དགས་རྒྱུ་བར་འགྱུར། །ཐ་མར་རྨི་ལམ་བརྟགས་པ་ཉལ། །མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང་། (not read by eye)
+> 
+> Co ne vol. 49, img. 263, the Amoghasiddhi line, Yigdzin-1 on 15 windows:
+> ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་ (ཕོ་ཉར་ at the break of the line; not read by eye)
+> 
+> Peking (I1KG13215 img. 310, line 1, about x 3690–4350 of the 5385 px frame; 2x and 4x contrast-stretched crops), the signs after «ལམ» counted by eye:
+> ཐ་མར་རྨི་ལམ་ ... ལ་ཉལ། (after the མ of «ལམ»: a བ, then three groups not told apart, then ལ, ཉ, ལ and the shad)
+> 
+> Narthang (I2KG212330 img. 290, line 2 end, about x 2660–2830; 9x crops, plain and thresholded):
+> བྱ་ཤ?་ཏེ[...] (བྱ with its ya, a ཤ-headed syllable whose lower sign is smeared, ཏེ, then a long diagonal stroke and one wide stacked group at the frame)
+> 
+> Derge (I1365 img. 261, line 5, about x 1540–1720; 9x):
+> བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང། (as the etext; the letters about 8 px)
+
+RD354 read the places that RD276, RD298, RD306 and RD309 left open, once more on every open print at the largest size the scans give (BDRC serves no larger image than the cached one: a request at width 4000 or 6000 returned an empty file). Result in short: the eye settled none of the four places; the machine tallies and the block count of the Peking line are new.
+
+Co ne, the last part of the night (img. 263): Yigdzin-1 on 50 windows of the frame (24 line strips and 26 windows at two or three offsets), of which 14 reached the line, reads «བརྟགས་པ་ཉལ» (པ, then ཉལ, no ལ between them) in all 14 («མཐར», «མི་ལམ», «མ་བརྟགས» and «བཤགས» are slips of the neighbouring syllables) and «བརྟགས་ལ་ཉལ» in none; RD276's two readings «བརྟགས་ལ་ཉལ» came from whole-frame runs. The line is the same seven syllables as the Derge's, with པ where the Derge has ལ. By eye at 3–5x the frame's six lines run into each other (the lines slope and are 45 px apart for letters of 25 px) and the syllables after «ལམ» are not told apart. A machine witness only, and one that agrees with neither the Derge etext nor the Narthang.
+
+Co ne, the Amoghasiddhi line: of 15 windows, 11 give «བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར» (one with «ཕོ་ཤར»), one «བྱ་གར་ཏེ་རུ», three «བྱ་ཤར་ཏ་ཅུ», «བྱ་གོར་ཏ་རུ», «བྱ་ཤར་ཏ་རུ» from the faint heights; none gives «ཤང», «ཤིང» or «ཏེའུ». So by machine the Co ne has the Derge's four syllables «བྱ་ཤར་ཏེ་རུ».
+
+Peking, the last part of the night (img. 310 line 1): on a 4x crop the signs after the མ of «ལམ» are a བ, then three groups, then a ལ-shaped group, a ཉ-shaped group with a long tail, and ལ before the shad: six groups to the shad, of which «ལ་ཉལ» are the last three. The three groups after བ carry a stack with a long tail, a flat-headed group and a loop; they do not separate into «རྟ», «ག», «ས», «པ». A reading «བརྟགས་པ་ལ་ཉལ» needs eight groups from བ to the shad, «བརྟགས་ལ་ཉལ» seven, «བཏབ་ལ་ཉལ» six: the count fits «བཏབ་ལ་ཉལ», as Yigdzin-1's eight of eight and the Dpe bsdur ma's «དབཏབ» for the Peking and Narthang, and goes against RD306's «བརྟགས་པ་ལ»; not settled, because the long tail of the second group is the one stroke that is not a ཏ's.
+
+Narthang, the Amoghasiddhi line (img. 290 line 2 end): the same smear as RD298 found: བྱ, a ཤ-head, ཏེ with its vowel, a long diagonal stroke, and one wide stack at the frame. The lower sign of the second syllable (ར, ང or ད) and whether the stack is «འུ» (the Dpe bsdur ma's «ཤང་ཏེའུ») or «རུ» are not told apart at 9x on the plain or the thresholded crop. The question q953 (which reading the editors replaced) stays open.
+
+Derge (img. 261): at 9x the line has the groups བྱ, ཤ with a ར-like lower stroke, ཏེ, a stack, ཕོ, ཉར, གཏོང; no difference from the etext's «བྱ་ཤར་ཏེ་རུ» is seen, nor is the ར settled at 8 px.
+
+q865: the Co ne's Svapnekṣā (vol. 49 130a1–130b7, img. 263–264) has no watch lines in the sense of the Svapnohana (the half-month, month and year watches) and no «ལ་མོ» or «བླ་མོ»: its only watch line is the three parts of the night above. By eye nothing can be read from the leaf; by machine the line is the Derge's but for «པ» for «ལ».
 
 ## <a id="svi-p289-291"></a>svi:p289-291 The examination of dreams in the Narthang manuscript (vol. 46, img. 289-291)
 
@@ -233,4 +268,4 @@ The Amoghasiddhi sign on the Peking print, img. 310, line 5 (RD309): "led to the
 
 ## The Svapnekṣā's spellings on the prints at full size (q865, q953, q961, q815): the watch lines and «ལ་མོ/བླ་མོ» of Advayavajra's text on the Co ne (vol. 49, 130a1–130b7), the last part of the night on the Peking (I1KG13215 img. 310 l. 1), «བྱ་ཤར་ཏེ་རུ» against «ཤང་ཏེའུ» on the Narthang (RD354)
 
-Nothing read yet: RD354's passages, with the English beside them, go here.
+RD354's passage is svi:p263 above (the places on the Co ne, Peking, Narthang and Derge prints at full size); q865 is answered, q953, q961 and q815 stay open.
