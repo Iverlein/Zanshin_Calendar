@@ -1885,3 +1885,7 @@ Searched and found wanting, so not to be repeated:
   - The Zhol's ch. 81 (I5910 img. 483) cropped at 3–4×: the bilevel strokes are too crowded for a reading by eye, the Zhol's ལྗོངས stays the machine's reading.
   - The Zhol, Derge, Chag-po-ri and Drathang pages of ST pp. 183, 218 and 241 (q790) not located; the Drikung commentary's etext has no gloss of ཟ་ཟི, only some thirty uses.
   - ལྷས་ཚོར in the Drikung commentary: quoted without a gloss; Chag-po-ri img. 425–448 and Derge img. 400–446 hold no second copy of the list.
+- **RD296** (RD296, 2026-11-10):
+  - A second BDRC instance, scan or etext, of the Serthang Four Tantras: the work record WA3CN5036 lists MW3CN5036 only; searches for «gso rig rgyud bzhi» with «gser thang», «gser thang bla rung lnga rig nang bstan slob gling», «gser rta» and «gso rig sde bzhi» give that instance alone (2026-11-10).
+  - The ch. 7 bad-dream verse and the two night lines anywhere in the Serthang etext (all 622 pages, spaces and tsheg stripped; «རྨི་ལམ་བྱི་ལ», «སྤྲེའུ་སྟག», «འཆི་བདག་ཟིན», «དུར་ཁྲོད་ཉལ», «མི་བཟང་བ», «མི་ཟད་པ», «མཚན་སྟོད»): none; the leaf is not misplaced elsewhere in the volume.
+  - «བརྗེད་ངེས» in the Lhasa 1982 and Beijing typeset etexts of the verse: not found (ངས on both). A BDRC full-text search of «brjed nges» also hit Bon texts, not used.

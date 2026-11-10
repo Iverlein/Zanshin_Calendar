@@ -1782,6 +1782,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0891.md](questions/q0891.md) | question q891 | Does the cows' line of the Aṣṭāṅgahṛdaya (Śārīrasthāna 6.63) read gosarge in the older manuscripts too, or gomārge as in some prints (the Śabdakalpadruma's gomarge)? | open; cites skd:p471-472 |
 | [questions/q0892.md](questions/q0892.md) | question q892 | Is the afternoon for the bright beginning in the Aṅgavijjā ch. 41 a scribe's slip for the forenoon, as the lists of chs. 42 and 53 suggest, or a variant of the text itself? | open; cites svo:p271f |
 | [questions/q0893.md](questions/q0893.md) | question q893 | Is the last letter of «ལྷས་ཚོར» in ch. 81 on the Chag-po-ri print (I1KG13487 img. 426, line 6) a ར or a ང (Yigdzin-1 reads ལྷས་ཚོང)? | open; cites st:p350-351 |
+| [questions/q0894.md](questions/q0894.md) | question q894 | Is the Serthang print's own book (the Larung Gar typeset edition of the Four Tantras, 611 pages) held complete in a library whose scan BDRC lacks, so that printed pp. 31–32 could be read for «བརྗེད་ངས» and «མི་བཟང་བ»? | open; cites gt:i42 |
 
 <!-- end pool index -->
 
