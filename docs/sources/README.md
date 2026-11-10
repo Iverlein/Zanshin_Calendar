@@ -228,6 +228,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/circles-servant-fine-start.md](claims/circles-servant-fine-start.md) | claim, rule | The servant's fine start, and the old text's wood example | cites ys:i497-498, wb.2:p10-11, wb.2:p533b; feeds block-31 |
 | [claims/circles-upward-for-all.md](claims/circles-upward-for-all.md) | claim, rule | The circles are counted upward for everyone, by the years lived | cites ys:i496-497, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/circles-zg-worked.md](claims/circles-zg-worked.md) | claim, rule | The circles: the count and the five pebbles, worked by Zhechen Gyaltsab | cites zg:p303-304, lt:p65-67, wb.2:p533b, ut:p4; feeds block-31 |
+| [claims/cited-texts-no-watch-or-day.md](claims/cited-texts-no-watch-or-day.md) | claim, table | None of the five cited texts names a watch of the night or a day for the dream; what each names as a remedy (RD373) | cites snr:p367-371, sct:p295-297, vjv:p230-231, mmb:p155-156, nbv:p273-274, trt:p418-419; feeds — |
 | [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
 | [claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md](claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md) | claim, note | The Dbyangs 'char's half-watch verse in the 'Bri lugs bang mdzod and the eight planet-nāga pairs in the later books (RD326) | cites svo:p271w, svo:p271x; feeds block-73 |
 | [claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md](claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md) | claim, note | The Dbyangs 'char's half-watches are eight by day and eight by night, equal within each (RD326, q946) | cites svo:p271w, svo:p271x, svo:p271y; feeds block-73 |
@@ -615,6 +616,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mewa-labels-colour-count.md](claims/mewa-labels-colour-count.md) | claim, note | The number after a mewa's colour on p. 70 and in the notes is best read as a count of pebbles | cites wb.2:p70, wb.2:p501, dz:i055-057; feeds — |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/mipham-notes-no-watch-of-the-night-halves-by-events.md](claims/mipham-notes-no-watch-of-the-night-halves-by-events.md) | claim, note | Mipham's notes name no watch of the night; WB and the notes cut it by sunset, midnight and dawn | cites svo:p271n, wb.2:p532, wb.1:p375; feeds block-73 |
+| [claims/mmb-remedy-all-doer-not-ender-of-obstructors.md](claims/mmb-remedy-all-doer-not-ender-of-obstructors.md) | claim, conflict | Mar me mdzad bzang po's rite names the All-Doer, not the Ender of Obstructors, which the Sngags rim chen mo says he names (RD373) | cites snr:p367-371, mmb:p155-156, mmb:p175; feeds — |
 | [claims/mmk-bad-dream-remedy-wrathful-king-mantra.md](claims/mmk-bad-dream-remedy-wrathful-king-mantra.md) | claim, note | The root tantra's remedy of bad dreams is the wrathful king's mantra; it does not name the Ender of Obstructors (RD370) | cites mmk.1:p404-405, snr:p367-371; feeds — |
 | [claims/mmk-ch18-measure-chains-and-arithmetic.md](claims/mmk-ch18-measure-chains-and-arithmetic.md) | claim, list | The measure of ch. 18 set out: the two chains, 32 against 30, and the Kālacakra and Indian units beside it (RD378) | cites mmk.1:p438a, mmk.1:p438-439, svo:p271z; feeds — |
 | [claims/mmk-ch18-night-omens-name-three-watches.md](claims/mmk-ch18-night-omens-name-three-watches.md) | claim, note | The earthquake omens of ch. 18 name three watches, midnight, dawn and sunrise, and never a fourth watch (RD378) | cites mmk.1:p435-436, mmk.1:p436-437; feeds — |
@@ -662,6 +664,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mvy-thun-gsum-pa-third-of-five-watches.md](claims/mvy-thun-gsum-pa-third-of-five-watches.md) | claim, note | The Mahāvyutpatti's thun gsum pa is the third of five watches of the night (RD322) | cites svo:p271q; feeds block-73 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md](claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md) | claim, note | The Narthang catalogue names the Deceiving Death's author Ngag dbang grags pa (img. 197) and has no Examination of Dreams entry where the Derge order would put it (img. 196–206) (RD365) | cites svo:i197; feeds — |
+| [claims/nbv-klu-byang-selflessness-talk.md](claims/nbv-klu-byang-selflessness-talk.md) | claim, note | Klu byang's remedy of the dream is the talk of selflessness (RD373) | cites snr:p367-371, nbv:p273-274, nbv:p292; feeds — |
 | [claims/neg-acaramayukha-quotes-month-series.md](claims/neg-acaramayukha-quotes-month-series.md) | claim, note | Nīlakaṇṭha's Ācāramayūkha quotes a Svapnādhyāya with a month for the fourth watch (RD317) | cites neg:p14-16, neg:p32; feeds block-73 |
 | [claims/neg-i-tripaksake-unmarked-ramtek-masake.md](claims/neg-i-tripaksake-unmarked-ramtek-masake.md) | claim, note | Negelein marks nothing at 'tripakṣake' of his manuscript i; the Ramtek copy has a locative in -māsake for the third watch (RD312) | cites neg:p14-16, rmk:i2b, pzs:i102-103b; feeds block-73 |
 | [claims/neg-manuscripts-and-the-series.md](claims/neg-manuscripts-and-the-series.md) | claim, table | Negelein's manuscripts a–w and which of them carry the Svapnohana's five-span series (RD272) | cites neg:p14-16, neg:p32, neg:p376, skd:p470-471; feeds block-73 |
@@ -737,7 +740,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rst-three-watches.md](claims/rst-three-watches.md) | claim, rule | RST: the night in three watches, and only the dawn third is examined | cites rst:p1-8; feeds block-73 |
 | [claims/rst-when-a-dream-counts.md](claims/rst-when-a-dream-counts.md) | claim, rule | RST: when a dream counts and how its fruit is told | cites rst:p1-8; feeds block-73 |
 | [claims/rst-whose-apparition.md](claims/rst-whose-apparition.md) | claim, list | RST: whose apparition each figure of a dream is | cites rst:p1-8; feeds block-73 |
+| [claims/saraha-verse-in-buddhakapala-rite.md](claims/saraha-verse-in-buddhakapala-rite.md) | claim, note | Saraha's verse of the dawn stands in his Buddhakapāla rite; two Guhyasamāja rites with the same stretch (RD373) | cites snr:p367-371, sbk:p470, sbk:p488, ngm:p43, ngm:p71; feeds — |
 | [claims/sch-svapnohana-abstract.md](claims/sch-svapnohana-abstract.md) | claim, note | Scheuermann's chapter on the Svapnohana: what its abstract says, and that the chapter is unread | cites svo:p268, svo:p271; feeds block-73 |
+| [claims/sct-dream-no-watch-pacifying-fire.md](claims/sct-dream-no-watch-pacifying-fire.md) | claim, note | The Common Tantra: the dawn dream, many good signs, no watch; the pacifying fire offering for the bad (RD373) | cites snr:p367-371, sct:p295-297, sct:p284; feeds — |
 | [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
 | [claims/sds-chapter-ordinals-colophons-against-contents.md](claims/sds-chapter-ordinals-colophons-against-contents.md) | claim, table | The Siddhasāra's colophon numbers of chapters 4 to 6 run one too high and are corrected in brackets; the opening list and the contents differ in the order of chapters 4 and 5 | cites sds:p19, sds:p27, sds:p34-113, sds:p72-73, sds:p75-77, sds:p230-231; feeds S1 |
 | [claims/sds-dream-signs-of-the-sick.md](claims/sds-dream-signs-of-the-sick.md) | claim, list | The Sidha-sa-ra's dream signs of the sick and the dream of each nature | cites sds:p75-77, sds:p32; feeds S1 |
@@ -754,6 +759,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |
 | [claims/slayers-east-and-facing.md](claims/slayers-east-and-facing.md) | claim, note | P. 99: the four slayers' directions, the corpse's facing and «རྨེ་བདུན» | cites wb.2:p97-100; feeds block-31 |
 | [claims/small-element-and-do-gcig-in-reply-152.md](claims/small-element-and-do-gcig-in-reply-152.md) | claim, note | The small element and the do gcig in reply 152 | cites ys:i513-514, wb.2:p39-41; feeds block-31 |
+| [claims/snr-cited-texts-identified.md](claims/snr-cited-texts-identified.md) | claim, table | The five texts the Sngags rim chen mo cites for the dawn dream, found in the Kanjur and Tengyur (RD373) | cites snr:p367-371, snr:p349, sct:p295-297, vjv:p230-231, mmb:p155-156, nbv:p273-274, trt:p418-419; feeds — |
 | [claims/snying-sdug-in-the-lexica-a-loved-one.md](claims/snying-sdug-in-the-lexica-a-loved-one.md) | claim, note | The lexica give snying sdug as a loved one, not as heartache (RD322, q940) | cites svo:p271q; feeds block-73 |
 | [claims/son-text-hidden-text.md](claims/son-text-hidden-text.md) | claim, note | The son text and the hidden text as classes of the tradition's texts | cites ys:i492-493, ys:i094b; feeds block-32 |
 | [claims/sources-own-dates-dream-texts.md](claims/sources-own-dates-dream-texts.md) | claim, note | What the dream texts say of their own date: none names one; the dated copy is of 1824; Scheuermann still unread | cites bvp:p660, bvg:p1-2, neg:i20, apv:p445, pn673:i6; feeds block-73 |
@@ -921,6 +927,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thun-night-watches-by-season-length-meditation-text.md](claims/thun-night-watches-by-season-length-meditation-text.md) | claim, rule | A meditation hand-book cuts day and night each into four by the season's own length | cites svo:p271o; feeds block-73 |
 | [claims/tkg-dreams-asked-at-dawn.md](claims/tkg-dreams-asked-at-dawn.md) | claim, list | Tsong kha pa's mandala rite: the disciples' dreams asked at dawn, the four parts of the night, the reversal of bad signs | cites tkg:i385-388, kbs:p68-70; feeds S1, RD329 |
 | [claims/trigram-verse-demon-doors-mulatantra.md](claims/trigram-verse-demon-doors-mulatantra.md) | claim, note | The trigram verse on the four demon doors: unnamed in WB, the mulatantra in the Mirror | cites wb.2:p450; feeds — |
+| [claims/trt-darika-verse-six-differences.md](claims/trt-darika-verse-six-differences.md) | claim, note | Dārikapa's verse stands in Dārika's Entering Reality with six differences from the Sngags rim chen mo's quotation (RD373) | cites snr:p367-371, trt:p418-419, trt:p440; feeds — |
 | [claims/tsd-six-yogas-dreams-of-spirits-and-leaking.md](claims/tsd-six-yogas-dreams-of-spirits-and-leaking.md) | claim, note | Tāranātha's Sbyor drug gegs sel reads dreams of darkness, snakes, horses, dogs and women as a spirit's harm in the six yogas, with a remedy | cites tsd:p5, tsd:p32; feeds block-73 |
 | [claims/tsl-dream-signs-of-rite-accomplished.md](claims/tsl-dream-signs-of-rite-accomplished.md) | claim, list | Dreams that show a rite accomplished, in the treasure instruction: by rite, no hour or day | cites tsl.27:i203-205, tsl.27:i167-168; feeds RD363 |
 | [claims/tsl-life-conception-dreams-read-as-sorcery-and-as-sign.md](claims/tsl-life-conception-dreams-read-as-sorcery-and-as-sign.md) | claim, conflict | The parents' dreams at Rtsa gsum gling pa's conception: the people read sorcery, he reads good dependent arising; no hour or day is given | cites tsl.30:i36-38, tsl.30:i49-50; feeds RD363 |
@@ -938,6 +945,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ur-mnan-spoke-seeds-on-taikhang.md](claims/ur-mnan-spoke-seeds-on-taikhang.md) | claim, note | The ur mnan wheel's spoke seeds on the Taikhang: hrī-like letters | cites wb.2:p112-114; feeds block-31 |
 | [claims/ut-chase-not-wb-up-three-count.md](claims/ut-chase-not-wb-up-three-count.md) | claim, note | UT's chase upward and downward is not WB's up-three count; the same sign-pair harms | cites ut:p224-226, wb.2:p172-173, wb.2:p22-23; feeds — |
 | [claims/ut-year-store-places-and-wb-four-counts.md](claims/ut-year-store-places-and-wb-four-counts.md) | claim, note | UT's year-store places beside WB's four counts | cites ut:p224-226, wb.2:p171-172; feeds — |
+| [claims/vjv-garland-whirling-mantra.md](claims/vjv-garland-whirling-mantra.md) | claim, note | The Garland is the Vajrāvalī; its remedy of a bad dream is the whirling mantra (RD373) | cites snr:p367-371, vjv:p230-231, vjv:p14-15; feeds — |
 | [claims/wb-1874-and-1828-each-on-its-prints.md](claims/wb-1874-and-1828-each-on-its-prints.md) | claim, conflict | 1,874 is WB's on three prints, 1,828 Mipham's on two; neither closes the twelfth's 3,186 | cites wb.2:p50, wb.2:p513; feeds block-31 |
 | [claims/wb-almanac-cell-dragon-nyi-dus-west.md](claims/wb-almanac-cell-dragon-nyi-dus-west.md) | claim, note | The model almanac's chart writes «འབྲུག་གྱི་ཉི་དུས། ནུབ་བལྟ།» in a cell: the day-time as an animal with a direction | cites wb.1:p138-140; feeds block-25 |
 | [claims/wb-bdrc-search-ch29-phrases-2026-11-01.md](claims/wb-bdrc-search-ch29-phrases-2026-11-01.md) | claim, note | BDRC's full-text search for the phrases of RD95's second part: only WB, one search-only manual | cites wb.2:p63-65, wb.2:p503; feeds block-31 |
@@ -1282,12 +1290,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 20 passages: 18 scan, 2 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
+| [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 40 passages: 7 machine, 33 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 9 passages: 8 machine, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
+| [corpus/nbv/nbv.md](corpus/nbv/nbv.md) | corpus | NBV | 2 passages: 2 etext |
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
+| [corpus/ngm/ngm.md](corpus/ngm/ngm.md) | corpus | NGM | 2 passages: 2 etext |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
 | [corpus/pl/pl.md](corpus/pl/pl.md) | corpus | PL: the Mchog dga' in the Mongolian dbu can print | 1 passages: 1 machine |
@@ -1302,7 +1313,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
+| [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
+| [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 7 passages: 7 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
@@ -1319,6 +1332,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 6 passages: 1 scan, 1 machine, 4 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
+| [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 17 passages: 17 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1326,6 +1340,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
+| [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 2 passages: 2 machine |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 6 passages: 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 10 passages: 2 scan, 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 15 passages: 10 scan, 5 machine |
@@ -2277,6 +2292,13 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **MPH** | 'Ju Mi pham rgya mtsho (1846–1912), the writings on dream signs and dream divination in his *Gsung 'bum* and his notes on the White Beryl (rank 2, owner 2026-10-20); the volumes named in each passage. Read in RD362. |
 | **DHD** | The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein shelfmarks), read from the images of the International Dunhuang Project and Gallica and the open transcriptions of Old Tibetan Documents Online; the modern editions for facts only, never their wording. Read in RD366. |
 | **DDS** | The hits of a systematic search of the BDRC etexts for dreams tied to a lunar day, a month, a weekday or a season; each passage names its text, author and etext. Read in RD367. |
+| **SCT** | The Common Tantra (Spyi rgyud, Toh 806, Sarvamaṇḍalasāmānyavidhiguhyatantra) in the Derge Kanjur: the pupils' dream at dawn, the good signs and the pacifying fire offering for the bad. The etext VE4CZ5369_I1KG9222 at pp. 284-338 (dream pp. 295-297). Read in RD373. |
+| **VJV** | The Garland (Phreng ba), Abhayākaragupta's Vajrāvalī, in the Peking Bstan 'gyur as the Dpe bsdur ma prints it: the pupil's staying, the whirling mantra and the dawn dream. An OCR etext (VEIE0OPIA3E40644_I1PD95884, pp. 228-231). Read in RD373. |
+| **MMB** | Mar me mdzad bzang po's (Dīpaṃkarabhadra's) Guhyasamāja mandala rite in 450 verses, Derge Bstan 'gyur etext VE23703_1358 pp. 139-175: the dawn dream and the All-Doer. Read in RD373. |
+| **NBV** | Klu'i byang chub's (Nāgabodhi's) Guhyasamāja mandala rite in twenty parts, Derge Bstan 'gyur etext VE23703_1351 pp. 263-292: the dawn dream purified by the talk of selflessness. Read in RD373. |
+| **TRT** | Dārika's Cakrasaṃvara mandala rite Entering Reality (Tattvāvatāra), Derge Bstan 'gyur etext VE23703_1337 pp. 408-440: the dawn dream, the All-Doer and the teacher's seven acts. Read in RD373. |
+| **SBK** | Saraha's rite of the Buddhakapāla mandala (Śrībuddhakapālamaṇḍalavidhikramaprakāśa), Derge Bstan 'gyur etext VE23703_1342 pp. 462-488: the dawn verse the Sngags rim chen mo quotes as Saraha's. Read in RD373. |
+| **NGM** | The Guhyasamāja mandala rite ascribed to Klu sgrub (Nāgārjuna), Derge Bstan 'gyur etext VE23703_1351 pp. 32-71: the dream and the mantra of all rites; a witness the Sngags rim chen mo does not name. Read in RD373. |
 | **MMK** | The Mañjuśrīmūlakalpa ('Jam dpal rtsa rgyud) on dreams and the four watches of the night: the Derge Kanjur etext and scan and the Sanskrit editions where open; each passage names its folio or page. Read in RD370. |
 | **CDB** | Chinese dream books and the rule of the days a dream is not told: the Dunhuang dream books, the Zhou gong dream books and the Chinese almanacs and handbooks; each passage names its text, folio or chapter and edition. Read in RD375. |
 | **KTD** | Sgo chen mkhan po Tshe dbang don rgyal (Khenpo Tsewang Dongyal, b. 1951), every text of his, in Tibetan or in translation; *Bdud 'joms 'jigs bral ye shes rdo rje … rnam thar ye shes rdo rje'i 'od zer* first among them. A source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL) | Pema Samye Chokhor Ling, Sarnath 2003, 241 pp. | BDRC MW29259 (person P5639), open scans; also MW24036, MW2KG5060 (*Khyad chos che ba drug …*), MW00EGS1016761 (the Sgo chen dgon *chos spyod*, 1984, etext); modern, copyrighted: facts only, never its wording; RD363 (2026-11-10): scans only, read by Yigdzin-1 for the dream words, see [corpus/ktd/ktd.md](corpus/ktd/ktd.md) |

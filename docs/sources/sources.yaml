@@ -1304,6 +1304,83 @@ snr:
   role: source
   notes: "RD360 (2026-11-10): the chapter on the preparation rite (the sixth, closing on [p372]) read in the etext at [p349]-[p350] and [p368]-[p371]; the passage that Dbang chen dgyes rab rdo rje names (dgd:i80-82); etext only, not read on a scan"
 
+sct:
+  title: "The Sarvamaṇḍalasāmānyavidhiguhyatantra (Dkyil 'khor thams cad kyi spyi'i cho ga gsang ba'i rgyud, Toh 806, the Common Tantra, Spyi rgyud) in the Derge Kanjur, the passage on the pupils' dream"
+  author: "the tantra itself (Sanskrit title by the Derge text: Sarvamaṇḍalasāmānyavidhiguhyatantra); translator not read"
+  edition: "the Derge Kanjur as the BDRC etext MW4CZ5369_0806 within the volume etext VE4CZ5369_I1KG9222 (image group I1KG9222; Toh 806 stands at etext [p284]-[p338], the dream passage at [p295]-[p297]); the etext's page markers [pN]"
+  bdrc: {work: MW4CZ5369_0806, etext: VE4CZ5369_I1KG9222, scans: [I1KG9222]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): the dream passage read in the etext; the scan image 295 (7 lines, red print) looked at and not read syllable by syllable"
+
+vjv:
+  title: "The Vajrāvalī (Dkyil 'khor gyi cho ga rdo rje phreng ba zhes bya ba, the Garland, Phreng ba) of Abhayākaragupta in the Peking Bstan 'gyur as the Dpe bsdur ma prints it, the chapter on the pupil's staying (the sta gon rite)"
+  author: "Paṇḍita Abhayākaragupta (Pa ṇḍi ta chen po gnas brtan A bhya A ka ra gupta), by the volume's own contents page; translated by him with the translator Khyer gad (?) ban de 'khor lo grags, later revised, by the same page"
+  edition: "Bstan 'gyur dpe bsdur ma, Krung go'i bod kyi shes rig dpe skrun khang, the rgyud volume etext VEIE0OPIA3E40644_I1PD95884 of the instance IE0OPIA3E40644, an OCR etext with stray marks; the etext's page markers [pN]; the work's contents page at [p12]-[p15], the dream passage at [p229]-[p231]"
+  bdrc: {etext: IE0OPIA3E40644}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): the passage read in the etext only (OCR; no scan looked at); the Derge print of the work was not found as an etext"
+
+mmb:
+  title: "The Śrīguhyasamājamaṇḍalavidhi of 450 verses (Dpal gsang ba 'dus pa'i dkyil 'khor gyi cho ga) of Mar me mdzad bzang po (Dīpaṃkarabhadra), Derge Bstan 'gyur, the pupil's staying and the dawn dream"
+  author: "Slob dpon Mar me mdzad bzang po (Dīpaṃkarabhadra) by the colophon; translated by the Indian abbot Padmākaravarman and the great translator Rin chen bzang po"
+  edition: "the Derge Bstan 'gyur (Karmapa Chodhey, Delhi) as the BDRC etext VE23703_1358 (MW23703); the text at etext [p139]-[p175]; the dream passage at [p155]-[p156]; the Peking print's etext VEIE0OPIA3E40644_I1PD95866 ([p1072]-[p1074]) has the same lines; the etext's page markers [pN]"
+  bdrc: {work: MW23703, etext: VE23703_1358}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): etext only; not read on a scan; the Derge number of the work was not found in what was read"
+
+nbv:
+  title: "The Śrīguhyasamājamaṇḍalopāyikāviṃśatividhi (Dpal gsang ba 'dus pa'i dkyil 'khor gyi cho ga nyi shu pa, the Twenty) of Klu'i byang chub (Nāgabodhi), Derge Bstan 'gyur"
+  author: "Slob dpon Klu'i byang chub (Nāgabodhi) by the colophon"
+  edition: "the Derge Bstan 'gyur as the BDRC etext VE23703_1351 (MW23703); the text at etext [p263]-[p292], the dawn dream at [p274]; the etext's page markers [pN]"
+  bdrc: {work: MW23703, etext: VE23703_1351}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): etext only; the Derge number of the work was not found in what was read"
+
+trt:
+  title: "The Cakrasaṃvaramaṇḍalavidhitattvāvatāra (Dpal 'khor lo sdom pa'i dkyil 'khor gyi cho ga de kho na nyid la 'jug pa) of Dārika, Derge Bstan 'gyur"
+  author: "Slob dpon rig pa'i brtul zhugs pa dpal Dā ri ka pa (Dārikapa) by the colophon; translated by the Indian abbot Kumāravajra, the monk Nyi ma rdo rje, and Thogar dge mdzes"
+  edition: "the Derge Bstan 'gyur as the BDRC etext VE23703_1337 (MW23703); the text at etext [p408]-[p440], the dawn dream at [p418]-[p419]; the Peking print's etext VEIE0OPIA3E40644_I1PD95856 holds the verse at [p568] (compared at the dream verse only); the etext's page markers [pN]"
+  bdrc: {work: MW23703, etext: VE23703_1337}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): etext only; the Derge number of the work was not found in what was read"
+
+sbk:
+  title: "The Śrībuddhakapālamaṇḍalavidhikramaprakāśa (Dpal sangs rgyas thod pa zhes bya ba'i dkyil 'khor gyi cho ga'i rim pa gsal ba) of Saraha, Derge Bstan 'gyur"
+  author: "the master who obtained the supreme accomplishment, Saraha (Sa ra ha), by the colophon; translated by Gayādhara and 'Gyi jo zla ba'i 'od zer"
+  edition: "the Derge Bstan 'gyur as the BDRC etext VE23703_1342 (MW23703); the text at etext [p462]-[p488], the pupil's dream at [p470]; the etext's page markers [pN]"
+  bdrc: {work: MW23703, etext: VE23703_1342}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): etext only; the Derge number of the work was not found in what was read"
+
+ngm:
+  title: "The Śrīguhyasamājamaṇḍalavidhi (Dpal gsang ba 'dus pa'i dkyil 'khor gyi cho ga) ascribed to Klu sgrub (Nāgārjuna), Derge Bstan 'gyur, the pupil's staying and the dream"
+  author: "Slob dpon Klu sgrub (Nāgārjuna) by the colophon; translated by the Indian abbot Subhāṣita and the great translator Rin chen bzang po"
+  edition: "the Derge Bstan 'gyur as the BDRC etext VE23703_1351 (MW23703); the text at etext [p32]-[p71], the dream at [p43]; the etext's page markers [pN]"
+  bdrc: {work: MW23703, etext: VE23703_1351}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD373 (2026-11-10): etext only; a text the Sngags rim chen mo does not name in this passage, read as a witness"
+
 cbd:
   title: "'Chi ba bslu ba'i man ngag (Deceiving Death) as the Dpe bsdur ma prints it in its volume 46, the rgyud lhag ma volume that holds the Peking and Narthang group, with the summary of its meaning before it"
   author: "Slob dpon Ngag gi dbang phyug grags pa; translated by the Indian abbot Dīpaṃkaraśrījñāna and the monk Rin chen bzang po (the volume's own catalogue)"
