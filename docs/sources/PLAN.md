@@ -1937,3 +1937,8 @@ Searched and found wanting, so not to be repeated:
   - The Co ne print of the same three places by eye: the Co ne scans (RD277) were read by machine only and no new Co ne image was taken; the places stay machine readings there.
   - A variant of «བགྲོད་མིན» or «བཅུ་ཡི་བར» on the Derge frames at 10–12×: none seen; «བཟློག» for «བགྲོད» and «པི» for «ཡི» are not what the strokes show.
   - A telling of ྷ from ྟ in the stack after «དང་» before «འཕྱེ» at 18×: not possible at 8 px letters.
+- **RD312** (RD312, 2026-11-10):
+  - Penn Ms. Coll. 390 items 2730, 1871 and 673: openn.library.upenn.edu delivered 0.2–1 kB/s and stalled; not read, q868 unanswered for Penn.
+  - Leipzig MSS 1176–1180: no scan or catalogue text found open.
+  - Hemādri's Āyurvedarasāyana (two Gurukul Kangri scans, partly damaged): no gloss on Śārīra 6.63 in the text layers; no commentary on the Bṛhadyātrā dream chapter other than Bhaṭṭotpala's; no Śārīrasthāna on GRETIL.
+  - The edition letters Saṃ and the Loṃbaḍī-pāḍā one are garbled in the Aṅgavijjā preface's text layer, the page not read on the image; the Aṣṭāṅgasaṅgraha edition's title page and press not found.

@@ -1116,7 +1116,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 13 passages: 8 scan, 4 machine, 1 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 19 passages: 10 scan, 5 machine, 4 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 20 passages: 10 scan, 5 machine, 5 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1771,7 +1771,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0852.md](questions/q0852.md) | question q852 | Which text is Negelein's 'b' (the verse he prints as b 5–6)? | open; cites svo:p271f |
 | [questions/q0853.md](questions/q0853.md) | question q853 | Is the series year, eight months, three months, half a month, ten days at dawn, shared by the Svapnohana and the Brahmavaivartapurāṇa, older than the Purāṇa, and which older Indian dream text has it? | open; cites svo:p271f |
 | [questions/q0854.md](questions/q0854.md) | question q854 | In the Kālaprakāśikā ch. XLII v. 66 does the Sanskrit give a half-month for the fourth watch besides the twelve days at dawn that Iyer's English has? | answered; cites svo:p271f, skd:p470-471 |
-| [questions/q0855.md](questions/q0855.md) | question q855 | In the Bṛhadyātrā 16.10 which part of the night and which humour go with which of the three seasons? | open; cites svo:p271f |
+| [questions/q0855.md](questions/q0855.md) | question q855 | In the Bṛhadyātrā 16.10 which part of the night and which humour go with which of the three seasons? | answered; cites svo:p271f |
 | [questions/q0856.md](questions/q0856.md) | question q856 | In the Aṅgavijjā the bright 'beginning and root' is the forenoon in ch. 42 and the afternoon in ch. 41: which is the original reading? | open; cites svo:p271f |
 | [questions/q0857.md](questions/q0857.md) | question q857 | What is the 'bro pa's tax in the Drathang line «བྲོ་པའི་ཁྲལ་འདེད་བག་མ་ལན་པ»? | answered; cites gt:i42-43 |
 | [questions/q0858.md](questions/q0858.md) | question q858 | Which animal is the rnga mo of line 3 (Byang pa and Rin spungs pa རྔ་མོང, Khro ru ཇ་མོ, glossed jo mo, the female dzo)? | answered; cites gt:i42-43 |
@@ -1835,6 +1835,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0916.md](questions/q0916.md) | question q916 | Does the 星槎ラボ 延宝2 大ざつしよ, the earliest print, or any other 万代大雑書 print set out the table 夢を見て語らざる日 with a legend for the slash? | open; cites mdz:p11 |
 | [questions/q0917.md](questions/q0917.md) | question q917 | In which Edo source is the 初夢 night fixed at 2 January, and is it counted by the lunar months of the Edo calendar, the only one in use until 1872? | open; cites nip:p1 |
 | [questions/q0918.md](questions/q0918.md) | question q918 | On the Derge print the word before «ལྟོ་འཕྱེ» reads «བླ་མོ» by the two loops of its stack, against the plain ལ of the Peking and the Narthang prints: is the subjoined ླ a real variant of the Derge tradition, and does a reader of the tradition know the word as «རྟ་བླ་མོ» (the centipede) in a list of creatures? | open; cites svo:p271l |
+| [questions/q0919.md](questions/q0919.md) | question q919 | In Puṇyavijaya's ch. 41 (p. 185 line 28), do the manuscripts Haṃ and Ta read «avaraṇhesu» for the bright beginning as the print has it, and do the others read «puvvaṇhesu» without the editor noting it? | open; cites agv:p185 |
+| [questions/q0920.md](questions/q0920.md) | question q920 | Does the Leipzig manuscript 1178 read «tripakṣake», «trimāsake» or another word for the third watch, and the Ramtek M 856 «trimāsake»? | open; cites rmk:i2b |
+| [questions/q0921.md](questions/q0921.md) | question q921 | Do the older manuscripts of the Aṣṭāṅgahṛdaya all read «gosarge» at 6.63, and is the Saṅgraha's «sadyaḥ» against the Hṛdaya's «tadahaḥ» a difference of the two works or of their copies? | open; cites ahr:p436 |
 
 <!-- end pool index -->
 
