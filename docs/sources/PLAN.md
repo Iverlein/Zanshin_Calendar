@@ -1881,3 +1881,7 @@ Searched and found wanting, so not to be repeated:
   - NDL full-text search for 初夢 with 宝船, 二日, 元日の夜, 守貞漫稿 and 東都歳時記 found no Edo book, only modern local histories; nothing for 夢を見て語らざる日 and its variants.
   - NDL catalogue (ndl.py) for 東都歳時記, 江戸歳事記, 守貞謾稿, 類聚近世風俗志 and 嬉遊笑覧: no open pid; the Meiji pids 759975, 759977, 759984, 760747 and 760755 give OCR too rough to search for the table.
   - 大雑書抜緑組 (pid 9892379, 1798) and 夢合延寿袋大成 (pid 2533938) searched in the OCR only, images not read; the 星槎ラボ 延宝2 大ざつしよ and the 安政雑書大成 not reached (no locator for their images).
+- **RD290** (RD290, 2026-11-10):
+  - The Zhol's ch. 81 (I5910 img. 483) cropped at 3–4×: the bilevel strokes are too crowded for a reading by eye, the Zhol's ལྗོངས stays the machine's reading.
+  - The Zhol, Derge, Chag-po-ri and Drathang pages of ST pp. 183, 218 and 241 (q790) not located; the Drikung commentary's etext has no gloss of ཟ་ཟི, only some thirty uses.
+  - ལྷས་ཚོར in the Drikung commentary: quoted without a gloss; Chag-po-ri img. 425–448 and Derge img. 400–446 hold no second copy of the list.
