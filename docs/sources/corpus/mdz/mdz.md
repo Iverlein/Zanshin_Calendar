@@ -331,6 +331,24 @@ The book is a pictured dream book (illustrated articles on canvases 4-25, the pr
 
 What follows: the question of which source the table of sixty days follows (the 六甲 days of the 夢合早占大成, or an older Edo table) is open; the Tohoku copy of the 夢合早占大成 (Kano 22630) and the 1888 Toyamado reprint 夢合長寿鏡絵抄 are the next to look at. Cells at 1160 px, each of two to five kana lines, were read for one spread only; the sixty cells are not transcribed.
 
+Read again by letter, RD351 (2026-11-10; canvases 26-29 at 3000 px, each page of a spread cropped and read): **the table of the sixty days is complete, 甲子日 on canvas 26 to the last of the cycle on canvas 29, nine to sixteen columns to a page, each column headed ○ with the day (甲子日, 乙丑日 ... in the order of the cycle, with kana readings beside) and below a short mark for 夢 in cursive and one reading of two to four lines**. Every cell has the same grammar: **a direction (東の方, 西の方, 南の方, 北の方) or 我家 or 遠方, who comes or what happens (客人, 知人, 親戚, 使, 女, 縁談, 婚姻, 酒宴, 金銀, 鬼神のたたり, 喧嘩口論), and how it turns out (喜び, 心配, 苦労, 大吉 as 大によし, 慎しむべし)**. The cells that are clear on the page:
+
+> 甲子日 〔夢〕今日夢をみれば親しき人遠方へ行事になるべし
+> 丙寅日 〔夢〕我家へ思ひがけなき人来りて吉事を告ることなり
+> 丁卯日 〔夢〕南の方の志るべの家よりの沙汰ありて心配なるべし
+> 癸酉日 〔夢〕北の方より ... 苦労なるべし
+> 甲戌日 〔夢〕鬼神のたたりにて ... (read in part)
+> 丙子日 〔夢〕東の方の知人に金銀を失ひ ... 心配の ... なるべし
+> 己丑日 〔夢〕我家に喜びごとありて 酒宴のあるべし (read in part)
+> 癸巳日 〔夢〕東の方より金銀をまうけるなるべし
+> 甲午日 〔夢〕我家に悦びのなりて酒宴の催しあり
+> 己亥日 〔夢〕永く不和なりし人の和睦するなり
+> 丙午日 〔夢〕思ひがけざる悦びのなりて酒宴の事なるべし
+> 丁未日 〔夢〕我家に喧嘩口論のあるのなり ... (read in part)
+> 己未日 〔夢〕金銀をまうくるの出来る 大によし
+
+The rest of the sixty cells are read in part only (the direction and the outcome clear, the middle words not). So the table gives one outcome for a dream dreamt on each of the sixty days, kept apart from the dream's matter: **it does not say what was dreamt, only on which day**. The page after the last day, canvas 29, carries a second table under the heading **十二直夢占**: «これは暦の中段とて 夢うらなふ ...» (the twelve day-officers of the calendar's middle row, 建 除 満 平 定 執 破 危 成 収 開 閉, a cell for each, opening «その日夢をみれば»): 建 «... 金銀を得るなり», 除 «病気ありて大に凶し», 満 «... 成就あるべし», 平 «... 吉慶なり», the other eight (定 執 破 危 成 収 開 閉) as on canvas 30, read in part. The short article beside them on canvas 29 (a woman reading, signed 西行) and the page 邪魅 (夜中に邪魅をみ... 夜中歩行に ... 邪気を引) are not dream rules. The two tables are the only day-keyed dream readings found in the Edo dream books looked at (q785, q992): the 夢合延寿袋大成 (two copies) and the 夢合早占大成 have none.
+
 ## <a id="mdz-kano-22630"></a>mdz:kano-22630 夢合早占大成 (安政4 = 1857, Kawachiya, pictures by Matsukawa Hanzan, Tohoku University Kano Bunko 2/3875/1, THKK-22630), by eye (RD348, appendix RD349)
 
 *Read: by eye on the page images, 2026-11-10 (125 images, manifest touda.tohoku.ac.jp/collection/iiif/metadata/10010000006595/manifest.json; all 125 on eight sheets of sixteen thumbnails in the order of the manifest, images 10, 34, 35, 121 and 122 enlarged to 2400 px); greyscale scans, the appendix read letter by letter, the rest as thumbnails. A first set of sheets made in RD348 was in a scrambled order (file names sorted as text); the image numbers below are from the ordered sheets.*
