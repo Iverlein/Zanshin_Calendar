@@ -595,3 +595,8 @@ Lines are numbered on the ink rows of the page: img. 268 has the colophon of the
 ## The Sanskrit dream texts beside the Svapnohana, from open editions and scans: the Bṛhadyātrā 16.10 (which part of the night and which humour go with which of the three seasons, q855), the Aṅgavijjā chs. 41–42 (the bright beginning and root as forenoon or afternoon, q856, q892), the Bṛhaspati Svapnādhyāya in Negelein's manuscripts and the Penn, Srinagar and Ramtek copies (three fortnights or a month for the fourth watch, q868, q871, q872), and the Aṣṭāṅgahṛdaya Śārīrasthāna 6.63 «gosarge» or «gomuktra» (q891) (RD312)
 
 Nothing read yet: RD312's passages, with the English beside them, go here.
+
+
+## The Co ne prints of the Svapnohana (vol. 28, 133b3–135a3, img. 270–273) and the Svapnekṣā (vol. 49, 130a1–130b7): does the Co ne read «བགྲོད་མིན» or «བཟློག་མིན», «འགྲོན་བུ» or the other word (q864), «ལ་མོ»/«བླ་མོ» and the watch lines (q865), the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» (q870) and its ending «པར་དུ» or «པར་བྱ» (q873), and the second-watch line's first segment «བརྒྱད་པ་ལ» or «བརྒྱད་བར་ལ» (q874) (RD311)
+
+Nothing read yet: RD311's passages, with the English beside them, go here.
