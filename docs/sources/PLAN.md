@@ -2031,3 +2031,6 @@ Searched and found wanting, so not to be repeated:
   - The OCR text of the volume has no hit for 語らざる, 初夢 or 夢を見て, as in RD308; the cursive of the articles looked at, not read letter by letter.
 - **RD337** (RD337, 2026-11-10):
   - The Derge pa/ba and da cannot be read by eye at 8 px (3–10× crops show blurs); no MITRA witness run; scans.py line failed on the Derge page, finding one line, so crops were cut by hand; the first slot run showed finished while another reader's job held the card.
+- **RD338** (RD338, 2026-11-10):
+  - BDRC exact phrases «ཐུན་ཕྱེད་སོ་སོ་ལ་དབྱུ་གུ་བཞི་བཞི» and «གཡུལ་རྒྱལ་མཆོག་དགའ»: no hit; «ཐུན་ཕྱེད་པའི་རཱ་ཧུ»: 4 hits, KD vol. 3 and two others (the I2PD16001 etext answers 0 chunks, VE23703_1521 not read); «དབྱུ་གུ་བཞི་བཞི»: 6 hits, only KD vol. 3 read; «ཆུ་སྲང་ང་དྲུག་རྐང་བཅས»: 13 hits, two read (VE30541_013 p. 207, VE23660_004 p. 116).
+  - The dbu can print of the Mchog dga' (MW1NLM5184, scans open) not searched for the chapter 9 folio; the lent KD scans not opened.
