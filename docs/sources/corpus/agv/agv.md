@@ -46,6 +46,23 @@ RD269 (2026-11-09): this is the same page as agv:p190-191 (p. 190 line 30 to p. 
 
 No ties to a fortnight or a season here.
 
+## <a id="agv-p185"></a>agv:p185 Aṅgavijjā ch. 41's time list again, with its apparatus: the bright beginning in the afternoon, and the manuscripts of the edition
+
+*Read: scan, 2026-11-10 (RD312), leaf n300 at full size, the three lines and the foot-notes in crops of 1.5×; the editor's preface in the text layer of the item (Hindi, machine).*
+
+> Aṅgavijjā ch. 41 (Rahassapaḍala), the end, p. 185 lines 28–30 of Puṇyavijaya's print (leaf n300):
+>
+> तत्थ काले पुव्वाधारिए कंसि काले रतं ? ति—कण्हेसु रत्तिरतं ति, सुक्केसु दिवा रतं ति बूया, सामेसु संझाकाले रतं बूया, कण्हेसु आदिमूलीयेसु पदोसे रतं, सुक्केसु आदिमूंलीयेसु अवरण्हेसु रतं, सुक्कमज्झविगाढेसु मज्झंतियए रतं बूया, कण्हेसु मज्झविगाढेसु अद्धरत्ते रतं, सुक्केसु अंतेसु अवरण्हे रतं बूया, कण्हेसुँ खंतेसु पच्चूसे रतं ।
+>
+> The notes at the foot of the page that bear on it (the letters are those of the editor's manuscripts, hं० = Haṃ, त० = Ta, सि० = Si):
+> १० "°मूलेसु" हं० त० विना । ११ "°सु अंतेसु प°" हं० त० विना ।  (the other notes of the page, 1–9 and 12–13, are on other lines)
+
+"There, in the time asked about before: 'in what time was the love-making?': by dark things, a night act; by bright things, a day act, one says; by dusky ones, in the twilight; by dark ones of the beginning and root (ādimūlīya), in the early night (padosa); by bright ones of the beginning and root, in the afternoon (avaraṇha); by bright ones of the deep middle, at midday; by dark ones of the deep middle, at midnight; by bright ones of the ends, in the afternoon; by dark ones of the ends, at daybreak (paccūsa)."
+
+The apparatus under this page has one note on the bright beginning: the superscript 10 stands on the second "ādimūlīyesu" (the bright one) and the note says "°mūlesu" in the manuscripts "except Haṃ. and Ta." (the sign "विना" after the letters, "without them"); that is, the manuscripts other than Haṃ and Ta read "ādimūlesu" at that word, and Haṃ and Ta the printed "ādimūlīyesu". No note stands on "avaraṇhesu", the word that differs from ch. 42's "puvvaṇhe": the apparatus gives for it no variant in any of the seven manuscripts the editor used. The note 11 (on "kaṇhesuṃ khaṃtesu", i.e. "kaṇhesu aṃtesu") also concerns the dark ends.
+
+The editor's manuscripts (his preface, Hindi, read in the text layer of the same item): Haṃ, a Baroda manuscript of Haṃsavijaya's collection, of the 16th or early 17th century, "very corrupt"; Ta, a Patan manuscript of the Tapāgaccha store, dated saṃvat 1505 (1448/49); Saṃ, a Patan manuscript of the Saṅgha's store; a fourth, of the Loṃbaḍī-pāḍā store (its letter garbled in the text layer); Mo (Mokā Modī's store, ending dated 1574); the editor's own manuscript (dated 1573); and Si (from Maṇivijaya's collection): seven in all, each described as very corrupt or full of lacunae.
+
 ## <a id="agv-p190-191"></a>agv:p190-191 Aṅgavijjā ch. 42, the end: the time of the dream in six parts, by dark and bright things, then the fortnight and the season
 
 *Read: scan, 2026-11-09 (RD269).*
@@ -76,6 +93,20 @@ The chapter asks when the dream was seen; it gives no span to the fruit. The lis
 
 Doubt: only the time list (pp. 190–191) was read on the images for this passage; the rest of ch. 42 and chs. 43–44 stay as the OCR layers have them.
 
+## <a id="agv-p190b"></a>agv:p190b Aṅgavijjā ch. 42, p. 190 again: the time list and the three notes on it
+
+*Read: scan, 2026-11-10 (RD312), leaf n305 at full size.*
+
+> Aṅgavijjā ch. 42, p. 190 lines 30–33 (leaf n305), the time of the dream, with the foot-notes that bear on it:
+>
+> तत्थ काले पुव्वाधारिते कंसि काले दिट्ठो सुविणो ? त्ति । तत्थ कण्हेसु रत्तिं सुविणो दिट्ठो त्ति । सुक्केसु सव्वप्पभागते य दिवा दिट्ठो सुविणो त्ति बूया । कण्हेसु आदिमूलेसु पदोसे सुविणो दिट्ठो त्ति । क[ण्हेसु] मज्झिमविगाढेसु अद्धरत्तकालं दिट्ठो त्ति । कण्हेसु अंतेसु पच्चूसे सुविणो दिट्ठो । सुक्केसु आदिमूलेसु पुव्वण्हे सुविगो दिट्ठो त्ति बूया । मज्झविगाढेसु सुक्के मज्झण्हे दिट्ठो सुविणो त्ति । सुक्केसु अंतेसु अवरण्हकाले दिट्ठो सुविणो त्ति बूया ।
+>
+> Notes: १० "सप्पभा°" हं० त० । ११ "मज्झवि°" सि० । १२ "मज्झिमगा°" हं० त० ।
+
+"There, in the time asked about before: 'in what time was the dream seen?': by dark things, a dream was seen at night; by bright things of the whole portion, by day; by dark ones of the beginning and root, in the early evening; by dark ones of the deep middle, at midnight; by dark ones of the ends, at daybreak; by bright ones of the beginning and root, in the forenoon (puvvaṇha); by bright ones of the deep middle, at midday; by bright ones of the ends, in the afternoon (avaraṇha)."
+
+The notes of this page on the list are three: 10 on "savva-ppabhāga" (Haṃ, Ta read "sappabhā°"), 11 on "majjhavi°" (Si), 12 on "majjhimagā°" (Haṃ, Ta); none stands on "puvvaṇhe" or "avaraṇha-kāle". The word "ādimūlesu" of the bright beginning here is the form that the apparatus of ch. 41 gives to the manuscripts other than Haṃ and Ta. Read on the page image at 2×.
+
 ## <a id="agv-p191-193"></a>agv:p191-193 Aṅgavijjā chs. 43–44, travel and its length: counts by fortnights, days, months, years; no dream
 
 *Read: machine, 2026-11-09 (RD265).*
@@ -91,6 +122,18 @@ Ch. 43 asks whether the enquirer will go abroad; the signs (the touches of the f
 The units are the day, the fortnight, the month and the year, never a *tithi* or a weekday; the season and the fortnight are used as counts. The time to the fruit of a dream is not given anywhere in chs. 43–44.
 
 Doubt: OCR of three layers; the Prakrit is quoted in part, the dots mark what is left out.
+
+## <a id="agv-p210"></a>agv:p210 Aṅgavijjā ch. 53, p. 210: the time list of a portent, the bright beginning in the forenoon
+
+*Read: scan, 2026-11-10 (RD312), leaf n325 at full size and in a crop.*
+
+> Aṅgavijjā ch. 53 (Uppātaṇajjhāya), p. 210 line 10 (leaf n325), the six-fold list of the part of the day:
+>
+> पुव्वण्हगतं उप्पायं बूया । सुक्केसु मज्झिमविगाढेसु अद्धरत्तगतं उप्पायं बूया । सुक्केसु अंतेसु अवरण्हगतं उप्पायं बूया । कण्हेसु आदिमूलीयेसु पदोसगतं उप्पायं बूया । कण्हेसु मज्झिमविगाढेसु अद्धरत्तगतं उप्पायं बूया । कण्हेसु अंतेसु पच्चूसगतं उप्पायं बूया ।
+>
+> (the line begins in the line before: "सुक्केसु आदिमूलीयेसु …", the bright beginning)
+
+"…a portent in the forenoon, one says; by bright ones of the deep middle, a portent at midnight; by bright ones of the ends, a portent in the afternoon; by dark ones of the beginning and root, a portent in the early evening; by dark ones of the deep middle, at midnight; by dark ones of the ends, at daybreak." The bright beginning is the forenoon (puvvaṇha) here, as in ch. 42; the apparatus under this page (notes 1–7) has nothing on these words (its notes are on "°ppāyaṇa nāmā°", "vakkhāissā", the signs of folds and the formula "namo°"). Read on the page image at about 2×.
 
 ## <a id="agv-p259-260"></a>agv:p259-260 Aṅgavijjā ch. 59, the division of time (the 27th section): the five measures, the fortnight, the six seasons and the months by the diviner's signs
 

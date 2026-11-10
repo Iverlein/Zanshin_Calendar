@@ -17,3 +17,5 @@ It is a tie of the dream to the season and the part of the night by the dreamer'
 Doubt: verse 10 is read on the page image of Pingree's print (image n28, p. 42; the editor's apparatus gives "prāvṛḍ-śara°" in Viṣṇuśarman and "prāvicaraṃ" in M for the season names, "phalasannipātaḥ" in Viṣṇuśarman against "khalu sannipāte" in M); the pairing by position is ours.
 
 RD295 (2026-11-10): the pairing by position is the physician's own order: *Aṣṭāṅgahṛdaya* Sūtrasthāna 1.8 puts wind, bile, phlegm at the end, middle and beginning of the night, and 12.24–25 makes the rains, autumn and spring the seasons of the aggravation of wind, bile and phlegm; leaf n28 read again at full size, v. 10 as above, *saṃjñite*. The pairs are still the reader's, not stated in the verse (skd, section RD295).
+
+RD312 (2026-11-10): Bhaṭṭotpala's gloss on the verse states the pairs in words (claim bhattotpala-pairs-night-parts-seasons-humours): last third of the night, rains, wind; middle, autumn, bile; first, spring, phlegm.

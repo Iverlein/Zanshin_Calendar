@@ -1004,3 +1004,33 @@ rmk:
   role: source
   locator: image
   notes: "RD277: PDF page 2 read at 24 and 70 dpi, the first four lines; no date or scribe read; the remaining pages not read"
+
+asm:
+  title: "Aśvamedhīyayātrā (Varāhamihira's Bṛhadyātrā in a longer recension) with Bhaṭṭotpala's Vivaraṇa, ch. 17 (Svapnādhyāya, the dreams)"
+  author: "Varāhamihira (6th century); the commentary by Bhaṭṭotpala (10th century)"
+  edition: "Śrīmadvarāhamihirācāryaviracitā Aśvamedhīyayātrā, Bhaṭṭotpalaviracitavivaraṇasahitā, ed. Jyotiṣācārya Laṃsāla Devīprasāda Śarmā, Rāṣṭriya Abhilekhālaya, Kāṣṭhamaṇḍapa (Kathmandu), V.S. 2026 (1969); Internet Archive id Asvamedhiyayatra (a spread of two printed pages to a leaf; ch. 17 on printed pp. 175-190, leaves n105-n108; Devanagari)"
+  licence: "the old text and commentary public-domain; the 1969 edition is modern: facts only, the Sanskrit quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD312: v. 11 (the humours by the part of the night and the season) and Bhaṭṭotpala's gloss on it read on the page images (n106, n107); the rest of the chapter not read"
+
+ahr:
+  title: "Aṣṭāṅgahṛdaya (Vāgbhaṭa), Śārīrasthāna ch. 6 (Dūtādivijñānīya), the verses on the time of a dream's fruit, in the Nirṇayasāgara edition with its variant readings"
+  author: "Vāgbhaṭa (about the 7th century); the commentaries of Aruṇadatta and Hemādri"
+  edition: "Aṣṭāṅgahṛdaya with the Sarvāṅgasundarā of Aruṇadatta and the Āyurvedarasāyana of Hemādri, ed. Hari Śāstrī Paraḍkar, Nirṇayasāgara Press, Bombay 1939 (Internet Archive id Ashtanga.Hridaya.of.Vagbhata; the leaf n = the printed page + 186 at ch. 6, printed p. 436 at leaf n622; variant readings under the text with the manuscripts' letters)"
+  licence: "public-domain text and commentaries; the 1939 edition is of the old Nirṇayasāgara series: the verses quoted no further than the facts need"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD312: printed p. 436 (Śārīrasthāna 6.62-64) read on the page image with its apparatus; other editions of the Hṛdaya were searched in their text layers for the word"
+
+ahs:
+  title: "Aṣṭāṅgasaṅgraha (Vāgbhaṭa), Śārīrasthāna ch. 12, the passage on the kinds of dream and the time of their fruit"
+  author: "Vāgbhaṭa (the elder Vāgbhaṭa, about the 6th-7th century)"
+  edition: "Aṣṭāṅgasaṅgraha, an edition with variant readings of other manuscripts under the text and a preface (upodghāta) signed Gaṇeśaśarmā, naming Govindaśāstrī's book from Janasthāna, Aruṇadatta's and Hemādri's commentaries as aids (Internet Archive id AshtangaSangraha; title page and date not found on the images read; Śārīrasthāna ch. 12 at leaf n259, the printed page 252 or 253)"
+  licence: "public-domain text; the edition is old (the press is not named on the images read)"
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD312: leaf n259 (the page with the passage on dreams) read on the image; the preface on leaf n3"

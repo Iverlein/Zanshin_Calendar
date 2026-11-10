@@ -82,9 +82,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 
 | File | Kind | Title | State |
 | --- | --- | --- | --- |
+| [claims/ahr-gosarge-no-gomarge-in-six-prints.md](claims/ahr-gosarge-no-gomarge-in-six-prints.md) | claim, note | The Aṣṭāṅgahṛdaya's cows' line reads gosarge in the Nirṇayasāgara apparatus and in five further prints, and the Aṣṭāṅgasaṅgraha has gosarge sadyaḥ (RD312) | cites ahr:p436, ahs:i259; feeds block-73 |
 | [claims/ahr-sarirasthana-6-early-night-late-cows-release-same-day.md](claims/ahr-sarirasthana-6-early-night-late-cows-release-same-day.md) | claim, note | The Aṣṭāṅgahṛdaya's Śārīrasthāna 6 has the early night late and the cows' release at once, no numbers; the Śabdakalpadruma's line is its own (RD295) | cites skd:p473; feeds block-73 |
+| [claims/angavijja-ch41-afternoon-no-variant-in-apparatus.md](claims/angavijja-ch41-afternoon-no-variant-in-apparatus.md) | claim, note | The Aṅgavijjā's apparatus at chs. 41, 42 and 53 has no note on the bright beginning's time of day; the afternoon of ch. 41 is the print's reading in all the editor's manuscripts (RD312) | cites agv:p185, agv:p190b, agv:p210; feeds block-73 |
 | [claims/angavijja-ch53-bright-beginning-forenoon.md](claims/angavijja-ch53-bright-beginning-forenoon.md) | claim, note | The Aṅgavijjā's ch. 53 (p. 210) has the bright beginning at forenoon like ch. 42; only ch. 41 has the afternoon (RD295) | cites agv:p190-191, agv:p186; feeds block-73 |
 | [claims/angavijja-dream-time-fortnight-season.md](claims/angavijja-dream-time-fortnight-season.md) | claim, rule | The Aṅgavijjā's chapter on dreams asks when the dream was seen: night or day in six parts, the fortnight, the season (RD263, RD265) | cites agv:p120-121, agv:p190-191, agv:p186, agv:p191-193, agv:p259-260; feeds block-73 |
+| [claims/bhattotpala-pairs-night-parts-seasons-humours.md](claims/bhattotpala-pairs-night-parts-seasons-humours.md) | claim, rule | Bhaṭṭotpala's gloss pairs the Bṛhadyātrā's parts of the night and seasons with the humours: last third, rains, wind; middle, autumn, bile; first, spring, phlegm (RD312) | cites asm:p179-180, bya:p41-46; feeds block-73 |
 | [claims/birth-and-year-of-age-no-ranking.md](claims/birth-and-year-of-age-no-ranking.md) | claim, note | No reader ranks the birth reckoning against the year of age for one year | cites wb.1:p349, wb.2:p483; feeds block-58 |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
@@ -563,6 +566,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
+| [claims/neg-i-tripaksake-unmarked-ramtek-masake.md](claims/neg-i-tripaksake-unmarked-ramtek-masake.md) | claim, note | Negelein marks nothing at 'tripakṣake' of his manuscript i; the Ramtek copy has a locative in -māsake for the third watch (RD312) | cites neg:p14-16, rmk:i2b, pzs:i102-103b; feeds block-73 |
 | [claims/neg-manuscripts-and-the-series.md](claims/neg-manuscripts-and-the-series.md) | claim, table | Negelein's manuscripts a–w and which of them carry the Svapnohana's five-span series (RD272) | cites neg:p14-16, neg:p32, neg:p376, skd:p470-471; feeds block-73 |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
 | [claims/night-watches-st-rule-against-thirds-and-svapnohana.md](claims/night-watches-st-rule-against-thirds-and-svapnohana.md) | claim, note | The Four Tantras' dream rule beside the three-thirds rule of LGD and RST and the Svapnohana's watches | cites bjp:p183, rsp:p213, svo:p268, lgd:p966-967, rst:p1-8, bdk:p53-54; feeds block-73 |
@@ -1039,9 +1043,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
 | [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 1 scan, 1 machine |
 | [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 1 passages: 1 scan |
-| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 5 passages: 3 scan, 2 machine |
+| [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 8 passages: 6 scan, 2 machine |
+| [corpus/ahr/ahr.md](corpus/ahr/ahr.md) | corpus | AHR | 1 passages: 1 scan |
+| [corpus/ahs/ahs.md](corpus/ahs/ahs.md) | corpus | AHS | 1 passages: 1 scan |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
 | [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 1 passages: 1 machine |
+| [corpus/asm/asm.md](corpus/asm/asm.md) | corpus | ASM | 1 passages: 1 scan |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
 | [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
@@ -1093,9 +1100,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
 | [corpus/pn1871/pn1871.md](corpus/pn1871/pn1871.md) | corpus | PN1871 | 1 passages: 1 scan |
 | [corpus/pn673/pn673.md](corpus/pn673/pn673.md) | corpus | PN673 | 1 passages: 1 scan |
-| [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 1 passages: 1 scan |
+| [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 2 passages: 2 scan |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
-| [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 1 passages: 1 scan |
+| [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 2 passages: 2 scan |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
@@ -1966,6 +1973,9 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **EZS** | 永代大雑書, an Edo 大雑書 with the lamp-wick omens and 夢はんじ | NDL Digital Collections pid 2539476, 1856 | open without login; the NDL's OCR text, very rough, one line checked on the image |
 | **NIP** | 日本大百科全書 (ニッポニカ), Shogakukan, the entries 初夢 (竹内利美) and 夢占 (井之口章次, 上田紀行) | web edition, kotobank.jp | copyrighted: facts in our own words; the entries numbered p1, p2 for want of pages |
 | **SKF** | 西行 (Saigyō), 山家集, the spring poem on the first dream | as quoted by Japanese Wikipedia 初夢 and a reading blog | no edition named; the critical text not seen |
+| **ASM** | *Aśvamedhīyayātrā* (Varāhamihira's *Bṛhadyātrā* in a longer recension) with Bhaṭṭotpala's *Vivaraṇa*, ch. 17 *Svapnādhyāya* | ed. Laṃsāla Devīprasāda Śarmā, Rāṣṭriya Abhilekhālaya, Kathmandu, V.S. 2026 (1969); printed pp. 175–190 | Internet Archive id Asvamedhiyayatra (a spread of two pages to a leaf); v. 11 and the gloss on it read on the page images (RD312, 2026-11-10); the old text and commentary public domain, the edition modern: facts only |
+| **AHR** | Vāgbhaṭa, *Aṣṭāṅgahṛdaya*, *Śārīrasthāna* ch. 6, with the *Sarvāṅgasundarā* and the *Āyurvedarasāyana* and the variant readings of the manuscripts | ed. Hari Śāstrī Paraḍkar, Nirṇayasāgara Press, Bombay 1939; printed p. 436 | Internet Archive id Ashtanga.Hridaya.of.Vagbhata (leaf n622); the verses 62–64 and the apparatus of the page read on the image (RD312, 2026-11-10); other editions' text layers searched for the cows' line; public domain |
+| **AHS** | Vāgbhaṭa, *Aṣṭāṅgasaṅgraha*, *Śārīrasthāna* ch. 12, the passage on the kinds of dream | an edition with a preface by Gaṇeśaśarmā (press and year not found on the images read) | Internet Archive id AshtangaSangraha (leaf n259); read on the page image (RD312, 2026-11-10); public domain |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

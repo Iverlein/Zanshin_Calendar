@@ -32,3 +32,17 @@ What the passage says, in our words:
 - Verse 4 sets aside the dreams of wind, bile and phlegm and the dream of what was thought of, then turns to "the fruit of merit and demerit" (*puṇyāpuṇyaphala*), the list of good and bad dreams.
 
 Doubts: the "prahare" of the fourth line is not clear (the glyph reads "pra-ha-re" or "pra-ḍa-re", and is not needed for the span); the first words of verse 4 are read only in part; the second verse line's "aṣṭa" is split over two pages.
+
+## <a id="pzs-i102-103b"></a>pzs:i102-103b The Srinagar Svapnodhyāya again at full size: the third watch triyāmake, the fourth prahare
+
+*Read: scan, 2026-11-10 (RD312), leaves n101 and n102 at full size.*
+
+> Peerzada volume, Srinagar, PDF pages 102–103 (leaves n101, n102 of the Internet Archive item), the last lines of p. 102 and the lines of p. 103 on the spans, read at full size:
+>
+> n101, lines 6–7: स्वप्नस्तु प्रथमे यामे संवत्सरफलं लभेत् ॥ द्वितीये चाष्[ट…]
+>
+> n102, lines 1–6: …ष्टभिर्मासैस्त्रिभिर्मासैस्त्रियामके ॥ चतुर्थे प्रहरे मासेन फलं चात्र न संशयः ॥ अरुणोदयवेलायां दशाहेन फलं लभेत् ॥ ३ ॥ वातिकं पैत्तिकं चैव श्लैष्मिकं चापि चिन्तितम् ॥ अतः ऊर्ध्वं प्रवक्ष्यामि पुण्यापुण्यफलं शृणु ॥ ४ ॥ कथ्यते …
+
+"A dream of the first watch bears fruit in a year; in the second with eight months; in the third watch, three months; in the fourth watch, in a month, there is no doubt here; at dawn's red the fruit comes in ten days (3). [The dreams] of wind, of bile, of phlegm and the thought one: hereafter I shall tell the fruit of merit and demerit, hear (4)."
+
+Read again on the full-size images: the page break falls inside "aṣṭabhir"; the words "triyāmake" and "caturthe prahare" are clear in the Kashmir hand (the third glyph of "triyāmake" a plain ya); there is no "pakṣa" and no "trimāsake" in this copy. The first letter of each half-verse closes with the red double stroke; the numerals ३ and ४ are red.
