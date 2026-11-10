@@ -9,6 +9,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD322 (2026-11-10): the words of the night's watches and snying sdug in Steinert's dictionaries (Mahāvyutpatti, Negi, Tibetan lexica; etext), the author of the Sakya Vinaya treatise from three etexts' colophon and preface and BDRC's records, and WB's eight watches against the commentaries' etexts and BDRC snippets; no scan; see svo:p271q, svo:p271r, svo:p271s.
 
+Read by RD323 (2026-11-10): the Dpe bsdur ma etext of vol. 14 (I1PD95859, etext pp. 1364-1368) and vol. 25 (I1PD95870, pp. 415-418), the apparatus entry by entry; see svo:p271t, svo:p271u, svo:p271v.
+
 Read by RD311 (2026-11-10): the Co ne Svapnohana (vol. 28 img. 270, 272, 273) by Yigdzin-1 on deskewed line strips, 472 runs, the eye settling nothing; see svo:p271m.
 
 Read by RD314 (2026-11-10): the watches of the night in the etexts only, no scan: the 1996 etext of WB (vol. 1 p. 375, vol. 2 notes pp. 474-541 searched for every word of the night), BDRC's full-text search for the watch phrases (Hevajra and Kālacakra commentaries, Tsong kha pa, a Sakya Vinaya treatise); see svo:p271n, svo:p271o, svo:p271p.
@@ -963,9 +965,138 @@ Read 2026-11-10 (RD322), the 1996 etexts of WB for the verses and BDRC search sn
 
 ## The critical edition's apparatus (Dpe bsdur ma, Tengyur vol. 14 pp. 1364–1368 for the Svapnohana, the Svapnekṣā in the same volume) read as a witness list: for every place the pool has doubted (the Co ne's «པར» in the second and fourth watch lines and the short third line, q926, q927; «བགྲོད/བཟློག», «འགྲོན་བུ/དུ», «བཅུ་ཡི་བར», «རྟ་བླ་མོ/ལ་མོ», q864, q865, q874; the Svapnekṣā's bird and the closing line, q912, q913, q836), which prints the editors' notes name for which wording, with the sigla of the prints decoded from the volume's introduction (RD323)
 
-Nothing read yet: RD323's passages, with the English beside them, go here.
 
 
 ## The Dbyangs 'char's eight half-watches of the day-and-night: the verse «nyin mtshan thun phyed ni / brgyad bgos res gza' …» in Tibetan from the Dbyangs 'char itself and the anthologies (the 'Bri lugs bang mdzod skor lnga, the Yul mdo khams stod anthology) with their sources, whether the eight are equal, each with a planet and a nāga, and who wrote the Rnam dpyod blo gros spyan stong bkra ba that quotes it (RD322) (RD326)
 
 Nothing read yet: RD326's passages, with the English beside them, go here.
+## <a id="svo-p271t"></a>svo:p271t The Dpe bsdur ma's collation tables for the Svapnohana and the Svapnekṣā, and the sigla of its notes (RD323)
+
+*Read: etext, 2026-11-10.*
+
+> Svapnohana, Dpe bsdur ma vol. 14, etext p. 1368, printed p. 1305, the table:
+> བསྡུར་འབྲས་རེའུ་མིག
+> ༡ ལ་ཀར་ཟླ་ར། བsཏུ་ཎ6) ༸རྒྱུད། (༥༧༩) ཊ་པ་ན། །25 ཞིང༌ ་ །ཏཥྛ་ཏུ་
+> དཔེ་གཞི། ། སྡེ་དགེ། ། པེ་ཅིན། ། སྣར་ཐང་། ཅོ་ནེ།
+> སྡེ་ཚན། རྒྱུད། སྤྱི ། རྒྱུད་འགྲེལ། ། རྒྱུད། ཕྱི་
+> པོད་རྟགས། 
+> ས་ལྔ་བཤད་ པ ) | >
+> ཚན་གྲངས། ། ༦༧ )کا ༦༥
+> ལྡེབ། ། ༡༣༣བ་_ ༡༣༥ན་ | ༡༥༤བ – ༡༥༧བས ། ༡༤༠བ – ༡༤༢ན་ ། ༡༣༣བ་_ ༡༣༥ན་
+> ཕྲེང༌། ཀ་* 1: ༢༩ ་[ ༢༣ ༢༢
+> ཚིག་རྐང༌། ། ༡༤༨ ༡ར ༢
+> ཚེག་ཁྱིམ། ། ༡༠༥༠ ༡༠༥༧ ༡༠༥༧ ༡༠༥༠
+> 14 =1305
+> 
+> Svapnekṣā, Dpe bsdur ma vol. 25, etext p. 418, printed p. 357, the table:
+> ་་་་ ཁཆུ་ཀ ཏན་ བསྡུར་འབྲས་རེའུ་མིག་ལ་དབང་བའི་བདག ། ། །
+> ་ཊཀྐཱ་ར་ཡར་ཁྱོད་ད་ལ། །བརྒྱུད། （༩༣༦) ། ན། ། ད་
+> འད ། དཔེ་གཞི། སྡེ་དགེ། ༼ པེ་ཅིན། ་སྣར་ཐང་སྣར་ཐང་།། ། ཅོ་ནེ།
+> ༼ སྡེ་ཚན། རྒྱུད། བ རྒྱུ ད་འགྲེལ། ། བརྒྱུདརྒྱུད།། བྱང་རྒྱུད། །
+> པོད་རྟགས། : ཚི
+> ཚན་གྲངས།
+> ལྡེབ། ༡༣༠ན༧ – ༡༣༠ བ ༡༥༤ནv– ༡༥༥བའོ ༡༤༤ན་_ ༡༤༥ན༦ | ༡༣༠ན? – ༡༣༠ བ་
+> ཕྲེང་། ) 1: ༡༤་༢༡དུག ༡༧)
+> ཚིག་རྐང༌། ། ༧ ༩ 
+> ཀ༦
+> ༧༩༥
+> ཚེག་ཁྱིམ། ༧༩༥
+> 25 =357
+
+The collation tables ("table of collation results", བསྡུར་འབྲས་རེའུ་མིག, bsdur 'bras re'u mig) that close the notes of each work in the Dpe bsdur ma (the critical collated edition of the Tengyur, བསྟན་འགྱུར་དཔེ་བསྡུར་མ), as the etext of the volume's OCR gives them. Their column heads give the sigla: "base text" (དཔེ་གཞི, dpe gzhi), then Derge (སྡེ་དགེ, sde dge), Peking (པེ་ཅིན, pe cin), Narthang (སྣར་ཐང་, snar thang) and Co ne (ཅོ་ནེ, co ne); the rows give the section (སྡེ་ཚན, sde tshan: "tantra", རྒྱུད), the volume sign (པོད་རྟགས, pod rtags), the item number (ཚན་གྲངས, tshan grangs), the folios (ལྡེབ, ldeb) and two rows headed ཚིག་རྐང (tshig rkang) and ཚེག་ཁྱིམ (tsheg khyim) whose figures the OCR leaves broken and whose meaning this reading did not settle. The folios of the Svapnohana (the first table, printed p. 1305) read, in the OCR, 133b to 135a for the Derge, 154b to 157b for the Peking, 140b to 142a for the Narthang and 133b to 135a for the Co ne; for the Svapnekṣā (the second table, printed p. 357) 130a to 130b (Derge), 154a to 155b (Peking), 144a to 145a (Narthang) and 130a to 130b (Co ne). The Co ne folios agree with the places where the pool read the Co ne print (vol. 28, 133b3-135a3; vol. 49, 130a1-130b7), which shows that the column order is Derge, Peking, Narthang, Co ne. The figures of the Peking and Narthang columns are broken in the OCR (the Peking's last folio reads «༡༥༧བས», the Narthang's second figure «༡༤༢ན»), and were not checked against the Peking and Narthang prints.
+
+## <a id="svo-p271u"></a>svo:p271u The Dpe bsdur ma's apparatus of the Svapnohana, printed pp. 1301-1305, entry by entry (RD323)
+
+*Read: etext, 2026-11-10.*
+
+> Base text, vol. 14, etext p. 1364 (printed p. 1301):
+> 1:|: ༄༅། །རྒྱ་གར་སྐད་དུ། སུབྷཱ་“ཨུ་ཧཱ་ནི། བོད་སྐད་དུ། རྨི་ལམ་
+> བརྟག་པ། སངས་རྒྱས་ལ་ཕྱག་འཚལ་ལོ། །རྨི་ལམ་སྣ་ཚོགས་ལས་བྱུང་བ། །
+> དེ་ཡི་བརྟག་པ་བཤད་པར་བྱ། །དང་པོའི་ཐུན་ལ་རྨི་ལམ་བྱུང༌། ། ལོ་གཅིག་
+> ནང་དུ་འབྲས་བུ་འབྱིན། = །ཐུན་གཉིས་ཟླ་བ་བརྒྱད་བར་ཅེལ། །ཐུན་གསུམ་ཟླ་
+> བ་གསུམ་གྱི་བར། །་ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་ཡིདུ། །མཐོང་བར་འགྱུར་བ་
+> ཐེ་ཚོམ་མེད། ། སྐྱ་རེངས་ཤར་བའི་དུས་ཉིད་ལ། །ཞག་བཅུའི་ནང་དུ་འབྲས་
+> བུ་འབྱིན། །དེ་རྗེས་རབ་ཏུ་བཤད་བྱ་བ། །ཉོན་ཅིག་དགེ་དང་མི་དགེའི་ལས། །
+> བཞོན་པ་བ་ལང་དང་ནི་གླང་ཆེན་ཞོན་པ་དང་། ། ཁང་བཟངས་རི་རྩེ་དང་ནི་་་
+> 
+> Notes, etext p. 1368 (printed pp. 1301-1305), as the OCR has them:
+> ༡༣༠༡ )མཚན་བྱང་འདི་ཆོས་ཚན་འདིའི་མཚན་བོད་སྐད་དུ་སྨོས་པ་ལྟར་བཀོད་ཅིང་། «པེ་» ༄༅། །རྨི་ལམ་བརྟག་
+> པ་བཞུགས་སོ། ། «པེ་»«སྣར་»སཱབྷ། «པེ་»«སྣར་»ན། ༤ «པེ་»«སྣར་》པ། གྱི «པེ་»
+> -ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར། ། «པེ་»«སྣར་》བར། «པེ་»«སྣར་》རེང༌། ང་
+> ༡༣༠༢ ） «པེ་»«སྣར་»ལ། «པེ་»«སྣར་》པུས། «པེ་ཁ། «པེ་གཉིས། «པེ་»«སྣར་»
+> གཅིག པོ «ཅོ་»རྒྱུ། @ «པེ་»«སྣར་»གིས། «པེ་»«སྣར་»པོའོ། © «པེ་»ཟློག
+> ༡༣༠༣ © «པེ་»«སྣར་》པ། ཚེ«པེ་»«སྣར་»འབྱུག «པེ་བྱུང་བ། 8«ཅོ་》ཕྱུག «པེ་»« སྣར་»
+> ཡི། ©« སྣར་》ཡི། ༄༅«པེ་»«སྣར་»ཨུན་ཙི། ཉི «པེ་»« སྣར་»དུས། །
+> ༡༣༠༤ «པེ་«སྣར་》ཟེ་རྟ་ཕྱུགས། «པེ་»«སྣར་དུ་ངམ། «པེ་»«སྣར་ལ། ། «པེ་》ཐུངས།
+> «པེ་»«སྣར་》ཡིས། ཁོ «པེ་»«སྣར་》བླ། – @ «པེ་»ནས། ( «པེ་»«སྣར་»ཡི། ©«པེ་»«སྣར་»
+> སྨྲ༑ (ཀྱེ «པེ་»«སྣར་+ སྨྲ་འམ་རབ་ཏུ་རྡེག་པ་དང་། །
+> ༡༣༠༥ «པེ་»«སྣར་》ངན་པ་བཟློག ་ བ བ བ བ ། ཝ་ཏཱཁྱུར་
+> ལ་ཤ། ཀཱ༌ ག་ ན་
+
+The Svapnohana (the examination of dreams, རྨི་ལམ་བརྟག་པ, rmi lam brtag pa) in the Dpe bsdur ma, vol. 14 (the Tengyur section Tantra, pp. 1301-1305 of the volume, etext pages 1364-1368), the base text of printed p. 1301 with its watch lines, and then the notes of the five printed pages, as the OCR gives them. The base is the Derge print; the notes name the Peking by «པེ་» (pe), the Narthang by «སྣར་» (snar), the Co ne by «ཅོ་» (co), and, in six places of the whole volume, the Derge by «སྡེ་» (sde); an entry is the siglum or the pair of sigla and the variant reading, without the lemma it replaces (the lemma is found by the entry's number, which is also in the text as a raised figure); a minus sign before words says the print omits them. The printed page number (༡༣༠༡ to ༡༣༠༥) heads each group of entries; in the OCR the figures of the notes and of their markers in the text are lost or turn into other signs: «ཅེ» and «ཡི» in the watch lines («བརྒྱད་བར་ཅེལ», «ཕྱེད་བར་ཡིདུ») stand where the markers are, the quotation mark in «སུབྷཱ་“ཨུ་ཧཱ་ནི» likewise.
+
+What the group of printed p. 1301 says, entry by entry in the OCR's order: the editors' remark on the title (it is set as the Tibetan name of the section states); Peking "here the examination of dreams stands" (the Peking's own title line); Peking and Narthang «སཱབྷ» and Peking and Narthang «ན» (the Sanskrit title); Peking and Narthang «པ» (entry 4; by the surviving marker sign «ཅེ» it belongs to the second watch's first segment, «བརྒྱད་བར་ཅེལ»); Peking, minus: «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར། །» (the fourth watch's line is omitted by the Peking, as the pool read on the Peking print); Peking and Narthang «བར» (entry 6; by the surviving marker sign «ཡི» it belongs to «ཕྱེད་བར་ཡིདུ»); Peking and Narthang «རེང» (for «སྐྱ་རེངས»). The Co ne is named in none of them.
+
+Printed p. 1302 (where the base text has «རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །རྒྱལ་པོ་གླང་ཆེན་རྟ་མཆོག་དང་། །འགྲོན་བུ་གླིང་དང་བ་རྣམས་དང་»; the OCR's «གླིང» is «གླང»): Peking and Narthang «ལ»; Peking and Narthang «པུས»; Peking «ཁ»; Peking «གཉིས»; Peking and Narthang «གཅིག»; Co ne «རྒྱུ»; Peking and Narthang «གིས»; Peking and Narthang «པོའོ»; Peking «ཟློག», last on the page. Printed p. 1303 (the page of «གང་ལ་ཡང་དག་བཅུ་ཡི་བར»): Peking and Narthang «པ»; Peking and Narthang «འབྱུག»; Peking «བྱུང་བ»; Co ne «ཕྱུག»; Peking and Narthang «ཡི»; Narthang «ཡི»; Peking and Narthang «ཨུན་ཙི» (for «ཨུཉྩི»); Peking and Narthang «དུས». Printed p. 1304 (the page of «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་» and «ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས»): Peking and Narthang «ཟེ་རྟ་ཕྱུགས»; Peking and Narthang «དུ་ངམ»; Peking and Narthang «ལ» (third); Peking «ཐུངས»; Peking and Narthang «ཡིས»; Peking and Narthang «བླ»; Peking «ནས»; Peking and Narthang «ཡི»; Peking and Narthang «སྨྲ»; Peking and Narthang «སྨྲ་འམ་རབ་ཏུ་རྡེག་པ་དང་།» (a longer reading). Printed p. 1305 (the last lines, «རྨི་ལམ་ངན་པ་ཟློག་པར་འགྱུར»): Peking and Narthang «ངན་པ་བཟློག». The colophon on the same page: the examination of dreams is finished; the Indian pandit of the east Vibhūticandra (བི་བྷཱུ་ཏི་ཙནྡྲ) made it as his own translation («རང་འགྱུར་དུ་མཛད་པ»).
+
+## <a id="svo-p271v"></a>svo:p271v The Dpe bsdur ma's apparatus of the Svapnekṣā, printed pp. 354-356: the title, the last part of the night, the bird (RD323)
+
+*Read: etext, 2026-11-10.*
+
+> Base text, vol. 25, etext p. 415 (printed p. 354):
+> ༄༅༅། །རྒྱ་གར་སྐད་དུ། སྭ་པ་ན་ཨི་ིཀཱ། བོད་སྐད་དུ། རྨི་་་་
+> རྒྱུ་བར་འགྱུར། །ཐ་མར་རྨི་ལམ་བརྟགས་“ལ་ཉལ། །མེ་ལོང་ལག་ཏུ་ཐོགས་པ་
+> 
+> Base text, etext p. 416 (printed p. 355):
+> པ་དང་། ། རྨ་བྱ་རྙི་ཡིས་འཛིན་པ་དང༌། །སྙིང་རྗེས་པདྨ་ཆོས་འཆང་བའོ ། །
+> མཚོན་ཐོགས་གཡུལ་ལས་རྒྱལ་བ་དང་། །རྒྱལ་པོ་འཁོར་དུ་གྱུར་པ་དང་། ་་།
+> དམག་མི་གཡུལ་དུ་བསྐོར་བ་དང་། །ཞི་བའི་ལས་ལ་འགོད་པ་དང་། །བྱ་ཤར་
+> ཏེ་རུ་ཕོ་ཉར་གཏོང་། །ནགས་ཚལ་མེ་ཡིས་བསྲེགས་པའོ། །ཆུ་ལ་མི་ནུབ་་་་
+> རྐྱལ་བ་དང་། ། །ནམ་མཁའ་ལ་ཡང་འགྲོ་ཞིང་ལྡིང་། །ཉི་ི ཟླ་རྒྱན་དུ་གོན་པ་
+> དང་། ཎ །སེང་གེ་ཁྲི་སྟན་གནོན་པ་དང་། །གདུགས་དཀར་ཕུབ་ཅིང་རྒྱལ་་་་
+> མཚན་བསྒྲེང༌སྒྲ ། །ཀུན་གྱིས་མཆོད་པའི་འོས་འགྱུར་བའོ། །ཁྲག་དང་ཆུ་སེར་
+> ཟག་པ་དང་། ། མེ་དཔུང་རྫི་”ཞིང་མི་འཇིགས་དང་། །སྦྲུལ་དང་སྡིག་པ་ཟ་བ་
+> 
+> Notes, etext p. 418 (printed pp. 354-356), as the OCR has them:
+> ༣༥༤ མཚན་བྱང་འདི་ཆོས་ཚན་འདིའི་མཚན་བོད་སྐད་དུ་སྨོས་པ་ལྟར་བཀོད་ཅིང་། «པེ་》 རྨི་ལམ་བརྟག་པ་བཞུགས།
+> )«པེ་»«སྣར་ནེ། ༣ «པེ་»«སྣར་》རྩ་ལ་རྔས། ༤ «པེ་»«སྣར་»ཛ་ཏ་པ། ༥) «པེ་»«སྣར་》བྱུག
+> ད ་ ། ༦ «པེ་ད《 སྣར་དབཏབ། ནང་པ ། རྒྱ་
+> ༣༥༥ (） «པེ་»«སྣར་》པདྨ་འཐུ། | འ «པེ་»«སྣར་»སྙི། ༡ «པེ་» སྣར་》དམ་ཆོས་འཆད་པའོ། ༤ «པེ་»
+> ཤིང་ཏེའུ། 《སྣར་»ཤང་ཏེའུ། ས «པེ་»«སྣར་»ཉིན། «པེ་»«སྣར་》ཟེར། ༧ «པེ་»
+> «སྣར་》བརྫི། ༽༢) «པེ་»《སྣར་+ཞིང་། «པེ་》《སྣར་»—དང་། དེ་
+> ༣༥༦ (2«པེ་»«སྣར་བརྫི། (3)«པེ་》《སྣར་འཐུང༌། ། «པེ་»«སྣར་》ཅོང་། ༤ «པེ་»« སྣར་ནས། །
+> «པེ་»«སྣར་》ལྕེ། «པེ་»«སྣར་»དུང༌། ༧ «པེ་»«སྣར་》རིམ། ར «པེ་»«སྣར་»-ལ། «པེ་»
+> «སྣར་»ཙམ། ༡༤ «པེ་»«སྣར་》བཟུང༌། ༧ 《སྣར་》པ། ༡༢ «སྣར་»ཤི།
+
+The Svapnekṣā (Advayavajra's examination of dreams, in the Tibetan «རྨི་ལམ་བརྟག་པ», rmi lam brtag pa) in the Dpe bsdur ma, vol. 25 (printed pp. 354-357, etext pages 415-418): the title, the line of the last part of the night, and the lines of the list of fortunate images where the Amoghasiddhi bird stands, with the notes of printed pp. 354-356 in the OCR's order. In the text the figures of the markers sometimes survive (the «༤» in «ཛཱ་ཏ་ཀ་༤ཡི» is note 4 of printed p. 354, which in the notes is «པེ་»«སྣར་»ཛ་ཏ་པ), and sometimes only as a quotation mark inside a word («རྨི་ལམ་བརྟགས་“ལ་ཉལ», «རྫི་”ཞིང»).
+
+Printed p. 354: the title; Peking and Narthang «ནེ» (the Sanskrit title's last syllable); «རྩ་ལ་རྔས»; «ཛ་ཏ་པ» (4); «བྱུག» (5); entry 6, Peking and Narthang «བཏབ» in the OCR's «དབཏབ» (the «ད» is a stray sign of the figure), at the marker «བརྟགས་“ལ་ཉལ», where the Derge base has «བརྟགས»: the base has «བརྟགས» and the Peking and Narthang, by this note, «བཏབ» (which is also what the Narthang manuscript shows by eye, while the pool read the Peking print by eye as «བརྟགས་པ་ལ»). Printed p. 355: «པདྨ་འཐུ»; «སྙི» (for «རྙི»); «དམ་ཆོས་འཆད་པའོ» (for «པདྨ་ཆོས་འཆང་བའོ»); entry 4: Peking «ཤིང་ཏེའུ» and Narthang «ཤང་ཏེའུ», which lies between the entry on «པདྨ་ཆོས་འཆང་བའོ» and the entry «ཉིན» (for the sun's «ཉི» of «ཉི་ཟླ་རྒྱན»), so that in the text it is the Amoghasiddhi sign «བྱ་ཤར་ཏེ་རུ» of the base, in which the line break falls after «བྱ་ཤར་»; then «ཉིན»; «ཟེར» (for «ཆུ་སེར»); «བརྫི» (for «རྫི»); «ཞིང»; Peking and Narthang, minus: «དང་». Printed p. 356: «བརྫི»; «འཐུང»; «ཅོང» (for «གཅོང»); «ནས»; «ལྕེ»; «དུང»; «རིམ»; Peking and Narthang, minus: «ལ»; «ཙམ»; «བཟུང» (for «གཟུང»); Narthang «པ»; Narthang «ཤི». The Co ne is named in none of these entries.
+
+### What the apparatus says about the doubted places (RD323)
+
+Read from the etext only; the Dpe bsdur ma scans are restricted, so every statement about a note is about the OCR text of its entry, and the place a note belongs to is inferred from the printed page, the order of the entries and the marker signs that survived in the text. Three things the earlier readings lacked are now there: the volume ids (the Svapnohana is in vol. 14, I1PD95859, the Svapnekṣā in vol. 25, I1PD95870; the id the row named, I1PD95847, is the volume of the Muktāvalī on the Hevajra), the grouping of the entries by printed page (the page number heads each group, so a note is no longer "assigned by order alone" across the five pages) and the siglum list.
+
+- **Sigla.** The notes' signs are the first syllables of the column heads of the collation table (svo:p271t): «པེ་» Peking, «སྣར་» Narthang, «ཅོ་» Co ne, «སྡེ་» Derge (six times in the whole of vol. 14). Their counts in the volume's OCR: «པེ་» about 10,500, «སྣར་» about 4,600, «ཅོ་» about 120, «སྡེ་» 6. The Co ne is therefore named rarely; that agrees with the Co ne being close to the Derge base, but the notes do not say so, and the volume's own explanation of the signs is in the series' first volume (not read here: the Dpe bsdur ma front matter of vol. 14 holds the table of contents and no explanation).
+- **The second watch's first segment (q874, q926).** Entry 4 of printed p. 1301, Peking and Narthang «པ», follows the title entries and precedes the Peking omission; the surviving marker sign «ཅེ» stands after «བརྒྱད་བར». So the editors record Peking and Narthang as «བརྒྱད་པ་ལ» against the base, which answers q874 in its first half: the Narthang and Peking «པ་ལ» are the variant, the base is not. The Co ne is named in no entry of the group. What the base itself reads cannot be settled from the OCR, which gives «བར»: if the OCR confuses པ and བ, the base would be «བརྒྱད་པར་ལ», the Co ne's machine reading («པར», q926) would be the base's own, and Peking and Narthang «པ» would be the shorter form; if the OCR is right the base is the Derge etext's «བརྒྱད་བར་ལ» and the Co ne's «པར» is a variant that the editors did not record.
+- **The third watch's short line (q927).** The group of p. 1301 has no entry between entry 4 and the Peking omission, so the base line «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར» has no recorded variant in any print, and the Co ne's shorter «ཐུན་གཉིས་གསུམ་གྱི་བར» (machine, svo:p271m) is not recorded as a variant. The silence is weak evidence: the pool read the Peking print's «བར་དུ» at this line by eye (svo:p271e) and no entry records that either; the editors do not list every difference.
+- **The fourth watch's line (q926, q870).** Entry 5, Peking minus «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར། །» (the Peking omits the line; the pool's Peking reading, svo:p271e, agrees; Narthang is not named, so by the editors' practice the Narthang has the line); entry 6, Peking and Narthang «བར», with the marker sign «ཡི» in «ཕྱེད་བར་ཡིདུ». The OCR's base is «ཕྱེད་བར་དུ»; the entry says Peking and Narthang read «བར» where the base does not, which fits only a base «པར» («ཕྱེད་པར་དུ»), against the OCR (and against the Peking, which has no line to read) — or the entry's Peking is a slip of the OCR for the Narthang alone. The Narthang prints read «ཕྱེད་བར་དུ» by eye (svo:p271e), so a base «པར་དུ» with the Co ne's «པར» (machine) is the reading that explains all the entries, but only the restricted scan of the Dpe bsdur ma can show whether the base is «པར» or «བར». Stated as unsettled.
+- **«བགྲོད»/«བཟློག» (q864).** The group of printed p. 1302 has one entry with «ཟློག», Peking's, and it is the last of the page, after the entries that fit «ཞུགས» (first) and «གཅིག་པུ» (middle); the page ends with «དེ་ཡང་མྱུར་དུ་ལྡོག་པར་ངེས», where the base has «ལྡོག»: that is the place by order. No entry stands at «རྨི་ལམ་རྣམས་ན་བགྲོད་མིན», where the page begins: no print is recorded as differing from the base there, the Co ne included, which does not support the Co ne machine tally's «བཟློག» (two to two). The Peking by eye is «བགྲོད་མིན» too (svo:p271k).
+- **«འགྲོན་བུ»/«འགྲོན་དུ» (q864).** No entry of p. 1302 can be placed at the second line's «འགྲོན་བུ»; the nearest, Peking and Narthang «པུས», goes with «གཅིག་པུ». No print is recorded as reading «འགྲོན་དུ».
+- **«བཅུ་ཡི་བར» (q864).** On printed p. 1303 two entries read «ཡི» (Peking and Narthang; Narthang alone) between the entries for «བྱུག» and «ཨུཉྩི»; the base has «བཅུ་ཡི་བར» two lines before «ཨུཉྩི», so these may be its entries or those of the neighbouring «དེ་ཡིས»; the lemma is not quoted and the figures are lost. Not settled.
+- **«རྟ་བླ་མོ» (q864; RD228).** The third entry of printed p. 1304 is Peking and Narthang «ལ», in the position of the line «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་», which is the line's place by the page's order: the Peking and Narthang prints read «ལ་མོ» and the base «བླ་མོ», as RD228 had it. The Co ne is not named: the editors record it as reading «བླ་མོ» like the base, as the Co ne's machine reading has it (14 of 16 runs).
+- **The Gāyatrī (q864).** No entry of p. 1304 can be placed at «ག་ཡ་ཏྲི» (the group's remaining entries are «ཡི», «སྨྲ» and the longer «སྨྲ་འམ་རབ་ཏུ་རྡེག་པ་དང་»): no print is recorded as reading differently, the Co ne's machine «གས་ཏྲི» (two syllables) included. A silence of the same weak kind.
+- **The closing lines.** Printed p. 1305: Peking and Narthang «བཟློག» for the base's «ཟློག» in «རྨི་ལམ་ངན་པ་ཟློག་པར་འགྱུར». This is the only «བཟློག» entry of the Svapnohana that stands at a place which can be fixed, and it is not the line of «བགྲོད་མིན».
+- **The bird (q912, q913).** Entry 4 of printed p. 355 of the Svapnekṣā, Peking «ཤིང་ཏེའུ», Narthang «ཤང་ཏེའུ», stands between the entries for «པདྨ་ཆོས་འཆང་བའོ» and «ཉི་ཟླ», where the base has «བྱ་ཤར་ཏེ་རུ» (a line break after «བྱ་ཤར་»). The Peking reading agrees with the Peking print read by eye (svi:p310b, «བྱ་ཤིང་ཏེའུ»). The Narthang entry is «ཤང་ཏེའུ», not «ཤང་ཤང་ཏེའུ»: the note gives the full name once, so the manuscript's «བྱ་ཤང་ཏེའུ» (q912's first option) is the reading the editors record, if the entry replaces «ཤར་ཏེ་རུ» and not «བྱ་ཤར་ཏེ་རུ»; the lemma is not quoted, so this stands on the note's order and wording and not on the manuscript. Nothing in the notes says what the bird is or foretells: no entry in either work names «ཤང་ཤང་ཏེའུ» or glosses the bird (searched in the three volumes' etexts), q913 is not touched.
+- **«བརྟགས»/«བཏབ» (q836).** Entry 6 of printed p. 354, Peking and Narthang «བཏབ» (OCR «དབཏབ»), at the marker sign in «བརྟགས་“ལ་ཉལ»; the base has «བརྟགས» and no «པ» (the Derge etext's «བརྟགས་ལ་ཉལ»). The Peking print as the pool read it by eye (svi:p289-291, RD234) has «བརྟགས་པ་ལ»: the Dpe bsdur ma's Peking is «བཏབ», the Narthang manuscript's «བཏབ» by eye agrees with it, and the Peking print read by eye does not; the Dpe editors may have used another Peking copy, or the pool's eye reading of the Peking is wrong; not settled.
+
+### Open (RD323)
+
+- Question: Does the Dpe bsdur ma's base text read «བརྒྱད་པར་ལ» and «ཕྱེད་པར་དུ» (with པ) in the second and the fourth watch lines, as the notes' entries 4 and 6 of printed p. 1301 imply when taken with the Narthang and Co ne readings, or «བརྒྱད་བར་ལ» and «ཕྱེད་བར་དུ» as the OCR gives them? Only the restricted scan of vol. 14, printed p. 1301, can show it.
+- Question: Does the Dpe bsdur ma name the Co ne in every place where the Co ne differs from the Derge base (the Co ne's siglum is in about 120 entries of vol. 14), so that its silence at the watch lines, «བགྲོད་མིན», «འགྲོན་བུ», «རྟ་བླ་མོ» and the Gāyatrī means the Co ne agrees with the base? The explanation of the sigla is in the Tengyur series' first volume; the Peking omits the line «ཐུན་བཞི…» and reads «བར་དུ» at the third watch's end, the latter recorded by no entry.
+- Question: In the Svapnekṣā, did the editors replace «ཤར་ཏེ་རུ» or «བྱ་ཤར་ཏེ་རུ» by «ཤང་ཏེའུ» for the Narthang (and by «ཤིང་ཏེའུ» for the Peking)? (the lemma of entry 4 of printed p. 355)
+
+### Searched and not found (RD323)
+
+- The row's etext id I1PD95847 is the volume of the Muktāvalī on the Hevajra, not of the Svapnohana: the Svapnohana is in I1PD95859 (vol. 14, etext pp. 1364-1368), the Svapnekṣā in I1PD95870 (vol. 25, etext pp. 415-418); the front matter of vol. 14 (etext pp. 3-17) holds the publisher's title and the table of contents only.
+- An explanation of the sigla («པེ་», «སྣར་», «ཅོ་», «སྡེ་») in vol. 14's etext: none; the siglum names are only the columns of the collation tables. «ཤང་ཤང་ཏེའུ» in the etexts of vols. 9, 14 and 25: 0 hits; «ཤིང་ཏེའུ» and «ཤང་ཏེའུ» one hit each (the note).
+- The marker figures of the notes in the Svapnohana's text: lost in the OCR except for the signs named in svo:p271u; the notes' lemmas are never quoted, so the place of an entry is by the printed page and the order only.
