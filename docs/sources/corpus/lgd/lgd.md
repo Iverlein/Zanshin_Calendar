@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD307 (2026-11-10): the phrase «མཉམ་པོར་འོང་བའི་བདུད» (68 hits) and its short form «མཉམ་འོང་གི་བདུད» (4), and «རམ་རུག» (10), by BDRC's exact-string search and the etexts' windows (Machik's life I3CN4779, the Chöd instruction I1KG24707, Kongtrul's Bima la'i zab tig I1KG13062, Zhabs dkar's Chos bshad gzhan phan nyi ma I3154, Bdud 'joms gling pa I4636, Dpa' bo Chos dbyings rdo rje I0392, the Rin chen gter mdzod vol. 42 etext VE1KG14_037 and Karma Chags med's ransoms I2PD20754); etext only, no scan opened, no lexicon headword found for either phrase. Claims lgd-mnyam-por-ong-ba-bdud-is-the-companion-demon-of-self-clinging, lgd-co-born-god-and-companion-demon-keep-white-and-black-pebbles, lgd-co-born-god-and-companion-demon-cause-disturbance-and-dream-confusion, lgd-ram-rug-in-ransom-and-gossip-lists.
+
 Read by RD284 (2026-11-10): LGD in the Rin chen gter mdzod print (I1KG57 img. 981, printed p. 962, and img. 989, p. 970): the first line of p. 962 at 3- to 10-fold (the six ornamental glyphs, compared with the same string in the Palri print I01CT0067 img. 534) and the last line of p. 970 with the demon's phrase; BDRC's exact-string search for the phrase and its partners. Claims lgd-p962-seed-string-is-ornamental-and-unread, lgd-three-parts-of-night-share-the-names-of-rst-thirds, lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.
 
 Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).
@@ -216,3 +218,15 @@ Samaya. *The stages of telling the signs of good and bad dreams apart.* Set down
 - The Zhe chen, Kazi and Sbas-yul prints' first line of the rite (the place of the six glyphs): not opened; only their dream folios are in the scan cache, and the rite's first folio in each was not located, so no plain-letter witness of the string was seen.
 - BDRC's exact-string search (2026-11-10) for «མཉམ་པོར་འོང་བའི་བདུད» (68 hits), «མཉམ་པོར་འོང་བའི་ལྷ» (1), «ལྷན་ཅིག་སྐྱེས་པའི་བདུད» (88), «རང་དང་ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» (9), «ལྷན་སྐྱེས་ཀྱི་བདུད» (12): snippets only, in Wylie; none glosses «མཉམ་པོར་འོང་བའི་བདུད» in so many words and none names a dream.
 - A span for LGD's dusk, midnight and dawn (hours or watches): none in LGD, in RST's thirds or in the pages read here.
+
+### Open (RD307)
+
+- Question: LGD p. 970 names «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» and «མཉམ་པོར་འོང་བའི་བདུད» among the causes of a confused dream; the Chöd texts gloss the second as one's own co-born ignorance and self-clinging (ལས་གདོན, las gdon, the karmic spirit), the sermon on death as the keeper of the black pebbles. Which of the two does LGD's author mean, or does he not distinguish them?
+- Question: What is «རམ་རུག» (ram rug) in the rites' lists: the plant ram bu or ram pa by a spelling by ear, or a separate item (the lists give it with garlic, salt, beer dregs and pepper, in the Karma Chags med ransoms also beside «ཚ་ཡོས», tsha yos), and what does «ཞབས» in «ཞབས་རམ་རུག» of the Rin chen gter mdzod's second text add?
+
+### Searched and not found (RD307)
+
+- BDRC's exact-string search (2026-11-10) for «མཉམ་པོར་འོང་བའི་བདུད་ནི» (0), «མཉམ་པོར་འོང་བའི་བདུད་ཅེས་པ» (0), «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་དང་མཉམ་པོར་འོང་བ» (0), «ལྷན་སྐྱེས་ཀྱི་ལྷ་དང་མཉམ་འོང་གི་བདུད» (0); «རམ་རུག་ཅེས་པ» (0), «རམ་རུག་ནི» (0): no definition of either phrase by a «ཞེས་པ་ནི» in the texts searched, apart from the Chöd gloss of the karmic spirit.
+- No text found that names the pair in a list of dream causes besides LGD: Bdud 'joms gling pa's instruction lists dreams among what the pair throws into tumult, but not as a dream-cause section.
+- No text found that says what «རམ་རུག» is: in all ten places it stands in a list of rite goods, none glosses it as a plant.
+- Chöd texts in the Gcod tshogs (I2PD20734, etext pp. 460–461) and the Karma Chags med ritual (I2PD20752, p. 264) use «མཉམ་པོར་འོང་བའི་བདུད» in lists of enemies to be dispatched or swallowed ("eaters, death-slayers and demons who come alongside"); there it is an outer foe, not self-clinging. The Machik gloss is therefore one use of the name, not the only.

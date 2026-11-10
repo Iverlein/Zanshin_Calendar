@@ -1,0 +1,13 @@
+---
+kind: claim
+type: note
+terms: [lhan-cig-skyes-pa-i-lha, mnyam-por-ong-ba-i-bdud]
+cites: ['lgd:p970']
+feeds: [S1]
+open: []
+---
+# The co-born god and the demon who comes alongside keep the white and the black count of a person's deeds
+
+A Tibetan sermon on death gives the pair a picture, and the picture names both (RD307, 2026-11-10; the etext of Zhabs dkar Tshogs drug rang grol's *Chos bshad gzhan phan nyi ma*, I3154, etext pp. 46 and 55, BDRC search MW22165; no scan opened): each person is born with a god, «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» (the co-born god), who carries a white bowl with a white pebble for every good deed done and, at death, takes it on the right shoulder and goes out to meet the dead; and «མཉམ་པོར་འོང་བའི་བདུད» (the demon who comes alongside), who carries a black bowl with a black pebble for every bad deed, on the left shoulder, and chases the dead from behind. The words: «ངེད་ཚོ་དང་མཉམ་དུ་ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་ཟེར་བ་ཞིག་ཡོད་པ་དེས་སྣོད་དཀར་པོའི་ནང་དུ། དཀར་པོ་དགེ་བ་གང་བྱས་ཀྱི་གྲངས་ཀ་རྡེའུ་དཀར་པོ་བསགས་ཡོད་པ་དེ་ཕྲག་པ་གཡས་སུ་བཀལ་ནས་སྔོན་ནས་བསུས། ཡང་མཉམ་པོར་འོང་བའི་བདུད་ཟེར་བ་ཞིག་ཡོད་པ་དེས་སྣོད་ནག་པོའི་ནང་དུ། ནག་པོ་མི་དགེ་བ་བྱས་ཚད་ཀྱི་རྡེའུ་ནག་པོ་བསགས་ཡོད་པ་ཕྲག་པ་གཡོན་དུ་ཁུར་ནས། ཕྱི་ནས་དེད་དེ།» — "with us there is the one called the co-born god, who has gathered in a white bowl as many white pebbles as there are good deeds, lays it on the right shoulder and goes ahead to receive; and there is the one called the demon who comes alongside, who has gathered in a black bowl as many black pebbles as there are bad deeds, carries it on the left shoulder and chases from behind". Before Yama (the king of the law, གཤིན་རྗེ་ཆོས་རྒྱལ) the demon rises from the left, bows three times and testifies: «ང་མི་འདི་དང་མཉམ་པོར་འོང་བའི་བདུད་ཡིན། མི་འདིའི་ཆ་རྒྱུས་ཐམས་ཅད་ང་ལ་གསལ།» — "I am this man's demon who comes alongside; everything about this man is clear to me" (p. 55). The same pair is in the Karma Kam tshang prayers' commentary and in a collection of prose, where the offering after a feast is made to «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་དང་མཉམ་པོར་འོང་བའི་བདུད» (BDRC snippets, search-only, MW3CN22915, MW3CN22937); one of them uses it as a simile for what is always at hand.
+
+This is the sense in which LGD can set the pair among the causes of dreams: both go with the person from birth, the god of the good, the demon of the bad. The sermon is a nineteenth-century lay sermon, not a ranked source; it shows the figure the name belonged to, not what LGD's author meant. Together with lgd-mnyam-por-ong-ba-bdud-is-the-companion-demon-of-self-clinging it answers q805 and q876: the demon is an attendant adversary that goes with every person, and the Chöd names it one's own self-clinging.
