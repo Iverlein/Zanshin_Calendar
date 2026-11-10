@@ -442,6 +442,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gt-water-or-beer-fiends-or-the-dead.md](claims/gt-water-or-beer-fiends-or-the-dead.md) | claim, conflict | Ch. 7's lines 13 and 15: water and fiends are Byang pa's alone among the etexts found | cites gt:i42-43, bjp:p177-181; feeds S2 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
+| [claims/hatsuyume-edo-calendar-not-stated.md](claims/hatsuyume-edo-calendar-not-stated.md) | claim, note | No open Edo source reached that names the calendar of the 初夢 night of 2 January | cites nip:p1, mdz:i31, mdz:i72; feeds S3 |
 | [claims/hatsuyume-night-history.md](claims/hatsuyume-night-history.md) | claim, rule | The night of the first dream: from 節分 to 2 January | cites nip:p1, skf:p1; feeds S3 |
 | [claims/hatsuyume-takarabune.md](claims/hatsuyume-takarabune.md) | claim, remedy | The treasure ship under the pillow and the remedies for a bad first dream | cites nip:p1, nip:p2; feeds S3 |
 | [claims/hidden-body-cut-turtle.md](claims/hidden-body-cut-turtle.md) | claim, conflict | The body cut's turtle: the blocks carve the left side 7 and the left leg 6 | cites wb.1:p358, wb.2:p524; feeds block-58 |
@@ -582,6 +583,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
 | [claims/ozassho-dream-judgments.md](claims/ozassho-dream-judgments.md) | claim, note | A 大雑書 with a dream section by image only (万代大雑書古今大成) | cites mdz:p5; feeds S3 |
 | [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
+| [claims/ozassho-dream-table-which-prints.md](claims/ozassho-dream-table-which-prints.md) | claim, note | The days-a-dream-is-not-told table is in the 万代大雑書 and the Ebara dream book, not in the two 永代 prints read | cites mdz:p11, mdz:i31, mdz:i72, eb9:i9; feeds S3 |
 | [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
@@ -1058,7 +1060,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 5 passages: 5 scan |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 7 passages: 5 scan, 2 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |

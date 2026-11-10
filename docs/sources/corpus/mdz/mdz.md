@@ -182,3 +182,27 @@ Leaf <8>, articles 101 to 132: ten articles of the left block, twelve in the sin
 > 右の日の夢ハ善悪ともに語らず
 
 Heading: "Item yu-6 (ゆ六), the days on which a dream seen is not told." A table of twelve cells, one for each month (正 the first month to 十二), each holding day branches of the sexagenary cycle written in kana, with a slash inside the brackets: month 1 ひつじ さる／いぬ (goat, monkey / dog); 2 とり さる／ミ (rooster, monkey / snake); 3 ひつじ むま／ゐ (goat, horse / boar); 4 むま うし／う ゐ (horse, ox / hare, boar); 5 the same as 4; 6 ね うし／ゐ (rat, ox / boar); 7 ね うし／たつ (rat, ox / dragon); 8 とら たつ／ね ゐ (tiger, dragon / rat, boar); 9 the same as 8; 10 たつ／ミ (dragon / snake); 11 さる ひつじ／いぬ (monkey, goat / dog); 12 むま ひつじ／ゐ (horse, goat / boar). Closing line: "of the dreams on the days above, neither good nor bad is told." The page does not say what the slash divides (two groups of day branches, or days and something else); the heading and the closing line settle only that a dream seen on a listed day is not spoken of. The reading of each cell was checked on the page image (p. <11>, the transcription's own numbering).
+
+## <a id="mdz-i31"></a>mdz:i31 RD293: 永代大雑書 (1856), the dream section on images 31-37: no table of days a dream is not told
+
+*Read: machine, 2026-11-10.*
+
+> 夢はんじ
+> 吾朝にては富士山を見るを第一の吉夢とし
+> 灯と消ゆ三度吹ても（消ゆ…）
+> 一夜半より前に見し夢は其吉凶遠きに…
+> 半より後に見る夢は其吉凶近きにあり
+> 夢はんじ畢
+
+Images 31-37 (NDL pid 2539476, the 永代大雑書 of 1856, call number 851-93; open, no login), read by eye on the page images: the dream section (ゆ, 夢はんじ, "the dream judgments") begins at the foot of image 31 and ends with the words 夢はんじ畢 ("the dream judgments end") on image 37, right page. Contents: the first, second and third lucky dream (Fuji, hawk, aubergine; with a picture, image 31 right), the lamp-wick omens, the rule that a dream before midnight shows far and one after midnight near (as ezs:p31), the charm of the Night-Ruling God 主夜神 against bad dreams (image 31 left, the same 婆珊婆演帝 charm as mdz:p5), and the plain "if one sees X, Y" articles in two tiers with pictures (images 32-37). No table of days on which a dream is not told, no table of twelve months with day branches, and no 初夢 is on any of these leaves. The book has 39 images in all; the other leaves (calendar articles, lists of the day branches) hold no dream matter. The quoted lines are read in outline from the print (the first and the last two are clear on the images; the lamp line is cut where the type is faint).
+
+## <a id="mdz-i72"></a>mdz:i72 RD293: 永代万暦大雑書 (1883), the dream section on images 72-79: no table, 初夢 named without a night
+
+*Read: machine, 2026-11-10.*
+
+> 夢はんじ（夢はんじ画抄同辯に同じ序）
+> 一 初夢に富士山を見れば大によし
+> 一 初夢に不二を見れば悦びあり
+> 悪夢を吉夢となす法
+
+Images 72-79 (NDL pid 759984, the 永代万暦大雑書 (増補), Matsuda Bunshodo, Meiji 16 (1883), open, PDM): the dream section is images 72-79; images 72, 73, 78 and 79 read by eye on the page images, images 74-77 (the plain articles, two tiers) only in the NDL's rough OCR. Image 72: the section opens with a preface on the old dream-diviners and five kinds of dream with their causes, then a charm against bad dreams; image 73: a short list headed by the first lucky dreams (Fuji, hawk, aubergine, with pictures) in which 初夢 occurs as the dream of the first night of the year, naming no night, date or calendar; images 74-78: the plain "if one sees X, Y" articles; image 79: the way to turn a bad dream into a good one by facing the east and blowing, and the charm. No table of days a dream is not told and no month-by-month table of day branches on the leaves read; the OCR of images 74-77 shows plain articles only. The quoted lines of the Japanese above are a reading by eye of small print and are marked as approximate: the two 初夢 lines of image 73 are read in outline (the first names Mount Fuji, the second 不二, with good fortune or joy), not letter by letter, and the heading line is a description, not a quotation.
