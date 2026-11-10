@@ -2006,3 +2006,7 @@ Searched and found wanting, so not to be repeated:
 - **RD326** (RD326, 2026-11-10):
   - BDRC exact-phrase searches, 2026-11-10: «སྟོབས་ཀྱི་རྒྱུ་ཕུར་བུ», «ཐུན་ཕྱེད་རེ་རེ་ལ་གཟའ», «གཟའ་དང་ཀླུ་ལྷན་ཅིག་འཆར» and «གཡུལ་ལས་རྣམ་པར་རྒྱལ་བ་ཐུན་ཕྱེད» no hit; «དབྱངས་འཆར་གཞུང་ལས» 5 hits and «དབྱངས་འཆར་རྒྱུད» 73, none a Dbyangs 'char text that holds the verse.
   - The etexts of Karma rat+na's Sman yig gces btus (I1KG1117), the Drang srong zhal lung (I4726), the 'Bras rtsis bar gsal li dwangs ma'i me long (I1KG21916) and the Yul mdo khams stod vol. 10 (I2PD18783) answer 0 chunks (search only); BDRC's record of the Rnam dpyod has no creator; the author of the verse manual «Skar rtsis kyi lag len byed grub sgang dril ltar bkod pa» (MW3CN3480) not looked up.
+- **RD328** (RD328, 2026-11-10):
+  - W1NLM9044 part 9 (MW1NLM9044_O1NLM9044_009, img. 153–164), the part sources.yaml named: a king-spirit rite, not the dream text (BDRC's own record); the dream text is part 30.
+  - A date or an author in GDM and GDR: none; GDM's ending is lost (img. 113), GDR ends with «འཆི་ལྟས་རྫོགས་སོ» (img. 157) and an empty leaf; a name for the writer of GDN's second colophon on the scan: only «མཁན་པོས་བྲིས་པའོ» plain.
+  - The Garga part of GDM past img. 95: read only by machine (RD324), not compared with the two new copies; GDN and GDR read for the dream part, the death omens' beginning and the colophons only.

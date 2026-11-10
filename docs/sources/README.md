@@ -1945,6 +1945,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0966.md](questions/q0966.md) | question q966 | In WB vol. 2 p. 403, are the eight watches (ཐུན་བརྒྱད) of the day-and-night the eight half-watches of the day together with the eight of the night (sixteen in all), as the later books count the Dbyangs 'char's half-watches, or eight in all? | open; cites svo:p271w |
 | [questions/q0967.md](questions/q0967.md) | question q967 | Which text is the «Dbyangs 'char text» (དབྱངས་འཆར་གཞུང) that the Rnam dpyod quotes (the Rgyus 'grel Mchog dga' is a commentary on it): is the verse in it, or in a commentary? | open; cites svo:p271x |
 | [questions/q0968.md](questions/q0968.md) | question q968 | The Kun 'dus chen mo, from the Mchog dga', gives each of the eight half-watches four chu tshod; eight times four is thirty-two and the day-time at an equinox has thirty: is the four a round figure, or are the half-watches of the Mchog dga' reckoned otherwise? | open; cites svo:p271y |
+| [questions/q0969.md](questions/q0969.md) | question q969 | The copy in W1NLM9044 part 30 writes the number of the thirds of the night as a numeral and ends with Klong rdol bla ma's colophon and a second writer's («ཅེས་པ་འདི་སྔ་སུམ་པ་མཁན་པོས་བྲིས་པའོ»): who is the writer of the second colophon, and does the numeral stand for «སུམ» or «གསུམ»? | open; cites gdn:i262 |
+| [questions/q0970.md](questions/q0970.md) | question q970 | The unsaddled donkey is «སྒ་མེད» in KBS, RST, WB and (by eye) GDR but «རྒ་མེད» in the machine reading of GDM and GDN: is the scribe's letter a ra-head or a sa-head, and does a reader of the hand know the contraction? | open; cites gdn:i252-254, gdr:i151-157 |
 
 <!-- end pool index -->
 

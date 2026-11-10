@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD328 (2026-11-10): W1NLM9044 img. 250–266 (part 30 img. 252–263), W1NLM9419 img. 149–160 (part 7 img. 151–157), GDM img. 90 and 113–116.
+
 ## <a id="gdr-i151-157"></a>gdr:i151-157 The dream verses in the copy W1NLM9419 part 7: the thirds of the night, the dawn line, the donkey, the close without author
 
 *Read: machine.*
