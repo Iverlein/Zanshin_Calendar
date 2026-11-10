@@ -1735,6 +1735,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0870.md](questions/q0870.md) | question q870 | In the Co ne Svapnohana the fourth-watch line stands after «ཐུན་གཉིས/གསུམ་གྱི་བར»: does it read «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» as the Narthang prints, «ཟླ་བ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་པར་དུ», and is the third watch's line there «ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར» or the shorter «ཐུན་གཉིས་གསུམ་གྱི་བར»? | open; cites svo:p271g |
 | [questions/q0871.md](questions/q0871.md) | question q871 | The Penn, Srinagar and Ramtek manuscripts of Bṛhaspati's Svapnādhyāya give the fourth watch a month (māsaikena), the Brahmavaivarta and the Svapnohana half a month, the Odia print a month and a half glossed fifteen days: which reading is older, and could ardhamāsena be a correction of māsena? | open; cites svo:p271f |
 | [questions/q0872.md](questions/q0872.md) | question q872 | In Negelein's manuscript i (Leipzig 1178) 'dvitīye cāṣṭame māse triyāme ca tripakṣake' has three fortnights for the third watch: does the Leipzig manuscript itself read tripakṣake, or is it Negelein's emendation of trimāsake? | open; cites neg:p14-16 |
+| [questions/q0873.md](questions/q0873.md) | question q873 | Does the Co ne print's fourth-watch line of the Svapnohana end «པར་དུ» or «པར་བྱ»? | open; cites svo:p271h |
+| [questions/q0874.md](questions/q0874.md) | question q874 | Is the first segment of the Svapnohana's second-watch line «བརྒྱད་པ་ལ» (Narthang, Peking) or «བརྒྱད་བར་ལ» (Derge etext) the older reading, and which does the Dpe bsdur ma's collation give? | open; cites svo:p271h |
 
 <!-- end pool index -->
 
