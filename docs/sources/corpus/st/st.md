@@ -323,4 +323,43 @@ BDRC full-text search, 2026-11-10: «སྦལ་ལྗོང་ཉ་སྦྲ�
 
 ## The Four Tantras' ch. 91 remedies for the spirit that leads the sleeper away in his dream: ཕྱྭ beside མོ (q896), ཕྱུ, དྲི་ཆེན and བ་ར (q792, q817), and whether the two bracketed remedies are interlinear notes that entered the Serthang text (q824), on the Derge, Chag-po-ri, Zhol and Drathang prints and in the commentaries (RD304)
 
-Nothing read yet: RD304's passages, with the English beside them, go here.
+Read 2026-11-10 (RD304). Ch. 91 stands on the Derge print (I00JW501163) at img. 605-606 and on the Chag-po-ri print (I1KG13487) at img. 602-603, found by `locate.py map` against the Serthang etext (Derge img. 614 = etext p. 513; Chag-po-ri img. 601 = p. 506) and read by Yigdzin-1 (Derge img. 604-614, Chag-po-ri img. 594-603) and by eye on crops: [st:p493b](#st-p493b). Both carry the two bracketed remedies in the verse's line, in smaller type on the Derge. The commentaries' words are in [st:p493c](#st-p493c); the facts in the claim [st-ch91-remedies-prints-commentaries](../../claims/st-ch91-remedies-prints-commentaries.md).
+
+### Open (RD304)
+
+Question: What exactly do the notes say on the Derge (img. 605 last line, img. 606 first line) and the Chag-po-ri (img. 603 first line) prints, letter by letter: Yigdzin-1's text of the milk's words is corrupt on the Derge and uncertain on the Chag-po-ri (བ་རའི་འོ་མར་དྲི་ཆེན or བར་འོ་མ་སུ), and does the Chag-po-ri set the whole run in smaller type?
+
+Question: What is བ་ར (ba ra) in «བ་རའི་འོ་མ», a milk of which animal, and why is the milk with dung rubbed on the soles for a spirit's dream?
+
+### Searched and not found (RD304)
+
+The Blue Beryl, Skyem pa, the Mes po'i zhal lung, Zur mkhar ba's commentary (I8LS19191) and Sde srid's Man ngag lhan thabs (I1PD403) searched in the etext, 2026-11-10, for «མོ་ཕྱྭ», «རིམ་གྲོ་རྟེན་འབྲེལ», «རྡོ་རྗེའི་མདུད་པ་བདུན» and «བ་རའི་འོ་མ»: no gloss of ཕྱྭ, བ་ར or the milk's purpose; Zur mkhar ba and the Man ngag lhan thabs have no lines on ch. 91, the Mes po'i zhal lung only the kapha-causes verse. Steinert's dictionaries (`locate.py dict`) were not cloned (4.5 GB): དྲི་ཆེན and བ་ར not looked up there. BDRC's full-text search was not run (the etexts above were searched whole). Derge img. 608-609 gave no hit in the page map (the next chapter's pages; not read). The Zhol print's img. 675 not re-read.
+
+## <a id="st-p493b"></a>st:p493b Ch. 91's remedies on the Derge and Chag-po-ri prints: both notes run on in the verse's line, in small type
+
+*Read: machine, 2026-11-10.*
+
+> Chag-po-ri I1KG13487 img. 602 (last line) and 603 (first line), Yigdzin-1:
+> གདོན་ཡིན་རྨི་ལམ་བུད་མེད་འདྲེན་པར་འགྱུར། །མོ་ཕྱྭ་རིམ་གྲོ་རྟེན་ ‖ འབྲེལ་བར་འོ་མ་སུ་སྦྱར་བ་རྐང་མཐིལ་ལ་བྱུག །སྔགས་ཀྱིས་གསོ། །བ་ནི་ལུག་ཐོང་གི་བལ་མི་ལག་མ་འགྲིམས་པ་ཁྱེའུ་གཙང་མས་བཀལ་བའི་སྲད་བུ་ལ་རྡོ་རྗེའི་མདུད་པ་བདུན་བྱས་ཏེ་སྔགས་ཨོཾ་ཧ་ར་ཧ་ར་བྷན་དྷ་ནི་ཤུ་ཏྲ་དྷ་རི་ནི་ཐར་ཏེ་སྭཱཧཱ་སྟོང་བཏབ་ལ་བཅིང་། །དགོས་པ་ནད་མེད་ལང་ཚོར་ལྡན་པ་ཡིས། །དུས་ཚིགས་རྣམས་སུ་ཉལ་པོ་དགག་པ་མིན།
+> 
+> Derge I00JW501163 img. 605 (last line) and 606 (first line), Yigdzin-1:
+> གདོན་ཡིན་རྨི་ལམ་བུད་མེད་འདྲེན་པར་འགྱུར། །མོ་ཕྱྭ་རིམ་གྲོ་རྟེན་འབྲེལ་བ་རང་རེ་འོས་ས་སྦྱར་བ་རྐང་མཐིལ་འཇུག །སྔགས་ཀྱིས་གསོ། །བཞི་རུ་གཟོང་གི་བར་མི་ལག་མ་བཀྲིས་པར་ཁྱེའུ་གཙང་མས་བཀལ་བའི་སྲང་བུ་ལ་རྡོ་རྗེའི་མདུད་པ་ ‖ བདུན་བྱས་ཏེ་སྔགས་ཨོཾ་ཧ་ར་ཧ་ར་བྷན་དྷ་ནི་ཤུ་བྷ་དྷ་རི་ནི་བ་ར་ཏི་སྶཱ་ཏྲ་སྟོང་བཏབ་ལ་བཅིང་། །དགོས་པ་ནད་མེད་ལང་ཚོར་ལྡན་པ་ཡིས།
+
+Both prints carry the two remedies that the Serthang print brackets (the milk of cattle and goats mixed with dung, rubbed on the soles; the thread of wool with seven vajra knots and the mantra said a thousand times) inside the verse's own lines, with no brackets: after «divination and its omen, the rite of service, the dependent link» come, run on, the milk and dung, then «healed by mantra», then the thread, then the verse goes on with «the purpose: the healthy, in the prime of life». The Derge machine text of the milk's words is corrupt (this is Yigdzin-1's reading of small, tight letters, not a text). By eye the notes are in smaller type than the verse on the Derge (img. 605, last line, from after «རྟེན» on to the margin, and img. 606, the first line, up to the verse's own return at «དགོས་པ»); on the Chag-po-ri print the first line of img. 603 after «འབྲེལ» looks smaller than the lines under it, how far the small type runs not settled. The Derge print (as Serthang page 493, img. 507) is img. 605-606 and the Chag-po-ri print img. 602-603 (found by locate.py's page map: Derge img. 614 = etext p. 513, Chag-po-ri img. 601 = p. 506), the chapter's colophon («བདུད་རྩི་སྙིང་པོ་ཡན་ལག་བརྒྱད་པ་གསང་བ་མན་ངག་གི་རྒྱུད་ལས་རོ་ཙ་བར་བྱ་བའི་ལེའུ་སྟེ་དགུ་བཅུ་རྩ་གཅིག་པའོ།» the ninety-first chapter) on Chag-po-ri img. 603 and Derge img. 606.
+
+## <a id="st-p493c"></a>st:p493c Ch. 91's remedies in the commentaries: the milk and dung and the thread are the Blue Beryl's gloss, Skyem pa has neither milk nor dung
+
+*Read: etext, 2026-11-10.*
+
+> Blue Beryl (བཻ་ཌཱུརྱ་སྔོན་པོ, the Sde srid's commentary; BDRC etext VEIE0OPICF5AF372_I1PD412, p. 550):
+> གདོན་ཡིན་ན་མི་འགྱུར་བའི་རྟགས་སུ་རྨི་ལམ་དུ་བུད་མེད་ལ་ཆགས་པས་ཐིག་ལེ་འདྲེན་པ་རྨི་བར་འགྱུར་བས་དེ་ལ་མོ་ཕྱྭ་བྱས་ནས་གདོན་ངོས་བཟུང་སྟེ་དེ་མཐུན་གྱི་རིམ་གྲོ་དང་། རྟེན་འབྲེལ་ནི་བ་རའི་འོ་མར་དྲི་ཆེན་སྦྱར་བ་རྐང་མཐིལ་ལ་བྱུག སྔགས་ཀྱིས་གསོ་བ་ལ་ལུག་ཐུག་གི་སོག་པ་གཡས་པའི་བལ་མི་ལག་མ་འགྲིམས་པ་བུ་མོ་མགོ་གཙང་ཞེས་…བཀལ་པའི་ཐིག་གུ་ལ་རྡོ་རྗེའི་མདུད་པ་བདུན་བྱས།
+> 
+> Skyem pa Tshe dbang's Bde ba'i 'dod 'jo (etext VEIE0OPIF8756F5F_I4711, p. 1015):
+> གདོན་ཡིན་ནས་སྔགས་ཀྱིས་གསོ་ཞེས་པའི་བར་ཏེ། གདོན་ཡིན་ན་རྨི་ལམ་དུ་བུད་མེད་ཀྱིས་ཐིག་ལེ་འདྲེན་པར་རྨི་བར་འགྱུར་བས་དེ་ལ་མོ་ལྟ་བྱས་ལ་གདོན་ངོས་བཟུང་ལ་དེ་མཐུན་གྱི་རིམ་གྲོ་དང་རྟེན་འབྲེལ་བྱ། སྔགས་ཀྱིས་གསོ་བ་ལ་ལུག་ཐུག་གི་བལ་མི་ལག་མ་འགྲིམས་པ་ཁྱེའུ་གཙང་མས་བཀལ་བའི་ཐི་གུ་ལ་རྡོ་རྗེའི་མདུད་པ་བདུན་བྱས་ཏེ་སྔགས་སྟོང་བཟླས་སྐེད་པ་ལ་བཅིང་ངོ༌།
+> 
+> Blue Beryl, the closing chapter's own use of དྲི་ཆེན (its closing chapter, near the printed number 1809 in the etext):
+> བསྐྱེད་པར་བྱས་པ་དེའི་དུས་སུ་ནད་པ་ལ་བལྟའོ། །སྲུང་བ་བྱེད་ལོང་མེད་པར་དུས་ཐུག་ན་རང་གི་དྲི་ཆེན་དང་དྲི་ཆུ་བར་པ་བདུད་རྩི་གཉིས་ཀྱིས་ལུས་ཀྱི་སྒོ། མིག་གཉིས་སྣ་བུག་གཉིས་། རྣ་བ་གཉིས་འོག་སྒོ་གཉིས་ཏེ་དགུ་དང་ཚངས་བུག་ལ་བྱུག
+> 
+> Drikung dka' mchan (bdk, etext p. 817) and Khro ru (ktr, p. 684-685) are in st-dream-spirit-women (RD255).
+
+Four commentaries on the line (RD304; etext only). The Blue Beryl takes the line as: if it is a spirit, the sign that does not change is a dream of clinging to women and having the seed drawn out; for that, do the divination with its omen (མོ་ཕྱྭ, mo phywa, ཕྱྭ spelled with the wa-zur here), identify the spirit, then do the rite of service and the dependent link that suit it; the dependent link is the milk with dung rubbed on the soles; the mantra healing is the thread, as the Serthang bracket has it. It then adds, beyond the bracket, a second mantra for the thread's seeds mixed with raw sugar and eaten, and a protection against a spirit's draining of the body's essence (human brain, white mustard, black guggul and womb-blood in equal parts, ground in honey and smeared on a cord bound round the waist): so the Blue Beryl's gloss is the source of the bracket's matter and goes further. Skyem pa Tshe dbang's gloss is shorter: divination (མོ་ལྟ, mo lta, not ཕྱྭ), identify the spirit, the rite and the link, and the thread; it has neither the milk nor the dung. Neither glosses ཕྱྭ, བ་ར or the milk's purpose. དྲི་ཆེན (dri chen) is in the commentaries as plain dung: the Blue Beryl and the Drikung commentary use «རང་གི་དྲི་ཆེན་དང་དྲི་ཆུ» (one's own dung and urine) and «ནད་པ་རང་གིས་འཁྲུས་པའི་དྲི་ཆེན» (the dung the patient himself has voided) in other chapters (the Blue Beryl's closing chapter; the Drikung commentary on a fever remedy), so it is plain dung and not a drug name there. བ་ར (ba ra) is in the Mes po'i zhal lung and Skyem pa in the phrase «བ་རའི་འོ་མ» among the causes of cold kapha (Mes po'i zhal lung p. 227, Skyem pa p. 638), beside curd, cold water and tea, so the milk is a milk of the class ba ra, as a food; no commentary defines ba ra. The Zur mkhar ba (I8LS19191) has no lines on ch. 91 (no hit for the lines' words); the Mes po'i zhal lung (I8LS19194) has only the phrase in the verse on the causes of cold kapha; Sde srid's Man ngag lhan thabs (lth) has neither line. The Drikung and Khro ru words are in st-dream-spirit-women.

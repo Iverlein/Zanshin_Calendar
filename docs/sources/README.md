@@ -644,6 +644,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
 | [claims/st-ch81-list-in-the-commentaries.md](claims/st-ch81-list-in-the-commentaries.md) | claim, note | Ch. 81's dream list in the commentaries: which reach it, what they quote and gloss, spelled as it stands | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
+| [claims/st-ch91-remedies-prints-commentaries.md](claims/st-ch91-remedies-prints-commentaries.md) | claim, note | Ch. 91's two bracketed remedies are notes in the Derge and Chag-po-ri prints too and in the commentaries; ཕྱྭ and བ་ར stay undefined, དྲི་ཆེན is dung | cites st:p493, st:p493b, st:p493c; feeds S1 |
 | [claims/st-dream-ch2-blue-beryl-moonbeams.md](claims/st-dream-ch2-blue-beryl-moonbeams.md) | claim, note | The Blue Beryl and the Moonbeams on the mother's dream of a man in ch. 2 | cites st:p21; feeds S1 |
 | [claims/st-dream-ch2-ch81-other-prints.md](claims/st-dream-ch2-ch81-other-prints.md) | claim, note | The boy's dream (ch. 2) and the nāga illness dream list (ch. 81) on the Zhol and Derge prints and in the Drikung commentary | cites st:p21, st:p350-351; feeds S1 |
 | [claims/st-dream-ch2-commentaries.md](claims/st-dream-ch2-commentaries.md) | claim, note | How the commentaries take ཡང, དག and the dream in ST ch. 2's line on the boy | cites st:p21; feeds S1 |
@@ -1105,7 +1106,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 3 passages: 1 scan, 2 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 13 passages: 8 scan, 4 machine, 1 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 17 passages: 9 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
