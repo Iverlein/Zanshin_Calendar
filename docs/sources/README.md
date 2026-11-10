@@ -658,6 +658,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/srm-reading-the-answer.md](claims/srm-reading-the-answer.md) | claim, rule | Śramaṇā rite: how the answer is read, changed and repeated | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-rite-before-sleep.md](claims/srm-rite-before-sleep.md) | claim, rule | Śramaṇā rite: the preparation, the visualisation, the request and the lying down | cites srm.6:p386-389; feeds S1 |
 | [claims/srm-time-rule.md](claims/srm-time-rule.md) | claim, rule | Śramaṇā rite: only the waxing half of the month is stated, no lunar day | cites srm.6:p386-389; feeds S1 |
+| [claims/st-blue-beryl-khro-ru-one-gloss.md](claims/st-blue-beryl-khro-ru-one-gloss.md) | claim, note | The Blue Beryl's and Khro ru's glosses at ch. 15 and ch. 81 are one text, the Blue Beryl's two centuries... the earlier | cites st:p183b, st:p352b, st:p350-351; feeds S1 |
 | [claims/st-ch2-lus-yang-shing-che-ba-rin-spungs-pa.md](claims/st-ch2-lus-yang-shing-che-ba-rin-spungs-pa.md) | claim, note | Rin spungs pa's «ལུས་ཡང་ཤིང་ཆེ་བ» on the boy sign is a second word on the body, not the raised right side | cites st:p21b; feeds S1 |
 | [claims/st-ch2-moonbeams-elephant-gloss-is-the-eight-limbs-only.md](claims/st-ch2-moonbeams-elephant-gloss-is-the-eight-limbs-only.md) | claim, note | The Moonbeams' «a man and an elephant» glosses the Eight Limbs' verse, not ch. 2's line; no commentary on the Four Tantras has it | cites st:p21b; feeds S1 |
 | [claims/st-ch81-list-in-the-commentaries.md](claims/st-ch81-list-in-the-commentaries.md) | claim, note | Ch. 81's dream list in the commentaries: which reach it, what they quote and gloss, spelled as it stands | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
@@ -674,6 +675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-dream-spirit-women.md](claims/st-dream-spirit-women.md) | claim, remedy | The dream of being led away by women marks a spirit, and its remedies (ch. 91) | cites st:p493, ktr:p684-685, bdk:p789-790, ktr:p688; feeds S1 |
 | [claims/st-dream-unripe-fever.md](claims/st-dream-unripe-fever.md) | claim, rule | The dream among the signs of the unripe fever (ch. 15) | cites st:p183, st:p185-186; feeds S1 |
 | [claims/st-dream-unripe-pestilence.md](claims/st-dream-unripe-pestilence.md) | claim, rule | The dream among the signs of the unripe pestilence (ch. 23) | cites st:p218, st:p222-223; feeds S1 |
+| [claims/st-dream-za-zi-fever-versus-ch81-commentaries.md](claims/st-dream-za-zi-fever-versus-ch81-commentaries.md) | claim, note | «རྨི་ལམ་ཟ་ཟི་མང» is a root line only in the fevers; in ch. 81 the dream is the commentators' clause, the spirit's sign | cites st:p183, st:p183b, st:p352, st:p352b; feeds S1 |
 | [claims/st-gtad-du-tshud-pa-under-a-sent-harm.md](claims/st-gtad-du-tshud-pa-under-a-sent-harm.md) | claim, definition | གཏད་དུ་ཚུད་པ in ch. 81's commentaries: within the aim of a harm sent, not a pledge | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
 | [claims/st-lder-bzo-is-the-temples-clay-statues.md](claims/st-lder-bzo-is-the-temples-clay-statues.md) | claim, definition | ལྡེར་བཟོ་འགུལ in ch. 81: the clay statues of the temple move; lder so is a spelling of lder bzo | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
 | [claims/st-lhas-tshor-felt-by-the-god.md](claims/st-lhas-tshor-felt-by-the-god.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ in ch. 81: lhas as the god's agent case, against rang tshor | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
@@ -1137,7 +1139,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 4 passages: 1 scan, 3 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 18 passages: 8 scan, 4 machine, 6 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 21 passages: 9 scan, 4 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 27 passages: 10 scan, 6 machine, 11 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
