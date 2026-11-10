@@ -1895,3 +1895,6 @@ Searched and found wanting, so not to be repeated:
 - **RD294** (RD294, 2026-11-10):
   - A fifth animal or a variant to «རྟ» on the Taikhang, Zhol or 1996 prints: none; the Bhutan collection and the Sakya print were not opened for this glyph.
   - ST ch. 91 on the Derge print I00JW501163: not found in img. 447–452, 500, 540, 580 and 620 by Yigdzin-1 (OCR search for «རིམ་གྲོ», «རྟེན་འབྲེལ», «བུད་མེད་འདྲེན», «རོ་ཙ», «ཕྱྭ»); nor on the Zhol img. 513–528 (chs. 82–83).
+- **RD298** (RD298, 2026-11-10):
+  - The Amoghasiddhi line's second and fourth syllables on the Narthang manuscript: Yigdzin-1 on 16 windows of the line's end, contrast-stretched and thresholded crops at 5–7×: the lower sign of the second syllable is smeared by the verso's show-through and the right-hand frame rule; not settled.
+  - A Peking reading by eye of the three places was not repeated: the crops of I1KG13215 img. 310 missed the lines (about 108 px apart, the letters faint grey), so the Peking column of the count is RD234's.
