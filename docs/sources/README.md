@@ -994,6 +994,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
 | [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC §10.12 |
+| [claims/yamagashu-first-dream-poem-two-texts.md](claims/yamagashu-first-dream-poem-two-texts.md) | claim, conflict | The 山家集 first-dream poem: the common text and the old 異本 text differ in headnote and in the third line | cites skf:p3, skf:p4, skf:p5, skf:p1, skf:p2; feeds S3 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
@@ -1064,7 +1065,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |
-| [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 2 passages: 2 etext |
+| [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 5 passages: 3 machine, 2 etext |
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 3 passages: 1 scan, 2 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |

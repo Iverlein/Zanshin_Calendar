@@ -701,7 +701,7 @@ skf:
   rank: 3
   role: source
   locator: page
-  notes: "the poem has no page here; p1 stands for the one poem"
+  notes: "p1 and p2 stand for the poem as quoted on the web; p3-p5 (RD285, 2026-11-10) are three printed editions read on the NDL images: the 異本山家集 (本郷書院 1906, pid 872857), the 西行全集 (富士書房 1930, pid 1879989, which reprints the 異本) and the 日本歌学全書 vol. 8 (博文館 1891, pid 993408, the common text of the 山家集); all open, public domain"
 
 bjp:
   title: "Bshad rgyud kyi 'grel chen bdud rtsi'i chu rgyun (the great commentary on the Explanatory Tantra, the Stream of Nectar)"

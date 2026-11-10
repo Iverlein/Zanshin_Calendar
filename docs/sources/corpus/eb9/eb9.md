@@ -74,3 +74,9 @@ Image 9, left page, the lower tier, the book's last paragraph before the colopho
 > （凶夢の）…人は二日…三日目にて…さとるべし
 
 Image 9, right page, the lower tier, under the head す, the last entry of its column (the head words are cursive and doubtful): of a dream, "people [feel its sign] within two days, on the third day ... [one] knows". The figures 二日 and 三日目 are clear. A time to fulfilment, as in ymk:p63 ("within three days"), not a calendar rule.
+
+## <a id="eb9-rd285"></a>RD285 (2026-11-10): the volume's 大雑書 not found in any open form; Searched and not found (RD285)
+
+The dream book (the volume's third text) was read through by RD261 (above): its one calendar rule is the table of days a dream is not told (eb9:i9, the same as the 万代大雑書's, mdz:p11), one season mention (eb9:i4) and a time to fulfilment (eb9:i9c); no 初夢 or day-of-the-cycle rule. The volume's own 大雑書 (the second text) stays unread, so q786 is answered for the dream book and open for the 大雑書.
+
+Searched and not found (RD285), 2026-11-10: (1) the 国書データベース (kokusho.nijl.ac.jp, title search 大雑書, 305 records) lists copies with images of several 大雑書 prints (among them 永代大雑書 of Ansei 3 on the NDL, 星槎ラボ's 大ざつしよ of Enpō 2, 彰考館's, 北大's 安政雑書大成) but no record of a copy at 京都大学 潁原文庫, and the volume's 大雑書 has no title or date to match against; the NDL fulltext API refuses the 和古書 items (the PLAN dead end of RD223 stands). (2) 京都大学貴重資料デジタルアーカイブ (rmda.kulib.kyoto-u.ac.jp): its search is a script page, a keyword in the address is ignored, and a search for 大雑書 was not run in the page's own form. (3) No part of the 臨川書店 transcription (2018) is online. The open prints above are other 大雑書 books; none was read for a dream section here, so what they say of a dream is open (a reading of the 星槎ラボ 延宝2 print and of the NDL's 永代大雑書 would show whether the table of days a dream is not told, mdz:p11, is a late addition).
