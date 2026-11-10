@@ -1304,3 +1304,12 @@ kgy:
   rank: 3
   role: source
   notes: "RD360 (2026-11-10): [p63]-[p67], the list of the First Dalai Lama's collected works received and their lineage; etext only"
+
+mmk:
+  title: "The Mañjuśrīmūlakalpa ('Jam dpal rtsa rgyud) on dreams and the watches of the night, in the Derge Kanjur and the Sanskrit editions"
+  author: "the Mañjuśrīmūlakalpa, translated in the Derge Kanjur; Sanskrit editions named in each passage"
+  edition: "the Derge Kanjur as served by BDRC; the Sanskrit editions named in each passage"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: folio
