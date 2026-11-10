@@ -1919,6 +1919,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0956.md](questions/q0956.md) | question q956 | The unsaddled donkey, «རྟ་བོང་རྒ་མེད་ཞོན» in the manuscript (machine) against «སྒ་མེད» in RST, KBS and WB: is the manuscript's first letter «རྒ» (old age) or «སྒ» (a saddle)? | open; cites gdm:i88-93 |
 | [questions/q0957.md](questions/q0957.md) | question q957 | In the Gtsang sman text the physician's dawn dream is the first of thirteen examinations of the sick (etext p. 263): does this arrangement, and the rule that the physician declines the case after a bad dream, rest on the Four Tantras' own chapter on examining the sick or on the Siddhasāra's chapter 5? | open; cites gsm:p263-264, sds:p75-77 |
 | [questions/q0958.md](questions/q0958.md) | question q958 | The Siddhasāra's chapter 5 ends «འཆི་ལྟས་ཀྱི་ལེའུ་སྟེ་དྲུག་ལྔ །པ་རྫོགས་སོ།» (etext p. 77, where both numerals stand), while the contents number the chapter fifth: is sixth the older count, a chapter having been split, or a slip of the print? | open; cites sds:p75-77 |
+| [questions/q0959.md](questions/q0959.md) | question q959 | What do the first small-type note's letters read on the Derge print of ch. 91 (img. 605, last line, after «རྟེན་འབྲེལ་བ»): «རང་རེ་འོས་ས་སྦྱར་བ», a milk, or a third wording, on a sharper image of the Derge than the BDRC microfilm? | open; cites st:p493d |
+| [questions/q0960.md](questions/q0960.md) | question q960 | Does the Drathang print of ch. 81 carry a clause on the dream in the second way's line, as the Serthang, Derge and Chag-po-ri do not? | open; cites st:p352c |
 
 <!-- end pool index -->
 
