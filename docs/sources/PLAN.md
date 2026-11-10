@@ -1981,3 +1981,7 @@ Searched and found wanting, so not to be repeated:
 - **RD321** (RD321, 2026-11-10):
   - Skyem pa's etext (I4711) has no gloss of ཟ་ཟི་མང at ch. 15's line; its only hits of «ཟ་ཟི་མང» (p. 692) and «ཟ་ཟི་འོང» (p. 693) are outlines of ranges in the pestilence chapters, and ཟ་ཟི at ch. 81 (p. 818) is the one gloss.
   - BDRC etexts of the Blue Beryl, Khro ru and the Drikung searched by «རྨི་ལམ་ཟ་ཟི་མང»: no gloss that explains ཟ་ཟི itself; Khro ru's colophon (I5624 pp. 818–821) names no source text; Skyem pa's own date: only a sheep-year, no year (p. 1267); the Blue Beryl's scan answers 401; Byang pa, Rin spungs pa and Zur mkhar ba do not reach ch. 81.
+- **RD323** (RD323, 2026-11-10):
+  - The row's etext id I1PD95847 is the volume of the Muktāvalī on the Hevajra, not of the Svapnohana; vol. 14's front matter (etext pp. 3–17) holds the publisher's title and the table of contents only.
+  - An explanation of the sigla in vol. 14's etext: none, the siglum names are only the columns of the collation tables; «ཤང་ཤང་ཏེའུ» in the etexts of vols. 9, 14 and 25: 0 hits, «ཤིང་ཏེའུ» and «ཤང་ཏེའུ» one hit each (the note).
+  - The marker figures of the notes in the Svapnohana's text are lost in the OCR except for a few signs; the notes' lemmas are never quoted, so an entry's place is by the printed page and the order only; the table rows ཚིག་རྐང and ཚེག་ཁྱིམ have broken figures.

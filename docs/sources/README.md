@@ -690,7 +690,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md](claims/svi-amoghasiddhi-bird-is-shang-shang-te-u.md) | claim, note | The Amoghasiddhi bird of the three spellings is probably the shang shang te'u, jīvajīvaka; no commentary on the Svapnekṣā says so (RD309) | cites svi:p310b, svi:p261b; feeds RD309 |
 | [claims/svi-amoghasiddhi-bird-spellings.md](claims/svi-amoghasiddhi-bird-spellings.md) | claim, note | The Amoghasiddhi bird line reads «བྱ་ཤར་ཏེ་རུ» on the Derge and the Co ne, «བྱ་ཤིང་ཏེའུ» on the Peking (read on the scan), «ཤང་ཏེའུ» on the Narthang by the note (RD309) | cites svi:p310b, svi:p261b, svi:p289-291b; feeds RD309 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
-| [claims/svi-dpe-bird-note-and-brtags-note.md](claims/svi-dpe-bird-note-and-brtags-note.md) | claim, note | The Dpe bsdur ma's notes on the Svapnekṣā's bird and on «བརྟགས་ལ་ཉལ» | cites svo:p271s; feeds RD323 |
+| [claims/svi-dpe-bird-note-and-brtags-note.md](claims/svi-dpe-bird-note-and-brtags-note.md) | claim, note | The Dpe bsdur ma's notes on the Svapnekṣā's bird and on «བརྟགས་ལ་ཉལ» | cites svo:p271v; feeds RD323 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md](claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md) | claim, note | The Narthang manuscript's Amoghasiddhi line «བྱ་ཤ?་ཏེ…» is not settled | cites svi:p289-291b, svi:p289-291, svi:p309-312, svi:p261-262; feeds RD298 |
 | [claims/svi-narthang-ms-btab-la-nyal.md](claims/svi-narthang-ms-btab-la-nyal.md) | claim, note | The Narthang manuscript reads «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ», not «བརྟགས» | cites svi:p289-291b, svi:p289-291, svi:p309-312; feeds RD298 |
@@ -705,9 +705,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-co-ne-machine-tallies.md](claims/svo-co-ne-machine-tallies.md) | claim, note | The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips | cites svo:p271m, svo:p271g; feeds RD311 |
 | [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
 | [claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md](claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md) | claim, note | The Derge print reads «བགྲོད་མིན», «བཅུ་ཡི་བར» and «བླ་མོ» | cites svo:p271l; feeds RD310 |
-| [claims/svo-dpe-bsdur-ma-sigla.md](claims/svo-dpe-bsdur-ma-sigla.md) | claim, note | The Dpe bsdur ma's note format and sigla: Peking, Narthang, Co ne, Derge | cites svo:p271q, svo:p271r; feeds RD323 |
-| [claims/svo-dpe-no-entry-at-bgrod-min.md](claims/svo-dpe-no-entry-at-bgrod-min.md) | claim, note | The Dpe bsdur ma's notes record no print differing at «བགྲོད་མིན», «འགྲོན་བུ», the Gāyatrī; «ལ» at «རྟ་བླ་མོ» | cites svo:p271r; feeds RD323 |
-| [claims/svo-dpe-watch-line-entries.md](claims/svo-dpe-watch-line-entries.md) | claim, note | The Dpe bsdur ma's notes at the Svapnohana's watch lines | cites svo:p271r; feeds RD323 |
+| [claims/svo-dpe-bsdur-ma-sigla.md](claims/svo-dpe-bsdur-ma-sigla.md) | claim, note | The Dpe bsdur ma's note format and sigla: Peking, Narthang, Co ne, Derge | cites svo:p271t, svo:p271u; feeds RD323 |
+| [claims/svo-dpe-no-entry-at-bgrod-min.md](claims/svo-dpe-no-entry-at-bgrod-min.md) | claim, note | The Dpe bsdur ma's notes record no print differing at «བགྲོད་མིན», «འགྲོན་བུ», the Gāyatrī; «ལ» at «རྟ་བླ་མོ» | cites svo:p271u; feeds RD323 |
+| [claims/svo-dpe-watch-line-entries.md](claims/svo-dpe-watch-line-entries.md) | claim, note | The Dpe bsdur ma's notes at the Svapnohana's watch lines | cites svo:p271u; feeds RD323 |
 | [claims/svo-flesh-eaten-measure.md](claims/svo-flesh-eaten-measure.md) | claim, table | The Svapnohana: eating human flesh in a dream, by the part eaten | cites svo:p269; feeds block-73 |
 | [claims/svo-four-watches-three-reckonings-beside-it.md](claims/svo-four-watches-three-reckonings-beside-it.md) | claim, note | RD314: the Svapnohana's four watches are unbounded; the two four-watch reckonings agree on quarters of the night | cites svo:p268, svo:p271o, svo:p271p; feeds block-73 |
 | [claims/svo-gayatri-spelling.md](claims/svo-gayatri-spelling.md) | claim, note | The Gayatri's name in the Svapnohana is ga ya tri in Peking | cites svo:p271b, svo:p271; feeds RD228 |
@@ -1145,7 +1145,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 21 passages: 9 scan, 4 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 27 passages: 10 scan, 6 machine, 11 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 31 passages: 10 scan, 6 machine, 15 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1896,6 +1896,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0948.md](questions/q0948.md) | question q948 | Does the Derge, Chag-po-ri or Drathang print of ch. 81's verse on the ways of entering carry a clause on the dream in the second way's line, as the commentaries' glosses do, or is the Serthang's bare list of five the Tantra's text? | open; cites st:p352 |
 | [questions/q0949.md](questions/q0949.md) | question q949 | Did Sde srid build his gloss of the five ways of entering on the 'Bri gung dka' mchan, whose verse-lines carry the same clauses in the same order, or on a source both used? | open; cites st:p352b |
 | [questions/q0950.md](questions/q0950.md) | question q950 | Does the Blue Beryl's printed page (the Dpe tshogs print, p. 1148 for the dream list) read ལྷས or ལྟས in «ལྟས་ཚོར་བའི་དུས», as Khro ru's page reads ལྷས? | open; cites st:p352b |
+| [questions/q0951.md](questions/q0951.md) | question q951 | Does the Dpe bsdur ma's base text read «བརྒྱད་པར་ལ» and «ཕྱེད་པར་དུ» (with པ) in the second and the fourth watch lines, as entries 4 and 6 of printed p. 1301 imply, or «བརྒྱད་བར་ལ» and «ཕྱེད་བར་དུ» as the OCR gives them? | open; cites svo:p271u |
+| [questions/q0952.md](questions/q0952.md) | question q952 | Does the Dpe bsdur ma name the Co ne in every place where the Co ne differs from the Derge base (its siglum is in about 120 entries of vol. 14), so that its silence at the watch lines, «བགྲོད་མིན», «འགྲོན་བུ», «རྟ་བླ་མོ» and the Gāyatrī means the Co ne agrees with the base? | open; cites svo:p271u |
+| [questions/q0953.md](questions/q0953.md) | question q953 | In the Svapnekṣā did the editors replace «ཤར་ཏེ་རུ» or «བྱ་ཤར་ཏེ་རུ» by «ཤང་ཏེའུ» for the Narthang (and by «ཤིང་ཏེའུ» for the Peking)? (the lemma of entry 4 of printed p. 355) | open; cites svo:p271v |
 
 <!-- end pool index -->
 
