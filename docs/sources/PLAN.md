@@ -2013,3 +2013,6 @@ Searched and found wanting, so not to be repeated:
 - **RD332** (RD332, 2026-11-10):
   - bdrc.py volumes given an MW part id prints the MW id as the group, and given a W root id it returns 401; the real image group comes from the wvo:bdr:<MW>::bdr:<I…> manifest id in iiifpres.bdrc.io/collection/wio:bdr:<MW part>.
   - I4PD2674 (Rngog mdo sde's Zhal gdams rmi ltas ma) serves nothing near the pages (images 1–3 only); at about 1280 px wide the cursive letters ལྗ and ལྡ could not be told apart by eye; no MITRA witness and no disagree.py sheet were run.
+- **RD330** (RD330, 2026-11-10):
+  - The scan of the Siddhasāra volume: BDRC's manifest for I1KG15617 and W1KG14614 returned HTTP 500, and volumes lists only the etext volume.
+  - No physician's dream beside the messenger in Byang pa pp. 204–232, Rin spungs pa pp. 227–240, Khro ru pp. 296–330 or the Explanatory Tantra's ch. 25 (Khro ru pp. 445–452); the Bhutan print's etext has «ཕོ་ཉ» once, in the child-spirits' list; the Drathang line variants by eye on the cursive print: given up, gt:i41 stays machine.
