@@ -411,6 +411,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-vomiting-thieves.md](claims/dream-vomiting-thieves.md) | claim, list | Vomiting; goods carried off by thieves; goods or clothing taken | cites skp:p40-50, rrt:p186-195; feeds S2, RD216 |
 | [claims/dream-wandering-alone-plain.md](claims/dream-wandering-alone-plain.md) | claim, list | Walking alone on a plain | cites lgd:p968-969, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-water-rain-swimming.md](claims/dream-water-rain-swimming.md) | claim, conflict | Carried off by water and swimming; a great rain; staying in water | cites lgd:p970, svi:p261-262, kbs:p72-78, gt:i42-43, bjp:p177-181; feeds S2, RD216 |
+| [claims/dream-wb30-concordance.md](claims/dream-wb30-concordance.md) | claim, table | WB ch. 30's dream list item by item: each parallel's passage and verdict, and the items that match none (RD319) | cites wb.2:p144l, wb.2:p144, gt:i42-43, bjp:p177-181, st:p350-351, lgd:p967, lgd:p968-969, lgd:p969, lgd:p969-970, svo:p268-271, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78, rrt:p186-195, kcm:p679-682, dtd:p155-158, st:p21; feeds S2, block-73, RD319 |
+| [claims/dream-wb30-list-source-not-named.md](claims/dream-wb30-list-source-not-named.md) | claim, note | No text of the pool names the source of WB ch. 30's dream list, and Mipham's note gives it no gloss (RD319) | cites wb.2:p144l, wb.2:p535-537; feeds S2, RD319 |
+| [claims/dream-wb30-wording-shared-with-klong-rdol-and-rrt.md](claims/dream-wb30-wording-shared-with-klong-rdol-and-rrt.md) | claim, note | WB ch. 30's dream list shares wording with Klong rdol's verses and the 'Bri gung method, in no order of descent (RD319) | cites wb.2:p144l, rst:p1-8, kbs:p72-78, rrt:p186-195, skp:p40-50, lgd.42:p966-971b; feeds S2, RD319 |
 | [claims/dream-weeping-and-sorrow.md](claims/dream-weeping-and-sorrow.md) | claim, list | Mourning, wailing, weeping; black; a mirror looked into | cites wb.2:p144, svi:p262, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-woman-in-black-embraced.md](claims/dream-woman-in-black-embraced.md) | claim, list | A woman in black clothes with a black garland, embraced | cites svo:p270; feeds S2, RD216 |
 | [claims/dream-woman-in-white-embraced.md](claims/dream-woman-in-white-embraced.md) | claim, list | A woman in white clothes with a white garland, embraced | cites svo:p270; feeds S2, RD216 |
@@ -1169,7 +1172,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 33 passages: 15 scan, 11 machine, 7 etext |
-| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 26 passages: 25 scan, 1 machine |
+| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
