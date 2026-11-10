@@ -1834,3 +1834,8 @@ Searched and found wanting, so not to be repeated:
   - BDRC exact-string search (2026-11-10) for «མཉམ་པོར་འོང་བའི་བདུད» (68 hits), «མཉམ་པོར་འོང་བའི་ལྷ» (1), «ལྷན་ཅིག་སྐྱེས་པའི་བདུད» (88), «རང་དང་ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» (9), «ལྷན་སྐྱེས་ཀྱི་བདུད» (12): snippets only, none glosses the phrase or names a dream.
   - A span for LGD's dusk, midnight and dawn (hours or watches): none in LGD, in RST's thirds or in the pages read.
   - A collectors' note, preface or list of sources in MDP: none in the front matter (I4992 img. 4–19) or on pp. 134–138; a composer's name for the rite of pp. 134–137: none.
+- **RD286** (RD286, 2026-11-10):
+  - The Delhi print of TDR, img. 346 (p. 342 foot): the catchword at lower right is not legible; the Śramaṇā text's colophon was not read on the scan; the other print's etext gives no author or colophon name.
+  - BDRC records of MW25101 parts 64–66 give no author for any of the three works; BDRC's record of SKP's first text has no author field.
+  - BDRC full-text search «དམར་མོ་འདས་པའི་གདུང་ཐལ»: no hit; «རྨི་ལམ་བརྟགས་པའི་ལེའུ» and «རྨི་ལམ་བརྟག་པ་པདྨ་དཀར»: no hit (for «རྨི་ལམ་བརྟག་པའི་ལེའུ» only the Man ngag rin chen nyi ma'i sgron ma ch. 6, VE1KG14_019, and an unrelated NLM manuscript).
+  - Steinert's 64 dictionaries (locate.py dict) not consulted: the clone is not in the scratch; «dmar mo» and «rno bkra» not looked up.

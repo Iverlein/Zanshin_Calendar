@@ -1748,6 +1748,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0875.md](questions/q0875.md) | question q875 | Is the string of six ornamental glyphs after the page-opening Om in the first line of LGD p. 962 (and p. 526 of the Palri print) a string of seed syllables, a mantra in ornamental letters or an invocation, and in plain letters what does it read? | open; cites lgd:p962 |
 | [questions/q0876.md](questions/q0876.md) | question q876 | Is «མཉམ་པོར་འོང་བའི་བདུད» the demon of self-clinging that Chöd teaches as the co-born demon (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), or an attendant adversary of the person set beside «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ»? | open; cites lgd:p970 |
 | [questions/q0877.md](questions/q0877.md) | question q877 | Who is the monk Sgra tshad pa (དགེ་སློང་སྒྲ་ཚད་པ) whose notes close MDP's rebirth-seeing rite on p. 137, and is the Rga lo of its lineage the translator Rga lo tsā ba? | open; cites mdp:p137b |
+| [questions/q0878.md](questions/q0878.md) | question q878 | Is the section numbered «gsum» at the head of the other TDR print's p. 337 (printed p. 309) the third of a series of dream-examination sets in the 'Brong rtse be'u bum, and what do the earlier numbered sections hold? | open; cites tdr:p337-345e |
+| [questions/q0879.md](questions/q0879.md) | question q879 | The etext heading names Śramaṇā, Śākyamuni and Tārā as three (gsum), yet the lion-faced dakini's rite after White Tārā is numbered «bzhi pa»: is it the fourth of the same set of four rites or a new section whose number was carried on? | open; cites tdr:p343h |
+| [questions/q0880.md](questions/q0880.md) | question q880 | What is «Dpal rno bkra», and why is this part of the Gnam chos so called? | open; cites gnc.1:p558h |
+| [questions/q0881.md](questions/q0881.md) | question q881 | Who or what is the «dmar mo» (the Red One, a red woman) whose cremation ashes are used in the rite on GNC p. 558? | open; cites gnc.1:p558h |
+| [questions/q0882.md](questions/q0882.md) | question q882 | Is the colophon of SKP's first text (p. 50, «ཤཱཀྱའི་དགེ་སློང་ …»), read only by machine, really «ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ»? | open; cites skp:p55h |
+| [questions/q0883.md](questions/q0883.md) | question q883 | Is «པདྨ་དཀར» at the end of SKP's second text (p. 55) the name Padma dkar po, and which text is «well explained»? | open; cites skp:p55h |
 
 <!-- end pool index -->
 
