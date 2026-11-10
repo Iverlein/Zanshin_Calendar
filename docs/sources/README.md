@@ -1108,7 +1108,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 13 passages: 8 scan, 4 machine, 1 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 17 passages: 9 scan, 5 machine, 3 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 18 passages: 9 scan, 5 machine, 4 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -1824,6 +1824,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0913.md](questions/q0913.md) | question q913 | Is the sign of Amoghasiddhi's family «ཤང་ཤང་ཏེའུ» (shang shang te'u, the jīvajīvaka bird of the lists), and what does a bird of that name sent as a messenger (ཕོ་ཉར་གཏོང) foretell in the commentaries of the tradition? | open; cites svi:p310b, svi:p261b |
 | [questions/q0914.md](questions/q0914.md) | question q914 | What exactly do the notes say on the Derge (img. 605 last line, img. 606 first line) and the Chag-po-ri (img. 603 first line) prints, letter by letter, and does the Chag-po-ri set the whole run in smaller type? | open; cites st:p493b |
 | [questions/q0915.md](questions/q0915.md) | question q915 | What is བ་ར (ba ra) in «བ་རའི་འོ་མ», a milk of which animal, and why is the milk with dung rubbed on the soles for a spirit's dream? | open; cites st:p493b, st:p493c |
+| [questions/q0916.md](questions/q0916.md) | question q916 | Does the 星槎ラボ 延宝2 大ざつしよ, the earliest print, or any other 万代大雑書 print set out the table 夢を見て語らざる日 with a legend for the slash? | open; cites mdz:p11 |
+| [questions/q0917.md](questions/q0917.md) | question q917 | In which Edo source is the 初夢 night fixed at 2 January, and is it counted by the lunar months of the Edo calendar, the only one in use until 1872? | open; cites nip:p1 |
 
 <!-- end pool index -->
 
