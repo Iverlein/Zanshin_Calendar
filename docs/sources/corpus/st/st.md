@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD281 (2026-11-10): ch. 2's boy's-dream line on the Zhol print I5910 (img. 44) and the Derge I00JW501163 (img. 28), by Yigdzin-1 and by eye; ch. 81's dream list on the Zhol print (img. 483, Yigdzin-1 only); the Drikung commentary's etext for both. The claim `st-dream-ch2-ch81-other-prints`.
+
 Read by RD279 (2026-11-09): I1KG10010 img. 30–58 and I1KG12862 img. 36–52 by Yigdzin-1.
 
 Read by RD275 (2026-11-09): ch. 7's dream verse on two more prints, the Zhol print I5910 (img. 56–57) the Chag-po-ri print I1KG13487 (img. 48–49) the Chag-po-ri reprint I5907 (img. 66) and the Derge I00JW501163 (img. 41), found with Yigdzin-1 and looked at by eye at 8–14×; the readings by print in the claim `gt-dream-verse-chag-po-ri-prints`, section RD275. In these whole-work volumes the verse is not near img. 36–45.
@@ -222,3 +224,13 @@ BDRC's full-text search, 2026-11-09, for «མཚན་སྟོད་རྨི�
 ## Searched and not found (RD270)
 
 BDRC title search (library.bdrc.io, «gso rig rgyud bzhi», «rgyud bzhi», «sman gyi rgyud bzhi», «bshad rgyud», «rgyud bzhi par», «rgyud bzhi dpe bsdur», 2026-11-09): the abstract work WA3CN5036 lists only the Serthang instance, so the other prints come from the title search. Open scans: Chag-po-ri MW3CN1709, MW3CN1700, MW3CN1694, MW1KG13115 (I1KG13487), MW30134 (I5907), MW8228; Zhol MW30137 (I5910); Derge MW00EGS1016257 (I00JW501163), MW1KG12776; Drathang MW1KG13761 (I1KG116089), MW4CZ321183 (the GT), MW3CN1703 (I3CN1705, Root and Explanatory Tantras), MW4CZ321191 (Explanatory Tantra, 78 ff., I4CZ327147). Only the first three were read to the verse: the iiif server answered 429 for most images of the others when many volumes were fetched at once, and those volumes were left for another reading. Not on open scans: MW16778 (Lhasa 1982) and MW29627 (Drathang, archive.org lending), the Dpe bsdur ma MW1PD137835 (archive.org). The Bhutan scan I1KG13565 img. 37–53 by Yigdzin-1: img. 43 ends a ch. 5 and img. 48 a ch. 6, and img. 50–53 are lists of treatments: the scan is of the Instruction Tantra by its content, not the Explanatory Tantra's ch. 7. I3CN1696 img. 34–38 are other chapters (ch. 7 is on img. 44 there); I3CN1702's reader text of the horse-and-pig place is garbage (བྷ་ཊ་ག) on a blurred scan. The Zhol, Derge and Drathang MW1KG13761 images of ch. 7 (about img. 36–45) not fetched. Interlinear notes and the line 26 prefix (ཕན/འཕན) not read.
+
+## Open (RD281)
+
+Question: What does «ལྷས་ཚོར་དུས་ཏེ» (ch. 81, the last clause of the dream list) say: ལྷས་ཚོར (lhas tshor) is on every print and commentary read and has no gloss in the Drikung commentary or the dictionaries consulted; is it «the time of feeling the god (spirit)» or «when the time of feeling comes»?
+
+Question: Does the Zhol print's སྦལ་ལྗོངས་ (a ས after ལྗོང) in ch. 81 stand on the scan, and what do the Derge and the Chag-po-ri copy read there?
+
+## Searched and not found (RD281)
+
+Ch. 2's birth lines on the Chag-po-ri print I1KG13487 (img. 35–37): Yigdzin-1's text of img. 36 breaks off before the line «ཟླ་དགུ་འདས་ནས», so no reading by print there. Ch. 81 on the Derge and the Chag-po-ri copy: not located (the Zhol's is img. 483). BDRC full-text search, 2026-11-10, «ནིའུ་གསིང་དང་སྦལ་ལྗོང» no hit; «ལྷས་ཚོར་དུས་ཏེ» 14 hits, all the same verse (Serthang, Drikung, Grwa pa, Sde srid's life of Nam mkha' seng ge and others) with no gloss on the clause; the Blue Beryl and the Moonbeams were not looked at for want of a hit on the words.
