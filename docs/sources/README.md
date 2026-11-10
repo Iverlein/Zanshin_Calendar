@@ -1192,6 +1192,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbd/cbd.md](corpus/cbd/cbd.md) | corpus | CBD | 1 passages: 1 etext |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 5 passages: 1 scan, 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
+| [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 0 passages: nothing read yet |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 15 passages: 15 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
@@ -2211,6 +2212,7 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **DHD** | The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein shelfmarks), read from the images of the International Dunhuang Project and Gallica and the open transcriptions of Old Tibetan Documents Online; the modern editions for facts only, never their wording. Read in RD366. |
 | **DDS** | The hits of a systematic search of the BDRC etexts for dreams tied to a lunar day, a month, a weekday or a season; each passage names its text, author and etext. Read in RD367. |
 | **MMK** | The Mañjuśrīmūlakalpa ('Jam dpal rtsa rgyud) on dreams and the four watches of the night: the Derge Kanjur etext and scan and the Sanskrit editions where open; each passage names its folio or page. Read in RD370. |
+| **CDB** | Chinese dream books and the rule of the days a dream is not told: the Dunhuang dream books, the Zhou gong dream books and the Chinese almanacs and handbooks; each passage names its text, folio or chapter and edition. Read in RD375. |
 | **KTD** | Sgo chen mkhan po Tshe dbang don rgyal (Khenpo Tsewang Dongyal, b. 1951), every text of his, in Tibetan or in translation; *Bdud 'joms 'jigs bral ye shes rdo rje … rnam thar ye shes rdo rje'i 'od zer* first among them. A source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL) | Pema Samye Chokhor Ling, Sarnath 2003, 241 pp. | BDRC MW29259 (person P5639), open scans; also MW24036, MW2KG5060 (*Khyad chos che ba drug …*), MW00EGS1016761 (the Sgo chen dgon *chos spyod*, 1984, etext); modern, copyrighted: facts only, never its wording; nothing read yet |
 | **SVO** | Vibhūticandra (Bi bhU ti tsandra), *Rmi lam brtag pa* (*Svapnohana*, the examination of dreams), his own translation; a dream's fulfilment by the watch of the night, a catalogue of dream images, a remedy | Derge Tengyur, Delhi 1982–1985 reprint of the Sde dge blocks, vol. 28, pp. 268 l. 4 – 271 l. 4 | BDRC MW23703_1749; etext VE23703_1344 (read whole 2026-11-09, q784); scans I1344 |
 | **SVI** | Dpal ldan Gnyis su med pa (Advayavajra), *Rmi lam brtag pa* (*Svapna-īkṣā*), in the Mañjuśrī cycle, translated by Prajñāśrījñānakīrti | Derge Tengyur, the same reprint, vol. 49, pp. 261–262 | BDRC MW23703_2100; etext VE23703_1365; scans I1365; not read |

@@ -1333,3 +1333,12 @@ mmk:
     1: {etext: VE4CZ5369_I1KG9214, scan: I1KG9214, image_offset: 0, notes: "image = etext page marker; Toh 543 begins at [p212], the dream passage is in the Derge 15th chapter at [p396]-[p403]; the Derge folio mark of a side is in the left margin and was not legible on the scan at the size read"}
     2: {notes: "printed pages of the Trivandrum edition; the 15th paṭalavisara from p. 146 (the reprint header '146 mañjuśrīmūlakalpa'), the dream verses on pp. 146-153"}
   notes: "RD370 (2026-11-10): the four watches of the night and the three humours in the 15th chapter, Tibetan [p397]-[p403], Sanskrit pp. 146-153"
+
+cdb:
+  title: "Chinese dream books and the rule of the days a dream is not told: the Dunhuang dream books, the Zhou gong dream books and the Chinese almanacs and handbooks"
+  author: "various; each passage names its text, author and edition"
+  edition: "open full texts (ctext.org, Wikisource) and images (IDP, Gallica, NDL, Kokubunken) named in each passage"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: folio
