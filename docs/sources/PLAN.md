@@ -1898,3 +1898,6 @@ Searched and found wanting, so not to be repeated:
 - **RD298** (RD298, 2026-11-10):
   - The Amoghasiddhi line's second and fourth syllables on the Narthang manuscript: Yigdzin-1 on 16 windows of the line's end, contrast-stretched and thresholded crops at 5–7×: the lower sign of the second syllable is smeared by the verso's show-through and the right-hand frame rule; not settled.
   - A Peking reading by eye of the three places was not repeated: the crops of I1KG13215 img. 310 missed the lines (about 108 px apart, the letters faint grey), so the Peking column of the count is RD234's.
+- **RD300** (RD300, 2026-11-10):
+  - Six BDRC volumes came back empty from the etext API (I4723, I2PD18140, I2PD16002, I3CN6530, I4PD4564, I1KG2751) and are not counted.
+  - The Blue Beryl and the Moonbeams are not among the 19 hits for the line and were not looked at; the author of the unsigned great commentary I5618 not identified.

@@ -1717,7 +1717,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0820.md](questions/q0820.md) | question q820 | What does ལྷས་ཚོར་དུས་ཏེ say in ST ch. 81 (img. 363 ll. 3-4)? | answered; cites st:p350-351, mnb:p267, lth:p325 |
 | [questions/q0821.md](questions/q0821.md) | question q821 | ལྡེར་བཟོ་འགུལ (Serthang) or ལྡེར་སོ་འགུལ (Drathang, machine) in ST ch. 81: which is printed, and what is ལྡེར? | answered; cites st:p350-351 |
 | [questions/q0822.md](questions/q0822.md) | question q822 | ཕྱུ in ST ch. 91 «མོ་ཕྱུ་རིམ་གྲོ་རྟེན་འབྲེལ»: what is the second of the four remedies? | answered; cites st:p493 |
-| [questions/q0823.md](questions/q0823.md) | question q823 | ST ch. 2 «རྨི་ལམ་དག་ན»: is དག the plural marker or 'clear'? | open; cites st:p21 |
+| [questions/q0823.md](questions/q0823.md) | question q823 | ST ch. 2 «རྨི་ལམ་དག་ན»: is དག the plural marker or 'clear'? | answered; cites st:p21 |
 | [questions/q0824.md](questions/q0824.md) | question q824 | Are the two bracketed remedies of ST ch. 91 (the thread; the milk of cattle and goats) interlinear notes that entered the Serthang text? | open; cites st:p493 |
 | [questions/q0825.md](questions/q0825.md) | question q825 | Which animal or thing is the «ལ་མོ» of the Svapnohana, and is «བླ་མོ» a mistake for it? | open; cites svo:p271b |
 | [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
