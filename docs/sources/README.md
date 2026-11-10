@@ -220,6 +220,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/circles-upward-for-all.md](claims/circles-upward-for-all.md) | claim, rule | The circles are counted upward for everyone, by the years lived | cites ys:i496-497, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/circles-zg-worked.md](claims/circles-zg-worked.md) | claim, rule | The circles: the count and the five pebbles, worked by Zhechen Gyaltsab | cites zg:p303-304, lt:p65-67, wb.2:p533b, ut:p4; feeds block-31 |
 | [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
+| [claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md](claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md) | claim, note | The Dbyangs 'char's half-watch verse in the 'Bri lugs bang mdzod and the eight planet-nāga pairs in the later books (RD326) | cites svo:p271w, svo:p271x; feeds block-73 |
+| [claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md](claims/dbyangs-char-half-watches-eight-by-day-and-eight-by-night.md) | claim, note | The Dbyangs 'char's half-watches are eight by day and eight by night, equal within each (RD326, q946) | cites svo:p271w, svo:p271x, svo:p271y; feeds block-73 |
 | [claims/dead-belly-strike-khon-typeset.md](claims/dead-belly-strike-khon-typeset.md) | claim, note | «ལུག་ལོ་ཁོ་ན་ཤི» in the notes is «ཁོན་ཤི»: the belly strike's eight | cites wb.2:p86-90, wb.2:p504-512; feeds block-31 |
 | [claims/dead-burial-root-pebbles.md](claims/dead-burial-root-pebbles.md) | claim, rule | The dead's burial reckoning: eleven root pebbles of time, the mewa and trigram among them | cites dz:i057-061; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
@@ -632,6 +634,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rgd-dream-prophecy-rite.md](claims/rgd-dream-prophecy-rite.md) | claim, rule | Rat+na gling pa's treasure: asking in a dream about the lifespan and the next birth | cites rgd:p973-975; feeds S1 |
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
 | [claims/rme-bdun-great-bear-corpse-facing.md](claims/rme-bdun-great-bear-corpse-facing.md) | claim, note | «རྨེ་བདུན» in the corpse's facing is the Great Bear | cites wb.2:p97-100, wb.2:p283-285, wb.2:p31-32; feeds block-31 |
+| [claims/rnam-dpyod-blo-gros-spyan-stong-bkra-ba-orgyan-bstan-dzin.md](claims/rnam-dpyod-blo-gros-spyan-stong-bkra-ba-orgyan-bstan-dzin.md) | claim, note | The Rnam dpyod blo gros spyan stong bkra ba was written by Orgyan bstan 'dzin, a Gsho thang mantrin (RD326, q947) | cites svo:p271w; feeds block-73 |
 | [claims/rrt-bad-shown-as-good-by-deity.md](claims/rrt-bad-shown-as-good-by-deity.md) | claim, table | RRT: the bad sign that is good for one practice, by deity | cites rrt:p186-195; feeds block-73 |
 | [claims/rrt-no-time-rule.md](claims/rrt-no-time-rule.md) | claim, note | RRT: no watch of the night and no day count | cites rrt:p186-195; feeds block-73 |
 | [claims/rrt-obstacle-signs.md](claims/rrt-obstacle-signs.md) | claim, list | RRT: the signs of an obstacle, the king spirit and the dam sri | cites rrt:p186-195; feeds block-73 |
@@ -651,6 +654,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
+| [claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md](claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md) | claim, note | Sixteen half-watches: Śaṅku's Garuḍa treatise and the Kālacakra's great commentary (RD326) | cites svo:p271y; feeds block-73 |
 | [claims/skd-brahmavaivarta-series-second-print.md](claims/skd-brahmavaivarta-series-second-print.md) | claim, note | The Śabdakalpadruma prints the Brahmavaivarta's series of spans on p. 470, with two lines the other print lacks (RD272) | cites skd:p470-471, bvp:p662-665, svo:p268; feeds block-73 |
 | [claims/skd-svapna-article-parts-and-sources.md](claims/skd-svapna-article-parts-and-sources.md) | claim, list | What the Śabdakalpadruma's article svapna holds, and where it names its sources (RD272) | cites skd:p470-471, skd:p471-472, skd:p473; feeds block-73 |
 | [claims/skp-attribution-and-padma-dkar.md](claims/skp-attribution-and-padma-dkar.md) | claim, note | SKP: the Sa skya Paṇḍita attribution rests on the title; the colophon's name is his, but unread by eye; «པདྨ་དཀར» is not tied to a person (RD286) | cites skp:p55h, skp:p40-50, skp:p50-55, mdp:p138; feeds — |
@@ -1004,6 +1008,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-seven-red-year-list-and-natal-list.md](claims/wb-seven-red-year-list-and-natal-list.md) | claim, rule | The seven-red: the year's list and the two-black-born's list | cites wb.1:p403-405; feeds block-58 |
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
+| [claims/wb-six-day-five-night-is-a-count-of-places-for-the-rig-ldan.md](claims/wb-six-day-five-night-is-a-count-of-places-for-the-rig-ldan.md) | claim, note | WB's six rounds of the day and five of the night are the Rig ldan's count of places (RD326) | cites svo:p271x; feeds block-73 |
 | [claims/wb-skar-bras-spyi-sdom-counts.md](claims/wb-skar-bras-spyi-sdom-counts.md) | claim, note | «སྐར་འབྲས་སྤྱི་སྡོམ» heads the match's counts of pebbles; «སྐར་འབྲས» itself stays open | cites wb.1:p351b, wb.1:p355; feeds block-58 |
 | [claims/wb-solstice-sixty-wheels.md](claims/wb-solstice-sixty-wheels.md) | claim, rule | The sixty wheels of twelve petals: the wheel and the cell from the years elapsed | cites wb.1:p185; feeds — |
 | [claims/wb-solstice-summer-from-winter.md](claims/wb-solstice-summer-from-winter.md) | claim, rule | The other solstice from the first: six days and the desired part, seven house-days at the place | cites wb.1:p185; feeds — |
@@ -1166,7 +1171,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 23 passages: 10 scan, 5 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 32 passages: 11 scan, 6 machine, 15 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 35 passages: 11 scan, 6 machine, 18 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
