@@ -624,6 +624,46 @@ kbs:
   role: source
   notes: "another print MW1CZ690_FBE63E; located 2026-11-09 (q784), not read"
 
+sds:
+  title: "Sman dpyad gces pa grub pa (the Tibetan translation of the Siddhasāra, a medical work in 31 chapters), ch. 5 on the signs of death"
+  author: "ascribed by BDRC to Slob dpon Klu sgrub and Slob dpon Tsan+d+ra go mi (the print names the Sanskrit title as Sidha-sa-ra, p. 27)"
+  edition: "in Bod kyi gso ba rig pa'i gna' dpe phyogs bsgrigs dpe tshogs (Tibetan medical classics series), Mtsho sngon Zhing chen Bod kyi gso rig zhib 'jug khang, 2007 (the preface is dated 2007-05-15)"
+  bdrc: {work: MW1KG14614, etext: IE0OPI82328741, scans: [I1KG15617]}
+  licence: "the text public-domain; the modern edition's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  notes: "RD320 (2026-11-10): etext read; page = the etext's [pN] marker, the print's own folio is the etext page minus 24 (the running head «25» stands on etext p. 49); ch. 5 on etext pp. 73-77 (contents: printed p. 49), its dream signs on pp. 75-76; the volume also holds, from etext p. 469, Advayavajra's Svapna-īkṣā (svi), the Avalokiteśvara dream rites and a page of dream words at p. 32 (the three humours' temperaments)"
+
+gsm:
+  title: "Zhal gdams man ngag gnad 'gag do shal mdzes rgyan (the pith instructions on the key points, an ornament of the necklace), in Gtsang sman Ye shes bzang po'i gsung rtsom gces bsdus"
+  author: "Gtsang sman Ye shes bzang po (a modern physician; the dates are not in the etext)"
+  edition: "Kan su'u mi rigs dpe skrun khang, Lanzhou 2007, one volume (3, 3, 413 pp.), in the series on the minorities' medicine of China"
+  bdrc: {work: MW1PD53272, etext: IE0OPI004DAD38, scans: [I1PD53741]}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  notes: "RD320 (2026-11-10): etext (good OCR) read at the dream part; page = the etext's [pN], the print's folio is the etext page minus 17 (the folio «246» closes etext p. 262); the thirteen ways of examining, the dream the first, on etext pp. 263-265; further dream words in the signs of illness on pp. 288 and 306"
+
+cbl:
+  title: "'Chi ba bslu ba'i man ngag phyi nang 'chi ltas bshad pa dang bcas pa (the pith instruction on deceiving death, with the explanation of the outer and inner death signs; Skt. Mṛtyuvañcana-upadeśa as the etext gives it), in Mkhyen brtse'i dbang po's collected works"
+  author: "Slob dpon Ngag gi dbang phyug grags pa (an Indian paṇḍita, the etext's line); the explanation in Mkhyen brtse's collected works"
+  edition: "Mkhyen brtse'i dbang po'i gsung 'bum, Rdzong sar blo gros phun tshogs, vol. 5, pp. 217-279 (BDRC); etext page = BDRC page"
+  bdrc: {work: MW3PD1002_O3PD1002_37J8XT, etext: IE0OPIC2BFA6FE, scans: [I1KG81117]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD320 (2026-11-10): the etext (volume VEIE0OPIC2BFA6FE_I1KG81117) read at the dream verses 19-20, etext pp. 236-238; the etext runs the root verses and the gloss together; the volume is at BDRC the fifth of 25; IE3PD1002 answers 404, the volume's own IE is IE0OPIC2BFA6FE"
+
+rgd:
+  title: "Spyan ras gzigs dang 'Jam dpal gyi sgo nas tshe tshad dang rmi lam brtag pa Rat+na gling pa'i gter ma (the examination of the lifespan and of dreams through Avalokiteśvara and Mañjuśrī, a treasure of Ratna gling pa)"
+  author: "the treasure of Rat+na gling pa"
+  edition: "Rin chen gter mdzod chen mo, Shechen Publications, New Delhi 2007-2008, vol. 42, pp. 973-975 by the volume's contents (BDRC images 991-994)"
+  bdrc: {work: MW1KG14_8F4C7F, etext: VE1KG14_042, scans: [W1KG14]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD320 (2026-11-10): the etext of vol. 42 read; the text opens its own page counter at [p1] inside the volume's etext (offset 800958 of VE1KG14_042); the volume's contents give the pages 961-971 to the Lama Gongdü dream text (lgd), 973-975 to this, 977-980 to Mkhas grub Karma chags med's Magic Mirror (kcm)"
+
 tdr:
   title: "Sgrol ma dkar mo'i sgo nas rmi lam brtag pa (the examination of dreams through White Tārā)"
   edition: "'Brong rtse'i be'u bum dkar po, Damchoe Sangpo, [Delhi] 1983, reproduced from a manuscript in the Library of Tibetan Works and Archives, pp. 343–344"

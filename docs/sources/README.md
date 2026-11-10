@@ -307,6 +307,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-trigram-fallen-to.md](claims/dead-trigram-fallen-to.md) | claim, rule | The dead's trigram in ch. 29 is the trigram fallen to: the descended trigram at death | cites ys:i513-514, wb.2:p86-90, wb.2:p504-512, wb.2:p75-77; feeds block-31 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
 | [claims/dead-weekday-planet-state-wb-rules.md](claims/dead-weekday-planet-state-wb-rules.md) | claim, rule | How the death day's planet's state is found: WB's two rules, the element test, the two gaps on four prints | cites wb.2:p63-65, wb.2:p313, wb.1:p176, lt:p9-11; feeds block-31, block-32 |
+| [claims/death-omen-dreams-indian-layer.md](claims/death-omen-dreams-indian-layer.md) | claim, note | Dreams that foretell death: the Indian works beside Klong rdol's verses | cites cbl:p236-238, sds:p75-77, kbs:p72-78; feeds S1 |
 | [claims/departure-singled-out-lords-by-time.md](claims/departure-singled-out-lords-by-time.md) | claim, list | The departure's singled-out lords are the year's, month's, day's and hour's: seats and courses shunned, a remedy when met | cites wb.1:p375, wb.2:p96-97, wb.2:p370, wb.2:p362-363, wb.2:p531, ut:p234, kd.3:p644; feeds — |
 | [claims/do-gcig-glossed-once-in-the-notes.md](claims/do-gcig-glossed-once-in-the-notes.md) | claim, definition | The do gcig is glossed once, in Mipham's note on the birth reckoning's results | cites wb.2:p480, wb.1:p317; feeds — |
 | [claims/dream-adorned-fine-clothes.md](claims/dream-adorned-fine-clothes.md) | claim, list | Adornment: people well adorned, fine or new clothes, ornaments | cites wb.2:p144, lgd:p967, lgd:p968-969, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
@@ -402,6 +403,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-sun-moon-darkened.md](claims/dream-sun-moon-darkened.md) | claim, list | Sun and moon setting, hidden by cloud or eclipse; a red sun | cites wb.2:p144, st:p350-351, lgd:p968-969, skp:p40-50; feeds S2, RD216 |
 | [claims/dream-sun-moon-seen.md](claims/dream-sun-moon-seen.md) | claim, list | The sun or moon seen, their light touching the body, worn as ornaments | cites svo:p270, svi:p261-262, skp:p40-50, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-sun-rising.md](claims/dream-sun-rising.md) | claim, list | The sun rising, dawn breaking, darkness clearing | cites wb.2:p144, lgd:p967, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
+| [claims/dream-texts-on-bdrc-survey.md](claims/dream-texts-on-bdrc-survey.md) | claim, table | Dream-examination texts BDRC holds that the pool did not cite (RD320) | cites sds:p75-77, gsm:p263-264, cbl:p236-238, rgd:p973-975; feeds S1 |
 | [claims/dream-the-dead.md](claims/dream-the-dead.md) | claim, list | Led by a throng of the dead; dancing with the dead; driven by beings of the lower worlds | cites lgd:p968-969, svi:p262, rst:p1-8, kbs:p72-78, gt:i42-43, bjp:p177-181; feeds S2, RD216 |
 | [claims/dream-throne.md](claims/dream-throne.md) | claim, list | Sitting on a throne | cites svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-treasure-wealth-found.md](claims/dream-treasure-wealth-found.md) | claim, conflict | Wealth, a treasure, gold or jewels found | cites wb.2:p144, lgd:p967, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78, gt:i42-43; feeds S2, RD216 |
@@ -439,6 +441,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gdm-readings-against-rst-and-kbs.md](claims/gdm-readings-against-rst-and-kbs.md) | claim, note | The manuscript, RST's etext and KBS's verses are one text; where they differ (the thirds of the night, the dawn third, what KBS leaves out) | cites gdm:i88-93, rst:p1-8, kbs:p68-70, kbs:p72-78; feeds S1 |
 | [claims/gnc-dream-wheel-at-pillow.md](claims/gnc-dream-wheel-at-pillow.md) | claim, note | Gnam chos: the Great Compassionate One's dream rite, mantra water and the wheel at the pillow | cites gnc.1:p557-558, gnc.1:p559-561; feeds S1 |
 | [claims/gnc-rno-bkra-and-dmar-mo.md](claims/gnc-rno-bkra-and-dmar-mo.md) | claim, definition | «Dpal rno bkra» names the cycle of the Gnam chos the rites are drawn from; «ma mar mo» is «dmar mo» (RD286) | cites gnc.1:p493-494, gnc.1:p558h, gnc.1:p557-558; feeds — |
+| [claims/gsm-physician-dawn-dream.md](claims/gsm-physician-dawn-dream.md) | claim, rule | Gtsang sman: the physician's dawn dream before the messenger comes | cites gsm:p263-264; feeds S1 |
 | [claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md](claims/gt-bag-ma-lan-pa-is-bag-ma-len-pa.md) | claim, definition | བག་མ་ལན་པ in ch. 7's verse: taking a bride, lan pa a spelling of len pa | cites gt:i42-43; feeds S2 |
 | [claims/gt-bro-ba-khral-ded-a-levy.md](claims/gt-bro-ba-khral-ded-a-levy.md) | claim, definition | བྲོ་པའི་ཁྲལ་འདེད in ch. 7's verse: a levy of the bro being demanded; bro ba'i is the common spelling | cites gt:i42-43, bjp:p177-181; feeds S2 |
 | [claims/gt-dream-death-images.md](claims/gt-dream-death-images.md) | claim, list | The bad dreams of the sick that mark the lord of death: every image in the Drathang's verse and what it marks | cites gt:i42-43, bjp:p177-181; feeds S2, RD216 |
@@ -624,6 +627,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-roads.md](claims/remains-roads.md) | claim, list | The remains are sent after four days, checked by ten roads | cites wb.2:p94-96, wb.2:p96-97; feeds block-31 |
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
+| [claims/rgd-dream-prophecy-rite.md](claims/rgd-dream-prophecy-rite.md) | claim, rule | Rat+na gling pa's treasure: asking in a dream about the lifespan and the next birth | cites rgd:p973-975; feeds S1 |
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
 | [claims/rme-bdun-great-bear-corpse-facing.md](claims/rme-bdun-great-bear-corpse-facing.md) | claim, note | «རྨེ་བདུན» in the corpse's facing is the Great Bear | cites wb.2:p97-100, wb.2:p283-285, wb.2:p31-32; feeds block-31 |
 | [claims/rrt-bad-shown-as-good-by-deity.md](claims/rrt-bad-shown-as-good-by-deity.md) | claim, table | RRT: the bad sign that is good for one practice, by deity | cites rrt:p186-195; feeds block-73 |
@@ -640,6 +644,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/rst-whose-apparition.md](claims/rst-whose-apparition.md) | claim, list | RST: whose apparition each figure of a dream is | cites rst:p1-8; feeds block-73 |
 | [claims/sch-svapnohana-abstract.md](claims/sch-svapnohana-abstract.md) | claim, note | Scheuermann's chapter on the Svapnohana: what its abstract says, and that the chapter is unread | cites svo:p268, svo:p271; feeds block-73 |
 | [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
+| [claims/sds-dream-signs-of-the-sick.md](claims/sds-dream-signs-of-the-sick.md) | claim, list | The Sidha-sa-ra's dream signs of the sick and the dream of each nature | cites sds:p75-77, sds:p32; feeds S1 |
 | [claims/secret-obstacle-ma-spar-by-cycle.md](claims/secret-obstacle-ma-spar-by-cycle.md) | claim, note | The secret obstacle's mother trigram: li for an earth own trigram, kham for a wood one, by the generating cycle | cites wb.1:p390, wb.1:p256; feeds — |
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
@@ -1088,6 +1093,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
 | [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 scan |
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
+| [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
@@ -1095,6 +1101,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gdm/gdm.md](corpus/gdm/gdm.md) | corpus | GDM | 1 passages: 1 machine |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 4 passages: 1 scan, 3 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
+| [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 1 passages: 1 etext |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 3 passages: 3 machine |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
@@ -1135,12 +1142,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/pn673/pn673.md](corpus/pn673/pn673.md) | corpus | PN673 | 1 passages: 1 scan |
 | [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 2 passages: 2 scan |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
+| [corpus/rgd/rgd.md](corpus/rgd/rgd.md) | corpus | RGD | 1 passages: 1 etext |
 | [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 2 passages: 2 scan |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
+| [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 2 passages: 2 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |
 | [corpus/skf/skf.md](corpus/skf/skf.md) | corpus | SKF | 5 passages: 3 machine, 2 etext |
@@ -2018,6 +2027,10 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **TDR** | *Sgrol ma dkar mo'i sgo nas rmi lam brtag pa* (the examination of dreams through White Tārā) | *'Brong rtse'i be'u bum dkar po*, Damchoe Sangpo, [Delhi] 1983, from an LTWA manuscript, pp. 343–344 | BDRC MW25101_78B598; scans W25101; not read |
 | **SRM** | Dge 'dun grub pa (the First Dalai Lama, 1391–1474), *Lha mo shra ma Na'i sgo nas rmi lam brtag pa* (the examination of dreams through the goddess Śramaṇā) | *Gsung 'bum*, Gangtok 1978–1981, vol. 6, ff. 51v–53r (pp. 386–389) | BDRC MW759_306C1B; etext IE0OPIAB2E5954; scans W759; another print MW24769_B767AF; not read |
 | **GNC** | Gnam chos Mi 'gyur rdo rje's treasure: *Thugs rje chen po'i rmi lam brtag pa* and *Mtsho rgyal rmi lam brtag pa* (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal) | *Gnam chos*, Dilgo Khyentse Rinpoche, Paro 1983, vol. 1, ff. 61r–61v (pp. 557–558), and MW21578_A09994 | BDRC MW21578_87C398; scans W21578; a dbu med manuscript MW1ER167; not read |
+| **SDS** | *Sman dpyad gces pa grub pa* (the Tibetan translation of the *Siddhasāra*, a medical work in 31 chapters; BDRC ascribes it to Klu sgrub and Tsan+d+ra go mi), ch. 5 on the signs of death, with the dream signs of the sick, the physician's setting-out signs and the messenger's | in *Bod kyi gso ba rig pa'i gna' dpe phyogs bsgrigs dpe tshogs*, Mtsho sngon Zhing chen Bod kyi gso rig zhib 'jug khang, 2007 (one volume of the series; the print's folio = etext page − 24) | BDRC MW1KG14614; etext IE0OPI82328741 (VEIE0OPI82328741_I1KG15617, open); scans I1KG15617; the dream part on etext pp. 75-77, read in the etext only 2026-11-10 (RD320) |
+| **GSM** | Gtsang sman Ye shes bzang po, *Zhal gdams man ngag gnad 'gag do shal mdzes rgyan*, the thirteen ways of examining a sick person, the first the physician's dawn dream, in *Gtsang sman Ye shes bzang po'i gsung rtsom gces bsdus* | Kan su'u mi rigs dpe skrun khang, Lan kru'u 2007 (the print's folio = etext page − 17) | BDRC MW1PD53272; etext IE0OPI004DAD38 (VEIE0OPI004DAD38_I1PD53741, open, good OCR); the dream part on etext pp. 263-265, read in the etext only 2026-11-10 (RD320); modern, facts only |
+| **CBL** | Ngag gi dbang phyug grags pa, *'Chi ba bslu ba'i man ngag phyi nang 'chi ltas bshad pa dang bcas pa* (deceiving death, with the explanation of the outer and inner death signs), verses 19-20 on dreams | in *Mkhyen brtse'i dbang po'i gsung 'bum*, Rdzong sar blo gros phun tshogs, vol. 5, pp. 217-279 (etext page = BDRC page) | BDRC MW3PD1002_O3PD1002_37J8XT; etext IE0OPIC2BFA6FE (VEIE0OPIC2BFA6FE_I1KG81117, open); dream verses on etext pp. 236-238, read in the etext only 2026-11-10 (RD320) |
+| **RGD** | Rat+na gling pa's treasure *Spyan ras gzigs dang 'Jam dpal gyi sgo nas tshe tshad dang rmi lam brtag pa* (examining the lifespan and dreams through Avalokiteśvara and Mañjuśrī) | *Rin chen gter mdzod chen mo*, Shechen Publications, New Delhi 2007-2008, vol. 42, pp. 973-975 by the volume's contents (BDRC images 991-994) | BDRC MW1KG14_8F4C7F; etext VE1KG14_042 (open; the text opens its own page counter at [p1]); read in the etext only 2026-11-10 (RD320) |
 | **SCH** | Rolf Scheuermann, *Vibhūticandra's Svapnohana and the Examination of Dreams*, the modern study of SVO | in *Glimpses of Tibetan Divination: Past and Present*, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180 | DOI 10.1163/9789004410688_009; modern, copyrighted: facts only, never its wording; Brill and OAPEN refuse automated browsers; not read |
 | **APV** | *Atharvaveda-Pariśiṣṭa* 68, *Svapnādhyāya* (the chapter on dreams, taken from the dream book of Kroṣṭuki); the appendix is later than the Veda | *The Pariśiṣṭas of the Atharvaveda*, ed. Bolling and von Negelein, vol. 1 part 2, Leipzig 1910, pp. 438–446 and the variants pp. 455–457; Roman transliteration | Internet Archive id OFQd_the-parisistas-of-the-atharva-veda-edited-by-goerge-melville-bolling-and-julius- (CC0); also parisistas-of-the-atharvaveda and AtharvavedaParishishta (Devanagari); verses 57–61 read in the three text layers (RD263, 2026-11-09), not on the page image |
 | **KPS** | *Kālaprakāśikā*, the standard book on election (*muhūrta*), ch. XLII on dreams; translator N. P. Subramania Iyer | 1917; Asian Educational Services reprint, New Delhi 1982, pp. 232–236 | Internet Archive ids in.ernet.dli.2015.45999 and kalaprakasika; English text layer read (RD263, 2026-11-09); the Devanagari original is missing from the layers |
