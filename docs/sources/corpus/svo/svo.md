@@ -1100,3 +1100,8 @@ Read from the etext only; the Dpe bsdur ma scans are restricted, so every statem
 - The row's etext id I1PD95847 is the volume of the Muktāvalī on the Hevajra, not of the Svapnohana: the Svapnohana is in I1PD95859 (vol. 14, etext pp. 1364-1368), the Svapnekṣā in I1PD95870 (vol. 25, etext pp. 415-418); the front matter of vol. 14 (etext pp. 3-17) holds the publisher's title and the table of contents only.
 - An explanation of the sigla («པེ་», «སྣར་», «ཅོ་», «སྡེ་») in vol. 14's etext: none; the siglum names are only the columns of the collation tables. «ཤང་ཤང་ཏེའུ» in the etexts of vols. 9, 14 and 25: 0 hits; «ཤིང་ཏེའུ» and «ཤང་ཏེའུ» one hit each (the note).
 - The marker figures of the notes in the Svapnohana's text: lost in the OCR except for the signs named in svo:p271u; the notes' lemmas are never quoted, so the place of an entry is by the printed page and the order only.
+
+
+## A second scan of the Peking Tengyur for the Svapnohana and the Svapnekṣā, to settle where the Dpe bsdur ma's Peking entries (Peking «པ» at the second watch, «བར་དུ» at the third watch's end, «བཏབ» at «བརྟགས», «ཤིང་ཏེའུ» for the bird) and the eye reading of the Peking print I1KG13197/I1KG13215 differ (q836, q926, q927): other BDRC instances of the Peking (the Otani reprint, the Beijing Peking of the Tibetan Tripitaka, any Peking volume lent on archive.org), found by the catalogue, and the places read on them (RD327)
+
+Nothing read yet: RD327's passages, with the English beside them, go here.
