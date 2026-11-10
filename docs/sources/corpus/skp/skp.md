@@ -82,7 +82,20 @@ Question: Is «པདྨ་དཀར» at the end of the second text (p. 55) the
 
 ## The short dream manuals on the scan: KCM, SKP and DTD, the time phrase of KCM, RBG and RRT (RD219)
 
-Nothing read yet: RD219's passages, with the English beside them, go here.
+*Read: machine, checked against the scan in part, 2026-11-10 (second run of RD219).*
+
+Yigdzin-1 and MITRA (through `schedule.py slot`) were run again over SKP img. 40–55 (I1NLM933_001), KCM img. 689–692 (I2638), the Mongolian manuscript of DTD img. 155–158 (I1NLM4232_001) and the Lanzhou photostat img. 221–222 (I3877), and the disagreement flags listed page by page. Agreement of the two readers (syllables the witness repeats): SKP p. 41 97%, p. 42 97%, p. 43 95%, p. 44 98%, p. 45 96%, p. 46 93%, p. 47 94%, p. 48 92%, p. 49 95%, p. 50 90%, p. 51 91%, p. 52 90%, p. 53 91%, p. 54 91%, p. 55 96%; KCM img. 689 (p. 679) 100%, img. 690 98%, img. 691 87%, img. 692 (p. 682) 89%; DTD manuscript p. 155 100%, 156 98%, 157 21% (MITRA failed on the page), 158 97%; the photostat p. 219 90%, p. 220 90%.
+
+The flags of SKP are, with these exceptions, the witness's slips of a cursive hand: ba for pa, nga for da, the vowel signs, ཐ for ཆ, ཚ for ཆ, «སྦྲུལ» for «སྤྲུལ», a string of ཧ or ཕ or བྷ for single syllables on pp. 52–53 (a drifting of MITRA, not a variant). Of the flags that carry meaning:
+
+- **Time words of the second text** (p. 50 lines 5–6, p. 51 lines 1–3), looked at on the scan at 2×: the night is divided into three watches (ནམ་གྱི་མཚན་མོ་ཐུན་གསུམ་དུ་བགོས); the evening third (སྲོད་ཀྱི་གསུམ་ཆ) is the habit of what went before, the middle third (གུང་གི་གསུམ་ཆ) the magic of demons and rākṣasas, and the dawn third (ཐོ་རངས་གསུམ་ཆ, "the third of first light") what comes later and makes clear; the day's own dreams (ཉིན་མོ) are the habit of the day. The shape of every line agrees with Yigdzin-1's reading, and the hand is legible at that size; syllable-by-syllable checking was not done, so the passages keep state machine. One flag stays open: p. 51 line 2, «ནམ་གྱི་གུང་ཐུན་གསུམ་ཆའི་དུས་ཚོང་ལ» (Yigdzin-1) against «དུས་ཚོད་ལ» (MITRA), "in the time of the middle watch (third) of the night": the last letter looked like ད in the ordinary shape but the cursive joins it, and the sense (དུས་ཚོད, the hour) favours MITRA; unsettled.
+- p. 50 line 6, «ཐོ་རངས» (Yigdzin-1) against «ཐོ་དངས» (MITRA's «དངས»): the scan shows a ར-shaped head at that place, so «དངས» is probably MITRA's slip; not settled letter by letter.
+- KCM p. 682 and the time phrase: not read again here (RD226, RD237, RD258, RD297 have: the answer "the time of dawn" rests on the third print's scan, kcm:p474).
+- DTD manuscript p. 158: the flags are the three already settled by RD219's first run (བཞིར with the terminative, the middle syllable of the second mantra, «ཤེས»). On the photostat p. 222 the flag «ཐན»/«ཐུན» in «ཐུན་རྗེས་མ» and «གདུངས་ཀྱང»/«འཇམ་བྱང» could not be seen: the photostat is a bitmap of 2099×476 px for a whole leaf, with letters of a few pixels, and MITRA adds after the colophon an invented text («ཨོཾ་ལོ་བཙུན་མ་རིགས་གསུམ་…») that is not on the page.
+
+*Searched and not found (RD219, second run).* The KCM cursive of img. 691 line 5 («མཐོང་བ» against MITRA's «བཅོ་བརྒྱད», «སྲིད་གསུམ་མཐོང» against «དྲིད་ཁམས་སུ་མཆོད») at 1.4–2×: the hand's letters could not be told apart; the reading stays Yigdzin-1's, with MITRA's as a doubt. RBG pp. 203–205: no route found (the loan is not this reading's); RRT: no step beyond RD219's first run (the etext checked against Yigdzin-1 on all ten images; not read by eye).
+
+Question: on KCM img. 691 line 5, does the fruit of the rite end «…སྲིད་གསུམ་མཐོང་» ("the three existences seen") or does the line name something else («ཁམས་སུ་མཆོད»)? The cursive of the print does not settle it.
 
 
 ## The names and authors in the short dream manuals and rites, from the BDRC catalogue and the collected works: the Sakya Paṇḍita attribution of SKP's first text and its colophon (q803, q882), «པདྨ་དཀར» at the end of SKP's second text and the 'third of Vairocana' (q802, q883), «Dpal rno bkra» and «ma mar mo»/«dmar mo» in GNC (q795, q880, q881), the monk Sgra tshad pa whose notes close MDP's rebirth-seeing rite (q877), and the TDR printed p. 343 boundary and the section «gsum» (q793, q878, q879) (RD315)
