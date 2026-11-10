@@ -2054,3 +2054,7 @@ Searched and found wanting, so not to be repeated:
   - The Co ne's letters at 3–7× after deskew, blur and contrast stretch (img. 270 lines 3–7): no letter told apart; the fourth-watch line, line 6's end and line 7 stay machine readings.
   - «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་དུ», «ཐུན་བཞི་ཟླ་ཕྱེད་པར་དུ», «ཐུན་བཞི་ཟླ་བ་ཕྱེད་པར་བྱ», «བཟློག་མིན་ལ་ཞུགས», «རྟ་ལ་མོ་དང་ལྟོ་འཕྱེ»: no hit in BDRC's full-text search (2026-11-10).
   - The second and third letters of the Narthang manuscript's title stacks (img. 284 line 2, 7×) were not told apart; the Derge frames' letters (8 px, I1344 img. 268, 270) not resolvable at that size for པ/བ at the second watch.
+- **RD354 (2026-11-10)** (RD354, 2026-11-10):
+  - BDRC width upscaling (--width 4000 and 6000) returns empty files for the Co ne, Derge, Peking and Narthang scans of the Svapnekṣā.
+  - Yigdzin-1 on wide high-contrast windows of the Peking night line returns stock phrases; only whole-line strips worked earlier. Windows of Co ne lines must be cut with the slope in mind: 70 px windows pick up two lines.
+  - BDRC exact phrases «བརྟགས་པ་ལ་ཉལ», «བཏབ་ལ་ཉལ», «བརྟགས་པ་ཉལ», «བྱ་ཤང་ཏེའུ», «ཤང་ཤང་ཏེའུ་ཕོ་ཉ»: no hit (2026-11-10); «ཤང་ཤང་ཏེའུ» alone 369 hits, not opened.

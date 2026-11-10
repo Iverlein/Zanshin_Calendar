@@ -4,7 +4,7 @@ type: note
 terms: []
 cites: ['svo:p271m', 'svo:p271g']
 feeds: [RD311]
-open: [q864, q865, q870, q873, q874]
+open: [q864, q870, q873, q874]
 ---
 # The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips
 
