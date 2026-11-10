@@ -317,6 +317,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/death-dreams-shared-figures-cbl-svo-klong-rdol.md](claims/death-dreams-shared-figures-cbl-svo-klong-rdol.md) | claim, table | Death dreams of 'Deceiving Death', the Svapnohana and Klong rdol, figure by figure | cites cbl:p236-238, cbs:p247-249, svo:p269, svo:p270, kbs:p72-78; feeds S1 |
 | [claims/death-omen-dreams-indian-layer.md](claims/death-omen-dreams-indian-layer.md) | claim, note | Dreams that foretell death: the Indian works beside Klong rdol's verses | cites cbl:p236-238, sds:p75-77, kbs:p72-78; feeds S1 |
 | [claims/departure-singled-out-lords-by-time.md](claims/departure-singled-out-lords-by-time.md) | claim, list | The departure's singled-out lords are the year's, month's, day's and hour's: seats and courses shunned, a remedy when met | cites wb.1:p375, wb.2:p96-97, wb.2:p370, wb.2:p362-363, wb.2:p531, ut:p234, kd.3:p644; feeds — |
+| [claims/dgd-dream-step-no-signs.md](claims/dgd-dream-step-no-signs.md) | claim, note | Dbang chen dgyes rab rdo rje's dream step: kusha, lion posture, dawn question, the Vairocana mandala; no sign named | cites dgd:i80-82, tkg:i385-388; feeds S1 |
 | [claims/do-gcig-glossed-once-in-the-notes.md](claims/do-gcig-glossed-once-in-the-notes.md) | claim, definition | The do gcig is glossed once, in Mipham's note on the birth reckoning's results | cites wb.2:p480, wb.1:p317; feeds — |
 | [claims/dream-adorned-fine-clothes.md](claims/dream-adorned-fine-clothes.md) | claim, list | Adornment: people well adorned, fine or new clothes, ornaments | cites wb.2:p144, lgd:p967, lgd:p968-969, svi:p261-262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
 | [claims/dream-armour.md](claims/dream-armour.md) | claim, list | Armour worn | cites svi:p262, skp:p40-50, rst:p1-8, kbs:p72-78; feeds S2, RD216 |
@@ -765,6 +766,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-watch-bounds-not-in-colophons.md](claims/svo-watch-bounds-not-in-colophons.md) | claim, note | No text read in RD292 bounds a watch of the night | cites svo:p271j, svo:p268; feeds block-73 |
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
 | [claims/svo-women-by-colour.md](claims/svo-women-by-colour.md) | claim, table | The Svapnohana: the embraced woman by the colour of her clothes, and white and black things | cites svo:p270; feeds block-73 |
+| [claims/szb-signs-of-approach-not-dream-list.md](claims/szb-signs-of-approach-not-dream-list.md) | claim, note | The Sha za brtsegs pa'i rgyud's dream-sign chapter lists signs of approach to a killing rite, not dream images | cites szb:i463; feeds S1 |
 | [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-shakyamuni-frame.md](claims/tdr-shakyamuni-frame.md) | claim, rule | The Śākyamuni rite printed before White Tārā: the posture, the repetition and the grades of answer | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
@@ -1123,6 +1125,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 4 passages: 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 3 passages: 3 etext |
+| [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
@@ -1192,6 +1195,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 35 passages: 11 scan, 6 machine, 18 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
+| [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -2087,6 +2091,8 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **BSR** | *Rmi lam brtag pa* (the examination of dreams, two folios), ascribed by BDRC to Bu ston Rin chen grub | in his *gsung 'bum*, Krung go'i bod rig pa dpe skrun khang 2008, vol. 28, pp. 825–828 | BDRC MW1PD45496_7F5CBB, scan I2DB62486 img. 833–836 (image = page + 8); public domain; read 2026-11-10 by Yigdzin-1 on the scan (RD329), a cursive hand |; the same text in the Delhi Zhol par ma print (I1KG11857 img. 629–634) and the Zhol par khang print (I0761 img. 601–606), read by RD332
 | **KCS** | *Rmi lam lung bstan gyi bstab pa tshigs bcad* (verses to make a dream prophecy firm), Karma chags med | in his *gsung 'bum*, Gnas mdo dpe rnying nyams gso khang print, vol. 52, pp. 273–279 | BDRC MW1KG8321_0BE0FB, scan I1KG8395 img. 281–287 (image = page + 8); public domain; read 2026-11-10 by Yigdzin-1 (RD332), a body feast, no dream signs |
 | **TKG** | *Dkyil 'khor gdeg cing rmi ltas bzang ngan ji ltar bya ba* (laying out a mandala, and acting on good and bad dream signs), a section of a mandala-rite text ascribed to Tsong kha pa | his *gsung 'bum* vol. 3, a block print | BDRC MW22273_11912A, scan I1KG2238 img. 385–388; public domain; read 2026-11-10 by Yigdzin-1 (RD329) |
+| **SZB** | *Sha za brtsegs pa'i rgyud* (Mahākāla), the section BDRC gives as the chapter of the dream signs | in the *Mgon po'i rgyud skor*, vol. 1, printed p. 449 | BDRC MW2CZ7955_B60A52, scan I1KG3558 img. 458-468 (dream chapter img. 463); read by Yigdzin-1 and, on lines 1-2, by eye (RD335, 2026-11-10) |
+| **DGD** | *Spro ba bskyed cing bsrungs te rmi lam brtags par gdams pa* (the dream step of the Vairocana initiation preparation), Dbang chen dgyes rab rdo rje | in his *gsung 'bum*, vol. 4, printed pp. 22-24 | BDRC MW4CZ30835_71FD37, scan I4CZ30840 img. 80-82; read by Yigdzin-1, img. 82 eye-checked (RD335, 2026-11-10) |
 | **TDR** | *Sgrol ma dkar mo'i sgo nas rmi lam brtag pa* (the examination of dreams through White Tārā) | *'Brong rtse'i be'u bum dkar po*, Damchoe Sangpo, [Delhi] 1983, from an LTWA manuscript, pp. 343–344 | BDRC MW25101_78B598; scans W25101; not read |
 | **SRM** | Dge 'dun grub pa (the First Dalai Lama, 1391–1474), *Lha mo shra ma Na'i sgo nas rmi lam brtag pa* (the examination of dreams through the goddess Śramaṇā) | *Gsung 'bum*, Gangtok 1978–1981, vol. 6, ff. 51v–53r (pp. 386–389) | BDRC MW759_306C1B; etext IE0OPIAB2E5954; scans W759; another print MW24769_B767AF; not read |
 | **GNC** | Gnam chos Mi 'gyur rdo rje's treasure: *Thugs rje chen po'i rmi lam brtag pa* and *Mtsho rgyal rmi lam brtag pa* (the examinations of dreams of the Great Compassionate One and of Mtsho rgyal) | *Gnam chos*, Dilgo Khyentse Rinpoche, Paro 1983, vol. 1, ff. 61r–61v (pp. 557–558), and MW21578_A09994 | BDRC MW21578_87C398; scans W21578; a dbu med manuscript MW1ER167; not read |

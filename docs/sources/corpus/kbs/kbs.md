@@ -126,3 +126,22 @@ Tsong kha pa's passage (vol. 3, images 385-388; the stamp on the scan is one les
 - A list of good and bad dream images in Bu ston's two folios (img. 833-836), read through: none; the title line only (BSR, 2026-11-10).
 - A list of good and bad dream images in Tsong kha pa's img. 385-388: two images only (img. 386), the rest are remedies; the section's own heading is not on these images, and the work named on img. 388 is the *Rdo rje 'chang chen po'i lam gyi rim pa* (TKG, 2026-11-10).
 - A second print of Bu ston's text (MW22106_CC9683, MW1934_6BFB80) was not looked at.
+
+## RD335: two dream parts of the survey on their scans (RD320 rows 8 and 9)
+
+*Read on the scan by Yigdzin-1 (machine), 2026-11-10: the Sha za brtsegs pa'i rgyud, I1KG3558 img. 458-468 (the dream chapter is img. 463) and Dbang chen dgyes rab rdo rje's vol. 4, I4CZ30840 img. 78-92 (the dream step img. 80-82). By eye: img. 463's lines 1-2 and the colophon on a 2x crop; img. 82 against the typeset page. The passages: [szb:i463](../szb/szb.md#szb-i463), [dgd:i80-82](../dgd/dgd.md#dgd-i80-82); the claims [szb-signs-of-approach-not-dream-list](../../claims/szb-signs-of-approach-not-dream-list.md) and [dgd-dream-step-no-signs](../../claims/dgd-dream-step-no-signs.md).*
+
+The tantra's colophon after the signs reads «རྨི་ལྟས་ཀྱི་ལེའུ་སྟེ་དུམ་བུ་དགུ་པའོ།» (the chapter of the dream signs, the ninth section, img. 463), but the verses before it list the signs of nearness of a killing rite's accomplishment (a black man, a black dog, a raven, tiger, leopard, bear, thunder, lightning, flesh and blood given) and never say "dream"; none is in WB's list. The preparation step of the Vairocana initiation (dgd) is a rule: kusha seat, head toward the fallen sal tree or the lama, right side, lion's posture, the dawn dream told to the teacher, «ཐོ་རངས་རྨི་ལམ་གང་ཤར་སོང་བར་ངེད་ལ་སྨྲོས་ཤིག»; the expected dream is the Vairocana mandala, no sign is named.
+
+**Concordance.** Neither text shares an image numbered in [dream-wb30-concordance](../../claims/dream-wb30-concordance.md); szb's thunder is near B2 (darkness, thunder, hail) with the opposite tone.
+
+### Open
+
+- Question: In the Sha za brtsegs pa'i rgyud's ninth section the signs of nearness (black man, black dog, raven, tiger, thunder) stand under the title "the chapter of the dream signs"; are they dreams of the practitioner at the approach, and are the lines after «ཐོག་འཚག་ཉེ་བའི་མཚན་མའོ» («རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར» and the next ones) a second group, signs of the work succeeding? The machine's «བཤོར» and «ཤ་བདེ་བའི། ཟ་བརྩེགས་པའི་» (the colophon's first words) are not settled on the scan.
+- Question: Does Dbang chen dgyes rab rdo rje follow a text for the dream step (he cites the Mantra Stages, «སྔགས་རིམ་ཆེན་མོ»), and does the Vairocana initiation tradition name signs a teacher reads in the pupils' dawn dreams?
+
+### Searched and not found
+
+- A list of dream images in Dbang chen's img. 80-82: none; one expected dream, the mandala (dgd, 2026-11-10).
+- A line in the Sha za brtsegs pa'i rgyud's img. 463 that says "dream" apart from the colophon (szb, 2026-11-10).
+- BDRC's IIIF route for Dbang chen: `bdrc.py scans` with the VE id (VE1ER1992) answers 500; the image group of the work is I4CZ30840 (found from the work's record I4CZ30837-30841 for vols. 1-5); `bdrc.py volumes W4CZ30835` answers 401, with the MW id it lists VE ids only.

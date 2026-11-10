@@ -654,6 +654,28 @@ tkg:
   locator: image
   notes: "RD329 (2026-11-10): read by Yigdzin-1 on img. 385-388; the heading of the section is not on these images (BDRC's title is of the whole division); the section is a mandala consecration rite (the remedies are given for the Bde mchog, Cakrasamvara, practice)"
 
+szb:
+  title: "Sha za brtsegs pa'i rgyud (the tantra of the Heaped Flesh-eaters; Mahākāla Nag po chen po), the section BDRC gives as the 19th, 'rmi ltas kyi le'u' (the chapter of the dream signs), in the Mgon po'i rgyud skor collection, vol. 1"
+  author: "no author; the tantra's colophon (img. 464) names the Indian pandit Rdo rje gdan pa and the Tibetan translator Bla ma Ba ri lo tsa ba"
+  edition: "Mgon po'i rgyud skor, a manuscript-hand print, pod 1 = I1KG3558; the text on BDRC images 458-464 (printed page 449 stands on img. 463); image = printed page + 14"
+  bdrc: {work: MW2CZ7955_B60A52, scans: [I1KG3558]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD335 (2026-11-10): read by Yigdzin-1 on img. 458-468; the 'chapter of the dream signs' is img. 463, lines 2-4; the numbering of the colophons on the page is 8 (drag sngags), 9 (rmi ltas), 10 (sbyin bsreg), 11 (mnan pa), not BDRC's 19"
+
+dgd:
+  title: "Spro ba bskyed cing bsrungs te rmi lam brtags par gdams pa (rejoicing, guarding and the instruction to examine dreams), the fifth step of the preparation for the Rnam snang (Vairocana) mandala initiation, in Dbang chen dgyes rab rdo rje's collected works, vol. 4"
+  author: "Dbang chen dgyes rab rdo rje, as BDRC ascribes it"
+  edition: "Skyabs mgon Dgyes rab rdo rje'i gsung 'bum, a typeset print; vol. 4 = I4CZ30840; printed pp. 22-24 of the text on BDRC images 80-82 (the running head reads pod bzhi pa)"
+  bdrc: {work: MW4CZ30835_71FD37, scans: [I4CZ30840]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD335 (2026-11-10): read by Yigdzin-1 on img. 78-92, img. 82 re-read by eye (a typeset page); the dream step begins in the last lines of img. 80"
+
 kbs:
   title: "Klong rdol bla ma'i rmi lam gyi ltas la brtag pa byed tshul zhes bya ba la rags tsam dpyad pa (a rough examination of Klong rdol bla ma's way of examining dream omens)"
   edition: "Krung go'i bod kyi shes rig (China Tibetology, Tibetan edition), Pe cin, 1993 no. 4 (vol. 24), pp. 66–80"
