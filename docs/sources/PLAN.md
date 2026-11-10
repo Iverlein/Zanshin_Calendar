@@ -2039,3 +2039,6 @@ Searched and found wanting, so not to be repeated:
   - The name colophons at Gtsang sman pp. 169 and 422 belong to other works in the collection, p. 372 names none; the Drikung dka' mchan etext was not read at this verse (working ids: Blue Beryl VEIE0OPICF5AF372_I1PD411, Drikung VEIE0OPI7984ABB9_I1KG24731).
 - **RD342** (RD342, 2026-11-10):
   - BDRC full-text search: «ཡ་མཚན་ཅན་ནི་བརྟུལ་ཞུགས་ཀྱི་བྱེ་བྲག་ལ་གནས་པའི་ཕྱི་རོལ་པ» 0 hits; «དྲྭ་ཕད་རྐང་གླིང» and «རྦད་མགོ་དང་དྲྭ་ཕད» one hit each, in the Blue Beryl (I1PD411); «རྦད་མགོ» and «རྐང་གླིང་རུས་རྒྱན» occur nowhere else in the Drikung, Skyem pa or Blue Beryl etexts; Skyem pa's etext cites «ཟླ་ཟེར» many times but not at this verse (pp. 187–188); the Drikung and Skyem pa read on etext only.
+- **RD340** (RD340, 2026-11-10):
+  - The NDL catalogue (ndl.py, 2026-11-10) for 夢合長者鑑, 夢合, 夢判断, 夢占, 夢解, 夢見, 夢合延寿袋, いろは引夢うらなひ, 夢うらない, ゆめはんじ, 夢判じ and 夢相, titles before 1925 with 夢 or ゆめ: apart from the 夢合長者鑑 (pid 899567, open) and the 1913 book (pid 917353) no record carries a Digital Collections pid; 759978 and 760913 stay restricted.
+  - The 夢合長者鑑 on all 34 images: no table of days, no slash legend, no 語らざる日, no 初夢 (the running text not read letter by letter, so a sentence on the days could hide in it); the NDL OCR of pids 899567 and 917353 for 語ら, 初夢, 夢を見て, かたらず and 語らず: no hit, the OCR of 899567 noise.
