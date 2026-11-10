@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD322 (2026-11-10): the words of the night's watches and snying sdug in Steinert's dictionaries (Mahāvyutpatti, Negi, Tibetan lexica; etext), the author of the Sakya Vinaya treatise from three etexts' colophon and preface and BDRC's records, and WB's eight watches against the commentaries' etexts and BDRC snippets; no scan; see svo:p271q, svo:p271r, svo:p271s.
+
 Read by RD311 (2026-11-10): the Co ne Svapnohana (vol. 28 img. 270, 272, 273) by Yigdzin-1 on deskewed line strips, 472 runs, the eye settling nothing; see svo:p271m.
 
 Read by RD314 (2026-11-10): the watches of the night in the etexts only, no scan: the 1996 etext of WB (vol. 1 p. 375, vol. 2 notes pp. 474-541 searched for every word of the night), BDRC's full-text search for the watch phrases (Hevajra and Kālacakra commentaries, Tsong kha pa, a Sakya Vinaya treatise); see svo:p271n, svo:p271o, svo:p271p.
@@ -800,3 +802,161 @@ All etext only (no scan opened in this reading; the pages are the etext's marker
 - «ཐུན་གསུམ་མ», «ཐུན་གསུམ་ལྡན» and «ཀུ་མུད་བཞད»: sessions of rites and WB's prints and manuals that repeat its list of the night's names (Bod kyi rtsis rig kun 'dus chen mo p. 246, Dag yig mkhas pa'i 'byung gnas, Rigs ldan zhal lung byis pa'i mig 'byed, Dpyod ldan snying nor); no Amarakośa or synonym list with the epithet was reached.
 - The Tibetan Amarakośa (Mngon brjod 'chi med mdzod) was not located by these searches.
 - Mipham's other writings were not searched by author (BDRC's search cannot be limited to one); the two hits with his name (the *Nye ba'i sras brgyad rtogs brjod*, a Mañjuśrī sādhana) use "the first watch of the night" and "three night sessions" and bound nothing; a third hit with his name (an alchemical text, «ཉིན་བཞི་མཚན་བཞི») concerns days and nights of a process, not watches.
+
+## <a id="svo-p271q"></a>svo:p271q The words of the night's watches and snying sdug in the lexica (RD322)
+
+*Read: etext, 2026-11-10.*
+
+> Mahāvyutpatti (Steinert 21 and 63; Tibetan keys of the Sanskrit–Tibetan list, Sanskrit as printed):
+> མེལ་ཚེ། praharaḥ
+> ཆུ་ཚོད། ghaṭikā
+> ཆུ་ཚོད། nāḍī
+> ཐུན་དང་པོའམ་སྲོད། prathamapraharaḥ
+> ཐུན་གཉིས་པའམ་འཇིང། dvitīyapraharaḥ
+> ཐུན་གསུམ་པའམ་ལྔ་ཚིགས། tṛtīyapraharaḥ
+> ཐུན་བཞི་པའམ་ནམ་གུང། caturthapraharaḥ
+> ཐུན་ལྔ་པའམ་ཐོ་རངས། pañcamapraharaḥ
+> སྐྱ་རེངས་ཤར་བ། aruṇodgatam
+> ཉི་མ་འཆར་བ། sūryodayaḥ
+> སྙིང་དུ་སྡུག་པ། hṛdyam
+> 
+> Tshig mdzod chen mo (Steinert 25, Wylie as the dictionary is keyed):
+> thun gsum pa | {(mngon) mtshan mo/}
+> gung thun | {nyin mo thun bzhir dbye ba'i thun gsum pa'o/}
+> dgung thun | {nyin mtshan so sor thun gsum gsum phye ba'i thun bar ma'am thun gnyis pa/}
+> snying du sdug pa | {yid du 'ong ba'am 'bab pa/ mi de kun gyi snying du sdug par 'dzin pa/}
+> 
+> Bod yig tshig gter rgya mtsho (Steinert 62):
+> snying sdug | {mdza' grogs sam yid la shin tu 'bab pa'i mi pho mo/}
+> mtshan thun | {nam gyi cha gsum gang rung /} {mtshan thun gsum du bgos pa'i thun tha ma la skya rengs gtong /}
+> 
+> Dung dkar tshig mdzod chen mo (Steinert 34):
+> thun gsum | {snga dro phyi dro dgung thun gsum lta bu}
+> 
+> Brda dkrol gser gyi me long (Steinert 55):
+> gung thun | {mtshan mo'i cha shas brgyad kyi thun gsum pa'i ming ste/} 《{dag yig mkhas pa'i 'byung gnas}》{las/ rgyu skar shar ba dang / mtshan mo'i thun dang po/ thun dang po'i phyed/ gung thun/ gung thun gyi phyed/ thun tha ma/ thun tha ma'i phyed/ skya rengs ma shar ba ste mtshan mo'i cha shas brgyad do/ / zhes gsungs/ ...
+> 
+> Negi, Tibetan–Sanskrit dictionary (Steinert 50):
+> thun gsum | = {mtshan mo} triyāmā, rātriḥ — atha śarvarī niśā niśīthinī rātristriyāmā kṣaṇadā kṣapā vibhāvarītamasvinyau rajanī yāminī tamī a.ko.1.4. 5; trayo yāmā yasyāḥ sā triyāmā a.vi.1.4.5.
+> thun gsum pa | 1. tṛtīyapraharaḥ ma.vyu.8242 2. = {mtshan mo} triyāmā, rātriḥ ṅa.ko.69/rā.ko.2.661.
+> snying sdug | = {snying du sdug pa/}
+> snying du sdug pa | = {snying sdug} • vi. priyaḥ … dayitaḥ … manoharaḥ … hṛdayaṃgamaḥ … hṛdyam ma.vyu.2725
+> 
+> Rangjung Yeshe (Steinert 2): snying sdug | a loved one {snying sdug sems la bkod pa'i zug gzer dum bu de} the fierce pangs that build up in the mind when it yearns for a loved one
+> Rangjung Yeshe: snying sdug | boy friend, girl friend; syn {dga' rogs}
+> Valby (Steinert 7): snying sdug | darling, fiance, beloved, beloved one, sweetheart, love, husband, friend
+> Valby: thun gsum pa | night; one who meditates 3 times a day, lunar crescent on 3rd day after new or full moon, night
+> Ives Waldo (Steinert 8): snying sdug | sweetheart, girl friend
+> Sgra bye brag tu rtogs byed chen mo (Steinert 59): snying sdug | (Skt. hṛdyam) pleasing to the heart, dear, beloved, cherished, desired, grateful
+> 
+> Dung dkar (Steinert 34): thun drug | {nyin mtshan gyi thun bsdoms na thun drug yod de/skya rengs shar nas nyi ma ma shar bar nyin thun dang po/nyi ma shar nas nyin gung ma zin par nyin thun gnyis pa/nyin gung yol nas nyi ma ma nub bar nyin thun gsum pa/nyi ma nub nas srod ma yol bar mtshan thun dang po/sa srod yul nas nam gung ma shar bar mtshan thun gnyis pa/nam khung yol nas skya rengs ma shar bar mtshan thun gsum pa bcas yin}
+> Tshig mdzod chen mo (Steinert 25): nyin mtshan thun drug | nyin mo'i thun gsum dang mtshan mo'i thun gsum ste drug de ni snga dro dang|{nyi gung/ phyi dro/ srod/ nam gung/ tho rangs bcas yin/}
+> Tshig mdzod chen mo: mtshan thun | {nam gyi cha gsum gang rung/ mtshan thun gsum du bgos pa'i thun tha ma la skya rengs gtong/}
+
+Read 2026-11-10 (RD322) in Steinert's public dictionaries (github.com/christiansteinert/tibetan-dictionary, sparse clone of `_input/dictionaries/public*`, commit 69969d7 of 2026-10-20), as the headwords and entries are keyed there; the dictionaries' scans were not opened, so the state is etext. Pages are those of the scan indexes in Steinert's no. 63 (Mahāvyutpatti), 65 (Chandra Das) and 66 (Jäschke), where a question mark after the number is Steinert's own.
+
+**The Mahāvyutpatti (no. 21, Sanskrit–Tibetan order; no. 63 gives the page).** In the section of the day's times the list runs: watch (mel tshe, མེལ་ཚེ) = praharaḥ; water-hour (chu tshod, ཆུ་ཚོད) = ghaṭikā and nāḍī; first watch, or srod (thun dang po'am srod) = prathamapraharaḥ; second watch, or 'jing (thun gnyis pa'am 'jing) = dvitīyapraharaḥ; third watch, or lnga tshigs (thun gsum pa'am lnga tshigs, ཐུན་གསུམ་པའམ་ལྔ་ཚིགས) = tṛtīyapraharaḥ; fourth watch, or nam gung (thun bzhi pa'am nam gung) = caturthapraharaḥ; fifth watch, or tho rangs (thun lnga pa'am tho rangs) = pañcamapraharaḥ; then dawn breaking (skya rengs shar ba) = aruṇodgatam, sunrise (nyi ma 'char ba) = sūryodayaḥ. The watch entries stand on p. 426 of the scan index of no. 63 (the water-hour's with a question mark). The same list holds "snying du sdug pa" = hṛdyam on p. 183 and "sdug pa" = kāntaḥ on p. 182 and = praṇayaḥ on p. 478. The Mahāvyutpatti has five watches of the night in this list, the third of five being the thun gsum pa; Negi cites the same entry as ma.vyu.8242 and the heart-pleasing word as ma.vyu.2725 (the list's own numbering is not in Steinert's file).
+
+**Negi's Tibetan–Sanskrit dictionary (no. 50, no page in the file).** "thun gsum" = (the night, mtshan mo) triyāmā, rātriḥ, with the Amarakośa's synonym verse (a.ko. 1.4.5: "atha śarvarī niśā niśīthinī rātristriyāmā kṣaṇadā kṣapā vibhāvarītamasvinyau rajanī yāminī tamī") and the gloss "trayo yāmā yasyāḥ sā triyāmā" (a.vi. 1.4.5, Amarakośa's commentary). "thun gsum pa" = 1. tṛtīyapraharaḥ (ma.vyu. 8242), 2. the night, triyāmā, rātriḥ (ṅa.ko. 69, rā.ko. 2.661). "snying sdug" and "snying sdug pa" are sent to "snying du sdug pa", which Negi gives as the adjective priyaḥ, dayitaḥ, manoharaḥ, hṛdayaṃgamaḥ, rucyam and hṛdyam (ma.vyu. 2725), and as a noun (the entry goes on).
+
+**Tibetan lexica on thun gsum pa.** Tshig mdzod chen mo (no. 25): "thun gsum pa" is (in the synonym register, mngon) "night" (mtshan mo); "gung thun" is the third of the day divided into four; "mtshan thun": any one of the night's three parts, and "when the night is cut in three watches, the dawn is let go in the last watch". Valby (no. 7): "thun gsum pa" = night, also one who meditates three times a day, the lunar crescent on the third day. Ives–Waldo (no. 8) lists "thun gsum pa" among the night's names and "thun" as 'shift, night watch'. Chandra Das (no. 65) has "thun gsum pa" on p. 581 (?), Jäschke (no. 66) "thun gsum", "thun gsum pa", "thun gsum pa'am lnga tshigs" and "thun gsum ril bu" on p. 259 (?); the page images were not read. Dung dkar (no. 34) glosses "thun gsum" itself only as the day's three: morning, afternoon, midday. The same dictionary and Tshig mdzod chen mo give the day-and-night of six sessions: day, dawn-to-sunrise, sunrise-to-before noon, noon-to-sunset; night, sunset to before dusk passes, from dusk to before midnight rises, from midnight to before dawn: three of the day and three of the night. Brda dkrol gser gyi me long (no. 55) takes from the Dag yig mkhas pa'i 'byung gnas eight parts of the night: the rising of the travelling mansion (rgyu skar shar ba), the first watch, its half, the middle watch (gung thun), its half, the last watch, its half, and the time before dawn breaks, and gives the entry gung thun as "the name of the thun gsum pa among the night's eight parts", the watch that stands between the first and the last in that list.
+
+**"Snying sdug".** No dictionary gives it as pain of the heart. Rangjung Yeshe (no. 2): "a loved one", with the example of the pangs of yearning for a loved one, and "boy friend, girl friend"; Valby (no. 7): "darling, fiancé, beloved, sweetheart, love, husband, friend"; Ives–Waldo (no. 8): "sweetheart, girl friend"; Bod yig tshig gter rgya mtsho (no. 62): "a friend or a person, man or woman, who strongly appeals to the mind"; Tshig mdzod chen mo (no. 25) under "snying du sdug pa": "agreeable, or appealing; one whom everyone holds dear"; the Sgra bye brag tu rtogs byed chen mo (no. 59): "(Skt. hṛdyam) pleasing to the heart, dear, beloved, cherished, desired, grateful". Chandra Das (p. 503) and Jäschke (p. 223) have the headword; their text was not read. In the same Tshig mdzod chen mo, the verb "sdug pa" also means "sorrow, to weep from sadness" (skyo ba, sems sdug nas ngu ba), a separate sense of the syllable. The medical sets of the collection (no. 35, Thomas's doctor's dictionary, and no. 48, the Tibetan Terminology Project) have no headword "snying sdug"; the 64 dictionaries give it nowhere as an illness or a sign.
+
+## <a id="svo-p271r"></a>svo:p271r The author of the Sakya Vinaya treatise that places the dawn against the night's watches (RD322)
+
+*Read: etext, 2026-11-10.*
+
+> 1. Colophon in the Go rams pa gsung 'bum etext (VEIE0OPIBBE88D74_I2PD17687, etext p. 474), the end of «འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ལེགས་བཤད་འོད་ཀྱི་སྣང་བ་ཚིག་དོན་རབ་གསལ»:
+> 
+> འདུལ་བ་མདོ་རྩ་བའི་སྤྱིའི་རྣམ་པར་གཞག་པ་བད
+> གཞན་རབ་ཕན་ཚིག་དོན་རབ་གསལ་ཞེས་བྱ་བ་འདི་ནི། ཐོག་མར་དཔལ་ལྡན་ས་སྐྱ་པའི་གདུང་
+> བརྒྱུད་དྲི་མ་མེད་པར་སྐུ་འཁྲུངས་ཤིང་། །མཁྱེན་རབས་དང་ཐུགས་རྗེ་ཆེད་མེད་པ་དང་ལྡན་པ།
+> སློབ་དཔོན་ཆེན་པོ་ངག་གི་དབང་ཕྱུག་གྲགས་པ་རྒྱ་མཚན་དཔལ་བཟང་པོའི་བཀས་བསྐུལ་ཞིང༌།
+> གཞན་ཡང་བློ་གསལ་ཞིང་ཡིད་གཞུངས་པའི་སྡེ་སྣོད་འཛིན་པ་དུ་མས་ཡང་ཡང་བསྐུལ་བའི་ངོར།
+> ཤར་ཀོང་པོའི་ཆོས་སྨྲ་བའི་དགེ་སློང་དབང་ཕྱུག་གྲུབ་པ་དཔལ་བཟང་པོས། དངོས་པོ་ཞེས་བྱ་བ་
+> ཤིང་ཕོ་ཁྱིའི་ལོ། ཧོར་ཟླ་བཅུ་གཅིག་པ། མགོ་ཡིས་ཉ་བའི་ཡར་ཚེས་ལྔ་ལ་ཐུབ་བསྟན་རྣམ་པར་
+> རྒྱལ་བའི་ཆོས་གྲྭ་ཆེན་པོར་ལེགས་པར་གྲུབ་པའི་ཡི་གེ་པ་ནི། ལྷན་སྐྱེས་ཀྱི་བློ་གྲོས་མི་དམན་པ་
+> དཀོན་མཆོག་དཔལ་གྱིས་བགྱིས་སོ། །
+> 
+> (The etext's first lines are damaged: «བད / གཞན་རབ་ཕན» for the rest of the title; the year line is as printed.)
+> 
+> 2. The editors' preface to the Sakya Gsung rab volume 3 (VEIE0OPIFD211FF5_I2PD18409, etext p. 11):
+> 
+> དཔལ་ལྡན་ས་སྐྱ་པའི་གསུང་རབ་གྲགས་ཆེན་བཅོ་བརྒྱད་ལས་པོད་གསུམ་པ་འདུལ་བ་
+> མདོ་རྩ་བའི་སྤྱི་དོན་ལེགས་བཤད་འོད་ཀྱི་སྣང་བ་ཚིག་དོན་རབ་གསལ་ཞེས་བྱ་བའི་བསྟན་
+> བཅོས་འདིའི་མཛད་པ་པོ་ནི་ཀོང་སྟོན་དབང་ཕྱུག་གྲུབ་ཡིན། ཁོང་ནི་ཀུན་མཁྱེན་གོ་རམས་
+> བསོད་ནམས་སེང་གེའི་དངོས་སློབ་( རྣམ་ཐར་ཞིབ་པར་མ་རྙེད་》ཡིན།
+> 
+> 3. The contents of the Sakya Gsung rab Vinaya volume (VEIE0OPI5905F5F2_I1KG17516, etext p. 6): 
+> ཀོང་སྟོན་དབང་ཕྱུག་དཔལ་བཟང་གིས་མཛད་པའི་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ལེགས་བཤད་འོད་ཀྱི་སྣང་བ་ཚིག་དོན་རབ་གསལ་ཞེས་བྱ་བ་བཞུགས་སོ།།
+> 
+> 4. The dawn passage (svo:p271p, item 3), the closing clause, in the three etexts (the Sakya Vinaya volume 35 etext p. 163, the Go rams pa volume etext pp. 300–301, the Sakya Gsung rab volume 3 etext p. 125); the three agree word for word in:
+> ཐུན་ཐ་མའི་དང་པོའི་ཕྱེད་རྒྱལ་པོ་རྔ་བརྡུང་དུ་ཉེ་བ་ན་ཞེས་གསུངས་པའི་ཕྱིར་དང་ཆ་དགུར་བྱས་པའི་ཆ་དགུ་པ་དེ་ཐུན་ཐ་མ་ཡིན་ལ། དེའི་དང་པོའི་ཕྱེད་ཆ་བརྒྱད་པ་དེ་ཡིན་པའི་ཕྱིར།
+> (the Go rams pa etext has «ཆ་དགུའི་བྱས་པའི» and the Vinaya volume 35 a stray footnote number «156» after «ཆ་དགུར»; neither changes the sense.)
+> 
+> BDRC records (read 2026-11-10 on purl.bdrc.io and library.bdrc.io's search; Wylie as BDRC keys it):
+> MW23205: 'dul ba mdo rtsa ba'i spyi don legs bshad 'od kyi snang ba'i tshig don rab gsal; creator P987 kong ston dbang phyug grub pa; note: "major disciple of the sa skya master go bo rab 'byams pa bsod nams seng+ge"; the Degé print of the supplement (vols. 14 and 15) to Go rams pa's collected works, Sakya College, Rajpur 1985; biblioNote: "this section is the second of the Go rams pa gsung 'bum, Derge print (W11249), vol. 14 (pha)".
+> WA23205 catalogInfo: "The author of this commentary, Kongton Wangchuk Drubpa, was one of Gorampa's biographers."
+> MW1PD1725_44693B (the same text in the Beijing Go rams pa gsung 'bum): creator given as ngor mkhan chen 06 bsod nams seng+ge; other title: dge long byams pa thugs rje dpal bzang gis mdzad pa/ 'dul ba mdo rtsa ba'i spyi don legs bshad 'od kyi snang ba tshig don rab gsal.
+> MW1PD152291 (Sakya Gsung rab 18, etext): «pod gnyis pa'i 'dul ba mdo rtsa la/_kun mkhyen go rams kyi slob ma kong ston dbang phyug grub kyis mdzad pa'i 'dul ba mdo rtsa'i spyi don legs bshad 'od kyi snang ba tshig don rab gsal lo» (the search snippet).
+> Person P987: name dbang phyug grub pa; birth 14XX (not before 1400), floruit not after 1499.
+
+Read 2026-11-10 (RD322), etext and BDRC records only, no scan. The Sakya Vinaya treatise that sets the dawn (skya rengs) against the night's three watches and nine parts (svo:p271p, item 3; q938) is the *Overview of the Vinaya Root Sutra, the Light of Good Speech, making clear the words and meanings* ('Dul ba mdo rtsa ba'i spyi don legs bshad 'od kyi snang ba tshig don rab gsal), and its author is Kong ston Dbang phyug grub pa (also spelled Dbang phyug dpal bzang in the volume's table of contents and as Dbang phyug grub pa dpal bzang po in the colophon), a bhikṣu "of Shar Kong po", the pupil of Go rams pa Bsod nams seng ge.
+
+1. The colophon: at the urging of the great teacher Ngag gi dbang phyug Grags pa rgyal mtshan dpal bzang po and of many holders of the baskets, the bhikṣu Dbang phyug grub pa dpal bzang po of Shar Kong po, the Dharma-speaker, composed it in a wood-male-dog year, the eleventh Hor month, on the fifth of the waxing half, in the great monastery Thub bstan rnam rgyal; the scribe was Dkon mchog dpal. The year's sign is given, not the sixty-year cycle.
+
+2. The editors of the Sakya Gsung rab edition (volume 3) name him: "the author of this treatise is Kong ston Dbang phyug grub; he was a direct pupil of the all-knowing Go rams Bsod nams seng ge (his biography was not found in detail)". The contents of volume 35 of the other Sakya edition (the 18 basic scriptures, Darjeeling and Kathmandu) names "Kong ston Dbang phyug dpal bzang".
+
+3. The text is thus printed in three places, with one reading: the Sakya Gsung rab volume 3 (Beijing 2011), volume 35 of the Darjeeling–Kathmandu 18-scriptures edition, and the Beijing Go rams pa gsung 'bum (2013; the volume sets it as the second piece, p. 179 of its contents), where it is a supplement of a pupil's, not Go rams pa's own. The dawn passage's closing clause is the same in all three etexts (OCR variants aside): "since the last watch is the ninth of the nine parts, and the eighth part is the first half of that watch" is the plain sense of «ཆ་དགུ་པ་དེ་ཐུན་ཐ་མ་ཡིན་ལ། དེའི་དང་པོའི་ཕྱེད་ཆ་བརྒྱད་པ་དེ་ཡིན་པའི་ཕྱིར»; read with the earlier clause («ཐུན་ཐ་མའི་དང་པོའི་ཕྱེད་ ... ཆ་བརྒྱད་པ་ལུས་པ་ན་འཆར»: the dawn arises when the eighth part is left, in the first half of the last watch), the last watch would have to span the eighth and ninth parts, so that "the first half of the last watch" falls at the eighth part (our reading; the author does not say it). The clause is therefore not an etext error. Whether the author counts the nine parts as nine equal parts or the last watch as two is not stated.
+
+BDRC: the work is MW23205 (creator P987, Kong ston Dbang phyug grub pa; "one of Gorampa's biographers" in the work record; a pupil of Go rams pa in the person's note; flourished in the 15th century, not later than 1499 in the record). The Beijing Go rams pa gsung 'bum's record (MW1PD1725_44693B) gives Ngor mkhan chen 06 Bsod nams seng ge as author and an alternative title with the name "Dge slong Byams pa thugs rje dpal bzang" (a bhikṣu Byams pa thugs rje dpal bzang): the volume's compilers took it into the collected works, so the record's creator is the collection's, and the colophon decides against it. The source the author draws the nine parts from is not named in the passage: he cites "the scripture" (lung, ལུང) and the commentary on the bhikṣuṇī's Prātimokṣa (དགེ་སློང་མའི་སོ་ཐར་འགྲེལ་པ).
+
+## <a id="svo-p271s"></a>svo:p271s WB's eight watches of the day-and-night, the Dbyangs 'char's half-watches and what the commentaries say (RD322)
+
+*Read: etext, 2026-11-10.*
+
+> 1. WB vol. 2 p. 403 (1996 etext VEIE0OPI51524892_I1KG12907, etext p. 411 = image; printed p. 403), the verse that opens the "own time" (རང་དུས, rang dus):
+> 
+> སྔོན་ཆད་ཡིག་ཆར་རང་དུས་དང་། །གཞན་དུས་ལ་སོགས་ཞིབ་ཆ་ཀུན། །མ་བཤད་ཀུན་གྱིས་བསྟན་བཅོས་ལ། ། རང་གཞན་དོན་གཉིས་བསྲེས་པ་སོགས། །འགལ་འཁྲུལ་མཐོང་རྣམས་སྤངས་པ་ཡི། །རང་དུས་ཉིན་མཚན་ཐུན་བརྒྱད་ལ། །ཕྱེ་བས་ཐུན་རེ་གཟའ་རེ་དང་། །ཀླུ་རེ་ལྷན་ཅིག་འཆར་བ་ལས། །ཉི་མ་མཐའ་ཡས་ལྷན་ཅིག་འཆར། །ཟླ་བ་ནོར་རྒྱས་མིག་དམར་འཇོག །ལྷག་པ་སྟོབས་རྒྱུ་ཕུར་བུ་པད། །དཀར་པོ་པད་ཆེན་སྤེན་དུང་སྐྱོང་། །དེ་རྗེས་སྒྲ་གཅན་རིགས་ལྡན་གཉིས། །ལྷན་ཅིག་བསྡོ[...] འཆར་བ་ལ། །ཀླུ་ཡི་ཐུན་མཚམས་འདི་ལ་བརྟག །གང་བརྩིའི་ཉིན་ཚད་ཀླུ་ཡིས་བགོས། །རེས་གཟའ་ནས་བཟུང་གཟའ་རེའི་ཚད། །དེ་ནི་རང་དུས་རིགས་ལྡན་ཡིན། །...
+> 
+> and further down in the same passage:
+> རགས་པ་ཉིན་ཚད་ཁྱིམ་གྱིས་བགོས། །ནམ་ལངས་ནས་བཟུང་ཕྱེད་པ་ཡི། །གཟའ་རེ་འཆར་བའི་ཚད་ཡིན་ལ། དེ་ཡང་ཉིན་མོ་དྲུག་སྐོར་ཏེ། །མཚན་མོ་ལྔ་སྐོར་བྱ་བ་གཅེས། །ཞིབ་པ་འགྲེལ་པ་མཆོག་དགའ་ནས། །རེ་ཞིག་བརྟག་བྱའི་གནས་བཞག་ཀྱང་།
+> 
+> 2. WB vol. 1 p. 135 (1996 etext VEIE0OPI51524892_I1KG12906, etext p. 145):
+> 
+> ཉིན་མཚན་ཚད་ནི་བརྒྱུད་ཀྱིས་བགོས། །རེས་གཟའ་ནས་བཟུང་གཡོན་སྐོར་ལ། །འཁོར་བའི་དུས་འཁོར་ཐུན་ཕྱེད་འཆར། །
+> དབྱངས་འཆར་ཐུན་ཕྱེད་འཁོར་ལོ་ནི། །དཀར་ཕྱོགས་ཉིན་མོ་གཡས་སྐོར་དང་། །མཚན་ལ་གཡོན་སྐོར་ནག་ཕྱོགས་ལྡོག །ཉིན་མཚན་ཚད་ནི་ཀླུ་ཡིས་བགོས།
+> 
+> («བརྒྱུད» as the 1996 etext prints it, read «བརྒྱད» on the scan in RD287; see claims/night-watches.md.)
+> 
+> 3. BDRC full-text search, 2026-11-10 (search snippets in Wylie as the results page prints them; no etext of these was opened): the same lines of WB, ending "rang dus nyin mtshan thun brgyad la/ phye bas thun re gza' re dang/ klu re lhan cig 'char ba las", are found in WB's 1996 etext (MW2CZ8040), the Gser thang reprint (MW3CN5026) and the Dpyod ldan snying nor (MW2PD17386_D19206, no etext offered). Two other works quote the verse of the Dbyangs 'char (the vowel-rising tantra) in another wording:
+> dbyangs 'char gzhung las nyin mtshan thun phyed ni/ brgyad bgos res gza' dbu drangs thun phyed rer/ gza' re klu re lhan cig 'char ba'ang brtag/ nyi mar mtha' yas zla bar nor rgyas dang/ mig dmar 'jog po lhag par stobs kyi rgyu/
+> (Gtsug lag dkar nag rgyud kyi dgongs don legs nyes brtag dpyad ngo mtshar 'phrul gyi sgo 'byed rnam dpyod blo gros spyan stong bkra ba, in the 'Bri lugs bang mdzod skor lnga, MW3KG218_O3KG218_CG20H2; and the Yul mdo khams stod mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng, MW1PD152297, snippet only.)
+> 
+> 4. G.ya' sel, the question part (I5875 etext p. 72; the OCR of this etext is heavy with errors), a question on the planets' power: it names «འགྲེལ་པ་མཆོག་དག་» (the commentary Mchog dga') and «མཆོག་དགའི་རང་ལུགས་སུ་ལེའུ་བཅུ་དགུ་པའི་ཐུན་ཕྱེད»: "in the Mchog dga' own tradition, with the half-watch of the nineteenth chapter".
+
+Read 2026-11-10 (RD322), the 1996 etexts of WB for the verses and BDRC search snippets for the rest; no scan opened (WB p. 403 and p. 135 were read on the scan in RD287, see claims/night-watches.md). The question (q939): what do the commentaries on WB say of its eight watches (ཐུན, thun) of the day-and-night (vol. 1 p. 135, vol. 2 p. 403)?
+
+1. The words themselves. WB p. 403: the "own time" (རང་དུས) divides the day-and-night into eight watches, and in each watch one planet and one nāga arise together; the verse names the planets with nāgas in turn (the sun with Mtha' yas, the moon with Nor rgyas, Mars with 'Jog po, and so on to Rāhu and the Rigs ldan, the "poisonous" one, who comes last), and says that the nāga's watch-joint (ཀླུ་ཡི་ཐུན་མཚམས) is where the Rigs ldan is looked for. Counting the day's length is "divided by the nāga" (eight); the coarse count cuts the day's length by the signs from dawn (ནམ་ལངས); WB adds "six rounds of the day, five of the night are to be treasured" (ཉིན་མོ་དྲུག་སྐོར་ཏེ། མཚན་མོ་ལྔ་སྐོར); and the fine count WB leaves to the commentary Mchog dga' ("the fine one, from the commentary Mchog dga', I set aside for now"). P. 135: "the day-and-night measure is divided by eight; the half-watches (ཐུན་ཕྱེད) arise on the wheel of the times of the round"; the wheel of the Dbyangs 'char's half-watches runs to the right by day in the bright half and to the left by night, reversed in the dark half; "the day-and-night measure is divided by the nāga".
+
+2. What the commentaries say. No commentary on WB read says that the eight watches are the Hevajra and Kālacakra tradition's eight equal watches of svo:p271o. The regent's replies (G.ya' sel, I5875 and I5876, the one etext with a full text; OCR poor) hold no «ཐུན་བརྒྱད» (one OCR garble that is not the word), «ཐུན་ཚོད་བརྒྱད» or «ཉིན་མཚན་ཐུན» in their two etexts of about 540 pages each (the only «ཐུན་ཕྱེད» is the question quoted in item 4, about the planets' power; the question's text is too damaged to say what it asks about the eight); Mipham's notes (WB vol. 2 pp. 474–545) were searched in RD314 and name no watch; the manual of Dge rtse Dpal bsdus (I4767, 361 pages) holds no «ཐུན་བརྒྱད» either. So the answer to q939 from the commentaries is none.
+
+3. What was found instead. WB's own wording «ཉིན་མཚན་ཐུན་བརྒྱད» has a parent in the Dbyangs 'char: two modern anthologies quote its verse as «ཉིན་མཚན་ཐུན་ཕྱེད་ནི། བརྒྱད་བགོས»: the day-and-night's half-watches (ཐུན་ཕྱེད) are cut in eight; each starts from the day's planet; in each half-watch a planet and a nāga rise together. So the tradition WB follows names the same eight parts "half-watches" (thun phyed); WB itself writes both «ཐུན་བརྒྱད» (p. 403) and «ཐུན་ཕྱེད» (p. 135, on the wheel of the Dbyangs 'char). The Hevajra books count the same eight as watches (ཐུན) of four by day and four by night with a quarter of a watch for a water-hour (svo:p271o, item 1). The count (eight, equal) is the same; the unit's name differs (watch against half-watch). The Muktāvalī, for its part, calls the sixteenth part of the day-and-night a half-watch (ཐུན་ཕྱེད, the "sixteen moves" of the breath), a different size from the Dbyangs 'char's eighth. That the two eights are one is a reading from the wording, not a statement of a commentator.
+
+4. The G.ya' sel question (I5875 p. 72) asks, in damaged OCR, about the planets' strength («ཕྱོགས་སྟོབས», direction power) and sets the root verse against the Mchog dga' commentary's «ཐུན་ཕྱེད» of the nineteenth chapter; what Mchog dga' is (a commentary named in WB's own verse) is not said in the page. It is a question put to the regent, with no answer in the page.
+
+### Open (RD322)
+
+- Question: the Mahāvyutpatti has five watches of the night (srod, 'jing, lnga tshigs, nam gung, tho rangs) and names the third thun gsum pa, while the Amarakośa's triyāmā is the night of three watches; does a Tibetan text say how the night's name ཐུན་གསུམ་པ relates to the Mahāvyutpatti's third watch, or are they two senses of one word?
+- Question: in the Dbyangs 'char verse that WB follows, are the eight "half-watches" (ཐུན་ཕྱེད) of the day-and-night equal, and does any commentary on the Dbyangs 'char or the Kālacakra's nineteenth chapter say so? (svo:p271s)
+- Question: who wrote the *Rnam dpyod blo gros spyan stong bkra ba* in the 'Bri lugs bang mdzod, which quotes the Dbyangs 'char verse, and which Dbyangs 'char is it (a tantra in the Kangyur or Tengyur, or a Tibetan treatise)?
+
+### Searched and not found (RD322)
+
+- Steinert's dictionaries (no. 35, Thomas's doctor's dictionary, no. 48, the Tibetan Terminology Project, and the other 62): no headword «snying sdug» with a sense of sorrow or illness; Chandra Das p. 503 (entry «snying sdug») and Jäschke p. 223 are indexed in Steinert's files by page only and their text was not read; Das's and Jäschke's «thun gsum pa» (pp. 581, 259) likewise.
+- Steinert's dictionaries have no page numbers for Negi (no. 50), Tshig mdzod chen mo (no. 25) or Dung dkar (no. 34); the Mahāvyutpatti's own numbering (Sakaki) is not in the file, and Negi's «ma.vyu.8242» for the third watch is not matched to a number here.
+- «ཐུན་བརྒྱད» and «ཐུན་ཚོད་བརྒྱད» in the G.ya' sel etexts (I5875, I5876), in Dpal bsdus's manual (I4767): no gloss (the G.ya' sel's OCR is heavy with errors, so a miss proves little).
+- BDRC phrase searches (2026-11-10): «ཐུན་རེ་ལ་གཟའ་རེ» and «ཐུན་བརྒྱད་པོ་རེ་རེ་ལ་གཟའ» no hit; «ཐུན་རེ་གཟའ་རེ» 3 hits (WB's 1996 etext, the Gser thang reprint, the Dpyod ldan snying nor), «ཀླུ་རེ་ལྷན་ཅིག་འཆར» 4 (those three and the 'Bri lugs bang mdzod and the Yul mdo khams stod anthology).
+- The Tibetan Amarakośa (Mngon brjod 'chi med mdzod) with ཐུན་གསུམ for triyāmā: not located again; the equivalence rests on Negi.
+
