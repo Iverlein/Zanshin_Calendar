@@ -1873,6 +1873,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0939.md](questions/q0939.md) | question q939 | Do the commentaries on WB say that WB's eight watches of the day and night are the tantric ones of the Muktāvalī and Rang byung rdo rje? | open; cites svo:p271o |
 | [questions/q0940.md](questions/q0940.md) | question q940 | Does «སྙིང་སྡུག» in the Svapnohana mean something dear to the heart or heartache? | open; cites svo:p271n |
 | [questions/q0941.md](questions/q0941.md) | question q941 | Is «ཐུན་གསུམ» the Tibetan of Sanskrit triyāmā, and is it in the Amarakośa? | open; cites svo:p271p |
+| [questions/q0942.md](questions/q0942.md) | question q942 | On KCM img. 691 line 5 does the fruit of the rite end «…སྲིད་གསུམ་མཐོང་» (the three existences seen) or does the line name something else («ཁམས་སུ་མཆོད»)? | open; cites kcm:p474 |
 
 <!-- end pool index -->
 

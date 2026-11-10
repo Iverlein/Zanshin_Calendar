@@ -1968,3 +1968,6 @@ Searched and found wanting, so not to be repeated:
   - About 20 BDRC phrase searches for night-watch bounds (among them «མཚན་ཐུན་བཞི», «ཆུ་ཚོད་བདུན་ཕྱེད», «ཐུན་རེ་ལ་ཆུ་ཚོད», «ཉིན་མཚན་ཐུན་བརྒྱད») gave no hit; no text read gives a watch in hours or in 7½ water-hours; «ཐུན་བཞིར་བགོས» and «མཚན་ཐུན་བཞིར» hit only day retreat sessions.
   - For «སྙིང་སྡུག»: seven hits, all the Svapnohana itself; Steinert's dictionaries not cloned; no Tibetan Amarakośa found; Mipham's other works cannot be searched by author, the three hits carrying his name bound no watch.
   - The Narthang Tengyur etext (char. 420824) files the bird verse under four unrelated Tārā-sādhana titles, the BDRC outline there being mislabelled.
+- **RD219** (RD219, 2026-11-10):
+  - KCM img. 691 line 5 and img. 692 line 3: the cursive hand's letters cannot be told apart at 1.4–2×; the DTD photostat I3877 img. 222 is a 2099×476 bitmap with letters of a few pixels.
+  - SKP p. 51 line 2: ཚོང against ཚོད is not decided by the scan; RBG: no route to pp. 203–205 beyond the loan; bdrc.py scans fetches KCM, DTD and SKP images directly although bdrc.py volumes answers 401.
