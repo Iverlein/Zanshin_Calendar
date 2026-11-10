@@ -1,0 +1,12 @@
+---
+kind: claim
+type: note
+terms: [rmi-lam, bya-ba-dus-kyi-rim-pa]
+cites: ['mmk.1:p400-401', 'mmk.2:p147-149', 'mmk.2:p150', 'mmk.1:p438-439']
+feeds: []
+open: [whether, the, dream, is, set, aside, in, every, case, or, only, the, dream-named;,
+  whether, rim-pa, is, krama]
+---
+# The lines «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད།»: what the Sanskrit gives and the sense I read (RD372)
+
+The lines «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད། དེ་ཉིད་གཟིགས་པས་བསྟན་པ་ཡིན།» (Derge etext [p400]-[p401]) close the section of the three watches and the three poisons. What leads to them: the dreams of the three watches are tied to the three poisons, the phlegm to the passionate, bile to the hateful, wind to the deluded, and the mixed to the mixed (the Tibetan «ཆགས་ཅན་བད་ཀན་ཅན་ཤེས་བྱ། ཞེ་སྡང་ལས་བྱུང་མཁྲིས་པ་ཅན། རྨོངས་པ་རླུང་ལས་གྱུར་པ་ཡིན» "know the passionate as phlegmatic; the born of hatred bilious; the deluded wind-born"); the Sanskrit (mmk.2:p147-149) has the same: the passionate see village-ways and talk with women, the hateful quarrels, the deluded stupor and lost memory, "and dreams are always seen joined with the mixed". "Therefore" («དེ་བས། tasmāt») "in every way" the dream-named is «སྤངས» (spangs, given up, set aside; the Sanskrit word is unread, probably saṃvarjita) and "the order of the times of the act" (བྱ་བ་དུས་ཀྱི་རིམ་པ, bya ba dus kyi rim pa; the Sanskrit «kriyā-kāla-» with an OCR word that may be «krama» "order" or «sama» "equal") is "shown by the seers of reality" (དེ་ཉིད་གཟིགས་པས, de nyid gzigs pas, the Sanskrit «tattva-darśibhiḥ»; not "he sees that"). The sense I read: a dream by itself is not a thing to rely on, since it is born of the humours, the poisons and their mixing, so it is set aside, and what is relied on is the right time for each act, the order the truth-seers laid down; the verse of the four watches and the chapter on the measures of time (mmk.1:p438-439, which puts "the time of sleeping and of not sleeping" with the times of fire offering and recitation) are the two places in the tantra that speak of such an order. The Tibetan does not say "given up in every way" of all dreams: the same chapter goes on to the marks of the true dream (mmk.1:p403). This is a reading of the lines, not an answer found in a commentary: no Tibetan commentary on the lines was found (the exact phrase «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས» has two hits in BDRC, the Derge itself and a modern book on dream, Padma rdo rje's «Gnyid dang rmi lam bar gyi 'brel ba rnam par dpyad pa», quoting it in a run of lines).

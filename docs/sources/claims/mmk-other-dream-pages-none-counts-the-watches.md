@@ -1,0 +1,13 @@
+---
+kind: claim
+type: note
+terms: [rmi-lam]
+cites: ['mmk.1:p252', 'mmk.1:p318', 'mmk.1:p371', 'mmk.1:p374', 'mmk.1:p405', 'mmk.1:p416',
+  'mmk.1:p422-423', 'mmk.1:p461', 'mmk.1:p473', 'mmk.1:p482', 'mmk.1:p485', 'mmk.1:p487',
+  'mmk.1:p574-575', 'mmk.1:p599', 'mmk.1:p629']
+feeds: []
+open: []
+---
+# The other dream pages of the root tantra: asked dreams, sent dreams and bad dreams removed, none by watch, day or month (RD372)
+
+Besides the 15th chapter, the Derge etext of Toh 543 has the word for dream (རྨི་ལམ) on sixteen more pages of the root tantra, and none of them counts the watches of the night or gives a lunar day or month for the dream. Read whole in context (RD372): [p252] a skill among eight qualities (showing a Buddha-field in the dream); [p318] after saying the mantra 108 times on the fifteenth of the bright half, lying down on the spot: "in the dream it shows what will be accomplished or not", and the cloth-painting is drawn at once if a sign of success was seen, or the cloth is dried and put away if not; [p371] sleeping "that one night" at the rosary tree: a non-human form with fangs offers wealth; [p374] sleeping on kusha after blessing the rosary: a virtuous dream, a Buddha, Hearer or rhinoceros means the work has fruit; [p405] the wrathful king's mantra removes bad dreams; [p416] the Teacher's summary of the 15th chapter names the dream as told in passing; [p422]-[p423] the "Blazing crown-protrusion" mantra removes bad dreams and signs with one recitation; [p461] if a mantra has no fruit, 1,008 recitations with the Bhagavan and sleep on the kusha seat: he comes in the dream to show the cause; [p473] a five-coloured thread holds the seed even in the dream; [p482] good dreams are not told to others but before the Bhagavan; [p485] a bad dream: rise, recite, sleep again, and a good dream comes; [p487] a fragrant flower recited over 100,000 times, kusha seat: the dream shows what is wished; [p574]-[p575] the dream granted day after day, and "when one watch has passed" lie down (the watch not numbered); [p599] a harming rite makes the enemy see bad dreams; [p629] King Ajātaśatru sees in the dream as if awake (a story). The seven earlier pages of the same volume with the word ([p58], [p59], [p61], [p82], [p86], [p156], [p164]) belong to other texts (dhāraṇī sutras, colophons at [p17]-[p212]) and are not Toh 543. Every dream here is a dream asked for by sleeping after a rite, a dream sent by a mantra or deity, or a bad dream to be removed; the only places where the four watches are used for the dream are the 15th chapter's verse and the rite before it.

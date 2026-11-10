@@ -7,7 +7,21 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD372 (2026-11-10): every other «རྨི་ལམ» page of Toh 543 in the same etext (pp. [p252], [p318], [p371], [p374], [p405], [p416], [p422]-[p423], [p461], [p473], [p482], [p485], [p487], [p574]-[p575], [p599], [p629]) read whole in context, the pages with the watch word «ཐུན» ([p408], [p430]-[p432], [p436]-[p439], [p451], [p454], [p456], [p503], [p574], [p633]), and the Sanskrit's OCR for the closing lines of the dream section (printed pp. 147-150), the lists of «rāśi» (pp. 19 and 180); the scan I1KG9214 image 400 looked at (the print is too faint at the served size to be read syllable by syllable, as for RD370), so all of these stay at the etext state; the Tibetan commentaries found by exact phrase are in the claim mmk-reason-for-the-fourth-watch-in-sakya-manuals.
+
 Read by RD370 (2026-11-10): the Derge Kanjur's Mañjuśrīmūlakalpa (Toh 543) in the BDRC etext MW4CZ5369_0543 (volume etext VE4CZ5369_I1KG9214, pages [p396]-[p405], the 15th chapter; one run of searches by exact phrase from snr:p370 found it), the scan I1KG9214 image 397 looked at (the red print is too faint at the served size to be read syllable by syllable; the left-margin folio mark was not legible, so the Derge folio is not given, only the etext page = image), and the Sanskrit in the Internet Archive's text layers of Gaṇapati Śāstrī's edition (OCR, Roman letters are my reading of it); see mmk.1:p396-397 and the claims `mmk-*`.
+
+## <a id="mmk-2-p19"></a>mmk.2:p19 The Sanskrit of the first chapter: the list of the «rāśi», the zodiac and the classes of beings together
+
+*Read: machine, 2026-11-10.*
+
+> [p. 19] ... rāśayaḥ tad yathā: meṣa vṛṣabha mithuna karkaṭaka siṃha kanyā tulā vṛścika dhanu makara kumbha mīna vānara upa-kumbha(?) ... khaḍga(?) ... mahiṣa deva manuṣya śakra gandharva loka-sattva ... pratyeka(buddha) śrāvaka naraka vidyādhara ... tiryak preta asura piśita piśāca yakṣa-rākṣasa ... uttama madhyama adhamaś ceti. ity ete mahā-rāśayaḥ anekarāśi-śata-sahasra-rāśi-parivāritāḥ, yena śuddhāvāsa-bhavanaṃ, yena ca mahāpāpa(?)-sannipāta-maṇḍalaṃ, tenopanagnuḥ(?)
+
+In the assembly of the pure-abode palace the list of the «rāśi» is "as follows": ram, bull, twins, crab, lion, maiden, balance, scorpion (vṛścika), bow, sea-monster, jar, fish, monkey, ... buffalo, god, human, Śakra, gandharva, ... a solitary Buddha, a Hearer, a being of hell, a vidyādhara, ... an animal, a hungry ghost, an asura, flesh-eater, piśāca, yakṣa and rākṣasa ..., the best, the middle, the lowest; "these great rāśis, surrounded by hundreds of thousands of rāśis, came to the pure-abode palace and to the circle of the great assembly".
+
+The Sanskrit word «rāśi» (heap, class) here names the twelve signs of the zodiac and, in the same list, the classes of beings and states of birth; the eighth sign is written «vṛścika» (scorpion) in this list, while the dream chapter's Sanskrit (mmk.2:p152-153) leaves the eighth word unread; the Tibetan «སྡིག་པ» ("sin") at mmk.1:p403 is not the word «vṛścika», so either the Derge translator had a different word or the Tibetan is a slip, a doubt.
+
+Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query.
 
 ## <a id="mmk-2-p146"></a>mmk.2:p146 The Sanskrit of the opening and the verse of the four watches
 
@@ -20,6 +34,34 @@ Read by RD370 (2026-11-10): the Derge Kanjur's Mañjuśrīmūlakalpa (Toh 543) i
 
 Gaṇapati Śāstrī's edition, the 15th paṭalavisara (chapter), printed p. 146 (the page's running head in the 2008 reprint's text layer, "146 mañjuśrīmūlakalpa"), the same place as the Derge's mmk.1:p397. The Sanskrit prose and the four lines, written here in Roman letters as read from the Internet Archive's two OCR text layers of the Devanagari (the 1920 part 1, in.ernet.dli.2015.345315, and the 2008 reprint); the OCR is garbled in the words of the verse in each copy, and the form given is the reading both agree on in sense: "the bright half or the Miracle half, or on another auspicious day, in the first watch of the night ... [the fire offering] ... then having spread kusha with the tips ..., with a pillow of kusha stems, the head east before the cloth, not too far, not too near, let him lie, in the first watch given to wakefulness, bow to all Buddhas and bodhisattvas, confess sin and give himself to all Buddhas, then let him come under sleep as is easy." The four lines: "In the first watch, the dreams: they know them as born of phlegm (śleṣma); in the second, bile (pitta) from the rising, blamed, born of the world; in the third know the windy (vātika); in the fourth, born of truth (satya)."
 Machine, 2026-11-10 (OCR of the edition; the Roman letters are my reading of the OCR, not a scan reading). Doubts: the first line's «tān viduḥ ... sambhavān» (the OCR has «tāṃ viduḥ» and a garbled «svapnā»), the second line's «garhitā» (OCR «garita» / «afar»), and the fourth line's "satya-sambhavām" (both copies show the word as «satyasambhavām», the feminine form against the masculine plural of the first line, so the grammar is irregular as printed). The Tibetan: «བད་ཀན་ལས་བྱུང» "from phlegm", «མཁྲིས་པ» "bile", «འཇིག་རྟེན་ལ་ཡོད་སྨད་པ་ཡིན» is the Tibetan of «garhitā loka-sambhavā» (blamed, of the world), «བདེན་པར་འབྱུང་བ» "arising as true" the Tibetan of «satya-sambhavā». Differences from the Derge: the Sanskrit says "bright half or Miracle half or another auspicious day", the Derge «ལས་ཐམས་ཅད་ལ་ཡར་ངོའི་ཟླ་ཕྱེད་དམ། ཆོ་འཕྲུལ་ཆེན་པོའི་ཟླ་ཕྱེད་ལ་ངེས་པར་ཉིན་ཞག་བཟང་པོའི...» "for all rites, in the bright half or the half of the Great Miracle, certainly on a good day, in the first watch ...". The 84000 Sanskrit appendix of Toh 543 was not copied (non-commercial licence).
+
+## <a id="mmk-2-p147-149"></a>mmk.2:p147-149 The Sanskrit of the dream sections of the three humours, with the watch of each, and the closing lines of the section
+
+*Read: machine, 2026-11-10.*
+
+> [p. 147] ... prathame yāme tu darśanam (the first watch, of phlegm: ... svapnā yadi dṛśyeran kaphine sampravartate)
+> [p. 148] pittikasya tu svapnānāṃ dvitīye yāmi hi dehināṃ / jvalantam agnirūpaṃ vā nānā-rasa-samudbhavām ... pīta-ākāraṃ ca ātmānaṃ svapne yo 'bhipaśyati / pitta-samutthānād dvitīye yāme tu darśanāt ... madhyame yāma-nirdiṣṭā pitta-kāntānāṃ dehinām ... kathitā lokāgraiḥ svapnāḥ pitta-samudbhavāḥ / vātikāyas tu svapnānāṃ tṛtīye yāmi tu kathyate / bhāsvarā samantād darśanaṃ ... ākāśa-gamanaṃ ca tiryak ca nabhasvanam ...
+> [p. 149] ... kaṭv-amlaṃ sarva-khādyānāṃ bhakṣaṇaṃ ca vātike ... evamādīni svapnāni kathitā loka-puṅgavaiḥ / tridhā prayogād ye yuktāni rāga-dveṣa-mohinām / rāgiṇāṃ [ ... ] śleṣmajaṃ pittajaṃ [dveṣi] / mohajaṃ vātikaṃ ca vyatimiśraṃ vimiśritam / svapnopaghātaṃ rāgākhyaṃ grāmya-dharmaṃ tu darśanam / strīṣu saṅkathā bhavet tatra svapne śleṣma-samudbhave / dveṣiṇāṃ kalaha(?)-ākhyaṃ svapne pitta-samudbhave / mohanaṃ stimitākāraṃ smṛti-naṣṭopadarśane / vyatimiśreṇa saṃyuktāḥ svapnā dṛśyanti vai sadā / tasmāt sarva-prakāreṇa svapnākhyaṃ sa[ṃvarjitam?] / kriyā-kāla-[kramaś?] caiva nirdiṣṭas tattva-darśibhiḥ
+
+The Sanskrit places each humour's dreams in a watch: the phlegm dreams are seen "in the first watch" (prathame yāme), the bile dreams "in the second watch" («dvitīye yāme», and once «madhyame yāma» "in the middle watch"), the wind dreams "in the third" (tṛtīye yāme); the first verse (mmk.2:p146) puts the true dream in the fourth.
+
+The closing lines: "(These dreams) are joined by threefold application to the passionate, the hateful and the deluded: for the passionate the phlegm (dream) ..., for the hateful the bile ..., for the deluded the wind-born, and the mixed ones are mixed. The dream that is a harm (svapnopaghāta) named of passion is the seeing of village-ways (sexual union); with women a talk-together happens in a dream born of phlegm; for the hateful a quarrel in a dream born of bile; the deluded a dull, stupefied form, the showing of lost memory; and dreams are always seen joined with the mixed. Therefore, in every way, 'the dream-named' [is (given up)?], and «kriyā-kāla-[krama?]» (the act, the time [and the order?]) was pointed out by the seers of what is so (tattva-darśin)."
+
+This is the Sanskrit of the Tibetan lines «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད། དེ་ཉིད་གཟིགས་པས་བསྟན་པ་ཡིན།» (mmk.1:p400-401): «svapnākhyaṃ» is "dream-named", the Tibetan «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ» ; the Tibetan «སྤངས» "given up" stands where the OCR gives «sa[…]vitapū» (probably saṃvarjitam, "set aside", a doubt); «kriyā-kāla-» is the Tibetan «བྱ་བ་དུས» "the act's time", and the OCR's «समश्रैव/समशरैव» may be «kramaś caiva» (the Tibetan «རིམ་པ» "order") or «samaś caiva» ("equal") — a doubt; and «tattva-darśibhiḥ» is the Tibetan «དེ་ཉིད་གཟིགས་པས», "by the seers of reality (suchness)", not "he sees that very thing".
+
+Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query. The watch words of the first two humours' lines were read where the OCR is clearest; the page's other lines were not.
+
+## <a id="mmk-2-p150"></a>mmk.2:p150 The Sanskrit: the phlegm-natured should not take phlegm foods, and the wise do not sleep at that time
+
+*Read: machine, 2026-11-10.*
+
+> [p. 150] ... āhārāṃ śleṣmakāṃ sarvāṃ nātisevī bhaved japī / atyarthaṃ sevitā(ḥ) [dhṛtā?] svapnā [aśuddha(?)-artha-sambhavāḥ] / tān na seveta tadā mantrī [ ... ] / nāpi svapet tadā kāle yuktimanto vicakṣaṇāḥ / paittikasya tu sattvasya kathyate caritaṃ sadā ...
+
+[Of the phlegm-natured:] the one who recites should not take much of any phlegm food; "dreams, when such foods are taken to excess, ... (are born of what is without aim?)": those the mantra-holder should not use then; "nor should the wise, who reason, sleep at that time." Then the character of the bile-natured is told.
+
+The Tibetan of the same lines is at mmk.1:p401 «རྨི་ལམ་དོན་གྱིས་སྟོང་འགྱུར་བས། ... མཁས་པ་རིགས་པ་ལྡན་པ་ཡིས། དེ་ཡི་དུས་སུ་གཉིད་ལོག་མིན།» ("the dream becomes empty of sense ... the wise one with reason does not sleep at that time"). "That time" is the time at which the humour's own dream falls (the Sanskrit says «tadā kāle», "at that time"); the lines do not say that the first watch is not slept in, only that the person of that humour does not sleep when his humour's dream is due, and it is a doubt whether they mean the whole watch or the hour after the food.
+
+Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query.
 
 ## <a id="mmk-2-p152-153"></a>mmk.2:p152-153 The Sanskrit of the true-dream marks, the classes of beings and the use of the dream
 
@@ -38,6 +80,64 @@ Machine, 2026-11-10 (OCR of the edition; the Roman letters are my reading of the
 
 Gaṇapati Śāstrī's edition, the end of the 15th chapter's dream section, pp. 152-153 (the page head «पञ्चदशः पटलविसरः | १५३» stands in the text layer after the lines of p. 152), the same place as the Derge's mmk.1:p403 ([p403]-[p404]). Read from the 2008 reprint's text layer, Roman letters as I read the OCR. "These are the marks told of dreams that show the true, described by the sages formerly, who accomplished every aim. Ram, bull, the pair, crab, lion, balance, maiden, and (the eighth, not read: the Tibetan has «སྡིག་པ»), bow, sea-monster, jar and fish, elephant, god, monkey and asura, the siddhas, gandharvas and yakshas and the rest that are proclaimed for men: the classes (rāśi) of the many beings, told by the foremost bulls (best of men). ... Therefore by the sign of the dream the wide rites are to be applied. ... [p. 153] the mantra that destroys obstructors is fitted to the time of ..." (the last line's «tāraṃ kāle» is not read).
 Machine, 2026-11-10; OCR, not read on a page image. The Sanskrit "rāśi" of the list is the word for "heap, class, zodiac sign"; the list holds the twelve zodiac names and then more, so whether the verse speaks of the zodiac or of the classes of beings is a doubt the Tibetan «ཁྱིམ» ("house") does not settle. The eighth sign's word is unread in both copies.
+
+## <a id="mmk-2-p180"></a>mmk.2:p180 The Sanskrit of the chapter on planets and asterisms: not planets nor rāśis but the act is the cause; the rāśis again named, zodiac and beings
+
+*Read: machine, 2026-11-10.*
+
+> [p. 180] tasmāt karma samaṃ teṣāṃ karmo siddhir iṣyate / kathitā gaṇanā hy ete karma ca sadevatam // na grahā rāśayo yonir [akṣatāś ca supūjitāḥ?] / karma eṣa sadā vindyād vidhi-yuktā samoditā / phalodbhavaṃ ca sadā karma yukta-mantreṣu bhāṣitā / tasmād yuktitaḥ karma na graho nāpi rāśyajā // nakṣatrāṇāṃ tithīnāṃ ca gatiyāni samāsataḥ / kāla-pramāṇa-niyamaś ca na paraṃ karmayoḥ sadā // tasmāt tantravit sa eva dharme eva niyojayet / anantrahāṇāṃ loke rāśayo vividhāḥ pare // tithayo gaṇitā ... tasmāt saṃkṣepato vakṣye kathyamānaṃ nibodhata / meṣo vṛṣo mithunaś ca karkaṭaś ca suyojitaḥ / siṃha-kanyā-tulaṃ caiva vṛścika-dhanvinau pare / makaraḥ kumbha iti jñeyo mīna-vānarayo 'pare / mānuṣo deva-rāśiś ca apare garuḍāpare / yakṣa-rākṣasa-rāśyau ca tiryak-preta-śubhau pare / narakā rāśir nirdiṣṭā anantā gati-yonijā // nirdiṣṭā rāśayaḥ sarve nānā-dhātu-samudbhavāḥ / asaṅkhyeyā munibhiḥ [bhoktā?] rāśayo bahudhā pare
+
+Therefore the act is what counts, success is held to come from the act; these are the counts told, and the act with its gods. "Not the planets, not the rāśis, not the womb ... know this always: it is the act (karma), set out joined to rule; and the fruit-arising act is always spoken of in the rites joined with mantra; therefore by reasoning it is the act, not a planet and not what is born of a rāśi. The courses of the asterisms and of the lunar days, in brief, and the rule of the measure of time, are not other than the act for those two (the act and the knower?)." Then the rāśis again: ram, bull, twins, crab, lion-maiden-balance, scorpion and bow, sea-monster, jar, fish and monkey, the human and the god rāśi, the garuḍa, the yakṣa and rākṣasa, the animal and the ghost, the hells: "countless, born of the courses of birth", "all rāśis proclaimed, of many kinds of element, uncounted by the sages".
+
+This is the Sanskrit of the chapter on the asterisms and planets (the OCR's colophon after the lines names «mahānakṣatra-lakṣaṇa-nakṣatra-jyotiṣa-jñāna-parivarta», the second chapter of a run); it is probably the chapter that the Derge puts at [p423]-[p448], but the two were not matched line by line, so the Tibetan page is not given. The printed page number 180 is the page head the OCR gives before the lines. It says that the rāśis are of two kinds, the signs and the classes of beings, and that the act, not the rāśi or the planet, makes success; the dream chapter's lines after its own list of rāśis (mmk.2:p152-153, «guṇa» and «karma») speak of the same pair, the act and its quality, but whether the two passages say one thing is a doubt.
+
+Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query.
+
+## <a id="mmk-1-p252"></a>mmk.1:p252 Ch. 1: the eight qualities of a practitioner, one of them skill in showing a Buddha-field in the dream
+
+*Read: etext, 2026-11-10.*
+
+> [p252] ཆོས་བརྒྱད་དང་ལྡན་ན་རིག་པ་དང་སྔགས་ཀྱི་སྤྱོད་པའི་དོན་འགྲུབ་ཅིང་ལམ་དུ་འགྲོ་བར་འགྱུར་ཏེ། བརྒྱད་པོ་གང་ཞེ་ན། མཐོང་བ་དང་མ་མཐོང་བའི་འབྲས་བུ་དག་ལ་བལྟ་བ་དང་སེམས་པར་འདོད་པ་ཉིད་དང་། བྱང་ཆུབ་སེམས་དཔའི་འབྲས་བུ་དང་བཅས་པའི་རྫུ་འཕྲུལ་དང་རྣམ་པར་འཕྲུལ་པ་ཉིད་ལ་ཐེ་ཚོམ་མེད་ཅིང་དང་བ་ཉིད་དང་། ཕྱིན་ཅི་མ་ལོག་པའི་སྔགས་གཟུང་བ་དང་བླ་མ་ལ་གུས་པ་ཉིད་དང་། སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཉིད་ཀྱི་སྔགས་དང་། རྒྱུད་དང་སྤྱོད་པ་བསྟན་པ་མི་སླུ་བ་བཟུང་ཞིང་བདོག་པ་ཐམས་ཅད་ཡོངས་སུ་གཏོང་བ་ཉིད་དང་། སངས་རྒྱས་ཀྱི་ཞིང་གནས་དང་གནས་མ་ཡིན་པ་རྨི་ལམ་ན་མཐོང་བ་རབ་ཏུ་སྟོན་པ་ལ་མཁས་པ་ཉིད་དང་། སེར་སྣ་དང་གཉིད་དང་རྨུགས་པ་མཐའ་དག་དང་བྲལ་བར་བྱེད་ཅིང་རྟག་ཏུ་བརྩོན་འགྲུས་རྩོམ་ལ། སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ལ་བདག་ཉིད་འབུལ་བར་བྱེད་པ་ཉིད་དང་། མདོར་བསྡུ་ན་དགེ་བའི་རྩ་བས་ཆོག་མི་ཤེས་ཤིང་གོ་ཆ་ཆེན་པོ་བགོས་པ་དང་། བགེགས་ཐམས་ཅད་རབ་ཏུ་སེལ་བར་འདོད་པ་ཉིད་དང་། བྱང་ཆུབ་ཀྱི་སྙིང་པོ་གནོན་པ་དང་ལོངས་སྤྱོད་ཆེན་པོ་དང་། དབང་ཆེ་བར་གྲགས་པར་བདག་ཉིད་འདོད་པ་ཉིད་དང་དབང་ཆེ་བར་གྲགས་པའི་གང་ཟག་ལ་བསྙེན་པ་དང་དགེ་བའི་བཤེས་གཉེན་དང་མི་འབྲལ་བར་བྱ་བ་དང་། བྱང་ཆུབ་སེམས་དཔའ་འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཉེ་བར་གནས་པ་ཉིད་དེ། ཆོས་བརྒྱད་པོ་འདི་དག་དང་ལྡན་ན་སྔགས་སྤྱད་པའི་དོན་འགྲུབ་པའི་ཡང་དག་པའི་ལམ་དུ་འགྱུར་རོ།
+
+If he has eight qualities, the aim of the knowledge-mantra (རིག་པ, rig pa) and of mantra conduct is accomplished and he goes on the path. Which eight? (1) Wishing to look at and think on fruits seen and unseen; (2) no doubt, and faith, in the miracles and transformations of bodhisattvas with their fruit; (3) holding the unmistaken mantra, and respect for the teacher; (4) holding unfailing the mantras, tantras and teaching of Buddhas and bodhisattvas, and giving up all possessions; (5) skill in showing "the seeing in a dream (རྨི་ལམ་ན་མཐོང་བ, rmi lam na mthong ba) of the fields of the Buddhas, the place and the not-place"; (6) being free of greed, sleep and torpor, and always beginning effort, and offering himself to Buddhas and bodhisattvas; (7) in brief, not being content with the root of virtue, putting on the great armour, wishing to clear all obstructors; (8) staying near the young Mañjuśrī. With these eight the accomplishment of mantra practice is the true path. The page names the dream only as one skill among the eight; no watch, day or half-month is given.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p318"></a>mmk.1:p318 Ch. 6 (the small cloth-painting): the dream after the mantra shows whether the work will succeed
+
+*Read: etext, 2026-11-10.*
+
+> [p318] ཟླ་བ་ཡར་ངོའི་ཚེས་བཅྭ་ལྔ་ལ་རས་སྣོད་ཀྱི་མདུན་དུ་ཤར་དུ་མངོན་པར་ཕྱོགས་ཏེ། ཀུ་ཤའི་ཁྲེས་ལ་འདུག་ནས། སྔགས་ཀྱི་ཚིག་ལན་བརྒྱ་རྩ་བརྒྱད་བརྗོད་པར་བྱ་བ་ལ་འདི་ལྟ་སྟེ། ཨོཾ་ཧེ་ཧེ་བྷ་ག་བཱན་བ་ཧུ་རཱུ་བ་དྷཱ་ར་དི་བྱ་ཙཀྵུ་ཥེ། ཨ་བ་ལོ་ཀ་ཡ། ཨ་བ་ལོ་ཀ་ཡ། མཱཾ་ས་མ་ཡ་མ་ནུ་སྨ་ར་ཀུ་མཱ་ར་རཱུ་པ་དྷཱ་རི་ཎེ། མ་ཧཱ་བོ་དྷི་ས་ཏྭ་ཀིཉྩི་རཱ་ཡ་སི་ཧཱུཾ་སྥ་ཊེ་སྥ་ཊེ་སྭཱ་ཧཱ། སྔགས་འདི་བཟླས་པ་བྱས་ལ་དེ་ཉིད་དུ་ཉལ་བར་བྱའོ། །གཉིད་ལོག་པའི་རྨི་ལམ་དུ་འགྲུབ་པ་འམ་མི་འགྲུབ་པ་སྟོན་པར་འགྱུར་རོ། །དེ་ནས་ལངས་ནས་རྨི་ལམ་དུ་གྲུབ་པའི་མཚན་མ་མཐོང་ན་རིང་པོ་མི་ཐོགས་པར་རས་རིས་བྲི་བར་བྱའོ། །གལ་ཏེ་གྲུབ་པའི་མཚན་མ་རྨི་ལམ་དུ་མ་མཐོང་ན། རས་དེ་སྣོད་དེ་ལས་ཕྱུང་ལ་ཉི་མ་ལ་བསྐམས་ནས་ཡང་སྣོད་སར་པ་གཞན་དུ་བཅུག་ལ། ཤིན་ཏུ་དབེན་པར་ལེགས་པར་བསྲུང་བ་བྱས་ལ་བཞག་གོ
+
+On the fifteenth of the bright half of the month (ཟླ་བ་ཡར་ངོའི་ཚེས་བཅྭ་ལྔ, zla ba yar ngo'i tshes bco lnga) he faces east in front of the cloth in its vessel, sits on a kusha mat and says the words of the mantra 108 times: «ཨོཾ་ཧེ་ཧེ་བྷ་ག་བཱན ... སྭཱ་ཧཱ» (the mantra is written out on the page). Having recited this mantra he is to lie down on that very spot. "In the dream of his sleep it shows what will be accomplished or not accomplished." Then, having risen, if he has seen in the dream the sign of accomplishment, he is to draw the cloth-painting (རས་རིས, ras ris) without delay. If he has not seen the sign of accomplishment in the dream, he takes that cloth out of the vessel, dries it in the sun, puts it in another new vessel, guards it very well in a secluded place and leaves it.
+
+The dream is asked for by lying down on the spot where the mantra was said, on the night of the fifteenth day of the bright half; no watch of the night is named. Chapter number as the Derge's colophons count: the colophon at [p321] closes "the fourth cloth-painting rite"; the chapter is not named on this page.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p371"></a>mmk.1:p371 Ch. 11-12: sleeping one night at the rosary tree, the dream of the non-human form
+
+*Read: etext, 2026-11-10.*
+
+> [p371] དང་པོ་ཕྲེང་བའི་ཤིང་ལ་ནི། །སྔགས་ཀྱིས་ལན་གྲངས་ཉི་ཤུ་བདུན། །མངོན་པར་བསྔགས་པ་བྱས་ནས་ནི། །སྡོམ་བརྩོན་རྟག་ཏུ་བསྲུང་བ་བྱ། །མཚན་གཅིག་དེར་ནི་ཉལ་བྱས་ན། །རྨི་ལམ་ནང་དུ་དེས་མཐོང་བ། །མི་མ་ཡིན་གཟུགས་གྲུབ་པ་ནི། །མི་སྡུག་མཆེ་བ་གཙིགས་པའོ། །སྔགས་པ་ལ་ནི་དེས་སྨྲས་པ། །ནོར་ནི་ཅི་འདོད་ཁྱེར་ཅིག་ཅེས། །སྒྲུབ་བྱེད་ནང་པར་ལངས་ནས་ནི། །ཤིང་དེ་ལས་ནི་འགྲོ་བར་བྱེད། །སྔགས་པས་ཤིང་དེ་བོར་ནས་ནི། །གཞན་དག་ཏུ་ནི་འགྲོ་བྱེད་ན། །མི་སྡུག་གཟུགས་ཅན་འཇིགས་བྱེད་པ། །རྨི་ལམ་དུ་ཡང་མཐོང་མི་འགྱུར།
+
+At the first, at the rosary tree (ཕྲེང་བའི་ཤིང, phreng ba'i shing) with the mantra twenty-seven times, having praised it, the self-restrained one should always guard himself. "If he sleeps there that one night (མཚན་གཅིག, mtshan gcig), what he sees in the dream is a non-human form that has appeared, ugly, showing its fangs." That one says to the mantra-holder: "Take whatever wealth you wish." The practitioner rises at dawn (ནང་པར, nang par; the Tibetan «ནང་པར» is the early morning) and goes away from that tree; if the mantra-holder throws that tree away and goes to others, he will not see even in a dream the one of ugly frightening form.
+
+The night is a whole night ("that one night"); no watch is named. The lines belong to the rules for gathering the seeds of the rosary (the rudrākṣa, indrākṣa and others are named after it); not read further here.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p374"></a>mmk.1:p374 Ch. 12: sleeping on kusha after blessing the rosary; a virtuous dream shows the work has fruit
+
+*Read: etext, 2026-11-10.*
+
+> [p374] དེ་ནས་ཕྲེང་བ་ལ་བཟླས་ནས། །དེ་ཡི་མཚན་མོ་ཉལ་བར་བྱ། །ཀུ་ཤ་བཏིང་བའི་ས་ལ་ནི། །སྔགས་ཤེས་དེར་ནི་ཉལ་བར་བྱ། །གལ་ཏེ་དེས་ནི་རྨི་ལམ་ན། །དགེ་བའི་རྨི་ལམ་མཐོང་ན་ནི། །འབྲས་བཅས་རྨི་ལམ་སྟོན་པ་སྟེ། །དེ་ལ་གྲུབ་པར་བསྟན་པ་ཡིན། །སངས་རྒྱས་ཉན་ཐོས་བསེ་རུ་ནི། །གལ་ཏེ་འདི་ཡིས་རྨི་ལམ་མཐོང་། །སྔགས་པ་དེ་ཡི་བྱ་བ་ནི། །འབྲས་བཅས་ངེས་པར་འགྲུབ་པར་འགྱུར། །གཞོན་ནུའི་གཟུགས་ཅན་བྱིས་པ་ནི། །རྣམ་པ་སྣ་ཚོགས་མཛེས་མཐོང་བ། །གལ་ཏེ་རྨི་ལམ་ངེས་མཐོང་དང་། །ཕྲེང་བ་སྩོལ་བའང་དེ་བཞིན་ཏེ། །དོན་ཡོད་དེ་ནི་འགྲུབ་འགྱུར་ཏེ། །སྔགས་ཀྱི་དོན་རྣམས་སྒྲུབ་བྱེད་པའོ།
+
+Then, having recited over the rosary, "he is to lie down in the night (དེ་ཡི་མཚན་མོ, de yi mtshan mo)", the one who knows the mantra is to lie there on the ground spread with kusha. "If in the dream he sees a virtuous dream, this is the dream that shows fruit (འབྲས་བཅས་རྨི་ལམ་སྟོན་པ): it is taught that he accomplishes." If by this he sees in the dream a Buddha, a Hearer or a rhinoceros (བསེ་རུ, bse ru; the solitary Buddha), the mantra-holder's work will surely be accomplished with its fruit. A child of youthful form, seen beautiful in many ways: if the dream is surely seen, and the giving of the rosary likewise (the line «ཕྲེང་བ་སྩོལ་བའང་དེ་བཞིན་ཏེ» is a doubt), the purposeful work is accomplished and the aims of the mantras are accomplished.
+
+The sleep is "that night" after the recitations of the day; no watch named.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
 
 ## <a id="mmk-1-p396-397"></a>mmk.1:p396-397 The 15th chapter's opening: Vajrapāṇi's request, the rite of the dream, the four watches in one verse
 
@@ -186,3 +286,249 @@ Etext, 2026-11-10; the translation of the animal names is a doubt (སྦལ་�
 
 Etext pages [p404]-[p405], the mantra that destroys obstructors and the remedy for a bad dream. "The mantras that destroy obstructors are to be examined at that time (the time of drowsiness); then the mantra is recited in the right way": the great wrathful one (ཁྲོ་བོ་ཆེན་པོ, khro bo chen po) with six arms and six faces, the great mantra of four syllables (the etext's «ཡི་གེ་བཞི་པ» is a doubt: "the fourth syllable" or "of four syllables"), in the youthful form, in the fierce form of a boar's shape; "to destroy all obstructors, at the time of night, the god-king in a tiger-skin loincloth, with snakes hanging, a sword in the hand, in the form of Yama"; his mantra is given (namaḥ samantabuddhānām apratihataśāsanānām, tadyathā he he mahākrodha ṣaṇamukhāṣṭacaraṇa sarvavighnavināyakaghātaka hūṃ hūṃ ... svāhā, as the etext spells it), and the obstructors and misleaders cry out in fear when he speaks it; the Buddha and Mañjuśrī the youth (འཇམ་དཔལ་གཞོན་ནུ, 'jam dpal gzhon nu) are bowed to; [p405] the king of the wrathful ones puts into the state of drying and burning the one who breaks the pledge and breaks the head into seven parts "like the blossom of the arjaka". Then, to Mañjuśrī: "in the root tantra's mantras and the practice of those who succeed, above all the wrathful king is shown as the means to destroy all obstructors"; "if recited always it protects beings and removes bad dreams (རྨི་ལམ་ངན་པ་སེལ་བར་བྱེད, rmi lam ngan pa sel bar byed)".
 Etext, 2026-11-10; a summary, the mantra in Tibetan letters as the etext has it. Not read on the scan. Whether this is the Ender of Obstructors (བགེགས་མཐར་བྱེད, bgegs mthar byed) of the Sngags rim chen mo's remedy (snr:p370) is a doubt: the root tantra here names the wrathful king with six arms and six faces and no such name.
+
+## <a id="mmk-1-p405"></a>mmk.1:p405 The end of the wrathful king section: reciting his mantra always removes bad dreams
+
+*Read: etext, 2026-11-10.*
+
+> [p405] མ་ལུས་བགེགས་རྣམས་འཇིག་བྱའི་ཕྱིར། །དགྲ་རྣམས་ཀྱི་ནི་ཁྲོ་བ་སེལ། །ཟློས་པས་རྟག་ཏུ་འདོན་བྱས་ན། །སེམས་ཅན་རྣམས་ནི་སྲུང་དོན་དང་། །རྨི་ལམ་ངན་པ་སེལ་བར་བྱེད། །སྔགས་རྣམས་མ་ལུས་སྒྲུབ་པ་ལ། །འཇིག་རྟེན་མཆོག་གིས་གསུངས་པ་ཡིན།
+
+In order to destroy all obstructors, to calm the anger of enemies: if it is always recited by those who recite, it guards beings, and removes bad dreams (རྨི་ལམ་ངན་པ, rmi lam ngan pa). It was spoken by the supreme one of the world for the accomplishing of all mantras.
+
+A remedy for a bad dream by reciting the mantra of the wrathful king whose mantra stands at [p404]-[p405] (RD370's mmk.1:p404-405); no watch or day.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p408"></a>mmk.1:p408 The marks of the one who accomplishes: sleeping in the last watch and rising at dawn; birth at dawn
+
+*Read: etext, 2026-11-10.*
+
+> [p408] ལན་གསུམ་བཤང་ཞིང་སྔགས་དྲུག་དྲན། །གཙང་སྦྲའི་སྤྱོད་དགའ་ཡོངས་སུ་གཙང་། །གང་ཞིག་ཐུན་ནི་ཐ་མར་ཉལ། །ཐོ་རངས་ལྡང་བའི་སྐྱེ་བོ་རྣམས། །དེ་ཡི་གྲུབ་པ་རྟག་ཏུ་མཆོག །ལས་ཀུན་བྱེད་པར་སྣང་བ་ཡིན། །འབྲས་བུ་རྣམ་པ་སྣ་ཚོགས་དང་། །ཕུན་ཚོགས་རྣམ་པ་མང་པོ་ལ། །མི་རྣམས་རྗེས་སུ་འདོད་པ་ཡང་། །མཚན་ཉིད་ཀྱིས་ནི་མངོན་མཚན་པའོ། །རྒྱུ་སྐར་དག་ལའང་སྐྱེས་པ་ནི། །རྒྱལ་དང་ནམ་གྲུ་གྲེད་བོ་དང་། །མཆུ་དང་ལྷ་མཚམས་དག་དང་ནི། །ནག་པ་སྣར་མ་སྨིན་དྲུག་དང་། །ནུས་པའི་གཟའ་རྣམས་ཀྱིས་མཚན་པ། །དེ་དག་ལ་ནི་སྐྱེས་མཐོང་དང་། །ཉི་མའི་དཀྱིལ་འཁོར་འཆར་ཁ་ནི། །ཐོ་རངས་དུས་སུ་གང་སྐྱེས་དང་། །གང་ཚེ་དེ་ཡི་དུས་སུ་སྐྱེས། །དེ་ལ་གྲུབ་པ་རབ་ཏུ་སྣང་། །ཉིན་ཕྱེད་དང་ནི་ཐོ་རངས་དང་། །ཉི་མའི་མཐར་ཡང་གཟའ་བཟང་པོ། །དཀར་བ་ཟླ་བ་པ་ཝ་སངས། །སེར་བ་གཟའ་ལྷག་ཕུར་བུ་ཡིན། །སྐྱེ་བོ་རྣམས་ཀྱིས་མཐོང་ན་ནི། །འབྲས་བུ་འགྲུབ་ཕྱིར་ནུས་པ་ཡིན།
+
+[Of the one who passes water and stool three times and remembers the six-syllable mantra («བཤང་» is "to excrete"), who is glad of clean conduct and wholly clean:] "whoever sleeps in the last watch (ཐུན་ནི་ཐ་མ, thun ni tha ma), those beings who rise at dawn (ཐོ་རངས་ལྡང་བ, tho rangs ldang ba): his accomplishment is always the best; he is seen doing all acts." Then fruits of many kinds and many perfections; what people wish after is marked by the signs. Those born under the asterisms (རྒྱུ་སྐར, rgyu skar) named «རྒྱལ ... སྨིན་དྲུག» and marked by the powerful planets (གཟའ, gza'), for these the birth is seen, and for the one who is born at the rising of the sun's disc, at dawn (ཐོ་རངས་དུས་), in that time, success appears. At midday, at dawn and at sunset, with a good planet (white: the moon and «པ་ཝ་སངས»; yellow: «ལྷག་པ» and «ཕུར་བུ»; the identification of the planet names is not made here), seen by beings, the fruit is able to be accomplished.
+
+The last watch and dawn are named as the good time for the practitioner's own rising and for births. This is not about the dream. The page's other lines (the signs of the body of the accomplisher, pp. [p405]-[p408]) were not translated.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p416"></a>mmk.1:p416 Ch. 16 (in verse), the opening: the dream, virtuous and not, told in passing in the chapter before
+
+*Read: etext, 2026-11-10.*
+
+> [p416] སྔགས་ཀུན་དོན་དང་ལྡན་པ་ཡི། །རྨི་ལམ་དགེ་དང་མི་དགེ་ཡིན། །དེས་ན་ཞར་ལ་འདི་ཀུན་ནི། །སྔགས་ཀྱི་ཟློས་པ་བསྟན་པ་ཡིན། །གནོད་སྦྱིན་བདག་པོ་ཡིད་དགའ་ནས། །ཐལ་སྦྱར་སྤྱི་བོར་བྱས་ནས་ནི། །སྟོན་ལ་མགོ་བོས་ཕྱག་འཚལ་ནས། །དེ་ཚེ་ཚིག་ནི་འདི་སྐད་ཞུས། །འཇིག་རྟེན་རྗེས་སུ་གཟུང་དོན་དུ། །བློ་མཆོག་རྣམས་ཀྱིས་གསུངས་པ་དང་། །བདག་ལའང་རྗེས་སུ་ཐུགས་བརྩེ་དང་། །སེམས་ཅན་རྣམས་ནི་བདེ་དོན་དུ། །ཟློས་པའི་སྔགས་ནི་ཐམས་ཅད་ལ། །རྨི་ལམ་དགེ་དང་མི་དགེ་དང་། །སེམས་ཅན་མཆོག་དང་ཐ་མ་ཡི། །སྤྱོད་པའི་ཡོན་ཏན་རྒྱ་ཆེར་བསྟན། །བཟང་པོའི་འགྲོ་བའི་སྐྱེ་གནས་དང་། །རྒྱུ་དང་ཤེས་པའི་རྣམ་པ་སྤྱོད། །འདས་དང་མ་འོངས་ཤེས་པ་དང་། །དགེ་དང་མི་དགེ་ད་ལྟར་གྱི། །ཐམས་ཅད་ཀུན་འགྲོའི་ཤེས་པ་དང་། །ཀུན་མཁྱེན་ཡེ་ཤེས་སྤྱོད་པ་དང་། །སྣང་མེད་དམིགས་པ་མེད་པ་དང་། །སྤྲོས་མེད་རབ་ཏུ་སྤྲོས་པ་ཡིན། །རྣམ་པ་ཀུན་མཆོག་ལྡན་པ་དང་། །ཤིས་པ་ཞི་བ་བསྟན་པ་ཡིན། །སངས་རྒྱས་ཀུན་གྱི་མཐུ་རྣམས་ནི། །བློ་མཆོག་གིས་ནི་བསྟན་པ་ཡིན། །ཁྱད་པར་དུ་ནི་ཟློས་པ་ལ། །སྔགས་རྣམས་དོན་དང་ལྡན་པར་བཤད། །ལས་དང་ལས་འབྲས་སེམས་ཅན་གྱི། །བྱ་བ་དུས་དང་དེ་བཞིན་དུ། །དེ་བཞིན་སྣོད་དང་གནས་དང་ནི། །ཆ་བྱད་རྨི་ལམ་ཞར་ལ་གསུངས།
+
+[After the colophon of the 15th chapter at the head of the page, the Buddha says to Mañjuśrī that Vajrapāṇi's question has been answered at length in the chapter of the work of all aims in the circle of the mandala.] "The dream, virtuous and not virtuous, of all the mantras that have purpose: therefore in passing all this was taught, the recitation of mantra." Vajrapāṇi, glad, with palms joined at the crown, bows his head to the Teacher and asks: "For the taking up of the world, that the supreme minds have spoken, and out of pity for me, for the happiness of beings: for all recited mantras, the dream, virtuous and not, and the qualities of the conduct of the best and the last among beings are shown at length: the birth-places of good rebirths, the cause and the manner of knowledge ... Above all in recitation the mantras are said to have meaning; karma and its fruit, the acts of beings, the time, likewise the vessel, the place, the figure/dress (ཆ་བྱད་, cha byad) and the dream were told in passing."
+
+This is the summary of the 15th chapter by the Teacher himself: the dream «རྨི་ལམ་དགེ་དང་མི་དགེ» is one of a list of topics "told in passing" (ཞར་ལ་གསུངས, zhar la gsungs) inside the chapter on the work of all rites. No watch or day. «ཆ་བྱད» is rendered "figure/dress" as a doubt.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p422-423"></a>mmk.1:p422-423 Ch. 17: the mantra "Blazing crown-protrusion" removes bad dreams and bad signs with one recitation
+
+*Read: etext, 2026-11-10.*
+
+> [p422] རྨི་ལམ་ངན་དང་མཚན་མ་ངན། །བཟོད་པར་དཀའ་བའང་རྣམ་པར་འཇོམས། །ཀུན་མཁྱེན་བདག་ཉིད་ཆེན་པོ་ཡི། །དེ་ཐུགས་བྱང་ཆུབ་ལ་ཞུགས་པ། །མ་རུངས་བདུད་ཀྱི་སེམས་ཀྱིས་ནི། །བགེགས་ཆེན་འཇིགས་པར་ག་ལ་འགྱུར། །དེ་ནས་འཇིགས་པ་ཆེན་པོ་ནི། །དེས་ནི་རྒྱུ་མཚན་མེད་པར་སྣང་། །རྣམ་པ་སྣ་ཚོགས་འཇིགས་པ་རྣམས། །དེ་ལ་རྒྱུ་མཚན་མེད་པར་འབྱུང་། །དེ་ནི་བསོད་ནམས་སྟོབས་བསྐྱེད་པ། །ཡུན་རིང་དུས་སུ་ཡོངས་སུ་བསྔགས། །དེ་ཡི་སྔགས་ཀྱི་སྟོབས་ཀྱིས་ནི། །དེ་ཚེ་བདུད་ནི་བཅོམ་པར་འགྱུར། །རྫུ་འཕྲུལ་ལྡན་ཞིང་བརྩོན་འགྲུས་ཆེ། །དེ་ནི་འོད་ཆེན་ལྡན་པར་གྱུར། །དེ་ཡི་སྔགས་ཀྱིས་མཐུ་ཡིས་ནི། །བྱང་ཆུབ་དམ་པ་ཐོབ་པར་གྱུར། །རྨི་ལམ་ངན་པ་ཉེར་འཇིག་པ། །སྔགས་དེ་འདིར་ནི་བཤད་པར་བྱ། །གང་དག་ས་ལ་སྤྱོད་པ་ཡི། །འབྱུང་པོའི་ཚོགས་ཀུན་རབ་ཉོན་ཅིག །རྨི་ལམ་ངན་པ་བཟོད་དཀའ་དང་། །མ་རུངས་སེམས་ཅན་ཟློག་བྱེད་པ། །རྒྱལ་བ་སཱ་ལའི་དབང་པོ་ཡི། །སྔོན་ནི་སྔགས་རྒྱལ་ཡོངས་གསུངས་པ། །ལྷ་ཡི་ཚོགས་དང་གཟའ་རྣམས་དང་། །རྒྱུ་སྐར་སྐར་མཁན་རྣམས་ཉོན་ཅིག །གཟའ་དང་རྒྱུ་སྐར་སྐར་མ་རྣམས། །མ་རུངས་ཚར་གཅད་དོན་དང་ནི། །འབྱུང་པོ་རྣམས་ནི་ཐམས་ཅད་ཀྱང་། །ཞི་བའི་སེམས་ནི་རབ་བསྐྱེད་ཕྱིར། །གང་དག་ས་ལ་སྤྱོད་པ་དག །རྐང་མེད་རྐང་མང་དག་དང་ནི། །རྐང་གཉིས་དང་ནི་རྐང་བཞི་དང་། །མདོར་ན་སེམས་ཅན་ཐམས་ཅད་ནི། །འགྲོ་བ་དང་ནི་གནས་པ་ཡི། །འབྱུང་པོའི་ཚོགས་
+> [p423] རྣམས་ཀུན་ཉོན་ཅིག །ན་མཿསརྦ་བུདྡྷཱ་ནཱཾ། ཨ་པྲ་ཏི་ཧ་ཏ་ཤཱ་ས་ནཱ་ནཱཾ། ཁ་ཁ་ཁཱ་ཧི་ཁཱ་ཧི་ཧཱུྃ་ཧཱུྃ་ཛྭ་ལ་ཛྭ་ལ། པྲ་ཛྭ་ལ་པྲ་ཛྭ་ལ། ཏིཥྛ་ཏིཥྛ་ཥྚི་ཕཊ་ཕཊ་སྭཱ་ཧཱ། གཙུག་ཏོར་འབར་བ་ཞེས་བསྒྲགས་པའི། །སྔགས་འདི་སྔགས་རྣམས་ཀུན་གྱི་མཆོག །གང་ཞིག་ལས་རྣམས་སྟོང་ཕྲག་ནི། །དགུ་བཅུ་རྩ་བཞི་དག་དང་ནི། །བཀྲ་ཤིས་ཐམས་ཅད་འདོད་པ་ཡི། །རྣམ་པ་སྣ་ཚོགས་ལས་རྣམས་བྱེད། །རྨི་ལམ་ངན་དང་མཚན་མ་ངན། །ལན་ཅིག་བཟླས་པས་སེལ་བར་བྱེད།
+
+[In the chapter on the planets and stars as bound by the work of the deed:] "Bad dreams and bad signs, and what is hard to bear, it destroys. ... The mantra that destroys bad dreams will be taught here. All beings that move on the earth, listen: [the mantra against] bad dreams, hard to bear, that turns back unruly beings, formerly spoken by the king of mantras of the victor Śālendra (the Buddha Śālendrarāja); gods, planets, asterisms and the astrologers, listen. ... " Then the mantra «ན་མཿསརྦ་བུདྡྷཱ་ནཱཾ ... ཏིཥྛ་ཏིཥྛ་ཥྚི་ཕཊ་ཕཊ་སྭཱ་ཧཱ» is given. "This mantra called the Blazing Crown-protrusion (གཙུག་ཏོར་འབར་བ, gtsug tor 'bar ba) is the best of all mantras: whoever does ninety-four thousand rites ... all the different rites wished for as auspicious: bad dream and bad sign it removes by one recitation."
+
+No watch, day or half-month; the bad dream is removed by recitation at any time. The chapter's colophon at [p423] counts it the 17th.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p430-432"></a>mmk.1:p430-432 Ch. 18: births in the last watch of the night, at midnight, at sunrise, at midday, and the quality of each
+
+*Read: etext, 2026-11-10.*
+
+> [p430] ཟླ་བ་ཡང་ནི་བཟང་བ་སྟེ། །ཡང་ན་ཟླ་བའི་བུ་བདག་ཡིན། །ཉིན་ཕྱེད་རྫོགས་ན་སྐྱེ་བ་ནི། །འདི་ཡི་སྐྱེ་བར་སྣང་བ་ཡིན། །ནག་པའི་ཆ་དང་ས་རི་དང་། །ས་གའི་ཕྱེད་ཀྱིས་ལྷག་པ་ལ། །སྲང་གི་ཁྱིམ་སྟེ་བཟང་པོའི་དོན། །ཟླ་བ་ལ་སྤྱོད་སེམས་ཅན་གྱི། །འདི་ནི་མི་བཟད་ཞིང་ཡིན་ཏེ། །སྐལ་མེད་མ་ཡིན་ནོར་གྱི་གནས། །འདི་ཡི་སྐྱེ་བ་སྐྱེ་གྱུར་གནས། །མཚན་མོའི་ཐུན་གྱི་ཐ་མའོ། །མི་ནི་འདི་ལ་སྐྱེས་གྱུར་པ། །རྟག་ཏུ་བཏུང་བ་དག་ལ་དད། །སྤྱི་མཚན་མ་ཡིན་ངོ་ཚ་མེད། །མང་པོས་བཀུར་ཅིང་མཆོད་པ་དང་། །ལ་ལར་རྒྱལ་སྲིད་ལོངས་སྤྱོད་དང་། །ནོར་ཆེན་ཐོབ་པར་འགྱུར་བ་ཡིན། །ངེས་མེད་སྐྱེ་བ་ཡོངས་སྣང་ཞིང་། །བྱིས་པར་མས་ནི་སྤངས་པ་ཡིན། །གལ་ཏེ་སྐྱེ་བ་ཐོབ་འགྱུར་ན། །བུ་མང་བདེ་བ་སྐྱེ་བར་འགྱུར། །རྒྱུ་སྐར་ལྷ་མཚམས་ལས་སྐྱེས་པ། །བཟོ་ཡི་ལས་ནི་སྒྲུབ་པ་དང་། །བྱམས་པའི་བདག་ཉིད་གྲོགས་པོ་མང་། །རྟག་ཏུ་དཔའ་ཞིང་རྟུལ་ཕོད་ཆེ། །འཇིག་རྟེན་སྣྲོན་ལ་སྐྱེས་པ་ནི། །མི་ནི་རབ་གཏུམ་བརྟན་པ་ཡིན། །སྡུག་བསྔལ་མང་པོ་བཟོད་པ་དང་། །མི་ནི་མ་རུངས་སྐྱེ་བར་འགྱུར། །ཁྱིམ་ནི་སྡིག་པར་བཤད་པ་སྟེ། །རྟག་ཏུ་རྣོ་ཞིང་བབ་ཅོལ་བྱེད། །འདི་དག་ཉིད་ལ་རྟག་སྐྱེས་པ། །སྐྱེ་བར་ཡང་དག་བརྗོད་པ་ཡིན། །དེ་བཞིན་ཉིན་ཕྱེད་ཉི་མ་ལ། །གལ་ཏེ་མི་ནི་སྐྱེ་གྱུར་ན། །དྲག་ཅིང་གཡུལ་ལས་རྣམ་རྒྱལ་བའི། །རྒྱལ་པོར་དེ་ནི་ངེས་པར་འགྱུར། །བྱིས་པ་གཞོན་ནུའི་གཟུགས་ཡོད་པའི། །དེ་ཡི་སྐད་ཅིག་གཟས་མཐོང་འགྱུར། །ས་ཡི་ལྷ་མོའི་བུར་གྱུར་པ། །གང་ཡིན་དེ་ནི་མིག་དམར་གསུངས། །དེ་ཉིད་ཕྱིར་ན་ས་ལ་སྤྱོད། །རང་བུ་ཉིད་ཀྱིས་གསོད་པར་བྱེད། །དེ་ལས་གཞན་པ་བཟློག་པས་ནི། །དགེ་དང་མི་དགེའི་སྐྱེ་བ་ཉིད། །ཚེ་རིང་གཟི་བརྗིད་ལྡན་པ་དང་། །ཤེས་ལྡན་ཉིད་
+> [p431] དུའང་སྐྱེ་བར་འགྱུར། །ལྷ་མཚམས་ལ་ནི་རབ་སྐྱེས་པ། །ཤེས་རབ་ཆེ་ཞིང་གྲོགས་ལ་བྱམས། །མིག་དམར་གྱི་ནི་ཞིང་འདི་ཡིན། །ཡང་ན་རྟག་ཏུ་གཟའ་འདྲེས་ཡིན། །རྒྱུ་སྐར་སྣྲུབས་ལས་སྐྱེས་པ་དང་། །དེ་བཞིན་དུ་ནི་ཆུ་སྟོད་དང་། །ཆུ་སྨད་ཀྱི་ནི་ཆ་དག་ལ། །གཞུ་ཡི་ཁྱིམ་དུ་རབ་ཏུ་བསྟན། །དེ་ཡི་སྐྱེ་བའི་སྐྱེ་བ་ནི། །ཕུར་བུའི་ཞིང་དེར་བརྟན་པ་ཡིན། །ཉི་མ་ཕྱི་དྲོར་གྱུར་པ་དང་། །ཟླ་བ་ནམ་སྨད་གྱུར་པ་ལ། །དེ་ཡི་སྐྱེ་བ་ཞེས་བསྟན་པ། །གང་ཞིག་སྐྱེས་པ་སྐྱེ་བའི་རྒྱུ། །སྣྲུབས་ལས་སྐྱེས་པ་རང་རིགས་འཇིག །ཐ་མར་བཟང་པོར་འགྱུར་བ་ཡིན། །སྐྱེ་གནས་བར་མར་ལོངས་སྤྱོད་ནི། །ཐོབ་པར་དེ་ནི་ཐེ་ཙོམ་མེད། །གཞོན་པ་ཡོངས་སུ་འདས་པ་ན། །སྣང་བྱེད་དཀྱིལ་འཁོར་ཇི་ལྟ་བར། །རྒས་པར་གྱུར་ན་རྒྱལ་པོར་འགྱུར། །ལོངས་སྤྱོད་ཆེ་ཞིང་ནོར་ཆེར་འགྱུར། །དམའ་བའི་ཕྱོགས་སུ་ལུས་འགྱུར་གྱི། །གཞན་གྱི་ཕྱོགས་སུ་མ་ཡིན་ནོ། །དེ་ལས་གཞན་དུ་བཟློག་པར་ནི། །རྣམ་པ་སྣ་ཚོགས་སྐྱེ་བོ་སྣང་། །ཆུ་སྨད་ཀྱི་ནི་ཆ་དག་དང་། །གྲོ་བཞིན་ཉིད་དུ་བརྟན་པ་དང་། །མོན་གྲུ་རྒྱུ་སྐར་མཆོག་ཉིད་ནི། །ཁྱིམ་འདི་ཆུ་སྲིན་ཁོ་ན་ཡིན། །འདི་ནི་སྤེན་པའི་ཞིང་ཡིན་ཏེ། །ཡང་ན་གཟའ་གཞན་གྱིས་མཚན་པའོ། །རྟག་ཏུ་འདི་ལ་སྐྱེ་གནས་པ། །དེ་ཡང་ས་སྟེང་འདི་ལ་སྣང་། །དང་པོའི་མཐའ་དང་བར་མའི་མཐའ། །མཚན་མོའི་ཆ་ནི་འདས་པ་ལ། །དེ་དག་ལས་སྐྱེས་ལོངས་སྤྱོད་ཆེར། །ཀུན་ནས་སྣང་བར་གྱུར་པ་ཡིན། །མཐོ་དང་དམའ་བའི་རིགས་གནས་ཤིང་། །དེ་དག་ས་ཡི་བདག་པོར་འགྱུར། །རབ་གཏུམ་ཁ་དོག་ནག་པོའམ། །སྔོ་བསངས་མདོག་ཏུ་དེ་དག་འགྱུར། །མིག་མཐའ་དམར་ཞིང་འཇམ་པ་དང་། །རྟག་ཏུ་དཔའ་ཞིང་རྟུལ་ཡང་ཕོད། །དེ་བཞིན་ཆུ་ཡིས་ཁྱབ་པ་ཡི། །ཕྱོགས་སུ་རྒྱལ་པོ་བྱེད་པར་འགྱུར། །ཚེ་རིང་བུ་ནི་མེད་པ་དང་། །སྡུག་བསྔལ་མང་པོ་བཟོད་པར་འགྱུར། །དེ་ལས་གཞན་པ་བཟློག་པ་ལ། །སྐྱེ་བོ་རྣམ་པར་བཟློག་པ་སྣང་། །མོན་གྲུའི་ཕྱེད་དང་མོན་གྲེ་དང་། །དེ་བཞིན་ཁྲུམས་སྟོད་ཕྱེད་དག་ནི། །དེ་ཡི་ཁྱིམ་དུ་འགྱུར་བ་ནི། །བུམ་པ་ཞེས་ནི་བརྗོད་པ་ཡིན། །འདི་ལ་གཟའ་ཡི་གཙོ་བོ་ནི། །ཞིང་དུ་
+> [p432] རྟག་ཏུ་བརྟེན་པ་ཡིན། །དེ་བཞིན་འདྲེས་པའང་ཟླ་བ་དང་། །བློ་ལྡན་པ་ཝ་སངས་ཉིད་ཡིན། །འདི་དག་སྐྱེ་བར་འགྱུར་བ་ནི། །མཚན་མོའམ་ནམ་ནི་ལངས་པར་སྣང་། །རྟག་ཏུ་སྐྱེ་འདི་བཟང་པོ་སྟེ། །འཇིག་རྟེན་སྤྱོད་པ་དག་པ་ཡིན། །མི་ནི་མ་རུངས་ལས་བྱེད་ཅིང་། །བློ་དང་ལྡན་པར་བརྗོད་པ་ཡིན། །ལོངས་སྤྱོད་སྣ་ཚོགས་ཕུན་སུམ་ཚོགས། །ས་སྟེང་རྗེས་སུ་སྤྱོད་པར་འགྱུར། །དེ་ལས་གཞན་དུ་བཟློག་ན་ནི། །དབུལ་ཞིང་ནད་རྣམས་སྣོད་དུ་འགྱུར། །རྒྱུ་སྐར་ཁྲུམས་སྨད་ཉིད་དང་ནི། །ནམ་གྲུ་ཞེས་ནི་བརྗོད་པ་དང་། །ཁྲུམས་སྟོད་ཀྱི་ནི་བཞི་ཆ་ལ། །ཁྱིམ་ནི་ཉ་རུ་རབ་ཏུ་བརྟགས། །སྐྱེ་བ་དེ་དག་རྟག་གནས་པ། །ཀུན་ཏུ་ཇི་ལྟར་སྣང་ཞེ་ན། །མཚན་མོའི་ཐུན་གྱི་བར་མ་དང་། །ཉིན་པར་ཉི་མ་ཤར་བ་དང་། །ཉི་མ་ཐུན་ཕྱེད་འདས་པ་དང་། །ཉིན་ཕྱེད་ཅུང་ཟད་འདས་པ་དང་། །ལྷག་མ་ཁྲུ་གང་ཙམ་འདས་པར། །འདི་ཡི་དུས་སུའང་སྐྱེས་པ་ནི། །དག་པ་དང་ནི་རབ་དག་ཉིད། །པ་སངས་ཉིད་ཀྱིས་རབ་ཏུ་མཆོད། །པ་ཝ་སངས་ཀྱི་ཞིང་ཞེས་པ
+
+[The chapter on the asterisms and planets of birth: the person born in the house of the balance and the like.] "If a birth takes place when midday is complete, this one's birth is seen as ... " and further: «མཚན་མོའི་ཐུན་གྱི་ཐ་མའོ» "it is the last watch of the night (མཚན་མོའི་ཐུན་གྱི་ཐ་མ, mtshan mo'i thun gyi tha ma)": the man born in this one loves drink, is shameless ..., ('the birth is not fixed in advance'). On [p432]: "These births come at night or when arising ... " and the answer to «ཀུན་ཏུ་ཇི་ལྟར་སྣང་ཞེ་ན།» "how do these births appear everywhere?": «མཚན་མོའི་ཐུན་གྱི་བར་མ» "the middle watch of the night" (མཚན་མོའི་ཐུན་གྱི་བར་མ, mtshan mo'i thun gyi bar ma), "at the rising of the sun at daybreak, when the sun's half-watch has passed (ཉི་མ་ཐུན་ཕྱེད་འདས་པ), when a little of the day's half has passed, when a fathom is left: one born at this time too is pure and very pure, honoured by Pa sangs (Venus)..."
+
+Here the watches of the night (last, middle) and the half-watch of the sun are the divisions of the day for a birth's quality: the same word «ཐུན» is used for the night's parts as in the dream verse, with a middle watch. The passage is long and only the lines with the watches were read; doubts in the middle, mainly «ཉི་མ་ཐུན་ཕྱེད་འདས་པ» (a sun's half-watch?).
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p436-437"></a>mmk.1:p436-437 Ch. 18: the omens of an earthquake by watch of the night, at dawn and at sunrise
+
+*Read: etext, 2026-11-10.*
+
+> [p436] མཚན་མོའི་ཐུན་ནི་དང་པོ་ལ། །གལ་ཏེ་ས་ནི་འགུལ་གྱུར་ན། །སེམས་ཅན་འདྲེས་པ་སྣ་ཚོགས་དང་། །དུད་འགྲོའི་སྐྱེ་གནས་རྣམས་དང་ནི། །མི་ནི་འཇིག་རྟེན་གཙོ་རྣམས་སུ། །ཆར་ཆེན་རབ་ཏུ་འབྱུང་བར་འགྱུར། །ཅུང་ཟད་ཐུན་དེ་བྲི་གྱུར་ལ། །ས་ནི་འགུལ་བར་གྱུར་པ་ཡི། །དེ་ཚེ་རྟགས་དེ་སྣང་གྱུར་ན། །རླུང་དང་ཆར་པའི་འཇིགས་ཆེན་འབྱུང་། །དེ་ནས་ཐུན་དེ་ཟད་པའི་མཐར། །འགུལ་སྣང་ལས་ནི་མི་བཟད་པ། །ནུབ་ཕྱོགས་མི་ཡི་བདག་པོ་ཡི། །ཕ་རོལ་དམག་ཚོགས་འབྱུང་བར་ཤེས། །ཐུན་ནི་གཉིས་པ་དང་པོ་ལ། །གལ་ཏེ་ས་ནི་འགུལ་བ་བྱུང་། །གཞན་གྱི་དམག་ཚོགས་ནད་དང་འཆི། །ཁོང་པའི་ནད་ནི་མི་བཟད་འབྱུང་། །མཁྲིས་པ་བད་ཀན་ལས་གྱུར་ནད། །སྐྱེ་བོ་རྣམས་ལ་འབྱུང་བར་འགྱུར། །འབྱུང་པོ་རྣམས་ནི་སྐྱོ་འགྱུར་ཞིང་། །དེ་ཚེ་ཕྱོགས་དང་ཕྱོགས་སུ་འགྲོ། །དེ་ནས་གཉིས་པའི་ཐུན་དཀྱིལ་དུ། །ས་ནི་རབ་ཏུ་འགུལ་བྱུང་ན། །རླུང་ཆེན་འབྱུང་བར་ཤེས་བྱ་སྟེ། །ཤིང་དང་ལྷ་ཁང་འགྱེལ་བར་འགྱུར། །ཡང་ཐོག་ར་བ་རི་རྣམས་ཀྱི། །རྩེ་མོ་འཇིག་པར་ཐེ་ཚོམ་མེད། །གནས་དང་འདུག་གནས་བཟང་པོ་དང་། །ཁང་པ་དང་ནི་རྟ་བབས་དང་། །དུད་འགྲོ་རྣམས་ཀྱི་འདུག་གནས་ཀྱང་། །ས་ལ་མྱུར་དུ་ལྟུང་བར་འགྱུར། །དེ་ནས་མཚན་ཕྱེད་དུས་དག་ཏུ། །གལ་ཏེ་ས་ནི་འགུལ་བ་བྱུང་། །དེ་ཚེ་ཤར་ཕྱོགས་ཡུལ་གྱི་བདག །མི་མཆོག་གཙོ་བོ་འཆི་བའམ། །དེ་བུ་འཆི་བར་འགྱུར་བའམ། །མུ་གེ་འབྱུང་བར་རབ་ཏུ་སྟོན། །བར་མའི་ཐུན་ནི་བྲི་གྱུར་ནས། །ཐ་མར་ཉེ་ལ་འགུལ་བ་བྱུང་། །ས་རྣམས་དག་ནི་མ་ལུས་ལ། །ཞི་ཞིང་ནད་མེད་ངེས་པར་སྟོན། །དེ་ནས་མཚན་ཕྱེད་མཐར་གྱུར་ལ། །གལ་ཏེ་ས་ནི་འགུལ་བར་སྣང་། །གཤེར་ཆེན་ཡུལ་གྱི་དབུས་དག་ཏུ། །མི་ཡི་བདག་པོ་ནད་ཀྱིས་གནོན། །ཕན་ཚུན་མི་མཐུན་གྱུར་ནས་ནི། །སྡུག་བསྔལ་མི་བཟད་འཆི་བར་འགྱུར། །ཐུན་ནི་གསུམ་པར་ཕྱིན་ནས་འགུལ། །བྱིས་པ་རྣམས་ལ་བདེ་བ་འབྱུང་། །སྦྲང་
+> [p437] བུ་ཤ་སྦྲང་ཕྱེ་ལེབ་དང་། །རྐུན་པོ་རྣམས་ནི་འཇིག་པར་འགྱུར། །ཐོ་རངས་འགུལ་བར་གྱུར་ན་ནི། །ཚེ་རིང་ནད་མེད་ལོ་ལེགས་བྱེད། །གྲོང་ཁྱེར་གྱི་ནི་ཁོར་ཡུག་དག །མེ་ཡིས་ཚིག་པར་ཤེས་པར་བྱ། །ཉི་མ་འཆར་བའི་དུས་དག་ཏུ། །ས་ནི་རབ་ཏུ་འགུལ་བ་བྱུང་། །དབུས་ཀྱི་ཡུལ་ནི་ཐམས་ཅད་དུ། །རྐུན་མས་རྣམ་པར་འཚེ་བར་འགྱུར། །དེ་ཚེ་ཞག་ནི་བདུན་དག་ལས། །རྒྱལ་པོ་འཆི་བར་སྣང་བ་ཡིན།
+
+[The earthquake as an omen.] "In the first watch of the night (མཚན་མོའི་ཐུན་ནི་དང་པོ, mtshan mo'i thun ni dang po), if the earth shakes: mixed beings, the animal births and men, among the world's leaders, great rain will come. If it shakes when the watch has somewhat lessened, and this sign shows, great fear of wind and rain; when that watch has run out, unbearable shaking: know that an enemy army of the lord of men in the west will come. At the beginning of the second watch (ཐུན་ནི་གཉིས་པ་དང་པོ), if the earth shakes: the enemy's army, disease and death; unbearable stomach disease; diseases from bile and phlegm come to beings; creatures are sad and flee in every direction. In the middle of the second watch (གཉིས་པའི་ཐུན་དཀྱིལ་དུ), if the earth shakes: a great wind, trees and temples fall, towers, walls and peaks of mountains break, houses and stables and the homes of animals fall quickly to the ground. Then, at midnight (མཚན་ཕྱེད་དུས, mtshan phyed dus), if the earth shakes: the lord of the eastern land, the best of men, dies, or his son dies, or famine comes. Having lessened in the middle watch (བར་མའི་ཐུན, bar ma'i thun), at the end it shakes near: for all lands peace and no disease. Then at the end of midnight (མཚན་ཕྱེད་མཐར) if an earthquake is seen: the lord of men in the middle of a land of great moisture is overcome by disease, they are at odds with one another, unbearable suffering and death. Going into the third watch (ཐུན་ནི་གསུམ་པར་ཕྱིན་ནས) it shakes: happiness comes to children; ... robbers perish. If it shakes at dawn (ཐོ་རངས, tho rangs): long life, no disease, a good year; the surroundings of cities are burnt by fire. At the time of sunrise (ཉི་མ་འཆར་བའི་དུས) if the earth shakes strongly: in all the central lands thieves do harm; within seven days the king appears to die."
+
+The chapter divides the night into first, second and third watches with a beginning, a middle, a decline and an end of each, and names midnight, dawn and sunrise separately; the page counts three watches before dawn, not four, and a "middle watch" (བར་མའི་ཐུན) beside them: how the three-plus-midnight scheme is counted against the dream verse's four watches is a doubt. The lines on bees, flies and wasps («སྦྲང་བུ་ཤ་སྦྲང་ཕྱེ་ལེབ») are not understood. The passage is the one RD370 recorded as at "[p699] and following" (a wrong page: the earthquake lines by watch are at [p436]-[p437]).
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p438-439"></a>mmk.1:p438-439 Ch. 18: the measures of time: a watch is four chu tshod, or four yud tsam; four watches make a day, four a night
+
+*Read: etext, 2026-11-10.*
+
+> [p438] མིག་ནི་འབྱེད་དང་འཛུམས་པ་དང་། །སེ་གོལ་མྱུར་བའི་འགྲོས་འདི་ནི། །འདི་དག་དུས་ཀྱི་ཚད་དག་ནི། །རྒྱ་ཆེར་ཡང་ནི་བསྟན་པར་བྱ། །སེ་གོལ་བརྒྱ་ཡི་ཚོགས་དག་ལ། །རྩ་རྒྱུན་གཅིག་ཏུ་བསྟན་པ་ཡིན། །རྩ་རྒྱུན་བཞི་ལ་ཆུ་ཚོད་བསྟན། །ཆུ་ཚོད་བཞི་ལ་ཐུན་ཞེས་བྱ། །ཐུན་བཞི་ལ་ནི་ཉིན་པར་ཏེ། །མཚན་མོ་དག་ཀྱང་དེ་བཞིན་བསྟན། །དེ་ལྟར་བརྒྱད་དང་ལྡན་པ་ལ། །ཉིན་མཚན་
+> [p439] དུ་ནི་རབ་ཏུ་བརྟགས། །མིག་གི་འབྱེད་འཛུམས་བཅུ་ལ་ནི། །སྐད་ཅིག་ཙམ་དུ་རབ་ཏུ་བརྟགས། །སྐད་ཅིག་བཅུ་ཞེས་བཤད་པ་ནི། །ཡུད་ཙམ་དུ་ནི་ཡོངས་སུ་བརྟགས། །ཡུད་ཙམ་བཞི་ལ་ཐུན་གཅིག་ཅེས། །སྔགས་རིག་པས་ནི་ཡོངས་སུ་བརྟགས། །འདི་ཙམ་དུས་ཀྱི་ཚད་ལ་ནི། །གསུམ་གྱི་གྲངས་སུ་ཡོངས་སུ་བརྟགས། །སྦྱིན་སྲེག་དུས་དང་བཟླས་པ་ཡི། །གྲུབ་པའི་དུས་དང་སྦྱར་བར་བྱ། །ཉལ་བའི་དུས་དང་མི་ཉལ་དང་། །རྟག་ཏུ་ཉིན་ཞག་ཕྲུགས་བཏུངས་ལ། །ཉིན་དང་མཚན་ནི་ཉི་མ་ཞེས། །དེ་ལྟར་མིང་ནི་འཇུག་པ་ཡིན། །ཉི་མ་བཅྭ་ལྔ་ཉིད་ལ་ནི། །ཟླ་བ་ཕྱེད་དུ་རབ་ཏུ་བསྟན། །ཟླ་ཕྱེད་གཉིས་ལ་ཟླ་བ་ཞེས། །རྩིས་ཤེས་འཇིགས་པ་མེད་པས་བསྟན། །དེ་བཞིན་ཟླ་བ་ཟླ་དྲུག་གིས། །སྒྲ་གཅན་གྱིས་ཀྱང་འཛིན་པ་ཡིན། །དེ་ནས་ཟླ་བ་བཅུ་གཉིས་ལ། །ལོ་ཡི་སྒྲར་ནི་རབ་ཏུ་བསྒྲགས། །དེ་ནས་ལོ་ནི་བཅུ་གཉིས་ལ། །ལོ་ཆེན་ཞེས་ནི་དེ་ལ་བྱ།
+
+[Close of the chapter's rules for the days of the half-month and the planets.] "These measures of times will also be taught at length. Of the groups of a hundred se gol (སེ་གོལ, se gol; the opening and closing of the eye, a swift motion) one rtsa rgyun (རྩ་རྒྱུན, rtsa rgyun) is shown; for four rtsa rgyun the chu tshod (ཆུ་ཚོད, chu tshod, the 'water-measure') is shown; for four chu tshod it is called a watch (ཐུན, thun); four watches are the daytime (ཉིན་པར), and the nights are shown likewise. Thus, being eight, 'day and night' (ཉིན་མཚན) is reckoned. For ten openings and closings of the eye a moment (སྐད་ཅིག, skad cig) is reckoned; ten moments are reckoned as a yud tsam (ཡུད་ཙམ, yud tsam); for four yud tsam 'one watch', the mantra-knowers reckon. This much for the measure of time is reckoned in a count of three (the line «གསུམ་གྱི་གྲངས་སུ་ཡོངས་སུ་བརྟག» is a doubt). Join the time of the fire offering and of recitation with the time of accomplishment. The time of sleeping and of not sleeping (ཉལ་བའི་དུས་དང་མི་ཉལ་, nyal ba'i dus dang mi nyal) ... always ... (the line «རྟག་ཏུ་ཉིན་ཞག་ཕྲུགས་བཏུངས་ལ» is not understood). 'Day and night' is called 'sun' (ཉི་མ); so the name is applied. For fifteen days the half-month is shown; for two half-months 'month' (ཟླ་བ), the reckoners say without fear. ... For twelve months the sound 'year' (ལོ) is proclaimed; for twelve years 'great year' (ལོ་ཆེན)."
+
+In this tantra a watch is one eighth of the day-and-night (four by day, four by night). It gives two equations for a watch that do not obviously agree, four chu tshod and four yud tsam, and says on [p438] that the yud tsam are thirty to the day-and-night («ཡུད་ཙམ་དག་ཏུ་བསྟན་པ་ནི། ཉིན་ཞག་སུམ་ཅུ་ཉིད་ལའོ») while eight watches of four make thirty-two: the numbers are not reconciled here and are a doubt. The text puts "the time of sleeping and of not sleeping" between the time of fire offering and recitation and the day count: the only other place in Toh 543 that speaks of times for sleeping.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p451"></a>mmk.1:p451 Ch. 20: the rite in which the first watch passes and he sits down for the second
+
+*Read: etext, 2026-11-10.*
+
+> [p451] ཐུན་དང་པོ་འདས་ཤིང་ཐུན་གཉིས་པ་ལ་ཉེ་བར་འདུག་སྟེ། སེམས་རྩེ་གཅིག་པས་ཇི་སྲིད་རབ་ཏུ་འབར་བའི་བར་དུ་བཟླས་པ་བྱའོ།
+
+[In the rite of the crown-protrusion king, having guarded himself and his companions in the mandala, holding the vajra in the right hand:] "the first watch having passed, he sits near the second watch (ཐུན་གཉིས་པ, thun gnyis pa) and with a one-pointed mind recites until it blazes (until the sign of fire appears)."
+
+A rite given by the watch (the second) and not a dream; the Tibetan «ཐུན» here is the same unit as in the dream verse.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p454"></a>mmk.1:p454 Ch. 20: in the second watch, sitting cross-legged, honouring the hook with flowers
+
+*Read: etext, 2026-11-10.*
+
+> [p454] དེ་ནས་ཐུན་གཉིས་པ་ལ་རྩེ་གཅིག་པའི་ཡིད་ཀྱིས་སྐྱིལ་མོ་ཀྲུང་བཅས་ལ། ལྕགས་ཀྱུ་ལ་མེ་ཏོག་དང་དྲི་དང་བདུག་པས་མཆོད་ན་དེ་བསྲུང་བ་བྱས་པ་ཡིན་ནོ།
+
+Then in the second watch, with a one-pointed mind, having sat cross-legged, if he honours the iron hook (ལྕགས་ཀྱུ) with flowers, scent and incense, that is guarding it. 
+
+A rite given by the second watch; no dream.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p456"></a>mmk.1:p456 Ch. 20: the first watch passed, in the second he sits to look upon Vajradhara; a fire offering in one watch of the night
+
+*Read: etext, 2026-11-10.*
+
+> [p456] དང་པོའི་ཐུན་འདས་ཏེ་གཉིས་པའི་ཐུན་ལ་སྐྱིལ་མོ་ཀྲུང་བཅས་ཏེ་འདུག་ལ། སེམས་རྩེ་གཅིག་པས་རྡོ་རྗེ་འཛིན་བལྟ་བར་བྱའོ། །ཞེས་སེམས་ལ་ཀུན་ཏུ་བརྟགས་ཏེ། གུ་གུལ་གྱི་རིལ་བུ་རྒྱ་ཤུག་གི་འབྲས་བུའི་ཚད་ཙམ་གྱི་མཚན་མོ་ཐུན་གཅིག་ཏུ་སྦྱིན་སྲེག་བྱའོ།
+
+[After a great offering:] "the first watch having passed (དང་པོའི་ཐུན་འདས་ཏེ), in the second watch he sits cross-legged and with a one-pointed mind looks upon Vajradhara. Thus having thought it through in his mind, he offers fire in one watch of the night (མཚན་མོ་ཐུན་གཅིག, mtshan mo thun gcig), pellets of guggul the size of a mustard (རྒྱ་ཤུག) fruit."
+
+A rite given by the watch; no dream.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p461"></a>mmk.1:p461 Ch. 20: if a mantra bears no fruit, lie on the kusha seat after 1,008 recitations and the Bhagavan comes in the dream to show why
+
+*Read: etext, 2026-11-10.*
+
+> [p461] ཇི་སྲིད་དུ་བཟླས་ཀྱང་རིག་པ་འབྲས་བུ་མེད་པར་ཤེས་ན་གི་ཝང་གིས་གྲོ་ག་ལ་བྲིས་ཏེ། གྲོ་ག་དེ་ལ་བརྒྱ་རྩ་བརྒྱད་མངོན་པར་བསྔགས་པ་བྱས་ནས། བཅོམ་ལྡན་འདས་ལ་མཆོད་པ་རྒྱ་ཆེན་པོ་བྱས་ལ། བཅོམ་ལྡན་འདས་འདི་དང་ལྷན་ཅིག་སྟོང་རྩ་བརྒྱད་བཟླས་ལ། ཀུ་ཤའི་སྟན་དེ་ཉིད་དུ་གཉིད་ལོག་ན་རྨི་ལམ་དུ་འོངས་ཏེ་འབྲས་བུ་མེད་པའི་རྒྱུ་སྟོན་པར་འགྱུར་རོ།
+
+If however much he recites, he knows that the knowledge-mantra has no fruit, he draws on a board with gorocana (གི་ཝང, gi wang), praises that board 108 times, makes a great offering to the Bhagavan and, together with the Bhagavan, recites 1,008 times; "if he sleeps on that same kusha seat, he comes in the dream and shows the cause of there being no fruit."
+
+A dream asked for by sleeping on the kusha seat after the recitation; no watch, day or half-month.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p473"></a>mmk.1:p473 Ch. 21: a five-coloured thread knotted round the waist: no semen appears even in the dream
+
+*Read: etext, 2026-11-10.*
+
+> [p473] ཚོན་སྣ་ལྔའི་སྐུད་པ་ལ་ལན་བཞི་བཟླས་ནས་རྐེད་པར་བཅིངས་ན་ས་བོན་བསྡམས་པར་འགྱུར་བ་ཡིན་ཏེ། རྨི་ལམ་ན་ཡང་འདི་ལ་ས་བོན་འབྱུང་བར་མི་འགྱུར་རོ།
+
+A five-coloured thread, recited over four times and bound round the waist, "holds the seed (ས་བོན་བསྡམས་པ, sa bon bsdams pa): even in the dream no seed will come to him" (the line goes on with a rule for one who wishes otherwise).
+
+A dream named only as the place where the vow could fail; no watch.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p482"></a>mmk.1:p482 Ch. 21: good dreams are not to be told to others but said before the Bhagavan
+
+*Read: etext, 2026-11-10.*
+
+> [p482] རྨི་ལམ་བཟང་པོ་རྣམས་གཞན་ལ་རབ་ཏུ་བསྟན་པར་མི་བྱ་སྟེ། བཅོམ་ལྡན་འདས་ཀྱི་སྤྱན་སྔར་བརྗོད་པར་བྱའོ།
+
+Good dreams (རྨི་ལམ་བཟང་པོ, rmi lam bzang po) are not to be shown to others; they are to be told in the presence of the Bhagavan (the image on the practitioner's altar). [The page goes on with the one-syllable recitation of a hundred thousand and the end of the first cloth-painting rite at [p482].]
+
+A rule of what is done with a good dream; compare the pupils' dreams asked for at dawn in the initiation (snr:p370), which the root tantra here does not mention.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p485"></a>mmk.1:p485 Ch. 21: a bad dream seen: rise, recite, sleep again and a good dream will be seen
+
+*Read: etext, 2026-11-10.*
+
+> [p485] རྨི་ལམ་ངན་པ་མཐོང་ནས་ལངས་ཏེ་བདག་ཉིད་ཀྱིས་བཟླས་པ་བྱས་ནས་ཡང་ཉལ་ན་རྨི་ལམ་བཟང་པོ་མཐོང་བར་འགྱུར་རོ།
+
+Having seen a bad dream, he rises, recites by himself and lies down again: he will see a good dream.
+
+A remedy by sleeping again, with no stated watch; note that this treats the same night as able to give a second dream.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p487"></a>mmk.1:p487 Ch. 21: a fragrant flower recited over 100,000 times and kusha spread at the feet: in the dream what is wished will be shown
+
+*Read: etext, 2026-11-10.*
+
+> [p487] སྣ་མའི་མེ་ཏོག་ལ་ལན་འབུམ་བཟླས་ཏེ་ཞབས་དྲུང་དུ་བཞག་ལ་དེ་ཉིད་དུ་ཀུ་ཤ་བཏིང་བའི་སྟན་བྱས་ན་རྨི་ལམ་དུ་འདི་ལ་ཇི་ལྟར་འདོད་པ་སྟོན་པར་འགྱུར་རོ།
+
+A fragrant flower (སྣ་མའི་མེ་ཏོག, sna ma'i me tog), recited over 100,000 times and put at the (image's) feet, and a seat of spread kusha made there: "in the dream it will show him whatever he wishes."
+
+A dream asked for by the flower and the kusha seat; no watch.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p503"></a>mmk.1:p503 Ch. 24: the one of great miracle enters people at sunrise, at sunset, or in the first watch of the night in the bright half
+
+*Read: etext, 2026-11-10.*
+
+> [p503] ཉི་མ་དག་ནི་འཆར་བ་ལ། །དེ་དག་འཇུག་པར་བརྗོད་པ་ཡིན། །མི་རྣམས་ཉི་མ་ནུབ་པ་ཡི། །དེ་ཡི་དུས་སུ་འཇུག་པར་འགྱུར། །མཚན་མོའི་ཐུན་གྱི་དང་པོ་ལ། །ཡར་ངོ་ལ་ནི་སྣང་བར་འགྱུར། །རབ་བསྔགས་དགེ་བའི་ལས་དག་དང་། །རྟག་ཏུ་གང་ཞིག་ཆོས་ལྡན་མི། །གང་ཞིག་ཤེས་ཉེན་ལྡན་པ་ནི། །དེ་དག་ལ་ནི་འཇུག་པར་སྣང་།
+
+[Of the gods and the beings of the lineage who enter a person:] "When the suns (days) rise, it is said that they enter; at the time the sun of men sets, at that time one enters. In the first watch of the night (མཚན་མོའི་ཐུན་གྱི་དང་པོ), in the bright half it will appear: (to) the person praised for virtuous works, always endowed with the law, who has learning: to these it appears to enter." Then the signs of a good place, a pure being, a good asterism, "a good day for mantra and the half of the month, the bright half, a good day, a good planet, the lunar days complete", and on the full moon (ཟླ་བ་ཉ་བ): "to these it appears to enter."
+
+The first watch, with the bright half and the full moon, is the time at which a good presence is said to appear to a person; it is a statement about the entering, not about a dream.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p574-575"></a>mmk.1:p574-575 Ch. 30-31: the dream granted each day; sleeping after one watch has passed; the seed bound against the dream
+
+*Read: etext, 2026-11-10.*
+
+> [p574] བྱང་ཆུབ་སེམས་དཔས་ཀྱང་འདི་ལ་བྱིན་གྱིས་བརླབས་པར་འགྱུར་བ་དང་ཚེ་རིང་བ་དང་། བདེ་བ་ལ་བརྟེན་པར་འགྱུར་བ་དང་། འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པའང་འདིའི་དགེ་བའི་བཤེས་གཉེན་དུ་འགྱུར་བ་དང་མཚན་མོའང་འདི་ལ་ཉིན་རེ་ཞིང་རྨི་ལམ་དུ་མཐོང་བ་སྩོལ་བ་དང་སྔགས་ཐམས་ཅད་ཀྱང་འདི་ལ་བསྲུང་བར་འགྱུར་རོ། །ཕྱག་རྒྱའང་འདི་ལ་རྨི་ལམ་དུ་སྟོན་པར་འགྱུར་རོ། །རྒྱལ་པོ་མ་རུངས་པ་དང་སེམས་ཅན་མ་རུངས་པ་དང་མི་ཕན་པ་འདོད་པ་རྣམས་ཀྱིས་ཀྱང་གནོད་པ་མེད་པར་འགྱུར་རོ། །ངེས་པར་བྱང་ཆུབ་ལ་གཞོལ་བར་འགྱུར་རོ། །དད་ཅིང་ཐེ་ཚོམ་མེད་ལ་མངོན་པར་བརྩོན་པའི་ཕན་ཡོན་ནི་བརྒྱད་པོ་འདི་དག་ཡིན་ཏེ། ཁྱིམ་པའམ་རབ་ཏུ་བྱུང་བའམ་བུད་མེད་དམ་སྐྱེས་པའམ་སེམས་ཅན་ཆེན་པོ་བསྟན་པ་ལ་ཕན་པར་བྱེད་པ་རྣམས་ཀྱི་ཡིན་གྱི། སྡིག་པ་ལ་ཞུགས་པ་གཞན་གྱི་ནི་མ་ཡིན་ཏེ། དེ་ལས་བཟློག་པ་དེའི་འགྲོ་བ་ནི་ངུ་འབོད་ལ་སོགས་པར་སྐྱེ་བར་འགྱུར་རོ། །ཕྱག་རྒྱ་སྔ་དྲོ་བཅིང་བ་བྱས་ན་ཚེ་རིང་བར་འགྱུར་རོ། །ཞེས་བྱ་བ་ནི་དེ་བཞིན་གཤེགས་པའི་སྔགས་དང་འཁོར་གྱི་སྙིང་པོ་དང་གཙུག་ཏོར་ལ་སོགས་པའི་སྔགས་དང་སྤྱན་ལ་སོགས་པ་གཞན་གྱི་ཕྱག་རྒྱ་དེ་བཅིང་བར་བྱའོ། །ཡང་ན་འཇམ་དཔལ་གཞོན་ནུ་ཁྱོད་ཀྱི་ཕྱག་རྒྱ་བྱ་སྟེ། འདི་དག་ནི་བརྩོན་འགྲུས་དང་སྟོབས་མཉམ་པ་ཡིན་ནོ། །གཙང་ཞིང་གཙང་བའི་གནས་སུ་འདུག་སྟེ་ཞེས་བྱ་བ་ནི་གནས་གཙང་མའི་ཕྱོགས་སུ་ཟུག་རྔུ་མེད་པའི་གནས་ལ་བའི་ལྕི་བ་ས་ལ་མ་ལྷུང་བར་བྱུགས་ལ་མེ་ཏོག་དཀར་པོའི་དྲི་ཞིམ་པོ་དག་གིས་གཅལ་བཀྲམ་པ་དེར་འདུག་ལ་སྔགས་བཟླ་ཞིང་ཕྱག་རྒྱ་བཅིང་བར་བྱའི་གཞན་དུ་ནི་མ་ཡིན་ནོ། །གཞན་དག་ཏུ་ནི་ཕྱག་རྒྱ་དང་ལྷན་ཅིག་བཟླས་པ་གཅིག་ཀྱང་མི་བྱའོ། །གཙང་བ་ཞེས་གང་གསུངས་པ་ནི་ཉི་མ་ནུབ་པ་ན་སྲོག་ཆགས་མེད་པའི་ཆུ་གཙང་མས་ཁྲུས་བྱས་ཏེ་གོས་སར་པ་བགོས་ལ། གཙུག་ཏོར་གྱི་སྔགས་ཀྱིས་སྲུང་བ་བྱས་ལ། གྲོང་གི་ཆོས་རྣམ་པར་སྤངས་ཤིང་གཙང་ཞིང་གཙང་སྦྲ་ལ་དགའ་ཞིང་དགེ་བ་སྐ་རགས་དཀར་པོས་བཅིངས་པ་དེ་བཞིན་གཤེགས་པ་བསྒོམས་ལ་ཐུན་གཅིག་འདས་པ་དང་དེར་ཉལ་བར་བྱའོ། །བྲམ་ཟེ་མོའི་བུ་མོ་གཙང་མས་བཀལ་བའི་སྐུད་པ་བླངས་ལ། སྔགས་འདི་བརྒྱ་རྩ་བརྒྱད་མངོན་པར་
+> [p575] སྔགས་པ་བྱའོ། །ཨོྃ་ཧ་ར་ཧ་ར་བནྡྷ་ནེ་ཤུ་ཀྲ་དྷཱ་ར་ཎཱི་སིད་དྷཱརྠེ་སྭཱ་ཧཱ། མཱ་མ་ཀཱིའི་ཕྱག་རྒྱ་དང་བཟླས་པ་བྱའོ། །དེ་ནས་སྐུད་པ་རྐེད་པ་ལ་ལན་གསུམ་དཀྲིས་ནས་བཅིང་བ་བྱས་ན་ས་བོན་བཅིང་བ་བྱས་པར་འགྱུར་ཏེ། འདོད་པའི་དབང་ཕྱུག་གིས་ཀྱང་རྨི་ལམ་དུ་ཡིད་ལ་གནོད་པ་བྱེད་པར་མི་ནུས་ན། རྨི་ལམ་དུ་ལོག་འདྲེན་རྣམ་པ་སྣ་ཚོགས་ཀྱིས་ལྟ་སྨོས་ཀྱང་ཅི་དགོས།
+
+[The eight benefits for one who has faith and is free of doubt:] bodhisattvas bless him, he lives long, rests on happiness, Mañjuśrī becomes his good friend; "night after night, day after day, the seeing (མཐོང་བ) is given to him in the dream", all mantras guard him, "the mudra (ཕྱག་རྒྱ, phyag rgya) too shows itself to him in the dream"; unruly kings and beings and those who wish him ill cannot harm him; he inclines surely to awakening. [Rules for the mudra; the pure place; the cleanness:] "At sunset he bathes in clean water without living things, puts on a new cloth, guards himself with the crown-protrusion mantra, gives up the ways of the village, is clean and glad of cleanliness, and in virtue, with a white sash, having meditated on the Tathāgata, when one watch has passed (ཐུན་གཅིག་འདས་པ, thun gcig 'das pa) there he is to lie down." Then he takes a thread spun by a pure Brahmin girl, recites the mantra over it 108 times ... and winds the thread three times round the waist: "that is binding the seed (ས་བོན་བཅིང་བ), and even the lord of desire cannot do harm to his mind in the dream; what need to speak of the various false guides in the dream." [On [p575] the bathing at dawn after cleaning the teeth, facing east and binding the mudra gives long life.]
+
+The dream here is the dream of the practitioner's vow and the dream in which the mudra shows itself; the rule of lying down "when one watch has passed", after sunset, is given without saying which watch is meant by "one" (the first watch of the night is the natural reading, a doubt).
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p599"></a>mmk.1:p599 Ch. 35: the ash scattered on an enemy: bad dreams and death in seven days
+
+*Read: etext, 2026-11-10.*
+
+> [p599] རྨི་ལམ་ངན་པ་ཡང་མཐོང་བར་འགྱུར་རོ། །ཞག་བདུན་གྱིས་ཀྱང་འཆི་བར་འགྱུར་ཏེ། སྨན་པ་ཐམས་ཅད་དང་ལྷ་ཐམས་ཅད་ཀྱིས་ཀྱང་བཟློག་པར་མི་ནུས་སོ།
+
+[A harming rite with ash:] ... the lice and worms of the enemy ... "he will also see bad dreams, and in seven days he will die, and no physician and no god can turn it back."
+
+A bad dream as an effect of a harming rite; no watch or day.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p629"></a>mmk.1:p629 Ch. 36 (in verse): King Ajātaśatru sees in the dream as if awake
+
+*Read: etext, 2026-11-10.*
+
+> [p629] འཇམ་པའི་དབྱངས་ཀྱིས་མི་བདག་ནི། །རྨི་ལམ་གནས་པ་བཞིན་དུ་མཐོང་། །ཁྱོད་ཀྱི་རྫུ་འཕྲུལ་བྱིན་རླབས་ཀྱིས། །རྒྱལ་པོ་མྱ་ངན་གྱིས་བརྒྱལ་དེས། །དེ་ཚེ་དེ་ནི་རྨི་ལམ་དུ། །མངོན་སུམ་བྱིས་པ་ལྟ་བུར་མཐོང་།
+
+By Mañjuśrī (འཇམ་པའི་དབྱངས, 'jam pa'i dbyangs) the lord of men "sees, as one who stays in the dream"; by the power of your miracle the king, fainting with grief, "then sees in the dream as if before his eyes, like a child."
+
+A dream within the story of King Ajātaśatru (མ་སྐྱེས་དགྲ, ma skyes dgra); no rite or watch; the page names the sutra "Removing Remorse" (མདོ་སྡེ་འགྱོད་པ་སེལ་བ).
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p633"></a>mmk.1:p633 Ch. 36 (in verse): the Teacher declared it in the last watch, at the end of the night
+
+*Read: etext, 2026-11-10.*
+
+> [p633] ཐུན་གྱི་ཕྱི་མ་མཚན་མཐའ་ལ། །རྒྱལ་བ་དེས་ནི་བསྟན་པ་ཡིན།
+
+[Ānanda, in grief, to Kāśyapa:] "In the last watch (ཐུན་གྱི་ཕྱི་མ, thun gyi phyi ma), at the end of the night (མཚན་མཐའ), that victor taught it" (the Teacher's prophecy about the attendant, who is to remain after the Teacher's passing).
+
+A narrative mention of the last watch of the night; not about a dream.
+
+Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
