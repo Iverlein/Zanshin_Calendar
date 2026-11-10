@@ -2047,3 +2047,5 @@ Searched and found wanting, so not to be repeated:
 - **RD343** (RD343, 2026-11-10):
   - Waseda Kotenseki answered 503 Site Maintenance on every page; the National Archives of Japan, the University of Tokyo and archive.org not tried.
   - The kokusho search URL /biblio/search?kw= renders an empty record, /biblio?kw= shows the form and the search runs only once the keyword is entered through the page; ndlsearch.ndl.go.jp opensearch returned nothing through curl; the full-text route that works is lab.ndl.go.jp/dl/api/book/fulltext-json/<pid>, images from dl.ndl.go.jp/api/iiif/<pid>/R0000006/full/1400,/0/default.jpg.
+- **RD344** (RD344, 2026-11-10):
+  - The 夢合延寿袋大成 (pid 2533938) images 7–74: no table of days, no slash legend, no 初夢 calendar at thumbnail size; a close read of images 7–57 would be needed to exclude a small inline note on dream days; the Kyoto, Kyushu and Tohoku copies, the sequel 後編 and the 夢合長寿鑑絵抄, 夢合長寿宝 and 夢合早占大成 not opened.
