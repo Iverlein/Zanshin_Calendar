@@ -571,6 +571,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/match-kinds-in-general.md](claims/match-kinds-in-general.md) | claim, rule | A match of mixed kinds is judged in general; no text counts the kinds into one | cites wb.1:p355, wb.2:p524; feeds block-58 |
 | [claims/match-trigram-grave.md](claims/match-trigram-grave.md) | claim, table | The trigram's grave joined: a broken line | cites wb.1:p362, wb.2:p526, wb.1:p258; feeds block-58 |
 | [claims/match-two-bad-lives.md](claims/match-two-bad-lives.md) | claim, rule | The match barred by two utterly bad lives, each judged by one verdict pebble | cites ys:i467-468, wb.2:p526; feeds block-58 |
+| [claims/mchog-dga-half-watch-four-short-chu-tshod-56-and-a-quarter-chu-srang.md](claims/mchog-dga-half-watch-four-short-chu-tshod-56-and-a-quarter-chu-srang.md) | claim, note | The Mchog dga's four chu tshod to a half-watch are short ones of 56¼ chu srang: 4 x 56.25 = 225 = an eighth of the 30-chu-tshod day (RD338, q968) | cites svo:p271z, svo:p271x, svo:p271y, svo:p271w; feeds — |
 | [claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md](claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md) | claim, note | MDP's dream part (pp. 134-137) is a transmitted rite with a lineage ending in Bu ston, signed as a monk's notes | cites mdp:p134-137, mdp:p135b, mdp:p137b; feeds S1 |
 | [claims/mdp-p138-is-the-rst-text.md](claims/mdp-p138-is-the-rst-text.md) | claim, note | MDP's second dream item (p. 138) is the RST text of Klong rdol bla ma | cites mdp:p138, rst:p1-8; feeds S1 |
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
@@ -1194,7 +1195,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 23 passages: 10 scan, 5 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 35 passages: 11 scan, 6 machine, 18 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 36 passages: 11 scan, 6 machine, 19 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
