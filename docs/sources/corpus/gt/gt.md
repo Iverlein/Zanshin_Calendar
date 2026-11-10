@@ -10,6 +10,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD302 (2026-11-10): the etexts of Skyem pa Tshe dbang (I4711, p. 189), Zur mkhar ba (I8LS19191, p. 355), the Blue Beryl (I1PD411, p. 215), the Drikung dka' mchan (I1KG24731, p. 80) and Rin spungs pa's Dri med kun gsal (I4707, pp. 236-237) for ch. 7's line 17, no model: «རྨི་ལམ་མི་བཟང་བ» in four, «རྨི་ལམ་མི་ཟད་པ» in Rin spungs pa, «མི་བཟད་པ» as the line in none (Zur mkhar ba and the Blue Beryl use it as a gloss); the claim `gt-line-17-in-five-commentaries`.
+
 Read by RD296 (2026-11-10): BDRC searched for another scan or etext of the Serthang print (MW3CN5036, scan I3CN5038, etext IE0OPIFEF6EACA): none; the leaf of printed pp. 31–32 is absent from the digitization itself (the printed numbers on img. 43–47 run 30, 34, 33, 34, 35; the etext repeats p. 34 at its pp. 44 and 46); no model run, the scan pages 43–47 looked at in a montage, the 622 etext pages searched; the typeset etexts of the Lhasa 1982 «རྒྱུད་བཞི» (MW16778, pp. 49–50) and the Beijing Explanatory Tantra (MW1KG25027, pp. 44–45) read for «བརྗེད་ངས» (ངས on both) and line 17 («མི་བཟང་བ» and «མི་བཟང་པ», not བཟད་ or ཟད་): claim gt-serthang-leaf-absent-two-typeset-etexts.
 
 Read by RD288 (2026-11-10): the two lines of the night rule («མཚན་སྟོད་རྨི་ལམ་བརྗེད་ངས…») on eight prints with Yigdzin-1 (Drathang img. 42; Zhol I5910 img. 56-57; I1KG13487 img. 48-49; I5907 img. 66; Derge I00JW501163 img. 41-42; I3CN1711 img. 40-41; I3CN1696 img. 44-45; I3CN1702 img. 36-37) and by eye on the Derge and I3CN1711: every print has བརྗེད་ངས, none བརྗེད་ངེས; the claim `gt-night-rule-brjed-ngas-on-eight-prints`.
@@ -157,3 +159,15 @@ Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA a
 - «མཚན་སྟོད་སྲོད» (mtshan stod srod) as an exact phrase on BDRC full-text search: 0 hits; «མཚན་གུང་རྨི་ལམ» (mtshan gung rmi lam): 4 hits, all modern prose and verse (a novel, a poem, a Sdom pa srung ba, a Sham bha la'i cong sgra), none a commentary (2026-11-10).
 - The Four Tantras commentary I1KG10372 (hits for «ཐོ་རངས་ཀྱི་མཇུག» and «ནམ་ཕྱེད་ཡན་ཆད་དུ་རྨི་ལམ»): `bdrc.py etext` returns 0 chunks, the volume is closed; and I2PD16002 (1.5 million characters) was not fetched in the time given.
 - The Dri med kun gsal and the Drang srong zhal lung etexts (listed in the search results): not opened in this reading.
+
+## Open (RD302)
+
+- Question: where the Moonbeams on the Heart of Medicine (Aṣṭāṅgahṛdaya, Body ch. 6) read «མི་ཟད་རྨི་ལམ་» in the verse Rin spungs pa quotes, do the Derge and Peking-type Tengyur etexts (MW23703_4312, MW1PD95844_3549) spell it so too, and does Byang pa's lemma of the Four Tantras' line 17 (not searched in this reading) follow the Tantra or the Moonbeams?
+- Question: is the Drikung dka' mchan's wording «མི་བཟང་བ» a lemma of the verse or only the commentator's gloss (its verse lines are worked into the prose and no separate lemma stands)?
+
+## Searched and not found (RD302)
+
+- «རྨི་ལམ་མི་བཟད་པ» as the line of the Tantra in Skyem pa Tshe dbang (I4711), Zur mkhar ba (I8LS19191), the Blue Beryl (I1PD411), the Drikung dka' mchan (I1KG24731) or Rin spungs pa (I4707), spaces and tsheg stripped: not found; «མི་བཟད་པ» stands in Zur mkhar ba and the Blue Beryl only as an adjective in the gloss «རྨི་ལམ་གྱི་རྣམ་པ་མི་བཟད་པ་དེ».
+- «སྤྲེའུ་སྟག» (the monkey and tiger) in Zur mkhar ba, the Blue Beryl and Skyem pa Tshe dbang: not found as a quoted line of the Tantra.
+- «མི་ཟད་པ» as the Tantra's line in Skyem pa, Zur mkhar ba, the Blue Beryl and the Drikung: not found (the hits are other words: «ཆོས་སྦྱིན་མི་ཟད་པ», «མི་ཟད་པའི་རྟེན»).
+- Byang pa and Khro ru were not reopened in this reading (their lemmas are in the pool already, RD268).
