@@ -370,7 +370,7 @@ ckg:
   licence: public-domain
   rank: 3
   role: witness
-  notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page"
+  notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page RD377 (2026-11-10): vol. 11, the Yang zlog me'i spu gri empowerment text, whose dream examination is at its [p16]-[p17] (the etext's page markers restart with each text of the volume); etext only."
 
 sll:
   title: "Sa skya'i lam 'bras (the Sakya Lamdre collection), a biography in vol. I2PD19940 on the building of an assembly hall"
@@ -1446,3 +1446,58 @@ dyc:
   role: source
   locator: page
   notes: "found by BDRC exact-phrase search on the Mchog dga's own words, RD369 (2026-11-10); etext only"
+
+rsk:
+  title: "Legs par bshad pa rdo rje phreng ba mdzes rgyan nor bu'i chun 'phyang ('di na grub chen a b+ha ya'i rdor phreng sgrub dkyil mdzes brgyan bzhugs), the Vajrāvalī initiation manual in the Rgyud sde kun btus"
+  author: "Brang ti paN chen Nam mkha' dpal bzang (1535-1602 by BDRC; the colophon names him Brang ti pa'i btsun pa snyom las pa Gaganaśrībhadra = Nam mkha' dpal bzang, and calls him Thar rtse paN chen in the printer's note; BDRC's authorship line: Thar rtse paN chen Nam mkha' dpal bzang); written in an Iron-Female-Snake year (1581 is the only one in his lifetime, my reckoning); printed in the collection compiled by Jam dbyangs Blo gter dbang po (1847-1914)"
+  edition: "Rgyud sde kun btus, Rdzong gsar glog klad print, BDRC etext volume VEIE0OPIBF2693C2_I2PD14800 (895 etext pages; the manual runs from [p358] to [p878]); a second print, the Glog klad print Gene Smith's collection, VEIE0OPI45CA9DB4_I4670, carries the same text (etext p. = printed page + 6)"
+  bdrc: {work: MW2PD14777, etext: VEIE0OPIBF2693C2_I2PD14800}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD377 (2026-11-10): [p459]-[p462], the examination of the dream in the preparation of the pupil; etext only (two prints), not read on a scan; the colophon [p875]-[p878]"
+
+kls:
+  title: "Dpal kye rdo rje'i dbang gi tshig don rnams legs par bshad pa lung dang man ngag gi gter mdzod (the Hevajra initiation manual 'Treasury of scripture and instruction'), in the E waM bka' 'bum"
+  author: "Shākya'i btsun pa Dkon mchog lhun grub (Ngor chen Dkon mchog lhun grub, 1497-1557 by BDRC; the colophon, [p431])"
+  edition: "E waM bka' 'bum in the Mes po'i shul bzhag series (Dpal brtsegs Bod yig dpe rnying zhib 'jug khang, Krung go'i bod rig pa dpe skrun khang, per the volume's title page; BDRC etext volume VEIE0OPIAA95D2AF_I1KG8333, 431 etext pages; the manual on [p355]-[p431]); the page number on the etext is the printed page + 26"
+  bdrc: {work: MW1KG8320_F86777, etext: VEIE0OPIAA95D2AF_I1KG8333}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD377 (2026-11-10): [p355]-[p357]; the BDRC search record ascribes the whole collection to Ngor mkhan chen Kun dga' bzang po, the volume's own cover names Ngor chen Dkon mchog lhun grub; etext only, not read on a scan"
+
+snz:
+  title: "Collected works of 'Phreng po gter ston Shes rab 'od zer (1518-1584 by BDRC), the volume of the initiation texts of the Vajra family"
+  author: "'Phreng po gter ston Shes rab 'od zer (BDRC)"
+  edition: "Gsung 'bum of 'Phreng po gter ston Shes rab 'od zer, 8 vols., 2015, BDRC etext volume VEIE0OPIAAA71CEE_I4PD2029 (702 etext pages); the title of the text that holds [p428]-[p429] was not found in the etext"
+  bdrc: {work: MW4PD2021, etext: VEIE0OPIAAA71CEE_I4PD2029}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD377 (2026-11-10): [p428]-[p429]; etext only; the text is a Nyingma treasure-revealer's, so a witness of the wording, not of the Sakya explanation"
+
+dkb:
+  title: "Dkyil chog rdo rje phreng ba'i dbang gzhung mtshams sbyor gyis brgyan pa smin bka' rgya mtshor 'jug bde'i lam bzang ('Brug pa'i chos mdzod chen po bsam 'phel nor bu'i bang mdzod, vol. 35 (ཅ))"
+  author: "arranged by the monk Yon tan 'od dam bstan 'dzin don kun grub of the Dpal 'brug pa, at the request of the teacher Grub dbang Bsod nams bzang po (colophon [p236]); date not given in the lines read"
+  edition: "'Brug pa'i chos mdzod chen po bsam 'phel nor bu'i bang mdzod, BDRC etext volume VEIE0OPIDDB781DE_I3CN2269 (657 etext pages; the manual on [p111]-[p236]); the same wording is in the same collection's other volume VEIE0OPIDDB781DE_I3CN2263 [p321]"
+  bdrc: {work: MW3CN2232, etext: VEIE0OPIDDB781DE_I3CN2269}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD377 (2026-11-10): [p163]-[p164]; etext only"
+
+bpp:
+  title: "Rdo rje phur pa yang gsang bla med don gyi snying po'i dbang chog phrin las kyi gter mdzod chen mo chu 'babs su bkod pa, in the 'Bri lugs bang mdzod skor lnga"
+  author: "not read in the etext lines; BDRC's search record shows the same wording in the collected works of the 4th 'Bri gung Chung tshang Bstan 'dzin chos kyi rgyal mtshan and of Rgyal dbang Rin chen phun tshogs (those volumes answer 'not available' to the etext API)"
+  edition: "BDRC etext volume VE1ER24 ([p237]) and VE1ER48 ([p320]), two volumes of the same instance (MW3KG218)"
+  bdrc: {work: MW3KG218, etext: VE1ER24}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD377 (2026-11-10): VE1ER24 [p237]; etext only; author and date not established"

@@ -633,9 +633,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mmk-first-watch-phlegm-signs.md](claims/mmk-first-watch-phlegm-signs.md) | claim, list | Signs of the first watch's dream, of phlegm (RD370) | cites mmk.1:p397-399; feeds — |
 | [claims/mmk-fourth-watch-no-list-of-its-own.md](claims/mmk-fourth-watch-no-list-of-its-own.md) | claim, note | No list of signs under the fourth watch; the true dream's marks and the houses (RD370) | cites mmk.1:p401-403, mmk.1:p403-404, mmk.2:p152-153; feeds — |
 | [claims/mmk-last-watch-and-dawn-praised-for-the-practitioner.md](claims/mmk-last-watch-and-dawn-praised-for-the-practitioner.md) | claim, note | The last watch and dawn are praised for the practitioner's sleep and rising (RD372) | cites mmk.1:p408; feeds — |
+| [claims/mmk-last-watch-reason-first-in-nam-mkha-dpal-bzang-and-kun-dga-rin-chen.md](claims/mmk-last-watch-reason-first-in-nam-mkha-dpal-bzang-and-kun-dga-rin-chen.md) | claim, note | The three-part reason for the last watch is in Nam mkha' dpal bzang's manual and, by snippet, Kun dga' rin chen's, with no source named (RD377) | cites rsk:p459-461; feeds — |
+| [claims/mmk-last-watch-rule-in-dkon-mchog-lhun-grub-without-reason.md](claims/mmk-last-watch-rule-in-dkon-mchog-lhun-grub-without-reason.md) | claim, note | Dkon mchog lhun grub (1497-1557) already says the last watch is examined, without any reason (RD377) | cites kls:p355-356; feeds — |
 | [claims/mmk-lines-p400-401-dream-set-aside-order-of-the-times.md](claims/mmk-lines-p400-401-dream-set-aside-order-of-the-times.md) | claim, note | The lines «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད།»: what the Sanskrit gives and the sense I read (RD372) | cites mmk.1:p400-401, mmk.2:p147-149, mmk.2:p150, mmk.1:p438-439; feeds — |
 | [claims/mmk-list-of-figures-is-the-classes-of-beings-not-the-fourth-watch.md](claims/mmk-list-of-figures-is-the-classes-of-beings-not-the-fourth-watch.md) | claim, note | The list of figures after the marks of the true dream is the Sanskrit rāśi, the classes of beings, and not the fourth watch's dream (RD372) | cites mmk.1:p403-404, mmk.2:p152-153, mmk.2:p19, mmk.2:p180, mmk.2:p147-149; feeds — |
 | [claims/mmk-no-day-or-month-for-dreams.md](claims/mmk-no-day-or-month-for-dreams.md) | claim, note | The root tantra's dream chapter gives no lunar day or month for a dream, only the half-month, a good day and the watches (RD370) | cites mmk.1:p396-397, mmk.1:p403-404; feeds — |
+| [claims/mmk-not-certain-wording-in-drukpa-phur-pa-and-nyingma-manuals.md](claims/mmk-not-certain-wording-in-drukpa-phur-pa-and-nyingma-manuals.md) | claim, note | The Drukpa, Phur pa and Shes rab 'od zer manuals give the reason in Tsong kha pa's words, not the Sakya reason (RD377) | cites dkb:p163-164, bpp:p236-237, snz:p428-429, snr:p370; feeds — |
 | [claims/mmk-other-dream-pages-none-counts-the-watches.md](claims/mmk-other-dream-pages-none-counts-the-watches.md) | claim, note | The other dream pages of the root tantra: asked dreams, sent dreams and bad dreams removed, none by watch, day or month (RD372) | cites mmk.1:p252, mmk.1:p318, mmk.1:p371, mmk.1:p374, mmk.1:p405, mmk.1:p416, mmk.1:p422-423, mmk.1:p461, mmk.1:p473, mmk.1:p482, mmk.1:p485, mmk.1:p487, mmk.1:p574-575, mmk.1:p599, mmk.1:p629; feeds — |
 | [claims/mmk-rd370-watch-page-correction.md](claims/mmk-rd370-watch-page-correction.md) | claim, note | Correction: the watches of the omens are at [p436]-[p439], not at [p699] and [p656] (RD372) | cites mmk.1:p436-437, mmk.1:p438-439, mmk.1:p408; feeds — |
 | [claims/mmk-reason-for-the-fourth-watch-in-sakya-manuals.md](claims/mmk-reason-for-the-fourth-watch-in-sakya-manuals.md) | claim, note | The reason for using the last watch (evening mixed with the day, midnight too deep, dawn clear) is in Kun dga' rin chen and later manuals, not in the root tantra (RD372) | cites mmk.1:p396-397; feeds — |
@@ -644,6 +647,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mmk-second-watch-bile-signs.md](claims/mmk-second-watch-bile-signs.md) | claim, list | Signs of the second watch's dream, of bile (RD370) | cites mmk.1:p399-400; feeds — |
 | [claims/mmk-snr-quotes-the-verse-and-adds-the-reason.md](claims/mmk-snr-quotes-the-verse-and-adds-the-reason.md) | claim, note | The Sngags rim chen mo quotes the verse word for word and the reason for the fourth watch is Tsong kha pa's own (RD370) | cites mmk.1:p396-397, snr:p367-371; feeds — |
 | [claims/mmk-third-watch-wind-signs.md](claims/mmk-third-watch-wind-signs.md) | claim, list | Signs of the third watch's dream, of wind, and the three poisons (RD370) | cites mmk.1:p400-401; feeds — |
+| [claims/mmk-two-reasons-for-last-watch-not-one-reason-twice.md](claims/mmk-two-reasons-for-last-watch-not-one-reason-twice.md) | claim, note | The Sakya reason (no dream comes) and Tsong kha pa's (not certain) are two reasons; neither uses the humours (RD377) | cites rsk:p459-461, dkb:p163-164, bpp:p236-237, mmk.1:p396-397, mmk.1:p399-400, mmk.1:p400-401; feeds — |
 | [claims/mmk-watch-is-an-eighth-of-day-and-night.md](claims/mmk-watch-is-an-eighth-of-day-and-night.md) | claim, definition | A watch (ཐུན) is one eighth of the day-and-night: four chu tshod or four yud tsam; four watches by day and four by night (RD372) | cites mmk.1:p438-439; feeds — |
 | [claims/mmk-watches-elsewhere-omens-rites-births.md](claims/mmk-watches-elsewhere-omens-rites-births.md) | claim, note | The watches in the other chapters: earthquake omens, rites, births; never tied to a humour (RD372) | cites mmk.1:p430-432, mmk.1:p436-437, mmk.1:p451, mmk.1:p454, mmk.1:p456, mmk.1:p503; feeds — |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
@@ -1240,6 +1244,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
 | [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
+| [corpus/bpp/bpp.md](corpus/bpp/bpp.md) | corpus | BPP | 1 passages: 1 etext |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
 | [corpus/bsr/bsr.md](corpus/bsr/bsr.md) | corpus | BSR | 3 passages: 3 machine |
@@ -1250,9 +1255,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 5 passages: 1 scan, 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
 | [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 2 passages: 1 scan, 1 etext |
+| [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 29 passages: 29 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
+| [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dyc/dyc.md](corpus/dyc/dyc.md) | corpus | DYC: the Dbyangs 'char | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
@@ -1278,6 +1285,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 1 passages: 1 machine |
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
+| [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
@@ -1319,6 +1327,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rgd/rgd.md](corpus/rgd/rgd.md) | corpus | RGD | 1 passages: 1 etext |
 | [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 2 passages: 2 scan |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
+| [corpus/rsk/rsk.md](corpus/rsk/rsk.md) | corpus | RSK | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
@@ -1332,6 +1341,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 4 passages: 1 scan, 3 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/snr/snr.md](corpus/snr/snr.md) | corpus | SNR | 2 passages: 2 etext |
+| [corpus/snz/snz.md](corpus/snz/snz.md) | corpus | SNZ | 1 passages: 1 etext |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 26 passages: 10 scan, 8 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
@@ -2258,7 +2268,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | **LCM** | Klong chen rab 'byams pa, *Phyogs bcu'i mun pa thams cad rnam par sel ba* (on the Guhyagarbha tantra), its rite of the ground. A witness | Gsung 'bum, Dpal brtsegs, Mes po'i shul bzhag | BDRC MW1KG4884_3C5394 (etext VE1KG4884_023; page = etext page) |
 | **SDP** | Sādhuputra, *Dpal dus kyi 'khor lo'i dkyil 'khor gyi cho ga* (the Kālacakra maṇḍala rite, Tengyur), its rite of the ground. A witness | Sde dge Bstan 'gyur | BDRC MW23703_1359 (etext VE23703_1330; page = etext page) |
 | **SPD** | Bsod nams dpal ldan, *Bod lugs sman rtsis skor gyi dpyad rtsom mes po'i zhal rgyun* (essays). A witness to practice; facts only | — | BDRC MW1GS88136 (etext VEIE0OPI4337C4F2_I1GS88139, search only) |
-| **CKG** | 'Bri gung Chos kyi grags pa, *Gsung 'bum*: the treatise on the earth lord serpent (vol. 4) and a fierce rite (vol. 11). A witness | — | BDRC MW22082 (etexts VE22082_004, VE22082_011; page = etext page) |
+| **CKG** | 'Bri gung Chos kyi grags pa, *Gsung 'bum*: the treatise on the earth lord serpent (vol. 4) and a fierce rite (vol. 11). A witness | — | BDRC MW22082 (etexts VE22082_004, VE22082_011; page = etext page); RD377 (2026-11-10): the Yang zlog me'i spu gri empowerment text in vol. 11, the dream examination, [p16]-[p17] |
 | **SLL** | *Sa skya'i lam 'bras*, a biography on the building of an assembly hall. A witness | Rdzong sar 2007 | BDRC MW2PD19769 (etext VEIE0OPI336B7478_I2PD19940, printed page = etext page − 7) |
 
 **SN is a witness, never a source** (the owner, 2026-10-08). It may confirm
@@ -2349,6 +2359,11 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **CBS** | Ngag gi dbang phyug grags pa, *'Chi ba bslu ba'i man ngag* (deceiving death, four chapters) in the Tengyur, translated by Dīpaṃkaraśrījñāna and Rin chen bzang po; the dream verses close chapter 1 | Derge Tengyur, Delhi 1982–1985 reprint of the Sde dge blocks, vol. 28, pp. 238–268; Dpe bsdur ma vol. 14 pp. 1335–1362 (etext, OCR) | BDRC MW23703_1749; etext VE23703_1344; Dpe bsdur ma VEIE0OPIA3E40644_I1PD95859 |
 | **CBD** | Ngag gi dbang phyug grags pa, *'Chi ba bslu ba'i man ngag* (deceiving death) as the Dpe bsdur ma prints it in its vol. 46 (the *rgyud lhag ma* volume of the Peking and Narthang group), with the *Bsdus don* before it; the dream verses at printed pp. 1064-1066 | *Bstan 'gyur dpe bsdur ma*, Krung go'i bod kyi shes rig dpe skrun khang, vol. 46 (etext page [p1096]-[p1097]) | BDRC MW1PD95844_2680; etext volume VEIE0OPIA3E40644_I1PD95891 (open, noisy OCR with the small-letter glosses run into the verses); read in the etext only 2026-11-10 (RD360) |
 | **KGY** | Klong rdol bla ma Ngag dbang blo bzang, *Mdo sngags kyi dbang lung khrid gsum thob pa'i gsan yig thar pa'i them skas kyi stod cha* (the record of teachings received, upper part): the list of the First Dalai Lama's collected works received, with the Śramaṇā dream examination among the items | Asian Legacy Library etext, [p63]-[p67] | BDRC MW1ALS06548I1; etext volume VE1ALS06548I1 (open); read in the etext only 2026-11-10 (RD360) |
+| **RSK** | Brang ti paN chen Nam mkha' dpal bzang (1535-1602), *Legs par bshad pa rdo rje phreng ba mdzes rgyan*, the Vajrāvalī initiation manual in the *Rgyud sde kun btus*: the examination of the dream in the pupil's preparation, [p459]-[p462] | Rdzong gsar glog klad print etext, [pN] = BDRC's etext pages; a second print's etext agrees | BDRC MW2PD14777 (the collection), MW27883_E2C2E5 (the manual); etext volume VEIE0OPIBF2693C2_I2PD14800 (open), second print VEIE0OPI45CA9DB4_I4670; read in the etext only 2026-11-10 (RD377) |
+| **KLS** | Ngor chen Dkon mchog lhun grub (1497-1557), *Dpal kye rdo rje'i dbang gi tshig don rnams legs par bshad pa lung dang man ngag gi gter mdzod*, the Hevajra initiation manual: the same examination, [p355]-[p357] | E waM bka' 'bum etext, [pN] = printed page + 26 | BDRC MW1KG8320_F86777; etext volume VEIE0OPIAA95D2AF_I1KG8333 (open); read in the etext only 2026-11-10 (RD377) |
+| **SNZ** | 'Phreng po gter ston Shes rab 'od zer (1518-1584), collected works, an initiation text of the Vajra family: the dawn examination, [p428]-[p429] | etext, [pN] = BDRC's etext pages | BDRC MW4PD2021; etext volume VEIE0OPIAAA71CEE_I4PD2029 (open); read in the etext only 2026-11-10 (RD377) |
+| **DKB** | The Drukpa Vajrāvalī *smin bka'* manual *Dkyil chog rdo rje phreng ba'i dbang gzhung mtshams sbyor gyis brgyan pa smin bka' rgya mtshor 'jug bde'i lam bzang*, arranged by Yon tan 'od dam bstan 'dzin don kun grub, in the *'Brug pa'i chos mdzod chen po*: the dream examination, [p163]-[p164] | etext, [pN] = BDRC's etext pages | BDRC MW3CN2232; etext volumes VEIE0OPIDDB781DE_I3CN2269 and _I3CN2263 (open); read in the etext only 2026-11-10 (RD377) |
+| **BPP** | The Phur pa Yang gsang bla med initiation manual in the *'Bri lugs bang mdzod skor lnga*: the dream examination, VE1ER24 [p237] | etext, [pN] = BDRC's etext pages | BDRC MW3KG218; etext volumes VE1ER24 and VE1ER48 (open); read in the etext only 2026-11-10 (RD377) |
 | **SNR** | Tsong kha pa, *Rgyal ba khyab bdag rdo rje 'chang chen po'i lam gyi rim pa gsang ba kun gyi gnad rnam par phye ba* (the Great Exposition of Secret Mantra, *Sngags rim chen mo*), the chapter on the preparation of the initiation, with the dream step | Asian Legacy Library etext, [p349]-[p350], [p368]-[p371] | BDRC MW1ALS05281E; etext volume VE1ALS05281E (open, 861 pages, no scan attached); read in the etext only 2026-11-10 (RD360) |
 | **RGD** | Rat+na gling pa's treasure *Spyan ras gzigs dang 'Jam dpal gyi sgo nas tshe tshad dang rmi lam brtag pa* (examining the lifespan and dreams through Avalokiteśvara and Mañjuśrī) | *Rin chen gter mdzod chen mo*, Shechen Publications, New Delhi 2007-2008, vol. 42, pp. 973-975 by the volume's contents (BDRC images 991-994) | BDRC MW1KG14_8F4C7F; etext VE1KG14_042 (open; the text opens its own page counter at [p1]); read in the etext only 2026-11-10 (RD320) |
 | **SCH** | Rolf Scheuermann, *Vibhūticandra's Svapnohana and the Examination of Dreams*, the modern study of SVO | in *Glimpses of Tibetan Divination: Past and Present*, Brill, Leiden 2020 (Prognostication in History 2), pp. 161–180 | DOI 10.1163/9789004410688_009; modern, copyrighted: facts only, never its wording; Brill and OAPEN refuse automated browsers; not read |

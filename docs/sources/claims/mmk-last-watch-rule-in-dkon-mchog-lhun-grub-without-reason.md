@@ -1,0 +1,11 @@
+---
+kind: claim
+type: note
+terms: [thun, tho-rangs]
+cites: ['kls:p355-356']
+feeds: []
+open: []
+---
+# Dkon mchog lhun grub (1497-1557) already says the last watch is examined, without any reason (RD377)
+
+The rule that the last watch of the night is the one to be examined is older in the Sakya line than the reason for it: Ngor chen Dkon mchog lhun grub (1497-1557 by BDRC) says in his Hevajra initiation manual «so the dream of the last watch of the night must be examined» after quoting the root tantra's verse, and gives no reason (kls:p355-356). The 28th Ngor abbot Byams pa tshul khrims dpal bzang's Hevajra manual in the Rgyud sde kun btus (BDRC MW27883_5EBF2A, the same words in the second print's etext, VEIE0OPIBF2693C2_I2PD14796 [p569]) repeats the passage word for word, still with no reason. The three-part reason (day-mixed evening, deep midnight, clear dawn) is in Nam mkha' dpal bzang's manual (rsk:p459-461) and in Kun dga' rin chen's by snippet, so in what was read it is first met a generation after Dkon mchog lhun grub; the earlier manuals of Sa bzang 'Phags pa and the Mnga' ris Rab 'byams pa, which Nam mkha' dpal bzang names as sources, did not come up in any exact-phrase search (their etexts, if any, did not hit), so whether one of them holds the reason stays open. A comparison by script (spaces, shads and tsheg dropped) shows that about three fifths of Dkon mchog lhun grub's passage up to the signs of a good dream (472 of 781 letters, in runs of 28 to 108) is word for word in Nam mkha' dpal bzang's: the opening step, the kusha bed, the lion's posture, the joy of «tomorrow I will see the great mandala of my tutelary deity» and the verse; so Nam mkha' dpal bzang's passage either rests on Dkon mchog lhun grub's or both rest on one older manual, and the three-part reason is what Nam mkha' dpal bzang's (or, by snippet, Kun dga' rin chen's) version adds to it (a doubt as to the direction of the copying). The same sleeping-step words, «sems 'dod chags ... sang nyin yi dam lha'i dkyil 'khor chen po mthong bar 'gyur ro snyam pa'i dga' spro dung nge ba'i sgo nas dran shes bzhin dang», are in the search snippet of the collected works of Zhu chen Tshul khrims rin chen (his volume answers no etext), so they were handed on in the Sakya manuals.
