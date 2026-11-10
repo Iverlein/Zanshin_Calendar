@@ -1921,3 +1921,6 @@ Searched and found wanting, so not to be repeated:
 - **RD307** (RD307, 2026-11-10):
   - Exact BDRC searches with 0 hits: «མཉམ་པོར་འོང་བའི་བདུད་ནི», «མཉམ་པོར་འོང་བའི་བདུད་ཅེས་པ», «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་དང་མཉམ་པོར་འོང་བ», «ལྷན་སྐྱེས་ཀྱི་ལྷ་དང་མཉམ་འོང་གི་བདུད», «རམ་རུག་ཅེས་པ», «རམ་རུག་ནི»: no definition by «ཞེས་པ་ནི» apart from the Chöd gloss of the karmic spirit.
   - No text besides LGD lists the pair in a dream-causes section; no text says what «རམ་རུག» is.
+- **RD303** (RD303, 2026-11-10):
+  - BDRC exact-phrase searches of 2026-11-10: «སྦལ་ལྗོང་ཉ་སྦྲུལ་འབུ་སྦྲང་སྡིག་སྡོམ» 3 hits; «ནིའུ་གསིང་དང་སྦལ» and «ནེའུ་གསིང་དང་སྦལ» none; «ལྷས་ཚོར་དུས་ཏེ་གདོན» 14; «རང་ཚོར་དུས་ཡིན་གདོན» 18; «ལྷས་ཚོར་བའི་དུས» 7; «ལྷས་ཚོར་གྱི་དུས» 7; «རྨི་ལམ་ལྷས་ཚོར» none.
+  - The scans of the Blue Beryl, Skyem pa, Dar mo, the Drikung and Zur mkhar ba answer 401 and cannot be viewed; Zur mkhar ba's two ནེའུ་གསིང hits and Rin spungs pa's one are in other contexts.

@@ -1815,6 +1815,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0907.md](questions/q0907.md) | question q907 | «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ» closes a list of ill signs: does it say that entering a path not to be walked is auspicious, or that the signs just listed are auspicious when one is not walking, and is there a commentary on the Svapnohana that glosses it? | open; cites svo:p271k |
 | [questions/q0908.md](questions/q0908.md) | question q908 | LGD p. 970 names «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» and «མཉམ་པོར་འོང་བའི་བདུད» among the causes of a confused dream; the Chöd texts gloss the second as one's own co-born ignorance and self-clinging (ལས་གདོན, las gdon), the sermon on death as the keeper of the black pebbles: which does LGD's author mean, or does he not distinguish them? | open; cites lgd:p970 |
 | [questions/q0909.md](questions/q0909.md) | question q909 | What is «རམ་རུག» (ram rug) in the rites' lists: the plant ram bu or ram pa by a spelling by ear, or a separate item, and what does «ཞབས» in «ཞབས་རམ་རུག» of the Rin chen gter mdzod's second text add? | open; cites lgd.42:p969b |
+| [questions/q0910.md](questions/q0910.md) | question q910 | Does the Blue Beryl's printed page read ལྷས or ལྟས in the closing clause of ch. 81's dream list, and ནེའུ་གསིང as its etext has it? | open; cites st:p350-351 |
+| [questions/q0911.md](questions/q0911.md) | question q911 | Is the Blue Beryl's gloss of ch. 81's dream list the same text as Khro ru's, and which came first? | open; cites st:p350-351 |
 
 <!-- end pool index -->
 
