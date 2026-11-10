@@ -1942,3 +1942,7 @@ Searched and found wanting, so not to be repeated:
   - Leipzig MSS 1176–1180: no scan or catalogue text found open.
   - Hemādri's Āyurvedarasāyana (two Gurukul Kangri scans, partly damaged): no gloss on Śārīra 6.63 in the text layers; no commentary on the Bṛhadyātrā dream chapter other than Bhaṭṭotpala's; no Śārīrasthāna on GRETIL.
   - The edition letters Saṃ and the Loṃbaḍī-pāḍā one are garbled in the Aṅgavijjā preface's text layer, the page not read on the image; the Aṣṭāṅgasaṅgraha edition's title page and press not found.
+- **RD313** (RD313, 2026-11-10):
+  - BDRC full-text search, 2026-11-10: «མི་བཟད་རྨི་ལམ་མཐོང་འགྱུར་ཏེ» 6 hits, «མི་ཟད་རྨི་ལམ་མཐོང་གྱུར» 1, «མི་བཟང་རྨི་ལམ་མཐོང་འགྱུར་ཏེ» 1, «ཐོ་རངས་རླུང་གི་དུས་ཉིད་དེ» 4, «ནམ་ཕྱེད་དུས་སུ་མཁྲིས་པར་བརྗོད» 8, «གསུམ་ཆ་ཕྱིས་འབྱུང་གསལ་བྱེད་ཡིན» 8, «སྐྱེས་པ་དང་གླང་པོ་ཆེ་ལ་སོགས་པ་མཐོང་བ» 3 (all the Moonbeams), «ལུས་ཡང་ཤིང་ཆེ་བ» 1 (Rin spungs pa).
+  - Names for the stretch from midnight to dawn (མཚན་བར, མཚན་ཕྱི, མཚན་མཇུག, མཚན་ཐ་མ, ནམ་ཕྱེད་ཕྱི, ནམ་ཕྱེད་ནས, ནམ་ཕྱེད་ཚུན, ནམ་གུང, མཚན་ཕྱེད, ནམ་ཕྱེད་འདས) near རྨི་ལམ in seven commentaries' etexts: none.
+  - Not re-read: Khro ru, the 'Bum nag gsal sgron (I1PD409), the Man ngag lhan thabs for midnight to dawn, Rin spungs pa's second volume (I4708), the Peking-type Moonbeams and the Blue Beryl's other etext on the page; Bya mdo only by snippet, his etext closed; no page image of any commentary opened.
