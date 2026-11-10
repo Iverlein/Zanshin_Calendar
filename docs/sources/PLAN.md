@@ -1877,3 +1877,7 @@ Searched and found wanting, so not to be repeated:
   - A text of the Aṣṭāṅgahṛdaya Śārīrasthāna on GRETIL: the site holds only the Sūtrasthāna (and under a non-commercial licence); the Śārīrasthāna was read on the Kunte page images.
   - A variant of the cows' line (go-sarga against go-mārga) in Kunte's notes: the page has no apparatus.
   - A commentary on Bṛhadyātrā 16.10 that states the pairing: none open.
+- **RD293** (RD293, 2026-11-10):
+  - NDL full-text search for 初夢 with 宝船, 二日, 元日の夜, 守貞漫稿 and 東都歳時記 found no Edo book, only modern local histories; nothing for 夢を見て語らざる日 and its variants.
+  - NDL catalogue (ndl.py) for 東都歳時記, 江戸歳事記, 守貞謾稿, 類聚近世風俗志 and 嬉遊笑覧: no open pid; the Meiji pids 759975, 759977, 759984, 760747 and 760755 give OCR too rough to search for the table.
+  - 大雑書抜緑組 (pid 9892379, 1798) and 夢合延寿袋大成 (pid 2533938) searched in the OCR only, images not read; the 星槎ラボ 延宝2 大ざつしよ and the 安政雑書大成 not reached (no locator for their images).
