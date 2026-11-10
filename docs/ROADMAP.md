@@ -126,7 +126,7 @@ moves up as soon as it is unblocked.
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 | <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
-| <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216) ([RD214](#rd214) beside) | — | Build block 73: S2, the dream reading in the Reckonings: the Tibetan page only (the Japanese page is S4, later, behind the calendar's pill): the night and its part (dusk, the middle of the night, dawn, as chips or a clock time), only the dawn dream read (the owner, 2026-11-10), the images as a grouped, searchable multi-select with WB first, "The dreamer is ill" as a checkbox that brings the Four Tantras' readings into the rows and their rule of the night in place of the line, each image's verdict as a row and the dawn dream's fruit date opening its day; no net verdict. |
+| <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216) ([RD214](#rd214) beside) | — | Build block 73: S2, the dream reading in the Reckonings: the Tibetan page only (the Japanese page is S4, later, behind the calendar's pill): the night and its part (dusk, the middle of the night, dawn, as chips or a clock time), only the dawn dream read (the owner, 2026-11-10), the images as a grouped, searchable multi-select with WB first, "The dreamer is ill" as a checkbox that brings the Four Tantras' readings into the rows and their rule of the night in place of the line, each image's verdict as a row, no fruit date or span (the owner, 2026-11-10); no net verdict. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -526,6 +526,7 @@ check them on the scans.
 | <a id="rd385"></a>RD385 | The Nag rtsis (Chinese astrology) dream lines and the Saturn–Ketu lines of the Phug pa books (q1074, q1075): the dream lines in the Kun 'dus chen mo vol. 3 etext (VEIE0OPI2F246A26_I4717 at etext pages 609, 668, 670 and 719 and the two «rgya bal» lines near page 198) read whole in their texts, what each Nag rtsis dream line ties the dream to (the day animal, the weekday, the element, the year), whether the «Chinese-Nepalese» lines of the Mchog dga' are quoted there, and the Nag rtsis books on BDRC (Dkar nag rtsis, Nag rtsis kyi dpe, Byung rtsis) searched by exact phrase for «རྨི་ལམ» with the day animals and the elements — done 2026-11-10: every Nag rtsis dream line in the Kun 'dus chen mo vol. 3 is a White Beryl verse copied into Kun bzang blo gros's supplement (རྒྱུ་སྐར་ཕྲེང་བ): seven lines, none a rule by the date: the precipice dream tied to the water-hare birth year (WB vol. 1 p. 268), «a troubled dream; the father and forefathers; of five or three brothers a death by the knife» closing the iron entry of the hour's-element readings (kd.3:p588-589, WB vol. 2 p. 160: new to the pool), dreams «tsab tsub» very many tied to the birth mewa five-yellow (WB vol. 1 pp. 290-291), «lying down byes su» tied to the four root pebbles' red mouths (WB vol. 1 p. 381), goods like a dream's goods (a simile, WB p. 383), many confused dreams tied to the sickness mewa five-yellow (WB p. 431), rough dreams tied to the ox in the list of the day's illness (WB p. 428); the dream is tied to birth year, birth mewa, the pebbles cast, the hour's element at the asking or an illness; «རྒྱ་བལ་ཁ་ཅིག» occurs 24 times on 22 printed pages of the Mchog dga' as one voice beside the earlier ones, the commentators and some Tibetans, 11 of the 24 quoting verse couplets, never in the Nag rtsis part; who they are is not told (q1074 stays open) and the Saturn lines are found only in the Kun 'dus and the Bzo rtsis zlos gar (q1075 stays open) | the Kun 'dus chen mo vol. 3 etext (and VEIE0OPI51EA6051_I2PD16001), bdrc_search.py by exact phrase, bdrc.py etext, locate.py; RD361's, RD367's, RD369's and RD376's passages in corpus/kd/kd.md and corpus/dds/dds.md beside | — | [S1](#s1) | corpus/kd/kd.md | Read RD385: each Nag rtsis dream line in Tibetan script with etext page and the English beside, what it ties the dream to, whether it is a rule by the date; dead ends to PLAN.md. |
 | <a id="rd386"></a>RD386 | The Tengyur's rites with a dream tied to a night or a date, RD381's unread passages: the Derge Tengyur volume 28 etext passages on pages 378, 446–447 and 499–500 (a Mahākāla rite on the night of the 14th of the dark fortnight with a dream as a sign of success), the Guhyasamāja commentary (VE23703_1355 page 533) where the dream is examined «to give up fixing on signs», the Padma-net rite's dream the night before the mandala (pages 299–300) and the dream passages of the other Derge Tengyur rite volumes found by exact phrase («རྨི་ལམ» with «ཚེས», «ནུབ་མོ», «ཐོ་རངས»): which rites fix a dream's use to a night of the month or a part of the night, what the sign means and the remedy, read in Tibetan — done 2026-11-10: no rite of the Derge Tengyur volumes read ties a dream's use to a day of the month: the night of the 14th of the dark half in the Mahākāla sādhana (vol. 28 pp. 499-500) is the mantrin's sitting night, the dream there a sign of success in three ranks; the mandala rites (about twenty more) ask the dream of the night before at early dawn, a fall from a mountain the one named bad dream, the remedy a mantra or the pacifying fire; the ground rites read that night's dream for whether the spirits gave the ground; the Guhyasamāja commentaries list favourable dream signs and examine the dream «to give up fixing on signs»; one Cakrasaṃvara commentary, the De kho na nyid mkhas pa (VE23703_1333 pp. 572-573), tells the practitioner to meditate at midnight (མཚན་མོ་ཕྱེད) and look for a virtuous dream, again in the session of the fifth chu tshod, then the early-morning session: the only rite found that ties a dream to a part of the night, with no image list and no remedy | the Derge Tengyur etexts VE23703_n on BDRC (bdrc.py etext, locate.py, bdrc_search.py by exact phrase) and the scans where they serve; RD381's passages and claims in corpus/svo/svo.md beside | — | [S1](#s1) | corpus/svo/svo.md | Read RD386: each passage in Tibetan script with etext page and the English beside, the night or the date it names, what the dream signifies; dead ends to PLAN.md. |
 | <a id="rd387"></a>RD387 | Marpa on the spirits of the middle watch (the owner, 2026-11-10; q1084, q1006, q1067): the saying the third Karmapa quotes (dusk dream habit, the midnight dream the power of spirits «གདོན་དབང», the dawn dream true; rrd.5:p57-59) sought in the works and songs of Marpa, Mi la ras pa, Ras chung pa and Sgam po pa and in the dream instructions of the Six Dharmas of Nāropa in his lineage; what the spirits' dream of the middle of the night is, which spirits, how it is told from a true dream, and what is done about it (a remedy, a rite, nothing); beside it Rngog Zhe sdang rdo rje's «evening habit, midnight Māra, dawn the deity» (dds.27:p41-44), Klong rdol bla ma's «demons' play», the midnight dream of the death signs in Marpa's four sheets (dds.9:p173-174), the Lama Gongdü's «afflictions» at gung and the Four Tantras' dreams of spirit illness (ch. 81, ch. 91) | Marpa's collected works (I1KG15196), Mi la ras pa's songs and life, the Ras chung snyan brgyud (I4PD2765), Sgam po pa's collected works and the Nāro chos drug dream manuals on BDRC, bdrc_search.py by exact phrase («ནམ་ཕྱེད», «གདོན་དབང», «གདོན་གྱི་རྨི་ལམ», «སྲོད་ཀྱི་རྨི་ལམ་བག་ཆགས»), bdrc.py etext, locate.py; RD355's, RD374's, RD377's, RD382's and RD384's passages in corpus/rrd/rrd.md, corpus/dds/dds.md and corpus/lgd/lgd.md beside | — | [S2](#s2) | corpus/rrd/rrd.md | Read RD387: each passage on the dream of the middle of the night and its spirits in Tibetan script with etext page and the English beside, who says it, what is done about such a dream; whether the saying is found under Marpa's own name; dead ends to PLAN.md. |
+| <a id="rd388"></a>RD388 | The state neither asleep nor awake and its visions (the owner, 2026-11-10): what the sources say of the states of consciousness a practitioner of tantra and meditation has before falling asleep or before waking, aware of themselves, with feelings and visions of every kind: how the texts name the state (ཉམས nyams, experience; དག་སྣང dag snang, pure vision; འོད་གསལ 'od gsal, clear light; གཉིད་དང་མ་གཉིད་ཀྱི་བར, between sleep and not sleeping; སད་རྨི་བར, between waking and dream), how they tell its visions from a dream and from waking sight, whether such a vision is read as a sign and by which rule, and what is said of its time in the night; first from the pool (svo:i533, svo:p499-500, mph.128:i189-192, rrd.5:p111-112, the vision, experience and dream ranks of RD363, the dream-yoga passages of the Six Dharmas met in RD384), then by exact phrase in the texts of rank (WB, Mipham, Rtsa gsum gling pa) and the dream instructions of the Kagyu, Sakya and Nyingma | the pool's passages named; Mipham's collected works (the author facet &author[0]=P252 of BDRC's search), Rtsa gsum gling pa's vols. 27–30 (etext IE0OPI46409446), the Six Dharmas' dream and clear-light instructions on BDRC; bdrc_search.py by exact phrase («གཉིད་དང་མ་གཉིད», «གཉིད་མ་ལོག་པའི་བར», «ཉམས་དང་རྨི་ལམ», «ཉམས་སྣང», «མནལ་ལམ་དང་ཉམས», «སད་པ་དང་གཉིད་ཀྱི་བར»), bdrc.py etext, locate.py | — | [S2](#s2) | corpus/rrd/rrd.md | Read RD388: each passage that names the state or its visions in Tibetan script with etext page and the English beside, the name it gives the state, whether and how the vision is read; a list of the pool's passages that already touch it; dead ends to PLAN.md. |
 
 ### Left open in built work
 
@@ -5391,8 +5392,11 @@ groups it shows (`tools/emulator/store_shots.py`).
     zer cuts the night «in four equal parts», snz:p428-429; no source
     bounds a watch by the clock, [RD215](#rd215)): the first quarter
     dusk, the second and third the middle, the last dawn.
-    - **Dawn.** The dream is read: the image rows below, and its fruit
-      date, "bears fruit by 24 Nov 2026", the date opening its day.
+    - **Dawn.** The dream is read: the image rows below. **No fruit
+      date and no span** (the owner, 2026-11-10): the Svapnohana, the
+      one text that gives spans, is not a first-rank source, and
+      practitioners reckon the time differently, so the screen names
+      none.
     - **Dusk.** One line and no image rows: a dream of the day's
       habits, not read.
     - **The middle of the night.** One line and no image rows, **in
@@ -5404,14 +5408,22 @@ groups it shows (`tools/emulator/store_shots.py`).
       «midnight, Māra», Klong rdol's «demons' play», the midnight
       dream of the death signs in Marpa's four sheets, the Lama
       Gongdü's «afflictions» beside it).
-    - **Neither dreaming nor awake.** The owner's words (2026-11-10):
-      «only dawn dream counts, as long as specific no-dream & not-awake
-      state that non-practitioners rarely have». How that state enters
-      the screen (an input of its own that counts beside the dawn
-      dream, or the reason the middle of the night gives an ordinary
-      sleeper nothing to read) is asked of the owner and not designed
-      yet; the third Karmapa's six sessions put clear light (འོད་གསལ,
-      'od gsal) at gung, between dusk and dawn (rrd.5:p111-112).
+    - **Neither asleep nor awake.** The owner (2026-11-10):
+      practitioners of tantra and meditation may have states of
+      consciousness before falling asleep or before waking that are
+      neither sleep nor waking; such a state is usually well aware of
+      itself and may bring feelings and visions of every kind. It is
+      not a dream and not an input of the screen yet: **every reading
+      first notes whether a source names that state and what it says
+      of the visions in it**, and [RD388](#rd388) gathers what the
+      pool and the texts hold (the signs «in the states of slept and
+      not slept», svo:i533; the deity «seen directly, in a dream or in
+      a meditation experience», svo:p499-500; Mipham's mantras for
+      dream and experience, mph.128:i189-192; clear light (འོད་གསལ,
+      'od gsal) at gung in the third Karmapa's six sessions,
+      rrd.5:p111-112; vision, experience and dream as three ranks in
+      Rtsa gsum gling pa's cycle, RD363). What the screen does with it
+      is the owner's to decide after that reading.
   - **The dreamer is ill.** A checkbox among the inputs, not a section
     (the owner, 2026-11-09). Set, **the Four Tantras' own rule of the
     night takes the place of the line above** (the owner, 2026-11-10;
@@ -5449,21 +5461,14 @@ groups it shows (`tools/emulator/store_shots.py`).
     which never shows outweighed factors, applied the other way: nothing
     is weighed).
   - **Core.** `DreamReading` in `core/tibetan/Dream.kt`: the watch from
-    a clock time and the night's sun times, the fruit date from the
-    watch, the catalogue as a family per text (`DreamImage` entries
+    a clock time and the night's sun times, the catalogue as a family per text (`DreamImage` entries
     keyed by text and image, verdict tone, medical flag) with their
     catalog entries; the CLI prints a dream read for a date, a watch and
     a list of images.
 - **Stated choices**, for the owner to overrule: the clock time mapped
   on equal quarters of the night from sunset to sunrise (Shes rab 'od
   zer's «four equal parts»; no source bounds them by the clock, so the
-  screen says so); **the fruit date for a dawn dream from the
-  Svapnohana's last two spans**, within half a month for the last
-  quarter of the night and within ten days at first light (the last
-  half hour before sunrise), counted in civil days from the morning
-  after the dream: the Svapnohana's spans for the earlier watches (a
-  year, eight months, three months) are not shown, since those dreams
-  do not count; the image picker offered for a dawn dream only; the
+  screen says so); the image picker offered for a dawn dream only; the
   pill hidden until S4 is built; an image whose verdict rests on an
   unsettled word is not offered (as the moment's signs, §5.9.5); the
   deity rites' asked-for dreams (TDR, SRM, GNC, RD210) and Mipham's
@@ -5473,19 +5478,17 @@ groups it shows (`tools/emulator/store_shots.py`).
   [RD215](#rd215), [RD216](#rd216) and the readings of 2026-11-10
   ([RD370](#rd370), [RD372](#rd372), [RD374](#rd374), [RD377](#rd377),
   [RD384](#rd384)); [RD387](#rd387) before the middle watch's line is
-  worded ([RD214](#rd214) beside, access permitting); waits on no block (the moment screen and the work picker
+  worded, [RD388](#rd388) for the state neither asleep nor awake ([RD214](#rd214) beside, access permitting); waits on no block (the moment screen and the work picker
   are built).
 - **Done when.** `DreamTest`: the watches of a night in Lhasa in
   summer and winter from `SunTimes`, a clock time at the night's
-  quarters and at first light, the two fruit dates of a dawn dream and
-  none for dusk and the middle of the night, the Four Tantras' rule
-  with the dreamer ill; a catalogue entry per read
+  quarters, no fruit date or span on any reading, the Four Tantras'
+  rule with the dreamer ill; a catalogue entry per read
   image; `CatalogTest` with no allowance; `:app:testDebugUnitTest`
   (`ReckoningsTest` with the new entry); `kb.py check`; on the emulator
   in English and Russian: the picker, the search, a dream of three
   images at dawn, the same with "The dreamer is ill" set, a dream of
-  the middle of the night (its line, no rows),
-  the fruit date opening its day; the release-build check (new enums);
+  the middle of the night (its line, no rows); the release-build check (new enums);
   SPEC §5.9.11 (new), §10.11 and §8.2, this item, the README, both
   listings, a screenshot of the reading, the website and the GitHub
   description (*Docs on every feature merge*).

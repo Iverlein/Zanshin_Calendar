@@ -36,6 +36,14 @@ every model they start, even when killed.
 - A reading session commits its topic files without asking, as every
   session commits its verified work (AGENTS.md); pushing waits for the
   owner.
+- **In every text on dreams, note the state neither asleep nor awake**
+  (the owner, 2026-11-10): where a source names a state of a
+  practitioner before falling asleep or before waking that is neither
+  sleep nor waking, aware of itself, with feelings and visions, or
+  comments on such visions (as experience, ཉམས, nyams; pure vision,
+  དག་སྣང, dag snang; clear light, འོད་གསལ, 'od gsal), the passage is
+  recorded even when the reading asked for something else
+  ([RD388](../ROADMAP.md#rd388) gathers them).
 
 ## The knowledge pool
 
