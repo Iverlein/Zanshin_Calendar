@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD331 (2026-11-10): CBL (IE0OPIC2BFA6FE, vol. 5 = I1KG81117) pp. 217, 235–238, 278–279; Derge Tengyur vol. 28 (VE23703_1344) pp. 238–239, 247–249, 267–268; Dpe bsdur ma vol. 14 pp. 1335–1336 and 1358.
+
 ## <a id="cbs-p238-239"></a>cbs:p238-239 Title and opening verses
 
 *Read: etext, 2026-11-10.*

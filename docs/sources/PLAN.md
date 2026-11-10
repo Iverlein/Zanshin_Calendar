@@ -2016,3 +2016,6 @@ Searched and found wanting, so not to be repeated:
 - **RD330** (RD330, 2026-11-10):
   - The scan of the Siddhasāra volume: BDRC's manifest for I1KG15617 and W1KG14614 returned HTTP 500, and volumes lists only the etext volume.
   - No physician's dream beside the messenger in Byang pa pp. 204–232, Rin spungs pa pp. 227–240, Khro ru pp. 296–330 or the Explanatory Tantra's ch. 25 (Khro ru pp. 445–452); the Bhutan print's etext has «ཕོ་ཉ» once, in the child-spirits' list; the Drathang line variants by eye on the cursive print: given up, gt:i41 stays machine.
+- **RD331** (RD331, 2026-11-10):
+  - «ངག་དབང» and «ངག་དབང་དགོངས» in the Derge volume 28 etext outside the Svapnohana's own line, and in the first five etext volumes of Mkhyen brtse's collected works (IE0OPIC2BFA6FE, I1KG81113–81117): none (2026-11-10); the Gāyatrī's name «ག་ཡ་ཏྲི» in the Derge etext pp. 239–268 and in CBL vol. 5: none.
+  - The Dpe bsdur ma variant notes for 'Deceiving Death' (vol. 14 etext pp. 1359–1362): the OCR garbled and the markers lost, no note assignable; the scans of vol. 14 (I1PD95859) restricted; the scans of CBL (I1KG81117) and of the Derge pages (I1344) not read; Steinert's dictionaries not consulted for «ངག་དབང»; no other translation or catalogue note on the origin of the dream verses sought beyond BDRC's records of Vāgīśvarakīrti.
