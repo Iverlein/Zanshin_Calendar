@@ -64,6 +64,61 @@ The text is the questions of Dpal chen put to the lord 'Jig rten mgon po (1143-1
 
 «In the reckoning of dependent arising there are twelve beginning with ageing and death and ignorance; and, as said in the Foundation (གདན་གཞི, gdan gzhi, the Catuṣpīṭha) and the Vajradākatantra, the twelve beginning with the Lord of the Earth (སའི་དབང་ཕྱུག), Increase (འཕེལ་བ), Delusion (གཏི་མུག), the Good (བཟང་པོ), the Bull (ཁྱུ་མཆོག), the Tortoise (རུས་སྤལ), the Crocodile (ཆུ་སྲིན), the Yugma (ཡུག་མ), the Rme ba, the 'Bug pa, the Life (འཚོ་བ) and the Dream month (རྨི་ལམ་གྱི་ཟླ་བ, rmi lam gyi zla ba).» The dream appears in the calendar only as the name of the twelfth of twelve months in a list from the tantras; the same list is in Mkhan zur Ngag dbang nyi ma's collected works, etext VEIE0OPIA1BB940F_I4810 p. 586 («རྨི་ལམ་གྱི་ཟླ་བ་དང་བཅུ་གཉིས་སོ»), and the modern dictionary «bod rgya skar rtsis rig pa'i tshig mdzod» (MW1PD137843, search only) glosses it, by its snippet, as «smin drug zla ba» (the Pleiades month). A name, not a rule for dreams.
 
+## <a id="dds-27-p41-44"></a>dds.27:p41-44 Rngog Zhe sdang rdo rje, 'Chi ba bslu thabs rin chen sgron me: the dream signs of death glossed, the time-sign as Yama's mother, the monkey's «last night» as death at once (RD382)
+
+*Read: etext, 2026-11-10.*
+
+> ད་ནི་རྨི་ལམ་གྱི་དུས་སུ་འཆི་རྟགས་བརྟག་པ་ནི། དོན་མེད་པར་ནི་རྨི་
+> ལམ་ལ་དོན་མེད་པ་ཡིན། བླ་ནི་རྨི་ལམ་གྱིས་བསླུ་བ་ཡིན་ཡང་། ལོ་ག་ལ་སོགས་
+> ནི་ལོག་པ་ཡིན་བསླུ་བ་ཡིན་ཡང་། རྨི་ལམ་ཐམས་ཅད་བདེན་པ་མིན་ཡང་། དེ་ལ་
+> མི་དད་ནི་སྔགས་པས་ཡིད་ཆེས་པར་བྱ་དགོས་ཏེ། དེ་ཅི་སྟེ་ན་སྟ་གོན་གྱི་དུས་ཡང་
+> རྨི་ལམ་ལ་བརྟེན་ནས་ཀུ་ཤའི་སྟན་སྔས་བྱིན་བལྟས་རྟོག་པ་དང་།རྒྱུད་དྲི་ཡང་
+> སྤྱིའི་རྒྱུད་ལ་སོགས་པས་བཤད་པས་སོ། །འཆི་བལྟས་མི་རྟོགས་པས་ནའོ། །
+> དེ་ཡང་སྲོད་ལ་བག་ཆགས་ཀྱི་རྨི་ལམ་བྱ་བ་དེ་རིང་ཅི་བྱས་རྨི་བ།ནམ་
+> ཕྱེད་བདུད་ཀྱི་རྨི་ལམ་བྱ་བ་བདུད་བར་ཆོད་ཀྱི་རྨི་ལམ་རྨི། ཐོ་རངས་ལ་ཡི་དམ་ལྷ་
+> ཡི་བསྟན་པའི་རྨི་ལམ་བྱ་བ་ཡིན་པས་ཡི་དམ་ལ་གསོལ་བ་བཏབ་ནས་བལྟས་
+> བརྟག་པའི། རྨི་ལམ་ནི་ཡི་དམ་གྱི་ལྷས་རྨི་ལམ་གྱི་དུས་སུ། ཡང་ན་རྨི་ལམ་ནི་
+> རང་བཞིན་གྱི་ལམ་གྱི་རྨི་ལམ་རྣོ་བ། རྨི་ལམ་ནི་དེ་ལ་ཡིད་ཆེས་པར། འཆི་བའི་ནི་
+> འཆི་བའི་རྟགས་ཀྱི། དེ་ཡང་སྐྱགས་ཀོ་ད་ར་དང༌། ཀ་ར་བི་རའི་མེ་ཏོག་ནི། མེ་
+> ཏོག་དམར་པོ་རྒྱས་པ་ལ། རྨི་ལམ་ནི་རྨི་ལམ་དུ་དེ་རྣམས་ལ་འཛེག་པ་རྨིས་ན་ཟླ་
+> བ་དྲུག་ན། མི་ནི་གང་ཞིག་རྨི་ལམ་ཐར་ནི་གཉིད་སད་ཀར་རྨིས་པ་ལྷ་ཁང་གི་
+> མཆོད་སྡོང་ངམ། ཡང་ན་བྱེ་མའམ་ཡང་ན་ཐལ་ཕུང་ཆེན་པོ་ལ་སོགས་པ་ལ་
+> འཛེག་པ་རྨིས་ན། སྔ་མ་ནི་ཟླ་བ་དྲུག་ནའོ། །བོང་བུ་ནི་བོང་བུ་གྭ་པ་གཅིག་ལ་
+> ཞོན་ནས། ལྷོ་ཕྱོགས་ནི་ཁ་ལྷོ་ཕྱོགས་སུ་བལྟས་ནས་སྲེ་ཕྲེང་འགྲོ་བ་རྨིས་ན། བླར་
+> ནི་མ་ལོག་པར་དེའི་སྲོག་ནི་ཟླ་བ་དྲུག་ན། གང་ཡང་སྤྲེའུ་ལ་ཞོན་པ། ལྷོ་ཕྱོགས་
+> སུ་ནི་འགྲོ་བྱེད་ཅིང་དེར་གནས་ནི་དེ་ལྟར་རྨིས་པ་ལ་གཉིད་སད་ནས། སྔ་མ་ནི་ཟླ་
+> བ་དྲུག་ན། ཤིང་རིངས་ནི་ཤིང་རིང་པོའམ་མཆོད་རྟེན་གྱི་སྲོག་ཤིང་ངམ། གྲོག་
+> [p43]
+> མཁར་ནི་གྲོག་མ་ས་ཆགས་པའམ། ཕྱག་དར་ནི་ངན་ཕུང་ལ། མི་ནི་འཛེག་པ་
+> རྨིས་ན་ཟླ་བ་དྲུག་ནའོ། །བུ་མོ་ནི་ཁ་དོག་ནག་མོ་ཅིག །གང་ཞིག་ནི་ལག་པ་ལ་
+> རྟོགས་བྱེད་ཅིང་བྱུང་ན་འཆིང་གི་བྱུང་ན་རྨིས་ན། དེ་ནི་དུས་མཚམས་ནི་གཤིན་
+> རྗེའི་ཡུམ་ཡིན་པས་ཞག་བདུན་ནའོ། །བུད་མེད་གང་ཞིག་གོས་གནག་ཅིང་།
+> མདོག་ནག་ནི་དེ་དང་འདོད་པ་སྤྱོད་པ་རྨིས་ན། ཀ་ར་བི་ར་ནི། ཤིང་ཀ་ར་བི་ར་
+> ནའི་ཕྲེང་བ་བརྙེད་པ་རྨིས་ན། དེ་ནི་གཤིན་རྗེའི་གནས་ཏེ་འཆིའོ། །རྨི་ལམ་དུ་ནི་
+> མུན་པ་མུན་(ནག་)གམ། གཡང་ས་ནི་གཡང་ས་ཆེན་པོར་ལྷུང་པའམ། བརྩོན་ར་
+> ནི་བརྩོན་དུ་བཟུང་ནས་མ་ཐར་བ་དང༌། རྨི་ལམ་དུ་ནི་ཤིང་ཆེན་པོ་ལས་ལྷུང་པ་
+> རྨིས་ན་ངན་ནོ། །
+> གཉིད་ལོག་ནི་གཉིད་ལོག་པའི་ལུས་དང་མགོ་ལ། ལྗོན་ཤིང་རྩ་འམ་ཤིང་
+> དག་ནི། འབྲས་བུ་ནི་འབྲས་བུ་མེད་པ་རྨི་ནའོ། །འབྲས་བུ་ཡོད་པ་རྨིས་ན་བཟང་
+> ངོ་། །ཟླ་བ་དྲུག་ན་འཆི། མི་ནི་གང་ཟག་གི་སྤྲེའུའོ། །ཞེས་པ་ལ་སོགས་པ་ནི་སྤྲེའུ་
+> ལ་ཞོན་ནས་ཤར་དུ་འགྲོ་བ་རྨིས་ནས་སད་ན། མཚན་མོ་ཐ་མ་ནི་དེ་མ་ཐག་ཏུ་
+> འཆི་ན། དེ་བཞིན་དུ་ཁྱི་དང་བྱ་རྒོད་དང་ལྕེ་སྤྱང་དང་། སྲིན་པོ་ཡི་དྭགས་ཤ་ཟའི།
+> ཟོས་དང་འོ་སྐོལ་གསད་པ། བོང་ཕག་སྔ་དང་། མ་ཧེ་ལ་སྐྱོན་ནས་ཁྱེར་བ་རྨིས་ན་
+> ལོ་གཅིག་ན། དེ་བསླུ་བ་རྨི་ལམ་མཚན་མ་མཐོང་བ་ནི་རྨིས་ན། སྒྱུ་མ་ནི་ཆོས་
+> ཐམས་ཅད་རྨི་ལམ་གྱི་རྣམ་པ་ལྟ་བུ་སྒྱུ་མའི་རྣམ་པ་ལྟ་བུ་ཡིན་སྙམ་པས་བསླུའོ།
+> །མི་ནི་ལྕགས་ཀྱི་དབྱིག་པ་ཐོགས་གནག་ཅིང་གོས་ནི་ནག་པོ་གོན། གཉིད་ལོག་
+> པའི་མདུན་དུ་རྨིས་ན། ཟླ་བ་གསུམ་ན། ལུས་ནི་དྲི་མར་གྱིས་བྱུགས་པ་རྨིས་ནས།
+> འཕྲེང་བ་རག་གིས་འཕྲེང་བ་དམར་པོ་རྙེད་པ་རྨིས་ན། ཏིལ་མར་གྱི་ནི་ལུས་
+> [p44]
+> བསྐུས་ན་སྐྲག་པའམ་ནི་སྔངས་པ་སྐད་བྲེད་སྙམ་པ་རྨིས་ན་དང་། སྐྲ་བྲེག་གོས་
+> དམར་པོ་གྱོན། བོང་བུ་ཞོན་ཏེ་འགྱོག་པར་ནི། ལྷོ་ཕྱོགས་སུ་ནི་འགྲོ་འགྱུར་པ།
+> བདག་ཉིད་འདི་རྨིས་ན་ཟླ་དྲུག་ན། དྲི་དང་འཕྲེང་བ་དམར་པོ་འམ། ཡང་ན་གོས་
+> ནི་དམར་པོ་དག །གང་གིས་ནི་རྨི་ལམ་དུ་དེ་བརྙེད་ན་ཟླ་བ་བརྒྱད་ན་འཆི།
+
+Rngog Zhe sdang rdo rje's lecture on the dream signs of death (the volume's section is headed «The Precious Lamp, the means of deceiving death», འཆི་བ་བསླུ་ཐབས་རིན་ཆེན་སྒྲོན་མེ, 'chi ba bslu thabs rin chen sgron me, a running exposition of the verses of Ngag gi dbang phyug grags pa's 'Deceiving Death'; the etext volume VEIE0OPI6EB405D9_I4PD2672 of the collected works of Rngog and his pupils, Mes po'i shul bzhag, with the etext's [pN] markers as pages; the etext is noisy and the glosses are run into the verses). Rendered by the reader, where clear: «Now the examination of the death signs at the time of the dream. (The words:) "though all dreams are untrue" — the mantra-holder must still trust them, for at the preparation (sta gon) too one looks at dreams with the cushion and pillow of kuśa grass, and the Common Tantra and the like teach it. The dream of the evening (སྲོད, srod) is a dream of habit-imprints: one dreams what one did today; the midnight (ནམ་ཕྱེད, nam phyed) dream is Māra's dream: one dreams the dream of Māra's obstacle; the dream of dawn (ཐོ་རངས, tho rangs) is the dream in which the chosen deity (ཡི་དམ, yi dam) gives a teaching, so one prays to the deity and then examines. … The «རྒྱ་སྐྱེགས» and the kovidāra and the karavīra flower: to dream of climbing these is six months. «Whoever at the end of his dream» … a temple's offering post, or sand, or a great heap of ashes: climbing (it) in a dream, as before, six months. A donkey: riding on one donkey, looking to the south, going off in a line, he dreams: his life if he does not turn back, six months. Riding a monkey … if he wakes: as before, six months. A long tree, or the life-pole of a stupa, an ant-hill, the «phyag dar», a bad heap (ངན་ཕུང): to dream of a man climbing, six months. A girl: of black colour, whoever dreams of one binding (him) with his hand: this «time» (the etext prints དུས་མཚམས, dus mtshams, for dus mtshan) is Yama's mother/consort (གཤིན་རྗེའི་ཡུམ, gshin rje'i yum), so seven days. A woman in black clothes, a black man … a garland of karavīra flowers found: that is the place of Yama, he dies. … A man's monkey — "a man who rides a monkey and goes to the east, and wakes": the «last night» (མཚན་མོ་ཐ་མ) is that he dies immediately. So too dogs, vultures, jackals, … a donkey, a sow, a buffalo carrying (him) off: if dreamed, one year. … a man with an iron staff in black clothes before the sleeper: three months. … red scent … garland … clothes found: eight months.»
+
+Two glosses are the lecture's own: the black girl «time» is Yama's mother (or consort, ཡུམ), which is why her sign is seven days, and the monkey rider's «last night» means death directly after that waking; the three parts of the night (evening habit, midnight Māra, dawn the deity's teaching) are close to the three of the Karmapa's verses on dreams (dds.18:p57; there the midnight dream is the power of spirits, here Māra's). Left unread: the etext's runs of broken words in the first lines. The lecture's «Ngag gi dbang phyug grags pa» is named in the same section's opening as the author of the verses explained (etext [p13]).
+
 ## <a id="dds-6-p44"></a>dds.6:p44 A life of a master, etext VEIE0OPIFEB26077_I1KG11732 (the BDRC title is not matched to the hit; an Orgyan appearance on the night of the tenth)
 
 *Read: etext, 2026-11-10.*
@@ -91,6 +146,26 @@ The text is the questions of Dpal chen put to the lord 'Jig rten mgon po (1143-1
 «The verses on dreams. Homage to the lama-fathers. I take refuge in the kind ones; may the kind ones bless me. I, the like of a little hermit in the mountain retreat, prayed to the lord in the evening; at dawn (ཐོ་རངས, tho rangs) a sign of the night appeared thus. In general the evening (སྲོད, srod) dream is a habit-imprint (བག་ཆགས, bag chags); the midnight (ནམ་ཕྱེད, nam phyed) dream is the power of spirits (གདོན་དབང, gdon dbang); 'whatever comes at dawn is true', so the mouth of the lama Marpa said. Therefore, though I am a yogin of my kind, I set down a few dreams in writing.»
 
 The verses are in the Third Karmapa Rang byung rdo rje's collected works. This is a rule for dreams in general, ascribed to Marpa; the dream signs are not death signs, and it names no span of life. The BDRC search finds the lines «srod kyi rmi lam bag chags» and «nam phyed kyi rmi lam gdon dbang» in this one text only.
+
+## <a id="dds-19-p95-96"></a>dds.19:p95-96 Lho brag Mar pa lo tsa'i gsung 'bum, the colophons of the Hevajra mandala rite «Dkyil 'khor gyi cho ga mdo dang sbyar ba»: begun at Lho brag Chu khyer, the instruction found among Nāropa's pupils, a second note naming Rngog (RD382)
+
+*Read: etext, 2026-11-10.*
+
+> བསླབ་བྱ་གཉིས་པ་བསྐྱེད་པའི་རིམ་པ་དང་། རྫོགས་པའི་རིམ་པའི་
+> མན་ངག །བློ་ཡི་བྱེ་བྲག་གིས་མན་ངག་གི་བྱེ་བྲག་ཅི་རིགས་པར་བསྟན་ནོ། །བླ་མ་
+> དམ་པ་ཚུལ་བཞིན་བསྟེན་པ་ཡིས། །མན་ངག་སྒྲོ་སྐུར་བྲལ་བ་འདི། །ནཱ་རོའི་སློབ་
+> མ་དག་ལས་རྙེད། །བརྗོད་བྱ་དོན་དུ་བྲིས་པ་ཡིས། །དེ་ཡི་བསོད་ནམས་དག་
+> གིས་ནི། །འགྲོ་ཀུན་རྡོ་རྗེ་འཆང་ཐོབ་ཤོག །དཀྱིལ་འཁོར་གྱི་ཆོ་ག་མདོ་དང་སྦྱར་
+> བ་ཞེས་བྱ་བ། ལྷོ་བྲག་ཆུས་ཁྱེར་དུ་བརྩམས་པ་རྫོགས་སོ།། །།
+> རྗེ་བཙུན་གྱིས་རྔོག་གིས་ནི་བྱིན་བརླབ་ཤོག །རྗེ་བཙུན་རྔོག་གི་ཞལ་ནས་བླ་
+> མའི་ལྷ་རྗེ་ལྷོ་པའི་གདམས་ པ་ ཀ་ མ་ ཡིན་ ཏེ། ཡབ་ནས་སྔ་ མོ་ ནས་ དབང་གི་ཡི་གེ་འདི་
+> བཞུགས་འདི་དཔེ་རྙིང་ཅིག་ལས་ངན་བུས་སྤོས་པ་ལགས་གསུངས་པས། ཡིད་ཆེས་
+> ཚིག་འགའ་ཙམ་ལས་མ་བཅོས་གསུངས་དམ་པར་འདུག་པས་དཔྱིད་ཀ་གཅིག་རྟའི་ལོ་ལ་ཟླུམ་
+> ཆུང་དུ་ཞབས་ལ་སྤྱི་བོས་གཏུགས་ཏེ། ཞུས་དག་གོ ། །།
+
+The end of the Hevajra rite «The Mandala Rite joined to the Sūtras» (དཀྱིལ་འཁོར་གྱི་ཆོ་ག་མདོ་དང་སྦྱར་བ, dkyil 'khor gyi cho ga mdo dang sbyar ba) in the Lho brag Mar pa lo tsa'i gsung 'bum (etext [p96]; the verses of the dream signs of the empowerment night are earlier in the same rite, dds.19:p53-55). Rendered by the reader, where clear: «The second training is the teaching of the instruction on the generation stage and the completion stage, each as the variety of the mind requires. "This instruction, free of exaggeration, found among Nāropa's pupils, by relying on a holy lama in the right way, was written down for the sake of the meaning to be told; by its merit may all beings gain the state of Vajradhara." The (rite called) Mandala Rite joined to the Sūtras, begun at Lho brag Chu khyer, is complete. — (A second note:) May the venerable Rngog bless. From the mouth of the venerable Rngog: it is the instruction of the lama's physician («bla ma'i lha rje») Lho pa, a genuine (ཀ་མ, ka ma) transmission; "from my father, long ago, this written text of the empowerment stands, copied from an old copy by an evil son (ངན་བུ, ngan bu, the word is not understood)", he said; trusting it, (the copyist) changed no more than a few words, so it seems; in a spring in a year of the horse, with my head at the feet at «Zlum chung» (place not identified), the checking was done.»
+
+The rite is the work of no named author: it says it was «begun» at Lho brag Chu khyer, takes its instruction from Nāropa's pupils, and the second note names «the venerable Rngog» (which Rngog the note does not say) as telling of a Lho pa instruction and an old copy. Neither colophon names the Hevajra Tantra, the Saṃvarodaya or Ngag gi dbang phyug grags pa as the source of the dream verses.
 
 ## <a id="dds-19-p119-120"></a>dds.19:p119-120 Lho brag Mar pa lo tsa'i gsung 'bum: the death-sign teaching in the Lho brag pa snyan gyi shog dril history, and the master's question at the night's end in the Hevajra rite (RD374)
 
@@ -124,6 +199,26 @@ The text is the Ras chung snyan brgyud collection's own attribution: Tilopa's in
 «As for the dream death signs: riding a donkey and going facing south is the death sign of the fourth month. Riding a white monkey with a red nose and going facing east is the death sign of the dawn (ཐོ་རངས, tho rangs). Putting on red cloth, or picking a red flower, or climbing the Rgya skyeg mountain, or running downhill naked, or the house being carried off by water, or falling on the plain of the sun — that too. These are uncertain death signs (མ་ངེས་པའི་འཆི་ལྟས, ma nges pa'i 'chi ltas), so any one of body, speech or virtuous practice, whichever is done, clears them.»
 
 The text is «The examination of the shadow of life» (ཚེ་ཡི་གྲིབ་མ་བརྟག་པ, tshe yi grib ma brtag pa, etext [p122]-[p126]) of the same collection. Here the dawn is the time of death after the dream, not the watch of the dream; no watch of the night is named for the dream itself.
+
+## <a id="dds-26-p129"></a>dds.26:p129 The fourth Zhwa dmar Chos kyi grags pa, Ltas kyi bye brag rnam par nges pa'i gtsug lag tshangs pa'i zlos gar: the Saṃvarodaya's dream verses in a fifteenth-century Karma Kagyu treatise, reading «lto bar» (RD382)
+
+*Read: etext, 2026-11-10.*
+
+> གཅིང་ནི་རྒྱུ་ལྔ་གྱུར་པ་དང། །གཡོན་ན་འཁོར་ཞིག་དྲི་ང་དང༌། །སྒྱུར་བ་བྱུང་ན་ཟླ་དྲུག་ཚེ། །གང་ཞིག་ལ་ནི་རྨི་
+> ལམ་དུ། །བྱེ་མའམ་ཐལ་བའི་ཕུང་པོའམ། །ལྷ་ཁང་དང་ནི་མཆོད་སྡོང་འཛེགས། །དེ་ཡང་ཟླ་བ་དྲུག་ནའོ། །
+> གལ་ཏེ་བོང་བུའམ་སྤྱིའུ་ཞོན་ནས། །གྲོགས་མཁར་ཕྱག་དར་ཕུང་པོ་ལ། །མངོན་འཛེག་ལྷོ་ཕྱོགས་འགྲོ་བར་
+> ནི། །རྨིས་ན་གཤེན་རྗེའི་རྗེའི་ཡུལ་དུ་འགྲོ། །བུད་མེད་གང་ཞིག་མདོག་ནག་ཅིང༌། །གོས་ནག་མི་ལ་འདོད་
+> སྤྱོད་པ། །དེ་ནི་དུས་མཚན་ཡིན་ཞེས་བྱ། །གཤིན་རྗེའི་ལྟོ་བར་འགྲོ་བར་འགྱུར། །བྱ་རྒོད་ལྕེ་སྤྱང་ཁྱི་དང་ཁྭ། །
+> དྲེད་དང་ཡི་དགས་ཤ་ཟ་ཡིས། །ཟ་བར་རྨི་ལམ་བྱུང་གྱུར་ན། ། ལོ་གཅིག་ན་ནི་ངེས་པར་འཆི། །གོས་ནི་དམར་
+> པོ་གཡོགས་པ་དང་། །ཕྲེང་བ་དམར་པོས་བརྒྱན་བྱས་ཤིང་། །ཏིལ་མར་གྱིས་བསྐུས་རྨི་ལམ་མཐོང་། ། ཟླ་བ་
+> དྲུག་ན་གསོན་མི་འགྱུར། །མན་ངག་ཇི་བཞིན་ལྡན་པ་ཡིས། །འཆི་བ་བླུ་བར་འགྱུར་བ་སྟེ། །དེ་ཉིད་ཀྱིས་ན་
+> འཆི་ལས་རྒྱལ། །ཆོས་ཀྱི་འཆི་ལས་ རྒྱལ་བ་སྟེ། །རྫོགས་པའི་བྱང་ཆུབ་ རིམ་སྒྲུབ་པས། ། དེ་བས་ཆོས་ནི་
+> མཆོག་ཏུ་བསམ། །
+> འཆི་བའི་ལྟས་བརྟག་པའི་རིམ་པར་ཕྱེ་བ་ལྔ་པའོ།
+
+The end of the fifth section on the signs of death, in the treatise on the kinds of omens «The Temple of Brahmā's Dance» (ལྟས་ཀྱི་བྱེ་བྲག་རྣམ་པར་ངེས་པའི་གཙུག་ལག་ཚངས་པའི་ཟློས་གར, ltas kyi bye brag rnam par nges pa'i gtsug lag tshangs pa'i zlos gar, the running head of the etext's pages) in the collected works of the fourth Zhwa dmar Chos kyi grags pa (etext volume VEIE0OPI22333339_I1KG4880; the etext's [p129]; the etext has OCR slips such as «གཅིང» for gcin and «གཤེན་རྗེའི་རྗེའི» for gshin rje'i). Rendered by the reader: «(… urine) running in five streams, turning round from the left, foul-smelling, changing (to sour): in six months. Whoever in a dream climbs a heap of sand or ashes, or a temple and a post: that too in six months. If he rides a donkey or a monkey (the etext's «སྤྱིའུ» for sprel), openly climbs an ant-hill or a heap of «phyag dar» and goes to the south: if he dreams it, he goes to the land of Yama. A woman of black colour, in black clothes, in love with a man: that is called Time-Night; he will go to Yama's belly. Vultures, jackals, dogs and crows, bears, hungry ghosts and flesh-eaters: if he dreams of being eaten, within one year he surely dies. Covered with red clothes, adorned with a red garland, anointed with sesame oil, seen in a dream: he is not alive in six months. Whoever has the instruction as it is deceives death; by that very (instruction) he conquers death; he conquers death by the dharma; he who strives for the stages of perfect enlightenment thinks of the dharma as the best. This is the fifth section, the analysis of the stages of examining the signs of death.»
+
+These are the verses of the Saṃvarodaya's chapter 19, verses 20-26 (dds.25:p580-583), word for word but for small spellings, standing in the treatise without naming the tantra on this page; the closing line is the treatise's own section colophon. The reading «ལྟོ་བར» (lto bar, "to the belly") is the Derge Kanjur's (and, by Tsuda's note, that of all five editions he collated), not the «ལྟ་བར» (lta bar, "to see") that his edition adopts from the Sanskrit; and the line after the sand-heap verse, «དེ་ཡང་ཟླ་བ་དྲུག་ནའོ» (that too in six months), makes the span explicit that «as before» (སྔོན་བཞིན) leaves to the reader.
 
 ## <a id="dds-9-p173"></a>dds.9:p173 Gdams ngag mdzod, etext VEIE0OPI37DD35AD_I1KG12251 (BDRC MW23605 Shechen 1999 and other prints; a Lho brag pa / Mar pa teaching on the signs of death that stands in several collections, with «chos kyi blo gros» as its BDRC author in one): the midnight dream as the first of the outer death-signs
 
@@ -277,6 +372,72 @@ Urine that flows in five streams, or turns round from the left, or smells foul, 
 
 The passage is the nineteenth chapter, «Looking at the signs of certain death and the yoga of transference» («དེ་ནས་འཆི་བར་ངེས་བའི་ལྟས་ལྟ་བ་དང་འཕོ་བའི་རྣལ་འབྱོར་རིམ་པར་ཕྱེ་བ་སྟེ་བཅུ་དགུ་པ», colophon of the chapter), of «The Glorious Great King of Tantras called Saṃvarodaya» (Śrī Mahāsaṃvarodaya Tantrarāja, བདེ་མཆོག་འབྱུང་བ, bde mchog 'byung ba; Derge Kanjur, the etext volume VE4CZ5369_I1KG9204, whose [pN] markers are the scan images: the chapter opens on img. 580, the dream verses stand on img. 581-582). The scan (I1KG9204 img. 581 shows the folio, a faint print) was looked at; no syllable of the verse was read on it, so the quotation is the etext's. The words agree with those Tsong kha pa quotes, with small differences: «གང་ཞིག་གི» (gang zhig gi), «ལྷ་ཁང་ངམ་ནི་མཆོད་སྡོང་འཛེག» and «གཤིན་རྗེའི་ལྟོ་བར་འགྲོ་བར་འགྱུར» («to Yama's belly», where Tsong kha pa has «to Yama's, he is shown going»).
 
+## <a id="dds-25-p580-583"></a>dds.25:p580-583 Derge Kanjur, the Śrī Mahāsaṃvarodaya Tantrarāja, chapter 19 whole («Looking at the signs of death and the yoga of transference»): the body signs with their spans, the dream verses 21-25, the transference (RD382)
+
+*Read: etext, 2026-11-10.*
+
+> དེ་ནས་འཆི་བར་ངེས་པ་ཡི། །མཚན་ཉིད་
+> མཆོག་ཏུ་བཤད་པར་བྱ། །རང་གི་ལུས་སམ་ཕྱི་རོལ་གྱི། །ལྟས་ནི་མཁས་པས་བརྟག་པར་བྱ། །རྐང་མཐིལ་དག་ཏུ་ཕུག་སྙམ་དང་། །གང་ཚེ་ལྟེ་བར་ཕུག་སྙམ་གྱུར། །དེ་ཚེ་ཉིན་ཞག་གསུམ་ཕ་རོལ། །ལྔ་ཡི་གོང་དུ་འགྲོ་བར་འགྱུར། །བཤང་དང་གཅི་བའི་དུས་དག་ཏུ། །
+> དུས་མཚུངས་སྦྲིད་པ་བྱུང་གྱུར་ན། །ལོ་གཅིག་ན་དུས་དེ་ཉིད་ཀྱི། །དུས་ཚོད་ལ་ནི་འཆི་ཞིང་བརླག །མཚན་གཉིས་མཉམ་པར་སྦྱོར་བ་ཡི། །བར་དང་ཐ་མར་སྦྲིད་པ་ནི། །དུས་མཚུངས་བྱུང་ན་དེ་ཡི་ཚེ། །ཟླ་བ་ན་ནི་ངེས་པར་འཆི། །སྙིང་ག་ལྐོག་མའི་དབུས་དག་ཏུ། །དུས་
+> མཚུངས་གལ་ཏེ་ཟུག་གཟེར་གྱུར། །ཅི་སྟེ་ཆོས་ལ་མི་བརྟེན་ན། །ཟླ་བ་ཕྱེད་དང་གཉིས་ན་འཆི། །གལ་ཏེ་མིག་གཡོན་འབྲས་བུ་ཡི། །གཟུགས་བརྙན་མེ་ལོང་ལ་མ་མཐོང་། །ཅི་སྟེ་ཟློག་པར་མི་བྱེད་ན། །ཞག་བདུན་ན་ནི་ངེས་པར་འཆི། །རྣ་རྩ་དང་ནི་སྨིན་མའི་དབུས། །
+> སྤྱི་བོའི་རྩེ་མོར་ཟུག་པ་སྟེ། །བཞི་པོ་མཚུངས་པར་ཟུག་གྱུར་ན། །དེ་ཚེ་འཕྲལ་དུ་འཆི་བར་འགྱུར། །གློ་བུར་དུ་ནི་ཚོར་གྱུར་ཅིང་། །རིད་དང་ཁྲོ་དང་འཇིགས་པས་འཁྲུགས། །གལ་ཏེ་ཆོས་ནི་མ་བསྟེན་གང་། །དེ་ནི་ལོ་གཅིག་དག་ན་འཆི། །ཡར་ངོ་ཡི་ནི་ཚེས་གཅིག་ལ། །
+> [p581]
+> གལ་ཏེ་ཁུ་བ་ནག་པོར་མཐོང་། །དེ་ཚེ་ཟླ་བ་དྲུག་ན་འཆི། །དམར་པོས་ནད་ཀྱིས་འདེབས་པར་སྟོན། །མིག་ལས་རྟག་ཏུ་འཛག་པ་དང་། །གཟུགས་མཐོང་བ་ཡང་རྣམ་འཕྲུལ་དང་། །མེ་ལོང་ངམ་ནི་ཆུར་གང་ཞིག །རང་གི་གྲིབ་མ་མ་མཐོང་དང་། །མཚན་མོའི་ཚེ་ན་
+> དབང་པོའི་གཞུ། །ཉིན་པར་སྐར་མའི་དཀྱིལ་འཁོར་མཐོང་། །སྤྲིན་མེད་པར་ནི་ལྷོ་ཕྱོགས་སུ། །བརྟེན་པའི་གློག་འགྱུ་མཐོང་བ་དང་། །ཉིན་པར་གྲིབ་མའི་ལམ་དང་ནི། །དེ་བཞིན་སྐར་མདའ་ལྷུང་བ་མཐོང་། །ངང་པ་བྱ་རོག་རྨ་བྱ་ནི། །གཅིག་ཏུ་འདྲེས་པ་མཐོང་
+> བ་དང་། །ཟླ་བ་གཉིས་དང་ཉི་མ་གཉིས། །དེ་བཞིན་རང་གི་མགོ་བོ་འབར། །ཤིང་རྩེ་རི་ཡི་རྩེ་ལ་ནི། །དྲི་ཟའི་གྲོང་ཁྱེར་མཐོང་བ་དང་། །ཡི་དགས་ཤ་ཟ་འཇིགས་རུང་བ། །གཞན་དག་ཀྱང་ནི་མཐོང་བ་དང་། །གློ་བུར་དུ་ནི་རབ་འདར་དང་། །ཡང་དང་ཡང་དུ་བརྒྱལ་བ་
+> དག །དེ་ཡིས་གཅིག་ཅིག་མཐོང་གྱུར་ནའང་། །ཟླ་བ་གཅིག་གིས་འཆི་བར་འགྱུར། །ཟླ་བ་ར་རི་མེད་པ་དང་། །ཉི་མ་འོད་དང་བྲལ་བ་དང་། །མཚན་མོ་ཉི་མ་ཉིན་པར་ནི། །ཟླ་བ་དེ་བཞིན་རང་མིག་འབར། །སྐར་མ་རི་རབ་དག་གི་ཚད། །རྒྱ་མཚོ་ཆུ་བོ་ལྟ་བུ་དང་། །
+> ཁུ་བ་དང་ནི་བཤང་གཅི་རྣམས། །དུས་མཚུངས་པར་ནི་འབབ་འགྱུར་ན། །གལ་ཏེ་ཆོས་ལ་མ་བརྟེན་ན། །ཟླ་བ་ཕྱེད་ན་འཆི་བར་འགྱུར། །དེར་ཡང་ཉིན་མོ་གྲིབ་མ་ནི། །སྐྱེ་བོའི་གཟུགས་ཅན་བལྟ་བྱ་སྟེ། །དེ་ཡི་མགོ་བོ་མ་མཐོང་ན། །ལོ་གཅིག་གི་ནི་ནང་དུ་འཆི། །
+> ལག་པ་གཡོན་པ་མ་མཐོང་ན། །བུ་དང་ཆུང་མ་ངེས་བརླག་འགྱུར། །ལག་པ་གཡས་པ་མ་མཐོང་ནའང་། །ཕ་དང་བུ་སོགས་ཚེགས་ཆེན་འཆི། །གཅིན་ནི་རྒྱུན་ལྔར་འགྱུར་བ་དང་། །གཡོན་ནས་འཁོར་ཞིང་དྲི་ང་དང་། །སྐྱུར་བ་ལ་སོགས་གཅིན་བྱུང་ན། །ཟླ་
+> དྲུག་ནང་དུ་འཆི་བར་འགྱུར། །གང་ཞིག་གི་ནི་རྨི་ལམ་མཐར། །བྱེ་མའམ་ཐལ་བའི་ཕུང་པོ་འམ། །ལྷ་ཁང་ངམ་ནི་མཆོད་སྡོང་འཛེག །དེ་ནི་སྔོན་བཞིན་འཆི་བར་འགྱུར། །གལ་ཏེ་བོང་བུའམ་སྤྲེའུ་ཞོན་ནས། །གྲོག་མཁར་ཕྱག་དར་ཕུང་པོ་ལ། །མངོན་འཛེག་
+> [p582]
+> ལྷོ་ཕྱོགས་འགྲོ་བར་ནི། །གང་གིས་རྨི་ལམ་མཐར་མཐོང་ན། །བུད་མེད་གང་ཞིག་གོས་གནག་ཅིང་། །མདོག་གནག་མི་ནི་འདོད་སྤྱོད་པ། །དེ་ནི་དུས་མཚན་ཡིན་ཞེས་བྱ། །གཤིན་རྗེའི་ལྟོ་བར་འགྲོ་བར་འགྱུར། །བྱ་རྒོད་ཅེ་སྤྱང་ཁྱི་དང་ཁྭ། །དྲེད་
+> དང་ཡི་དགས་ཤ་ཟ་ཡིས། །ཟ་བར་རྨི་ལམ་མཐོང་ན་ནི། །ལོ་གཅིག་ན་ནི་ངེས་པར་འཆི། །གོས་ནི་དམར་པོས་གཡོགས་པ་དང་། །ཕྲེང་བ་དམར་པོས་བརྒྱན་པ་དང་། །ཏིལ་མར་གྱིས་བསྐུས་རྨི་ལམ་མཐོང་། །ཟླ་བ་དྲུག་ན་གསོན་མི་འགྱུར། །མན་ངག་ཇི་བཞིན་
+> ལྡན་པ་ཡིས། །འཆི་བ་བླུ་བར་འགྱུར་བ་སྟེ། །དེ་ཉིད་ཀྱིས་ནི་འཆི་ལས་རྒྱལ། །ཆོས་ཀྱིས་འཆི་ལས་རྒྱལ་བ་སྟེ། །རྫོགས་པའི་བྱང་ཆུབ་རིམ་སྒྲུབ་པས། །དེ་བས་ཆོས་ནི་མཆོག་ཏུ་བསམ། །གཞན་ཡང་བསྒོམ་པའི་ཁྱད་པར་ནི། །མཛེས་པས་ཡང་དག་བཤད་
+> པར་བྱ། །དབུགས་ནི་སྐད་ཅིག་འཆད་པ་དང་། །སྣ་ཚོགས་ལྟས་ནི་ཡང་དག་མཐོང་། །འཐོར་དང་དགང་བའི་སྦྱོར་བ་ཡིས། །ལུས་ཀྱི་དཀྱིལ་འཁོར་སྦྱང་བར་བྱ། །འཆི་བའི་དུས་ལ་ཡང་དག་བབ། །འཕོ་བའི་རྣལ་འབྱོར་མཆོག་བྱ་སྟེ། །བུ་ག་དགུར་ནི་སོན་པའི་རྩ། །
+> པཱུ་རི་ཀས་ནི་དགང་བར་བྱ། །རེ་ཙ་ཀས་ནི་དབུགས་མནན་བྱ། །ཀུམ་པ་ཀས་ནི་བསྡམ་བྱས་ཏེ། །བུ་གའི་སྒོ་ནི་སྦྱང་བར་བྱ། །རབ་ཏུ་ཞི་བས་ཞི་བར་འགྱུར། །རྣམ་ཤེས་དབྲོག་པའི་སྦྱོར་བ་དང་། །གཞན་ཡང་ཕ་རོལ་བགྲོད་པ་ལ། །ཨཱ་ལི་ཀཱ་ལི་མཉམ་ལྡན་པར། །མཁས་
+> པ་ཡིས་ནི་སྦྱར་བར་བྱ། །སྙིང་ཁར་ཡི་གེ་ཧཱུྃ་སྦྱར་ཏེ། །ཡི་གེ་ཕྱེད་དང་གཉིས་པོ་ནི། །འོག་དང་སྟེང་དུ་གཞག་པར་བྱ། །དེ་ཡི་འོག་གི་ཆར་རླུང་གི། །ས་བོན་འོག་ཏུ་བལྟས་པའོ། །རླུང་གི་ས་བོན་གཉིས་བྱས་ཏེ། །རྣལ་འབྱོར་ལྡན་པས་ཁ་སྦྱར་བྱ། །ཉི་ཤུ་རྩ་གཅིག་རིམ་པ་
+> ཡིས། །ཡི་གེ་ཕྱེད་དང་གཉིས་སྔགས་བརྗོད། །རྣམ་ཤེས་བཞོན་པ་རླུང་ཡིན་ཏེ། །གང་དང་གང་དུ་བགྲོད་པ་ཡི། །རླུང་གི་སྒོར་ནི་བསམ་བྱས་ན། །གྲོལ་བའི་དངོས་གྲུབ་སྟེར་བྱེད་པའོ། །མཆོག་དང་ཐ་མའི་དབྱེ་བ་ནི། །བཤད་ཀྱིས་གསང་བའི་བདག་པོ་ཉོན། །ལྟེ་བས་འདོད་
+> [p583]
+> ཁམས་བདེ་འགྲོ་སྟེ། །ཐིག་ལེ་ལས་ནི་གཟུགས་ཅན་ལུས། །སྟེང་ནས་གཟུགས་མེད་ཁམས་སུ་སྟེ། །དེ་ནི་བདེ་བར་འགྲོ་བྱེད་པའོ། །སྣ་ལས་གནོད་སྦྱིན་རྣམས་སུ་འགྱུར། །རྣ་བ་ལས་ནི་མིའམ་ཅི། །ལྷ་མོ་གལ་ཏེ་མིག་ལས་ནི། །མི་ཡི་རྒྱལ་པོར་འགྱུར་བ་ཡིན། །ཁ་
+> ཡི་སྒོ་ལས་ཡི་དགས་རྣམས། །གཅི་ལས་དེ་བཞིན་དུད་འགྲོའོ། །བཤང་ལམ་ནས་ནི་དམྱལ་བར་འགྲོ། །གྲོལ་བ་ལས་ནི་གཞན་དུ་འགྲོ། །དུས་ལ་བབ་ན་འཕོ་བྱ་ཡི། །དུས་མིན་ལྷ་རྣམས་གསོད་པར་འགྱུར། །ལྷ་རྣམས་བསད་པ་ཙམ་གྱིས་ནི། །མི་ནི་དམྱལ་བར་འཚེད་པར་
+> འགྱུར། །དེས་ན་མཁས་པས་འཆི་བ་ཡི། །མཚན་མ་ཡང་དག་ཤེས་པར་བྱ། །འདི་ནི་འཆི་བའི་ལྟས་ལྟ་བ་དང་འཕོ་བའི་རྣལ་འབྱོར་རིམ་པར་ཕྱེ་བ་སྟེ་བཅུ་དགུ་པའོ།
+
+The whole of chapter 19 of the Śrī Mahāsaṃvarodaya Tantrarāja (བདེ་མཆོག་འབྱུང་བ, bde mchog 'byung ba, the Sdom 'byung), from its first verse on the etext's [p580] to its colophon on [p583], in the Derge Kanjur etext (volume VE4CZ5369_I1KG9204, scan images 580-583). Rendered by the reader from the Tibetan; where the Tibetan is unclear the Sanskrit of Tsuda's edition (below, in the section's notes) was looked at and the doubt is said. The verses are numbered as in Tsuda's edition (chapter 19, verses 1-34), whose Tibetan text is this one; the Derge etext's own lines run on without numbers.
+
+(1-2) «Then I shall explain the best marks of what is certain to end in death. The wise man should examine the signs of his own body or of outside it.
+(3) When the soles feel as if pierced and when the navel feels as if pierced, he goes after three days, before five (ལྔ་ཡི་གོང་དུ, lnga yi gong du; see the note on the Sanskrit).
+(4) If at the times of faeces and urine a sneeze (སྦྲིད་པ, sbrid pa) arises at the same moment, he dies and is lost at that very hour of the time after a year.
+(5) If in the middle and at the end of the joining of the two marks (the union of the two organs) a sneeze arises at the same moment, he certainly dies in a month.
+(6) If a stabbing pain arises in the middle of the heart and the throat at the same moment and he does not rely on the dharma, he dies in two and a half months.
+(7) If the image of the "fruit" (the pupil) of the left eye is not seen in a mirror and he does not turn it back, he certainly dies in seven days.
+(8) At the root of the ear, between the eyebrows and at the crown of the head: if the four stab alike, he dies at once.
+(9) If suddenly he feels (something) and is shaken by «rid» (word not understood), anger and fear, and does not rely on the dharma, he dies within a year.
+(10) On the first day of the waxing fortnight, if he sees his semen black, then he dies in six months; red shows that illness will strike.
+(11-12) Tears running constantly from the eyes; seeing forms as illusion; not seeing one's own shadow in a mirror or in water; a rainbow at night; a circle of stars by day; lightning that moves in the south in a cloudless sky; the road of shadows by day; a falling shooting star; geese, crows and peacocks seen mixed in one; two moons and two suns; one's own head ablaze; (13) a city of gandharvas on a treetop or a mountain top; fearful hungry ghosts, flesh-eaters and others seen; (14) sudden trembling and fainting again and again: if he sees even one of these, he dies within a month.
+(15-17) A moon without its rabbit-mark (the hare in the moon); a sun deprived of light; the sun by night, the moon by day, and his own eyes ablaze; a star the size of Mount Meru; the ocean like a river; and if semen, faeces and urine fall at the same moment: if he does not rely on the dharma, he dies in half a month.
+(18) Then, by day, one should look at the shadow, the one that has a person's shape; if its head is not seen, he dies within a year.
+(19) If its left hand is not seen, son and wife are certainly lost; if its right hand is not seen, father, son and the like, the great ones, die.
+(20) Urine that flows in five streams, or turns round from the left, and is foul-smelling, sour and the like: he dies within six months.
+(21) Whoever at the end of his dream climbs a heap of sand or ashes, or the post of a temple (ལྷ་ཁང་ངམ་ནི་མཆོད་སྡོང, lha khang ngam ni mchod sdong): he dies as before.
+(22-23) If he rides a donkey or a monkey, openly climbs an ant-hill or a heap of «phyag dar» (ཕྱག་དར), and goes to the south, whoever sees this at the end of his dream; a woman in black clothes, a black-coloured man given to desire: that is called Time-Night (དུས་མཚན, dus mtshan); he will go to Yama's belly (གཤིན་རྗེའི་ལྟོ་བར་འགྲོ་བར་འགྱུར, gshin rje'i lto bar 'gro bar 'gyur; the Sanskrit has «he goes to the sight of Yama», yamadarśanam).
+(24) If he sees in a dream that vultures, jackals, dogs, crows, bears and flesh-eating spirits eat him: within one year he certainly dies.
+(25) Covered with red clothes, adorned with a red garland, anointed with sesame oil, seen in a dream: in six months he will not be alive.
+(26) Whoever has the instruction as it is can deceive death; by that very instruction he conquers death; by the dharma he conquers death.
+(27) He who strives for the stages of perfect enlightenment therefore thinks of the dharma as the best. Further, the special points of the meditation will be explained beautifully.
+(28) When the breath is cut off from moment to moment and the many signs are truly seen, the body's mandala should be purified by the joining of scattering and filling.
+(29) When one has truly come to the time of death, perform the best yoga of transference (འཕོ་བ, 'pho ba): fill with the "fulfilling" breath (པཱུ་རི་ཀ, pū ri ka) the channels that reach the nine apertures;
+(30) press the breath with the "emptying" (རེ་ཙ་ཀ, re tsa ka); bind with the "vase" (ཀུམ་པ་ཀ, kum pa ka); purify the door of the apertures; by perfect peace he becomes at peace.
+(31) The yoga of snatching the consciousness (རྣམ་ཤེས་དབྲོག་པ, rnam shes 'brog pa), and for the one who goes to the further shore: the wise should join it with Āli and Kāli in equal measure.
+(32) At the heart place the letter HŪṂ; put a letter and a half and two (half-letters) below and above; in its lower part the seed of the wind, looking downward.
+(33) Make two seeds of wind; the yogin joins mouths (the two seeds); in order twenty-one times he utters the mantra of the letter and a half and two.
+(34) The mount of consciousness is the wind; whatever door one thinks of as the wind's door by which it goes, that gives the siddhi of liberation.» (The Derge etext has the verses 28-34 on [p582]; the rest of the chapter on the transference is on [p582]-[p583].)
+(35-38) «Of the best and the lowest I shall speak; listen, lord of secrets: from the navel one goes to the realm of desire, a good rebirth; from the drop (ཐིག་ལེ, thig le) to the realm of form, a body; from the crown to the formless realm: that is the way of going happily. From the nose one becomes among the yakṣas; from the ears, a human or a kinnara (མི་འམ་ཅི, mi'am ci); a goddess; if from the eyes, he becomes a king of men; from the door of the mouth, hungry ghosts; from urine likewise animals; by the passage of faeces one goes to hell; from liberation (the crown aperture) to elsewhere.
+(39-40) If one transfers when the time has come (དུས་ལ་བབ་ན, dus la bab na); out of time one kills the gods. By killing the gods alone man is cooked in hell. Therefore the wise should know the signs of death truly.»
+
+The chapter's colophon: «This is the nineteenth chapter, the analysis of the stages of Looking at the signs of death and the yoga of transference» (འདི་ནི་འཆི་བའི་ལྟས་ལྟ་བ་དང་འཕོ་བའི་རྣལ་འབྱོར་རིམ་པར་ཕྱེ་བ་སྟེ་བཅུ་དགུ་པའོ). The verse that follows on [p583] («དེ་ནས་དེ་ཕྱིར་དུས་བཞི་ཡི།», on the measure of the four ages) begins the next chapter.
+
+The stretch from the sand-heap verse to the red clothes (21-25) is the one the dream readings of this pool rest on: of the six signs it names only three spans (as before, i.e. six months, verse 20; within a year; six months), gives the donkey-or-monkey and the woman in black no span but death (Yama), and names no part of the night, no black girl bound, no seventh day, no east, no «last night» (མཚན་མོ་ཐ་མ, mtshan mo tha ma); those are in Marpa's Hevajra rite (dds.19:p53-55) and in 'Deceiving Death' (cbs:p247-249). The numbering of the last verses of the transference is the reader's count of the Tibetan lines and is not Tsuda's.
+
 ## <a id="dds-22-p1085-1114"></a>dds.22:p1085-1114 Bka' brgyud sngags mdzod nag 'gros, the history of Marpa's four sheets with their companion methods: the four sheets, the first-person narrator, the closing of the death-sign teaching (RD374)
 
 *Read: etext, 2026-11-10.*
@@ -309,7 +470,38 @@ The history is anonymous in its words: it speaks of Marpa in the third person an
 
 ## The Saṃvarodaya's and the Hevajra's dream signs of death (q1065, q1066): the whole of ch. 19 of the Śrī Mahāsaṃvarodaya Tantrarāja (Derge Kanjur etext VE4CZ5369_I1KG9204 from the page 580 on) read with its scan, the verses on the black woman «Time-Night» (དུས་མཚན) and the months, the Sanskrit (Tsuda's or another open edition, archive.org), the other Tibetan translations (Peking, Narthang, Dpe bsdur ma), the commentaries (Bhavabhaṭṭa, Jayabhadra, Sachen, Tsong kha pa's Sdom 'byung notes) and the Hevajra Tantra's own dream verses (Toh 417 and 418, Snellgrove's Sanskrit) against the Hevajra rite of Marpa's collected works (RD382)
 
-Nothing read yet: RD382's passages, with the English beside them, go here.
+*Read 2026-11-10 (RD382), 19:06-19:39.* The passages of this reading are `dds.25:p580-583` (chapter 19 whole), `dds.26:p129` (the Zhwa dmar's treatise quoting its verses), `dds.27:p41-44` (Rngog's exposition of the dream verses of 'Deceiving Death') and `dds.19:p95-96` (the colophons of Marpa's Hevajra rite); its facts are the claims `dds-sv19-sanskrit-gives-kalaratri`, `dds-marpa-hevajra-rite-dream-verses-are-deceiving-deaths` and `dds-rngog-gloss-time-night-is-yamas-yum`, and the questions q1065 and q1066 are answered in them (the launcher closes them). The Derge etext of chapter 19 was read whole, its scan images 580-583 (I1KG9204, a faint woodblock print) looked at and not read syllable by syllable, so every Tibetan line here is etext.
+
+**What was found, in short.**
+
+- The Sanskrit of the chapter (Tsuda's edition, chapter XIX, verses 21-25) has the dream verses without the black girl, without the seventh day and without the months of Marpa's rite: it has the sand and ashes (or the temple's pole), the donkey and monkey going south with the ant-hill and a heap of dust, the woman in black who desires a man («Kālarātrī»; Yama's sight), the eaters in a year, and red clothes, a red garland and oil in six months. «dus mtshan» is *kālarātri*.
+- The verses of Marpa's Hevajra rite are those of 'Deceiving Death' (Ngag gi dbang phyug grags pa, chapter 1, cbs:p247-249), word for word with spellings; the Hevajra Tantra (Toh 417, 418) has none. The rite names no source; its colophon says «begun at Lho brag Chu khyer» and «found among Nāropa's pupils».
+- Of time and span of life: the Sanskrit gives six months («as before», pūrvavat, is verse 20's), one year and six months, and for the donkey, monkey and Time-Night only death; no watch or day of the lunar month is tied to any of them. The seven days and the «last night» belong to 'Deceiving Death'; Rngog's exposition calls the black girl Yama's mother (yum) and reads «last night» as death at once.
+
+**The Sanskrit beside** (Tsuda's edition, read in the 1970 ANU thesis form, chapter XIX on the printed p. 134, on the page image; verse numbers his; only the verses the dream readings rest on are quoted, in his reading, without his apparatus; the thesis asks that its passages not be copied, and the verses are the tantra's):
+
+> 21 *bālukābhasmarāśiṃ vā vihārayaṣṭim eva ca / svapnānte yo 'bhirohanti maraṇaṃ tatra pūrvavat*
+> 22 *gardabhaṃ vānararūḍho valmīkaṃ pāṃsurāśikam / yo 'bhirohati svapnānte dakṣiṇādiśi niyatam*
+> 23 *kṛṣṇavastrā tu yā nārī kālī kāmayate naram / kālarātris tu sā jñeyā gacchate yamadarśanam*
+> 24 *śvakākagṛdhragomāyuṛkṣaiḥ pretapiśācakaiḥ / bhakṣyante svapnam paśyed ekavarṣād viniścitam*
+> 25 *raktavastrapralipt'āṅgo raktamālyavibhūṣaṇaḥ / tailābhyakto yadā svapne ṣaṇmāsān na sa jīvati*
+
+(23: «a woman clad in black, the black one, who desires a man: know her as Kālarātri; he goes to the sight of Yama». 22: donkey, monkey-rider, ant-hill, heap of dust: «whoever climbs (them) at the end of a dream, towards the south, certainly»; the construction of the first pāda is awkward in the edition (the accusative *gardabham* beside the nominative *vānararūḍho*; one manuscript has a different pāda) and is not settled here.)
+
+### Open (RD382)
+
+- Question: Tsuda's Sanskrit of the Saṃvarodaya 19-23 ends «yamadarśanam» («to the sight of Yama») where the Derge Kanjur, Tsong kha pa's quotation (a different wording), the fourth Zhwa dmar's treatise and 'Deceiving Death' (cbs:p247-249 «gshin rje'i gnas su 'gro» in the second verse of the woman) have «lto bar» («belly»), «'gro bar bstan» and «gnas»: is «gshin rje'i lto bar» a misreading of an earlier «lta bar» in all the prints, or is the belly of Yama a reading a commentator of the tradition knows (and which Tibetan commentary on the Sdom 'byung explains the line)?
+- Question: In 'Deceiving Death' the verse of the black girl «bound» (bu mo nag mo rab khros nas / gang zhig bcings pas 'chi ba ni / de ni dus mtshan yin zhes bya / zhag bdun nas 'chi byed yin) has no match in the Sanskrit of the Saṃvarodaya 19; is there a Sanskrit of 'Deceiving Death' 1 (Schneider's edition, Vienna 2010) with this verse, and does it use *kālarātri* or another word for «dus mtshan» there?
+- Question: Rngog's exposition says the black girl «dus mtshan» is «Yama's mother (or consort), yum», and the etext prints «dus mtshams»: is this «dus mtshan» (the black goddess of the Sakya praises, or Yama's consort Kālarātrī) and does any teacher of the tradition say why her sign is seven days?
+- Question: Verse 2 of the Saṃvarodaya's chapter (Sanskrit *trayadivasāt … pañcatvaṃ gacchate*) reads in the Tibetan «lnga yi gong du 'gro bar 'gyur» («before five»): did a Tibetan commentator take «five» as five days, and do the commentaries explain the verse as «after three days, in dying», as 'Deceiving Death' puts it?
+
+### Searched and not found (RD382)
+
+- The commentaries on the Saṃvarodaya (Ratnarakṣita's *Padminī*, Peking no. 2137, the Derge Tengyur's pañjikā; Bhavabhaṭṭa and Jayabhadra on the Laghusaṃvara; Sachen; Tsong kha pa's notes on the Sdom 'byung): BDRC exact strings (2026-11-10) «དེ་ནས་འཆི་བར་ངེས་པ་ཡི། མཚན་ཉིད་མཆོག་ཏུ་བཤད་པར་བྱ» (1 hit, the Derge Kanjur), «འཆི་བར་ངེས་པའི་མཚན་ཉིད་མཆོག་ཏུ་བཤད» and «འཆི་བར་ངེས་པའི་ལྟས་ལྟ་བ་དང་འཕོ་བའི་རྣལ་འབྱོར» (none), «རྐང་མཐིལ་དག་ཏུ་ཕུག་སྙམ་དང» (4: the Kanjur, 'Deceiving Death' in the Derge Tengyur and the Dpe bsdur ma, the Zhwa dmar's treatise), «གཤིན་རྗེའི་ལྟོ་བར་འགྲོ་བར་འགྱུར» (2: the Kanjur, the Zhwa dmar's treatise), «གཤིན་རྗེའི་ལྟ་བར་འགྲོ་བར་འགྱུར» (none), «དུས་མཚན་ནི་ནག་མོ», «དུས་མཚན་ནི་གཤིན་རྗེ», «གཤིན་རྗེའི་ཡུམ་དུས་མཚན» (none), «དུས་ཀྱི་མཚན་མོ་ཞེས་པ» (2, in volumes not opened), «ཀཱ་ལ་རཱ་ཏྲི» (76) and «ཀཱ་ལ་རཱ་ཏྲཱི» (13: the hits are other works, not read beyond the lists). No commentary on these verses was found; the *Padminī* was not opened (Tsuda says it quotes the verses to 20 verbatim and then gives «the summarised meaning»; the Dpe bsdur ma Kanjur etext of the Saṃvarodaya did not turn up in any search, the Peking and Narthang prints only through Tsuda's collation).
+- The study of the *Padminī*'s chapter 19 with a preliminary edition of the Saṃvarodaya's (Bang Junglan and Kuranishi Kenichi, Annual of the Institute for Comprehensive Studies of Buddhism, Taisho University 43, 2021, pp. 259-282): the repository of Taisho University (tais.repo.nii.ac.jp) answered with a maintenance notice (2026-11-10, again a quarter of an hour later), so the PDF was not read; the Schneider edition (*Vāgīśvarakīrtis Mṛtyuvañcanopadeśa*, Vienna 2010) was not seen either. What a web search says of both (that most of the death-sign verses of the Saṃvarodaya 19 are in Vāgīśvarakīrti's text) is a second-hand statement and was not used as a fact.
+- The Hevajra Tantra's Sanskrit (Snellgrove's edition) was not opened; the Tibetan of Toh 417 and 418 was searched whole by word (see the claim). The archive.org search (WebSearch, 2026-11-10) for Tsuda's 1974 book gave catalogue records only; the open source of the Sanskrit found is the 1970 ANU thesis (openresearch-repository.anu.edu.au, 20 MB, 364 pages).
+- «དུས་མཚན་མོ་ཞེས་བྱ་བ་ནི» and «དུས་མཚན་ནི་ནག་མོ»: no hit; «བུ་མོ་ནག་མོ་རབ་འཁྲོས་ནས» (4), «ཞག་བདུན་ནས་ནི་འཆི་བྱེད་ཡིན» (12), «ཀ་ར་བི་རའི་འཕྲེང་བ་རྨིས» (1: the Marpa rite only, the others spell «ཀ་ར་བཱི་རའི་») were read in their first windows (the Marpa rite, 'Deceiving Death' in the Derge Tengyur and in Mkhyen brtse's copy, the 'Bri lugs Hevajra rite, the Gdams ngag mdzod) and in no Kanjur volume.
+- The scan of the Kanjur's chapter 19 (I1KG9204 img. 580-583, 4500 × 800 px, faint print, seven lines a page): the line breaks agree with the etext's and the shape of the phrases of the dream verses on img. 582 at 2×; no syllable was read on it, so the question «lto bar» or «lta bar» is not settled on the page (and agy was not used).
 
 
 ## The authorship of Marpa's four sheets and their companion methods (q1064): the Kagyu catalogues and the works records of BDRC for the Lho brag pa transference text («'pho ba spyi rtol») and its history «Rje btsun Lho brag pa'i khyad par gyi gdams pa snyan gyi shog dril bzhi», who the «I» of the history is, the Gdams ngag mdzod's and the Bka' brgyud sngags mdzod's own notes on their sources, and the lineage histories (Deb ther sngon po, Mkhas pa'i dga' ston, Bka' brgyud gser 'phreng) for the transmission of the four sheets (RD383)
