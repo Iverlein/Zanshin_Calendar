@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD289 (2026-11-10): the Narthang manuscript I2KG212312 img. 284–287 (printed pp. 282–285) by Yigdzin-1 and by eye at 4–8×: «བགྲོད་མིན», «བཅུ་ཡི་བར», «རྟ་ལ་མོ», the Gāyatrī, the Sanskrit title; see svo:p271i.
+
 Read by RD277 (2026-11-09): Penn Ms. Coll. 390 items 1871, 673, 2730, 687, the Peerzada volume (Srinagar), Ramtek M 856, the Odia print of 1929.
 
 Read by RD276 (2026-11-09): the Co ne Svapnohana (vol. 28 img. 270–273) by eye on deskewed, enlarged crops and by Yigdzin-1 and MITRA on whole frames and half-line strips; q833's Co ne part answered (the fourth-watch line is there); see svo:p271g.
@@ -438,3 +440,49 @@ Searched and not found
 
 - About 90 further exact-string searches on BDRC (2026-11-10), in EWTS, for the paragraph between the end of p. 16 (char. 18559) and the quotation (char. 21346) and for the paragraph after «rmi lam brtag pa rdzogs so … [26 .]»: forms of «rmi lam brtag pa» with a following particle or noun (zhes bya ba, 'di, 'i bstan bcos, 'i le'u, ltar, nas, gsungs, bshad), «bstan 'gyur las rmi lam», «rgyal ba'i bstan 'gyur», the translator and author names in the forms «bi b+hU ti tsan+dra» (b+hU / b+hu / bhU / bhu), «slob dpon», «lo tsA ba», «ngag gi dbang phyug», «ngag dbang gi dgongs pa», «de ltar …» and «thun …» openings: either more than ten hits on BDRC (the list shows ten, none of them his book) or none. No string reached a chunk of his book between chars. 18559 and 21346 or after 25516.
 - The author's own name or the work's title is not found in the parts reached: Ngag dbang appears only in the quotation's closing line («'di ni ngag dbang dgongs pa ste», the text's own line, not his comment).
+
+## The Svapnohana's doubtful words on the Narthang manuscript, syllable by syllable — q813, q814, q825, q799, q834 (RD289)
+
+## <a id="svo-p271i"></a>svo:p271i The Svapnohana's doubtful words on the Narthang manuscript (RD289)
+
+*Read: scan, 2026-11-10.*
+
+> Narthang manuscript, W2KG5015 vol. 28, I2KG212312:
+> 
+> img. 284 (printed p. 282) line 5, read by eye at 4–5×:
+> རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །
+> 
+> img. 286 (printed p. 284) line 2 (about x 1230–1530 and 2350–2870 of 3000), line 4 (x 900–1120):
+> གང་ལ་ཡང་དག་བཅུ་ཡི་བར། །
+> རྒོད་མ་ཁྱིམ་བྱ་ཀྲ་ཨུ[ཉྩི]། །ཐོབ་ནས་གང་གི་གཉིད་སད་ན། །དེ་ཡིས་དེ་དུས་སྙིང་[སྡུག]་འཐོབ། །
+> རྟ་ལ་མོ་དང་ལྷོ་འཕྱེ་དང་། །
+> 
+> img. 287 (printed p. 285) line 2:
+> ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས། །
+
+Five places of the Svapnohana on the Narthang manuscript's frames, read by eye (printed pages 282 to 285 are images 284 to 287, not 283 to 285; bracketed syllables are not settled): "in dreams, [the clause] 'what is not walked', entering it is auspicious" (p. 282); "the ten ... " (the line with 'the ten', p. 284); "...having got [a krauñca, a house-bird], whoever wakes, then [grief or what is dear to the heart] is got" (p. 284); "a horse, [the la mo], the pot-belly (lto 'phye) and ..." (p. 284); "the Gāyatrī recited a thousand times" (p. 285).
+
+The Narthang manuscript (I2KG212312, one scribe's hand, letters about 36 px, 8 lines to the frame) carries the Svapnohana on four frames: img. 284 (printed p. 282; line 2 the title, lines 3–5 the verse of the watches and the first images), img. 285 (p. 283; the flesh eaten to the black-clothed woman), img. 286 (p. 284; yellow-clothed woman to the fire declared fearful and the burning seat; 8 lines) and img. 287 (p. 285; lines 1–3 the last verses, the remedy and the colophon, the next work's title begins on line 4). The whole text was read by Yigdzin-1 on the whole frames (img. 284 and 285) and on 2×-enlarged line strips (img. 284, 286, 287; the whole-frame run on img. 286 returned only the colophon of the previous work), and the doubtful places then by eye at 4–8× on contrast-stretched crops. The strips of this clean manuscript hand did not hallucinate as the Co ne's did (RD276); the machine text follows the Derge etext throughout except in the places below. Nothing of the other frames was compared syllable by syllable with the Derge etext.
+
+By eye on the Narthang manuscript:
+
+- «བགྲོད་མིན» (q813): img. 284 line 5 reads «རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ»; the syllable before «མིན» is བགྲོད (བ, ག with ྲ and ོ, final ད), not «བཟློག»; the next syllable's head (མ or ཤ) is not told apart from ཤ of «ཤིས» two syllables on, read as «མིན» like the three other prints (moderate). So the clause stands as «བགྲོད་མིན» in the Derge etext, Peking, Narthang manuscript and, by Yigdzin-1, the Co ne (RD276 leaned the same way); its sense stays open (q813).
+- «བཅུ་ཡི་བར» (q814): img. 286 line 2 reads «གང་ལ་ཡང་དག་བཅུ་ཡི་བར»: བཅུ with ུ, then ཡི with the vowel ི clear (6×), then བར; not «པི» (the Co ne machine runs' doubt). Whether the ten are days is not in the line (the text before it is «ལག་པ་གཡས་པ་བཟུང་བ་ན», when the right hand is seized by a white snake).
+- «རྟ་ལ་མོ» (q814, q825): img. 286 line 4 reads «རྟ་ལ་མོ་དང་ལྷོ་འཕྱེ་དང་» with a plain ལ, no subjoined ླ, at 8× (medium-high), so the Narthang manuscript agrees with the Peking and the two other Narthang scans (four prints against the Derge etext's «བླ་མོ»; RD276's Co ne runs read «བླ་མོ» by a curved foot, unsettled). The word after «དང་» looks «ལྷོ» (ལྷ with ོ), not the etext's «ལྟོ»: the stack was not told apart at 8× from the stack of the other prints (Yigdzin-1 also read «ལྷོ»); a doubt, not a variant.
+- «དེ་ཡིས་དེ་དུས་སྙིང་སྡུག་འཐོབ» (q799): img. 286 line 2 end reads «དེ་ཡིས་དེ་དུས་སྙིང་[སྡུག]་འཐོབ»: «དེ་ཡིས» twice and «དུས» clear; the second syllable of «སྙིང་…» is a stack with ུ and final ག whose head was not told apart (སྡུག as the Derge etext; Yigdzin-1 reads «སྔག», not supported by the stack's shape at 7×), so the sense (what is dear to the heart, or sorrow) stays open: the Narthang gives no new word.
+- The line before: «རྒོད་མ་ཁྱིམ་བྱ་ཀྲ་ཨུ[ཉྩི]། ཐོབ་ནས་གང་གི་གཉིད་སད་ན།» (img. 286 line 2, 4×): «རྒོད་མ་ཁྱིམ་བྱ» and «ཀྲ» read, the last word's final stack not told apart from «ཉྩི»/«ཙི» (Yigdzin-1 «ཨུན་ཙི»; Peking «ཨུཉྩི», moderate).
+- The Gāyatrī (img. 287 line 2): «ག་ཡ་ཏྲི་ནི་སྟོང་ཕྲག་བཟླས» at 6×: three syllables ག, ཡ and a stack ཏྲ with a small vowel sign above (ི, not told apart from ེ; Yigdzin-1 «ཏྲེ»), then «ནི», «སྟོང་ཕྲག», «བཟླས»: a third syllable is there, which the Co ne's two-syllable «གས་ཏྲི» (RD276) lacks; spelling as in the Peking (svo-gayatri-spelling).
+- The Sanskrit title (q834; img. 284 line 2, about x 1560–2300, 5–6×): after «རྒྱ་གར་» the signs run (from the right) a first stack that looks «སྭ» (hooked ཝ below ས), then a stack with a ba-like body, a stack «ན» or «ཎ», a «ཨུ», a «ཧ» and a last stack with ཱ; Yigdzin-1 on the strip reads «སྭབྣ་ཨུ་ཧཱ་ནཱ» (the frame's start reads «སྭ་བྣ་ཨུ་ཧཱ་ནཱ»). The eye agrees on the shapes of the first, fourth and fifth signs only; the second to third (བྣ/བྷྣ/པྣ) is not settled, so the title stays unsettled. Not «སྭཔྣ»: the Sanskrit svapna would need a pa-sign, and none is plain.
+
+Count by print, as now known, of the places read by eye: «བགྲོད་མིན» in the Derge etext, Peking, Narthang manuscript (and the Dpe bsdur ma etext); «བཅུ་ཡི་བར» in the Derge etext, Peking, Narthang manuscript; «རྟ་ལ་མོ» with a plain ལ in the Peking and the three Narthang prints, «རྟ་བླ་མོ» in the Derge etext and the Dpe bsdur ma etext; the Gāyatrī of three syllables in the Peking, Narthang manuscript, Derge etext.
+
+### Open (RD289)
+
+- Question: is the third syllable of the Gāyatrī's first word «ཏྲི» (Peking) or «ཏྲེ» (Yigdzin-1 on the Narthang strip): the vowel sign above the stack is a small curve, ི and ེ are not told apart on it; and is the word the Sanskrit gāyatrī rendered «ག་ཡ་ཏྲི»?
+- Question: the Sanskrit title of the Svapnohana: «སྭ…བྣ/པྣ…ཨུ་ཧཱ་ནཱ», which stack stands second and third on the Narthang manuscript (img. 284 line 2) and in the Peking print, and is the Sanskrit svapnoha or svapnoddhāra?
+
+### Searched and not found (RD289)
+
+- The Narthang manuscript's second and third title signs at 5–6× (img. 284 line 2): the stacks are ink-filled and not told apart; not settled.
+- The Narthang manuscript's «ལྷོ»/«ལྟོ» (img. 286 line 4) and «སྙིང་སྡུག»/«སྔག» (line 2 end): the head of the stack is not told apart at 7–8×.
+- The whole-frame run of Yigdzin-1 on img. 286 returns only 20 characters (a colophon); the frame needs line strips, as the Co ne frames do.
