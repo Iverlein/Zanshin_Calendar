@@ -1892,3 +1892,6 @@ Searched and found wanting, so not to be repeated:
 - **RD297** (RD297, 2026-11-10):
   - I2638 img. 692, the syllable before «རང་གི་དུས་ཚོད» (end of line 3 and start of line 4, crops up to 5×): not settled by eye as ཐོ, བཻ or ཕམ; comparing it with the same hand's ཐོ elsewhere on the page not finished.
   - The Rin chen gter mdzod scan page of KCM: no route beyond RD258's; DTD p. 158 comparison not done.
+- **RD294** (RD294, 2026-11-10):
+  - A fifth animal or a variant to «རྟ» on the Taikhang, Zhol or 1996 prints: none; the Bhutan collection and the Sakya print were not opened for this glyph.
+  - ST ch. 91 on the Derge print I00JW501163: not found in img. 447–452, 500, 540, 580 and 620 by Yigdzin-1 (OCR search for «རིམ་གྲོ», «རྟེན་འབྲེལ», «བུད་མེད་འདྲེན», «རོ་ཙ», «ཕྱྭ»); nor on the Zhol img. 513–528 (chs. 82–83).

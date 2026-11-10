@@ -1717,7 +1717,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0825.md](questions/q0825.md) | question q825 | Which animal or thing is the «ལ་མོ» of the Svapnohana, and is «བླ་མོ» a mistake for it? | open; cites svo:p271b |
 | [questions/q0826.md](questions/q0826.md) | question q826 | What are the goods of gossip called ram rug and, after it, spang g.yeng / sbang g.yer / sbang ma, in the Lama Gongdü's list (མི་ཁའི་རྫས)? | open; cites lgd.42:p969b |
 | [questions/q0827.md](questions/q0827.md) | question q827 | Are the «རྨི་ལམ་རྩུབ» and «རྨི་ལམ་ཟ་ཟི་མང་བ» of WB ch. 25 and 27 dreams of the images listed as bad in ch. 30 p. 144, or only restless sleep? | answered; cites wb.1:p428b, wb.1:p431, wb.1:p428c |
-| [questions/q0828.md](questions/q0828.md) | question q828 | On the Gser thang reprint p. 144 l. 13, the glyph after «མ་ཧེ» is ink-filled: is it «རྟ» (horse) or another animal? | open; cites wb.2:p144 |
+| [questions/q0828.md](questions/q0828.md) | question q828 | On the Gser thang reprint p. 144 l. 13, the glyph after «མ་ཧེ» is ink-filled: is it «རྟ» (horse) or another animal? | answered; cites wb.2:p144, wb.2:p144r |
 | [questions/q0829.md](questions/q0829.md) | question q829 | In the treatment of the unripe fever (st:p185-186) what is the medicine «བིག་པན» (ཐིག་པན in the etext), named with ash and beer, and which letter does the print have? | open; cites st:p185-186 |
 | [questions/q0830.md](questions/q0830.md) | question q830 | What is «བུར་སྙིང་ཐང» in the decoction for the wind-unripe fever: a sugar or a heart-wood? | open; cites st:p185-186 |
 | [questions/q0831.md](questions/q0831.md) | question q831 | Which fever is meant by འགྲམས་འཁྲུགས in ch. 15's «འགྲམས་འཁྲུགས་ཚ་བ་དགྲ་ཟིན་ལྟ་བུར་དབྱེ»? | open; cites st:p185-186 |
@@ -1784,6 +1784,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0892.md](questions/q0892.md) | question q892 | Is the afternoon for the bright beginning in the Aṅgavijjā ch. 41 a scribe's slip for the forenoon, as the lists of chs. 42 and 53 suggest, or a variant of the text itself? | open; cites svo:p271f |
 | [questions/q0893.md](questions/q0893.md) | question q893 | Is the last letter of «ལྷས་ཚོར» in ch. 81 on the Chag-po-ri print (I1KG13487 img. 426, line 6) a ར or a ང (Yigdzin-1 reads ལྷས་ཚོང)? | open; cites st:p350-351 |
 | [questions/q0894.md](questions/q0894.md) | question q894 | Is the Serthang print's own book (the Larung Gar typeset edition of the Four Tantras, 611 pages) held complete in a library whose scan BDRC lacks, so that printed pp. 31–32 could be read for «བརྗེད་ངས» and «མི་བཟང་བ»? | open; cites gt:i42 |
+| [questions/q0895.md](questions/q0895.md) | question q895 | On the 1996 print p. 144 l. 13 the last syllable of the riding animals is too small to tell «རྟ» from «ཧ» by eye: is a scan of the 1996 print at higher resolution to be had? | open; cites wb.2:p144r |
+| [questions/q0896.md](questions/q0896.md) | question q896 | In ch. 91's remedies for a spirit that leads the sleeper away in his dream, what does ཕྱྭ (phywa) mean beside མོ (mo, divination)? | open; cites st:p493 |
+| [questions/q0897.md](questions/q0897.md) | question q897 | On a sharper scan of the Zhol print img. 675 line 6 (or the Chag-po-ri print), what do the small letters after «མོ་ཕྱྭ་རིམ་གྲ» say, and do they agree with the Serthang's two bracketed remedies word for word? | open; cites st:p493 |
 
 <!-- end pool index -->
 
