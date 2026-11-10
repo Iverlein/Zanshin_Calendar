@@ -2146,6 +2146,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1042.md](questions/q1042.md) | question q1042 | From what is the night counted for the thirty parts of the Mchog dga's dream rule (dusk is the only start that fits «dawn» for thirty), why is a part of the junction that holds the moment of the question read as a part of the night, and which night does a question about a dream mean? | open; cites kd.3:p179-180 |
 | [questions/q1043.md](questions/q1043.md) | question q1043 | In the thirty-part chart (kd.3:p129-130) the Kun 'dus etext prints the left row of numbers for the equal houses as 5, 5, 8, 7, 5 although it says «reversed». Is it 5, 7, 8, 5, 5? The author's example (27 = Mars) fits the reversed stretches. | open; cites kd.3:p129-130 |
 | [questions/q1044.md](questions/q1044.md) | question q1044 | Are the «staff» (dbyu gu, kd.3:p140) and the «water-hour» (chu tshod, pp. 141-143) the same third place of the five places in the Mchog dga'? | open; cites kd.3:p125-126 |
+| [questions/q1045.md](questions/q1045.md) | question q1045 | The 国文研 print (bid 200013909) and the Ebara volume bind the 夢人に咄さぬ日 table with a colophon that names a Kyoto bookseller; is the street line 京綾小路ふやゝ町西入 or 京松原通冨小路西入 (the cursive of the three glyphs after 綾小路 or 松原通)? | open; cites mdz:i426556 |
+| [questions/q1046.md](questions/q1046.md) | question q1046 | The 六甲の夢うらなひ of the 夢合長寿鑑絵抄 (image 27) gives a meaning to a dream for each of the sixty days; do its articles for the days of the table (the days named by branch in mdz:p11, e.g. 未 申 戌 in the first month) speak of keeping the dream silent, and what are its sixty articles in full? | open; cites mdz:i426556 |
 
 <!-- end pool index -->
 
