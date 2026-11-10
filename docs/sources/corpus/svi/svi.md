@@ -101,6 +101,45 @@ Notes. By eye on the Narthang manuscript: «བཏབ་ལ་ཉལ» (Derge «
 - The Narthang manuscript's «བྱ་ཤ…ཏེ»: the middle syllable's lower sign (ད, ང or ར) and whether «འུ» follows «ཏེ» at the frame, not settled at 3–5× on I2KG212330 img. 290 (the second W22704 copy is too coarse to help).
 - Dpe bsdur ma scans (vol. 25, I1PD95870) not read: restricted (PLAN.md, RD228); the notes' markers lost, each entry assigned to its word by its content only.
 
+## <a id="svi-p289-291b"></a>svi:p289-291b The examination of dreams on the Narthang manuscript, four places syllable by syllable (RD298)
+
+*Read: scan, 2026-11-10.*
+
+> Narthang manuscript, W2KG5015 vol. 46, I2KG212330 (3000 x 889 px strips, one scribe's hand, letters about 30 px, 7 lines to the frame), by eye at 6–9× on contrast-stretched crops of single lines:
+> 
+> img. 289 line 3, about x 1860–1980, the title:
+> རྒྱ་གར་སྐད་དུ། སྭ་པ་ནེ་ཀྵ། བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ།
+> 
+> img. 289 line 5, about x 540–700:
+> ཛ་ཏ་པ་ཡི་ཕྲེང་བ་བཅིང་། (the third syllable པ)
+> 
+> img. 289 line 5 end, about x 2700–2860, and the start of line 6:
+> ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ། (the three signs after «ལམ»: བ, ཏ, བ; «ལ་ཉལ» opens line 6)
+> 
+> img. 290 line 2 end, about x 2640–2920, and the start of line 3:
+> བྱ་ཤ?་ཏེ[འུ?] (line 2 ends, the shad before it, བྱ, a ཤ-headed syllable, ཏེ, then one or two groups at the frame's edge not told apart)
+> ཕོ་ཉར་གཏོང། (line 3 opens)
+
+Four places of Advayavajra's examination of dreams on the Narthang manuscript's frames, read sign by sign (images as BDRC numbers them; the manuscript's own page labels were not used).
+
+The title's Sanskrit reads «སྭ་པ་ནེ་ཀྵ»: four signs, the first a ས with the small triangle of the wa-zur (ྭ) below it, then པ, then ན with the vowel ེ above, then ཀ with ྵ (ཀྵ) under it. The garland of jātaka (the birth-tale grass or beads, ཛ་ཏ་པ/ཀ) has པ as its third sign. The last of the three parts of the night reads «བཏབ་ལ་ཉལ», the sign after «རྨི་ལམ» three letters བ, ཏ, བ with no ར or ག, no ས (not «བརྟགས»), "having set (it) down, one lies down"; the line breaks after it. The Amoghasiddhi line's end, "a bird … is sent as messenger", is «བྱ་ཤ?་ཏེ…» closing line 2 of img. 290 and «ཕོ་ཉར་གཏོང» opening line 3: the lower sign of the second syllable and what follows «ཏེ» are smeared and not told apart.
+
+Notes. Against the earlier reading of this manuscript (svi:p289-291, RD236) the places move as follows. The title: RD236 took the Sanskrit from Yigdzin-1 (which reads «སྦ་པ་ནེ་ཀྵ», a ba-sign where the eye sees the closed triangle of the wa-zur) and could not tell its last letters apart; on a 9× crop the four signs are plain, «སྭ་པ་ནེ་ཀྵ», as the Peking print has it, against the Derge etext's «སྭ་པ་ན་ཨི་ཀྵ» (the same four signs would be five there, ན and ཨི separate). The jātaka garland: the third sign is a པ (a closed triangular body with a leg, no left upright stroke), not the ཀ of the same hand in «ཀུ་ཤའི» a line above, at the right end of line 4 (a left upright and a hooked arm); the Dpe bsdur ma note «པེ» «སྣར» ཛ་ཏ་པ fits. The last part of the night: three signs བ, ཏ, བ, the third with a plain flat head and a hooked foot, the ཏ with a round belly: «བཏབ», so no ར, ག or ས, and the Derge etext's «བརྟགས» and the Peking's «བརྟགས་པ» are not what the manuscript shows; the Dpe bsdur ma note's «དབཏབ» for «པེ» and «སྣར» together then names a Narthang reading that the eye confirms and a Peking reading that RD234 read otherwise by eye. The Amoghasiddhi line: Yigdzin-1 on sixteen differently cut windows of the line's end eight windows cut from x 2200 to 2600, at 2× and 3×, two offsets) reads the second syllable «ཤན», «ཤད» or «ཤར» in the windows that keep བྱ apart and merges the two as «བཤན»/«བསྟན» in the others, and the end «ཏེ» or «ཏེའུ»; the eye sees the ཤ-head clearly and the lower sign as a smear (a short curve, ན, ར or ད alike), a ཏེ with its vowel ེ above, and after it a long diagonal stroke and an oval stack at the frame's edge, which may be «འུ» or part of «རུ»; so the manuscript's line has «བྱ» + a ཤ-headed syllable + «ཏེ» + one or two more groups, which fits neither the Derge etext's «བྱ་ཤར་ཏེ་རུ» (four syllables) nor decides for the Peking's «བྱ་ཤིང་ཏེ…» or the note's Narthang «ཤང་ཏེའུ»; the vowel ི of a «ཤིང» is not seen over the second syllable (moderate).
+
+Count by print. The third part of the night: «བརྟགས་ལ་ཉལ» in the Derge etext, the Co ne (RD276, machine) and the Dpe bsdur ma text; «བརྟགས་པ་ལ་ཉལ» in the Peking print (RD234, by eye); «བཏབ་ལ་ཉལ» in the Narthang manuscript (RD236 and RD298, by eye); W22704 is a copy of the same images. The garland: «ཛཱ་ཏ་ཀ» in the Derge etext; «ཛ་ཏ་པ» in the Peking print and the Narthang manuscript. The title's Sanskrit: «སྭ་པ་ནེ་ཀྵ» in the Peking print and the Narthang manuscript, «སྭ་པ་ན་ཨི་ཀྵ» in the Derge etext. The Amoghasiddhi line: Derge etext «བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང», Peking «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» (the middle not settled), Narthang manuscript «བྱ་ཤ?་ཏེ[…]» + «ཕོ་ཉར་གཏོང» (not settled).
+
+The Co ne's question carried over (q865): the Co ne's SVI is the leaf of svi:p130, which holds only the three parts of the night and the families' line; the watch lines and the «ལ་མོ»/«བླ་མོ» of q865 belong to the Svapnohana and are those of svo:p271g, svo:p271h and svo:p271i (RD276, RD280, RD289); no new Co ne reading was made here, and the worn Co ne leaf gave no sharper copy than RD276's.
+
+### Open (RD298)
+
+- Question: on the Narthang manuscript's Amoghasiddhi line (I2KG212330 img. 290, end of line 2), what is the lower sign of the second syllable and what follows «ཏེ»; is the bird «བྱ་ཤིང་ཏེའུ» as the Peking's machine reading and the Dpe bsdur ma note's «ཤང་ཏེའུ», or does the manuscript carry a fourth syllable as the Derge etext's «རུ»?
+- Question: the Narthang manuscript and the Peking print share «ཛ་ཏ་པ» and «སྭ་པ་ནེ་ཀྵ» against the Derge etext: is the Derge etext's «ཛཱ་ཏ་ཀ» (jātaka) a correction by the Derge editors, or does the Sanskrit of the Peking line stand for another word (jātapa)?
+
+### Searched and not found (RD298)
+
+- The Amoghasiddhi line's second and fourth syllables on the Narthang manuscript: Yigdzin-1 on 16 windows of the line's end (windows from x 2200, 2350, 2500, 2600, at 2× and 3×, two vertical offsets), contrast-stretched and thresholded crops at 5–7×: the lower sign of the second syllable is smeared by the verso's show-through and the right-hand frame rule; not settled.
+- A Peking reading by eye of the three places was not repeated: the crops of I1KG13215 img. 310 cut for it missed the lines (the print's lines are about 108 px apart, the letters faint grey), so the Peking column of the count is RD234's.
+
 ## <a id="svi-p309-312"></a>svi:p309-312 The examination of dreams in the Peking print (vol. 46, img. 309–312)
 
 *Read: scan, 2026-11-09.*

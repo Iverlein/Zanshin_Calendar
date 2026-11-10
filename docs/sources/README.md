@@ -656,6 +656,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-serthang-scan-pp31-32-missing.md](claims/st-serthang-scan-pp31-32-missing.md) | claim, note | The Serthang scan lacks printed pp. 31–32, the leaf of ch. 7's dream lines | cites st:p34; feeds S1 |
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
+| [claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md](claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md) | claim, note | The Narthang manuscript's Amoghasiddhi line «བྱ་ཤ?་ཏེ…» is not settled | cites svi:p289-291b, svi:p289-291, svi:p309-312, svi:p261-262; feeds RD298 |
+| [claims/svi-narthang-ms-btab-la-nyal.md](claims/svi-narthang-ms-btab-la-nyal.md) | claim, note | The Narthang manuscript reads «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ», not «བརྟགས» | cites svi:p289-291b, svi:p289-291, svi:p309-312; feeds RD298 |
+| [claims/svi-narthang-ms-jata-pa.md](claims/svi-narthang-ms-jata-pa.md) | claim, note | The Narthang manuscript reads «ཛ་ཏ་པ», the third sign པ | cites svi:p289-291b, svi:p309-312; feeds RD298 |
+| [claims/svi-narthang-ms-title-sanskrit.md](claims/svi-narthang-ms-title-sanskrit.md) | claim, note | The Narthang manuscript's Sanskrit title reads «སྭ་པ་ནེ་ཀྵ» | cites svi:p289-291b, svi:p309-312, svi:p261-262; feeds RD298 |
 | [claims/svi-narthang-variants.md](claims/svi-narthang-variants.md) | claim, note | The examination of dreams in the Narthang manuscript and the Dpe bsdur ma notes | cites svi:p289-291; feeds — |
 | [claims/svi-night-parts.md](claims/svi-night-parts.md) | claim, rule | The Svapna-īkṣā: the three parts of the night and what each holds | cites svi:p261; feeds block-73 |
 | [claims/svi-peking-variants.md](claims/svi-peking-variants.md) | claim, note | The examination of dreams in the Peking print | cites svi:p309-312; feeds — |
@@ -1088,7 +1092,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 6 passages: 2 scan, 3 machine, 1 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 7 passages: 3 scan, 3 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 16 passages: 8 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
