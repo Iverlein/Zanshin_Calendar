@@ -331,3 +331,14 @@ The book is a pictured dream book (illustrated articles on canvases 4-25, the pr
 
 What follows: the question of which source the table of sixty days follows (the 六甲 days of the 夢合早占大成, or an older Edo table) is open; the Tohoku copy of the 夢合早占大成 (Kano 22630) and the 1888 Toyamado reprint 夢合長寿鏡絵抄 are the next to look at. Cells at 1160 px, each of two to five kana lines, were read for one spread only; the sixty cells are not transcribed.
 
+## <a id="mdz-kano-22630"></a>mdz:kano-22630 夢合早占大成 (安政4 = 1857, Kawachiya, pictures by Matsukawa Hanzan, Tohoku University Kano Bunko 2/3875/1, THKK-22630), by eye (RD348)
+
+*Read: by eye on the page images, 2026-11-10 (125 images, manifest touda.tohoku.ac.jp/collection/iiif/metadata/10010000006595/manifest.json; eleven thumbnail sheets, images 10, 34 and 35 at 2000 px); greyscale microfilm-type scans, kana partly uncertain.*
+
+> 六夢之辨解 ... 二曰噩夢 (二ッ曰 in the print) ... 附録 猿夢秘法 (a charm for a bad dream)
+> ○い 平安 ... ○ろ ... ○は ... ○に ... ○ほ ... ○へ ... ○と ... ○ち ... (entries under the iroha kana, each opening with a circle)
+
+The book is a pictured lexicon of dream objects **arranged by the iroha kana** (い, ろ, は, に, ほ, へ, と, ち ... to て and onward, each kana a heading with its objects listed in kanji and each object a short article opening with a circle and ending in good, bad or a fortune: 酒食, 病, 金銀, 立身 and so on), preceded by the introduction on **the six kinds of dream (六夢之辨解, after the Zhou li: the second is 噩夢, the dream of fright, with examples from old stories that name Prince Sadazumi (貞純親王) and Ujimitsu, read in part)**, the contents (目録), illustrated spreads (images 5-9, 23-33) and a grid headed 丁附合文 of the iroha kana on one spread of the sheet of images 25-36, and followed by an appendix 附録 on **a charm and a method for a bad dream (a spell with 又一法, a second method, seen on thumbnails only) and 猿夢秘法**. The colophon, 安政四年, Kawachiya, advertises the 夢合長寿鑑絵抄. On the 125 images looked at (thumbnails of images 1-125 on eleven sheets; images 10, 34 and 35 enlarged; the rest not read) **no table of days on which a dream is not told, no slash legend, no table of the sixty days and no 初夢 night with a calendar**; in the book the day-keyed table of the 夢合長寿鑑絵抄 (mdz:kyoto-12284) has no counterpart. The remedy for a bad dream (the charm and its second method) is the only place where a rite is named; its words were not read.
+
+Next: the words of the 悪夢 charm (附録, the last images before the colophon) and of 猿夢秘法 to be read letter by letter; the Kyushu and Osaka copies of the 夢合延寿袋大成 and the 夢合長寿宝 not yet looked at.
+
