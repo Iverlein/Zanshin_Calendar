@@ -394,3 +394,12 @@ Title: Sanskrit given as a garbled «སམྦྷ་ཨུ་སྨན», Tibeta
 - The Surat manuscript svapnadhyaya-CGV-PSS-0182-1515 (Internet Archive; Bṛhaspati's, V. S. 1842 by RD272) is a photograph of small leaves: its first leaf shows the span verse's opening ("svapnasya prathame …saṃvatsara phala… dvitīye cāṣṭabhi… triyāmake" and "…daśā… sadyaḥ svapna…") but the page edge cuts the fourth span, so it is not registered; the second Surat item (0183-1516) was not read. The Telugu palm leaf Telugu_TEL_B_0582_D_2396 (svapnādhyāyamu) has a text layer without the words for year and watch, the Hindi Svapnaprakāśikā likewise.
 - The Source Library page (sourcelibrary.org/book/svapanadhyaya, "Treatise on Dreams", the eGangotri scan No. 1083-Gha of the Dharmartha Trust, 3 folios) answers a Cloudflare challenge to a fetch; its text is not on the page summary the fetch tool returned. Not read; its Internet Archive original was not identified.
 
+
+## The Svapnohana's watch lines in the Narthang and Co ne prints: is the fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» present, and how does the third watch's line read — q833, q870, q864, q865, q836 (RD280)
+
+Nothing read yet: RD280's passages, with the English beside them, go here.
+
+
+## Padma rdo rje's book that quotes the whole Svapnohana (about pp. 17–26): the sentence that introduces the quotation, its named source and author, and any gloss of the watches — q847, q796, q798 (RD282)
+
+Nothing read yet: RD282's passages, with the English beside them, go here.
