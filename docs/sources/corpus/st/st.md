@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD300 (2026-11-10): the commentaries' sentences on ch. 2's boy's-dream line (st:p21) in BDRC etexts found by exact-phrase search: Byang pa Rnam rgyal grags pa bzang po (I4706, I1PD380), Dri med kun gsal (I4707), the great commentary I5618, the gsal sgron I1PD409 and the Drikung dka' mchan I1KG24731; the root text in five more editions. Four commentaries take the dream as of men seen many times, ཡང as the body's lightness, none དག as "clear". The claim `st-dream-ch2-commentaries`.
+
 Read by RD290 (2026-11-10): ch. 81's dream list on the Derge print (I00JW501163 img. 434; Yigdzin-1 and MITRA, lines 5–6 by eye at 2×) and the Chag-po-ri print (I1KG13487 img. 426; Yigdzin-1, by eye at 1.7–4×); the Zhol's img. 483 cropped by eye without result; ཟ་ཟི in the Drikung commentary's etext. The claim `st-dream-ch81-derge-chag-po-ri-prints`.
 
 Read by RD281 (2026-11-10): ch. 2's boy's-dream line on the Zhol print I5910 (img. 44) and the Derge I00JW501163 (img. 28), by Yigdzin-1 and by eye; ch. 81's dream list on the Zhol print (img. 483, Yigdzin-1 only); the Drikung commentary's etext for both. The claim `st-dream-ch2-ch81-other-prints`.
@@ -265,3 +267,11 @@ Question: On a sharper scan of the Zhol print img. 675 line 6 (or the Chag-po-ri
 
 The ninety-first chapter on the Derge print I00JW501163: not found in img. 447–452, 500, 540, 580 and 620 by Yigdzin-1 (a search of the OCR for «རིམ་གྲོ», «རྟེན་འབྲེལ», «བུད་མེད་འདྲེན», «རོ་ཙ», «ཕྱྭ»). The Zhol print on img. 513–528 (chs. 82–83): none of those words either.
 
+
+## Open (RD300)
+
+Question: Do the Blue Beryl and the Moonbeams gloss ch. 2's line «ལུས་ཡང་རྨི་ལམ་དག་ན་སྐྱེས་པ་མཐོང་»? Neither is among the 19 etext hits of the exact line, and six of the 19 volumes (I4723, I2PD18140, I2PD16002, I3CN6530, I4PD4564, I1KG2751) came back with no text from the etext API.
+
+## Searched and not found (RD300)
+
+BDRC full-text search, 2026-11-10, «རྨི་ལམ་དག་ན» (106 hits, mostly other works: tantra commentaries and collected works) and the full line (19 hits): no commentary reads དག as "clear" and none restricts the sign to a clear dream; no commentary glosses དག on its own as a word; the Drikung dka' mchan only quotes. Six volumes empty (listed above), not read.
