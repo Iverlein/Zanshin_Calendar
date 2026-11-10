@@ -669,7 +669,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-blue-beryl-khro-ru-one-gloss.md](claims/st-blue-beryl-khro-ru-one-gloss.md) | claim, note | The Blue Beryl's and Khro ru's glosses at ch. 15 and ch. 81 are one text, and the Blue Beryl (1687-88) is the earlier | cites st:p183b, st:p352b, st:p350-351; feeds S1 |
 | [claims/st-ch2-lus-yang-shing-che-ba-rin-spungs-pa.md](claims/st-ch2-lus-yang-shing-che-ba-rin-spungs-pa.md) | claim, note | Rin spungs pa's «ལུས་ཡང་ཤིང་ཆེ་བ» on the boy sign is a second word on the body, not the raised right side | cites st:p21b; feeds S1 |
 | [claims/st-ch2-moonbeams-elephant-gloss-is-the-eight-limbs-only.md](claims/st-ch2-moonbeams-elephant-gloss-is-the-eight-limbs-only.md) | claim, note | The Moonbeams' «a man and an elephant» glosses the Eight Limbs' verse, not ch. 2's line; no commentary on the Four Tantras has it | cites st:p21b; feeds S1 |
+| [claims/st-ch81-five-ways-derge-chag-po-ri-no-dream.md](claims/st-ch81-five-ways-derge-chag-po-ri-no-dream.md) | claim, note | Ch. 81's five ways of entering carry no dream clause on the Derge and Chag-po-ri either: the second way's dreams are the commentators' sentence | cites st:p352, st:p352c, st:p352b; feeds S1 |
 | [claims/st-ch81-list-in-the-commentaries.md](claims/st-ch81-list-in-the-commentaries.md) | claim, note | Ch. 81's dream list in the commentaries: which reach it, what they quote and gloss, spelled as it stands | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
+| [claims/st-ch91-notes-small-type-derge-chag-po-ri.md](claims/st-ch91-notes-small-type-derge-chag-po-ri.md) | claim, note | Ch. 91's two remedies are notes in small type on the Derge and the Chag-po-ri, both ending before «དགོས་པ» | cites st:p493b, st:p493d; feeds S1 |
 | [claims/st-ch91-remedies-prints-commentaries.md](claims/st-ch91-remedies-prints-commentaries.md) | claim, note | Ch. 91's two bracketed remedies are notes in the Derge and Chag-po-ri prints too and in the commentaries; ཕྱྭ and བ་ར stay undefined, དྲི་ཆེན is dung | cites st:p493, st:p493b, st:p493c; feeds S1 |
 | [claims/st-dream-ch2-blue-beryl-moonbeams.md](claims/st-dream-ch2-blue-beryl-moonbeams.md) | claim, note | The Blue Beryl and the Moonbeams on the mother's dream of a man in ch. 2 | cites st:p21; feeds S1 |
 | [claims/st-dream-ch2-ch81-other-prints.md](claims/st-dream-ch2-ch81-other-prints.md) | claim, note | The boy's dream (ch. 2) and the nāga illness dream list (ch. 81) on the Zhol and Derge prints and in the Drikung commentary | cites st:p21, st:p350-351; feeds S1 |
@@ -1156,7 +1158,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 4 passages: 1 scan, 3 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 21 passages: 9 scan, 4 machine, 8 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 23 passages: 10 scan, 5 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 31 passages: 10 scan, 6 machine, 15 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |

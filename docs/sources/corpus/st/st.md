@@ -370,6 +370,20 @@ Read on the scan, 2026-11-10, by eye on a crop of lines 4-7 at 1x (the page at 0
 
 Four commentaries on the five ways of entering of st:p352. None quotes a dream in the verse: each gloss is the commentator's own and each gives the five ways in turn. The first way, the game (ཀུ་རེ་ཀྱལ་ཀ), is the one whose signs come and go, with care in food and conduct and a rite for the lords of the planets or the spirits (Blue Beryl: གདོན་ཆོག, Khro ru: གཟའི་གདོན་གྱི་ཆོ་ག). The second, the wish for enjoyment (ལོངས་སྤྱོད་རེ་འདོད), comes suddenly: the mouth and the eyes twitch and the limbs shake (Blue Beryl and Khro ru: ཁ་ཡོ་མིག་སླེ་ཞེས་ཡོ་ཞིང་འགུལ་འཕྲིག་བྱེད, Khro ru's spelling garbled), and many confused dreams come (རྨི་ལམ་ཟ་ཟི་མང་བ་འབྱུང), so that a rite against the spirit and the gathering of merit are to be done (གདོན་བཅོས་དང་ཚོགས་བསག, Khro ru adds བས ... བྱ, "therefore ... do"). The Drikung puts the same into verse lines: sudden onset, many confused dreams, merit to be gathered (ཚོགས་གསོག་རྒྱུ). Skyem pa's outline sets «the dream, ཟ་ཟི, is dreaming of the spirit» (རྨི་ལམ་ཟ་ཟི་གདོན་རྨི་བ) and the wish for enjoyment, and for treatment the nursing (རིམ་གྲོ, rim gro) and the rite against the spirit (གདོན་བཅོས); his lines run the first and second ways together, so the order of his clauses is not trusted. The third way, by the unclean and the defiled, comes suddenly with the awareness sunk and is treated by washing, incense and the lifting of defilement; the fourth, by the mind that kills an enemy, has seized the vital point and is treated by the recitation retreat (བསྙེན་སྒྲུབ, bsnyen sgrub) and the giving of «medicine and ltag» (སྨན་ལྟག་སྤྲོད, ltag not settled); the fifth, the ripening of deeds, shows the signs of what was given up earlier and is treated by merit, accumulation and the clearing of obscurations.
 
+## <a id="st-p352c"></a>st:p352c Ch. 81's five ways of entering on the Derge and the Chag-po-ri prints: the same list as the Serthang, no dream clause in the second way
+
+*Read: scan, 2026-11-10.*
+
+> Derge, img. 436 (the text lines 1–3; the page begins in the verse on the nāga king's reach and the five kinds of poison):
+> གདོལ་པ་མཆེ་བའི་དུག་ཅན་རྐང་པ་གཡོན། །མཇུག་ཏུ་ཀླུ་ཡི་རྒྱལ་པོ་དོན་ལ་འབབ། །འཇུག་ཚུལ་རྣམ་པ་ལྔ་ཡི་སྒོ་ནས་འཇུག །ཀུ་རེ་ཀྱལ་ཀའི་ཚུལ་དུ་ཞུགས་པ་དང་། །ལོངས་སྤྱོད་རེ་འདོད་ཚུལ་གྱིས་ཞུགས་པ་དང་། །མི་གཙང་མནོལ་གྱི་སྒོ་ནས་ཞུགས་པ་དང་། །དོ་སྡོ་བསད་པའི་སེམས་ཀྱིས་ཞུགས་པ་དང་། །ལས་ཀྱི་རྣམ་སྨིན་ཚུལ་དུ་ཞུགས་པར་བརྟག །བབས་ས་གནས་ཀྱི་སྒོ་ནས་བརྟག་པ་ནི།
+> 
+> Chag-po-ri, img. 428 (lines 1–3):
+> གདོལ་པ་མཆེ་བའི་དུག་ཅན་རྐང་པ་གཡོན། །མཇུག་ཏུ་ཀླུ་ཡི་རྒྱལ་པོ་དོན་ལ་འབབ། །འཇུག་ཚུལ་རྣམ་པ་ལྔ་ཡི་སྒོ་ནས་འཇུག །ཀུ་རེ་ཀྱལ་ཀའི་ཚུལ་དུ་ཞུགས་པ་དང་། །ལོངས་སྤྱོད་རེ་འདོད་ཚུལ་གྱིས་ཞུགས་པ་དང་། །མི་གཙང་མནོལ་གྱི་སྒོ་ནས་ཞུགས་པ་དང་། །དོ་སྡོ་བསད་པའི་སེམས་ཀྱིས་ཞུགས་པ་དང་། །ལས་ཀྱི་རྣམ་སྨིན་ཚུལ་དུ་ཞུགས་པར་བརྟག །བབས་ས་གནས་ཀྱི་སྒོ་ནས་བརྟག་པ་ནི།
+
+The way in (འཇུག་ཚུལ, 'jug tshul) is examined by five doors, named in one run on both prints exactly as on the Serthang (st:p352): by the manner of a game (ཀུ་རེ་ཀྱལ་ཀ, ku re kyal ka), by the manner of wishing for enjoyment (ལོངས་སྤྱོད་རེ་འདོད, longs spyod re 'dod), by the door of the unclean and the defiled (མི་གཙང་མནོལ, mi gcang mnol), by the mind that kills an enemy (དོ་སྡོ་བསད་པའི་སེམས, do sdo bsad pa'i sems, the first word is Yigdzin-1's reading on the Derge, the Chag-po-ri's machine text has དོ་སྔོ and the Serthang's scan དོ་སྡེ, so the vowel and the lower letter are not settled by eye) and by the ripening of deeds (ལས་ཀྱི་རྣམ་སྨིན, las kyi rnam smin). The next means is the examination by the place of descent (བབས་ས་གནས, babs sa gnas). On neither print does the line of the second way, «ལོངས་སྤྱོད་རེ་འདོད་ཚུལ་གྱིས་ཞུགས་པ་དང་», carry a clause on dreams.
+
+Where it stands. Derge img. 436 (printed folio 434), text lines 2 and 3: the verse's «གདོལ་པ་མཆེ་བའི་… མཇུག་ཏུ་ཀླུ་ཡི་རྒྱལ་པོ་དོན་ལ་འབབ» opens line 2 and the five ways run from the middle of line 2 to the first words of line 3 (line 2 ends at «དོ་སྡོ་བསད»). Chag-po-ri img. 428 (printed folio 426): the same words, on lines 1 and 2, line 1 ending «ཀུ་རེ». Both readings are the same text as the Serthang's; Yigdzin-1 gave དོ་སྡོ on the Derge and དོ་སྔོ on the Chag-po-ri.
+
 ## <a id="st-p493"></a>st:p493 Ch. 91, making the flavour: a dream of being led away by women marks a spirit, and its remedies
 
 *Read: scan, 2026-11-09.*
@@ -611,3 +625,39 @@ Question: Does the Blue Beryl's printed page (the Dpe tshogs print, p. 1148 for 
 ### Searched and not found (RD321)
 
 Skyem pa's etext (I4711) has no gloss of ཟ་ཟི་མང at ch. 15's line: its only hits of «ཟ་ཟི་མང» (p. 692) and «ཟ་ཟི་འོང» (p. 693) are outlines of ranges in the pestilence chapters, and ཟ་ཟི at ch. 81 (p. 818) is the one gloss («dreaming of the spirit»); BDRC etexts of the Blue Beryl, Khro ru and the Drikung, 2026-11-10, searched by «རྨི་ལམ་ཟ་ཟི་མང»: no gloss that explains ཟ་ཟི itself. Khro ru's colophon (I5624 pp. 818–821) names no source text. Skyem pa's own date: the etext gives a sheep-year only, in a colophon on the Latter Tantra's practice handbook (p. 1267), no year. The Blue Beryl's scan: not tried again. Byang pa and Rin spungs pa do not reach ch. 81 (RD255, RD303); Zur mkhar ba has no ch. 81 (RD303).
+
+## <a id="st-p493d"></a>st:p493d Ch. 91's two notes on the Derge and Chag-po-ri prints: where the small type begins and ends
+
+*Read: machine, 2026-11-10.*
+
+> Derge I00JW501163 img. 605, last line, and img. 606, line 1; Chag-po-ri I1KG13487 img. 602, last line, and img. 603, line 1 (Yigdzin-1's text, the letters of the small type not all settled by eye; the type size by eye):
+> Derge 605, last line: [large] གདོན་ཡིན་རྨི་ལམ་བུད་མེད་འདྲེན་པར་འགྱུར། །མོ་ཕྱྭ་རིམ་གྲོ་རྟེན་འབྲེལ་བ [small] རང་རེ་འོས་ས་སྦྱར་བ་རྐང་མཐིལ་འཇུག [large] སྔགས་ཀྱིས་གསོ། [small] བཞི་རུ་གཟོང་གི་བར་མི་ལག་མ་བཀྲིས་པར་ཁྱེའུ་གཙང་མས་བཀལ་བའི་སྲང་བུ་ལ་རྡོ་རྗེའི་མདུད་པ (to the line's end)
+> Derge 606, line 1: [small] བདུན་བྱས་ཏེ་སྔགས་ཨོཾ་ཧ་ར་ཧ་ར་བྷན་དྷ་ནི་ཤུ་བྷ་དྷ་རི་ནི་བ་ར་ཏི་སྶཱ་ཏྲ་སྟོང་བཏབ་ལ་བཅིང་། [large] དགོས་པ་ནད་མེད་ལང་ཚོར་ལྡན་པ་ཡིས། …
+> Chag-po-ri 602, last line: …གདོན་ཡིན་རྨི་ལམ་བུད་མེད་འདྲེན་པར་འགྱུར། །མོ་ཕྱྭ་རིམ་གྲོ་རྟེན་ (the line ends)
+> Chag-po-ri 603, line 1: [small throughout] འབྲེལ་བར་འོ་མ་སུ་སྦྱར་བ་རྐང་མཐིལ་ལ་བྱུག །སྔགས་ཀྱིས་གསོ། །བ་ནི་ལུག་ཐོང་གི་བལ་མི་ལག་མ་འགྲིམས་པ་ཁྱེའུ་གཙང་མས་བཀལ་བའི་སྲད་བུ་ལ་རྡོ་རྗེའི་མདུད་པ་བདུན་བྱས་ཏེ་སྔགས་ཨོཾ་ཧ་ར་ཧ་ར་བྷན་དྷ་ནི་ཤུ་ཏྲ་དྷ་རི་ནི་ཐར་ཏེ་སྭཱཧཱ་སྟོང་བཏབ་ལ་བཅིང་། [large] །དགོས་པ་ནད་མེད་ (the line ends)
+
+Where the small type runs, by eye on crops at 2–4× (the Derge scan is 7504 px wide, the Chag-po-ri 2236; both are bitonal or grey microfilm in which small letters are blurred).
+
+Derge. In the last line of img. 605 the verse's large type runs to «རྟེན་འབྲེལ་བ», then a small-type run (the first note, about twelve syllables; Yigdzin-1 reads it «རང་རེ་འོས་ས་སྦྱར་བ་རྐང་མཐིལ་འཇུག», "as suits oneself, applied, to the soles, put in"; the shapes fit the reading but the letters of the first words are not settled), then the three words «སྔགས་ཀྱིས་གསོ» in large type (the mantra's healing, the verse's own words), then small type again from «བཞི་རུ…» to the end of the line (the second note, the thread). Img. 606, line 1: small type from its first word «བདུན» to «བཅིང་།», and the verse's large type returns at «དགོས་པ». So on the Derge both notes are in small type, the verse's «སྔགས་ཀྱིས་གསོ» between them is large, and the small type stops exactly before «དགོས་པ».
+
+Chag-po-ri. Img. 602's last line ends with the verse's «རྟེན་» and img. 603 begins its line 1 with «འབྲེལ»; line 1 is set in smaller letters than line 2 along its whole length, including «སྔགས་ཀྱིས་གསོ» (not enlarged here, unlike the Derge), and the larger type returns at «དགོས་པ་ནད་མེད་» at the line's end. So the print sets the whole of line 1 after «འབྲེལ» in small type, the two notes and the healing words together, and the small type stops at «བཅིང་།» as on the Derge. The first note reads on the Chag-po-ri «འབྲེལ་བར་འོ་མ་སུ་སྦྱར་བ་རྐང་མཐིལ་ལ་བྱུག» (the milk of ... mixed, rubbed on the soles; the letters of «འོ་མ་སུ» are clear by eye as Yigdzin-1 has them), where the Derge machine text has «རང་རེ་འོས་ས་སྦྱར་བ་རྐང་མཐིལ་འཇུག»: the Derge's first note does not read as the milk on the letters seen, and is not settled. The mantra has the same shape on both prints (Chag-po-ri «ནི་ཤུ་ཏྲ་དྷ་རི་ནི་ཐར་ཏེ་སྭཱཧཱ», Derge «ནི་ཤུ་བྷ་དྷ་རི་ནི་བ་ར་ཏི་སྶཱ་ཏྲ», the machine text of both).
+
+## Ch. 81's five ways of entering and ch. 91's small-type notes on the Derge and the Chag-po-ri prints (RD325)
+
+Read 2026-11-10 (RD325) on the scans, Derge I00JW501163 img. 434–436 and 605–606 and Chag-po-ri I1KG13487 img. 426–428 and 602–603 (img. 436 and 428 were opened because the five ways stand there, not on the images the row named: img. 434–435 and 426 hold the dream list and the verse up to the nāga king; the verse is a page further on), Yigdzin-1 through the slot over all of them first, then crops at 1.2–4× by eye (the Derge ch. 81 pages are 3000 px wide, the ch. 91 ones 7504 px; the Chag-po-ri 2300). MITRA was not run: the places are a few lines and the crops decide. The Serthang beside: st:p352 and st:p493b.
+
+The passages [st:p352c](#st-p352c) (the five ways on both prints, scan) and [st:p493d](#st-p493d) (the small type of ch. 91, machine for the letters and eye for the type size). The facts: the claims [st-ch81-five-ways-derge-chag-po-ri-no-dream](../../claims/st-ch81-five-ways-derge-chag-po-ri-no-dream.md) and [st-ch91-notes-small-type-derge-chag-po-ri](../../claims/st-ch91-notes-small-type-derge-chag-po-ri.md).
+
+What was found. (1) Neither print has a dream clause in the second way's line of ch. 81: the five ways are the same list as the Serthang's on all three prints, so the clause is the commentators' (the first question of RD321 is answered for the Derge and the Chag-po-ri; the Drathang is still unopened). (2) Ch. 91: on both prints the two remedies are in small type and the small type ends at «བཅིང་།» before the verse's «དགོས་པ»; on the Derge the verse's «སྔགས་ཀྱིས་གསོ» between the notes is large, on the Chag-po-ri the whole of line 1 of img. 603 is small, healing words included (q914's second half: the Chag-po-ri sets the run in small type from «འབྲེལ», not only the notes). (3) The Derge's first note reads differently from the Chag-po-ri's on the machine text («རང་རེ་འོས་ས་སྦྱར་བ…» against «འོ་མ་སུ་སྦྱར་བ…»), the letters of the Derge's small type too blurred to settle. (4) Yigdzin-1 put a spurious first line on Derge img. 436 («འཇུག་ཚུལ་རྣམ་པ་ལྔ་ཡི་སྒོ་ནས་འཇུག །ཀུ་རེ་ཀྱལ་ཀའི་ཚུལ་དུ་ཞུགས་པ་དང་།» before the page's real line 1, which begins «པས་བདག་ཤ་ལ་འཛིན»): it is the text of line 2 repeated, not a line of the page.
+
+### Open (RD325)
+
+Question: What do the first small-type note's letters read on the Derge print of ch. 91 (img. 605, last line, after «རྟེན་འབྲེལ་བ»): «རང་རེ་འོས་ས་སྦྱར་བ», a milk, or a third wording, on a sharper image of the Derge than the BDRC microfilm?
+
+Question: Is the letter after ཚོ in «ལྷས་ཚོར་དུས་ཏེ» on the Chag-po-ri print (img. 426, line 6) a ར or a ང, and is the Derge's (img. 434, line 6) a ར (q893; the crops at 5× did not settle it)?
+
+Question: Does the Drathang print of ch. 81 carry a clause on the dream in the second way's line, as the Serthang, Derge and Chag-po-ri do not?
+
+### Searched and not found (RD325)
+
+The five ways of entering with a dream clause in the verse: not on the Derge (img. 436, lines 2–3) nor the Chag-po-ri (img. 428, lines 1–2), eye on crops, 2026-11-10. A sharper image of the Derge's ch. 91 small type: the scan in the cache is the BDRC microfilm, bitonal, the small letters run together; none better tried here. The Drathang's ch. 81 and ch. 91 pages were not opened. The Derge img. 602–603 (the Derge's ch. 91 is on img. 605–606) are not in the cache and were not needed.
