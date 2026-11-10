@@ -2076,6 +2076,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1019.md](questions/q1019.md) | question q1019 | Which planet is «གཟའ་ལག» in the Mchog dga's list of dream planets (the one that makes the dreamer teach and hear the Dharma)? It may be Mercury, ལྷག་པ. | open; cites kd.3:p177-179 |
 | [questions/q1020.md](questions/q1020.md) | question q1020 | Is the Padminī's verse of the bed rite (Derge vol. 13 p. 320) the Vimalaprabhā's own ritual text, or another work's, and whose? | open; cites kcd.13:p320 |
 | [questions/q1021.md](questions/q1021.md) | question q1021 | Is the seventh house from the sun's house, where the Mchog dga' puts the moon for a clear dream, counted with the first house as one? | open; cites kd.3:p177-179 |
+| [questions/q1022.md](questions/q1022.md) | question q1022 | What is «ཡུགས་ས་མ» in the be bum's rule «keep from the unclean, dogs, and especially ཡུགས་ས་མ» (Mipham, Gzhung 'grel skor vol. 28 image 190)? No sense found. | open; cites mph.128:i189-192 |
+| [questions/q1023.md](questions/q1023.md) | question q1023 | What is the «ru rta'i lde gur» of the be bum's dream rites? Read as rue-root only as a guess. | open; cites mph.128:i189-192 |
+| [questions/q1024.md](questions/q1024.md) | question q1024 | What does the colophon date «རབ་ཚེས་མེ་རྟ་ཟླ་ཚེས» of Mipham's Flaming Uṣṇīṣa sādhana for turning back bad dreams (Chengdu vol. 25, image 460) say? | open; cites mph.25:i459-460 |
+| [questions/q1025.md](questions/q1025.md) | question q1025 | In the opening of Mipham's notes on WB (wb.2:p474) «དུས་ཁམས» is printed where the sense wants «རུས་ཁམས» (clan element); is it a misprint? | open; cites wb.2:p474 |
 
 <!-- end pool index -->
 

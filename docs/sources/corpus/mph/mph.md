@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD362 (2026-11-10): Mipham's Gzhung 'grel skor volumes 1, 4, 25 and 28 (be bum list of dream mantras, the Śākyamuni compilation's dream readings, the Sukhāvatī guide), the Chengdu Gsung 'bum vol. 25 (Skul byed ma rite, Flaming Uṣṇīṣa sādhana) and his notes on the White Beryl (vol. 2 p. 474 and pp. 535-537).
+
 ## <a id="mph-101-i42-43"></a>mph.101:i42-43 The Karuṇāpuṇḍarīka's dream of the Brahmin Sea-dust, as Mipham's Śākyamuni compilation tells it
 
 *Read: machine, 2026-11-10.*
