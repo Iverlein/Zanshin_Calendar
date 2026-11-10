@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD360 (2026-11-10): the dream verses' remark on the Chos spyod scan (CBL, I1KG81117 img. 237), the 'Brong rtse be'u bum etext, the Dpe bsdur ma vol. 46, Tsong kha pa's Sngags rim chen mo (ALL etext), Klong rdol's gsan yig, Dbang chen's etext and RST.
+
 ## <a id="cbl-p217"></a>cbl:p217 Title, homage and the first note: the author's name in full
 
 *Read: etext, 2026-11-10.*
