@@ -1819,6 +1819,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0909.md](questions/q0909.md) | question q909 | What is «རམ་རུག» (ram rug) in the rites' lists: the plant ram bu or ram pa by a spelling by ear, or a separate item, and what does «ཞབས» in «ཞབས་རམ་རུག» of the Rin chen gter mdzod's second text add? | open; cites lgd.42:p969b |
 | [questions/q0910.md](questions/q0910.md) | question q910 | Does the Blue Beryl's printed page read ལྷས or ལྟས in the closing clause of ch. 81's dream list, and ནེའུ་གསིང as its etext has it? | open; cites st:p350-351 |
 | [questions/q0911.md](questions/q0911.md) | question q911 | Is the Blue Beryl's gloss of ch. 81's dream list the same text as Khro ru's, and which came first? | open; cites st:p350-351 |
+| [questions/q0912.md](questions/q0912.md) | question q912 | On the Narthang manuscript (I2KG212330 img. 290, end of line 2) is the bird «བྱ་ཤང་ཏེའུ» as the Dpe bsdur ma note gives it, or «བྱ་ཤང་ཤང་ཏེའུ» with the full name? | open; cites svi:p310b |
+| [questions/q0913.md](questions/q0913.md) | question q913 | Is the sign of Amoghasiddhi's family «ཤང་ཤང་ཏེའུ» (shang shang te'u, the jīvajīvaka bird of the lists), and what does a bird of that name sent as a messenger (ཕོ་ཉར་གཏོང) foretell in the commentaries of the tradition? | open; cites svi:p310b, svi:p261b |
 
 <!-- end pool index -->
 

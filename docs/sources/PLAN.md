@@ -1924,3 +1924,6 @@ Searched and found wanting, so not to be repeated:
 - **RD303** (RD303, 2026-11-10):
   - BDRC exact-phrase searches of 2026-11-10: «སྦལ་ལྗོང་ཉ་སྦྲུལ་འབུ་སྦྲང་སྡིག་སྡོམ» 3 hits; «ནིའུ་གསིང་དང་སྦལ» and «ནེའུ་གསིང་དང་སྦལ» none; «ལྷས་ཚོར་དུས་ཏེ་གདོན» 14; «རང་ཚོར་དུས་ཡིན་གདོན» 18; «ལྷས་ཚོར་བའི་དུས» 7; «ལྷས་ཚོར་གྱི་དུས» 7; «རྨི་ལམ་ལྷས་ཚོར» none.
   - The scans of the Blue Beryl, Skyem pa, Dar mo, the Drikung and Zur mkhar ba answer 401 and cannot be viewed; Zur mkhar ba's two ནེའུ་གསིང hits and Rin spungs pa's one are in other contexts.
+- **RD309** (RD309, 2026-11-10):
+  - A commentary on the Svapnekṣā that names the Amoghasiddhi bird: BDRC full-text search «བྱ་ཤར་ཏེ་རུ» 3 hits (the Derge Tengyur etext, the Dpe bsdur ma etext, a modern medical collection), «བྱ་ཤིང་ཏེའུ» 0, «བྱ་ཤང་ཏེའུ» 0, «བྱ་ཤར་ཏེའུ» 0, «བྱ་ཤིང་ཏེ» 0, «བྱ་ཏེའུ་ཕོ་ཉར» 0, «བྱ་ཤར་ཏེ» 5 (two unrelated).
+  - The Narthang line by eye at 3× and 8× is a smear of the verso's show-through; the Co ne line is a dense bitonal bitmap not readable by eye; the Derge ར and ུ of «རུ» at 8 px are not told apart.
