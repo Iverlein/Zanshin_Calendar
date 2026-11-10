@@ -206,3 +206,28 @@ Images 31-37 (NDL pid 2539476, the 永代大雑書 of 1856, call number 851-93; 
 > 悪夢を吉夢となす法
 
 Images 72-79 (NDL pid 759984, the 永代万暦大雑書 (増補), Matsuda Bunshodo, Meiji 16 (1883), open, PDM): the dream section is images 72-79; images 72, 73, 78 and 79 read by eye on the page images, images 74-77 (the plain articles, two tiers) only in the NDL's rough OCR. Image 72: the section opens with a preface on the old dream-diviners and five kinds of dream with their causes, then a charm against bad dreams; image 73: a short list headed by the first lucky dreams (Fuji, hawk, aubergine, with pictures) in which 初夢 occurs as the dream of the first night of the year, naming no night, date or calendar; images 74-78: the plain "if one sees X, Y" articles; image 79: the way to turn a bad dream into a good one by facing the east and blowing, and the charm. No table of days a dream is not told and no month-by-month table of day branches on the leaves read; the OCR of images 74-77 shows plain articles only. The quoted lines of the Japanese above are a reading by eye of small print and are marked as approximate: the two 初夢 lines of image 73 are read in outline (the first names Mount Fuji, the second 不二, with good fortune or joy), not letter by letter, and the heading line is a description, not a quotation.
+
+## <a id="mdz-i108"></a>mdz:i108 RD308: 万代大雑書三世相 (1886), the dream section on images 108-131: articles by groups, the charm, no table of days a dream is not told
+
+*Read: machine, 2026-11-10.*
+
+> 夢の説
+> 天地の部
+> 神釈の部
+> 器財の部
+> 生植の部
+> 人倫の部
+> 婆珊婆演帝
+
+Images 108-131 of the NDL's 万代大雑書三世相 (pid 760742, Suzuki Kiemon, Meiji 19 (1886), open; 191 images), the dream section: it opens on image 108, left page, under the heading "The dream judgments" (夢の説), and then runs on in headed groups, each a list of "if one sees X" articles with a picture now and then: heaven and earth (天地の部, image 108), the gods and Buddhas (神釈の部, image 124), vessels and goods (器財の部, image 126), growing things (生植の部, image 129), human relations (人倫の部, image 117). The charm of the Night-Ruling God against a bad dream, 婆珊婆演帝 (the same five characters as in mdz:p5), is on image 110, with the way to use it. Images 108-127 and 129-131 were looked at one by one on the page images (bitonal, about 1600 px wide, the cursive of the articles not read letter by letter); images 128 and 132 and on were not looked at. On none of the looked-at leaves is there a table of twelve months with day branches, and the words 語らざる日 were not found; the NDL's OCR of the whole volume (fulltext-json) has neither 語らざる, 語らず nor 初夢 and is too rough to tell more. So this print, like the two 永代 prints (mdz:i31, mdz:i72), gives the dream articles and the charm without the table of mdz:p11; it does not say what the slash of that table divides.
+
+## RD308 (2026-11-10): the slash of the table and the night of the 初夢; Open; Searched and not found
+
+What this reading settled is small: one more open print, the 万代大雑書三世相 of 1886 (mdz:i108), carries the dream articles and the charm of the Night-Ruling God and no table of the days on which a dream is not told, so the table stays known only from the 万代大雑書古今大成 (mdz:p11) and the Ebara dream book (eb9:i9), and the slash inside its cells (q785) and the night of the 初夢 (q788) are not explained by any text reached.
+
+Open:
+
+- Question: does the 星槎ラボ 延宝2 大ざつしよ, the earliest print, or any other 万代大雑書 print (the NDL has some seventy-six 大雑書 titles, almost all restricted to the library's own reading rooms) set out the table 夢を見て語らざる日 with a legend for the slash, for instance day branches for a dream seen in the first half of the night and others for the second half, or the days of the sexagenary cycle against the days of the month?
+- Question: in which Edo source is the 初夢 night fixed at 2 January, and is it counted by the lunar months of the Edo calendar, which was the only one in use until 1872? The Japanese Wikipedia's entry 初夢 (read 2026-11-10; a modern encyclopedia, a lead and not a source) says that in the Edo period three nights were held, New Year's Eve to New Year's Day, the night of 1 to 2 January and the night of 2 to 3 January, the last the commonest in the late Edo period, and the night of 1 to 2 January commoner after the 1873 reform; it names no Edo text for it.
+
+Searched and not found (RD308), 2026-11-10: (1) the NDL catalogue (`ndl.py`, 2026-11-10) for 夢を見て語らざる日, 夢 語らざる日 大雑書, 大雑書, 万代大雑書, 永代大雑書, 夢合, 夢判断, 夢占 and 三世相: two new records that carry the words, the 永代大雑書大成 (pid 759978, 1883) and the 吉凶禍福夢判断 (pid 760913, 1890), both answer "NG" to the IIIF manifest and "This PID is not allowed" to the full-text API, so neither can be read open; the 万代大雑書三世相 (pid 760742) is open and was read (mdz:i108); (2) the NDL full-text API (lab.ndl.go.jp/dl/api/book/fulltext-json) fetched for the 104 open items among the 360 records of those searches: 語らざる, かたらざる and 語らず occur in no almanac or dream book among them (夢を見て only in a 1928 essay book, a 1919 book and an 1819 play), and 初夢 in no almanac (the preface of the 一九全集 and the 弘法大師夢判断 of 1926, a dream book with 初夢に鷹を見れば and no night); (3) the 江戸歳事記 of 1838 (pids 8369316 and 14670261; the 東都歳事記 is its other name) is in the catalogue but restricted (manifest NG, full text not allowed), so its entry for 2 January was not reached; (4) the 守貞謾稿 and the 類聚近世風俗志: only the Iwanami reprints, restricted; (5) the 俳諧歳時記栞草 and the 江戸府内絵本風俗往来: no record with a pid; (6) ja.wikisource: no page for the 守貞漫稿 or the 東都歳事記; (7) the NDL full-text search (lab.ndl.go.jp/dl/api/book/search) for 初夢 with 二日: modern local histories and Edo picture books by title only.
