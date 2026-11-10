@@ -1,0 +1,15 @@
+---
+kind: claim
+type: list
+terms: [rmi-lam, ltas-ngan, slob-ma-lhag-par-gnas-pa]
+cites: ['svo:p299-300', 'svo:p446-447', 'svo:i426-427', 'svo:i519', 'svo:i710', 'svo:p140',
+  'svo:p378']
+feeds: [S1]
+open: []
+---
+# More Tengyur mandala rites: the disciple's dream is the dream of the night before the entry, told at dawn, with protection, the fire-rite or a mantra for a bad one; none names a night of the month (RD386)
+
+Besides the rites read before (the dawn dream of MMB, NBV, TRT, SBK, NGM, SDP; Tsong kha pa), the Derge Tengyur has more mandala rites in which the disciple sleeps in the mandala's place and the dream is told at dawn: the Padma-net offering rite (vol. 28 pp. 288–313, maker Rgyal ba Dpal ye shes also called Padma Vajra, "the night before the mandala is drawn", told at «tho rangs», with the pacifying fire for a bad dream, svo:p299-300); the Mahākāla mandala rite of Samantaśrī (vol. 28 pp. 430–460, pp. 446–447: the disciple lies in the lion's posture on kuśa grass; at early dawn the teacher asks the dreams; a bad one, falling from a mountain, is guarded with the mantra of all works); and the Cakrasaṃvara commentary «Gnyis ka'i bshad sbyar» of Tathāgatarakṣita (VE23703_1333 pp. 426–427: "tell me what you see in the dream at dawn"; at early dawn he asks the virtuous and the not virtuous dreams and, according to the dream, permits). In all of them the dream is the dream of one night, the night before the entry, and the hour is dawn; none names a night of the month. The same step is named without time in the Tārā consecration rite (vol. 28 p. 140: the tooth-stick thrown and the dream examined, a bad one turned back by effort) and in the Mahākāla tantra commentary of Dpal rta dbyangs (p. 378: «nam mkha'i mthar ni rmi lam brtags», the dream examined among the preliminaries before the cord-line; the words «at the end of the sky» are not explained). Remedies named: guarding (བསྲུང) with the mantra of all works, the pacifying fire, effort.
+
+
+The formula is not rare. Reading the etexts of the Derge Tengyur volumes VE23703_1330 to 1353 by the dream word with the dawn words (windows read, the works not opened whole), the same step (the disciple lies down on kuśa, "tell me at dawn what you see in the dream"; at early dawn the dreams are asked; for a bad one, protection by a mantra, the fire-rite or a repeated mantra) stands in some twenty further works, most of them rites of the Cakrasaṃvara, Vajrayoginī, Great Illusion, Buddhakapāla, Sarvabuddhasamāyoga and Guhyasamāja: VE23703_1338 pp. 132, 294, 335, 468–474, 654 and 710 (svo:i710: «Hūṃ-mdzad» 108 times for a bad dream); 1340 p. 110; 1341 pp. 474, 519 (svo:i519: a good sign is shown its accomplishment, a bad one is met with protection and the fire-rite) and 597; 1342 p. 382; 1348 p. 398; 1351 pp. 43, 274 and 506; 1352 p. 167. None gives a night of the month; all say dawn («ཐོ་རངས», «ནང་པར»). Only the dream's meaning "good or not virtuous" (དགེ་བ་དང་མི་དགེ་བ) is named, and the one image, falling from a mountain, in the rites that copy the Samantaśrī wording (vol. 28 p. 447; VE23703_1337 p. 129; 1338 p. 654).
