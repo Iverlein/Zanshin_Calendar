@@ -170,3 +170,21 @@ Doubts that stay: «བརྟགས་པ་ལ་ཉལ» (an extra «པ» on 
 ### Searched and not found (RD280)
 
 - The Narthang SVI strip (I2KG212330 img. 289) was glanced at and not reread by RD280; the Co ne SVI (vol. 49, 130a1–130b7), W22704 SVI and the Dpe bsdur ma notes were not touched. RD234, RD236 and RD276 stand.
+
+## <a id="svi-p310"></a>svi:p310 The closing line of the three parts of the night on the Peking print, read again (RD306)
+
+*Read: scan, 2026-11-10.*
+
+> Peking (I1KG13215 img. 310, line 1, about x 3750–4700 of the 5385 px frame, 3–4× contrast-stretched crop):
+> ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ། །མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང་། (the line closes in the frame rule)
+
+Peking print, img. 310, first line of the leaf (RD306): the line that closes the three parts of the night, "in the last part one lies down having examined the dream", read again on a 3–4× crop. After the syllable «ལམ» come a ba, a wide stacked head, a ga-like letter with its tail, then «པ» and «ལ»: the extra «པ» of RD234 stands after the «བརྟགས»-shaped group, so the print reads «བརྟགས་པ་ལ» and not Yigdzin-1's «བཏབ་ལ» (moderate: the print is faint grey and the stacked letters are not told apart letter by letter). The Narthang manuscript, by RD298, reads «བཏབ་ལ», so the two prints differ here and the Derge etext's «བརྟགས་ལ» agrees with neither. Not done in RD306: the Derge scan (letters about 8 px), the Co ne scan, the bird sign on any print, the Indian sources.
+
+### Open (RD306)
+
+- Question: on the Derge, Narthang and Peking prints, is the bird of Amoghasiddhi's signs «བྱ་ཤར་ཏེ་རུ», «བྱ་ཤིང་ཏེའུ» or «བྱ་ཤང་ཏེའུ», and is it a bird sent as messenger or something else (q815, q835 unchanged)?
+
+### Searched and not found (RD306)
+
+- The Peking bird line: img. 311 lines 4–5 were cropped at 1–1.5× in two halves and the line was not found among the eight lines; not located, so not read.
+- BDRC full-text search for the sign in the Tibetan commentaries and the Indian sources was not run; the Derge, Co ne and Narthang places were not reread.
