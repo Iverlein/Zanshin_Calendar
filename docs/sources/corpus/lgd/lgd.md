@@ -12,6 +12,8 @@ Read by RD307 (2026-11-10): the phrase «མཉམ་པོར་འོང་བ
 Read by RD307 (2026-11-10): BDRC etexts I3CN4779, I1KG24707, I1KG13062, I3154, I4636, I0392, VE1KG14_037, I2PD20754, I2PD20734, I2PD20752.
 
 
+Read by RD318 (2026-11-10): the Palri print's two places by eye at 3× (img. 542, the mixed kind's last clause «མ་བྱེད»; img. 544, the middling yogin's «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག»), with the Rin chen gter mdzod and Shechen etexts (VE1KG14_042, _037) and Yigdzin-1 on the Kazi, Zhe chen, Ngodrup and Sbas-yul pages beside; the Kazi stack by eye at 9–12×, the hands not read by eye. Passage lgd.42:p966-971c; claims lgd-palri-mixed-clause-mabyed-against-maphyed, lgd-middling-yogin-rang-bzhin-against-rang-gzhan.
+
 Read by RD284 (2026-11-10): LGD in the Rin chen gter mdzod print (I1KG57 img. 981, printed p. 962, and img. 989, p. 970): the first line of p. 962 at 3- to 10-fold (the six ornamental glyphs, compared with the same string in the Palri print I01CT0067 img. 534) and the last line of p. 970 with the demon's phrase; BDRC's exact-string search for the phrase and its partners. Claims lgd-p962-seed-string-is-ornamental-and-unread, lgd-three-parts-of-night-share-the-names-of-rst-thirds, lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.
 
 Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).
@@ -108,6 +110,32 @@ The first: the sign of a prophecy appearing in the dream comes as a clean girl, 
 Palri Parkhang print (clean typeset page; machine reading Yigdzin-1, checked line by line by eye on half-page crops of img. 539–544 and zoomed at the two doubtful places), from the third part, the examination itself, to the colophon; the running «ཨོཾ༔» at the head of every page is left out. The sense is that of RD208's passages lgd:p966-971 (the Rin chen gter mdzod print); every difference of wording is a variant, listed below.
 
 Third, the examination of dreams: dusk dreams of habit, midnight dreams of the afflictions, early dawn dreams of omen; in some, no certainty. The seven: the sign, the good, the bad, the mixed, the bad that resembles good, the good that resembles bad, the not-declared. The sign: a clean girl, a boy with a top-knot, a well-dressed monk; the best speak in words, the middling show changed shapes and letters, the least draw a diagram; repeated, it grows clearer. The good: dawn, sun rising, forests flourishing, ripening grain, a bridge set, a great river crossed, escape from a fearful path, going upward, one's body adorned, one's tools all together and not blunted, new clothes, vessels full, honour from others, victory in a quarrel, goods as attainments, bathing, a pleasing friend, music, a good voice, planting trees, a great banner raised, a fine fort, a pond made, a channel dug, an iron-mountain ring around one, subduing others, hitting the mark, enjoying grain, eating and drinking to satiety, offerings laid out, finding a treasure; in short obscurations purified, wealth increasing, life lengthened, the wished-for omen. The bad, the reverse of these, listed as in RD208's passage, with «ཁྲི་མོན་དོང» for the dark pit, hail together with a landslide chasing, the red whirlwind chasing once only (after "led off helpless by people one dislikes"), riding a black donkey, riding a wild horse and being led off helpless, using «རམ་རུག་སྤང་གཡེང» and the like, goods of gossip (མི་ཁ, mi kha), wandering alone and unknown; in short obstacles to life and the rest; some are tricks of spirits, of the demon of obstruction (སློང, slong), the dharma protectors and their messengers, uncertain. The mixed: good first and bad after turns bad; bad first and good after turns good; if it mixes and one does not make it (མ་བྱེད་ན), it is to be known as a trick. The bad that resembles good (fifth) and the good that resembles bad (sixth) as in RD208. The not-declared (seventh) is beyond thought. The origins of dreams as in RD208. The three yogins: the best knows a dream for a dream and has nothing to examine, the least falls into stupor, the middling examine "by their own nature" (རང་བཞིན་གྱིས) for themselves. Colophon: «The stages of telling apart the signs of the good and bad dreams of good and bad», set down for later generations; the seals; the treasure of the emanation Sangs rgyas gling pa.
+
+## <a id="lgd-42-p966-971c"></a>lgd.42:p966-971c The two places where the Palri print parts from the Rin chen gter mdzod, with the other prints and etexts beside (Palri img. 542 and 544)
+
+*Read: machine, 2026-11-10.*
+
+> Palri Parkhang (I01CT0067 img. 542, mixed kind, last clause, by eye at 3×):
+> > སྤེལ་ཞིང་མ་བྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ༔
+> 
+> Palri Parkhang (img. 544, the middling yogin, by eye at 3×; «རང» ends the line above):
+> > འབྲིང་པོ་རྣམས་ཀྱིས་རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག་པར་བྱས་ཏེ༔
+> 
+> Rin chen gter mdzod and Shechen etexts (VE1KG14_042 and VE1KG14_037, same wording in both):
+> > སྤེལ་ཞིང་མ་ཤེས་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ༔
+> > འབྲིང་པོ་རྣམས་ཀྱིས་རང་གཞན་ལ་ཉེ་བརྟགས་པར་བྱས་ཏེ༔
+> 
+> Kazi (I6132 img. 559, row 5, small typeset; Yigdzin-1; the stack after «མ» looks boxed like «ཕ», not settled by eye):
+> > སྤེལ་ཞིང་མ་ཕྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ༔
+> Kazi img. 561 (Yigdzin-1 only): «འབྲིང་པོ་རྣམས་ཀྱིས་རང་བཞིན་གྱི་ལ་ཉེ་བརྟག་པར་བྱས་ཏེ༔»
+> 
+> Zhe chen (I4PD2250 img. 311 and 313, hand script, Yigdzin-1 only): «སྤེལ་ཞིང་མ་ཕྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ༔»; the yogin's line garbled («རངིན་གྱི་མ་ཉེ་བརྟགས་པར་བྱས་ཏེ»), with «བརྟགས».
+> Ngodrup and Sherab Drimay (I1867 img. 310, hand, Yigdzin-1 only): «སྤེལ་ཞིང་མ་ཕྱེད་ན་ཆྲོུལ་དུ་ཤེས་པར་བྱའོ༔» (the middle word garbled).
+> Sbas-yul (I1LT3208 img. 148 and 150, hand, Yigdzin-1 only): «སྤེལ་ཞིང་མ་ཆེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ༔»; the yogin's line «རང་གཞན་གྱི་ལེཌ་ཉྶི་བརྟག་པར་བྱ་སྟེ» (garbled, but «རང་གཞན»).
+
+The mixed kind's last clause. Palri: "if it mixes and one does not make [it / the distinction]" (བྱེད, byed, to do or make), know it as a trick (ཆོ་འཕྲུལ, cho 'phrul). Rin chen gter mdzod and Shechen etexts: "if it mixes and is not recognised" (ཤེས, shes). Kazi, Zhe chen and Ngodrup by machine: «མ་ཕྱེད» (phyed, to separate, tell apart): "if it mixes and is not told apart". Sbas-yul by machine: «མ་ཆེད».
+
+The middling yogin's line. Palri and, by machine, Kazi: "the middling, by their own nature (རང་བཞིན, rang bzhin), examine the omens (ལ་ཉེ, la nye)". Etexts: "the middling examine the omens of self and other (རང་གཞན, rang gzhan)", with «བརྟགས» (examined, past stem) against Palri's and Kazi's «བརྟག». Sbas-yul by machine has «རང་གཞན».
 
 ## <a id="lgd-p967"></a>lgd:p967 The good dreams
 
