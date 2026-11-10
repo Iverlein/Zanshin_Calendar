@@ -1864,3 +1864,8 @@ Searched and found wanting, so not to be repeated:
   - WB's notes (vol. 2, pp. 474–541) and the etexts of the notes: no «ཐུན་བཞི», «མཚན་ཐུན», «ནམ་ཐུན» or «སྲོད་ཐུན»; Mipham's own words on the watches: none in the etexts the pool holds.
   - BDRC full-text search 2026-11-10: «ཐུན་གསུམ་ཀུ་མུད་བཞད» 8 hits (the 1996 print, the Gser thang etext, the Zhol and its second impression and four volumes not identified); «ཉིན་མཚན་ཐུན་བརྒྱད» 8 hits (WB vol. 2 in two prints and six volumes, three windows read did not show the phrase); «ཐུན་མཚམས་རྭ་ཧུ» 0 hits. Nothing from the Kālacakra tradition or from Mipham.
   - The Zhol folio for vol. 2 p. 403 (etext page 1167): img. 1167 shows the medicine passage and a picture; the Taikhang reproduction was not read for any passage here.
+- **RD291** (RD291, 2026-11-10):
+  - Scheuermann 2020 (Brill, pp. 161–180) is not open: brill.com blocks automated browsers with a human check (HTTP 405), and OAPEN, DOAB and the Internet Archive hold no copy.
+  - No puṇyakāṇḍa of the Kāṇva branch in any open catalogue or study; Ganga Sagar Rai (Purāṇa Bulletin 8, 1966) and Bonazzoli unread, not open.
+  - No separate date for the Brahmavaivarta's dream chapter (IV 73 in Jivananda's numbering); Hazra and Rocher read in text layers only.
+  - Internet Archive access: iiif.archive.org serves full-size leaves of the Kālaprakāśikā scan, and the _djvu.txt files of Hazra and Rocher download without a loan.
