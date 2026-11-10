@@ -1859,6 +1859,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0931.md](questions/q0931.md) | question q931 | Is the «Rga lo» of the lineage on MDP p. 135 the translator Rga lo tsā ba, or a misreading of «G.yag sde lo tsā ba» (Bsod nams bzang po), whom three Sa skya lineages name as the teacher of Ze dmar ba Sangs rgyas ye shes? | open; cites mdp:p135 |
 | [questions/q0932.md](questions/q0932.md) | question q932 | Is the monk Sgra tshad pa of MDP p. 137 Rin chen rnam rgyal, Bu ston's pupil and biographer, whom BDRC's records call «dge slong sgra tshad pa»? | open; cites mdp:p137b |
 | [questions/q0933.md](questions/q0933.md) | question q933 | Who wrote or compiled the three dream examinations of the third section (Śramaṇā, Śākyamuni, Tārā) in the 'Brong rtse be'u bum? | open; cites tdr:p21e |
+| [questions/q0934.md](questions/q0934.md) | question q934 | On the Kazi print (I6132 img. 559) and the Zhe chen and Ngodrup hands, is the letter after «མ» in the mixed kind's last clause ཕ or བ, that is «མ་ཕྱེད་ན» or «མ་བྱེད་ན»? | open; cites lgd.42:p966-971c |
+| [questions/q0935.md](questions/q0935.md) | question q935 | In the middling yogin's line did the Lama Gongdü read «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག» (Palri and Kazi) or «རང་གཞན་ལ་ཉེ་བརྟགས» (the Rin chen gter mdzod and Shechen)? | open; cites lgd.42:p966-971c |
 
 <!-- end pool index -->
 
