@@ -1978,3 +1978,6 @@ Searched and found wanting, so not to be repeated:
 - **RD322** (RD322, 2026-11-10):
   - Steinert's Chandra Das and Jäschke entries are page-indexed only and were not read; Negi, Tshig mdzod chen mo and Dung dkar carry no page numbers; the Mahāvyutpatti's own numbering is not in Steinert's file, Negi's 8242 could not be matched.
   - No hit for «ཐུན་བརྒྱད» or «ཐུན་ཚོད་བརྒྱད» in the G.ya' sel etexts or Dpal bsdus's manual; BDRC phrase searches «ཐུན་རེ་ལ་གཟའ་རེ» and «ཐུན་བརྒྱད་པོ་རེ་རེ་ལ་གཟའ» 0 hits, «ཐུན་རེ་གཟའ་རེ» 3 and «ཀླུ་རེ་ལྷན་ཅིག་འཆར» 4, all WB copies or the quoting anthologies; the Tibetan Amarakośa not located.
+- **RD321** (RD321, 2026-11-10):
+  - Skyem pa's etext (I4711) has no gloss of ཟ་ཟི་མང at ch. 15's line; its only hits of «ཟ་ཟི་མང» (p. 692) and «ཟ་ཟི་འོང» (p. 693) are outlines of ranges in the pestilence chapters, and ཟ་ཟི at ch. 81 (p. 818) is the one gloss.
+  - BDRC etexts of the Blue Beryl, Khro ru and the Drikung searched by «རྨི་ལམ་ཟ་ཟི་མང»: no gloss that explains ཟ་ཟི itself; Khro ru's colophon (I5624 pp. 818–821) names no source text; Skyem pa's own date: only a sheep-year, no year (p. 1267); the Blue Beryl's scan answers 401; Byang pa, Rin spungs pa and Zur mkhar ba do not reach ch. 81.
