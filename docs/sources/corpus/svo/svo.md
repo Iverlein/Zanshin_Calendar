@@ -421,4 +421,20 @@ The watch verse in the prints that carry it, read again by eye (RD280). Read: th
 
 ## Padma rdo rje's book that quotes the whole Svapnohana (about pp. 17–26): the sentence that introduces the quotation, its named source and author, and any gloss of the watches — q847, q796, q798 (RD282)
 
-Nothing read yet: RD282's passages, with the English beside them, go here.
+*Read: etext search snippets, 2026-11-10 (RD282); nothing new reached, no scan (the book's etext volume VEIE0OPI409E1122_I1KG10372 is search-only, `etextchunks` 403).*
+
+The sentence that introduces Padma rdo rje's quotation of the *Svapnohana*, and the lines after it, were not reached; no passage is added. What the snippets fix about where they lie (etext character offsets of the volume, from the search links):
+
+- The last paragraph reached before the quotation is the account of the dream's length on p. 16 (hit at char. 18559, «dus tshod rmi lam»); its snippet ends «… rmi lam thengs nyis khri rmis [• 16 •] zer ro» and a search cannot run on across the end of that paragraph.
+- The quotation's first line («rmi lam sna tshogs las byung ba / de yi brtag pa bshad par bya») is at char. 21346 and the snippet begins with it, nothing before it in the same paragraph: about 2800 characters (the rest of p. 16 after the account, p. 17 up to the quotation) lie between and were not reached.
+- Strings that would appear if he printed the work's Sanskrit and Tibetan title or the homage before the quotation («rgya gar skad du … swab+nA u hA na», «bod skad du rmi lam brtag pa», «sangs rgyas la phyag 'tshal lo» followed by «rmi lam sna tshogs») give no hit in his book: in the parts reached he does not print the title line or the homage of the Tengyur text, and the quotation opens directly with the verse (the snippet carries noise tokens, «da dag dag pa nas dag», between the lines).
+- The quotation's end is at char. 25516 («… rmi lam ngan pa zlog par 'gyur / [722/6] rmi lam brtag pa rdzogs so / [2]de'i [26 .]»): it spans about 4200 characters. After the end marker a new paragraph begins whose first words are not known.
+
+Open
+
+Question: Padma rdo rje quotes the whole *Svapnohana* on about pp. 17–26 of his book: what does the sentence that introduces it say about its source and author, and does he gloss the watches after it? (Unchanged from q847; the scan, on archive.org, is lent only.)
+
+Searched and not found
+
+- About 90 further exact-string searches on BDRC (2026-11-10), in EWTS, for the paragraph between the end of p. 16 (char. 18559) and the quotation (char. 21346) and for the paragraph after «rmi lam brtag pa rdzogs so … [26 .]»: forms of «rmi lam brtag pa» with a following particle or noun (zhes bya ba, 'di, 'i bstan bcos, 'i le'u, ltar, nas, gsungs, bshad), «bstan 'gyur las rmi lam», «rgyal ba'i bstan 'gyur», the translator and author names in the forms «bi b+hU ti tsan+dra» (b+hU / b+hu / bhU / bhu), «slob dpon», «lo tsA ba», «ngag gi dbang phyug», «ngag dbang gi dgongs pa», «de ltar …» and «thun …» openings: either more than ten hits on BDRC (the list shows ten, none of them his book) or none. No string reached a chunk of his book between chars. 18559 and 21346 or after 25516.
+- The author's own name or the work's title is not found in the parts reached: Ngag dbang appears only in the quotation's closing line («'di ni ngag dbang dgongs pa ste», the text's own line, not his comment).
