@@ -1918,3 +1918,6 @@ Searched and found wanting, so not to be repeated:
 - **RD305** (RD305, 2026-11-10):
   - The Derge print of the Svapnohana in the image group I00JW501163 named by the row: that group is the Derge Four Tantras; the Derge Tengyur frames are in I1344 img. 268–271, letters of 8 px.
   - A syllable of «བགྲོད་མིན» and of «བཅུ་ཡི་བར» that differs on the Peking: none seen at 2.5–4×.
+- **RD307** (RD307, 2026-11-10):
+  - Exact BDRC searches with 0 hits: «མཉམ་པོར་འོང་བའི་བདུད་ནི», «མཉམ་པོར་འོང་བའི་བདུད་ཅེས་པ», «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་དང་མཉམ་པོར་འོང་བ», «ལྷན་སྐྱེས་ཀྱི་ལྷ་དང་མཉམ་འོང་གི་བདུད», «རམ་རུག་ཅེས་པ», «རམ་རུག་ནི»: no definition by «ཞེས་པ་ནི» apart from the Chöd gloss of the karmic spirit.
+  - No text besides LGD lists the pair in a dream-causes section; no text says what «རམ་རུག» is.

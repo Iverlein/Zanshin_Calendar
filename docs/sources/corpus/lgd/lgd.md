@@ -9,6 +9,9 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD307 (2026-11-10): the phrase «མཉམ་པོར་འོང་བའི་བདུད» (68 hits) and its short form «མཉམ་འོང་གི་བདུད» (4), and «རམ་རུག» (10), by BDRC's exact-string search and the etexts' windows (Machik's life I3CN4779, the Chöd instruction I1KG24707, Kongtrul's Bima la'i zab tig I1KG13062, Zhabs dkar's Chos bshad gzhan phan nyi ma I3154, Bdud 'joms gling pa I4636, Dpa' bo Chos dbyings rdo rje I0392, the Rin chen gter mdzod vol. 42 etext VE1KG14_037 and Karma Chags med's ransoms I2PD20754); etext only, no scan opened, no lexicon headword found for either phrase. Claims lgd-mnyam-por-ong-ba-bdud-is-the-companion-demon-of-self-clinging, lgd-co-born-god-and-companion-demon-keep-white-and-black-pebbles, lgd-co-born-god-and-companion-demon-cause-disturbance-and-dream-confusion, lgd-ram-rug-in-ransom-and-gossip-lists.
 
+Read by RD307 (2026-11-10): BDRC etexts I3CN4779, I1KG24707, I1KG13062, I3154, I4636, I0392, VE1KG14_037, I2PD20754, I2PD20734, I2PD20752.
+
+
 Read by RD284 (2026-11-10): LGD in the Rin chen gter mdzod print (I1KG57 img. 981, printed p. 962, and img. 989, p. 970): the first line of p. 962 at 3- to 10-fold (the six ornamental glyphs, compared with the same string in the Palri print I01CT0067 img. 534) and the last line of p. 970 with the demon's phrase; BDRC's exact-string search for the phrase and its partners. Claims lgd-p962-seed-string-is-ornamental-and-unread, lgd-three-parts-of-night-share-the-names-of-rst-thirds, lgd-demon-who-comes-alongside-is-the-co-born-gods-pair.
 
 Read by RD284 (2026-11-10): LGD pp. 962 and 970 (I1KG57 img. 981 and 989) and MDP pp. 134–138 (W21880 img. 142–146).

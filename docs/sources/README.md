@@ -1102,7 +1102,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 11 passages: 8 scan, 3 machine |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 7 passages: 3 scan, 3 machine, 1 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 8 passages: 4 scan, 3 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 17 passages: 9 scan, 5 machine, 3 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 3 passages: 1 scan, 1 machine, 1 etext |
@@ -1811,6 +1811,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0905.md](questions/q0905.md) | question q905 | Is the Drikung dka' mchan's wording «མི་བཟང་བ» at p. 80 a lemma of the verse or only the commentator's gloss? | open; cites gt:i42 |
 | [questions/q0906.md](questions/q0906.md) | question q906 | On the Derge, Narthang and Peking prints, is the bird of Amoghasiddhi's signs «བྱ་ཤར་ཏེ་རུ», «བྱ་ཤིང་ཏེའུ» or «བྱ་ཤང་ཏེའུ», and is it a bird sent as messenger or something else? | open; cites svi:p310 |
 | [questions/q0907.md](questions/q0907.md) | question q907 | «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ» closes a list of ill signs: does it say that entering a path not to be walked is auspicious, or that the signs just listed are auspicious when one is not walking, and is there a commentary on the Svapnohana that glosses it? | open; cites svo:p271k |
+| [questions/q0908.md](questions/q0908.md) | question q908 | LGD p. 970 names «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ» and «མཉམ་པོར་འོང་བའི་བདུད» among the causes of a confused dream; the Chöd texts gloss the second as one's own co-born ignorance and self-clinging (ལས་གདོན, las gdon), the sermon on death as the keeper of the black pebbles: which does LGD's author mean, or does he not distinguish them? | open; cites lgd:p970 |
+| [questions/q0909.md](questions/q0909.md) | question q909 | What is «རམ་རུག» (ram rug) in the rites' lists: the plant ram bu or ram pa by a spelling by ear, or a separate item, and what does «ཞབས» in «ཞབས་རམ་རུག» of the Rin chen gter mdzod's second text add? | open; cites lgd.42:p969b |
 
 <!-- end pool index -->
 
