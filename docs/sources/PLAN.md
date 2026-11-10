@@ -1860,3 +1860,7 @@ Searched and found wanting, so not to be repeated:
   - The Narthang manuscript's second and third title signs at 5–6× (img. 284 line 2): ink-filled stacks, not told apart.
   - The Narthang manuscript's «ལྷོ»/«ལྟོ» (img. 286 line 4) and «སྙིང་སྡུག»/«སྔག» (line 2 end): the head of the stack not told apart at 7–8×.
   - Yigdzin-1 over the whole frame of img. 286 returns only 20 characters (a colophon); the frame needs line strips.
+- **RD287** (RD287, 2026-11-10):
+  - WB's notes (vol. 2, pp. 474–541) and the etexts of the notes: no «ཐུན་བཞི», «མཚན་ཐུན», «ནམ་ཐུན» or «སྲོད་ཐུན»; Mipham's own words on the watches: none in the etexts the pool holds.
+  - BDRC full-text search 2026-11-10: «ཐུན་གསུམ་ཀུ་མུད་བཞད» 8 hits (the 1996 print, the Gser thang etext, the Zhol and its second impression and four volumes not identified); «ཉིན་མཚན་ཐུན་བརྒྱད» 8 hits (WB vol. 2 in two prints and six volumes, three windows read did not show the phrase); «ཐུན་མཚམས་རྭ་ཧུ» 0 hits. Nothing from the Kālacakra tradition or from Mipham.
+  - The Zhol folio for vol. 2 p. 403 (etext page 1167): img. 1167 shows the medicine passage and a picture; the Taikhang reproduction was not read for any passage here.
