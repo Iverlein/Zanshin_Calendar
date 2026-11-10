@@ -185,7 +185,7 @@ Heading: "Item yu-6 (ゆ六), the days on which a dream seen is not told." A tab
 
 ## <a id="mdz-i31"></a>mdz:i31 RD293: 永代大雑書 (1856), the dream section on images 31-37: no table of days a dream is not told
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 夢はんじ
 > 吾朝にては富士山を見るを第一の吉夢とし
@@ -198,7 +198,7 @@ Images 31-37 (NDL pid 2539476, the 永代大雑書 of 1856, call number 851-93; 
 
 ## <a id="mdz-i72"></a>mdz:i72 RD293: 永代万暦大雑書 (1883), the dream section on images 72-79: no table, 初夢 named without a night
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 夢はんじ（夢はんじ画抄同辯に同じ序）
 > 一 初夢に富士山を見れば大によし
@@ -209,7 +209,7 @@ Images 72-79 (NDL pid 759984, the 永代万暦大雑書 (増補), Matsuda Bunsho
 
 ## <a id="mdz-i108"></a>mdz:i108 RD308: 万代大雑書三世相 (1886), the dream section on images 108-131: articles by groups, the charm, no table of days a dream is not told
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 夢の説
 > 天地の部
@@ -259,7 +259,7 @@ Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざ�
 
 ## <a id="mdz-i65134"></a>mdz:i65134 清明秘鈔 夢判事 (1862, Koizumi ORMK-00651), image 34: the day-branch table of the charm for a bad dream (RD364)
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 〔右頁、上段、右から〕
 > 寅の日　此悪夢をえらん人は是を／墨ゆく(?)うた(?)水にながる(?)  〔「墨ゆくうた」の四字は読み切れず〕
@@ -287,7 +287,7 @@ The left-hand page repeats the charm of the 夢合早占大成 (mdz:kano-22630):
 
 ## <a id="mdz-i70618"></a>mdz:i70618 東都歳事記 (1838, Ochanomizu OCHA-00706), image 18: the entry for the second day, no 初夢 (RD364)
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 〔東都歳事記、巻之一春之部、二日の条、Ochanomizu 本の画像18、左頁〕
 > 二日　○国主城中　諸役人方御礼登城 ／ ○商家小八分日貸(…)  ／ ○吉原遊女来礼 ／ ○江戸天満宮裏門連歌会 ／ ○人形芝居初興行 ／ ○〔縫?〕初 　八つ時…　〔三日の条へ〕
@@ -318,7 +318,7 @@ The table of the days on which a dream seen is not told, third print: the 萬歳
 
 ## <a id="mdz-i234427"></a>mdz:i234427 雑書夢合／三世相小鑑 (Koizumi ORMK-02344), image 27: the table 夢をみてかたらぬ日, a second print (RD364)
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 〔雑書夢合／三世相小鑑、図の下の帯、右端の見出し〕夢をみてかたらぬ日  〔「夢」「日」は読めた、中の字は読み切れず〕
 > 正月　ひつじ　さる　いぬ  〔三つの語、二つ目と三つ目の間に間があり、斜線は見えない〕
@@ -396,6 +396,114 @@ The three prints give the same twelve cells, differing only in spelling (ね wri
 > 〔左頁に辛未日から己卯日まで九欄、同じ作り、読まず〕
 
 A page of dream divination by the day of the sixty-day cycle, headed "The dream divination of the six jia" (六甲の夢うらなひ, rokkō no yume uranai): one column to each day from 甲子 (jiazi) on, each a circle, the day's name and one article beginning "if" the dream seen on that day, with a quarter of the compass (west, south, north, east) in most columns and a happening: a close person goes far away, an unexpected person comes to the house, and so on. Read in part in the cursive; the heading's second line says it runs from the jiazi day through the sixty days and tells good or bad of the dream.
+
+## <a id="mdz-i426556b"></a>mdz:i426556b 夢合長寿鑑絵抄 (Kyoto RB00012284), canvases 26-30: the sixty cells of the 六甲の夢うらなひ and the twelve cells of the 十二直夢占 in full (RD379)
+
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔夢合長寿鑑絵抄、京大谷村文庫 RB00012284、画像26-30、各見開きの右頁・左頁を別々に3000 px以上で切って読む。頁ごとに、右から数えた欄の番号を r（右頁）・l（左頁）で付ける。各欄は上に「○」と日の名（ふりがな付き）、下に「夢」の略字で始まる一つの文。〕
+> 〔画像26 右頁、題の欄〕
+> ○六甲の夢うらなひ（「六甲」に ろくこう、「夢」に ゆめ）
+> これは六十日の甲子よりつゞく／夢のよしあしをうらなひ／くわしくしるす（二行目・三行目の中ほどは読み切れず）
+> 〔画像26 右頁 r1-r7〕
+> r1 ○甲子日　今日夢をみれば親しき人遠方へ行事となるべし
+> r2 ○乙丑日　西の方よりきたれる酒食の…なる事あり（中ほど「かく…」読み切れず）〔一部〕
+> r3 ○丙寅日　我家へおもひがけざる人来りて吉事を告ることなり
+> r4 ○丁卯日　南の方の志るべの家よりの沙汰ありて心配なるべし
+> r5 ○戊辰日　北の方よりの縁しも…（「見え…」）出来るべし〔一部〕
+> r6 ○己巳日　西の方よりむつかしき相談ごとできるなり〔「むつかしき」「できる」に疑い〕
+> r7 ○庚午日　東の方より人きたることありて 振舞…なるべし〔一部〕
+> 〔画像26 左頁 l1-l9〕
+> l1 ○辛未日　酒宴の…なりて ものの…まるのなるべし〔一部〕
+> l2 ○壬申日　我家より悦びのなりて あんじよし〔「あんじよし」に疑い〕
+> l3 ○癸酉日　北の方より…のありて…と苦労なるべし〔一部〕
+> l4 ○甲戌日　鬼神のたゝりにて さんざんなりて つゝしむべし
+> l5 ○乙亥日　東の方より悦びのありて 世稼ぐべし〔「世稼ぐ」に疑い、一部〕
+> l6 ○丙子日　東の方の知る人に金銀を失ひ 心配のことなるべし
+> l7 ○丁丑日　南の方より ゆきゝ…かゝる…心配なり〔一部〕
+> l8 ○戊寅日　西の方より悦びのありて 呼に来るべし
+> l9 ○己卯日　おもひがけなく金銀をもふけ得るのできるなり〔「もふけ」に疑い〕
+> 〔画像27 右頁 r1-r9〕
+> r1 ○庚辰日　我家へ遠方より客人きたるのなるべし
+> r2 ○辛巳日　南の方の家へ悦びのありて 馳走にあふべし〔「あふ」は「なる」とも読める〕
+> r3 ○壬午日　南の方よりおもひがけ…ありて 心配できるなり〔一部〕
+> r4 ○癸未日　西の方より女きたりて 吉事を告るのなるべし
+> r5 ○甲申日　西の方の志るべより呼に来るのありて 大によし
+> r6 ○乙酉日　東の方の親ゑんより急事のありて 心配なるべし〔「親ゑん」「急事」に疑い〕
+> r7 ○丙戌日　南の方の志るべへ世話かゝる請合出来るなり〔「請合」は振りがなからの読みで一部〕
+> r8 ○丁亥日　おもひよらぬ人来りて 縁し…相談なるべし〔一部〕
+> r9 ○戊子日　我家へ家督のうくるの出来るなり〔「家督」「うくる」に疑い、一部〕
+> 〔画像27 左頁 l1-l4（左頁の残りは邪魅の頁、夜中に邪魅をみ…、挿絵つき）〕
+> l1 ○己丑日　我家へ悦びごとありて 酒宴のあるべし
+> l2 ○庚寅日　よろこびのありて 当金銀をまうくるの出来るなり〔「当」に疑い、一部〕
+> l3 ○辛卯日　東の方の志る人より…のありて 心配なるべし〔一部〕
+> l4 ○壬辰日　我が家へ悦びのありて 大によし
+> 〔画像28 右頁 r1-r9〕
+> r1 ○癸巳日　東の方より金銀をまうけるのなるべし
+> r2 ○甲午日　我家へ悦びのありて 酒宴の催しあり
+> r3 ○乙未日　北の方知人より…ひのありて 心配なるべし〔一部〕
+> r4 ○丙申日　おもひがけざる客人来りて あんざ…のなり〔一部〕
+> r5 ○丁酉日　南の方親しき人よりもめるのありて 呼に来る〔「もめる」に疑い〕
+> r6 ○戊戌日　遠方より人来りて 吉事を告るのなるべし
+> r7 ○己亥日　永く不和なりし 人の和睦するのなり
+> r8 ○庚子日　祝儀するのありて 客を迎へて…るのなり〔一部〕
+> r9 ○辛丑日　西の方の志るべへ酒宴の催しありて 呼に来る
+> 〔画像28 左頁 l1-l9〕
+> l1 ○壬寅日　他人の…ある…の出来るありて 慎しむべし〔一部、振りがなは「ゑん」〕
+> l2 ○癸卯日　北の方よりおもひよらぬ 吉事を告来るべし
+> l3 ○甲辰日　かゞく…のおもひの…ひて 大によし〔一部〕
+> l4 ○乙巳日　南の方の志るべへ悦びのありて 大によし〔「大に」に疑い〕
+> l5 ○丙午日　おもひがけざる悦びのありて 酒宴の事なるべし
+> l6 ○丁未日　我家へ喧嘩口論のあるありて 慎しむべし
+> l7 ○戊申日　北の方より婚姻の悦びありて 大によし
+> l8 ○己酉日　南の方の知己に心配のできるなり〔「に」「なり」に疑い、一部〕
+> l9 ○庚戌日　東の方親ゑんよりきうなくありて 呼に来る〔「きうなく」に疑い、一部〕
+> 〔画像29 右頁 r1-r9〕
+> r1 ○辛亥日　遠方より来客ありて 〔遊楽？〕さんざんのことなるべし〔一部〕
+> r2 ○壬子日　東の方朋友の家よりうれひ（？）のありて 心配なるべし〔一部〕
+> r3 ○癸丑日　南の方より行きかゝ…のおもひ…大によし〔一部〕
+> r4 ○甲寅日　志るべの方より菓物をおくりくるのなり〔「おくり」に疑い〕
+> r5 ○乙卯日　西の方より金銀を送り来りて 大に徳を得る…〔末尾に疑い〕
+> r6 ○丙辰日　北の方の親…に相談あるのありて 呼に来るべし〔一部〕
+> r7 ○丁巳日　西の方の家に公事の沙汰ありて 心配なり
+> r8 ○戊午日　徒…と来るのありて 酒宴のてはじまりづるなり〔一部〕
+> r9 ○己未日　金銀をまうくるの出来る 大によし
+> 〔画像29 左頁 l1-l4〕
+> l1 ○庚申日　遠方の縁者きたりて 吉の事を告るなり
+> l2 ○辛酉日　我が家に…の縁し談合ありて 心配なるべし〔一部〕
+> l3 ○壬戌日　東の方の家へ金銀をまうけるのなるべし
+> l4 ○癸亥日　北の方の家よりあるのありて 世話かゝるべし〔一部〕
+> 〔画像29 左頁、十二直夢占。見出しの欄〕
+> 十二直夢占（「直」に ちよく）
+> これ暦の中段とて／夢うらなふ…（読み切れず）
+> 〔画像29 左頁、建 除 満 平〕
+> 建　その日夢をみれば金銀を得るなり
+> 除　病気ありて大に凶し
+> 満　おもふ事の成就あるべし
+> 平　善事の…吉慶なり〔一部〕
+> 〔画像30 右頁、上段 右から 定 破 成 開、下段 右から 執 危 収 閉〕
+> 定　あやまち（？）ありて…しく〔一部、「くやしく」か〕
+> 破　病気おこるのなるべし
+> 成　家そんぢう（？）のしるし也〔一部〕
+> 開　万とゞこほりなく徳の也
+> 執　おもひがけざる悪事のなるべし
+> 危　大に凶しかるべし
+> 収　遠方より金銀を得べし
+> 閉　憂ひのこと出来るべし
+
+Read by eye, 2026-11-10, on canvases 26-30 of the Kyoto manifest at the native 5616 x 3744 px (the whole spread fetched at full size, each page and each group of three or four columns cropped at 1:1 and read, a doubtful column cut again and enlarged one and a half times). Every canvas is one spread; the numbering r1, r2 ... runs from the right on the right page, l1, l2 ... from the right on the left page. The printed leaf numbers at the foot of the spread are 九二 (canvas 26), 九三 (27), 九四 (28), 九五 (29), 九六 (30).
+
+**What the sixty cells are.** The heading 六甲の夢うらなひ stands on canvas 26 right page; its three lines say that the table runs from the jiazi day through the sixty days and tells the good and bad of the dream (the middle of lines two and three not read). Each of the sixty columns has a circle and the day's name with its reading in the ruby, and below, after a short mark for 夢 (a character like 〃 in the cursive; the first cell spells it out, 今日夢をみれば), one sentence. The sixty days are all there, in the order of the cycle: canvas 26, 甲子 to 己卯 (7 + 9 = 16 columns); canvas 27, 庚辰 to 壬辰 (9 + 4 = 13); canvas 28, 癸巳 to 庚戌 (9 + 9 = 18); canvas 29, 辛亥 to 癸亥 (9 + 4 = 13). Sixteen + thirteen + eighteen + thirteen = sixty. The left page of canvas 27 beyond the fourth column and the lower part of canvas 29's left page are not cells of the table: a picture of two men blowing out a demon with the page 邪魅 (夜中に邪魅をみ…, not read), and a woman reading with a poem line headed 夫木.
+
+**The grammar of a cell** (as RD351 found it, now over all sixty): a quarter or a place (東・西・南・北の方, 我家, 遠方), a person or a thing that comes (客人, 知人, 志るべ, 親ゑん, 縁者, 女, 菓物, 金銀), and what follows (悦び, 酒宴, 馳走, 吉事を告る, 大によし; 心配, 苦労, 喧嘩口論, 慎しむべし, 鬼神のたゝり). The cell speaks of the day on which the dream is dreamt only in the first sentence (今日夢をみれば …); the others take the dream as read by its day.
+
+**Twelve cells of the day-officers (十二直夢占).** Heading on canvas 29 left page: 十二直夢占, then これ暦の中段とて 夢うらなふ… (the rest not read). Cells 建 (その日夢をみれば金銀を得るなり), 除 (病気ありて大に凶し), 満 (おもふ事の成就あるべし), 平 (善事の…吉慶なり) on canvas 29; on canvas 30 two rows of four: 定, 破, 成, 開 above and 執, 危, 収, 閉 below, as in the Japanese text; the heads stand in the two rows as the cycle's order 定 執 破 危 成 収 開 閉 alternately (the upper row 定 破 成 開, the lower 執 危 収 閉), so the cycle is read by taking one head from the upper and one from the lower row in turn.
+
+**Does any cell speak of keeping silent?** None of the sixty cells or the twelve says that the dream is not to be told, kept, hidden or spoken of, or uses the words 語る, 語らず, 告げず, 秘す or the like. The only speech in the cells is a message brought to the dreamer (吉事を告る on 丙寅, 癸未, 戊戌, 癸卯, 庚申), the opposite of silence. Nor does any cell mention a dream seen at the day's turn. So this table is not a table of the days on which a dream is not told; it neither names nor repeats those days.
+
+**The sixty cells set against the table 夢をみてかたらぬ日 (mdz:p11, mdz:i234427b).** The table of silent days lists branches by month (month 1: 未 申 戌; 2: 酉 申 巳; 3: 未 午 亥; 4, 5: 午 丑 卯 亥; 6: 子 丑 亥; 7: 子 丑 辰; 8, 9: 寅 辰 子 亥; 10: 辰 巳; 11: 申 未 戌; 12: 午 未 亥). Taking the days of the sixty cells with each of those branches, no branch carries one kind of reading in all its five cells: 未 gives 乙未 心配, 丁未 喧嘩口論 慎しむべし, 己未 大によし, 辛未 酒宴, 癸未 吉事を告る; 申 gives 甲申 大によし, 丙申 客人, 戊申 婚姻の悦び大によし, 庚申 吉事, 壬申 あんじよし; 亥 gives 乙亥 悦び, 丁亥 相談, 己亥 和睦, 辛亥 来客, 癸亥 世話; 丑 gives 乙丑 酒食, 丁丑 心配, 己丑 酒宴, 辛丑 酒宴, 癸丑 大によし. There is nothing in the cells of the days of the table that marks them, whether by a warning, a bad reading or a note; the two tables are keyed by different things (the day's stem and branch against the month's list of branches) and do not refer to each other.
+
+The cells marked 〔一部〕 in the Japanese text are read in part: the direction, the person and the end of the sentence are clear, a word in the middle is not, and what is written there is the best reading, not a certain one. The other cells are read letter by letter; those with a doubt marked inside the brackets have one glyph or a ruby in question.
 
 ## <a id="mdz-i446903"></a>mdz:i446903 夢合長寿宝 (National Museum of Asian Art DIG-FSGR-00169, 1851), images 2-3 and 33: title, preface, contents (RD371)
 
@@ -562,7 +670,7 @@ Searched and not found (RD358), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda
 
 ## <a id="mdz-i7333115"></a>mdz:i7333115 歳時記栞草 (1851, Tokyo TOKY-73331), image 15: the entry 初夢 with the source label 紀事 (RD364)
 
-*Read: machine, 2026-11-10.*
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
 
 > 初夢　〔紀事〕云、凡初夢とは大晦日の夜より元日の暁に至るの夢をいふ。○年くれ春来べしとかたらふは(?)思寐のまの(?)… 　西行　〔歌〕　… 〔夜分は〕勿論、元日と鶏旦 … と云。○… 部ニ注す可見合
 
@@ -636,3 +744,11 @@ Open:
 - Question: the 六甲の夢うらなひ of the 夢合長寿鑑絵抄 (image 27) gives a meaning to a dream for each of the sixty days; do its articles for the days of the table (the days named by branch in mdz:p11, e.g. 未 申 戌 in the first month) speak of keeping the dream silent, and what are its sixty articles in full?
 
 Searched and not found (RD371), 2026-11-10: (1) a table 夢と見て語らざる日 or 夢をみてかたらぬ日 in the thirteen 三世相小鑑 prints, the two 嘉永大雑書三世相 prints, the three 大雜書三世相 prints and the 萬歳大雑書日用寳 images 133-202 (sheets and the enlarged leaves named; running cursive not read letter by letter); (2) any legend, note or marginal line on the gap before the last group of each month in any print; (3) a sentence on the days in the 夢合長寿宝 and the 夢合長寿鑑絵抄 other than the six jia (the running text not read letter by letter).
+
+## RD379 (2026-11-10): the sixty cells and the twelve cells of the 夢合長寿鑑絵抄 in full; Open; Searched and not found
+
+**Answers.** (1) All sixty cells of the 六甲の夢うらなひ (canvases 26-29) and the twelve of the 十二直夢占 (29-30) are written out in mdz:i426556b, thirty-three read through (nine of them with one doubtful glyph) and twenty-seven in part, marked 〔一部〕 in the text (a word or two in the middle that the cursive does not give); of the twelve, 平, 定 and 成 are in part. (2) No cell speaks of keeping a dream silent. (3) The days of the table 夢をみてかたらぬ日 have no cell of their own, in kind or in tone.
+
+Open (RD379): Question: the 六甲の夢うらなひ takes the same lines for every dream of a day and is no list of dream objects; is it a rendering of a known older day-table for the sixty days (Chinese 六十甲子 dream tables, Japanese 夢占 of the 大雑書), and which one does the 夢合長寿鑑絵抄 follow?
+
+Searched and not found (RD379), 2026-11-10: (1) a sentence on keeping a dream silent, hiding it or not telling it in any of the seventy-two cells of canvases 26-30, and in the page 邪魅 and the 寝臥之法 beside them (the 寝臥之法 on canvas 30, a health article, was looked at on the thumbnail and not read letter by letter); (2) a legend for the circle and the mark for 夢 at the head of each cell (read as 夢; the mark is the same in every cell); (3) the source of the table: the picture caption 夫木 on canvas 29 is a poem line, not a source of the cells (not read).
