@@ -1933,3 +1933,7 @@ Searched and found wanting, so not to be repeated:
 - **RD308** (RD308, 2026-11-10):
   - NDL catalogue (ndl.py) for 夢を見て語らざる日, 夢 語らざる日 大雑書, 大雑書, 万代大雑書, 永代大雑書, 夢合, 夢判断, 夢占 and 三世相: the 永代大雑書大成 (pid 759978, 1883) and the 吉凶禍福夢判断 (pid 760913, 1890) carry the words but answer NG to the IIIF manifest and are not allowed in the full-text API; the 万代大雑書三世相 (pid 760742) is open and was read (mdz:i108).
   - NDL full-text API for the 104 open items among 360 records: 語らざる, かたらざる and 語らず occur in no almanac or dream book; 初夢 in no almanac; the 江戸歳事記 of 1838 (pids 8369316, 14670261) restricted; the 守貞謾稿 and the 類聚近世風俗志 only as restricted Iwanami reprints; the 俳諧歳時記栞草 and the 江戸府内絵本風俗往来 have no pid; ja.wikisource has no page for the 守貞漫稿 or the 東都歳事記; the NDL full-text search for 初夢 with 二日 pages to the same hits on every page.
+- **RD310** (RD310, 2026-11-10):
+  - The Co ne print of the same three places by eye: the Co ne scans (RD277) were read by machine only and no new Co ne image was taken; the places stay machine readings there.
+  - A variant of «བགྲོད་མིན» or «བཅུ་ཡི་བར» on the Derge frames at 10–12×: none seen; «བཟློག» for «བགྲོད» and «པི» for «ཡི» are not what the strokes show.
+  - A telling of ྷ from ྟ in the stack after «དང་» before «འཕྱེ» at 18×: not possible at 8 px letters.

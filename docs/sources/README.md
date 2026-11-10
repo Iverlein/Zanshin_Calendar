@@ -1827,6 +1827,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0915.md](questions/q0915.md) | question q915 | What is བ་ར (ba ra) in «བ་རའི་འོ་མ», a milk of which animal, and why is the milk with dung rubbed on the soles for a spirit's dream? | open; cites st:p493b, st:p493c |
 | [questions/q0916.md](questions/q0916.md) | question q916 | Does the 星槎ラボ 延宝2 大ざつしよ, the earliest print, or any other 万代大雑書 print set out the table 夢を見て語らざる日 with a legend for the slash? | open; cites mdz:p11 |
 | [questions/q0917.md](questions/q0917.md) | question q917 | In which Edo source is the 初夢 night fixed at 2 January, and is it counted by the lunar months of the Edo calendar, the only one in use until 1872? | open; cites nip:p1 |
+| [questions/q0918.md](questions/q0918.md) | question q918 | On the Derge print the word before «ལྟོ་འཕྱེ» reads «བླ་མོ» by the two loops of its stack, against the plain ལ of the Peking and the Narthang prints: is the subjoined ླ a real variant of the Derge tradition, and does a reader of the tradition know the word as «རྟ་བླ་མོ» (the centipede) in a list of creatures? | open; cites svo:p271l |
 
 <!-- end pool index -->
 
