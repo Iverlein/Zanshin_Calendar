@@ -1206,8 +1206,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 20 passages: 20 scan; RD333 (2026-11-10): p. 101 ll. 6-10 (the time-union halves) on the 1996 scan; Yigdzin-1 drops the page's last five lines |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 61 passages: 39 scan, 22 machine; RD333 (2026-11-10): p. 135 ll. 7-11 and the page by line on the 1996 scan |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 20 passages: 20 scan |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 61 passages: 39 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
@@ -1215,7 +1215,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 14 scan, 3 machine |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
-| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 6 passages: 6 scan; RD333 (2026-11-10): p. 375 ll. 19-24, the sky dog's four stretches, on the 1996 scan |
+| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 6 passages: 6 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
@@ -1232,7 +1232,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 49 scan, 12 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 16 passages: 11 scan, 5 machine; RD333 (2026-11-10): p. 403 ll. 2-14 on the 1996 scan |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 16 passages: 11 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 29 passages: 27 scan, 2 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -1967,6 +1967,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0974.md](questions/q0974.md) | question q974 | In the lama's remark in the dream verses (cbl:p236-238) the etext reads «འོ་ཡུག་པ་གཤིན་རྗེ་དུས་མཚན་ནག་མོ་ཡིན་གསུང་སྐད» after the saying that the black girl's binding is the sign of the time of death's arrival: who or what is the «འོ་ཡུག་པ», and is the remark the old annotator's or Mkhyen brtse's? | open; cites cbl:p236-238 |
 | [questions/q0975.md](questions/q0975.md) | question q975 | In the verse on the outer signs the Derge reads «ལོ་བརྒྱད» (eight years) and CBL «ལོ་ནི་བརྒྱར» (a hundred years): which is the Indian reading, and which print of the Derge blocks has which? | open; cites cbs:p247-249 |
 | [questions/q0976.md](questions/q0976.md) | question q976 | In the list of the works the treatise rests on (cbs:p267-268, cbl:p278-279) which works are the «བླ་གབ», the «དུས་ཀྱི་ཕྱི་མ» and the «དུས་ཕྲེང་བ», and is the Fifty on Life the Nāgārjuna work that CBL says it is? | open; cites cbs:p267-268, cbl:p278-279 |
+| [questions/q0977.md](questions/q0977.md) | question q977 | Are WB's eight watches on p. 403 («ཉིན་མཚན་ཐུན་བརྒྱད») eight of the day and night together, or eight of the day with a further eight of the night? Its division line reads «ཉིན་ཚད», its first line «ཉིན་མཚན». | open; cites wb.2:p403c |
+| [questions/q0978.md](questions/q0978.md) | question q978 | On p. 375, the summer's first stretch «དབྱར་གསུམ་ཉི་གོང[?]་ནམ་ཕྱེད་བར»: is the second word «ཉི་གོང» as Yigdzin-1 has it, or «ཉི་ནུབ» as in spring and autumn? | open; cites wb.1:p375 |
+| [questions/q0979.md](questions/q0979.md) | question q979 | On p. 403, line 5, «མིག་དམར་འཇོག[?]»: is the last letter ཇ (the earlier passages) or ཛ (Yigdzin-1)? | open; cites wb.2:p403c |
 
 <!-- end pool index -->
 
