@@ -615,6 +615,27 @@ mdp:
   role: source
   notes: "located 2026-11-09 (q784), not read; which of its texts are old is to be seen"
 
+bsr:
+  title: "Rmi lam brtag pa (the examination of dreams, two folios), in Bu ston Rin chen grub's collected works, vol. 28"
+  author: "Bu ston Rin chen grub, as BDRC ascribes it; the colophon of the text itself names only a scribe's note"
+  edition: "Bu ston Rin chen grub kyi gsung 'bum phyogs bsgrigs, Krung go'i bod rig pa dpe skrun khang (imprint on img. 837, dated 2008), vol. 28, pp. 825-828 (BDRC images 833-836; image = printed page + 8)"
+  bdrc: {work: MW1PD45496_7F5CBB, scans: [I2DB62486]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "RD329 (2026-11-10): read on the scan by Yigdzin-1, the cursive manuscript hand; the 2008 print's imprint is on img. 837; the same work in MW22106_CC9683 and MW1934_6BFB80 (other prints), not looked at"
+
+tkg:
+  title: "Dkyil 'khor gdeg cing rmi ltas bzang ngan ji ltar bya ba (the laying out of a mandala, and how to act on good and bad dream signs), a section of Tsong kha pa's mandala-rite text in his collected works, vol. 3"
+  author: "Tsong kha pa, as BDRC ascribes it"
+  edition: "Tsong kha pa's gsung 'bum, a block print; vol. 3 = I1KG2238; the dream part on BDRC images 385-388 (the scan's own stamp reads one less, 00384 on img. 386)"
+  bdrc: {work: MW22273_11912A, scans: [I1KG2238]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "RD329 (2026-11-10): read by Yigdzin-1 on img. 385-388; the heading of the section is not on these images (BDRC's title is of the whole division); the section is a mandala consecration rite (the remedies are given for the Bde mchog, Cakrasamvara, practice)"
+
 kbs:
   title: "Klong rdol bla ma'i rmi lam gyi ltas la brtag pa byed tshul zhes bya ba la rags tsam dpyad pa (a rough examination of Klong rdol bla ma's way of examining dream omens)"
   edition: "Krung go'i bod kyi shes rig (China Tibetology, Tibetan edition), Pe cin, 1993 no. 4 (vol. 24), pp. 66–80"

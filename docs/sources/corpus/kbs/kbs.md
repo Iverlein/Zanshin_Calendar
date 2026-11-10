@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD329 (2026-11-10): the two scans that RD320 left unlooked-at, Bu ston's *Rmi lam brtag pa* (BSR, vol. 28 img. 833-836) and the dream part of Tsong kha pa's mandala rite (TKG, vol. 3 img. 385-388), written in their own corpus files, [bsr](../bsr/bsr.md) and [tkg](../tkg/tkg.md); summary below.
+
 Read by RD320 (2026-11-10): BDRC's catalogue and full-text search for dream-examination texts the pool did not cite; the openings of four dream parts in the etext (below).
 
 Read by RD221 (2026-11-09): RST etext MW1ALS06558E pp. 3–20, KBS pp. 66–80, KDL pp. 235–240.
@@ -102,3 +104,25 @@ Question: the unsaddled donkey, «རྟ་བོང་རྒ་མེད་ཞ�
 - BDRC's exact-phrase search, 2026-11-10: «ཟབ་མོ་གཅོད་ཀྱི་དམིགས་འབུམ» seven hits, all this text; «གཅོད་ཀྱི་དམིགས་འབུམ་ལས་གསུངས་པ» two (the manuscript's title, Padma rdo rje's work); «ཕྱིས་འབྱུང་གསལ་བྱེད་ཡིན་ནམ་གྱི» none; «ཐོ་རངས་ཁ་ཡིན་ནམ་གྱི་གསུམ་ཆ» only RST; «རྨི་ལམ་བཟང་ངན་གྱི་འབྲས་བུ» three hits in three etexts, not opened. No Chöd collection (a dmigs 'bum) was found that holds the dream passage.
 - The etexts of MW21880, MW25126, MW1AC12, MW1PD95727, MW8LS18598 and the two prints of the KBS article answer 403 (search-only): only the snippets BDRC's search shows were read.
 - Not read: the Mongolian National Library manuscripts of the same title named in sources.yaml under rst (MW1NLM9044_O1NLM9044_009, MW1NLM9419_O1NLM9419_007); the manuscript's pages past img. 95 (Garga's omens, men, women) beyond the machine reading, which was not compared with kdl.
+
+## RD329: the two dream texts of the survey that had a scan and no readable etext (Bu ston, Tsong kha pa)
+
+*Read on the scan by Yigdzin-1 (machine), 2026-11-10; Bu ston's img. 833-837 and Tsong kha pa's img. 385-388 each once; the lines on img. 386 and the last lines of Bu ston's img. 836 re-read on enlarged crops (the hand of Bu ston's text is a cursive manuscript, the eye confirmed the lines' shape and the line breaks, not every syllable). The passages: [bsr:p825-828](../bsr/bsr.md#bsr-p825-828), [tkg:i385-388](../tkg/tkg.md#tkg-i385-388); the claims [bsr-dream-rite-no-signs](../../claims/bsr-dream-rite-no-signs.md) and [tkg-dreams-asked-at-dawn](../../claims/tkg-dreams-asked-at-dawn.md).*
+
+Bu ston's two folios (printed pp. 825-828 of vol. 28, images 833-836) open «ན་མོ་བུད་དྷ་ཡེ། སྐྱེ་བ་དང་འཆི་བ་བརྟག་པར་འདོད་པ། ཤིན་ཏུ་དབེན་པའི་གནས་དག་ཏུ།» (namo buddhāya: whoever wants to examine birth and death, in a very quiet place) and are a rite, not a list: the one who wants to learn his next birth prepares an image and offerings, recites the Śākyamuni mantra from the first of the waxing moon, and at bedtime asks to be shown his birth, sleeping in the lion's posture. The signs named are those of the six kinds of beings, by the colours of light (white, gods; blue, animals; red, hungry ghosts; black, hells; green and yellow, in an order the machine does not settle), and the remark that when the signs of the bad migrations appear they will not harm body and life. There is no good or bad dream image, no time of the night, and no source named for signs; the lineage given after the rite runs back through a lo tsā ba and Ze dmar ba to Bu ston.
+
+Tsong kha pa's passage (vol. 3, images 385-388; the stamp on the scan is one less than the image number) is the dreams of the disciples before a mandala consecration: asked at dawn after sleeping in the lion's posture, «རྨི་ལམ་འདྲི་ལ། དཀོན་མཆོག་གསུམ་དང་མཛའ་བཤེས་སོགས་མཐོང་བ་རྨིས་ན་དགའ་བ་བསྐྱེད། རི་ལས་ལྷུང་བ་སོགས་རྨིས་ན་བསྲུང་བར་བྱའོ།» (img. 386: he asks the dreams; if the Three Jewels, friends and the like were seen he makes them glad; if falling from a mountain and the like, he protects them). The night is in four parts, the first three uncertain, the fourth taken, with the verse of the Mañjuśrī root tantra (as the text names it) that gives the first part to phlegm, the second to bile, the third to wind and calls the fourth true; and the seven means of reversing a bad sign, drawn from the Cakrasamvara practice, follow on img. 387.
+
+**Concordance.** Neither text has a numbered parallel in the WB ch. 30 concordance ([dream-wb30-concordance](../../claims/dream-wb30-concordance.md)): Bu ston names no image of the list; Tsong kha pa names the Three Jewels and friends (near G11, living friends met, which is a different image) and a fall from a mountain (B5's fall into a depth, a near image only). The four-part night is not Klong rdol's three thirds (kbs:p68-70) and is not to be written as one with it. No named source of either is a source of WB's list.
+
+### Open
+
+- Question: Bu ston's text ends with a lineage that names "Jam gsar" and a lo tsā ba whom the machine reads «རྒ་ལོ» (Rgwa lo? Rwa lo?); which masters are meant, and is the rite the one BDRC's title «རྨི་ལམ་བརྟག་པ» means, with the first syllable of the title line on img. 833 «རྟག» or «བརྟག»?
+- Question: In the Tsong kha pa passage the first three parts of the night are called uncertain and the fourth is taken, with a verse of the Mañjuśrī root tantra that gives them phlegm, bile and wind; is this the division by which the Tibetan medical dream texts of RD320 (SDS, GSM) judge a dream, or a tantric one only?
+- Question: Which colours of light go with humans and demi-gods in Bu ston's rite (the machine reads green for humans and yellow for demi-gods; the order should be settled on the scan by a reader of the hand)?
+
+### Searched and not found
+
+- A list of good and bad dream images in Bu ston's two folios (img. 833-836), read through: none; the title line only (BSR, 2026-11-10).
+- A list of good and bad dream images in Tsong kha pa's img. 385-388: two images only (img. 386), the rest are remedies; the section's own heading is not on these images, and the work named on img. 388 is the *Rdo rje 'chang chen po'i lam gyi rim pa* (TKG, 2026-11-10).
+- A second print of Bu ston's text (MW22106_CC9683, MW1934_6BFB80) was not looked at.
