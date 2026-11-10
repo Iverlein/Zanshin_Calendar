@@ -1924,6 +1924,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0958.md](questions/q0958.md) | question q958 | The Siddhasāra's chapter 5 ends «འཆི་ལྟས་ཀྱི་ལེའུ་སྟེ་དྲུག་ལྔ །པ་རྫོགས་སོ།» (etext p. 77, where both numerals stand), while the contents number the chapter fifth: is sixth the older count, a chapter having been split, or a slip of the print? | open; cites sds:p75-77 |
 | [questions/q0959.md](questions/q0959.md) | question q959 | What do the first small-type note's letters read on the Derge print of ch. 91 (img. 605, last line, after «རྟེན་འབྲེལ་བ»): «རང་རེ་འོས་ས་སྦྱར་བ», a milk, or a third wording, on a sharper image of the Derge than the BDRC microfilm? | open; cites st:p493d |
 | [questions/q0960.md](questions/q0960.md) | question q960 | Does the Drathang print of ch. 81 carry a clause on the dream in the second way's line, as the Serthang, Derge and Chag-po-ri do not? | open; cites st:p352c |
+| [questions/q0961.md](questions/q0961.md) | question q961 | On the Peking print (I1KG13215 img. 310 line 1) the Svapnekṣā's last part of the night reads either «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ» (the Dpe bsdur ma's Peking and Narthang entry, and eight of eight Yigdzin-1 runs) or «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» (the eye on three readings): is there a sharper image of this leaf, or a reader of the Peking's hand who can say how many syllables stand between «ལམ» and «ལ»? | open; cites svo:p271w |
+| [questions/q0962.md](questions/q0962.md) | question q962 | Does the Dpe bsdur ma, in the Svapnohana's third watch line, leave «བར» against «བར་དུ» unrecorded because the Peking and the Narthang differ from the base there, or because the base reads «བར་དུ» too? | open; cites svo:p271w |
 
 <!-- end pool index -->
 

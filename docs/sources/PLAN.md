@@ -1995,3 +1995,7 @@ Searched and found wanting, so not to be repeated:
 - **RD325** (RD325, 2026-11-10):
   - The five ways of entering with a dream clause in the verse: not on the Derge (img. 436 lines 2–3) nor the Chag-po-ri (img. 428 lines 1–2), eye on crops, 2026-11-10.
   - A sharper image of the Derge's ch. 91 small type: the cached scan is the BDRC microfilm, bitonal, the small letters run together; the Drathang's ch. 81 and ch. 91 pages not opened; q915 (what བ་ར is) is a question for a reader of the tradition, not a reading of the page.
+- **RD327** (RD327, 2026-11-10):
+  - A second Peking instance on BDRC: the abstract works WA0BC002 and WA0RT4282 give only W1KG13126; the Peking Kangyur (W1PD96684) and a Kangyur reproduction (W3CN1094) are not the Tengyur; W1KG13703 is the Otani University's catalogue of its Peking print, without images.
+  - A Peking Tengyur on archive.org other than bdrc-W1KG13126 (title searches for Peking, Otani, Tengyur, Tanjur, Tibetan Tripitaka): none; BDRC's ldspdi and library search endpoints answer 405 to a POST.
+  - The Peking's second watch «ར» after «བརྒྱད་པ»: none seen on the 1× and 2× crops of img. 315 line 2.
