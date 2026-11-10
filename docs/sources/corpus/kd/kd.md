@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD376 (2026-11-10): the Dbyangs 'char's dream verses (ch. 3) on the Derge scan (I1521 img. 121-122, folio 60a-60b), the Narthang scans (I3462, I2KG212495 img. 127-128), the Peking scan (I1KG13380 img. 119-120), the Gser bris ma (I1PD31548 img. 176-178) and the Dpe bsdur ma etext [p1134]-[p1135]; the Mchog dga's Saturn and «Chinese-Nepalese» lines (Kun 'dus etext p. 198).
+
 Read by RD369 (2026-11-10): the Phug pa Mchog dga's dream section (Kun 'dus chen mo vol. 3 etext pp. 197-200, printed 177-180) with its houses, five places and thirty parts (pp. 104-105, 140-150), the root verses in the Dbyangs 'char itself (Derge Tengyur etext VE23703_1521 ch. 3 pp. 121-122, checked against the Dpe bsdur ma [p1134]-[p1135]) and the Mongolian dbu can print img. 276-279.
 
 ## <a id="kd-3-p84-85"></a>kd.3:p84-85 The Mchog dga' ch. 2: the twelve houses and their lords, Mercury given as «gza' lag pa» at Gemini and Virgo
