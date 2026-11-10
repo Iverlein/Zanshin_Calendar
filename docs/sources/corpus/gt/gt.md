@@ -145,3 +145,15 @@ Read by RD268 (2026-11-09): img. 38–48 by Yigdzin-1, img. 42 and 43 by MITRA a
 - A second BDRC instance, scan or etext, of the Serthang Four Tantras: the work record WA3CN5036 lists MW3CN5036 only; BDRC's catalogue search for «gso rig rgyud bzhi» with «gser thang», «gser thang bla rung lnga rig nang bstan slob gling», «gser rta» and for «gso rig sde bzhi» gives that instance alone (2026-11-10).
 - The ch. 7 bad-dream verse and the two night lines anywhere in the Serthang etext (all 622 pages, spaces and tsheg stripped, searched for «རྨི་ལམ་བྱི་ལ», «སྤྲེའུ་སྟག», «འཆི་བདག་ཟིན», «དུར་ཁྲོད་ཉལ», «མི་བཟང་བ», «མི་ཟད་པ», «མཚན་སྟོད»): none; the leaf is not misplaced elsewhere in the volume.
 - «བརྗེད་ངེས» in the Lhasa 1982 and Beijing typeset etexts of the verse: not found (ངས on both).
+
+## Open (RD299)
+
+- Question: does the Blue Beryl's commentary on the Explanatory Tantra (Vaidūrya sngon po, part 2) say anything on the Four Tantras' own two night lines beyond the Moonbeams' gloss read at etext p. 209 (BDRC I1PD411)? Only the window around that gloss was read.
+- Question: is the Bya mdo Klu byams rgyal's quotation of «gsum cha phyis 'byung gsal byed yin» beside the Four Tantras' two lines (BDRC MW8LS18598, search snippet only) a joining of two rules of the same night, as the modern Tibetan books do, or does he read them as one?
+
+## Searched and not found (RD299)
+
+- A part of the night between midnight and dawn named, in the Blue Beryl (I1PD411), Zur mkhar ba's Mes po'i zhal lung (I8LS19191), Skyem pa Tshe dbang's Nyi ma (I4711) and the Moonbeams (MW23703_4312, MW1PD95844_3549): not found (BDRC etexts, 2026-11-10); see the claim gt-night-rule-commentaries-blue-beryl-zur-mkhar-ba.
+- «མཚན་སྟོད་སྲོད» (mtshan stod srod) as an exact phrase on BDRC full-text search: 0 hits; «མཚན་གུང་རྨི་ལམ» (mtshan gung rmi lam): 4 hits, all modern prose and verse (a novel, a poem, a Sdom pa srung ba, a Sham bha la'i cong sgra), none a commentary (2026-11-10).
+- The Four Tantras commentary I1KG10372 (hits for «ཐོ་རངས་ཀྱི་མཇུག» and «ནམ་ཕྱེད་ཡན་ཆད་དུ་རྨི་ལམ»): `bdrc.py etext` returns 0 chunks, the volume is closed; and I2PD16002 (1.5 million characters) was not fetched in the time given.
+- The Dri med kun gsal and the Drang srong zhal lung etexts (listed in the search results): not opened in this reading.
