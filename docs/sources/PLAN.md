@@ -1975,3 +1975,6 @@ Searched and found wanting, so not to be repeated:
   - A dream list with WB's lines in WB's order among the pool's non-WB corpus files: none (a search for each line's phrases, 2026-11-10).
   - A statement of where the dream examination of p. 144 comes from: none in WB ch. 30 p. 144 nor in the notes' p. 535.
   - Teeth falling (WB's «སོ་གོག»): no text of the pool names it as a dream image; only SKP's doubtful line comes near.
+- **RD322** (RD322, 2026-11-10):
+  - Steinert's Chandra Das and Jäschke entries are page-indexed only and were not read; Negi, Tshig mdzod chen mo and Dung dkar carry no page numbers; the Mahāvyutpatti's own numbering is not in Steinert's file, Negi's 8242 could not be matched.
+  - No hit for «ཐུན་བརྒྱད» or «ཐུན་ཚོད་བརྒྱད» in the G.ya' sel etexts or Dpal bsdus's manual; BDRC phrase searches «ཐུན་རེ་ལ་གཟའ་རེ» and «ཐུན་བརྒྱད་པོ་རེ་རེ་ལ་གཟའ» 0 hits, «ཐུན་རེ་གཟའ་རེ» 3 and «ཀླུ་རེ་ལྷན་ཅིག་འཆར» 4, all WB copies or the quoting anthologies; the Tibetan Amarakośa not located.

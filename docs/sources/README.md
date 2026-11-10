@@ -1877,13 +1877,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0935.md](questions/q0935.md) | question q935 | In the middling yogin's line did the Lama Gongdü read «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག» (Palri and Kazi) or «རང་གཞན་ལ་ཉེ་བརྟགས» (the Rin chen gter mdzod and Shechen)? | open; cites lgd.42:p966-971c |
 | [questions/q0936.md](questions/q0936.md) | question q936 | The Four Tantras' line about the spirit entering has the same «རྨི་ལམ་ཟ་ཟི་མང»; Khro ru adds a rite there (I5622 p. 341) and treats it as the spirit's sign, against the fever places (I5621 p. 120): is the dream the sick one's symptom or the spirit's sign, and does the Tantra mean one by both lines? | open; cites st:p183, st:p350-351 |
 | [questions/q0937.md](questions/q0937.md) | question q937 | Is ཟ་ཟི་ནི་ཉག་ཉོག in the Lhan thabs's life-wind chapter the same word as in the fevers, or a term in a list? | open; cites st:p183 |
-| [questions/q0938.md](questions/q0938.md) | question q938 | Who wrote the Sakya Vinaya treatise that places the dawn against the night's watches, and is its last clause on the nine parts the etext's error? | open; cites svo:p271p |
+| [questions/q0938.md](questions/q0938.md) | question q938 | Who wrote the Sakya Vinaya treatise that places the dawn against the night's watches, and is its last clause on the nine parts the etext's error? | answered; cites svo:p271p |
 | [questions/q0939.md](questions/q0939.md) | question q939 | Do the commentaries on WB say that WB's eight watches of the day and night are the tantric ones of the Muktāvalī and Rang byung rdo rje? | open; cites svo:p271o |
-| [questions/q0940.md](questions/q0940.md) | question q940 | Does «སྙིང་སྡུག» in the Svapnohana mean something dear to the heart or heartache? | open; cites svo:p271n |
-| [questions/q0941.md](questions/q0941.md) | question q941 | Is «ཐུན་གསུམ» the Tibetan of Sanskrit triyāmā, and is it in the Amarakośa? | open; cites svo:p271p |
+| [questions/q0940.md](questions/q0940.md) | question q940 | Does «སྙིང་སྡུག» in the Svapnohana mean something dear to the heart or heartache? | answered; cites svo:p271n |
+| [questions/q0941.md](questions/q0941.md) | question q941 | Is «ཐུན་གསུམ» the Tibetan of Sanskrit triyāmā, and is it in the Amarakośa? | answered; cites svo:p271p |
 | [questions/q0942.md](questions/q0942.md) | question q942 | On KCM img. 691 line 5 does the fruit of the rite end «…སྲིད་གསུམ་མཐོང་» (the three existences seen) or does the line name something else («ཁམས་སུ་མཆོད»)? | open; cites kcm:p474 |
 | [questions/q0943.md](questions/q0943.md) | question q943 | SKP's line «ཁ་ནས་སོ་ནི་འབུད་གྱུར་ན» (p. 50), read as vomiting, reads letter by letter 'if teeth are thrown out of the mouth': which is it, and does it then match WB's «སོ་གོག» (teeth falling)? | open; cites wb.2:p144l |
 | [questions/q0944.md](questions/q0944.md) | question q944 | Does WB's dream list come from the stock of dream images that Klong rdol's verses (given from the Chöd collection of Ma gcig) and the 'Bri gung method also draw on, or from a text not yet in the pool? | open; cites wb.2:p144l |
+| [questions/q0945.md](questions/q0945.md) | question q945 | How does the night's name ཐུན་གསུམ་པ relate to the Mahāvyutpatti's third watch of five? | open; cites svo:p271q |
+| [questions/q0946.md](questions/q0946.md) | question q946 | Are the Dbyangs 'char's eight half-watches of the day-and-night equal? | open; cites svo:p271r |
+| [questions/q0947.md](questions/q0947.md) | question q947 | Who wrote the Rnam dpyod blo gros spyan stong bkra ba, and which Dbyangs 'char verse does it quote? | open; cites svo:p271r |
 
 <!-- end pool index -->
 
