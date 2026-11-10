@@ -257,6 +257,64 @@ Open:
 
 Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざる日 and the words 語らざる日, and any 初夢, on the page images 128 and 132-139 and on 190 of pid 760742 (images 140-189 are the numbered lots and were looked at only through the OCR sorted by image, which shows lot texts and no dream table; not by eye); (2) images 1-107 (the front matter and the almanac's day-choosing tables) were not read leaf by leaf: three leaves were looked at (33, 36, 101); the slash table and the 初夢 are therefore not excluded from the front, only not found where the dream articles lie (images 108-137 hold the dream section whole); (3) the OCR text of the volume for 語らざる, 初夢 and 夢を見て: no hit (as RD308).
 
+## <a id="mdz-i65134"></a>mdz:i65134 清明秘鈔 夢判事 (1862, Koizumi ORMK-00651), image 34: the day-branch table of the charm for a bad dream (RD364)
+
+*Read: machine, 2026-11-10.*
+
+> 〔右頁、上段、右から〕
+> 寅の日　此悪夢をえらん人は是を／墨ゆく(?)うた(?)水にながる(?)  〔「墨ゆくうた」の四字は読み切れず〕
+> 辰の日の悪夢をえらん人の門に／墨ゆく去べし  〔「人の門に」の「門」に振り仮名かど〕
+> 午の日の悪夢をえらん人は是を／朱(?)ゆく念(?)に去べし  〔二行目は読み切れず〕
+> 申の日の悪夢をえらん人は是を／墨ゆて春(?)のかぐ(?)に去べし  〔二行目は読み切れず〕
+> 戌の日の悪夢をえらん人は是を／墨ゆく中望(?)みに去へし  〔二行目は読み切れず〕
+> 〔右頁、下段、右から〕
+> 卯の日の悪夢を捻(えらん)人は是を／墨ゆくうた(?)水にながる(?)  〔寅の日と同じ字づら〕
+> 巳の日の悪夢を捻人は是を／墨ゆて孤(?)やの縁(?)に去べし  〔二行目は読み切れず〕
+> 未の日の悪夢を捻人は是を／房(ねや)の門(かど)に去べし
+> 酉の日此悪夢をえらん人は是を／墨ゆく望みに去べし  〔二行目は読み切れず〕
+> 亥の日の悪夢をえらん人は是を／墨ゆて絡(?)に去 麻(?)みあく(?)にし  〔二行目は読み切れず〕
+> 〔左端の大きな囲み〕
+> 一切不吉の怪夢をえらん人は此符を朱をもて紙(?)に書き(?)男は左女は右に(?)／…たちまち…吉夢と転ずる(?)の秘符なり  〔読み切れず〕
+> 〔左頁〕
+> 又一法に曰く、悪しき夢を見る時は…
+> 赫赫陽陽　日出東方　此符断却悪夢　辟除不祥　急急如律令
+
+Image 34 of the Koizumi Yoshinaga collection copy DIG-ORMK-00651 (the 清明秘鈔 夢判事 of 1862), the right-hand page and the left-hand page, read at 3000 px and for the cells at 6000 px (the manifest serves up to 6000 px) of the day-branch table and its charm, by eye.
+
+The right-hand page is a ruled table under heads in seal script ending in 日 ("day"): the upper row has five cells, the lower row five, and a large box at the left edge. The ten cells carry the branches in this order from the right: upper 寅 (tiger), 辰 (dragon), 午 (horse), 申 (monkey), 戌 (dog); lower 卯 (hare), 巳 (snake), 未 (goat), 酉 (rooster), 亥 (boar). The branches 子 (rat) and 丑 (ox) have no cell. Every cell opens "on a day of [branch], the person who has a bad dream (悪夢, akumu) ... this ..." and then says in what manner and to what place the dream is to be sent away: with ink (墨) for most cells, with vermilion (朱) in the 午 cell, and "at the door" (門, かど) in the 辰 cell and "at the door of the bedchamber" (房 with the gloss ねや, 門 with かど) in the 未 cell. The second line of most cells is not read letter by letter; the cells therefore differ in the manner of sending away, they are not one sentence repeated. The box at the left edge is a general rule for any ill-omened strange dream: write this charm with vermilion, a man on the left, a woman on the right (read in part), and the dream turns to a good one; it is called a secret charm (秘符).
+
+The left-hand page repeats the charm of the 夢合早占大成 (mdz:kano-22630): "赫赫陽陽 日出東方 此符断却悪夢 辟除不祥 急急如律令", with the heading «得効方に曰く、悪しき夢を見たる時は、水を口に含み、東に向ひて三度これを吹て祝ふ呪文に» above it and «悪夢著草木 好夢成珠玉» below.
+
+## <a id="mdz-i70618"></a>mdz:i70618 東都歳事記 (1838, Ochanomizu OCHA-00706), image 18: the entry for the second day, no 初夢 (RD364)
+
+*Read: machine, 2026-11-10.*
+
+> 〔東都歳事記、巻之一春之部、二日の条、Ochanomizu 本の画像18、左頁〕
+> 二日　○国主城中　諸役人方御礼登城 ／ ○商家小八分日貸(…)  ／ ○吉原遊女来礼 ／ ○江戸天満宮裏門連歌会 ／ ○人形芝居初興行 ／ ○〔縫?〕初 　八つ時…　〔三日の条へ〕
+
+Image 18 (left page, the 二日 entry in full; the spread read at 4500 px and the last column at 7000 px) of the Tōto saijiki (天保9 = 1838) in the Ochanomizu copy DIG-OCHA-00706. The entry for the second day of the first month lists: the castle (諸役人方御礼登城), the merchants' small credit day (貸...), the courtesans' New Year visit at Yoshiwara (吉原遊女来礼), a linked-verse meeting at a Tenmangu (江戸天満宮... 連歌会), the first puppet-theatre performance (人形芝居初興行), and a custom whose name was read as 〔縫?〕初 (sewing-first, doubtful), then the third day follows. No 初夢 stands in the entry, and none on images 16-19 either (image 16 the 初冨士 and the 初寅 and 甲子 days, 18 the 二日, 19 the 三日 to 六日). The entry is the fixed list of the day's customs; it does not mention a first dream at all, so this book does not carry the 2 January night.
+
+## <a id="mdz-i234427"></a>mdz:i234427 雑書夢合／三世相小鑑 (Koizumi ORMK-02344), image 27: the table 夢をみてかたらぬ日, a second print (RD364)
+
+*Read: machine, 2026-11-10.*
+
+> 〔雑書夢合／三世相小鑑、図の下の帯、右端の見出し〕夢をみてかたらぬ日  〔「夢」「日」は読めた、中の字は読み切れず〕
+> 正月　ひつじ　さる　いぬ  〔三つの語、二つ目と三つ目の間に間があり、斜線は見えない〕
+> 二月　〔とり? さる? み?〕  〔読み切れず〕
+> 三月　〔ひつじ〕むま　ゐ
+> 四月　むま　うし　〔う?〕ゐ
+> 五月　むま　うし　〔う?〕ゐ
+> 六月　ね　うし　ゐ
+> 七月　ね　うし　たつ
+> 八月　とら　〔たつ〕　〔ね〕ゐ
+> 九月　とら　〔たつ〕　〔ね〕ゐ
+> 十月　〔たつ〕　み
+> 十一月　さる　ひつじ　〔いぬ〕
+> 十二月　むま　ひつじ　〔ゐ〕
+> 〔奥付、左下〕安永三午春新刻 ／ 享和元酉春新〔刻?〕
+
+Image 27 of the Koizumi Yoshinaga collection copy DIG-ORMK-02344 (雑書夢合 / 三世相小鑑, 28 images), the page spread at 6000 px (manifest ceiling), by eye. In a strip under a picture (a man holding a hanging scroll with Mount Fuji, a hawk on the shoulder of a second man) stands a table of twelve columns, one for each month, headed on the right «夢をみてかたらぬ日» ("the days on which a dream seen is not told"), the same title as in the 万代大雑書古今大成 (mdz:p11, there 夢を見て語らざる日). Each column opens with the month (正月, then 二月 to 十二月, written 十一月, 十二月 at the left end) and then the day branches in kana, each column of two or three words with a gap before the last. The cells that were legible letter by letter agree with mdz:p11: 正月 goat, monkey, dog; 三月 (goat) horse, boar; 四月 and 五月 horse, ox, (hare) boar; 六月 rat, ox, boar; 七月 rat, ox, dragon; 十一月 monkey, goat, (dog); 十二月 horse, goat, (boar). The second month's cell, the 八月-九月 and the 十月 cell were read in part only. No slash was seen in the cells at this size: the third word stands lower in the column, set off by a gap. There is no closing line "of the dreams on the days above neither good nor bad is told" read on this page; the left margin of the spread bears the colophon: «安永三午春新刻» and «享和元酉春新(刻?)» (Anei 3 = 1774, Kyowa 1 = 1801), so the print is a reissue of 1801 of a block cut in 1774. The reading of the three sets of branch names is unsettled where marked.
+
 ## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
 
 *Read: by eye on the page images 3 and 33, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
@@ -404,3 +462,40 @@ Open:
 - Question: the 東都歳事記's and the 栞草's wordings of the 初夢 entry, and any entry 初夢 of the 江戸歳事記 reprints of 1890s (Ueda Kagetsu 092-0261-007), are open to be compared: do they all keep the eve-to-dawn night, and from which year does a 2 January night appear in print?
 
 Searched and not found (RD358), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda.ac.jp/kotenseki), the 夢占吉凶秘傳書 bunko30_e0277 and the search page: HTTP 503 "Site Maintenance" on every page, the third time (RD256, RD343); (2) the Kokubunken search API for 大雑書, 大ざつしよ, 万代大雑書 (no record with this title: the 万代大雑書古今大成 is not in the database as a title, one hit 万代雑書 of the Koizumi collection), 初夢, 夢合, 夢判断, 夢判事, 夢占, 夢解, 守貞謾稿 (five records, the NDL's, restricted, the manifest answers a collection and no images) and 東都歳事記 (83 records, 21 with images at other libraries, only the Ochanomizu copy opened); the NDL 東都歳事記 records DIG-NDLD-29922 and 29923 answer a collection record, not a manifest; (3) the NDL full-text search API (lab.ndl.go.jp/dl/api/book/search) for 夢を見て語らぬ日, 夢を見て語らざる日, 夢をみてかたらぬ日, 夢見て語らぬ日: no hit that is an almanac (the first returned a list of unrelated books by relevance); (4) the 夢合延寿袋大成 copies of Kyushu (DIG-KYUS-11996 and 13960, 77 and 75 images) and Osaka (DIG-OSAK-00875, 32 images) and the 夢合清明囊 (国文研三井 Y1472-005, 53 images, 文久2) have open manifests and were not looked at; neither were the 国文研 大ざつしよ (ヤ0-32, ヤ0-116), the 東京学芸大 大雑書 of 安永9 and 文政11, the 嘉永大雑書 (江戸東京博, 78 images), the 万宝大雑書 and 萬歳大雜書日用寳, the 大雜書三世相 of Nagoya and Kano: they remain the places to look for the table 夢を見て語らざる日; (5) the 守貞謾稿: not opened (no open copy in the Kokubunken); the 江戸歳時記's 初夢 entry not found on canvases 12-16.
+
+## <a id="mdz-i7333115"></a>mdz:i7333115 歳時記栞草 (1851, Tokyo TOKY-73331), image 15: the entry 初夢 with the source label 紀事 (RD364)
+
+*Read: machine, 2026-11-10.*
+
+> 初夢　〔紀事〕云、凡初夢とは大晦日の夜より元日の暁に至るの夢をいふ。○年くれ春来べしとかたらふは(?)思寐のまの(?)… 　西行　〔歌〕　… 〔夜分は〕勿論、元日と鶏旦 … と云。○… 部ニ注す可見合
+
+The entry 初夢 of the 増補改正俳諧歳時記栞草 (嘉永4 = 1851), University of Tokyo Chikuji DIG-TOKY-73331, image 15, right-hand page, printed page 七 of the spring volume (read at 5000 px). The entry, set in large type beside 初鶏, 初暦 and 歯固, opens with a boxed source label «紀事» ("the Kiji"), a label of the kind that opens each quotation of this book (the others on the page: «雑談拠», «世諺問答», «本朝食鑑», «岷江入楚», «故事要言»), then «云、凡初夢とは大晦日の夜より元日の暁に至るの夢をいふ». The words after it, read in part, are a note on the phrase «年くれ春来べし» and a verse of Saigyo, then the sentence that the night is, of course, the dream of the night and of the New Year's dawn (勿論、元日と鶏旦), and a cross-reference to another entry (部ニ注す可見合). The work 紀事 is named only by this label; its author, date and the passage in it are not given on the page. The work 紀事 is named only by this label; its author, date and the passage in it are not given on the page. The 凡例 (image 7, left page, read at 5000 px) speaks of the arrangement by the forty-seven letters and the four seasons and of the glosses, and no list of sources was found there (not read letter by letter).
+
+## RD364 (2026-11-10): the two day-branch tables read letter by letter, the 東都歳事記 and 栞草 entries, and the other open copies; Open; Searched and not found
+
+*Read: by eye on the page images, 2026-11-10 (17:24-17:55). Manifests of kokusho.nijl.ac.jp/biblio/<bid>/manifest (bids 100276036, 100311420, 100260629, 100372354, 100393877, 300096388, 100379647, 200018425, 200007529, 200017194, 100408974, 100408973, 100450762, 100409403, 300000813, 100451582), contact sheets at 300-700 px a spread in the order of the manifest, the leaves named below at 2800-7000 px. The pool tool's state field says machine because it takes the state scan for Tibetan script only; the Japanese is read by eye, in part where marked.*
+
+**Answers.** (1) The 清明秘鈔夢判事 table (mdz:i65134) is the charm for a bad dream by day branch, ten cells and a box, no 子 and no 丑, each cell with its own manner of sending the dream away; it is not a table of days a dream is not told, and no cell tells a day on which a dream is kept silent. (2) The 雑書夢合／三世相小鑑 table (mdz:i234427) is, against RD358's guess, **the table 夢をみてかたらぬ日 itself**: twelve month columns with two or three day branches, the cells read agree with mdz:p11; so the table of mdz:p11 is in a second print, dated 安永3 (1774) and 享和1 (1801). The two tables are therefore not the same in the two books: one is the charm, the other the days. (3) The 東都歳事記's second-day entry (mdz:i70618) has no 初夢; the 栞草's 初夢 entry is cited to 紀事 (mdz:i7333115) and puts the night at New Year's Eve to dawn; the work 紀事 is not named further on the page.
+
+**Other copies looked at** (sheets of the whole book unless said; the dream section found only where named):
+
+- 夢合延寿袋大成, Kyushu University 雅俗 DIG-KYUS-11996 (77 images, five sheets 400 px; images 59-63 at 3200 px, image 62 at 6000 px) and DIG-KYUS-13960 (75 images, sheets 300 px of images 1-48 and 49-72 not enlarged): the same edition as the NDL and Kyoto copies of RD344 (same headings, 夢現幻之傳 on image 59, 悪夢の伝 on image 62). Image 62, left page: the heading «○悪夢の伝» is not a table; the text (read in part, not letter by letter) tells how a bad dream is to be written down and sent away, with ink and by the days of the months. No table of days, no slash, no 初夢 night.
+- 夢合延寿袋大成, Osaka University Ishihama DIG-OSAK-00875 (32 images, sheets; images 3, 26, 28 and 30 enlarged to 2200-3000 px): the title leaf and the section 夢祭り供物上げやうの秘伝 (image 26: offerings to the dream gods, the month's days, ...), no table of days. Images 29-32 as sheets only.
+- 夢合清明囊, 国文研三井 Y1472-005 (文久2, 53 images, three sheets 300 px; images 51-52 at 3000 px): a pictured dream book in running articles; the last leaves are the colophon; no table recognised.
+- 大ざつしよ, 国文研 ヤ0-32 (51 images, two sheets; images 3, 16, 41, 47, 49, 50 at 2800 px and image 41 right page at 6000 px, read letter by letter): a Meireki-style almanac in cursive kana with the black-label numbers. **Image 41 (labelled 六十あ), right page: a table of the day branches (巳の日の人は, 午の日の人は, 未の日の人は, 申の日の人は, 酉の日の人は, 戌の日の人は, 亥の日の人は, each followed in kana by the months of its cell, 十二月, 十月, 十二月, 三月, 冬月, 九月 and the like) with a closing line in the left margin that opens 右…月 and ends ...とせざる日の事 (read in part). It is a table of a day branch against months, and it carries no 夢 and no 語らず; what it is a table of the page's heading (read only in part) does not settle, so it is not taken for the dream table. Image 49 holds a 八十... article on 釜のなる時 and 一粒万倍日 with month lists, no 夢.** No dream table in the 51 images at sheet size.
+- 大ざつしよ, 国文研 ヤ0-116 (明暦1, 46 images, two sheets 300 px): the same layout as ヤ0-32; image 34 holds a diagram, images 38-41 pictured pages; no dream table seen at sheet size.
+- 東京学芸大 大雑書 安永9 (DIG-TKGK-52334, 27 images) and 文政11 (DIG-TKGK-52339, 28 images), sheets 300 px: almanacs with the round diagram (images 3-4) and day tables; pictured pages at images 22-24; no dream section recognised at sheet size.
+- 嘉永大雑書, 江戸東京博 DIG-EDOM-11927 (78 images, four sheets; image 62 at 2800 px): a pictured almanac of 嘉永4 (colophon image 77, 江戸 ... 鶴屋); image 62 the 巳の部 of the days with the day-officers and the twelve fortunes; images 9-72 the pictured articles on the calendar's days; the dream section, if it has one, not located.
+- 万宝大雑書, 東京学芸大 DIG-TKGK-52306 (文化13, 26 images, two sheets 300 px): almanac, round diagram on images 3-4, pictured leaves on 22-23; no dream table at sheet size.
+- 万宝大ざつしよ, 東洋大哲学堂 DIG-TOYU-71308 (38 images, sheets 300 px; images 24 and 26 at 3200 px): images 23-25 the pictured pages and the page of month-day lists; image 26 holds articles of days for each month (列 of 正月ひつじ ... 十二月) that are lists of days for taking a wife and for birth, not the dream table.
+- 萬歳大雜書日用寳, 東大 DIG-TOKY-01831 (慶応3, 202 images, nine sheets at 300 px; only images 1-48 looked at on the sheets): coloured title leaves (images 5-7), the calendar tables, the pictured pages from image 19; the dream section not found at sheet size.
+
+**The 栞草's front matter** (images 2-13 as sheets, 6 and 7 at 5000 px): the prefatory leaves and the 凡例; no list of the books quoted was found, so 紀事 stays unidentified.
+
+Open:
+
+- Question: the 雑書夢合／三世相小鑑's table (mdz:i234427) and the 万代大雑書古今大成's (mdz:p11) agree in the twelve columns that were legible; is the slash of the one print present in the other, and which cells of the second month and of the eighth to tenth months read the same (the cells read here in part)?
+- Question: in the 清明秘鈔夢判事's ten cells (mdz:i65134) what are the second lines of each cell (the place and manner of sending the dream away), and why do 子 and 丑 have no cell?
+- Question: what is the work 紀事 that the 栞草 cites for the 初夢, and does the 栞草's nearby entry 鶏旦 (the dawn of the first day) fix anything about the night?
+
+Searched and not found (RD364), 2026-11-10: (1) a table 夢を見て語らざる日 in the 夢合延寿袋大成 of Kyushu (two copies) and Osaka, the 夢合清明囊, the 国文研 大ざつしよ ヤ0-32 and ヤ0-116, the 東京学芸大 大雑書 and 万宝大雑書, the 万宝大ざつしよ of Toyo University: none on the sheets or the enlarged leaves, but the running text was not read letter by letter; (2) an entry 初夢 or a second-day customs list naming the first dream in the 東都歳事記 (Ochanomizu images 16-19); (3) the dream section of the 嘉永大雑書 and the 萬歳大雜書日用寳: not located at sheet size (images 49-202 of the latter not looked at); (4) the 栞草's list of sources: not found on images 2-13; (5) the 夢合長寿宝 text beyond RD358's contents leaf and the 大雜書三世相 of Nagoya and Kano: not opened.

@@ -485,6 +485,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/hatsuyume-edo-calendar-not-stated.md](claims/hatsuyume-edo-calendar-not-stated.md) | claim, note | No open Edo source reached that names the calendar of the 初夢 night of 2 January | cites nip:p1, mdz:i31, mdz:i72; feeds S3 |
 | [claims/hatsuyume-night-history.md](claims/hatsuyume-night-history.md) | claim, rule | The night of the first dream: from 節分 to 2 January | cites nip:p1, skf:p1; feeds S3 |
 | [claims/hatsuyume-takarabune.md](claims/hatsuyume-takarabune.md) | claim, remedy | The treasure ship under the pillow and the remedies for a bad first dream | cites nip:p1, nip:p2; feeds S3 |
+| [claims/hatsuyume-toto-saijiki-kanso-eve-night.md](claims/hatsuyume-toto-saijiki-kanso-eve-night.md) | claim, note | The 東都歳事記 second-day entry has no 初夢; the 栞草 puts the 初夢 on New Year's Eve, citing 紀事 | cites mdz:i70618, mdz:i7333115; feeds S3 |
 | [claims/hidden-body-cut-turtle.md](claims/hidden-body-cut-turtle.md) | claim, conflict | The body cut's turtle: the blocks carve the left side 7 and the left leg 6 | cites wb.1:p358, wb.2:p524; feeds block-58 |
 | [claims/household-fold-box-print.md](claims/household-fold-box-print.md) | claim, note | The box over the fold on Mipham's own print | cites wb.2:p490-491; feeds — |
 | [claims/household-mewa-verdicts.md](claims/household-mewa-verdicts.md) | claim, table | The household's general verdicts when many share a mewa of the year | cites wb.1:p407-408; feeds block-58, R4 |
@@ -587,6 +588,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mchog-dga-print-img626-no-number-after-chu-tshod-re-bzhi-bar.md](claims/mchog-dga-print-img626-no-number-after-chu-tshod-re-bzhi-bar.md) | claim, note | The Mchog dga' print (img. 626) writes ཐུན་ཕྱེད and བརྒྱད, and no number follows «ཆུ་ཚོད་རེ་བཞི་བར» (RD341, q987) | cites svo:i626, svo:p271z; feeds — |
 | [claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md](claims/mdp-dream-part-is-a-transmitted-rite-with-a-lineage-and-a-monks-notes.md) | claim, note | MDP's dream part (pp. 134-137) is a transmitted rite with a lineage ending in Bu ston, signed as a monk's notes | cites mdp:p134-137, mdp:p135b, mdp:p137b; feeds S1 |
 | [claims/mdp-p138-is-the-rst-text.md](claims/mdp-p138-is-the-rst-text.md) | claim, note | MDP's second dream item (p. 138) is the RST text of Klong rdol bla ma | cites mdp:p138, rst:p1-8; feeds S1 |
+| [claims/mdz-sei-myo-day-branch-charm.md](claims/mdz-sei-myo-day-branch-charm.md) | claim, note | The 清明秘鈔 夢判事 table of day branches is the charm for a bad dream by day, not the days a dream is not told | cites mdz:i65134; feeds S3 |
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/mewa-8-white-north-east.md](claims/mewa-8-white-north-east.md) | claim, note | P. 112: the 5 yellow and the 8 white both go to the north-east corner in the print | cites wb.2:p112; feeds block-31 |
 | [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
@@ -1133,6 +1135,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/yumeawase-chojakagami-no-table.md](claims/yumeawase-chojakagami-no-table.md) | claim, note | The 夢合長者鑑 of 1886 (NDL pid 899567) is the dream part of the 万代大雑書 plates and has no table of days and no 初夢 | cites mdz:i899567, mdz:i108, mdz:i190; feeds S3 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/za-zi-confused-not-many.md](claims/za-zi-confused-not-many.md) | claim, note | ཟ་ཟི (za zi) in «རྨི་ལམ་ཟ་ཟི་མང» is a word of its own: unclear, confused, troubled | cites wb.1:p431b, st:p183, st:p218, st:p241; feeds S1, q790, q884 |
+| [claims/zassho-yumeawase-not-told-days-second-print.md](claims/zassho-yumeawase-not-told-days-second-print.md) | claim, note | The 雑書夢合 / 三世相小鑑 prints the table 夢をみてかたらぬ日 too, agreeing with the 万代大雑書 | cites mdz:i234427, mdz:p11; feeds S3 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
 | [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 1 scan, 1 machine |
@@ -1199,7 +1202,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 11 passages: 8 scan, 3 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 15 passages: 8 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 0 passages: nothing read yet |
