@@ -1194,3 +1194,21 @@ kcs:
   rank: 3
   role: source
   notes: "RD332 (2026-11-10): scan open, read by Yigdzin-1; a chod-like body offering to the four-armed Mahakala and the dakinis, not a list of dream signs"
+
+kcd:
+  title: "The Kālacakra Tantra and the Vimalaprabhā (Dri med 'od) on dreams, with the Tibetan commentaries (Bu ston, Mkhas grub rje)"
+  author: "the Kālacakra Tantra (Dus kyi 'khor lo) and Puṇḍarīka's Vimalaprabhā; commentaries by Bu ston Rin chen grub and Mkhas grub rje"
+  edition: "the Derge Tengyur and the collected works as served by BDRC; the volumes named in the passages"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+
+mph:
+  title: "Mipham's writings on dream signs and dream divination (Gsung 'bum) and his notes on the White Beryl"
+  author: "'Ju Mi pham rgya mtsho (1846–1912)"
+  edition: "the collected works as served by BDRC; the volumes named in the passages"
+  licence: public-domain
+  rank: 2
+  role: source
+  locator: image

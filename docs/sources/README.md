@@ -1156,6 +1156,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 2 passages: 2 etext |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 6 passages: 4 machine, 2 etext |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
+| [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 0 passages: nothing read yet |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
@@ -1186,6 +1187,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 11 passages: 8 scan, 3 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 0 passages: nothing read yet |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
@@ -1218,6 +1220,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
+| [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 0 passages: nothing read yet |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
@@ -2110,6 +2113,8 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **AK** | *Mdo chen a kho ris thub bstan nyi shar gling gi zhal 'don phyogs bsgrigs* | BDRC MW2PD19997, scans I2PD20007 |
 | **BK** | *Gter chen bdud klong zung gi gter byon smin byed thams cad chu 'babs su bkod pa*, 4 vols, cited by volume | BDRC MW3CN7543, scans I3CN7545 (vol. 1) |
 | **TSL** | Gnam lcags rtsa gsum gter bdag gling pa (Rtsa gsum gling pa, 1694–1738), *Gter chos*, his treasure teachings (*O rgyan rtsa gsum gling pa'i zab gter*). A source at the owner's word (2026-11-07), **equal to Mipham's word** (rank 2), with everything that traces back to him: his incarnations and the holders of his lineage (Sgo chen dgon, Padma Samye Ling) | edited by Mkhan chen Dpal ldan shes rab, 30 vols, typeset | BDRC MW4CZ1042 (person P680), scans I1PD108789–I1PD108818 (vol. n = I1PD1087(88+n)), open, etext excellent; other prints MW1KG15423 (12 vols), MW27492 (dbu med, 11 vols), MW4CZ302225; the treasures public-domain, the edition's own matter facts only; nothing read yet |
+| **KCD** | The Kālacakra Tantra (*Dus kyi 'khor lo*) and Puṇḍarīka's *Vimalaprabhā* (*Dri med 'od*) on dreams, with the Tibetan commentaries of Bu ston Rin chen grub and Mkhas grub rje: the Derge Tengyur and the collected works as served by BDRC; the volumes named in each passage. Read in RD361. |
+| **MPH** | 'Ju Mi pham rgya mtsho (1846–1912), the writings on dream signs and dream divination in his *Gsung 'bum* and his notes on the White Beryl (rank 2, owner 2026-10-20); the volumes named in each passage. Read in RD362. |
 | **KTD** | Sgo chen mkhan po Tshe dbang don rgyal (Khenpo Tsewang Dongyal, b. 1951), every text of his, in Tibetan or in translation; *Bdud 'joms 'jigs bral ye shes rdo rje … rnam thar ye shes rdo rje'i 'od zer* first among them. A source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL) | Pema Samye Chokhor Ling, Sarnath 2003, 241 pp. | BDRC MW29259 (person P5639), open scans; also MW24036, MW2KG5060 (*Khyad chos che ba drug …*), MW00EGS1016761 (the Sgo chen dgon *chos spyod*, 1984, etext); modern, copyrighted: facts only, never its wording; nothing read yet |
 | **SVO** | Vibhūticandra (Bi bhU ti tsandra), *Rmi lam brtag pa* (*Svapnohana*, the examination of dreams), his own translation; a dream's fulfilment by the watch of the night, a catalogue of dream images, a remedy | Derge Tengyur, Delhi 1982–1985 reprint of the Sde dge blocks, vol. 28, pp. 268 l. 4 – 271 l. 4 | BDRC MW23703_1749; etext VE23703_1344 (read whole 2026-11-09, q784); scans I1344 |
 | **SVI** | Dpal ldan Gnyis su med pa (Advayavajra), *Rmi lam brtag pa* (*Svapna-īkṣā*), in the Mañjuśrī cycle, translated by Prajñāśrījñānakīrti | Derge Tengyur, the same reprint, vol. 49, pp. 261–262 | BDRC MW23703_2100; etext VE23703_1365; scans I1365; not read |
