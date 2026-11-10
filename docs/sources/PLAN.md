@@ -1961,3 +1961,6 @@ Searched and found wanting, so not to be repeated:
 - **RD222** (RD222, 2026-11-10):
   - RD222 second run: TDR img. 347–348 and GNC img. 565–569 (2173×460 and 2165×461 px) cannot be read syllable by syllable at 2.3×; only a higher-resolution scan or another print helps.
   - On SRM (4320×896) cropping by character fraction put the window across two lines; crops must be cut from per-line y centres (window about −42 to +26 px). disagree.py's «line N» does not map to scan lines on these pages.
+- **RD316** (RD316, 2026-11-10):
+  - Mipham's notes on WB ch. 25 and 27: the Chengdu etext is search-only; BDRC searches for «ཟ་ཟི་མང་བ་དང», «རྨི་ལམ་ཟ་ཟི་མང་བ», «ཟ་ཟི་ནི», «ཟ་ཟི་ཞེས་པ», «ཟ་ཟི་ཞེས», «ཟ་ཟི་ཡིན», «ཟ་ཟི་ལ», «ཟ་ཟིའི་» showed no Mipham hit among the twenty each lists; the unlisted hits (236 for «ཟ་ཟི་མང», 161 for «རྨི་ལམ་ཟ་ཟི») not seen, a weak negative.
+  - No lexicon entry for «ཟ་ཟི་མང» itself; glosses in the forms «ཟ་ཟི་ཞེས་པ་ནི», «ཟ་ཟི་ཞེས་པའི», «ཟ་ཟི་སྟེ»: 0 hits; the Blue Beryl and Zur mkhar ba not opened for this word; the Zhol, Derge and other prints of st:p183, st:p218, st:p241 not located; the Great Tibetan–Chinese dictionary not read by its own title.

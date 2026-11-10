@@ -1716,7 +1716,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | answered; cites skf:p1, skf:p3 |
 | [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | open; cites nip:p1 |
 | [questions/q0789.md](questions/q0789.md) | question q789 | In the Four Tantras' ch. 2 line on the boy's dream, is ཡང light or also, and is དག clear or a plural? | open; cites st:p21 |
-| [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | open; cites st:p183, st:p218, st:p241 |
+| [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | answered; cites st:p183, st:p218, st:p241 |
 | [questions/q0791.md](questions/q0791.md) | question q791 | What are ལྗོང, ལྕོལ, སྡིག་སྡོམ and ནིའུ་གསིང in ch. 81's dream list, and what does «ལྷས་ཚོར་དུས་ཏེ» say? | open; cites st:p350-351 |
 | [questions/q0792.md](questions/q0792.md) | question q792 | In ch. 91's closing causes, what is the failing the chapter treats, and what are ཕྱུ, དྲི་ཆེན and བ་ར in its remedies? | open; cites st:p493 |
 | [questions/q0793.md](questions/q0793.md) | question q793 | Which work ends on TDR printed p. 343, and does the registry's TDR begin at the title two thirds down the page? | answered; cites tdr:p343-344 |
@@ -1810,7 +1810,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0881.md](questions/q0881.md) | question q881 | Who or what is the «dmar mo» (the Red One, a red woman) whose cremation ashes are used in the rite on GNC p. 558? | open; cites gnc.1:p558h |
 | [questions/q0882.md](questions/q0882.md) | question q882 | Is the colophon of SKP's first text (p. 50, «ཤཱཀྱའི་དགེ་སློང་ …»), read only by machine, really «ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ»? | answered; cites skp:p55h |
 | [questions/q0883.md](questions/q0883.md) | question q883 | Is «པདྨ་དཀར» at the end of SKP's second text (p. 55) the name Padma dkar po, and which text is «well explained»? | open; cites skp:p55h |
-| [questions/q0884.md](questions/q0884.md) | question q884 | Does «ཟ་ཟི» in «རྨི་ལམ་ཟ་ཟི་མང་བ» (WB vol. 1 p. 431) have a meaning of its own (confused, restless, repeated) in the reckoners' or physicians' usage, or is it a doubled sound with the sense «many dreams» only? | open; cites wb.1:p431b |
+| [questions/q0884.md](questions/q0884.md) | question q884 | Does «ཟ་ཟི» in «རྨི་ལམ་ཟ་ཟི་མང་བ» (WB vol. 1 p. 431) have a meaning of its own (confused, restless, repeated) in the reckoners' or physicians' usage, or is it a doubled sound with the sense «many dreams» only? | answered; cites wb.1:p431b |
 | [questions/q0885.md](questions/q0885.md) | question q885 | What does «ལྷས་ཚོར་དུས་ཏེ» (ch. 81, the last clause of the dream list) say: is ལྷས་ཚོར་ «the time of feeling the god (spirit)» or «when the time of feeling comes»? | open; cites st:p350-351 |
 | [questions/q0886.md](questions/q0886.md) | question q886 | Does the Zhol print's སྦལ་ལྗོངས་ (a ས after ལྗོང) in ch. 81 stand on the scan, and what do the Derge and the Chag-po-ri copy read there? | open; cites st:p350-351 |
 | [questions/q0887.md](questions/q0887.md) | question q887 | Does the Serthang print (printed pp. 31–32, the leaf absent from the pool's scan I3CN5038) read «བརྗེད་ངས» as all eight other prints do, or «བརྗེད་ངེས»? | open; cites gt:i42 |
@@ -1862,6 +1862,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0933.md](questions/q0933.md) | question q933 | Who wrote or compiled the three dream examinations of the third section (Śramaṇā, Śākyamuni, Tārā) in the 'Brong rtse be'u bum? | open; cites tdr:p21e |
 | [questions/q0934.md](questions/q0934.md) | question q934 | On the Kazi print (I6132 img. 559) and the Zhe chen and Ngodrup hands, is the letter after «མ» in the mixed kind's last clause ཕ or བ, that is «མ་ཕྱེད་ན» or «མ་བྱེད་ན»? | open; cites lgd.42:p966-971c |
 | [questions/q0935.md](questions/q0935.md) | question q935 | In the middling yogin's line did the Lama Gongdü read «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག» (Palri and Kazi) or «རང་གཞན་ལ་ཉེ་བརྟགས» (the Rin chen gter mdzod and Shechen)? | open; cites lgd.42:p966-971c |
+| [questions/q0936.md](questions/q0936.md) | question q936 | The Four Tantras' line about the spirit entering has the same «རྨི་ལམ་ཟ་ཟི་མང»; Khro ru adds a rite there (I5622 p. 341) and treats it as the spirit's sign, against the fever places (I5621 p. 120): is the dream the sick one's symptom or the spirit's sign, and does the Tantra mean one by both lines? | open; cites st:p183, st:p350-351 |
+| [questions/q0937.md](questions/q0937.md) | question q937 | Is ཟ་ཟི་ནི་ཉག་ཉོག in the Lhan thabs's life-wind chapter the same word as in the fevers, or a term in a list? | open; cites st:p183 |
 
 <!-- end pool index -->
 
