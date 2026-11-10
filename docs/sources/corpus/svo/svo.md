@@ -1385,7 +1385,41 @@ Machine reading (Yigdzin-1) of the first three lines of img. 626 of the National
 
 ## The Sanskrit side of the dream texts (q866, q868, q869, q871): the Brahmavaivarta's dream chapter and its date against the Svapnohana's translation of about 1200, the puṇyakāṇḍa of the Kāṇva branch, Bṛhaspati's Svapnādhyāya (Penn Ms. Coll. 390 item 1871; Negelein's edition) on the three fortnights and the month of the fourth watch (RD357)
 
-Nothing read yet: RD357's passages, with the English beside them, go here.
+*Read: scan, 2026-11-10 (RD357), on page images: Penn Ms. Coll. 390 Items 1871, 2730, 687 and 673 on Penn's own IIIF images (Colenda, 2670 px, which answer at once where the OPenn server of RD277 gave 1 kB/s), the Jivananda print of the Brahmavaivarta (leaves n667–n668), the 1935 Gorkha Pustakalaya print with a Nepali commentary (leaves n6–n8), Bolling and von Negelein's Atharva-pariśiṣṭa 68 (leaves n223, n233, n234) and Negelein 1912, Introduction p. XV (leaf n20). The passages are written into the corpus file of their own source; this section is the reading's account and its answers.*
+
+The passages: [pn1871:i1](../pn1871/pn1871.md#pn1871-i1), [pn1871:i2b](../pn1871/pn1871.md#pn1871-i2b), [pn1871:i4](../pn1871/pn1871.md#pn1871-i4) (the Penn Item 1871: the table of gifts on f. 1r, the first text leaf, the end and the colophon), [pn2730:i0](../pn2730/pn2730.md#pn2730-i0), [pn687:i1](../pn687/pn687.md#pn687-i1), [pn673:i6](../pn673/pn673.md#pn673-i6), [bvp:p660](../bvp/bvp.md#bvp-p660), [bvg:p1-2](../bvg/bvg.md#bvg-p1-2), [bvg:p3](../bvg/bvg.md#bvg-p3), [apv:p445](../apv/apv.md#apv-p445) (re-read on the scan), [apv:p456](../apv/apv.md#apv-p456), [neg:i20](../neg/neg.md#neg-i20). The claims: penn-svapnadhyaya-four-copies-month-for-fourth-watch, penn-svapnadhyaya-opens-with-apv-68-2-58, brahmavaivarta-kanva-tathaiva-tatraiva, sources-own-dates-dream-texts.
+
+### q868 and q871: the Penn copies of the Bṛhaspati Svapnādhyāya
+
+- **Item 1871** (f. 1v, the full first text leaf at 2×): «द्वितीये चाष्टभिर्मासैस्त्रिभिर्मासैस्त्रियामके । चतुर्थे प्रहरे स्वप्नो मासैकेन विपच्यते । अरुणोदयवेलायां दशाहेन फलं भवेत् । गोविसर्जनवेलायां सद्यः स्वप्नो विधीयते ॥»: the second watch eight months, the third three months, the fourth **a month**, dawn ten days, the cows' release at once. The colophon on f. 4r, on the image: «इति बृहस्पत्युक्तस्वप्नाध्यायः समाप्तः», then the Navagrahastotra. The table on f. 1r is a table of gifts by lunar mansion, with no dream in it.
+- **Item 2730**, **Item 687**, **Item 673** (colophon, saṃvat 1881 = 1824, read on the image): a month in every copy; Item 687 has **six** months for the second watch and had left out the fourth, written back in the margin as «यामे चतुर्थे मासैकं …».
+- **q868** is answered: the Penn Item 1871 does not read Negelein's i («tripakṣake») nor «half a month»; it reads eight months, three months (triyāmake) and a month, the series of Negelein's a and f. **q871** is answered for the Penn copies (a month in all four) and not decided as to which reading is older: the Brahmavaivarta has the half-month in both its prints, the Svapnādhyāya copies a month, and no manuscript of either is older than the 18th century; the one scribal event seen, the marginal repair of Item 687, restores a month.
+- The opening line of the Penn copies is the Atharva-pariśiṣṭa's: «svapnas tu prathame yāme saṃvatsara-…» (all the manuscripts of Bolling and von Negelein read *svapnas*, apv:p456; Item 687 down to «saṃvatsara-vipākinaḥ»), so the family's start is older than the Penn copies' century by the Parisiṣṭa; its second span is eight months in every manuscript of the editors.
+
+### q866: the Kāṇva branch's «puṇyakāṇḍa»
+
+The Jivananda print reads «**तथैव** काण्वशाखायां पुण्यकाण्डे मनोहरे» ("likewise in the Kāṇva branch", bvp:p660), the Śabdakalpadruma and the 1935 print «**तत्रैव** …» ("in that same one", the Sāmaveda), which puts the Kāṇva branch under the Sāmaveda and is the source of the oddity noted before. The Nepali commentator of 1935 reads «kaṇvaśākhā» as a section (khaṇḍa) of the Sāmaveda and names no book. The question *which book* is not answered: no print or commentary read names it.
+
+### q869: the age of the dream chapter, and Scheuermann
+
+Nothing read dates the chapter alone; Jagaddeva (neg:i20) gives no date; the oldest copies read of the Brahmavaivarta chapter are the prints of 1888 and 1935. Scheuermann's chapter was again refused to the browser (Brill, HTTP 405); the LMU repository record says no full text is held there. The 1935 commentator glosses the half-month as fifteen days (bvg:p3). Open.
+
+### Open (RD357)
+
+- Question: is the Brahmavaivarta's v. 2 «tathaiva» or «tatraiva» in the manuscripts of the Kṛṣṇajanmakhaṇḍa (a manuscript of the chapter, Bengali or Devanagari, decides it)?
+- Question: do the Svapnādhyāya copies older than the 18th century, if there are any (Nepal, the Bhandarkar and Poona collections, the Hamburg NGMCP's «Svapnacintāmaṇi» A 433-50 is another text), read a month, half a month or three fortnights?
+- Question: what is Item 687's marginal line «yāme caturthe māsaikaṃ …» in full (its last words), and is the fourth-watch month a corrector's own wording or a copy of another manuscript's?
+
+### Searched and not found (RD357)
+
+- Scheuermann 2020, pp. 161–180: brill.com answers a headed browser with its "Human Verification" page (405); epub.ub.uni-muenchen.de/75271 and cris.fau.de/publications/240544364 hold records only.
+- The Brahmavaivarta on GRETIL: the index (gretil.html, fetched whole) lists no Brahmavaivartapurāṇa; the Sanskrit Documents Purāṇa pages (brahmapur, brahpur) were not opened beyond their listing, and the chapter is on neither as far as the search showed.
+- Dated manuscripts of the Brahmavaivarta's dream chapter: Penn's Colenda holds a Bengali Brahmavaivarta of 1852 (NCEB_MSS_02703, 100 leaves, incomplete; no contents given), the Berlin Ms. or. fol. 155 (Kṛṣṇajanmakhaṇḍa, 279 leaves, no date seen) was not reachable (the Leipzig portal's host does not resolve).
+- A quotation of the Brahmavaivarta's dream verses in the digests (Dānasāgara, Caturvargacintāmaṇi, Raghunandana): a search found none; the digests were not opened.
+- The Hamburg NGMCP record A 433-50 (Svapnacintāmaṇi): the old and the new address answer 404; not read.
+- Time words in the rest of Item 1871: images 3 and 4 (ff. 2v–4r, verses about 20 to 52, the list of dreams and their fruit) were looked through at the reduced size of the viewer for tithi, pakṣa, month, weekday and season words and none was seen; this is a look, not a word-by-word reading.
+- The Penn Items' leaves after the first (the lists of dreams) were not read; Item 673's verses 2–67 and Item 2730's second page were not transcribed.
+
 
 
 ## Who wrote the Svapnohana, how its watches are bounded, and where its series of spans comes from (q796, q798, q799, q847, q853): whether «ངག་དབང» at the end of its remedy is Vāgīśvarakīrti and what the Tengyur's colophons and catalogues (Derge, Peking, Narthang, Co ne dkar chag, Bu ston's Chos 'byung, Tāranātha) say of its translator and author, how Padma rdo rje introduces his whole quotation of it (pp. 17–26 of his book) and whether he glosses the watches, what the Tibetan commentaries and medical or divination books say of the four watches' bounds, and whether an older Indian text has the series year, eight months, three months, half a month, ten days (RD359)

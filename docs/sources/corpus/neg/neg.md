@@ -61,6 +61,15 @@ What the note says, in our words:
 
 Nothing here ties a dream to a lunar day, a weekday or a month; the fortnight appears only in the comet's 45 days.
 
+## <a id="neg-i20"></a>neg:i20 Negelein on Jagaddeva: the author unknown, the father Durlabharāja, no date named (Introduction p. XV, colophons)
+
+*Read: scan, 2026-11-10 (RD357), p. XV on the page image (leaf n20, 1496 px); the colophons and 2.161 from the text layer, machine.*
+
+> Was des Verfassers Person anbelangt, so schwebt sie ganz im Dunkeln. Ich wüßte nichts weiteres zu sagen als daß Jagaddeva der Sohn eines Durlabharāja war, der Wahrsager-Traktate (Sāmudratilaka) geschrieben hat und chronologisch bedeutend später als Mediziner wie Vāgbhaṭa (s. Vers 2.116) anzusetzen ist. [Introduction p. XV; the colophons: «iti mahattama-śrīdurlabharājā-'tmaja-jagaddeva-viracite svapnacintāmaṇau śubha-svapnā-'dhikāraḥ prathamaḥ», p. 378: «… duḥsvapnā-'dhikāro dvitīyaḥ»; 2.161 ends «satyaṃ bhuvane durlabha-sambhūtiḥ sa kavir evaikaḥ»]
+
+Negelein on the author of the *Svapnacintāmaṇi*, Introduction p. XV (leaf n20 of the Internet Archive item, read on the image): the person of the author "hovers wholly in the dark"; he knows nothing more than that Jagaddeva was the son of a Durlabharāja, who wrote soothsayers' treatises (the *Sāmudratilaka*), and is to be placed chronologically much later than physicians such as Vāgbhaṭa (he points to verse 2.116 for it; what that verse says was not opened here). The same page says the compiler claims to draw on medical sources, which Negelein followed up as far as he could; the compiler's own list of them (read in the text layer, p. 376: the treatises of Bhadrabāhu, Suśruta, Vācaspati and Caraka) is neg:p376, and Negelein found that the compiler in fact drew on other sources more to the point. The text names no date of its own: the colophons (to chapter 1 in his manuscript B, and to chapter 2, p. 378) call it "composed by the most worthy Jagaddeva, son of the illustrious Durlabharāja", and the last verse of chapter 2 (2.161) plays on the father's name ("the poet born of Durlabha"). Negelein gives no century on this page; the twelfth century of the registry and of Wayman is from outside the pages read.
+So the work that gives the dream spans in the *Svapnacintāmaṇi* form (a year, half a year, three months, a month, ten days, at once: neg:p14-16) states no date; Negelein places it later than the physician Vāgbhaṭa and says no more of its time.
+
 ## <a id="neg-p32"></a>neg:p32 Negelein's notes on the Bṛhaspati Svapnādhyāya (manuscript i) and on the half-verse ascribed to Bṛhaspati in manuscript r
 
 *Read: machine, 2026-11-09 (RD272), the text layer of pp. 16, 31–32 (the page images not opened); the sentences below that rest on p. 16 are on the page image read by RD269 (neg:p14-16).*

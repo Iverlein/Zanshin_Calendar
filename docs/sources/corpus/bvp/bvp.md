@@ -9,6 +9,25 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD269 (2026-11-09): Kṛṣṇajanmakhaṇḍa 73 on the page images of the Jivananda print (n668 = p. 661, n669 = p. 662, n673 = p. 666), vv. 5–7 and the lines around them.
 
+## <a id="bvp-p660"></a>bvp:p660 The head of the Svapnādhyāya in the Jivananda print: Nanda's question and the Lord's naming of the Sāmaveda and the Kāṇva branch, v. 1–4 (tathaiva against tatraiva)
+
+*Read: scan, 2026-11-10 (RD357), on the page images n667 and n668 of the Internet Archive item.*
+
+> नन्द उवाच ।
+> केन स्वप्नेन किं पुण्यं केन मोक्षो भवेत् सुखम् ।
+> कोऽपि कोऽपि च सुस्वप्नस्तत्सर्वं कथय प्रभो ॥ १ ॥
+> श्रीभगवानुवाच ।
+> वेदेषु सामवेदश्च प्रशस्तः सर्वकर्मसु ।
+> तथैव काण्वशाखायां पुण्यकाण्डे मनोहरे ॥ २ ॥
+> स व्यक्तो यश्च (सु/दुः)स्वप्नो भवेत् पुण्यफलप्रदः ।
+> तत्सर्वं निखिलं तात कथयामि निशामय ॥ ३ ॥
+> स्वप्नाध्यायं प्रवक्ष्यामि बहुपुण्यफलप्रदम् ।
+> स्वप्नाध्यायं नरः श्रुत्वा गङ्गास्नानफलं लभेत् ॥ ४ ॥
+
+The head of the chapter at the foot of p. 660 of the Jivananda print (leaf n667; the next page, leaf n668, carries the running head 661), with v. 3–4 from the top of p. 661 (n668). Nanda said: "By which dream what merit, by which one the happy release? Every kind of good dream, tell it all, Lord." (v. 1). The Lord said: "Among the Vedas the Sāmaveda is best in all rites; **likewise (tathaiva) in the Kāṇva branch, in the lovely book/section of merit**" (v. 2). "Whichever dream is plain, ... gives the fruit of merit (v. 3a); all of it, in full, dear one, I shall tell, listen" (v. 3b); "I shall tell the chapter on dreams that gives much fruit of merit; a man who hears the dream chapter gets the fruit of a bath in the Ganges" (v. 4).
+**Variant against the Śabdakalpadruma and the 1935 print**: both of those read *tatraiva* ("in that same one", the Sāmaveda) in v. 2b (skd:p470-471; bvg:p1-2), which makes the Kāṇva branch a part of the Sāmaveda; the Jivananda print reads *tathaiva* ("likewise"), which sets the Kāṇva branch beside the Sāmaveda as a second authority. (The 1935 print also spells *kaṇva*, the Jivananda and the *Śabdakalpadruma* *kāṇva*.) The line 3a is a different one in the 1935 print ("su-vyakto 'yaṃ ca susvapnaḥ samyak-puṇya-phala-pradaḥ ...") and the 3b too ("tat sarvaṃ likhitaṃ tāta kathayāmi su-nirṇayam" against Jivananda's "tat sarvaṃ nikhilaṃ tāta kathayāmi niśāmaya"): the two prints are of two textual traditions of the same chapter.
+Doubt: the first syllable of "(su/duḥ)svapnaḥ" in v. 3a is not told apart in the print's type (the sense calls for *su-*); v. 1–2 are read on the image of the page's lower half, v. 3–4 on the full image of p. 661.
+
 ## <a id="bvp-p662-665"></a>bvp:p662-665 Brahmavaivartapurāṇa, Kṛṣṇajanmakhaṇḍa 73, the Svapnādhyāya: the watches and the spans (vv. 5–6) that are the Svapnohana's
 
 *Read: scan, 2026-11-09 (RD269); machine, 2026-11-09 (RD265) for vv. 8–52.*

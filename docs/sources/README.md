@@ -95,6 +95,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
 | [claims/brahmavaivarta-date-hazra-rocher.md](claims/brahmavaivarta-date-hazra-rocher.md) | claim, note | Published dates of the Brahmavaivarta: first about the 8th century, present form 10th to 16th; the dream chapter not dated by itself (RD291) | cites skd:p470-471, svo:p271f; feeds block-73 |
 | [claims/brahmavaivarta-kanva-puranakanda-not-traced.md](claims/brahmavaivarta-kanva-puranakanda-not-traced.md) | claim, note | The Brahmavaivarta's Kāṇva "book of merit" is not traced to a known Vedic book; the Purāṇa uses the Kāṇva branch beside the Sāmaveda (RD291) | cites skd:p470-471; feeds block-73 |
+| [claims/brahmavaivarta-kanva-tathaiva-tatraiva.md](claims/brahmavaivarta-kanva-tathaiva-tatraiva.md) | claim, note | The Brahmavaivarta's 'Kāṇva branch, book of merit': tathaiva against tatraiva, and the Nepali gloss | cites bvp:p660, bvg:p1-2, skd:p470-471; feeds block-73 |
 | [claims/brhatsamhita-no-dream-chapter.md](claims/brhatsamhita-no-dream-chapter.md) | claim, note | Varāhamihira's Bṛhatsaṃhitā and Yogayātrā have no chapter on dreams (RD263) | cites bsm:p8-12, yyt:p188, bya:p41-46; feeds block-73 |
 | [claims/bsgrub-all-prints.md](claims/bsgrub-all-prints.md) | claim, note | The five graves' «བསྒྲུབ» is carved the same in all prints read | cites wb.2:p124-125, wbz:i809; feeds block-31 |
 | [claims/bsr-dream-rite-no-signs.md](claims/bsr-dream-rite-no-signs.md) | claim, note | Bu ston's examination of dreams is a rite for a dream of one's birth and death and gives no list of dream signs | cites bsr:p825-828; feeds S1, RD329 |
@@ -637,6 +638,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ozassho-dream-table-which-prints.md](claims/ozassho-dream-table-which-prints.md) | claim, note | The days-a-dream-is-not-told table is in the 万代大雑書 and the Ebara dream book, not in the two 永代 prints read | cites mdz:p11, mdz:i31, mdz:i72, eb9:i9; feeds S3 |
 | [claims/peking-only-one-tengyur-instance.md](claims/peking-only-one-tengyur-instance.md) | claim, note | BDRC has one Peking Tengyur only, W1KG13126; no second scan of the Peking exists to check the Dpe bsdur ma's Peking entries (RD327) | cites svo:p271w; feeds RD327 |
 | [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
+| [claims/penn-svapnadhyaya-four-copies-month-for-fourth-watch.md](claims/penn-svapnadhyaya-four-copies-month-for-fourth-watch.md) | claim, note | Four Penn copies of the Bṛhaspati Svapnādhyāya give a month for the fourth watch; none has three fortnights or half a month | cites pn1871:i2b, pn1871:i4, pn2730:i0, pn687:i1, pn673:i6, bvp:p662-665, bvg:p3, apv:p445; feeds block-73 |
+| [claims/penn-svapnadhyaya-opens-with-apv-68-2-58.md](claims/penn-svapnadhyaya-opens-with-apv-68-2-58.md) | claim, note | The Penn Svapnādhyāya begins with the Atharva-pariśiṣṭa's verse in the form its manuscripts give | cites apv:p445, apv:p456, pn1871:i2b, pn2730:i0, pn687:i1, bvg:p3; feeds block-73 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
@@ -687,6 +690,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/small-element-and-do-gcig-in-reply-152.md](claims/small-element-and-do-gcig-in-reply-152.md) | claim, note | The small element and the do gcig in reply 152 | cites ys:i513-514, wb.2:p39-41; feeds block-31 |
 | [claims/snying-sdug-in-the-lexica-a-loved-one.md](claims/snying-sdug-in-the-lexica-a-loved-one.md) | claim, note | The lexica give snying sdug as a loved one, not as heartache (RD322, q940) | cites svo:p271q; feeds block-73 |
 | [claims/son-text-hidden-text.md](claims/son-text-hidden-text.md) | claim, note | The son text and the hidden text as classes of the tradition's texts | cites ys:i492-493, ys:i094b; feeds block-32 |
+| [claims/sources-own-dates-dream-texts.md](claims/sources-own-dates-dream-texts.md) | claim, note | What the dream texts say of their own date: none names one; the dated copy is of 1824; Scheuermann still unread | cites bvp:p660, bvg:p1-2, neg:i20, apv:p445, pn673:i6; feeds block-73 |
 | [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/spo-is-uttaraphalguni.md](claims/spo-is-uttaraphalguni.md) | claim, note | «སྤོ» is a name of U. Phalgunī; «ལག་སོར» is lha mtshams | cites wb.2:p65-66, wb.2:p122, wbz:i720, wbz:i805; feeds block-31 |
 | [claims/spor-thang-name.md](claims/spor-thang-name.md) | claim, note | The Spor thang is the Chinese reckoning's tradition that WB, Mipham and KD's charts all name | cites kd.3:p718, kd.3:p726c; feeds block-58 |
@@ -1126,7 +1130,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ahr/ahr.md](corpus/ahr/ahr.md) | corpus | AHR | 1 passages: 1 scan |
 | [corpus/ahs/ahs.md](corpus/ahs/ahs.md) | corpus | AHS | 1 passages: 1 scan |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
-| [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 1 passages: 1 machine |
+| [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 2 passages: 2 scan |
 | [corpus/asm/asm.md](corpus/asm/asm.md) | corpus | ASM | 1 passages: 1 scan |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
 | [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
@@ -1134,7 +1138,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
 | [corpus/bsr/bsr.md](corpus/bsr/bsr.md) | corpus | BSR | 3 passages: 3 machine |
-| [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 1 passages: 1 scan |
+| [corpus/bvg/bvg.md](corpus/bvg/bvg.md) | corpus | BVG | 2 passages: 2 scan |
+| [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 2 passages: 2 scan |
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 4 passages: 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
@@ -1183,11 +1188,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
-| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 5 passages: 2 scan, 3 machine |
+| [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
-| [corpus/pn1871/pn1871.md](corpus/pn1871/pn1871.md) | corpus | PN1871 | 1 passages: 1 scan |
-| [corpus/pn673/pn673.md](corpus/pn673/pn673.md) | corpus | PN673 | 1 passages: 1 scan |
+| [corpus/pn1871/pn1871.md](corpus/pn1871/pn1871.md) | corpus | PN1871 | 4 passages: 4 scan |
+| [corpus/pn2730/pn2730.md](corpus/pn2730/pn2730.md) | corpus | PN2730 | 1 passages: 1 scan |
+| [corpus/pn673/pn673.md](corpus/pn673/pn673.md) | corpus | PN673 | 2 passages: 2 scan |
+| [corpus/pn687/pn687.md](corpus/pn687/pn687.md) | corpus | PN687 | 1 passages: 1 scan |
 | [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 2 passages: 2 scan |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rgd/rgd.md](corpus/rgd/rgd.md) | corpus | RGD | 1 passages: 1 etext |
@@ -2137,8 +2144,11 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **YYT** | Varāhamihira, *Yogayātrā*, with Harinandana Miśra's commentary | ed. Sudhākara Dvivedi, Benares 1907 | Internet Archive id xnmx_yoga-yatra-of-varahamihira-ed-by-sudhakar-dvivedi-1907-diamond-jubilee-print; searched for *svapna* (RD263, 2026-11-09): no chapter on dreams |
 | **NEG** | Julius von Negelein, *Der Traumschlüssel des Jagaddeva* (*Svapnacintāmaṇi*, a dream book of about the twelfth century, Sanskrit in Roman transliteration with German translation and commentary), *Religionsgeschichtliche Versuche und Vorarbeiten* 11.4 | Giessen 1912 | Internet Archive id von-negelein-der-traumschlussel-des-jagaddeva; OCR text layer searched whole (RD265, 2026-11-09); public domain |
 | **SKD** | Rādhākāntadeva (Raja Radhakanta Deva), *Śabdakalpadruma* (a Sanskrit encyclopaedic dictionary), vol. 5, the article *svapna*, pp. 470–473 | Calcutta 1886–1893 (reprints: Nag Publishers 2002, Chowkhamba Sanskrit Series) | Internet Archive ids TheSabdakalpadrumaPart5RsktS and sabdakalpadrumavol5vardaprasadvasuhariprasadvasuchowkambhasanskritseries_441_O; read on the page images of the two reprints (RD272, 2026-11-09); p. 473's Vāgbhaṭa lines read again beside Kunte's *Aṣṭāṅgahṛdaya* (RD295, 2026-11-10); public domain |
-| **PN1871** | *Svapnādhyāya* (Bṛhaspati's by its colophon) with a hymn to the nine planets, manuscript of 5 leaves, Penn Ms. Coll. 390 Item 1871 | Kislak Center, University of Pennsylvania; paper, 18th–19th century | OPenn mscoll390_item1871 (web images 3014_0000–0006, TEI file); the server is very slow (about 1 kB/s), images fetched with curl `-C -` and read by eye on the part that arrives (RD277, 2026-11-09); no known copyright |
+| **BVG** | *Svapnādhyāya* of the *Brahmavaivartapurāṇa* (*Kṛṣṇajanmakhaṇḍa* 73) with a Nepali commentary, Banaras 1935 | Gorkha Pustakalaya (Babu Shivaprasad Raghoram), Banaras | Internet Archive iipt-swapnadhyaya-brahmavaivarta-purana-with-nepali-com (leaf n = printed page + 5); pp. 1–3 and 5 read on the images (RD357, 2026-11-10); the same chapter as BVP in a second print; public domain |
+| **PN1871** | *Svapnādhyāya* (Bṛhaspati's by its colophon) with a hymn to the nine planets, manuscript of 5 leaves, Penn Ms. Coll. 390 Item 1871 | Kislak Center, University of Pennsylvania; paper, 18th–19th century | OPenn mscoll390_item1871 (web images 3014_0000–0006, TEI file); the OPenn server is very slow (about 1 kB/s; RD277 read the part that arrived), but Penn's Colenda IIIF server (manifest ark:/81431/p3jz6w, `…/full/2670,/0/default.jpg`) answers at once: images 1, 2 and 4 read there (RD357, 2026-11-10); no known copyright |
 | **PN673** | *Svapnādhyāya*, manuscript of 6 leaves, dated saṃvat 1881 (1824), Penn Ms. Coll. 390 Item 673 | Kislak Center, University of Pennsylvania | OPenn mscoll390_item673 (web images 5905_0000–0006); read by eye on the first leaf (RD277, 2026-11-09); no known copyright |
+| **PN2730** | *Svapnādhyāya* (Bṛhaspati's by its colophon), manuscript of 2 leaves, Penn Ms. Coll. 390 Item 2730 | Kislak Center, University of Pennsylvania; paper, circa 1700–1850 | Colenda IIIF manifest ark:/81431/p3hm52k1p (images at 2670 px answer at once; OPenn's server is the slow one); read by eye on the first page (RD357, 2026-11-10); no known copyright |
+| **PN687** | *Svapnādhyāyastotra*, manuscript of 2 leaves with marginal corrections, Penn Ms. Coll. 390 Item 687 | Kislak Center, University of Pennsylvania; paper, circa 1700–1850 | Colenda IIIF manifest ark:/81431/p39c6s18p; read by eye on the first page (RD357, 2026-11-10); no known copyright |
 | **OSV** | *Svapnādhyāya* (No. 1), Sanskrit verses with an Odia verse paraphrase | Edward Pustakalaya, Cuttack 1929 | Internet Archive id swapnadhyaya-1929 (a 12-page PDF, scanned by Srujanika for the Odia Vibhava project); read on the page images (RD277, 2026-11-09); public domain |
 | **PZS** | *Svapnodhyāya* ("Bṛhaspati said"), folios 67–72 of a Devanagari volume of stotras, Peerzada Collection, Srinagar (ACC-NMM-16) | manuscript, undated; digitised by the Sarayu / eGangotri Trust | Internet Archive id jqjc_svapnodhyaya-shukashtaka-shiva-nirvana-hari-tattva-muktavali-others-devanagari-m (CC0); PDF pages 102–103 read on the images (RD277, 2026-11-09) |
 | **RMK** | *Svapnādhyāya* ("Bṛhaspati said"), manuscript M 856, Ramtek | Kavikulguru Kalidas Sanskrit University, Ramtek (undated) | Internet Archive id lVHJ_m-856-svapnadhyaya-kavikulguru-kalidas-sanskrit-university-ramtek-collection (CC0); PDF page 2 read on the image (RD277, 2026-11-09) |

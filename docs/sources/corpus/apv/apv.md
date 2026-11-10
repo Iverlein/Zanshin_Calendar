@@ -9,7 +9,7 @@ text's order, each under its id, with its `*Read:*` line.
 
 ## <a id="apv-p445"></a>apv:p445 Svapnādhyāya, verses 57–61: the last of successive dreams, the watches of the night and the fruit, the remedy
 
-*Read: machine, 2026-11-09.*
+*Read: scan, 2026-11-10 (RD357), verses 57–61 on the full-size page image (leaf n223 of the Internet Archive item), the text as above; machine, 2026-11-09, before.
 
 > śubhaṃ dṛṣṭvā tu yaḥ svapne punaḥ paśyaty apūjitam |
 > śubhaṃ vā py aśubhaṃ vā pi yat paścāt tat-phalaṃ labhet || 57
@@ -38,3 +38,15 @@ Reading of the verses in Roman transliteration (the Bolling–Negelein text laye
 - The Sanskrit of the *Kālaprakāśikā*'s dream verse: none of four scans of Iyer's edition on the Internet Archive (in.ernet.dli.2015.45999, kalaprakasika, Kalaprakashika, Kalaprakasika1982EditionByN.Iyer) has Devanagari in its text layer; the Tamil-press scan (ZBAx_kalaprakasika-n-p-iyer-tamil-lawley-press, 1.3 million characters) did not download in the browser; Wikisource, GRETIL and Sanskrit Documents were not found to hold the work.
 - A dream chapter in the *Bṛhatsaṃhitā* and the *Yogayātrā*: none (claim [brhatsamhita-no-dream-chapter](../../claims/brhatsamhita-no-dream-chapter.md)).
 - Not reached: Kohlbrugge's dissertation *Atharvaveda-pariśiṣṭa über Omina* (1938, Internet Archive id kohlbrugge-atharvaveda-parisista-uber-omina) and Modak's *The Ancillary Literature of the Atharva Veda* (1993): modern, left unread; the Jaina *Aṅgavijjā* chapters on travel and time (ch. 43–44) and Negelein's German translation of Jagaddeva's *Svapnacintāmaṇi* (Giessen 1912).
+
+## <a id="apv-p456"></a>apv:p456 Bolling and von Negelein's variant readings for Pariśiṣṭa 68.2.58–61: svapnas in all manuscripts, māsiko go-visarge without a variant
+
+*Read: scan, 2026-11-10 (RD357), on the full-size page image.*
+
+> LXVIII. 2. 58. ABCDET svapnas. ACD cā ṣṭamāseṣu; E cāṣṭasu māseṣu.
+> 59. ACDETRoth sadyaḥpākāḥ; B sadyaḥphalaḥ. BE kāla. E avasthāḥsu; T avasthāsu. Roth kīrttitāḥ.
+> 60. XRoth śāṃti.
+> 61. AD gosparśana; B gosparśanyam.
+
+The apparatus of Bolling and von Negelein for the verses 58–61 on p. 456 (read on the page image n234 of the Internet Archive item, full size; the print of the verses themselves, p. 445, read on image n223): **for v. 58, all seven manuscripts (A B C D E T and Roth's) read *svapnas*** where the edition prints *svapnās tu prathame yāme*, the opening that the Penn manuscripts have as *svapnas tu prathame yāme* (pn1871, pn2730's "svapnas tu", pn673), so that their first half-line is the Parisiṣṭa's, with the editors' own emendation undone. For the second half of the verse, A, C and D read *ca 'ṣṭamāseṣu* ("and in eight months") and E reads *cāṣṭasu māseṣu*: the eight months of the second watch are in every manuscript. For v. 59, A C D E T and Roth read *sadyaḥpākaḥ*, B *sadyaḥphalaḥ* (the cows' release a month, the dawn at once); **no variant is marked on *māsiko go-visarge*** (the month for the cows' release), so that it stands in all the manuscripts, against Penn's "at once" for the cows' release and a month for the fourth watch. The page carries nothing on a date of the manuscripts.
+Our reading is on the image; the editors' sigla are as they print them (A–E, T, Roth: the Roth–Whitney Atharvaveda text).
