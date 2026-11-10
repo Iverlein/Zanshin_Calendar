@@ -1109,6 +1109,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC §10.12 |
 | [claims/yamagashu-first-dream-poem-two-texts.md](claims/yamagashu-first-dream-poem-two-texts.md) | claim, conflict | The 山家集 first-dream poem: the common text and the old 異本 text differ in headnote and in the third line | cites skf:p3, skf:p4, skf:p5, skf:p1, skf:p2; feeds S3 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
+| [claims/yumeawase-chojakagami-no-table.md](claims/yumeawase-chojakagami-no-table.md) | claim, note | The 夢合長者鑑 of 1886 (NDL pid 899567) is the dream part of the 万代大雑書 plates and has no table of days and no 初夢 | cites mdz:i899567, mdz:i108, mdz:i190; feeds S3 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/za-zi-confused-not-many.md](claims/za-zi-confused-not-many.md) | claim, note | ཟ་ཟི (za zi) in «རྨི་ལམ་ཟ་ཟི་མང» is a word of its own: unclear, confused, troubled | cites wb.1:p431b, st:p183, st:p218, st:p241; feeds S1, q790, q884 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
@@ -1171,7 +1172,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 9 passages: 6 scan, 3 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 10 passages: 7 scan, 3 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |

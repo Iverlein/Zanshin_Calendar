@@ -256,3 +256,36 @@ Open:
 - Question: is the 夢合長者鑑, a dream book listed at forty sen in the publisher's list of the 万代大雑書三世相 (Suzuki Kiemon, 1886), set out in the NDL or any library, and does it carry the table of the days on which a dream is not told with a legend for the slash (q785) or a 初夢 night (q788)?
 
 Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざる日 and the words 語らざる日, and any 初夢, on the page images 128 and 132-139 and on 190 of pid 760742 (images 140-189 are the numbered lots and were looked at only through the OCR sorted by image, which shows lot texts and no dream table; not by eye); (2) images 1-107 (the front matter and the almanac's day-choosing tables) were not read leaf by leaf: three leaves were looked at (33, 36, 101); the slash table and the 初夢 are therefore not excluded from the front, only not found where the dream articles lie (images 108-137 hold the dream section whole); (3) the OCR text of the volume for 語らざる, 初夢 and 夢を見て: no hit (as RD308).
+
+## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
+
+*Read: by eye on the page images 3 and 33, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
+
+> 夢合長者鑑 全
+> 前北齋爲一翁圖畫
+> 東京 壽々木書屋版
+> 
+> 明治十八年十二月廿八日 翻刻御届
+> 同十九年二月 發免
+> 定價十五錢
+> 原版人 丁子屋平兵衛
+> 翻刻出版人 東京書肆 鈴木喜右衛門
+> 日本橋區藥研堀町四十三番地
+
+Dream-matching mirror of the elders (夢合長者鑑), complete. Pictures by the late Hokusai Tamekazu (前北齋爲一翁). Tokyo, Suzuki Shooku edition (壽々木書屋).
+
+Reprint notified on the 28th day of the 12th month of Meiji 18, issued in the 2nd month of Meiji 19 (1886). Fixed price fifteen sen (定價十五錢). Original publisher Chojiya Heibei (丁子屋平兵衛); reprint publisher Suzuki Kiemon (鈴木喜右衛門), bookseller of Tokyo, 43 Yagenbori-cho, Nihonbashi ward.
+
+The leaf is the colophon of the book, on image 33 of the NDL record (pid 899567); the title leaf (image 3) carries the same title, the publisher's name and the artist.
+
+## RD340 (2026-11-10): the 夢合長者鑑 and the other dream books of the NDL; Open; Searched and not found
+
+The 夢合長者鑑 (1886, call number 特38-696, NDL pid 899567) is open (IIIF manifest answers, 34 images, full-text API answers) and was looked at on all 34 page images (1600 px wide, 2026-11-10), the title leaves (images 2-3), the colophon (image 33) and the five-natures table (image 4) one by one, the running-text leaves (images 4-32) as a contact sheet and in crops of images 5 and 32. The NDL's OCR of it is unusable (cursive kana read as noise) and was not used. What the leaves show: images 2-3 the title leaf (前北齋爲一翁圖畫, 東京 壽々木書屋版) beside a round diagram of the sixty-year cycle with 魂 in the centre; image 4 the table of the five natures (木火土金水 as the columns) with the number of holes in a flower press and good or bad numbers (五性花押穴数吉凶); images 4-32 the dream articles in running cursive, each marked with a circle, under group headings seen as 天地の部 (image 4), 人倫の部 (image 12) and 神祇の部 (image 17-18), with a picture to a group, the same plates and arrangement as the dream section of the 万代大雑書三世相 (mdz:i108), and a folio mark at the foot of the leaves that begins with 万代 (image 32 shows it plainly, image 4 less so); image 33 the colophon (mdz:i899567). On none of the 34 images is there a table of twelve months with day branches, a legend for a slash, the words 語らざる日 or a 初夢: the leaves are the plain articles ("if one sees X"), looked at and not read letter by letter.
+
+What was found: (1) the 夢合長者鑑 is the dream part of the 万代大雑書 plates issued as a book of its own, by the same publisher (Suzuki Kiemon) and in the same month as the 万代大雑書三世相 reprint; its colophon names the price as fifteen sen (十五錢) where the publisher's list of mdz:i190 names forty (四十銭): either a different issue or a different price for the same title, not settled. (2) It answers neither q785 nor q788: no table, no slash legend, no 初夢 in it. (3) Of the other Meiji and Edo dream books that the catalogue names (the 夢合延寿袋大成 of 1814 and its 1709, 1777 and 1830 editions, the いろは引夢うらなひ of 1801, the 一代の星見夢はんじ of 1822, the 清明秘鈔夢判事 of 1862, the 万物分類夢相手鑑 and ゆめはんじ of 1847, the 夢合判断大成 of 1830, the 善惡夢はんじ of 1888) none has a pid in the NDL Digital Collections: the records are catalogue entries of other libraries' holdings. The one other dream book with a pid, the 銭判断独うらない・人相独稽古・占ひのこゝろえ・善悪夢はんじ of 1913 (pid 917353, 71 pages in the full-text API), has none of 語ら, 初夢, 夢を見て, かたらず in its OCR; it was not looked at on the images.
+
+Open:
+
+- Question: the 夢合延寿袋大成 (1814, 夢占道人), the 夢合判断大成 (1830) and the 清明秘鈔夢判事 (1862), dream books listed in the catalogue without a digitised copy at the NDL, may be held open at another library (Waseda, the University of Tokyo, a university's collection): does any of them set out the table of the days on which a dream is not told, with a legend for the slash (q785), or a 初夢 night and its calendar (q788)?
+
+Searched and not found (RD340), 2026-11-10: (1) the NDL catalogue (`ndl.py`, 2026-11-10) for 夢合長者鑑, 夢合, 夢判断, 夢占, 夢解, 夢見, 夢合延寿袋, いろは引夢うらなひ, 夢うらない, ゆめはんじ, 夢判じ and 夢相, titles of before 1925 with 夢 or ゆめ: apart from the 夢合長者鑑 (pid 899567, open) and the 1913 book (pid 917353) no record carries a Digital Collections pid; the 永代大雑書大成 (pid 759978) and the 吉凶禍福夢判断 (pid 760913) of RD308 stay restricted and were not tried again; (2) the 夢合長者鑑 on all 34 images: no table of days, no slash legend, no 語らざる日, no 初夢 (the running text not read letter by letter, so a sentence on the days could hide in it); (3) the NDL OCR of pids 899567 and 917353 for 語ら, 初夢, 夢を見て, かたらず and 語らず: no hit, and the OCR of 899567 is noise.
