@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD222 (second run, 2026-11-10): Yigdzin-1 and MITRA again over I3JW3517 img. 392-395 (97, 96, 98 and 97 percent agreement; 5, 7, 3 and 6 flags). Scan lines of img. 393 at y about 317, 383, 444, 506, 571, 627 (pitch about 62 px; the first is the page's opening line), text x about 350-3980; this hand is legible at 1.5x where TDR's is not. By eye, img. 393 line 2: «གྲིབ་ལ་འཛེམ» with the e sign on the 'dza (so 'dzem, MITRA's reading, not Yigdzin-1's «འཛམ»), moderate; the other flags (dro'i kha / dro zhig, sbas / spas, shra mo / shra me, bsten, 'og / khog, bzhag, yod do / yong ngo, nges / des, gal / grol) were cut by character-fraction crops that took in two lines at once and were not settled; they remain as RD253 left them, taken from the clear print W24769. The passage srm.6:p386-389 stays machine.
+
 Read by RD253 (2026-11-09): SRM on W24769 vol. 6 (I6320 img. 275–279) read by eye over the whole text, contrast-stretched at 1.4–3.4×; the passage srm.6:i275-279 below is in scan state, the Gangtok passage stays machine.
 
 Read by RD239 (2026-11-09): SRM on the second print W24769 vol. 6 (I6320 img. 275–279).

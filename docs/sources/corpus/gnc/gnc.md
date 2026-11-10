@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD222 (second run, 2026-11-10): Yigdzin-1 and MITRA again over I1662 img. 565-569 (92, 96, 97, 99 and 98 percent agreement; 10, 5, 4, 2 and 2 flags). The flags are almost all seed syllables and mantra letters (tantra spells of img. 565-566, «ཧྲཱི», «བྷ་ཡ»), «སྦྲེལ/སྤྲེལ» (the monkey month, img. 565 line 1), «ཟླའི/ལྒའི», «ལྟེབས/ལྟབས» (img. 567) and «པོབ», «ཐིམ་ཨག» (img. 568-569); the pages are in the 2165 px width of TDR's, so they were not read by eye, and no passage of gnc.1:p557-558 or gnc.1:p559-561 moves to scan state.
+
 Read by RD315 (2026-11-10): the history of the Glorious Rno bkra, vol. 1 pp. 493–494 (I1662 img. 501–502, woodblock, whole pages in halves at 1.9x by eye, then Yigdzin-1 through the slot): gnc.1:p493-494; BDRC's search for «རྣོ་བཀྲའི་ལོ་རྒྱུས» and for the dmar mo phrases.
 
 Read by RD286 (2026-11-10): the heading and the first two lines of p. 558 on the scan (I1662 img. 566, woodblock, crops at 2.4-6x): «དཔལ་རྣོ་བཀྲ» and «དམར་མོ་འདས་པའི་གདུང་ཐལ» read; the BDRC outline of MW21578 (the Rno bkra section, partIndex 7) and BDRC's full-text search for the name; the rest of the page stays machine.
