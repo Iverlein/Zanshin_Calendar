@@ -556,3 +556,13 @@ What «བགྲོད་མིན» limits (q813): the clause stands at the end
 
 - The Derge print of the Svapnohana in the image group I00JW501163 named by the row: that group is the Derge Four Tantras (ch. 91 and the Root Tantra were searched on it by earlier readings); the Derge Tengyur frames are in I1344 img. 268–271, 8 px letters.
 - A syllable of «བགྲོད་མིན» and of «བཅུ་ཡི་བར» that differs on the Peking: none seen at 2.5–4×.
+
+
+## The Svapnohana on the Derge Tengyur frames (I1344 img. 268–271, letters of about 8 px, so only enlarged and contrast-stretched crops): «བགྲོད་མིན», «བཅུ་ཡི་བར», «བླ་མོ» and the word after it, on the Derge, to set beside the Peking and Narthang of RD305 and RD289 (q813, q814), and the Co ne print of the same (RD310)
+
+Nothing read yet: RD310's passages, with the English beside them, go here.
+
+
+## The Sanskrit dream texts beside the Svapnohana, from open editions and scans: the Bṛhadyātrā 16.10 (which part of the night and which humour go with which of the three seasons, q855), the Aṅgavijjā chs. 41–42 (the bright beginning and root as forenoon or afternoon, q856, q892), the Bṛhaspati Svapnādhyāya in Negelein's manuscripts and the Penn, Srinagar and Ramtek copies (three fortnights or a month for the fourth watch, q868, q871, q872), and the Aṣṭāṅgahṛdaya Śārīrasthāna 6.63 «gosarge» or «gomuktra» (q891) (RD312)
+
+Nothing read yet: RD312's passages, with the English beside them, go here.
