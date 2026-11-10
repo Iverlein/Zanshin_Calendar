@@ -1150,7 +1150,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 4 passages: 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
-| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: RD366 2026-11-10, PT 55 part IX described from open abstracts, images looked at but not read, no Tibetan quoted |
+| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/eb9/eb9.md](corpus/eb9/eb9.md) | corpus | EB9 | 6 passages: 4 machine, 2 etext |
@@ -1163,7 +1163,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 2 passages: 2 etext |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 6 passages: 4 machine, 2 etext |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
-| [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 0 passages: RD366 2026-11-10, PT 55 part IX described from open abstracts, images looked at but not read, no Tibetan quoted |
+| [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 0 passages: nothing read yet |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
 | [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 2 passages: 2 etext |
@@ -1194,7 +1194,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 11 passages: 8 scan, 3 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
-| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 0 passages: RD366 2026-11-10, PT 55 part IX described from open abstracts, images looked at but not read, no Tibetan quoted |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 0 passages: nothing read yet |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
@@ -1211,7 +1211,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
-| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: RD366 2026-11-10, PT 55 part IX described from open abstracts, images looked at but not read, no Tibetan quoted |
+| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 7 passages: 7 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
@@ -1227,7 +1227,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 4 passages: 1 scan, 1 machine, 2 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
-| [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 0 passages: RD366 2026-11-10, PT 55 part IX described from open abstracts, images looked at but not read, no Tibetan quoted |
+| [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 0 passages: nothing read yet |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
@@ -2033,6 +2033,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1005.md](questions/q1005.md) | question q1005 | The Shechen etext opens four Lama Gongdü texts of vol. 42 (the dream text and three others) with a run of 6 to 8 placeholder marks before «namo guru deva ḍākinī hūṃ»; is the ornamental string before the homage one fixed opening of the cycle's texts, written with as many glyphs as the text needs, and what is it? | open; cites lgd.42:p962b |
 | [questions/q1006.md](questions/q1006.md) | question q1006 | In the rite of killing of the oath-bound great man (Rin chen gter mdzod vol. 38) the god «who comes alongside» and the demon «born together» are the two attendants of the enemy; is this the use LGD p. 970 follows, so that «མཉམ་པོར་འོང་བའི་བདུད» is the person's attendant demon and not Chöd's self-clinging? | open; cites lgd.42:p962b |
 | [questions/q1007.md](questions/q1007.md) | question q1007 | The third Karmapa's verses (after Marpa) call the dream of midnight (ནམ་ཕྱེད) the power of spirits, LGD's «གུང» the time of the afflictions: are the two the same part of the night under two characterisations, or do the traditions differ? | open; cites lgd.42:p962b |
+| [questions/q1008.md](questions/q1008.md) | question q1008 | Does the 19-line text of PT 55 (Crescenzi and Torricelli 1995, Chen 2017) give any time of the dream (watch of the night, month, day) or only the good/bad division and the three remedies? The abstracts are silent. | open; cites — |
+| [questions/q1009.md](questions/q1009.md) | question q1009 | Which view of the 13 that IDP gives for PT 55 holds the dream text (the 19 lines below the diagram), and can it be read at a higher resolution (Gallica, or the BnF's own viewer) than IDP's 1024 px? | open; cites — |
 
 <!-- end pool index -->
 
