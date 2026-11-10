@@ -2264,6 +2264,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1084.md](questions/q1084.md) | question q1084 | Is Marpa's saying (dusk dream habit, midnight the power of spirits, dawn true) in a work or oral teaching of Marpa, Mi la ras pa or Sgam po pa, and is «gdon dbang» there the spirits' power? | open; cites rrd.5:p57-59 |
 | [questions/q1085.md](questions/q1085.md) | question q1085 | What time of day is the «gro kha» in the third Karmapa's six sessions, and is «gung» in his session list the middle of the night or a longer part? | open; cites rrd.5:p111-112 |
 | [questions/q1086.md](questions/q1086.md) | question q1086 | Is «mtshan brtas» in «tho rangs mtshan brtas 'di ltar byung» (the third Karmapa) a spelling of «mtshan brtags/rtags», and does it mean the following dream or a separate omen? | open; cites rrd.5:p57-59 |
+| [questions/q1087.md](questions/q1087.md) | question q1087 | Does the Tibet House manuscript catalogue (I2KG212509) carry the printed Tshangs pa'i dbyangs entries, and list the Examination of Dreams at all? | open; cites svo:i197 |
+| [questions/q1088.md](questions/q1088.md) | question q1088 | Is the stack in the Peking print's Sanskrit title of the Svapnohana པྣ or བྣཱ (BDRC's record gives swap+na, the Derge colophon བྣཱ)? | open; cites svo:i197 |
+| [questions/q1089.md](questions/q1089.md) | question q1089 | What does the verb གདོན mean in the remedy durations of the Kanjur Svapnanirdeśa-parivarta (Toh 48, etext p. 417: «four years» for the fourth stage)? | open; cites svo:i197 |
+| [questions/q1090.md](questions/q1090.md) | question q1090 | Is ལྟ་བ in the Derge title རྨི་ལམ་ལྟ་བ་ངན་པ་རྣམ་པར་ཟློག་པ the dream «view», or a spelling of ལྟས «sign»? | open; cites svo:i197 |
+| [questions/q1091.md](questions/q1091.md) | question q1091 | What is དུས་དྲུག in the Showing of dreams rite (Dpe bsdur ma I1PD95882 pp. 660-661): six periods of the day and night, or six times of reciting? | open; cites svo:i197 |
 
 <!-- end pool index -->
 
