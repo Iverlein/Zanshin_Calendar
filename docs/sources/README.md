@@ -1152,6 +1152,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/yumeawase-chojakagami-no-table.md](claims/yumeawase-chojakagami-no-table.md) | claim, note | The 夢合長者鑑 of 1886 (NDL pid 899567) is the dream part of the 万代大雑書 plates and has no table of days and no 初夢 | cites mdz:i899567, mdz:i108, mdz:i190; feeds S3 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/za-zi-confused-not-many.md](claims/za-zi-confused-not-many.md) | claim, note | ཟ་ཟི (za zi) in «རྨི་ལམ་ཟ་ཟི་མང» is a word of its own: unclear, confused, troubled | cites wb.1:p431b, st:p183, st:p218, st:p241; feeds S1, q790, q884 |
+| [claims/zassho-sanseiso-kokagami-colophon-ita.md](claims/zassho-sanseiso-kokagami-colophon-ita.md) | claim, note | The colophon of the 雑書夢合／三世相小鑑 reads 新板, with a Kyoto bookseller | cites mdz:i234427b; feeds S3 |
+| [claims/zassho-three-prints-not-told-days-same-cells.md](claims/zassho-three-prints-not-told-days-same-cells.md) | claim, note | The table 夢を見て語らざる日 stands in three prints with the same twelve cells; the slash is a gap before the last group | cites mdz:i183121, mdz:i234427b, mdz:p11; feeds S3 |
 | [claims/zassho-yumeawase-not-told-days-second-print.md](claims/zassho-yumeawase-not-told-days-second-print.md) | claim, note | The 雑書夢合 / 三世相小鑑 prints the table 夢をみてかたらぬ日 too, agreeing with the 万代大雑書 | cites mdz:i234427, mdz:p11; feeds S3 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
@@ -1219,7 +1221,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 15 passages: 8 scan, 7 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 17 passages: 8 scan, 9 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 0 passages: nothing read yet |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |

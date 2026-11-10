@@ -294,6 +294,28 @@ The left-hand page repeats the charm of the 夢合早占大成 (mdz:kano-22630):
 
 Image 18 (left page, the 二日 entry in full; the spread read at 4500 px and the last column at 7000 px) of the Tōto saijiki (天保9 = 1838) in the Ochanomizu copy DIG-OCHA-00706. The entry for the second day of the first month lists: the castle (諸役人方御礼登城), the merchants' small credit day (貸...), the courtesans' New Year visit at Yoshiwara (吉原遊女来礼), a linked-verse meeting at a Tenmangu (江戸天満宮... 連歌会), the first puppet-theatre performance (人形芝居初興行), and a custom whose name was read as 〔縫?〕初 (sewing-first, doubtful), then the third day follows. No 初夢 stands in the entry, and none on images 16-19 either (image 16 the 初冨士 and the 初寅 and 甲子 days, 18 the 二日, 19 the 三日 to 六日). The entry is the fixed list of the day's customs; it does not mention a first dream at all, so this book does not carry the 2 January night.
 
+## <a id="mdz-i183121"></a>mdz:i183121 萬歳大雑書日用寳 (慶応3 = 1867, Tokyo TOKY-01831), image 121: the table 夢と見て語らざる日の事, a third print (RD368)
+
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔萬歳大雑書日用寳、東大 TOKY-01831 画像121、左頁、項目〔四〕、右から〕
+> 夢と見て語らざる日の事
+> 正月　ひつじ　さる　ぬ
+> 二月　とり　さる　ミ
+> 三月　ひつじ　むま　ゐ
+> 四月　むま　うし　う　ゐ
+> 五月　むま　うし　う　ゐ
+> 六月　ね　うし　ゐ
+> 七月　ね　うし　たつ
+> 八月　とら　たつ　ね　ゐ
+> 九月　とら　たつ　ね　ゐ
+> 十月　たつ　ミ
+> 十一月　さる　ひつじ　ぬ
+> 十二月　むま　ひつじ　ゐ
+> 右の日ミる夢ハ善悪とも語らず　〔行末は読み切れず〕
+
+The table of the days on which a dream seen is not told, third print: the 萬歳大雑書日用寳 (Keio 3 = 1867, University of Tokyo DIG-TOKY-01831, kokusho.nijl.ac.jp bid 100451582), image 121, left page, printed leaf 百十六, headed "On the days on which a dream seen is not told" (夢と見て語らざる日の事), the fourth boxed item of the leaf, beside a picture of a man on a roof. Twelve month columns, read at 5760 px: month 1 goat, monkey, dog (ぬ for いぬ); 2 rooster, monkey, snake; 3 goat, horse, boar; 4 and 5 horse, ox, hare, boar; 6 rat, ox, boar; 7 rat, ox, dragon; 8 and 9 tiger, dragon, rat, boar; 10 dragon, snake; 11 monkey, goat, dog; 12 horse, goat, boar. In every column the last group of words stands lower after a gap (one word, two in months 4, 5, 8, 9), the place of the slash of mdz:p11. Closing line in the left margin: of the dreams seen on the days above, good and bad alike, nothing is told (read in part). No colophon on this leaf. The same leaf is image 124 of the 周南鹿野図岩崎 copy (慶応2, bid 100217088, 6520 px), columns 3-12 read there, the same cells.
+
 ## <a id="mdz-i234427"></a>mdz:i234427 雑書夢合／三世相小鑑 (Koizumi ORMK-02344), image 27: the table 夢をみてかたらぬ日, a second print (RD364)
 
 *Read: machine, 2026-11-10.*
@@ -314,6 +336,48 @@ Image 18 (left page, the 二日 entry in full; the spread read at 4500 px and th
 > 〔奥付、左下〕安永三午春新刻 ／ 享和元酉春新〔刻?〕
 
 Image 27 of the Koizumi Yoshinaga collection copy DIG-ORMK-02344 (雑書夢合 / 三世相小鑑, 28 images), the page spread at 6000 px (manifest ceiling), by eye. In a strip under a picture (a man holding a hanging scroll with Mount Fuji, a hawk on the shoulder of a second man) stands a table of twelve columns, one for each month, headed on the right «夢をみてかたらぬ日» ("the days on which a dream seen is not told"), the same title as in the 万代大雑書古今大成 (mdz:p11, there 夢を見て語らざる日). Each column opens with the month (正月, then 二月 to 十二月, written 十一月, 十二月 at the left end) and then the day branches in kana, each column of two or three words with a gap before the last. The cells that were legible letter by letter agree with mdz:p11: 正月 goat, monkey, dog; 三月 (goat) horse, boar; 四月 and 五月 horse, ox, (hare) boar; 六月 rat, ox, boar; 七月 rat, ox, dragon; 十一月 monkey, goat, (dog); 十二月 horse, goat, (boar). The second month's cell, the 八月-九月 and the 十月 cell were read in part only. No slash was seen in the cells at this size: the third word stands lower in the column, set off by a gap. There is no closing line "of the dreams on the days above neither good nor bad is told" read on this page; the left margin of the spread bears the colophon: «安永三午春新刻» and «享和元酉春新(刻?)» (Anei 3 = 1774, Kyowa 1 = 1801), so the print is a reissue of 1801 of a block cut in 1774. The reading of the three sets of branch names is unsettled where marked.
+
+## <a id="mdz-i234427b"></a>mdz:i234427b 雑書夢合／三世相小鑑 (ORMK-02344), image 27 read again column by column, beside the 万代大雑書古今大成 and the 萬歳大雑書日用寳 (RD368)
+
+*Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔雑書夢合／三世相小鑑、Koizumi ORMK-02344 画像27、右頁の下の帯、右から〕
+> 夢をみてかたらぬ日
+> 正月　ひつじ（薄い）　さる　いぬ
+> 二月　とり　さる　み
+> 三月　ひつじ　むま　ゐ
+> 四月　むま　うし　ゐう（二字、ゐと読む）
+> 五月　むま　うし　ゐう
+> 六月　祢　うし　ゐ
+> 七月　祢　うし　たつ
+> 八月　とら　たつ　祢　ゐ
+> 九月　とら　たつ　祢　ゐ〔末字は欠け気味〕
+> 十月　たつ　み
+> 十一月　さる　ひつじ　いぬ
+> 十二月　むま　ひつじ　い
+> 〔奥付、左頁の左端〕
+> 安永三午春新板
+> 享和元酉春新板
+> 京松原通冨小路東（入）…屋吉右衛門〔下は読み切れず〕
+
+Second reading of the table 夢をみてかたらぬ日 of the 雑書夢合／三世相小鑑 (Koizumi ORMK-02344, image 27, native size 3279 x 2439 px, the manifest serves no larger; the cells enlarged 2-3 times), month column by month column, beside the cells of the 万代大雑書古今大成 (mdz:p11) and of the 萬歳大雑書日用寳 (mdz:i183121). The table, as the three prints print it (kana as printed; "/" is the slash of mdz:p11, in the other two prints a gap before the last group):
+
+| month | mdz:p11 | ORMK-02344 image 27 | TOKY-01831 image 121 |
+| --- | --- | --- | --- |
+| 1 | ひつじ さる / いぬ | ひつじ(faint) さる / いぬ | ひつじ さる / ぬ |
+| 2 | とり さる / ミ | とり さる / み | とり さる / ミ |
+| 3 | ひつじ むま / ゐ | ひつじ むま / ゐ | ひつじ むま / ゐ |
+| 4 | むま うし / う ゐ | むま うし / (two glyphs, う ゐ) | むま うし / う ゐ |
+| 5 | as 4 | as 4 | as 4 |
+| 6 | ね うし / ゐ | 祢 うし / ゐ | 祢 うし / ゐ |
+| 7 | ね うし / たつ | 祢 うし / たつ | 祢 うし / たつ |
+| 8 | とら たつ / ね ゐ | とら たつ / 祢 ゐ | とら たつ / 祢 ゐ |
+| 9 | as 8 | とら たつ / 祢 ゐ (last glyph cut by the page's edge) | as 8 |
+| 10 | たつ / ミ | たつ / み | たつ / ミ |
+| 11 | さる ひつじ / いぬ | さる ひつじ / いぬ | さる ひつじ / ぬ |
+| 12 | むま ひつじ / ゐ | むま ひつじ / い | むま ひつじ / ゐ |
+
+The three prints give the same twelve cells, differing only in spelling (ね written 祢, いぬ as ぬ, ゐ as い). The ORMK print has no closing line on this leaf (the lines left of the table are the picture's caption and the colophon); the TOKY print has one. The colophon of the ORMK print, left edge of the left page, read at 2x: 安永三午春新板 / 享和元酉春新板 / 京松原通冨小路東(入) … 屋吉右衛門 (the bookseller's name below it not read letter by letter), that is, a block of 1774 reissued in 1801 (the RD364 reading 新刻 for 新板 is corrected: the character is 板).
 
 ## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
 
@@ -499,3 +563,18 @@ Open:
 - Question: what is the work 紀事 that the 栞草 cites for the 初夢, and does the 栞草's nearby entry 鶏旦 (the dawn of the first day) fix anything about the night?
 
 Searched and not found (RD364), 2026-11-10: (1) a table 夢を見て語らざる日 in the 夢合延寿袋大成 of Kyushu (two copies) and Osaka, the 夢合清明囊, the 国文研 大ざつしよ ヤ0-32 and ヤ0-116, the 東京学芸大 大雑書 and 万宝大雑書, the 万宝大ざつしよ of Toyo University: none on the sheets or the enlarged leaves, but the running text was not read letter by letter; (2) an entry 初夢 or a second-day customs list naming the first dream in the 東都歳事記 (Ochanomizu images 16-19); (3) the dream section of the 嘉永大雑書 and the 萬歳大雜書日用寳: not located at sheet size (images 49-202 of the latter not looked at); (4) the 栞草's list of sources: not found on images 2-13; (5) the 夢合長寿宝 text beyond RD358's contents leaf and the 大雜書三世相 of Nagoya and Kano: not opened.
+
+## RD368 (2026-11-10): the table 夢をみてかたらぬ日 read cell by cell in three prints; Open; Searched and not found
+
+*Read: by eye on the page images, 2026-11-10 (17:55-18:15).*
+
+**Answers.** (1) The twelve cells of the 雑書夢合／三世相小鑑 (ORMK-02344 image 27, native 3279 px, the manifest serves no more) were read again column by column and agree with mdz:p11 in every month; the full table of the three prints side by side is in mdz:i234427b. (2) The 萬歳大雑書日用寳 (TOKY-01831, 慶応3) carries the table on image 121, left page, printed leaf 百十六, as "夢と見て語らざる日の事" with a closing line (mdz:i183121); the same leaf is image 124 of the Shunan Kano copy (慶応2, bid 100217088). So the table stands in three prints, with the same cells. (3) The slash of mdz:p11 is a gap before the last group of branches in the other two prints; none gives a legend. (4) The colophon of the ORMK print reads 新板, not 新刻.
+
+**Images looked at.** ORMK-02344 images 26-28 (26 and 28 at 1400 px; 28 is the back cover) and 27 at full size. TOKY-01831 images 49-132 on seven sheets (500 px, 12 a sheet; images 133-202 downloaded, not looked at), images 119-122 at 2800 px, image 121 at 5760 px. Shunan Kano 100217088 images 121-132 on one sheet, image 124 at 6520 px (columns 3-12). Nagoya 隨一大雜書古今大成 (100240420) images 49-108 on five sheets, images 100 and 101 at 3200 px: the dream section opens on image 100 (夢せんじ, with the 婆珊婆演帝 charm) and runs on image 101 (夢はんじ, 百三十二ヶ條); no table of months there, images 102-104 are pictured pages at sheet size. Ordered sheets of 12 further 三世相小鑑 prints (Koizumi 100300481-84, Tokyo Gakugei 100408615 and 100409055, Riken 100228503, Hirosaki 100376378-80, Yokohama 100301855, Himeji 300106529, Tohoku 100237027) were made at 420 px and one (100300481) looked at: they were not looked at leaf by leaf.
+
+Open:
+
+- Question: the three prints give the same table; does any print explain what the two groups of branches before and after the slash are (days of the dream, days of the telling)?
+- Question: the 万歳大雑書 / 万代大雑書 family (TOKY-01831 image 121, Shunan Kano, the 万代大雑書古今大成 of mdz:p11) is one text; do the 嘉永大雑書三世相 (国文研 200024108, Koizumi 300132222), the 大雜書三世相 of Nagoya (100339325) and Tohoku (100445829, 100445244) carry the same leaf (downloaded as sheets, not looked at)?
+
+Searched and not found (RD368), 2026-11-10: (1) the table in the Nagoya 隨一大雜書古今大成 images 100-104 (the dream section proper, no table); (2) the source 紀事 of the 栞草: not reached (the 凡例 was the only place looked at, RD364); (3) the 嘉永大雑書 of the Edo-Tokyo Museum, the 夢合長寿宝 text and the Waseda 夢占吉凶秘傳書 (Waseda answers 503 for the fourth time): not opened; (4) the 清明秘鈔夢判事's ten second lines: not re-read.
