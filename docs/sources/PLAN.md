@@ -1901,3 +1901,7 @@ Searched and found wanting, so not to be repeated:
 - **RD300** (RD300, 2026-11-10):
   - Six BDRC volumes came back empty from the etext API (I4723, I2PD18140, I2PD16002, I3CN6530, I4PD4564, I1KG2751) and are not counted.
   - The Blue Beryl and the Moonbeams are not among the 19 hits for the line and were not looked at; the author of the unsigned great commentary I5618 not identified.
+- **RD299** (RD299, 2026-11-10):
+  - A part of the night between midnight and dawn named in the Blue Beryl (I1PD411), Zur mkhar ba (I8LS19191), Skyem pa Tshe dbang (I4711) and the Moonbeams (MW23703_4312, MW1PD95844_3549): not found (BDRC etexts, 2026-11-10).
+  - «མཚན་སྟོད་སྲོད» as an exact phrase on BDRC full-text search: 0 hits; «མཚན་གུང་རྨི་ལམ»: 4 hits, all modern prose or verse, none a commentary.
+  - The Four Tantras commentary I1KG10372: the volume is closed (0 chunks); I2PD16002 (1.5 million characters) not fetched; the Dri med kun gsal and Drang srong zhal lung etexts not opened.
