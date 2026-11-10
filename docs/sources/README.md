@@ -1199,7 +1199,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/skp/skp.md](corpus/skp/skp.md) | corpus | SKP | 4 passages: 1 scan, 3 machine |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 23 passages: 10 scan, 5 machine, 8 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 24 passages: 10 scan, 6 machine, 8 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 10 passages: 5 scan, 4 machine, 1 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 37 passages: 11 scan, 7 machine, 19 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
@@ -1896,7 +1896,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0890.md](questions/q0890.md) | question q890 | What is the Sanskrit title of the Svapnohana, «སྭ…བྣ/པྣ…ཨུ་ཧཱ་ནཱ»: which stacks stand second and third on the Narthang manuscript (img. 284 line 2) and in the Peking print, and is it svapnoha or svapnoddhāra? | open; cites svo:p271i |
 | [questions/q0891.md](questions/q0891.md) | question q891 | Does the cows' line of the Aṣṭāṅgahṛdaya (Śārīrasthāna 6.63) read gosarge in the older manuscripts too, or gomārge as in some prints (the Śabdakalpadruma's gomarge)? | open; cites skd:p471-472 |
 | [questions/q0892.md](questions/q0892.md) | question q892 | Is the afternoon for the bright beginning in the Aṅgavijjā ch. 41 a scribe's slip for the forenoon, as the lists of chs. 42 and 53 suggest, or a variant of the text itself? | open; cites svo:p271f |
-| [questions/q0893.md](questions/q0893.md) | question q893 | Is the last letter of «ལྷས་ཚོར» in ch. 81 on the Chag-po-ri print (I1KG13487 img. 426, line 6) a ར or a ང (Yigdzin-1 reads ལྷས་ཚོང)? | open; cites st:p350-351 |
+| [questions/q0893.md](questions/q0893.md) | question q893 | Is the last letter of «ལྷས་ཚོར» in ch. 81 on the Chag-po-ri print (I1KG13487 img. 426, line 6) a ར or a ང (Yigdzin-1 reads ལྷས་ཚོང)? | answered; cites st:p350-351, st:p350-351b |
 | [questions/q0894.md](questions/q0894.md) | question q894 | Is the Serthang print's own book (the Larung Gar typeset edition of the Four Tantras, 611 pages) held complete in a library whose scan BDRC lacks, so that printed pp. 31–32 could be read for «བརྗེད་ངས» and «མི་བཟང་བ»? | open; cites gt:i42 |
 | [questions/q0895.md](questions/q0895.md) | question q895 | On the 1996 print p. 144 l. 13 the last syllable of the riding animals is too small to tell «རྟ» from «ཧ» by eye: is a scan of the 1996 print at higher resolution to be had? | open; cites wb.2:p144r |
 | [questions/q0896.md](questions/q0896.md) | question q896 | In ch. 91's remedies for a spirit that leads the sleeper away in his dream, what does ཕྱྭ (phywa) mean beside མོ (mo, divination)? | open; cites st:p493 |

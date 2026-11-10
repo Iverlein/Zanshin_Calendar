@@ -342,6 +342,18 @@ The words, from the dictionaries (Steinert's 64, by Wylie headword; the senses o
 
 RD264 (2026-11-09), the other prints on the scans. The Serthang crops were read again at 5–8× (img. 363, x 230–620 and 1640–1860, y 550–650; x 220–560, y 640–760): the second row reads ལྷ་ཁང་ལྡེར་བཟོ་འགུལ with a boxed བ and a ཟ under ོ (བཟོ), the end of the row ལྷས་ཚོར་ (ལྷ, ས; ཚ, ོ, ར) and the third row begins དུས་ཏེ་གདོན་གྱིས་ (ད, ུ, ས; ཏ, ེ): both words stand as RD227 read them. Three other prints, on their scans: the Bhutan print of the Instruction Tantra (BDRC I1KG13565, img. 267, mnb:p267) reads ལྷས་ཚོར་དུས་ཏེ and **ལྡེར་སོ་འགུལ** (a single glyph ས with ོ; no separate བ); the 2005 print of Sde srid's Supplement (archive.org bdrc-W1PD4, p. 325, lth:p325) reads ལྡེར་བཟོ་འགུལ and ལྷས་ཚོར་དུས་ཏེ. The Drathang print's ལྡེར་སོ་འགུལ (machine) is then shared by the Bhutan print: the two readings are two traditions of the Instruction Tantra's text, བཟོ in the Serthang print and the Supplement (both prints of it, the 2005 on its scan), སོ in the Bhutan and the Drathang prints. The etext's ངུས in the Bhutan print and in the 2005 print of the Supplement is the etext's OCR: no scan has it. ལྷས is ལྷས on every scan read (Serthang, Bhutan, 2005); ལུས is nowhere.
 
+## <a id="st-p350-351b"></a>st:p350-351b Ch. 81's clause ལྷས་ཚོར་དུས་ཏེ on the Chag-po-ri and Derge prints, the last letter of ཚོར (q893, RD352)
+
+*Read: machine, 2026-11-10.*
+
+> ལྷས་ཚོར་དུས་ཏེ་གདོན་གྱིས་འདེབས་པའི་རྟགས།
+
+Chag-po-ri print I1KG13487 img. 426 (2305 x 387 px, the largest BDRC serves: a request at --width 4000 returned an empty file), line 6, read by eye on a 14x crop (x 1470-1600, y 292-340): the clause stands as «ལྷས་ཚོར་དུས་ཏེ», and the last letter of «ཚོར་» ends in a long stroke running down and to the left below the line, which is a ར's tail; a ང has no such long leg. Weak: the letters are 15 px high, the print soft; read as ར, not settled.
+
+Derge print I00JW501163 img. 434, fetched at --width 4000 (a bitonal image upscaled, 4000 x 639; it holds nothing the 2× image did not), the last line but two: the clause is the third segment of the row that carries «སྦལ་ལྗོང…» (x 2790-3100, y 415-495). At 8× and 20× the strokes after ཚོ are broken into dashes; a flat-topped glyph with a tail running down to the right stands between ཚོ and དུས, and ར cannot be told from ང in it. Not settled.
+
+Other prints already read on their scans (RD264, above): the Serthang's ལྷས་ཚོར་, the Bhutan print's and the 2005 print of the Supplement's; every commentary quoting the clause has ཚོར (Blue Beryl, Khro ru, Drikung, Skyem pa, Dar mo); ཚོང is nowhere. Yigdzin-1's ཚོང on the Chag-po-ri copy is therefore a machine slip until a sharper image shows otherwise.
+
 ## <a id="st-p352"></a>st:p352 Ch. 81, the nāga spirits' illness: the five ways of entering, named in one run, with no dream among them
 
 *Read: scan, 2026-11-10.*
