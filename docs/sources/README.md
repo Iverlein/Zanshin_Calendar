@@ -2394,6 +2394,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1138.md](questions/q1138.md) | question q1138 | Do རབ་ཚེས and ཟླ་ཚེས in Mipham's colophon stand for a rab byung number or a fixed phrase, and which fire-horse is meant | open; cites mph.25:i460b |
 | [questions/q1139.md](questions/q1139.md) | question q1139 | Is བཤོར in the Sha za brtsegs pa'i rgyud's «རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར» a word of the text, and does རྨི་ལྟས in the colophon mean the practitioner's dreams | open; cites szb:i463b |
 | [questions/q1140.md](questions/q1140.md) | question q1140 | Is the boxed item of the Tokyo Gakugei Daizassho (1780, image 24, beginning with the character for dream) the charm for a bad dream, and does it say anything of a day on which the dream is not told | open; cites mdz:i100408974 |
+| [questions/q1141.md](questions/q1141.md) | question q1141 | Does Tsong kha pa's bgegs mthar byed for Mar me mdzad bzang po's bad-dream remedy come from another work of his than the 450-verse rite | open; cites tgb:p360-361 |
+| [questions/q1142.md](questions/q1142.md) | question q1142 | Is མཚན་བརྟས in the Karmapa's verse a copyist's spelling of མཚན་བརྟགས or མཚན་རྟགས, and does a print of his collected works read it so | open; cites rrd.5:p57-59 |
+| [questions/q1143.md](questions/q1143.md) | question q1143 | Is the entry for the Examination of Dreams in the Narthang catalogue's images 3–140 or 207–288 | open; cites svo:i39 |
 
 <!-- end pool index -->
 
