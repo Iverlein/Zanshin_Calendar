@@ -227,3 +227,8 @@ Question: Is the work behind rrd.21:p19 (BDRC author Kun mkhyen 'Jigs med gling 
 - The Six Dharmas dream and clear-light instructions of Nāropa's lineage (Zhwa dmar IV Chos drug, rrd.16:p220) say nothing of the state in the hit read.
 - Sakya dream instructions: «ཉལ་ཁར» hits (Sa skya bka' 'bum, 'Phags pa, Dri med 'od zer) are of the habit of wishing for a dream at lying down, not the state.
 - Time: the sitting ended at the 45 minutes; the 462 «ཉམས་དང་རྨི་ལམ» and 3425 «ཉམས་སྣང» hits were counted, not read.
+
+
+## The state neither asleep nor awake in Mipham and Rtsa gsum gling pa (what RD388 left, q1107): Mipham read by the author facet (&author[0]=P252) and Rtsa gsum gling pa vols. 27–30 (etext IE0OPI46409446) for the words that name falling asleep or waking with awareness, ཉམས and the clear light of experience, that exact phrases did not reach; q1107 (RD389)
+
+Nothing read yet: RD389's passages, with the English beside them, go here.
