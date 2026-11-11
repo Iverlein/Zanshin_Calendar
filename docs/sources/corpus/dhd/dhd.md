@@ -92,3 +92,12 @@ Question: Which view of the 13 that IDP gives for PT 55 holds the dream text
 - Web searches (English, Chinese, Japanese) for other Tibetan dream manuscripts
   from Dunhuang (Pelliot tibétain, IOL Tib J, Or.8210/8212) and for a Tibetan
   Zhou gong: none found.
+- Second attempt 2026-11-11: otdo.aa.tufs.ac.jp gave no connection, gallica.bnf.fr
+  and idp.bl.uk answered HTTP 403 to automated requests (not worked around);
+  himalaya.socanth.cam.ac.uk (van Schaik's article in RET 64) gave no connection
+  and the web-fetch tool returned nothing, so the footnote on PT 55 was not
+  re-read; the Iwao and Zorin paper on secular Dunhuang fragments (orientalstudies.ru)
+  has no word on dreams; searches for the Crescenzi and Torricelli text found only
+  bibliographic records (The Tibet Journal 20.2, pp. 3-17, with transcription, notes,
+  literal translation and commentary) and no Tibetan; the Tibetan of PT 55 IX and
+  any Stein or IOL dream manuscript stay unread.

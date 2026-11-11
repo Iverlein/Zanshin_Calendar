@@ -1294,7 +1294,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 55 passages: 55 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
-| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
+| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD |  0 passages: PT 55 IX known from abstracts only, its Tibetan not reached (2026-11-10, again 2026-11-11) |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dyc/dyc.md](corpus/dyc/dyc.md) | corpus | DYC: the Dbyangs 'char | 2 passages: 1 machine, 1 etext |
