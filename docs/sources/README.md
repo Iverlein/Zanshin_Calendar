@@ -2322,6 +2322,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1114.md](questions/q1114.md) | question q1114 | Does the tradition read «the emanation of Māra» in Marpa's song as a dream sent by a demon, a deception of the sleeper's mind, or as spirits, and is the Karmapa's gdon dbang a gloss of the line | open; cites rrd.23:p102-104, rrd.5:p57-59 |
 | [questions/q1115.md](questions/q1115.md) | question q1115 | In the preamble of Marpa's song is the speaker Marpa or Pen ta pa, and who is Pen ta pa | open; cites rrd.23:p296-298 |
 | [questions/q1116.md](questions/q1116.md) | question q1116 | What does ས་ནི་སྲོས་ནས་ནམ་ཕྱེད་བར་ mean in Marpa's dream-practice verses, and what text is it | open; cites rrd.25:p60-61 |
+| [questions/q1117.md](questions/q1117.md) | question q1117 | In the life of Rig 'dzin Chos kyi grags pa is the earlier dream of dusk the vidyā-king in the dusk session, and does nam gung mean the midnight session | open; cites dds.49:p110-112 |
+| [questions/q1118.md](questions/q1118.md) | question q1118 | In the Yu thog instruction are the kings, planets and nāgas classes of gdon tamed by Hayagrīva, Vajrapāṇi and Nāgarakṣa, and is the dream of spirits the dream where any shows as an animal | open; cites dds.47:p293-295 |
+| [questions/q1119.md](questions/q1119.md) | question q1119 | Are the male and female spirit dreams of lying postures in 'Jig rten mgon po the same as the spirit dreams that lose the drop in Marpa's inner-heat manual | open; cites dds.24:p190-191, dds.19:p187-189 |
 
 <!-- end pool index -->
 
