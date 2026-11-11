@@ -1295,7 +1295,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 55 passages: 55 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
-| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD |  0 passages: PT 55 IX known from abstracts only, its Tibetan not reached (2026-11-10, again 2026-11-11) |
+| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dyc/dyc.md](corpus/dyc/dyc.md) | corpus | DYC: the Dbyangs 'char | 2 passages: 1 machine, 1 etext |
@@ -2297,6 +2297,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1102.md](questions/q1102.md) | question q1102 | In the Mahākāla commentary of Dpal rta dbyangs (Derge Tengyur vol. 28 p. 378) what does «ནམ་མཁའི་མཐར་ནི་རྨི་ལམ་བརྟགས» («at the end of the sky the dream is examined») name: the dawn, a place in the visualisation, or the end of the meditation on space? | open; cites svo:p378 |
 | [questions/q1103.md](questions/q1103.md) | question q1103 | In the rites that say «ནང་པར་སྔ་བར་རྨི་ལམ་ཟློས་ཤིག» (Derge Tengyur vol. 28 p. 446; also VE23703_1340 p. 110 and 1351 p. 43) is «ཟློས» «tell back» or «dream again», the other rites having «སྨྲོས» and «བོས»? | open; cites svo:p446-447 |
 | [questions/q1104.md](questions/q1104.md) | question q1104 | In the Guhyasamāja commentary of Rgyal bas byin (VE23703_1355 p. 533) is the etext's «ཡེ་ཤེས་ཀྱོ་བ» a corruption of «ཡེ་ཤེས་ལྕགས་ཀྱུ» (the wisdom iron hook), which the gloss explains next? | open; cites svo:i533 |
+| [questions/q1105.md](questions/q1105.md) | question q1105 | Is the clear light of experience at the border of sleep (Karma chags med) the same experience as the Gdams ngag mdzod's, and in which order of the three clear lights does it stand | open; cites rrd.19:p118-119, rrd.21:p19 |
+| [questions/q1106.md](questions/q1106.md) | question q1106 | Is the verse of rrd.4:p13 Rang byung rdo rje's own song of experience, and what is its title | open; cites rrd.4:p13 |
+| [questions/q1107.md](questions/q1107.md) | question q1107 | Do Mipham's and Rtsa gsum gling pa's works name the state under another word that an exact phrase does not reach | open; cites rrd.4:p13 |
+| [questions/q1108.md](questions/q1108.md) | question q1108 | Whose are the works behind rrd.21:p19 and rrd.22:p38-39 | open; cites rrd.21:p19, rrd.22:p38-39 |
 
 <!-- end pool index -->
 
