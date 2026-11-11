@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD403 (2026-11-11): Chos kyi grags pa vol. 1 (VE22082_001), the Yu thog Snying thig (I4PD2077), the Dpe bsdur ma Cakrasaṃvara commentary (I1PD95854), I1PD100486, Marpa vol. 4 (I1KG15196) and Rin chen gter mdzod vols. 7 and 42, BDRC etext.
+
 Read by RD391 (2026-11-11): 'Jig rten mgon po's collected works (VE3JT13348_013, pp. 190–191), Drikung vol. 4 (I1KG15711, pp. 220–221), the Yu thog Snying thig (I4PD2077, pp. 293–295) and Chos kyi grags pa vol. 1 (VE22082_001, pp. 14–15, 110–112), BDRC etext.
 
 Read by RD387 (2026-11-11): Marpa's vol. 4 and Ras chung pa's vol. 2 (BDRC etexts), the hit windows in the Yu thog Snying thig, the Drikung and Chos kyi grags pa volumes.

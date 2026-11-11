@@ -2414,6 +2414,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1144.md](questions/q1144.md) | question q1144 | Is the writer of Rtsa gsum gling pa vol. 27's Gzer bu commentary (Orgyan gsang sngags bstan 'dzin Nam sgo chen sprul) the volume's compiler Mkhan chen Dpal ldan shes rab, and what does རབ་གནས before ཆུ་ལུག་ལོ mean | open; cites tsl.27:i132-134 |
 | [questions/q1145.md](questions/q1145.md) | question q1145 | Which water-bird year does the colophon of the Nyang Sems sde pra khrid in Gdams ngag mdzod vol. 1 mean, and is the beggar Nam mkha' rdo rje the Nyang-tradition master | open; cites rrd.22:p1-2 |
 | [questions/q1146.md](questions/q1146.md) | question q1146 | Is the entry for the Examination of Dreams in the Narthang catalogue's tantra images 3–140, or in the even images 208–238 that the model returned empty | open; cites svo:i239 |
+| [questions/q1147.md](questions/q1147.md) | question q1147 | Is the vidyā-king of the dusk session Nāgarakṣa, and is དཔའ་བོ་རྐྱང་སྒྲུབ in the life a name or a hero's single-deity practice | open; cites dds.49:p110-112, dds.50:p6-8 |
+| [questions/q1148.md](questions/q1148.md) | question q1148 | Is the animal chain of the Yu thog instruction the spirits' own forms in the dream or a training of any dream | open; cites dds.47:p293-295, dds.52:p19-20 |
+| [questions/q1149.md](questions/q1149.md) | question q1149 | Does the Cakrasaṃvara commentary put the first of eight watches at midnight, and from what moment are the sixty water-hours counted | open; cites svo:i525, dds.51:p707-708 |
+| [questions/q1150.md](questions/q1150.md) | question q1150 | What is the string of six to eight forms between the opening Om and the homage in seven Lama Gongdü texts of Rin chen gter mdzod vol. 42, and why do the four texts of vol. 7 have none | open; cites dds.54:p1-2, dds.53:p1-2 |
 
 <!-- end pool index -->
 
