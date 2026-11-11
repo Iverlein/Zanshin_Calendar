@@ -16,6 +16,8 @@
 9. The home screen with the small and the wide widget on shot 1's day (ROADMAP W1), placed there by
    emu.widgets() from the launcher's widget list
 10. The prayer wheel: Om mani padme hum on the drum, gold on black, the settings' defaults
+11. A dream read (ROADMAP S2): a dawn dream of riding upward, a pit and the sun rising, on 2026-10-23 in
+    Lhasa, its reading by tradition with the Remedy row
 
 Shots 1 to 6, 8, 9 and 10 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
@@ -40,10 +42,16 @@ from emu import BIRTH_1976_06_01, KYOTO, LHASA, adb, nodes, prefs, language, res
 LABELS = {
     "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$", "wheel": r"^Prayer wheel$",
            "year": r"^Fire Horse year$", "year_of_age": r"year of age", "person": "Tenzin",
-           "calendar": r"^CALENDAR$", "practice": r"^PRACTICE$"},
+           "calendar": r"^CALENDAR$", "practice": r"^PRACTICE$",
+           "reckonings": r"^RECKONINGS$", "element": r"^Element reckoning$", "dream": r"^Read a dream$",
+           "choose": r"^Choose the images$", "reading": r"^THE READING$",
+           "dream_images": [(r"^Journeys", r"^Riding upward"), (r"^Places", r"^A pit or chasm"), (r"^Sky and light", r"^Sunrise")]},
     "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$", "wheel": r"^Молитвенное колесо$",
            "year": r"Огонь-Лошадь$", "year_of_age": r"год жизни", "person": "Тензин",
-           "calendar": r"^КАЛЕНДАРЬ$", "practice": r"^ПРАКТИКА$"},
+           "calendar": r"^КАЛЕНДАРЬ$", "practice": r"^ПРАКТИКА$",
+           "reckonings": r"^РАСЧЁТЫ$", "element": r"^Расчёт по стихиям$", "dream": r"^Прочесть сон$",
+           "choose": r"^Выбрать образы$", "reading": r"^ТОЛКОВАНИЕ$",
+           "dream_images": [(r"^Путь", r"^Ехать вверх"), (r"^Места", r"^Яма или пропасть"), (r"^Небо и свет", r"^Восход солнца")]},
 }
 
 # The timer's presets for shot 6, named in the listing's language; the zazen is the plan set.
@@ -175,6 +183,26 @@ try:
     tap_at(find(labels["wheel"]))
     time.sleep(2)
     shot(10)
+
+    # A dawn dream of three images, each ticked in its group, then the reading scrolled under the header.
+    day("10230900", 2026, "TIBETAN", LHASA)
+    tap_at(find(labels["menu"], desc=True))
+    tap_at(find(labels["reckonings"]))
+    tap_at(find(labels["element"]))
+    up()
+    tap_at(find(labels["dream"]))
+    tap_at(find(labels["choose"]))
+    for group, image in labels["dream_images"]:
+        tap_at(find(group))
+        tap_at(find(image))
+        tap_at(find(group))
+    adb("shell", "input", "keyevent", "4")
+    time.sleep(1.5)
+    up()
+    hits = [y for t, _, _, y in nodes() if re.search(labels["reading"], t)]
+    if hits:
+        adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
+    shot(11)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")

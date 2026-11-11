@@ -1844,6 +1844,98 @@ the household in the round"), stepped by year as the year of age is.
 or more share a birth mewa, its cause and rite, the three whites as one. WB
 says one paternal kin and "many"; the household and the half are stated
 choices. Words unsettled on the scan are left out.
+#### 5.9.11 The dream reading
+
+The dream read by what was dreamt and when (ROADMAP S2, block 73, built
+2026-11-11; `DreamReading`, core `tibetan/Dream.kt`; `DreamTest`;
+[claims/dream-catalogue.md](sources/claims/dream-catalogue.md) and the
+claim of each image beside it). It is a reckoning with inputs, not an
+election: no text read ties a dream or its fruit to a lunar day, a
+weekday, a mansion or a month (q784, RD367), so it searches no days and
+adds no row to the day page. It is not cast and asks for no one.
+
+- **The night.** The night before the day shown, from the sunset of the
+  day before to the sunrise of the day (`DreamNight.before`), since the
+  Tibetan day turns at dawn and last night belongs to today (§3).
+- **The part of the night**, the one time rule the sources give: dusk
+  (སྲོད, srod), the middle of the night (ནམ་ཕྱེད, nam phyed) and dawn
+  (ཐོ་རངས, tho rangs), chosen as a chip or by a clock time
+  (`DreamWatch`). A clock time falls on the night cut in four equal
+  quarters, the first dusk, the second and third the middle, the last
+  dawn; each inner bound is taken up to the next whole minute, so that
+  the time the screen shows for it is its quarter's first minute. *Stated
+  choice*: Shes rab 'od zer cuts the night «in four equal parts»
+  (snz:p428-429) and no source bounds a watch by the clock
+  ([claims/night-watches.md](sources/claims/night-watches.md)); the screen
+  says so. A time from sunrise to sunset is not in the night and chooses
+  no part.
+- **Only the dawn dream is read** (the owner, 2026-11-10). The line of the
+  night: dusk, a dream of the day's habitual tendencies (བག་ཆགས, bag chags),
+  not read; the middle of the night, the demons' (བདུད, bdud) magic
+  display, a show of gods and spirits (ལྷ་འདྲེ, lha 'dre), not trusted and
+  not read (Marpa's song in his Lives, rrd.23:p102-104, rrd.26:p88-90;
+  Karma chags med, rrd.19:p271; RD387, RD390, RD405); dawn, the dream that
+  comes true, read image by image (the Mañjuśrī root tantra's fourth
+  watch, mmk.1:p397-399; the Lama Gongdü, lgd:p966-967; Klong rdol's three
+  thirds, rst:p1-8). Dusk and the middle of the night show the line and
+  no rows.
+- **The dreamer is ill**: a switch among the inputs, not a section (the
+  owner, 2026-11-09). Set, the Four Tantras' rule of the night stands in
+  place of the line whatever the part (the Explanatory Tantra ch. 7 with
+  Byang pa's commentary: the first part of the night forgotten, no fruit;
+  a dawn dream seen clearly bears fruit; a morning dream after which one
+  does not sleep again bears it that same day), their readings join the
+  images' rows (`DreamText.ST`), and their own images of the sick, the
+  group "Dreams of the sick", are offered. They stand above the White
+  Beryl on medicine, and WB ch. 25's readings of a sick person's dream are
+  the same dreams, so theirs alone are shown (claims/dream-st-above-wb25).
+- **The images** (`DreamImage`, 94; family `DreamImage`): ticked in a
+  picker grouped as the catalogue groups them (`DreamGroup`: sky and
+  light, dress and honour, journeys, mounts and music, water and flight,
+  wealth and food, people and contests, places, houses and fire, body,
+  creatures and the dead, the holy and other signs, and, when ill, the
+  dreams of the sick), with a search over their names in the app's
+  language; several per dream is the usual case. An image two texts both
+  read is one entry.
+- **The reading**: the line of the night, then under each text's heading
+  one row for each ticked image it reads, its tone dot, the image and the
+  text's verdict (family `DreamVerdict`; the White Beryl's are its
+  moment signs' own readings, `MomentSign.DREAM`, reused). The texts in
+  rank order: the White Beryl, the Four Tantras for the sick, then the
+  rank-3 texts no source outranks, the Lama Gongdü, the Svapnohana, the
+  Svapna-īkṣā, the method under Sakya Paṇḍita's name, Klong rdol bla
+  ma's verses (his own text and the article that quotes them as one), the
+  'Bri gung extended method and Karma chags med's Magic Mirror. The
+  headings name each text by its tradition, never by title or author
+  (§8.1): "Omens of the astrologers", "Medicine, for the sick", "A
+  treasure teaching", "An Indian manual of dreams", "The signs of the
+  buddha families", "A method under a Sakya master's name", "A Gelug
+  master's verses", "A Drikung method", "A rite of asking for a dream".
+  **No net verdict**: no text sums images (the Lama Gongdü's rule of a
+  mixed dream turns on the order of the images, which the screen does not
+  ask), so the screen never calls a dream good or bad as a whole. **No
+  fruit date and no span** (the owner, 2026-11-10): the Svapnohana's spans
+  by watch are not shown.
+- **Remedy**: one row, a line for each text that reads a ticked image as
+  bad or mixed, each once (`DreamRemedy`, family `DreamRemedy`;
+  [claims/dream-remedies.md](sources/claims/dream-remedies.md)): the White
+  Beryl's smoke offering and washing, the Lama Gongdü's rites that turn the
+  omen back, the Svapnohana's burning rite of red sandalwood, the
+  Svapna-īkṣā's sesame burning rite; for the sick, the Four Tantras' (a
+  dream a distant, uncertain sign of death, turned back by merit,
+  recitation and the tutelary deity), and their own for the confused
+  dreams of fever and for women leading the dreamer away.
+- *Stated choices*: a text's row whose verdict rests on an unsettled word
+  is not shown, and an image left with no row is not offered (the goods of
+  gossip), as the moment's signs leave them out (§5.9.5); the pregnant
+  woman's dream of a man, a sign of a boy, is not offered, since the
+  screen asks nothing of a pregnancy; any dream of the sick as a distant
+  sign of death is the Four Tantras' Remedy line, not an image, and WB
+  ch. 25's shapes poured into a skull belong to the illness reckoning; the
+  rites that ask for a dream (RD210, RD362) are not an input. The state
+  neither asleep nor awake (RD388, RD389: experience, never read as an
+  omen) is not an input until the owner decides.
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*
@@ -3462,6 +3554,16 @@ keeps its source and licence; its licence label says it is a translation
 (MPL-2.0 for the app's own summaries, CC BY-SA 4.0 with attribution for
 wording adapted from Japanese Wikipedia).
 
+The dream reading's words (§5.9.11, families `DreamWatch`, `DreamNight`,
+`DreamGroup`, `DreamImage`, `DreamVerdict`, `DreamRemedy`) keep the
+catalog's names where it has one (демоны for *bdud*, вредоносные духи for
+*gdon*, наги for *klu*, обрядовые службы for *rim gro*, обряд сожжения
+for *sbyin sreg*) and add: сумерки, середина ночи and рассвет for the
+parts of the night, привычные склонности (habitual tendencies) for
+*bag chags*, боги и духи (gods and spirits) for *lha 'dre*, владыка смерти
+(the lord of death) for *'chi bdag*; each text's verdict is one row of at
+most forty words, written from its claim's verdict and passage.
+
 In every language the names of the weekday-and-mansion reckonings (yogas,
 karaṇas, the element pairs, the named combinations, the special days and
 the burning date) follow the White Beryl's own words (§8.1), not the
@@ -4933,6 +5035,17 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   and the day before and after, and under them the Health screen's
   Illness tab (§10.10) for that day, today and the present time to begin
   with.
+- **Read a dream** (§5.9.11, ROADMAP S2): after the illness reckoning,
+  "The part of the night and what was dreamt"; with no one chosen it
+  stands under the way to People, since it asks for no one. Its view has
+  Back, the title, the date and the day before and after; under "When"
+  the night's sunset and sunrise, the chips Dusk, Middle of the night and
+  Dawn, "By the clock" with the night's quarters, and the switch "The
+  dreamer is ill"; then the line of the night; for a dawn dream, under
+  "What was dreamt", "Choose the images", which opens the picker as a
+  sheet, then "The reading" by text and the Remedy row. The moment's
+  "Signs to watch" (§5.9.5) leads to it from under "Dreams before the
+  reckoning". Without a location the chips alone choose the part.
 - **Back** leads the way it came: from a reckoning to the list, or, from the year of age,
   when the year's balloon opened it, to the page; from the list out of
   the section.

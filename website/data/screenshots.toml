@@ -89,3 +89,12 @@ alt = "The prayer wheel: a mantra in gold Tibetan script on a turning drum, with
 [shot.ru]
 caption = "Молитвенное колесо"
 alt = "Молитвенное колесо: мантра золотым тибетским письмом на вращающемся барабане, ниже — переход к одному колесу и мантры на выбор; есть и живые обои"
+
+[[shot]]
+file = "11.png"
+[shot.en]
+caption = "A dream read"
+alt = "A dream read: a dawn dream of riding upward, a pit and the sun rising, each tradition's verdict on each image with its tone, under the tradition's heading"
+[shot.ru]
+caption = "Прочтенный сон"
+alt = "Прочтенный сон: сон на рассвете о езде вверх, яме и восходе солнца, приговор каждой традиции на каждый образ с его тоном, под заголовком традиции"

@@ -126,7 +126,7 @@ moves up as soon as it is unblocked.
 | <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 | <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
-| <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216) ([RD214](#rd214) beside) | — | Build block 73: S2, the dream reading in the Reckonings: the Tibetan page only (the Japanese page is S4, later, behind the calendar's pill): the night and its part (dusk, the middle of the night, dawn, as chips or a clock time), only the dawn dream read (the owner, 2026-11-10), the images as a grouped, searchable multi-select with WB first, "The dreamer is ill" as a checkbox that brings the Four Tantras' readings into the rows and their rule of the night in place of the line, each image's verdict as a row, no fruit date or span (the owner, 2026-11-10); no net verdict. |
+| <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill — built 2026-11-11 | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216), [RD387](#rd387)–[RD390](#rd390), [RD405](#rd405) ([RD214](#rd214) beside) | — | Built: S2, "Read a dream" in the Reckonings and from the moment's signs (SPEC §5.9.11, §10.11): the night before the day with its part as chips or a clock time on four equal quarters, only the dawn dream read, 94 images in a grouped, searchable picker, each tradition's verdict under its heading, one Remedy row, "The dreamer is ill" with the Four Tantras' rule and rows; no net verdict, no fruit date or span. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -5373,7 +5373,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   | Older Indian source of the five-span series; the Brahmavaivarta's date | Hazra, Rocher unread | Unsettled (RD272) |
   | The goods of gossip (རམ་རུག, the plant) | No headword in the dictionaries | Rite substances, plant unknown (RD271) |
 
-#### <a id="s2"></a>S2 A dream reading in the app — planned 2026-11-09
+#### <a id="s2"></a>S2 A dream reading in the app — planned 2026-11-09, built 2026-11-11 (block 73)
 
 - **Gap.** The app shows WB's dream omens as observed signs of the
   moment's reckoning (SPEC §5.9.5) and nothing else on dreams. No text
@@ -5511,6 +5511,36 @@ groups it shows (`tools/emulator/store_shots.py`).
   SPEC §5.9.11 (new), §10.11 and §8.2, this item, the README, both
   listings, a screenshot of the reading, the website and the GitHub
   description (*Docs on every feature merge*).
+
+- **Built 2026-11-11** (block 73; SPEC §5.9.11, §10.11, §8.2): `DreamReading`,
+  `DreamNight`, `DreamImage` and `DreamRemedy` in `core/tibetan/Dream.kt`,
+  the screen in `app/ui/Dream.kt`, `zanshin --dream` in the CLI. 94 images
+  and 219 rows written from the image claims, in English and Russian. The
+  middle of the night's line follows Marpa's song in his Lives (the
+  demons' display, not to be trusted; RD390) with Karma chags med's gods
+  and spirits (RD405), not the third Karmapa's paraphrase. Choices made
+  in the build, for the owner to overrule: the text headings name each
+  text by its tradition, not by title or author, since §8.1 and
+  `TranslationsTest` bar a source's name from the interface ("Omens of the
+  astrologers" for WB ch. 30, "Medicine, for the sick" for the Four
+  Tantras, "A treasure teaching" for the Lama Gongdü, and on); Klong rdol's
+  own text and the article quoting it are one row; the images are grouped
+  by the catalogue's themes, not by text, since an image several texts read
+  is one entry; WB's row of an image is its moment sign's whole reading,
+  reused, so it names the sign's other images too; an inner quarter's bound
+  is taken up to the whole minute; the pregnant woman's dream, the goods of
+  gossip (its one row unsettled), the Four Tantras' "any dream a distant
+  sign of death" (now their Remedy line) and WB ch. 25's skull rite are not
+  images. The state neither asleep nor awake (RD388, RD389) is not on the
+  screen: the owner's to decide.
+- **Checked.** `DreamTest` (Lhasa's nights in June and December, the
+  quarters, a clock time, no span in any text, the ill rule and rows, the
+  remedies, every key in both languages), `CatalogTest` with no allowance,
+  `:app:testDebugUnitTest` (`ReckoningsTest` with the new entry), on the
+  emulator in English and Russian (the picker, the search, a dawn dream of
+  three images, the same with the dreamer ill, the middle of the night's
+  line with no rows, a clock time), the release build (no raw keys), the
+  store shot 11 in both languages and the website wide and at phone width.
 
 #### <a id="s3"></a>S3 The first dream of the year on the 旧暦 page — planned 2026-11-09
 

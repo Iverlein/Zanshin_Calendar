@@ -9,6 +9,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="220" alt="Meditation timer: a zazen of 20, 10 and 30 minutes">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10.png" width="220" alt="Prayer wheel: a mantra in gold on a turning drum, with the way to the wheel alone and the mantras to choose from below">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11.png" width="220" alt="A dream read: each tradition's verdict on riding upward, a pit and the sun rising">
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
   leap months; festivals and monthly observances; lunar mansion, yoga,
@@ -69,6 +70,14 @@ readings of that day and sunrise, solar noon and sunset for your place.
   fifteen starting points with its four plank-trees and the illness's
   class, all read together with the rites gathered into one list, the most general first, also among the
   Reckonings. The tradition's readings, not medical advice.
+- **Read a dream:** what last night's dream means by the Tibetan sources.
+  Choose its part of the night, dusk, the middle of the night or dawn, or
+  give the time on the clock; only the dawn dream is read, the others get
+  their one line. Tick its images, 94 in groups with a search, and each
+  tradition that reads an image gives its verdict under its own heading,
+  with one Remedy row for a bad one; nothing is summed into a verdict on
+  the whole dream and no date of its fruit is given. "The dreamer is ill"
+  brings in the medical texts' readings and their own rule of the night.
 - **旧暦:** month and day with the moon's age, 六曜, the current solar term
   with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
   九星 of the day, month and year, 選日 and 暦注下段 (with the lower band's
