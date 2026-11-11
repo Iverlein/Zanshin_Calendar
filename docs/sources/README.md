@@ -2304,11 +2304,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1104.md](questions/q1104.md) | question q1104 | In the Guhyasamāja commentary of Rgyal bas byin (VE23703_1355 p. 533) is the etext's «ཡེ་ཤེས་ཀྱོ་བ» a corruption of «ཡེ་ཤེས་ལྕགས་ཀྱུ» (the wisdom iron hook), which the gloss explains next? | open; cites svo:i533 |
 | [questions/q1105.md](questions/q1105.md) | question q1105 | Is the clear light of experience at the border of sleep (Karma chags med) the same experience as the Gdams ngag mdzod's, and in which order of the three clear lights does it stand | open; cites rrd.19:p118-119, rrd.21:p19 |
 | [questions/q1106.md](questions/q1106.md) | question q1106 | Is the verse of rrd.4:p13 Rang byung rdo rje's own song of experience, and what is its title | open; cites rrd.4:p13 |
-| [questions/q1107.md](questions/q1107.md) | question q1107 | Do Mipham's and Rtsa gsum gling pa's works name the state under another word that an exact phrase does not reach | open; cites rrd.4:p13 |
+| [questions/q1107.md](questions/q1107.md) | question q1107 | Do Mipham's and Rtsa gsum gling pa's works name the state under another word that an exact phrase does not reach | answered; cites rrd.4:p13, tsl.30:i98, tsl.30:i102-103, mph.101:i13 |
 | [questions/q1108.md](questions/q1108.md) | question q1108 | Whose are the works behind rrd.21:p19 and rrd.22:p38-39 | open; cites rrd.21:p19, rrd.22:p38-39 |
 | [questions/q1109.md](questions/q1109.md) | question q1109 | Is Marpa's saying on the midnight dream an oral saying handed down through the Karmapas, and is «gdon dbang» the reading they teach | open; cites rrd.5:p57-59, dds.19:p187-189 |
 | [questions/q1110.md](questions/q1110.md) | question q1110 | In Marpa's inner-heat manual, is the spirit of the horse, dog or woman dream a certain class, and is the cure tied to a watch | open; cites dds.19:p187-189 |
 | [questions/q1111.md](questions/q1111.md) | question q1111 | What are གནམ་ཐེ་དཀར་པོ and ཞེ་ཐག་པ་ནས་སྦྱིན in Marpa's inner-heat manual | open; cites dds.19:p187-189 |
+| [questions/q1112.md](questions/q1112.md) | question q1112 | Does ཟ་ཟི (za zi) in Rtsa gsum gling pa's verse life name the half-asleep condition or only the dimness of the sight | open; cites tsl.30:i102-103 |
+| [questions/q1113.md](questions/q1113.md) | question q1113 | Are vol. 27's waking and sleeping instructions the compiler's prose or the treasure's own text | open; cites tsl.30:i98 |
 
 <!-- end pool index -->
 
