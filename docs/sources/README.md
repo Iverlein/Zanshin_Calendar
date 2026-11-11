@@ -2361,6 +2361,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1127.md](questions/q1127.md) | question q1127 | Is ཙབ་ཙུབ in the dream line said of the dreams' number and haste only, or is it a kind of dream a reader names | open; cites kd.3:p597b |
 | [questions/q1128.md](questions/q1128.md) | question q1128 | From which Edo or early Meiji book on does a 初夢 of 2 January stand in print | open; cites mdz:i54254 |
 | [questions/q1129.md](questions/q1129.md) | question q1129 | Does a reader of the cursive confirm every cell of the Kokubunken table's hentaigana, in particular the first and second glyph of the first, third, eleventh and twelfth months | open; cites mdz:i54254 |
+| [questions/q1130.md](questions/q1130.md) | question q1130 | Who is the lama of the Śramaṇā rite in the be'u bum's dream set, is he in the Paṇ chen Śākyaśrī's line, and does Tāranātha's section come from the same source | open; cites tdr:p337-342e, ttn:p137-138, lcg:p26 |
+| [questions/q1131.md](questions/q1131.md) | question q1131 | Are the be'u bum's Śākyamuni and White Tārā rites taken from the tradition of the Sgrub thabs kun btus, and which text names their compiler | open; cites tdr:p337-342e |
 
 <!-- end pool index -->
 
