@@ -1588,6 +1588,30 @@ Rendered from the etext: [The disciple] is given kuśa grass that has been bless
 
 What it says of time: the dream is the dream of the night of staying over, asked at the dawn time; no night of the month, no watch of the night, no list of images. A good sign is explained as the accomplishment of it (the disciple's accomplishment); a bad one is met with protection and the fire-rite. It is the only one of these mandala rites that says the teacher "shows the accomplishment" of a good sign. State: etext (no scan read); the text is verse and the words «རྣལ་འབྱོར་བྱས་ཏེ་ནང་པར་སྔགས» end the passage as the page stands (the line goes on).
 
+## <a id="svo-i521-523"></a>svo:i521-523 The Cakrasaṃvara commentary «De kho na nyid mkhas pa» (VE23703_1333 pp. 521–523): its measures of time, five water-hours to a junction, and the half-junctions, sessions and watches to be honoured (RD394)
+
+*Read: etext, 2026-11-11.*
+
+> [p521] དེའི་ཁྱད་པར་ནི་སླར་ཡང་དབུགས་དང་ཆུ་སྲང་དང་ཆུ་ཚོད་དང་། ཡུད་ཙམ་དང་། དུས་སྦྱོར་ཕྱེད་པ་དང་། ཐུན་དང་། ཐུན་མཚམས་དང་། ཉིན་མོ་དང་། མཚན་མོ་སྟེ་སྲོག་རྒྱུ་བས་ཕོ་ཉ་མོའི་ཀུན་དུ་སྤྱོད་པ་ཡེ་ཤེས་དང་ཐུགས་དང་གསུང་དང་། སྐུའི་འཁོར་ལོ་ལ་
+> [p522] དུས་སྦྱོར་རེ་རེ་ནི་དབྱུ་གུ་ལྔའི་བདག་ཉིད་དོ། །རྩ་བའི་རྒྱུད་དུ་དབྱུ་གུ་ནི་ཆུ་སྲང་དྲུག་ཅུའི་བདག་ཉིད་དོ། །ཆུ་སྲང་ནི་དབུགས་དྲུག་གི་བདག་ཉིད་དོ། །དེ་བཞིན་ཉིན་དང་མཚན་མོ་ཡིས། །ཉི་ཁྲི་བརྒྱད་གཉིས་བརྒྱ་ཡི་དབུགས། །ཞེས་སོ།
+> [p523] དེ་བཞིན་དུ་འབུམ་ཕྲག་ལྔ་པའི་ཀྱེའི་རྡོ་རྗེར་དབུགས་དྲུག་གིས་ཆུ་སྲང་ངོ་། །ཆུ་སྲང་དྲུག་ཅུས་ཆུ་ཚོད་དོ། །ཆུ་ཚོད་གཉིས་ཀྱིས་ཡུད་ཙམ་ཅིག་གོ། །ཆུ་ཚོད་ལྔ་རྣམས་ཀྱིས་དུས་སྦྱོར་དུ་འགྱུར་རོ་ཞེས་པ་ལ་སོགས་པ་རྒྱས་པར་རོ། །འདི་ལྟར་དུས་སྦྱོར་ཕྱེད་པའི་དབྱེ་བས་ཉི་ཤུ་རྩ་བཞི་མཆོད་པར་བྱའོ། །དེ་བཞིན་དུ་ཐུན་མཚམས་ཀྱི་དབྱེ་བས་བཞིའོ། །ཐུན་གྱི་དབྱེ་བས་བརྒྱད་མཆོད་པར་བྱའོ་ཞེས་སོ།
+
+The commentary, explaining the offering to the messenger women (ཕོ་ཉ་མོ, pho nya mo) «by the distinction of times» (དུས་ཁྱད་པར་གྱིས), says that the time within the body is the wheel of the twelve junctions (དུས་སྦྱོར, dus sbyor), and that its distinctions are the breath (དབུགས, dbugs), the water-srang (ཆུ་སྲང, chu srang), the water-hour (ཆུ་ཚོད, chu tshod), the moment (ཡུད་ཙམ, yud tsam), the half-junction (དུས་སྦྱོར་ཕྱེད་པ), the watch (ཐུན, thun), the session (ཐུན་མཚམས, thun mtshams), the day and the night ([p521], the sentence goes on to the wheels of the body).
+
+[p522] Each junction is of the nature of five staffs (དབྱུ་གུ, dbyu gu). In the root tantra the staff is of the nature of sixty water-srang, the water-srang of six breaths. So «by day and by night» the breaths are, as read, «ཉི་ཁྲི་བརྒྱད་གཉིས་བརྒྱ» (the number is as printed; it is not reckoned here: sixty staffs of sixty water-srang of six breaths make 21,600, and the printed words do not obviously say that).
+
+[p523] So also in the Hevajra (Kye'i rdo rje) of the five hundred thousand: «six breaths make a water-srang; sixty water-srang a water-hour (chu tshod); two water-hours a moment (yud tsam); five water-hours become a junction», and so on at length. Thus by the division of the half-junctions twenty-four are to be honoured; likewise four by the division of the sessions (thun mtshams); by the division of the watches (thun) eight are to be honoured.
+
+## <a id="svo-i525"></a>svo:i525 The Cakrasaṃvara commentary «De kho na nyid mkhas pa» (VE23703_1333 p. 525): four sessions, eight watches counted from midnight, sixteen half-watches, thirty-two moments (RD394)
+
+*Read: etext, 2026-11-11.*
+
+> [p525] གང་དུ་བཞི་ཡོད་པ་དེར་ཐུན་མཚམས་ཀྱི་དབྱེ་བས་རྣལ་འབྱོར་མའི་ཀུན་དུ་སྤྱོད་པའོ། །རྣལ་འབྱོར་གྱི་རྒྱུད་དུ་ཡང་རྣལ་འབྱོར་པའོ་ཞེས་བཅོམ་ལྡན་འདས་ཀྱིས་ཀྱང་གསུངས་ཏེ་ཤེས་རབ་ཀྱི་རྒྱུད་ཀྱི་དགོངས་པས་རྣལ་འབྱོར་ཀྱི་རྒྱུད་རྟོགས་པར་བྱའོ། །རྩ་བའི་འཁོར་ལོ་རྣམ་པར་དག་པའི་དོན་ཏོ། །དེ་བཞིན་དུ་རྣལ་འབྱོར་རྒྱུད་དུ་གསུངས་པ། རྣལ་འབྱོར་མའི་རྒྱུད་དུ་དམ་ཚིག་ཤེས་པར་བྱའོ། །དེ་བཞིན་དུ་གང་དུ་བརྒྱད་ཡིན་པ་དེར་ཐུན་གྱི་དབྱེ་བས་ཉི་མའི་ཆ་ལ་མཚན་མོ་ཕྱེད་ནས་ཉི་མ་གང་ཇི་སྲིད་པར་བཞིའོ། །དེ་བཞིན་དུ་ཟླ་བའི་ཆ་ལ་ཡང་བཞིའོ། །འདི་ལྟར་མཚན་མོ་དང་ཉིན་མོ་མཉམ་པའི་ཐུན་མཚམས་ལས་སོ། །གང་དུ་བཅུ་དྲུག་ཡོད་པ་དེར་ཐུན་ཕྱེད་པ་དབྱེ་བས་སོ། །གང་དུ་སུམ་ཅུ་རྩ་གཉིས་ཡོད་པ་དེར་ཡུད་ཙམ་གྱི་དབྱེ་བས་སོ་ཞེས་བྱ་བ་ལ་སོགས་པ་རྟོགས་པར་བྱའོ་ཞེས་པ་དྲང་བའི་དོན་ཏོ།
+
+[p525] «Where there are four, there it is by the division of the sessions (ཐུན་མཚམས) that the yoginis are honoured ... Likewise, where there are eight, there it is by the division of the watches (ཐུན): in the sun's part (ཉི་མའི་ཆ), «from midnight (མཚན་མོ་ཕྱེད་ནས) for as long as there is sun», four; likewise in the moon's part four. Thus it is from the session where night and day are equal (མཚན་མོ་དང་ཉིན་མོ་མཉམ་པའི་ཐུན་མཚམས). Where there are sixteen, there by the division of the half-watches (ཐུན་ཕྱེད་པ); where thirty-two, there by the division of the moments (ཡུད་ཙམ), and so on is to be understood»: this is the provisional meaning (དྲང་བའི་དོན, drang ba'i don).
+
+Doubts: the clause «ཉི་མའི་ཆ་ལ་མཚན་མོ་ཕྱེད་ནས་ཉི་མ་གང་ཇི་སྲིད་པར་བཞིའོ» is rendered word by word; it puts midnight as the point from which the watches are counted, but whether the commentary means the first watch begins at midnight, or only names midnight as the night's middle, the lines do not say. The sentences between the two «where there are» clauses (that the Yoga tantra says «yogī» and that the Blessed One said so; that the root wheel is the sense of purity; that in the Yoginī tantra one is to know the pledges) are not rendered.
+
 ## <a id="svo-i533"></a>svo:i533 The Guhyasamāja «Dka' 'grel» of Rgyal bas byin (Derge etext VE23703_1355, pp. 532–533): «to give up fixing on signs the examination of the dream is told» (RD386)
 
 *Read: etext, 2026-11-10.*
@@ -1759,6 +1783,16 @@ The same Dpe bsdur ma volume (VEIE0OPIA3E40644_I1PD95882), etext pp. 660–661 (
 Rendered: Homage to the noble Great-compassion Prabhāsa. Since one cannot know what will come in the future and so is left without a remedy, the deluded should here set their hope in the Lord, the noble Great Compassion Prabhāsa and, for three days, or two, or one (ཞག་གསུམ་མམ་གཉིས་སམ་གཅིག), not parted from one single thought, recite the vidyā (རིག་པ) and keep the fast (སྨྱུང་བ). The vidyā «ཏདྱ་ཐཱ། ན་མཿ ཤྲཱི་ཨཱ་བ་ལོ་ཀི་ཏེ་ཤྭ་རཱ་ཡ … ཧཱུཾ་ཧཱུཾ་སྭཱ་ཧཱ». Before the stūpa of the Lord of the world offer white flowers and incense and many offerings, and circumambulate; in the four-petalled lotus of the body's petals put the four things one wishes, painted as the instruction says; in the filaments one's own mind as a mirror; (and so on, then the visualisation, the worship of the supreme deity and the sinking into clear light). The closing lines, as they stand: "…the all-knowing one, for beings fulfilling every aim, like a sign on a country with light; looking at the six periods (དུས་དྲུག, dus drug) he knows (and) enters; at dawn (ཐོ་རངས) a white bhikṣu and a woman with a lotus sign: whatever the wish is, shows it like a form in a mirror." The Showing of dreams is complete.
 
 What it says of time: a fast of one to three days before; the showing at dawn; "the six periods" is named once and not explained (RD314's «dus drug» of the day and night in the Kālacakra commentaries is the likelier reading, not shown here). No part of the night is a rule of the rite, no lunar day, no image list. State: etext, with the doubtful words as printed.
+
+## <a id="svo-i687"></a>svo:i687 The Cakrasaṃvara commentary «De kho na nyid mkhas pa» (VE23703_1333 p. 687): the four sessions are the early session, noon, sunset and midnight (RD394)
+
+*Read: etext, 2026-11-11.*
+
+> [p687] ཡང་ན་ཐུན་ཕྱེད་པའི་དབྱེ་བས་ཕྱེའོ། །ཡང་ན་ཐུན་མཚམས་བཞིའི་དབྱེ་བས་ལས་རྣམས་ཏེ་སྔ་མའི་ཐུན་མཚམས་ལ་ཞི་བའོ། །ཉི་མ་གུང་ལ་རེངས་པའོ། །ནུབ་པར་གྱུར་པ་ལ་དགུག་པའོ། །མཚན་མོ་ཕྱེད་ལ་གསད་པའོ། །སྒྲ་ཇི་བཞིན་པའོ།
+
+[p687] «Or it is divided by the half-watches. Or the rites are by the division of the four sessions (ཐུན་མཚམས བཞི): in the early session (སྔ་མའི་ཐུན་མཚམས) pacifying; at noon (ཉི་མ་གུང) stiffening (རེངས་པ); at the sun's setting (ནུབ་པར་གྱུར་པ) summoning (དགུག་པ); at midnight (མཚན་མོ་ཕྱེད) killing»: as the words stand.
+
+The four sessions of this commentary are therefore the early session, noon, sunset and midnight; the sādhana of pp. 572–573 (svo:i572-573) names the same early session («སྔ་དྲོའི་ཐུན་མཚམས», the early-morning session), noon and midnight, and adds a session of the fifth water-hour.
 
 ## <a id="svo-i710"></a>svo:i710 The Ḍākinī consecration rite «Mnyes pa'i snying po» (Derge etext VE23703_1338, p. 710): the dream told at dawn, «Hūṃ-mdzad» 108 times for a bad one (RD386)
 

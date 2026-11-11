@@ -1,0 +1,15 @@
+---
+kind: claim
+type: note
+terms: [chu-tshod, thun, thun-mtshams, mtshan-mo-phyed, rmi-lam]
+cites: ['svo:i521-523', 'svo:i525', 'svo:i687', 'svo:i572-573']
+feeds: [S1]
+open: []
+---
+# The Cakrasaṃvara commentary's measures have no six watches: the session of the fifth chu tshod is a water-hour of sixty, placed after midnight; «look at a virtuous dream» is not glossed (RD394, q1101)
+
+The commentary's own measures (svo:i521-523, svo:i525, svo:i687) are: six breaths a water-srang (ཆུ་སྲང, chu srang), sixty water-srang a water-hour (ཆུ་ཚོད, chu tshod, which here is also called the staff, དབྱུ་གུ, dbyu gu), five water-hours a junction (དུས་སྦྱོར, dus sbyor); so twenty-four half-junctions are honoured, four sessions (ཐུན་མཚམས, thun mtshams), eight watches (ཐུན, thun), then sixteen half-watches and thirty-two moments (ཡུད་ཙམ, yud tsam); of the moments the passage says two water-hours make one. By this count the day and night holds sixty water-hours and the junction is twelve of them. Nothing is said of six watches or a sixfold session. The eight watches are counted «from midnight» (མཚན་མོ་ཕྱེད་ནས) in the sun's part, four, and four more in the moon's, as the clause reads (the clause is rendered word by word, and whether the first watch starts at midnight is not settled by it). The four sessions are named at p. 687 as the early session (སྔ་མའི་ཐུན་མཚམས), noon, sunset and midnight.
+
+So the answer to q1101's first question is that «the session of the fifth chu tshod» (ཆུ་ཚོད་ལྔ་པའི་ཐུན་མཚམས) is not the fifth of six watches: this commentary has no six-part division of the night. It names a numbered water-hour in a sixty-hour day and night. The sādhana puts it after midnight and before the early-morning session (svo:i572-573: sleep, then midnight, then the fifth chu tshod, then the early morning); a count from midnight would put the fifth water-hour two hours (five of sixty-in-a-day-and-night, i.e. about two clock hours) after midnight, which fits that order, and a count from sunset would put it before midnight, which does not; this is the order's inference, and the passage does not say from where the water-hours are counted. The word is the text's: «ཆུ་ཚོད་ལྔ་པའི་ཐུན་མཚམས་ཀྱི་བདག་ཉིད་ལ་ཡང་ངོ», literally «in the nature of the session of the fifth chu tshod also». The exact phrase has two hits in BDRC's full-text search: this commentary and the Bstan 'gyur dpe bsdur ma edition of it (VEIE0OPIA3E40644_I1PD95854), which was not opened.
+
+The second question, whether «རྨི་ལམ་དགེ་བ་བལྟ་བར་བྱའོ» is an instruction to dream or to watch for a dream: the passage does not say. The verb is «to look at, watch» (བལྟ, blta), an imperative of the rite after the practitioner has gone to sleep (གཉིད་ལོག་པར་བྱའོ) and woken at midnight to meditate «likewise», and nothing in the commentary glosses it; the same exact phrase had no hit in BDRC's full-text search. «To look at» a virtuous dream is more naturally to look for it among the dreams of the night than to induce one, but the commentary gives no list, no meaning and no remedy; this is a reader's sense, not the text's. Etext only (BDRC VE23703_1333 and the three passages).

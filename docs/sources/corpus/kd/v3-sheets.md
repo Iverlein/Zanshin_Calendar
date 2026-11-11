@@ -235,7 +235,28 @@ Over the right-hand cells of the first row, a line «ཕྲེང་འདི་
 
 ## The night's parts in the dream rules (what RD338 and RD341 left; q1042, q1058, q1072, q964, q1101): from what the night is counted for the thirty parts of the Mchog dga' dream rule; whether the «middle watch» (བར་མའི་ཐུན) of the omens is the second watch or the middle of the night; the Sakya manual's «no dream comes» in the second and third watches; Tsong kha pa's four parts of the night; the Cakrasaṃvara commentary's session of the fifth chu tshod (RD394)
 
-Nothing read yet: RD394's passages, with the English beside them, go here.
+*Read: etext, 2026-11-11 (RD394): Kun 'dus vol. 3 etext VEIE0OPI2F246A26_I4717 pp. 197-200 (printed = etext minus 20) again; the Derge etext of the Mañjuśrī root tantra (VE4CZ5369_I1KG9214) [p435]-[p437]; the Rdzong gsar etext of Nam mkha' dpal bzang's manual (VEIE0OPIBF2693C2_I2PD14800) [p459]-[p461]; the Derge Tengyur etext VE23703_1333 pp. 521-525, 572-573 and 687; Tsong kha pa's passage on the scan, img. 386, for its four-part line. No model was run, no loan used.*
+
+The passages of this section stand in their corpus files, with the Tibetan and the English beside it: the Mchog dga' on the time of the dream, [kd.3:p177-179](kd.md#kd-3-p177-179) and the close of ch. 3, [kd.3:p179-180](kd.md#kd-3-p179-180); the omens by day and night, [mmk.1:p435-436](../mmk/mmk.md#mmk-1-p435-436) and [mmk.1:p436-437](../mmk/mmk.md#mmk-1-p436-437); the Sakya manual's examination of the dream, [rsk:p459-461](../rsk/rsk.md#rsk-p459-461); Tsong kha pa's rite, [tkg:i385-388](../tkg/tkg.md#tkg-i385-388) (machine, its four-part line read again on img. 386); the Cakrasaṃvara commentary's sādhana, [svo:i572-573](../svo/svo.md#svo-i572-573), and, new in this reading, its own measures of time: [svo:i521-523](../svo/svo.md#svo-i521-523), [svo:i525](../svo/svo.md#svo-i525), [svo:i687](../svo/svo.md#svo-i687).
+
+What the texts answer:
+
+- **q1042** (from what the night is counted): the Mchog dga' does not say, nor why a junction's part is a part of the night, nor which night; the numbers fit a count from dusk to dawn, which is our inference ([mchog-dga-night-parts-no-start-and-no-night-named](../../claims/mchog-dga-night-parts-no-start-and-no-night-named.md)).
+- **q1058** («middle watch»): in the order of the omens it is the stretch between «midnight» and «the end of midnight», not the second watch; no fourth watch is named in the omens ([mmk-ch18-middle-watch-sits-between-midnight-and-its-end-no-fourth-watch](../../claims/mmk-ch18-middle-watch-sits-between-midnight-and-its-end-no-fourth-watch.md)).
+- **q1072** («no dream comes»): the verb is «does not arise», the reason deep sleep; no dream occurs, it is not a rule of counting ([rsk-no-dream-comes-in-middle-watches-is-no-dream-occurs-in-deep-sleep](../../claims/rsk-no-dream-comes-in-middle-watches-is-no-dream-occurs-in-deep-sleep.md)).
+- **q964** (Tsong kha pa's four parts): the tantric division; the medical dream rules read judge by the first part of the night against the dawn ([tkg-four-parts-of-the-night-is-the-tantric-division-the-medical-rule-is-first-part-against-dawn](../../claims/tkg-four-parts-of-the-night-is-the-tantric-division-the-medical-rule-is-first-part-against-dawn.md)).
+- **q1101** (the fifth chu tshod): a numbered water-hour of the commentary's own sixty to the day and night, not the fifth of six watches; the commentary has four sessions and eight watches and no six; «look at a virtuous dream» is not glossed ([cakrasamvara-commentary-fifth-chu-tshod-is-a-water-hour-after-midnight-not-the-fifth-of-six-watches](../../claims/cakrasamvara-commentary-fifth-chu-tshod-is-a-water-hour-after-midnight-not-the-fifth-of-six-watches.md)).
+
+*Open*
+
+- Question: in the Cakrasaṃvara commentary «De kho na nyid mkhas pa» (VE23703_1333 pp. 525, 573), from what moment are the water-hours (ཆུ་ཚོད) counted, midnight, sunset or the sun's rising, and does the clause «ཉི་མའི་ཆ་ལ་མཚན་མོ་ཕྱེད་ནས་ཉི་མ་གང་ཇི་སྲིད་པར་བཞི» mean that the first watch of the day-and-night begins at midnight?
+- Question: in the Mañjuśrī root tantra's omens (Derge ch. 18, [p436]) is the «middle watch» (བར་མའི་ཐུན) a watch of its own between the second and the third, or only the name of the stretch around midnight; and does any Tibetan commentary on the root tantra gloss it?
+
+*Searched and not found*
+
+- BDRC full-text search (2026-11-11): «རྨི་ལམ་དགེ་བ་བལྟ་བར་བྱ» no hit; «ཆུ་ཚོད་ལྔ་པའི་ཐུན་མཚམས» and «ཆུ་ཚོད་ལྔ་པའི་ཐུན» two hits only, VE23703_1333 and the dpe bsdur ma edition of the same commentary (VEIE0OPIA3E40644_I1PD95854), the latter not opened; «བར་མའི་ཐུན་ནི་བྲི་གྱུར་ནས», «མཚན་ཕྱེད་མཐར་གྱུར་ལ» and «ཐུན་ནི་གསུམ་པར་ཕྱིན་ནས» only the root tantra's own prints (Derge etext, a second Kanjur print, I1KG2753) and KD vol. 2's etext (VEIE0OPI2F246A26_I4716 etext pp. 410-411, the same lines with no gloss); «ཐུན་ནི་གསུམ་པར་ཕྱིན་ནས» also VEIE0OPIFDBF938F_I5743, whose etext answered empty and was not read. No commentary on the omens' «middle watch» was found; the word «བར་མའི་ཐུན» occurs once in the whole Derge etext of the tantra.
+- The Derge etext of the tantra holds no «fourth watch» (ཐུན་ནི་བཞི, ཐུན་བཞི་པ, བཞི་པའི་ཐུན); the last watch of the night is called «the last» at [p408] and [p430].
+- No Tibetan medical text read in the pool divides the night in four by the humours.
 
 
 ## WB's dream list, the words left in doubt (q1080, q1081, q1082, q1074, q908, q944): བྱེས་སུ, ཙབ་ཙུབ, the hour entries' bed and pillow lines, the Chinese and Nepalese of the Mchog dga', the Chöd texts' causes of a confused dream, whether WB's dream list rests on Klong rdol's stock of images (RD396)
