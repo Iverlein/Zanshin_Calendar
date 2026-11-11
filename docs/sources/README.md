@@ -2327,6 +2327,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1117.md](questions/q1117.md) | question q1117 | In the life of Rig 'dzin Chos kyi grags pa is the earlier dream of dusk the vidyā-king in the dusk session, and does nam gung mean the midnight session | open; cites dds.49:p110-112 |
 | [questions/q1118.md](questions/q1118.md) | question q1118 | In the Yu thog instruction are the kings, planets and nāgas classes of gdon tamed by Hayagrīva, Vajrapāṇi and Nāgarakṣa, and is the dream of spirits the dream where any shows as an animal | open; cites dds.47:p293-295 |
 | [questions/q1119.md](questions/q1119.md) | question q1119 | Are the male and female spirit dreams of lying postures in 'Jig rten mgon po the same as the spirit dreams that lose the drop in Marpa's inner-heat manual | open; cites dds.24:p190-191, dds.19:p187-189 |
+| [questions/q1120.md](questions/q1120.md) | question q1120 | Does the stack under ལ in line 2 of Lung rigs bstan dar's glossary read ྷ or ྟ in the clause on the time of feeling | open; cites st:p350-351d |
+| [questions/q1121.md](questions/q1121.md) | question q1121 | Do the Blue Beryl's printed page and chapter etexts read ལྟས་ཚོར་བའི་དུས, and is it the Blue Beryl's own text or an editor's | open; cites st:p350-351d |
 
 <!-- end pool index -->
 
