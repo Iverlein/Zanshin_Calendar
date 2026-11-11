@@ -2351,6 +2351,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1125.md](questions/q1125.md) | question q1125 | Is the middle watch of the Mañjuśrī root tantra's omens a watch between the second and third, or the stretch around midnight, and does a commentary gloss it | open; cites mmk.1:p435-436 |
 | [questions/q1126.md](questions/q1126.md) | question q1126 | Is ཚིག་པ་ཟ in the hour entries «eats burnt food» or «is scorched, pained» | open; cites kd.3:p588-589b |
 | [questions/q1127.md](questions/q1127.md) | question q1127 | Is ཙབ་ཙུབ in the dream line said of the dreams' number and haste only, or is it a kind of dream a reader names | open; cites kd.3:p597b |
+| [questions/q1128.md](questions/q1128.md) | question q1128 | From which Edo or early Meiji book on does a 初夢 of 2 January stand in print | open; cites mdz:i54254 |
+| [questions/q1129.md](questions/q1129.md) | question q1129 | Does a reader of the cursive confirm every cell of the Kokubunken table's hentaigana, in particular the first and second glyph of the first, third, eleventh and twelfth months | open; cites mdz:i54254 |
 
 <!-- end pool index -->
 
