@@ -20,6 +20,54 @@ by eye; BDRC's etext (VEIE0OPI2F246A26_I4717, etext page = printed page +
 charts: their words are headings and cell labels, quoted here as the scan
 shows them. They answer open question 184.
 
+## <a id="kd-3-p71"></a>kd.3:p71 The Mchog dga' on «mon gre»: «some of the Chinese and Nepalese» beside the Sbas pa gsal byed and the Kālacakra
+
+*Read: etext, 2026-11-11.*
+
+> འདིར་གཞུང་ཕལ་ཆེ་བ་ལས། མོན་གྲུ་ཞེས་འབྱུང་ཡང་། སྦས་པ་གསལ་བྱེད་ལས། སྟོང་པ་པ་སངས་མོན་གྲེ་འཛོམ། ཞེས་བཤད་པ་དང་། རྒྱ་བལ་ཁ་ཅིག་གིས་ཀྱང་མོན་གྲེ་ལ་སྦྱར་བ་དང་། དཔལ་དུས་ཀྱི་འཁོར་ལོ་ལས་ཀྱང་།དབྱངས་མི་གཅིག་པ་མ་གཏོགས་ཚེས་དང་གཟའ་དང་སྐར་མ་རྣམས་འདྲ་བར་མཛད་འདུག་པ་ལའང་མོན་གྲེ་བྱུང་བས། སྐབས་འདིར། རྒྱུ་སྐར་མོན་གྲེ་དེ་བཞིན་ཏེ། །ཞེས་པའི་གཞུང་དག་པ་ཡིན་ནོ།
+
+The Mchog dga' on the vowel signs of the mansion «mon gre» (KD vol. 3, printed p. 71, etext p. 91): "Here, though most texts have «mon gru», the Sbas pa gsal byed says «stong pa pa sangs mon gre 'dzom»; and some of the Chinese and Nepalese (རྒྱ་བལ་ཁ་ཅིག) also join it to «mon gre»; and since the Kālacakra too makes the days, the planets and the stars alike except for the vowel, and «mon gre» occurs there, «mon gre» is the true reading of the text at «rgyu skar mon gre de bzhin te»." The Chinese and Nepalese are set beside the Sbas pa gsal byed (the Kālacakra commentary) and the Kālacakra itself as a voice that spells the word, not named as a book.
+
+## <a id="kd-3-p77"></a>kd.3:p77 The Mchog dga' on the vowels in the directions: «some of the Chinese and Nepalese» with the commentators
+
+*Read: etext, 2026-11-11.*
+
+> འདིར་རྒྱ་བལ་ཁ་ཅིག་དང་། འགྲེལ་པ་བྱེད་པ་རྗེས་འབྲངས་དང་བཅས་པ་དག་གིས། དབྱངས་རིང་བ་ལྔ་ཕྱོགས་དང་དབུས་དང་།དབྱངས་ཐུང་བ་ལྔ་མཚམས་དང་དབུས་སུ་བཀོད་ནས། ཚེས་ཀྱི་དཀར་ནག་གི་ཕྱོགས་ཐ་དད་དུ་བྱས་ནས་རྩི་བར་འདོད་དོ།
+
+The Mchog dga' on the vowels (KD vol. 3, printed p. 77, etext p. 97): "Here some of the Chinese and Nepalese (རྒྱ་བལ་ཁ་ཅིག), together with the commentators and their followers, set the five long vowels in the directions and the middle and the five short vowels in the corners and the middle, and so wish to reckon the bright and dark halves of the date apart." The group is again put beside «the commentators» (འགྲེལ་པ་བྱེད་པ), and their rule is one of the Kālacakra's vowel reckoning.
+
+## <a id="kd-3-p87"></a>kd.3:p87 The Mchog dga' on Rāhu and the planets by direction: the verse of «some of the Chinese and Nepalese»
+
+*Read: etext, 2026-11-11.*
+
+> སྔ་མ་ཁ་ཅིག རཱ་ཧུའི་ཐོབ་ཐང་ཙམ་ཡིན་གྱི། དངོས་སུ་རྒྱུ་བ་མེད་ཟེར་རོ། ། རྒྱ་བལ་ཁ་ཅིག་གིས། ཉི་མ་ཤར་ཕྱོགས་བཀྲ་ཤིས་མེ། ། བླ་མ་ལྷོ་ཕྱོགས་ལྷག་པ་སྲིན། ། པ་སངས་ནུབ་ལ་སྤེན་པ་རླུང་། ། སྒྲ་གཅན་དབང་ལྡན་ཟླ་བ་བྱུང་། །ཞེས་པ་འདི་དང་མི་མཐུན་པར་བཀོད་དེ་གཞུང་འདི་ལ་མི་འགྲིག་ནའང་འདབ་ཆགས་འཁོར་ལོའི་སྐབས་དང་མཐུན་ནོ།
+
+The Mchog dga' on the planets (KD vol. 3, printed p. 87, etext p. 107): "Some of the earlier ones say that Rāhu is only a share of power and does not really move. Some of the Chinese and Nepalese (རྒྱ་བལ་ཁ་ཅིག) set down, not agreeing with this, «the sun in the east is good luck and fire; Jupiter in the south, a surplus, a flesh-eater (srin); Venus in the west, Saturn, wind; Rāhu, the lord of power, the moon has come», and though it does not fit this text it agrees with the occasion of the bird-wheel (འདབ་ཆགས་འཁོར་ལོ)." The verse is of their own, about the planets' places by direction.
+
+## <a id="kd-3-p588-589b"></a>kd.3:p588-589b The iron entry of the hour's elements: the bed, the pillow and the burnt food, word by word with the lexica and the parallels
+
+*Read: etext, 2026-11-11.*
+
+> གདན་ནི་སྔོ་ནག་པོ་ཞིག །བཏིང་ལ་ཤིང་གིས་སྔས་ཀྱང་བྱས། །སྐབས་སུ་ཚིག་པ་ཟ་བར་འདུག །ཟུར་གཞོགས་ཐལ་ཕུང་ཡང་ན་མེའི། །ཕུང་ངམ་རྩིག་པར་བསྡད་ནས་འདུག །རྨི་ལམ་འཚུབ་ལ་ཕ་མེས་པོ། །སྤུན་ལྔ་གསུམ་མམ་གྲིར་འཆི་ཡོད།
+
+The bed and the pillow lines of the iron entry of the hour's elements, read word by word (KD vol. 3 etext pp. 588-589; the whole passage is kd.3:p588-589). «གདན་ནི་སྔོ་ནག་པོ་ཞིག། བཏིང་ལ་ཤིང་གིས་སྔས་ཀྱང་བྱས།» a dark-blue mat spread, a pillow made of wood; «སྐབས་སུ་ཚིག་པ་ཟ་བར་འདུག» at times (he) is (seen) eating «tshig pa» (burnt food, or being burnt); «ཟུར་གཞོགས་ཐལ་ཕུང་ཡང་ན་མེའི། ཕུང་ངམ་རྩིག་པར་བསྡད་ནས་འདུག» he sits to one side on an ash heap or a heap of embers, or against a wall; «རྨི་ལམ་འཚུབ་ལ་ཕ་མེས་པོ། སྤུན་ལྔ་གསུམ་མམ་གྲིར་འཆི་ཡོད།» the dream is troubled, the father and the forefathers; of five or three brothers one dies by the knife. BDRC's exact phrases (2026-11-11): «ཚིག་པ་ཟ་བར་འདུག» 12 hits, of which the lines of the White Beryl, its Gser thang print, the Kun 'dus chen mo and the commentary Dpyod ldan snying nor (the last with the Wylie «tshig pa za bar 'dug zur gzhogs thal phung gdan mi'i mthud dam tshig bar bstad nas 'dus»); the other hits are Tāranātha's life («ko long can mang po de tsam la yang tshig pa za bar 'dug», a crowd of beggars) and Pu to ba's long instruction («snying nas rang tshig pa za bar 'dug», in a line on faith in the lama: "from the heart one is scorched"), where it is a scorching of the person; «རྨི་ལམ་འཚུབ་ལ་ཕ་མེས» 3 hits (the three above); «ཤིང་གིས་སྔས་ཀྱང་བྱས» none (the etexts have «ཤིང་གི་སྔས»). Lexica: «སྔས» "a bolster, pillow, cushion" (Rangjung Yeshe), «མགོ་སྔས་ཏེ། ཉལ་དུས་མགོ་འཇོག་སའི་ཆས» "the thing on which the head is laid in sleep" (Tshig mdzod chen mo); «ཚིག་པ» "burnt; anger" (Valby, Rangjung Yeshe), "what is burnt" (ITLR); «འདུག» "sit, be; to exist obviously" (Verbinator), an auxiliary that marks what the speaker sees; «འཚུབ» "swirling, turbulent" (Rangjung Yeshe), "restless" (Valby).
+
+## <a id="kd-3-p597b"></a>kd.3:p597b The mewa five yellow of birth: «tsab tsub» in the lexica and in three etexts
+
+*Read: etext, 2026-11-11.*
+
+> དཀོར་སྲུང་བན་བོན་ཆོས་སྐྱོང་གནོད། །བསྐང་བཤགས་གཙུག་ཏོར་སྟོང་བཟློག་བྱ། །རྟག་ཏུ་ལྷ་མི་དགའ་བ་དང་། །རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང་། །ཡུལ་བདག་ཕ་མིང་སྲུང་མ་འགོ
+
+The line, word by word: «རྟག་ཏུ་ལྷ་མི་དགའ་བ་དང་། རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང་།» "always the gods are displeased, and the dreams are «tsab tsub», very many." The same two lines are in the White Beryl (BDRC MW2CZ8040, snippet «rmi lam tsab tsub / yul bdag pha ming srung ma 'go»), in its Gser thang print (MW3CN5026) and in the Kun 'dus chen mo (MW28845), the three hits of the exact phrase «རྨི་ལམ་ཙབ་ཙུབ» on 2026-11-11 (the KD etext printed here is a fourth); the spelling is «ཙབ་ཙུབ» in all. None of them glosses the word. The lexica gloss it as a rhymed pair: Bod rgya tshig mdzod chen mo, Dag tshig gsar bsgrigs, Bod yig tshig gter rgya mtsho give «ཙབ་ཙུབ» as the contraction of «ཙབ་བེ་ཙུབ་བེ» (tsab be tsub be), which is «བློ་བག་མི་ཕེབས་པའི་རྣམ་འགྱུར» "a mode of not letting the mind settle" (the Tshig mdzod chen mo's example: to do work, speak or write «tsab be tsub be» is to be careless and be misunderstood or err), and the Dag tshig «ལྷུན་ཆགས་པ་མ་ཡིན་པའི་བྱ་སྤྱོད་ཀྱི་དོན» "the sense of conduct that is not settled, steady"; Rangjung Yeshe "crude, restless, nervous"; Valby "in a hurry"; Dan Martin (Das) "in a hurry".
+
+## <a id="kd-3-p647-648b"></a>kd.3:p647-648b The black life pebbles: «byes su nyal ba» in the lexica and in four etexts
+
+*Read: etext, 2026-11-11.*
+
+> སྲོག་རྡེལ་ནག་པོ་གཉིས་བབས་ན། །གནམ་ལོ་རྒྱལ་པོའི་བཀའ་ཆད་འབྱུང་། །ཟླ་བ་བློན་པོའི་དམག་ལ་བསྡུས། །འབྱུང་བ་དུས་ཀྱི་རྐྱ་མདའ་ཐུག །རིན་ཆེན་སྲོག་གི་ཐང་ཤིང་ཆག །གསེར་གྱི་ཟམ་པ་རྩ་ནས་འགྱེལ། །སྟེང་ནས་བདུད་ཀྱི་བྱ་ནག་ལྡིང་། །འོག་ན་དམ་སྲིའི་ཁྱི་ནག་ཟུགས། །རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི། །ཕ་ཁུ་འཕུང་པའི་ཕུང་སྲི་གནོད། །ཁྱོད་ལ་གྲི་ངོ་བཙོན་ངོ་ཡོད། །བྱས་པ་མེད་ཀྱང་སྙིང་མི་དགའ།
+
+The lines of the black life pebbles to the dream (KD vol. 3 etext pp. 647-648; the whole passage with its rites is kd.3:p647-648). The word «བྱེས་སུ» (byes su) in «རྨི་ལམ་བྱེས་སུ་ཉལ་བ་རྨི» "he dreams of lying down «byes su»". The same lines are in the White Beryl (MW2CZ8040), its Gser thang print (MW3CN5026, «བྱེས་སུ་ཉལ་བ་ནི»), the Kun 'dus chen mo (MW28845) and the commentary Dpyod ldan snying nor (MW1KG1617_A9DE66, poor OCR): BDRC's exact phrase «བྱེས་སུ་ཉལ» has these four hits (2026-11-11); the later lines of the Gser thang print read «འཐུང་བའི་འཐུང་སྲི» for «འཕུང་པའི་ཕུང་སྲི». The lexica: Bod rgya tshig mdzod chen mo «བྱེས» is «གཞིས་ལས་རིང་དུ་ཆོད་པའི་གནས» "a place far cut off from the home ground", with the examples «འགྲུལ་པ་བྱེས་ནས་འོངས་པ» "the traveller came from afar" and «ཁྱིམ་ནས་བྱེས་སུ་བཏེག་པ» "carried from the house to a far place"; the Dag tshig gsar bsgrigs: «རང་ཡུལ་དང་བར་ཐག་རིང་བའི་གནས་ཀྱི་མིང»  "the name of a place far from one's own country", with «བྱེས་པ» the one who has gone there, and the pair «གཞིས་པ» (the one at home) against «བྱེས་པ»; Rangjung Yeshe "foreign country, abroad"; Valby "place of temporary residence, foreign country, abroad", «བྱེས་པ» "foreigner, stranger, traveller"; the Sgom sde tshig mdzod: a place cut off, set apart from the root place. So «བྱེས་སུ་ཉལ་བ» is lying down away from home, in a strange place.
+
 ## <a id="kd-3-p716"></a>kd.3:p716 The four precious pebbles of the worked birth
 
 *Read: scan, 2026-10-22.*
@@ -261,4 +309,16 @@ What the texts answer:
 
 ## WB's dream list, the words left in doubt (q1080, q1081, q1082, q1074, q908, q944): བྱེས་སུ, ཙབ་ཙུབ, the hour entries' bed and pillow lines, the Chinese and Nepalese of the Mchog dga', the Chöd texts' causes of a confused dream, whether WB's dream list rests on Klong rdol's stock of images (RD396)
 
-Nothing read yet: RD396's passages, with the English beside them, go here.
+Read 2026-11-11 (RD396), by etext and the lexica of Steinert's collection (Bod rgya tshig mdzod chen mo, Dag tshig gsar bsgrigs, Bod yig tshig gter rgya mtsho, Sgom sde tshig mdzod, Rangjung Yeshe, Valby, Dan Martin, ITLR), and BDRC's exact-phrase search; no scan was opened and no model run. The passages of this reading are in the file in page order: [kd.3:p71](#kd-3-p71), [kd.3:p77](#kd-3-p77), [kd.3:p87](#kd-3-p87) (the Chinese and Nepalese, q1074), [kd.3:p588-589b](#kd-3-p588-589b) (the bed and pillow lines, q1082), [kd.3:p597b](#kd-3-p597b) (tsab tsub, q1081), [kd.3:p647-648b](#kd-3-p647-648b) (byes su, q1080). The claims: byes-su-is-away-from-home-in-a-far-place, tsab-tsub-is-a-hurried-restless-pair-no-dream-gloss, hour-entry-bed-lines-the-diviners-seeing-not-a-sick-bed, rgya-bal-kha-cig-three-works-and-three-places-in-the-mchog-dga, chod-texts-give-no-causes-of-a-confused-dream. q944 (whether WB's dream list rests on Klong rdol's stock of images) got nothing new: no earlier text with WB's lines was found, so the claim dream-wb30-wording-shared-with-klong-rdol-and-rrt stands.
+
+### Open
+
+- Question: In «སྐབས་སུ་ཚིག་པ་ཟ་བར་འདུག» of the hour entries (kd.3:p588-589), is «ཚིག་པ་ཟ» (tshig pa za) "eats burnt food" or "is scorched, pained", as the same words are used of a person's heart in Tāranātha's life and Pu to ba's long instruction?
+- Question: Is «ཙབ་ཙུབ» in «རྨི་ལམ་ཙབ་ཙུབ་ཤིན་ཏུ་མང» (kd.3:p597) said of the dreams' number and haste only (many, hurried, jumbled), or is it a kind of dream a reader of the tradition names?
+
+### Searched and not found
+
+- 2026-11-11, BDRC's exact phrases «ཤིང་གིས་སྔས་ཀྱང་བྱས» (0 hits; the etexts read «ཤིང་གི་སྔས»), «རྨི་ལམ་འཁྲུལ་པའི་རྐྱེན» (0), «རྨི་ལམ་གྱི་རྒྱུ་ལྔ» (0), «ཕྱི་རོལ་གྱི་ལྷ་འདྲེ་འཁྲུགས་པ» (0): no Chöd text lists causes of a confused dream; «རྨི་ལམ་འཁྲུལ་པའི་རྒྱུ» (4 hits) is the Pramāṇa commentary of Śākya mchog ldan only.
+- 2026-11-11, Steinert's dictionaries (Wylie headwords, a blobless sparse clone of the public folder): «tsab tsub», «tsab be tsub be», «tshab tshub», «byes», «byes pa», «gzhis byes» found as in the claims; «tshig pa za», «zur gzhogs», «thal phung» have no headword; no entry gives «byes su» or «tsab tsub» a dream sense.
+- 2026-11-11, BDRC's exact phrase «རྒྱ་བལ་ཁ་ཅིག»: 3 hits, the Kun 'dus chen mo, the Bzo rtsis zlos gar vol. 2 and the Dpyod ldan snying nor only; no text names the Chinese and Nepalese.
+- 2026-11-11, q944: no text with WB's dream lines or the Klong rdol verses in WB's order found among the hits of the phrases above.
