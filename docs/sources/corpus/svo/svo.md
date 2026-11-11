@@ -1880,3 +1880,8 @@ Further places where a dream is a step of a rite or a sign, named and not read i
 ## The Svapnohana, the Svapnanirdeśa and the Tengyur rites, their small words (q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048, q1032): གདོན as a duration, ལྟ་བ or ལྟས in the Derge title, དུས་དྲུག, «at the end of the sky the dream is examined», ཟློས, the Dream month of the Catuṣpīṭha, Klu'i byang chub's line, krama or sama in the Mañjuśrī root tantra (RD395)
 
 Nothing read yet: RD395's passages, with the English beside them, go here.
+
+
+## The dream rites and signs left by the Tengyur and Kanjur readings (q961, q963, q981, q982, q1012, q1017, q1024, q1059, q1086, q1087): the Svapnekṣā's last part of the night on the Peking print, Bu ston's lineage names, the Red-Hat copyists of the Lama Gongdü, the Sha za brtsegs pa'i rgyud's chapter title, the Vairocana preparation text for dawn dreams, the Vimalaprabhā's vowels, Mipham's Flaming Uṣṇīṣa colophon, the middle watch of the Mahābala omens, mtshan brtas, the Tibet House catalogue (RD399)
+
+Nothing read yet: RD399's passages, with the English beside them, go here.
