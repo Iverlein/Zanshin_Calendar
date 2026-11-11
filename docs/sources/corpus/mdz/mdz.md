@@ -794,3 +794,22 @@ Open:
 - Question: the hentaigana of the 国文研 print's table (single glyphs, 祢 for the rat) are matched to mdz:p11 by the number of glyphs and the place of the gap only; does a reader of the cursive confirm every cell, in particular the first and second glyph of the first, third, eleventh and twelfth months?
 
 Searched and not found (RD398), 2026-11-11: (1) a legend or note for the slash on image 9 of the 国文研 print (bid 200013909), beside the table and in the lower paragraph; (2) a 初夢 in the second-day entry of the 東都歳事記, canvas 18 (read in part, columns of the left page only; the right page's columns from the third day on were not read); (3) the other prints still unopened from earlier readings (嘉永大雑書 of the Edo-Tokyo Museum, the 蓬左 copies, Waseda's 503 answers) were not tried again in this session; the dream book 夢合長者鑑 (q984) and the 夢合延寿袋大成 (q990, q992) are as in RD340 and RD344: no table, no slash legend, no 初夢 night.
+
+## RD400 (2026-11-11): the Tokyo Gakugei Daizassho prints and the Kokubunken ヤ0-32 and ヤ0-116 on contact sheets; Open; Searched and not found
+
+**Answers.** (1) The two Tokyo Gakugei prints (An'ei 9, bid 100408974; Bunsei 11, bid 100408973) are one book, an almanac of numbered boxed items; on no leaf is there a table of twelve months of day branches; the one dream item seen (image 24 of the 1780 print) is a short boxed text, read in single glyphs only (mdz:i100408974). (2) The Kokubunken ヤ0-32 (bid 200007529, 51 images) and ヤ0-116 (bid 200017194, 46 images) are older almanacs in lists of month and day entries; only the last third of each was looked at on sheets, no table with a slash recognised. (3) No book that fixes the 初夢 on 2 January was reached: the 守貞謾稿 is restricted at the NDL (RD368) and the other two books were not found open.
+
+Open:
+
+- Question: the boxed item of the Tokyo Gakugei Daizassho (1780, image 24, beginning with the character for dream, about ten columns): does a reader of the cursive confirm that it is the charm for a bad dream, and does it say anything of a day on which the dream is not told?
+
+Searched and not found (RD400), 2026-11-11: (1) a table of the days a dream is not told in the Tokyo Gakugei prints bid 100408974 and 100408973 (all leaves on sheets of 700 px, image 24 and the last text leaf enlarged; running text not read letter by letter); (2) the same in ヤ0-32 and ヤ0-116 (images 25-36 of ヤ0-116 and 37-48 of ヤ0-32 on sheets only, the earlier images not looked at); (3) the Edo-Tokyo Museum 嘉永大雑書, the right-hand columns of 東都歳事記 canvas 18, the 江戸府内絵本風俗往来 and the 諸国年中行事 were not opened for lack of time; Kokubunken answered every call normally.
+
+## <a id="mdz-i100408974"></a>mdz:i100408974 大雑書 (東京学芸大 安永9), image 24: the boxed dream item 百十七, read in single glyphs only (RD400)
+
+*Read: machine.*
+
+> 〔右頁、上段の枠、百十七（?）〕
+> 夢 … 吉凶 … 七 … 〔十行ほど。「夢」「七」「唱」にあたる字のみ読める。残りは崩し字で読み切れず〕
+
+Tokyo Gakugei University, Mochizuki collection, Daizassho (An'ei 9 = 1780, DIG-TKGK-52334, kokusho.nijl.ac.jp bid 100408974), image 24 of 27, right page, the boxed item under the picture of a man before a shrine gate (printed item number 百十七 or 百十八, the box is partly worn by a white scratch): the heading begins with the character for "dream" and the text is a short run of about ten columns of cursive that is read only in single glyphs (a "seven", a verb of reciting); by its place beside the picture and its length it is a charm or a rule for a dream, not a table. Not read letter by letter: no table of twelve months with day branches was seen on the leaf, which is a column text with two small tables of "one person, seven ..." lines on the left.
