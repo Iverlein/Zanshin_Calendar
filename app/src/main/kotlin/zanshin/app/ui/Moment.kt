@@ -63,7 +63,7 @@ import zanshin.core.time.localDateOfJulianDayNumber
  * places for [person], by day; the three mewa joined; and a note on what is reckoned.
  */
 @Composable
-fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople: () -> Unit, onOpen: (Annotation) -> Unit) {
+fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople: () -> Unit, onOpen: (Annotation) -> Unit, onDream: (() -> Unit)? = null) {
     val labels = LocalLabels.current
     val (day, minutes) = moment
     val animal = day.monthNames.animal
@@ -149,7 +149,7 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
         AskerPlaces(day, minutes, person, onPeople, onOpen)
         ThreeMewa(day, onOpen)
         person?.let { AskingSection(day, minutes, it, onOpen) }
-        ObservedSignsSection(onOpen)
+        ObservedSignsSection(onOpen, onDream)
         Text(stringResource(R.string.moment_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
 }
@@ -528,7 +528,7 @@ private fun pebble(c: PebbleColour): String = stringResource(
  * voices and callers; a row for each group, its sheet each sign with its reading.
  */
 @Composable
-private fun ObservedSignsSection(onOpen: (Annotation) -> Unit) {
+private fun ObservedSignsSection(onOpen: (Annotation) -> Unit, onDream: (() -> Unit)?) {
     val labels = LocalLabels.current
     Section(stringResource(R.string.moment_signs_section))
     Text(stringResource(R.string.moment_signs_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
@@ -546,6 +546,10 @@ private fun ObservedSignsSection(onOpen: (Annotation) -> Unit) {
             ),
             onOpen,
         )
+        // From the dreams before the reckoning to the dream reading (ROADMAP S2).
+        if (group == "DREAM" && onDream != null) {
+            ScreenLinkRow(stringResource(R.string.dream_title), stringResource(R.string.reckonings_dream_subtitle), onClick = onDream, icon = Icons.Sunrise)
+        }
     }
 }
 

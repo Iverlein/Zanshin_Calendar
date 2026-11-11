@@ -57,7 +57,7 @@ import java.time.ZoneId
  * from a reckoning to the list, unless the section was opened on it, and from the list out through [onBack].
  */
 @Composable
-fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person?, onPeople: () -> Unit, onBack: () -> Unit) {
+fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, place: zanshin.core.astro.Place?, person: Person?, onPeople: () -> Unit, onBack: () -> Unit) {
     var shown by rememberSaveable { mutableStateOf(opened) }
     var sheet by remember { mutableStateOf<Annotation?>(null) }
     // The year of age's year, stepped on its own view; never before the person's first year.
@@ -82,8 +82,9 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
             Reckoning.SMALL -> SmallView(person, shownYear, onYear = { shownYear = it }, onPeople, back, open)
-            Reckoning.MOMENT -> MomentView(person, zone, onPeople, back, open)
+            Reckoning.MOMENT -> MomentView(person, zone, onPeople, back, open) { shown = Reckoning.DREAM }
             Reckoning.ILLNESS -> IllnessView(person, zone, onPeople, back, open)
+            Reckoning.DREAM -> DreamScreen(zone, place, back)
         }
     }
     sheet?.let { ReadingSheet(it) { sheet = null } }
@@ -130,6 +131,8 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
         Text(stringResource(R.string.reckonings_note), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
         if (person == null) {
             NoPerson(onPeople)
+            // The dream reading asks for no one: the night and what was dreamt.
+            ScreenLinkRow(stringResource(R.string.dream_title), stringResource(R.string.reckonings_dream_subtitle), onClick = { onOpen(Reckoning.DREAM) }, icon = Icons.Sunrise)
             return@Body
         }
         SectionTitle(stringResource(R.string.reckonings_section_built))
@@ -165,6 +168,7 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                 )
             }
             Reckoning.ILLNESS -> ScreenLinkRow(stringResource(R.string.illness_title), stringResource(R.string.reckonings_illness_subtitle), onClick = { onOpen(r) }, icon = Icons.Pebbles)
+            Reckoning.DREAM -> ScreenLinkRow(stringResource(R.string.dream_title), stringResource(R.string.reckonings_dream_subtitle), onClick = { onOpen(r) }, icon = Icons.Sunrise)
             Reckoning.THIRTY -> {
                 val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
                 val points = Thirty.all(Reckonings.birthSign(person), age)
@@ -328,9 +332,24 @@ private fun IllnessView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onB
 
 /** The reckoning of the moment (SPEC §5.9.5, ROADMAP R2o), now at [zone]. */
 @Composable
-private fun MomentView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+private fun MomentView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit, onDream: () -> Unit) {
     Header(stringResource(R.string.moment_title), person?.let { personLabel(it) }, onBack)
-    Body { MomentReckoningView(remember { Reckonings.moment(java.time.ZonedDateTime.now(zone)) }, person, onPeople, onOpen) }
+    Body { MomentReckoningView(remember { Reckonings.moment(java.time.ZonedDateTime.now(zone)) }, person, onPeople, onOpen, onDream) }
+}
+
+/**
+ * The dream reading (SPEC §5.9.11, ROADMAP S2): the night before a day of its own, today to begin with, stepped day by
+ * day; it asks for no one.
+ */
+@Composable
+private fun DreamScreen(zone: ZoneId, place: zanshin.core.astro.Place?, onBack: () -> Unit) {
+    val labels = LocalLabels.current
+    var date by rememberSaveable { mutableStateOf(java.time.LocalDate.now(zone)) }
+    Header(stringResource(R.string.dream_title), date.format(labels.headerDate), onBack) {
+        IconButton(onClick = { date = date.minusDays(1) }) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.health_day_before), tint = Palette.muted) }
+        IconButton(onClick = { date = date.plusDays(1) }) { Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.health_day_after), tint = Palette.muted) }
+    }
+    Body { DreamReadingView(date, place) }
 }
 
 /** The reckoning for the dead (SPEC §5.9.4, ROADMAP R2n) of [person]'s relatives who have died, or what it needs. */
