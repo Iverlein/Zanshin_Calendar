@@ -119,6 +119,21 @@ Read by RD218 (2026-11-09): the same pages again with Yigdzin-1 and MITRA (img. 
 
 Read by RD228 (2026-11-09): the Svapnohana in the Peking (I1KG13197 img. 315–318) and Narthang (I2KG212312 img. 284–288) Tengyur and in the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); the Lama Gongdü's goods of gossip in five prints (corpus/lgd/lgd.md).
 
+## <a id="svo-i39"></a>svo:i39 The Narthang catalogue (vol. 225, img. 39): a run of Kālacakra entries in the title / made-by / translation-of form, read by Yigdzin-1 (RD401)
+
+*Read: machine, 2026-11-11.*
+
+> ༄༅། །གུཔྟ་དང་། ལོ་ཙཱ་བ་རྭ་ཆོས་རབ་ཀྱི་འགྱུར། དུས་འཁོར་གྱི་དཀྱིལ་ཆོག་ཡིད་འོང་ཕྲེང་བ་ཞེས་བྱ་བ་དུས་ཞབས་པ་ཆུང་བས་མཛད་པ། པཎྜི་ཏ་བི་ན་ཤྲཱི་དང་། ལོ་ཙཱ་བ་མཆིམས་ཡོན་ཏན་འབར་གྱི་འགྱུར། དུས་འཁོར་ལྷན་སྐྱེས་ཀྱི་སྒྲུབ་ཐབས་དུས་ཞབས་པས་མཛད་པ།
+> པཎྜི་ཏ་བུདྡྷ་ཤྲཱི་ཛྙཱ་ན་དང་། ལོ་ཙཱ་བ་བྱམས་པའི་དཔལ་གྱི་འགྱུར། དུས་འཁོར་གྱི་སྒྲུབ་ཐབས་ལྷན་ཅིག་སྐྱེས་པ་ཞེས་བྱ་བ་སློབ་དཔོན་རོལ་པའི་རྡོ་རྗེས་མཛད་པ། པཎྜི་ཏ་ཝཱ་གཱི་ཤྭ་ར་དང་། རྭ་ཆོས་རབ་ཀྱི་འགྱུར། རྫོགས་པའི་རིམ་པ་སྟོན་པའི་སྐོར་ལ། བྱང་ཆུབ་སེམས་དཔའ་ཕྱག་ན་
+> རྡོ་རྗེས་མཛད་པའི་སྦྱོར་དྲུག །དཔལ་རབ་འབྱོར་ཞི་བ་དང་། ཅོག་རོ་ཏིང་འཛིན་བཟང་པོའི་འགྱུར། འདི་ཕྱག་རྡོར་སྟོད་འགྲེལ་ལས་གུང་དུ་ཕྱེ་བར་སྣང་སྟེ། སྔར་གྱི་རྣམས་ཀྱིས་བྲིས་འདུག་པས་བྲིས། དུས་ཀྱི་འཁོར་ལོའི་སྙིང་པོའི་རྒྱན་ཞེས་བྱ་བའི་སྒྲུབ་ཐབས་བྲམ་ཟེ་བསོད་
+> སྙོམས་པས་མཛད་པ། པཎྜི་ཏ་ཤྲཱི་བྷ་དྲ་བོ་དྷི་དང་། གྱི་ཇོ་ཟླ་བའི་འོད་ཟེར་གྱི་འགྱུར། དུས་ཀྱི་འཁོར་ལོའི་མན་ངག་དུས་ཞབས་ཆེན་པོས་མཛད་པ། པཎྜི་ཏ་བུདྡྷ་ཀ་ར་བྷ་དྲ་དང་། གྱི་ཇོ་ཟླ་བའི་འོ་ཟེར་གྱི་འགྱུར། སྦྱོར་བ་ཡན་ལག་དྲུག་གི་མན་ངག་དཔལ་ཨ་ནུ་པ་མ་རཀྵི་ཏས་
+> མཛད་པ། པཎྜི་ཏ་བི་བྷུ་ཏི་ཙནྡྲ་དང་། ལོ་ཙཱ་བ་མི་མཉམ་བཟང་པོའི་འགྱུར། དེའི་འགྲེལ་པ་སློབ་དཔོན་ཉི་མ་དཔལ་ཡེ་ཤེས་ཀྱིས་མཛད་པ། བི་བྷུ་ཏི་ཙནྡྲའི་རང་འགྱུར། དུས་འཁོར་གྱི་མན་ངག་ཉི་ཟླ་སྒྲུབ་པ་ཞེས་བྱ་བ་རིགས་གསུམ་མགོན་པོས། པཎྜི་ཏ་བ་ཀུན་ན་ལ་གསུངས་པ། བི་བྷུ་
+> ཏི་ཙནྡྲའི་རང་འགྱུར། ཡེ་ཤེས་སྤྱན་སྒྲུབ་དུས་ཞབས་པས་མཛད་པ། བི་བྷུ་ཏིཙནྡྲའི་རང་འགྱུར། རྣལ་འབྱོར་གསུམ་གྱི་སྙིང་པོ་གསལ་བ་ཞེས་བྱ་བ། འཇམ་དབྱངས་གྲགས་པས་མཛད་པ། པཎྜིཏ་སོ་མ་ནཱ་ཐ་དང་། ལོ་ཙཱ་བ་འབྲོ་ཤེས་རབ་གྲགས་ཀྱི་འགྱུར། སྦྱོར་བ་ཡན་ལག་དུག་
+> གི་མན་ངག་དུས་ཞབས་སྙན་རྒྱུད་ཅེས་བྱ་བ། པཎྜི་ཏ་སོ་མ་ནཱ་ཐཱ་ཤྲཱི་དང་། འབྲོ་ཤེས་རབ་གྲགས་ཀྱི་འབྱུར། སྦྱོར་བ་ཡན་ལག་དྲུག་གི་འགྲེལ་པ་སྦས་པ་མིག་འབྱེད་ཅེས་བྱ་བ། སློབ་དཔོན་ཨ་ཝ་དྷུ་ཏཱི་པས་མཛད་པ། ཟླ་བ་གྲགས་པའི་འགྱུར། སྦྱོར་བ་ཡན་ལག་དྲུག་ག་མན་ངག་
+
+Narthang Tengyur manuscript catalogue (Tibet House, New Delhi; W2KG5015 vol. 225, image group I2KG212509), img. 39, the whole image read by Yigdzin-1 (machine, not read on the scan syllable by syllable): a run of Kālacakra entries. Each entry is a title, then «made by» (མཛད་པ) the Indian teacher, then «the paṇḍita X and the lotsāba Y's translation» (འགྱུར): the Kālacakra mandala rite «Delightful Garland» made by Dus zhabs pa chung ba (translated by Vinaśrī and Mchims Yon tan 'bar); the co-arisen practice made by Dus zhabs pa (Buddhaśrījñāna, Byams pa'i dpal); the six-fold yoga of the bodhisattva Phyag na rdo rje (Rab 'byor zhi ba, Cog ro Ting 'dzin bzang po), with a note that it seems to have been split from the commentary on the Phyag rdor stod 'grel; the Heart Ornament; the oral instructions; the commentaries on the six-limbed yoga («Hidden, Eye-Opener»; Avadhūtipa, Zla ba grags pa) and others, with Vibhūticandra's own translations in several.
+The entries are in the same wording as the one at img. 197 line 4 (svo:i197). No dream title stands on this image (the machine text has no «རྨི་ལམ»).
+
 ## <a id="svo-i64"></a>svo:i64 The Jo nang Tengyur catalogue (etext p. 64): the Deceiving Death's author written Ngag dbang grags pa, the Examination of Dreams Vibhūticandra's own translation (RD359)
 
 *Read: etext, 2026-11-10.*
@@ -1524,6 +1539,15 @@ For q1090: the title spells ལྟ་བ ("view") in the colophon of the Derge, 
 
 State: etext (Derge, good quality); the page images were not read.
 
+## <a id="svo-i310"></a>svo:i310 Peking Svapnekṣā, img. 310 line 1: the last part of the night, «བརྟགས་པ» or «བཏབ», read again by eye on 4× crops (RD401)
+
+*Read: scan, 2026-11-11.*
+
+> ཐ་མར་རྨི་ལམ་[བརྟགས་པ། or བཏབ]་ལ་ཉལ། །མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང་།
+
+Peking, W1KG13126 vol. 46, I1KG13215 img. 310, line 1 (5385 × 1407 px frame; x about 3300–4900, 2× and 4× crops, contrast-stretched; read by eye, no machine run this time): "in the last part of the night, having [examined / made (?)] the dream, one lies down; holding a mirror in the hand ..." (the next line's start «མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང་»).
+The first four syllables «ཐ་མར་རྨི་ལམ» and the ending «ལ་ཉལ» are plain. Between «ལམ» and «ལ» the print shows: a བ; then a wide stack with a long descending tail; then a small letter; then a letter shaped like པ or བ that touches «ལ». The cluster is as wide as two syllables, wider than the three letters of «བཏབ» (བ ཏ བ) would be on this print's other words, which keeps the earlier eye reading «བརྟགས་པ» likely but is not a reading: the tsheg between the syllables is not seen, and the stacked letter's head cannot be told from ཏ or རྟ at this size. The bracketed place is therefore left as two alternatives, as in RD327 (svo:p271w).
+
 ## <a id="svo-i329-330"></a>svo:i329-330 The Showing of dreams (Derge Tengyur, etext volume VE23703_1389, p. 330): དུས་དྲུག་གཟིགས, the god looks on the six times, and the dawn showing (RD395, q1091)
 
 *Read: etext, 2026-11-11.*
@@ -2172,4 +2196,23 @@ Nothing read yet: RD399's passages, with the English beside them, go here.
 
 ## The dream questions RD399 did not reach (q961, q1012, q1017, q1059, q1086, q1087): the Svapnekṣā's last part of the night on Peking img. 310, the Vairocana preparation text that reads the pupils' dawn dreams, the Vimalaprabhā's vowels at kcd.11:p409 and p538–539, the Mahābala omens' middle watch (mmb:p155–156), «mtshan brtas» in the third Karmapa's verse, the Tibet House manuscript catalogue (I2KG212509) (RD401)
 
-Nothing read yet: RD401's passages, with the English beside them, go here.
+Read by RD401 (2026-11-11), within the time given: passages svo:i310 (scan, by eye), svo:i39 (machine) and tgb:p360-361 (etext), claims svi-peking-img310-line1-reread-two-readings-remain, tsong-kha-pa-cites-mar-me-mdzad-bzang-po-thabs-sbyor-and-the-ender, vairocana-text-supplies-only-the-joy-verse-snr-names-no-dawn-dream-text, vimalaprabha-same-words-short-long-not-joined-to-hours, rrd-mtshan-brtas-announces-the-dawn-dream-no-second-witness, narthang-catalogue-entry-form-and-no-svapnohana-entry-found. By question:
+
+- **q961 (Peking img. 310 line 1).** Read again by eye at 2× and 4× on contrast-stretched crops (svo:i310): the words before and after the gap are plain, the gap's letters are as wide as two syllables and are not settled between «བརྟགས་པ» and «བཏབ»; no second Peking image exists (svo:p271w).
+- **q1012 (Vairocana preparation text).** The Sngags rim chen mo (snr:p367-371) itself says the joy verse is the Vairocanābhisambodhi's and that its last two lines are not in the present text; all later steps of the dawn question come from the Common Tantra, Saraha, the Mañjuśrī root tantra and others. No Vairocana text that reads the dawn dreams was found.
+- **q1017 (Vimalaprabhā vowels).** kcd.11:p409 and p538-539 use the same two words, short and long, for the vowels, and p538 gives the long to the dream; no sentence joins this to midnight-to-midday. Etext only; not opened on a scan.
+- **q1059 (Mahābala-rite remedy).** The mmb rite's lines are the same, word for word, in the vows part of the Sngags rim chen mo (tgb:p360-361) with «ཐབས་སྦྱོར», unglossed; the Ender of Obstructors appears only in the dawn-dream part (snr:p370). The text of neither gives the link.
+- **q1086 (mtshan brtas).** Stands where the dawn's dream is announced and the dawn dream follows it (rrd.5:p58); the spelling has one witness (the BDRC etext, one hit for the whole line).
+- **q1087 (Tibet House catalogue).** img. 39 (a Kālacakra run, Yigdzin-1) and img. 154 read: entries are title, made-by, translation-of, as at img. 197; no Examination of Dreams entry; img. 3-140 and 207-288 not read.
+
+### Open (RD401)
+
+- Question: does Tsong kha pa's «བགེགས་མཐར་བྱེད» for Mar me mdzad bzang po's bad-dream remedy come from another work of his than the 450-verse rite, whose «ཐབས་སྦྱོར» he quotes in the vows part (tgb:p360-361)?
+- Question: is «མཚན་བརྟས» in the Karmapa's verse «ཐོ་རངས་མཚན་བརྟས་འདི་ལྟར་བྱུང» a copyist's spelling of «མཚན་བརྟགས» or «མཚན་རྟགས», and does a print of the Karmapa's collected works (not the etext) read it so?
+- Question: is the entry for the Examination of Dreams (Phur lcog's, after the Deceiving Death) in the Narthang catalogue's images 3-140 or 207-288, not seen in 39, 154 and 141-206?
+
+### Searched and not found (RD401)
+
+- BDRC full-text search, 2026-11-11 (bdrc_search.py, lines quoted from the pool): «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» and «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ» no hit (the Peking etext is not searchable text); «ཐོ་རངས་མཚན་བརྟས་འདི་ལྟར་བྱུང» and «ཐོ་རངས་གང་བྱུང་བདེན་ནོ» one hit each, the same volume (VE30541_005).
+- Narthang catalogue vol. 225's etext (VEIE0OPIF6EAA761_I2KG212509), 2026-11-11: «འཆི་བ་བསླུ» and «འཆི་བླུ» none, «རྨི་ལམ» three hits on other works; OCR garbled, not evidence.
+- A Vairocana-tradition text that reads the pupils' dawn dreams: none in the pool's passages; the exact-string search was not made for it (no quoted line to search by).

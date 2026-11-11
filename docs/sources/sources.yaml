@@ -1385,6 +1385,17 @@ snr:
   role: source
   notes: "RD360 (2026-11-10): the chapter on the preparation rite (the sixth, closing on [p372]) read in the etext at [p349]-[p350] and [p368]-[p371]; the passage that Dbang chen dgyes rab rdo rje names (dgd:i80-82); etext only, not read on a scan"
 
+tgb:
+  title: "Rgyal ba khyab bdag rdo rje 'chang chen po'i lam gyi rim pa gsang ba kun gyi gnad rnam par phye ba (the Sngags rim chen mo), the vows chapter, in Tsong kha pa's gsung 'bum (Krung go'i bod rig pa dpe skrun khang)"
+  author: "Tsong kha pa Blo bzang grags pa, as BDRC ascribes it"
+  edition: "Tsong kha pa's gsung 'bum, Krung go'i bod rig pa dpe skrun khang, 2012 (BDRC MW3PD188), the etext volume VEIE0OPI9244B62A_I3PD266 (755 etext pages); the etext's page markers [pN] are the pages cited; no scan was opened"
+  bdrc: {work: MW3PD188, etext: VEIE0OPI9244B62A_I3PD266}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD401 (2026-11-11): found by BDRC's exact-string search for the verse «རྨི་ལམ་བཟང་ངན་དྲིས་ནས་ནི» and read in the etext at [p360]-[p361]; etext only"
+
 sct:
   title: "The Sarvamaṇḍalasāmānyavidhiguhyatantra (Dkyil 'khor thams cad kyi spyi'i cho ga gsang ba'i rgyud, Toh 806, the Common Tantra, Spyi rgyud) in the Derge Kanjur, the passage on the pupils' dream"
   author: "the tantra itself (Sanskrit title by the Derge text: Sarvamaṇḍalasāmānyavidhiguhyatantra); translator not read"
