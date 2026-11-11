@@ -2421,6 +2421,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1148.md](questions/q1148.md) | question q1148 | Is the animal chain of the Yu thog instruction the spirits' own forms in the dream or a training of any dream | open; cites dds.47:p293-295, dds.52:p19-20 |
 | [questions/q1149.md](questions/q1149.md) | question q1149 | Does the Cakrasaṃvara commentary put the first of eight watches at midnight, and from what moment are the sixty water-hours counted | open; cites svo:i525, dds.51:p707-708 |
 | [questions/q1150.md](questions/q1150.md) | question q1150 | What is the string of six to eight forms between the opening Om and the homage in seven Lama Gongdü texts of Rin chen gter mdzod vol. 42, and why do the four texts of vol. 7 have none | open; cites dds.54:p1-2, dds.53:p1-2 |
+| [questions/q1151.md](questions/q1151.md) | question q1151 | Does Karma chags med take «the midnight dream is the display of gods and spirits» from Marpa's line on Māra's emanation, and does ལྷ་འདྲེ there mean the gdon of the Karmapa's gdon dbang | open; cites rrd.19:p271, rrd.23:p102-104 |
+| [questions/q1152.md](questions/q1152.md) | question q1152 | Does the tradition take the Karmapa's bile of the midnight dream (rrd.7:p102) and his power of the spirits (rrd.5:p57-59) as one teaching said two ways or as two sayings | open; cites rrd.7:p100-103, rrd.5:p57-59 |
+| [questions/q1153.md](questions/q1153.md) | question q1153 | In Karma chags med's verses on the hours, are Māra's obstacles from evening to midnight the reason the midnight dream is not Māra's, or only hours of recitation | open; cites rrd.19:p328 |
 
 <!-- end pool index -->
 

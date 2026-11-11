@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD405 (2026-11-11): Karma chags med VE23259_001 and three other prints, the third Karmapa's collected works VE30541 vols. 1–3 and 6–12 (vol. 7 text 9), Gdams ngag mdzod vol. 9, BDRC etext.
+
 Read by RD402 (2026-11-11): the titles, colophons and catalogue lines the dream readings left: Rang byung rdo rje's collected works vol. 4 (VE30541_004, the verse life, pp. 1-2 and 22 of its third text), Gdams ngag mdzod vol. 9 (VE23605_009, the Bla med lhan skyes text pp. 1 and 40-41, the Kam tshang instruction p25) and vol. 1 (VE23605_001, the Sems sde pra khrid pp. 1-2, 45-46), Karma chags med (VE23259_001, pp. 302-303), Marpa's Life (rrd.23 pp. 262, 292), Rtsa gsum gling pa vol. 27 (images 81-82, 132-134, in corpus/tsl/tsl.md). All etext, none read on a page image. Passages rrd.4:p1b, rrd.4:p22, rrd.19:p302-303, rrd.21:p1, rrd.21:p25, rrd.21:p40-41, rrd.22:p1-2, rrd.22:p45-46, rrd.23:p262, rrd.23:p292; claims rrd-4-p13-is-the-verse-life-of-rang-byung-rdo-rje and the five beside it.
 
 Read by RD397 (2026-11-11): Gtsug lag phreng ba's Life of Marpa (VE1KG6291_001), the Bka' brgyud mgur mtsho (VE1ER73), Ngag sgros's Rmi lam ngos 'dzin (I3CN8691) and Rin chen gter mdzod vol. 27 (VE1KG14_027), BDRC etext.
