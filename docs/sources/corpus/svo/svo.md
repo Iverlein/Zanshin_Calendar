@@ -248,6 +248,14 @@ Rendered: Homage to the Buddha. The Victor, best of beings, taught the Dharma as
 
 What it says of time and remedy: nothing. It is about the status of dream in the Madhyamaka sense, not about the images or the night. (In the same volume the next work is the Māyānirdeśa, p. 224.) State: etext; the middle stanzas are not translated and their syllables not checked.
 
+## <a id="svo-i239"></a>svo:i239 The Narthang catalogue (vol. 225, img. 239 line 3): Nāgārjuna's Wish-fulfilling Jewel Talk of Dream, the only dream title in images 208–240 (RD404)
+
+*Read: machine, 2026-11-11.*
+
+> རྨི་ལམ་ཡིད་བཞིན་ནོར་བུའི་གཏམ་འཕགས་པ་ཀླུ་སྒྲུབ་ཀྱིས་མཛོད་པ།
+
+"The Wish-fulfilling Jewel Talk of Dream" (རྨི་ལམ་ཡིད་བཞིན་ནོར་བུའི་གཏམ, rmi lam yid bzhin nor bu'i gtam), made by the noble Nāgārjuna (the verb is spelt མཛོད་པ in the model's text, for མཛད་པ, "made"), the last title of img. 239's line 3, after Nāgārjuna's «Heart of Dependent Arising» (རྟེན་ཅིང་འབྲེལ་པར་འབྱུང་བའི་སྙིང་པོ) and its explanation. It is the only title with the word dream (རྨི་ལམ) in the 33 images read, and it is a work of the sūtra-commentary part with a named maker, not Phur lcog's Examination of Dreams (རྨི་ལམ་བརྟག་པ). Machine reading (Yigdzin-1), not read on the scan syllable by syllable.
+
 ## <a id="svo-i243"></a>svo:i243 The Derge Kanjur catalogue (etext p. 243): the Showing of Dreams chapter of the Ratnakūṭa, nine hundred ślokas, translated by Prajñāvarma and Ye shes sde (RD381)
 
 *Read: etext, 2026-11-10.*
@@ -2216,3 +2224,18 @@ Read by RD401 (2026-11-11), within the time given: passages svo:i310 (scan, by e
 - BDRC full-text search, 2026-11-11 (bdrc_search.py, lines quoted from the pool): «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» and «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ» no hit (the Peking etext is not searchable text); «ཐོ་རངས་མཚན་བརྟས་འདི་ལྟར་བྱུང» and «ཐོ་རངས་གང་བྱུང་བདེན་ནོ» one hit each, the same volume (VE30541_005).
 - Narthang catalogue vol. 225's etext (VEIE0OPIF6EAA761_I2KG212509), 2026-11-11: «འཆི་བ་བསླུ» and «འཆི་བླུ» none, «རྨི་ལམ» three hits on other works; OCR garbled, not evidence.
 - A Vairocana-tradition text that reads the pupils' dawn dreams: none in the pool's passages; the exact-string search was not made for it (no quoted line to search by).
+
+## The Narthang catalogue for the Examination of Dreams, and the glossary's stack (q1143, q1120) (RD404)
+
+Read by RD404 (2026-11-11), within the time given: I2KG212509 img. 208–240 by Yigdzin-1 on whole images (the even images mostly empty, not read), img. 239 by eye on the text line (svo:i239); I5609 img. 526 line 2 by eye at 2.4–6× (st:p350-351d). Claims narthang-catalogue-images-208-240-no-svapnohana, glossary-stack-ltas-leans-on-enlarged-crop.
+
+- **q1143.** No entry for the Examination of Dreams in img. 208–240 (the odd images). The catalogue's tantra runs end before img. 218 (img. 209 and 215 are tantra entries, from about 219 the Prajñāpāramitā and Madhyamaka commentaries), so images 241–288 are the sūtra commentaries and the entry, if there is one, is in images 3–140. The only dream title is Nāgārjuna's Wish-fulfilling Jewel Talk of Dream on img. 239 (svo:i239).
+- **q1120.** The stack under the ལ before «ཚོར་བའི་དུས» leans ྟ, moderate; not settled by a bilevel cut.
+
+### Open (RD404)
+
+- Question: is the entry for the Examination of Dreams (Phur lcog's, after the Deceiving Death) in the Narthang catalogue's tantra images 3-140, or in the even images 208-238 that the model returned empty?
+
+### Searched and not found (RD404)
+
+- Narthang catalogue vol. 225 (I2KG212509) img. 208-240, odd images, Yigdzin-1 on whole images, 2026-11-11: «རྨི་ལམ་བརྟག་པ» and «སྭཔྣ» none; «རྨི་ལམ» once (img. 239, Nāgārjuna's work). Even images 208-238 came back with 1-50 characters from the model and were not read; images 241-288 not run (time).
