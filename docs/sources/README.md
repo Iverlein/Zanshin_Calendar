@@ -2334,6 +2334,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1119.md](questions/q1119.md) | question q1119 | Are the male and female spirit dreams of lying postures in 'Jig rten mgon po the same as the spirit dreams that lose the drop in Marpa's inner-heat manual | open; cites dds.24:p190-191, dds.19:p187-189 |
 | [questions/q1120.md](questions/q1120.md) | question q1120 | Does the stack under ལ in line 2 of Lung rigs bstan dar's glossary read ྷ or ྟ in the clause on the time of feeling | open; cites st:p350-351d |
 | [questions/q1121.md](questions/q1121.md) | question q1121 | Do the Blue Beryl's printed page and chapter etexts read ལྟས་ཚོར་བའི་དུས, and is it the Blue Beryl's own text or an editor's | open; cites st:p350-351d |
+| [questions/q1122.md](questions/q1122.md) | question q1122 | Is Paṇḍa pa (Pen ta pa, Piṇḍa pa) of Gtsug lag phreng ba's Life the Nepalese teacher known elsewhere, and why is he seated at the head of the assembly | open; cites rrd.26:p88-90 |
+| [questions/q1123.md](questions/q1123.md) | question q1123 | Is the dream of habit in Paṇḍa pa's question the dream of the previous night or the dream of the evening in the song's rule | open; cites rrd.26:p88-90, rrd.27:p102-105 |
 
 <!-- end pool index -->
 
