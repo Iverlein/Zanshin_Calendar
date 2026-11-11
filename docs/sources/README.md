@@ -592,6 +592,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kdl-sound-by-part-of-day.md](claims/kdl-sound-by-part-of-day.md) | claim, rule | A sound in the sky is read by the part of the day (Garga, in Klong rdol's abridgement) | cites kdl:p235-241; feeds S1 |
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/kl-moxa-six-dates-commentators-list-with-24th.md](claims/kl-moxa-six-dates-commentators-list-with-24th.md) | claim, note | KL's six moxa dates: the commentators' list, in modern collections too, always with the 24th | cites wb.2:p404; feeds — |
+| [claims/kokubunken-54-254-colophon-fuyacho.md](claims/kokubunken-54-254-colophon-fuyacho.md) | claim, note | The 国文研 Ebara dream book's colophon: 京綾小路ふや丁西入, 墨屋吉兵衛 (RD398, q1045) | cites mdz:i54254; feeds S3 |
 | [claims/kong-ston-dbang-phyug-grub-vinaya-spyi-don-author.md](claims/kong-ston-dbang-phyug-grub-vinaya-spyi-don-author.md) | claim, note | Kong ston Dbang phyug grub pa wrote the Vinaya overview with the dawn and the nine parts (RD322, q938) | cites svo:p271r, svo:p271p; feeds block-73 |
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
 | [claims/ktd-dudjom-dreams-and-their-times.md](claims/ktd-dudjom-dreams-and-their-times.md) | claim, note | Dudjom Rinpoche's dreams in his biography carry their hour (dawn, evening), day (tenth, fourteenth, fifteenth) and repeats (KTD) | cites ktd:i181-184, ktd:i185-187; feeds RD363 |
@@ -1374,7 +1375,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 20 passages: 18 scan, 2 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 21 passages: 18 scan, 3 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 40 passages: 7 machine, 33 etext |

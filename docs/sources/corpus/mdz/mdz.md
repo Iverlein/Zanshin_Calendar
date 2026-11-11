@@ -257,6 +257,35 @@ Open:
 
 Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざる日 and the words 語らざる日, and any 初夢, on the page images 128 and 132-139 and on 190 of pid 760742 (images 140-189 are the numbered lots and were looked at only through the OCR sorted by image, which shows lot texts and no dream table; not by eye); (2) images 1-107 (the front matter and the almanac's day-choosing tables) were not read leaf by leaf: three leaves were looked at (33, 36, 101); the slash table and the 初夢 are therefore not excluded from the front, only not found where the dream articles lie (images 108-137 hold the dream section whole); (3) the OCR text of the volume for 語らざる, 初夢 and 夢を見て: no hit (as RD308).
 
+## <a id="mdz-i54254"></a>mdz:i54254 夢占吉凶秘傳書 / Ebara dream book (国文研 松野 54-254, bid 200013909), image 9: the table 夢人に咄さぬ日 as printed and the colophon (RD398)
+
+*Read: machine, 2026-11-11.*
+
+> 〔夢人に咄さぬ日〕（見出しは右端、「夢」「人」「日」が読める）
+> 正月　〔三字〕
+> 二月　〔三字〕
+> 三月　〔三字〕
+> 四月　〔四字、後ろ二字は間の後〕
+> 五月　〔四字、後ろ二字は間の後〕
+> 六月　祢　〔　〕　〔　〕
+> 七月　祢　〔　〕　〔　〕
+> 八月　〔四字、後ろ二字は間の後〕
+> 九月　〔四字、後ろ二字は間の後〕
+> 十月　〔二字〕
+> 十一月　〔三字〕
+> 十二月　〔三字〕
+> 
+> 安永三午春新板
+> 嘉永五子春新板
+> 京綾小路ふや丁西入
+> 墨屋吉兵衛板
+
+Print: the Kokubunken copy of the Ebara dream book (call number 松野 54-254, bid 200013909, image 9 of 10, 5616 x 3744 px, left page), the table "the days on which a dream is not told to people" at the top of the leaf; its colophon at the lower left.
+
+Read by eye on the full-size image, 2026-11-11. The branches are written as single hentaigana glyphs, so only the shape of each column is recorded here, not each glyph: twelve month columns (正月 on the right to 十二月 on the left), and in every column the last group stands lower after a gap, with no printed slash. The number of glyphs in a column and the place of the gap agree with the table of mdz:p11 in all twelve months: three glyphs in months 1, 2, 3, 6, 7, 11 and 12; four in months 4, 5, 8 and 9 (one, one, then two after the gap); two in month 10. The glyph for the rat (子, read ね) is the written form 祢 in months 6 and 7, as in the other prints. This leaf has no legend and no closing line beside the table.
+
+Colophon, lower left of the same leaf: "An'ei 3 (1774), new print in spring of the year of the horse / Kaei 5 (1852), new print in spring of the year of the rat / Kyo, Ayanokoji, Fuya-cho, west of (the street) / Sumiya Kichibei, publisher". The street line is read at 3.5x on the three glyphs that earlier readings left in doubt: they are ふ, や and 丁 (the cursive of 町), so "Ayanokoji, Fuyacho, nishi-iri" (綾小路麩屋町西入), a real Kyoto crossing; neither 冨小路 nor ふやゝ町 stands there. The next column is read 墨屋吉兵衛板 (the first glyph, a seal-like 墨, is clear; 吉 and 兵衛 are in cursive).
+
 ## <a id="mdz-i65134"></a>mdz:i65134 清明秘鈔 夢判事 (1862, Koizumi ORMK-00651), image 34: the day-branch table of the charm for a bad dream (RD364)
 
 *Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
@@ -752,3 +781,14 @@ Searched and not found (RD371), 2026-11-10: (1) a table 夢と見て語らざる
 Open (RD379): Question: the 六甲の夢うらなひ takes the same lines for every dream of a day and is no list of dream objects; is it a rendering of a known older day-table for the sixty days (Chinese 六十甲子 dream tables, Japanese 夢占 of the 大雑書), and which one does the 夢合長寿鑑絵抄 follow?
 
 Searched and not found (RD379), 2026-11-10: (1) a sentence on keeping a dream silent, hiding it or not telling it in any of the seventy-two cells of canvases 26-30, and in the page 邪魅 and the 寝臥之法 beside them (the 寝臥之法 on canvas 30, a health article, was looked at on the thumbnail and not read letter by letter); (2) a legend for the circle and the mark for 夢 at the head of each cell (read as 夢; the mark is the same in every cell); (3) the source of the table: the picture caption 夫木 on canvas 29 is a poem line, not a source of the cells (not read).
+
+## RD398 (2026-11-11): the table in each print, the colophon of the 国文研 print, the second-day entry of the 東都歳事記; Open; Searched and not found
+
+**Answers.** (1) The table of the days a dream is not told stands, as printed, in five places already in the pool: mdz:p11 (the 万代大雑書古今大成, with the slash), mdz:i234427b (雑書夢合／三世相小鑑, Koizumi ORMK-02344, image 27), mdz:i183121 (萬歳大雑書日用寳, Tokyo TOKY-01831, image 121; the same leaf as image 124 of the Shunan Kano copy 100217088), eb9:i9 and now mdz:i54254 (国文研 松野 54-254, image 9). The twelve cells agree in every print; no print gives a legend for the slash, which in the prints without it is only a gap before the last group of branches; the sole explanation any print gives is the closing line, "of the dreams seen on the days above, neither good nor bad is told". (2) q1045: the street line of the 国文研 print's colophon reads 京綾小路ふや丁西入 (Fuyacho, west of Ayanokoji), the bookseller 墨屋吉兵衛 (mdz:i54254); the ふやゝ町 and 冨小路 readings are not what the glyphs show. (3) The 東都歳事記 (Ochanomizu DIG-OCHA-00706) canvas 18, left page, holds the entries for the second day, read again at 7000 px: 国主城主の登城, the merchants' first sale and first account books, the renga meeting at the 江戸天満宮, the new-year calls of the 吉原 courtesans, and so on to the heading of the third day; no 初夢 among them (the claim hatsuyume-toto-saijiki-kanso-eve-night stands). Canvases 12-19 now covered with canvas 15 (pictures only) and 17 (the 初卯 picture).
+
+Open:
+
+- Question: the 東都歳事記 and the 栞草 both leave the 2 January night out; from which Edo or early Meiji book on does a 初夢 of 2 January stand in print (the 守貞謾稿, the 江戸府内絵本風俗往来 and the 諸国年中行事 are the books to ask)?
+- Question: the hentaigana of the 国文研 print's table (single glyphs, 祢 for the rat) are matched to mdz:p11 by the number of glyphs and the place of the gap only; does a reader of the cursive confirm every cell, in particular the first and second glyph of the first, third, eleventh and twelfth months?
+
+Searched and not found (RD398), 2026-11-11: (1) a legend or note for the slash on image 9 of the 国文研 print (bid 200013909), beside the table and in the lower paragraph; (2) a 初夢 in the second-day entry of the 東都歳事記, canvas 18 (read in part, columns of the left page only; the right page's columns from the third day on were not read); (3) the other prints still unopened from earlier readings (嘉永大雑書 of the Edo-Tokyo Museum, the 蓬左 copies, Waseda's 503 answers) were not tried again in this session; the dream book 夢合長者鑑 (q984) and the 夢合延寿袋大成 (q990, q992) are as in RD340 and RD344: no table, no slash legend, no 初夢 night.
