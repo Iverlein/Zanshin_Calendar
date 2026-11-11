@@ -364,6 +364,7 @@ Tesseract's `bod` model is no use on these prints.
 
 Searched and found wanting, so not to be repeated:
 
+- **PT 55 IX (the Dunhuang dream manuscript), 2026-11-11, RD366 again:** OTDO no connection, Gallica and IDP HTTP 403 (not worked around), the Cambridge Himalaya site (van Schaik, RET 64) no connection, JSTOR open to a request but the article closed; the Iwao–Zorin paper on secular Dunhuang fragments has nothing on dreams; web searches give only the bibliographic record of Crescenzi and Torricelli 1995 (*The Tibet Journal* 20.2, pp. 3–17: text, translation, commentary). The Tibetan needs that article in print or via a library, or the three sites when they serve.
 - **BDRC's full-text search, 2026-10-18 night, no hit or no gloss:**
   «སྐྲང་སྒོམ», «ལས་ལ་ཟློད» and «ཟླ་རིབ་ནད» nowhere; «སྔ་ཆ་གྲིབ», «དགྲ་ལས་མིང་འདོགས», «ཞག་གི་ལོ་སྟེང» and
   «སྲི་གཞུང་སུམ་བརྒྱ» in WB's prints only; «གཏོང་ཤེས» too common to search (432
