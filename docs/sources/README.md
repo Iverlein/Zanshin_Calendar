@@ -2348,6 +2348,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1123.md](questions/q1123.md) | question q1123 | Is the dream of habit in Paṇḍa pa's question the dream of the previous night or the dream of the evening in the song's rule | open; cites rrd.26:p88-90, rrd.27:p102-105 |
 | [questions/q1124.md](questions/q1124.md) | question q1124 | From what moment are the water-hours counted in the Cakrasaṃvara commentary De kho na nyid mkhas pa, and does the first watch begin at midnight | open; cites svo:i521-523, svo:i525 |
 | [questions/q1125.md](questions/q1125.md) | question q1125 | Is the middle watch of the Mañjuśrī root tantra's omens a watch between the second and third, or the stretch around midnight, and does a commentary gloss it | open; cites mmk.1:p435-436 |
+| [questions/q1126.md](questions/q1126.md) | question q1126 | Is ཚིག་པ་ཟ in the hour entries «eats burnt food» or «is scorched, pained» | open; cites kd.3:p588-589b |
+| [questions/q1127.md](questions/q1127.md) | question q1127 | Is ཙབ་ཙུབ in the dream line said of the dreams' number and haste only, or is it a kind of dream a reader names | open; cites kd.3:p597b |
 
 <!-- end pool index -->
 
