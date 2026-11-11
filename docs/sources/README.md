@@ -2381,6 +2381,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1134.md](questions/q1134.md) | question q1134 | What is རྨི་ལམ in the mar ngo line of the pregnancy rite, and what does the second print read | open; cites svo:p446b |
 | [questions/q1135.md](questions/q1135.md) | question q1135 | Does ནམ་མཁའི་མཐར in Dpal rta dbyangs name dawn, a place or the end of a meditation | open; cites svo:p378b |
 | [questions/q1136.md](questions/q1136.md) | question q1136 | Does the Sanskrit page of the Mañjuśrīmūlakalpa read kramaś or samaś | open; cites svo:i329-330 |
+| [questions/q1137.md](questions/q1137.md) | question q1137 | Is the first syllable of the title of Bu ston's Examination of Dreams in the 2008 Dpal brtsegs print (img. 833) རྟག or བརྟག on a sharper image | open; cites bsr:p825-828b |
+| [questions/q1138.md](questions/q1138.md) | question q1138 | Do རབ་ཚེས and ཟླ་ཚེས in Mipham's colophon stand for a rab byung number or a fixed phrase, and which fire-horse is meant | open; cites mph.25:i460b |
+| [questions/q1139.md](questions/q1139.md) | question q1139 | Is བཤོར in the Sha za brtsegs pa'i rgyud's «རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར» a word of the text, and does རྨི་ལྟས in the colophon mean the practitioner's dreams | open; cites szb:i463b |
 
 <!-- end pool index -->
 
