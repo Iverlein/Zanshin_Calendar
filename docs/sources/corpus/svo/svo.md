@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD406 (2026-11-11): Narthang catalogue I2KG212509 img. 3–86 (whole images) and img. 4–104 even (crops of the text block), Yigdzin-1.
+
 Read by RD404 (2026-11-11): I2KG212509 img. 208–240 (Yigdzin-1, odd images) and I5609 img. 526 line 2 by eye on enlarged crops.
 
 Read by RD395 (2026-11-11): the small words of the Svapnohana, the Showing of Dreams sūtra and the Tengyur rites (q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048, q1032) in the etexts and the lexica; etext only; see the section "The Svapnohana, the Svapnanirdeśa and the Tengyur rites, their small words".

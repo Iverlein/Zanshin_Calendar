@@ -2426,6 +2426,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1151.md](questions/q1151.md) | question q1151 | Does Karma chags med take «the midnight dream is the display of gods and spirits» from Marpa's line on Māra's emanation, and does ལྷ་འདྲེ there mean the gdon of the Karmapa's gdon dbang | open; cites rrd.19:p271, rrd.23:p102-104 |
 | [questions/q1152.md](questions/q1152.md) | question q1152 | Does the tradition take the Karmapa's bile of the midnight dream (rrd.7:p102) and his power of the spirits (rrd.5:p57-59) as one teaching said two ways or as two sayings | open; cites rrd.7:p100-103, rrd.5:p57-59 |
 | [questions/q1153.md](questions/q1153.md) | question q1153 | In Karma chags med's verses on the hours, are Māra's obstacles from evening to midnight the reason the midnight dream is not Māra's, or only hours of recitation | open; cites rrd.19:p328 |
+| [questions/q1154.md](questions/q1154.md) | question q1154 | In the Narthang catalogue entry on img. 77 does the Padmadra practice by Dpal ye shes (translated by Sumanaśrī and Rin chen grub) belong to the next work rather than to the Examination of Dreams | open; cites svo:i77 |
+| [questions/q1155.md](questions/q1155.md) | question q1155 | Is the Dream Tārā practice of img. 75 the work whose text stands in this file's first passage | open; cites svo:i75 |
 
 <!-- end pool index -->
 
