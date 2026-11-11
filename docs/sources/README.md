@@ -2341,6 +2341,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1121.md](questions/q1121.md) | question q1121 | Do the Blue Beryl's printed page and chapter etexts read ལྟས་ཚོར་བའི་དུས, and is it the Blue Beryl's own text or an editor's | open; cites st:p350-351d |
 | [questions/q1122.md](questions/q1122.md) | question q1122 | Is Paṇḍa pa (Pen ta pa, Piṇḍa pa) of Gtsug lag phreng ba's Life the Nepalese teacher known elsewhere, and why is he seated at the head of the assembly | open; cites rrd.26:p88-90 |
 | [questions/q1123.md](questions/q1123.md) | question q1123 | Is the dream of habit in Paṇḍa pa's question the dream of the previous night or the dream of the evening in the song's rule | open; cites rrd.26:p88-90, rrd.27:p102-105 |
+| [questions/q1124.md](questions/q1124.md) | question q1124 | From what moment are the water-hours counted in the Cakrasaṃvara commentary De kho na nyid mkhas pa, and does the first watch begin at midnight | open; cites svo:i521-523, svo:i525 |
+| [questions/q1125.md](questions/q1125.md) | question q1125 | Is the middle watch of the Mañjuśrī root tantra's omens a watch between the second and third, or the stretch around midnight, and does a commentary gloss it | open; cites mmk.1:p435-436 |
 
 <!-- end pool index -->
 
