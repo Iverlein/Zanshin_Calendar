@@ -1,0 +1,11 @@
+---
+kind: claim
+type: definition
+terms: [od-gsal, nyams-kyi-od-gsal, gnyid-kyi-od-gsal, srab-mo, thug-po, rmi-lam-od-gsal]
+cites: ['rrd.19:p302-303', 'rrd.19:p118-119', 'rrd.21:p19', 'rrd.21:p25']
+feeds: [S1]
+open: []
+---
+# Karma chags med's order of the clear lights of the night: sleep, thick, thin, experience, dream (RD402)
+
+Karma chags med names five clear lights of the night in one passage (etext pp. 302-303), in this order: the clear light of sleep (gnyid kyi 'od gsal; falling asleep and, before any dream, recognising the mind's face), the thick (sleep, 'thug po'i), the thin (srab mo'i), the clear light of experience (nyams kyi 'od gsal) and the dream clear light (rmi lam 'od gsal). The thick clear light is a sleep so deep that not even a dim dream (rmi lam za zi) comes and one is clear on waking, which he gives on the word of Dwags po lha rje; the thin is a light sleep in which one knows one sleeps and sees the house, deities, sights and sounds; the clear light of experience is the light like a conch-beam before the eyes at falling asleep, with the far-seeing and the hearing that rrd.19:p118-119 also describes; the dream light is the dream known as dream. So the three of the question, dream, experience and thin, are in the order thin, experience, dream here, and a fourth (thick) stands before the thin and the sleep light before that. In the other chapter (rrd.19:p118-119) the same name, the clear light of experience, is given to two things, the light at the border of sleep and not-sleep and the sleeper's knowing he sleeps; in the passage of pp. 302-303 the second is called the sleep light or the thin light and only the light-before-the-eyes keeps the name experience. A text in the Gdams ngag mdzod (rrd.21:p25, a Kam tshang instruction on the six dharmas) names the thick and the thin sleep clear lights and gives a drop to hold the mind on for each, but not experience; the text of rrd.21:p19 divides the path light into experience and realisation only (rrd.21:p19), and defines experience as seeing the dwelling and the body as if the sun had risen out of the state of sleep, without a thin or thick. The three are therefore not one list in the two traditions; the Gdams ngag mdzod texts read here do not give the order dream, experience, thin.
