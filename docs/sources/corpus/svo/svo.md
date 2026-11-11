@@ -2136,4 +2136,22 @@ Not found: a Sanskrit of the Svapnanirdeśa sūtra, of the Turning back of the b
 
 ## The dream rites and signs left by the Tengyur and Kanjur readings (q961, q963, q981, q982, q1012, q1017, q1024, q1059, q1086, q1087): the Svapnekṣā's last part of the night on the Peking print, Bu ston's lineage names, the Red-Hat copyists of the Lama Gongdü, the Sha za brtsegs pa'i rgyud's chapter title, the Vairocana preparation text for dawn dreams, the Vimalaprabhā's vowels, Mipham's Flaming Uṣṇīṣa colophon, the middle watch of the Mahābala omens, mtshan brtas, the Tibet House catalogue (RD399)
 
+Read by RD399 (2026-11-11), within the time given: passages szb:i463b, mph.25:i460b and bsr:p825-828b, claims szb-ninth-section-two-groups-title-only-says-dream, mph-flaming-ushnisha-colophon-date-fire-horse-undefined, bsr-title-prefix-dropped-lineage-is-the-kalacakra-line. By question:
+
+- **q982 (Sha za brtsegs pa'i rgyud).** The page (I1KG3558 img. 463) read whole: the verses «ཐོག་འཚག་ཉེ་བའི་མཚན་མའོ། །རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར།» run in two groups, the second (acts and gifts ending «དེས་ནི་དགྲ་ལ་མྱུར་དུ་འགྲོ») being success of the work; «རྨི་ལྟས་ཀྱི་ལེའུ» stands in the colophon only; the tenth section follows. The text does not say they are dreams of the practitioner.
+- **q1024 (Mipham).** The colophon line on img. 460 read by eye: «རབ་ཚེས་མེ་རྟ་ཟླ་ཚེས་ལ་མི་ཕམ་པས་བྲིས་པ་དགེ»; fire-horse with no number; see the claim.
+- **q963 (Bu ston).** The title line shows «རྟག་པ» without a visible བ at 4x (scan 2230 px wide); the lineage names are spelt as in the two other prints; BDRC's search puts the names in the Kālacakra and Bu ston lines (claim).
+- **q981 (Red-Hat copyist).** The colophon on I1NLM3822_001 img. 82 re-run on Yigdzin-1: «རྙིང་ཆེན་ཞྭ་དམར་པོའི་རིཊ་བློ་བཟང་ཀརྨ་བཀྲ་ཤིས་བྲིས», the same name as the earlier reading, the one letter before «བློ» read «ཊ» by the machine and «ག» by the earlier reading, not settled; «ལོ་ཆེན་ཟླ་རི་པའི་ཡར་ངོ་ལ» again; no hand comparison with the dream text or date was possible without the scans of the other volumes, which was not done.
+- **q961, q1012, q1017, q1059, q1086, q1087.** Not advanced beyond the pool's passages: q961 (the Peking img. 310 not opened again; RD327's eight machine runs and the eye still stand), q1012 and q1086 and q1059 (BDRC phrase searches below returned nothing), q1017 (the pool's two passages kcd.11:p409 and p538-539 stay unjoined), q1087 (the Tibet House catalogue not opened).
+
+### Open (RD399)
+
+- Question: is the first syllable of the title line of Bu ston's Examination of Dreams in the 2008 Palbrtsegs print (img. 833) «རྟག» or «བརྟག» on a sharper image than BDRC's 2230-pixel scan, and does the dropped prefix stand in the manuscript behind it?
+- Question: do «རབ་ཚེས» and «ཟླ་ཚེས» in Mipham's colophon «རབ་ཚེས་མེ་རྟ་ཟླ་ཚེས» stand for a rab byung number or a fixed phrase for a date, and which fire-horse (1846, 1906, or a day) is meant?
+- Question: is «བཤོར» in the Sha za brtsegs pa'i rgyud's «རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར» a word of the text, and does «རྨི་ལྟས» in the colophon mean the practitioner's dreams?
+
+### Searched and not found (RD399)
+
+- BDRC full-text search, 2026-11-11 (bdrc_search.py): «འཇམ་གསར་བླ་མ་རྒ་ལོ» and «རྒ་ལོ་ཙཱ་བ་ཆོས་ཀྱི་འབྱུང་གནས» no hit; «རིང་པོ་སུམ་ཅུ་རྨི་ལམ», «རྨི་ལམ་གྱི་རང་བཞིན་རིང་པོ», «མཚན་བརྟགས་འདི་ལྟར་བྱུང», «ཐོ་རངས་མཚན་བརྟགས», «བགེགས་མཐར་བྱེད་རྨི་ལམ་ངན» and one search for a Vairocana text's dawn-dream signs no hit (the phrases were guessed shapes, not quoted lines, so the absence is weak).
+
 Nothing read yet: RD399's passages, with the English beside them, go here.

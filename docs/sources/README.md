@@ -102,6 +102,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/brong-rtse-dream-set-no-author-sramana-in-dalai-lama-works.md](claims/brong-rtse-dream-set-no-author-sramana-in-dalai-lama-works.md) | claim, note | The three dream rites of the 'Brong rtse be'u bum name no author; the Śramaṇā rite is the text of the First Dalai Lama's collected works (RD360) | cites tdr:p338-340e, tdr:p337-345e, tdr:p15-23e, srm.6:i275-279, kgy:p64-65; feeds S1 |
 | [claims/bsgrub-all-prints.md](claims/bsgrub-all-prints.md) | claim, note | The five graves' «བསྒྲུབ» is carved the same in all prints read | cites wb.2:p124-125, wbz:i809; feeds block-31 |
 | [claims/bsr-dream-rite-no-signs.md](claims/bsr-dream-rite-no-signs.md) | claim, note | Bu ston's examination of dreams is a rite for a dream of one's birth and death and gives no list of dream signs | cites bsr:p825-828; feeds S1, RD329 |
+| [claims/bsr-title-prefix-dropped-lineage-is-the-kalacakra-line.md](claims/bsr-title-prefix-dropped-lineage-is-the-kalacakra-line.md) | claim, note | Bu ston's Examination of Dreams: the title's dropped prefix and a lineage of the Kalacakra masters | cites bsr:p825-828b, bsr:p825-828; feeds S1 |
 | [claims/btsad-po-old-word-for-lord.md](claims/btsad-po-old-word-for-lord.md) | claim, note | «བཙད་པོ» is the old word for king or lord, and the nine-red's guard is not a slip | cites wb.2:p97-100, wb.2:p126-128; feeds block-31 |
 | [claims/bya-dream-humours-parts-of-night-seasons.md](claims/bya-dream-humours-parts-of-night-seasons.md) | claim, rule | The Bṛhadyātrā ties the dream's humour to the part of the night and to the rains, autumn and spring (RD265) | cites bya:p41-46, neg:p17-19, apv:p445, gpu:p131; feeds block-73 |
 | [claims/byes-su-is-away-from-home-in-a-far-place.md](claims/byes-su-is-away-from-home-in-a-far-place.md) | claim, definition | «བྱེས་སུ» in the black pebbles' dream is "away from home, in a far place": the lexica and WB's other lines (RD396, q1080) | cites kd.3:p647-648b, kd.3:p647-648; feeds S1 |
@@ -710,6 +711,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mph-dream-omens-karunapundarika.md](claims/mph-dream-omens-karunapundarika.md) | claim, note | Dream images with readings in Mipham's Śākyamuni compilation: the omen that comes before (sngar ltas) | cites mph.101:i42-43, mph.101:i44-45, mph.101:i46, mph.101:i220-221, mph.101:i233; feeds S1, RD362 |
 | [claims/mph-dream-practice-mantras-and-rite.md](claims/mph-dream-practice-mantras-and-rite.md) | claim, note | Mipham's dream mantras and the Skul byed ma rite ask for a dream; they give no meanings, name sources and a few times | cites mph.128:i189-192, mph.25:i374-376; feeds S1, RD362 |
 | [claims/mph-dream-sign-time-day-source.md](claims/mph-dream-sign-time-day-source.md) | claim, note | RD362: Mipham names no time or day for reading a dream sign; sources only for the rites and the sūtra's readings | cites mph.128:i189-192, mph.25:i374-376, mph.104:i236-237, mph.101:i42-43, mph.101:i220-221, wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
+| [claims/mph-flaming-ushnisha-colophon-date-fire-horse-undefined.md](claims/mph-flaming-ushnisha-colophon-date-fire-horse-undefined.md) | claim, note | Mipham's Flaming Ushnisha colophon gives fire-horse between two words and no number | cites mph.25:i460b; feeds S1 |
 | [claims/mph-notes-wb-dream-words.md](claims/mph-notes-wb-dream-words.md) | claim, note | Mipham's notes on the White Beryl name dreams twice and gloss no dream sign | cites wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
 | [claims/mph-sleep-with-light-and-the-clear-light-of-experience.md](claims/mph-sleep-with-light-and-the-clear-light-of-experience.md) | claim, definition | Mipham: falling asleep in light-perception; the clear light of experience as a warning; no phrase for the state (RD389) | cites mph.101:i13, rrd.21:p19; feeds S1 |
 | [claims/mph-sukhavati-dream-sign-of-rebirth.md](claims/mph-sukhavati-dream-sign-of-rebirth.md) | claim, note | Mipham: a dream of the field and the Teacher is the lowest sign of progress toward Sukhāvatī | cites mph.104:i236-237; feeds S1, RD362 |
@@ -939,6 +941,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-watch-bounds-not-in-colophons.md](claims/svo-watch-bounds-not-in-colophons.md) | claim, note | No text read in RD292 bounds a watch of the night | cites svo:p271j, svo:p268; feeds block-73 |
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
 | [claims/svo-women-by-colour.md](claims/svo-women-by-colour.md) | claim, table | The Svapnohana: the embraced woman by the colour of her clothes, and white and black things | cites svo:p270; feeds block-73 |
+| [claims/szb-ninth-section-two-groups-title-only-says-dream.md](claims/szb-ninth-section-two-groups-title-only-says-dream.md) | claim, note | The Sha za brtsegs pa'i rgyud's ninth section has two groups of lines and says dream only in its colophon | cites szb:i463b; feeds S1 |
 | [claims/szb-signs-of-approach-not-dream-list.md](claims/szb-signs-of-approach-not-dream-list.md) | claim, note | The Sha za brtsegs pa'i rgyud's dream-sign chapter lists signs of approach to a killing rite, not dream images | cites szb:i463; feeds S1 |
 | [claims/tdr-ba-ru-tree.md](claims/tdr-ba-ru-tree.md) | claim, definition | The ba ru tree of the Śramaṇā rite is the myrobalan tree | cites tdr:p337-342e, tmz:box1; feeds S2 |
 | [claims/tdr-dream-set-names-no-compiler.md](claims/tdr-dream-set-names-no-compiler.md) | claim, note | The print names no writer or lama for the three dream examinations; the colophon near them closes the mercury set | cites tdr:p337-342e, tdr:p331-332e, tdr:p21e, tdr:p15-23e; feeds S2 |
@@ -1330,7 +1333,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bpp/bpp.md](corpus/bpp/bpp.md) | corpus | BPP | 1 passages: 1 etext |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
-| [corpus/bsr/bsr.md](corpus/bsr/bsr.md) | corpus | BSR | 3 passages: 3 machine |
+| [corpus/bsr/bsr.md](corpus/bsr/bsr.md) | corpus | BSR | 4 passages: 4 machine |
 | [corpus/bvg/bvg.md](corpus/bvg/bvg.md) | corpus | BVG | 2 passages: 2 scan |
 | [corpus/bvp/bvp.md](corpus/bvp/bvp.md) | corpus | BVP | 2 passages: 2 scan |
 | [corpus/bya/bya.md](corpus/bya/bya.md) | corpus | BYA | 1 passages: 1 scan |
@@ -1396,7 +1399,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 40 passages: 7 machine, 33 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
-| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 10 passages: 8 machine, 2 etext |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 11 passages: 1 scan, 8 machine, 2 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/nbv/nbv.md](corpus/nbv/nbv.md) | corpus | NBV | 2 passages: 2 etext |
@@ -1435,7 +1438,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 84 passages: 14 scan, 8 machine, 62 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
-| [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
+| [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 2 passages: 2 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
 | [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 1 passages: 1 etext |
