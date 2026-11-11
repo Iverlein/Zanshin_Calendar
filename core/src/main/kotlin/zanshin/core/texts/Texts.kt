@@ -740,6 +740,64 @@ object Sources {
         "BDRC MW3CN5036",
         "https://library.bdrc.io/show/bdr:MW3CN5036",
     )
+    /** The dream reading for a sick dreamer (ROADMAP S2): the Explanatory Tantra's dreams of the sick and their rule of the night, and the dreams of chapters 15, 23, 27, 81 and 91 (claims/dream-catalogue.md). */
+    val FOUR_TANTRAS_DREAMS = Source(
+        "$FOUR_TANTRAS, the Explanatory Tantra (བཤད་རྒྱུད, bshad rgyud), chapter 7, p. 34, with the Drathang print (གྲྭ་ཐང, grwa thang); " +
+            "the Instructional Tantra (མན་ངག་རྒྱུད, man ngag rgyud), chapters 15, 23, 27, 81 and 91",
+        "BDRC MW3CN5036",
+        "https://library.bdrc.io/show/bdr:MW3CN5036",
+    )
+    /** The dream reading's line of the night (ROADMAP S2): Marpa's song in his Lives, and Karma Chakmé's rule. */
+    val DREAM_NIGHT = Source(
+        "The Life of Marpa (མར་པའི་རྣམ་ཐར, mar pa'i rnam thar) of Pawo Tsuklak Trengwa (དཔའ་བོ་གཙུག་ལག་ཕྲེང་བ, dpa' bo gtsug lag phreng ba); " +
+            "Karma Chakmé (ཀརྨ་ཆགས་མེད, karma chags med), the prophecy of dreams in verse (རྨི་ལམ་ལུང་བསྟན, rmi lam lung bstan)",
+        "BDRC",
+        "https://library.bdrc.io/",
+    )
+    /** The Lama Gongdü's signs of good and bad dreams (ROADMAP S2, RD208). */
+    val DREAM_LAMA_GONGDU = Source(
+        "The stages of the signs of good and bad dreams, from the Lama Gongdü (བླ་མ་དགོངས་འདུས, bla ma dgongs 'dus) of Sangye Lingpa " +
+            "(སངས་རྒྱས་གླིང་པ, sangs rgyas gling pa), in the Rinchen Terdzö (རིན་ཆེན་གཏེར་མཛོད, rin chen gter mdzod), vol. 42, pp. 961–971",
+        "BDRC MW1KG14_2DD1B5",
+        "https://library.bdrc.io/show/bdr:MW1KG14_2DD1B5",
+    )
+    /** The Svapnohana of Vibhūticandra, Derge Tengyur (ROADMAP S2, RD207). */
+    val DREAM_SVAPNOHANA = Source(
+        "Vibhūticandra, the Svapnohana, Derge Tengyur (སྡེ་དགེ་བསྟན་འགྱུར, sde dge bstan 'gyur), vol. 28, pp. 268–271",
+        "BDRC MW23703_1749",
+        "https://library.bdrc.io/show/bdr:MW23703_1749",
+    )
+    /** Advayavajra's Svapna-īkṣā, Derge Tengyur (ROADMAP S2, RD207). */
+    val DREAM_SVAPNA_IKSA = Source(
+        "Advayavajra, the Svapna-īkṣā, Derge Tengyur (སྡེ་དགེ་བསྟན་འགྱུར, sde dge bstan 'gyur), vol. 49, pp. 261–262",
+        "BDRC MW23703_2100",
+        "https://library.bdrc.io/show/bdr:MW23703_2100",
+    )
+    /** The method of examining dreams under Sakya Paṇḍita's name, a Mongolian National Library manuscript (ROADMAP S2, RD209). */
+    val DREAM_SAKYA = Source(
+        "A method of examining dreams, under the name of Sakya Pandita (ས་སྐྱ་པཎྜི་ཏ, sa skya paN+Di ta), manuscript, pp. 40–55",
+        "BDRC MW1NLM933_A02C49",
+        "https://library.bdrc.io/show/bdr:MW1NLM933_A02C49",
+    )
+    /** Klong rdol bla ma's verses on dream signs, the ACIP etext, with the 1993 article that quotes them (facts only) (ROADMAP S2, RD209). */
+    val DREAM_LONGDOL = Source(
+        "Longdöl Lama (ཀློང་རྡོལ་བླ་མ, klong rdol bla ma), a method of examining the various dream signs, ACIP etext; " +
+            "with China Tibetology, 1993 no. 4, pp. 66–80, for its facts",
+        "BDRC MW1ALS06558E",
+        "https://library.bdrc.io/show/bdr:MW1ALS06558E",
+    )
+    /** The extended method of reading dream signs, 'Bri gung (ROADMAP S2, RD210). */
+    val DREAM_DRIGUNG = Source(
+        "The extended method of reading dream signs, in the Drikung (འབྲི་གུང, 'bri gung) collection, Chengdu 2021, vol. 41, pp. 186–195",
+        "BDRC MW3KG218_O3KG218_VTCXE7",
+        "https://library.bdrc.io/show/bdr:MW3KG218_O3KG218_VTCXE7",
+    )
+    /** Karma chags med's Magic Mirror, a method of examining dreams (ROADMAP S2, RD210). */
+    val DREAM_MAGIC_MIRROR = Source(
+        "Karma Chakmé (ཀརྨ་ཆགས་མེད, karma chags med), the Magic Mirror, a method of examining dreams, Tashijong 1985, pp. 679–682",
+        "BDRC MW23766_5DC139",
+        "https://library.bdrc.io/show/bdr:MW23766_5DC139",
+    )
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–239")
     val WHITE_BERYL_DUS_SBYOR = whiteBeryl("pp. 371–376")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
@@ -2413,6 +2471,21 @@ object Texts {
     /** A sign met at the reckoning of the moment, of [group] (WB vol. 2, ch. 30, pp. 144–151, 170; ROADMAP R2z). */
     fun momentSign(group: String, key: String): Reading =
         Reading(key = "reading.MomentSign", arg = "reading.MomentSign.$group.$key", source = Sources.WHITE_BERYL_MOMENT_OBSERVED)
+
+    /** The source of each dream text's verdicts (ROADMAP S2); WB's are its moment signs'. */
+    val DREAM_SOURCES: Map<zanshin.core.tibetan.DreamText, Source> = zanshin.core.tibetan.DreamText.entries.associateWith {
+        when (it) {
+            zanshin.core.tibetan.DreamText.WB -> Sources.WHITE_BERYL_MOMENT_OBSERVED
+            zanshin.core.tibetan.DreamText.ST -> Sources.FOUR_TANTRAS_DREAMS
+            zanshin.core.tibetan.DreamText.LGD -> Sources.DREAM_LAMA_GONGDU
+            zanshin.core.tibetan.DreamText.SVO -> Sources.DREAM_SVAPNOHANA
+            zanshin.core.tibetan.DreamText.SVI -> Sources.DREAM_SVAPNA_IKSA
+            zanshin.core.tibetan.DreamText.SKP -> Sources.DREAM_SAKYA
+            zanshin.core.tibetan.DreamText.KLONG -> Sources.DREAM_LONGDOL
+            zanshin.core.tibetan.DreamText.RRT -> Sources.DREAM_DRIGUNG
+            zanshin.core.tibetan.DreamText.KCM -> Sources.DREAM_MAGIC_MIRROR
+        }
+    }
 
     fun momentMarks(e: Element): Reading? =
         if (e == Element.IRON || e == Element.WATER) Reading(key = "reading.MomentMarks", arg = "reading.MomentMarks.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS) else null

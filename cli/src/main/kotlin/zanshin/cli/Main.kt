@@ -13,6 +13,11 @@ import zanshin.core.texts.Activity
 import zanshin.core.texts.ElectionSpan
 import zanshin.core.texts.KyurekiSpan
 import zanshin.core.texts.VerdictBy
+import zanshin.core.texts.Catalog
+import zanshin.core.tibetan.DreamImage
+import zanshin.core.tibetan.DreamNight
+import zanshin.core.tibetan.DreamReading
+import zanshin.core.tibetan.DreamWatch
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.TibetanCalendar
 import java.time.LocalDate
@@ -31,6 +36,9 @@ private const val USAGE = """usage:
           [--birth YYYY-MM-DD] [--all]                 e.g. HAIRCUTS), from the date for N Tibetan months;
                                                      --all gives every day with its deciding voice;
                                                      --kyureki: the 旧暦 election, N 旧暦 months, unranked
+  zanshin --dream IMAGE,IMAGE… [YYYY-MM-DD]          a dream read (DreamImage names, e.g. RIDING_UPWARD), in the
+          [--watch DUSK|MIDDLE|DAWN | --at HH:MM]      night before the date: by its part, or a clock time on the
+          [--ill]                                      night's quarters; --ill reads it for a sick dreamer
 The place defaults to Kyoto."""
 
 fun main(args: Array<String>) {
@@ -40,9 +48,40 @@ fun main(args: Array<String>) {
         "--sui" in options -> printSui(options.valueAfter("--sui")!!.toInt())
         "--tibetan-year" in options -> printTibetanYear(options.valueAfter("--tibetan-year")!!.toInt())
         "--elect" in options -> printElection(options)
+        "--dream" in options -> printDream(options)
         else -> printDay(options)
     }
 }
+
+/** A dream read (ROADMAP S2): its night and part, the line of the night, and each text's verdict on each image. */
+private fun printDream(options: List<String>) {
+    val date = options.firstOrNull { it.matches(Regex("""\d{4}-\d{2}-\d{2}""")) }?.let(LocalDate::parse) ?: LocalDate.now()
+    val zone = ZoneId.of(options.valueAfter("--tz") ?: "Asia/Tokyo")
+    val place = Place(options.valueAfter("--lat")?.toDouble() ?: 35.0116, options.valueAfter("--lon")?.toDouble() ?: 135.7681, zone)
+    val images = options.valueAfter("--dream")!!.split(',').filter { it.isNotBlank() }.map { DreamImage.valueOf(it.trim()) }
+    val night = DreamNight.before(date, place)
+    if (night != null) {
+        println("Night before $date: sunset ${night.sunset.format(HOURS)}, quarters at " +
+            (1..3).joinToString { night.quarter(it).format(HOURS) } + ", sunrise ${night.sunrise.format(HOURS)}")
+    }
+    val watch = options.valueAfter("--watch")?.let(DreamWatch::valueOf)
+        ?: options.valueAfter("--at")?.let { t -> night?.watch(night.at(LocalTime.parse(t))) ?: error("$t is not in the night") }
+        ?: DreamWatch.DAWN
+    val reading = DreamReading(watch, "--ill" in options, images)
+    println("${watch.english}: ${Catalog.text(reading.lineKey)}")
+    for ((text, verdicts) in reading.byText) {
+        println()
+        println("$text")
+        for (v in verdicts) println("  ${TONE_MARK.getValue(v.tone)} ${v.image.english}: ${Catalog.text(v.key)}")
+    }
+    if (reading.remedies.isNotEmpty()) {
+        println()
+        println("Remedy")
+        for (r in reading.remedies) println("  ${Catalog.text(r.key).replaceFirstChar(Char::uppercase)}")
+    }
+}
+
+private val TONE_MARK = mapOf(Tone.GOOD to "+", Tone.BAD to "-", Tone.MIXED to "~", Tone.NEUTRAL to "·")
 
 private fun List<String>.valueAfter(flag: String): String? = indexOf(flag).takeIf { it >= 0 }?.let { getOrNull(it + 1) }
 
