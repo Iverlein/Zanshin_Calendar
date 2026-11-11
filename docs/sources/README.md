@@ -909,6 +909,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-catalogues-derge-jo-nang.md](claims/svo-catalogues-derge-jo-nang.md) | claim, note | The Derge and Jo nang catalogues and Bu ston: Vibhūticandra's own translation, no author; Padma rdo rje copies the colophon | cites svo:i736, svo:i64, svo:i409, svo:p271; feeds block-73 |
 | [claims/svo-co-ne-machine-tallies.md](claims/svo-co-ne-machine-tallies.md) | claim, note | The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips | cites svo:p271m, svo:p271g; feeds RD311 |
 | [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
+| [claims/svo-derge-frames-yigdzin-second-run.md](claims/svo-derge-frames-yigdzin-second-run.md) | claim, note | Derge images of the Svapnohana and the Svapnekṣā: a second Yigdzin-1 run agrees with the etext but for spelling, and the 8-pixel frames still give no scan state (RD218) | cites svo:p268-269y, svi:p261-262y; feeds — |
 | [claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md](claims/svo-derge-reads-bgrod-min-bcu-yi-bar-bla-mo.md) | claim, note | The Derge print reads «བགྲོད་མིན», «བཅུ་ཡི་བར» and «བླ་མོ» | cites svo:p271l; feeds RD310 |
 | [claims/svo-dpe-bsdur-ma-sigla.md](claims/svo-dpe-bsdur-ma-sigla.md) | claim, note | The Dpe bsdur ma's note format and sigla: Peking, Narthang, Co ne, Derge | cites svo:p271t, svo:p271u; feeds RD323 |
 | [claims/svo-dpe-no-entry-at-bgrod-min.md](claims/svo-dpe-no-entry-at-bgrod-min.md) | claim, note | The Dpe bsdur ma's notes record no print differing at «བགྲོད་མིན», «འགྲོན་བུ», the Gāyatrī; «ལ» at «རྟ་བླ་མོ» | cites svo:p271u; feeds RD323 |
@@ -1395,7 +1396,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 21 passages: 18 scan, 3 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 22 passages: 18 scan, 4 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 40 passages: 7 machine, 33 etext |
@@ -1436,8 +1437,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/snz/snz.md](corpus/snz/snz.md) | corpus | SNZ | 1 passages: 1 etext |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 27 passages: 10 scan, 8 machine, 9 etext |
-| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 85 passages: 14 scan, 8 machine, 63 etext |
+| [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 13 passages: 6 scan, 5 machine, 2 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 86 passages: 14 scan, 9 machine, 63 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 2 passages: 2 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |

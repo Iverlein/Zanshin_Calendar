@@ -243,6 +243,19 @@ Derge Kanjur catalogue (BDRC etext volume VE4CZ5369_I1KG9229, the Kanjur's catal
 
 ## <a id="svo-p268"></a>svo:p268 Title, the watches of the night and their spans, the first images (page 268 lines 4–7)
 
+## <a id="svo-p268-269y"></a>svo:p268-269y The Svapnohana on Derge images 268 (line 4 on) and 269, Yigdzin-1 read again (RD218)
+
+*Read: machine, 2026-11-11.*
+
+> ༄༅༅། །རྒྱ་གར་སྐད་དུ། སྭ་བྷཱ་ཨུ་ཧ་ན། བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ། སངས་རྒྱས་ལ་ཕྱག་འཚལ་ལོ། །རྨི་ལམ་སྣ་ཚོགས་ལས་བྱུང་བ། །དེ་ཡི་བརྟག་པ་བཤད་པར་བྱ། །དང་པོའི་ཐུན་ལ་རྨི་ལམ་བྱུང་། །ལོ་གཅིག་ནང་དུ་འབྲས་བུ་འབྱིན། །ཐུན་གཉིས་ཟླ་བ་བརྒྱད་བར་ལ། །ཐུན་གསུམ་ཟླ་བ་གསུམ་གྱི་བར། །ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ། །མཐོང་བར་འགྱུར་བ་ཐེ་ཚོམ་མེད། །སྐྱ་རེངས་ཤར་བའི་དུས་ཉིད་ལ། །ཞག་བཅུའི་ནང་དུ་འབྲས་བུ་འབྱིན། དེ་རྗེས་རབ་ཏུ་བཤད་བྱ་བ། །ཉོན་ཅིག་དགེ་དང་མི་དགེའི་ལས། །བཞོན་པ་བ་ལང་དང་ནི་གླང་ཆེན་ཞོན་པ་དང་། །ཁང་བཟངས་རི་རྩེ་དང་ནི་ནགས་ཀྱི་ལྗོན་ཤིང་དང་། །གྲུ་ནང་འདུག་སྟེ་པི་ཝང་འཛིན་པར་བྱེད་པ་དང་། །ཁ་ཟས་ཟ་ཞིང་དུ་བྱེད་རྟག་པར་དངོས་པོ་འཐོབ། །མཚོན་ཆས་རྡེག་དང་སྲོག་ཆགས་ཕྲ་མོས་ལུས་ཁེབས་དང་། །དེ་བཞིན་ལུས་ཀྱི་ལྗན་ལྗིན་རྣམ་པར་དག་པ་དང་། །བཤང་བའི་རྗེས་སུ་འཇུག་དང་ལུས་ལས་ཁྲག་འཛག་དང་། །རྨི་ལམ་རྣམས་ན་བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ། །རྒྱལ་པོ་གླང་ཆེན་རྟ་མཆོག་དང་། །འགྲོ་ན་བུ་གླང་དང་བ་རྣམས་དང་། །གང་གིས་གཉིད་ཀྱི་མཐའ་མར་
+> མཐོང་། །དེ་ཡི་ཉེ་དུ་མང་པོར་འགྱུར། །ཤིང་ལྗོན་འོ་མ་འབྲས་བུ་ཅན། །གང་གིས་གཅིག་པུ་དེ་ལ་འཛེགས། །དེ་ལ་འདུག་ནས་གཉིད་སད་ན། །མྱུར་དུ་ནོར་ནི་འཐོབ་པར་འགྱུར། །གང་གིས་ཁང་བཟངས་འདུག་ནས་ཟོས། །དེ་བཞིན་རྒྱ་མཚོ་བརྒལ་བའི་མི། །དམན་པའི་རིགས་སུ་སྐྱེས་ཀྱང་ནི། །དེ་ནི་རྒྱལ་པོར་འགྱུར་བར་འོང་། །གང་ཞིག་རྫིང་བུའི་དཀྱིལ་དུ་ནི། །པདྨའི་འདབ་མ་ཆེན་པོའི་ནང་། །ཞོ་དང་འོ་ཐུག་ཟ་བྱེད་པ། །ས་བདག་འཐོབ་པར་ཐེ་ཚོམ་མེད། །མར་མེ་རྒྱལ་མཚན་ཤིང་རྟ་གདུགས། །བུ་མོ་ཤིང་ལོ་འབྲས་བུ་ཟན། །གཉིད་ཀྱི་མཐའ་མར་གང་གིས་མཐོང་། །བླ་ན་མེད་པའི་དཔལ་ཐོབ་འགྱུར། །མི་དག་གི་ནི་ཤ་རྣམས་ནི། །བཙོས་སམ་མ་བཙོས་གང་ཡང་རུང་། །རྨི་ལམ་དུ་ནི་གང་གིས་ཟོས། །ཉོན་ཅིག་དེ་ཡི་ཡོན་ཏན་གང་། །རྐང་པ་ཟོས་ན་ལྔ་བརྒྱ་སྟེ། །ལག་པ་ཟོས་ན་སྟོང་ཕྲག་གཅིག །སྟོང་ཕྲག་བརྒྱའམ་རྒྱལ་སྲིད་ནི། །མགོ་བོ་ཟོས་ན་ཐོབ་པར་འགྱུར། །གང་གི་རྒྱུ་མས་གྲོང་དང་ནི། །ཡང་ན་གྲོང་ཁྱེར་དཀྲིས་པ་ནི། །གྲོང་གཅིག་དཀྲིས་ན་རྒྱལ་ཕྲན་ཐོབ། །གྲོང་ཁྱེར་དཀྲིས་ན་རྒྱལ་པོ་ཐོབ། །ལྷམ་གཉིས་དང་ནི་གདུགས་དང་ནི། །རལ་གྲི་རྣོན་པོ་དྲི་མེད་དག །ཐོབ་ནས་གང་ཞིག་གཉིད་སད་ན། །དེ་ནི་ལམ་དུ་བགྲོད་པར་བཤད། །གང་ཞིག་གྲུལ་ཞོན་ནས་ནི། །ཞིག་པ་ཡིན་ཡང་ཡང་དག་སྒྲོལ། །དེ་ཡི་ལམ་བགྲོད་ཤེས་པར་བྱ། །དེ་ཡང་མྱུར་དུ་ལྡོག་པར་ངེས། །གང་གི་ས་རྣམས་རྣམ་པར་འཆག །རབ་ཏུ་གཡོ་བའི་རྨི་ལམ་ནི། །དེ་ཡི་ནོར་ནི་བརླག་པར་འོང་། །ཡང་ན་ལུས་ལ་ན་ཚ་འབྱུང་། །གང་ལ་རྣམ་པར་གནོད་བྱེད་པའི། །རྭ་ཅན་རྣམས་དང་མཆེ་བ་ཅན། །སྤྲེའུའམ་ཡང་ན་ཕག་པ་བྱུང་། །དེ་ལ་རྗེ་བོའི་འཇིགས་པ་འབྱུང་། །གང་ལ་ཏིལ་མར་མངོན་པར་བྱུག །འོ་མའམ་ཡང་ན་མར་གྱིས་བསྐུས། །དེ་དང་འདྲ་བ་གང་ཡང་རུང་། །དེ་ནི་ནད་དུ་རྣམ་པར་བཤད། །ཤིང་རྟ་བོང་བུ་རྔ་མོར་ལྡན། །གང་ཞིག་གཅིག་པུས་དེ་ལ་འཛེགས། །དེ་སྟེངས་འདུག་ནས་གཉིད་སད་ན། །མྱུར་དུ་འཆི་བ་ཐོབ་པར་འགྱུར། །བུད་མེད་གོས་དམར་འཛིན་པ་
+
+Yigdzin-1's page reading of the Derge Tengyur, vol. 28 (I1344), images 268 (from line 4, the title) and 269, run again in RD218 over the 1990- and 2002-pixel frames. It is the machine text, not a scan reading: the letters are about 8 pixels high.
+
+The text is the Svapnohana as passage svo:p268-271 and svo:p269 give it: homage to the Buddha; the examination of dreams; the watches of the night with their spans (first watch a year, second eight months, third three months, fourth half a month, dawn ten days); then the images, from riding an ox and an elephant to the climbing of a tree, the eating of flesh, the road, the shaking ground and the beasts that bring fear from the lord, up to the woman in red clothes at the foot of the page.
+
+Where the machine differs from the Derge etext it is in spelling only: the title's Sanskrit is read «སྭ་བྷཱ་ཨུ་ཧ་ན» (the etext «སྭབྣཱ་ཨུ་ཧཱ་ན»); the traveller «འགྲོ་ན་བུ» (etext «འགྲོན་བུ»); «བརྒྱའམ», «གྲུལ», «སྤྲེའུའམ», «འོ་མའམ» run together where the etext has a tsheg before the particle.
+
 ## <a id="svo-p268-271"></a>svo:p268-271 The examination of dreams, whole: the watches of the night, the images, the remedy
 
 *Read: machine, 2026-11-09.*
@@ -1962,7 +1975,7 @@ Nothing read dates the chapter alone; Jagaddeva (neg:i20) gives no date; the old
 
 ## The Svapnohana and Advayavajra's examination, scan proof of RD207 (RD218)
 
-Nothing read yet: RD218's passages, with the English beside them, go here.
+The passages of this run follow in the file as svo:p268-269y (Derge images 268–269) and, in corpus/svi/svi.md, svi:p261-262y (images 261–262); both stay in the machine state, the claim svo-derge-frames-yigdzin-second-run says why.
 
 ## <a id="svo-i631-632"></a>svo:i631-632 The Turning back of the bad dream (Dpe bsdur ma etext pp. 631–632): the dawn rite of Avalokiteśvara Blazing Sword against bad omens, a thousand tormas (RD381)
 
