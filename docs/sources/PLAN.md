@@ -364,6 +364,7 @@ Tesseract's `bod` model is no use on these prints.
 
 Searched and found wanting, so not to be repeated:
 
+- **RD387, 2026-11-11, Marpa on the midnight dream:** BDRC full-text search, 2026-11-11, no hit: «ནམ་ཕྱེད་ཀྱི་རྨི་ལམ་བདུད», «ནམ་ཕྱེད་དུ་རྨི་ལམ», «ནམ་ཕྱེད་ཀྱི་རྨི་ལམ་དེ», «ནམ་ཕྱེད་ཀྱི་རྨི་ལམ་ལ་ནི», «གདོན་གྱི་རྨི་ལམ་ཡིན», «གདོན་དབང་གི་རྨི་ལམ», «གདོན་གྱིས་བཏང་བའི་རྨི་ལམ», «ཐོ་རངས་ཀྱི་རྨི་ལམ་བདེན». Marpa vol. 4 and Ras chung pa vol. 2 by words: no dream with midnight, dusk, dawn or gung beyond the death-sign passages already in the pool. Karmapa IX's Yi dam drag po dbang bshad (VEIE0OPI9762274C_I1GS66298) answers 0 pages, snippet only. «གདོན་དབང་» 103 hits not opened.
 - **PT 55 IX (the Dunhuang dream manuscript), 2026-11-11, RD366 again:** OTDO no connection, Gallica and IDP HTTP 403 (not worked around), the Cambridge Himalaya site (van Schaik, RET 64) no connection, JSTOR open to a request but the article closed; the Iwao–Zorin paper on secular Dunhuang fragments has nothing on dreams; web searches give only the bibliographic record of Crescenzi and Torricelli 1995 (*The Tibet Journal* 20.2, pp. 3–17: text, translation, commentary). The Tibetan needs that article in print or via a library, or the three sites when they serve.
 - **BDRC's full-text search, 2026-10-18 night, no hit or no gloss:**
   «སྐྲང་སྒོམ», «ལས་ལ་ཟློད» and «ཟླ་རིབ་ནད» nowhere; «སྔ་ཆ་གྲིབ», «དགྲ་ལས་མིང་འདོགས», «ཞག་གི་ལོ་སྟེང» and

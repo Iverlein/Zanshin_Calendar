@@ -2303,6 +2303,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1106.md](questions/q1106.md) | question q1106 | Is the verse of rrd.4:p13 Rang byung rdo rje's own song of experience, and what is its title | open; cites rrd.4:p13 |
 | [questions/q1107.md](questions/q1107.md) | question q1107 | Do Mipham's and Rtsa gsum gling pa's works name the state under another word that an exact phrase does not reach | open; cites rrd.4:p13 |
 | [questions/q1108.md](questions/q1108.md) | question q1108 | Whose are the works behind rrd.21:p19 and rrd.22:p38-39 | open; cites rrd.21:p19, rrd.22:p38-39 |
+| [questions/q1109.md](questions/q1109.md) | question q1109 | Is Marpa's saying on the midnight dream an oral saying handed down through the Karmapas, and is «gdon dbang» the reading they teach | open; cites rrd.5:p57-59, dds.19:p187-189 |
+| [questions/q1110.md](questions/q1110.md) | question q1110 | In Marpa's inner-heat manual, is the spirit of the horse, dog or woman dream a certain class, and is the cure tied to a watch | open; cites dds.19:p187-189 |
+| [questions/q1111.md](questions/q1111.md) | question q1111 | What are གནམ་ཐེ་དཀར་པོ and ཞེ་ཐག་པ་ནས་སྦྱིན in Marpa's inner-heat manual | open; cites dds.19:p187-189 |
 
 <!-- end pool index -->
 
