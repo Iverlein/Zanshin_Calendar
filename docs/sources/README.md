@@ -851,7 +851,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/st-dream-za-zi-fever-versus-ch81-commentaries.md](claims/st-dream-za-zi-fever-versus-ch81-commentaries.md) | claim, note | «རྨི་ལམ་ཟ་ཟི་མང» is a root line only in the fevers; in ch. 81 the dream is the commentators' clause, the spirit's sign | cites st:p183, st:p183b, st:p352, st:p352b; feeds S1 |
 | [claims/st-gtad-du-tshud-pa-under-a-sent-harm.md](claims/st-gtad-du-tshud-pa-under-a-sent-harm.md) | claim, definition | གཏད་དུ་ཚུད་པ in ch. 81's commentaries: within the aim of a harm sent, not a pledge | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
 | [claims/st-lder-bzo-is-the-temples-clay-statues.md](claims/st-lder-bzo-is-the-temples-clay-statues.md) | claim, definition | ལྡེར་བཟོ་འགུལ in ch. 81: the clay statues of the temple move; lder so is a spelling of lder bzo | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
+| [claims/st-lhas-tshor-etext-tally-lhas-majority-ltas-blue-beryl.md](claims/st-lhas-tshor-etext-tally-lhas-majority-ltas-blue-beryl.md) | claim, conflict | ལྷས་ཚོར་ stands in the root text prints and most commentaries; ལྟས་ in the Blue Beryl's etexts, the Mongol glossary and one modern etext | cites st:p350-351d, st:p350-351c, st:p350-351b; feeds S2 |
 | [claims/st-lhas-tshor-felt-by-the-god.md](claims/st-lhas-tshor-felt-by-the-god.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ in ch. 81: lhas as the god's agent case, against rang tshor | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
+| [claims/st-lhas-tshor-glossary-may-itself-read-ltas.md](claims/st-lhas-tshor-glossary-may-itself-read-ltas.md) | claim, note | The glossary's own sentence may read ལྟས་ཚོར་བའི་དུས: RD356's reading of it as keeping ལྷས་ is doubtful | cites st:p350-351c, st:p350-351d; feeds S2 |
 | [claims/st-lhas-tshor-glossary-names-ltas-as-a-variant.md](claims/st-lhas-tshor-glossary-names-ltas-as-a-variant.md) | claim, note | A glossary to the Supplement names ལྟས་ཚོར་ as what some read in ch. 81 and keeps ལྷས་ཚོར་ by the pair of times | cites st:p350-351c, st:p350-351; feeds S1 |
 | [claims/st-lhas-tshor-in-the-commentaries.md](claims/st-lhas-tshor-in-the-commentaries.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ in the commentaries that reach ch. 81: the time of the feeling, the dream the start of the harm | cites st:p350-351, ktr:p329-332, bdk:p580-581; feeds S1 |
 | [claims/st-lhas-tshor-lder-bzo.md](claims/st-lhas-tshor-lder-bzo.md) | claim, note | ལྷས་ཚོར་དུས་ཏེ and ལྡེར་བཟོ་འགུལ in ST ch. 81: what the other prints and the commentaries read | cites st:p350-351, ktr:p329-332, bdk:p580-581, lth:p325, lhq:p509, mnb:p267, mbl:p521-522; feeds S1 |
@@ -1397,7 +1399,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/snr/snr.md](corpus/snr/snr.md) | corpus | SNR | 2 passages: 2 etext |
 | [corpus/snz/snz.md](corpus/snz/snz.md) | corpus | SNZ | 1 passages: 1 etext |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 26 passages: 10 scan, 8 machine, 8 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 27 passages: 10 scan, 8 machine, 9 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 69 passages: 14 scan, 7 machine, 48 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
