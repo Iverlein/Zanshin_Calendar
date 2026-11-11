@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD395 (2026-11-11): the small words of the Svapnohana, the Showing of Dreams sūtra and the Tengyur rites (q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048, q1032) in the etexts and the lexica; etext only; see the section "The Svapnohana, the Svapnanirdeśa and the Tengyur rites, their small words".
+
 Read by RD322 (2026-11-10): the words of the night's watches and snying sdug in Steinert's dictionaries (Mahāvyutpatti, Negi, Tibetan lexica; etext), the author of the Sakya Vinaya treatise from three etexts' colophon and preface and BDRC's records, and WB's eight watches against the commentaries' etexts and BDRC snippets; no scan; see svo:p271q, svo:p271r, svo:p271s.
 
 Read by RD338 (2026-11-10): the Mchog dga' (Phug pa Lhun grub rgya mtsho) in the Kun 'dus chen mo vol. 3 etext (VEIE0OPI2F246A26_I4717, pp. 21–505; chapter 9 on pp. 449–455 read), BDRC exact-phrase searches on the dbyu gu and the 56¼ chu srang, the Karma pa gsum pa's vol. 13 etext (VE30541_013) p. 207; etext only, no scan, no model run; see svo:p271z.
@@ -1452,6 +1454,25 @@ What differs between the editors' Peking and the eye reading is therefore one pl
 The title: after "In the Indian language" the Peking carries five stacks, the first read «སྭ» (sva), the third «ཨུ» (u), the second a boxy head over a subjoined ན (ྣ), the fourth and fifth read «ཧཱ» and «ནཱ» by Yigdzin-1 only (the eye sees two further stacks, not told apart letter by letter); then "In the Tibetan language: Examining dreams (rmi lam brtag pa)". The Gāyatrī: "the Gāyatrī (ga ya tri) recited a thousand times"; the three-syllable name on both prints.
 The etext witnesses: the Narthang etext (machine text, poor quality: «brgyad pal») has the fourth watch «ཕྱེད་བར་དུ» and the second watch's «བརྒྱད་པ་ལ» (as the Narthang manuscript on the scan); the Derge etext, the Dpe bsdur ma etext and the two modern books have «བར» at the second watch, «བགྲོད་མིན», «འགྲོན་བུ», «རྟ་བླ་མོ» and the three-syllable «ག་ཡ་ཏྲི».
 
+## <a id="svo-p273b"></a>svo:p273b Klu'i byang chub's Twenty in the Derge's own etext (VE23703_1351 pp. 273–274) and Padma dkar po's prose of the same lines: the bad dream is purified by the talk of selflessness (RD395, q1063)
+
+*Read: etext, 2026-11-11.*
+
+> > [p273]
+> > དཀྱིལ་འཁོར་དམ་པ་མཐོང་ནས་ནི། །བསྐལ་
+> > 
+> > [p274]
+> > པ་བྱེ་བ་མཐའ་ཡས་སུ། །སྔོན་ཆད་སྡིག་པ་གང་བྱས་པ། །དེ་དག་ཐམས་ཅད་ཟད་པར་འགྱུར། །དེ་སྐད་ཡང་དག་བསྟན་བྱས་ནས། །ཀུ་ཤ་བཏིང་བར་ཉལ་དུ་གཞུག །མཚན་མོ་མཐོང་བ་གང་དེ་ཀུན། །བདག་ལ་སྨྲོས་ཤིག་ཅེས་བསྟན་བྱ། །ནང་པར་དགེ་མི་དགེ་ཐོས་
+> > ནས། །དགེ་བ་སླར་ཡང་སྤེལ་བར་བྱ། །མི་དགེ་དགེ་ནི་རྨི་ལམ་བདག །མེད་པའི་གཏམ་གྱིས་རྣམ་པར་སྦྱང་། །སློབ་མ་ལྷག་པར་གནས་པའི་ཆོ་གའོ།།
+
+Klu'i byang chub (Nāgabodhi), the Guhyasamāja mandala rite in twenty parts (Derge Tengyur, BDRC etext volume VE23703_1351, the etext's own pages [p273]–[p274]; the same text as nbv:p273-274, read here in the Derge etext itself). The line break in q1063 stands at the end of the line: «རྨི་ལམ་བདག །» and the next line begins «མེད་པའི་གཏམ་གྱིས»; so «བདག་མེད་པའི་གཏམ» ("talk of selflessness") is split across the line end.
+
+Rendered: "Having seen the sacred mandala, in a million unending aeons whatever sin was done before, all that will be exhausted. Having shown this, have them lie down on spread kusha. 'All that you see in the night, tell it to me', let them be told. At dawn, having heard the virtuous and the non-virtuous, let the virtuous be increased again; the non-virtuous (and) the virtuous (…) dream: purify by the talk of selflessness. This is the rite of the pupil's staying."
+
+A parallel that settles the grammar: Padma dkar po (the fourth 'Brug chen, 1527–1592), in his Guhyasamāja mandala rite (BDRC MW10736, etext volume VE10736_016, etext p. [p43]), puts the same sentence in prose after the same verses: «ནས་ཀུ་ཤ་ཆེ་བ་སྟན། ཆུང་བ་སྔས་སུ་གྱིས་ལ་ཉོལ་ལ་རྨི་ལམ་ལེགས་ཉེས་གང་བྱུང་བ་དེ་ང་ལ་སྨོས་ཤིག་ཅེས་བརྗོད། ནང་པར་དྲིས་ལ་ངན་ན་བདག་མེད་པའི་གཏམ་གྱིས་སྦྱང་བར་བྱའོ།» — "then, the large kusha as the seat, the small as the pillow, they lie down; 'whatever dream, good or bad, appears, tell it to me', he says. At dawn, he asks; if it is bad, it is to be purified by the talk of selflessness." Tsong kha pa's Sngags rim chen mo (BDRC search snippet of MW3PD188; snr:p367-371) says: Klu byang "explained that the purifying is by thinking on the meaning of selflessness" (བདག་མེད་པའི་དོན་བསམས་ནས་སྦྱང་བར་བཤད).
+
+State: etext (Derge and the Padma dkar po volume, good quality); the page images were not read.
+
 ## <a id="svo-i288"></a>svo:i288 The Derge Kanjur catalogue (etext p. 288): Vajrapāṇi's Seeing of dreams, without translation record (RD381)
 
 *Read: etext, 2026-11-10.*
@@ -1472,6 +1493,39 @@ Rendered from the etext: With the mantra of Buddha-maitri-vajra "the first" (the
 
 What it says of time: the dream is the night's dream, told at dawn; no watch of the night, no lunar day and no list of images. Its remedy for a bad dream is the guarding and the pacifying fire. State: etext (Derge page markers; the page images were not read).
 
+## <a id="svo-i308-309"></a>svo:i308-309 The Turning back of the bad dream (Derge Tengyur, etext volume VE23703_1389, pp. 308–309): the whole rite, the colophon title with ལྟ་བ, the text with ལྟས (RD395, q1090)
+
+*Read: etext, 2026-11-11.*
+
+> > [p308]
+> > བཅོམ་ལྡན་འདས་སྤྱན་རས་གཟིགས་རལ་གྲི་འབར་བ་ལ་ཕྱག་འཚལ་ལོ། ། མི་གང་གཉིད་ཀྱིས་ལོག་པ་ན། །མ་འོངས་བཀྲ་ཤིས་མིན་པ་ཡི། །ལྟས་གང་བྱུང་བར་གྱུར་པ་དེ། །དགའ་བའི་ལྟས་ བསྟན་མཐོང་བར་འགྱུར། །འདི་ལ་བཙུན་པ་སྤྱན་རས་གཟིགས། །དད་པ་ཐོབ་པ་དཀའ་ཐུབ་ཅན། །བརྩེ་ལྡན་དབང་པོ་དུལ་བ་ཡིས། །བཟློག་པའི་ཆོ་ག་གསུངས་པ་ཡིན། །ཉི་མ་འཆར་ཀའི་འོད་འཕྲོ་ཚེ། །གསོ་སྦྱོང་ཡན་ལག་ལ་གནས་པས། །ཤར་དུ་ཁ་བལྟས་གོས་བཟང་གྱོན། །གདོང་བཀྲུས་ མེ་ཏོག་ཕྲེང་བས་བརྒྱན། །གསུམ་ལ་སྐྱབས་སོང་བརྩེ་ཆེན་གྱིས། །སྣ་ཚོགས་མཆོད་རྫས་ལེགས་བཤམས་ལ། །སྤྱན་རས་གཟིགས་ཀྱི་སྐུ་གཟུགས་ཤིག །མདུན་དུ་བདར་ཏེ་སྡིག་པ་བསལ། །སྐད་ཅིག་ཆོ་གས་ལྷ་མཆོག་གི། །རྣལ་འབྱོར་བྱས་ལ་དེ་ཡི་སྐུ། །ཞལ་བརྒྱ་ཕྱག་སྤྱན་སྟོང་ལྡན་དང་། །
+> > 
+> > [p309]
+> > འོད་ཕྲེང་དཀར་པོ་ལས་གྲུབ་པའི། །རྡོ་རྗེ་རལ་གྲི་བེ་ཅོན་དང་། །དགྲ་སྟ་ལྕགས་ཀྱུ་ཁ་ཊྭཱཾ་ག །རྡོ་རྗེ་དབྱིག་པ་རྡོ་རྗེ་ཞགས། །འདི་བརྒྱད་རེ་རེ་ལས་ཀྱང་སྟོང་། །སྤྲུལ་པས་ཁོར་ཡུག་བསྐོར་བར་བལྟ། །འཁོར་ལོ་རྣམ་གསུམ་བཟླས་པ་ཡིས། །བཅད་དང་གཏུབ་དང་བསྲེག་པ་ནི། ། ལྟས་ངན་རྣམ་པར་བཤིག་པར་བྱེད། །སྣ་ཚོགས་མཆོད་པ་སྔོན་འགྲོ་བས། །གཏོར་མ་སྟོང་ནི་རབ་ཏུ་སྦྱིན། །དེ་ལ་སྔགས་ནི་འདི་ཡིན་ཏེ། །ངག་བསྡམས་པ་ཡི་རྒྱུན་ཆགས་སོ། །ཨོཾ་ཨཱཿམ་ཧཱ་ཏ་ཐཱ་ག་ཏ་ཨཥྚ་ས་ཧ་མ་ཧཱ་ལོ་ཀེ་ཤྭ་ར་ས་པ་རི་ཝཱ་ར་བ་ལིཾ་ཏ་པཱུ་ཛ་མེ་གྷ་ས་མུ་དྲ་སྥ་ར་ཎ་ཧཱུཾ་ཧཱུཾ་ལན་ གསུམ་གསུམ་གྱིས་སོ། །མཐར་ནི་འདིའོ། །མ་མ་ཀུ་ཊེཥྚི་ཀུ་ཀརྨྨ་སརྦ་རྦད་ཏྲ་སརྦ་ཐ་ཤ་ན་ཀ་རཱ་ཕཊ། ཨ་ཀ་རུ་ཡིས་ལེགས་བདུག་ཅིང་། །ལྷ་མཆོག་མདུན་དུ་རྣམ་བསམས་པས། །མི་འཇིགས་སྦྱིན་པའི་སྒྲ་ཕྱུང་སྟེ། །མཁའ་ལ་གཞའ་ལྟར་ཞི་བར་བསམས། །སྡིག་པ་དང་ནི་ བཀྲ་ཤིས་མིན། །དགྲ་དང་གདོན་ཀུན་རབ་འཇིག་པ། །ཆོ་གའི་རྒྱལ་པོ་ཡེ་ཤེས་མཆོག །སྤྱན་རས་གཟིགས་ཀྱི་བརྟག་པའོ། །རྨི་ལམ་གྱི་ལྟ་བ་ངན་པ་རྣམ་པར་བཟློག་པ་རྫོགས་སོ།།
+
+Derge Tengyur (BDRC etext volume VE23703_1389; the etext's own page numbers [p308]–[p309]; the page marker [p308] stands twice, the verses of the opening printed twice by the etext, once here), the whole of a short Avalokiteśvara rite; the colophon title is «The Turning back of the bad dream» (རྨི་ལམ་གྱི་ལྟ་བ་ངན་པ་རྣམ་པར་བཟློག་པ). The Derge catalogue ascribes the run of Avalokiteśvara sādhanas to which it belongs to Ajitamitragupta (svo:i816-817). The same rite, in the Dpe bsdur ma's print, is svo:i631-632.
+
+Rendered: Homage to the Lord Avalokiteśvara, Blazing Sword. "When a person sleeps and whatever sign (ལྟས) of the inauspicious future appears, the showing of the sign of joy (དགའ་བའི་ལྟས་བསྟན) is seen." On this the venerable Avalokiteśvara, he who has won faith, austere, loving, with senses tamed, taught the rite of turning back. At the glow of the dawn's light (ཉི་མ་འཆར་ཀའི་འོད་འཕྲོ་ཚེ), keeping the limbs of the fast, facing the east, in good clothes, the face washed, adorned with a garland of flowers; having taken refuge in the Three with great compassion and set out the offerings, set an image of Avalokiteśvara before one and clear away sins; by the instant rite make the yoga of the supreme god: a hundred faces, a thousand hands and eyes, made of white garlands of light, the vajra, sword, the «བེ་ཅོན», the «དགྲ་སྟ» (axe), the hook, the khaṭvāṅga, the vajra-staff, the noose, each of these eight a thousand; see the surrounding circle made of emanations. By reciting the three wheels, "the cutting, the stabbing and the burning, it destroys the bad omens (ལྟས་ངན་རྣམ་པར་བཤིག་པར་བྱེད)". With many offerings first, give a thousand tormas; the mantra: Oṃ āḥ mahā-tathāgata-aṣṭa-sahasra-mahā-lokeśvara-saparivāra-baliṃta-pūja-megha-samudra-spharaṇa hūṃ hūṃ, three times three; at the end: mama kuṭeṣṭi-kukarma sarva-… phaṭ. Fumigate well with agaru; imagine the supreme god before one; utter the sound of the giving of fearlessness; think that (the sign) is calmed like a rainbow in the sky. "Sin and the inauspicious, enemies and spirits (གདོན) all it destroys: the king of rites, the supreme wisdom, Avalokiteśvara's examination (བརྟག་པ)." Colophon: «རྨི་ལམ་གྱི་ལྟ་བ་ངན་པ་རྣམ་པར་བཟློག་པ་རྫོགས་སོ».
+
+For q1090: the title spells ལྟ་བ ("view") in the colophon of the Derge, as in the contents of the Dpe bsdur ma (etext p. 28), Narthang's catalogue entry on BDRC (MW2KG5015_2406, "rmi lam gyi lta ba ngan pa rnam par bzlog pa"), the Derge catalogue and Phur lcog's («ལྟ་བ་ལོག་པ»); the text itself spells the signs it turns back ལྟས ("sign", ལྟས་གང་བྱུང་, ལྟས་ངན). In the same Derge volume a neighbouring Avalokiteśvara rite (p. 353) says of the god that he destroys «ལྟས་ངན་པ་ཐམས་ཅད» (all the bad omens) and the verses of p. 317 name «འཆི་ལྟས་» and «ལྟས་ངན», the bad signs of death and misfortune.
+
+State: etext (Derge, good quality); the page images were not read.
+
+## <a id="svo-i329-330"></a>svo:i329-330 The Showing of dreams (Derge Tengyur, etext volume VE23703_1389, p. 330): དུས་དྲུག་གཟིགས, the god looks on the six times, and the dawn showing (RD395, q1091)
+
+*Read: etext, 2026-11-11.*
+
+> > [p330]
+> > དེ་ནས་ལྷག་པའི་ལྷ་དྲན་པས། །སྡིག་ལ་སོགས་པ་བསལ་ནས་ནི། །འཕགས་པའི་ཞབས་ལ་མགོ་གཏུགས་ལ། །སྣང་བ་གསལ་པོས་སྙོམས་པར་འཇུག །སངས་རྒྱས་སྲས་པོ་ཐུགས་རྗེ་ཅན། །ཀུན་མཁྱེན་ལུས་ཅན་ཀུན་དོན་བསྒྲུབ། །འོད་ལྡན་ཡུལ་ལ་རྟགས་ སྐུགས་ལྟར། །དུས་དྲུག་གཟིགས་དེས་མཁྱེན་པ་འཇུག །ཐོ་རངས་དགེ་སློང་དཀར་པོ་དང་། །པདྨོའི་རྟགས་ཅན་བུད་མེད་ཀྱིས། །འདོད་པའི་དོན་གང་ཡོད་པ་དེ། །མེ་ལོང་ནང་གི་གཟུགས་ལྟར་སྟོན། །རྨི་ལམ་སྟོན་པ་རྫོགས་སོ།།
+
+Derge Tengyur (VE23703_1389), the end of «The Showing of dreams» (རྨི་ལམ་སྟོན་པ), a short Avalokiteśvara sādhana in the same run; the etext prints the beginning of the verses twice and only the end is given here. Etext p. [p330] (the page marker before the lines is [p330]; the first lines of the sādhana, the mantra and the fast of three, two or one days stand on p. 329, svo:i660-661 for the Dpe bsdur ma).
+
+Rendered: "Then, remembering the chosen god (ལྷག་པའི་ལྷ), having cleared away sins and the rest, bowing the head at the feet of the Noble One, enter equipoise with clear appearance. The Buddha's son, the compassionate, the omniscient who works the aims of all embodied beings, the one with light — like a sign-fire (rtags skugs?) in a land — looks on the six times (དུས་དྲུག་གཟིགས) and with that knowledge enters. At dawn (ཐོ་རངས) a white monk and a woman bearing the lotus sign show whatever matter is wished, like a form within a mirror. The Showing of dreams is complete."
+
+The Derge has «དུས་དྲུག་གཟིགས་དེས་མཁྱེན་པ་འཇུག»; the Dpe bsdur ma prints the same line (svo:i660-661, the OCR doubling the text); the word «རྟགས་སྐུགས» of the third line is not understood ("sign" and "mark-fire"?). No other source was found that says how often in a night the god looks.
+
+State: etext (Derge, good quality); the page images were not read.
+
 ## <a id="svo-p378"></a>svo:p378 The Mahākāla tantra commentary of Dpal rta dbyangs (Derge vol. 28, pp. 377–378): the dream examined «at the end of the sky» among the preliminaries of the mandala, before the cord-line (RD386)
 
 *Read: etext, 2026-11-10.*
@@ -1484,6 +1538,107 @@ Rendered from the etext: Then, to lift the disciple's mind, the Dharma is to be 
 
 What it says of time: none. The dream is one step of the preliminaries, before the offering to the prepared mandala and the cord-line; no night of the month, no part of the night, no list of images, no remedy and no meaning of a good or a bad dream. «ནམ་མཁའི་མཐར» is "at the end of the sky" word by word; whether it names a time (the end of the night's sky, the dawn) or a place, or is a figure for the meditation, the etext does not say and the rendering leaves it. The agent of "is given the ten-letter [mantra] to recite" is not settled by the words either (the teacher gives it to the best of the disciples, or it is given for him to recite). State: etext (Derge page markers; no scan read).
 
+## <a id="svo-p378b"></a>svo:p378b ནམ་མཁའི་མཐར in the Derge Tengyur vol. 28 and in the Dpe bsdur ma: the other uses are spatial, the line of p. 378 is not settled (RD395, q1102)
+
+*Read: etext, 2026-11-11.*
+
+> > [p108]
+> > …ཟླ་འོད་དཀར་མཛེས་ཏཱཾ་ལས་ཕྱོགས་བཅུ་ནམ་མཁའི་མཐར། །ཤིན་ཏུ་རྣོ་བའི་འོད་ཟེར་ཆེན་པོས་ཁམས་གསུམ་གྱི། །མུན་པའི་ཚོགས་བཅོམ…
+> > [p274]
+> > …སྣ་ཚོགས་ཆུ་སྐྱེས་རྡོ་རྗེའི་དབུས་གནས་པ། །ནམ་མཁའི་མཐར་ཐུག་པ་ཡི་གཟུགས་ཅན་ནོ།…
+> > [p326]
+> > …དེ་བཞིན་གཤེགས་པའི་སྟོབས་ནམ་མཁའི་མཐའ་དང་མཉམ་པ་ལ་དེའི་སྟོབས་ནི་རྩ་རྡུལ་གྱི་རྡུལ་ཙམ་ཡང་མི་ཕོད་དོ།…
+> > [p378]
+> > …དེ་ནས་དགའ་བའི་སེམས་ཀྱིས་ནི། །ནམ་མཁའི་མཐར་ནི་རྨི་ལམ་བརྟགས། །དེ་ལྟར་སྟ་གོན་བྱས་ནས་ནི། །…
+
+The phrase «ནམ་མཁའི་མཐར» ("at the end of the sky/space") in the Derge Tengyur vol. 28 (VE23703_1344), where it stands three times (pp. 108, 274, 378; the last is the line of q1102) and, as «ནམ་མཁའི་མཐའ», twice more (pp. 326, 541). The Dpe bsdur ma's print of the Mahākāla commentary (VEIE0OPIA3E40644_I1PD95859, etext p. [p1507]) has the same line, «ནམ་མཁའི་་་མཐར་ནི་རྨི་ལམ་བརྟགས» with the OCR's marks; it gives no variant reading.
+
+Rendered: p. 108, in a work before the Tārā rite of pp. 140–141: "from the moon-light of the white beauty, from Tāṃ, the ten directions, to the end of the sky" (ཕྱོགས་བཅུ་ནམ་མཁའི་མཐར, of the light rays going out). p. 274, in another work: "[the lotus] standing in the middle of the many-coloured water-born vajra, the form that reaches to the end of the sky" (ནམ་མཁའི་མཐར་ཐུག་པ་ཡི་གཟུགས་ཅན). p. 326, in the Mahākāla commentary (a sūtra passage addressed to a monk: "do not be proud"): "the Tathāgata's strength is equal to the edge of the sky" (ནམ་མཁའི་མཐའ་དང་མཉམ་པ), which is the usual image of the boundless. p. 378: "Then, with joyful mind, at the end of the sky the dream is examined (ནམ་མཁའི་མཐར་ནི་རྨི་ལམ་བརྟགས); when the preparation is so done, the vajra master offers the mandala that has been prepared, offering and torma."
+
+The other uses are spatial (the far edge, the boundless); the commentary's line stands between the disciple's receipt of the ten-syllable mantra for recitation and the preparation of the mandala, and does not say whether the "end of the sky" is the horizon of dawn, a place in the visualisation or the close of a meditation on space. The dictionaries have «nam mkha'i mtha'» only as "limitless space" (Valby, Barron).
+
+State: etext (Derge and Dpe bsdur ma, good quality); the page images were not read.
+
+## <a id="svo-p395a"></a>svo:p395a The verb གདོན་པ in the lexica: the future of འདོན་པ, to recite; the Bodhicaryāvatāra's «phung po gsum pa gdon bya zhing» (RD395, q1089)
+
+*Read: etext, 2026-11-11.*
+
+> > Hopkins (Steinert 1): 'don pa | cause to come out; expel; recite; take out. gdon | verb: cause to come out; expel; recite; take out; noun: evil spirit causing disease.
+> > Rangjung Yeshe (Steinert 2): 'don pa | {'don pa, bton pa, gdon pa, thon} trans. v.; 1) to chant, recite, utter, lament, 2) to pull out; bring out, take out, … gdon pa | prayer, to say prayers; harmful; ft. of {'don pa}.
+> > Ives Waldo (Steinert 8): gdon pa | [future: 'don pa] harmful, pray[er], supplication.
+> > Tshig mdzod chen mo (Steinert 25) and Bod yig tshig gter rgya mtsho (Steinert 62): gdon pa | {'don pa'i ma 'ongs pa/} ("the future of 'don pa"). 'don pa | … 3) {kha ton byed pa/ chos 'don pa/ sngags 'don pa/ dpe cha bton pa/} ("to learn by heart; to recite the Dharma; to recite mantras; to read from a book").
+> > Brda dkrol gser gyi me long (Steinert 55): gdon pa | {'don pa'i brda rnying ste/} "the old word for 'don pa", with two quotations from the Vinaya commentaries (so sor thar pa'i mdo gdon pa, "to recite the Prātimokṣa sūtra").
+> > Negi, Tibetan–Sanskrit dictionary (Steinert 50): gdon pa | • kri. ({'don pa} ityasyāḥ bhavi.) utpāṭayet … niṣkrāmayet … • saṃ. 1. = {klog pa} pāṭhaḥ — {gzungs gdon pa'i man ngag} dhāraṇīpāṭhopadeśaḥ ka.ta.3236; bhāṣaṇam — {tshigs su bcad pa gdon par} gāthābhāṣaṇe vi.sū.60ka/76; pravartanam — {phung po gsum pa gdon pa'i skabs su} triskandhapravartanaprastāve bo.pa.69ka/36; …
+> > Negi: gdon par bya | • kri. pravartayet — {nyin dang mtshan mo lan gsum du/} /{phung po gsum pa gdon bya zhing //} rātriṃdivaṃ ca triskandhaṃ triṣkālaṃ ca pravartayet bo.a.14ka/5.98; • kṛ. 1. paṭhitavyam — {'di ltar gdon par bya ste} evaṃ tu paṭhitavyam ta.pa.160kha/774; {zhes gdon par bya'o//} iti paṭhitavyam pra.pa.39ka/44 …
+
+The word «གདོན» in the lexica, for q1089. As a noun it is the harmful spirit (gdon, graha); as a verb it is the future of «འདོན་པ» ('don pa), "to recite, read aloud", and the lexica say so, from the Tshig mdzod chen mo ("the future of 'don pa") to Negi, who gives the Sanskrit: gdon pa as "recitation" (pāṭha, bhāṣaṇa, pravartana), and, with the same words as the sūtra's formula, «nyin dang mtshan mo lan gsum du / phung po gsum pa gdon bya zhing» = rātriṃdivaṃ ca triskandhaṃ triṣkālaṃ ca pravartayet (Negi's reference bo.a.14ka/5.98, a verse of the Bodhicaryāvatāra: "by day and night, three times, recite the Three Heaps"; the Sanskrit triskandha is what Negi sets against «phung po gsum pa»). The sūtra's «ཕུང་པོ་གསུམ་པའི་ཆོས་ཀྱི་རྣམ་གྲངས» is the same Three Heaps, as a Dharma-teaching to be recited three times by day and three by night.
+
+State: etext (the lexica of Steinert's collection, the Negi entry quoted from its text).
+
+## <a id="svo-p395b"></a>svo:p395b ལྟ་བ་ངན་པ and ལྟས་ངན in the lexica: bad view and bad omen (RD395, q1090)
+
+*Read: etext, 2026-11-11.*
+
+> > Hopkins (Steinert 1): lta ba ngan pa | bad view. ltas | directed; sign; omen.
+> > Rangjung Yeshe (Steinert 2): lta ba ngan pa | unwholesome views. lta ngan | perverted views. ltas | … 3) sign, prognostic, omen, miraculous sign, miracle, prodigy. ltas ngan | 1) negative omen; bad omen. 2) excl of dismay.
+> > Valby (Steinert 7): ltas ngan | evil signs, bad omen, inauspicious, ominous, bad sign, ominous sign, ill-omen.
+> > Mahāvyutpatti (Steinert 21): lta ba ngan pa | kudṛṣṭiḥ. Hopkins–Sanskrit (Steinert 15): lta ba ngan pa | [MSA] kudṛṣṭi; ltas | [LCH] nimitta. Yogācārabhūmi glossary (Steinert 22): ltas | nimitta; lta ba ngan pa | ku-dṛṣṭi, a-sad-dṛṣṭi.
+> > Tshig mdzod chen mo (Steinert 25): lta ngan | {lta ba ngan pa ste/ dngos po'i gnas tshul dang mi mthun pa'i lta lugs ngan pa/} ("a bad view: a view not in accord with how things are"). ltas | {'byung 'gyur gyi rtags mtshan nam mtshan ma/ ltas ngan/ ltas bzang/ snga ltas/} ("a sign or mark of what will come: bad omen, good omen, forerunner").
+> > Negi (Steinert 50): lta ba ngan pa | = {lta ngan} kudṛṣṭiḥ, kutsitā dṛṣṭiḥ — … kudṛṣṭīnām … ta.pa.292kha/1048; ltas ngan | aniṣṭam, apaśakunam — {ltas ngan mtshan ma ngan pa smin pa yang /} apyaniṣṭanivedināṃ (? apyaniṣṭānāma) nimittānāṃ … jā.mā.57kha/67; durnimittam — {ltas ngan lta bu'i mi bsrun pas/} durnimittairiva khalaiḥ …
+
+The words for q1090, from the lexica of Steinert's collection. «ལྟ་བ་ངན་པ» (lta ba ngan pa) is a fixed term of the doctrinal vocabulary, "bad view", kudṛṣṭi (Mahāvyutpatti, Negi, Hopkins), the false view of self and the like; «ལྟས» (ltas) is the sign, the omen (nimitta), and «ལྟས་ངན» (ltas ngan) the bad omen (durnimitta, apaśakuna, aniṣṭa in Negi's examples, from the Jātakamālā). The Tshig mdzod chen mo itself keeps the two apart: a bad view is a view that does not agree with the way things are, a bad omen a sign of what will come.
+
+State: etext (the lexica).
+
+## <a id="svo-p395c"></a>svo:p395c དུས་དྲུག in the lexica: three times by day and three by night, or the six seasons (RD395, q1091)
+
+*Read: etext, 2026-11-11.*
+
+> > Rangjung Yeshe (Steinert 2): thun drug | six periods. The six periods of day and night. Khenpo Könchok Mönlam says that it was the Indian tradition to do six sessions within a 24 hour duration …; Tsikey Chokling Rinpoche says that they mean three during the day and three during the night. dus gsum | the three times [of past, present and future].
+> > Ives Waldo (Steinert 8): dus drug | 1) three times each day and night; 2) the six seasons [spring, rains, summer, autumn, winter, late winter]. nyin mtshan dus drug | the six sessions of day and night.
+> > Dan Martin (Steinert 9), quoting a Tibetan lexicon: dus drug | dpyid / so ga / dbyar / ston / dgun stod / dgun smad rnams so. nyin mtshan dus drug ni / snga dro / nyin gung / phyi dro / srod / nam gung / tho rangs te drug go. (The six seasons; "the six times of day and night are the forenoon, midday, afternoon, evening, midnight, dawn".)
+> > Tshig mdzod chen mo (Steinert 25), Bod yig tshig gter rgya mtsho (62), Bod rgya nang don rig pa'i tshig mdzod (54): dus drug | 1) {nyin lan gsum/ mtshan lan gsum ste drug} 2) {dpyid/ sos ka/ dbyar/ ston/ dgun/ dgun smad bcas drug}.
+> > Dung dkar tshig mdzod chen mo (Steinert 34): nyin mtshan dus drug | {snga dro/ nyin gung/ phyi dro ste nyin mo'i thun gsum dang/ srod/ nam gung/ tho rangs te mtshan mo'i thun gsum bcas drug go}.
+> > Sgom sde tshig mdzod chen mo (Steinert 58): dus drug | 1. {nyin mtshan dus drug dang 'dra/ nyin mtshan dus drug la gzigs/} ("like the six times of day and night; to look [upon beings] at the six times of day and night") 2. the six seasons. nyin mtshan dus drug | ({'dul ba}) {nyin lan gsum ni/ snga dro/ gung / phyi dro ste gsum dang / mtshan lan gsum ni/ srod/ nam gung / tho rangs te gsum ste drug go/}.
+
+For q1091. «དུས་དྲུག» has two meanings in the lexica: the six seasons (spring, rains, summer, autumn, winter, late winter) and the six times, three of the day and three of the night (nyin lan gsum, mtshan lan gsum). Of the second the lexica spell out the parts: the forenoon, midday, afternoon of the day, the evening, midnight, dawn of the night (Dung dkar; Dan Martin's quotation); the Sgom sde tshig mdzod chen mo, a dictionary of meditation terms, glosses «nyin mtshan dus drug la gzigs» ("to look at the six times of day and night") as the use of the word in the phrase that fits the sādhana's line: the god who "looks" at beings at the six times of day and night. The phrase «ཉིན་ལན་གསུམ་མཚན་ལན་གསུམ» of the Kanjur sūtra (svo:i417b) is the same six times, in the count of three and three.
+
+State: etext (the lexica of Steinert's collection).
+
+## <a id="svo-p395d"></a>svo:p395d རྨི་ལམ་གྱི་ཟླ་བ in the lexica: the Pleiades month, Smin drug (RD395, q1035)
+
+*Read: etext, 2026-11-11.*
+
+> > «མགོ་རྒྱལ་མཆུ་གསུམ་དང་། དབོ་ནག་པ་ས་གསུམ་དང་། སྣྲོན་ཆུ་སྟོད་གྲོ་ཞུན་གསུམ་དང་། ཁྲུམས་ཐ་སྐར་སྨིན་དྲུག་གསུམ་ཏེ་བཅུ་གཉིས་སོ།།» (etext VE1ALS00989E p. [p38], the first of the lists of twelve month names in Khal kha Ngag dbang dpal ldan's Dus tshigs commentary; the same page's tantric list, ending «འཚོ་བ་དང་། རྨི་ལམ་གྱི་ཟླ་བ་སྟེ་བཅུ་གཉིས་ལ་སོགས་པའོ།།», is dds.10:p38.)
+> >
+> > Tshig mdzod chen mo (Steinert 25) and Bod yig tshig gter rgya mtsho (Steinert 62): rmi lam gyi zla ba | {(mngon) smin drug zla ba ste hor zla bcu pa/} ("(a synonym-list word, mngon) the Pleiades month, the tenth Hor month"). smin drug zla ba | {hor zla dgu ba'i tshes bcu drug nas bcu pa'i bco lnga'i bar la smin drug zla ba zer/} ("from the sixteenth of the ninth Hor month to the fifteenth of the tenth, it is called the Pleiades month"); Bod yig tshig gter rgya mtsho adds {'dul ba'i lugs lhar na bod zla dgu pa'i tshes bcu drug nas bcu pa'i bco lnga'i bar …} ("in the Vinaya reckoning, from the sixteenth of the ninth Tibetan month to the fifteenth of the tenth").
+> > Rangjung Yeshe (Steinert 2): rmi lam zla ba | Syn {hor zla bcu pa} the tenth month. smin drug zla ba | the tenth month. Ives Waldo (Steinert 8): rmi lam gyi zla ba | 10th smin drug month bcu pa; smin drug zla ba | smin drug month 9th month 16th day to 10th 15th, 10th month. Tibetanlanguage.school (Steinert 68): smin drug zla ba | The 10th Tibetan month.
+
+For q1035. The first list is the ordinary twelve names of the months, ending Khrums, Tha skar, Smin drug (the Pleiades, Kṛttikā); the tantric list on the same page (dds.10:p38) has twelve names and ends «the Life and the Dream month». The large dictionaries identify the name: «རྨི་ལམ་གྱི་ཟླ་བ» is marked «མངོན» (a word of the synonym lists, the ornate vocabulary), and is the Pleiades month, the "Hor tenth" month, running from the sixteenth day of the ninth Hor (Mongol) month to the fifteenth day of the tenth; the Vinaya reckoning is the same by Tibetan months. Neither dictionary says why the Pleiades month is called "the dream month", and the Dus tshigs page gives no reason; the dictionaries count it the tenth of the Hor (Mongol-reckoning) year, the Dus tshigs list puts Smin drug twelfth, from a different first month, so the counts do not agree and are not reconciled here.
+
+State: etext (BDRC etext and lexica).
+
+## <a id="svo-p395e"></a>svo:p395e The Sanskrit of the Mañjuśrīmūlakalpa's «kriyā-kāla-» line and the Mahāvyutpatti's rim pa = krama: krama is the likelier word (RD395, q1048, q1032)
+
+*Read: machine, 2026-11-11.*
+
+> > Mañjuśrīmūlakalpa, Gaṇapati Śāstrī's edition (Trivandrum 1920, part 1; the Internet Archive text layer in.ernet.dli.2015.345315, Devanagari OCR, line 5724 of its text file, the lines of mmk.2:p147-149; the OCR is garbled and is given as the layer has it, with the reading in Roman after it):
+> > तस्माद्‌ सवरेभकारेण खप्नाख्यं सखवितपू ।
+> > क्रियाकालसमशरैव निरदिष्टस्तखद्भिमिः ॥
+> > tasmād sarva-prakāreṇa svapnākhyaṃ sa[ṃvarjitam?] / kriyā-kāla-[krama? sama?]ś caiva nirdiṣṭas tattva-darśibhiḥ
+> >
+> > Later in the same edition, the chapter on the signs of the time (the layer's page head «द्वाविंशतितमः पटलविसरः । २४१», chapter 22, p. 241), in the layer's line 9157:
+> > एष कालक्रमो योगे आवे वेव योजयेत्‌ ।
+> > eṣa kāla-kramo yoge … yojayet
+> >
+> > Lexica for the Tibetan words: Mahāvyutpatti (Steinert 21) rim pa | kramaḥ. Yogācārabhūmi glossary (Steinert 22) rim pa | krama; mnyam pa | sama; tulya; samatā … Hopkins–Sanskrit (Steinert 15) rim pa | [LCh, MSA] krama; [C] anukrama; mnyam pa | [LCh, C, MV, MSA] sama; spangs pa | [LCh, C, MSA, MV] prahāṇa; … [C, MSA, MV] varjita; … Negi (Steinert 50) rim pa | 1. = {go rims} kramaḥ — {rim dang cig car 'jug pa yis/} yugapatkramavṛttibhyām … ta.sa.64ka/602; mnyam pa | samaḥ — … bo.a.9.95; spangs pa | varjyate — {'di 'dra spangs te mkhas rnams kyis/} īdṛśaṃ varjyate sadbhiḥ … kā.ā.324ka/2.56.
+
+For q1048 and q1032. The Sanskrit of the lines «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད། དེ་ཉིད་གཟིགས་པས་བསྟན་པ་ཡིན» (Toh 543, mmk.1:p400-401) is in the Gaṇapati Śāstrī edition in the Internet Archive's text layer (machine; the Devanagari is garbled): «tasmāt sarva-prakāreṇa svapnākhyaṃ [saṃvarjitam?] / kriyā-kāla-[?]ś caiva nirdiṣṭas tattva-darśibhiḥ» — "therefore in every way the dream-named is set aside; and the act, the time and [the order/the equal] were pointed out by the seers of what is so". The garbled word is «समश्» in the layer: «क्रमश्» (kramaś) with the letter क्र read as स, or «समश्» (samaś). The Tibetan renders it with «རིམ་པ» (rim pa), which is krama in the Mahāvyutpatti, the Yogācārabhūmi glossary, Hopkins and Negi; sama is «མཉམ་པ» (mnyam pa) (mnyam pa). In the same edition's chapter on times (the layer's «द्वाविंशतितमः पटलविसरः», p. 241) there is the line «eṣa kāla-kramo yoge» ("this is the order of the times in the practice"), the same compound kāla-krama.
+
+The word «སྤངས» is varjita, parivarjita or prahīṇa in the lexica ("abandoned, set aside"); the Sanskrit's OCR «सखवितपू» is compatible with «saṃvarjitam».
+
+State: machine (the Internet Archive's OCR layer of the Sanskrit; the page image was not read) for the Sanskrit, etext for the Tibetan, the lexica as quoted.
+
 ## <a id="svo-i409"></a>svo:i409 Bu ston's Chos 'byung (ACIP etext p. 409): the Examination of Dreams, Vibhūticandra's own translation (RD359)
 
 *Read: etext, 2026-11-10.*
@@ -1491,6 +1646,23 @@ What it says of time: none. The dream is one step of the preliminaries, before t
 > > …དཔལ་ཀམ་པ་ལའི་ཡུམ་གྱིས་མཛད་པའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི་སྒྲོན་མ། རྨི་ལམ་བརྟག་པ་བི་བྷུ་ཏི་ཙནྡྲའི་རང་འགྱུར། སློབ་དཔོན་ཆོས་ཀྱི་དབང་པོས་མཛད་པའི་དེ་ཁོ་ན་ཉིད་ཀྱི་སྙིང་པོ་བསྡུས་པ་རིན་ཆེན་བཟང་པོའི་འགྱུར།
 
 Bu ston's *Chos 'byung* (ACIP etext VE1ALS12060E, etext p. 409, read again here): "…the Lamp that makes Reality clear, made by Dpal kam pa la's wife; the Examination of Dreams, Vibhūticandra's own translation; the Summary of the Essence of Reality made by the teacher Chos kyi dbang po, translated by Rin chen bzang po…". A second «rmi lam brtag pa» stands on p. 373, in the run of Advayavajra's works. Neither gives an author for the first. State: etext.
+
+## <a id="svo-i417b"></a>svo:i417b The Showing of Dreams sūtra (Derge Kanjur Toh 48, etext p. 417): the remedy by stage is a recitation of the Three Heaps, three times by day and three by night, for seven years down to one (RD395, q1089)
+
+*Read: etext, 2026-11-11.*
+
+> > [p417]
+> > དེའི་ཚེ་དེ་ས་དང་པོ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་སྦྱང་བའི་ཕྱིར་ལོ་བདུན་ཏུ་ཕུང་པོ་གསུམ་པའི་ཆོས་ཀྱི་རྣམ་གྲངས་ཉིན་ལན་
+> > གསུམ་མཚན་ལན་གསུམ་གདོན་པར་བྱའོ། །ཇི་སྟེ་ས་གཉིས་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོ་དྲུག་ཏུ་གདོན་པར་བྱའོ། །ཇི་སྟེ་ས་གསུམ་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོ་ལྔར་གདོན་པར་བྱའོ། །ཇི་སྟེ་ས་བཞི་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོ་བཞིར་གདོན་པར་བྱའོ། །
+> > ཇི་སྟེ་ས་ལྔ་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོ་གསུམ་དུ་གདོན་པར་བྱའོ། །ཇི་སྟེ་ས་དྲུག་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོ་གཉིས་སུ་གདོན་པར་བྱའོ། །ཇི་སྟེ་ས་བདུན་པ་ལ་གནས་པ་ཞིག་ཡིན་ན་ནི་དེས་ལོར་གདོན་པར་བྱའོ། །
+
+Derge Kanjur (BDRC MW4CZ5369, etext volume VE4CZ5369_I1KG9165, the Ratnakūṭa volume), Toh 48 «The Showing of Dreams» (Ārya-svapna-nirdeśa-nāma-mahāyāna-sūtra), the whole of the stage-by-stage remedy of etext p. 417 (the page begins in the remedy of the dream of the Tathāgata who does not speak, which ends «that person is to be taken as on any one of the first seven stages»; the lines below follow it directly):
+
+"At that time, if he is one standing on the first stage, then to purify it he is to recite (གདོན་པར་བྱའོ) the Dharma-teaching of the Three Heaps (ཕུང་པོ་གསུམ་པའི་ཆོས་ཀྱི་རྣམ་གྲངས, phung po gsum pa'i chos kyi rnam grangs) three times by day and three times by night for seven years. If he stands on the second stage, he is to recite it for six years. On the third, for five years. On the fourth, for four years. On the fifth, for three years. On the sixth, for two years. On the seventh, for one year."
+
+The verb is the infinitive «གདོན་པར་བྱ» in every clause; the length stands in the noun before it (ལོ་བདུན་ཏུ, ལོ་དྲུག་ཏུ, ལོ་ལྔར, ལོ་བཞིར, ལོ་གསུམ་དུ, ལོ་གཉིས་སུ, ལོར), and «three times by day and three times by night» (ཉིན་ལན་གསུམ་མཚན་ལན་གསུམ) is said once, at the first stage, for all seven. The same page goes on to the dream of the Tathāgata covered from head to foot (the person is to be taken as a beginner) and to the Tathāgata turning his face away.
+
+State: etext (good quality, BDRC); the page images were not read. The page marker is the etext's own; the first lines of the page are not repeated here.
 
 ## <a id="svo-i417-420"></a>svo:i417-420 The Showing of Dreams sūtra (Derge Kanjur Toh 48, etext pp. 409, 417–420, 441, 476, excerpts): what a bodhisattva's dreams of the Tathāgata show and what is done about each (RD381)
 
@@ -1527,6 +1699,38 @@ Derge Tengyur, etext volume VE23703_1351, p. 431, in «གསང་བ་འད�
 Rendered from the etext: "Which are the rites of the ground? First the examining (བརྟག) and the requesting (བསླང་བ), the examining whether it is given or not given (བྱིན་དང་མ་བྱིན་བརྟག་པ), the purifying, the blessing, the taking and the guarding." The first, the examining, is above and below: considering the colour, shape, size, work and marks that agree with the work; this is the examining of the ground. Then the mandala-offering and the «བྱི་དོར» (as printed, not settled) having been made, the torma is given to the gods of the mandala, the goddess of the earth and the guardians of the directions, and the work is entrusted: this is the requesting of the ground. "That night, the examining by dream (རྨི་ལམ, rmi lam), by water and by fire, and the examining by a corpse (རོ་ལ་རྟོག་པ, ro la rtog pa): this is the examining whether it was given or not."
 
 What it says of time: "that night" (དེའི་ནུབ་མོ, de'i nub mo), the night of the day of the request, for the dream about the ground; the dream is one of four ways (dream, water, fire, corpse) of knowing whether the spirits of the ground have given it; no part of the night, no list of images, no remedy here. The words «རྟོག་པ» after water, fire and corpse are rendered "examining" as the heading has «བརྟག»; their exact sense is not settled. State: etext (no scan read).
+
+## <a id="svo-i439"></a>svo:i439 A Bka' rgya ma text on children (BDRC I1PD440, etext p. 439): the line «མར་ངོའི་རྨི་ལམ་མང་དུས་སུ» in its page, among a rite with a powder, a pregnant woman's gait and a mantra (RD395, q1034)
+
+*Read: etext, 2026-11-11.*
+
+> > [p439]
+> > གསུམ་པ་ཆུ་ཁ་ཡུར་བསྒྱུར་ལ།། ལྟ་བ་བསྒྱུར་བའི་མན་ངག་ནི།། ལ་ཉེའི་བརྟག་པ་འདི་ལྟར་བྱ།། བུད་མེད་དེ་ཉིད་འགྲོ་བའི་ཚེ།། རྐང་གཡས་ སྔོན་ལ་བཏང་ནས་འགྲོ།། ལན་བདུན་མཐོར་ན་ཁྱེའུར་སྐྱེ། དེ་ལས་བཟློག་ [ལྡོག ] ན་ལྟེ་བསྒྱུར་བྱ། ཚ་བ་གསུམ་དང་འབྲས་བུ་གསུམ། མངར་གསུམ་ གཡག་ལུག་གླང་གསུམ་རློག ། ཞིབ་བཏགས་ཕྱེ་མ་སྣོད་གཙང་བླུགས།། ཁྱེའུ་ འཐུང་ནུ་ཞོ་དང་སྦྱར་ལ།། ཡུངས་ཀར་སྔགས་བཏབ་རྫས་ལ་བྲབ།། ན་མོ་རཏྣ་ ཏྲ་ཡཱ་ཡ། ཤུ་ཏྲ་ར་ཡ་ནི་ས། སུ་རོབ་ནི་ས་ཨ་ཡུ་བར་ཀྱ་འདུ། ཨ་བ་ར་མི་ཏ་ སཱཧཱ། མར་ངོའི་རྨི་ལམ་མང་དུས་སུ།། ཞག་དགུའི་བར་དུ་གཏང་བར་བྱ།། དེ་ བར་གྲང་དང་ངལ་དུབ་སྤངས། ལུས་ལ་འཁྲིས་ན་ར་ལུག་གི ། ཕོ་མཚན་སྐྱེས་ པའི་རྐེད་པར་བཅིངས།། དེ་བྱས་ཁྱེའུར་ངེས་པར་སྐྱེ།།
+
+A text whose running heads read «མན་ངག་བཀའ་རྒྱ་མ» (Man ngag bka' rgya ma) and «བྱིས་པའི་ཆུང་དཔྱད» (Byis pa'i chung dpyad, "the children's minor treatment", numbered 51) (BDRC etext volume VEIE0OPIB807CC27_I1PD440, MW00EGS1017462, etext p. [p439]; the OCR has stray spaces and marks, which are kept). The passage opens «Third» and speaks of "turning" (བསྒྱུར) something in a pregnancy; the first two items are on the previous page and were not read.
+
+Rendered: "Third: having turned the water's mouth into the channel, the instruction for turning the «view» (ལྟ་བ) is this: the examination «ལ་ཉེའི་བརྟག་པ» (the first word is not understood) is made so: when that woman goes, she sets out the right foot first; if it is raised (མཐོར) seven times, a boy is born; if the reverse, the navel is to be turned. Three hots, three fruits, three sweets, three each of yak, sheep and ox … pounded, ground fine, put in a clean vessel, mixed with «ཁྱེའུ་འཐུང་» (as the print has it), milk and curd; sprinkle the mustard with the mantra on the stuff: Namo ratnatrayāya … svāhā. «མར་ངོའི་རྨི་ལམ་མང་དུས་སུ། ཞག་དགུའི་བར་དུ་གཏང་བར་བྱ།» — at the (…) time of the waning fortnight's (…) it is to be given/let go for nine days. In that time avoid cold and fatigue; if it clings to the body, bind the male organ of a goat or sheep round the waist; having done so, a boy is born without fail."
+
+The stuff of the line before (རྫས) is the powder, so the thing "given" for nine days is probably the powder; «རྨི་ལམ» in the line is not explained by the text, and nothing in the page speaks of dreams. The other print (VEIE0OPID552C050_I1KG81094) was not fetched (the etext answered 403); the BDRC snippet of it reads «མ་དུས་». 
+
+State: etext (OCR of poor quality).
+
+## <a id="svo-p446b"></a>svo:p446b ཟློས་ཤིག in the lexica and in the Derge's rites: recite, tell again, the dream asked at early dawn (RD395, q1103)
+
+*Read: etext, 2026-11-11.*
+
+> > Rangjung Yeshe (Steinert 2): zlos | recite; imp. of {zlo ba}; repetition. zlos pa | redundant.
+> > Valby (Steinert 7): zlos pa | duplicates of texts, repeat a charm. Ives Waldo (Steinert 8): zlos | zlo ba! charm spell. zlo!, recitation, chanting. Dan Martin (Steinert 9): zlos pa | to duplicate.
+> > Mahāvyutpatti (Steinert 21): zlos pa | vīpsā (repetition). Yogācārabhūmi glossary (Steinert 22): zlos pa | ā-/ruc: ārocayati ("makes known, tells").
+> > Tshig mdzod chen mo (Steinert 25): zlos | {zlo ba'i skul tshig} (imperative of zlo ba). zlos pa | {(tha mi dad pa)} 1) {'char ba'am 'phro ba/ slar yang mi'i gzugs su zlos pa/} 2) {bskyar ldab pa/ yang zlos bskyar zlos/ nyis} ("to repeat; again, once more, twice").
+> > Verbinator (Steinert 26): zlos | Present {zlo}; past {bzlos}/{zlos}; future {bzlo}/{zlos}; imperative {zlos}. Meaning: to repeat a charm, spell.
+> > For the two words the rites set beside it: Rangjung Yeshe (Steinert 2) smros | imp. of {smra ba}; tell!; speak!. bos | imp. of {'bod pa}; call; called out; summon.
+
+For q1103. «ཟློས» (zlos) is the imperative of «ཟློ་བ» (zlo ba) "to repeat, to say again, to recite"; in the Mahāvyutpatti it is vīpsā "repetition", in the Yogācārabhūmi glossary ārocayati, "makes known, tells" (ā-√ruc), in the Tshig mdzod chen mo "to say the same again", and the old lexica add "to repeat a charm" (Valby, Ives Waldo). The rite's other two words are «སྨྲོས» "speak!" (imperative of smra ba) and «བོས» "call!". In this sense «རྨི་ལམ་ཟློས་ཤིག» is "say the dream again, tell it back", the dream asked at early dawn; "dream again" is not a sense the lexica give for the word.
+
+In the Derge volume VE23703_1344 the word stands with a mantra: p. 133 «ཟློས་ཤིག་ལྷ་མོ་རྣམས་ཀྱི་སྔགས། ཐམས་ཅད་ལ་ནི་མཆོད་པའོ» ("recite the goddesses' mantras; the offering is to all"), where "recite" is the only sense; and VE23703_1340 p. [p110] has the sentence of q1103 whole: «ནང་པར་སྔ་བར་རྨི་ལམ་ཟློས་ཤིག་ཅེས་བརྗོད་ལ་འདུ་འཛི་མེད་པའི་གནས་སུ་སེང་གེ་ལྟར་ཉལ་དུ་གཞུག» ("saying 'at early dawn tell the dream again', he makes them lie down like a lion in a place without tumult"). The same sentence stands in VE23703_1344 p. 446 (svo:p446-447). It is spoken at the lying-down of the night, for the next morning.
+
+State: etext (Derge, good quality; the lexica).
 
 ## <a id="svo-p446-447"></a>svo:p446-447 Samantaśrī's Mahākāla mandala rite (Derge vol. 28, pp. 446–447): the disciples sleep in the lion's posture on kuśa grass, their dreams asked at early dawn, a fall from a mountain guarded with the mantra of all works (RD386)
 
@@ -1913,7 +2117,21 @@ Further places where a dream is a step of a rite or a sign, named and not read i
 
 ## The Svapnohana, the Svapnanirdeśa and the Tengyur rites, their small words (q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048, q1032): གདོན as a duration, ལྟ་བ or ལྟས in the Derge title, དུས་དྲུག, «at the end of the sky the dream is examined», ཟློས, the Dream month of the Catuṣpīṭha, Klu'i byang chub's line, krama or sama in the Mañjuśrī root tantra (RD395)
 
-Nothing read yet: RD395's passages, with the English beside them, go here.
+Read by RD395 (2026-11-11): the questions q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048 and q1032, each word in its etext page with the lexica of Steinert's collection and the parallels the etexts hold; etext only, no scan, no model run. Passages: [svo:i417b](#svo-i417b), [svo:p395a](#svo-p395a), [svo:i308-309](#svo-i308-309), [svo:p395b](#svo-p395b), [svo:i329-330](#svo-i329-330), [svo:p395c](#svo-p395c), [svo:p378b](#svo-p378b), [svo:p446b](#svo-p446b), [svo:i439](#svo-i439), [svo:p395d](#svo-p395d), [svo:p273b](#svo-p273b), [svo:p395e](#svo-p395e) (the letter-and-395 ids hold lexicon entries, which have no page).
+
+Result, in a line each (the facts are the claims, the Tibetan the passages):
+
+- q1089: «གདོན་པར་བྱ» is "is to be recited", the infinitive of «འདོན་པ»; the sūtra's remedy is the Three Heaps recited three times by day and three by night, for seven years at the first stage, down to one at the seventh (claims/toh48-gdon-par-bya-is-recite-three-heaps.md, claims/toh48-years-of-recitation-by-stage.md).
+- q1090: «ལྟ་བ» stands in the title in every print read, the text says «ལྟས»; the lexica keep "bad view" and "bad omen" apart; not settled (claims/title-lta-ba-ngan-pa-both-prints-text-says-ltas.md).
+- q1091: «དུས་དྲུག་གཟིགས» is the god looking on beings at the six times of day and night; it is no rule for the dream (claims/dus-drug-avalokitesvara-looks-six-times.md).
+- q1102: «ནམ་མཁའི་མཐར» is spatial in the volume's other uses; the line of p. 378 stays open (claims/nam-mkha-i-mthar-spatial-line-of-p378-open.md).
+- q1103: «ཟློས» is the imperative of «ཟློ་བ», "repeat, tell back" (claims/zlos-shig-is-tell-back.md).
+- q1034: the line stands in a rite with a powder for a pregnancy; «རྨི་ལམ» stays unexplained, the other print not reached (claims/mar-ngo-rmi-lam-line-in-a-pregnancy-rite-context.md).
+- q1035: the Dream month is the Pleiades month (smin drug), in two large dictionaries; no source says why (claims/rmi-lam-gyi-zla-ba-is-smin-drug-zla-ba.md).
+- q1063: the dream is the object; Padma dkar po's prose has «ངན་ན» "if it is bad" (claims/klu-byang-line-bad-dream-purified-by-talk-of-selflessness-padma-dkar-po.md).
+- q1048, q1032: the Tibetan «རིམ་པ» is krama, not sama; the Sanskrit text layer's word is garbled and the reading is the likelier, not settled (claims/mmk-rim-pa-is-krama-not-sama.md).
+
+Not found: a Sanskrit of the Svapnanirdeśa sūtra, of the Turning back of the bad dream and of the Showing of dreams (the Tengyur gives Tibetan titles only); the Sanskrit of Dpal rta dbyangs' commentary; the Sanskrit of Klu'i byang chub's Twenty was not looked for in an edition; the second print of the Bka' rgya ma text (BDRC I1KG81094, etext 403).
 
 
 ## The dream rites and signs left by the Tengyur and Kanjur readings (q961, q963, q981, q982, q1012, q1017, q1024, q1059, q1086, q1087): the Svapnekṣā's last part of the night on the Peking print, Bu ston's lineage names, the Red-Hat copyists of the Lama Gongdü, the Sha za brtsegs pa'i rgyud's chapter title, the Vairocana preparation text for dawn dreams, the Vimalaprabhā's vowels, Mipham's Flaming Uṣṇīṣa colophon, the middle watch of the Mahābala omens, mtshan brtas, the Tibet House catalogue (RD399)
