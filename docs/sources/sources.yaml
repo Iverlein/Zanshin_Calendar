@@ -1234,6 +1234,34 @@ tsd:
   role: witness
   notes: "RD361 (2026-11-10): etext only, no scan; page = the etext page of the text's own counter, which restarts at [p1] after the volume's front matter (the Sbyor drug gi dri lan at etext offset 0-506 812, its pages numbered 1-221 inside the volume's text)"
 
+ttn:
+  title: "Tā ra nā tha, the Śramaṇā section (Lha mo shra ma Na'i sgrub thabs kyi le tshan) in the collection of sādhanas Yi dam rgya mtsho'i sgrub thabs rin chen 'byung gnas, in the Jo nang rje btsun Tā ra nā tha'i gsung 'bum dpe bsdur ma, vol. 30"
+  author: "Jo nang rje btsun Tā ra nā tha (1575-1634) by BDRC's record of the collected works; BDRC names Mchims Nam mkha' grags with him for the collection of sādhanas"
+  edition: "Dpal brtsegs bod yig dpe rnying zhib 'jug khang, Krung go'i bod rig pa dpe skrun khang, dpe bsdur ma vol. 30 (BDRC VE1PD45495_030; the collection is the work MW1PD45495_08815C, 'bar cha')"
+  bdrc: {work: MW1PD45495_08815C, etext: VE1PD45495_030}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "RD393 (2026-11-11): etext only, no scan; page = the etext page marker of the volume (the text of the section stands at [p137]-[p138]); the section is headed by its own verse (the dream prophecy instruction from the hero-alone practice) and closes with its title, Lha mo shra ma Na'i sgrub thabs kyi le tshan no; the lion-faced dakini's sādhana follows at [p139]; the colophon of the section names no writer"
+
+lcg:
+  title: "Lcang lung Paṇḍi ta Ngag dbang blo bzang bstan pa'i rgyal mtshan, the manual of the recitation of the mantras of the deities of the Rin chen 'byung gnas sādhana collection that Tā ra nā tha gave, with their benefits ('Dod dgu 'jo ba'i gter gyi sgrom bu)"
+  author: "Lcang lung Paṇḍi ta Ngag dbang blo bzang bstan pa'i rgyal mtshan (BDRC's record)"
+  edition: "BDRC MW1ALS12284E (ACIP collection, 54 pp.), etext VE1ALS12284E"
+  bdrc: {work: MW1ALS12284E, etext: VE1ALS12284E}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "RD393 (2026-11-11): etext only; page = the etext page marker of the text's own counter"
+
+tmz:
+  title: "Bod rgya tshig mdzod chen mo (the Great Tibetan-Chinese Dictionary), as keyed in Christian Steinert's public dictionary set (no. 25), with the Bod yig tshig gter rgya mtsho (no. 62), and Ives Waldo's Tibetan-English dictionary (no. 08) beside it"
+  edition: "github.com/christiansteinert/tibetan-dictionary, _input/dictionaries/public/25-tshig-mdzod-chen-mo-Tib, 62-bod_yig_tshig_gter_rgya_mtsho and 08-IvesWaldo, read 2026-11-11 from the repository (the files fetched, not a clone); headwords keyed in Wylie, no page numbers"
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "RD393 (2026-11-11): a lexicon, not a commentary; its entries are cited as the numbered tables box1... of tmz.md, each box one look-up; a headword absent from the set is a dead end for that set only (the other 60 dictionaries of the set were not searched)"
+
 mph:
   title: "Mipham's writings on dream signs and dream divination (Gsung 'bum) and his notes on the White Beryl"
   author: "'Ju Mi pham rgya mtsho (1846–1912)"

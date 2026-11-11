@@ -88,6 +88,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/angavijja-ch53-bright-beginning-forenoon.md](claims/angavijja-ch53-bright-beginning-forenoon.md) | claim, note | The Aṅgavijjā's ch. 53 (p. 210) has the bright beginning at forenoon like ch. 42; only ch. 41 has the afternoon (RD295) | cites agv:p190-191, agv:p186; feeds block-73 |
 | [claims/angavijja-dream-time-fortnight-season.md](claims/angavijja-dream-time-fortnight-season.md) | claim, rule | The Aṅgavijjā's chapter on dreams asks when the dream was seen: night or day in six parts, the fortnight, the season (RD263, RD265) | cites agv:p120-121, agv:p190-191, agv:p186, agv:p191-193, agv:p259-260; feeds block-73 |
 | [claims/avalokitesvara-dawn-rite-for-a-bad-dream.md](claims/avalokitesvara-dawn-rite-for-a-bad-dream.md) | claim, remedy | A dawn rite of Avalokiteśvara after a fast turns back a bad dream; no part of the night named (RD381) | cites svo:i631-632, svo:i660-661, svo:i816-817; feeds S1 |
+| [claims/ba-ra-herd-milk.md](claims/ba-ra-herd-milk.md) | claim, definition | ba ra is cattle and goats, so «བ་རའི་འོ་མ» is herd milk; the lexicon only | cites tmz:box1, st:p493b, st:p493c; feeds S2 |
 | [claims/bhattotpala-pairs-night-parts-seasons-humours.md](claims/bhattotpala-pairs-night-parts-seasons-humours.md) | claim, rule | Bhaṭṭotpala's gloss pairs the Bṛhadyātrā's parts of the night and seasons with the humours: last third, rains, wind; middle, autumn, bile; first, spring, phlegm (RD312) | cites asm:p179-180, bya:p41-46; feeds block-73 |
 | [claims/birth-and-year-of-age-no-ranking.md](claims/birth-and-year-of-age-no-ranking.md) | claim, note | No reader ranks the birth reckoning against the year of age for one year | cites wb.1:p349, wb.2:p483; feeds block-58 |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
@@ -933,8 +934,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svo-watches-and-spans.md](claims/svo-watches-and-spans.md) | claim, table | The Svapnohana: a dream's fruit by the watch of the night | cites svo:p268; feeds block-73 |
 | [claims/svo-women-by-colour.md](claims/svo-women-by-colour.md) | claim, table | The Svapnohana: the embraced woman by the colour of her clothes, and white and black things | cites svo:p270; feeds block-73 |
 | [claims/szb-signs-of-approach-not-dream-list.md](claims/szb-signs-of-approach-not-dream-list.md) | claim, note | The Sha za brtsegs pa'i rgyud's dream-sign chapter lists signs of approach to a killing rite, not dream images | cites szb:i463; feeds S1 |
+| [claims/tdr-ba-ru-tree.md](claims/tdr-ba-ru-tree.md) | claim, definition | The ba ru tree of the Śramaṇā rite is the myrobalan tree | cites tdr:p337-342e, tmz:box1; feeds S2 |
+| [claims/tdr-dream-set-names-no-compiler.md](claims/tdr-dream-set-names-no-compiler.md) | claim, note | The print names no writer or lama for the three dream examinations; the colophon near them closes the mercury set | cites tdr:p337-342e, tdr:p331-332e, tdr:p21e, tdr:p15-23e; feeds S2 |
 | [claims/tdr-four-mirrors.md](claims/tdr-four-mirrors.md) | claim, table | White Tārā rite: the letters A, NU, TA, RA on the four mirrors and what each makes true | cites tdr:p343-344; feeds S1 |
+| [claims/tdr-ru-rta-lde-gur.md](claims/tdr-ru-rta-lde-gur.md) | claim, definition | ru rta is a medicinal herb of the decoction class and lde gu a paste, so «ru rta'i lde gur» is a paste of ru rta; the plant's name is not given | cites tdr:p337-342e, tmz:box1, mph.128:i189-192; feeds S2 |
 | [claims/tdr-shakyamuni-frame.md](claims/tdr-shakyamuni-frame.md) | claim, rule | The Śākyamuni rite printed before White Tārā: the posture, the repetition and the grades of answer | cites tdr:p343-344; feeds S1 |
+| [claims/tdr-sramana-rite-elsewhere.md](claims/tdr-sramana-rite-elsewhere.md) | claim, note | The Śramaṇā rite of the be'u bum is also in Tāranātha's sādhana collection and is said to come from Śākyaśrī; no one names the be'u bum's lama | cites tdr:p337-342e, ttn:p137-138, lcg:p26, mph.128:i189-192; feeds S2 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-work-before-and-title.md](claims/tdr-work-before-and-title.md) | claim, note | The work that ends on TDR p. 343 is the Śramaṇā text; White Tārā's begins at the doubled title in line 6 (RD286) | cites tdr:p21e, tdr:p343h, tdr:p337-345e, tdr:p343-344; feeds — |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
@@ -1362,6 +1367,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
+| [corpus/lcg/lcg.md](corpus/lcg/lcg.md) | corpus | LCG | 1 passages: 1 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
 | [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 15 passages: 11 scan, 4 machine |
@@ -1420,11 +1426,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 72 passages: 14 scan, 7 machine, 51 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 1 passages: 1 machine |
-| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 6 passages: 1 scan, 1 machine, 4 etext |
+| [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
+| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 1 passages: 1 etext |
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 21 passages: 21 etext |
+| [corpus/ttn/ttn.md](corpus/ttn/ttn.md) | corpus | TTN | 1 passages: 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
@@ -2451,6 +2459,9 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **TSL** | Gnam lcags rtsa gsum gter bdag gling pa (Rtsa gsum gling pa, 1694–1738), *Gter chos*, his treasure teachings (*O rgyan rtsa gsum gling pa'i zab gter*). A source at the owner's word (2026-11-07), **equal to Mipham's word** (rank 2), with everything that traces back to him: his incarnations and the holders of his lineage (Sgo chen dgon, Padma Samye Ling) | edited by Mkhan chen Dpal ldan shes rab, 30 vols, typeset | BDRC MW4CZ1042 (person P680), scans I1PD108789–I1PD108818 (vol. n = I1PD1087(88+n)), open, etext excellent; other prints MW1KG15423 (12 vols), MW27492 (dbu med, 11 vols), MW4CZ302225; the treasures public-domain, the edition's own matter facts only; RD363 (2026-11-10): the etext IE0OPI46409446 covers vols 27-30 only (vols 1-26 scans), vol. 30 (Gter chen's own life from image 36, printed p. 25) and vol. 27 read for dreams, see [corpus/tsl/tsl.md](corpus/tsl/tsl.md) |
 | **KCD** | The Kālacakra Tantra (*Dus kyi 'khor lo*) and Puṇḍarīka's *Vimalaprabhā* (*Dri med 'od*) on dreams, with the Tibetan commentaries of Bu ston Rin chen grub and Mkhas grub rje: the Derge Tengyur and the collected works as served by BDRC; the volumes named in each passage. Read in RD361. |
 | **TSD** | Tā ra nā tha, *Sbyor drug gegs sel* (removing the obstacles of the six yogas of the Kālacakra), in the Dpe bsdur ma edition of his collected works, vol. 8 (BDRC VE1PD45495_008); a witness, read by the etext in RD361; page = the text's own page counter, restarting at p. 1 |
+| **TTN** | Tā ra nā tha, the Śramaṇā section of the sādhana collection *Rin chen 'byung gnas*, in the Dpe bsdur ma edition of his collected works, vol. 30 (BDRC VE1PD45495_030); a witness, read by the etext in RD393; page = the etext page marker |
+| **LCG** | Lcang lung Paṇḍi ta Ngag dbang blo bzang bstan pa'i rgyal mtshan, the manual of mantra recitations for the deities of the *Rin chen 'byung gnas* collection (BDRC MW1ALS12284E, ACIP); a witness, read by the etext in RD393; page = the etext page marker |
+| **TMZ** | *Bod rgya tshig mdzod chen mo* as keyed in Steinert's public dictionary set, with the *Bod yig tshig gter rgya mtsho* and Ives Waldo beside it; a lexicon, cited by look-up (`tmz:box<n>`), no page numbers; RD393 |
 | **MPH** | 'Ju Mi pham rgya mtsho (1846–1912), the writings on dream signs and dream divination in his *Gsung 'bum* and his notes on the White Beryl (rank 2, owner 2026-10-20); the volumes named in each passage. Read in RD362. |
 | **DHD** | The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein shelfmarks), read from the images of the International Dunhuang Project and Gallica and the open transcriptions of Old Tibetan Documents Online; the modern editions for facts only, never their wording. Read in RD366. |
 | **DDS** | The hits of a systematic search of the BDRC etexts for dreams tied to a lunar day, a month, a weekday or a season; each passage names its text, author and etext. Read in RD367. |
