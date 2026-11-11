@@ -1437,7 +1437,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
 | [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 27 passages: 10 scan, 8 machine, 9 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 12 passages: 6 scan, 4 machine, 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 84 passages: 14 scan, 8 machine, 62 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 85 passages: 14 scan, 8 machine, 63 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 2 passages: 2 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
@@ -2385,6 +2385,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1137.md](questions/q1137.md) | question q1137 | Is the first syllable of the title of Bu ston's Examination of Dreams in the 2008 Dpal brtsegs print (img. 833) རྟག or བརྟག on a sharper image | open; cites bsr:p825-828b |
 | [questions/q1138.md](questions/q1138.md) | question q1138 | Do རབ་ཚེས and ཟླ་ཚེས in Mipham's colophon stand for a rab byung number or a fixed phrase, and which fire-horse is meant | open; cites mph.25:i460b |
 | [questions/q1139.md](questions/q1139.md) | question q1139 | Is བཤོར in the Sha za brtsegs pa'i rgyud's «རི་དགས་བཤོར་དང་ཤ་ཁྲག་སྟེར» a word of the text, and does རྨི་ལྟས in the colophon mean the practitioner's dreams | open; cites szb:i463b |
+| [questions/q1140.md](questions/q1140.md) | question q1140 | Is the boxed item of the Tokyo Gakugei Daizassho (1780, image 24, beginning with the character for dream) the charm for a bad dream, and does it say anything of a day on which the dream is not told | open; cites mdz:i100408974 |
 
 <!-- end pool index -->
 

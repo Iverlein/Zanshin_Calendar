@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD400 (2026-11-11): Tokyo Gakugei 100408974 and 100408973, Kokubunken ヤ0-32 (bid 200007529) images 37–48 and ヤ0-116 (bid 200017194) images 25–36, on contact sheets with single enlargements.
+
 Read by RD398 (2026-11-11): Kokubunken print 松野 54-254 (bid 200013909) image 9 and the 東都歳事記 (Ochanomizu DIG-OCHA-00706) canvases 14–18.
 
 ## <a id="mdz-p5"></a>mdz:p5 The dream judgments (夢はんじ), 132 articles: the preface and the first articles

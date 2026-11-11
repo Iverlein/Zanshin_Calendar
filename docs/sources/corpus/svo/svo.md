@@ -2155,3 +2155,8 @@ Read by RD399 (2026-11-11), within the time given: passages szb:i463b, mph.25:i4
 - BDRC full-text search, 2026-11-11 (bdrc_search.py): «འཇམ་གསར་བླ་མ་རྒ་ལོ» and «རྒ་ལོ་ཙཱ་བ་ཆོས་ཀྱི་འབྱུང་གནས» no hit; «རིང་པོ་སུམ་ཅུ་རྨི་ལམ», «རྨི་ལམ་གྱི་རང་བཞིན་རིང་པོ», «མཚན་བརྟགས་འདི་ལྟར་བྱུང», «ཐོ་རངས་མཚན་བརྟགས», «བགེགས་མཐར་བྱེད་རྨི་ལམ་ངན» and one search for a Vairocana text's dawn-dream signs no hit (the phrases were guessed shapes, not quoted lines, so the absence is weak).
 
 Nothing read yet: RD399's passages, with the English beside them, go here.
+
+
+## The dream questions RD399 did not reach (q961, q1012, q1017, q1059, q1086, q1087): the Svapnekṣā's last part of the night on Peking img. 310, the Vairocana preparation text that reads the pupils' dawn dreams, the Vimalaprabhā's vowels at kcd.11:p409 and p538–539, the Mahābala omens' middle watch (mmb:p155–156), «mtshan brtas» in the third Karmapa's verse, the Tibet House manuscript catalogue (I2KG212509) (RD401)
+
+Nothing read yet: RD401's passages, with the English beside them, go here.
