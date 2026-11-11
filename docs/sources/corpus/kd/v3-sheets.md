@@ -231,3 +231,13 @@ The lower table, read whole. Four rows, each of three small boxes (labelled "fir
 - «དགྲ་ས», the enemy's place: 16 M, 15 M, 14 C, 13 M, 12 w, 11 B, 10 B, 9 w.
 
 Over the right-hand cells of the first row, a line «ཕྲེང་འདི་དག་དོར་བར་བྱ།», "these strings are to be cast away", beginning over the fourth cell and ending before the eighth, which stands under its own label «རྡེལ་རོ», "the leftover". In a column to the right of the four rows, three more numbered pebbles, each with a label: «ཁུག་པ», "the fold", 17 and one black pebble; «ཡང་ཁུག», "the refold", 18 and two white; «གསང་བ་ཡང་ཁུག», "the secret refold", 19 and a colour word. So the thirty-five pebbles are laid in four runs of eight (1–8, 35–28, 20–27, 16–9) and the three over, 17, 18 and 19, are written on the right with their names. Which colour the words at 19 and in the cells name (they are written in the small print and look like «དམར», red, and «མཐིང», blue) is not told apart at this size; the digits of the numbers are as the print's numerals read at 3 times, 17, 18 and 19 included.
+
+
+## The night's parts in the dream rules (what RD338 and RD341 left; q1042, q1058, q1072, q964, q1101): from what the night is counted for the thirty parts of the Mchog dga' dream rule; whether the «middle watch» (བར་མའི་ཐུན) of the omens is the second watch or the middle of the night; the Sakya manual's «no dream comes» in the second and third watches; Tsong kha pa's four parts of the night; the Cakrasaṃvara commentary's session of the fifth chu tshod (RD394)
+
+Nothing read yet: RD394's passages, with the English beside them, go here.
+
+
+## WB's dream list, the words left in doubt (q1080, q1081, q1082, q1074, q908, q944): བྱེས་སུ, ཙབ་ཙུབ, the hour entries' bed and pillow lines, the Chinese and Nepalese of the Mchog dga', the Chöd texts' causes of a confused dream, whether WB's dream list rests on Klong rdol's stock of images (RD396)
+
+Nothing read yet: RD396's passages, with the English beside them, go here.

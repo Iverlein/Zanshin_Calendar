@@ -1875,3 +1875,8 @@ Further places where a dream is a step of a rite or a sign, named and not read i
 - No rite of the Derge Tengyur volumes VE23703_1330–1353 (the dream word with «ཚེས», «ནུབ་མོ», «ཐོ་རངས», «མཚན་མོ», «མཚན་ཕྱེད», «ཆུ་ཚོད», «ནམ་ཕྱེད», «ཐུན་ཐ་མ», windows of about 110 syllables) and of vol. 28 and VE23703_1355 ties a dream's use to a day of the month: the dates found beside a dream word are the 14th of the dark half (the mantrin's sitting night), the eighth of the waxing half in a translator's colophon, the 8th, 10th and 14th of offerings in a Vajrayoginī rite (VE23703_1340 p. 87, no dream), and the syllable-calendar of a Kālacakra gloss (VE23703_1335 pp. 124, 133, 1336 p. 589, not a dream rite).
 - Not looked at: the Derge Tengyur etext volumes VE23703_1354 and 1356–1372 and every volume after (fetching was stopped after VE23703_1353 for time), the Peking, Narthang and Co ne prints, the Kanjur tantras' own dream passages (only Toh 48 and 460A, RD381), and BDRC's exact-phrase search (not run: the volumes were read directly, which gives every hit, not the first twenty works).
 - The mirror and vermilion rite of VE23703_1340 p. 87 ends with "a dream prophecy of Vajrayoginī" as an instruction title only; no dream is described there.
+
+
+## The Svapnohana, the Svapnanirdeśa and the Tengyur rites, their small words (q1089, q1090, q1091, q1102, q1103, q1034, q1035, q1063, q1048, q1032): གདོན as a duration, ལྟ་བ or ལྟས in the Derge title, དུས་དྲུག, «at the end of the sky the dream is examined», ཟློས, the Dream month of the Catuṣpīṭha, Klu'i byang chub's line, krama or sama in the Mañjuśrī root tantra (RD395)
+
+Nothing read yet: RD395's passages, with the English beside them, go here.
