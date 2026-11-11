@@ -2283,3 +2283,13 @@ Read by RD406 (2026-11-11), in the time given (about thirty minutes): I2KG212509
 ### Searched and not found (RD406)
 
 - Narthang catalogue vol. 225 (I2KG212509) img. 3–86 whole images and img. 4–104 even crops, Yigdzin-1, 2026-11-11: no second entry with «རྨི་ལམ་བརྟག་པ»; «རྨི་ལམ» occurs only on img. 75 and 77 in the run (the grep over the files was made on «རྨི་ལམ» alone). Images 87–140 not read.
+
+## The Narthang catalogue for the Examination of Dreams, images 87–140 (RD407)
+
+Read by RD407 (2026-11-11): I2KG212509 img. 87–139 odd (whole images) and 88–140 even (crops of the text block, 140–2850 × 250–700 px), Yigdzin-1 only, not checked on the scan. Img. 93, 105 and 111 came back with a few characters (not read); 121 with 162 bytes.
+
+- No second entry for the Examination of Dreams (རྨི་ལམ་བརྟག་པ, rmi lam brtag pa) in images 87–140. «རྨི་ལམ» occurs once, on img. 140, line 7, in a list of instructions: «རྨི་ལམ་དྲི་མ་མེད་པའི་སྒོམ…», "the immaculate dream meditation", a different work, cut at the line's end by the model. «བརྟག་པ» occurs on img. 130 only in the titles of a commentary on «the examination of the king» and on img. 140 in «the examination of the wind-seat illnesses» (རླུང་གནས་ཀྱི་ནད་ཀྱི་བརྟག་པ, by the teacher Ajo), neither of them dream texts.
+
+### Searched and not found (RD407)
+
+- Narthang catalogue vol. 225 (I2KG212509) img. 87–140, Yigdzin-1, 2026-11-11: no second entry «རྨི་ལམ་བརྟག་པ»; machine reading only, img. 93, 105, 111, 121 nearly empty and unread.
