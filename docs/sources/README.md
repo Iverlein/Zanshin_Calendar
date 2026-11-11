@@ -2407,6 +2407,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1143.md](questions/q1143.md) | question q1143 | Is the entry for the Examination of Dreams in the Narthang catalogue's images 3–140 or 207–288 | open; cites svo:i39 |
 | [questions/q1144.md](questions/q1144.md) | question q1144 | Is the writer of Rtsa gsum gling pa vol. 27's Gzer bu commentary (Orgyan gsang sngags bstan 'dzin Nam sgo chen sprul) the volume's compiler Mkhan chen Dpal ldan shes rab, and what does རབ་གནས before ཆུ་ལུག་ལོ mean | open; cites tsl.27:i132-134 |
 | [questions/q1145.md](questions/q1145.md) | question q1145 | Which water-bird year does the colophon of the Nyang Sems sde pra khrid in Gdams ngag mdzod vol. 1 mean, and is the beggar Nam mkha' rdo rje the Nyang-tradition master | open; cites rrd.22:p1-2 |
+| [questions/q1146.md](questions/q1146.md) | question q1146 | Is the entry for the Examination of Dreams in the Narthang catalogue's tantra images 3–140, or in the even images 208–238 that the model returned empty | open; cites svo:i239 |
 
 <!-- end pool index -->
 
