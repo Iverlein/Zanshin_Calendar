@@ -2365,16 +2365,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1103.md](questions/q1103.md) | question q1103 | In the rites that say «ནང་པར་སྔ་བར་རྨི་ལམ་ཟློས་ཤིག» (Derge Tengyur vol. 28 p. 446; also VE23703_1340 p. 110 and 1351 p. 43) is «ཟློས» «tell back» or «dream again», the other rites having «སྨྲོས» and «བོས»? | open; cites svo:p446-447 |
 | [questions/q1104.md](questions/q1104.md) | question q1104 | In the Guhyasamāja commentary of Rgyal bas byin (VE23703_1355 p. 533) is the etext's «ཡེ་ཤེས་ཀྱོ་བ» a corruption of «ཡེ་ཤེས་ལྕགས་ཀྱུ» (the wisdom iron hook), which the gloss explains next? | open; cites svo:i533 |
 | [questions/q1105.md](questions/q1105.md) | question q1105 | Is the clear light of experience at the border of sleep (Karma chags med) the same experience as the Gdams ngag mdzod's, and in which order of the three clear lights does it stand | open; cites rrd.19:p118-119, rrd.21:p19 |
-| [questions/q1106.md](questions/q1106.md) | question q1106 | Is the verse of rrd.4:p13 Rang byung rdo rje's own song of experience, and what is its title | open; cites rrd.4:p13 |
+| [questions/q1106.md](questions/q1106.md) | question q1106 | Is the verse of rrd.4:p13 Rang byung rdo rje's own song of experience, and what is its title | answered; cites rrd.4:p13, rrd.4:p1b, rrd.4:p22 |
 | [questions/q1107.md](questions/q1107.md) | question q1107 | Do Mipham's and Rtsa gsum gling pa's works name the state under another word that an exact phrase does not reach | answered; cites rrd.4:p13, tsl.30:i98, tsl.30:i102-103, mph.101:i13 |
-| [questions/q1108.md](questions/q1108.md) | question q1108 | Whose are the works behind rrd.21:p19 and rrd.22:p38-39 | open; cites rrd.21:p19, rrd.22:p38-39 |
+| [questions/q1108.md](questions/q1108.md) | question q1108 | Whose are the works behind rrd.21:p19 and rrd.22:p38-39 | answered; cites rrd.21:p19, rrd.22:p38-39, rrd.21:p40-41, rrd.22:p1-2 |
 | [questions/q1109.md](questions/q1109.md) | question q1109 | Is Marpa's saying on the midnight dream an oral saying handed down through the Karmapas, and is «gdon dbang» the reading they teach | answered; cites rrd.5:p57-59, dds.19:p187-189, rrd.23:p102-104, rrd.23:p296-298 |
 | [questions/q1110.md](questions/q1110.md) | question q1110 | In Marpa's inner-heat manual, is the spirit of the horse, dog or woman dream a certain class, and is the cure tied to a watch | open; cites dds.19:p187-189 |
 | [questions/q1111.md](questions/q1111.md) | question q1111 | What are གནམ་ཐེ་དཀར་པོ and ཞེ་ཐག་པ་ནས་སྦྱིན in Marpa's inner-heat manual | open; cites dds.19:p187-189 |
 | [questions/q1112.md](questions/q1112.md) | question q1112 | Does ཟ་ཟི (za zi) in Rtsa gsum gling pa's verse life name the half-asleep condition or only the dimness of the sight | open; cites tsl.30:i102-103 |
-| [questions/q1113.md](questions/q1113.md) | question q1113 | Are vol. 27's waking and sleeping instructions the compiler's prose or the treasure's own text | open; cites tsl.30:i98 |
+| [questions/q1113.md](questions/q1113.md) | question q1113 | Are vol. 27's waking and sleeping instructions the compiler's prose or the treasure's own text | answered; cites tsl.30:i98, tsl.27:i132-134 |
 | [questions/q1114.md](questions/q1114.md) | question q1114 | Does the tradition read «the emanation of Māra» in Marpa's song as a dream sent by a demon, a deception of the sleeper's mind, or as spirits, and is the Karmapa's gdon dbang a gloss of the line | open; cites rrd.23:p102-104, rrd.5:p57-59 |
-| [questions/q1115.md](questions/q1115.md) | question q1115 | In the preamble of Marpa's song is the speaker Marpa or Pen ta pa, and who is Pen ta pa | open; cites rrd.23:p296-298 |
+| [questions/q1115.md](questions/q1115.md) | question q1115 | In the preamble of Marpa's song is the speaker Marpa or Pen ta pa, and who is Pen ta pa | answered; cites rrd.23:p296-298, rrd.23:p262, rrd.23:p292 |
 | [questions/q1116.md](questions/q1116.md) | question q1116 | What does ས་ནི་སྲོས་ནས་ནམ་ཕྱེད་བར་ mean in Marpa's dream-practice verses, and what text is it | open; cites rrd.25:p60-61 |
 | [questions/q1117.md](questions/q1117.md) | question q1117 | In the life of Rig 'dzin Chos kyi grags pa is the earlier dream of dusk the vidyā-king in the dusk session, and does nam gung mean the midnight session | open; cites dds.49:p110-112 |
 | [questions/q1118.md](questions/q1118.md) | question q1118 | In the Yu thog instruction are the kings, planets and nāgas classes of gdon tamed by Hayagrīva, Vajrapāṇi and Nāgarakṣa, and is the dream of spirits the dream where any shows as an animal | open; cites dds.47:p293-295 |
@@ -2403,6 +2403,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1141.md](questions/q1141.md) | question q1141 | Does Tsong kha pa's bgegs mthar byed for Mar me mdzad bzang po's bad-dream remedy come from another work of his than the 450-verse rite | open; cites tgb:p360-361 |
 | [questions/q1142.md](questions/q1142.md) | question q1142 | Is མཚན་བརྟས in the Karmapa's verse a copyist's spelling of མཚན་བརྟགས or མཚན་རྟགས, and does a print of his collected works read it so | open; cites rrd.5:p57-59 |
 | [questions/q1143.md](questions/q1143.md) | question q1143 | Is the entry for the Examination of Dreams in the Narthang catalogue's images 3–140 or 207–288 | open; cites svo:i39 |
+| [questions/q1144.md](questions/q1144.md) | question q1144 | Is the writer of Rtsa gsum gling pa vol. 27's Gzer bu commentary (Orgyan gsang sngags bstan 'dzin Nam sgo chen sprul) the volume's compiler Mkhan chen Dpal ldan shes rab, and what does རབ་གནས before ཆུ་ལུག་ལོ mean | open; cites tsl.27:i132-134 |
+| [questions/q1145.md](questions/q1145.md) | question q1145 | Which water-bird year does the colophon of the Nyang Sems sde pra khrid in Gdams ngag mdzod vol. 1 mean, and is the beggar Nam mkha' rdo rje the Nyang-tradition master | open; cites rrd.22:p1-2 |
 
 <!-- end pool index -->
 
