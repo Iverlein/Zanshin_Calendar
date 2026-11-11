@@ -9,6 +9,14 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD362 (2026-11-10): Mipham's Gzhung 'grel skor volumes 1, 4, 25 and 28 (be bum list of dream mantras, the Śākyamuni compilation's dream readings, the Sukhāvatī guide), the Chengdu Gsung 'bum vol. 25 (Skul byed ma rite, Flaming Uṣṇīṣa sādhana) and his notes on the White Beryl (vol. 2 p. 474 and pp. 535-537).
 
+## <a id="mph-101-i13"></a>mph.101:i13 Mipham's Padma dkar po: at night fall asleep in the perception of light
+
+*Read: etext, 2026-11-11.*
+
+> སྤྱིར་འགྲོ་འཆག་ཉལ་འདུག་གི་སྐབས་ཀུན་ཏུ་སྟོན་པ་ཉིད་ཐུབ་ཆོག་བྱིན་རླབས་གཏེར་མཛོད། མ་བརྗེད་པར་དྲན་པ་དང་། མཚན་མོ་ཡང་སྟོན་པ་དངོས་སུ་བཞུགས་པའི་སྐུ་ཡི་འོད་ཀྱིས་ཕྱོགས་ཐམས་ཅད་ཉིན་མོ་ཤིན་ཏུ་དྭངས་བའི་དུས་ལྟ་བུར་སྣང་བའི་འདུ་ཤེས་ཀྱི་ངང་དུ་གཉིད་ལོག་པར་བྱ།
+
+(Mipham, Thub chog byin rlabs gter mdzod kyi rgyab chos Padma dkar po, Gzhung 'grel skor vol. 1, etext, page marker p13 = image 13; the line before it is the Buddha-remembrance for walking, sitting and lying.) «In general, in all the times of walking, sitting, lying and staying, remember the Teacher himself without forgetting; and at night too, fall asleep (གཉིད་ལོག, gnyid log) in the state of the perception of light (སྣང་བའི་འདུ་ཤེས, snang ba'i 'du shes), as if the light of the Teacher's body, actually present, made all directions like a day of perfect clearness.» This is an instruction for falling asleep with a light-perception, not a name for a state between sleep and waking and not a reading of its visions.
+
 ## <a id="mph-101-i42-43"></a>mph.101:i42-43 The Karuṇāpuṇḍarīka's dream of the Brahmin Sea-dust, as Mipham's Śākyamuni compilation tells it
 
 *Read: machine, 2026-11-10.*

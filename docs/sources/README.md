@@ -695,7 +695,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mph-dream-practice-mantras-and-rite.md](claims/mph-dream-practice-mantras-and-rite.md) | claim, note | Mipham's dream mantras and the Skul byed ma rite ask for a dream; they give no meanings, name sources and a few times | cites mph.128:i189-192, mph.25:i374-376; feeds S1, RD362 |
 | [claims/mph-dream-sign-time-day-source.md](claims/mph-dream-sign-time-day-source.md) | claim, note | RD362: Mipham names no time or day for reading a dream sign; sources only for the rites and the sūtra's readings | cites mph.128:i189-192, mph.25:i374-376, mph.104:i236-237, mph.101:i42-43, mph.101:i220-221, wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
 | [claims/mph-notes-wb-dream-words.md](claims/mph-notes-wb-dream-words.md) | claim, note | Mipham's notes on the White Beryl name dreams twice and gloss no dream sign | cites wb.2:p474, wb.2:p535-537; feeds S1, RD362 |
+| [claims/mph-sleep-with-light-and-the-clear-light-of-experience.md](claims/mph-sleep-with-light-and-the-clear-light-of-experience.md) | claim, definition | Mipham: falling asleep in light-perception; the clear light of experience as a warning; no phrase for the state (RD389) | cites mph.101:i13, rrd.21:p19; feeds S1 |
 | [claims/mph-sukhavati-dream-sign-of-rebirth.md](claims/mph-sukhavati-dream-sign-of-rebirth.md) | claim, note | Mipham: a dream of the field and the Teacher is the lowest sign of progress toward Sukhāvatī | cites mph.104:i236-237; feeds S1, RD362 |
+| [claims/mph-tsl-dngos-nyams-rmi-lam-grades-of-a-vision.md](claims/mph-tsl-dngos-nyams-rmi-lam-grades-of-a-vision.md) | claim, definition | The actual sight, experience-appearance and dream as grades of a deity's vision, a sign of accomplishment (RD389) | cites mph.101:i13; feeds S1 |
 | [claims/mvy-thun-gsum-pa-third-of-five-watches.md](claims/mvy-thun-gsum-pa-third-of-five-watches.md) | claim, note | The Mahāvyutpatti's thun gsum pa is the third of five watches of the night (RD322) | cites svo:p271q; feeds block-73 |
 | [claims/mw1lt2427-holds-the-moonbeams.md](claims/mw1lt2427-holds-the-moonbeams.md) | claim, note | MW1LT2427 holds the Moonbeams, BDRC's page range six leaves late | cites dz:i029-034; feeds — |
 | [claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md](claims/narthang-catalogue-deceiving-death-ngag-dbang-grags-pa-no-dream-entry-196-206.md) | claim, note | The Narthang catalogue names the Deceiving Death's author Ngag dbang grags pa (img. 197) and has no Examination of Dreams entry where the Derge order would put it (img. 196–206) (RD365) | cites svo:i197; feeds — |
@@ -980,6 +982,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/trt-darika-verse-six-differences.md](claims/trt-darika-verse-six-differences.md) | claim, note | Dārikapa's verse stands in Dārika's Entering Reality with six differences from the Sngags rim chen mo's quotation (RD373) | cites snr:p367-371, trt:p418-419, trt:p440; feeds — |
 | [claims/tsd-six-yogas-dreams-of-spirits-and-leaking.md](claims/tsd-six-yogas-dreams-of-spirits-and-leaking.md) | claim, note | Tāranātha's Sbyor drug gegs sel reads dreams of darkness, snakes, horses, dogs and women as a spirit's harm in the six yogas, with a remedy | cites tsd:p5, tsd:p32; feeds block-73 |
 | [claims/tsl-dream-signs-of-rite-accomplished.md](claims/tsl-dream-signs-of-rite-accomplished.md) | claim, list | Dreams that show a rite accomplished, in the treasure instruction: by rite, no hour or day | cites tsl.27:i203-205, tsl.27:i167-168; feeds RD363 |
+| [claims/tsl-hazy-experience-appearance-of-the-night-in-his-verse-life.md](claims/tsl-hazy-experience-appearance-of-the-night-in-his-verse-life.md) | claim, definition | Rtsa gsum gling pa calls his night and doze visions a hazy experience-appearance, overlapping the dream (RD389) | cites tsl.30:i98, tsl.30:i102-103, tsl.30:i406, tsl.30:i473; feeds S1 |
 | [claims/tsl-life-conception-dreams-read-as-sorcery-and-as-sign.md](claims/tsl-life-conception-dreams-read-as-sorcery-and-as-sign.md) | claim, conflict | The parents' dreams at Rtsa gsum gling pa's conception: the people read sorcery, he reads good dependent arising; no hour or day is given | cites tsl.30:i36-38, tsl.30:i49-50; feeds RD363 |
 | [claims/tsl-life-dream-names-day-of-month.md](claims/tsl-life-dream-names-day-of-month.md) | claim, list | Dreams in Rtsa gsum gling pa's life name the tenth, the ninth and the fifteenth day, each checked after (TSL) | cites tsl.30:i86-88, tsl.30:i112-114, tsl.30:i169-170; feeds RD363 |
 | [claims/tsl-life-dream-not-to-be-told-before-its-time.md](claims/tsl-life-dream-not-to-be-told-before-its-time.md) | claim, rule | A dream of the life is not to be told before its time: the pledge, the obstacles, the slander | cites tsl.30:i86-88, tsl.30:i106-108, tsl.30:i36-38; feeds RD363 |
@@ -1351,7 +1354,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 40 passages: 7 machine, 33 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
-| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 9 passages: 8 machine, 1 etext |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 10 passages: 8 machine, 2 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/nbv/nbv.md](corpus/nbv/nbv.md) | corpus | NBV | 2 passages: 2 etext |
@@ -1395,7 +1398,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
-| [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 17 passages: 17 etext |
+| [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 21 passages: 21 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |

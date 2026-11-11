@@ -47,6 +47,22 @@ At night, in a dream while lying down, a filthy woman (བུད་མེད་�
 
 Then, when about one year had passed (a year after the telling of the previous events; the line reads «ལོ་གཅིག་ལོན་པ་ཡིན་ནམ་མཚམས», "about a year"), at night (ནུབ་མོ, nub mo) in a dream a white woman adorned with bone ornaments, holding a klu-ru bhandha (the etext «ཀླུ་རུ་བྷནྡྷ»: not settled) and dancing, said: "Hey, fortunate son of the heart, you of the thread of merit and deeds, listen well. I am an emanation of the Queen Mother (རྒྱལ་ཡུམ, rgyal yum), the life-holding goddess-sister Bde ba mtsho; when the flower of empowerment was given by the vidyādhara prince Padmasambhava, the nine expanses and signs showed; ... I dwell in the expanse, an emanation among men, and I will now be your companion. From today, on the tenth day (ཚེས་བཅུའི་ཉིན, tshes bcu'i nyin) of the Monkey month (སྤྲེལ་ཟླ, sprel zla), set up the crown of the holy Dharma, lay the foundation of the coming lives, hold the place of the unerring Victors, cast off the clothes of habit and illusion, seek the innate wisdom as a companion, mix the key of mother and son luminosity; this is shown in sign; the letters arise from the expanse..." and a long list of equivalences, "the essence is the Vajra vehicle". "Hold these signs well in mind." Having said so she sprinkled nectar on the body, and said "the pledge is the key; tell no one". At once, as if waking from a dream (རྨི་ལམ་སད་པ་ལྟར), the sky grew clear. When he told those dreams to his mother, she said: "Do not tell others and do not make much talk; if you learn letters it is an auspicious dependent arising (ལོབས་པའི་རྟེན་འབྲེལ); if a teacher like a kātsar (an unsettled word «ཀ་ཚར») is found, learn letters near your uncle". Looking that day, the uncle...
 
+## <a id="tsl-30-i98"></a>tsl.30:i98 Rtsa gsum gling pa's life: a woman in a dream or experience-appearance, hazy, in the tent at night
+
+*Read: etext, 2026-11-11.*
+
+> ནུབ་གཅིག་སྦྲ་ཡི་ནང་དུ་ཉལ་བའི་ཚེ། །རྨི་ལམ་མམ་ནི་ཉམས་སྣང་ཟ་ཟི་ལ། །བུད་མེད་ཁྲོ་མོའི་ལུས་ཅན་ཞིག་ལ་ནི། ཤིན་ཏུ་མི་བཟད་རྟགས་བརྒྱས་རབ་ཏུ་སྤྲས། ཁོལ་མོ་ལྔ་ཙམ་བྱས་ནས་མདུན་དུ་བྱུང༌། །མཆོད་གཏོར་ཚོགས་འཁོར་གྲབས་ནི་གྱིས་ཤིག་དང་། །སང་ནས་རིག་འཛིན་བཟང་པོ་ཕེབས་འོང་ཟེར།
+
+(Rtsa gsum gling pa, his life in verse, Zhal gsung ma, vol. 30, etext page marker p98 = image 98; printed page 87. The episode: as a boy, in the camp at the monastery, he has been insulted.) «One night, when I lay down in the tent, in a dream (རྨི་ལམ, rmi lam) or an experience-appearance (ཉམས་སྣང, nyams snang), hazy (ཟ་ཟི, za zi), a woman with a wrathful body, adorned with a hundred unbearable signs, came before me with some five attendants and said: "Prepare the feast offering, torma and gathering; tomorrow a good vidyādhara (རིག་འཛིན, rig 'dzin) will come."» The author himself cannot tell whether it is dream or experience-appearance and gives both words, with "hazy" for the quality of the sight.
+
+## <a id="tsl-30-i102-103"></a>tsl.30:i102-103 Rtsa gsum gling pa's life: a vision in a brief daytime doze, a hazy experience-appearance dream, left when memory is caught
+
+*Read: etext, 2026-11-11.*
+
+> ཤིང་ར་གཅིག་གི་ཀྱོག་ཏུ་ཕྱིན་ནས་ཀྱང་། །ཉི་མ་འདུག་པར་ཅུང་ཟད་གཉིད་ལ་སོང་། །དེ་ཚེ་ཉམས་སྣང་རྨི་ལམ་ཟ་ཟི་རུ། །ནེའུ་སེང་མེ་ཏོག་འཁྲུངས་པའི་གླིང་དུ་སླེབས། །དེ་ཡི་མོད་ལ་མདུན་གྱི་ནམ་མཁའ་ནས། །ཁྱེའུ་རུས་པའི་རྒྱན་དྲུག་ལྡན་པ་ཞིག །ཌཱཀྐི་གར་མོ་བཞི་ཡིས་བསྐོར་ནས་སུ། །འཇའ་འོད་ཐིག་ལེ་ཉག་ཐག་ཤིག་ཤིག་བྱུང་། །དེ་ཚེ་བདག་ནི་དྲན་པ་ཟིན་པ་དང་། །ལངས་ནས་ཐལ་སྦྱར་གསོལ་བ་འདི་ལྟར་བཏབ།
+
+(The same life in verse, vol. 30, etext page markers p102-103 = images 102-103; the text is that of the lines on image 102 ending «...he went behind a wooden fence» and image 103.) «Having gone to the corner of a wooden fence, in the daylight I slept a little (ཅུང་ཟད་གཉིད་ལ་སོང, cung zad gnyid la song). Then, in a hazy experience-appearance dream (ཉམས་སྣང་རྨི་ལམ་ཟ་ཟི, nyams snang rmi lam za zi), I came to a land where the neu seng flowers grow; and just then, out of the sky before me, a boy with the six bone ornaments, surrounded by four ḍākinī dancers, appeared in a rainbow-light, a drop (ཐིག་ལེ, thig le), clear and vivid. At that time, as soon as I caught my memory (དྲན་པ་ཟིན་པ, dran pa zin pa), I rose, folded my hands and made this prayer.» A vision in a brief daytime doze, called a hazy experience-appearance dream; he leaves it when memory (mindfulness) is taken hold of, and then prays to Padmasambhava; the guru answers in the next lines (image 104).
+
 ## <a id="tsl-30-i106-108"></a>tsl.30:i106-108 Rtsa gsum gling pa's life: dreams at the middle session and at night, the places named, and not to tell the signs before their time
 
 *Read: etext, 2026-11-10 (RD363): BDRC's etext (IE0OPI46409446) of the volume named in the id, page marker pN = image N; only the excerpt, with the etext's stray spaces and page-start marks left out; not compared with the scan, so every syllable here stands on the etext and is not built on until read on the scan.*
@@ -142,3 +158,19 @@ At night (ནུབ་མོ, nub mo) a black woman riding a mule said "stay in 
 > དེ་ཡི་ནུབ་མོ་ཉལ་བའི་རྨི་ལམ་ལ། །མཛེ་ཕོ་ཤིན་ཏུ་འཇིགས་པའི་གཟུགས་ཅན་ཞིག །གཅེར་བུས་སྒོ་དེ་ཁྲིག་གེར་བཅད་པ་དང་། ཁ་རླངས་ཚུབ་ཚུབ་ལག་ པ་སྙོབ་ནས་བྱུང༌། །དེ་ཚེ་རང་ཉིད་གུ་དྲག་གསལ་བཏབ་ནས། །གནམ་ལྕགས་རྡོ་རྗེའི་ཕུར་པ་ལག་ཏུ་ཐོགས། །མཛེ་ཕོ་དེ་ཉིད་གན་རྐྱལ་སྒྱུར་ནས་ སུ༑ ༑དམིགས་པ་གསལ་བཏབ་ཕུར་བུ་སྙིང་ཁར་བསྣུན། །དེ་ཚེ་མཛེ་ཕོ་དེ་ཡིས་ཚིག་སྨྲས་ནས། ཀྱཻ། དཔའ་བོ་དགོངས་པ་ལེགས་ལྷོད་དང༌། །སྲོག་སྙིང་འབུལ་ལྟར་བཀའ་ བཞིན་བྱ། །ཞེས་ཟེར་མཛེ་ཕོ་འཇའ་ལྟར་ཡལ་ནས་སོང་། །དེ་ནས་ཐོ་རངས་རྨི་ལམ་སད་པ་དང་། །ལུས་ཀྱང་བདེ་ཞིང་ཉམས་ཀྱང་གསལ་བ་དང་། །ལུས་ཀྱི་ཤུ་ཐོར་རྣམས་ཀྱང་ སོས་ནས་འདུག །དེ་ཡི་ནུབ་མོ་སྲོད་འཕྲོས་ཡིན་འདྲ་ཞིག །མི་ནག་བདུད་རྟ་ནོན་པའི་འཁོར་ཚོགས་དང་། །བུད་མེད་མདའ་དར་ཐོགས་པ་མང་པོ་ཞིག །འུར་སྒྲ་ལྡིར་ལྡིར་སྤྱིལ་ བུའི་སྒོ་རུ་བྱུང་། །རྣལ་འབྱོར་པ་རང་སྒོ་རུ་དོན་དང་ཟེར། །ཆོ་འཕྲུལ་ཡིན་ནམ་བསམས་ནས་བལྟས་པའི་ཚེ། །སྣང་ཚུལ་སྒྱུ་མའི་གཟུགས་བརྙན་ལྟ་བུར་བཞག
 
 That night in a dream while lying down: a leper (མཛེ་ཕོ, mdze pho) of fearful form, naked, forced the door open, breath steaming, hands waving. Then I made clear the Fierce Guru (གུ་དྲག, gu drag) and took the vajra phurba of sky-iron in hand, threw the leper down, concentrated, and drove the phurba into his heart. The leper then spoke: "Hey, hero, loosen your mind; as if offering life and heart, I will act at your command"; and he vanished like a rainbow. Then at dawn (ཐོ་རངས, tho rangs) on waking from the dream, the body was well, the experience clear, and the body's sores were healed. That night, at evening time (སྲོད་འཕྲོས), a company of black men on demon horses and many women holding arrow-banners came with a loud noise to the door of the retreat hut; "the yogin should come to the door", they said. Thinking whether it was a magical trick, I looked: the appearance was put aside as a reflection of an illusion...
+
+## <a id="tsl-30-i406"></a>tsl.30:i406 Rtsa gsum gling pa's life: on the night of the fourteenth, a hazy experience-appearance of a god, bdud and btsan
+
+*Read: etext, 2026-11-11.*
+
+> ཞག་པོ་གཉིས་ཙམ་སོང་བའི་མཚམས་ཤིག་ལ། །བཅུ་བཞི་ནུབ་མོ་ཉམས་སྣང་ཟ་ཟི་རུ། །ལྷ་བདུད་བཙན་གསུམ་ཆ་ལུགས་འཛིན་པ་ལ། །རང་འདྲའི་འཁོར་གྱིས་བསྐོར་བ་དུམ་པ་ཞིག །བདག་གི་མདུན་དུ་བྱུང་ནས་འདི་སྐད་ཟེར། །གཏེར་སྟོན་འདི་རུ་ཕེབས་ནས་ཅི་ཙམ་སོང་།
+
+(Vol. 30, etext page marker p406 = image 406; the treasure-finding journey.) «After about two days had passed, on the night of the fourteenth, in a hazy experience-appearance (ཉམས་སྣང་ཟ་ཟི, nyams snang za zi), a troop of a god, a bdud and a btsan in their dress, each surrounded by a following like himself, came before me and said: "Treasure-revealer, how long since you arrived here?"» Here the vision is of the night of the lunar fourteenth, named only as experience-appearance, hazy; whether he slept is not said.
+
+## <a id="tsl-30-i473"></a>tsl.30:i473 Rtsa gsum gling pa's life: a hazy, in-between experience-appearance at a treasure-finding
+
+*Read: etext, 2026-11-11.*
+
+> དེ་སྐབས་ཟ་ཟི་བར་མའི་ཉམས་སྣང་ལ། །མི་བདུད་ཤན་པ་འདྲ་བ་མང་པོ་ཡིས། །ཚོགས་འཁོར་འབུལ་ལོ་ཅུང་ཟད་བཞུགས་དང་ཟེར། །སྙིང་དང་ཀླད་ཁྲག་ཆ་གཅིག་ཕུལ་ནས་བྱུང་།
+
+(Vol. 30, etext page marker p473 = image 473; a treasure-finding episode.) «At that time, in a hazy, in-between experience-appearance (ཟ་ཟི་བར་མའི་ཉམས་སྣང, za zi bar ma'i nyams snang), many human-like bdud and butchers said: "We offer a gathering feast; stay a little", and offered heart and brain with blood.» "Hazy in between" (ཟ་ཟི་བར་མ, za zi bar ma) qualifies the experience-appearance; the sight is of beings that ask for a feast and is not read as an omen in the lines read.
