@@ -146,6 +146,30 @@ Jo nang abbot Phyogs las rnam rgyal, *Catalogue of the translated treatises* (Bs
 
 The one difference from the Derge catalogue that matters: the Deceiving Death's author is written «ངག་དབང་གྲགས་པ» (Ngag dbang grags pa), the short form of Ngag gi dbang phyug grags pa (Vāgīśvarakīrti), and its translators are given as "Jo bo rje and Rin chen bzang po" where the Derge catalogue and colophon say Dīpaṃkaraśrījñāna. State: etext (the scans are lent only on archive.org; HTTP 401).
 
+## <a id="svo-i75"></a>svo:i75 The Narthang catalogue (vol. 225, img. 75): the Dream Tārā's practice by Candragomin's pupil, translated by Sugataśrī and Byams pa'i dpal (RD406)
+
+*Read: machine, 2026-11-11.*
+
+> རྨི་ལམ་སྒྲོལ་མའི་སྒྲུབ་ཐབས་སློབ་དཔོན་ཟླ་བའི་བཤེས་གཉེན་གྱིས་མཛད་པ། པཎྜི་ཏ་སུ་ག་ཏ་ཤྲཱི་དང་། ལོ་ཙཱ་བ་བྱམས་པའི་དཔལ་གྱི་འགྱུར།
+
+Narthang Tengyur manuscript, catalogue vol. 225 (I2KG212509), img. 75, in the middle of the page, in the run on Tārā, after the Oḍḍiyāna Tārā entries:
+
+"The Dream Tārā's practice (རྨི་ལམ་སྒྲོལ་མའི་སྒྲུབ་ཐབས, rmi lam sgrol ma'i sgrub thabs), made by the teacher Candragomin's pupil (ཟླ་བའི་བཤེས་གཉེན, zla ba'i bshes gnyen): translation of the paṇḍita Sugataśrī and the lotsāba Byams pa'i dpal."
+
+A Tārā practice with a maker's name «Candragomin's pupil»; it is the catalogue's entry for a dream-Tārā sādhana, not the Examination of Dreams. Whether it is the work the Svapnohana text of svo's first passage is (the Dream Tārā practice) is not told by the line. State: machine reading (Yigdzin-1, whole image, 2026-11-11); the scan not read syllable by syllable.
+
+## <a id="svo-i77"></a>svo:i77 The Narthang catalogue (vol. 225, img. 77): the Deceiving Death in 360 verses, and directly after it the Examination of Dreams, Vibhūticandra's own translation (RD406)
+
+*Read: machine, 2026-11-11.*
+
+> སློབ་དཔོན་ངག་དབང་གྲགས་པས་མཛད་པའི་འཆི་བ་བླུ་བའི་མན་ངག་ཤླཽ་ཀ་སུམ་བརྒྱ་དྲུག་ཅུ་པ། ཇོ་བོ་རྗེ་དང་། ལོ་ཙཱ་བ་རིན་ཆེན་བཟང་པོའི་འགྱུར། འདི་ཕྱི་ནང་གི་རྒྱུད་དུ་མ་དང་འབྲེལ་ཡང་ཁྱད་པར་མ་རྒྱུད་རྡོ་རྗེ་མཁའ་འགྲོ་དང་། གདན་བཞི་དང་འགྲེལ་པར་སྣང་བས་འདིར་བཀོད་དོ། །རྨི་ལམ་བརྟག་པ་བི་ཌཱུ་ཏི་ཙནྡྲའི་རང་འགྱུར། པདམ་དྲ་བ་དཔལ་འབྱུང་གི་སྒྲུབ་ཐབས་རྒྱལ་བ་དཔལ་ཡེ་ཤེས་ཀྱི་མཛད་པ། ཁ་ཆེའི་པཎྜི་ཏ་སུ་མན་ཤྲཱི་དང་། བོད་ཀྱི་ལོ་ཙཱ་བ་དགེ་སློང་རིན་ཆེན་གྲུབ་ཀྱི་འགྱུར།
+
+Narthang Tengyur manuscript (Tibet House, New Delhi; BDRC W2KG5015, vol. 225, the catalogue "Bstan bcos 'gyur ro cog gi dkar chag tshangs pa'i dbyangs", image group I2KG212509), img. 77 (printed folio 75), in the middle of the page, in the run of the works on the mother tantras:
+
+"The Deceiving Death instruction in three hundred and sixty verses (ཤླཽ་ཀ, śloka), made by the teacher Ngag dbang grags pa: translation of the Lord (Atiśa) and the lotsāba Rin chen bzang po. Though this is joined with many outer and inner tantras, it is set down here because it appears chiefly in the mother tantra Vajraḍākinī, the Four Seats (གདན་བཞི, gdan bzhi) and the commentary. The Examination of Dreams (རྨི་ལམ་བརྟག་པ, rmi lam brtag pa): the own translation (རང་འགྱུར, rang 'gyur) of Vibhūticandra. The practice of Padmadra (པདམ་དྲ), made by the Victor Dpal ye shes: translation of the Kashmiri paṇḍita Sumanaśrī and the Tibetan lotsāba, the monk Rin chen grub."
+
+The entry of the Examination of Dreams has no maker's name: only «Vibhūticandra's own translation», that is, Vibhūticandra translated it himself. It stands directly after the Deceiving Death, as in Phur lcog's catalogue (svo:i472-473). The words after it (the practice of Padmadra, made by Dpal ye shes, translated by Sumanaśrī and Rin chen grub) are most likely the next entry, with its own maker and translators; the line gives no mark that tells whether they belong to the Examination of Dreams. State: machine reading (Yigdzin-1 on the whole image, 2026-11-11); the page was looked at on the scan in two enlarged crops, but the syllables were not read one by one, and the line was not numbered by ink rows (it falls in the third to fifth line of the page's seven). The model's spelling is kept; «པདམ་དྲ» is as printed in the model's text.
+
 ## <a id="svo-i81"></a>svo:i81 Vajrapāṇi's dhāraṇī «Seeing a dream» (Derge Kanjur Toh 460A, etext p. 81): water recited over, drunk, and sleep (RD381)
 
 *Read: etext, 2026-11-10.*
@@ -2241,3 +2265,19 @@ Read by RD404 (2026-11-11), within the time given: I2KG212509 img. 208–240 by 
 ### Searched and not found (RD404)
 
 - Narthang catalogue vol. 225 (I2KG212509) img. 208-240, odd images, Yigdzin-1 on whole images, 2026-11-11: «རྨི་ལམ་བརྟག་པ» and «སྭཔྣ» none; «རྨི་ལམ» once (img. 239, Nāgārjuna's work). Even images 208-238 came back with 1-50 characters from the model and were not read; images 241-288 not run (time).
+
+## The Narthang catalogue for the Examination of Dreams, images 3–140 (RD406)
+
+Read by RD406 (2026-11-11), in the time given (about thirty minutes): I2KG212509 img. 3–86 by Yigdzin-1 on whole images, the even images 4–104 again on crops of the text block (140–2850 × 250–700 px of the 3000 px image, which the whole-image run returns nearly empty for even images), img. 77 looked at on the scan in two enlarged crops. Images 87–140 (the odd ones from 87, and the even ones from 106) were not read: the run was stopped once the entry was found. Passages svo:i77, svo:i75. Claims narthang-catalogue-img-77-examination-of-dreams-after-the-deceiving-death, narthang-catalogue-img-75-dream-tara-practice.
+
+- **q1143, q1004, and the second question of RD365.** The Narthang catalogue has an entry for the Examination of Dreams, on img. 77 (printed folio 75), in the run of the mother tantras, directly after the Deceiving Death in 360 verses (svo:i77); «རྨི་ལམ་བརྟག་པ» then «བི་ཌཱུ་ཏི་ཙནྡྲའི་རང་འགྱུར», Vibhūticandra's own translation, no maker named: the same as in Phur lcog's catalogue. The 360-verse Deceiving Death is listed there too, by Ngag dbang grags pa, translated by the Lord and Rin chen bzang po; the "two condensed meanings" of img. 197 are another entry.
+- Img. 75 has a Dream Tārā practice by Candragomin's pupil (svo:i75).
+
+### Open (RD406)
+
+- Question: in the entry on img. 77 the Examination of Dreams carries only «Vibhūticandra's own translation»; do the words that follow («the practice of Padmadra, made by the Victor Dpal ye shes, translated by Sumanaśrī and Rin chen grub») belong to the next work, as the catalogue's habit of title, maker, translators suggests?
+- Question: is the Dream Tārā practice of img. 75 (by Candragomin's pupil, translated by Sugataśrī and Byams pa'i dpal) the work whose text stands in this file's first passage, the Dream Tārā's practice?
+
+### Searched and not found (RD406)
+
+- Narthang catalogue vol. 225 (I2KG212509) img. 3–86 whole images and img. 4–104 even crops, Yigdzin-1, 2026-11-11: no second entry with «རྨི་ལམ་བརྟག་པ»; «རྨི་ལམ» occurs only on img. 75 and 77 in the run (the grep over the files was made on «རྨི་ལམ» alone). Images 87–140 not read.
