@@ -2373,6 +2373,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1129.md](questions/q1129.md) | question q1129 | Does a reader of the cursive confirm every cell of the Kokubunken table's hentaigana, in particular the first and second glyph of the first, third, eleventh and twelfth months | open; cites mdz:i54254 |
 | [questions/q1130.md](questions/q1130.md) | question q1130 | Who is the lama of the Śramaṇā rite in the be'u bum's dream set, is he in the Paṇ chen Śākyaśrī's line, and does Tāranātha's section come from the same source | open; cites tdr:p337-342e, ttn:p137-138, lcg:p26 |
 | [questions/q1131.md](questions/q1131.md) | question q1131 | Are the be'u bum's Śākyamuni and White Tārā rites taken from the tradition of the Sgrub thabs kun btus, and which text names their compiler | open; cites tdr:p337-342e |
+| [questions/q1132.md](questions/q1132.md) | question q1132 | Is ལྟ་བ in the Derge title of the Turning back of the bad dream a variant of ལྟས | open; cites svo:i197 |
+| [questions/q1133.md](questions/q1133.md) | question q1133 | Why is the Pleiades month called the Dream month | open; cites svo:p395a |
+| [questions/q1134.md](questions/q1134.md) | question q1134 | What is རྨི་ལམ in the mar ngo line of the pregnancy rite, and what does the second print read | open; cites svo:p446b |
+| [questions/q1135.md](questions/q1135.md) | question q1135 | Does ནམ་མཁའི་མཐར in Dpal rta dbyangs name dawn, a place or the end of a meditation | open; cites svo:p378b |
+| [questions/q1136.md](questions/q1136.md) | question q1136 | Does the Sanskrit page of the Mañjuśrīmūlakalpa read kramaś or samaś | open; cites svo:i329-330 |
 
 <!-- end pool index -->
 
