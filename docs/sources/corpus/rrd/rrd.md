@@ -274,3 +274,8 @@ Question: Is the work behind rrd.21:p19 (BDRC author Kun mkhyen 'Jigs med gling 
 ## The state neither asleep nor awake in Mipham and Rtsa gsum gling pa (what RD388 left, q1107): Mipham read by the author facet (&author[0]=P252) and Rtsa gsum gling pa vols. 27–30 (etext IE0OPI46409446) for the words that name falling asleep or waking with awareness, ཉམས and the clear light of experience, that exact phrases did not reach; q1107 (RD389)
 
 Nothing read yet: RD389's passages, with the English beside them, go here.
+
+
+## Marpa's other volumes, Mi la ras pa's songs and life and Sgam po pa's works read for the dream of the middle of the night (what RD387 left, q1084): the etexts opened beyond the exact-phrase hits, the 103 hits of «གདོན་དབང་» and the Six Dharmas' dream manuals by title (RD390)
+
+Nothing read yet: RD390's passages, with the English beside them, go here.
