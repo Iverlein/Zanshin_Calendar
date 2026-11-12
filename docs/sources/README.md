@@ -1287,6 +1287,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch10-table-families.md](claims/wb1-ch10-table-families.md) | claim, list | The families of tables: Fierce three, Peaceful two, slow, pure, quick-pure | cites wb.1:p72, wb.1:p73, wb.1:p76, wb.1:p77; feeds — |
 | [claims/wb1-ch10-time-units.md](claims/wb1-ch10-time-units.md) | claim, list | The units of the tables' base and the six summarised meanings given to house pairs | cites wb.1:p70, wb.1:p71; feeds — |
 | [claims/wb1-ch11-close.md](claims/wb1-ch11-close.md) | claim, note | WB ch. 11's last pages: the quick tables of Rāhu, the Kar myang reckoning, the year's actor, Īśvara and the king and minister, and Nor bzang rgya mtsho's abridgement | cites wb.1:p86, wb.1:p87, wb.1:p88, wb.1:p89, wb.1:p90; feeds — |
+| [claims/wb1-ch12-brahma-skyid-sdug-line.md](claims/wb1-ch12-brahma-skyid-sdug-line.md) | claim, note | Ch. 12 p. 95: the Brahma wheel's line reads skyid sdug, not skyid dug | cites wb.1:p95b, wb.1:p95; feeds — |
 | [claims/wb1-ch12-brahma.md](claims/wb1-ch12-brahma.md) | claim, list | The Brahma wheel's nine sets of three mansions and their results (WB p. 95) | cites wb.1:p95; feeds — |
 | [claims/wb1-ch12-five-harms.md](claims/wb1-ch12-five-harms.md) | claim, list | The five harms of the planets on the name mansion (WB pp. 97–98) | cites wb.1:p97, wb.1:p98; feeds — |
 | [claims/wb1-ch12-plan.md](claims/wb1-ch12-plan.md) | claim, note | WB ch. 12: title, plan and what the author leaves out of the Dbyangs 'char | cites wb.1:p91, wb.1:p102, wb.1:p103; feeds — |
@@ -1498,7 +1499,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
-| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 20 passages: 20 scan |
+| [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 78 passages: 56 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
@@ -2033,7 +2034,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | open; cites wb.2:p428c |
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
-| [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | open; cites wb.1:p95 |
+| [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | answered; cites wb.1:p95 |
 | [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | open; cites wb.1:p105b |
 | [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
 | [questions/q0754.md](questions/q0754.md) | question q754 | The figure after «འབྱུང་ཆུས» on WB p. 30 (line «སྐར་མཚམས་ཆུ་ཚོད་འབྱུང་ཆུས(?)སྦྱངས»): the print's figure is damaged, the number words give 54, the machine read 55. | open; cites wb.1:p30 |
