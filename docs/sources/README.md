@@ -2445,6 +2445,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1161.md](questions/q1161.md) | question q1161 | The 11th month head (WB vol. 1 p. 154, reprint img. 161), printed lines 6 and 7: the dated entries (the 10th and the clauses of the 20s) are not read letter by letter; read them at 4x or more and set them against RD2's table of the 11th month's avoidances. | open; cites — |
 | [questions/q1162.md](questions/q1162.md) | question q1162 | What does «རྐྱང་ལྷགས» (rkyang lhags) mean in the closing note of the 7th month head of the model almanac (WB vol. 1 p. 167): the doing reckoning takes the ninth of the sun's mansion-places and seven chu tshod, and whatever stands there in this month and the next, a rkyang lhags is born? | open; cites — |
 | [questions/q1163.md](questions/q1163.md) | question q1163 | Does the cursive hand of the Zhol print's strip charts (WB vol. 1, Zhol img. 151 and the other eleven) become legible at 6x in one-cell strips, so that the twelve strip charts can be matched cell for cell to pp. 142–147 of the 1996 etext? | open; cites — |
+| [questions/q1164.md](questions/q1164.md) | question q1164 | What do the cells of the strip charts of WB vol. 1 pp. 142–147 stand for (the nine sme ba, the earth lords of ch. 14, the sun's course named in the heading row), and by what rule is one cell filled and its neighbour left empty? | open; cites — |
 
 <!-- end pool index -->
 
