@@ -1300,8 +1300,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-model-almanac-page-allocation.md](claims/wb1-ch13-model-almanac-page-allocation.md) | claim, note | Which almanac boxes stand on which page, pp. 165-171 | cites wb.1:p156, wb.1:p165, wb.1:p166-171; feeds — |
 | [claims/wb1-ch13-month-head-1st-beyond-rd2.md](claims/wb1-ch13-month-head-1st-beyond-rd2.md) | claim, note | The 1st month's head: the festival of wonders and an unsettled weekday line beyond RD2's table | cites wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-head-3rd-stacked-figures.md](claims/wb1-ch13-month-head-3rd-stacked-figures.md) | claim, note | The 3rd head's stacked figures, read in part | cites wb.1:p160; feeds — |
+| [claims/wb1-ch13-month-heads-7th-end-and-11th-lines-5-8.md](claims/wb1-ch13-month-heads-7th-end-and-11th-lines-5-8.md) | claim, note | The 7th head's closing note complete; the 11th head's lines 5-8 as RD2 | cites wb.1:p167c, wb.1:p154d; feeds — |
 | [claims/wb1-ch13-month-heads-7th-to-10th.md](claims/wb1-ch13-month-heads-7th-to-10th.md) | claim, note | The 7th to 10th month heads follow the fixed run; the twelve-link words 9 to 12 | cites wb.1:p166-167, wb.1:p168, wb.1:p170, wb.1:p171; feeds — |
 | [claims/wb1-ch13-month-heads-8th-9th-11th-by-eye.md](claims/wb1-ch13-month-heads-8th-9th-11th-by-eye.md) | claim, note | The 8th, 9th and 11th heads by eye: words and weekday lines agree with the machine text and RD2 | cites wb.1:p168b, wb.1:p170b, wb.1:p154d; feeds — |
+| [claims/wb1-ch13-month-heads-8th-to-10th-by-eye.md](claims/wb1-ch13-month-heads-8th-to-10th-by-eye.md) | claim, note | The 8th to 10th heads read by eye agree with the machine; two corrections | cites wb.1:p168c, wb.1:p170c, wb.1:p171c; feeds — |
 | [claims/wb1-ch13-month-heads-festivals-beyond-rd2.md](claims/wb1-ch13-month-heads-festivals-beyond-rd2.md) | claim, note | The 3rd to 6th heads' festivals beyond RD2's table | cites wb.1:p160, wb.1:p162, wb.1:p165b, wb.1:p158-159, wb.1:p163; feeds — |
 | [claims/wb1-ch13-month-heads-fixed-run.md](claims/wb1-ch13-month-heads-fixed-run.md) | claim, note | The model almanac's month head is one fixed run of phrases (12th and 1st heads read line by line) | cites wb.1:p155, wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-heads-links-and-seasons.md](claims/wb1-ch13-month-heads-links-and-seasons.md) | claim, note | The month heads of the 2nd to 6th months: link word, work and months' names by the fixed run | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b; feeds — |
@@ -1493,7 +1495,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 20 passages: 20 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 67 passages: 45 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 71 passages: 49 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
