@@ -1320,6 +1320,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-zhol-ox-chart-layout.md](claims/wb1-ch13-zhol-ox-chart-layout.md) | claim, note | Ch. 13 Zhol ox chart: same layout and set word as the rat chart | cites wb.1:p147y, wb.1:p147z; feeds — |
 | [claims/wb1-ch13-zhol-strip-charts-legible.md](claims/wb1-ch13-zhol-strip-charts-legible.md) | claim, note | Ch. 13 strip charts: the Zhol print's hand is the legible one, syllables still unsettled | cites wb.1:p147z, wb.1:p136-147; feeds — |
 | [claims/wb1-ch2-mansion-list-dots.md](claims/wb1-ch2-mansion-list-dots.md) | claim, note | WB ch. 2 p. 19: the dots under the mansion-name syllables are printed marks | cites wb.1:p19; feeds — |
+| [claims/wb1-p205-rku-phrog-ra-head.md](claims/wb1-p205-rku-phrog-ra-head.md) | claim, note | WB p. 205: the stack in «རྐུ་འཕྲོག» has a ra head | cites wb.1:p205; feeds — |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wb30-dream-fourth-riding-animal-horse.md](claims/wb30-dream-fourth-riding-animal-horse.md) | claim, list | Ch. 30's good dreams name four riding animals: lion, elephant, buffalo, horse | cites wb.2:p144r, wb.2:p144; feeds — |
 | [claims/wbt-p104-sgab-on-taikhang.md](claims/wbt-p104-sgab-on-taikhang.md) | claim, note | The run of deaths at p. 104 on the Taikhang: the same ga-stack, held with doubt | cites wb.2:p104-105, wbz:i778; feeds block-31 |
@@ -2060,7 +2061,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0774.md](questions/q0774.md) | question q774 | The chu srang figures of p. 62: holding, release, pressing | open; cites wb.1:p62 |
 | [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | open; cites wb.1:p10-11 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | open; cites wb.1:p12-13 |
-| [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | open; cites wb.1:p205 |
+| [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | answered; cites wb.1:p205 |
 | [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
 | [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | open; cites wb.1:p41 |
 | [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | open; cites wb.1:p24 |
