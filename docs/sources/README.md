@@ -1312,6 +1312,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-month-heads-weekday-lines.md](claims/wb1-ch13-month-heads-weekday-lines.md) | claim, note | The weekday lines of the 2nd to 6th heads and the wrapped line | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b, wb.1:p157, wb.1:p159z; feeds — |
 | [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p142.md](claims/wb1-ch13-strip-charts-eye-p142.md) | claim, note | Ch. 13 strip charts: p. 142 legible by place on the reprint, p. 147 mostly empty cells | cites wb.1:p142e, wb.1:p147e; feeds — |
+| [claims/wb1-ch13-strip-charts-eye-p143-144.md](claims/wb1-ch13-strip-charts-eye-p143-144.md) | claim, note | Ch. 13 strip charts: pp. 143-144 read by place, the same few names in the cells | cites wb.1:p143e, wb.1:p144e; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p145-146.md](claims/wb1-ch13-strip-charts-eye-p145-146.md) | claim, note | Ch. 13 strip charts: pp. 145-146 read by place, the same names, many cells empty | cites wb.1:p145e, wb.1:p146e; feeds — |
 | [claims/wb1-ch13-strip-charts-zhol-order.md](claims/wb1-ch13-strip-charts-zhol-order.md) | claim, note | The twelve strip charts of WB vol. 1 ch. 13: order on the Zhol print and the 1996 print | cites wb.1:p142, wb.1:p147; feeds — |
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
@@ -1498,7 +1499,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 20 passages: 20 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 76 passages: 54 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 78 passages: 56 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
