@@ -2016,7 +2016,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0737.md](questions/q0737.md) | question q737 | The 7th month head's weekday line | open; cites — |
 | [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | answered; cites wb.1:p171b |
 | [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
-| [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | open; cites — |
+| [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | answered; cites — |
 | [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
 | [questions/q0742.md](questions/q0742.md) | question q742 | The bracketed numerals of the great number-names, p. 20 | open; cites — |
 | [questions/q0743.md](questions/q0743.md) | question q743 | The mantra after «dus 'khor lo'r» on p. 14 | open; cites — |
@@ -2435,6 +2435,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1156.md](questions/q1156.md) | question q1156 | What stands in the line of WB vol. 1 p. 19 (img. 26, line 7 or 8) that names the mansion of Jyeṣṭhā, where the machine reads «མོ་དུ་འདོད»? | open; cites — |
 | [questions/q1157.md](questions/q1157.md) | question q1157 | Are the second and fourth band labels of WB vol. 1 p. 44 (img. 51) Mercury and Venus, and is the Venus word «པ་སངས»? | open; cites — |
 | [questions/q1158.md](questions/q1158.md) | question q1158 | Is there a legend or parallel table, in another print or in Mipham's notes, that gives the constants of WB vol. 1 pp. 44–47 as numbers, so that the table digits can be checked? | open; cites — |
+| [questions/q1159.md](questions/q1159.md) | question q1159 | Does the numeral under the trigram letter in box 5 of the model almanac (WB vol. 1 p. 156 reads 1 or 7; p. 165 differs) run by the day's place in a cycle that the tradition states, so that the cells need not be read one by one? | open; cites — |
+| [questions/q1160.md](questions/q1160.md) | question q1160 | On the 9th month head of the model almanac (WB vol. 1 p. 170, 1996 print img. 180), at the end of the dated avoidances the print has, before «west» (nub), a five and a syllable that looks like lha at 6x, in the order five, lha, west; the machine wrote lha, five, west. Is the syllable a stray of the printing or a word? | open; cites — |
+| [questions/q1161.md](questions/q1161.md) | question q1161 | The 11th month head (WB vol. 1 p. 154, reprint img. 161), printed lines 6 and 7: the dated entries (the 10th and the clauses of the 20s) are not read letter by letter; read them at 4x or more and set them against RD2's table of the 11th month's avoidances. | open; cites — |
 
 <!-- end pool index -->
 
