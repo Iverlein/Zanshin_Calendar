@@ -2431,6 +2431,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1154.md](questions/q1154.md) | question q1154 | In the Narthang catalogue entry on img. 77 does the Padmadra practice by Dpal ye shes (translated by Sumanaśrī and Rin chen grub) belong to the next work rather than to the Examination of Dreams | open; cites svo:i77 |
 | [questions/q1155.md](questions/q1155.md) | question q1155 | Is the Dream Tārā practice of img. 75 the work whose text stands in this file's first passage | open; cites svo:i75 |
 | [questions/q1156.md](questions/q1156.md) | question q1156 | What stands in the line of WB vol. 1 p. 19 (img. 26, line 7 or 8) that names the mansion of Jyeṣṭhā, where the machine reads «མོ་དུ་འདོད»? | open; cites — |
+| [questions/q1157.md](questions/q1157.md) | question q1157 | Are the second and fourth band labels of WB vol. 1 p. 44 (img. 51) Mercury and Venus, and is the Venus word «པ་སངས»? | open; cites — |
+| [questions/q1158.md](questions/q1158.md) | question q1158 | Is there a legend or parallel table, in another print or in Mipham's notes, that gives the constants of WB vol. 1 pp. 44–47 as numbers, so that the table digits can be checked? | open; cites — |
 
 <!-- end pool index -->
 
