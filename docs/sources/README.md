@@ -2494,6 +2494,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1180.md](questions/q1180.md) | question q1180 | Which ch. 27 starting points does WB vol. 2 p. 17 belong to, if not the thirty of the notes (p. 532)? p. 17 calls the weapons' one a «སྐོར་འགོ» (starting point) but fights by a rule of its own (the eighteenth and tenth). | open; cites — |
 | [questions/q1181.md](questions/q1181.md) | question q1181 | Is the printed figure after «གཟུགས་མེ» and «མཁའ་ཡོན» on WB vol. 1 p. 185 really (༧) and (༡༠), and do they match any misprint slip? The number words give 31 and 30 chu tshod (q676). | open; cites — |
 | [questions/q1182.md](questions/q1182.md) | question q1182 | Is the «སྲང» before «ཀཊའི» in the p. 51 verse on the length of the day really «གླང» (Taurus)? | open; cites — |
+| [questions/q1183.md](questions/q1183.md) | question q1183 | In the Do shal commentary and the Sgo bzhi mdzod lnga'i yang bcud skar rtsis, is the number-word «དོན» in «ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག» (WB ch. 2) glossed as 70? Is there a word-numeral list with «དོན» = 7? | open; cites — |
+| [questions/q1184.md](questions/q1184.md) | question q1184 | What is the long way of the Abridged Tantra that multiplies the cut surplus by 8280 (མཁའ་ནོར་མིག་ཀླུ) in the eclipse tables (WB ch. 9 p. 60), and what does the 8280 measure? | open; cites — |
+| [questions/q1185.md](questions/q1185.md) | question q1185 | Does a commentary on WB ch. 9 p. 62 state how the 30 chu srang of the fast course is split between holding and release, and whether pressing (མནན་ཡུན) is the middle or the whole of the covering? | open; cites — |
 
 <!-- end pool index -->
 
