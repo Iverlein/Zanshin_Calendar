@@ -807,6 +807,19 @@ Open:
 
 Searched and not found (RD400), 2026-11-11: (1) a table of the days a dream is not told in the Tokyo Gakugei prints bid 100408974 and 100408973 (all leaves on sheets of 700 px, image 24 and the last text leaf enlarged; running text not read letter by letter); (2) the same in ヤ0-32 and ヤ0-116 (images 25-36 of ヤ0-116 and 37-48 of ヤ0-32 on sheets only, the earlier images not looked at); (3) the Edo-Tokyo Museum 嘉永大雑書, the right-hand columns of 東都歳事記 canvas 18, the 江戸府内絵本風俗往来 and the 諸国年中行事 were not opened for lack of time; Kokubunken answered every call normally.
 
+## <a id="mdz-i7333115b"></a>mdz:i7333115b 歳時記栞草 (Tokyo TOKY-73331), image 15 read again at 6700 px: 初夢, 初鶏 and 鶏旦 (inv-c)
+
+*Read: by eye on the page image, 2026-11-13 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔歳時記栞草、東大知十 DIG-TOKY-73331 画像15、右頁（春の巻、丁数 七）、初夢の項〕
+> 初夢（はつゆめ）　〔紀事〕云、凡初夢とは大晦日の夜より元日の暁に至るの夢をいふ。○年くれ春来べしと／かたらふ（以下、西行の歌、読み切れず）　…べし。夜分は勿論、元日と鶏旦（…）と云。○け ノ部ニ注す可見合
+> 初鶏（はつとり）　鶏旦　〔御傘〕元日の朝鶏の鳴（初る鳥）と云（読み切れず）
+> 初暦（はつごよみ）　〔雑談拠〕暦開…
+> 歯固（はがため）　〔世諺問答〕…　〔本朝食鑑〕…
+> 春駒　〔故事要言〕…
+
+Entry "First dream" (初夢, hatsuyume) of the Shiori-gusa, right page of the spring volume, printed leaf 7, read on the page image at 6700 px. It opens with the boxed source label 紀事 (Kiji): "The first dream means, in general, the dream from the night of the last day of the year to the dawn of New Year's Day." Then, read in part, a note on the phrase "the year ends, spring is to come" with a poem attributed to Saigyo, and a sentence that the night is of course included, "New Year's Day and the dawn of the first cock (鶏旦)" (the verb after 鶏旦 is not read), then the cross-reference "annotated in the section け (ke), compare". The entry next to it, 初鶏 (hatsutori, "first cock"), carries 鶏旦 as a second head, cited to 御傘 (Gosan): the cock that crows on New Year's morning (read in part). Further entries on the page: 初暦, 歯固, 春駒, with the labels 雑談拠, 世諺問答, 本朝食鑑, 岷江入楚, 故事要言.
+
 ## <a id="mdz-i100408974"></a>mdz:i100408974 大雑書 (東京学芸大 安永9), image 24: the boxed dream item 百十七, read in single glyphs only (RD400)
 
 *Read: machine.*
