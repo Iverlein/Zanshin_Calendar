@@ -1194,6 +1194,17 @@ ahr:
   locator: page
   notes: "RD312: printed p. 436 (Śārīrasthāna 6.62-64) read on the page image with its apparatus; other editions of the Hṛdaya were searched in their text layers for the word"
 
+ahd:
+  title: "Yan lag brgyad pa'i snying po (Aṣṭāṅgahṛdaya), the Tibetan translation in the Derge Tengyur, Śārīrasthāna ch. 6, the verses on dreams"
+  author: "Vāgbhaṭa, translator not read here (the colophon is in another part of the volume)"
+  edition: "Derge Tengyur, Delhi Karmapae Choedhey reprint, the volume of etext VE23703_1514 (Toh 4310, MW23703_4310); etext page marker [p257] holds the dream verses"
+  bdrc: {work: MW23703_4310, etext: VE23703_1514}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD (inv-i, 2026-11-13): etext only, the volume fetched with bdrc.py etext; the dream verses of ch. 6 on [p256]-[p257], read in the etext, not on the scan"
+
 ahs:
   title: "Aṣṭāṅgasaṅgraha (Vāgbhaṭa), Śārīrasthāna ch. 12, the passage on the kinds of dream and the time of their fruit"
   author: "Vāgbhaṭa (the elder Vāgbhaṭa, about the 6th-7th century)"
