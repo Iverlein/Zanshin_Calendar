@@ -151,6 +151,14 @@ The signs of the two accumulations of merit and wisdom being completed (from the
 
 (On the way, the place unknown) when the dream was tested (རྨི་ལམ་བརྟགས་པ, rmi lam brtags pa): in the evening of the night (ནུབ་མོ་སྲོད་ལ, nub mo srod la) the fierce god Lha btsan 'bar ba came there with some nine attendants and said "we come to prepare the dependent arising". I asked: "Who are you, what are your names? Where is the road to go tomorrow morning? How far is the treasure place? On what day and hour (དུས་ཚོད་ཚེས་གྲངས, dus tshod tshes grangs) will we arrive? Show the prophecy without error by a sign." The god said: "Padma gter bdag gling pa, listen. I am Gze rgyal Lha btsan 'bar ba. I have come now as in the former pledge. Tomorrow, when the waxing half has passed (ཡར་ཙམ་འདས་པའི་མཚམས), come to the valley-mouth at the north-east where the teaching stands; of treasure places there are three on this side; many people are still gathering. On the fifteenth day (བཅོ་ལྔའི་ཚེས, bco lnga'i tshes) in the middle of the market there is a woman with matted topknot; ask her and she will know the place. When this fifteen has passed the signs are complete. Go without letting the mind wander, eyes half-closed." Having offered a few dairy gifts, he vanished like a rainbow. Then, waking at dawn (ཐོ་རངས, tho rangs), he rose, drank morning tea and went; "there was a valley like the earlier dream"; he hurried on and made the pass offering (ལ་མོ, la mo); that night he stayed at Lung bzang phu; in the morning at Lung bzang he made the small offering of the midday pass («གུང་གི་ལ་ཆུང»; sense not settled)...
 
+## <a id="tsl-30-i193-194"></a>tsl.30:i193-194 Rtsa gsum gling pa's life: a warning of the skag of the twenty-fifth year and the year-skag
+
+*Read: etext, 2026-11-13.*
+
+> ཁྱད་པར་ཉེར་ལྔའི་སྐག་དང་ནི། །ལོ་སྐག་རྒྱབ་མ་མ་ཡོལ་བར།ཟུར་ཙམ་གཞན་གྱིས་མཐོང་གྱུར་ན། །བར་ཆད་ཆེན་པོ་འབྱུང་ལགས་ཏེ།
+
+(A song in Rtsa gsum gling pa's life, spoken by one who then leaves for 'Bri gung (འབྲི་གུང, 'bri gung); the lines before it ask him to keep the words in mind.) "In particular the skag (སྐག, skag) of the twenty-fifth (year), and before the back of the year-skag (ལོ་སྐག, lo skag) has passed, if even a corner is seen by others, a great obstacle will come." The lines that follow warn of poison and of the obstacle that meets whatever supports life, and end with an order to seal the secret.
+
 ## <a id="tsl-27-i203-205"></a>tsl.27:i203-205 Treasure instruction: the dream signs of mantra recitation accomplished, peaceful, enriching and fierce
 
 *Read: etext, 2026-11-10 (RD363): BDRC's etext (IE0OPI46409446) of the volume named in the id, page marker pN = image N; only the excerpt, with the etext's stray spaces and page-start marks left out; not compared with the scan, so every syllable here stands on the etext and is not built on until read on the scan.*
@@ -158,6 +166,46 @@ The signs of the two accumulations of merit and wisdom being completed (from the
 > རྗེས་ཀྱི་རྟགས་ཚད་གྲུབ་རྟགས་ནི༔ དངོས་སུ་ཡི་དམ་ལྷ་མཇལ་བ་དང་༔ ལུང་སྟོན་པ་དང་༔ ཆོས་འཆད་པ་སོགས་དང་ཉམས་འབར་ཞིང་བསྐྱེད་རིམ་སྤྲོ་བ༔ ལུས་བདེ་ཞིང་ཡང་བ༔ ནད་ཞི་བ༔ བཀྲག་མདངས་དང་ལྡན་པ༔ ལོངས་སྤྱོད་འདུ་བ༔ གཞན་གྱིས་བྱམས་པ་བཀྲ་ཤིས་པའི་རྟགས་འབྱུང་༔ རྨི་ལམ་དུ་ཉི་ཟླ་ཤར་ ཆོས་འཆད་པ༔ དུང་འབུད་པ༔ དར་བཕྱར་བ༔ རྔ་བརྡུང་བ༔ གཞན་ཡང་རོལ་མོ་སྣ་ཚོགས་འཁྲོལ་ཞིང་སྒྲ་སྐད་ཆེར་གཡོས་པ༔ གཞན་གྱིས་ཟས་དང་ལོངས་སྤྱོད་སྟེར་བ༔ ལུས་ལ་འཇའ་ཤར་བ༔ ཁྲུས་བྱ་ཞིང་གོས་དཀར་གྱོན་པ༔ རྒྱན་གོས་གསར་བུ་ཕུན་སུམ་ཚོགས་པས་བརྒྱན་པ༔ ཁྲིའི་ཁར་བསྡད་པ༔ དབང་བསྐུར་བ༔ ཐམས་ཅད་རང་ལ་དད་ཅིང་ གུས་པ༔ རྟ་ནོར་ལུག་སོགས་མང་བ་དང་ལོ་ཐོག་ཕུན་ཚོགས་སྐྱེ་བ༔ ཞིང་བཟང་པོ་ལ་ཆུ་འགྱེད་པ༔ ས་བོན་བཏབ་པ༔ ཀླུ་རྒྱལ་མེ་ཏོག་གླིང་ལ་སླེབས་པ༔ ལྷའི་སྐུ་མདོག་ལྟར་ གྱི་མེ་ཏོག་མང་པོ་འཐུ་བ་དང་༔ དཀར་གསུམ་གྱི་ཟས་རོ་མྱོང་བ༔ གྱེན་ལ་འཛེགས་པ༔ ལུས་ཆེ་ཞིང་སྟོང་གསུམ་ཁྱབ་པ༔ རྐང་པ་གྱད་འདོར་གྱིས་གླིང་བཞི་བརྫིས་པ སྟོང་གསུམ་ལ་ཧཱུཾ་སྒྲ་སྒྲོགས་པ༔ རི་བསྙིལ་བ༔ མཚོ་དཀྲུགས་པ༔ བྲག་གཤིག་པ༔ ཆུ་བརྒལ་བ༔ ཟམ་འཛུགས་པ༔ ཁྱེའུ་མང་པོའི་དཔོན་བྱས་པ༔ ཁང་པ་བརྩེགས་པ ཚོགས་ཀྱི་འཁོར་ལོ་བསྐོར་བ༔ བུད་མེད་རྒྱན་ཅན་མང་པོས་དགའ་བའི་ཚུལ་གྱིས་ཟས་སྟེར་བ༔ རིན་ཆེན་སྣ་ཚོགས་རྙེད་པ་སོགས་ནི་གྲུབ་པའི་རྟགས༔ ཁྱད་པར་དྲག་པོ་རྦད་བསད་ དུས་སུ༔ རལ་གྲིའི་ཁང་ཁྱིམ་དུ་སླེབས་པ༔ ལུས་ལ་གོ་མཚོན་བརྒྱན་པ༔ དགྲ་ལ་དམག་དྲངས་ཤིང་ཐུབ་པ༔ གཞན་གྱི་མགོ་སྙིང་ནང་རོལ་གཏོར་བ༔ རྔོན་བཀྱེ་བ༔ ཤ་ཁྲག་ འགྱེད་པ༔ གིང་དམར་ནག་གིས་འོ་དོད་འབོད་པ༔ གཅན་གཟན་སྣ་ཚོགས་ཀྱིས་རོ་ཟ་བ༔ ཕ་རོལ་བཙོན་ལ་བཅུག་པ༔ གཞན་ལ་མཚོན་བཏབ་པ༔ ཟོར་འཕང་བ༔ རི་བོ་འགོ་ མཇུག་ལྡོག་པ༔ ལུས་ལ་མེ་འབར་བ༔ རི་ལ་མེ་བཏང་བ༔ དྲག་པོའི་ཐུན་བརྡེག་པ་སོགས་རྨིས་པ་ནི༔ དྲག་པོ་བསྒྲུབས་པས་མངོན་སྤྱོད་ཀྱི་ལས་གྲུབ་པའི་རྟགས་ཡིན༔
 
 (From the treasure's recitation instruction, the end of the signs section; the text is in the verse-lines marked ༔ and quoted in the compiled volume, its attribution inside the page not stated.) "The signs of the measure of accomplishment afterwards: actually meeting the deity (ཡི་དམ, yi dam), receiving prophecy, teaching the Dharma, and so on; heat blazing and joy in the creation stage, a comfortable and light body, sickness quieted, a glowing complexion, enjoyments gathering, the signs of others' love and good fortune coming. In dreams (རྨི་ལམ, rmi lam): sun and moon rising; teaching the Dharma, blowing the conch, flying the banner, beating the drum; many kinds of music sounding and a great noise rising; others giving food and enjoyments; a rainbow rising on the body; bathing and putting on white clothes; being adorned with fine new ornaments; sitting on a throne; giving empowerment; everyone devoted and respectful to oneself; horses, wealth and sheep many and a rich harvest growing; irrigating a good field; sowing seed; arriving at the nāga king's flower land, picking many flowers of a god's body-colour; tasting the food of the three whites; climbing up; the body huge, filling the three thousand worlds; crossing the four continents in one step; shouting Hūṃ over the three thousand worlds; shaking mountains, stirring lakes, splitting rocks, crossing rivers, building bridges, leading many boys, building a house, turning a feast-wheel, many adorned women giving food gladly, finding various jewels, and the like: these are the signs of accomplishment. In particular, at the time of the fierce rite's killing (དྲག་པོ་རྦད་བསད, drag po rbad bsad): arriving at a house of swords, the body adorned with armour, leading an army against the enemy and prevailing, scattering another's head and heart and entrails, hunting, spreading flesh and blood, the red and black ging calling for milk, many beasts of prey eating a corpse, putting the enemy in prison, striking another with weapons, hurling the zor (ritual weapon), a mountain turned head over tail, the body aflame, setting a mountain on fire, striking the fierce rite's session: dreaming these is the sign that the fierce rite's work of magic has been accomplished." Dreams here are tied to the rite performed (peaceful and enriching, then fierce), not to an hour. «ཁྱེའུ་མང་པོའི་དཔོན» «ཟོར» «གིང་» renderings not settled.
+
+## <a id="tsl-27-i221"></a>tsl.27:i221 Treasure verse of vol. 27 on the day's course: the actual prophecy, on the tenth the pure vision is met
+
+*Read: etext, 2026-11-13.*
+
+> ཐོ་རངས་སྐབས་སུ་བག་མེད་མ་ཉལ་བར༔ བདེ་ཆེན་ཞིང་སྒྲུབ་གསལ་གདབ་གསོལ་བ་ཐོབ༔ ནམ་ལངས་མ་ཡེངས་ད་ལྟའི་དུས་ལ་སོམས༔ ཆོས་སྐྱོང་རྒྱལ་པོས་ཆོས་ཀྱི་བསྟན་པ་སྐྱོངས༔ ཉི་ཤར་མ་ཡེངས་སྣང་བ་རྒྱ་ཡིས་ཐོབ༔ ཁོ་བོ་སྲིན་ཡུལ་བཞུད་སོགས་མི་རྟག་སྒོམས༔ ཉིན་ཕྱེད་སྤྱོད་ལམ་རྣམ་བཞིས་རྗེས་ཐོབ་སྲེས༔ དངོས་སུ་ལུང་བསྟན་ཚེས་བཅུར་དག་སྣང་མཇལ༔
+
+(The verse is a teaching of the treasure, handed down in vol. 27 among the instructions on how to spend the day; the page names no speaker beyond the treasure's own voice.) "At dawn do not sleep carelessly; request the field of great bliss clear and take the blessing. On rising be not distracted; reflect on the present time; the Dharma protector king guards the teaching. At sunrise, undistracted, gain a vast appearing. I too, going to the land of the rākṣasas, meditate on impermanence. At midday, by the four conducts, the after-attainment arises. Actual prophecy: on the tenth, meet the pure vision (དག་སྣང, dag snang)."
+
+## <a id="tsl-27-i225"></a>tsl.27:i225 Vol. 27, the editor's prose on that verse: on the tenth and the like, pure vision in person, in experience or in dream
+
+*Read: etext, 2026-11-13.*
+
+> སྐལ་ལྡན་ལས་འཕྲོ་ཅན་རྣམས་ལ་དུས་ཁྱད་པར་ཅན་ཚེས་བཅུ་སོགས་སུ་དག་སྣང་དངོས་སམ་ཉམས་དང་རྨི་ལམ་ཚུན་དུ་ཞལ་མཇལ་བ་སོགས་དངོས་གྲུབ་ཐོབ་པར་འགྱུར་རོ།
+
+(The modern editor's prose in vol. 27, after the verse above, on the same line of the day's course; facts only.) "For those of fortune who have the thread of deeds, at a time of special quality, the tenth and the like, a pure vision (དག་སྣང, dag snang) in person, or in experience (ཉམས, nyams) and dream (རྨི་ལམ, rmi lam) alike, meeting the face (of the deity) and the like, so the accomplishments will be gained."
+
+## <a id="tsl-30-i240"></a>tsl.30:i240 Rtsa gsum gling pa's life: a dakini says that on the tenth they arrive at a monastery of the nagas
+
+*Read: etext, 2026-11-13.*
+
+> གཞན་ཡང་མཁའ་འགྲོ་གསང་བའི་ཆོས་སྐོར་ཡོད། །ཚེས་བཅུར་ངེད་རྣམས་དེ་རུ་སླེབ་པ་ཡིན།
+
+(A dākinī describes a monastery in a land of the nāgas.) "There is also a cycle of the dākinīs' secret teachings. On the tenth we arrive there."
+
+## <a id="tsl-30-i277"></a>tsl.30:i277 Rtsa gsum gling pa's life: dakinis say he will meet the father in experience and on the tenth continually
+
+*Read: etext, 2026-11-13.*
+
+> འདུལ་ཞིང་འདི་དག་རྫོགས་པའི་མཚམས་སུ་ནི། ། བུ་ཉིད་བསུ་རུ་སྲིང་མོ་བཏང་ནས་འོང་། །དེ་བར་གདུང་བས་ཕ་ལ་གསོལ་བ་ཐོབ། །ཉམས་དང་ཚེས་བཅུར་རྒྱུན་དུ་མཇལ་བར་བྱེད། །ད་ལན་ནང་དུ་ལོག་ལ་བར་ཆད་མེད།
+
+(Dākinī speech in the life, to the treasure-finder about the tasks ahead.) "When these subduings are complete, the son himself is to come, the sisters sent to meet him; meanwhile with longing he has the request granted by the father; in experience (ཉམས, nyams) and on the tenth he will meet him continually. Now he turns back inward, without obstacle."
+
+## <a id="tsl-30-i287"></a>tsl.30:i287 Rtsa gsum gling pa's life: dakinis come on the tenth and other good times to the gathering
+
+*Read: etext, 2026-11-13.*
+
+> ངེད་རྣམས་ཚེས་བཅུ་ལ་སོགས་དུས་བཟང་སྐབས། །མིང་པོའི་ཚོགས་འཁོར་དུས་སུ་སླེབས་ནས་འོང་། །ད་ལན་སྐུ་ཁམས་བཟང་བར་ཕེབས་ཞེས་ཟེར།
+
+(Dākinī speech in the life, at their parting.) "We come at the tenth and other good times, at the time of the gathering of the (assembly) of the Minpo (མིང་པོ, ming po: not settled), and now we say 'the body is well'."
 
 ## <a id="tsl-30-i295-297"></a>tsl.30:i295-297 Rtsa gsum gling pa's life: the night dream of the mule-rider, the pills found next day, ten days later the btsan's warning, and the host's reading as an omen for his house
 
@@ -190,3 +238,19 @@ That night in a dream while lying down: a leper (མཛེ་ཕོ, mdze pho) o
 > དེ་སྐབས་ཟ་ཟི་བར་མའི་ཉམས་སྣང་ལ། །མི་བདུད་ཤན་པ་འདྲ་བ་མང་པོ་ཡིས། །ཚོགས་འཁོར་འབུལ་ལོ་ཅུང་ཟད་བཞུགས་དང་ཟེར། །སྙིང་དང་ཀླད་ཁྲག་ཆ་གཅིག་ཕུལ་ནས་བྱུང་།
 
 (Vol. 30, etext page marker p473 = image 473; a treasure-finding episode.) «At that time, in a hazy, in-between experience-appearance (ཟ་ཟི་བར་མའི་ཉམས་སྣང, za zi bar ma'i nyams snang), many human-like bdud and butchers said: "We offer a gathering feast; stay a little", and offered heart and brain with blood.» "Hazy in between" (ཟ་ཟི་བར་མ, za zi bar ma) qualifies the experience-appearance; the sight is of beings that ask for a feast and is not read as an omen in the lines read.
+
+## <a id="tsl-30-i505"></a>tsl.30:i505 Rtsa gsum gling pa's life: at Bal phur, the tulku's rough skag is great this year
+
+*Read: etext, 2026-11-13.*
+
+> འདི་ལོར་སྤྲུལ་སྐུ་རྩུབ་སྐག་ཆེ་ཡིན་པས། །སྲུང་སྐྱོབ་སྐུ་རིམ་མཛད་རོགས་གྱིས་ཤིག་ཟེར།
+
+(A passage of the life told in the first person, in a stay at Bal phur: a messenger from the tulku's household has come.) "This year the tulku's rough skag (རྩུབ་སྐག, rtsub skag) is great, so please do a protective creation-stage rite (སྐུ་རིམ, sku rim)", so they said.
+
+## <a id="tsl-30-i661"></a>tsl.30:i661 Rtsa gsum gling pa's life: a colophon on the tenth day of the early autumn month of the earth-pig year
+
+*Read: etext, 2026-11-13.*
+
+> དུས་དང་མཚམས་པའི་ཟབ་ཆོས་མ་ཧཱ་གུ་རུས་རྡོ་རྗེའི་ལུང་གིས་བསྔགས་པར་མཛད་པ་འདི་ཉིད་ས་ཕག་ལོར་སྟོན་རའི་ཚེས་བཅུའི་ཉིན་ས་སྤྱོད་དོན་གྱི་འོག་མིན་སྦསཾ་ཡུལ་པདྨ་བཀོད་འཁོར་ལོ་ལྔའི་ནང་གསེས་སྤྲུལ་པའི་འཁོར་ལོ་འབྲུག་ལ་མར་མེ་ཀོང་འབུམ་བྲག་ཕ་བོང་གུར་ཕུབ་པ་ལྟ་བུའི་ནུབ་ལོགས་ནས
+
+(From a colophon in vol. 30, after verses on a treasure of the first of the five wheels of the hidden land Padma bkod.) "This Dharma of the profound time and juncture, praised by the prophecy of Mahāguru Rdo rje, on the tenth day of the early autumn (month) of the earth-pig year (ས་ཕག་ལོར་སྟོན་རའི་ཚེས་བཅུའི་ཉིན, sa phag lor ston ra'i tshes bcu'i nyin), in the hidden land Padma bkod, in the emanation wheel, from the west side of the Brug la mar me kong 'bum rock like a pitched tent ..." The sentence goes on to say that he thought to summon (སྤྱན་འདྲེན) the Dharma cycle Yab bka' sku gsum dgongs 'dus from there. «སྟོན་ར» (ston ra) is the month named by its season, the first month of autumn.

@@ -442,6 +442,14 @@ The text ends here, with no colophon: no writer, no place, no date. The next tex
 
 The etext prints the volume's running head («Rgyal sras Bstan 'dzin rab rgyas kyi rnam thar») inside the word «shog dril bzhi'i lo rgyus» at the page break; it is taken out here. The lines come in a list of teachings heard «besides» those the biography names before (the lines before it, read for the context, tell that Bstan 'dzin rab rgyas took his elder brother, the master Sbyin pa rgyal mtshan, as his holder (ཡོངས་འཛིན) and heard again, in the manner of a request, what he had heard from his father and from Dpal Ngag gi dbang po rnam par rgyal ba). The writer of the biography is not read here. Etext only (BDRC MW1KG13790, etext I1KG15361, [p138]-[p139]).
 
+## <a id="dds-12-p148"></a>dds.12:p148 The same print: a medicine against leaking of the seed and loss in dream
+
+*Read: etext, 2026-11-13.*
+
+> ཉིན་གུང་མཚན་གུང་ཟླ་ཕྱེད་ཟ། ཕན་ཡོན་ས་བོན་འཛག་པ་དང༌། རྨི་ལམ་བུད་མེད་ཤོར་བ་དང་། སྦྱར་ཐབས་ལ་སོགས་འཇོམས་པར་བྱེད།
+
+(The same print as dds.12:p439, a page before the mantra and the powder: the close of a verse on a medicine made for the failing of the seed, a «gsar 'gyur» (new translation) recipe follows.) "Taken at midday and midnight for half a month; its benefit: it ends the leaking of the seed (ས་བོན, sa bon), and the loss (ཤོར་བ, shor ba) in dream (རྨི་ལམ, rmi lam) «བུད་མེད» (woman: the word between «dream» and «loss» is not settled), and it overcomes the faults of joining (སྦྱར་ཐབས, sbyar thabs) and the like." In this text «རྨི་ལམ» is thus the dream of the nocturnal loss.
+
 ## <a id="dds-9-p158-159"></a>dds.9:p158-159 Gdams ngag mdzod (Shechen print), what stands before the history of the four sheets: the last line of the previous text and the history's title «Sgra sgyur Mar pa lo tsa'i …» (RD383)
 
 *Read: etext, 2026-11-10.*
