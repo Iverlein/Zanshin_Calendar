@@ -2476,6 +2476,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1173.md](questions/q1173.md) | question q1173 | Does the 栞草's section け hold an entry 鶏旦, and does it name the 紀事 or any other source for the dawn and the night of the 初夢? | open; cites — |
 | [questions/q1174.md](questions/q1174.md) | question q1174 | In the Tohoku 夢判事 (THKK-22631, image 35) and the Koizumi copy, are the cursive middles of the ten cells' second lines («墨ゆく…») the same words? A reader of cursive kana is needed. | open; cites — |
 | [questions/q1175.md](questions/q1175.md) | question q1175 | Do the 夢合延寿袋大成 copies of Tohoku (22629, 22653) and the Edo-Tokyo Museum (11383, 天保6) and the 夢合延寿袋絵抄's running text hold any wording on a day or a night for telling a dream, in the 悪夢の伝 or 夢祭り sections? | open; cites — |
+| [questions/q1176.md](questions/q1176.md) | question q1176 | Do Mipham's own print of the notes (I2029) and the Chengdu Collected Works print (I1PD34647) read «དུས་ཁམས» or «རུས་ཁམས» at the notes' first sentence (WB vol. 2 p. 474; img. 530-531 of I1PD34647 is the opening folio)? | open; cites — |
+| [questions/q1177.md](questions/q1177.md) | question q1177 | The Secret Subduer's recitation instruction (Gter chos vol. 27, etext pp. 190-211) is listed in the volume's contents as printed pp. 183-204, but image minus 11 gives pp. 179-200: which numbering is right for citing it? | open; cites — |
 
 <!-- end pool index -->
 
