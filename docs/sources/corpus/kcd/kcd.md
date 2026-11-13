@@ -31,6 +31,14 @@ Just as at the junction of the year, on the wide road [the sense of «རྒྱ�
 
 (The part that speaks of dream: «རྨི་ལམ་སད་པ་དག་ལས་འཛག་ཕྱིར་རོ», 'because it leaks from dream and waking'. The verse is about loss of seed in the practitioner, not about what a dream shows.)
 
+## <a id="kcd-13-p323"></a>kcd.13:p323 The Padminī sends the extended rite of the ground to the Vimalaprabhā and goes on in verse
+
+*Read: etext, 2026-11-13.*
+
+> དེ་ལྟར་བྱིན་གྱིས་བརླབས་ནས་བྱང་ཕྱོགས་སུ་དགོད་པར་བྱའོ།།དེ་ནས་མཆོད་པ་ལ་སོགས་པ་དང་སླར་ཡང་གཏོར་མ་སྦྱིན་པར་བྱ།དེ་ལ་རྒྱས་པའི་ཆོ་ག་ནི།འགྲེལ་པ་དྲི་མ་མེད་པ་ལས་ཤེས་པར་བྱའོ།།དེ་ལྟར་སྲུང་བ་ལ་སོགས་ནི།།བྱང་ནས་ཐིག་སྐུད་གདབ་པར་བྱ།།སློབ་དཔོན་དང་ནི་སློབ་མ་ཡིས།།ཤར་དང་ནུབ་ཏུ་མངོན་ཕྱོགས་སུ།།ལག་པ་གཡོན་དང་གཡས་པ་ཡིས།།ཐིག་སྐུད་བཟུང་ནས་སྔགས་འདི་བརྗོད།།ཨོཾ་ཨཱཿཧུཾ་ཀཱ་ཡ་ཝཱ་ཀ་ཙིཏྟ་ཏཻ་ཀ་བྷུ་ཏཿསརྦ་དྷཱརྨཱ་ཨེ་ཀཱ་ཀ་རེ་ཎ་བཛྲ་སརྦ་སཏྭོ་ཧཾ་བཛྲ་བྷུ་མྱཾ་སཱུ་ཏྲ་ཡཱ་མི་ཧཱུཾ་ཨཱཿཕཊ།ཅེས་བྱ་བ་ནི།ཐིག་སྐུད་རྒྱས་པར་བྱས་ནས
+
+The Padminī, etext p. 323 (Derge vol. 13), in the rite of the ground: "Having so blessed it, he places it in the north. Then the offerings and the rest, and again the food offering is given. The extended rite of this should be known from the commentary Vimalaprabhā (འགྲེལ་པ་དྲི་མ་མེད་པ, 'grel pa dri ma med pa). So, the protection and the rest: from the north draw the thread-line; the teacher and the pupil, facing east and west, hold the thread with the left and the right hand and say this mantra ..." (the mantra in Tibetan letters, not translated). The prose of the commentary sends the long rite to the Vimalaprabhā and the verse goes on without a break. Etext only (not read on the scan); the last words of the quotation are cut at the line's end.
+
 ## <a id="kcd-11-p409"></a>kcd.11:p409 The Vimalaprabhā on the world chapter: short vowels from noon to midnight, the long from midnight to noon; the five Rāhus as waking, dream and deep sleep
 
 *Read: etext, 2026-11-10 (RD361): Derge Tengyur vol. 11 (I1327) etext p. 409; no scan image opened for it.*

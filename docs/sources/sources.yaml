@@ -1414,6 +1414,17 @@ sct:
   locator: page
   notes: "RD373 (2026-11-10): the dream passage read in the etext; the scan image 295 (7 lines, red print) looked at and not read syllable by syllable"
 
+vab:
+  title: "The Tantra of the Complete Enlightenment of Vairocana (Rnam par snang mdzad chen po mngon par rdzogs par byang chub pa rnam par sprul pa byin gyis rlob pa shin tu rgyas pa mdo sde'i dbang po'i rgyal po zhes bya ba'i chos kyi rnam grangs, Toh 494, the Vairocanābhisaṃbodhi) in the Derge Kanjur, the pupils' dream passages"
+  author: "the tantra itself; translator not read"
+  edition: "the Derge Kanjur as the BDRC etext MW4CZ5369_0494 within the volume etext VE4CZ5369_I1KG9212 (vol. 86 of the etext instance IE4CZ5369; the text spans etext characters 464906-799016); the etext's page markers [pN] of that volume"
+  bdrc: {work: MW4CZ5369_0494, etext: VE4CZ5369_I1KG9212}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD-inv-d (2026-11-13): the dream passages found by searching the volume etext for རྨི་ལམ: pp. 327-330 and 494-495 (also 554 and 566, not read); no scan opened"
+
 vjv:
   title: "The Vajrāvalī (Dkyil 'khor gyi cho ga rdo rje phreng ba zhes bya ba, the Garland, Phreng ba) of Abhayākaragupta in the Peking Bstan 'gyur as the Dpe bsdur ma prints it, the chapter on the pupil's staying (the sta gon rite)"
   author: "Paṇḍita Abhayākaragupta (Pa ṇḍi ta chen po gnas brtan A bhya A ka ra gupta), by the volume's own contents page; translated by him with the translator Khyer gad (?) ban de 'khor lo grags, later revised, by the same page"
