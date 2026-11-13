@@ -2211,3 +2211,17 @@ RD366 (2026-11-10): Old Tibetan Documents Online (otdo.aa.tufs.ac.jp) refused th
   - Narthang catalogue vol. 225 (I2KG212509) img. 3–86 whole images and img. 4–104 even crops, Yigdzin-1: no second entry with «རྨི་ལམ་བརྟག་པ»; «རྨི་ལམ» only on img. 75 and 77 (grep on «རྨི་ལམ» alone). Images 87–140 not read: whether the catalogue lists the Examination of Dreams a second time there is unchecked; img. 77 is machine reading only.
 - **RD407, 2026-11-11, the Narthang catalogue's images 87–140** (RD407, 2026-11-11):
   - Narthang catalogue vol. 225 (I2KG212509) img. 87–140, Yigdzin-1: no second entry «རྨི་ལམ་བརྟག་པ»; machine reading only; img. 93, 105, 111 and 121 nearly empty and unread, so the absence rests on the images that did read. The reader's section is plain prose, not yet passages and claims.
+- **Open-question investigations, 2026-11-13, the etext and catalogue questions of the dream and calculation chapters** (inv-a to inv-o, 2026-11-13):
+  - `bdrc_search.py` needs the Chromium build the installed Playwright asks for (`python -m playwright install chromium`, 1254 on 2026-11-13); until then it fails and every full-text search is lost.
+  - BDRC image group I1PD411 (Blue Beryl vol. 1) serves 41 of its 980 images, printed pp. 170–171 not among them: the Drukpa clause of q988/q989 cannot be checked on a scan there.
+  - Web searches for «སྲིད་གསལ»/«Srid gsal» as an era name (q980) and for the Brahmavaivarta verse «tathaiva»/«tatraiva» (q997): nothing; GRETIL's page for the latter came back empty.
+  - Leipzig Sanskrit manuscripts 1176–1180 (Aufrecht 1901): no record in the manuscript portal (mymssportal), q872.
+  - The Sakya Medicine Buddha commentary MW29307 (etext VE29307_052) is search-only: 0 chunks, only Wylie snippets (q794).
+  - Padma rdo rje's book (MW25126): the text before the Svapnohana quotation is unreachable except by the archive.org loan (q1003).
+  - Dpe bsdur ma vol. 46 (I1PD95891) images 1096–1100 came back empty twice (q1011); the Narthang catalogue entry img. 77 and the Peking vol. 28 title (img. 315, 3200 px at most) cannot be settled by eye (q1004, q1088).
+  - Fetching Derge Tengyur volumes with `bdrc.py` takes about a minute each, a Beijing gsung 'bum volume over two minutes: search the phrase first to get the volume id, and run the fetch in the background.
+  - No muhūrta-name list in the Derge Mañjuśrīmūlakalpa, the Kun 'dus vol. 3 etext or the TSS 70 text layer (q1056); nothing older than Kun dga' rin chen and Nam mkha' dpal bzang on the Sakya reason for the last watch (q1049).
+  - Commentary on WB ch. 9 p. 62 («མནན་ཡུན…», «སྒྲིབ་དང་མནན་དང་གྲོལ་ཡུན»): phrase searches find only copies of the verse itself (q774); WB p. 403's watch length (q812, q966): no text states it.
+  - «དམར་མོ་འདས་པ…» (q881) and «མཚན་བརྟགས»/«མཚན་རྟགས» (q1142) and «བེགས་མཐར་བྱེད་» (q1141, a wrong spelling): 0 hits.
+  - Why the Pleiades month is the «Dream month» (q1133): lexica give a month name only.
+  - The Edo 初夢 night of 2 January (q786, q788, q1001, q1002): no print read has it; Waseda answers 503, the 夢合判断大成 (1830) has no Kokubunken record; the kokusho `/biblio?kw=` page renders only in a browser, `/api/biblioSimpleSearch?searchkbn=simple&keyword=…&page=N` works with curl.
