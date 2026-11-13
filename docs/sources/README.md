@@ -2508,6 +2508,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1188.md](questions/q1188.md) | question q1188 | The Tshig mdzod chen mo makes nam phyed the rat's double-hour, and the Bod yig tshig gter rgya mtsho the ox's: which is meant in the teaching on the death-sign images, and does it change what the midnight dream covers (q1067)? | open; cites — |
 | [questions/q1189.md](questions/q1189.md) | question q1189 | Do the Sanskrit manuscripts of the Mañjuśrīmūlakalpa (not Śāstrī's print) read kramaś or samaś in verse 15.46, and which did the Tibetan translators have for «རིམ་པ»? | open; cites — |
 | [questions/q1190.md](questions/q1190.md) | question q1190 | Can the Peking vol. 28 img. 315 title of the Svapnohana (I1KG13197) be read at a higher resolution than the 3200 px the server gives, from the restricted scan on archive.org under the owner's lending login (པྣ or བྣཱ, q1088)? | open; cites — |
+| [questions/q1191.md](questions/q1191.md) | question q1191 | Does MW20396 p. 164 (the Kaḥ thog history that enumerates Nam mkha' rdo rje's sems sde pra khrid, BDRC person P7962) date him or the Nyang-tradition instruction (q1145)? | open; cites — |
+| [questions/q1192.md](questions/q1192.md) | question q1192 | Does a Kagyu catalogue (a dkar chag of the Bka' brgyud sngags mdzod or the Lho brag pa collection) name the writer of the history of the four sheets (dds.40:p207-209, q1064)? | open; cites — |
+| [questions/q1193.md](questions/q1193.md) | question q1193 | Do the Vajrāvalī empowerment manuals (Drukpa, Sangs rgyas rdo rje) take Mar me mdzad bzang po's bgegs mthar byed remedy (dkb:p163-164) from the Sngags rim chen mo, or is there an earlier witness (q1141)? | open; cites — |
 
 <!-- end pool index -->
 

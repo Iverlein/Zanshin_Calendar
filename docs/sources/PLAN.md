@@ -2225,3 +2225,4 @@ RD366 (2026-11-10): Old Tibetan Documents Online (otdo.aa.tufs.ac.jp) refused th
   - «དམར་མོ་འདས་པ…» (q881) and «མཚན་བརྟགས»/«མཚན་རྟགས» (q1142) and «བེགས་མཐར་བྱེད་» (q1141, a wrong spelling): 0 hits.
   - Why the Pleiades month is the «Dream month» (q1133): lexica give a month name only.
   - The Edo 初夢 night of 2 January (q786, q788, q1001, q1002): no print read has it; Waseda answers 503, the 夢合判断大成 (1830) has no Kokubunken record; the kokusho `/biblio?kw=` page renders only in a browser, `/api/biblioSimpleSearch?searchkbn=simple&keyword=…&page=N` works with curl.
+- **Tool note, 2026-11-13 (inv-n):** BDRC person and work records can be read without a browser: `purl.bdrc.io/resource/<ID>.ttl`, and `autocomplete.bdrc.io/_msearch` (Elasticsearch) for titles; neither finds a catalogue part titled «'pho ba spyi rtol ma'i lhan thabs»; three volumes BDRC's phrase search lists for «བར་མའི་ཐུན» (I2PD18782, I5743, I1KG2753) return empty from the etext API.
