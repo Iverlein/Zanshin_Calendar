@@ -23,3 +23,51 @@ ru rta: (1) a pleasant-tasting medicinal herb of the class of the "decoction med
 lde gu: (1) soft dough of flour, and the gruel (skyo ma) of boiled flour; (2) thick juice; (3) water steeped with fragrant matter. Ives Waldo: a thick kneaded dough, paste, porridge; thick juice; water steeped in a good-smelling thing; a mixture; syrup; ointment. The dictionary's «lde gu'i sbyor ba» is a medicine powder stirred into honey-water, clarified butter-dregs and molasses water, with finely ground sugar on top: a class of pacifying compounds. So «lde gur» (with the terminative ra) is "into / as a paste, mixture or electuary".
 ba ra: (1) cattle and goats (ba phyugs dang ra); (2) the byre where cattle graze (ba phyugs 'jug sa'i ra ba). Ives Waldo: cattle, cows and goats; a cattle corral.
 ba ru: (Bod yig tshig gter rgya mtsho) the name of a fruit tree; in the Tibetan medical texts the three, a ru, ba ru and skyu ru, are called the three fruits of medicine. Ives Waldo: beleric myrobalan.
+
+## <a id="tmz-box2"></a>tmz:box2 The entries sa sros and sa srod in the keyed Tibetan dictionaries (q1116)
+
+*Read: etext, 2026-11-13.*
+
+> sa sros | {nyi ma nub nas yun ring ma lon pa'i dus kyi ming /}   (Dag tshig gsar bsgrigs; the same in Bod yig tshig gter rgya mtsho)
+> sa srod | {sa rub rjes nam phyed ma zin gong gi dus tshod/}   (Tshig mdzod chen mo); {nyi ma bzhud rjes mtshan thog mar 'char bzhin pa'i dus cha/} (Bod yig tshig gter rgya mtsho)
+> Ives Waldo: sa srod | after dusk until midnight; sa sros | at dusk, towards evening, night
+> Valby: sa sros | toward evening, at dusk time, after dusk, 1 of the 12 dus tshod, dusk; sa sros nas | when it grew dark
+> Rangjung Yeshe: sa sros | at dusk, towards evening
+
+sa sros: "the name of the time not long after the sun has set" (Dag tshig gsar bsgrigs and Bod yig tshig gter rgya mtsho); Ives Waldo and Rangjung Yeshe: at dusk, towards evening; Valby: dusk, one of the twelve times of the day-and-night, and «sa sros nas», "when it grew dark". sa srod: the time between sunset and before midnight ("after the earth's darkening, before midnight is reached", Tshig mdzod chen mo; "the part of the time when the night is just rising after the sun has gone", Bod yig tshig gter rgya mtsho); Ives Waldo, "after dusk until midnight". So «sa sros nas nam phyed bar» is "from dusk to midnight"; the same two words stand in WB's list of the night's hours (wb.1:p17b: sunset, dusk (ས་སྲོས), the evening round, midnight, past midnight, dawn). Look-up of 2026-11-13 in Steinert's public set (sparse clone, nos. 2, 7, 8, 25, 37, 62); the dictionaries' scans not opened.
+
+## <a id="tmz-box3"></a>tmz:box3 The entries zhe thag pa and the'u rang in the keyed Tibetan dictionaries (q1111)
+
+*Read: etext, 2026-11-13.*
+
+> zhe thag pa | {sems kyi gting ngam bsam pa'i rtsa ba/ zhe thag snyan zhu/ da nas bzung bya ba ngan pa mi byed rgyu zhe thag pa nas khas len zhus pa yin/}   (Tshig mdzod chen mo; the same in Bod yig tshig gter rgya mtsho)
+> Ives Waldo: zhe thag pa | the core/bottom of one's heart, sincerely, truly, wholeheartedly, deeply felt
+> Valby: zhe thag pa | sincerity; Hopkins: zhe thag | the depths
+> the'u rang | {mkha' la rgyu ba'i 'byung po'am/ yi dwags kyi rigs shig}   (Tshig mdzod chen mo)
+> the'u rang spun dgu | {1 rgyal the'u khra bo/ 2 dri sha kha/ 3 rkan thor gsum rgyal po la gnod/ 4 las the'u smug po/ 5 legs the'u khra bo/ 6 se the'u nag po gsum dmangs la gnod/ 7 brag srin/ 8 shing srin/ 9 chu srin gsum phyogs phyogs la gnod/}   (Dung dkar tshig mdzod chen mo)
+> Rangjung Yeshe: the'u rang | a demon that possesses kids; sky-traveling preta-demon
+
+zhe thag pa: "the depth of the mind, or the root of the thought"; the example given is «to promise from the bottom of the heart (zhe thag pa nas) not to do the bad deeds from now on». Ives Waldo: the core of one's heart, sincerely, wholeheartedly; Valby: sincerity. So «zhe thag pa nas sbyin» in the inner-heat manual is "gives it from the bottom of the heart, wholeheartedly", not "from afar" (dds.19:p187-189). the'u rang: a sky-going spirit (འབྱུང་པོ, 'byung po) or a kind of hungry ghost (yi dwags); Dung dkar lists nine brothers of the class (the first three harm kings, the next three the common people, the last three the places); the word «gnam the dkar po» itself is not a headword in the set. Look-up of 2026-11-13 in Steinert's public set (nos. 1, 2, 7, 8, 25, 34, 62); the dictionaries' scans not opened.
+
+## <a id="tmz-box4"></a>tmz:box4 The entries za zi and za ri zi ri in the keyed Tibetan dictionaries (q1112)
+
+*Read: etext, 2026-11-13.*
+
+> za zi | {gsal bo min pa dang rim pa 'chol ba sogs kyi don te/ rmi lam za zi/ las ka za zi/ mgo bo za zi byed lta bu/}   (Dag tshig gsar bsgrigs)
+> za zi | {'du long ste las dang skad cha mang po'i brel zing/ mi mang 'du 'dzoms za zi'i khrod du'ang mno bsam gtong thub pa/ smig rgyu za zis mgo rmongs te shar dang nub la sogs pa'i phyogs kyang mtshon par mi nus/}   (Tshig mdzod chen mo)
+> za zi | 1. {za ri zi ri'am mi gsal ba'i don/} 2. {zang zing dang brel zing gi don/}   (Sgom sde tshig mdzod chen mo)
+> za ri zi ri | 1) {mi gsal ba'i tshul/ nam za ri zi ri'i dus/ dran pa za ri zi ri/ chang gis bzi na sems rnal du mi gnas par za ri zi ri byed yong/} 2) {don med du g.yeng ba'i tshul/}   (Tshig mdzod chen mo)
+> Barron: za zi | nebulous; indistinct; hazy. Rangjung Yeshe: za zi | ex {za zi phra phro g.yo 'gul can}. Dan Martin: za zi | = zang zing, chaotic, disordered, tumultuous (Klong chen pa). Negi: za zi | {mun mdangs she mun za zi dang} (the Amarakosa's synonym for darkness).
+
+za zi: "the sense of what is not clear and what is out of order, as in «a za zi dream» (rmi lam za zi), «a za zi work», «to make the head za zi»" (Dag tshig gsar bsgrigs); the bustle of much work and talk, the confusion of a crowd, the mirage that confuses the head so that east and west cannot be told (Tshig mdzod chen mo); «unclear» and «chaotic» (Sgom sde); «nebulous, indistinct, hazy» (Barron); in Negi a word for dimness of the dark. The related za ri zi ri: «the manner of being unclear; the time of dusk and dimness; a hazy memory; the mind that does not stay still when drunk». No entry gives za zi the sense «half asleep» or names a state of sleep; it says that the thing seen is indistinct or disordered, and the dictionary's own example is a dream. Look-up of 2026-11-13 in Steinert's public set (nos. 2, 9, 10, 25, 37, 50, 58, 62); the dictionaries' scans not opened.
+
+## <a id="tmz-box5"></a>tmz:box5 The entry nam phyed in the keyed Tibetan dictionaries (q1067)
+
+*Read: etext, 2026-11-13.*
+
+> nam phyed | {dus tshod bcu gnyis kyi cha shas shig ste byi ba'i dus tshod/}   (Tshig mdzod chen mo)
+> nam phyed | {dus tshod bcu gnyis kyi cha shas shig ste glang gi dus tshod/}   (Bod yig tshig gter rgya mtsho)
+> Ives Waldo: nam phyed | midnight; midnight [dus tsod bcu gnyis kyi cha shas shig ste byi ba'i dus tsod ...]. Valby: midnight; midnight, 1 of the 12 dus tshod. Rangjung Yeshe: midnight
+> Negi: nam phyed | = {mtshan phyed} ardharātram — {nyi ma gung ngam nam phyed na} (madhyāhne'rdharātre vā ...); ardharātrasamayaḥ
+
+nam phyed: "one of the twelve times of the day-and-night, the rat's time" (Tshig mdzod chen mo), "the ox's time" (Bod yig tshig gter rgya mtsho: the two dictionaries differ on the animal); Ives Waldo, Valby, Rangjung Yeshe: midnight; Negi: = mtshan phyed, "half of the night", ardharātra, the time of midnight, with the Guhyasamāja's «at noon or at midnight». Every entry makes it the middle of the night or the double-hour that holds it; none gives it the sense of "the night" or "at night" in general. Look-up of 2026-11-13 in Steinert's public set (nos. 2, 7, 8, 25, 50, 62); the dictionaries' scans not opened.
