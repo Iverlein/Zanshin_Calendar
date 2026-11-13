@@ -167,6 +167,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-zhol-black-verse-six-syllables.md](claims/ch27-zhol-black-verse-six-syllables.md) | claim, note | The black verse of the «བརྗེ» set has six syllables on the Zhol print too | cites wb.2:p23-25; feeds — |
 | [claims/ch27-zhol-executioners-door-is-a-head.md](claims/ch27-zhol-executioners-door-is-a-head.md) | claim, note | The four executioners' door of p. 53 is a stanza head in the Zhol and Taikhang run | cites wb.2:p50a; feeds — |
 | [claims/ch27-zhol-p17-stack-is-brje.md](claims/ch27-zhol-p17-stack-is-brje.md) | claim, note | The stack of p. 17, l. 6 is «བརྗེ» on the Zhol print, not an «ནྡ» stack | cites wb.2:p23c; feeds — |
+| [claims/ch27-zhol-p23-head-stack-is-brje.md](claims/ch27-zhol-p23-head-stack-is-brje.md) | claim, note | The head of the set on Zhol img. 658, last line, carries the stack of «བརྗེ» with the ཇ tail | cites wb.2:p23c; feeds — |
 | [claims/ch27-zhol-p448-two-readers-sbas.md](claims/ch27-zhol-p448-two-readers-sbas.md) | claim, note | Two machine readers of the Zhol scan read «གུད་སྦས» on p. 448, the etext «གུད་ཡས» | cites wb.2:p448; feeds — |
 | [claims/ch27-zhol-thor-tshugs-tha.md](claims/ch27-zhol-thor-tshugs-tha.md) | claim, note | The feat of the body on p. 440 is «ཐོར་ཚུགས» on the Zhol print too | cites wb.2:p440; feeds — |
 | [claims/ch28-360-six-aspects.md](claims/ch28-360-six-aspects.md) | claim, rule | The 360's six aspects by the notes; the word phyi rtsis | cites wb.2:p42-43, wb.2:p537; feeds block-31 |
@@ -1492,7 +1493,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 2 passages: 2 machine |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 6 passages: 6 machine |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 7 passages: 1 scan, 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 10 passages: 2 scan, 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 11 scan, 5 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
@@ -1513,7 +1514,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 45 passages: 37 scan, 7 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 46 passages: 38 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
