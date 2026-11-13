@@ -2515,6 +2515,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1194.md](questions/q1194.md) | question q1194 | What does p. 164 of MW20396 say about the Nyin dgon pa Nam mkha' rdo rje, and does the colophon of q1145 belong to P6025 (17th-18th c., Nyin dgon bya bral ba) or P7962 (14th c.)? | open; cites — |
 | [questions/q1195.md](questions/q1195.md) | question q1195 | Is BDRC's person record P7962 (Kaḥ thog Nam mkha' rdo rje) a duplicate of P6025 (Nyin dgon bya bral ba Nam mkha' rdo rje)? | open; cites — |
 | [questions/q1196.md](questions/q1196.md) | question q1196 | Which of the first works of MW1KG4326 (Kun dga' rin chen, vol. 2: the Arapacana sādhana pp. 9-22 or the Mol gtam pp. 23-38) holds the last-watch passage at etext character 14273 (q1070)? | answered; cites — |
+| [questions/q1197.md](questions/q1197.md) | question q1197 | Which work of the Rgyud sde kun btus (MW2PD14777) carries the sentence «dbang bskur ba'i dus dpa' bo mkha' 'gro rnams kyis rgyud byin gyis brlabs nas lung ston par mdzad pas…», and is it a copy of Kun dga' rin chen's Phur pa dbang mtshams sbyor (VE1KG4326_009) or of an older Sakya initiation manual (q1070)? | open; cites — |
+| [questions/q1198.md](questions/q1198.md) | question q1198 | Does the colophon of MW8LS19380 (the Nyin dgon Bya bral ba's sems sde pra khrid man ngag, 72 p.) give Dpal gnam steng ri khrod and a water-bird year? A reader with the scan is needed (q1145). | open; cites — |
 
 <!-- end pool index -->
 
