@@ -2482,6 +2482,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1175.md](questions/q1175.md) | question q1175 | Do the 夢合延寿袋大成 copies of Tohoku (22629, 22653) and the Edo-Tokyo Museum (11383, 天保6) and the 夢合延寿袋絵抄's running text hold any wording on a day or a night for telling a dream, in the 悪夢の伝 or 夢祭り sections? | open; cites — |
 | [questions/q1176.md](questions/q1176.md) | question q1176 | Do Mipham's own print of the notes (I2029) and the Chengdu Collected Works print (I1PD34647) read «དུས་ཁམས» or «རུས་ཁམས» at the notes' first sentence (WB vol. 2 p. 474; img. 530-531 of I1PD34647 is the opening folio)? | open; cites — |
 | [questions/q1177.md](questions/q1177.md) | question q1177 | The Secret Subduer's recitation instruction (Gter chos vol. 27, etext pp. 190-211) is listed in the volume's contents as printed pp. 183-204, but image minus 11 gives pp. 179-200: which numbering is right for citing it? | open; cites — |
+| [questions/q1178.md](questions/q1178.md) | question q1178 | Who is the Mentsikhang head teacher Dbyangs can dgyes pa of the Precious Key's colophon (pk:i383-385), and is he a second man beside Prajñāmaṇi? The colophon's «འམ» (or) is unsettled. | open; cites — |
+| [questions/q1179.md](questions/q1179.md) | question q1179 | Is «gnam gang» in the BDRC snippet of MW16936 (a commentary in Blo bzang bshad sgrub rgya mtsho's works, glossing the stong day) a spelling of «nam gang» or «nam gong»? A look at its scan would settle it. | open; cites — |
+| [questions/q1180.md](questions/q1180.md) | question q1180 | Which ch. 27 starting points does WB vol. 2 p. 17 belong to, if not the thirty of the notes (p. 532)? p. 17 calls the weapons' one a «སྐོར་འགོ» (starting point) but fights by a rule of its own (the eighteenth and tenth). | open; cites — |
 
 <!-- end pool index -->
 
