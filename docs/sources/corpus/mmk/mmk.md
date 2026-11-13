@@ -51,6 +51,19 @@ This is the Sanskrit of the Tibetan lines «རྨི་ལམ་ཞེས་བ
 
 Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query. The watch words of the first two humours' lines were read where the OCR is clearest; the page's other lines were not.
 
+## <a id="mmk-2-p149b"></a>mmk.2:p149b The Sanskrit of the verse 15.46 as keyed in GRETIL: svapnākhyaṃ sattvavarjitam, kriyākālasamaś ca (RD-o, q1136)
+
+*Read: etext, 2026-11-13.*
+
+> tasmāt sarvaprakāreṇa svapnākhyaṃ sattvavarjitam /
+> kriyākālasamaścaiva nirdiṣṭastattvadarśibhiḥ // mmk_15.46 //
+
+Gaṇapati Śāstrī's edition, as keyed in by the Digital Sanskrit Buddhist Canon project and published in GRETIL (sa_maJjuzrImUlakalpa.xml, version of 2020-07-31, text file line 3002-3003), the 15th paṭalavisara, verse 15.46, the same two lines that close the dream section (mmk.2:p147-149) and that the Tibetan has at mmk.1:p400-401 as «རྨི་ལམ་ཞེས་བྱ་ཡོད་པ་སྤངས། བྱ་བ་དུས་ཀྱི་རིམ་པ་ཉིད།».
+
+"Therefore, in every way, the dream-named [kind], devoid of beings, and the 'sameness of the time of the act' was pointed out by those who see what is so."
+
+The compound is «kriyā-kāla-samaś ca»: the edition reads «sama», not «krama». The Tibetan «རིམ་པ» (rim pa) is krama in the lexica, so the Tibetan translators either read another word or rendered freely; «sattva-varjitam» (devoid of beings / of the creature) is where the Tibetan has «སྤངས» (spangs, "given up"). The same edition has «kāla-kramo» in chapter 22 (GRETIL line 6170, «eṣa kālakramo yoge», "this is the order of times in the practice"), so the word krama is in the text, but not in this verse.
+
 ## <a id="mmk-2-p150"></a>mmk.2:p150 The Sanskrit: the phlegm-natured should not take phlegm foods, and the wise do not sleep at that time
 
 *Read: machine, 2026-11-10.*
