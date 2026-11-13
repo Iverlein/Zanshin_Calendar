@@ -2506,6 +2506,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1186.md](questions/q1186.md) | question q1186 | Does Rin chen rnam rgyal's collected works, or the catalogue of them, list a «zin bris» (སྒྲ་ཚད་པའི་ཟིན་བྲིས) on the rebirth-seeing rite of the MDP (q932)? | open; cites — |
 | [questions/q1187.md](questions/q1187.md) | question q1187 | Which work on the the'u spirits says what gnam the dkar po (གནམ་ཐེ་དཀར་པོ) does to a sleeper, and why is a white thread tied round the waist the means of holding it (Marpa's inner-heat manual, q1111)? | open; cites — |
 | [questions/q1188.md](questions/q1188.md) | question q1188 | The Tshig mdzod chen mo makes nam phyed the rat's double-hour, and the Bod yig tshig gter rgya mtsho the ox's: which is meant in the teaching on the death-sign images, and does it change what the midnight dream covers (q1067)? | open; cites — |
+| [questions/q1189.md](questions/q1189.md) | question q1189 | Do the Sanskrit manuscripts of the Mañjuśrīmūlakalpa (not Śāstrī's print) read kramaś or samaś in verse 15.46, and which did the Tibetan translators have for «རིམ་པ»? | open; cites — |
+| [questions/q1190.md](questions/q1190.md) | question q1190 | Can the Peking vol. 28 img. 315 title of the Svapnohana (I1KG13197) be read at a higher resolution than the 3200 px the server gives, from the restricted scan on archive.org under the owner's lending login (པྣ or བྣཱ, q1088)? | open; cites — |
 
 <!-- end pool index -->
 
