@@ -1,0 +1,13 @@
+---
+kind: claim
+type: rule
+terms: [rgyu-skar-chu-tshod, tshes-zhag, chu-tshod, chu-srang]
+cites: ['wb.1:p14', 'wb.1:p191']
+feeds: []
+open: []
+---
+# WB ch. 2 p. 14: the sun's round is 1620 stars' hours, and 371 tithi-days 4 chu tshod 36 chu srang 5 7/13 breaths
+
+The two lines of WB ch. 2 p. 14 on the fine measure of the year (the verse «རྒྱུ་སྐར་ཆུ་ཚོད་སྟོང་དང་ནི། །དྲུག་བརྒྱ་ཉི་ཤུ་ཉི་མ་ཡིས། །ཡོངས་སུ་འཁོར་ལ་ལོ་གཅིག་ཅེས། །དེ་ཉིད་ཚེས་ཞག་གིས་གཞལ་ན། །ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག་དང་། །དབྱུག་མཚོ་དུས་མེའི་ཆུ་ཡི་སྲང་། །དབུགས་མདའ་འདོད་ཆ་ཐུབ་པས་འཁོར།») measure one round of the sun, the year, in two units. The first line, "the stars' hours (རྒྱུ་སྐར་ཆུ་ཚོད, rgyu skar chu tshod), one thousand six hundred and twenty": this is the sun's round counted in the stars' hours, and 1620 is 27 asterisms of 60 hours each. WB ch. 17 (wb.1:p191) gives the same figure as a constant: "in each star-region, with the 60 of the zero-taste, a thousand six hundred and twenty comes", and divides the house-day circle 360 by the stars' hours 1,620. So 1620 does not count days or civil chu tshod; it is the circle of the 27 asterisms cut into sixtieths.
+
+The second line, "measured by tithi-days (ཚེས་ཞག, tshes zhag)": the same round is "three hundred and (don) one" days, then "staff (དབྱུག, dbyug; the chu tshod) ocean (4)", "season-fire (6, 3) water-measures (chu srang)", "breath, arrow (5), desire-part (13), sage (7)". Read as a number written in word-numerals, units first, this is 371 tithi-days, 4 chu tshod, 36 chu srang and 5 7/13 breaths. The check is our arithmetic on the constants of SPEC 5.1 (Janson): the mean sun makes 65 revolutions in 804 months, so a year is 804 × 30 / 65 = 4824/13 = 371 1/13 tithi-days; 1/13 of a day is 4 chu tshod, 36 chu srang and 72/13 = 5 7/13 breaths (60 chu srang to a chu tshod and 6 breaths to a chu srang, from the 360 breaths of ch. 2). Every part of the verse's fraction agrees to the breath, including the 7/13, which a mistaken reading of the figures would not give. So «སུམ་བརྒྱ་དོན་གཅིག» is read here as 371, with «དོན» in the tens place for 70 (the word-numeral itself is not attested for 7 in the pool, so that part is inferred from the agreement); the figure 301 does not fit any year in tithis. The line stands in the 1996 Beijing and Gser thang etexts of the White Beryl, in the Do shal commentary's etext (MW1KG1617) and, with the verse recast, in the skar rtsis of the Sgo bzhi mdzod lnga'i yang bcud (MW3PD398: «ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག་དང་། །དབྱུག་མཚོ་ཆུ་སྲང་མཚམས་ཡོན་དང་»), all read as BDRC search snippets, not on a page image; the 1620 line is also in Padma dkar po's collected works, where the 1620 is divided to give the house-day.

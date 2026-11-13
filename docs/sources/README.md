@@ -1121,6 +1121,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch2-number-names.md](claims/wb-ch2-number-names.md) | claim, list | WB ch. 2 names the numbers from one to the great numbers, ten times each step | cites wb.1:p20-21; feeds — |
 | [claims/wb-ch2-number-synonyms.md](claims/wb-ch2-number-synonyms.md) | claim, list | WB ch. 2 lists the number-words that stand for the numbers one to thirty-two, and calls the list no measure | cites wb.1:p20-21; feeds — |
 | [claims/wb-ch2-operation-words.md](claims/wb-ch2-operation-words.md) | claim, list | WB ch. 2 lists the words that mean add, subtract, multiply, divide, erase and find | cites wb.1:p21; feeds — |
+| [claims/wb-ch2-sun-round-1620-stars-hours-371-tithi-days.md](claims/wb-ch2-sun-round-1620-stars-hours-371-tithi-days.md) | claim, rule | WB ch. 2 p. 14: the sun's round is 1620 stars' hours, and 371 tithi-days 4 chu tshod 36 chu srang 5 7/13 breaths | cites wb.1:p14, wb.1:p191; feeds — |
 | [claims/wb-ch2-year-measures.md](claims/wb-ch2-year-measures.md) | claim, list | WB ch. 2 gives the year's measures: 360 breaths to a chu tshod, 21,600 breaths a day, 360 sign-days and 365 civil days | cites wb.1:p14; feeds — |
 | [claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md](claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md) | claim, note | «བསྒྲིལ་བས» sums the list before it where it can be tested; the fourth's 87 is not such a sum | cites wb.2:p47, wb.2:p50, wb.2:p45; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
@@ -1171,6 +1172,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch8-thirty-parts-planets.md](claims/wb-ch8-thirty-parts-planets.md) | claim, table | The thirty parts of the union of times: the planets' stretches in unequal and equal signs | cites wb.1:p55; feeds — |
 | [claims/wb-ch9-eclipse-colours.md](claims/wb-ch9-eclipse-colours.md) | claim, list | WB ch. 9 gives the colour of an eclipse by the part of Rāhu that seizes | cites wb.1:p67-69; feeds — |
 | [claims/wb-ch9-eclipse-direction.md](claims/wb-ch9-eclipse-direction.md) | claim, rule | WB ch. 9 gives the side of an eclipse's seizing and the side of its recovery | cites wb.1:p67-69; feeds — |
+| [claims/wb-ch9-eclipse-table-figures-in-quarter-chu-tshod-and-corrections-in-chu-srang.md](claims/wb-ch9-eclipse-table-figures-in-quarter-chu-tshod-and-corrections-in-chu-srang.md) | claim, rule | WB ch. 9 pp. 60-62: the eclipse table's figures are counted in 15 chu srang, and the courses' corrections of 30, 20 and 40 are chu srang | cites wb.1:p60, wb.1:p62; feeds — |
 | [claims/wb-ch9-eclipse-writers.md](claims/wb-ch9-eclipse-writers.md) | claim, list | WB ch. 9's colophon names earlier writers on eclipses and the author's use of them | cites wb.1:p67-69; feeds — |
 | [claims/wb-ch9-kalacakra-rahu.md](claims/wb-ch9-kalacakra-rahu.md) | claim, note | WB ch. 9: the Kālacakra's account makes Rāhu half the sphere, head and tail of beryl, and body empty space | cites wb.1:p57; feeds — |
 | [claims/wb-ch9-moon-seizure-chu-tshod.md](claims/wb-ch9-moon-seizure-chu-tshod.md) | claim, note | WB ch. 9 holds that the moon's whole seizure lasts fifteen chu tshod, from experience and the great commentary | cites wb.1:p68-69; feeds — |
@@ -2040,7 +2042,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | open; cites — |
-| [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | open; cites — |
+| [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | answered; cites wb.1:p23 |
 | [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
 | [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | open; cites — |
 | [questions/q0734.md](questions/q0734.md) | question q734 | What the 24 charts of pp. 136–147 place, and the cells' lists | open; cites — |
@@ -2053,7 +2055,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
 | [questions/q0742.md](questions/q0742.md) | question q742 | The bracketed numerals of the great number-names, p. 20 | open; cites — |
 | [questions/q0743.md](questions/q0743.md) | question q743 | The mantra after «dus 'khor lo'r» on p. 14 | open; cites — |
-| [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | open; cites — |
+| [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | answered; cites wb.1:p14, wb.1:p191 |
 | [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
 | [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | open; cites — |
 | [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
