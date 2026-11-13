@@ -2499,6 +2499,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1183.md](questions/q1183.md) | question q1183 | In the Do shal commentary and the Sgo bzhi mdzod lnga'i yang bcud skar rtsis, is the number-word «དོན» in «ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག» (WB ch. 2) glossed as 70? Is there a word-numeral list with «དོན» = 7? | open; cites — |
 | [questions/q1184.md](questions/q1184.md) | question q1184 | What is the long way of the Abridged Tantra that multiplies the cut surplus by 8280 (མཁའ་ནོར་མིག་ཀླུ) in the eclipse tables (WB ch. 9 p. 60), and what does the 8280 measure? | open; cites — |
 | [questions/q1185.md](questions/q1185.md) | question q1185 | Does a commentary on WB ch. 9 p. 62 state how the 30 chu srang of the fast course is split between holding and release, and whether pressing (མནན་ཡུན) is the middle or the whole of the covering? | open; cites — |
+| [questions/q1186.md](questions/q1186.md) | question q1186 | Does Rin chen rnam rgyal's collected works, or the catalogue of them, list a «zin bris» (སྒྲ་ཚད་པའི་ཟིན་བྲིས) on the rebirth-seeing rite of the MDP (q932)? | open; cites — |
+| [questions/q1187.md](questions/q1187.md) | question q1187 | Which work on the the'u spirits says what gnam the dkar po (གནམ་ཐེ་དཀར་པོ) does to a sleeper, and why is a white thread tied round the waist the means of holding it (Marpa's inner-heat manual, q1111)? | open; cites — |
+| [questions/q1188.md](questions/q1188.md) | question q1188 | The Tshig mdzod chen mo makes nam phyed the rat's double-hour, and the Bod yig tshig gter rgya mtsho the ox's: which is meant in the teaching on the death-sign images, and does it change what the midnight dream covers (q1067)? | open; cites — |
 
 <!-- end pool index -->
 
