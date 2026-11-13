@@ -2517,6 +2517,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1196.md](questions/q1196.md) | question q1196 | Which of the first works of MW1KG4326 (Kun dga' rin chen, vol. 2: the Arapacana sādhana pp. 9-22 or the Mol gtam pp. 23-38) holds the last-watch passage at etext character 14273 (q1070)? | answered; cites — |
 | [questions/q1197.md](questions/q1197.md) | question q1197 | Which work of the Rgyud sde kun btus (MW2PD14777) carries the sentence «dbang bskur ba'i dus dpa' bo mkha' 'gro rnams kyis rgyud byin gyis brlabs nas lung ston par mdzad pas…», and is it a copy of Kun dga' rin chen's Phur pa dbang mtshams sbyor (VE1KG4326_009) or of an older Sakya initiation manual (q1070)? | open; cites — |
 | [questions/q1198.md](questions/q1198.md) | question q1198 | Does the colophon of MW8LS19380 (the Nyin dgon Bya bral ba's sems sde pra khrid man ngag, 72 p.) give Dpal gnam steng ri khrod and a water-bird year? A reader with the scan is needed (q1145). | open; cites — |
+| [questions/q1199.md](questions/q1199.md) | question q1199 | On the Gser thang scan (WB vol. 1 ch. 13, img. 205–211) is the first glyph of entry 9's year name «ཨངྒིར» (Aṅgiras) a stack with nga under the head, not da (q707)? | open; cites — |
+| [questions/q1200.md](questions/q1200.md) | question q1200 | On the scan of ch. 13 do entries 39, 43 and 58–60 read ཟིལ་གནོན (not ཐིལ), གདོང་ངན (not གདང་ངན), རྔ་ཆེན (not ཇ་ཆེན) and ཁྲག་སྐྱུག་པ (not ཁྲག་སྨྱུག་པ), as the prints' phrase searches favour (q708)? | open; cites — |
+| [questions/q1201.md](questions/q1201.md) | question q1201 | On the scan of p. 207 line 7 does entry 27 read ལྷོ་ཡི་ཕྱོགས་སུ (not ལྟོ་ཡི), and on p. 211 does entry 51 read ཆོམ་རྐུན (not ཚོམ་རྐུན) and entry 50 ལྷགས (not ལྟགས) (q715–q717)? | open; cites — |
 
 <!-- end pool index -->
 
