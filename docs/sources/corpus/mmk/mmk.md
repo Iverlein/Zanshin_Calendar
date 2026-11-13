@@ -81,6 +81,18 @@ Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive te
 Gaṇapati Śāstrī's edition, the end of the 15th chapter's dream section, pp. 152-153 (the page head «पञ्चदशः पटलविसरः | १५३» stands in the text layer after the lines of p. 152), the same place as the Derge's mmk.1:p403 ([p403]-[p404]). Read from the 2008 reprint's text layer, Roman letters as I read the OCR. "These are the marks told of dreams that show the true, described by the sages formerly, who accomplished every aim. Ram, bull, the pair, crab, lion, balance, maiden, and (the eighth, not read: the Tibetan has «སྡིག་པ»), bow, sea-monster, jar and fish, elephant, god, monkey and asura, the siddhas, gandharvas and yakshas and the rest that are proclaimed for men: the classes (rāśi) of the many beings, told by the foremost bulls (best of men). ... Therefore by the sign of the dream the wide rites are to be applied. ... [p. 153] the mantra that destroys obstructors is fitted to the time of ..." (the last line's «tāraṃ kāle» is not read).
 Machine, 2026-11-10; OCR, not read on a page image. The Sanskrit "rāśi" of the list is the word for "heap, class, zodiac sign"; the list holds the twelve zodiac names and then more, so whether the verse speaks of the zodiac or of the classes of beings is a doubt the Tibetan «ཁྱིམ» ("house") does not settle. The eighth sign's word is unread in both copies.
 
+## <a id="mmk-2-p158-160"></a>mmk.2:p158-160 The Sanskrit's four chief planets and the first words of a measure of time (kṣaṇa, unmeṣa, nimeṣa, acchaṭa), at the end of its dream-and-births chapter
+
+*Read: machine, 2026-11-13.*
+
+> > [p. 158-160, OCR] ... catvāro graha-mukhyās tu śukra-candra-guru-budhāḥ / teṣāṃ dina-siddhy-arthaṃ ... sarva-karma ... sarva-sampat-siddhi-iṣṭāḥ kathitā loka-puṅgavaiḥ // kṣaṇamātraṃ tathonmeṣa-nimeṣaṃ cāpi acchaṭam / eṣāṃ saṃkṣepato jātiḥ kathitā loka-puṅgavaiḥ / etan-mātra-pramāṇaṃ tu grahāṇāṃ loka-vindinām // udayaṃ te tathā nityaṃ patat-kālaṃ tu ... / ... dṛśyādṛśya-kṣaṇān-meṣa-pacchayaṃ(?) tvaritā gatiḥ / tataḥ kālaṃ prakalpyete ... / patat-kāla-pramāṇaṃ tu darśita-graha-buddhibhiḥ(?) // ataḥ paraṃ pravakṣyāmi niyataṃ jātakaṃ sadā /
+
+[The four chief planets and the first words of a measure of time, in the Sanskrit's chapter that holds the dream and the births.] "The four chief planets are Venus, the Moon, Jupiter and Mercury; for the success of their day ... every act ... accomplishment of all fortunes is held, told by the best of the world. A moment (kṣaṇa), the opening (unmeṣa) and the closing of the eye (nimeṣa) and the finger-snap (acchaṭa)(?): of these, in brief, the kind has been told by the best of the world; this much is the measure of the planets for the world's knowers. Their rising ... always ... the time of setting ...; the swift course of the planets is seen and unseen in a moment, a wink; then time is reckoned ... the measure of the time of setting is shown by those whose minds are on the planets. After this I shall tell the fixed (rule) of birth."
+
+The Derge's counterpart is mmk.1:p438a-p438-439: the four best planets (Jupiter, Venus, the Moon and the best of the rest: ཕུར་བུ་པ་སངས་ཟླ་བ་དང་། གཟའ་ལྷག་མཆོག), then «མིག་ནི་འབྱེད་དང་འཛུམས་པ་དང་། སེ་གོལ་མྱུར་བའི་འགྲོས་འདི་ནི། འདི་དག་དུས་ཀྱི་ཚད་དག་ནི། རྒྱ་ཆེར་ཡང་ནི་བསྟན་པར་བྱ» («the opening and closing of the eye, and the swift pace of the se gol: these measures of time will also be shown at length»). The Sanskrit has the same planets and the same units, the eye's opening and closing and a word for a snap (acchaṭa, which would be the Tibetan se gol; the OCR's word is «अच्छटम्», a doubt), but then goes to the setting of the planets and to births: the chain of se gol, rtsa rgyun, chu tshod, watch, skad cig and yud tsam, the thirty yud tsam, the half-month and the years are not here. The page's own end is the colophon of the 15th «paṭalavisara» (OCR: «pañcadaśaḥ paṭalavisaraḥ»), so the Sanskrit puts this together with the dream and the births of one chapter, where the Derge divides them between its ch. 15 (the dream, mmk.1:p396-405) and ch. 18 (the births p430-432 and these lines p438).
+
+Machine, 2026-11-13: the Roman letters are my reading of the Devanagari OCR of another scan of the same edition, the Trivandrum Sanskrit Series 70 (Gaṇapati Śāstrī, part 1, 1920; Internet Archive TSS070AryamanjusrimulakalpaPart1TGSastri1920_201809, its text layer); the OCR is much garbled and the printed page numbers are inferred from the page marks «157», «158» before the lines, so the page is a doubt; not read on a page image.
+
 ## <a id="mmk-2-p179-181"></a>mmk.2:p179-181 The Sanskrit of the end of the 18th chapter and the opening of the 19th: no measure of time, and where the edition has the watches
 
 *Read: machine, 2026-11-10.*
@@ -107,6 +119,18 @@ Therefore the act is what counts, success is held to come from the act; these ar
 This is the Sanskrit of the chapter on the asterisms and planets (the OCR's colophon after the lines names «mahānakṣatra-lakṣaṇa-nakṣatra-jyotiṣa-jñāna-parivarta», the second chapter of a run); it is probably the chapter that the Derge puts at [p423]-[p448], but the two were not matched line by line, so the Tibetan page is not given. The printed page number 180 is the page head the OCR gives before the lines. It says that the rāśis are of two kinds, the signs and the classes of beings, and that the act, not the rāśi or the planet, makes success; the dream chapter's lines after its own list of rāśis (mmk.2:p152-153, «guṇa» and «karma») speak of the same pair, the act and its quality, but whether the two passages say one thing is a doubt.
 
 Machine, 2026-11-10: the Roman letters are my reading of the Internet Archive text layer's Devanagari OCR (in.ernet.dli.2015.345315, Gaṇapati Śāstrī's edition, part 1, 1920), not a reading of a page image; where the OCR is garbled the word is bracketed with a query.
+
+## <a id="mmk-1-p246"></a>mmk.1:p246 Ch. 1: the thirty-six houses at the assembly in the pure-abode palace, the twelve signs first, with the Sanskrit's list beside
+
+*Read: etext, 2026-11-13.*
+
+> > [p246] ཁྱིམ་སུམ་ཅུ་རྩ་དྲུག་ལ་འདི་ལྟ་སྟེ། ལུག་དང་། གླང་དང་། སྦྱོར་བ་དང་། སྦལ་པ་དང་། སེང་གེ་དང་། བུ་མོ་དང་། སྲང་དང་། སྡིག་པ་དང་། གཞུ་དང་། ཆུ་སྲིན་དང་། བུམ་པ་དང་། ཉ་དང་། མིའུ་ཐུང་དང་། ཉེ་བའི་བུམ་པ་དང་། བྷྲིང་ག་ར་དང་། རལ་གྲི་དང་། གླང་པོ་ཆེ་དང་། མ་ཧེ་དང་། ལྷ་དང་། མི་དང་། དགེ་ལྟས་དང་། དྲི་ཟ་དང་། འཇིག་རྟེན་དང་། གཡུང་དྲུང་རྒྱལ་དང་། དྲག་པོའི་གཟི་བརྗིད་དང་། ཟླ་བའི་འོད་དང་། ས་དང་། མུན་པ་དང་། རྡུལ་དང་། ཉེ་བའི་རྡུལ་ དང་། སྡུག་བསྔལ་དང་། བདེ་བ་དང་། བྱང་ཆུབ་དང་། སོ་སོ་གཅིག་དང་། ཉན་ཐོས་དང་། དམྱལ་བའི་རིག་པ་འཛིན་པ་དང་། གཟི་བརྗིད་ཆེན་པོ་དང་། གཟི་བརྗིད་ཆེན་པོ་ལྡན་དང་། དུད་འགྲོ་དང་། ཡི་དགས་དང་། ལྷ་མ་ཡིན་དང་། ཤ་ལྡན་དང་། ཤ་ཟ་ དང་། །གནོད་སྦྱིན་སྲིན་པོ་དང་། འབྱུང་པོ་ཐམས་ཅད་པ་དང་། འབྱུང་བ་པ་དང་། ཕྱོགས་ཀྱི་གླང་པོ་དང་། སྟེང་འགྲོ་དང་། ཐད་ཀར་འགྲོ་དང་། ཁ་བྱེ་བ་དང་། བསམ་གཏན་འགྲོ་དང་། རྣལ་འབྱོར་འགྲོ་དང་། རབ་ཏུ་གནས་དང་། མཆོག་དང་། བར་མ་དང་ ཐ་མ་སྟེ། ཁྱིམ་ཆེན་པོ་དེ་དག་ཀྱང་ཁྱིམ་བརྒ
+
+[The thirty-six houses in the assembly of the pure-abode palace, ch. 1 of the Derge text.] "Of the thirty-six houses, they are as follows: the ram (ལུག), the bull (གླང), the joining (སྦྱོར་བ, the twins), the frog (སྦལ་པ), the lion (སེང་གེ), the girl (བུ་མོ), the balance (སྲང), «sin» (སྡིག་པ), the bow (གཞུ), the sea-monster (ཆུ་སྲིན), the jar (བུམ་པ), the fish (ཉ), the short monkey (མིའུ་ཐུང), the near jar (ཉེ་བའི་བུམ་པ), «bhṛṅgara»(?) (བྷྲིང་ག་ར), the sword (རལ་གྲི), the great elephant, the buffalo (མ་ཧེ), the god, the man, ... the animals, the hungry ghosts, the asuras, ... the best, the middle and the lowest: these great houses too, with hundreds of thousands of houses as retinue ..." (the part of the list after the twelve signs is given in part).
+
+The first twelve names are the zodiac in its order, and the thirteenth, the fourteenth and the sixteenth to eighteenth match the Sanskrit's list in mmk.2:p19 in order: meṣa, vṛṣabha, mithuna, karkaṭaka, siṃha, kanyā, tulā, vṛścika, dhanu, makara, kumbha, mīna, vānara (མིའུ་ཐུང), upa-kumbha (ཉེ་བའི་བུམ་པ), khaḍga (རལ་གྲི), mahiṣa (མ་ཧེ). So the eighth place, «སྡིག་པ», stands where the Sanskrit has vṛścika, and the fourth, «སྦལ་པ», where it has karkaṭaka.
+
+Etext, 2026-11-13 (BDRC etext volume VE4CZ5369_I1KG9214, etext page = scan image, as in RD370); the tail of the list is cut; not read on the scan.
 
 ## <a id="mmk-1-p252"></a>mmk.1:p252 Ch. 1: the eight qualities of a practitioner, one of them skill in showing a Buddha-field in the dream
 
@@ -350,6 +374,18 @@ Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; e
 No watch, day or half-month; the bad dream is removed by recitation at any time. The chapter's colophon at [p423] counts it the 17th.
 
 Etext, 2026-11-10 (BDRC etext MW4CZ5369_0543, volume etext VE4CZ5369_I1KG9214; etext page = scan image, as in RD370); not read on the scan.
+
+## <a id="mmk-1-p429"></a>mmk.1:p429 Ch. 18: births by house, the house of the frog (སྦལ་པ) with the mansions Rgyal and Skag
+
+*Read: etext, 2026-11-13.*
+
+> > [p429] བང་ཕྱུག་གིས་ནི་ལེགས་མཚན་པའོ། །རྒྱུ་སྐར་དེ་བཞིན་རྒྱལ་དང་ནི། །སྐག་ལ་ཡང་ནི་གང་སྐྱེས་པ། །འདི་ནི་སྦལ་ པའི་ཁྱིམ་ཡིན་ཏེ། །དགེ་དང་ལྡན་ཞིང་རྫུ་འཕྲུལ་ཆེ། །མདོག་ནི་སེར་པོ་དང་ལྡན་ཞིང་། །དེ་ནི་སྐྱེ་བ་མཆོག་ཏུ་བསྟན། །རྟག་ཏུ་དེ་བཞིན་མཚན་ཕྱེད་དུ། །འདི་ནི་སྐྱེ་བར་བསྟན་པ་ཡིན། །དེ་ཡི་དུས་ཀྱི་ཚད་ལ་ནི། །གལ་ཏེ་སེམས་ཅན་སྐྱེ་བར་འདོད། །ཆོ་ག་མཐོང་བའི་ རྒྱུ་ཡིས་ན། །འདི་ནི་དོན་རྣམས་ཐམས་
+
+[Ch. 18, the births by house.] "...the mansions Rgyal and Skag (རྒྱལ་དང་སྐག): whoever is born there, this is the house of the frog (སྦལ་པའི་ཁྱིམ), possessed of virtue and great in miracles; its colour is yellow, and it is shown as the best birth; always likewise at midnight, this is shown as a birth; ..."
+
+Here «སྦལ་པ» is a house (ཁྱིམ) to which two named mansions belong: it is the translation's word for the sign that the list of houses puts fourth, as in mmk.1:p403 and the first chapter. The lines go on with the houses in order: the lion (སེང་གེ, Leo) follows a few lines later.
+
+Etext, 2026-11-13 (BDRC etext volume VE4CZ5369_I1KG9214); the passage is part of the births by house, ch. 18 in the Derge; not read on the scan.
 
 ## <a id="mmk-1-p430-432"></a>mmk.1:p430-432 Ch. 18: births in the last watch of the night, at midnight, at sunrise, at midday, and the quality of each
 
