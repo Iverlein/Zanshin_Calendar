@@ -562,6 +562,18 @@ The words are the end of a list of signs in the retreat on a mantra's approach a
 
 The words «Rgya guhya» close the previous text (BDRC gives it as the guidance text of the Dākinī Bodiless Whispered Lineage, pp. 187-202); the history has no seal and no colophon of its own. Etext only (VE23605_008).
 
+## <a id="dds-40-p207-209"></a>dds.40:p207-209 Gdams ngag mdzod vol. 8, the history of the four sheets: the line of the Breakthrough transference from Mtshur dbang nge to Bde gshegs rin chen, and the narrator who says «I» (q1064)
+
+*Read: etext, 2026-11-13.*
+
+> [p3] མཚུར་དབང་ངེས་འཕོ་བ་སྤྱི་བརྟོལ་ཅེས་པ་སྐུ་མཆེད་ལ་གནང༌། དེ་འཛའ་ཕུ་རྒྱ་གར་ལ། དེས་སྟོད་ལུང་འགའ་རས། དེས་སློབ་དཔོན་ཉི་མ་ལུང་བ། དེས་བདེ་གཤེགས་རིན་པོ་ཆེ་སྟེ། སྟེང་སྒོ་ལ་རྟགས་ཐོན་པ་ཤ་སྟག་བྱོན། བརྒྱུད་པ་མི་གསང་བར་གདའོ། །
+> [p5] དེ་ལ་བདེ་གཤེགས་རིན་ཆེན་གྱིས་ཞུས་ཏེ་ཁོང་སྒ་འདྲའི་ཆབ་ཚན་ཁར་བཞུད་པའི་ལམ་དུ་བསྙེན་བཀུར་མཛད་པའི་ཚེ་ཤོག་དྲིལ་བཞིའི་གསུང་གླེང་བྱུང་ནས་མོས་པ་དྲག་པོ་སྐྱེས་ཏེ། … དེ་ལ་བདག་གིས་ཞུས་ཏེ། ཞུ་བའི་མཆེད་གྲོགས་དགེ་སློང་སྒྲུབ་པ་པོ་བྱ་བ་འདི་དག་གིས་ཆོས་འདིའི་སྙན་པ་ཐོས་ནས་ཁོང་རང་གི་གོས་ཕྱ་རུ་བཟང་པོ་གཅིག་གིས་སྣ་དྲངས་པའི་ཞུ་རྟེན་ལན་གསུམ་དུ་ཕུལ་ནས། ལན་གསུམ་དུ་ཞུ་བ་དྲག་པོ་བྱས་པས་ཕྱི་མ་ལ་གནང༌། བདག་ཀྱང་དེ་དང་དུས་འཛོམ་སྟེ།
+> [p6] ཞལ་གདམས་དང་བཅས་པ་བདག་གཅིག་པུ་ལ་གནང་སྟེ་གཞུང་ཆུང་གཉིས་གདམས་ངག་དང་བཅས་པའི་ལོ་རྒྱུས་སོ། །
+
+Etext VE23605_008, the history of the four sheets (etext markers [p3], [p5], [p6] of the text, printed pp. 207-209); machine-read, etext only. «The empowerment of Mtshur dbang nge, the Breakthrough transference (འཕོ་བ་སྤྱི་བརྟོལ, 'pho ba spyi brtol), was given to the (Mar pa's) brothers; he (gave it) to 'Dza' phu (in) India (འཛའ་ཕུ་རྒྱ་གར); he to Stod lung 'Gas ras (སྟོད་ལུང་འགའ་རས); he to the teacher Nyi ma lung ba (སློབ་དཔོན་ཉི་མ་ལུང་བ); he to Bde gshegs rin po che (བདེ་གཤེགས་རིན་པོ་ཆེ) — a sign came on the door-lintel and a tiger came; the lineage is to be kept secret.» … «Bde gshegs rin chen asked him (the teacher Nyi ma lung ba, who had received it from Stod lung 'Gas ras), and on the road, when he attended him on the way to Sga 'dra's camp (ཁོང་སྒ་འདྲའི་ཆབ་ཚན་ཁར་བཞུད་པའི་ལམ་དུ), talk of the four sheets arose and strong faith was born in him … Then I (བདག, bdag) asked: the dharma-brothers, a monk practitioner (དགེ་སློང་སྒྲུབ་པ་པོ) and others, having heard of this dharma, offered the request-gift three times, led by one good (piece of) clothing, and asked strongly three times; it was given to the last (ཕྱི་མ); I too came at the same time, and the oral instruction with (the texts) was given to me alone: the history of the two short texts with their instructions.»
+
+The «I» follows the account of Bde gshegs rin chen's asking and is not named in these lines. The history has no colophon at its end (dds.40:p234).
+
 ## <a id="dds-13-p209"></a>dds.13:p209 Dpal ldan bkra shis, gsung mgur, etext VEIE0OPI7CD7D2D9_I4210 (BDRC MW24575_18F32C, «dpal ldan bkra shis kyi gsung mgur ji snyed sems kyi 'char sgo ma 'gag sgyu ma'i …»): a dream placed by «month and day» with the numerals not printed
 
 *Read: etext, 2026-11-10.*
