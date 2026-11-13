@@ -48,6 +48,18 @@ Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318)
 
 Read by RD208 (2026-11-09): LGD: Rin chen gter mdzod vol. 42, printed pp. 961–971 (I1KG57 img. 980–990, image = page + 19).
 
+## <a id="lgd-38-p13"></a>lgd.38:p13 The rite of the oath-bound Great Man (Rin chen gter mdzod vol. 38): the enemy is parted from the god who comes alongside, the demon born together turns the oath-bound's messenger
+
+*Read: etext, 2026-11-13.*
+
+> དམ་ཅན་སྐྱེས་བུ་ཆེན་པོའི་སྒྲུབ་སྐོར་བཞུགས་སོ།
+> 
+> གསད་པའི་དུས་ཀྱི་ཏིང་འཛིན་ནི། །གྲུ་གསུམ་ནག་པོའི་གཏིང་རུམ་དུ། །དམིགས་པའི་དགྲ་བོ་གསལ་བ་ལ། །ནད་ཡམས་དུག་ཁྲག་འཚུབས་མ་ཡིས། །མཉམ་པོར་འོང་བའི་ལྷ་དང་ཕྱེ། །ལྷན་ཅིག་སྐྱེས་པའི་བདུད་དེ་ནི། །གཅན་གཟན་གདུག་པའི་མཆེ་བ་ཅན། །དམ་ཅན་ཁྲོས་པའི་ཕོ་ཉར་གྱུར། །ཤ་ཟ་ཁྲག་འཐུང་རུས་པ་འཆའ། །སྲོག་སྙིང་དྲང་ཞིང་སྟོབ་པར་བསམ། །གསད་པའི་སྙིང་པོ་ཞག་བདུན་བཟླ། །
+
+From the cycle «The accomplishment of the oath-bound Great Man» (Dam can skyes bu chen po'i sgrub skor, Rin chen gter mdzod vol. 38, etext p13), the verses on the contemplation at the time of killing. "The contemplation at the time of killing: in the depth of the black triangle, the enemy who is aimed at is made clear. By the stirring of plague, poison and blood he is parted from the god who comes alongside (མཉམ་པོར་འོང་བའི་ལྷ). The demon born together (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), a beast with poisonous fangs, becomes the wrathful oath-bound's messenger, a flesh-eater and blood-drinker wearing bones. Think that his life and heart are drawn out and carried off. Recite the heart-essence of killing for seven days."
+
+Etext only (Shechen etext VE1KG14_038, not compared with the scan); the title of the whole text is the line at its head (etext p1), the verse stands in its section on the stages of accomplishment. The verse names the victim as «དམིགས་པའི་དགྲ་བོ» (the enemy aimed at) in the line before the pair, so the god and the demon are the victim's. BDRC's exact-string search (2026-11-13) shows the same pair in a second rite, the Tshe sgrub gsang ba kun 'dus, the lower rite «gnam lcags thog mdel» (VE1ER121, char. 188333; snippet only, in Wylie): «skyob pa'i lha dang da khrol cig / mnyam por 'ong ba'i bdud la sprod / thar med las kyi 'chi bdag gtad» — "protecting god, be released now; hand him over to the demon who comes alongside; entrust him to the lord of death of inescapable karma".
+
 ## <a id="lgd-42-p533"></a>lgd.42:p533 The Palri Parkhang print: the bad signs, from the frost and hail to the black donkey (printed p. 533, I01CT0067 img. 541)
 
 *Read: machine, 2026-11-09 (RD254): Yigdzin-1 and MITRA over the whole page agree syllable for syllable (MITRA keeps the page-opening «ཨོཾ༔» on p. 533, left out here); the six lines' openings and endings compared by eye on half-page crops of the typeset page, the middle of the lines not read syllable by syllable by eye. The text agrees with RD238's reading of the same page in lgd.42:p966-971b.*

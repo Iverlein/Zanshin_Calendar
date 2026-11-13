@@ -159,6 +159,18 @@ The signs of the two accumulations of merit and wisdom being completed (from the
 
 (A song in Rtsa gsum gling pa's life, spoken by one who then leaves for 'Bri gung (འབྲི་གུང, 'bri gung); the lines before it ask him to keep the words in mind.) "In particular the skag (སྐག, skag) of the twenty-fifth (year), and before the back of the year-skag (ལོ་སྐག, lo skag) has passed, if even a corner is seen by others, a great obstacle will come." The lines that follow warn of poison and of the obstacle that meets whatever supports life, and end with an order to seal the secret.
 
+## <a id="tsl-27-i190-211"></a>tsl.27:i190-211 The Secret Subduer's recitation instruction: its title (p190) and the treasure-revealer's colophon (p211), the text that holds the dream signs of p203-205
+
+*Read: etext, 2026-11-13.*
+
+> ཨྃ༔ བཀའ་བརྒྱད་ཆེན་མོ་གསང་བ་ཟིལ་གནོན་ལས༔ བཟླས་པ་སྔགས་ཀྱི་པྲ་ཁྲིད་བཞུགས༔
+> 
+> ...བདག་འདྲ་པདྨ་འབྱུང་གནས་ཀྱིས༔ སྤྱི་ཆིངས་ཞལ་ཤེས་གདམས་པ་མཆོག༔ པྲ་ཁྲིད་གསལ་བའི་མེ་ལོང་བཞག དབྱངས་ཅན་མཚོ་རྒྱལ་གཟུངས་ཀྱིས་ཟུངས༔ ལས་འཕྲོ་ཅན་དང་འཕྲད་པར་ཤོག ས་མ་ཡ༔ རྒྱ་རྒྱ་རྒྱ༔ དྷགི་གཏེར་རྒྱ༔ སྦས་རྒྱ༔ ཟབ་རྒྱ༔ གསང་རྒྱ༔ གཏད་རྒྱ༔ ཁོ་བོ་གཏེར་བདག་གླིང་པས་ལྕགས་བྱི་ལོར་སྦས་ཚལ་ནས་གདན་དྲངས་ཤིང་གསང་སྔགས་ཆོས་གླིང་དུ་ཤོག་སེར་ལས་ཞལ་བཤུས་སོ། །མངྒ་ལཾ།། །།
+
+The title at the head of the text (etext p190) and its colophon (etext p211), in Rtsa gsum gling pa's Gter chos vol. 27 (BDRC IE0OPI46409446, the compiled volume of instructions; etext pN = image N). Title: "From the Great Eight Pronouncements, the Secret Subduer (Bka' brgyad chen mo Gsang ba zil gnon): the preliminary instruction on the recitation of mantra". The colophon, in the speaker's own voice: "...the one who is like me, Padma 'byung gnas, has set down the clear mirror of the preliminary instruction, the highest advice that knows the general bindings; sealed by Sarasvatī Mtsho rgyal's dhāraṇī, may it meet one of karmic fortune. Samaya, seal, seal, seal; seal of the treasure, seal of hiding, seal of the profound, seal of the secret, seal of entrusting. I, Gter bdag gling pa, in the iron-mouse year had it brought from Sbas tshal, and at Gsang sngags chos gling copied it from the yellow scroll. Maṅgalaṃ."
+
+The text between the two (etext pp. 191-211) runs without a break: the opening homage and the seal-verses «Secret Subduer, I bow to the god, samaya, seal... hidden as a precious secret treasure, may it meet one of karmic fortune», the instruction on the mantra-garlands, and, on pp. 203-205, the dream signs of the accomplishment of the four rites (the passage tsl.27:i203-205). Etext only, not compared with the scan; the volume's own contents list (etext pp. 4-6) names the text as «Bka' brgyad chen mo gsang ba zil gnon las, Bzlas pa sngags kyi pra khrid» among the treasure's texts, with printed pages 183-204 (the contents' pages and the images' difference of eleven do not agree by four, not checked).
+
 ## <a id="tsl-27-i203-205"></a>tsl.27:i203-205 Treasure instruction: the dream signs of mantra recitation accomplished, peaceful, enriching and fierce
 
 *Read: etext, 2026-11-10 (RD363): BDRC's etext (IE0OPI46409446) of the volume named in the id, page marker pN = image N; only the excerpt, with the etext's stray spaces and page-start marks left out; not compared with the scan, so every syllable here stands on the etext and is not built on until read on the scan.*

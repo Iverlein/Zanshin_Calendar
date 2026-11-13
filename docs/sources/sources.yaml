@@ -528,6 +528,7 @@ lgd:
       scan: I1KG57
       image_offset: 19
       pages: [961, 971]
+    38: {etext: VE1KG14_038, notes: "Rin chen gter mdzod chen mo (Shechen) vol. 38, a volume holding the cycle «Dam can skyes bu chen po'i sgrub skor» (opens at [p1]; read for q1006, 2026-11-13); only the one verse passage lgd.38:p13 is quoted, as the witness for the pair of the god who comes alongside and the demon born together; page = the etext's [pN] marker within the text"}
   licence: public-domain
   rank: 3
   role: source
