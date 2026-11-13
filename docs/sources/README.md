@@ -2490,6 +2490,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1178.md](questions/q1178.md) | question q1178 | Who is the Mentsikhang head teacher Dbyangs can dgyes pa of the Precious Key's colophon (pk:i383-385), and is he a second man beside Prajñāmaṇi? The colophon's «འམ» (or) is unsettled. | open; cites — |
 | [questions/q1179.md](questions/q1179.md) | question q1179 | Is «gnam gang» in the BDRC snippet of MW16936 (a commentary in Blo bzang bshad sgrub rgya mtsho's works, glossing the stong day) a spelling of «nam gang» or «nam gong»? A look at its scan would settle it. | open; cites — |
 | [questions/q1180.md](questions/q1180.md) | question q1180 | Which ch. 27 starting points does WB vol. 2 p. 17 belong to, if not the thirty of the notes (p. 532)? p. 17 calls the weapons' one a «སྐོར་འགོ» (starting point) but fights by a rule of its own (the eighteenth and tenth). | open; cites — |
+| [questions/q1181.md](questions/q1181.md) | question q1181 | Is the printed figure after «གཟུགས་མེ» and «མཁའ་ཡོན» on WB vol. 1 p. 185 really (༧) and (༡༠), and do they match any misprint slip? The number words give 31 and 30 chu tshod (q676). | open; cites — |
+| [questions/q1182.md](questions/q1182.md) | question q1182 | Is the «སྲང» before «ཀཊའི» in the p. 51 verse on the length of the day really «གླང» (Taurus)? | open; cites — |
 
 <!-- end pool index -->
 
