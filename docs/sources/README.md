@@ -1153,7 +1153,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-work17-tent-and-awning.md](claims/wb-ch34-work17-tent-and-awning.md) | claim, note | Work 17 «སྦྲ་ཕྱར»: the dictionaries give the hair tent and the awning cloth; «ཕྱ་ཐེར» has no entry | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch35-small-words.md](claims/wb-ch35-small-words.md) | claim, note | Ch. 35's small words: the topknot feat, «གུད་སྦས» on p. 448, the palm and the root tantra | cites wb.2:p440, wb.2:p448, wb.2:p450, wb.2:p453; feeds block-25 |
 | [claims/wb-ch4-byed-rtsis-grub-rtsis.md](claims/wb-ch4-byed-rtsis-grub-rtsis.md) | claim, definition | WB ch. 4: the accomplishing and the making reckoning, the five limbs | cites wb.1:p29, wb.1:p31, wb.1:p32, wb.1:p33; feeds — |
+| [claims/wb-ch4-mean-month-and-sun-divisors.md](claims/wb-ch4-mean-month-and-sun-divisors.md) | claim, rule | The divisors 39592 and 804 and the units dbyu gu, srang, dbugs, cha of the grub rtsis | cites wb.1:p29, wb.1:p30, wb.1:p55; feeds — |
 | [claims/wb-ch4-units-and-constants.md](claims/wb-ch4-units-and-constants.md) | claim, table | WB ch. 4: the chain of units and the constants as printed | cites wb.1:p29, wb.1:p30; feeds — |
+| [claims/wb-ch5-houses-weekday-stick-pairs.md](claims/wb-ch5-houses-weekday-stick-pairs.md) | claim, table | The twelve houses' pairs of the Kar myang reckoning: a weekday and a dbyug | cites wb.1:p36; feeds — |
 | [claims/wb-ch5-rahu-head-and-tail.md](claims/wb-ch5-rahu-head-and-tail.md) | claim, rule | WB ch. 5: Rāhu found by the pure month, head and tail, hour of rising, the sight | cites wb.1:p34, wb.1:p35; feeds — |
 | [claims/wb-ch5-twelve-houses-numbers.md](claims/wb-ch5-twelve-houses-numbers.md) | claim, table | WB ch. 5: the twelve houses' numbers for the lord of the year's planet and stick | cites wb.1:p36; feeds — |
 | [claims/wb-ch5-year-lord-and-kar-myang.md](claims/wb-ch5-year-lord-and-kar-myang.md) | claim, rule | WB ch. 5: the making-year's lord, its king and minister, the Kar myang reckoning and its rain signs | cites wb.1:p35, wb.1:p36; feeds — |
@@ -1162,8 +1164,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch6-purified-month-times-thirty.md](claims/wb-ch6-purified-month-times-thirty.md) | claim, rule | The purified month is multiplied by thirty | cites wb.1:p37; feeds — |
 | [claims/wb-ch6-purified-month.md](claims/wb-ch6-purified-month.md) | claim, rule | The purified month, the first step of the planets' chapters | cites wb.1:p37, wb.1:p42; feeds — |
 | [claims/wb-ch7-planet-weekday-numbers.md](claims/wb-ch7-planet-weekday-numbers.md) | claim, list | The five planets' weekday figures in chapter seven | cites wb.1:p42; feeds — |
+| [claims/wb-ch8-day-length-by-house.md](claims/wb-ch8-day-length-by-house.md) | claim, table | The length of the day by house: 26;30 to 33;30 hours | cites wb.1:p51, wb.1:p52; feeds — |
 | [claims/wb-ch8-dus-sbyor-breaths.md](claims/wb-ch8-dus-sbyor-breaths.md) | claim, rule | The union of times: 21,600 breaths in twelve parts, the sun's and the moon's remainders | cites wb.1:p52, wb.1:p55; feeds — |
 | [claims/wb-ch8-planet-colours.md](claims/wb-ch8-planet-colours.md) | claim, list | The colours of the planets in chapter eight | cites wb.1:p54, wb.1:p55; feeds — |
+| [claims/wb-ch8-tatkala.md](claims/wb-ch8-tatkala.md) | claim, definition | The Sanskrit word tatkāla in ch. 8 and its spelling in the print | cites wb.1:p52, wb.1:p54, wb.1:p55; feeds — |
+| [claims/wb-ch8-thirty-parts-planets.md](claims/wb-ch8-thirty-parts-planets.md) | claim, table | The thirty parts of the union of times: the planets' stretches in unequal and equal signs | cites wb.1:p55; feeds — |
 | [claims/wb-ch9-eclipse-colours.md](claims/wb-ch9-eclipse-colours.md) | claim, list | WB ch. 9 gives the colour of an eclipse by the part of Rāhu that seizes | cites wb.1:p67-69; feeds — |
 | [claims/wb-ch9-eclipse-direction.md](claims/wb-ch9-eclipse-direction.md) | claim, rule | WB ch. 9 gives the side of an eclipse's seizing and the side of its recovery | cites wb.1:p67-69; feeds — |
 | [claims/wb-ch9-eclipse-writers.md](claims/wb-ch9-eclipse-writers.md) | claim, list | WB ch. 9's colophon names earlier writers on eclipses and the author's use of them | cites wb.1:p67-69; feeds — |
@@ -1980,8 +1985,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 | [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
 | [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | open; cites — |
-| [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | open; cites — |
-| [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | open; cites — |
+| [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
+| [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
 | [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
 | [questions/q0679.md](questions/q0679.md) | question q679 | p. 187's fifth-place count: «བུ་གས» and the quarters' clearing | open; cites — |
 | [questions/q0680.md](questions/q0680.md) | question q680 | p. 188's sign after «མཁའ་མེ་སྲང» and the four off-step cells of the sage's table | open; cites — |
@@ -2000,11 +2005,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0693.md](questions/q0693.md) | question q693 | The reductions between 601 and 578 on p. 24 | answered; cites wb.1:p24 |
 | [questions/q0694.md](questions/q0694.md) | question q694 | The figures 298 and 288 of p. 27 (Chos 'khor rgyal) | answered; cites wb.1:p27 |
 | [questions/q0695.md](questions/q0695.md) | question q695 | «དོ་རའི་གར་མཁན» and «འདྲེན་བྱེད་གཡོས» in p. 22's verse | open; cites — |
-| [questions/q0696.md](questions/q0696.md) | question q696 | The units «དབྱུ་གུ», «སྲང», «དབུགས», «ཆ» and the divisor «བགོད་བྱེད» (pp. 29–32) | open; cites — |
-| [questions/q0697.md](questions/q0697.md) | question q697 | The twelve houses' number pairs on p. 36 | open; cites — |
-| [questions/q0698.md](questions/q0698.md) | question q698 | The length of the day sign by sign, p. 51 | open; cites — |
-| [questions/q0699.md](questions/q0699.md) | question q699 | The thirty parts given to the planets, p. 55 | open; cites — |
-| [questions/q0700.md](questions/q0700.md) | question q700 | The Sanskrit term of ch. 8 for the instant union of times | open; cites — |
+| [questions/q0696.md](questions/q0696.md) | question q696 | The units «དབྱུ་གུ», «སྲང», «དབུགས», «ཆ» and the divisor «བགོད་བྱེད» (pp. 29–32) | answered; cites — |
+| [questions/q0697.md](questions/q0697.md) | question q697 | The twelve houses' number pairs on p. 36 | answered; cites — |
+| [questions/q0698.md](questions/q0698.md) | question q698 | The length of the day sign by sign, p. 51 | answered; cites — |
+| [questions/q0699.md](questions/q0699.md) | question q699 | The thirty parts given to the planets, p. 55 | answered; cites — |
+| [questions/q0700.md](questions/q0700.md) | question q700 | The Sanskrit term of ch. 8 for the instant union of times | answered; cites — |
 | [questions/q0701.md](questions/q0701.md) | question q701 | «ཐིག་ཡོན» in the purified month's multiplier, p. 37 | answered; cites wb.1:p37 |
 | [questions/q0702.md](questions/q0702.md) | question q702 | The dotted syllables of pp. 70, 72 and 75 | open; cites — |
 | [questions/q0703.md](questions/q0703.md) | question q703 | «བསྐལ་ལི» (bskal li) of p. 70 | open; cites — |
