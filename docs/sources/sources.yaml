@@ -317,6 +317,20 @@ ys:
   notes: "the author of WB answering questions on it; vol. 1 (I5875, 548 images) holds the questions (from img. 9) and the replies; etext page = image number (VEIE0OPIF790A4DF_I5875; questions 137–142 img. 100–101, replies 494–499, RD47; reply 113 img. 469, RD21); vol. 2 (I5876, etext VEIE0OPIF790A4DF_I5876, title page img. 8) carries the replies on: reply 153 runs on to img. 14, replies 154–160 on ch. 30 are img. 14–18 (RD48), reply 161 opens ch. 31 on img. 18, and replies 165 and 168 stand on etext pp. 22–25 (the 'reply 106' once noted there is 165 misread); vol. 1's replies 101–153 on ch. 22–29 are img. 454–546 (RD48); passage ids of vol. 2 carry the volume, ys.2:iN, those of vol. 1 none; another print MW2PD17386_474815, search only"
 
 
+pk:
+  title: "Lhasa Mentsikhang's reckoning books, 1987 print: the Precious Key for the dead (Gshin rtsis, img. 271-385) and the other pieces"
+  author: "Dge tshul Ye shes chos 'phel (the Precious Key's gatherer), at the word of Prajnamani (Mkhyen rab nor bu)"
+  edition: "Lhasa Mentsikhang print, 1987, carved anew from old blocks (BDRC MW1KG12790)"
+  bdrc: {work: MW1KG12790, scans: [I1KG12897]}
+  licence: public-domain
+  rank: 3
+  role: witness
+  locator: image
+  volumes:
+    1: {scan: I1KG12897}
+  notes: "no etext; the colophon of the Precious Key on img. 383-385 read by Yigdzin-1 (word-hunts.md, q526); passage ids pk:iN"
+
+
 mta:
   title: "Rnam gnon zhes pa 'byung ba bzhi ldan lcags 'brug lo'i lo tho rgyas pa dpag bsam 'bras bu'i dga' ba (the full almanac of the iron dragon year, 2000)"
   author: "Astrological department, Tibetan Medical and Astro. Institute (Men-Tsee-Khang)"

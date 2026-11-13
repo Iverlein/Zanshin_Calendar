@@ -604,6 +604,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kdl-rainbow-time.md](claims/kdl-rainbow-time.md) | claim, rule | A rainbow is read by the night part, dusk and the junctures (Garga, in Klong rdol's abridgement) | cites kdl:p235-241; feeds S1 |
 | [claims/kdl-sound-by-part-of-day.md](claims/kdl-sound-by-part-of-day.md) | claim, rule | A sound in the sky is read by the part of the day (Garga, in Klong rdol's abridgement) | cites kdl:p235-241; feeds S1 |
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
+| [claims/khyenrab-norbu-is-prajnamani.md](claims/khyenrab-norbu-is-prajnamani.md) | claim, note | Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) is Khyenrab Norbu's Sanskrit name, by BDRC's person record | cites pk:i383-385; feeds — |
 | [claims/kl-moxa-six-dates-commentators-list-with-24th.md](claims/kl-moxa-six-dates-commentators-list-with-24th.md) | claim, note | KL's six moxa dates: the commentators' list, in modern collections too, always with the 24th | cites wb.2:p404; feeds — |
 | [claims/klu-byang-line-bad-dream-purified-by-talk-of-selflessness-padma-dkar-po.md](claims/klu-byang-line-bad-dream-purified-by-talk-of-selflessness-padma-dkar-po.md) | claim, note | Klu'i byang chub's line takes the dream as object; Padma dkar po's prose says «if bad» (RD395, q1063) | cites svo:p273b, nbv:p273-274; feeds S1 |
 | [claims/kokubunken-54-254-colophon-fuyacho.md](claims/kokubunken-54-254-colophon-fuyacho.md) | claim, note | The 国文研 Ebara dream book's colophon: 京綾小路ふや丁西入, 墨屋吉兵衛 (RD398, q1045) | cites mdz:i54254; feeds S3 |
@@ -761,6 +762,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-ratna-secretary.md](claims/notes-ratna-secretary.md) | claim, note | The learned secretary Ratna, read on Mipham's own print | cites wb.2:p538-539b, wb.2:p538b; feeds — |
 | [claims/notes-spud-pa-rgyug-is-wb-rgyu.md](claims/notes-spud-pa-rgyug-is-wb-rgyu.md) | claim, note | The notes' nine spud pa and six rgyug are WB's six spud of the going and the nine spud pa rite, with the ku kung three | cites wb.2:p517, ut:p302-304; feeds — |
 | [claims/notes-sroq-ma-ma-gud-pa-three-prints.md](claims/notes-sroq-ma-ma-gud-pa-three-prints.md) | claim, note | The doubled ma of «སྲོག་མ་མ་གུད་པ» stands on all three prints | cites wb.2:p483; feeds block-58 |
+| [claims/notes-thirty-are-ch26-not-ch27-p17.md](claims/notes-thirty-are-ch26-not-ch27-p17.md) | claim, note | The thirty of Mipham's notes (p. 532) are ch. 26's, not ch. 27's p. 17 | cites wb.2:p532-533, wb.1:p453-454, wb.2:p17; feeds block-25 |
 | [claims/notes-thirty-bri-wang-emblems.md](claims/notes-thirty-bri-wang-emblems.md) | claim, list | The thirty 'bri wang: only the starting emblems are given | cites wb.2:p538-539b, wb.2:p538b; feeds — |
 | [claims/notes-trigram-count-fourteen-fifteen.md](claims/notes-trigram-count-fourteen-fifteen.md) | claim, note | Mipham's counts of the trigram remedies and of his thirteen classes: what the arithmetic allows | cites wb.2:p517, wb.2:p104-105; feeds block-31 |
 | [claims/notes-trigram-remedies-fourteen-or-fifteen.md](claims/notes-trigram-remedies-fourteen-or-fifteen.md) | claim, note | WB counts the trigram's remedies fourteen, the notes fifteen, and no commentary counts them | cites wb.2:p517; feeds — |
@@ -789,6 +791,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
 | [claims/plank-tree-five-six-places.md](claims/plank-tree-five-six-places.md) | claim, definition | The plank-tree's fifteenth and sixteenth heads start at the sky year's down-fifth and down-sixth | cites dz:i052-055, wb.1:p413, wb.2:p494; feeds block-31 |
 | [claims/plank-tree-places-fifth-sixth-below-sky-year.md](claims/plank-tree-places-fifth-sixth-below-sky-year.md) | claim, definition | The plank-tree's fifteenth and sixteenth heads start at the sky year's fifth and sixth places below | cites dz:i052-055, wb.1:p413, wb.2:p534, wb.2:p494, wb.1:p387, wb.2:p187-188; feeds block-31 |
+| [claims/precious-key-water-bird-year-is-1933.md](claims/precious-key-water-bird-year-is-1933.md) | claim, note | The Precious Key's water bird year is 1933, by Prajñāmaṇi's dates | cites pk:i383-385; feeds — |
 | [claims/ransom-time-myur-smad.md](claims/ransom-time-myur-smad.md) | claim, note | «ཉི་མ་མྱུར་སྨད», the late afternoon: the time the ransoms are sent | cites wb.1:p431-433, wb.1:p443-444; feeds block-32 |
 | [claims/rbg-eighteen-dreams-of-the-latter-times.md](claims/rbg-eighteen-dreams-of-the-latter-times.md) | claim, note | RBG: the eighteen dreams of the latter times are King Kṛki's, not a method | cites rbg:p203-205; feeds block-73 |
 | [claims/regent-dgra-dar-black-and-white-in-reply-148.md](claims/regent-dgra-dar-black-and-white-in-reply-148.md) | claim, note | The enemy's rise, the empty word and the poles of black and white in reply 148 | cites ys:i506-508; feeds block-31 |
@@ -1461,6 +1464,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ngm/ngm.md](corpus/ngm/ngm.md) | corpus | NGM | 2 passages: 2 etext |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
+| [corpus/pk/pk.md](corpus/pk/pk.md) | corpus | PK | 1 passages: 1 machine |
 | [corpus/pl/pl.md](corpus/pl/pl.md) | corpus | PL: the Mchog dga' in the Mongolian dbu can print | 1 passages: 1 machine |
 | [corpus/pn1871/pn1871.md](corpus/pn1871/pn1871.md) | corpus | PN1871 | 4 passages: 4 scan |
 | [corpus/pn2730/pn2730.md](corpus/pn2730/pn2730.md) | corpus | PN2730 | 1 passages: 1 scan |
@@ -1826,7 +1830,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
 | [questions/q0524.md](questions/q0524.md) | question q524 | A manual that gives the dead's speckled life, body, power and luck | open; cites wb.2:p46 |
 | [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | narrowed; cites wb.2:p46 |
-| [questions/q0526.md](questions/q0526.md) | question q526 | Which water bird year dates The Precious Key, and who is Prajñāmaṇi | open; cites wb.2:p46 |
+| [questions/q0526.md](questions/q0526.md) | question q526 | Which water bird year dates The Precious Key, and who is Prajñāmaṇi | answered; cites wb.2:p46 |
 | [questions/q0527.md](questions/q0527.md) | question q527 | The Brahmā lineage's count of the steelyard's rope | open; cites wb.2:p165e |
 | [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | open; cites wb.2:p165e |
 | [questions/q0529.md](questions/q0529.md) | question q529 | Does UT's chase over the fifteen places read the notes' «ཡར་གསུམ་སོགས» | open; cites wb.2:p144e |
@@ -1959,11 +1963,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 | [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |
-| [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | open; cites — |
+| [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | answered; cites — |
 | [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | open; cites — |
 | [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | open; cites — |
 | [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | open; cites — |
-| [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | open; cites — |
+| [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | answered; cites — |
 | [questions/q0664.md](questions/q0664.md) | question q664 | UT's keying of harms to the fifteen places: a restatement of WB p. 172's counts? | open; cites — |
 | [questions/q0665.md](questions/q0665.md) | question q665 | Is Sprugtön's general verdict pebble outside the colophon's 75? | open; cites — |
 | [questions/q0666.md](questions/q0666.md) | question q666 | WB vol. 1 p. 65: the true sun and the nearer node differ by one mansion at most? | open; cites — |
@@ -1972,7 +1976,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0669.md](questions/q0669.md) | question q669 | Does the crab's house on p. 382 read «ཀཥྚ» or «ཀརྞ» | open; cites — |
 | [questions/q0670.md](questions/q0670.md) | question q670 | The manuscript I1LT0800's two series of cells: dates of death and the nine mewa? | open; cites — |
 | [questions/q0671.md](questions/q0671.md) | question q671 | The uncut lower parts of the life reckoning's short leaves: the colophon's «སྟོང་མང་»? | open; cites — |
-| [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | open; cites — |
+| [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | answered; cites — |
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 | [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
 | [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | open; cites — |
@@ -2557,6 +2561,7 @@ work for its facts only, never its wording):
 | **MP** | Ju Mipham, *Treatise on Passion* (*'Dod pa'i bstan bcos*), in his Collected Works | BDRC I1KG8551 |
 | **DM** | Deumar Geshe Tenzin Phuntsok, *Precious Garland* (*Rin chen phreng ba*), Xining 1993 | BDRC MW21588, lent scans |
 | **KL** | Nyida Heruka Chenagtsang, *Manual of Massage* (2001) | BDRC I1KG21795 |
+| **PK** | Lhasa Mentsikhang's reckoning books, the 1987 print carved anew from old blocks, with *The Precious Key* for the dead (img. 271–385) | BDRC MW1KG12790, scans I1KG12897; no etext; colophon read by Yigdzin-1 (word-hunts.md, q526) |
 | **GC** | Nyida Chenagtsang, *Selected Essays on Medicine* (1999) | BDRC I1KG21894 |
 | **RS** | *Collected Star Texts of the Rebkong Ngakmang* (2007/2008) | BDRC MW1KG6014 |
 | **GD** | Gyurme Dorje, *Tibetan Elemental Divination Paintings* (2001); cited as "Gyurme Dorje, p. N" | — |
