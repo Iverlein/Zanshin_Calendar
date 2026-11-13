@@ -1506,9 +1506,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/snr/snr.md](corpus/snr/snr.md) | corpus | SNR | 2 passages: 2 etext |
 | [corpus/snz/snz.md](corpus/snz/snz.md) | corpus | SNZ | 1 passages: 1 etext |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 27 passages: 10 scan, 8 machine, 9 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 29 passages: 10 scan, 8 machine, 11 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 13 passages: 6 scan, 5 machine, 2 etext |
-| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 91 passages: 16 scan, 13 machine, 62 etext |
+| [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 92 passages: 16 scan, 13 machine, 63 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 2 passages: 2 machine |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
@@ -2243,7 +2243,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0922.md](questions/q0922.md) | question q922 | What does the Moonbeams' «མཚན་སྟོད་ཕྱེད་པ་ཡན་ཆད» mean: up to the half of the first part of the night, or up to the half (midnight) of the night? | open; cites st:p31-32b |
 | [questions/q0923.md](questions/q0923.md) | question q923 | Which tantra do Rang byung rdo rje and Kong sprul mean by «rgyud rnams las», and the Blue Beryl and Zur mkhar ba by «རྒྱུད་ནས་མང་དུ་གསུངས་པ», for the verse «སྲོད་ལ་བད་ཀན་ཤས་ཆེ་སྟེ། ནམ་ཕྱེད་དུས་སུ་མཁྲིས་པར་བརྗོད། ཐོ་རངས་རླུང་གི་དུས་ཉིད་དེ»? | open; cites st:p31-32c |
 | [questions/q0924.md](questions/q0924.md) | question q924 | Do the two editions of Byang pa's commentary (MW27496, the Si khron print of 2001, and MW15590, the Mi rigs dpe skrun khang first printing) differ on the page in the Moonbeams' line (མི་བཟང་ against མི་བཟད), and which is the author's own? | open; cites st:p30-31 |
-| [questions/q0925.md](questions/q0925.md) | question q925 | Does Bya mdo Klu byams rgyal join the Klong rdol line and the Four Tantras' first line into one rule (dusk and midnight without fruit, dawn with), or only set them side by side as two authorities? | open; cites st:p31-32c |
+| [questions/q0925.md](questions/q0925.md) | question q925 | Does Bya mdo Klu byams rgyal join the Klong rdol line and the Four Tantras' first line into one rule (dusk and midnight without fruit, dawn with), or only set them side by side as two authorities? | answered; cites st:p31-32c, st:p31-32d |
 | [questions/q0926.md](questions/q0926.md) | question q926 | In the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར and the fourth watch's «ཕྱེད་པར་» likewise: is «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it? | open; cites svo:p271m |
 | [questions/q0927.md](questions/q0927.md) | question q927 | The Co ne's third watch line reads «ཐུན་གཉིས་གསུམ་གྱི་བར» (no «ཟླ་བ», «གཉིས» for «གསུམ»): is it the scribe's slip or the print's own text? | open; cites svo:p271m |
 | [questions/q0928.md](questions/q0928.md) | question q928 | Does the Sanskrit of Nīlakaṇṭha's Ācāramayūkha (Negelein's q, Benares 1876 with Rāmanātha's Hindi commentary) read the fourth watch «māsena phalada» and the dawn «daśāhena» in a printed Sanskrit edition, as the Romanian translation's text layer shows? | open; cites neg:p14-17 |

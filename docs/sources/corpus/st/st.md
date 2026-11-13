@@ -132,6 +132,17 @@ The Drikung dka' mchan's sentence has the verse's own words in the verse's own o
 
 The Blue Beryl's own sentence on p. 215 has «རྨི་ལམ་མི་བཟང་བ་ལྟ་བུ», the Tantra's wording, after «རྨི་ལམ་གྱི་རྣམ་པ་མི་བཟད་པ་དེ» ("that unbearable kind of dream") on the same page (claim gt-line-17-in-five-commentaries).
 
+## <a id="st-p30-31b"></a>st:p30-31b Byang pa's other edition (MW15590) reads «མི་བཟད» in the lemma, his gloss and the Moonbeams' quotation, where the 2001 print has «མི་བཟང»
+
+*Read: etext, 2026-11-13.*
+
+> Byang pa's commentary, the Mi rigs dpe skrun khang first printing (MW15590; etext VEIE0OPIB55EB1A5_I1PD380, p. 184, printed p. 164), the lemma and the Moonbeams' quotation (the etext breaks the lines at «རྨི་»|«ལམ»; the editor's square brackets are the etext's):
+> གཉིས་པ་རྨི་ལམ་དེ་འབྱུང་བའི་རྒྱུ་མཚན་སྟོན་པ་ནི། དེ་ལ་སོགས་པ་རྨི་ལམ་མི་བཟད་པ།། ཡིད་འཇུག་བུ་ཁ་ནད་ཀྱི་[ཀྱིས] བཀག་ཕྱིར་མཐོང་།། ཞེས་པའི་དོན། གོང་དུ་བཤད་པའི་སྲིན་པོ་དང་ལྷན་ཅིག་གར་བྱེད་པ་དེ་ལ་སོགས་ཏེ་རྨི་ལམ་མི་བཟད་པ་རྨི་བ་གང་ཡིན་པ་དེ་ནི་ཉེས་གསུམ་གྱི་དྲི་མ་སྟོབས་ཆེ་བས་ཡིད་གང་དུ་འཇུག་པའི་བུ་ཁ་ནད་ཀྱིས་བཀག་པའི་ཕྱིར་རྨི་ལམ་དེ་ལ་སོགས་པ་མཐོང་བ་ཡིན་ཞེས་པའོ།། རྒྱས་པར་ནི་ལུས་གནས་ལེའུ་དྲུག་པའི་འགྲེལ་བ་ཟླ་ཟེར་ལས། ནད་ཀྱི་སྟོབས་དང་ལྡན་པ་ཡིས།། ཡིད་འཇུག་བུ་ཁ་བཀག་པའི་ཕྱིར།། མི་བཟད་རྨི་ལམ་མཐོང་འགྱུར་ཏེ།། ནད་པ་འཆི་བར་འགྱུར་བ་ཡིན།། ནད་མེད་ཐེ་ཚོམ་བཅས་འགྱུར་ཞིང་།། དགའ་ཞིང་[འགའ་ཞིག]ཐར་པར་འགྱུར་བ་ཡིན།།
+
+"Second, showing the cause of those dreams: «these and the like, bad dreams (རྨི་ལམ་མི་བཟད་པ, rmi lam mi bzad pa): the passages of the mind's entry blocked by illness, therefore seen». The meaning: ... those who dream bad dreams (mi bzad pa) are those whose three faults' dirt is strong, so the passages into which the mind enters are blocked by illness, and therefore they see such dreams. In detail, from the Moonbeams' commentary on the Body's sixth chapter: «The illness has strength; the passages of the mind's entry are blocked; therefore unbearable dreams (མི་བཟད་རྨི་ལམ) will be seen; the sick man will die; ...»."
+
+The second edition of Byang pa's work reads «མི་བཟད» in all three places of the page: the lemma of the Four Tantras' line, his own sentence, and the Moonbeams' quotation. The Si khron print of 2001 (MW27496, st:p30-31) reads «མི་བཟང» in the lemma and in the quotation. The pool's line 17 of the Four Tantras' chapter 7 and the Drikung dka' mchan's sentence read «མི་བཟང་བ» (st:p30-31); so the first printing's lemma agrees with the Moonbeams' word, not with the pool's reading of the Tantra's line, and a harmonising hand in one of the two editions is as likely as the author's own difference. The etext is BDRC's "good OCR" with bracketed editorial corrections («[ཀྱིས]», «[འགའ་ཞིག]»); the scan is not served (bdrc.py scans on I1PD380 img. 183–186: no file), so the printed letters are not checked by eye.
+
 ## <a id="st-p31-32"></a>st:p31-32 Ch. 7's night lines in Byang pa, Rin spungs pa, the Drikung dka' mchan, Skyem pa, Zur mkhar ba and the Blue Beryl
 
 *Read: etext, 2026-11-10.*
@@ -226,6 +237,17 @@ Rules beside the Four Tantras' two lines that divide the night, as far as the co
 **Bya mdo Klu byams rgyal** (search snippet only): after the dawn time he says that a dream arising at dawn is shown to bring its fruit surely, "as is said" with the Klong rdol line, and then «rgyud rang las», "the Tantra itself says" with the Four Tantras' first line, with «brjed nges». He sets the two as two authorities, and the first is not called the Tantra's.
 
 **From midnight to dawn** as a span: «ནམ་ཕྱེད་ནས་ཐོ་རངས་ཀྱི་བར», "from midnight to dawn", is a stock phrase in tantric practice texts (the snippets above), where that span is the time of seizing the clear light of sleep; the search for it among the commentaries on the Four Tantras found no use of it for dreams.
+
+## <a id="st-p31-32d"></a>st:p31-32d Bya mdo Klu byams rgyal's sentence on the dawn dream: Klong rdol's line and the Four Tantras' line, each quoted, joined by «zhes dang»
+
+*Read: etext, 2026-11-13.*
+
+> Bya mdo Klu byams rgyal, བོད་ལུགས་གསོ་རིག་གི་སེམས་ཁམས་རིག་པ་དུས་རབས་ཁྱེའུ་གསར་བུའི་རང་མདངས (MW8LS18598, Mi rigs dpe skrun khang 2012, etext search-only), the BDRC search snippet of 2026-11-13, in the search page's Wylie, with its own marks:
+> thun mi 'dra bar gzhigs nas rmi lam gyi 'bras bu 'byung ba'i dus smos shing /_lta zhib dang rtog dpyod gang mang brgyud tho rengs stag gi dus su rmi lam byung na 'bras bu 'byin nges par bstan yod de/_ji skad du/[ “ ]tho rengs gsum cha phyis 'byung gsal byed yin[”1]zhes dang*/_rgyud rang las/ [“]mtshan stod rmi lam brjed nges 'bras bu med// @#/_/_le'u drug pa/_bod lugs gso rig gi rmi lam kyi
+
+"... having looked at the watches' differing [rules], he names the time in which a dream's fruit arises; ... when a dream comes at the time of dawn (tho rengs, with «stag gi dus», the tiger's hour) it is shown that the fruit surely comes, as is said: «the dawn third is what clarifies what arises later» [with a footnote mark 1 after the closing quotation mark], and, from the Tantra itself: «a dream of the first part of the night (mtshan stod) is surely forgotten, without fruit». [chapter break] Sixth chapter: dreams in the Tibetan medicine ..."
+
+The two quotations stand each in quotation marks, the first closed by a footnote mark, joined by «zhes dang», "and". The Four Tantras' line is the second, introduced as «rgyud rang las», "from the Tantra itself"; the first is not called the Tantra's. Nothing of the sentence after the second quotation joins them into one rule, and the sentence ends there with the chapter. The footnote 1 (its content) is not in the snippet. The etext is search-only (403 to the etext API), so the snippet is all there is; four searches of 2026-11-13 return only this one text for these strings.
 
 ## <a id="st-p34"></a>st:p34 Ch. 7, the signs of death: dreams are the distant, uncertain signs, and what turns them back
 

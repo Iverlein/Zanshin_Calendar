@@ -125,6 +125,21 @@ Read by RD218 (2026-11-09): the same pages again with Yigdzin-1 and MITRA (img. 
 
 Read by RD228 (2026-11-09): the Svapnohana in the Peking (I1KG13197 img. 315–318) and Narthang (I2KG212312 img. 284–288) Tengyur and in the Dpe bsdur ma etext (vol. 14 pp. 1364–1368); the Lama Gongdü's goods of gossip in five prints (corpus/lgd/lgd.md).
 
+## <a id="svo-i38-50"></a>svo:i38-50 The Dpe bsdur ma vol. 1 (etext VEIE0OPIA3E40644_I1PD95846): no explanation of the sigla in the etext; the empty collation tables and the contents' footnote (etext pp. 38, 50)
+
+*Read: etext, 2026-11-13.*
+
+> Dpe bsdur ma vol. 1 (Stotras; MW1PD95844, etext VEIE0OPIA3E40644_I1PD95846), etext p. 50 (table of the first work's collation) and the footnote of the table of contents, p. 38, as the OCR has them:
+> * « ཅོ་ནེའི་བསྟན་འགྱུར་དུ་«བསྟོད་ཚོགས་» ... མི་འདུག་པས་དཔེ་བསྡུར་བྱུང་མེད་ལ་རེའུ་མིག་ཀྱང་སྟོང་པར་བཞག་ཡོད།
+> ... དེ་བཞིན་དཔེ་གཞི་གཞན་པའི་ཆོས་ཚན་མེད་པ་རྣམས་ཀྱི་རེའུ་མིག་ཀྱང་སྟོང་པར་བཞག་ཡོད།
+> * དཀར་ཆག་གི་ཟུར་མཆན། བསྟོད་ཚོགས་ཀྱི་ནང་དུ་ཆོས་ཚན་༧༣ཡོད་པ་ལས་«སྡེ་བསྟན་»ཁོ་ནར་ཡོད་པའི་ཆོས་ཚན་ནི་(༠༠༡༨)(༠༠༤༥)(༠༠༦༤)(༠༠༦༦)(༠༠༦༧)(༠༠༦༨)(༠༠༦༩)(༠༠༧༠)(༠༠༧༡)པ་སྟེ་དགུ་དང་། «པེ་»«སྣར་»ཁོ་ནར་ཡོད་པ་ནི་(༠༠༧༢)(༠༠༧༣)གཉིས་དང་། «པེ་བསྟན་»ཁོ་ནར་མེད་པའི་ཆོས་ཚན་ནི་(༠༠༦༣)པ་གཅིག་བཅས་སོ།།
+
+"* In the Co ne Tengyur [the Stotra section ...]; since [the work] is not there, no collation was made, and the table is left empty. ... Likewise the tables of works that the base text lacks are left empty."
+
+"Footnote to the contents: of the 73 works in the Stotras, nine are in the Derge (sde bstan) alone: (0018), (0045), (0064), (0066)–(0071); two are in the Peking and the Narthang alone: (0072), (0073); one, (0063), is absent from «པེ་བསྟན་» alone, as the OCR has the siglum."
+
+The volume's etext (pp. 3–1528) opens with a title page and the contents (pp. 9–38), and has no editors' preface or explanation of the sigla: the pages before the first work hold no text on the notes' marks. What the pages show is the practice. A collation table is left empty where a print lacks the work, so a column of the table (the Co ne's among them) exists only for a work the print holds. The notes' marks are the prints' names in guillemets, «པེ་», «སྣར་», «ཅོ་», «སྡེ་བསྟན་» (with «པེ་བསྟན་» in the contents' footnote for the Peking and the Derge together). The explanation that a print is named in the notes only where it differs from the base is not in this etext; so "silence of the notes at a place means the Co ne agrees with the base" stays what the editors' own preface (a page image, not an etext) must say. The entries of the vol. 14 notes name the Co ne as «ཅོ་» in the places where the Co ne differs, as the Svapnohana's entries «ཅོ་ རྒྱུ» and «ཅོ་ ཕྱུག» (svo:p271u), but a check against the Co ne scan is not possible from the machine readings of svo:p271m, which read the Co ne at the watch lines as «བརྒྱད་པར» and the third watch as «ཐུན་གཉིས་གསུམ་གྱི་བར» where the notes name no Co ne.
+
 ## <a id="svo-i39"></a>svo:i39 The Narthang catalogue (vol. 225, img. 39): a run of Kālacakra entries in the title / made-by / translation-of form, read by Yigdzin-1 (RD401)
 
 *Read: machine, 2026-11-11.*
