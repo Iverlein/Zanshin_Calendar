@@ -2514,7 +2514,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1193.md](questions/q1193.md) | question q1193 | Do the Vajrāvalī empowerment manuals (Drukpa, Sangs rgyas rdo rje) take Mar me mdzad bzang po's bgegs mthar byed remedy (dkb:p163-164) from the Sngags rim chen mo, or is there an earlier witness (q1141)? | open; cites — |
 | [questions/q1194.md](questions/q1194.md) | question q1194 | What does p. 164 of MW20396 say about the Nyin dgon pa Nam mkha' rdo rje, and does the colophon of q1145 belong to P6025 (17th-18th c., Nyin dgon bya bral ba) or P7962 (14th c.)? | open; cites — |
 | [questions/q1195.md](questions/q1195.md) | question q1195 | Is BDRC's person record P7962 (Kaḥ thog Nam mkha' rdo rje) a duplicate of P6025 (Nyin dgon bya bral ba Nam mkha' rdo rje)? | open; cites — |
-| [questions/q1196.md](questions/q1196.md) | question q1196 | Which of the first works of MW1KG4326 (Kun dga' rin chen, vol. 2: the Arapacana sādhana pp. 9-22 or the Mol gtam pp. 23-38) holds the last-watch passage at etext character 14273 (q1070)? | open; cites — |
+| [questions/q1196.md](questions/q1196.md) | question q1196 | Which of the first works of MW1KG4326 (Kun dga' rin chen, vol. 2: the Arapacana sādhana pp. 9-22 or the Mol gtam pp. 23-38) holds the last-watch passage at etext character 14273 (q1070)? | answered; cites — |
 
 <!-- end pool index -->
 
