@@ -1733,12 +1733,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0401.md](questions/q0401.md) | question q401 | What spirits and conditions add to a split of a third and two thirds | open; cites wb.1:p438 |
 | [questions/q0402.md](questions/q0402.md) | question q402 | What «བཞི་བརྒྱ་དོན་བཞི» counts among the earth lords' comings | answered; cites wb.2:p175-176, wb.2:p175b |
 | [questions/q0403.md](questions/q0403.md) | question q403 | The measure of the digging rite's earth figure | answered; cites wb.2:p387 |
-| [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | open; cites wb.2:p224-225 |
+| [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | answered; cites wb.2:p224-225 |
 | [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | answered; cites wb.2:p236-237, wb.2:p236c |
 | [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | answered; cites wb.2:p378-384 |
 | [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
-| [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | open; cites wb.2:p428b |
-| [questions/q0409.md](questions/q0409.md) | question q409 | Is the departure's «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ» the weighing's dmigs bsal, leading over the day? | open; cites wb.1:p373-375, wb.2:p376 |
+| [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | answered; cites wb.2:p428b |
+| [questions/q0409.md](questions/q0409.md) | question q409 | Is the departure's «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ» the weighing's dmigs bsal, leading over the day? | answered; cites wb.1:p373-375, wb.2:p376 |
 | [questions/q0410.md](questions/q0410.md) | question q410 | Does the slight source of the date's earth lords not in ch. 31 touch their prohibitions too? | answered; cites wb.2:p377 |
 | [questions/q0411.md](questions/q0411.md) | question q411 | Is the place shunned in the fierce rites the seat one would face? | answered; cites wb.2:p427b |
 | [questions/q0412.md](questions/q0412.md) | question q412 | Does ch. 23's rule of joining good and bad «ཐམས་ཅད་ཀུན་ལ» reach the earth lords? | answered; cites wb.1:p370 |
@@ -1757,7 +1757,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0425.md](questions/q0425.md) | question q425 | How far does the count of the sixty-year pairs and of the ogre's and demon's seven run? | open; cites wb.2:p171-172, wb.2:p537-538 |
 | [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
-| [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | open; cites wb.1:p425, wb.2:p496 |
+| [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | answered; cites wb.1:p425, wb.2:p496 |
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
 | [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | answered; cites wb.2:p378 |
 | [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | answered; cites wb.2:p387 |
