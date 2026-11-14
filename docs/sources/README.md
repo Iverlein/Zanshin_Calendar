@@ -1892,7 +1892,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
 | [questions/q0561.md](questions/q0561.md) | question q561 | p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge | open; cites wb.2:p104 |
 | [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | answered; cites wb.1:p331 |
-| [questions/q0563.md](questions/q0563.md) | question q563 | The five columns of a meadow's ornament group | open; cites wb.2:p22 |
+| [questions/q0563.md](questions/q0563.md) | question q563 | The five columns of a meadow's ornament group | answered; cites wb.2:p22 |
 | [questions/q0564.md](questions/q0564.md) | question q564 | The limbs' verdict in Sprugtön's reckoning | open; cites wb.2:p23 |
 | [questions/q0565.md](questions/q0565.md) | question q565 | Revatī among p. 348's very bad and accomplishing mansions | open; cites wb.1:p348 |
 | [questions/q0566.md](questions/q0566.md) | question q566 | p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན»: the clan element's months and the executioner year | answered; cites wb.1:p349 |
@@ -1900,7 +1900,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0568.md](questions/q0568.md) | question q568 | Mipham's reading of the twelfth's day, hour and Rahu as identifying counts | open; cites wb.2:p50 |
 | [questions/q0569.md](questions/q0569.md) | question q569 | The hour's sky dog 43 in the twelfth's and fourteenth's blocks | open; cites wb.2:p50, wb.2:p51 |
 | [questions/q0570.md](questions/q0570.md) | question q570 | Which course gives each date its one direction in KP's square for Rāhu | open; cites kp:i078 |
-| [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | open; cites wb.2:p395 |
+| [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | answered; cites wb.2:p395 |
 | [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | narrowed; cites wb.1:p380 |
 | [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | answered; cites dz:i046 |
 | [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
