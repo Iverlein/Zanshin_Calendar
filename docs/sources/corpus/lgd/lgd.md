@@ -48,6 +48,16 @@ Read by RD228 (2026-11-09): SVO in the Peking (W1KG13126 vol. 28 img. 315–318)
 
 Read by RD208 (2026-11-09): LGD: Rin chen gter mdzod vol. 42, printed pp. 961–971 (I1KG57 img. 980–990, image = page + 19).
 
+## <a id="lgd-38-p7"></a>lgd.38:p7 The Tantra of the Oath-bound Black Smith (Rin chen gter mdzod vol. 38), ch. 5: the lowest sign is a dream; dusk habit, midnight magical display, at dawn examine the sign
+
+*Read: etext, 2026-11-14.*
+
+> རབ་ཀྱིས་རྟགས་མཚན་དངོས་སུ་འབྱུང༔ འབྲིང་ལ་ཉམས་སུ་འབྱུང་བ་སྟེ༔ ཐ་མའི་རྟགས་མཚན་རྨི་ལམ་རྨི༔ སྲོད་ལ་བག་ཆགས་རྨི་ལམ་སྟེ༔ ནམ་ཕྱེད་ཆོ་འཕྲུལ་རྨི་ལམ་འབྱུང༔ ཐོ་རངས་མཚན་མའི་རྟགས་ལ་བརྟགས༔ ཞེས་མགར་བ་ནག་པོའི་རྒྱུད་ལས༔ རྟགས་དང་མཚན་མ་བསྟན་པའི་ལེའུ་སྟེ་ལྔ་པའོ༔
+
+From the Tantra of the Oath-bound Black Smith (Dam can mgar ba nag po'i rgyud, ཏན་ཏྲ, Rin chen gter mdzod vol. 38, etext p7; a treasure text in the cycle «Dam can skyes bu chen po'i sgrub skor», closing with the colophon «the Sprul sku Ratna gling pa's Thugs tig»), the fifth chapter, on the omens (རྟགས, rtags) and signs (མཚན་མ, mtshan ma) that show whether a wrathful rite has worked. "The best sign appears in fact; the middling comes as an experience (ཉམས, nyams); the lowest sign is dreamt in a dream (རྨི་ལམ, rmi lam): the dream of dusk (སྲོད, srod) is the dream of habit (བག་ཆགས, bag chags); at midnight (ནམ་ཕྱེད, nam phyed) the dream of magical display (ཆོ་འཕྲུལ, cho 'phrul) comes; at dawn (ཐོ་རངས, tho rangs) examine the mark of the sign (མཚན་མའི་རྟགས, mtshan ma'i rtags). So the Tantra of the Black Smith: the fifth chapter, which shows omens and signs."
+
+The same three parts of the night as the Karmapa's verses (rrd.5:p57-59) and Marpa's song (rrd.23:p102-104), in the plural of the tradition: dusk habit; midnight not habit but a wonder, a display (cho 'phrul; Marpa's song «bdud kyi sprul pa», the Karmapa's «gdon dbang»); dawn the one to be tested. The text names no hour, no watch and no spirit class, and it is a rite for killing and the signs of its success, not a teaching on the dream of the meditator; the dream is the lowest of the three kinds of sign. Etext only (the Shechen etext VE1KG14_038, not compared with the scan); the lines are read as the etext stands. Found 2026-11-14 (inv-aa) by BDRC's exact-string search «ནམ་ཕྱེད་ཆོ་འཕྲུལ་རྨི་ལམ་འབྱུང» (one hit, this volume).
+
 ## <a id="lgd-38-p13"></a>lgd.38:p13 The rite of the oath-bound Great Man (Rin chen gter mdzod vol. 38): the enemy is parted from the god who comes alongside, the demon born together turns the oath-bound's messenger
 
 *Read: etext, 2026-11-13.*
