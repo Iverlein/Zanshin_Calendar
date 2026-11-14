@@ -27,6 +27,14 @@ What it shows: KP, having stated the weighing of the seven and the combination p
 
 KP box 10 (BDRC img. 28 of I4CZ65599, pool img. 26), the right-hand panel (the bad half), lines 2 to 4 at 2.2× (2026-11-14, against Yigdzin-1 and the RD5 reading in kp-activities.md): the earth lords of the almanac run, in the print's order, ki kang zor nag (read as one name or two: open question 44, answered), dbul, the hal khyi; pi ling, the black sky day (gnam zhag nag), the se (the se), tsang kun, hang phan, se byi, se shar, kungs myul. The words between and after (the earth king, the dragon god, the five gods, the mid-sky, the great net, Rahu's course times, the planet Lhagö) are Yigdzin-1's and RD5's reading, not re-read here. WB's parallel run for this work (ch. 34, white-beryl-ch34.md) is a different, shorter list; see the claim.
 
+## <a id="kp-i26b"></a>kp:i26b Box 11 food and beer: the bad half sends to box 10
+
+*Read: scan, 2026-11-14.*
+
+> «གཟའ་ལྷག་ཚེས་༢༩ དེ་ལས་གཞན། མ་སྟོན་མོ་ཡོ་ལང་དང་མཚུངས་སོ།།»
+
+KP box 11 (preparing food, brewing beer; BDRC img. 28, pool img. 26, the lower right panel) at 1.5×: the bad half is the Wednesday, the 29th, and «otherwise the same as feasts and household goods»; it has no run of earth lords of its own and sends the reader to box 10 (kp:i26). WB ch. 34 treats both in one section (no. 11) and gives the run there.
+
 ## <a id="kp-i27"></a>kp:i27 Box 12 setting out: the last line of the bad half
 
 *Read: scan, 2026-11-14.*
@@ -43,6 +51,38 @@ KP box 12 (BDRC img. 29, pool img. 27), the last line of the bad half at 1.6×: 
 
 KP box 13 (BDRC img. 31, pool img. 29), the box's last line at 1.35×: «… meet head on; above all the chung sri and the child-eaters (bu zan) are avoided». The syllable before «ཐུག» was looked at for WB's negative (WB: «གདོང་མ་ཐུག», not meeting head on): the print shows no ma that could be told at this size (the reading is a doubt: see the question).
 
+## <a id="kp-i31"></a>kp:i31 Box 16 taking and giving wealth: the bad half's last lines
+
+*Read: scan, 2026-11-14.*
+
+> … ཉི་མ་སྦྲུལ་དབུལ། ཉི་ནག་ཀི་ཀང་སེ་བྱི་ཧང་ཕན་ཟླ་ཀླུང་ ཟླ་ཚེས་ ཟླ་ཚེས་ ཟླ་ཚེས་ (༡༡ ༢༧ / ༡༢ ༢༥ / ༡ ༢༣) འདི་[…]
+
+KP box 16 (taking and giving wealth; BDRC img. 33, pool img. 31), the last two lines of the bad half at 2.2× to 2.4×: the Snake day, dbul, nyi nag, ki kang, se byi, hang phan, the month's luck (zla klung), then three «ཟླ་ཚེས» (month and date) with their numerals small beneath: «༡༡ ༢༧», «༡༢ ༢༥» and, the third worn and joined by a dotted line to the closing word, «༡ ༢༣»; the last word, «འདི…», is cut by wear and not read. The print has «དབུལ» alone, not «དབུལ་ལག».
+
+## <a id="kp-i32"></a>kp:i32 Box 17 auspicious rites: the last lines of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … བིཥྚི་ ཀི་ཀང་ རཱ་ཧུ་ པི་ལིང་ དབུལ་ ཧལ་ཁྱི་ ལོ་ཟླ་ཚེས། སོགས་ནག་པའི་དུས་ ཕུང་ཟོར་སོགས།
+
+KP box 17 (auspicious and virtuous rites; BDRC img. 34, pool img. 32), the last two lines of the bad half at 3.6×: Viṣṭi, ki kang, Rahu, pi ling, dbul, the hal khyi, the year, month and date, «and the like, the black times», phung zor and the like. The words before the last two lines are not re-read here.
+
+## <a id="kp-i33"></a>kp:i33 Boxes 18 and 19 planting and peace: the last lines of the bad halves
+
+*Read: scan, 2026-11-14.*
+
+> (box 18) … སྡིག་ བུ་མོ་ སྲང་ སེ་བདུད་རྒྱུ་དུས་ ཉི་ནག། (box 19) ཉི་མ་རྟ་ དུས་སྦྱོར་ ཀརྚ་ ཆུ་སྲིན་ སྡིག་ བུམ་སྟོང་ སེ་བྱི།
+
+KP box 18 (planting; BDRC img. 35, pool img. 33, upper right panel), the last two lines of the bad half at 3.2×: the day animals before them are the Sheep and the Lion (ལུག་ སེངྒེ); then sdig, the Girl (bu mo), srang, the se demon's course times (se bdud rgyu dus) and nyi nag. The first word of the last line, read «ཉི་མ» by eye at 1.5×, is «སྡིག» at 7×. KP box 19 (peace between enemies; same folio, lower right panel), the last line of the bad half at 3.8×: the Horse day, the combination period (dus sbyor), Karna, chu srin, sdig, bum stong and se byi; a short last line of two words under it is not read.
+
+## <a id="kp-i34"></a>kp:i34 Boxes 20 and 21 living virtue and manuring: the last lines of the bad halves
+
+*Read: scan, 2026-11-14.*
+
+> (box 20) … བིཥྚི་ ཀི་ཀང་ པི་ལིང་ ཉི་ནག་ ཕུང་ཟོར་ ཧལ་ཁྱི་ དྲ་ཆེན་ རཱ་ཧུ་ དབུལ་ལག་ ལོ་ཟླ་ཞག་ནག་སོགས། (box 21) … ཕོ་ཉ་ ཟས་འཚོལ་ ཞག་ནག་ ས་ཡི་ལྷ་མོ་བསྟན་མ་གནས་ཕྱོགས། ལམ་ལྡོ་ པི་ལིང་ དབུལ་ ཉི་ལུས་ དུར་ཞུགས་དང་ ལྔ་སེར་འཆར་ཕྱོགས།
+
+KP box 20 (virtuous acts for the living; BDRC img. 36, pool img. 34, upper right panel), the last two lines of the bad half at 4×: Viṣṭi, ki kang, pi ling, nyi nag, phung zor, the hal khyi, the great net (dra chen), Rahu, dbul lag, the year, month and the black date, and the like; «dbul lag» is two words here. KP box 21 (manuring, breaking in oxen; same folio, lower right panel), the last two lines at 3.7× and, for the last word group, 5.5×: the messenger (pho nya), the food-seeking, the black date, the places of the earth goddess Tenma, the mouse road (lam ldo, as RD5), pi ling, dbul, «ཉི་ལུས», dur zhugs and the directions of the five yellows' rising; «ཉི་ལུས» and «དུར་ཞུགས་དང་» are read as the print has them and are not settled (see the question).
+
 ## <a id="kp-i36"></a>kp:i36 Box 23 gifts and dowries: the last line of the bad half
 
 *Read: scan, 2026-11-14.*
@@ -50,6 +90,22 @@ KP box 13 (BDRC img. 31, pool img. 29), the box's last line at 1.35×: «… mee
 > … གཟའ་བདུན་ཟས་འཚོལ་ལྔ་དགུའི་ཕྱོགས་བཅས།
 
 KP box 23 (BDRC img. 38, pool img. 36), last line of the bad half at 1.45×: the seven planets' food-seeking (gza' bdun zas 'tshol) together with the places of the five and the nine. The names before it (se shar, pi ling, tsang kun, pho nya, hal khyi, nyi nag) agree with RD5 as far as they were seen; not re-quoted.
+
+## <a id="kp-i36b"></a>kp:i36b Box 22 sowing: the last two lines of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … དུས་སྦྱོར་ ལུག་ ཀརྚ … ཉི་ནག་ ཐེ་སེ། གྲུམ་བུ་ ས་རྒྱལ་ འབྲུག་ལྷ་ འཕུང་བྱེད།
+
+KP box 22 (sowing; BDRC img. 38, pool img. 36, upper right panel), the last two lines of the bad half at 4.2×: nyi nag and the se (ཐེ་སེ) close the fourth line; the fifth and last line is Grum bu, the earth king (sa rgyal), the dragon god (brug lha) and the earth's destroyer (phung byed). The «ཁྱིམ» after the se that RD5 had is not seen at this size; the part of the fourth line before nyi nag is not re-read.
+
+## <a id="kp-i37"></a>kp:i37 Box 25 storehouses: the last line of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … དུ་སྦྱོར་ ཀརྚ་ སྡིག་ དབུལ་ལག་ སོགས་ངན།
+
+KP box 25 (storehouses; BDRC img. 39, pool img. 37, lower right panel), the last line of the bad half at 3.7×: the combination period, Karna, sdig, dbul lag and the like are bad. The third word is as RD5 read it; the line is crowded and the small differences of the letters are not settled.
 
 ## <a id="kp-i38"></a>kp:i38 Box 27 springs, wells and canals: the day animals and the last names
 
@@ -73,6 +129,14 @@ KP img. 41 (BDRC label 43 of I4CZ65599), the two boxes of the page, the bad half
 > Img. 46, box 37 bathing, bad half: no earth lord named («…སྐྱེ་མཆེད་སྲིད་པ་རྒ་ཤི་འདུ་བྱེད་སྐྱེ་བ་མ་རིག་…», the links and the days) — Img. 47, box 38 (divination, མོ), bad half: «… སྐར་མ་བྲ་ཉེ་སྐག་ནག་སྣྲོན་ས་ག་མ་རིག་རྒ་ཤི་བྱི་… ཉི་མ་… གཞན་རྣམ་ཞི་དྲག་བསྟུན།»: no earth lord — Img. 47, box 39 enthronement, bad half: «… སེ་བྱི་པི་ལིང་ཙང་ཀུན་ཐེ་སེ་ … སེ་བ་བླ་མཁྱེན་འཕུད་བྱེད་ནག་མོ་རྒྱུ་དུས་» — Img. 49, box 42 (giving and taking a bride), bad half: «བར་གནམ་ལོ་ཟླ་ཉི་ནག་གཡུ་མཛོད་བིཥྚི་འཕུང་བྱེད་ལྷ་ལྔ་དགུ་པི་ལིང་ཀི་ཀང་ས་ཡི་ལྷ་མོ་བསྟན་མ་གནམ་སྦྱོར་གཟའ་བདུན་ཕོ་ཉ་… ཀླུ་གཟའ་དབུལ་སེ་བྱི་ཧང་ཕན་ཧང་ཕན་སེར་པོ་རང་རྟ་ཏེ་སོ་ཀུངས་མྱུལ་… ཐེ་ཁྱིམ་ཧལ་ཁྱི་ཝང་ཕན་སེ་བ་ཕུང་ཟོར་བག་མའི་ལོ་ལག་ཙ་ཀྲ་སོགས་ཀྱི་ལྷ་དྲུག་གནས་ཕྱོགས། གལ་ཆེ་ཞིབ་རྩིས་རྟོགས་དཀའི་རིགས་འདིར་མི་གསལ།» — Img. 50, box 44 (suppressing sri), bad half: «… ས་འོག་རིམ་དགུའི་ས་བདག་བརྟག།» — Img. 51, box 45 funerals, bad half, last line: «ཉི་མ་སྟག་སྤྲེལ་ཁྱི་ལོ་ཟླ་ཞག་དུས་ཀྱི་ས་བདག་རྒྱུ་དུས་ཕལ་ཆེར་འཛེམ།» — Img. 52, box 46 (temples), bad half: «བིཥྚི་བར་ཧལྱི་ལོ་ཟླ་ཞག་ནག་སོགས། པི་ལིང་ཕོ་ཉ་དབུལ་འཕུང་བྱེད་… ཀི་ཀང་» — Img. 53, box 47 (averting), bad half: «… འཇོམས་དང་གདུག་ཅན་རྣམས་གནས་ཕྱོགས་དང་རྒྱུ་དུས་གདོང་» — Img. 54, box 48 (fire offering) bad half: «ཟིན་ཕུང་གཞན་ཡང་ས་བདག་རྒྱུ་དུས་སོགས་ངན།»; box 49 (consecration) bad half: «… ཉི་ནག་ཀླུ་གཟའ་ནག་མོ་ཚེས་གཉན་རྒྱུ་སོགས་བིཥྚི་འཕུང་བྱེད་དབྱུལ་པིང་བར་ག་ནཾ་ཧལྱི་གཅེར་བུ།» — Img. 55, box 52 (crafts, hair): «… སྲང་ཚེས་གཉན་རྒྱུ་…» — Img. 56, box 53 (war, games), the closing prose: «གནམ་འཕུང་བྱེད་ཐེ་སེ་སེ་བདུད་ཉི་ནག་ཚེས་གཉན་ … འདིར་ཞིབ་རྩིས་བྱེད་ན་འཁོར་ལོའི་རྣམ་གྲངས་བརྩི་པི་ལིང་བུམ་སྟོང་ཝང་གིང་བྱི་ལམ་ཧལྱི་དུས་མཚན་ཐེབས་ཕྱོགས་ཙང་ཀུན་ལྷ་དགུ་ཚུལ་སོགས་ཆེས་ཟབ་ཇི་སྙེད་མཆིས་ཀྱང་ཀུན་སྤེལ་མ་ཡིན་པས་འདིར་མི་གསལ། རང་རྟ་ཟིན་ཕུང་གདོང་ལ་ཟླ་རླུང་སེ་བྱི་གཉན་ཁྲ་ཀིང་སེ་ལོ་སེ་ཤར་བདུད་ཐུན་མཚམས།» — Img. 57, box 54 (composing), bad half: «ལོ་ཟླ་ཞག་ནག་བིཥྚི་ཐེ་སེ་སེ་ལོ་དམས་ཤིང་ཚེས་གཉན་… ས་རྒྱལ་ཕུང་ཟོར་འཕུང་བྱེད་སྒྲའི་དུས་གཉན་ལོགས་སུ་གསལ།»; box 55 (rain), bad half, the last line: «ལུག་སྲང་འཕུང་བྱེད་ཟིན་ཕུང་དབུལ་ཉི་ནག་ཀླུ་བཟློག་པ།»
 
 KP img. 46 to 57 (BDRC labels 48 to 59), the earth-lord clauses at the foot of the boxes' bad halves, gathered from Yigdzin-1's reading of each folio (machine) and from the readings of the scan already in kp-activities.md (*The earth lords and the almanac's days in the boxes*, RD5; O10f); the print numbers the boxes as in kp-activities.md, and the box a line belongs to may be one off. Nothing here is settled syllable by syllable, so the passage stands as machine; where the scan was looked at (img. 47 and 49, the bad half of boxes 38 and 42, at 1.4× to 2×) it did not contradict the machine. Box 37, bathing: the bad half names no earth lord, only the links of dependent arising and the days. Box 38, the divination box (མོ): no earth lord; the bad half ends with the other kinds being fitted to the peaceful and the fierce. Box 39, enthronement: se byi, pi ling, tsang kun, the se, the se ba bla mkhyen, the destroyer and the course of the black one. Box 42, giving and taking a bride: the longest run (the bar gnam of the year and month, nyi nag, the turquoise treasure, Viṣṭi, the destroyer, the five and the nine, pi ling, ki kang, the earth goddess Tenma, the planets, the messenger, the nāga planet, dbul, se byi, hang phan, the yellow hang phan, rang rta, te so, kungs myul, the khyim, hal khyi, wang phan, the se ba, phung zor), ending with the six gods' places of the bride's year, and the sentence that the exact reckoning of the grave, hard-to-grasp kinds is not given here. Box 44, suppressing the sri: the earth lords of the nine levels under the earth are to be looked into. Box 45, funerals: the earth lords of year, month, date and hour and their times of moving are mostly to be shunned. Box 46, temples: Viṣṭi, the bar, hal khyi, year, month and date's black ones, pi ling, the messenger, dbul, the destroyer, ki kang. Box 47, averting: the harsh earth lords with their places and times are faced. Box 48, fire offering: zin phung and the other earth lords' times are bad. Box 49, consecration: nyi nag, the black nāga planet, the date's gnyan, Viṣṭi, the destroyer, dbyul ping, the bar ga nam, hal khyi, the naked one. Box 52, crafts and hair: srang and the gnyan of the dates. Box 53, military training and games: the closing prose names the earth lords whose exact reckoning it will not give (the circle's counts), as in kp-activities.md. Box 54, composing: year, month and date's black ones, Viṣṭi, the se, se lo, dams shing, the gnyan of the dates, the earth king, phung zor, the destroyer; the gnyan of the grammar's times are given separately. Box 55, rain: sheep, balance, the destroyer, zin phung, dbul, nyi nag, the reversal of the nāgas.
+
+## <a id="kp-i38b"></a>kp:i38b Box 26 banners: the last line of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … སྲང་ ཉི་ནག་ བིཥྚི་ འཕུང་བྱེད་ ནག་མོ་ རྒྱུ་དུས་སོགས་འཛེམ།
+
+KP box 26 (raising banners; BDRC img. 40, pool img. 38, upper right panel), the last line of the bad half at 3.6×: srang, nyi nag, Viṣṭi, the earth's destroyer, the black one's course times (nag mo rgyu dus) and the like are to be avoided.
 
 ## <a id="kp-box56"></a>kp:box56 Box 56 thread-cross and torma rites: the bad half's earth lords
 
