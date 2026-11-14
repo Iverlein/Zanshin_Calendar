@@ -1163,6 +1163,13 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
   lords move, read against WB ([earth-lord-courses.md](earth-lord-courses.md),
   *KP's table of when the lords move*): zin phung, gnam khyi and hal khyi as
   built; the charts and remedies machine-read only.
+  *2026-11-14 (RD, KP's second part):* img. 87–118 (BDRC labels 89–120) read
+  by eye in part and with Yigdzin-1 as the base, now in the corpus
+  ([kp.md](corpus/kp/kp.md), kp:i87 … kp:i117-118): §13–§16 are charts of names
+  by cell with no work or verdict ([claim](claims/kp-charts-13-16-hold-names-not-verdicts.md));
+  §18's remedies give the mansions by compass side ([claim](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md))
+  and the sky doors by WB's pairs ([claim](claims/kp-sky-doors-same-pairs-as-wb.md)).
+  No remedy says what an earth lord does beyond the harm to be mended.
 
 ### Searched and not found
 

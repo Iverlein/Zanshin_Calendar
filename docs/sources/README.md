@@ -615,6 +615,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kokubunken-54-254-colophon-fuyacho.md](claims/kokubunken-54-254-colophon-fuyacho.md) | claim, note | The 国文研 Ebara dream book's colophon: 京綾小路ふや丁西入, 墨屋吉兵衛 (RD398, q1045) | cites mdz:i54254; feeds S3 |
 | [claims/kong-ston-dbang-phyug-grub-vinaya-spyi-don-author.md](claims/kong-ston-dbang-phyug-grub-vinaya-spyi-don-author.md) | claim, note | Kong ston Dbang phyug grub pa wrote the Vinaya overview with the dawn and the nine parts (RD322, q938) | cites svo:p271r, svo:p271p; feeds block-73 |
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
+| [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
+| [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
+| [claims/kp-sky-doors-same-pairs-as-wb.md](claims/kp-sky-doors-same-pairs-as-wb.md) | claim, note | KP §18: the sky doors are WB's pairs, each with a remedy; two headings differ in the machine reading | cites kp:i114-116, wb.2:p365-368; feeds T2.28 |
 | [claims/ktd-dudjom-dreams-and-their-times.md](claims/ktd-dudjom-dreams-and-their-times.md) | claim, note | Dudjom Rinpoche's dreams in his biography carry their hour (dawn, evening), day (tenth, fourteenth, fifteenth) and repeats (KTD) | cites ktd:i181-184, ktd:i185-187; feeds RD363 |
 | [claims/ktd-name-given-by-dakini-in-father-dream.md](claims/ktd-name-given-by-dakini-in-father-dream.md) | claim, note | Dudjom Rinpoche's name from his father's dream before the birth; birth on the tenth day (KTD) | cites ktd:i36-37; feeds RD363 |
 | [claims/ktd-night-of-dreams-stone-treasure-next-morning.md](claims/ktd-night-of-dreams-stone-treasure-next-morning.md) | claim, note | A night of dreams with signs, a stone treasure taken out next morning, a helper by name (KTD) | cites ktd:i31; feeds RD363 |
@@ -1458,7 +1461,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 10 passages: 1 scan, 9 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
