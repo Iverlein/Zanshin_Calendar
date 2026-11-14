@@ -632,6 +632,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-box56-is-wb-work53-condensed.md](claims/kp-box56-is-wb-work53-condensed.md) | claim, note | KP box 56 is WB's work 53 condensed: same earth-lord run, three omissions, no addition | cites kp:box56, wb.2:p422; feeds RD5 |
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
 | [claims/kp-boxes-10-12-13-earth-lord-runs-against-wb-ch34.md](claims/kp-boxes-10-12-13-earth-lord-runs-against-wb-ch34.md) | claim, conflict | KP boxes 10, 12 and 13 close with earth-lord runs that match WB ch. 34's only in part | cites kp:i26, kp:i27, kp:i29; feeds — |
+| [claims/kp-boxes-34-35-bad-halves-against-wb.md](claims/kp-boxes-34-35-bad-halves-against-wb.md) | claim, note | KP boxes 34 and 35: the bad halves keep WB works 32 and 33 earth lords, shortened | cites kp:i41, wb.2:p415-416; feeds RD5 |
+| [claims/kp-boxes-37-55-earth-lords-by-box.md](claims/kp-boxes-37-55-earth-lords-by-box.md) | claim, note | KP boxes 37 to 55: which boxes name earth lords, and box 42 against WB work 39 | cites kp:i46-57; feeds RD5 |
 | [claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md](claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md) | claim, note | KP boxes 57 to 60 name the earth lords as in WB, with no work, day or direction; boxes 61 to 64 are in another order | cites kp:box57, kp:box61; feeds RD5 |
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
 | [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
@@ -1484,6 +1486,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 27 passages: 15 scan, 12 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 24 passages: 10 scan, 14 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
