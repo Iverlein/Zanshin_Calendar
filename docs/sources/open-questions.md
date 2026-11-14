@@ -3067,6 +3067,8 @@ the text, not about the app.
      third part, the *Lamp of the Magic of Deciding*? Under which record
      is that collection held? [verdicts.md](verdicts.md), "Ch. 20's
      classes of texts and the deciding texts" (RD25).
+
+    *inv-mm (2026-11-14): no further. BDRC's record of MW4CZ354964 is the 2017 catalogue itself (Lhasa Mentsikhang's «སྨན་རྩིས་རིག་མཛོད་ཆེན་མོའི་ཟབ་དོན་སྒོ་བརྒྱ་འབྱེད་པའི་ལྡེ་མིག», 1 vol., 14+4+382 p., Krung go'i bod rig pa dpe skrun khang, Beijing; no `hasPart`, no outline); an exact-phrase title search («sman rtsis rig mdzod chen mo») finds this record and no record of the treasury's own books, so no BDRC record of the collection itself was found; the etext volume I4CZ355100 answers 403. The third part and the holding record stay unread.*
 241. **The *Little Red Tiger-Head* (MW1GS66241).**
      Is the Zhe chen manuscript *Little Red Tiger-Head* the *Clear
      Lamp*'s commentary in another arrangement, and does any of its 21
@@ -3075,6 +3077,8 @@ the text, not about the app.
      pebble? Its scans (I1GS66247) answered empty images on 2026-10-21.
      [verdicts.md](verdicts.md), "Ch. 20's classes of texts and the
      deciding texts" (RD25).
+
+    *inv-mm (2026-11-14): not tried again; the outline (verdicts.md, "The Little Red Tiger-Head") already settles that it is a sibling series and not the Clear Lamp's commentary rearranged. Only its cursive pages could show whether ch. 10 or 17 lays the deciding pebble.*
 242. **«སྐབས་གསུམ་བཞིར་བགོས» (WB vol. 1, p. 249).**
      In the hiding of the root in five topics, was the third topic split
      into four, or three topics into four? Nor brang repeats the words
@@ -3094,6 +3098,8 @@ the text, not about the app.
      practitioners' form" (RD28).
 
     *RD173 (2026-11-06): BDRC full text on «གཙུག་ལག་སྤོར་ཐང» (92 hits, pages 1–5) shows it names the Chinese reckoning's tradition and its followers («སྤོར་ཐང་པ»), not one fetchable work: the Padma bka' thang, a Sde dge Tengyur commentary, the Fifth Dalai Lama, Khri rgan, KD, commentaries on the Four Tantras; they say Mañjuśrī taught it, name a root* Gtsug lag rtsa ba rin chen kun 'dus *(no copy found), and that Princess Kong jo brought it to Tibet. It is older than WB, whose notes and KD's charts rest on it.*
+
+    *inv-mm (2026-11-14): BDRC's titles with «spor thang» (autocomplete.bdrc.io `_msearch`, phrase match) add, besides that tradition, a modern book *Spor thang rtsis kyi gtsug lag* (MW8LS18937, Mi rigs dpe skrun khang, Beijing 2015, 2nd ed., 471 p.; an older print MW3KG1190; work WA8LS18937, catalogue note "A confucious astronomy translated by Golok Namgyal", creator Mgo log Rnam rgyal, born 1954, P6590): a twentieth-century translation, so not the text KD's charts of the 1990s cite, and not seen. Manuscript parts titled «spor thang» (NLM volumes MW1NLM6139, 6529, 4260, 5968 'Spor thang re'u mig', 2785; MW3PD982 a commentary on its mandala chapter) were not opened. The answer stays: a tradition's name, no one text.*
 245. ~~**«སྟངས་གཅོད» and «བཏང་གཅོད» (KD vol. 3, pp. 722, 729).**~~
      *Answered 2026-10-22 ([verdicts.md](verdicts.md), "«སྟངས་གཅོད» and
      «བཏང་གཅོད», the deciding pebble"): the same word for the same pebble.
@@ -3142,6 +3148,8 @@ the text, not about the app.
      dga' rig 'dzin, the writer of the sheets" (question 246).
 
     *RD173 (2026-11-06): leaning yes, not settled: BDRC has the Tibetan title* Bod kyi rtsis rig kun 'dus chen mo *and pinyin* Zang chuan li suan xue da quan*; Baidu Baike gives 《藏传历算学大全》 (Sichuan Nationalities Publishing House, August 1998, 5 vols); the register's 《西藏天文历算总汇》 reads like a paraphrase of the Tibetan title. The lent title leaf would settle it.*
+
+    *inv-mm (2026-11-14): nearer, still not settled. Web search (summaries only; the pages themselves answered certificate errors and were not fetched) finds the register's entry for 贡嘎仁增 (ihchina.cn project_details/15276 lists him, born 1942.02, 藏族天文历算, 2008 second batch, and has no book title) and a biography in 《共和国少数民族非物质文化遗产传承人传（下）》 ("贡嘎仁增——从世家走出的拉孜巴") that calls him one of the main writers of a roughly 600万字 work, 《西藏天文历算学总汇》 (四川民族出版社, 1998). That is KD's publisher and year (Sichuan Nationalities Publishing House, August 1998, 5 vols; Baidu Baike), with the same two nouns 天文历算/历算 and 总汇/大全 as the Tibetan title's «ཀུན་འདུས»; the character counts differ between sources (about 400万 and 486万 for KD, 600万 for the biography). One engine summary also lists 《西藏藏历学大全》 (about 600万, 1999, 强巴赤列 chief editor) — not read. So the register's title is most likely a Chinese paraphrase of KD, but no page names both titles together.*
 250. **The Tibet University interview.** What does the interview with the
      elder Kun dga' rig 'dzin in Tibet University's journal (reprinted in
      MW1KG25692, Beijing 2016; scans lent on archive.org) say of his
@@ -3149,6 +3157,8 @@ the text, not about the app.
      dga' rig 'dzin, the writer of the sheets" (question 246).
 
     *RD173 (2026-11-06): q538 (when KD's sheets were drawn) needs this interview or KD vol. 3's title leaf; vol. 3's preface is dated 1995 and the first edition is 1998, so the sheets were drawn no later than 1995 if they were in the volume then.*
+
+    *inv-mm (2026-11-14): the interview was looked for on the lent scans of MW1KG25692 (archive.org bdrc-W1KG25692, 715 leaves, leaf = printed page + 8) and not found. BDRC's phrase search puts the title line («གནམ་རིག་སྐར་རྩིས་ཀྱི་འབྲེལ་ཡོད་ཤེས་བྱ་ཕྲན་ཚེགས། … རྒན་ཀུན་དགའ་རིག་འཛིན་ལགས་ལ་བཅར་འདྲི་ཞུས་པའི་ཟིན་ཐོ») at etext offset 863500 of I1KG25694. The contents (leaves 5–7) were read: 20 items to p. 567, none read as this title; pp. 506, 567 and 578 were opened and are other articles (one cites Dante). The interview is therefore not among the items the contents leaves show at the size read, or stands in the last pages 568–704 without a contents line; the loan was returned. Another hit: «ཀུན་དགའ་རིག་འཛིན་ལགས» stands in Byams pa 'phrin las's autobiography (MW00PD1011326, search only) in a list of six men near a mention of the astronomical observatory in Beijing (snippet only, not read). Nothing from the interview is known.*
 251. **When the sheets were drawn.** When, and for what use, were the sheets
      drawn: for KD (1995–1998), or earlier as teaching material? The year
      reckoned on the obstacle reckoning's sheets is a wood rat (ཤིང་བྱི,
