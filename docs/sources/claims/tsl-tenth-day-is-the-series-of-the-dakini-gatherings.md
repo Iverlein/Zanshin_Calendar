@@ -14,3 +14,5 @@ In the tradition of the treasure the tenth day (ཚེས་བཅུ, tshes bcu
 The ninth day of the Heruka dream (i113) and the fifteenth of the tested dream (i170) are not in the tenth's series; the ninth is given by the speaker as tomorrow's day for finding the book, and the life sets no rule for it.
 
 The pages read do not call the tenth "Guru's day" (the name of the guru, གུ་རུ, gu ru, Padmasambhava, does not stand beside it); they name it only as the time of the gathering and of the vision, so a tie to a Guru-day series is not shown by them. No sentence read says a dream seen on the tenth is truer than one on another night.
+
+Update 2026-11-14 (q1167, q1168): «མིང་པོའི་ཚོགས་འཁོར» in i287 is the brother's (the writer's own) feast gathering; the dictionaries tie the tenth to Padmasambhava's observance, and Pad rgyal gling pa's life has the feast offering with the Seven-Line Prayer on the tenth (vol. 30 image 624); i661 is from his life, not from Rtsa gsum gling pa's.
