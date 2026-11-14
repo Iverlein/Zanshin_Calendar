@@ -2536,6 +2536,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1199.md](questions/q1199.md) | question q1199 | On the Gser thang scan (WB vol. 1 ch. 13, img. 205–211) is the first glyph of entry 9's year name «ཨངྒིར» (Aṅgiras) a stack with nga under the head, not da (q707)? | open; cites — |
 | [questions/q1200.md](questions/q1200.md) | question q1200 | On the scan of ch. 13 do entries 39, 43 and 58–60 read ཟིལ་གནོན (not ཐིལ), གདོང་ངན (not གདང་ངན), རྔ་ཆེན (not ཇ་ཆེན) and ཁྲག་སྐྱུག་པ (not ཁྲག་སྨྱུག་པ), as the prints' phrase searches favour (q708)? | open; cites — |
 | [questions/q1201.md](questions/q1201.md) | question q1201 | On the scan of p. 207 line 7 does entry 27 read ལྷོ་ཡི་ཕྱོགས་སུ (not ལྟོ་ཡི), and on p. 211 does entry 51 read ཆོམ་རྐུན (not ཚོམ་རྐུན) and entry 50 ལྷགས (not ལྟགས) (q715–q717)? | open; cites — |
+| [questions/q1202.md](questions/q1202.md) | question q1202 | KP label 117: «མཁར་སྒོ» (fortress) or «མཁའ་སྒོ» for the six-three sky door? | open; cites kp:i114-116 |
+| [questions/q1203.md](questions/q1203.md) | question q1203 | KP label 118: «ཤིང་སྒོ» or «ཤིད་སྒོ» (funeral feast) for the nine-three sky door? | open; cites kp:i117-118 |
+| [questions/q1204.md](questions/q1204.md) | question q1204 | KP year and month panels: which side of its cell does each name stand on? | open; cites kp:i87 |
+| [questions/q1205.md](questions/q1205.md) | question q1205 | KP label 111: which animal for each of the east mansions (six mansions, five animals)? | open; cites kp:i111-113 |
+| [questions/q1206.md](questions/q1206.md) | question q1206 | KP label 107: is the first lord of the month named «ཐུག་ལྷ་གཱ་པ»? | open; cites kp:i107-108 |
 
 <!-- end pool index -->
 
