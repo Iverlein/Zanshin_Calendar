@@ -2123,7 +2123,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0802.md](questions/q0802.md) | question q802 | Is «པདྨ་དཀར» at the end of SKP's second text Padma dkar po of the 'Brug pa, and whose 'third of Vairocana' does it follow? | open; cites skp:p50-55 |
 | [questions/q0803.md](questions/q0803.md) | question q803 | Is the Sakya Paṇḍita attribution on SKP's first text right, given its colophon names Kun dga' rgyal mtshan dpal bzang po? | answered; cites skp:p40-50 |
 | [questions/q0804.md](questions/q0804.md) | question q804 | What are the three words «རམ་རུག་སྦང་གཡེར» among the gossip goods in LGD's bad list? | open; cites lgd:p968-969 |
-| [questions/q0805.md](questions/q0805.md) | question q805 | Which demon is «མཉམ་པོར་འོང་བའི་བདུད» among the causes of dreams in LGD? | open; cites lgd:p970 |
+| [questions/q0805.md](questions/q0805.md) | question q805 | Which demon is «མཉམ་པོར་འོང་བའི་བདུད» among the causes of dreams in LGD? | answered; cites lgd:p970 |
 | [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | open; cites lgd:p966-967, svo:p268 |
 | [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
 | [questions/q0808.md](questions/q0808.md) | question q808 | Where does Klong rdol bla ma's own text on examining the omens of dreams, the source of KBS's verses, stand in his collected works? | answered; cites kbs:p68-70, rst:p1-8, rst:p17-20 |
