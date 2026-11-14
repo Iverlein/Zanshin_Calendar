@@ -71,3 +71,25 @@ za zi: "the sense of what is not clear and what is out of order, as in «a za zi
 > Negi: nam phyed | = {mtshan phyed} ardharātram — {nyi ma gung ngam nam phyed na} (madhyāhne'rdharātre vā ...); ardharātrasamayaḥ
 
 nam phyed: "one of the twelve times of the day-and-night, the rat's time" (Tshig mdzod chen mo), "the ox's time" (Bod yig tshig gter rgya mtsho: the two dictionaries differ on the animal); Ives Waldo, Valby, Rangjung Yeshe: midnight; Negi: = mtshan phyed, "half of the night", ardharātra, the time of midnight, with the Guhyasamāja's «at noon or at midnight». Every entry makes it the middle of the night or the double-hour that holds it; none gives it the sense of "the night" or "at night" in general. Look-up of 2026-11-13 in Steinert's public set (nos. 2, 7, 8, 25, 50, 62); the dictionaries' scans not opened.
+
+## <a id="tmz-box6"></a>tmz:box6 The entries nywa, nywa bzhi, thang zhing, ri zhing, nam gzhug, lhags, lhags pa, 'ur and khol bu in the keyed Tibetan dictionaries (q675, q713, q709, q711, q717)
+
+*Read: etext, 2026-11-14.*
+
+> nywa | 1) {mi'i rkang pa'i rje ngar/} 2) {phyugs rigs kyi rkang lag gi pus mo man nas rmig pa'i bar gyi lhu lag nywa phra yang rdog khres ljid po 'khur/ rta nag po gwa ba nywa bzhi dkar/}   (Tshig mdzod chen mo)
+> nywa | 1. {phyugs zog gi rkang lag bzhi'i tshigs dkyil ma'i man dang rmig pa'i yan gyi lhu'i ming ste/ rta nag gwa ba nywa bzhi dkar zhes pa lta bu/} 2. {mi'i rkang ba'i brje ngar gyi ming ste/ nywa sha/ nywa gdong zhes pa lta bu/ (nywa log) nywa sha skrangs pa'i nad cig gi ming ste/ nywa 'bros kyang zer/}   (Dag tshig gsar bsgrigs)
+> nywa bzhi | {rkang lag gi nywa ril bzhi/}   (Tshig mdzod chen mo)
+> nywa gdong | {rkang pa'i ngar gdong/}   (Tshig mdzod chen mo)
+> Dan Martin: nywa | calf (of the leg); nywa bzhi | muscles of legs and arms. Ives Waldo: nywa chu | tendon, sinews
+> thang zhing | {thang la yod pa'i zhing ga/}   (Tshig mdzod chen mo); ri zhing | {ri'i ngos la yod pa'i zhing ga /}   (Tshig mdzod chen mo)
+> Valby: thang zhing | fields on level land; ri zhing | field on hill slope. Ives Waldo: thang zhing | field in a flatland/ plain; ri zhing | mt side field
+> nam gzhug | 1) {nam dus kyi mjug ste phal cher ston dus la zer/} 2) {gtan gyi phugs/}   (Tshig mdzod chen mo; Ives Waldo has the same two senses)
+> lhags pa | 1.{(tha mi dad pa) 'byor ba'am slebs pa/ sku mdun du lhags pa/ rang yul du lhags pa/ }2.{rgyug 'gro ba'i rlung rgyun/ zhogs pa nam mkhar sprin pa yod stabs phyi dro lhags pa lang yong/ lhags bsil/ lhags 'phyar/ }3.{(rnying) gtad pa'i brda/}   (Tshig mdzod chen mo)
+> lhags pa | {rlung grang mo'i ming ste/ dgun bod lo'i lhags pa mda' las tsha lta bu/ tshig bsdus na lhags zhes 'bri chog ste/ nyi 'od dang lhags pas gdung ba la nyi lhags kyis gdung zer ba lta bu/}   (Dag tshig gsar bsgrigs)
+> Ives Waldo: lhags bsil | cold wind; lhags 'phyar | wind arising. Rangjung Yeshe: lhags pa | wind, cold, icy wind; to meet, approach. Valby: lhags pa | wind, cold wind, approach, meet
+> ser ba | {sprin gyi rdo'am/ skyin thang/ ser ba 'bab pa/ ...}   (Tshig mdzod chen mo); {mkha' dbyings kyi sprin nang gi chu rdul phra mo rnams grang ba dang 'phrad nas chab rom rdog por gyur nas mar babs ba la ser pa zer/ ...}   (Dag tshig gsar bsgrigs)
+> 'ur | 1){sgra sgrog tshul zhig khrom dkyil du mi mang 'ur rgyag bzhin 'gro ba/ lam gyi gsum mdor 'tshogs nas 'ur sgra sgrog pa/} 2){sgro 'dogs pa ste chung chung chen po bzo ba/ ...'ur shod pa/} 3){glo bur/ rta 'ur 'drog gis rgyug pa/}   (Tshig mdzod chen mo)
+> khol bu | 1) {g.yog po chung ba/} 2) {sbud pa/} 3) {cha shas dang/ yan lag dang/ thor bu/}   (Tshig mdzod chen mo); {lus kyi cha shas sogs kyi ming ste/ lus khol bur na ba/ yan lag khol bur na ba zhes pa lta bu/}   (Dag tshig gsar bsgrigs)
+> glo bur | 1) {ma bsams ma dran par 'phral du byung ba/ ...}   (Tshig mdzod chen mo)
+
+Look-ups of 2026-11-14 (Steinert's public set, a sparse clone of `_input/dictionaries/public`, `locate.py dict`). No headword in any of the 64 sets for: «tshom rkun» (only «chom rkun», robbers, in nos. 01, 02, 08, 20, 21, 22, 43, 46, 49), «ltags», «khre'ur», «khol bur», «ཉྭ་བཞིན»/«nywa bzhin». nywa: "the calf of a person's leg" (Tshig mdzod chen mo; Dan Martin); of beasts the muscle between the knee and the hoof; nywa bzhi: "the four limb-muscles" (rkang lag gi nywa ril bzhi); Dag tshig gsar bsgrigs adds nywa log, an illness in which the calf muscle is swollen (nywa 'bros). thang zhing is "a field lying on the plain", ri zhing "a field lying on the face of a hill"; no crop is named. nam gzhug: "the end of a season of the year (nam dus), mostly said of autumn" and «gtan gyi phugs» (the dictionary gives no gloss of it). lhags pa: arrival; "a running current of wind", «lhags bsil» cold wind, «lhags 'phyar» wind arising; "the name of a cold wind" (rlung grang mo), with the example «dgun bod lo'i lhags pa mda' las tsha» and the shortened spelling «lhags» (Dag tshig gsar bsgrigs); no dictionary gives it as hail, which is ser ba. 'ur: a crowd's noise, uproar; (3) = glo bur, suddenly. khol bu: a small servant; a part, limb or fragment; «lus khol bur na ba», "pain in parts of the body" (Dag tshig gsar bsgrigs).

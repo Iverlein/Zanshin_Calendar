@@ -1516,7 +1516,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tgb/tgb.md](corpus/tgb/tgb.md) | corpus | Tsong kha pa's Sngags rim chen mo, the vows part (RD401) | 1 passages: 1 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
-| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 5 passages: 5 etext |
+| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 6 passages: 6 etext |
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 32 passages: 32 etext |
@@ -1995,7 +1995,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | answered; cites — |
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 | [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
-| [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | narrowed; cites — |
+| [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | answered; cites tmz:box6, wb.1:p435b |
 | [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
 | [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
 | [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
@@ -2029,15 +2029,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0706.md](questions/q0706.md) | question q706 | «ཀུན་མཁྱེན་རིན་ཆེན་མཚན» and «རྟ་ལྡང / རྟ་ལྗང» of p. 70's homage | open; cites — |
 | [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | open; cites — |
 | [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | open; cites — |
-| [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | open; cites — |
+| [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | narrowed; cites — |
 | [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | open; cites — |
-| [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | open; cites — |
+| [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | answered; cites tmz:box6, wb.1:p207, wb.1:p208 |
 | [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | open; cites — |
-| [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | open; cites — |
+| [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | answered; cites tmz:box6 |
 | [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | open; cites — |
 | [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
-| [questions/q0716.md](questions/q0716.md) | question q716 | ཚོམ་རྐུན (entry 51) and ཆོམ་རྐུན: one word? | open; cites — |
-| [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | open; cites — |
+| [questions/q0716.md](questions/q0716.md) | question q716 | ཚོམ་རྐུན (entry 51) and ཆོམ་རྐུན: one word? | answered; cites tmz:box6, wb.1:p211 |
+| [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | answered; cites tmz:box6, wb.1:p210 |
 | [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
 | [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | open; cites — |
