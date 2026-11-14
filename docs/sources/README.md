@@ -1649,7 +1649,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | open; cites wb.2:p26, wb.2:p537 |
 | [questions/q0322.md](questions/q0322.md) | question q322 | The parts of the hand of stars on p. 28's figure | open; cites wb.2:p26-27, wb.2:p27-28 |
 | [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | answered; cites wb.2:p27-28 |
-| [questions/q0324.md](questions/q0324.md) | question q324 | «ནམ་མཇུག», the tail of the year, and the bird «འོལ་བ» | open; cites wb.2:p27-28, wb.2:p28-29, wb.2:p29-30 |
+| [questions/q0324.md](questions/q0324.md) | question q324 | «ནམ་མཇུག», the tail of the year, and the bird «འོལ་བ» | answered; cites wb.2:p27-28, wb.2:p28-29, wb.2:p29-30 |
 | [questions/q0325.md](questions/q0325.md) | question q325 | The sky-bird's parts and «སོ་གཉིས་བར་དུ» | open; cites wb.2:p29-30 |
 | [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
 | [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | open; cites wb.2:p37 |
