@@ -1812,9 +1812,6 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0479.md](questions/q0479.md) | question q479 | Is the bare «ཁམས» of the circles and of p. 17 the power's element throughout | open; cites wb.2:p3, wb.2:p17 |
 | [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | answered; cites wb.2:p9 |
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | answered; cites wb.2:p3, wb.2:p150-151 |
-| [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
-| [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
-| [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | answered; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
 | [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | answered; cites mdz:i772010 |
@@ -1987,27 +1984,27 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
 | [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | answered; cites wb.1:p317, wb.2:p480 |
-| [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | open; cites wb.1:p445 |
+| [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | answered; cites wb.1:p445 |
 | [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | answered; cites wb.1:p445 |
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 | [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |
 | [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | answered; cites — |
 | [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | answered; cites dz:i029-034 |
-| [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | open; cites — |
-| [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | open; cites — |
+| [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | answered; cites wb.2:p378-384 |
+| [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | answered; cites wb.2:p378-384 |
 | [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | answered; cites — |
 | [questions/q0664.md](questions/q0664.md) | question q664 | UT's keying of harms to the fifteen places: a restatement of WB p. 172's counts? | open; cites — |
 | [questions/q0665.md](questions/q0665.md) | question q665 | Is Sprugtön's general verdict pebble outside the colophon's 75? | open; cites — |
 | [questions/q0666.md](questions/q0666.md) | question q666 | WB vol. 1 p. 65: the true sun and the nearer node differ by one mansion at most? | answered; cites wb.1:p65, wb.1:p64-65 |
 | [questions/q0667.md](questions/q0667.md) | question q667 | Who dropped the 24th from the moxa dates of KL's six? | open; cites — |
 | [questions/q0668.md](questions/q0668.md) | question q668 | Which clan stands after «རུས་མཚན» in Viśākhā's verse (WB vol. 2, p. 322) | open; cites — |
-| [questions/q0669.md](questions/q0669.md) | question q669 | Does the crab's house on p. 382 read «ཀཥྚ» or «ཀརྞ» | open; cites — |
+| [questions/q0669.md](questions/q0669.md) | question q669 | Does the crab's house on p. 382 read «ཀཥྚ» or «ཀརྞ» | answered; cites wb.2:p378-384 |
 | [questions/q0670.md](questions/q0670.md) | question q670 | The manuscript I1LT0800's two series of cells: dates of death and the nine mewa? | open; cites — |
 | [questions/q0671.md](questions/q0671.md) | question q671 | The uncut lower parts of the life reckoning's short leaves: the colophon's «སྟོང་མང་»? | open; cites — |
 | [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | answered; cites — |
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
-| [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
+| [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | answered; cites wb.2:p378-384 |
 | [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | answered; cites tmz:box6, wb.1:p435b |
 | [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
 | [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
