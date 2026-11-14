@@ -4,7 +4,7 @@ type: note
 terms: []
 cites: ['wb.2:p9', 'wb.2:p8-9']
 feeds: [block-25]
-open: [q480]
+open: []
 ---
 # Ch. 27: «ཚད་ཟླ» on p. 9 is a slip for «ཚང་ཟླ», a term of Zhechen Gyaltsab and of WB's marriage chapter
 

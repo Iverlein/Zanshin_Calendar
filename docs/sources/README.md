@@ -1670,7 +1670,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | answered; cites wb.2:p133-135, wbz:i826 |
 | [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | answered; cites wb.2:p504-512 |
 | [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | answered; cites wb.2:p504-512 |
-| [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | open; cites wb.2:p165 |
+| [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | answered; cites wb.2:p165 |
 | [questions/q0342.md](questions/q0342.md) | question q342 | The five of the thirteen gates' fifth and sixth, and the own-element signs | open; cites wb.2:p170-171 |
 | [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | answered; cites wb.2:p170-171, wbz:i880 |
 | [questions/q0344.md](questions/q0344.md) | question q344 | Which year the sixty fixed signs count | open; cites wb.2:p171-172 |
@@ -1748,7 +1748,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0416.md](questions/q0416.md) | question q416 | DZ «སྣ་ཚོགས་བྱ» or KD's «སྣ་ཆོག་བྱ», the nose rite: which is meant? | answered; cites dz:i045 |
 | [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | answered; cites — |
 | [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
-| [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | open; cites sdp:p238-241 |
+| [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | answered; cites sdp:p238-241 |
 | [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
 | [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
 | [questions/q0422.md](questions/q0422.md) | question q422 | How are the thirteen gates counted? | open; cites wb.2:p170-171 |
@@ -1806,11 +1806,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | narrowed; cites wb.2:p23-25 |
 | [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | narrowed; cites wb.2:p23-25 |
 | [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | answered; cites wb.2:p442, wb.2:p443 |
-| [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | open; cites wb.2:p440 |
+| [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | answered; cites wb.2:p440 |
 | [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | answered; cites wb.2:p443, wb.2:p442 |
 | [questions/q0479.md](questions/q0479.md) | question q479 | Is the bare «ཁམས» of the circles and of p. 17 the power's element throughout | open; cites wb.2:p3, wb.2:p17 |
-| [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
-| [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
+| [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | answered; cites wb.2:p9 |
+| [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | answered; cites wb.2:p3, wb.2:p150-151 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
 | [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | answered; cites mdz:i772010 |
