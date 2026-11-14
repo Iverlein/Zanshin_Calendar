@@ -623,6 +623,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
 | [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
 | [claims/kp-sky-doors-same-pairs-as-wb.md](claims/kp-sky-doors-same-pairs-as-wb.md) | claim, note | KP §18: the sky doors are WB's pairs, each with a remedy; the two headings the machine read differently agree with WB on the scan | cites kp:i114-116, wb.2:p365-368; feeds T2.28 |
+| [claims/kp-year-ring-rat-panel-against-wb.md](claims/kp-year-ring-rat-panel-against-wb.md) | claim, table | KP's year ring, Rat panel: thirteen lords in WB's places, four differ | cites kp:i87b, wb.2:p177-189; feeds RD4 |
 | [claims/ktd-dudjom-dreams-and-their-times.md](claims/ktd-dudjom-dreams-and-their-times.md) | claim, note | Dudjom Rinpoche's dreams in his biography carry their hour (dawn, evening), day (tenth, fourteenth, fifteenth) and repeats (KTD) | cites ktd:i181-184, ktd:i185-187; feeds RD363 |
 | [claims/ktd-name-given-by-dakini-in-father-dream.md](claims/ktd-name-given-by-dakini-in-father-dream.md) | claim, note | Dudjom Rinpoche's name from his father's dream before the birth; birth on the tenth day (KTD) | cites ktd:i36-37; feeds RD363 |
 | [claims/ktd-night-of-dreams-stone-treasure-next-morning.md](claims/ktd-night-of-dreams-stone-treasure-next-morning.md) | claim, note | A night of dreams with signs, a stone treasure taken out next morning, a helper by name (KTD) | cites ktd:i31; feeds RD363 |
@@ -1466,7 +1467,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 10 passages: 1 scan, 9 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 12 passages: 3 scan, 9 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
@@ -2547,6 +2548,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1205.md](questions/q1205.md) | question q1205 | KP label 111: which animal for each of the east mansions (six mansions, five animals)? | open; cites kp:i111-113 |
 | [questions/q1206.md](questions/q1206.md) | question q1206 | KP label 107: is the first lord of the month named «ཐུག་ལྷ་གཱ་པ»? | answered; cites kp:i107-108 |
 | [questions/q1207.md](questions/q1207.md) | question q1207 | KD vol. 1 p. 493: the Dpal ldan effect reckoning's skipped date «༢ ༡ཆད»: the 21st, or the 2nd and the 1st? | open; cites kd.1:p493b |
+| [questions/q1208.md](questions/q1208.md) | question q1208 | KP's year ring: are the life-spirit knowers 'inner' and 'secret' WB's three places of one lord? | open; cites kp:i87b, wb.2:p177-189 |
+| [questions/q1209.md](questions/q1209.md) | question q1209 | KP §13–§15: the remaining panels of the year ring and the month charts, cell by cell | open; cites kp:i88b, kp:i87b |
+| [questions/q1210.md](questions/q1210.md) | question q1210 | KP's year ring puts four lords in other places than WB's rules for the mouse year: another reckoning, or a slip? | open; cites kp:i87b, wb.2:p177-189 |
 
 <!-- end pool index -->
 

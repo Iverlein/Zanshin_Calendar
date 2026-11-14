@@ -33,6 +33,42 @@ What it shows: KP, having stated the weighing of the seven and the combination p
 
 The first of the year chart's four pages (§13, the earth lords of the year), BDRC label 89: the page holds the cells of three year animals side by side, a woodcut of the animal in the middle of each and the names of its lords in the cells around it (read by eye at 2.4×: the cells of the first panel hold «སེ་བ་བླ་མཁྱེན» *se ba bla mkhyen* and «ཧལ་ཁྱི» *hal khyi*; the woodcuts of this page are a rodent among flowers, a bull and a tiger, so the page is the Rat, Ox and Tiger years). The machine reading above is a run of names, each one met in the year's list of WB (Thé-se, Thé-khyim, Hang-ne, the *se ba bla mkhyen*, Kungs-myul, Tsang-kun, Rang-rta with the horse-leader, Pi-ling, Hal-khyi, the girl «བུ་མོ», the war leader «དམག་དཔོན», the *zin phung*, «སེ་ལོ» and the like); where each name sits in its cell, and which of the four sides of the cell it stands on, is not recovered, because the machine drops the cell boundaries and the print's small cursive forms are not resolved at the scan's size. No sentence, verb or verdict stands on the page: it is a chart of names.
 
+## <a id="kp-i87b"></a>kp:i87b §13 the earth lords of the year: the Rat panel read cell by cell
+
+*Read: scan, 2026-11-14.*
+
+> (the cells in ring order: T1–T4 the top row from the left, R1–R2 the right column from the top, B4–B1 the bottom row from the right, L2–L1 the left column from the bottom)
+>
+> T1  ༄། ༼༡༣༽ ། …
+> T2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། ཁྱི་མགོ།
+> T3  སེ་བ་བླ་མཁྱེན།
+> T4  སེ་ཤར། ཙང་ཀུན་འཕྱེའོ།
+> R1  སེའུ་རང་རྟ། རྟ་ཁྲིད། པི་ལིང་།
+> R2  བློན་པོ་ཙང་ཀུན། ཐེ་ཁྱིམ།
+> B4  ཀུངས་མྱུལ། ཐེ་ཁྱིམ། སེ་བྱི། དམག་དཔོན། བླ་མཁྱེན་ཕེའུ།
+> B3  ས་བྱ་དུས་འཛིན། བླ་མཁྱེན་གསང་།
+> B2  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། ས་རྒྱལ་བཅུ་གཅིག། བླ་མཁྱེན་…
+> B1  (empty)
+> L2  ཏེ་སོ། ཝང་གིང་དམར་པོ།
+> L1  སེ་ལོ་ས་འཕྱག།
+
+The Rat panel of KP's year chart, §13, read cell by cell on the scan (BDRC I4CZ65599 label 89, pool img. 87) at 3.1x in four strips of the page, 4x for the right column and the bottom row. The panel is a ring of twelve cells round the drawing of the animal: four across the top (T1 to T4, left to right), two down each side column (L1, L2 on the left from the top; R1, R2 on the right), four along the bottom (B1 to B4 from the left). Double vertical rules, as wide as two strokes, stand between the panels of a page and at no other place; the cells of a panel are parted by single rules. A cell holds one to five names, a name to a line, set at the head of the cell, and the cell itself is the unit: no name stands "at a side" of its cell other than by the cell's place in the ring. The panel holds 11 cells with names and one empty (B1).
+
+T1: the heading «§13» (the cell's second word is not resolved). T2: Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo), the son-in-law (མག་པ, mag pa), Tsang-kun the dog-headed (ཁྱི་མགོ, khyi mgo). T3: the life-spirit knower of the se (སེ་བ་བླ་མཁྱེན, se ba bla mkhyen). T4: Se-shar (སེ་ཤར, se shar), Tsang-kun the splitter (ཙང་ཀུན་འཕྱེའོ, tsang kun 'phye bo). R1: Se'u Rang-rta (སེའུ་རང་རྟ, se'u rang rta), the horse-leader (རྟ་ཁྲིད, rta khrid), Pi-ling (པི་ལིང, pi ling). R2: the minister Tsang-kun (བློན་པོ་ཙང་ཀུན, blon po tsang kun), the queen Te-khyim (ཐེ་ཁྱིམ, the khyim). B4: Kungs-myul (ཀུངས་མྱུལ, kungs myul), Te-khyim, Se-byi (སེ་བྱི, se byi), the general (དམག་དཔོན, dmag dpon), the life-spirit knower Phe'u (བླ་མཁྱེན་ཕེའུ, bla mkhyen phe'u). B3: Sa-bya the time-holder (ས་བྱ་དུས་འཛིན, sa bya dus 'dzin), the life-spirit knower Gsang (བླ་མཁྱེན་གསང, bla mkhyen gsang). B2: the king Te-se (ཐེ་སེ, the se), Hang-ne (ཧང་ནེ, hang ne), the seat-spreader (གདན་འདིངས, gdan 'dings), the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག, sa rgyal bcu gcig), a life-spirit knower (བླ་མཁྱེན, bla mkhyen) whose epithet is not resolved, and a fourth line (read at 8x, not resolved). L2: Te-so (ཏེ་སོ, te so), Wang-ging the red (ཝང་གིང་དམར་པོ, wang ging dmar po). L1: Se-lo the sweeper of the earth (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag).
+
+Doubtful on the scan and left out of the Tibetan above: the second word of T1; the epithet after «བླ་མཁྱེན» in B2's third line and B2's fourth line; the spelling of the names in B2 to B4 is as the print's cursive allows (Yigdzin-1 over the strips gave the same names, spelled rougher).
+
+## <a id="kp-i88b"></a>kp:i88b §13 the earth lords of the year: the Hare and Dragon panels in part; the layout of the pages up to img. 100
+
+*Read: scan, 2026-11-14.*
+
+> Hare panel (img. 88, left): T1 ཀུངས་མྱུལ། T2 ཏེ་སོ་སྲས་པོ། T3 སེ་ལོ་ས་འཕྱག། T4 བྱ་ར་བ། པི་ལིང་།
+> Dragon panel (img. 88, middle): T2 ཧལ་ཁྱིའི་བུ་མོ། མག་པ། T3 (empty) L1 སེ་བྱི། དུས་འཛིན། L2 ཐེ་ཁྱིམ། ཏེ་སོ་སྲས་པོ།
+
+The year chart's second page (§13, BDRC label 90, pool img. 88: the Hare, Dragon and Snake years by their drawings) and what of it was read cell by cell. Hare panel, top row: Kungs-myul (ཀུངས་མྱུལ, kungs myul); Te-so the king's son (ཏེ་སོ་སྲས་པོ, te so sras po); Se-lo the sweeper of the earth (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag); the watchman (བྱ་ར་བ, bya ra ba) with Pi-ling (པི་ལིང, pi ling). Dragon panel: T2 Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo) with the son-in-law (མག་པ, mag pa); T3 empty; L1 Se-byi (སེ་བྱི, se byi) with the time-holder (དུས་འཛིན, dus 'dzin); L2 the queen Te-khyim (ཐེ་ཁྱིམ, the khyim) with Te-so.
+
+The rest of img. 88 (the Hare's side columns and bottom row, the Dragon's right column and bottom row, the whole Snake panel) was seen on the scan at 3.1x but not set down cell by cell: the names are the same ones as in the Rat panel, in other cells, but their placing was not checked line by line. The pages after it, read for their layout only: img. 89 (label 91) the Horse, Sheep and Monkey panels and img. 90 (label 92) the Bird, Dog and Pig panels, of the same ring of twelve cells; so §13 is the twelve years over four pages, three panels each. Img. 91–96 (labels 93–98) are another chart, two panels to the page, each a small drawing in a frame (an animal-headed figure, the Rat's, the Ox's and on) set in a block of cells of finer print with the nine-number names beside the frame and rows of short entries above and below, twelve panels in six pages; img. 97–100 (labels 99–102) are a third, three lotus-shaped cartouches to the page, each with one large letter or word in its middle and the cells round it, twelve panels in four pages. Their cells were not read.
+
 ## <a id="kp-i101"></a>kp:i101 §16 the earth lords of the day: the hearth god's seats and whom the day harms
 
 *Read: machine, 2026-11-14.*

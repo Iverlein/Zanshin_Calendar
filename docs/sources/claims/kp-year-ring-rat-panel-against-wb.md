@@ -1,0 +1,17 @@
+---
+kind: claim
+type: table
+terms: [se-ba-bla-mkhyen, the-se, the-khyim, te-so, tsang-kun, sa-bya, se-byi, se-lo-sa-'phyag]
+cites: ['kp:i87b', 'wb.2:p177-189']
+feeds: [RD4]
+open: []
+---
+# KP's year ring, Rat panel: thirteen lords in WB's places, four differ
+
+KP's year chart sets the lords of the year round the drawing of each year's animal in a ring of twelve cells, one cell to a place of the twelve animals, and the Rat panel agrees with WB's rules for the year of the mouse on thirteen lords or groups of lords.
+
+The ring runs in the order of the years (top row left to right, down the right column, along the bottom from the right, up the left column), so that in the Rat panel the Rat's own place is the bottom row's second cell from the left (B2), the Ox's the empty B1, the Tiger's L2, the Hare's L1, the Dragon's T1, the Snake's T2, the Horse's T3, the Sheep's T4, the Monkey's R1, the Bird's R2, the Dog's B4 and the Pig's B3. The direction is fixed by the king's son Te-so, which WB seats on the year's wind-horse (the tiger for the mouse) and which stands two cells on from the king, and is then borne out by the rest. Same place as WB, for the Rat year: the king Te-se (WB 1, the year's own animal), his consort Hang-ne (3, with the king), the seat-spreader (13, one seat with the king) and the eleven earth kings (26, mouse year on the mouse), all in B2, the Rat's place; the queen Te-khyim (2, one year left between her and the king, following behind) in B4, the Dog; Te-so (4) and Wang-ging the red (19, mouse year on the tiger) in L2, the Tiger; the life-spirit knower of the se (6, the seventh from the year) in T3, the Horse; the horse's Se'u Rang-rta and the horse-leader (10, 11, the ninth from the king) in R1, the Monkey; the minister Tsang-kun (5, pig, mouse and ox years on the bird) in R2, the Bird; the time-holder Sa-bya (12, on last year's animal) in B3, the Pig; the general (20, mouse year in the dog's nest) and Se-byi (8, the seventh from the watchman who stands on the dragon for the mouse) in B4, the Dog; Tsang-kun the splitter (21, mouse year eating the sheep's flesh) in T4, the Sheep; Hal-khyi's girl and her husband (17, 18, one seat with the hal khyi, which WB puts on the wind-horse of the previous year, the snake for the pig) in T2, the Snake.
+
+Where KP differs from WB in the Rat year, as read: the earth lord who sweeps the year, Se-lo Sa-'phyag (WB 15, the king's downward four-slayer, the bird) stands in the Hare (the upward four-slayer); Tsang-kun the dog-headed (22, WB the upward four-slayer, the hare) stands with the girl in the Snake; the life-spirit knower Phe'u (23, WB the third upward in the middle years, the tiger) stands in the Dog; Kungs-myul (14, WB the king's upward and downward slayer years, hare and bird) stands in the Dog. KP adds to WB's list two life-spirit knowers (བླ་མཁྱེན་གསང, bla mkhyen gsang; བླ་མཁྱེན་ནང, bla mkhyen nang) whose cells are given but whom WB's twenty-six do not name, and puts no mothers and sons, no black years and no sme ba gods in the ring.
+
+Only the Rat panel was set down cell by cell and checked against WB; the other eleven panels were seen but not entered, so that whether the lords keep these offsets from the year in every panel (as a ring turned a place a year) is the likely reading and has not been shown.
