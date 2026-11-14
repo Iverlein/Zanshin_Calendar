@@ -1955,6 +1955,17 @@ verdict, and the owner's decisions of 2026-10-10:
     list (from «རབ་གནས་ལྷ་ཁང») and the verdict "avoid" stay. KP's
     sign-by-hour table is BDRC file img. 81–82, not 79–80, wherever a
     source cites it.
+  - **The dream images held back by «བགྲོད་མིན་ལ་ཞུགས»** (q813, 2026-11-14,
+    [claims/svo-bgrod-min-la-zhugs-is-agamyagamana.md](sources/claims/svo-bgrod-min-la-zhugs-is-agamyagamana.md)):
+    the Svapnohana's clause is a sixth image of its list, agamyāgamana
+    (going to a forbidden woman), not a limit on the other five. The five
+    image claims (`dream-struck-by-weapons`, `dream-creatures-on-body`,
+    `dream-filth`, `dream-blood-flowing`, `dream-bathing`) and the
+    `dream-unsettled-words` row still list the clause as unsettled, and the
+    picker (`Dream.kt`) holds those images back; a block revises the claims
+    and decides whether to offer them. It rests on the Agni Purāṇa's parallel
+    list read on the scan, an inference, no commentary on the clause being
+    known. An owner's decision: offer them now, or wait for a commentary.
   - **The 65-year table's test comment** ([O10](#o10),
     [month-entries.md](sources/month-entries.md)): the print has ༢༧ in
     column 12 and ༨ in column 15 where the step rule gives 29 and 2 (and
