@@ -425,6 +425,24 @@ the text, not about the app.
     the parts in prose, «…ནམ་གཞག་གཏན་གྱི་མཐའ་རྩིས་ལ་རྡེའུ་བརྒྱ་སོ་དྲུག ཀེག་རྩིས་ལ་ཞེ་བདུན། གཉེན་སྦྱོར་ལ་བཅུ་གསུམ། ནད་པ་དང་སྲིའུ་ལ་བཅུ་དགུ གསོན་ཁོངས་ནས་གཤིན་འདོན་པ་ལ་ཉི་ཤུ་ཐམ་པ། བླ་རྡེལ་བཅུ་གཉིས། གཤིན་འདུར་ཤིད་གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔའོ།»,
     the same seven counts with no sum, after the same «དོན་སྐོར་བཞི་བརྒྱ་ཞེ་གཉིས»; its
     «ནད་པ་དང་སྲིའུ» (the sick and the *sri*) bears out the Taikhang print's «ནད་སྲི».*
+    *Narrowed 2026-11-14 (inv-t), computed from the seven counts of p. 249
+    (136 + 47 + 13 + 19 + 20 + 12 + 215 = 462; 462 − 20 = 442, the head
+    count «བཞི་བརྒྱ་ཞེ་གཉིས»; the line's 440 is 2 under it): of the 127 subsets
+    of the seven numbers none makes 440, and no four or fewer of the sixteen
+    totals of ch. 29 (56, 425, 58, 123, 66, 218, 28, 148, 260, 191, 2,256, 94,
+    3,186, 227, 2,920, 58) make 215, so 215 is not a sum of ch. 29's parts and
+    the 2 cannot be placed in one of them. BDRC exact search, 2026-11-14:
+    «བཞི་བརྒྱ་བཞི་བཅུར་བཞེད» 4 hits, all the line itself in WB's prints and in
+    the Do shal (MW1KG1617, poor etext; MW2PD17386, search only), the same
+    words with no gloss; «གཤིན་འདུར་ཤིད་གཉིས་ལ་ཉིས་བརྒྱ» 2 hits, both Nor brang
+    o rgyan's history already read; «ཁམས་པ་ཁྲ་མོ» 49 hits, in the lists of
+    translators of the Rin chen gter mdzod, the Shes bya kun khyab, the Gu bkra'i
+    chos 'byung and Sangs rgyas rgya mtsho's own lines, none with a count of
+    his system. The verb is «བཞེད» ("is held"), the old system's own sum
+    reported, and the head count is written in other words (zhe gnyis) a few
+    lines earlier, so the 440 is the text's figure on every print: a rounding
+    or a slip of the system's report, not a misreading. Not answered: no
+    text states why.*
 
 22. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361) and vol. 2, p. 26 (img. 34): slips
     in two sums of pebbles?** Ch. 23 states 478 root and 5,327 sign pebbles
@@ -1036,6 +1054,20 @@ the text, not about the app.
     have the 1996 counts, so the 57 unplaced pebbles (15 result, 42
     identifying) are the work's own, not a typesetting slip. The la pebbles
     with the lamps and the eleventh's leftover (7 and 68) do not fill them.*
+    *Narrowed 2026-11-14 (inv-t), recomputed from the verses of pp. 44–51
+    with a script (the claims [wb-ch29-counts-recomputed](claims/wb-ch29-counts-recomputed.md)
+    and [wb-ch29-parts-recounted-from-the-verses](claims/wb-ch29-parts-recounted-from-the-verses.md)
+    stand): the sixteen stated parts sum to 993 + 9,321 = 10,314, the gap to
+    1,008 + 9,363 is 15 and 42. Every pairing of the documented alternative
+    readings (the lamps 6 + 59, the la pebbles 12, the three verdicts 3, the
+    leftover 1 + 9, the fourteenth's pieces +7 and −16, the twelfth read as
+    Mipham counts it +7 and +5, the tenth's 1,950 or 1,961, the hour's +5, the
+    la-stone's 5, the fourth's 21) taken up to four at a time reaches (15, 42)
+    only through the pairing already named, 12 + 3 for the results and 59 − 17
+    for the identifying, which are two separate coincidences, not one reading.
+    The sky's round is «དོན་བརྒྱད» (78, with «དོན» for the seventies as on the
+    same page «དོན་བཞི» 74 for the hour and «བརྒྱ་དོན་བདུན» 177), which fixes
+    the 78. Still open; the 57 are in none of the pieces.*
 
 66. **WB vol. 2, pp. 46–47 (img. 54–55): the fourth examination's 87.** It
     states 16 + 50 = 66 pebbles and ends «ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག
@@ -1054,6 +1086,20 @@ the text, not about the app.
     the Taikhang print (I5878, img. 73, Yigdzin-1's reading) closes the
     fourth the same way, «…རྡེལ་བཅུ་གཅིག། སྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།», so the
     87 is no slip of the 1996 edition.*
+    *Narrowed 2026-11-14 (inv-t): the earlier remark that 66 + 21 = 87 "has
+    no 21 in the text" is not quite so. The living member's pebbles are
+    «ཤས་ཆེར་ཉི་ཤུ» ("mostly the twenty", WB p. 44) and, with the deciding
+    pebble, twenty-one in Mipham's note on the preliminary (p. 499, [claim](claims/dead-living-twenty-one.md)),
+    and the fourth closes by saying that the 87 is the point to fit to the
+    living's circumstances («གསོན་ཆགས་དང་བསྟུན་གནད»). So 66 + 21 is the
+    fourth's stated total with one living member's pebbles; this is an
+    arithmetic coincidence with a hook in the next clause, not something any
+    text says (the same 87 is the first examination's, and «བསྒྲིལ་བས» at the
+    twelfth sums the list before it). The figures 11, 5, 16, 50, 66, 21 and
+    their differences were run through all sums and differences of up to
+    three of them: 87 comes out only as 66 + 21, 16 + 50 + 21 and 5 + 16 + 66 (the five
+    key points counted twice). Read
+    as before on three prints; not answered.*
 
 67. **Answered 2026-10-18. WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
     «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»; what is
@@ -2606,6 +2652,31 @@ the text, not about the app.
      identifying pebbles, WB's 1,874 (vol. 2, p. 50) or the notes' 1,828
      (p. 513)? [verdicts.md](verdicts.md), "Mipham's notes on
      condensing" (RD26).
+     *Narrowed 2026-11-14 (inv-t), computed: the twelfth's ten blocks as
+     WB's last lines count them (sky's round 78 + 1,874 = 1,952; year 299;
+     month 229; day 86; hour 74; Rahu 133; small 199; corpse-bearer 32;
+     setting-down 132; the three 40) add to 3,176 with 1,874, 3,130 with
+     1,828, against the stated 3,186; only 1,884 would close it, a numeral
+     («གྱ་བཞི») no print reads. Left out of the identifying alone, the
+     la-stone's 5, WB's 3,035 is exactly 1,874 + 287 + 220 + 86 + 74 + 133 + 177
+     + 31 + 121 + 26 + 6 (with 1,828 it is 46 short); that closing, and
+     «བདུན་བཞི» beside «དོན་བཞི» 74 and «དོན་བརྒྱད» 78 on the same page, make
+     1,874 the figure WB's total was built on. Mipham's own list of the
+     round's components (pp. 512–513, img. 520–521, Yigdzin-1 and MITRA
+     agree in every figure; the 1,828 line is read on the scan, the list
+     before it from the machine readings and the etext only) names about
+     sixty counts, the thirty lunar days, their rise and decline 5, the
+     twelve days 18, the planets' fangs and faces 18 and 19, the vowels 5
+     and consonants 30 with 19 each, the 28 mansions, the 28 great
+     conjunctions, the trigrams 8, the mewa 9, the earth lords 49 and so on,
+     and ends «རྒྱས་སྤྲོས་ཙམ», "only an elaboration", the finer ones
+     "coming to many" (མང་དུ་འོང་): added as printed they come to roughly
+     1,000 to 1,100 depending on whether the nested subtotals (the 19 that
+     holds the 18, the 65 of the sun's embrace) are taken once or twice, so
+     the list does not sum to 1,828 or to 1,874, and the 46 is not found in
+     it. The numeral «ཉེར་བརྒྱད» recurs in that list for the mansions (three
+     times); whether it crept into the total is not shown. Not answered: WB's
+     1,874 is the text's figure, Mipham's 1,828 his own «བགྲང་འདུག».*
 201. **"The learned secretary Ratna" (WB vol. 2, the notes, p. 538, img. 546).**
      Who is "the learned secretary Ratna" (དྲུང་མཁས་པ་[རཏྣ], drung mkhas
      pa ratna) whose notes Mipham used (p. 538), and does the name read
