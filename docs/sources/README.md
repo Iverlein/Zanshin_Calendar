@@ -2556,6 +2556,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1208.md](questions/q1208.md) | question q1208 | KP's year ring: are the life-spirit knowers 'inner' and 'secret' WB's three places of one lord? | open; cites kp:i87b, wb.2:p177-189 |
 | [questions/q1209.md](questions/q1209.md) | question q1209 | KP §13–§15: the remaining panels of the year ring and the month charts, cell by cell | open; cites kp:i88b, kp:i87b |
 | [questions/q1210.md](questions/q1210.md) | question q1210 | KP's year ring puts four lords in other places than WB's rules for the mouse year: another reckoning, or a slip? | open; cites kp:i87b, wb.2:p177-189 |
+| [questions/q1211.md](questions/q1211.md) | question q1211 | KD vol. 3 p. 738: what is «thog 'don» in the trigram khen's bad list? | open; cites kd.3:p737-738 |
+| [questions/q1212.md](questions/q1212.md) | question q1212 | KD vol. 3 pp. 738-740: does the digest's order of the date's earth lords come from an earlier manual? | open; cites kd.3:p738-740 |
+| [questions/q1213.md](questions/q1213.md) | question q1213 | KD vol. 3 p. 743: do the labels of the Lto-'phye figure read «སྟོན་འབྲིང་ཤར» on the east edge? | open; cites kd.3:p743-745 |
+| [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | open; cites kd.3:p731-732 |
 
 <!-- end pool index -->
 
