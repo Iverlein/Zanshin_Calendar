@@ -558,6 +558,17 @@ the text, not about the app.
     khrims by the element (the tiger and hare's great grave the sheep). For
     the first months, tiger, snake, monkey and pig, the triads give the dog,
     ox, dragon and sheep; which count ch. 31 means is not said.*
+    *Narrowed 2026-11-14 (inv-v): each of the two counts is a fixed step
+    round the circle of twelve (mouse 1), so they are two rules, not a
+    scatter. WB's ch. 23 triads give tiger 3 -> dog 11, snake 6 -> ox 2,
+    monkey 9 -> dragon 5, pig 12 -> sheep 8: always four places back (or
+    eight on). Lha mo tshul khrims' element rule gives tiger -> sheep 8,
+    snake -> dog 11, monkey -> ox 2, pig -> dragon 5: always five on.
+    Whether «དུར་གྱི་རྟིང» ("behind the grave") of the Gser thang print
+    points to the first rule is not decided. BDRC's exact search finds
+    «ར་བ་བཞི་ལ་དུར», «མར་གྱི་ཁྱིམ་མཚེས» and «ཡར་གྱི་གཤེད» only in four WB
+    prints (I1KG12907, I3CN5029, I1KG1710, I1KG81102), «དུར་གྱི་རྟིང» not
+    at all: no almanac or digest copies the lines.*
 
 29. **WB vol. 2, p. 210 (img. 218): Wangkhyi's «གླང་གི་ཉི་མ་དུས་ཚོད་ལ».** Does
     Wangkhyi (ཝང་ཁྱི, wang khyi) face its direction at the ox's hour of
@@ -570,6 +581,8 @@ the text, not about the app.
     dog) are the four grave animals. Read so, the ox day may be the grave
     day and the ox's hour on it the narrowest time; no other text glosses
     it.*
+    *Searched again 2026-11-14 (inv-v): «ཝང་ཁྱི་ཉི་དུས» 0 hits; nothing
+    new.*
 
 30. **Answered 2026-10-18. WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
     ling*'s course by the *Index* names winter 2 twice (p. 207); the
@@ -613,6 +626,9 @@ the text, not about the app.
     risen. It is a Sakya chart, not a Phugpa one. No course of the old couple
     or the blue mouse road was found in it, in Lha mo tshul khrims, in Dpal
     bsdus or in KD.*
+    *Searched again 2026-11-14 (inv-v): nothing new; the pool's RD118 result
+    (earth-lords.md) stands, with q558 (the Bhutan collection's month
+    wheels) the one open way to a witness.*
 
 33. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 177–192: what does the turning add?** The year's
     courses turn left or right (གཡོན་སྐོར, g.yon skor; གཡས་སྐོར, g.yas skor),
@@ -653,7 +669,7 @@ the text, not about the app.
     khrims rgyal mtshan ties the move to the head of the reckoning's year:
     «ལོ་མགོ་ཟླ་བ་11་ནས་འཛིན་ན་བཅུ་པའི་ཟླ་སྨད་ནས་ས་བདག་སྐྱས་སྤོ་བྱེད།», not to the Tibetan new year.*
 
-35. **WB vol. 2, p. 186 (img. 194): «ཉི་མའི་གླང་དང་ལྷན་ཅིག».** Langging the red,
+35. **Answered 2026-11-14 (inv-v): the question rests on a misreading. WB vol. 2, p. 186 (img. 194): «ཉི་མའི་གླང་དང་ལྷན་ཅིག».** Langging the red,
     of war (no. 19), enters "with the sun's ox": is that the solstice, the
     sun in the ox month (the 11th Hor month), or another day (read on
     the scan 2026-10-11, RD3,
@@ -663,6 +679,15 @@ the text, not about the app.
     Taurus «གླང» among the rising signs, and the Kālacakra writings say
     «ཉི་མ་གླང་ལ་གནས་པ» of the sun in Taurus; the other lords enter on days counted
     from the sun's turning at the solstice. No text glosses the line.*
+    *Answered 2026-11-14 (inv-v): the print reads «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག»,
+    klung (luck), not glang (ox), as passage wb.2:p186b and claim
+    `wb-langging-sun-klung` (RD63) read it on the scan; BDRC's exact search
+    for «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག» again finds the one copy at the place
+    (I1KG12907, char. 441151, three thousand characters after the hal khyi's
+    «སྔ་ལོའི་ཀླུང་རྟ», char. 438204), and «ཉི་མའི་གླང་དང་ལྷན་ཅིག»,
+    «ལང་གིང་དམར་པོ» and «ཉི་མ་གླང་ལ་འཇུག» have no hit. So the solstice,
+    ox-month and Taurus readings above have no line to explain; what the
+    sun's klung is continues as q432.*
 
 36. **WB vol. 2, p. 185 (img. 193): the hal khyi's mothers and sons.**
     The black hal khyi (no. 16) sits "on the wind-horse of the previous
@@ -681,6 +706,15 @@ the text, not about the app.
     no mothers or sons. No other text found («མ་ལྔ་བུ་ལྔ», «མ་བུ་གཉིས་གཉིས»,
     «ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས», BDRC full text) names them beside the hal
     khyi.*
+    *Narrowed 2026-11-14 (inv-v): the first half is answered by WB's own
+    line (p. 185, passages p185b and p185d): twenty-two days to each pair,
+    mother and son two by two, 5 x 22 = 110, the note's other texts 104.
+    The seats are the part no text gives; claims
+    `wb-hal-khyi-pairs-no-seat-on-any-print` and
+    `wb-hal-khyi-mothers-sons-are-element-pairs` stand, and the open part
+    is carried by q433 and q470. BDRC's exact search «ཧལ་ཁྱི་མ་བུ» and
+    «ཧལ་ཁྱི་ནག་པོ་མ་ལྔ» again 0 hits; «སྔ་ལོའི་ཀླུང་རྟ» only the two
+    WB prints (I1KG12907, I3CN5029).*
 
 37. **Answered 2026-10-18. WB vol. 2, p. 196 (img. 204): the sky dog's «ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས».**
     The male sky dog holds the trigram *khen* "on 18, 26 and so on", the
