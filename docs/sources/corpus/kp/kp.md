@@ -19,6 +19,46 @@ KP's prose on the weight of the factors, the sentence that closes it: img. 14 (t
 
 What it shows: KP, having stated the weighing of the seven and the combination period, does not put the earth lords into it; it turns to them in the next clause as something met with screening and remedy, applied as the occasion comes. The rest of the clause, «…ཀྱང་འགྲོ་བདེ་གཉིས་ཀྱི་འབྲས་བུ་ལས་ལོག་འགྱུར་མེད་ཅིང་།», is not clear here and is left untranslated. KP gives the remedies themselves in its §18 (img. 105–118: those for the month's earth lords, the planets, the mansions, the date, the trigram and mewa, the sky doors and the earth lords in general), after its charts of the year's, month's, day's and hour's earth lords (§13–17).
 
+## <a id="kp-i26"></a>kp:i26 Box 10 feasts and household goods: the bad half's run of earth lords
+
+*Read: scan, 2026-11-14.*
+
+> … ཀིང་ཟོར་ནག་དབུལ་ཧལ་ཁྱི་ … པི་ལིང་གནམ་ཞག་ནག་ཐེ་སེ་ཙང་ཀུན་ཧང་ཕན་སེ་བྱི་སེ་ཤར་ཀུངས་མྱུལ་ …
+
+KP box 10 (BDRC img. 28 of I4CZ65599, pool img. 26), the right-hand panel (the bad half), lines 2 to 4 at 2.2× (2026-11-14, against Yigdzin-1 and the RD5 reading in kp-activities.md): the earth lords of the almanac run, in the print's order, ki kang zor nag (read as one name or two: open question 44, answered), dbul, the hal khyi; pi ling, the black sky day (gnam zhag nag), the se (the se), tsang kun, hang phan, se byi, se shar, kungs myul. The words between and after (the earth king, the dragon god, the five gods, the mid-sky, the great net, Rahu's course times, the planet Lhagö) are Yigdzin-1's and RD5's reading, not re-read here. WB's parallel run for this work (ch. 34, white-beryl-ch34.md) is a different, shorter list; see the claim.
+
+## <a id="kp-i27"></a>kp:i27 Box 12 setting out: the last line of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … འཇིག་ཉི་ ཕུང་ཟོར་ པི་ལིང་ སའི་འཕུང་བྱེད་ཉི་ནུབ། འགྲོ་མིའི་བདུད་གཅོད་སོགས།
+
+KP box 12 (BDRC img. 29, pool img. 27), the last line of the bad half at 1.6×: the earth's destroyer (sa'i 'phung byed) and the sunset (nyi nub) stand after pi ling; the line closes «the demon-cutting of those who travel, and the like» («འགྲོ་མིའི་བདུད་གཅོད»). The names before pi ling are Yigdzin-1's reading (phung zor, 'jig nyi). WB's work 12 has «ཕུང་ཟོར་ཉི། པི་ལིང་ས་ཕུང་ནག་པོ་རྒྱུ། ཉི་ནག་བདུད་གཅོད་ལ་སོགས་ངན།» for the same place; see the claim.
+
+## <a id="kp-i29"></a>kp:i29 Box 13 a child's first outing: the last line
+
+*Read: scan, 2026-11-14.*
+
+> … གདོང་ཐུག །ཁྱད་པར་ཆུང་སྲི་བུ་ཟན་བཅས་ལ་འཛེམ།
+
+KP box 13 (BDRC img. 31, pool img. 29), the box's last line at 1.35×: «… meet head on; above all the chung sri and the child-eaters (bu zan) are avoided». The syllable before «ཐུག» was looked at for WB's negative (WB: «གདོང་མ་ཐུག», not meeting head on): the print shows no ma that could be told at this size (the reading is a doubt: see the question).
+
+## <a id="kp-i36"></a>kp:i36 Box 23 gifts and dowries: the last line of the bad half
+
+*Read: scan, 2026-11-14.*
+
+> … གཟའ་བདུན་ཟས་འཚོལ་ལྔ་དགུའི་ཕྱོགས་བཅས།
+
+KP box 23 (BDRC img. 38, pool img. 36), last line of the bad half at 1.45×: the seven planets' food-seeking (gza' bdun zas 'tshol) together with the places of the five and the nine. The names before it (se shar, pi ling, tsang kun, pho nya, hal khyi, nyi nag) agree with RD5 as far as they were seen; not re-quoted.
+
+## <a id="kp-i38"></a>kp:i38 Box 27 springs, wells and canals: the day animals and the last names
+
+*Read: scan, 2026-11-14.*
+
+> ཉི་མ་ཡོས་འབྲུག་སྦྲུལ་ཕག་ དུ་སྦྱོར་ ལུག་ སེངྒེ་ ཉི་ནག་ བྱི་ལམ
+
+KP box 27 (BDRC img. 40, pool img. 38), the last line of the bad half at 1.45×: the day animals Hare, Dragon, Snake and Pig, the combination period (dus sbyor), Sheep, Lion, nyi nag and the mouse road (byi lam); the line ends here. RD5 had this box's names as the machine reading with a dotted tail; the tail is not in the print.
+
 ## <a id="kp-box56"></a>kp:box56 Box 56 thread-cross and torma rites: the bad half's earth lords
 
 *Read: scan, 2026-11-14.*
