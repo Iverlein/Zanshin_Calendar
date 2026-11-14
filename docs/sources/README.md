@@ -633,7 +633,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
 | [claims/kp-boxes-10-12-13-earth-lord-runs-against-wb-ch34.md](claims/kp-boxes-10-12-13-earth-lord-runs-against-wb-ch34.md) | claim, conflict | KP boxes 10, 12 and 13 close with earth-lord runs that match WB ch. 34's only in part | cites kp:i26, kp:i27, kp:i29; feeds — |
 | [claims/kp-boxes-11-16-22-25-26-earth-lord-runs-against-wb-ch34.md](claims/kp-boxes-11-16-22-25-26-earth-lord-runs-against-wb-ch34.md) | claim, conflict | KP boxes 11, 16–22, 25 and 26 end with earth-lord runs that follow WB ch. 34 with omissions and some changes | cites kp:i26b, kp:i31, kp:i32, kp:i33, kp:i34, kp:i36b, kp:i37, kp:i38b; feeds — |
-| [claims/kp-boxes-34-35-bad-halves-against-wb.md](claims/kp-boxes-34-35-bad-halves-against-wb.md) | claim, note | KP boxes 34 and 35: the bad halves keep WB works 32 and 33 earth lords, shortened | cites kp:i41; feeds RD5 |
+| [claims/kp-boxes-34-35-bad-halves-against-wb.md](claims/kp-boxes-34-35-bad-halves-against-wb.md) | claim, note | KP boxes 34 and 35: the bad halves keep WB works 32 and 33 earth lords, shortened | cites kp:i41, kp:i41s; feeds RD5 |
 | [claims/kp-boxes-37-55-earth-lords-by-box.md](claims/kp-boxes-37-55-earth-lords-by-box.md) | claim, note | KP boxes 37 to 55: which boxes name earth lords, and box 42 against WB work 39 | cites kp:i46-57; feeds RD5 |
 | [claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md](claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md) | claim, note | KP boxes 57 to 60 name the earth lords as in WB, with no work, day or direction; boxes 61 to 64 are in another order | cites kp:box57, kp:box61; feeds RD5 |
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
@@ -1486,7 +1486,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 38 passages: 23 scan, 15 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 39 passages: 24 scan, 15 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
@@ -2594,10 +2594,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1232.md](questions/q1232.md) | question q1232 | KP box 12: is «སའི་འཕུང་བྱེད» the same lord as WB's «ས་ཕུང་ནག་པོ», and «ཉི་ནུབ» the same as WB's «ཉི་ནག»? | open; cites kp:i27 |
 | [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | open; cites kp:i26 |
 | [questions/q1234.md](questions/q1234.md) | question q1234 | KP box 10: is «ཀིང་ཟོར» one name or two (it follows «ཉི་མ་བྱ་ཡོས»)? | open; cites kp:i26 |
-| [questions/q1235.md](questions/q1235.md) | question q1235 | KP box 34: which half does the last line «བདུད་རྩི་ཐུན་མཚམས་གཟའ་སྐར་ཆུ་ཕྲད་སོགས» belong to? | open; cites kp:i41 |
+| [questions/q1235.md](questions/q1235.md) | question q1235 | KP box 34: which half does the last line «བདུད་རྩི་ཐུན་མཚམས་གཟའ་སྐར་ཆུ་ཕྲད་སོགས» belong to? | answered; cites kp:i41 |
 | [questions/q1236.md](questions/q1236.md) | question q1236 | KP box 42: does «བག་མའི་ལོ་ལག་ཙ་ཀྲ» stand for WB's «གདགས་ཀྱི་ལྷ་དྲུག», and does KP name an earth lord WB lacks? | open; cites kp:i46-57 |
-| [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | open; cites kp:i41 |
-| [questions/q1238.md](questions/q1238.md) | question q1238 | KP boxes 37 and 38 name no earth lord; do WB's works 34 (bathing) and 35 (divination) name any? | open; cites kp:i46-57 |
+| [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | answered; cites kp:i41 |
+| [questions/q1238.md](questions/q1238.md) | question q1238 | KP boxes 37 and 38 name no earth lord; do WB's works 34 (bathing) and 35 (divination) name any? | answered; cites kp:i46-57 |
 | [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | open; cites kp:i34 |
 | [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | open; cites kp:i37 |
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
@@ -2607,6 +2607,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1245.md](questions/q1245.md) | question q1245 | KP box 47: is the first word of the last clause «ས་བདག» or «འཇོམས», and does WB work 44 have a matching clause about harsh earth lords? | open; cites kp:i52s |
 | [questions/q1246.md](questions/q1246.md) | question q1246 | KP box 49 against WB work 48 (consecration): does the elided part of WB's verse hold the run (nyi nag, naga planet, black woman, Vishti, destroyer, hal khyi, naked one), or is it from WB work 46? | open; cites kp:i52s |
 | [questions/q1247.md](questions/q1247.md) | question q1247 | KP box 48: is the last short line (a single word «ངན།») a separate line or the tail of the line above? | open; cites kp:i52s |
+| [questions/q1248.md](questions/q1248.md) | question q1248 | KP box 35: is «བར» in «བིཥྚི་བར་འཕུང་བྱེད» the earth lord bar of the lists, and why does WB's work 33 lack it? | open; cites kp:i41s |
+| [questions/q1249.md](questions/q1249.md) | question q1249 | KP box 34: what are the two syllables before «མི་འཕྲོད་ཉི་མ» in the bad half's last line, and what follows ཉི་མ་? | open; cites kp:i41s |
 
 <!-- end pool index -->
 
