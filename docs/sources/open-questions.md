@@ -2581,10 +2581,11 @@ the text, not about the app.
      [verdicts.md](verdicts.md) (RD18).
      *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD23, on the scan): the same shape stands on WB vol. 2, p. 114 (img. 122) and in the notes, p. 518 (img. 526), where it reads "each one's account told in its place".*
      *See question 67 (answered 2026-10-18): «ཁ་སྨྲང», speech, an account.*
-175. **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
+175. **Answered 2026-11-14 (inv-nn).** **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
      P. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
      reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+     *Answered 2026-11-14 (inv-nn): «སྒབ». The Taikhang scan carves it (question 562, RD175), and the word is a stock one: «རྟ་དང་བོང་བུ་སྒབ» stands in the *Kun 'dus chen mo* ("rta dang bong bu sgab 'phel lo"), the 1996 and Gser thang etexts of the *Bai dur dkar po* and the *Do shal* ("rta dang bong bu sgab nyes"); «སྒབ» = «'gab», the hind part, the end (Steinert's 64 dictionaries: Ives Waldo, Dan Martin, Tshig mdzod chen mo), «སྐབ» is no word of that sense. The same word as question 333's «ཤི་སྒབ». BDRC phrase search «བོང་བུ་སྐབ» 0 hits, «བོང་བུ་སྒབ» 6.*
 176. **«ཏ» in «དར་གུད་ཏ་ལ་བསྐྱོན» (p. 334).**
      P. 334, «དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི»: is «ཏ» the horse (རྟ), as in
      «བཅུ་གཉིས་རྟ་ལ་བསྐྱོན» on the same page, and what is mounted on what?
@@ -2595,12 +2596,13 @@ the text, not about the app.
 178. **«རག་མི་ལ» (p. 338).**
      P. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
-179. **«ཟླ་བའི་སྒང» or «སྣང» (p. 339; the notes, vol. 2, p. 484).**
+179. **Answered 2026-11-14 (inv-nn).** **«ཟླ་བའི་སྒང» or «སྣང» (p. 339; the notes, vol. 2, p. 484).**
      P. 339, «ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས» (so all three readings), and the
      notes' (p. 484) «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར»: the reprint's
      note reads «སྣང» at 1.5×; is «སྒང», the month's middle, the 11th to the
      20th, meant in both (p. 261's «ཟླ་བ་ཚེ་སྒང», settled 2026-10-18)?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+     *Answered 2026-11-14 (inv-nn), by sense; the glyph on the notes' prints is scan-bound: the word meant is «སྒང». The notes' «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར» glosses the verse's «ཟླ་བའི་སྒང་ལ་སྐྱེས», and a gloss «X ཞེས» repeats the verse's X. «ཟླ་བའི་སྒང» is a stock term of the calendar («ཟླ་བའི་སྒང་ནས་སྒང་ཚད་བར», the twelve links: the *Bai dur dkar po*, the *Kun 'dus chen mo*, the *Rtsis rig shes bya kun gsal*, a modern guide to the almanac), and the dictionaries give «sgang» "time, period, a month's own" (Tshig mdzod chen mo sense 5, «zla ba so sor 'thob rgyu'i dbugs sgang»); BDRC has no «ཟླ་བའི་སྣང་ཞེས» (0 hits), and «ཟླ་བའི་སྒང་ཞེས་བཅུ་གཅིག» 1 hit, the 1996 etext of the notes (I1KG12907, "zla ba'i sgang zhes bcu gcig nas nyi shu bar ro", at its p. [484]). The typeset edition and the Gser thang reprint were read «སྣང» by eye (claims/notes-p484-moon-words.md); whether the print carries a misprint or the eye mistook the foot of «ྒ» for «ྣ» at 6× needs a sharper image of Mipham's p. 484 (I2029 img. 641–642, at 9× not distinct).*
 180. **The fierce planets' meeting (p. 340).**
      P. 340, «གཟའ་རྒོད་འདོམ་སྐྱེས», which planets are the fierce ones, and is
      their meeting a day the calendar gives?
@@ -2612,10 +2614,11 @@ the text, not about the app.
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
      *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), RD24, on the scan): the same line closes ch. 24 too (p. 416, img. 426, l. 2), before each chapter's colophon; the notes call the year of age's sixth root pebble "the hour at the time the reckoning is made" (vol. 2, p. 490), and the illness notes ask for the time of reckoning too (p. 497, etext).*
      *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD22, on the scan): the illness notes' call for the hour of reckoning (vol. 2, p. 497) reads so on the Gser thang reprint too.*
-182. **«འཛོམས» or «འཇོམས» (the notes, vol. 2, p. 484).**
+182. **Answered 2026-11-14 (inv-nn).** **«འཛོམས» or «འཇོམས» (the notes, vol. 2, p. 484).**
      The notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས»
      or «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+     *Answered 2026-11-14 (inv-nn): «འཛོམས». BDRC phrase search «ཉ་སྐར་དང་འཛོམས» finds it in both etexts of the notes (the 1996 one, I1KG12907, and the Gser thang one, I3CN5029; Wylie "nya skar dang 'dzoms pa ste tshes bco lnga la btsas pa"), and the typeset edition and Mipham's own print read «འཛོམས» (claims/notes-p484-moon-words.md). «འཛོམས» (`'dzoms pa`, to meet, gather; Ives Waldo, Valby, Rangjung Yeshe) is the full moon meeting its mansion; «འཇོམས» (`'joms pa`) is to conquer or destroy, no sense for a lucky birth.*
 183. **The birth wind's 54 (p. 342).**
      P. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of the
      forty, two years less at each step, gives 50: a slip of the print?
@@ -2849,12 +2852,13 @@ the text, not about the app.
      marriage match concluded" (RD21).
      *Mostly answered 2026-10-23 (RD42, [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md)): «ལས་རྩིས» names the notes' section on ch. 22 (opening p. 474, closing p. 489), and p. 526 says "as in the section of the karma reckoning": the karma reckoning over the match is each spouse's own birth reckoning; which of its findings make an aspect bad is question 355.*
      *Narrowed 2026-10-25 ([claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md), [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md)): an aspect is bad when its block's verdict on the hundred is black, as Mipham's notes on the birth define decline (wb.2:p483) and WB's black readings of the four aspects' own pebbles match p. 364's words (wb.1:p329-331); "the reckoning bad in general" is WB's verdict on the whole birth (wb.1:p349), the regent's one verdict pebble of reply 111. A reading, not stated of the match; questions 355, 388, 392, 393 and 396.*
-211. **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
+211. **Answered 2026-11-14 (inv-nn).** **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
      The in-laws, «གནས་སྐྱུག» or «གནས་སྒྱུག»? The Gser thang reprint's
      stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And
      l. 4, «ཤིད་དུར» or «ཤིང་དུར» (Mipham's print by Yigdzin-1 only)?
      [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
      *In part 2026-10-23 (RD42, [claims/match-trigram-grave.md](claims/match-trigram-grave.md)): Mipham's own print carves «ཤིང་དུར», wood's grave, where the setting prints «ཤིད་དུར»; WB p. 362 joins zin with sheep, dwa with ox, li with dog, kham with dragon. «སྐྱུག» or «སྒྱུག» stays open (question 356).*
+     *Answered 2026-11-14 (inv-nn). (1) «གནས་སྒྱུག»: the verse of WB p. 362 is «gnas sgyug spar kha 'thab na ngan» in the 1996 etext, the *Do shal* and the *Kun 'dus chen mo*; «སྒྱུག་མོ» is the mother-in-law in all the dictionaries (Ives Waldo, Valby, Dan Martin, Tshig mdzod chen mo; the Yogācārabhūmi glossary «śvaśrū»), and there is no headword «skyug mo»; «སྐྱུག» is to vomit. The notes' lemma «གནས་སྐྱུག» is the 1996 etext's reading, and its own gloss «གནས་མ་སྟེ་མནའ་མ་དང་སྒྱུག་མོ» names the mother-in-law. The glyph on the blotted reprint is scan-bound (Gser thang I3CN5029 img. 532, l. 2). (2) «ཤིང་དུར»: the grave of wood is the sheep, a line of WB's table of the grave days (BDRC phrase search «ཤིང་དུར་ལུག» 18 hits, among them WB's own prints, "pho zla stag gis tshes pa'i shing dur lug yin pas"); «ཤིད» is `funeral ceremony` (Ives Waldo, Valby, Tshig mdzod chen mo) and gives no «ཤིད་དུར་ལུག»; Mipham's own print carves «ཤིང་དུར» (RD42). The typeset notes' «ཤིད» is a misprint of «ཤིང». Also questions 356 and 557 (same stack) can be closed on this.*
 212. **A white verdict, small rites? (WB vol. 2, p. 50).**
      In the reckoning for the dead, does a white verdict of the
      thirteenth point ask for small rites, a pair for middling and a
@@ -2914,11 +2918,12 @@ the text, not about the app.
      rise and decline? [verdicts.md](verdicts.md), "The verdicts of the
      dead, the thirty, the circles and the moment" (RD23).
      *Answered 2026-10-23 (RD38, [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22-23)): the print reads «སོ་སོའི་དར་གུད་སྐོར», each one's round of rise and decline, not «དར། ཁྱུད» (img. 29, l. 2).*
-221. **«སྐབ» or «སྒབ» on p. 104 (WB vol. 2, p. 104, ll. 27–28).**
+221. **Answered 2026-11-14 (inv-nn).** **«སྐབ» or «སྒབ» on p. 104 (WB vol. 2, p. 104, ll. 27–28).**
      «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ»: is the print's «སྐབ» the «སྒབ» of
      p. 55, «ཤི་སྒབ», the run of deaths? (Compare question 175.)
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
+     *Answered 2026-11-14 (inv-nn): «ཤི་འགྲམས་སྒབ» and «སྤར་ཁའི་སྒབ», the same word as p. 55's «ཤི་སྒབ» (question 333, answered: headword «sgab», «shi sgab» in Mipham's, Karma chags med's and other authors' works). The carved glyph is not told apart on the scan (question 594).*
 222. **The *Clear Lamp*'s commentary in twenty (WB vol. 1, p. 248; DZ f. 20b, f. 21a).**
      Does the *Clear Lamp*'s commentary in twenty that WB lists, whose
      fourth and fifth parts the *Moonbeams* cites for the match's

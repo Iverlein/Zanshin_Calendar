@@ -1613,7 +1613,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0285.md](questions/q0285.md) | question q285 | The months of the day's-animal entries | open; cites wb.2:p63 |
 | [questions/q0286.md](questions/q0286.md) | question q286 | «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry | answered; cites wb.2:p65-66, wbz:i720 |
 | [questions/q0287.md](questions/q0287.md) | question q287 | Objects and rites of the third examination left unexplained | open; cites wb.2:p58-60, wb.2:p60-62, wb.2:p63-65, wb.2:p65-66, wb.2:p66-68 |
-| [questions/q0288.md](questions/q0288.md) | question q288 | «གནམ་གྱི་བྱི་ལམ» or «བྱ་ལམ»: the sky's road | open; cites wb.2:p94-96 |
+| [questions/q0288.md](questions/q0288.md) | question q288 | «གནམ་གྱི་བྱི་ལམ» or «བྱ་ལམ»: the sky's road | answered; cites wb.2:p94-96 |
 | [questions/q0289.md](questions/q0289.md) | question q289 | The five parts of each direction on the grid of the sun and moon | open; cites wb.2:p96-97 |
 | [questions/q0290.md](questions/q0290.md) | question q290 | «ས་བདག་ཁྲུ་ལུ» and the khar bu of p. 224 | open; cites wb.2:p96-97 |
 | [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | answered; cites wb.2:p97-100, wb.2:p126-128 |
@@ -1658,7 +1658,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0330.md](questions/q0330.md) | question q330 | The doors of sky and earth and the black days, p. 42 | open; cites wb.2:p42 |
 | [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43, wbz:i686 |
 | [questions/q0332.md](questions/q0332.md) | question q332 | The trigrams and «བོན་བཞི» of ordination, p. 39 | open; cites wb.2:p39b |
-| [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | open; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784 |
+| [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | answered; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784 |
 | [questions/q0334.md](questions/q0334.md) | question q334 | The word read «ལྷང» on p. 106 | answered; cites wb.2:p106-107 |
 | [questions/q0335.md](questions/q0335.md) | question q335 | «གཤེད་བཞི་ཤར་དུ་མི་གཏོང»: the east, or where the four slayers rise | open; cites wb.2:p97-100 |
 | [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | answered; cites wb.2:p97-100, wbz:i768 |
