@@ -261,6 +261,26 @@ Open:
 
 Searched and not found (RD339), 2026-11-10: (1) the table 夢を見て語らざる日 and the words 語らざる日, and any 初夢, on the page images 128 and 132-139 and on 190 of pid 760742 (images 140-189 are the numbered lots and were looked at only through the OCR sorted by image, which shows lot texts and no dream table; not by eye); (2) images 1-107 (the front matter and the almanac's day-choosing tables) were not read leaf by leaf: three leaves were looked at (33, 36, 101); the slash table and the 初夢 are therefore not excluded from the front, only not found where the dream articles lie (images 108-137 hold the dream section whole); (3) the OCR text of the volume for 語らざる, 初夢 and 夢を見て: no hit (as RD308).
 
+## <a id="mdz-i15617"></a>mdz:i15617 夢相金鏡録 (安倍晴明朝臣遺書, 1790, Koizumi ORMK-00156), image 17: the day-branch table of the bad dream with all twelve cells
+
+*Read: machine, 2026-11-14.*
+
+> 〔右頁、下段、見出しは篆書〕
+> 子の日のあくむをみたらば … 〔読み切れず〕
+> 寅の日のあくむをみたらば … 出門によるべし 〔読み切れず〕
+> 辰の日のあくむをみたらば … 〔読み切れず〕
+> 丑の日のあくむをみたらば … 〔読み切れず〕
+> 卯の日のあくむをみたらば … 出身(?) … 〔読み切れず〕
+> 巳の日のあくむをみたらば … 〔読み切れず〕
+> 未の日のあくむをみたらば … 房門(?)より … 〔読み切れず〕
+> 酉の日のあくむをみたらば … 墨をもて … 〔読み切れず〕
+> 亥の日のあくむをみたらば … 〔読み切れず〕
+> 〔左頁〕午の日、申の日、戌の日の三つ（戌「…とふくべし」）
+> ▲悪夢といふ … 〔読み切れず〕
+> 〔刊記〕寛政二年庚戌正月吉旦　西村屋与八　花屋久治郎
+
+Image 17 (the last text spread) of the 夢相金鏡録 (安倍晴明朝臣遺書, 寛政2 = 1790; Koizumi ORMK-00156, kokusho bid 100264039, 18 images, spread read at 5000 and 7000 px, by eye on 2026-11-14; other copies ORMK-00157 and, in 文政4 = 1821, ORMK-02432 and Tohoku THKK-22650 were not opened). Under the head ▲悪夢といふ... (a bad dream) stands a ruled table of day-branch cells with seal-script heads like the table of the 清明秘鈔夢判事 (mdz:i65134), and the day branches each open "on a day of [branch] a bad dream seen ..." in plain cursive with a gloss. Twelve cells: 子, 寅, 辰, 午, 申, 戌 and 丑, 卯, 巳, 未, 酉, 亥 are all present; 子 and 丑 have cells here. Of the second lines only the following was read: 寅 ends 出門によるべし (the way out is by the gate); 未 has 房門 (the bedchamber's gate); 酉 has 墨 (ink). The rest of each cell is not read letter by letter. Colophon on the same spread: 寛政二年庚戌正月吉旦, 京 西村屋与八, 花屋久治郎. The leaf before it (image 16) carries a box headed 世間吉凶の事 (not read).
+
 ## <a id="mdz-i54254"></a>mdz:i54254 夢占吉凶秘傳書 / Ebara dream book (国文研 松野 54-254, bid 200013909), image 9: the table 夢人に咄さぬ日 as printed and the colophon (RD398)
 
 *Read: machine, 2026-11-11.*
