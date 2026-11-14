@@ -1993,7 +1993,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0672.md](questions/q0672.md) | question q672 | Is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) the Sanskrit form of Khyenrab Norbu's name? | answered; cites — |
 | [questions/q0673.md](questions/q0673.md) | question q673 | Does each round of the meadow's ornament have its own bands for the black side (KD vol. 3 pp. 723–724)? | open; cites — |
 | [questions/q0674.md](questions/q0674.md) | question q674 | Karkaṭa in the lifespan verses: Zhol «ཀ༷ཊ་ལ» and the reprint's «ཀཥྚ» | open; cites — |
-| [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | open; cites — |
+| [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | narrowed; cites — |
 | [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
 | [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
 | [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
@@ -2124,7 +2124,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0803.md](questions/q0803.md) | question q803 | Is the Sakya Paṇḍita attribution on SKP's first text right, given its colophon names Kun dga' rgyal mtshan dpal bzang po? | answered; cites skp:p40-50 |
 | [questions/q0804.md](questions/q0804.md) | question q804 | What are the three words «རམ་རུག་སྦང་གཡེར» among the gossip goods in LGD's bad list? | open; cites lgd:p968-969 |
 | [questions/q0805.md](questions/q0805.md) | question q805 | Which demon is «མཉམ་པོར་འོང་བའི་བདུད» among the causes of dreams in LGD? | answered; cites lgd:p970 |
-| [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | open; cites lgd:p966-967, svo:p268 |
+| [questions/q0806.md](questions/q0806.md) | question q806 | Does the tradition fix LGD's dusk, midnight and early dawn by hours or by the watches of the Svapnohana? | answered; cites lgd:p966-967, svo:p268, svo:p271q |
 | [questions/q0807.md](questions/q0807.md) | question q807 | What is the string of seed syllables after «Om» in the first line of LGD p. 962? | open; cites lgd:p961-966 |
 | [questions/q0808.md](questions/q0808.md) | question q808 | Where does Klong rdol bla ma's own text on examining the omens of dreams, the source of KBS's verses, stand in his collected works? | answered; cites kbs:p68-70, rst:p1-8, rst:p17-20 |
 | [questions/q0809.md](questions/q0809.md) | question q809 | What is the dream part of MDP (printed pp. 134–137), and who composed it: an old text or the collectors' own? | answered; cites mdp:p134-138, mdp:p137b |
@@ -2181,7 +2181,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0860.md](questions/q0860.md) | question q860 | Byang pa's line has the dead drinking water (ཆུ) and dancing with fiends (སྲིན་པོ) where the Drathang has beer (ཆང) and the dead (གཤིན་པོ): his print or his own change? | open; cites gt:i42-43 |
 | [questions/q0861.md](questions/q0861.md) | question q861 | Is there another scan of the Serthang print, or another print whose leaf can be opened, on which the two lines of the dream by night can be read by eye? | open; cites gt:i42 |
 | [questions/q0862.md](questions/q0862.md) | question q862 | The Yu thog, Grwa thang and Peking etexts read «བརྗེད་ངས» in the first line and other etexts «བརྗེད་ངེས»: which does the Serthang print have on p. 31 or 32? | answered; cites gt:i42 |
-| [questions/q0863.md](questions/q0863.md) | question q863 | Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part from midnight to dawn named anywhere in the Four Tantras' tradition? | open; cites gt:i42 |
+| [questions/q0863.md](questions/q0863.md) | question q863 | Does «མཚན་སྟོད» mean the first part of the night up to midnight (Byang pa, 'Bum nag gsal sgron) or dusk with midnight alike (Khro ru), and is the part from midnight to dawn named anywhere in the Four Tantras' tradition? | answered; cites gt:i42, svo:p271p |
 | [questions/q0864.md](questions/q0864.md) | question q864 | Does the Co ne Svapnohana (vol. 28, 133b3–135a3, img. 270–273) read «བགྲོད་མིན» or «བཟློག་མིན», «འགྲོན་བུ» or «འགྲོན་དུ», «བཅུ་ཡི་བར» or «བཅུ་པི་བར», «ག་ཡ་ཏྲི» or «གས་ཏྲི», and does its fourth-watch line end «ཟླ་ཕྱེད་པར་དུ» or «ཟླ་ཕྱེད་བར་དུ»? | open; cites svo:p271g |
 | [questions/q0865.md](questions/q0865.md) | question q865 | What do the watch lines and «ལ་མོ»/«བླ་མོ» of Advayavajra's Svapnekṣā read in the Co ne (vol. 49, 130a1–130b7, img. 263–264)? | answered; cites svo:p271g, svi:p263 |
 | [questions/q0866.md](questions/q0866.md) | question q866 | Which book is the puṇyakāṇḍa of the Kāṇva branch in which the Brahmavaivarta says the good dream is set out? | open; cites skd:p470-471 |
