@@ -1918,6 +1918,20 @@ Rendered from the etext: To one devoted to meditation and the rest, the sign of 
 
 What it says of time: only "two states", the slept and the not slept: the sign appears in sleep or waking; no part of the night, no day of the month, no list of images and no remedy. The dream is a sign of accomplishment and the examination of the dream (the tantra's verse «རྨི་ལམ་རྣམ་པར་དཔྱོད་པ») is for giving up the clinging to it. Doubtful: «ཡེ་ཤེས་ཀྱོ་བ» as printed (probably a corruption of a word for the iron hook, «ཡེ་ཤེས་ལྕགས་ཀྱུ»; not settled); the second sentence's «ཇི་ལྟར་ཀུན་རྫོབ་ཏུ… མཚན་མ་ཡང་དེ་བཞིན་དུ་རྨི་ལམ་ལྟ་བུར་འགྱུར་བ་གསུངས་པ» is rendered by its sense. State: etext (no scan read).
 
+## <a id="svo-i538"></a>svo:i538 The Kalacakra commentary Vimalaprabha (Derge etext VE23703_1328, pp. 537-538, 546): eight watches, four from midnight to noon and four from noon to midnight (q1149)
+
+*Read: etext, 2026-11-14.*
+
+> > [p537] མཚན་མོ་རབ་ཏུ་ཞུགས་པ་ནས་མཚན་ཕྱེད་ཀྱི་བར་ནི་རྣལ་འབྱོར་པའི་ལོངས་སྤྱོད་དོ། །ཉི་མ་ཤར་ནས་ཉི་མ་གུང་གི་བར་ནི་དགེ་སློང་རྣམས་ཀྱི་ལོངས་སྤྱོད་དེ་ཉིན་མོའི་དུས་སུའོ། །… ཉི་མ་ནུབ་ནས་ནམ་ཕྱེད་ཀྱི་བར་དུ་རྣལ་འབྱོར་པ་དང་རྣལ་འབྱོར་མ་རྣམས་ཀྱིས་དམ་ཚིག་གི་མཆོད་སྟོན་བྱའོ།
+> > [p538] དེ་ལྟར་ཐུན་མཚམས་ཀྱི་དབྱེ་བས་རྣལ་འབྱོར་མ་བཞི་པོ་རྣམས་ཀྱི་ལོངས་སྤྱོད་པ་དང་ཐིམ་པ་ལ་སོགས་པ་ཇི་ལྟ་བ་དེ་བཞིན་དུ་ཐུན་ཚོད་ཀྱི་དབྱེ་བས་དུར་ཁྲོད་ཀྱི་རྣལ་འབྱོར་མ་བརྒྱད་པོ་རྣམས་ཀྱི་སྟེ་མཚན་མོ་ཕྱེད་ནས་ཉི་མ་གུང་གི་བར་དུ་ལུགས་དང་མཐུན་པས་ཤར་དང་ལྷོ་དང་ནུབ་དང་བྱང་རྣམས་སུ་ཐུན་ཚོད་བཞིའི་དབྱེ་བ་རྣམས་ལ་ཡང་དག་པར་རྒྱུའོ། །ཉི་མ་གུང་ནས་མཚན་མོ་ཕྱེད་ཀྱི་མཐར་ཐུག་པར་ལུགས་དང་མི་མཐུན་པས་དབང་ལྡན་དང་རླུང་དང་བདེན་བྲལ་དང་མེའི་ཕྱོགས་རྣམས་སུའོ།
+> > [p546] … མཚན་མོ་ཕྱེད་ནས་ཐུན་ཚོད་བདུན་པ་ལའོ། །… ཐུན་ཚོད་བརྒྱད་པ་ལ་མཚན་མོའི་མཐའ་ནས་ཉི་མ་འཆར་བའི་མཐར་ཐུག་པའོ།
+
+Derge Tengyur, etext VE23703_1328 (BDRC), pp. 537-538 and 546, in the Kalacakra commentary «Dri med 'od» (Vimalaprabhā; colophon p. 595: translated by the Kashmiri Somanātha and 'Bro Shes rab grags, revised at Sa skya), on the verses of the "messengers of time" and the Kalacakra's faces by the watch.
+
+Rendered from the etext: [p537] From the entry of night to midnight is the yogins' enjoyment; from sunrise to noon the monks' enjoyment, the time of day; ... from sunset to midnight yogins and yoginis hold the pledge feast. [p538] So, as by the division of the sessions (thun mtshams) the four yoginis' enjoyment, dissolving and the rest are told, likewise by the division of the watches (thun tshod) the eight yoginis of the charnel grounds: "from midnight to noon", in the order of the tradition, they go truly in the east, south, west and north, in the divisions of four watches; "from noon to the end of midnight", against the tradition, in the quarters of the lord (north-east), wind (north-west), Nirrti (south-west) and fire (south-east). [p546] In the list of the faces by the watch: "from midnight, at the seventh watch" (the black face, to kill); at the eighth watch "from the end of night to the end of sunrise" (black and white, to banish).
+
+What it says of time: the eight watches are four from midnight to noon and four from noon to midnight, which is the shape of the Cakrasamvara commentary's clause (svo:i525: four in the sun's part from midnight, four in the moon's). On p. 546 the numbering runs on from noon (the seventh watch lies after midnight and the eighth ends at sunrise), so within this text "the Nth watch" counts from noon and "from midnight" names a half, not the first watch; no water-hour count is begun here. State: etext (no scan read).
+
 ## <a id="svo-i572-573"></a>svo:i572-573 The Cakrasaṃvara commentary «De kho na nyid mkhas pa» (Derge etext VE23703_1333, pp. 572–573): after sleep begins, a virtuous dream is looked for at midnight and in the session of the fifth chu tshod (RD386)
 
 *Read: etext, 2026-11-10.*
