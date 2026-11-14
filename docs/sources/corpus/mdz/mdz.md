@@ -632,6 +632,20 @@ Open:
 
 Searched and not found (RD343), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda.ac.jp/kotenseki): the site answered 503 "Site Maintenance" on every page, nothing searched; (2) Kokusho's search for 夢合 (82 records): no record for the 夢合判断大成, 清明秘鈔夢判事, 万物分類夢相手鑑, ゆめはんじ or 善惡夢はんじ with an image; (3) the NDL full-text of pid 2533938 for 語ら, かたら, ざる日, 子丑 and 初夢: only the Fuji entry; the National Archives, the University of Tokyo and archive.org not tried.
 
+## <a id="mdz-i1138301"></a>mdz:i1138301 夢合延寿袋大成 (Edo-Tokyo Museum EDOM-11383, 天保6), images 5-6: the contents (目録) (inv-zzz)
+
+*Read: machine, 2026-11-14.*
+
+> 〔目録、右頁〕
+> …高山峠　洞穴　壊石（九十丁目ゟ）　龍宮　鳴　野山　黒門　虚空（廿二丁目ゟ）　雲　霞　霧　虹　稲妻（卅丁目ゟ）　耕作　井戸　家作　碁　将棋（卅一丁目ゟ）　勝負　道具　雛祭　幟　餅搗（卅九丁目ゟ）　酒宴　盃　遊所　音曲　見物（四十四丁目ゟ）
+> 〔左頁〕
+> 花　木　竹　巣　青物（四十七丁目ゟ）　肴　鳥　獣　龍　虫（五十丁目ゟ）　雑の部　此うちにいろ〳〵悪くのゆめをと…（六十丁目ゟ）　夢現幻の伝　悪しき夢をけすでん（六十五丁目ゟ）　よい夢をまつるでん　思ふ事を夢にみるでん　（六十六丁目ゟ）　ねつかれぬ時ねつくでん　夜ねられぬ人能ねさせるでん　何時にても早く目をさますでん（六十八丁目ゟ・右同丁・六十九丁目）
+> 〔次の見開き、右頁〕
+> 五夢の伝　心夢　霊夢　実夢　虚夢　雑夢（七十丁目）　見徳夢占（七十一丁目）　一切のうらない（七十二丁目ゟ）　目録終（七十四丁目ヨリ）
+> 〔左頁〕安部清明　夢合延寿袋大成　全　ふじ山とゆめにみれば…
+
+Edo-Tokyo Museum copy DIG-EDOM-11383 (天保6; kokusho bid 100455096, 73 images), images 5 and 6, the contents (目録) at 3000 px, read by eye on 2026-11-14. The contents list the sections by leaf number: the dream objects from 高山峠 on (heights, caves, clouds, houses, games, feasts, flowers, birds and beasts), then 雑の部 (bad dreams, from leaf 60), 夢現幻の伝 (the dream, the waking and the illusion, from 65), 悪しき夢をけすでん (the way to put out a bad dream), よい夢をまつるでん (the way to honour a good dream), 思ふ事を夢にみるでん (to see in a dream what one wishes), the ways to fall asleep and to wake (ねつかれぬ時, 夜ねられぬ人, 何時にても早く目をさます), the five dreams of 心夢, 霊夢, 実夢, 虚夢, 雑夢 (leaf 70), 見徳夢占 (71) and 一切のうらない (72 on), ending 「七十四丁目ヨリ目録終」. No entry names a day or a night for telling a dream, a first-dream night or a table of days. The text of the NDL print (pid 2533938) read by the NDL OCR gives the same list (page 5-6 of the OCR), with 「初夢にふじをみれば」 only in the first article. Characters of the leaf-number column were read where legible; the lines of the small print under 雑の部 were not read letter by letter.
+
 ## <a id="mdz-i2533938"></a>mdz:i2533938 夢合延寿袋大成 (1814, NDL pid 2533938), images 7-74 by eye (RD344)
 
 *Read: by eye on the page images, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
