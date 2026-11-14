@@ -1759,7 +1759,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0425.md](questions/q0425.md) | question q425 | How far does the count of the sixty-year pairs and of the ogre's and demon's seven run? | open; cites wb.2:p171-172, wb.2:p537-538 |
 | [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
-| [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | answered; cites wb.1:p425, wb.2:p496 |
+| [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | narrowed; cites wb.1:p425, wb.2:p496 |
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
 | [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | answered; cites wb.2:p378 |
 | [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | answered; cites wb.2:p387 |
@@ -1934,7 +1934,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | answered; cites ys.2:i016-017 |
 | [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | answered; cites dz:i052-055 |
 | [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | answered; cites wb.1:p453-454 |
-| [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | answered; cites ys:i513-514 |
+| [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | narrowed; cites ys:i513-514 |
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | answered; cites ys:i497-498 |
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | answered; cites wb.1:p373-375 |
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | narrowed; cites wb.1:p373-375 |
@@ -2052,7 +2052,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
 | [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | answered; cites tmz:box9, wb.1:p92 |
-| [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | answered; cites wb.1:p98 |
+| [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | narrowed; cites wb.1:p98 |
 | [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | answered; cites kd.3:p242-243, tmz:box9, wb.1:p99 |
 | [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | answered; cites kd.3:p476-477, wb.1:p102 |
 | [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
@@ -2092,7 +2092,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0758.md](questions/q0758.md) | question q758 | WB p. 244 l. 2, the place-name in «ན་ཀོང་ལྗན་ལྗིན་ཀླུ་ཡི་གནས»: is the first word ལྗན (Yigdzin-1) or ལྡན (MITRA)? A heavy stack on the reprint; another print would settle it. | answered; cites wb.2:p244, tmz:box9, wb.2:p245 |
 | [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | answered; cites wb.2:p245, tmz:box9 |
 | [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | answered; cites wb.2:p243, tmz:box9 |
-| [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | answered; cites wb.2:p245, tmz:box9 |
+| [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | narrowed; cites wb.2:p245, tmz:box9 |
 | [questions/q0762.md](questions/q0762.md) | question q762 | WB p. 34, the first two syllables of the first verse gloss («གོ་ཌཱ་བ་ལྡོག་པའི་མཛེས་པ་བསྔགས་པ»): «གོ་ཌཱ» or «ཀོ་དྲ»? The print is heavy there. | open; cites wb.1:p34 |
 | [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | open; cites wb.1:p36 |
 | [questions/q0764.md](questions/q0764.md) | question q764 | WB p. 247 print line 4: «ས་རྦད་ཐུ་བཅད་འདྲ» (Yigdzin-1) or «ས་ཐད་ཐུ་བཅད་འདྲ» (MITRA)? The heavy glyph is not settled and neither gives a clear sense. | open; cites wb.2:p247 |
