@@ -2042,7 +2042,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
 | [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | open; cites — |
-| [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | open; cites — |
+| [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | answered; cites wb.1:p98 |
 | [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | open; cites — |
 | [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | open; cites — |
 | [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
@@ -2091,10 +2091,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0767.md](questions/q0767.md) | question q767 | WB p. 40: the stacked figure after «victor, hand, eye, two, two» (number-words 222224, glyphs not matching), the figure after «mind», and the two seven-glyph figures after «mtshams» (number-words 676405) are not readable on the reprint: what do the 1996 print or the Zhol print give? | open; cites wb.1:p40 |
 | [questions/q0768.md](questions/q0768.md) | question q768 | WB p. 52: is the Crab's own srang measure 360 (as the print's glyphs read on p. 52) or 340 (as p. 53's table reads)? Which glyph reading is right? | open; cites wb.1:p52 |
 | [questions/q0769.md](questions/q0769.md) | question q769 | WB p. 52: what is the exact spelling of the Sanskrit word printed «ཏཏྐལ» (is its second letter ཏྐ?), and of the Crab's name («ཀཎྜར», «ཀརྚ་ཊ», «ཀརྐ», «ཀརྞ» in one stacked-letter form)? | open; cites wb.1:p52 |
-| [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | open; cites wb.1:p32 |
+| [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | answered; cites wb.1:p32 |
 | [questions/q0771.md](questions/q0771.md) | question q771 | The figure after «འཁོར་ཕྱེད» on p. 32, line 3 of the verse | open; cites wb.1:p32 |
 | [questions/q0772.md](questions/q0772.md) | question q772 | p. 411: «འཆོལ» or «འཚོལ», «ཐུར་མ» or «ཟུར་མ» | answered; cites wb.2:p411 |
-| [questions/q0773.md](questions/q0773.md) | question q773 | The unit of the eclipse tables' figures on pp. 60–62 and the four courses | open; cites wb.1:p60, wb.1:p61, wb.1:p62 |
+| [questions/q0773.md](questions/q0773.md) | question q773 | The unit of the eclipse tables' figures on pp. 60–62 and the four courses | answered; cites wb.1:p60, wb.1:p61, wb.1:p62, wb.1:p58-59 |
 | [questions/q0774.md](questions/q0774.md) | question q774 | The chu srang figures of p. 62: holding, release, pressing | open; cites wb.1:p62 |
 | [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | open; cites wb.1:p10-11 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | open; cites wb.1:p12-13 |
