@@ -2567,6 +2567,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1212.md](questions/q1212.md) | question q1212 | KD vol. 3 pp. 738-740: does the digest's order of the date's earth lords come from an earlier manual? | open; cites kd.3:p738-740 |
 | [questions/q1213.md](questions/q1213.md) | question q1213 | KD vol. 3 p. 743: do the labels of the Lto-'phye figure read «སྟོན་འབྲིང་ཤར» on the east edge? | open; cites kd.3:p743-745 |
 | [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | open; cites kd.3:p731-732 |
+| [questions/q1215.md](questions/q1215.md) | question q1215 | KD vol. 1 p. 579: what are «མིག་དམར» and «རེའུ་དྲོས» in Manjushri's birth time? | open; cites kd.1:p579 |
+| [questions/q1216.md](questions/q1216.md) | question q1216 | KD vol. 1 p. 627: does the elements table of the harmful spirit classes agree with WB's, and from what text does Nor brang take it? | open; cites kd.1:p627-628 |
+| [questions/q1217.md](questions/q1217.md) | question q1217 | KD vol. 1 p. 634: do the counts of the black reckoning's circuits agree with the source they follow? | open; cites kd.1:p632-634 |
+| [questions/q1218.md](questions/q1218.md) | question q1218 | KD vol. 1 p. 633: which fifteenth-circuit text is the three-headed earth lord's helping gto, and does it hold a rule for the date's earth lords? | open; cites kd.1:p632-634 |
+| [questions/q1219.md](questions/q1219.md) | question q1219 | KD: which of the old or new Chinese reckoning do the trigram, mewa and earth-lord pages of the Phugpa almanac derive from? | open; cites kd.1:p549 |
 
 <!-- end pool index -->
 
