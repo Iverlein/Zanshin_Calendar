@@ -308,6 +308,14 @@ Serthang pp. 185–186, img. 258 and 257, from the sentence «བཅོས་པ
 
 Read by machine and on the scan by eye, 2026-11-09 (RD229): Yigdzin-1 over img. 258 and 257 (MITRA was queued behind other readers' slots for more than twenty minutes and was cancelled), 16 of the 24 lines of img. 258 and the whole of img. 257 laid beside crops (the etext of img. 258 and 257 is badly garbled by notes and interlinear marks; Yigdzin-1 matches the scan in every line looked at). One word is changed against Yigdzin-1: «བུར་སྙིང་ཐང» (img. 257, a 3× crop: the stack under ས is ཉ), Yigdzin-1 has རྙིང. The letters of «བིག་པན» (img. 258, l. 17, and img. 257, once more) were not settled between བ and ཐ; the etext has ཐིག་པན. The bracketed interlinear notes of img. 256 (the close of the chapter) were not copied.
 
+## <a id="st-p202"></a>st:p202 The Instruction Tantra's fever chapters: the turbid fever (rnyogs tshad) and the order of the seven
+
+*Read: etext, 2026-11-14.*
+
+> ཆུ་མིག་རྙོགས་སམ་བྱེ་ཆབ་གཡོས་པ་བཞིན། བཙོས་ཉེས་རྟོགས་ཕྱིར་རྙོགས་ཚད་མིང་དུ་བཏགས། འཇུག་སྒོ་དྲུག་ཞུགས་ལུས་ཀུན་ཁྱབ་པར་བྱེད། ... སྤྱི་རྟགས་ཚ་རྙོགས་ཆུ་དམར་རྒྱུ་བཤལ་འདྲ། རྩ་རྒྱུད་ཕྲ་ལ་མགྱོགས་ཤིང་གཏིང་ན་རྒྱུག ... ཁྱད་པར་རྡུལ་བརྩེ་སྣ་ཁྲག་གཡོ་བ་ཡིན།
+
+The fever chapter on the turbid fever (རྙོགས་ཚད, rnyogs tshad) of the Instruction Tantra, p. 202 of the Serthang print (image 241): "Like a spring made turbid, or sand and water stirred up, it is named the turbid fever because it was badly treated, as a sign of it; the six doors are entered and the whole body is spread." The general signs: "the heat-turbid has urine red as stirred wash-water, the vessels thin and quick, running when felt deep ... especially urine with dust, nosebleed stirred." The page's contents list (p. 6 of the etext) gives the chapters on the fevers in this order of pages: the grown (རྒྱས་ཚད, p. 187), the empty (སྟོངས་ཚད, 191), the hidden (གབ་ཚད, 195), the old (རྙིངས་ཚད, 199), the turbid (རྙོགས་ཚད, 202), the scattered (འགྲམས་ཚད, 205) and the disturbed (འཁྱུགས་ཚད, 210).
+
 ## <a id="st-p218"></a>st:p218 Ch. 23, the unripe pestilence: many confused dreams in its first stage
 
 *Read: scan, 2026-11-09.*

@@ -2576,12 +2576,15 @@ the text, not about the app.
      are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490 reads the second
      as "the place" of a meeting; the dictionaries were not searched for
      either. [verdicts.md](verdicts.md) (RD18).
+    *Answered 2026-11-14 (inv-ll, [claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md)): «ཁ་སྨྲང» is speech, an account: Rangjung Yeshe 'verbosity', Ives Waldo '[arch] talk[ing]', the Tshig mdzod chen mo «(རྙིང་) སྐད་ཆ་བཤད་པ», spoken talk, archaic. «ངོ་ཐེག» has no headword, but «ངོ་ཐོག» has: Rangjung Yeshe, Valby, Ives Waldo 'real, actual, really', the Tshig mdzod chen mo «ངོ་མའམ་དངོས་གནས། གཏམ་ངོ་ཐོག་བཤད་པ», the real thing, to tell a matter as it is; Ives Waldo's example «ངོ་ཐོག་ཞག» is the actual day; with KD's «ངོ་ཐོག་གི་ལོ» (RD174) that is the standing term. So the line reads: whichever is the more of the white and black actually counted, the verdict pebble is laid that. Whether the blocks carry ཐོག or ཐེག stays with questions 514 and 578.*
 174. **«ཁ་སྨྲང» (WB vol. 2, ch. 29, p. 50, img. 58, l. 28).** What is «ཁ་སྨྲང» in
      «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»? The print and the etext agree.
      [verdicts.md](verdicts.md) (RD18).
      *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD23, on the scan): the same shape stands on WB vol. 2, p. 114 (img. 122) and in the notes, p. 518 (img. 526), where it reads "each one's account told in its place".*
      *See question 67 (answered 2026-10-18): «ཁ་སྨྲང», speech, an account.*
 175. **Answered 2026-11-14 (inv-nn).** **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
+    *Answered 2026-11-14 (inv-ll): the dictionaries agree with question 67: «ཁ་སྨྲང», speech, talk, an account (Rangjung Yeshe, Ives Waldo, Tshig mdzod chen mo «རྙིང་ སྐད་ཆ་བཤད་པ»); «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད» is 'this account of what is needed tells it'.*
+175. **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
      P. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
      reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
@@ -2593,10 +2596,13 @@ the text, not about the app.
 177. **«བེ་ལུག» (p. 334).**
      P. 334, «གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ», what is «བེ་ལུག»?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+    *Narrowed 2026-11-14 (inv-ll): none of the 64 dictionaries has «བེ་ལུག», «བེ་ལུགས» or «ས་རུ་བལྟ» as a headword; «བེའུ» is the young of cattle and yak-crosses (Tshig mdzod chen mo, Dag tshig gsar bsgrigs, Valby, Ives Waldo 'calf'; the Dag tshig adds «བེའུ་ལི» as the spoken form), «ལུག» the sheep, which supports the reading of a young animal of the herd and nothing more; no new gloss.*
 178. **«རག་མི་ལ» (p. 338).**
      P. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
 179. **Answered 2026-11-14 (inv-nn).** **«ཟླ་བའི་སྒང» or «སྣང» (p. 339; the notes, vol. 2, p. 484).**
+    *Answered as far as the sources go 2026-11-14 (inv-ll, [claims/wb-rag-mi-la-white-many.md](claims/wb-rag-mi-la-white-many.md)): the Dag tshig gsar bsgrigs gives «རག» as the short form of «རག་ལས», and the Tshig mdzod chen mo defines «རག་ལས» as «ངེས་པར་རྟེན་པ», to depend on, with «ཉི་མའི་འོད་ལ་རག», rests on the sun's light, as its example; Rangjung Yeshe, Valby and Ives Waldo have «རག» 'depends on'. So «རག་མི་ལ» is «རག» with «མི་ལ»: the work done and resting on people, the white's counterpart of the black's «མི་ཡི་བྲན་བྱེད», serving others. The word order (the object before the verb) is the verse's own.*
+179. **«ཟླ་བའི་སྒང» or «སྣང» (p. 339; the notes, vol. 2, p. 484).**
      P. 339, «ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས» (so all three readings), and the
      notes' (p. 484) «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར»: the reprint's
      note reads «སྣང» at 1.5×; is «སྒང», the month's middle, the 11th to the
@@ -2705,6 +2711,7 @@ the text, not about the app.
      «དཀར་ནག་གཉིས» or part of the line? [verdicts.md](verdicts.md), "D16: WB,
      the notes and the manuals" (O19).
 195. **«བསྔོ་རུ་མ་བཏུབ» (WB vol. 1, pp. 419, 423–425).**
+     *Answered 2026-11-14 (inv-ll); the notes follow the question.*
      What does «བསྔོ་རུ་མ་བཏུབ» say (WB vol. 1, pp. 419, 424, 425; p. 423 has
      «བསྔོ་མ་བཏུབ», Yigdzin-1 reading «བསྡོ»)? The notes gloss the next
      words, "the plank-tree has not come down", as a reckoning not come to a
@@ -2713,6 +2720,7 @@ the text, not about the app.
      and the manuals" (O19).
      *Read 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): the Gser thang reprint carves «བསྔོ་མ་བཏུབ» on p. 423, l. 25 (at 3×), the 1996 Yigdzin-1 «བསྡོ»; the notes gloss «ཐང་ཤིང་མ་བབ» as a reckoning not come to a decision (vol. 2, pp. 495–496).*
      *Answered as far as the sources go 2026-10-25 (RD55, [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md)): every print and copy found spells «བསྔོ་རུ་མ་བཏུབ» (pp. 419, 425) or «བསྔོ་མ་བཏུབ» (pp. 423–424) alike; the 1996 etext's «བསྡོ» is its OCR of the reprint's «བསྔོ»; no text glosses it. «བསྔོ་རུ» occurs once more in WB (vol. 1 p. 282) as a noun of «བསྔོ» (to dedicate, assign), so "cannot be assigned" is an inference; health.md's "will not take the offering" has no source.*
+    *Added 2026-11-14 (inv-ll, [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md)): the dictionaries support the inference. «བཏུབ» is «བླའམ་རུང་བ་དང་ཐུབ་པ», fit and able, and takes the verb with the terminative: «བཏུང་དུ་བཏུབ» fit to drink, «བཞོན་དུ་བཏུབ» fit to ride (Tshig gter rgya mtsho, Rangjung Yeshe); «བསྔོ» is the future of «སྔོ», to dedicate, assign, hand out, share (Tshig mdzod chen mo, Rangjung Yeshe, Ives Waldo). «བསྔོ་རུ་མ་བཏུབ» is so 'not fit to be assigned' (ru for du after the vowel), the white and black not to be assigned to one side, as the notes' next clause, a reckoning not come to a decision, says. 'Will not take the offering' has no support.*
 196. **«སྔོ་བགྲང» (the notes, vol. 2, p. 495, img. 503).**
      What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p.
      495, img. 503), and is it related to p. 419's «བསྔོ»?
@@ -3002,6 +3010,7 @@ the text, not about the app.
      that is most" (RD22).
      *Narrowed 2026-10-25 (RD53, [claims/illness-class-labels.md](claims/illness-class-labels.md)): the labels grade each class by a colour of a colour; seven of the nine classes carry one (white's black the fifth and sixth white, the speckled's white the half, the speckled's speckled and black the sixth black, black's white the fifth black; the third white and the fourth and third black none); a scheme of three zones of three grades is not taken, the text not saying it. «གདགས་སྲིབས་གོ་ལོག» is the sunny and shady sides turned about, as in ch. 26 (wb.1:p462-463). «ལྔ་སུམ་གཅིག་གི་ནད» is glossed nowhere.*
 231. **«རྙོངས» and «ཉ་བཞི» (WB vol. 1, p. 435, ll. 21, 26).**
+     *Answered 2026-11-14 (inv-ll); the notes follow the question.*
      The fever printed «[རྙོངས]» (Yigdzin-1 of the reprint «སྟོངས»): is
      it the turbid fever (རྙོགས་ཚད, rnyogs tshad), and is «[ཉ]་བཞི་ན་ལ»
      (etext «ཞྭ་བཞི») a word for the four limbs or joints?
@@ -3009,6 +3018,7 @@ the text, not about the app.
      that is most" (RD22).
      *Narrowed 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): p. 436 prints «ཉ་དང་ཚིགས་བཞི་ན་བ», the «ཉ» and the four joints, for «ཉ» against the etext's «ཞྭ» on p. 435.*
      *Narrowed 2026-10-25 (RD53, [claims/illness-identified-words-on-scan.md](claims/illness-identified-words-on-scan.md)): «ཉ་བཞི» reads «ཉ» on the reprint (img. 430, 3×), agreeing with p. 436; «[རྙོངས]་ཚད» is an ink clot on the reprint, unsettled between རྙོངས, སྟོངས and རྟོངས (the line above has «སྟོངས་ཚད», weakly favouring a different word).*
+    *Answered 2026-11-14 (inv-ll, [claims/wb-p435-fever-five-is-rnyogs-tshad.md](claims/wb-p435-fever-five-is-rnyogs-tshad.md)): «ཉྭ་བཞི» is the four limb-muscles (question 675, answered the same day from Valby 'nya bzhi: 4 muscles (2 arms, 2 legs)' and Ives Waldo, with the Tshig mdzod chen mo's «ཉྭ་བཞི»). «[རྙོངས]་ཚད» is the turbid fever, «རྙོགས་ཚད»: WB's seven fevers run in the order of the Instruction Tantra's seven fever chapters (Serthang, contents, [st:p202](corpus/st/st.md)), the fifth being the turbid fever, whose signs, urine with dust and nose blood, WB names; the Tshig mdzod chen mo has «rnyogs tshad», sand and water churned, the body made turbid.*
 232. **«བླངས་ལན་པའི» (the notes, vol. 2, p. 497, l. 2).**
      What does the phrase «བླངས་ལན་པའི» say of the breath taken?
      [verdicts.md](verdicts.md), "The illness identified: the element

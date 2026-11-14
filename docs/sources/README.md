@@ -1266,6 +1266,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p359-hours-against-animals.md](claims/wb-p359-hours-against-animals.md) | claim, note | WB p. 359: the twelve double-hours against the animals run Hare, Dragon at sunrise, Snake, Horse at midday and so on, the Bird omitted; the hour is a sharp weapon | cites wb.2:p359; feeds — |
 | [claims/wb-p365-368-sky-doors-riders-skulls.md](claims/wb-p365-368-sky-doors-riders-skulls.md) | claim, note | WB pp. 365-368: the sky doors are headed by numbered pairs (three-three to ten-three), not weekdays; riders and skulls of the eight trigrams and nine mewa as the etext has them, unchecked on the scan | cites wb.2:p365-368; feeds — |
 | [claims/wb-p370-invocation-earth-lords-of-time.md](claims/wb-p370-invocation-earth-lords-of-time.md) | claim, note | WB p. 370: the invocation names Thé-se, Li and the nine mewa for the year, Grwa-pa for the month, the Golden Treasure Yellow for the day and the Turquoise Treasure Blue for the hour | cites wb.2:p370; feeds — |
+| [claims/wb-p435-fever-five-is-rnyogs-tshad.md](claims/wb-p435-fever-five-is-rnyogs-tshad.md) | claim, definition | «[རྙོངས]་ཚད» on WB p. 435 is the turbid fever (rnyogs tshad): the fevers run in the Instruction Tantra's order | cites wb.1:p435b, st:p202; feeds block-32 |
 | [claims/wb-p50-order-of-rites-is-a-list.md](claims/wb-p50-order-of-rites-is-a-list.md) | claim, note | p. 50: «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང» names the three sizes; it does not pair them with white, black and even | cites wb.2:p50a; feeds block-31 |
 | [claims/wb-p50-size-order-is-not-wbs-usual-order.md](claims/wb-p50-size-order-is-not-wbs-usual-order.md) | claim, note | p. 50's «ཆེ་ཆུང་འབྲིང» is not WB's usual order of the sizes, and no colour is paired to it | cites wb.2:p50a; feeds block-31 |
 | [claims/wb-p64-65-mercury-venus-sun-and-smaller-part.md](claims/wb-p64-65-mercury-venus-sun-and-smaller-part.md) | claim, note | WB's Mercury and Venus clause: the true sun by its context, a smaller part by the Seven Special Qualities alone | cites wb.1:p64-65, kd.2:p441; feeds — |
@@ -1513,7 +1514,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/snr/snr.md](corpus/snr/snr.md) | corpus | SNR | 2 passages: 2 etext |
 | [corpus/snz/snz.md](corpus/snz/snz.md) | corpus | SNZ | 1 passages: 1 etext |
 | [corpus/srm/srm.md](corpus/srm/srm.md) | corpus | SRM | 2 passages: 1 scan, 1 machine |
-| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 29 passages: 10 scan, 8 machine, 11 etext |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 30 passages: 10 scan, 8 machine, 12 etext |
 | [corpus/svi/svi.md](corpus/svi/svi.md) | corpus | SVI | 13 passages: 6 scan, 5 machine, 2 etext |
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 93 passages: 16 scan, 13 machine, 64 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
