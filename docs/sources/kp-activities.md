@@ -1171,6 +1171,8 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
   and the sky doors by WB's pairs ([claim](claims/kp-sky-doors-same-pairs-as-wb.md)).
   No remedy says what an earth lord does beyond the harm to be mended.
 
+  *2026-11-14 (RD, KP boxes 56–64 by eye):* boxes 56–60's earth-lord runs read on the scan (kp:box56, kp:box57): box 56 is WB's work 53 condensed, no work, day or direction that WB lacks ([claim](claims/kp-box56-is-wb-work53-condensed.md)); 57–60 name phung zor, dbul lag, pi ling, hal khyi, ki kang as WB's matching works do ([claim](claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md)); boxes 61–64 stand in the order fierce, control, pacify, life and wealth by their titles (kp:box61), their runs worn and not settled; KP2 past box 54 (img. 285, 288) is a dim photograph and settled nothing more.
+
 ### Searched and not found
 
 - A box that names a lord in its good half: none of the boxes read, bar the

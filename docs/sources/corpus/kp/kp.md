@@ -19,6 +19,30 @@ KP's prose on the weight of the factors, the sentence that closes it: img. 14 (t
 
 What it shows: KP, having stated the weighing of the seven and the combination period, does not put the earth lords into it; it turns to them in the next clause as something met with screening and remedy, applied as the occasion comes. The rest of the clause, «…ཀྱང་འགྲོ་བདེ་གཉིས་ཀྱི་འབྲས་བུ་ལས་ལོག་འགྱུར་མེད་ཅིང་།», is not clear here and is left untranslated. KP gives the remedies themselves in its §18 (img. 105–118: those for the month's earth lords, the planets, the mansions, the date, the trigram and mewa, the sky doors and the earth lords in general), after its charts of the year's, month's, day's and hour's earth lords (§13–17).
 
+## <a id="kp-box56"></a>kp:box56 Box 56 thread-cross and torma rites: the bad half's earth lords
+
+*Read: scan, 2026-11-14.*
+
+> … ཉི་མ་ཕག་བོན་ཆོག་ངན། སྟག་དུས་སྦྱོར་གླང་སྲང་པི་ལིང་སེ་བྱ་ / ཀུངས་མྱུལ་གནམ་ཟས་འཚོལ་ཕག་མོ་རྒྱུ་དམག་དཔོན་ཙང་ཀུན་གནས་ / ཕྱོགས་དབང་མོ་ཁྲག་སྒོར་ཙ་མུནྡི་ཁྱབ་འཇུག་རྒྱུ་དུས་མཐོང་བ་རྒྱུ་དུས་ནུབ་ / བྱང་དུ། ཤ་བ་རུ་རྒྱས་ངན། དཔལ་མོ་རྒྱུ་དུས་མདོས་རྣམས་དམིགས་གསལ་ལ༔ / ཞི་ལྗང་གནས་ཕྱོགས་འཛེམ།
+
+KP box 56 (thread-cross and torma rites, BDRC img. 60 of I4CZ65599), the last five lines of the bad half (the right-hand panel), read by eye at 3×. Bad for Bon rites the Pig day; the Tiger day, the combination period, Ox, Balance, Pi ling, Se bya, Kungs myul, the sky (gnam) food-seeking, the course of the Pig-woman, the army-commander Tsang kun, the place and direction; the Lady (dbang mo), Khrag sgor, Tsa mundi, the course times of Vishnu (khyab 'jug), the Seer's (mthong ba) course times in the west-north; Sha ba ru rgyas bad; the course times of Palmo (dpal mo); the mdos kinds are specified; the places of the green and blue peace are avoided. The run of earth lords is the same as WB's work 53 (vol. 2, p. 422), condensed: see the claim.
+
+## <a id="kp-box57"></a>kp:box57 Boxes 57 to 60: the ends of the bad halves with the earth lords
+
+*Read: scan, 2026-11-14.*
+
+> Box 57, bad half, last two lines (img. 61): «༢༨ སྐར་མ་ཆུཾད་ཁྲོུཾད་སག་སྐྱེ་བ་སྲིད་པ / མ་རིག་མིང་གཟུགས་དབུལ་ཉི་ཕུང་ཟོར» — Box 58, bad half, last two lines (img. 61): «སྐར་མ་ས་རི་ལག་རྒྱལ་སྐག་སྣྲོན་ལྷཾས་སྣྲུབས་ནག་སྲིད་པ / རྒ་ཤི་མ་རིག་མིང་གཟུགས་ཉི་མ་རྟ་ཕུང་ཟོར་དབུལ་ལག» — Box 59, bad half, last three lines (img. 62): «སྐར / མ་མགོ་སྐག་ནག་སྣྲོན་ཁྲོུཾད་སྣྲུབས་མ་རིག་མིང་ཉི་མ / རྟ་ཕུང་ཟོར་དབུལ་ལག་ལ་སོགས་གདུག་རྩུབ་ཆེ་བའི་ས་བདག་སྤངས།» — Box 60, bad half, last two lines (img. 62): «… ཉི་ནུབ་རཱ་ཧུ་དྲ་ཆེན་པི་ལིང་ཧལྱི / ཀི་ཀང་དབུལ་ལོ་ཟླ་ཞག་ནག་ཕུང་ཟོར་སྦྱོར་བྱེད་རྟེན་འབྲེལ་སོགས་དོན་བསྟུན།»
+
+KP boxes 57 to 60, the ends of the bad halves with the earth lords, read by eye at 2× to 2.4× (2026-11-14; they agree with the O10f readings in kp-activities.md). 57: ... the links of birth, becoming, ignorance, name-and-form; dbul, nyi (nag?), phung zor. 58: ... the links of old age and death, ignorance, name-and-form; the Horse day, phung zor, dbul lag. 59: ... ignorance, name; the Horse day, phung zor, dbul lag and the like: the harsh earth lords are put aside. 60: ... the Sunset (nyi nub), Rahu, the Great Net (dra chen), pi ling, hal khyi, ki kang, dbul, the year, month and date's black ones, phung zor: held to the matter of the rite of joining and of the dependent link. In box 57 «དབུལ་ཉི་» stands where WB's parallel has «དབུལ་པོ་ལག་»; the lone «ཉི» may be «ཉི་ནག་».
+
+## <a id="kp-box61"></a>kp:box61 Boxes 61 to 64: titles and the worn bad halves
+
+*Read: machine, 2026-11-14.*
+
+> Left-hand titles on the scan: img. 63 upper box «དྲག་པའི་ལས་ལ་བཟང་བ» (first word uncertain), lower box «དབང་བའི་ལས་ལ་བཟང་བ» (second word uncertain); img. 64 upper box «ཞི་བའི་ལས་བཟང་བ» (head worn), lower box «ཚེ་ནོར་སྒྲུབ་པར་བཟང་བ». Bad half of the upper box of img. 63, worn: «༄། །གཟའ་ཟླ་ལྷག་སངས་སྤེན / མ་ … ཀིང་ཧལྱི་ …»
+
+KP's four last Henning boxes, BDRC img. 63 to 64: by their titles (read at 3×) they are the works of the fierce, of control (dbang), of pacifying and of life and wealth, in this order, not WB's order (61 life and wealth, 62 controlling, 63 destructive, 64 pacifying; vol. 2, pp. 426-427). Only the title of the fourth is certain; the earth-lord runs of the four bad halves are on a worn, smudged impression and were not settled by eye: in the upper box of img. 63 the words «ཀིང་» and «ཧལྱི་» can be seen in the bad half's second line; in the lower box of img. 64 the last line ends «…འབྲུག་ལྷ་གནས་ཕྱོགས།» (read by eye, less surely), WB 61's ending.
+
 ## <a id="kp-i87"></a>kp:i87 §13 the earth lords of the year: Rat, Ox, Tiger page of the chart
 
 *Read: machine, 2026-11-14.*
