@@ -1812,7 +1812,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
-| [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | open; cites — |
+| [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | answered; cites mdz:i772010 |
 | [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | answered; cites — |
 | [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | answered; cites — |
 | [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | answered; cites — |
