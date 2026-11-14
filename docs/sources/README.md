@@ -634,6 +634,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md](claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md) | claim, note | KP boxes 57 to 60 name the earth lords as in WB, with no work, day or direction; boxes 61 to 64 are in another order | cites kp:box57, kp:box61; feeds RD5 |
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
 | [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
+| [claims/kp-month-panels-seat-lords-by-season.md](claims/kp-month-panels-seat-lords-by-season.md) | claim, note | KP's month panels: Ga-pa and Grum-bu stand on the side WB gives their season, south up, east left | cites kp:i91-96b, kp:i91-96, wb.2:p199-200; feeds RD4 |
 | [claims/kp-sky-doors-same-pairs-as-wb.md](claims/kp-sky-doors-same-pairs-as-wb.md) | claim, note | KP §18: the sky doors are WB's pairs, each with a remedy; the two headings the machine read differently agree with WB on the scan | cites kp:i114-116, wb.2:p365-368; feeds T2.28 |
 | [claims/kp-year-ring-horse-to-pig-against-wb.md](claims/kp-year-ring-horse-to-pig-against-wb.md) | claim, table | KP's year ring, the Horse to Pig panels: WB's places for most lords, Se-lo, the dog-headed, Phe'u and Zin-phung exchanged | cites kp:i89b, kp:i90b, kp:i87b, wb.2:p177-189; feeds RD4 |
 | [claims/kp-year-ring-offsets-against-wb.md](claims/kp-year-ring-offsets-against-wb.md) | claim, table | KP's year ring: the lords keep WB's offsets from the year in six panels; Se-lo, Phe'u and Kungs-myul do not | cites kp:i87b, kp:i87c, kp:i88c, wb.2:p177-189; feeds RD4 |
@@ -1481,7 +1482,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 21 passages: 10 scan, 11 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 22 passages: 10 scan, 12 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
@@ -2579,6 +2580,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1222.md](questions/q1222.md) | question q1222 | KP box 60: what is «ཉི་ནུབ» (the sun's setting) before Rahu, which WB's councils lacks? | open; cites kp:box57 |
 | [questions/q1223.md](questions/q1223.md) | question q1223 | KP box 56: is the order Lady, Khrag sgor, Tsa mundi, Vishnu a difference from WB, and the spellings «ཁྲག་སྒོར»/«ཙ་མུནྡི» against WB's «ཁྲག་ཟོར»/«ཙཱ་མུཀྟྲི»? | open; cites kp:box56 |
 | [questions/q1224.md](questions/q1224.md) | question q1224 | KP's last four boxes run fierce, control, pacify, life and wealth; WB runs life and wealth, control, destructive, pacifying: why? | open; cites kp:box61 |
+| [questions/q1225.md](questions/q1225.md) | question q1225 | KP month panels: which cell of a panel stands for which animal's corner? | open; cites kp:i91-96b |
+| [questions/q1226.md](questions/q1226.md) | question q1226 | KP month panels: does each seat the six sky-line gods (WB lords 23–28) and the six black ones of the shadow by WB's month animal pairs? | open; cites kp:i91-96b |
+| [questions/q1227.md](questions/q1227.md) | question q1227 | KP month panels: what does «བབ» (bab) at the end of many cells mean? | open; cites kp:i91-96b |
+| [questions/q1228.md](questions/q1228.md) | question q1228 | KP month panels: where are Ga-pa in the snake, rat and ox panels and Grum-bu in the snake, sheep, dog, rat and ox panels? | open; cites kp:i91-96b |
+| [questions/q1229.md](questions/q1229.md) | question q1229 | KP month panels: does the sheep (summer 3) panel carry the ox's time of day facing south, as WB's Wang-khyi has it? | open; cites kp:i91-96b |
+| [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | open; cites kp:i91-96b |
 
 <!-- end pool index -->
 
