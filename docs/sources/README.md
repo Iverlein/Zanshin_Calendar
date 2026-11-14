@@ -1984,7 +1984,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | answered; cites — |
 | [questions/q0664.md](questions/q0664.md) | question q664 | UT's keying of harms to the fifteen places: a restatement of WB p. 172's counts? | open; cites — |
 | [questions/q0665.md](questions/q0665.md) | question q665 | Is Sprugtön's general verdict pebble outside the colophon's 75? | open; cites — |
-| [questions/q0666.md](questions/q0666.md) | question q666 | WB vol. 1 p. 65: the true sun and the nearer node differ by one mansion at most? | open; cites — |
+| [questions/q0666.md](questions/q0666.md) | question q666 | WB vol. 1 p. 65: the true sun and the nearer node differ by one mansion at most? | answered; cites wb.1:p65, wb.1:p64-65 |
 | [questions/q0667.md](questions/q0667.md) | question q667 | Who dropped the 24th from the moxa dates of KL's six? | open; cites — |
 | [questions/q0668.md](questions/q0668.md) | question q668 | Which clan stands after «རུས་མཚན» in Viśākhā's verse (WB vol. 2, p. 322) | open; cites — |
 | [questions/q0669.md](questions/q0669.md) | question q669 | Does the crab's house on p. 382 read «ཀཥྚ» or «ཀརྞ» | open; cites — |
@@ -2001,7 +2001,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0680.md](questions/q0680.md) | question q680 | p. 188's sign after «མཁའ་མེ་སྲང» and the four off-step cells of the sage's table | open; cites — |
 | [questions/q0681.md](questions/q0681.md) | question q681 | The skya of «སྐྱ་རྒྱལ» and «སྐྱ་འཕམ» (WB ch. 18) | answered; cites — |
 | [questions/q0682.md](questions/q0682.md) | question q682 | «ཞོད» and «གཤོངས» in the sixty years' results | answered; cites — |
-| [questions/q0683.md](questions/q0683.md) | question q683 | The seven kinds of conduct of p. 201: the four lists not given | open; cites — |
+| [questions/q0683.md](questions/q0683.md) | question q683 | The seven kinds of conduct of p. 201: the four lists not given | answered; cites wb.1:p201 |
 | [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | open; cites — |
 | [questions/q0685.md](questions/q0685.md) | question q685 | «སད» and «སད་སེར» on the crops (pp. 199, 204, 209) | answered; cites — |
 | [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | answered; cites — |
