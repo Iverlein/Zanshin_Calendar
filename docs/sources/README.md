@@ -2546,6 +2546,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1204.md](questions/q1204.md) | question q1204 | KP year and month panels: which side of its cell does each name stand on? | open; cites kp:i87 |
 | [questions/q1205.md](questions/q1205.md) | question q1205 | KP label 111: which animal for each of the east mansions (six mansions, five animals)? | open; cites kp:i111-113 |
 | [questions/q1206.md](questions/q1206.md) | question q1206 | KP label 107: is the first lord of the month named «ཐུག་ལྷ་གཱ་པ»? | answered; cites kp:i107-108 |
+| [questions/q1207.md](questions/q1207.md) | question q1207 | KD vol. 1 p. 493: the Dpal ldan effect reckoning's skipped date «༢ ༡ཆད»: the 21st, or the 2nd and the 1st? | open; cites kd.1:p493b |
 
 <!-- end pool index -->
 
