@@ -2113,16 +2113,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0789.md](questions/q0789.md) | question q789 | In the Four Tantras' ch. 2 line on the boy's dream, is ཡང light or also, and is དག clear or a plural? | answered; cites st:p21, st:p350-351c |
 | [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | answered; cites st:p183, st:p218, st:p241 |
 | [questions/q0791.md](questions/q0791.md) | question q791 | What are ལྗོང, ལྕོལ, སྡིག་སྡོམ and ནིའུ་གསིང in ch. 81's dream list, and what does «ལྷས་ཚོར་དུས་ཏེ» say? | answered; cites st:p350-351, st:p350-351c |
-| [questions/q0792.md](questions/q0792.md) | question q792 | In ch. 91's closing causes, what is the failing the chapter treats, and what are ཕྱུ, དྲི་ཆེན and བ་ར in its remedies? | open; cites st:p493 |
+| [questions/q0792.md](questions/q0792.md) | question q792 | In ch. 91's closing causes, what is the failing the chapter treats, and what are ཕྱུ, དྲི་ཆེན and བ་ར in its remedies? | answered; cites st:p493, st:p493b, st:p493c |
 | [questions/q0793.md](questions/q0793.md) | question q793 | Which work ends on TDR printed p. 343, and does the registry's TDR begin at the title two thirds down the page? | answered; cites tdr:p343-344 |
-| [questions/q0794.md](questions/q0794.md) | question q794 | Does the Śramaṇā text's «yar ngo'i dus bzang po» mean any day of the waxing half, or does the tradition name one? | open; cites srm.6:p386-389 |
+| [questions/q0794.md](questions/q0794.md) | question q794 | Does the Śramaṇā text's «yar ngo'i dus bzang po» mean any day of the waxing half, or does the tradition name one? | answered; cites srm.6:p386-389 |
 | [questions/q0795.md](questions/q0795.md) | question q795 | What are «Dpal rno bkra» and «ma mar mo» in the GNC heading and the mantra-water rite? | answered; cites gnc.1:p557-558 |
 | [questions/q0796.md](questions/q0796.md) | question q796 | Is Ngag dbang at the end of the Svapnohana's remedy Vāgīśvarakīrti, whose Deceiving Death stands before it on p. 268? | open; cites svo:p271, svo:p268 |
 | [questions/q0797.md](questions/q0797.md) | question q797 | Ten of what is «བཅུ་ཡི་བར» for the white snake seizing the right hand? | open; cites svo:p270 |
 | [questions/q0798.md](questions/q0798.md) | question q798 | How are the four watches (ཐུན) of the Svapnohana bounded: four equal parts of the night, or the monastic watches? | open; cites svo:p268 |
 | [questions/q0799.md](questions/q0799.md) | question q799 | Does «དེ་ཡིས་དེ་དུས་སྙིང་སྡུག་འཐོབ» in the Svapnohana mean getting what is dear to the heart, or sorrow? | open; cites svo:p270 |
 | [questions/q0800.md](questions/q0800.md) | question q800 | What is the animal «བླ་མོ» in «རྟ་བླ་མོ་དང་ལྟོ་འཕྱེ་དང་», and what is the clause «བགྲོད་མིན་ལ་ཞུགས་ཤིས་པའོ»? | open; cites svo:p270, svo:p268 |
-| [questions/q0801.md](questions/q0801.md) | question q801 | Is «བཻ་རང་གི་དུས་ཚོད» in KCM p. 682 a mistake for a named watch or day, or the text's own phrase? | open; cites kcm:p679-682 |
+| [questions/q0801.md](questions/q0801.md) | question q801 | Is «བཻ་རང་གི་དུས་ཚོད» in KCM p. 682 a mistake for a named watch or day, or the text's own phrase? | answered; cites kcm:p679-682, kcm:p474 |
 | [questions/q0802.md](questions/q0802.md) | question q802 | Is «པདྨ་དཀར» at the end of SKP's second text Padma dkar po of the 'Brug pa, and whose 'third of Vairocana' does it follow? | open; cites skp:p50-55 |
 | [questions/q0803.md](questions/q0803.md) | question q803 | Is the Sakya Paṇḍita attribution on SKP's first text right, given its colophon names Kun dga' rgyal mtshan dpal bzang po? | answered; cites skp:p40-50 |
 | [questions/q0804.md](questions/q0804.md) | question q804 | What are the three words «རམ་རུག་སྦང་གཡེར» among the gossip goods in LGD's bad list? | open; cites lgd:p968-969 |
@@ -2136,11 +2136,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0812.md](questions/q0812.md) | question q812 | Are the four watches of the night in WB vol. 1 p. 101 equal, and what is the unit of their planets' stretches (ཆུ་ཚོད 5, 4, 6, 3, 7, 4, 1)? | open; cites wb.1:p101 |
 | [questions/q0813.md](questions/q0813.md) | question q813 | What does the clause «བགྲོད་མིན» in SVO's second verse limit? | answered; cites svo:p268, agp:p282, agp:p280-281 |
 | [questions/q0814.md](questions/q0814.md) | question q814 | What does the word before «a snake, a water creature seized» in SVO p. 270 («བླ་མོ») read, and is «བཅུ་ཡི་བར» in days? | open; cites svo:p270 |
-| [questions/q0815.md](questions/q0815.md) | question q815 | Is the SVI sign «བྱ་ཤར་ཏེ་རུ» (a bird sent as messenger, Amoghasiddhi's family) a bird, and is it a fortunate sign? | open; cites svi:p261 |
+| [questions/q0815.md](questions/q0815.md) | question q815 | Is the SVI sign «བྱ་ཤར་ཏེ་རུ» (a bird sent as messenger, Amoghasiddhi's family) a bird, and is it a fortunate sign? | answered; cites svi:p261, svi:p261b |
 | [questions/q0816.md](questions/q0816.md) | question q816 | What are the first words of LGD's «རམ་རུག་སྦང་གཡེར», the goods of gossip among the bad signs? | open; cites lgd:p968-969 |
 | [questions/q0817.md](questions/q0817.md) | question q817 | Which creatures does ST ch. 81 name among the dreams of the nāga spirits' illness, and what are the mantra and the ingredient «བ་ར» of ch. 91's thread? | answered; cites st:p350-351, st:p493, st:p350-351c |
 | [questions/q0818.md](questions/q0818.md) | question q818 | Does ST ch. 2's dream of a man mean the pregnant woman sees a man, or sees clearly? | answered; cites st:p21, st:p350-351c |
-| [questions/q0819.md](questions/q0819.md) | question q819 | What is the first syllable of «?་རང་གི་དུས་ཚོད» on p. 682 of the magic mirror, and does the phrase fix a watch of the night? | open; cites kcm:p679-682 |
+| [questions/q0819.md](questions/q0819.md) | question q819 | What is the first syllable of «?་རང་གི་དུས་ཚོད» on p. 682 of the magic mirror, and does the phrase fix a watch of the night? | answered; cites kcm:p679-682, kcm:p474 |
 | [questions/q0820.md](questions/q0820.md) | question q820 | What does ལྷས་ཚོར་དུས་ཏེ say in ST ch. 81 (img. 363 ll. 3-4)? | answered; cites st:p350-351, mnb:p267, lth:p325 |
 | [questions/q0821.md](questions/q0821.md) | question q821 | ལྡེར་བཟོ་འགུལ (Serthang) or ལྡེར་སོ་འགུལ (Drathang, machine) in ST ch. 81: which is printed, and what is ལྡེར? | answered; cites st:p350-351 |
 | [questions/q0822.md](questions/q0822.md) | question q822 | ཕྱུ in ST ch. 91 «མོ་ཕྱུ་རིམ་གྲོ་རྟེན་འབྲེལ»: what is the second of the four remedies? | answered; cites st:p493 |
