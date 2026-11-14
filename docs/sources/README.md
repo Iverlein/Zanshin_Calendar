@@ -1477,7 +1477,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 30 passages: 24 scan, 6 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 31 passages: 24 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
@@ -2111,7 +2111,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | answered; cites wb.1:p205 |
 | [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
 | [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | open; cites wb.1:p41 |
-| [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | open; cites wb.1:p24 |
+| [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | answered; cites wb.1:p24 |
 | [questions/q0781.md](questions/q0781.md) | question q781 | Ch. 3 p. 23 line 12: Nāgārjuna's year prints (༧༡༦༧) and (༢༩༤) | answered; cites wb.1:p23 |
 | [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | answered; cites wb.1:p24 |
 | [questions/q0783.md](questions/q0783.md) | question q783 | Ch. 3 p. 27 line 26: the stack in «བིགས» | open; cites wb.1:p27 |
@@ -2119,7 +2119,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | answered; cites mdz:p11, mdz:i772010 |
 | [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11 |
 | [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | answered; cites skf:p1, skf:p3 |
-| [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | open; cites nip:p1 |
+| [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | answered; cites nip:p1 |
 | [questions/q0789.md](questions/q0789.md) | question q789 | In the Four Tantras' ch. 2 line on the boy's dream, is ཡང light or also, and is དག clear or a plural? | answered; cites st:p21, st:p350-351c |
 | [questions/q0790.md](questions/q0790.md) | question q790 | What does ཟ་ཟི in «རྨི་ལམ་ཟ་ཟི་མང» mean in the fever and pestilence chapters? | answered; cites st:p183, st:p218, st:p241 |
 | [questions/q0791.md](questions/q0791.md) | question q791 | What are ལྗོང, ལྕོལ, སྡིག་སྡོམ and ནིའུ་གསིང in ch. 81's dream list, and what does «ལྷས་ཚོར་དུས་ཏེ» say? | answered; cites st:p350-351, st:p350-351c |
