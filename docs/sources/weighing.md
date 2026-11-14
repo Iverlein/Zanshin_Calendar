@@ -551,6 +551,9 @@ the results of ch. 33–34.
 - Tshul khrims rgyal mtshan (vol. 1, pp. 498–499, above): the particular
   case reckoned for the person leads over the general result; his examples
   are a person's own weekdays and mansions. No earth lord.
+  Recorded whole from the etext as [kd.1:p498-499](corpus/kd/v1-almanac.md#kd-1-p498-499)
+  (2026-11-14, rd-kd1); the date's earth lords keep the date's span, not a
+  weight ([kd-date-earth-lords-keep-the-dates-span](claims/kd-date-earth-lords-keep-the-dates-span.md)).
 - Mkhyen rab nor bu's digest (vol. 3, printed p. 730, etext p. 750;
   [yogas.md](yogas.md)): the title of the fifth section lists, in WB's
   order, «འཕྲོད་དང་སྦྱོར་བྱེད་རྟེན་འབྲེལ་ཉི་མ། སྤར་སྨེ་ཚེས་ཀྱི་ས་བདག་ཐེབས་བཟློག་གནམ་སྒོ་དྲང་སྲོང་ཡན་ཀོང་བཅས་ཀྱི་འབྲས་བུ་གསལ་བར་བཏུས་པ»,
