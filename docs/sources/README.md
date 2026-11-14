@@ -1929,12 +1929,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
 | [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | open; cites wb.2:p16 |
 | [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | open; cites wb.2:p165 |
-| [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | open; cites wb.2:p167-168 |
-| [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | open; cites ys.2:i016-017 |
-| [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | open; cites dz:i052-055 |
+| [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | answered; cites wb.2:p167-168, wb.2:p168-169 |
+| [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | answered; cites ys.2:i016-017 |
+| [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | answered; cites dz:i052-055 |
 | [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | answered; cites wb.1:p453-454 |
-| [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | open; cites ys:i513-514 |
-| [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
+| [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | answered; cites ys:i513-514 |
+| [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | answered; cites ys:i497-498 |
 | [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | answered; cites wb.1:p373-375 |
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | narrowed; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | answered; cites sdp:p238-241 |
@@ -1948,11 +1948,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0615.md](questions/q0615.md) | question q615 | «མགོ་མཇུག་ལོག» in the benefits texts | open; cites — |
 | [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | answered; cites — |
 | [questions/q0617.md](questions/q0617.md) | question q617 | «ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ» in the wheel text under Karma Chagme | open; cites — |
-| [questions/q0618.md](questions/q0618.md) | question q618 | The *Nges 'byed bla ma* Longchenpa quotes | open; cites — |
+| [questions/q0618.md](questions/q0618.md) | question q618 | The *Nges 'byed bla ma* Longchenpa quotes | answered; cites — |
 | [questions/q0619.md](questions/q0619.md) | question q619 | «བྱན་ཚང» on pp. 287 and 294 | open; cites wb.2:p287, wb.2:p294 |
 | [questions/q0620.md](questions/q0620.md) | question q620 | «ས་དགའ་མ» on p. 288 | open; cites wb.2:p288 |
 | [questions/q0621.md](questions/q0621.md) | question q621 | «སྨན་གཉིས» and «མ་དགུ» on p. 276 | open; cites wb.2:p276 |
-| [questions/q0622.md](questions/q0622.md) | question q622 | «མཛེས་ཅན་མིན་པའི་མི» on p. 278 | open; cites wb.2:p278 |
+| [questions/q0622.md](questions/q0622.md) | question q622 | «མཛེས་ཅན་མིན་པའི་མི» on p. 278 | answered; cites wb.2:p278 |
 | [questions/q0623.md](questions/q0623.md) | question q623 | Today's paper 高島暦: the 金神's 遊行 as two lists or merged | open; cites — |
 | [questions/q0624.md](questions/q0624.md) | question q624 | The 簠簋内伝's §6–§9: added by the print, or cut by the short copies | open; cites — |
 | [questions/q0625.md](questions/q0625.md) | question q625 | Why the 暦林問答集 §11 adds horses and cattle to the 歳破 | open; cites — |
@@ -2165,8 +2165,6 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0832.md](questions/q0832.md) | question q832 | Rin spungs pa glosses the boy's sign as the mother's «ལུས་ཡང་ཤིང་ཆེ་བ»: is ཆེ་བ the raised right side or a second property of the body? | answered; cites st:p21 |
 | [questions/q0833.md](questions/q0833.md) | question q833 | Is the Svapnohana's fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» absent in the Narthang prints and the Co ne print too, or only in Peking? | answered; cites svo:p271d, svo:p271h |
 | [questions/q0834.md](questions/q0834.md) | question q834 | What is the Sanskrit title of the Svapnohana on the Peking print (img. 315 line 1)? | answered; cites svo:p271d, svo:p271a |
-| [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | open; cites svi:p309-312 |
-| [questions/q0834.md](questions/q0834.md) | question q834 | What is the Sanskrit title of the Svapnohana on the Peking print (img. 315 line 1)? | open; cites svo:p271d |
 | [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | answered; cites svi:p309-312, svi:p310b |
 | [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | open; cites svi:p309-312 |
 | [questions/q0837.md](questions/q0837.md) | question q837 | Which is the third syllable of «ཛ་ཏ་པ/ཀ་ཡི་ཕྲེང་བ» (the jātaka garland)? | answered; cites svi:p309-312, svi:p289-291b |
