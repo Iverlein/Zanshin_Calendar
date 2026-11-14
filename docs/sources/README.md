@@ -1486,6 +1486,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
 | [corpus/ngm/ngm.md](corpus/ngm/ngm.md) | corpus | NGM | 2 passages: 2 etext |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
+| [corpus/nm/nm.md](corpus/nm/nm.md) | corpus | NM | 1 passages: 1 etext |
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
 | [corpus/pk/pk.md](corpus/pk/pk.md) | corpus | PK | 1 passages: 1 machine |
 | [corpus/pl/pl.md](corpus/pl/pl.md) | corpus | PL: the Mchog dga' in the Mongolian dbu can print | 1 passages: 1 machine |

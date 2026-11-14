@@ -2864,28 +2864,32 @@ the text, not about the app.
      instructions" that p. 538 says is "to be written separately" exist
      among Mipham's works, and does it say how a reckoning is condensed?
      [verdicts.md](verdicts.md), "Mipham's notes on condensing" (RD26).
-203. **«ཁོན་སར» (WB vol. 1, ch. 26, p. 472, img. 482, l. 2).**
+203. **Answered 2026-11-14 (inv-tt).** **«ཁོན་སར» (WB vol. 1, ch. 26, p. 472, img. 482, l. 2).**
      Between the learned man's and the minister's places on ch. 26's
      board stands «ཁོན་སར»: is «ཁོན» the trigram khon, the father's or
      master's place, or a person's title? [verdicts.md](verdicts.md),
      "Whose aspect, which part of life, and the reckonings with each
      other" (RD24).
-204. **«མི་ཚན» (WB vol. 1, ch. 26, p. 472, l. 1).**
+     *Answered 2026-11-14 (inv-tt): neither the trigram nor a title as such; «ཁོན» stands for «བོན», the Bon priest of WB's point 4 ([claims/thirty-bon-mi-chen-places.md](claims/thirty-bon-mi-chen-places.md)). The same two lines stand in the *Kun 'dus chen mo* (MW28845, the *Garland*) as «ཡོན་ཏན་མཁན་དང་མི་ཆེན་སར། རྡེལ་ནག་གྱུར་ན་རླུང་རྟ་བསྐྱེད། བོན་སར་ནག་ནི་གསས་མཁར་བརྩིག»; BDRC's phrase search for «བོན་སར་ནག་ནི་གསས་མཁར» finds that one carrier, and the Do shal (MW2PD17386, search-only, Wylie snippet) has the same couplet as «mi chen sar … bon sar nag na gsas mkhar brtsig»: two carriers read «བོན», both WB prints (1996 and Gser thang) «ཁོན». The trigram has no place in a list of persons. That the WB print's first letter is ཁ is a scan fact (the reprint at 3×), not a doubt of the word.*
+204. **Answered 2026-11-14 (inv-tt).** **«མི་ཚན» (WB vol. 1, ch. 26, p. 472, l. 1).**
      «མི་ཚན», beside the learned man on ch. 26's board: the head of a
      family line, a household, or a group of people?
      [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
      the reckonings with each other" (RD24).
+     *Answered 2026-11-14 (inv-tt): «མི་ཆེན», the great man; «མི་ཚན» is a slip of ཚ for ཆ ([claims/thirty-bon-mi-chen-places.md](claims/thirty-bon-mi-chen-places.md)). New witness: BDRC's phrase search «ཡོན་ཏན་མཁན་དང་མི་ཆེན་སར» finds the *Kun 'dus chen mo* (MW28845) and the Do shal (MW2PD17386) with «མི་ཆེན», and «ཡོན་ཏན་མཁན་དང་མི་ཚན་སར» finds only the 1996 print and the Gser thang reprint of WB; «mi tshan» in the dictionaries is a monastery's section (Rangjung Yeshe, Ives Waldo, Tshig mdzod chen mo), which no board of laymen asks for.*
 205. **«ཀླུང་གི་དུར་ཕུགས» (WB vol. 1, p. 335, img. 345).**
      The luck's tomb and its "depth" or "end" (ཕུགས, phugs): a stage of
      the luck's rise and decline, or the luck's tomb year?
      [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
      the reckonings with each other" (RD24).
-206. **«ལོ་རྟ» and «སྣང་པར་བཤད» (WB vol. 1, p. 391, img. 401).**
+     *Narrowed 2026-11-14 (inv-tt): the word is «ཕུགས» in every carrier; BDRC's phrase search «ཀླུང་གི་དུར» finds the Beijing 1996 etext («dur phugs»), the Sakya Centre print (MW1KG12714, «dur phugs») and the Gser thang etext (an OCR «thugs»), and the other two hits (MW1PD53748, MW25215) are the medicine plant «klung gi dur byid», another word. Steinert's dictionaries give «phugs» as the far end, the long term, the ultimate (Tshig mdzod chen mo: «dus gtan nam yun ring po»; Dag tshig gsar bsgrigs: the end, the future; Hopkins: deep, innermost; Ives Waldo: long-term, ultimate), none as a stage of rise and decline; so «དུར་ཕུགས» is the tomb's far end or lasting result, near the second alternative ([claims/wb-luck-dur-phugs-variant.md](claims/wb-luck-dur-phugs-variant.md)). No text glosses the compound, and no headword «dur phugs» is in the 64 dictionaries.*
+206. **Answered 2026-11-14 (inv-tt).** **«ལོ་རྟ» and «སྣང་པར་བཤད» (WB vol. 1, p. 391, img. 401).**
      Among the harsh years («དུར་གཤེད་རྩུབ་པའི་ལོ་རྟ་རྣམས»), is «ལོ་རྟ»
      "years" with «རྟ» as in «ལོ་རྟ», or a horse of the year; and is
      «སྣང་པར་བཤད» "told as they appear" or "told in the *Snang*"?
      [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
      the reckonings with each other" (RD24).
+     *Answered 2026-11-14 (inv-tt): «ལོ་རྟ» is the years as counted, «སྣང་པར་བཤད» "told as they appear" ([claims/wb-rough-years-lo-rta-snang-par.md](claims/wb-rough-years-lo-rta-snang-par.md)). BDRC's phrase search «རྩུབ་བདུན་འདི་ནི་སྣང་པར་བཤད» 2 hits, WB's 1996 print and Gser thang reprint only: no work called *Snang* is cited, and the lines after it (the rough ones coming on the year, month, day and hour) continue the plain reading. «lo rta» is no headword in the 64 dictionaries; its sense stands on WB's own uses in the claim.*
 207. **The birth against the year of age for one year (WB vol. 1, p. 335).**
      Does any of WB's readers state which verdict stands when the birth
      reckoning and the year of age disagree for one year (a good birth
@@ -2904,14 +2908,16 @@ the text, not about the app.
      (Printed «སྐར» on the 1996 print, the Gser thang reprint and the
      Zhol print.) [verdicts.md](verdicts.md), "The marriage match
      concluded" (RD21).
-209. **A match of mixed kinds (WB vol. 1, p. 355; the notes, vol. 2, p. 524).**
+     *Narrowed 2026-11-14 (inv-tt): first half answered, [claims/wb-skar-bras-spyi-sdom-counts.md](claims/wb-skar-bras-spyi-sdom-counts.md): «སྤྱི་སྡོམ» heads the counts of pebbles that follow (thirteen in the root, from the *Clear Lamp*), not a second conclusion; Steinert's dictionaries give «spyi sdom» as a general summary or contents (Jim Valby, 84000 Dictionary) and a heading over the lines to come (Sgom sde Tshig mdzod chen mo: what is abridged under it is shown further on). BDRC's phrase search «སྐར་འབྲས་སྤྱི་སྡོམ» 0 hits in any text, WB's lines not even found as a string; «སྐར་འབྲས» is no headword. Whether «སྐར་འབྲས» is the results of the planets and mansions (points 14-15) or the whole match's stays unglossed.*
+209. **Answered 2026-11-14 (inv-tt).** **A match of mixed kinds (WB vol. 1, p. 355; the notes, vol. 2, p. 524).**
      When the four aspects fall into different kinds (the life force a
      spouse of karma, the power a spouse of enmity), what is the couple
      called? WB names a whole only for all four of karma; the notes say
      to look at good and bad "in general". Does any reckoner give a rule
      for the mixed case, or is it left to the reckoner?
      [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
-210. **The karma reckoning over the match (the notes, vol. 2, pp. 524, 526).**
+     *Answered 2026-11-14 (inv-tt): no source names the mixed couple, and the rule is aspect by aspect ([claims/match-kinds-in-general.md](claims/match-kinds-in-general.md), [claims/wb-mixed-kinds-other-manuals.md](claims/wb-mixed-kinds-other-manuals.md)). One more place gives a rule for when the aspects clash: NM (the Sakya *'Bras rtsis rab gsal nor bu'i me long*, printed p. 111, [nm:p111](corpus/nm/nm.md#nm-p111), etext only) lists the same three kinds for the wife's side and the husband's («ལས་ཀྱི་ཁྱོ་ཕོ», «གཉེན་གྱི་ཁྱོ», «དགྲའི་ཁྱོ») and quotes the *Dum khrig*: when they disagree, in the life force and luck the husband wins, in the body and power the wife; an enemy-and-slayer meeting then does no harm. That is the *gi gong* match of its own system, not WB's, and its last line is read from the etext only.*
+210. **Answered 2026-11-14 (inv-tt).** **The karma reckoning over the match (the notes, vol. 2, pp. 524, 526).**
      Is the notes' «ལས་རྩིས», the karma reckoning that overrules a good
      match, WB's ch. 22, the reckoning of lives and karma
      (ཚེ་རབས་ལས་རྩིས, tshe rabs las rtsis), made for each spouse, and
@@ -2920,6 +2926,7 @@ the text, not about the app.
      marriage match concluded" (RD21).
      *Mostly answered 2026-10-23 (RD42, [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md)): «ལས་རྩིས» names the notes' section on ch. 22 (opening p. 474, closing p. 489), and p. 526 says "as in the section of the karma reckoning": the karma reckoning over the match is each spouse's own birth reckoning; which of its findings make an aspect bad is question 355.*
      *Narrowed 2026-10-25 ([claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md), [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md)): an aspect is bad when its block's verdict on the hundred is black, as Mipham's notes on the birth define decline (wb.2:p483) and WB's black readings of the four aspects' own pebbles match p. 364's words (wb.1:p329-331); "the reckoning bad in general" is WB's verdict on the whole birth (wb.1:p349), the regent's one verdict pebble of reply 111. A reading, not stated of the match; questions 355, 388, 392, 393 and 396.*
+     *Answered 2026-11-14 (inv-tt): the karma reckoning over the match is each spouse's own reckoning of ch. 22 (the notes' first section, pp. 474-489), and the words of WB p. 364 are glossed aspect by aspect (the table in [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md)); an aspect is bad when its block's verdict on the hundred is black ([claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md)). What is left, which findings make the block black, is questions 355, 388, 392, 393 and 396, not this one.*
 211. **Answered 2026-11-14 (inv-nn).** **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
      The in-laws, «གནས་སྐྱུག» or «གནས་སྒྱུག»? The Gser thang reprint's
      stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And
