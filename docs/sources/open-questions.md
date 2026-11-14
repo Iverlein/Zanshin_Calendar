@@ -2622,6 +2622,7 @@ the text, not about the app.
      *Narrowed 2026-10-20 (O18, [verdicts.md](verdicts.md), "D16: the Moonbeams"): the Moonbeams gives the year of age no readings, and reads a half only for the dead's rebirth (a human birth); it keeps a half, one pebble, apart from "white and black, two" (f. 29a). Question 190.*
 
     *RD174 (2026-11-06): 'speckled' (ཁྲ་བོ) readings exist only in LT's thirteen-place board, the dead's rites (UT and the notes) and the illness reckoning, not for the year of age; dead end unchanged.*
+     *Same question as 191, answered with it 2026-11-14 (inv-zz): WB itself gives the year of age's predictive pebbles white and black only and no text of WB or the notes reads a speckled one (RD174 stands); the two manuals that read the tie both give it the "white and black, two" reading (see 191). The question is answered as far as the sources go, by the manuals and not by WB.*
 173. **«ཁ་སྦྲང» and «ངོ་ཐེག» (WB vol. 1, ch. 24, p. 381, img. 391, l. 2–4).** What
      are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490 reads the second
      as "the place" of a meeting; the dictionaries were not searched for
@@ -2703,11 +2704,13 @@ the text, not about the app.
      difference between Mipham's reading and the *Moonbeams*', or is one of
      the two tables in error? [verdicts.md](verdicts.md), *D16: the worked
      examples* (O17).
+     *Narrowed again 2026-11-14 (inv-zz): not settled; Gyurme Dorje's chart was not read again (archive.org's lent copy, the cells are RD18's). Same family as 192: the son's place. Every text that names it as a place of the count (the notes' table p. 489, the Moonbeams' half, the Clear Mirror's speckled, the Bhutan collection's speckled) fits a place counted for neither colour; only chart 6.2 needs a son counted black, and Dorje states no rule for it in his text (pp. 226-230). The difference is not between Mipham and the Moonbeams, which agree; it lies in the chart, as an error of the chart or of RD18's cells, or in a rule Dorje does not give.*
 187. **«བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར» (WB vol. 1, ch. 24, p. 380, img. 390, l. 25).**
      WB vol. 1, p. 380 (img. 390, l. 25) prints «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»;
      is it «དཀར་ནག་ཟུང་དུ», "white and black as a pair", or does "where
      white, as a pair" mean something else? [verdicts.md](verdicts.md), *D16:
      the worked examples* (O17).
+     *Answered as far as the sources go 2026-11-14 (inv-zz): the sense is «དཀར་ནག་ཟུང་དུ་བོར», white and black laid as a pair. The printed «དཀར་ན་གཟུང་» is that very string of letters with the tsheg moved one letter on (དཀར་ན་གཟུང ↔ དཀར་ནག་ཟུང): ད ཀ ར ན ག ཟ ུ ང in both. Mipham's own Deathless Elixir (p. 798, img. 809) has the same line as «དཀར་གཉིས་བུ་འཕྲད་དཀར་ནག་ཟུང་», the Drukpa Mirror (img. 231), built on WB, «བུ་ལ་དཀར་ནག་ཟུང་ཞིག་བོར», the Zhol print's machine readings «དཀར་ནག་ཟུང»; the illness reckoning (p. 417) lays the son as the same pair. Read word by word «དཀར་ན་གཟུང» means nothing in this place and no searched text has it; four prints (1996, Taikhang, Gser thang, and the Zhol's cursive hand at best doubtful) carry the shifted tsheg, so it is the common source's slip. Question 572 (the Zhol's letters) no longer matters for the sense.*
 188. **A half place in the *Moonbeams*' verdict (DZ f. 21b–22a, img. 046–047).**
      In the *Moonbeams*' year of age (DZ f. 21b–22a, img. 046–047), the son's
      meeting and the breath-taking and womb stages are each "a half"
@@ -2715,6 +2718,7 @@ the text, not about the app.
      white nor black (left out), as weighing toward a tie, or by some other
      rule? The verse says only "counting how many or few the white and black
      are". [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).
+     *Narrowed again 2026-11-14 (inv-zz): not settled, and the same as question 574. The Good Vase (printed pp. 21-22, on the scan) and the Clear Mirror both count "the number of places or starting points" (ངོ་གྲངས) and not the pebbles, more white white, more black black, even speckled (Good Vase) or no rule (Clear Mirror); a half is one place of a mixed value, and none of the manuals says whether that place goes to either side, to neither, or makes the tie. The one fact the manuals add: a mixed place cannot be counted by pebbles, since they reject the count by pebbles. Answerable only from a text not yet found; BDRC phrase searches for the Moonbeams' lines found no other.*
 189. **«དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1).**
      Does «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1) mean
      that the verdict pebble is laid as a grade of the scale, "three white",
@@ -2723,6 +2727,7 @@ the text, not about the app.
      Gyurme Dorje translates, that the verdicts are placed on the piles of
      three white, two white and so on? [verdicts.md](verdicts.md), "D16: the
      Moonbeams" (O18).
+     *Answered as far as the sources go 2026-11-14 (inv-zz): both readings come to the same laying. The Good Vase (printed pp. 21-22, on the scan) says what the grades are: the verdict pebble is white or black by the more places of that colour, and its grade is the highest count that falls in the aspect's row: if a three-white stands in that row, the three-white reading is told; if none is more than two, the two-white; one, one (ཁ་དམར་རྡེའུ་དཀར་བ་ན། … རྡེལ་ཚར་དེ་ན་དཀར་གསུམ་ཅན། འདུག་ན་དཀར་གསུམ་འབྲས་བུ་བརྗོད། གཉིས་ལས་མང་བ་མི་འདུག་ན། དཀར་གཉིས་འབྲས་བརྗོད་གཅིག་ལ་གཅིག), and the black the same. So «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» lays the verdict pebble as a grade, three white, two white and so on, and Dorje's "upon the piles of three white, two white" is the same grade seen from the pebbles it stands with; WB's readings of that many white or black (pp. 381-384) are then read. For a tie the Good Vase says: tell the speckled pebble's result (see 191).*
 190. **A reading for a half verdict of the year of age (DZ f. 22b).**
      Does a half verdict of the year of age have a reading of its own? The
      *Moonbeams* reads a half only for the dead's rebirth (a human birth, ff.
@@ -2732,6 +2737,7 @@ the text, not about the app.
      which works are these, and does any of them read it?
      [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).
      *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD27, on the scan): WB vol. 1, pp. 248–249 name the *Clear Lamp*'s root in five topics and commentary in twenty, and give the *Moonbeams*' own counts as the "condensed instructions in six rounds"; the works still to identify are question 223.*
+     *Narrowed again 2026-11-14 (inv-zz): the readings for a half verdict are those of the speckled (see 191, 172): the Good Vase and the Drukpa Mirror give the tie the "white and black, two" reading; the Moonbeams f. 22b only sends to other works, which stay with question 223.*
 191. **The speckled predictive pebble and WB's "white and black, two" (WB vol. 1, pp. 381–385; the *Good Vase*; the Drukpa *Mirror*).**
      Does the year of age's speckled predictive pebble take the decisive
      pebbles' "white and black, two" reading (WB vol. 1, pp. 381–384), as the
@@ -2739,6 +2745,7 @@ the text, not about the app.
      Gentle Protector's Intent* (pp. 227–234) read it, though WB (pp.
      384–385) gives the predictive pebbles white and black readings only?
      [verdicts.md](verdicts.md), "D16: WB, the notes and the manuals" (O19).
+     *Answered as far as the sources go 2026-11-14 (inv-zz), the same question as 172: yes, in the two manuals that read the tie. The Good Vase (printed pp. 21-22, on the scan) closes the verdict rule "when even, tell the result of the speckled pebble" (སྙོམས་ལ་རྡེལ་ཁྲའི་འབྲས་བུ་བརྗོད), and its readings that follow are WB's "white and black, two" ones; the Drukpa Mirror (imgs. 232-239) prints those readings as the speckled verdict's, aspect by aspect. WB (pp. 384-385) and Mipham's notes give a speckled predictive pebble no reading of its own; the Deathless Elixir (img. 810) keeps the counts' readings and applies the power's like to the half. Manuals rank below WB and Mipham, so this is the tradition's reading, not WB's own.*
 192. **The son's place in the year of age: a pair or speckled (WB vol. 1, p. 380; the notes, vol. 2, pp. 490, 495).**
      Mipham's notes lay a son meeting as one speckled pebble in the illness
      reckoning (WB vol. 2, p. 495), while WB lays it as a pair of white and
@@ -2748,6 +2755,7 @@ the text, not about the app.
      year of age's verdict too, counted for neither colour, as Zhechen
      Gyaltsab's *Clear Mirror* (p. 289) lays it? [verdicts.md](verdicts.md),
      "D16: WB, the notes and the manuals" (O19).
+     *Answered as far as the sources go 2026-11-14 (inv-zz): with question 187 settled, WB's place is the pair, white and black, and the notes' "as the root text says" (p. 490) means that pair. The Clear Mirror's speckled (ཁྲ), the Moonbeams' half and Mipham's own pair in the Deathless Elixir are names of the one mixed place, one white and one black; every text that names it counts it for neither colour in the tie-making count, or says nothing (the notes' table, p. 489, fits that; chart 6.2 is question 186).*
 193. **The best of the six bad stages laid half (Mipham's *Deathless Elixir*, p. 798; the *Good Vase*; Zhechen Gyaltsab).**
      Which of the six bad stages are "the best" that Mipham's *Deathless
      Elixir* (p. 798), the *Good Vase* and Zhechen Gyaltsab lay half white
@@ -2755,11 +2763,13 @@ the text, not about the app.
      258) names first among the bad, while the notes on the dead (vol. 2, pp.
      500, 502) lay all six bad black? [verdicts.md](verdicts.md), "D16: WB,
      the notes and the manuals" (O19).
+     *Answered 2026-11-14 (inv-zz): the best of the six bad stages are the breath-taking (དབུགས་ལེན) and the womb (མངལ་གནས). The Moonbeams f. 11b (img. 026, l. 3-4, on the scan) names the order, the two as the best of the bad, decline and illness the middling, death and the tomb the last, and WB (vol. 1, p. 258) lists them first among the bad. The Deathless Elixir, the Good Vase and the Clear Mirror lay their six bad stages "in the order" (best, middling, last: a half, one black, two black) without naming them, and the order they follow is that one. The notes on the dead (vol. 2, pp. 500, 502) lay all six bad black in the reckoning of the dead, a different count from the year of age's; it is not a disagreement about the year of age.*
 194. **The faint letters in the *Deathless Elixir* (I1KG8550 img. 809).**
      What are the faint letters between «ཕྱེད་མ» and «ནག་གཅིག» in Mipham's
      *Deathless Elixir* (I1KG8550 img. 809, last line), a small note
      «དཀར་ནག་གཉིས» or part of the line? [verdicts.md](verdicts.md), "D16: WB,
      the notes and the manuals" (O19).
+     *Scan-bound 2026-11-14 (inv-zz), not settled: I1KG8550 img. 809 (2048 x 315 px, last line, right end) read at 5x. After «ཕྱེད་མ» a gap and a run of small, thin glyph groups (about four, ending in a shape like «གཉིས») stand before «ནག་གཅིག»; the strokes are too fine and broken at this size to read the first syllables, so Yigdzin-1's «དཀར་ནག་གཉིས» is neither confirmed nor refuted. That the groups are smaller than the line's own writing favours a note added to the line.*
 195. **«བསྔོ་རུ་མ་བཏུབ» (WB vol. 1, pp. 419, 423–425).**
      *Answered 2026-11-14 (inv-ll); the notes follow the question.*
      What does «བསྔོ་རུ་མ་བཏུབ» say (WB vol. 1, pp. 419, 424, 425; p. 423 has
