@@ -2028,8 +2028,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0704.md](questions/q0704.md) | question q704 | The planet names of pp. 76–77 and the Fierce three and Peaceful two | open; cites — |
 | [questions/q0705.md](questions/q0705.md) | question q705 | The pairs of houses of the six summarised meanings (pp. 70–71) | open; cites — |
 | [questions/q0706.md](questions/q0706.md) | question q706 | «ཀུན་མཁྱེན་རིན་ཆེན་མཚན» and «རྟ་ལྡང / རྟ་ལྗང» of p. 70's homage | open; cites — |
-| [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | open; cites — |
-| [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | open; cites — |
+| [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | answered; cites wb.1:p206 |
+| [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | answered; cites wb.1:p208, wb.1:p209 |
 | [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | narrowed; cites — |
 | [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | open; cites — |
 | [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | answered; cites tmz:box6, wb.1:p207, wb.1:p208 |
