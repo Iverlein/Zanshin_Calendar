@@ -769,7 +769,7 @@ the text, not about the app.
     1981 (I1KG11905, etext p. 223) «གནམ་ལ་སྨེ་བ་གཉིས་ནག་ཤར། །ལོ་ནག་མཆེ་བ་ཅན་ཞེས་ངན། །གསུམ་མཐིང་ལ་ཡང་དེ་དང་མཚུངས།»
     sets both on the year's mewa, as WB's two lines in the same passage do.*
 
-41. **WB's notes vol. 2, p. 534–535 (img. 542–543): the earth lords against the results.**
+41. **Answered as far as the sources go, 2026-11-14. WB's notes vol. 2, p. 534–535 (img. 542–543): the earth lords against the results.**
     Does the tradition weigh an earth lord's prohibition (a work not to be
     done on a seat, in a direction or on a date) against the results of the
     date's factors, and where: with the particular case (*dmigs bsal*), or
@@ -789,6 +789,17 @@ the text, not about the app.
     and the Men-Tsee-Khang almanac bar the lord's place, direction or time
     whatever the day's good, and never set it against the date's results.
     Questions 408–419 follow from it.*
+    *Closed 2026-11-14 (inv-u): the 2026-10-26 finding stands and nothing
+    later in the pool contradicts it. The notes' own page (vol. 2, p. 534,
+    img. 542, 1996 etext read again, not on the scan) counts the fixed earth
+    lords (the 21 and the 9 under the earth, 122 with the rest) as always
+    in their places whatever the year and month, and says to do the
+    screening and mending that fits (སྒྲིབ་བཅོས, ཉམས་བཅོས); p. 535 (img. 543)
+    then names the next head, the particular cases of each work's good and
+    bad («ལས་སོ་སོ་ལ་བཟང་ངན་དམིགས་སུ་བསལ་བའི་རྩིས་རིགས»). So the notes
+    keep the two as separate heads and give no order between them: the
+    earth lords are met by remedy, the *dmigs bsal* belongs to the results
+    of the work, as [weighing.md](weighing.md) has it.*
 
 42. **Answered as far as the sources go, 2026-10-19. WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
     Does it mean the hour's earth lords (the 37) are to be reckoned at the
@@ -1213,6 +1224,18 @@ the text, not about the app.
     each ten in the manuals*): the leap is the common manuals' rule, added
     to WB's own words "one year to a trigram", which WB does not name among
     the errors it rejects (question 139). WB's text gives one a year.*
+    *Searched further 2026-11-14 (inv-u), not settled: two more witnesses
+    state WB's three lines with no leap in the primer and put the leap
+    only in their inner circuit of the obstacle reckoning: the verse
+    manual *Rdel 'grem dpag bsam ljon shing* (Gansu, I4949; the three
+    lines on etext p. 20, «གཡོན་སྐོར་བཅུ་ཁ་མ་ལོང་། །རེ་རེ་ནས་བགྲང་བཅུ་ལོང་ཚེ། །ཐམ་པ་རྣམས་ནི་ཟུར་བཞིར་བརྩི།»
+    on p. 26, machine) and Lha mo tshul khrims (I1KG21886, etext pp. 17
+    and 22). In them the leap belongs to the inner circuit (a li-kham
+    round, of the kind WB's list of errors names), not to the primer's «ལོ་རེ་སྤར་ཁ་རེ». WB's notes
+    (vol. 2, pp. 474-541, etext) say nothing of a leap («བཅུ་ཁ» not found,
+    «མཆོངས» only as another word). No text states the count for the
+    mother's trigram at the birth; the *Moonbeams*' leap and Dorje's
+    example remain the only evidence for the leap there.*
 
 74. **Answered as far as the sources go, 2026-10-19. The father's luck pebble.** WB p. 261 has "whatever the father's
     luck is", the notes p. 474 the father's year, and the *Moonbeams* (KD
@@ -1317,7 +1340,7 @@ the text, not about the app.
     belongs to the Yuthok tradition, but no Yuthok text with the six dates
     was found.*
 
-80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
+80. **Answered as far as the sources go, 2026-11-14. WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
     the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),
     the element that gives birth to the life force's; its la weekdays by
     birth animal (vol. 2, p. 330) mostly carry the life force's own element
@@ -1337,6 +1360,21 @@ the text, not about the app.
     life force's mother "agreeing with the tantras", names the two
     reckonings it keeps apart; the weekdays by birth animal of p. 330 are
     a third table, tied to neither.*
+    *Closed 2026-11-14 (inv-u): they do not go together, and no text says
+    they should. The notes keep the two senses in the places that use them
+    (p. 493 the body's mother, p. 495 the life force's mother, above), and
+    on printed p. 534 (img. 542, 1996 etext, not on the scan) once more
+    name the first: «སྤུག་ལུགས་གེགས་རྩིས་སྐབས་བླ་ནི་ལུས་མའོ།», "in the
+    obstacle reckoning of this school the la is the body's mother". The la
+    weekday of p. 330 belongs to the personal weekdays and mansions, where
+    p. 338 gives the la weekday, like the life-force and power weekdays, a
+    mother, friend, son and enemy of its own, known as for the mansions
+    («བླ་གཟའི་མ་གྲོགས་བུ་དགྲ་རྣམས། །སྐར་མ་བཞིན་དུ་ཤེས་པར་བྱ།»): there
+    the la is one aspect with a weekday, and "mother" is a relation among
+    weekdays and mansions, not the la's being the life force's mother.
+    Dpal bsdus gives the weekday table apart too (above). The notes
+    (vol. 2, pp. 474-541) have no word tying the weekdays to the mother
+    element.*
 
 81. **WB vol. 1, pp. 403, 405: the seven-red's two readings.** When a
     person born under the two-black mewa reaches a year on the seven-red,
@@ -1350,6 +1388,17 @@ the text, not about the app.
     rule between them there either. WB's split (moxa good, bloodletting bad)
     is its rule for Mars's Tuesday in ch. 34 (vol. 2, p. 403), so p. 405 is
     no slip. Which leads is still not stated.*
+    *Searched further 2026-11-14 (inv-u), not settled: WB's notes
+    (vol. 2, pp. 474-541, 1996 etext) have no line on bloodletting or moxa
+    («གཏར», «མེ་བཙའ» not found there); «བདུན་དམར» and «གཉིས་ནག» occur
+    in them only in the birth reckoning (pp. 490, 496, 507). BDRC phrase
+    search «ནག་སྐྱེས་བདུན་དམར་བབས་པ་ན» and «མེ་བཙའ་བཟང་ལ་གཏར་ཁ་ངན»
+    finds only WB's own prints (the 1996 print, the Gser thang reprint, the
+    Zhol print; the medical-collection copy I1KG81102 is search only, no
+    etext); no manual quotes the two-black-born line, and «གཉིས་ནག་ལ་བདུན་དམར»
+    0 hits. The colour readings (pp. 401-404) and the natal readings
+    (pp. 405-408) are two heads of one chapter; no text says that the
+    natal one, the more specific, leads.*
 
 82. **Answered as far as the sources go, 2026-10-19. WB vol. 1, pp. 253, 271: the turtle's skull.** Ch. 21 glosses the
     first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the
@@ -1483,6 +1532,17 @@ the text, not about the app.
     dbyings stobs ldan rdo rje's *Mdo rgyud rin po che'i mdzod* (MW28955)
     puts it «སྔ་སོར་རང་གི་ཕ་མེས་སོགས་ཤི་དུས་ཀྱི་ལོ་གྲངས་སྤར་སྨེ་སོགས་སུ་སླེབ་ན»: when one comes onto the
     year-of-age trigram and mewa the forefathers had at their death.*
+    *Closed 2026-11-14 (inv-u): the forefathers' own, and the person's
+    own signs coming onto them. Three witnesses agree on whose: WB's
+    «ཕ་མེས་ཤི་བའི་སྲི་དུས་ལ། །སྤར་སྨེ་ཕྱི་གཟའ་ལོ་གྲངས་སླེབས», the
+    notes' gloss «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན་ཡིན་ནོ» (trigram, mewa
+    and progressed sign of the forefathers' time of death; WB names the
+    three, Klong chen the trigram and mewa) and Klong chen's «ཤི་དུས་ཀྱི་
+    ལོ་གྲངས་སྤར་སྨེ». No text gives the other reading, the signs of
+    the death year reckoned for the person. The reckoning therefore needs
+    the forefather's birth and death years (his age at death), as the other
+    obstacles need others' dates. No text glosses «ལོ་གྲངས་སླེབས» word
+    for word; Klong chen gives the reading in passing.*
 
 91. **The secret obstacle's «མ་སྤར».** The secret obstacle (WB vol. 1, p.
     390): «གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི།
