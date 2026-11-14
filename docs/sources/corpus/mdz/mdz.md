@@ -553,6 +553,15 @@ The cells marked 〔一部〕 in the Japanese text are read in part: the directi
 
 Title, preface and contents leaves of the Dream-matching jewel of long life (夢合長寿宝), enlarged and newly cut, complete; compiled by Sekisui Chinjin (積翠陳人), issued by the Tokyo shop Bunkeido (文溪堂); the preface is dated the early winter day of the metal-pig year, Kaei 4 (1851), signed Kinsui Sanjin (金水山人). The contents leaf (image 3, read at 5000 px) lists the articles by heading ("heaven and earth", "human relations", and so on) as "one if one sees X"; the headings name things dreamed of (sun and moon, clouds, mountain, sea, river, gods and buddhas, living things), and the contents' last line, read in part, speaks of bad dreams. Image 33 carries an advertisement leaf of the publisher Chojiya Heibei. No heading of the contents, and no leaf of the 34 images, is a table of months or a title with 語らず or 夢見て.
 
+## <a id="mdz-i772010"></a>mdz:i772010 拾芥抄 下 (故実叢書 1906), image 73: 不語夢日, the Heian-Kamakura table of days a dream is not told, in two-column notes
+
+*Read: machine, 2026-11-14.*
+
+> 不語夢日　件日語吉夢、滅成惡夢凶也
+> 正(月)未申/戌　二(月)巳申/亥酉　三(月)甲戌/酉　四(月)未亥/卯　五(月)子午/亥卯　六(月)子丑/午亥　七(月)辰子/卯丑　八(月)・九(月)(not read letter by letter)　十(月)辰巳　十一(月)申戌/未　十二(月)午未/亥
+
+Shugaisho (拾芥抄) vol. 下, Kojitsu sosho edition (Yoshikawa Kobunkan, Meiji 39 = 1906; NDL pid 772010, open), image 73, printed page 394, in the calendar section after the entry 裁竹日: the entry 不語夢日 (the days on which a dream is not told). Its note: 件日語吉夢、滅成悪夢凶也, "on those days, a good dream that is told is destroyed, and a bad dream becomes an evil one (comes to pass)" (the construction is read in outline). It is followed by the twelve months, each cell set as a two-column small note (right column, then left column), the same shape as the cells of mdz:p11. Read in outline on the image (right column / left column): month 1 未申 / 戌 (the same set as the 万代's ひつじ さる／いぬ, same grouping); 10 辰 巳 (as the 万代's たつ／ミ); 12 午未 / 亥 (as ひつじ むま／ゐ). The other cells share most of their branches with the 万代 cells but not all (for instance month 2 here has 巳申 / 亥酉, the 万代 とり さる／ミ; month 6 here 子丑 / 午亥, the 万代 ね うし／ゐ; month 3 here reads 甲戌 / 酉, the 万代 ひつじ むま／ゐ), so the Edo table is a descendant of this note, not a copy; months 8 and 9 were not read letter by letter. The print has no legend for the two columns. Same text in the 略要抄 (NDL pid 898152, image 88, 1906), by the NDL OCR only.
+
 ## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
 
 *Read: by eye on the page images 3 and 33, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*

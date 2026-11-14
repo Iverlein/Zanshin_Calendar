@@ -868,6 +868,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/secret-obstacle-ma-spar-by-cycle.md](claims/secret-obstacle-ma-spar-by-cycle.md) | claim, note | The secret obstacle's mother trigram: li for an earth own trigram, kham for a wood one, by the generating cycle | cites wb.1:p390, wb.1:p256; feeds — |
 | [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
+| [claims/shugaisho-fugomu-nichi-is-source-of-not-told-days.md](claims/shugaisho-fugomu-nichi-is-source-of-not-told-days.md) | claim, note | The table of undreamt days descends from the 拾芥抄's 不語夢日, which gives the reason; the slash is a column break | cites mdz:i772010, mdz:p11, mdz:i234427b; feeds S3 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md](claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md) | claim, note | Sixteen half-watches: Śaṅku's Garuḍa treatise and the Kālacakra's great commentary (RD326) | cites svo:p271y; feeds block-73 |
 | [claims/skd-brahmavaivarta-series-second-print.md](claims/skd-brahmavaivarta-series-second-print.md) | claim, note | The Śabdakalpadruma prints the Brahmavaivarta's series of spans on p. 470, with two lines the other print lacks (RD272) | cites skd:p470-471, bvp:p662-665, svo:p268; feeds block-73 |
@@ -1473,7 +1474,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 28 passages: 24 scan, 4 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 29 passages: 24 scan, 5 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
@@ -2111,7 +2112,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | answered; cites wb.1:p24 |
 | [questions/q0783.md](questions/q0783.md) | question q783 | Ch. 3 p. 27 line 26: the stack in «བིགས» | open; cites wb.1:p27 |
 | [questions/q0784.md](questions/q0784.md) | question q784 | Written sources on reading dreams, and whether any ties them to the calendar | answered; cites wb.2:p144, wb.2:p144e |
-| [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | open; cites mdz:p11 |
+| [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | answered; cites mdz:p11, mdz:i772010 |
 | [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11 |
 | [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | answered; cites skf:p1, skf:p3 |
 | [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | open; cites nip:p1 |
