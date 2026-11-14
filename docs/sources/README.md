@@ -240,6 +240,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/circles-zg-worked.md](claims/circles-zg-worked.md) | claim, rule | The circles: the count and the five pebbles, worked by Zhechen Gyaltsab | cites zg:p303-304, lt:p65-67, wb.2:p533b, ut:p4; feeds block-31 |
 | [claims/cited-texts-no-watch-or-day.md](claims/cited-texts-no-watch-or-day.md) | claim, table | None of the five cited texts names a watch of the night or a day for the dream; what each names as a remedy (RD373) | cites snr:p367-371, sct:p295-297, vjv:p230-231, mmb:p155-156, nbv:p273-274, trt:p418-419; feeds — |
 | [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
+| [claims/clear-lamp-root-five-topics.md](claims/clear-lamp-root-five-topics.md) | claim, list | The five topics of the Clear Lamp's root are its five roots, earth-examination the fourth | cites kd.1:p643-646, wb.1:p249; feeds — |
 | [claims/daizassho-tokygk-no-dream-table-seen.md](claims/daizassho-tokygk-no-dream-table-seen.md) | claim, note | The two Tokyo Gakugei Daizassho prints (1780, 1828) show no day table for a dream on the sheets | cites mdz:i100408974; feeds S4 |
 | [claims/dbyangs-char-dream-verses-prints-agree-against-the-derge-etext.md](claims/dbyangs-char-dream-verses-prints-agree-against-the-derge-etext.md) | claim, conflict | The Narthang and Peking prints agree against the Derge etext at the dream verses: fire, not «absent», and the red things' dream as «rmi ba» | cites dyc:p121-122, dyc:i121-122, dycn:i127-128, dycp:i119-120, dycg:i176-178; feeds block-73 |
 | [claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md](claims/dbyangs-char-half-watch-verse-and-the-eight-planet-naga-pairs.md) | claim, note | The Dbyangs 'char's half-watch verse in the 'Bri lugs bang mdzod and the eight planet-nāga pairs in the later books (RD326) | cites svo:p271w, svo:p271x; feeds block-73 |
@@ -1048,6 +1049,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-subjects-horses-whose-year.md](claims/thirty-subjects-horses-whose-year.md) | claim, rule | Whose year for the thirty's subjects and horses | cites ys:i494-496, ys:i496, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-te-khyim-earth-lord.md](claims/thirty-te-khyim-earth-lord.md) | claim, definition | «ཐེ་ཁྱིམ་བཙུན་མོ» is the earth lord te khyim, the te se's chief wife | cites wb.1:p462, kd.3:p538, kd.3:p644; feeds block-31 |
+| [claims/thirty-wb-13-14-order-in-commentaries.md](claims/thirty-wb-13-14-order-in-commentaries.md) | claim, note | Commentaries and other WB etexts keep WB's Tibetan thirteenth and fourteenth pairs, not the Moonbeams' order | cites wb.1:p453-454, dz:i029-034; feeds block-31 |
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/thun-eight-watches-of-the-day-and-night-in-hevajra-kalacakra-books.md](claims/thun-eight-watches-of-the-day-and-night-in-hevajra-kalacakra-books.md) | claim, rule | The Hevajra and Kālacakra books count eight equal watches to the day-and-night, four by night | cites svo:p271o, wb.1:p135b, wb.2:p403b, wb.1:p101b; feeds block-73 |
 | [claims/thun-gsum-is-triyama-in-negi-and-synonym-lexica.md](claims/thun-gsum-is-triyama-in-negi-and-synonym-lexica.md) | claim, note | Negi: thun gsum is the Sanskrit triyāmā, the night (RD322, q941) | cites svo:p271q; feeds block-73 |
@@ -1436,7 +1438,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 9 passages: 5 machine, 4 etext |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
-| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 21 passages: 21 etext |
+| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 22 passages: 22 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 15 passages: 7 scan, 1 machine, 7 etext |
@@ -1960,7 +1962,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0639.md](questions/q0639.md) | question q639 | The Zhol print's wavy marks against Mipham's counts, p. 517 | open; cites wb.2:p517 |
 | [questions/q0640.md](questions/q0640.md) | question q640 | «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» | open; cites — |
 | [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | answered; cites — |
-| [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
+| [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | answered; cites pk:i383-385 |
 | [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | answered; cites wb.2:p370 |
 | [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | answered; cites wb.2:p360-361 |
 | [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
