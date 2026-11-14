@@ -1517,7 +1517,7 @@ the text, not about the app.
     2026-10-19.*
 
 
-90. **The forefathers' tomb obstacle.** The forefathers' tomb obstacle (WB
+90. **Answered as far as the sources go, 2026-11-14. The forefathers' tomb obstacle.** The forefathers' tomb obstacle (WB
     vol. 1, p. 390): «ཕ་མེས་ཤི་བའི་སྲི་དུས་ལ།
     །སྤར་སྨེ་ཕྱི་གཟའ་ལོ་གྲངས་སླེབས།». The notes (vol. 2, p. 492) gloss it
     «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན», "the trigram, mewa and progressed
