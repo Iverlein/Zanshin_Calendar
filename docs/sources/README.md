@@ -602,6 +602,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kd-almanac-month-head-gives-skipped-and-doubled-dates-by-both-reckonings.md](claims/kd-almanac-month-head-gives-skipped-and-doubled-dates-by-both-reckonings.md) | claim, note | The month head gives the skipped and doubled dates of both the Phugpa and the Dpal ldan reckonings | cites kd.1:p493b, kd.1:p496-498; feeds model-almanac |
 | [claims/kd-chinese-title.md](claims/kd-chinese-title.md) | claim, note | KD's Chinese title is 藏传历算学大全, by a compilers' group; no 西藏天文历算总汇 | cites kd.5:i812-813; feeds block-58 |
 | [claims/kd-date-earth-lords-keep-the-dates-span.md](claims/kd-date-earth-lords-keep-the-dates-span.md) | claim, rule | The date's earth lords keep the date's span: they change when the date changes | cites kd.1:p496-498, kd.1:p495; feeds T2.26 |
+| [claims/kd-digest-28-meetings-against-wb.md](claims/kd-digest-28-meetings-against-wb.md) | claim, note | KD's digest of the 28 meetings: WB's lines, five of them in other words | cites kd.3:p731-732, wb.2:p331-333; feeds — |
+| [claims/kd-digest-date-earth-lords-order.md](claims/kd-digest-date-earth-lords-order.md) | claim, list | KD's digest orders the date's earth lords by what they spoil and names the run the earth lords of the date | cites kd.3:p738-740, wb.2:p360-363; feeds — |
+| [claims/kd-digest-lto-phye-figure-measure.md](claims/kd-digest-lto-phye-figure-measure.md) | claim, note | KD's digest: Lto-'phye's figure ten mtho, nine small parts to a great part, 360 cells | cites kd.3:p743-745, wb.2:p280, wb.2:p282; feeds — |
+| [claims/kd-digest-sky-door-kinds-and-thebs-bzlog.md](claims/kd-digest-sky-door-kinds-and-thebs-bzlog.md) | claim, list | KD's digest: the ten sky doors in WB's order with a consequence each, and the thebs bzlog | cites kd.3:p740-741, wb.2:p365-368; feeds — |
+| [claims/kd-digest-yoga-hours-and-weight.md](claims/kd-digest-yoga-hours-and-weight.md) | claim, note | KD's digest: the nine bad yogas, their hours to avoid, and the weight of the meetings | cites kd.3:p733; feeds — |
 | [claims/kd-four-malicious-earth-lords-of-duhar-nagpo.md](claims/kd-four-malicious-earth-lords-of-duhar-nagpo.md) | claim, note | Duhar Nagpo's four malicious earth lords: sky dog, hal khyi, Seshar and the bride's sister | cites kd.1:p641-642, kd.1:p643-646; feeds T2.26 |
 | [claims/kd-meadow-sheet-not-reproduced.md](claims/kd-meadow-sheet-not-reproduced.md) | claim, note | KD's meadow sheet: the first group reproduced, the other three not | cites kd.3:p723, kd.3:p723b, wb.2:p533-534; feeds — |
 | [claims/kd-nag-rtsis-dream-lines-seven-wb-lines.md](claims/kd-nag-rtsis-dream-lines-seven-wb-lines.md) | claim, list | The seven dream lines of the Nag rtsis part of Kun 'dus vol. 3 are WB's lines: each tied to the birth, the pebbles, the hour's element or the illness, none to a date | cites kd.3:p564, kd.3:p588-589, kd.3:p597, kd.3:p647-648, kd.3:p650, kd.3:p699, kd.3:p701, wb.1:p428-429, wb.1:p428b, wb.1:p431, wb.2:p157-161; feeds S1 |
@@ -1457,7 +1462,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 9 passages: 5 machine, 4 etext |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
-| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 26 passages: 26 etext |
+| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 37 passages: 37 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 7 passages: 7 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 15 passages: 7 scan, 1 machine, 7 etext |

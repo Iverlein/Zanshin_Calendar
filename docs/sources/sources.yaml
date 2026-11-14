@@ -133,7 +133,7 @@ kd:
   volumes:
     1: {etext: VEIE0OPI2F246A26_I4715, etext_offset: 16, loan_leaf_offset: 16, notes: "Tshul khrims rgyal mtshan's weighing at pp. 498–499; printed page = etext page − 16 at p. 498; rd-kd1 2026-11-14: pp. 493–499, 510, 641–642 recorded (etext), the rest of pp. 493–646 searched by terms (PLAN.md)"}
     2: {loan_file: bdrc-W28845-1, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 223–315"}
-    3: {etext: VEIE0OPI2F246A26_I4717, etext_offset: 20, loan_file: bdrc-W28845-2, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 716–719; Mkhyen rab nor bu's digest of WB's fifth section from p. 730; DZ at etext pp. 506–536; PL at etext pp. 21–505"}
+    3: {etext: VEIE0OPI2F246A26_I4717, etext_offset: 20, loan_file: bdrc-W28845-2, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 716–719; Mkhyen rab nor bu's digest of WB's fifth section pp. 730–741 and the Lto-'phye sheet with the ground-rite pp. 743–750 recorded (etext, rd-kd3 2026-11-14); DZ at etext pp. 506–536; PL at etext pp. 21–505"}
     4: {loan_file: bdrc-W28845-3, notes: "not opened"}
     5: {loan_file: bdrc-W28845-4, loan_leaf_offset: 0, notes: "814 leaves; leaf 812 the Tibetan colophon, leaf 813 the Chinese one; the title leaf (3) and the front leaves are the same in every volume"}
 
