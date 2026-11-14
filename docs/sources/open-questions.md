@@ -2940,19 +2940,23 @@ the text, not about the app.
      black one for great, and is that the order «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང»
      means? [verdicts.md](verdicts.md), "The verdicts of the dead, the
      thirty, the circles and the moment" (RD23).
-213. **The trigram's three rites (WB vol. 2, pp. 104–105; the notes, p. 517).**
+213. **Answered 2026-11-14 (inv-xx).** **The trigram's three rites (WB vol. 2, pp. 104–105; the notes, p. 517).**
      Do the white, speckled and black rites of each trigram
      («གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག») answer the colour of the thirteenth
      point's verdict, or are they three pebbles judged one by one, as
      the notes count them («གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི»)?
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
-214. **Fourteen or fifteen remedies (the notes, vol. 2, p. 517, ll. 6–8).**
+     *Answered 2026-11-14 (inv-xx; read and counted). The notes' «གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི» is a count of small remedy pebbles: the white, black and speckled rites are three items of the trigram's fourteen, each reckoned by itself. WB's own heading of the thirteenth examination (vol. 2, pp. 104–105) lists them as separate means in a row, «དཀྱུས་བཅོས་ཐེམ་བུ་དུར་བཅག་ལུགས། … གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག་དང་། གལ་འགག་ཨུར་མནན», beside the ordinary remedy, the slip and the pressing-down, and each trigram's passage (li, khon, read) gives all three with no condition of colour. So they do not answer the colour of the thirteenth point's verdict; no sentence on these pages picks one rite by it (a negative, checked on the pool's passages [wb.2:p104-105](corpus/wb/ch29-rites.md#wb-2-p104-105) and [wb.2:p517](corpus/wb/notes-4.md#wb-2-p517); the other six trigrams' passages were not re-read). BDRC phrase search «གཏོ་དཀར་ནག་ཁྲ་གསུམ» 9 hits, the White Beryl's prints and handbooks only, none glossing the phrase.*
+
+214. **Answered 2026-11-14 (inv-xx).** **Fourteen or fifteen remedies (the notes, vol. 2, p. 517, ll. 6–8).**
      The notes count the trigram's remedies of the thirteenth point
      fourteen and then fifteen in one line («སྤར་བཅོས་བཅུ་བཞི» …
      «བཅོ་ལྔའོ»), WB fourteen (p. 50): which is the count, and what is
      the fifteenth? [verdicts.md](verdicts.md), "The verdicts of the
      dead, the thirty, the circles and the moment" (RD23).
+     *Answered 2026-11-14 (inv-xx; counted). The count is fourteen. The notes' thirteen classes of remedy are counted in a line that closes at 202 (the pebbles of the remedies) and 227 with the 25 result pebbles (11 roots, 13 verdicts, one deciding; 202 + 25 = 227): the twelve numbers 14 (trigram), 10, 24, 6, 9, 20, 13, 30, 8, 27, 17, 24 sum to 202, and so does 15 with 5, but never 15 with 6; the fourth number is six in WB (p. 51, «རྒྱ་ཡི་སྤུད་དྲུག») and the notes give the «རྒྱུག» as six too (their nine «སྤུད་པ»: four executioners, zin and entering the grave two, kung kung three, 4 + 2 + 3 = 9, would give 211 if added to the six), so the class that takes the 5 or 6 is that one. So the trigram class is fourteen in the sum, as in WB (p. 50, «སྤར་བཅོས་ལ་བཅུ་བཞི») and at the head of the notes' sentence. The fifteenth is not a member of that sum, so it is not a fifteenth remedy of the class; it is most probably the class's own verdict pebble (the notes count a verdict with a class by «བཅས»: «ཁ་དམར་བཅས་བཅུ་གཉིས» for the roots, and the total gives each of the thirteen classes a verdict outside the 202), 8 + 6 + 1 = 15; that is an inference from the totals, not a sentence, and the paper-roll and its remedy as two items (8 + 7) is the other way to reach it. Question 576 keeps this half. BDRC phrase search «སྤར་བཅོས་བཅུ་བཞི» 1 hit (the White Beryl's 1996 print only).*
+
 215. **«རྡེལ་ཁྲ» in the twenty-fifth starting point (WB vol. 1, p. 468).**
      «རྡེལ་ཁྲ་ས་བདག་འཁྲུགས་གཏོ་བྱ»: is "the pebbles speckled" a reading
      of the whole board of eight, beside "all the pebbles black", or of
@@ -2960,7 +2964,7 @@ the text, not about the app.
      they differ? [verdicts.md](verdicts.md), "The verdicts of the dead,
      the thirty, the circles and the moment" (RD23).
      *Narrowed 2026-10-25 (RD54, [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md)): the scan reads «རྡེལ་ཁྲ» (Yigdzin-1 «རྡེའུ་ཁྲ»); with the next line's «རྡེའུ་ཐམས་ཅད་ནག» it matches the 26th point's speckled and black kinds, so it reads as the mixed board of the eight checks against the all-black board, not only the seventh check's pair: likely, not proved.*
-216. **The meadow's ornament's five verdicts (WB vol. 2, p. 22).**
+216. **Answered 2026-11-14 (inv-xx).** **The meadow's ornament's five verdicts (WB vol. 2, p. 22).**
      Are the five verdicts of each twenty-five one for each aspect (life
      force, body, power, luck, mewa) over the five years, or one for
      each year over the five aspects? [verdicts.md](verdicts.md), "The
@@ -2968,6 +2972,8 @@ the text, not about the app.
      (RD23).
      *Narrowed 2026-10-22 ([corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md#kd-3-p723), on the lent scan): Kun dga' rig 'dzin's worked sheet (KD vol. 3, p. 723) lays each group as one year's own five, life force, body, destiny, luck and mewa, as columns against the reckoned person's five as rows, and one verdict under each column; Mipham's notes (vol. 2, p. 534) take a group's five as the five years of one animal. Which the app follows, and how the verdicts fall under the notes' reading, is open; Mipham ranks above KD (sources rule).*
      *Narrowed 2026-10-25 (RD54, [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md)): Mipham (WB vol. 2, pp. 533–534) calls each group the five of one animal and puts five verdicts after each twenty-five; KD's golden-round sheet (p. 723) has a verdict cell under each of the twenty columns. Both lay one verdict under each of a group's five, not one per aspect of the reckoned person; they differ on what the five are (one year's forces in KD, five of an animal in Mipham, who ranks higher).*
+     *Answered 2026-11-14 (inv-xx; read and counted). One verdict for each aspect-column of the group, not one for each year. WB's group (p. 22) is the five of the sky year (whichever has risen, «གནམ་ལོ་གང་ཤར་རྣམ་ལྔ») fought by the reckoned person's life force, body, power, luck and mewa: 5 × 5 = 25 pebbles and five verdicts; the four groups of the gold year (the sky year, its seventh, its sixth, its fourth executioner), and likewise the turquoise and conch years, are 3 × 4 = 12 groups, 12 × 5 = 60 verdicts, 12 × 25 = 300 pebbles, 300 + 60 = 360, WB's sum. The results are told in five domains, one for each aspect (life force: the adversities of life; body: illness; power: wealth; luck: merit; mewa: gods and demons, «དཀར་ནག་ཁ་དམར་དང་བསྟུན་བརྗོད»), and the *Moonbeams* and Zhechen Gyaltsab gather the verdicts into five totals by those aspects (60 verdicts in the 360, 12 to a domain if all are gathered; the sources do not say which are). Mipham's «ཁྱི་ལྔ», "the five dogs, the fire dog, the wood dog and the rest", names the five of a group by the five elements of one animal, not five different years; no witness lays a verdict for each year. What the five are (one year's own five forces, as in KD's sheet, or Mipham's five of one animal) stays in [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md). BDRC phrase search «སྤང་རྒྱན་ལོ་མ» 9 hits (the White Beryl's prints and handbooks; those of the pool already read).*
+
 217. **Sprugtön's sixteen limbs (WB vol. 2, p. 23).**
      In Sprugtön's reckoning, are the sixteen limbs' pebbles counted
      into the five verdicts of the life force, body, power, luck and la,
@@ -2975,6 +2981,8 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
      *Narrowed 2026-10-25 (RD54, [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md)): the colophon's 75 pebbles = 50 roots + 16 limbs + 5 verdict pebbles + 4 cherished, so the limbs are sixteen pebbles beside the five verdicts, not counted into them; this rests on the sum and the order, no sentence states it, the notes are silent.*
+     *Narrowed 2026-11-14 (inv-xx; counted). The sixteen limbs recount as 16 on the print's own lists: own obstacle, the seventh, the three in accord (one), the fourth executioner, the year's mansion (5); nine-eye, grave-eye, bone-eye (3); mother-luck, entering the nest, the element enemy with «རྩུབ» as its attribute (3); grave obstacle, Chinese arrow, country obstacle, bed obstacle, and the house obstacle with the king's gate blocked as one (5), 5 + 3 + 3 + 5 = 16, and the 75 = 50 + 16 + 5 + 4 holds. In the verse the sixteen limbs and the «ཁ་དམར་རྡེལ་ལྔ་གཅེས་རྡེལ་བཞི» stand as separate entries of one list of what is laid, and the explanation gives the verdict of the five by «སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་པོར» right after the ten roots, before the limbs, so the limbs' «ཁ་དམར་སྤྱི་ལྟར་གདགས» sends their verdict to that general rule; nothing states whether the limbs' black pebbles are then added to the five verdicts' count. Not closed. BDRC phrase search «ཁ་དམར་སྤྱི་ལྟར་གདགས» 3 hits and «ཡན་ལག་བཅུ་དྲུག་འདི་ལྟར་བརྩི» 3, the White Beryl's prints only (Gser thang, Zhol and two other prints); no other text has Sprugtön's reckoning.*
+
 218. **«ཁང་གྲངས» or «རྐང་གྲངས» (WB vol. 2, p. 22, l. 24).**
      «ཁང[?]་གྲངས»: is it «ཁང་གྲངས» or «རྐང་གྲངས», and what are the three
      sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»? [verdicts.md](verdicts.md), "The
@@ -3028,7 +3036,7 @@ the text, not about the app.
      24? [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
      *Narrowed 2026-10-25 (RD54, [claims/dz-five-totals-and-ch27-domains.md](claims/dz-five-totals-and-ch27-domains.md)): the *Moonbeams*' five totals pair aspect and domain as WB ch. 27 does (life, illness, merit, demons and curses match); the third is «ཟ་ཐང» food for the power in DZ and «དབང་ནོར» power and wealth in WB; WB nowhere names a gathering into five totals for ch. 24.*
-226. **The fifth pebble's trigram (WB vol. 1, p. 435, ll. 16–17, img. 445).**
+226. **Answered 2026-11-14 (inv-xx).** **The fifth pebble's trigram (WB vol. 1, p. 435, ll. 16–17, img. 445).**
      «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན»: is the trigram of the fifth pebble "the
      trigram of the date in its own month", and how is the tiger, horse
      and dog "counted on Li" for each of the year, month, day and hour
@@ -3037,7 +3045,9 @@ the text, not about the app.
      that is most" (RD22).
      *Narrowed 2026-10-23 (RD48, [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md#ys-i491)): the regent's reply 133 names the five pebbles as the trigram elements of the year, month, day and hour of falling ill («དེ་བཞིའི་སྤར་ཁམས»), with the commonest element among them the fifth; the notes (p. 497) take the four life-force elements instead (question 389).*
      *Mostly answered 2026-10-25 (question 389, [claims/illness-first-four-pebbles-life-force.md](claims/illness-first-four-pebbles-life-force.md), [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md)): every print, the Zhol and Taikhang blocks on the scan, carves the line as the 1996 print; the first four pebbles are the life-force elements, as WB's words and the notes have it; «རང་ཟླར་ཚེས་པའི་སྤར་ཁ» is WB's almanac rule (p. 178): in tiger, horse and dog months the first date begins with li, the day's trigram counted on from its own month's first, the hour's from the day's. Li for the year itself is question 390.*
-227. **The notes' seven elements (the notes, vol. 2, p. 497, l. 11).**
+     *Answered 2026-11-14 (inv-xx; read). Closed as asked by the claims above: «རང་ཟླར་ཚེས་པའི་སྤར་ཁ» is the trigram that falls to the date counted on from the trigram with which its own month begins (WB's almanac, p. 178: li for a tiger, horse or dog month), and «སྟག་རྟ་ཁྱི་གསུམ་ལིར་བརྩིས» is the head of that rule for the four triads, for the day and the hour; the notes' «སོགས» (p. 497) repeats it. What the rule gives for the year and the month themselves is question 390, not this one.*
+
+227. **Answered 2026-11-14 (inv-xx).** **The notes' seven elements (the notes, vol. 2, p. 497, l. 11).**
      Which are the notes' seven («ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the
      life force of the year, month and day of falling ill, the hour's
      power, the descending trigram and mewa and the person's kind, as
@@ -3046,13 +3056,17 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
      *Mostly answered 2026-10-25 ([claims/illness-seven-elements.md](claims/illness-seven-elements.md)): the seven follow the notes' own gloss just before them: the life force of the year, month and day of falling ill, the hour's power, the descending trigram and mewa, and the kind of person, glossed by the notes as the birth luck (བཙས་ཀླུང, btsas klung); the notes make "the time of reckoning" the year and the rest told above, not a seventh. The regent's question 134 (ys:i099) takes the kind as the element of the birth's «སྲོག་རླུང» (question 399); reply 134 (ys:i491-492, on the scan) keeps the clan element as "rough" only, adding shape and colour (question 400).*
-228. **A third and two thirds (WB vol. 1, p. 438; the notes, vol. 2, p. 497).**
+     *Answered 2026-11-14 (inv-xx; counted from the notes' own words on the reprint's text, p. 497). The notes' gloss of «ལོ་ཟླ་ཞག་དུས་སྤར་སྨེ་བསྟུན» is «ནམ་ན་དུས་ཀྱི་ལོ་ཟླ་ཞག་གི་སྲོག་ དུས་ཀྱི་དབང་ཐང་བབ་སྤར་བབ་སྨེའི་ཁམས་»: the life force of the year, month and day of falling ill (3), the hour's power (4), the descending trigram (5) and the descending mewa (6), and the next sentence adds «ནད་པ་བཙས་ཀླུང་མི་རིགས», the sick person's kind as his birth luck (7). Its «བརྩི་དུས» is glossed «གོང་བཤད་ལོ་སོགས», the year and the rest told above, which is the six already counted: not a seventh. So the seven are the first of the question's two sets and not WB's five of p. 435 with the kind and the time. Three of the seven are the life forces of year, month, day; whether the kind is the element of the birth's life-wind or the clan is questions 399 and 400.*
+
+228. **Answered 2026-11-14 (inv-xx).** **A third and two thirds (WB vol. 1, p. 438; the notes, vol. 2, p. 497).**
      How do p. 438's "a third and two thirds: an illness of spirits and
      conditions" and the notes' example (two wood, two fire, three iron
      of seven: iron's illness, the greater share) agree; is the rule of
      p. 438 for two elements only? [verdicts.md](verdicts.md), "The
      illness identified: the element that is most" (RD22).
      *Narrowed 2026-10-25 ([claims/illness-shares-halves-thirds.md](claims/illness-shares-halves-thirds.md)): the notes' two, two and three of seven is a split among three elements with no half and no two thirds, so it falls under "otherwise the most taken as chief", not under the thirds; a few lines on, p. 438 itself names humoral illnesses for third and two-thirds splits (water two thirds, earth a third; water a third, fire two thirds; wood two thirds with earth and iron a third), so the thirds are shares of a split, not limited to two elements, and "spirits and conditions" does not replace the humoral illness. What it adds, question 401. The Taikhang print carves «གསུམ་ཆ», the same word.*
+     *Answered 2026-11-14 (inv-xx; counted). The two agree because the notes' example is not a case of the thirds: two wood, two fire, three iron is a split among three elements in which none holds a half or two thirds, so it falls under the rule's last clause, the most taken as chief («དེ་མིན་གང་མང་གཙོ་བོར་བཟུང»), and iron, three of seven, is the chief. The rule of p. 438 is not for two elements only: its own instances name three-element splits (wood two thirds with earth and iron a third). Counted: of seven elements the shares are 1/7 = 0.14, 2/7 = 0.29, 3/7 = 0.43, 4/7 = 0.57, 5/7 = 0.71, so a third and two thirds can only be two and five of the seven (0.29 and 0.71) and a half three and four; the notes' «ལྕགས་སུམ་གཅིག་དྲག་ཙམ» for three of seven, "a third and a little stronger", takes the same measure, 3/7 being a little over a third. What «གདོན་རྐྱེན་ནད» adds to the humoral illness for such a split is question 401.*
+
 229. **The nine classes as counts of the fifteen (WB vol. 1, p. 425; the notes, vol. 2, p. 496).**
      What are WB's classes «སུམ་ཆས», «བཞི་ཆས», «ལྔ་ཆས», «དྲུག་ཆས»
      «ལྷག་དཀར» / «ནག» and «དཀར་ནག་ཕྱེད་མ» as counts of the fifteen? The
@@ -3067,6 +3081,8 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
      *Narrowed 2026-10-25 (RD53, [claims/illness-classes-by-difference.md](claims/illness-classes-by-difference.md)): the notes (p. 496) name the nine classes by the difference of white and black among the fifteen, pebble door not counted: six white and nine black is «a third more black», five and ten «a fifth more black»; "three more is like a third, four like a fourth" and the fraction-of-fifteen reading is rejected. Open: whether speckled pebbles count, since a difference among fifteen of two colours is odd yet WB names a «fourth» and a «sixth»; WB's order is not one of rising whiteness.*
+     *Narrowed 2026-11-14 (inv-xx; counted). A difference of white and black among the fifteen is odd when only the two colours are present (15 = w + b, w − b odd) and even only when at least one pebble is neither (checked for differences 0 to 7: even differences need an odd number of speckled pebbles, at least one); the notes' «དཀར་ནག་སྙོམས་ཁར་དཀར་བཞི་ལྷག» (an even split with four white over) is a difference of four and WB's «དཀར་ནག་ཕྱེད་མ» a difference of nil, so the fifteen include speckled pebbles that count as neither: they are not left out. WB's own classes say so: the fourth more white has «ཆུང་ཟད་ཁྲ», "a little speckled", and the half and the sixths are called «ཁྲ་བོའི་དཀར་པོ» and «ཁྲ་བོའི་ཁྲ་བོ». The notes' differences for the names are 3, 4, 5 and 6, so WB's order from the third more white to the sixth runs by rising difference, 3, 4, 5, 6, then 0 at the half, then 6, 5, 4, 3 on the black side: it is not a scale from the whitest to the blackest, as under the fraction names it would be (1/3, 1/4, 1/5, 1/6, 0). Still open: why WB orders the names so (a fraction reading of the names fits the order but not the notes' example of six and nine); the pebble door is not counted (the notes: «རྡེལ་སྒོ་མ་བརྩིས»). BDRC phrase search «སུམ་ཆས་ལྷག་ནག» 1 hit, the notes in the Gser thang reprint only.*
+
 230. **P. 425's labels (WB vol. 1, p. 425, ll. 6–10).**
      What do p. 425's labels say, «ཁྲ་བོའི་དཀར་པོ», «ཁྲ་བོའི་ཁྲ་བོ»,
      «ཁྲ་བོའི་ནག», «ནག་པོའི་དཀར», «དཀར་པོའི་ནག», «དཀར་ཁྲ» (the white,
