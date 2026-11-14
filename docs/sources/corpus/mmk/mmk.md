@@ -64,6 +64,15 @@ Gaṇapati Śāstrī's edition, as keyed in by the Digital Sanskrit Buddhist Can
 
 The compound is «kriyā-kāla-samaś ca»: the edition reads «sama», not «krama». The Tibetan «རིམ་པ» (rim pa) is krama in the lexica, so the Tibetan translators either read another word or rendered freely; «sattva-varjitam» (devoid of beings / of the creature) is where the Tibetan has «སྤངས» (spangs, "given up"). The same edition has «kāla-kramo» in chapter 22 (GRETIL line 6170, «eṣa kālakramo yoge», "this is the order of times in the practice"), so the word krama is in the text, but not in this verse.
 
+## <a id="mmk-2-p149c"></a>mmk.2:p149c The Sanskrit's verse 15.46 on the page image of Śāstrī's print: kriyākālasamaś (q1189)
+
+*Read: scan, 2026-11-14.*
+
+> tasmāt sarvaprakāreṇa svapnākhyaṃ sattvavarjitam /
+> kriyākālasamaścaiva nirdiṣṭastattvadarśibhiḥ //
+
+Printed p. 149 of Gaṇapati Śāstrī's edition (Trivandrum Sanskrit Series 70, part 1, 1920; Internet Archive TSS070AryamanjusrimulakalpaPart1TGSastri1920_201809, leaf n154; the page's running head is «pañcadaśaḥ paṭalavisaraḥ», the leaf's number written «१४९»), the last lines of the dream section: «tasmāt sarvaprakāreṇa svapnākhyaṃ sattvavarjitam / kriyākālasamaścaiva nirdiṣṭastattvadarśibhiḥ //» ("Therefore, in every way, the dream-named [kind], devoid of beings, and the sameness of the time of the act were pointed out by those who see what is so"). Roman letters are my reading of the Devanagari on the page image: the print has «kriyākālasamaś» with «sama»; the page has no footnote, no variant and no bracketed doubt at this word (the print marks its doubtful syllables elsewhere with «+ + +», as on p. 150 and p. 175).
+
 ## <a id="mmk-2-p150"></a>mmk.2:p150 The Sanskrit: the phlegm-natured should not take phlegm foods, and the wise do not sleep at that time
 
 *Read: machine, 2026-11-10.*
@@ -105,6 +114,28 @@ Machine, 2026-11-10; OCR, not read on a page image. The Sanskrit "rāśi" of the
 The Derge's counterpart is mmk.1:p438a-p438-439: the four best planets (Jupiter, Venus, the Moon and the best of the rest: ཕུར་བུ་པ་སངས་ཟླ་བ་དང་། གཟའ་ལྷག་མཆོག), then «མིག་ནི་འབྱེད་དང་འཛུམས་པ་དང་། སེ་གོལ་མྱུར་བའི་འགྲོས་འདི་ནི། འདི་དག་དུས་ཀྱི་ཚད་དག་ནི། རྒྱ་ཆེར་ཡང་ནི་བསྟན་པར་བྱ» («the opening and closing of the eye, and the swift pace of the se gol: these measures of time will also be shown at length»). The Sanskrit has the same planets and the same units, the eye's opening and closing and a word for a snap (acchaṭa, which would be the Tibetan se gol; the OCR's word is «अच्छटम्», a doubt), but then goes to the setting of the planets and to births: the chain of se gol, rtsa rgyun, chu tshod, watch, skad cig and yud tsam, the thirty yud tsam, the half-month and the years are not here. The page's own end is the colophon of the 15th «paṭalavisara» (OCR: «pañcadaśaḥ paṭalavisaraḥ»), so the Sanskrit puts this together with the dream and the births of one chapter, where the Derge divides them between its ch. 15 (the dream, mmk.1:p396-405) and ch. 18 (the births p430-432 and these lines p438).
 
 Machine, 2026-11-13: the Roman letters are my reading of the Devanagari OCR of another scan of the same edition, the Trivandrum Sanskrit Series 70 (Gaṇapati Śāstrī, part 1, 1920; Internet Archive TSS070AryamanjusrimulakalpaPart1TGSastri1920_201809, its text layer); the OCR is much garbled and the printed page numbers are inferred from the page marks «157», «158» before the lines, so the page is a doubt; not read on a page image.
+
+## <a id="mmk-2-p159"></a>mmk.2:p159 The Sanskrit's kṣaṇa, unmeṣa, nimeṣa, acchaṭa on the page image of Śāstrī's print (q1170)
+
+*Read: scan, 2026-11-14.*
+
+> sarvasampatsadā miṣṭāḥ kathitā lokapuṅgavaiḥ /
+> kṣaṇamātraṃ tathonmeṣanimeṣaṃ cāpi acchaṭam //
+> eṣāṃ saṃkṣepate jāti kathitā lokapuṅgavaiḥ /
+> etanmātraṃ pramāṇaṃ tu grahāṇāṃ lokacintinām //
+
+Printed p. 159 of the same edition (leaf n164; the leaf's number is cut at the margin, 158 is printed on n163 and 167 on n172, so 159 is by count; running head «pañcadaśaḥ paṭalavisaraḥ»), the last lines of the page, after the four chief planets (Venus, the Moon, Jupiter, Mercury: «catvāro grahamukhyās tu śukracandragurubudhāḥ»): "... all fortunes are always dear [to them], told by the best of the world. A moment (kṣaṇa), the opening and the closing of the eye (unmeṣa, nimeṣa) and also the finger-snap (acchaṭa): of these, in brief, the kind has been told by the best of the world; this much is the measure of the planets, for the world's thinkers." Roman letters are my reading of the page image; «kṣaṇamātraṃ tathonmeṣanimeṣaṃ cāpi acchaṭam» stands on it as the text layer's OCR gave it, with «unmeṣa» (the OCR had «ommeṣa»). The Tibetan counterpart is mmk.1:p438a-p438-439 (se gol).
+
+## <a id="mmk-2-p165-166"></a>mmk.2:p165-166 The end of chapter 15 and the beginning of chapter 16 on the page images of Śāstrī's print (q1170)
+
+*Read: scan, 2026-11-14.*
+
+> tasmād dhyānaṃ ca mokṣaṃ ca saṃyukte bodhim ucyate // iti /
+> ārya-mañjuśriya-mūlakalpād bodhisattvapiṭakāvataṃsakān mahāyānavaipulyasūtrāt *trayodaśamaḥ sarvakarmakriyārthaḥ paṭalavisaraḥ parisamāpta iti /
+> -------
+> atha ṣoḍaśaḥ paṭalavisaraḥ /
+
+Printed p. 165 of the same edition (leaf n170; running head «pañcadaśaḥ paṭalavisaraḥ», the leaf's number «१६५») and the head of p. 166 (leaf n171, no printed number; 167 is on n172, whose running head is «ṣoḍaśaḥ paṭalavisaraḥ»). The page ends the chapter with its colophon, set off by a rule; the next leaf begins «atha ṣoḍaśaḥ paṭalavisaraḥ». Gaṇapati Śāstrī's chapter 15 therefore runs from the leaf after p. 146 (its running heads «pañcadaśaḥ paṭalavisaraḥ» are on pp. 157, 159, 165) to the foot of p. 165; chapter 16 begins at the top of p. 166. The colophon calls the chapter «trayodaśamaḥ sarvakarmakriyārthaḥ» ("the thirteenth, for the doing of all acts") against the running head's fifteenth: the colophon's ordinal is not the edition's chapter number (the OCR of the text layer gives the same). "In conclusion, meditation and release, joined, are called awakening." Roman letters are my reading of the Devanagari on the page images.
 
 ## <a id="mmk-2-p179-181"></a>mmk.2:p179-181 The Sanskrit of the end of the 18th chapter and the opening of the 19th: no measure of time, and where the edition has the watches
 
