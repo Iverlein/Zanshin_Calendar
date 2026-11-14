@@ -1587,20 +1587,20 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/yyt/yyt.md](corpus/yyt/yyt.md) | corpus | YYT | 2 passages: 2 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 5 passages: 3 scan, 1 machine, 1 etext |
-| [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
+| [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | answered; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
 | [questions/q0261.md](questions/q0261.md) | question q261 | The sealing trigram of each provision block, and khon's missing seal | open; cites wb.2:p129-132 |
-| [questions/q0262.md](questions/q0262.md) | question q262 | Dwa's food on p. 130 | open; cites wb.2:p129-132, wbz:i817 |
+| [questions/q0262.md](questions/q0262.md) | question q262 | Dwa's food on p. 130 | answered; cites wb.2:p129-132, wbz:i817 |
 | [questions/q0263.md](questions/q0263.md) | question q263 | «སྒོམ» or «སྒོ» in the fifteenth's heading | answered; cites wb.2:p128-129, wbz:i814 |
 | [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
 | [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
 | [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
 | [questions/q0267.md](questions/q0267.md) | question q267 | The la places' cut-off and friend years for the other four clans | answered; cites wb.2:p499-500, wb.2:p52-54, lt:p26-28, lt:p12, ut:p56 |
-| [questions/q0268.md](questions/q0268.md) | question q268 | Which white and which red in the household's birth mewa | open; cites wb.2:p51-52, wb.2:p54-55 |
-| [questions/q0269.md](questions/q0269.md) | question q269 | The four executioners' pebble door among the la places | open; cites wb.2:p52-54 |
+| [questions/q0268.md](questions/q0268.md) | question q268 | Which white and which red in the household's birth mewa | answered; cites wb.2:p51-52, wb.2:p54-55 |
+| [questions/q0269.md](questions/q0269.md) | question q269 | The four executioners' pebble door among the la places | answered; cites wb.2:p52-54 |
 | [questions/q0270.md](questions/q0270.md) | question q270 | The upper, lower and middle pebbles of the la board | open; cites wb.2:p51-52, wb.2:p52-54 |
-| [questions/q0271.md](questions/q0271.md) | question q271 | «དགྲ་དར» or «དགྲ་ལོ» in the special verdict | open; cites wb.2:p52-54 |
+| [questions/q0271.md](questions/q0271.md) | question q271 | «དགྲ་དར» or «དགྲ་ལོ» in the special verdict | answered; cites wb.2:p52-54 |
 | [questions/q0272.md](questions/q0272.md) | question q272 | Which mewa the second examination reads | open; cites wb.2:p57-58, wb.2:p503 |
 | [questions/q0273.md](questions/q0273.md) | question q273 | «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ» | open; cites wb.2:p57-58, wb.2:p55, wb.2:p54-55 |
 | [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | open; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
