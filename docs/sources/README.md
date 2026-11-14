@@ -1788,7 +1788,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
 | [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | answered; cites wb.2:p305 |
 | [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | answered; cites wb.2:p335-336, wb.2:p341-342 |
-| [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | open; cites wb.2:p349-350 |
+| [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | answered; cites wb.2:p349-350 |
 | [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | answered; cites wb.2:p349-350 |
 | [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
 | [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | answered; cites wb.1:p133b |
@@ -1822,7 +1822,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | open; cites — |
 | [questions/q0489.md](questions/q0489.md) | question q489 | The 歳破 and livestock: forbidden or good | open; cites — |
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
-| [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | open; cites — |
+| [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | answered; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | open; cites — |
 | [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | open; cites — |
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |

@@ -2633,6 +2633,7 @@ quotes; Wikipedia's notes):
   eastern years), what does the old rule mean?
 - Question 491 ([q0491](questions/q0491.md)): Where does the year of the 八将神 begin, 立春 or the new
   year? None of §6, §8–§14 says.
+  *Answered 2026-11-14 (inv-c, [q0491](questions/q0491.md)): 立春; the 協紀辨方書 卷34 fixes the year's and month's baleful places once 立春 has passed (歲官交承).*
 
 Doubts in the text, not settled by the two witnesses: §12 GR «專主斂氣»
 against MS «專主殺无» (the MS character after 殺 uncertain); §11 GR «求»
