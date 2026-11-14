@@ -2574,6 +2574,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1217.md](questions/q1217.md) | question q1217 | KD vol. 1 p. 634: do the counts of the black reckoning's circuits agree with the source they follow? | open; cites kd.1:p632-634 |
 | [questions/q1218.md](questions/q1218.md) | question q1218 | KD vol. 1 p. 633: which fifteenth-circuit text is the three-headed earth lord's helping gto, and does it hold a rule for the date's earth lords? | open; cites kd.1:p632-634 |
 | [questions/q1219.md](questions/q1219.md) | question q1219 | KD: which of the old or new Chinese reckoning do the trigram, mewa and earth-lord pages of the Phugpa almanac derive from? | open; cites kd.1:p549 |
+| [questions/q1220.md](questions/q1220.md) | question q1220 | KP box 63: do «ཀིང་ ཧལྱི་» in the bad half stand for WB's «ཀ་ཁྱུང་ཀི་ཀང་པི་ལིང་དང་ཧལ་ཁྱི»? | open; cites kp:box61 |
+| [questions/q1221.md](questions/q1221.md) | question q1221 | KP box 57: is the lone «ཉི» after «དབུལ» short for «ཉི་ནག», or WB's «དབུལ་པོ་ལག»? | open; cites kp:box57 |
+| [questions/q1222.md](questions/q1222.md) | question q1222 | KP box 60: what is «ཉི་ནུབ» (the sun's setting) before Rahu, which WB's councils lacks? | open; cites kp:box57 |
+| [questions/q1223.md](questions/q1223.md) | question q1223 | KP box 56: is the order Lady, Khrag sgor, Tsa mundi, Vishnu a difference from WB, and the spellings «ཁྲག་སྒོར»/«ཙ་མུནྡི» against WB's «ཁྲག་ཟོར»/«ཙཱ་མུཀྟྲི»? | open; cites kp:box56 |
+| [questions/q1224.md](questions/q1224.md) | question q1224 | KP's last four boxes run fierce, control, pacify, life and wealth; WB runs life and wealth, control, destructive, pacifying: why? | open; cites kp:box61 |
 
 <!-- end pool index -->
 
