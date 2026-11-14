@@ -3201,11 +3201,15 @@ the text, not about the app.
      and is «སྟངས» here the "manner" word or a sound-spelling of «བཏང»?
      [verdicts.md](verdicts.md), "«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding
      pebble" (question 245).
+
+    *inv-oo (2026-11-14), narrowed. The dictionaries put a second reading of the «སྟངས» beside «བཏང»: the Sgom sde dictionary (Steinert's set 58), under «སྟངས་འཛིན» ("to settle is or is not"), quotes Bstan dar lha rams pa's *Old and New Terms* (བརྡ་གསར་རྙིང་, brda gsar rnying), «སྟངས་འཛིན་དང་སྟོང་གཅོད་ནི་ཡིན་མིན་གྱི་དོན་ཐག་བཅད་པའོ» ("«stangs 'dzin» and «stong gcod» are the settling of is and is not"), and then says that Zam gdong (the former minister) held «སྟངས་འཛིན» to be a corruption to be written «བཏང་འཛིན»; the dictionary rejects that: «སྟངས» in it is the "manner, conduct" word (as in eating, drinking, going), «འཛིན» the measuring. So «སྟངས་གཅོད» and «སྟོང་གཅོད» are the old terms' pair for deciding is and is not, and the lexicographers themselves are divided whether «སྟངས» is a spelling of «བཏང». No dictionary (64 sets, `locate.py dict`) has «སྟངས་གཅོད» or «བཏང་གཅོད» as a headword; «གཏང་གཅོད» only in the *Ocean of Word Treasures* ("a term of elemental reckoning, the same as «ཁ་དམར»"). No older text than the Four Tantras' prints with «བཏང་གཅོད» was reached, so the first part stands as the verdicts have it («བཏང་གཅོད»). Still open: «སྟངས» as manner or as sound-spelling, which the lexica leave undecided.*
 248. **Dharmaśrī's own spelling.** Is «སྟངས་གཅོད» Dharmaśrī's own spelling,
      or only that of the print of his collected works read here (I2533)
      and the copies taken from it? An older manuscript of the *Moonbeams*,
      if one survives, would show it. [verdicts.md](verdicts.md),
      "«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble" (question 245).
+
+    *inv-oo (2026-11-14), narrowed. The spelling is not the print of I2533 alone. (1) The NLM woodblock MW1NLM6115 (BDRC I1NLM6115_001, img. 34 and 36 of the lent scans, Yigdzin-1 reading checked by eye at 3× on img. 36, l. 5), reads «རྡེའུ་ཉེར་བཞིས་སྟངས་གཅོད་དོ» and, in the closing verse of the chapter, «སྟངས་གཅོད་རྡེའུ་ཉི་ཤུ་བཞི། སྤྱི་བསྡུས་བརྒྱ་དང་སུམ་ཅུ་དྲུག»: «སྟངས་» both times; the record gives no date, so it is not shown older than 1927. (2) Two more etexts of the *Moonbeams*' line «དེ་བཞིན་ལུས་སོགས་གཞན་འགྲེ་བས། སྟངས་གཅོད་རྡེའུ་ཉི་ཤུ་བྱས་ལ»: Tshul khrims rgyal mtshan's collected works (MW1KG10375_747F39) and a Yushu collection of early scholars of upper Dokham (MW1PD152297, vol. I2PD18783, search only, the author not identified); a search for the same line with «བཏང་གཅོད» has 0 hits. All are modern or undated. Not read: the manuscript MW1LT2427 (cursive, part not located), Leh MW29569 (from the 1927 blocks). Still open: a copy certainly older than the 1927 blocks.*
 249. **The *Xizang tianwen lisuan zonghui* and KD.** Is the *Xizang tianwen
      lisuan zonghui* (《西藏天文历算总汇》) of which the national register makes 贡嘎仁增
      "one of the main writers" KD itself, whose Chinese title in BDRC's
@@ -3231,10 +3235,14 @@ the text, not about the app.
      shing byi) year; no date is written on them.
      [verdicts.md](verdicts.md), "Kun dga' rig 'dzin, the writer of the
      sheets" (question 246).
+
+    *inv-oo (2026-11-14), not advanced. The etext of KD vol. 3 (IE0OPI2F246A26) did not come within the time (the fetch timed out); no other source dates the sheets. BDRC's note on KD names its editors as "Jampa Trinle and Nalanda Khenpo Tsultrim Gyaltsen" (see question 252), which does not date the sheets either. Dead end: BDRC phrase search «ཀུན་དགའ་རིག་འཛིན་གྱིས་བྲིས» finds only the sheets' record and KD's etext.*
 252. **«ལྔ་པ་འཕྲོད» in 1989.** What is «ལྔ་པ་འཕྲོད» that Tshul khrims rgyal
      mtshan taught a Kun dga' rig 'dzin in 1989, and is he the writer?
      [verdicts.md](verdicts.md), "Kun dga' rig 'dzin, the writer of the
      sheets" (question 246).
+
+    *inv-oo (2026-11-14), narrowed, and one earlier assumption corrected. The teacher of 1989 is not the Mentsikhang's man of the name. BDRC's work record for *Medicine Nourishing Faith* (MW1KG10375_E55D6D) and its collection (MW1KG10375, 13 vols., Gansu Nationalities Publishing House 2009) name as author the Nalendra khenpo Tshul khrims rgyal mtshan (ན་ལེན་དྲའི་མཁན་པོ་ཚུལ་ཁྲིམས་རྒྱལ་མཚན, na len+dra'i mkhan po tshul khrims rgyal mtshan, P6677, 1933–2002, Sakya, seat Phan po Na len dra), the collection holds the *Moonbeams*' text and his commentary on it (MW1KG10375_747F39), and BDRC's note on KD says "edited by Jampa Trinle and Nalanda Khenpo Tsultrim Gyaltsen": the deputy chief editor of KD's board is, on the catalogue, this khenpo. The 1989 entry (phrase search «ཀུན་དགའ་རིག་འཛིན་ལ་ལྔ་པ་འཕྲོད», snippet in Wylie) is one of a run of single lessons to single pupils: Phun tshogs dbang mo the Root and Last Tantras, then the *Moonbeams*, on the 24th Kun dga' rig 'dzin «ལྔ་པ་འཕྲོད», on the 28th A mdo Bkra shis dbang phyug the «སུམ་རྟགས» (the Thirty and the Case-markers, the grammar); the passage's other words, and its place, were not reached (search only). That the pupil is the Lhasa astronomer (b. 1942, at the Mentsikhang from 1952, by 1996 the teacher of others) is neither stated nor excluded: a pupil of his age taking the short text of the Mentsikhang's course from the colleague of KD's board is possible, the name is common in the Sakya circle (verdicts.md, *Others of the name*). Open until the life's pages are read.*
 253. **A speckled deciding pebble of the dead (I1LT0800, img. 380–383).**
      The manuscript reads each of the dead's four deciding pebbles black,
      white and speckled; WB's lines for them (vol. 2, pp. 55–56) read black
