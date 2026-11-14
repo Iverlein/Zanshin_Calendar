@@ -1006,6 +1006,8 @@ the text, not about the app.
 
     *RD173 (2026-11-06): SKY Press's pages for* Tibetan Healing Massage *(294 pp.) and* The Tibetan Book of Health *(198 pp.) mention neither the la nor dates to avoid; the books are needed.*
 
+    *Narrowed 2026-11-14 (inv-d): the contents list of* The Tibetan Book of Health *(Namse Bangdzo's page for ISBN 9780997731941, namsebangdzo.com) has chapter 9, «The Protective Energy La and Its Cycle» (p. 165), with «Monthly Cycle of the Protective La Energy» (p. 167), «Massage for Rebalancing Protective Energy La» (p. 168) and a conclusion (p. 171): so the book does carry a la course by the lunar month, which SKY Press's own page did not say. Whether it names dates to avoid, and whether its cycle is KL's tables, is not seen. No contents list of* Tibetan Healing Massage *(ISBN 9781950153299) was found on any retailer, Google Books (feed: no preview) or the podcast pages; the book itself is still needed for the first half.*
+
 63. **Answered 2026-10-18. RS and SY.** Is the Rebkong anthology that copies SY, named in
     [personal-mansions.md](personal-mansions.md) under *The mansion of
     conception*, the *Collected Star Texts of the Rebkong Ngakmang* (RS)?
@@ -1338,6 +1340,8 @@ the text, not about the app.
     not one book's.*
 
     *RD173 (2026-11-06): «ལྕགས་པར་མ» is a standing name for one modern typeset Four Tantras cited by many authors; which edition is open (Chengdu or Beijing typesetting, or Lokesh Chandra's Chakpori reprints MW3CN1694, MW3CN1700, MW3CN1709); none tested fits KL's six numbers as one book.*
+
+    *Searched 2026-11-14 (inv-d): BDRC's title index (autocomplete.bdrc.io `_msearch`) for «rgyud bzhi», «gso rig rgyud bzhi», «bdud rtsi snying po yan lag brgyad pa…» and the Blue Beryl's title lists the Lhasa 1982 typeset (MW16778, already tested), the Lokesh Chandra reprints MW3CN1700 (Chakpori old blocks) and MW3CN1709 (Zung cu dgon blocks), a Khyung rdzong dkar po print (MW0TTBBC0035) and the Beijing block print among MW3MS701, and no Chengdu (Si khron mi rigs) typesetting with an etext or scan: that edition cannot be tested from BDRC.*
 
 87. ~~KL p. 199: «ཉིན་དགོང་མཚན་དགོང».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): both prints read on the scan have «ཉིན་གུང་མཚན་གུང»; KL p. 199 slips.* The question as it stood: Bile rises so in KL, where the Four
     Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
