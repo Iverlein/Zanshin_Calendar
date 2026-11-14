@@ -2541,7 +2541,7 @@ the text, not about the app.
      parts with numbers («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)»), not pairs:
      which pairs does it hold? The hidden waits on it (ROADMAP R3c).
      *Answered 2026-10-21 (O16, [marriage.md](marriage.md), *Open questions 161–165 (O16)*): four up is the birth mewa less three, four down plus three, the body the birth mewa (WB p. 255's fire hare 4, 1, 7; the *Moonbeams*' wood rat; the notes, p. 536); the luck is the mewa of the triad's wind-horse year (p. 254) in the same sixty, by WB's example its birth mewa, by the *Moonbeams* its life-force mewa (question 234); the notes' drawing (vol. 2, p. 524) pairs the body cut li–khon, zon–dwa, gin–zin, kham–khen, and p. 358's ༦ and ༥ for the left side and leg stand one place off (question 233).*
-162. **«དཱ་ཟླ» in raising the child (WB vol. 1, ch. 22, p. 348).** «དུར་ཞུགས་ཕ་ཡི་དཱ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དཱ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དཱ་ཟླ་ཡིན།»
+162. **Answered 2026-10-21 (O16); confirmed 2026-11-14 (inv-rr).** **«དཱ་ཟླ» in raising the child (WB vol. 1, ch. 22, p. 348).** «དུར་ཞུགས་ཕ་ཡི་དཱ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དཱ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དཱ་ཟླ་ཡིན།»
      (Yigdzin-1, not read on the scan): the readings say the month "bears
      hard" on the father, the mother, the child, by the parallel «བུས་པ་རང་ལ་ངན་པ».
      What is «དཱ», and does the scan read it so (R2k)?
@@ -2549,7 +2549,8 @@ the text, not about the app.
      prints ད with a subscript in all three «…ཡི་དཱ་ཟླ་ཡིན», a wedge unlike the ra
      of «གྲོ» and «གྲུ» on the same page: «དཱ» rather than «དྲ». Its meaning stays open.*
      *Answered 2026-10-21 (O16, [year-of-life.md](year-of-life.md), *Open questions 161–165 (O16)*): on the Gser thang scan the letter is the subscript wa of the trigram dwa on the same page; «དྭ་ཟླ», the orphaning month (WB's «དྭ་བོ», «དྭ་ཕྲུག»; the notes, pp. 488–489; BDRC's etext «dwa zla»). Question 236.*
-163. **Revatī in p. 348's mansions (WB vol. 1, ch. 22).** «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་།» puts
+     *Confirmed 2026-11-14 (inv-rr): the notes' own lines use the same word, «ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ» (vol. 2, p. 488, ll. 18–19, read on the 1996 print and the Gser thang reprint, with the line break after «དྭ་») and «དྭ་ཟླ་ནི་སྐབས་འདིར་ཕར་ངན་པ་མའི་དྭ་ཟླ» (p. 489), so the spelling is the notes' too, glossed as the orphaning month ([claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md)); «དྭ» is WB's orphan (དྭ་བོ, དྭ་ཕྲུག); BDRC's full-text search finds «དྭ་ཟླ» only in WB's prints and copies. The scan's «དཱ» is the subscript wa; nothing is left to ask.*
+163. **Answered 2026-10-21 (O16), as far as the sources go; 2026-11-14 (inv-rr).** **Revatī in p. 348's mansions (WB vol. 1, ch. 22).** «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་།» puts
      Revatī (ནམ་གྲུ) among the very bad mansions for a birth, while Revatī's own
      verse (mansion-verses.md) makes it one of the four accomplishing
      mansions (with Puṣya, Viśākhā and Uttarāṣāḍhā). Does the scan read
@@ -2559,6 +2560,7 @@ the text, not about the app.
      reads «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །…འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་»
      as Yigdzin-1 did: ནམ་གྲུ is in the print. Which four are meant stays open.*
      *Answered as far as the sources go, 2026-10-21 (O16, [year-of-life.md](year-of-life.md), *Open questions 161–165 (O16)*): the four are the Chinese saying's accomplishing mansions, which WB's mansion verses name: Puṣya, Viśākhā, Uttarāṣāḍhā and Revatī; Revatī stands in p. 348 twice, and no source decides between the two lines (question 237).*
+     *Four names, 2026-11-14 (inv-rr), BDRC full-text search «ནམ་གྲུ་བཞི་ལ་ཤིན་ཏུ་ངན» (3 hits): Lha mo tshul khrims' *Nag rtsis rdel 'grem 'bras bshad* (MW1KG21818) and its two copies read the verse as a list of four names, «skar ma nag pa sa ri gro zhun nam gru bzhi la shin tu ngan, 'grub skar bzhi la bzang», so his «ནམ་གྲུ་བཞི» is the four named in the line (nag pa, sa ri, gro bzhin, nam gru), not Puṣya, Hasta, Revatī and Aśvinī (the pool's earlier doubt on LT's «བཞི»); the verse itself is in the *Bai dur dkar po* (Gser thang, MW3CN5026) and the *Do shal* (Zhol, «nag pa sa re gro bzhin dang»). Revatī is in both four-lists in all of them, and none reconciles them.*
 164. **The moment's trigram and mewa (WB vol. 2, ch. 30, pp. 156, 162).** The day's
      length divided by eight for the trigram, by nine for the mewa, each
      counted "from the one that rises at dawn on that date": in which
@@ -3109,6 +3111,7 @@ the text, not about the app.
      of-life.md), "Open questions 161–165" (O16).
 
     *RD174 (2026-11-06): repeats q565 and is narrowed with it.*
+    *Narrowed again 2026-11-14 (inv-rr), with question 163's four names: every reader found that restates the verse (Lha mo tshul khrims and two copies of his sentence, the *Bai dur dkar po*, the *Do shal*) sets the very bad four, Revatī the last of them, and the accomplishing four, «གང་ཡང་བཟང», one after the other in the same breath as the rest of the birth lines (the search snippets: «gud zhud pa dang lhag pa la btsas na ngan, dar ba la btsas na bzang»), with nothing saying that one overrides the other; none says what a Revatī child is. So a child on Revatī is "very bad" by the birth's own list (agreeing with ch. 31's class verse, year-of-life.md q237) and the accomplishing four are the general saying; which rules is not told. Open, as q565.*
 238. **The moment's dawn (WB vol. 2, ch. 30; the notes, p. 535).**
      The day divided in eight and nine is WB's day's length, the daytime
      equal to the night at the equinox, and the count starts at

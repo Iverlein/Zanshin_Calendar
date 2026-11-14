@@ -1683,7 +1683,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0353.md](questions/q0353.md) | question q353 | The watch and the kung of the hand reckoning, and mung, krung, kyis | open; cites wb.2:p538-539 |
 | [questions/q0354.md](questions/q0354.md) | question q354 | A name for a match of mixed kinds | open; cites wb.1:p355, wb.2:p524 |
 | [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
-| [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | open; cites wb.2:p526 |
+| [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | answered; cites wb.2:p526 |
 | [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | answered; cites wb.1:p355, wbz:i464 |
 | [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | answered; cites wb.1:p445-447, wb.1:p445, lt:p43-44, lt:p20, dz:i051-052 |
 | [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
@@ -1884,7 +1884,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0554.md](questions/q0554.md) | question q554 | Is KD's Chinese title the one Kun dga' rig 'dzin's register entry means | open; cites — |
 | [questions/q0555.md](questions/q0555.md) | question q555 | The second and third result names «ཀླུང» and «ཀྱཱིས» on Mipham's print | open; cites — |
 | [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | answered; cites — |
-| [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
+| [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | answered; cites — |
 | [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | narrowed; cites wb.2:p215 |
 | [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
