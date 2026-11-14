@@ -1880,6 +1880,22 @@ the text, not about the app.
      alone drops the time clause («ཉི་དག་དང་ནི་ལྷག་སངས་གཉིས། །གང་རུང་སྐར་མ་གཅིག་གྱུར་ན།»,
      KD p. 461, etext). Whether «དང» makes one condition or two stays a
      question of reading.*
+     *Narrowed 2026-11-14 (inv-ss, computed with the app's engine, not read):
+     the engine's apparent places (*myur dag*, `Planets.places`) of Mercury
+     and Venus against the mean sun of the planets' reckoning, every day
+     2000-2039 (14,610 days), in mansions: Mercury is 2 mansions behind to
+     2 ahead and never farther (same mansion on 2,753 days, 19%); Venus 4
+     behind to 4 ahead (same mansion 1,526 days, 10%). 135 chu tshod is one
+     sign, 2¼ mansions (p. 34). So a "within 135" clause taken as a second,
+     alternative condition would be true for Mercury on virtually every day
+     (and for Venus on about 56% of days within ±2 mansions), exempting
+     Mercury from every solar eclipse; as an alternative the clause is
+     absurd for Mercury, and as a second condition added to "one mansion"
+     it is redundant (one mansion lies inside a sign). Neither reading
+     makes the 135 do work, which fits the *Seven Special Qualities*
+     dropping it. This weighs against "or" but does not decide what the 135
+     measures (the mean sun is used here, the apparent sun differs by at
+     most about 2 degrees; mansion edges are integers).*
 
 117. **Which places.** Which place of Mercury or Venus does the clause set
      beside the sun, the true place after the fast equation (their mean
@@ -1887,11 +1903,24 @@ the text, not about the app.
      sun, the abridged reckoning's, principal in WB's solar rule (p. 65),
      or the true reckoning's corrected sun that the *Seven Special
      Qualities* takes? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+     *Narrowed 2026-11-14 (inv-ss): the sun is the true one by WB's own
+     send to the true reckoning (claim wb-p64-65-mercury-venus-sun-and-smaller-part).
+     For the planet, the true reckoning gives Mercury and Venus no place
+     but the apparent one (*myur dag*, the engine's `Planets.places`:
+     mansions, chu tshod, breaths), reached from the sun by the slow and
+     the fast equations; the only other place the texts name is the mean
+     one, which Blo gros dpal makes the sun's (always equal). No text says
+     which is meant; "the apparent place" is the only reading that does not
+     make the clause trivially true. Read: the sun's side; computed: the
+     engine's places.*
 
 118. **Smaller, or none.** Is the *Seven Special Qualities*' "the part
      seized is smaller" a reading of WB's «བཟུང་མི་སྲིད», "cannot be seized",
      as JL's «འཛིན་པ་དཀའ» and OS's are of the whole list, or a rule from
      another source? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+     *Searched again 2026-11-14 (inv-ss): BDRC phrase search
+     «ཚུན་དུ་ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད» 0 hits; no text beside WB's prints,
+     the Do shal and the *Seven Special Qualities* has the clause. Still open.*
 
 119. **The 9th hair date, a gain or a warning.** WB lists the 9th among the
      bad dates for washing the hair (vol. 2, p. 404), while its result,
@@ -1901,6 +1930,12 @@ the text, not about the app.
      it follows chapter 33? (2026-10-12, O3, [hair-dates.md](hair-dates.md),
      "The 9th's «མོད་འགྱུར» (O3)")
 
+     *Searched again 2026-11-14 (inv-ss): BDRC phrase search «ན་ཆུང་མོད་འགྱུར»
+     one hit (WB's 1996 print, vol. 2 p. 404); no commentary; the witnesses
+     already noted (SN «ན་ཆུང་དང་འཕྲད», the Drigung hair lists «ན་ཆུང་འགྲོགས»)
+     name the result without a mark of harm or of gain. The result is
+     neutral company with young women; whether WB's bad side counts it as
+     distraction is not said. Still open.*
 
 120. **Answered 2026-10-18. The tiger day's «སྒོ་ཕྱུགས».** In the tiger day's seat (WB vol. 2, p.
      224), what is «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or the door's *phyugs* is set
@@ -1980,6 +2015,8 @@ the text, not about the app.
      the catalogue volume of the collection (MW4CZ354964), and none of the
      five titles is in its full text; the Phugpa WB itself names a *Stag
      sham nag po'i rgyud* as a source of its remedies.*
+     *Searched again 2026-11-14 (inv-ss): BDRC phrase search «གཏོང་ཤེས» 432
+     hits, only the first snippet read (Taranatha's Collected Works: the phrase «ཐོས་གཏོང་ཤེས» of a verse, no work); «མི་ཧྲེང» 208 hits, none read. No new gloss.*
 
 124. **Answered 2026-10-18. The hearth god's *spang skong*.** Which text is the *spang skong*
      (སྤང་སྐོང) of the hearth god's remedy (p. 225)? (2026-10-12, O8,
@@ -2003,6 +2040,10 @@ the text, not about the app.
      etext), in the golden reckoning of the new translations. Read so, the
      claim WB rejects is that these lords sit on the day's animal as the
      year's lords sit on the year's; no text glosses p. 225's line.*
+     *Searched again 2026-11-14 (inv-ss): «ཞག་གི་ལོ་སྟེང་གནས» two hits, the
+     Gser thang WB reprint (MW3CN5026) and an etext of the Do shal
+     (MW1KG1617), WB's line only (the Do shal copies it); no gloss
+     elsewhere. Follow-up in q560.*
 
 126. **Answered 2026-10-19. WB's *phyed* and the manuals' *gung*.** WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས»
      where the manuals write «གུང་གཉིས་ཟེར་གཉིས»; are WB's two *phyed* the
@@ -2180,6 +2221,13 @@ the text, not about the app.
      Lha mo tshul khrims), written as WB's own three lines with
      «བཅུ་ཁ་ལོངས་ནས་ཟུར་དུ་མཆོངས» added; for the mewa, Dpal bsdus calls the same leap
      the way of "who wants speed".*
+     *Searched again 2026-11-14 (inv-ss): «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད» three hits,
+     WB's 1996 print (MW2CZ8040), the Gser thang reprint (MW3CN5026) and the
+     Do shal (MW2PD17386), WB's lines only; the snippet's Wylie reads
+     «... mi 'dra'i 'khrul pa 'ga' yod kyang / rin chen ... nas gsal bar
+     gsungs phyir dgag bya'i», a reason given for the refusal (not read on a
+     scan). Nothing ties the leap at each ten to the list either way.
+     Follow-up in q540.*
 
 140. **Answered as far as the sources go, 2026-10-18. KP's colophon and its print.** KP's colophon (img. 119) says the blocks
      were recarved at Lhasa by the printers' community after the earlier
