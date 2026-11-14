@@ -2598,6 +2598,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1236.md](questions/q1236.md) | question q1236 | KP box 42: does «བག་མའི་ལོ་ལག་ཙ་ཀྲ» stand for WB's «གདགས་ཀྱི་ལྷ་དྲུག», and does KP name an earth lord WB lacks? | open; cites kp:i46-57 |
 | [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | open; cites kp:i41 |
 | [questions/q1238.md](questions/q1238.md) | question q1238 | KP boxes 37 and 38 name no earth lord; do WB's works 34 (bathing) and 35 (divination) name any? | open; cites kp:i46-57 |
+| [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | open; cites kp:i34 |
+| [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | open; cites kp:i37 |
+| [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
+| [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
+| [questions/q1243.md](questions/q1243.md) | question q1243 | KP boxes 17 and 20 drop WB's «ལྷ་ལྔ་འཚོག་པ» while box 10 keeps «ལྷ་ལྔ»: why? | open; cites kp:i32 |
+| [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | open; cites kp:i33 |
 
 <!-- end pool index -->
 
