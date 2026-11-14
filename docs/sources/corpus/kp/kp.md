@@ -316,6 +316,80 @@ Read at 4x in single-cell crops (Pillow, 4–9x for the doubtful cells) with Yig
 
 The month chart of KP §14 (BDRC I4CZ65599 labels 93–98, pool img. 91–96, 2550 x 675 px, two framed panels to the page; the first page is read here, the other five only for the machine's list of names), read on the scan at 1.4–4.5x in Pillow crops, with Yigdzin-1 over 3x bands of each panel as a guide for the names, 2026-11-14. Read by eye: the layout and the figures. Each panel is a block of ruled cells round a square frame, in the same plan on every page: a wide column of three or four cells at one side (the left in the left panel; in the right panel it stands at the left too, with the wide cells of the opposite side reversed), a top row of four narrow cells, a bottom row of four, and in the middle the frame, a woodcut figure with a human body and an animal's head, standing in its landscape, with a line of caption in the frame's top and, in narrow cells beside and under it, single words: the cells at the frame's left and right sides hold one to two short words each, the row under it three. The figure of the first panel has a tiger's head and carries a bow (a tiger among flowers), the second panel's a hare's head, with a dragon's body of waves at its feet; so the panels are the months in the order of the cartouches ([kp:i97-100](#kp-i97-100): tiger, hare, dragon …), spring first. The narrow cell at the left of the first panel's frame reads, by eye, «དཔྱིད་ར» (dpyid ra, spring first), not securely, and the one beneath it a short word not resolved; the caption of the first frame's top line is not resolved (a word of the tiger's name with an epithet). The cells hold, after the heading of the panel's wide cells, the names of the month's earth lords, one to three to a cell, some followed by ++ or ×× (the signs not read, perhaps the good and bad marks of the place); the machine's lists above give them in reading order, and are what is NOT read cell by cell: the name's cell, its place on the ring and the nine-number names (the small print at the frame's sides) were not set down. The names are WB's month lords of essence (ch. 31, pp. 199–211): the dragon lord Ga-pa (འབྲུག, the dragon lord of the centre), Tese Grum-bu (ཐེ་སེ་གྲུམ་བུ), the month's luck lord (ཟླ་ཀླུངས), the month itself (ཟླ་དངོས), the earth king (ས་རྒྱལ), the earth medicine (ས་སྨན), Tenma (བསྟན་མ), the old couple (རྒན་རྒོན), the mouse road with the pig head (བྱི་ལམ་ཕག་མགོ), the blue mouse road (བྱི་ལམ་སྔོན་མོ), the nine-headed wolf (འཕར་བ), the slayer of existence (སྲིད་གཤེད), Pi-ling, Zin-phung, Tsang-kun, the guard dog (སྡོམ་ཁྱི), Ngam-pa, Be-sna (བེ་སྣ), the leopard's skin and tail, the great god and great gnyan, the four queens, the hearth god Se-shar, the hal dog (ཧལ་ཁྱི), the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག) and the sky treasury (གནམ་མཛོད). The scan is difficult at the print's size: the dbu-med-like cursive runs words into each other.
 
+## <a id="kp-i91-96b"></a>kp:i91-96b §14 the month chart: the twelve framed panels, names by cell group (machine, with the first panels looked at on the scan)
+
+*Read: machine, 2026-11-14.*
+
+> > > Label 93 (pool img. 91), left panel, the tiger month:
+> > > top row: ༼༡༤༽ གསོར་དབང་། སྲིད་གཤེད། བླ་རྩང་རྩང་མག་སྟག་དཀར་ བྱ་མ། ལྷོ་ཁ་ནུབ ་ ། བབ་
+> > > left half of the middle band: ཆུ་ཚོགས། བབ་ ནང། དྲུག་ཕྱི་སྒོ། ནང་ལྷ་ འབྲུག་ལྷ། ཐེ་སེ་གྲུམ་བུ། གཉན། ཕྱི་ལམ་སྔོ། རྒྱལ་མོ། བྲན་ལྷ། མཇུག ཐབ་སར། བ ཟླ་དངོས། གཟིག་སློག་གནམ་ གཤེད་ས་ཁྱི། རྔམ་པ། བབ་སྦལ་ ཀུབ། མཇེ། སྦོ།
+> > > right half of the middle band: བསྟོད། གཉའ། མཆེག་གཡོན། ཟླ་རླུང་ས་པི་ལིང་། འཕར་བ་ ཕྱི་སྒོ། ནང་ལྷ་དབུས། མགོ། ལྟོ་ས་སྨན། གནམ་མཛོད། འཕྱེ་མགོ། གནག་གོ། མགོ་ནུབ། ཁ། ཧང་བུ། བབ་ སྭོ། ནམ།
+> > > bottom row: བསྟན་མ།འབྲུག ས་རྒྱལ་བཅིུག་ཙ་ང་ ཀེ་ཚིགས་ཟིད།བེ་སྣེ་ད་ཟོར། བྱི་ལམ། འཕར་ ས་དམག།བསས་ཁང་། + སྔོན།སྡོམ་ཁྱི་རལ་བྱི་ལ།ཕག་ལྷ་ཚན།ཧལ་ཁྱ་ཅང་ཀུན མ ཚེ་དབང་།
+> > > Label 93 (pool img. 91), right panel, the hare month:
+> > > top row: ཐོས་གྲུཾ་བུ་བྱི་ཕ་ཕག་ས་ཟླ་རླངས། རྔ་ཐོང་། རྩ་ང་རྩང་མགོ་་་སྲིད་གཤེད། རྣམ་ཐོས། ངྱ་མ། དམག་གནཾ་གཤེད། སའི་བྱི་འཾ་མ། ཆུ་ཚགས། ཕག་མོས། །
+> > > left half of the middle band: ཟླ་དངོས། ས་ཁྱི་། བས་ས་ཁང་ འཕོངས་མཆི། སྨད། ། ཁ་བཤུལ། གཟིག་སློག །རྔ་མ་པ། མཇུག ། ནང་ལྷ་དབུས་ནག་དྲུག་གཡག་རཾ་ འཇུག་ལྷ། གཉན། རྒྱལ་ མོ། བྱི་ལམ་སྔོ། ཐབ་སེར་ ཀ་པ། འབྲུག་སྔོན་བབ་ མཛེ། ། སྥོ། ། ནམ།
+> > > right half of the middle band: ཁ་བཤུལ། སོག་མཆེ། སྟག་དཀར། ཧལ་ཁྱི། བབ་ ག་དྲུག་གཡག་ཤིང་། གཉའ་གན་གོན། མགོ་ནུབ་ མགོ། ལྟོ་འཕྱོ་མགོ། བསྟན་མ། པི་ལིང་། ཤེལ་ ནམ། ཁ། ཁང་། ས་སྨ་ཤ།
+> > > bottom row: ༄༅། །ས་རྒྱལ་བཅུ་གཅིག་བེ་སྣ་གཟིག། ཆོད་དབང་སྡོམ་གྱི ། ཁ་བྱང་། ལྷ་ཆེན། ཧར་བུ། བབ་སྒྲ་ལྷ། གནམ་མཛོད། ཙུན། ཟིད་བླ་མཁྱེན་
+> > > Label 94 (pool img. 92), left panel, the dragon month:
+> > > top row: བླ་དངོས། ས་ཁྱི། འབྲུག་སྔོན་བསྟན་མ། ཧལ་ཁྱི། རྩང་རྩང་མགོ་རྫ་རྔོར་དམར་པོ། ས་དམག་བྱི་ལཾ། ཕག། སྲིད་གཤེད་ གཟིག་སོག། རྔམ་པ་གྲུབ། བསས་ཁང ༣ ལྷོ། ཁ་ནང། ཁྱི་ལཾ་ལྷོ་འཕར་མ་སའི་བྱི་ལ་མ་བླ་མཁྱེན་ཆུ་ཚོགས།
+> > > left half of the middle band: ཀེ་ཚིགས། བེ་སྣ། བང་། མཇུག་མཆོག་ཡས། འཕོངས། ཁ། སྨད། རྔམ་ འབྲུག་ལྷ། རྒན་རྒོན། ས་རྒྱལ་བཅིུག ཀུབ། ཐེ་གླང་བྲེས་བང་། ནང་ལྷོ་རྔམ་ གཟིག་མཛུག་གཉན། ཧལ་ཁྱི། རྒྱལ་ པོ། ཐབ་སར། ཁྱིའི་ཉེ་དུས་ཤར་ལྷོ་མཇེ། ཟླ་རླངས། ཚེ་དབང་།
+> > > right half of the middle band: ཕོངས། ཁ། སྨད། བཤུལ། མཆེ་གཡོན། འཕར་བ། སྦྲ་ལྷ། གསེར་ ག་རང་འཐག །རྡོ་གྲུམ་སོགས། དབང་། ས་བང་། ནང་ལྷོ་སྒོ། སོགས། བྲན་ལྷ། མགོ་ནུབ། གཉའ། རྣམ་ཐོས།
+> > > bottom row: སྭོ། ནམ། ཁ། མགོ།ལྟོ་འཕྱེ་མགོ། ཟིན་ཕུང་། ཙང་ཀུན། ཧ་ད་གནམ་མཛོད ཁ་བྱང་ ཤེལ་ཁང་། པི་ལིང་། སྟག་དཀར། ་ །
+> > > Label 94 (pool img. 92), right panel, the snake month:
+> > > top row: ས་རྒྱལ་བཅིུག་གཟིག། ཟླ་དངོས་ཀཽ་ཚོགས་བཅུག་ལྟ། ཐེ་སེ་རྒྱལ་ རྔ་བྲོར། འབྲུག ། བྱི་ལམ་སྔོ། བསམ་ཁང་། མཇག། མོ་དགུང་ བེ་སྭ། འཕར་མ། ་ །
+> > > left half of the middle band: ༄༅། །ཆ་དང་པང་གཉིས། །ཁྱ་རྔམ་པ། བབ། །བྱ་ལ་གཉན་ཐབ་སར། །
+> > > right half of the middle band: འཕོངས། །སྨད། མཆེག་ཡས། སྲིད་གཤེད། གནམ་གཤེད། ག། ནག་དྲུག། བཤུལ་ཁ། བབ། ང་ ལྷོ་སྒོ། རྩང་རྩང་མགོ་ནུབ། ཁ་བྱང་། སོག། ཆུ་ཚགས། སྦྲ་ལྷ།
+> > > bottom row: ༄༅། །བྱིན། ཉ་པ་ཁྱི་གཞོམ་དང་། ཞོམ། ཁ། མགོ། ལྟོ་འཕྱེ་མགོ། གཉའ། གཡོན། བདེ། ཤེལ་ཁང་། བྱ་མ་རོང་། ས་ག་དཀར། མགོ་གྱང་། བློ་འདས་པི་ལིང་། ས་དམག། གསེར་དབང་།
+> > > Label 95 (pool img. 93), left panel, the horse month:
+> > > top row: །།༼༡༤༽།།གནས་མཛོད་ས་དམག།ཧར་འབྲུག་ལྷ་རྒན་རྒོན་ཟླ་དངོས།བསྟན་མཚེ་ཐེ་སེ་གྲུམ་བུ།ཀེ་ཚིགས་ སྤྲ་ལྷ།བྱ་མ། ་ ། གཟིག།གཉན།
+> > > left half of the middle band: ཤེལ་ཁང་། སྤམ་ཁྱི། ཙང་ཀུན། མཛེ། རྐུབ་མ་ ཟིན་ཕུང་། སྤོ། ནལ་བུ་ཀ་གནག་དྲ་ ལྷ་ཆེན། བྲན་ལྷ། ཁ་ཤར་ནང་ལྷ་ཁྱམས། རྔ་ཟོར། སྟག་དཀར། འཕར་མ། སྒོ། ལྷོ་ག་ བ་བ་ཁ་བ་ཕྱེ་མགོ། བ་ཕྱེ་མགོ།
+> > > right half of the middle band: རྒྱལ་མ། ཐབས་སར། ས་བྱང་ངམ་པ། རྐུབ་མཇུག མཇུག འཕོངས། མཆེ་ཟླ་རླུང་། འཕར་བ་མགོ། ༈ གཡས་འབྲུག་སྔོན། བབ་ནང་ལྷ་ཁྱམས། སྨད། ཁ་རྩང་རྩང་མགོ་ལྷོ། ཁ་བྱང་། བཤུལ། སྲིད་གཤེད། བླ་མཁྱེན། སྒོ། ལྷོ་གཉའ་སོགས། མཆེ་གཡོན། བསས་ཁང་། ++ འཕྱེ་མགོ། གཡོན། གཡོན།
+> > > bottom row: རྣམ་ཐོས། སེའི་བྱི་ལམ། ++ པི་ལིང་། གསེར་ ། མགོ་བྱང་། བྱི་ ། ཆེུ་ཆགས། བེ་སྣ། གནམ་གཤེད། བབ་ དབང་། ས་སྨན་+ ། ལམ་ཕག། ཧལ་ཁྱི། བབ་
+> > > Label 95 (pool img. 93), right panel, the sheep month:
+> > > top row: སྟག་དཀར། བླ་མཁྱེན། ཟིན་བཟླ་རླུངས། ཤེལ་འབྲུག་ལྷ་རྒན་རྒོན། རྒན་མ་མཛོད། ཟླ་དངོས། ནང་ལྷ། ས་རྒྱལ་བརྒྱགས། ཕག་མོ་བ། བྲན་ལྔ་རྒྱལ་མོ། གཉན་ཐབ་ས་ར། མགོ་གཉན་ཐབ་ས་ར། གཉན་ཐབ་ས་ར།
+> > > left half of the middle band: ༄༅། །ལྔར་ཁྱབ་པར་ཉ་དུས། བྱི་ལམ་སྔོན་པོ། རྣམ་ཐོས། སྦོ། མང་དེ། རྐུབ། འཕར་མ། སྦྲ་ལྷ། སྡོམ་ཁྱི། ++ ནམ་མགོན་ཁང་སྐ་ནལ་བུ་བཟང་ ཁ་ཤར། ལྷ་ཆེན། བྱི་ལམ་སྔོ། ནམ་འབབ་འོག་ནག་དུག་གཞོད་པ་ གསེར་དབང་། ++ ཁ། གསེར་དབང་། ++ མགོ་ལྷོ་འཕྱེ་གཉའ་། སོག།
+> > > right half of the middle band: མཇུག རྔམ་པ། བྱ་མ། བབ་ ངེ། རྐུབ། མཇུག མཚེ་བསྟན་མ། ཚེ་དབང་། ཧལ་ཁྱི་ ན་ཁང་སྐ་ནལ་བུ་འབྲུམ་འཕོངས། བ། ཐེ་སེ། རྩང་རྩང་མགོ་ནུག་པ་ སྨད། བྱང་། བཤུལ། མཚོ་གེ་ཚིགས། བབ་
+> > > bottom row: རྔ་ཟོར། པི་ལིང་། ཆུ་ཚགས། གནམ་མགོ་བྱང་། འཕར་བ་མགོ་སྲིད་གཤེད། འབྲུག་སྔོན། ཕོ་བ་ ས་སྨན། བེ་སྣ། བྱི་ལམ་ཕག། གཤེད་བ་བ། བསམས་ཁང་། ས་དམག་
+> > > Label 96 (pool img. 94), left panel, the monkey month:
+> > > top row: ཀྱི་ལམ་སྤོ། གསར་དབང་། རྣམ་ཐོས། ཟིན་། ལྷ་ཆེན། སའི་། སྟག་དཀར་སྡོམ་། ཤེལ་ཁང་། ཕུང་། ཙང་ཀུན། བྱི་ལཾ། ཁ་ལྷོ། བྱི་། ཁི། བབ་
+> > > left half of the middle band: འབར་མ། + X ཧལ་ཁྱི། + X །ལཾ་ཕག་མ་བ་ བསྟན་མ། འཕར་བ། ནམ། སྦ། མ བེ་སྣ། བབ ཆུ་ཚགས། ཁ། ནང་ལྷ་ཁྱམས་ན གྲི། ནལ་བུ་ཕྱི་སྒོ མགོ་ཤར། མགོ་ལྟོ་འཕྱེ་ མགོ། ལྟོ་འཕྱེ་ ཟླ་རླུངས། པི་ལིང་། ས་དམག་ གནམ་གཤེད། ས་སྨན། མཆེ་སོག་ཁ། བI
+> > > right half of the middle band: ལཾ་ཕག་མག། །། དངོས། ས་ཁྱི། གནམ་ སྦ། མཇེ། རྐུབ། ཟླ་དངོས། ས་ཁྱི། གནམ་ མཛོད། གཟིག་སློག རྔམ་པ། ད་ལྷ་ཁྱམས་ནག་དྲུག མཇུག་ བཟུག་ལྷ། ཐེ་སེ་གྲུམ་བུས་ རྒྱལ་བཅིུག། ཐབ་སེར། རྒྱལ་མོ། འཕོངས་ ཟན་ལྷ། གཉན། གཟིག་མཇུག། ཧང་བུ། བབ་ བ་
+> > > bottom row: གནམ་གར། སེམས། གཡན་གཟན། ཁ་ཤར། བ་བ་ ར་ཟོར། བསས་ཁང་། འབྲུག་སྔོན། རྒན་རྒོན། རྩང་སྲིད་གཤེད། བླ་ཚེ་དབང་། བྱམས་ཆ སྦྲ་ལྷ། བབ་ཁ་ཤར། བབ་བ་
+> > > Label 96 (pool img. 94), right panel, the bird month:
+> > > top row: ཁ་ལྷོ། གསེར་དབང་། ཙང་། བསྟན་མ། རྔ་ཟོར། འཕར་པ་ བྱ་མ། བབ་། ལྷ་ཆེན། ཕུང་། སྒ་ལྷ། བླ་། བེ་སྣ། རྣམ་ཐོས།
+> > > left half of the middle band: མཁྱ ལིང་། ས་སྨན། བསས་ཁ། ནམ། སྔོ། ཁང་། མག། ལྟོ་ནལ་བུ་ནང་སྒོ་ནག་དྲུག་ སྡེར། ནང་ལྷ་ མགོ་ཤར། འཕྱེ་མགོ། ཁྱམས་ གཉའ། གཉའ། བྲུག་སྡེན། ཧལ་ཁྱི། བབ་ སོག། མཆེ་བཤུལ་ཁ་སྨད།
+> > > right half of the middle band: སྔོ། མཇེ། སྟག་དཀར། ས་དམག །བབ་ སྒོ་ནག་དྲུག །རྐུབ། ཐབ་སེར། འབྲུག་ལྷ། རྒྱལ་མོ་ ཁྱམས་ མཇུག །གཉན། ཟླ་དངོས། ས་ཁྱི། གཟིག་སློག་ ཁ་སྨད། འཕོངས། མཆེ་རྔམ་པ། ཤེལ་ཁང་། ++
+> > > bottom row: གེ་ཚིགས། བབ་ I སྲེད་གཤེད། རྒན་རྒོམ་བྲན་བུ་རྩང། ཟླ་རླུངས། བྱི་ལམ། ཐེ་སེ་གུམ་བུ། ས་རྒྱལ་བཅུ་གཅིག ཚེ་དབང་ ཤར། བྱ་ལམ། འཕར་མ། གནཾ་མཛོད། ས་འབྱི་ལཾ། གཟིུག།
+> > > Label 97 (pool img. 95), left panel, the dog month:
+> > > top row: ༄། ༼༡༦༽ ས་དམག། པི་ལིང། བསས་ཁང་། ཁ་ལྷོ། གནམ་གཤེད། རྫ་ཟོར། ཟིན་ཕུང་། ཆུ་ བསྟ་
+> > > left half of the middle band: འབྲུག་སྔན། བྱ་མ། ས་སྨན། ཐབ་སར། ཆ། ལྷ་ཆེན། ཁ། ན་ར། ཀེ་ཚིགས། བབ་བ། འཕྱ་མགོ། ལྷོ་ཁ། ན་ར། ནང་ལྷ་སྐྱེད་བུ། ནལ་ཁྱང་བུང་། ནག། མགོ་ཤར། བྱིལ་མ་ཕག བྲན་ལྷ། སོག། ཚེ་དབང་། བཤུལ་མཆེ་གཡོན། ཁ་འཕོངས།
+> > > right half of the middle band: ཉ་ཆེན། སྡོམ་ཁྱི། པ་བ། ཆགས། པ་བ། ཅང་ཀུན། ནས། སྤོ། ཟླ་རླུང་། གསེར་དབང་། + སྒྱེད་བུ། ནལ་ཁྱང་དུང་། མཛེ། འབྲུག་ལྷ་རྒན་རྒོན། གཉན། རྒྱལ་ རྩག་ཡ་ཐམ། ནག། འབྲུག་ལྷ་རྒན་རྒོན། གཉེན། གཉན། རྒྱལ་ པོ་ཐབ་སེར་ཝང་ཁྱི་འབྲུག་གི་ཉི་དུས་ནུབ་ བལྟ། རྐུབ། རྣམ་ཐོས། ++ སྲིད་ཁ་། འཕོངས། མཇུག མཆེ་ གཡས།
+> > > bottom row: སྲིད་གཤེད། བླ་མཁྱེན། ཧང་བུ། ཕྱི་ལམ་སྡེ། གནམ་ས་རྒྱལ་བཙུག །རྩང་། བསྟན་པ། བེ་སྣ། ཟླ་དངོས། འཕར་བ། སྟག་དཀར། བྱི་ལམ་ བ། བབ། གཟིག་མཛུག ཧལ་ཁྱི། ས་ཁྱི། གཟིག་སྤོག །བ་འཇམ་པ། གཅིག་
+> > > Label 97 (pool img. 95), right panel, the pig month:
+> > > top row: ༄༅། །ཟླ་རླུངས། པི་ལིང་ཕག་མགོ། རྒན་ཀ་འབྲུག་སྔོན། བ་བ་རྔ་དྲོར། ས་སྨག། ས་སྨན། ཀེ་རྒོན། མགོ་ལྷོ། བ་མ། བསས་ཁང་། བ་མ།
+> > > left half of the middle band: ཆགས། བབ། བྲན་ལྷ། ། གཉའ་མཆེ་མགོ། ལྷོ་ཁ་ཧང་བུ། བབ་གཡོན། བརྒྱ་མགོ། སོག་ཁ། ནང་ལྷ་སྒྱེང་བུ། གཟིག་མཇུག་སྒོ་ནག་དྲུག་འཛར། ནལ་བུ་ རྩང་། མགོ་ཤར། ཁ་ལྷོ། བཤུལ། གཤེད། གནམ་མཛོད། སྨད། མཆེ་འཕོངས། མཇུག
+> > > right half of the middle band: ༄༅། །ཁ་ ནམ་ འཕར་བ། ཙོན། གནམ་གཤེད། ཧལ་ཁྱི། ཟིན་ཕུད། བླ་མཁྱེན། བབ་ འཛར། ནལ་བུ་ ཁ་ནུབ། ལྷ་ཆེན། མཛེ། ཆུ་ཚགས། སྡོམ་ཁྱི། བབ་ མཇུག ། རྐུབ།
+> > > bottom row: འབྲུག་ལྷ། ཐེ་སེ། ཟླ་དངོས་ས་ཁྱི། རྣམ་ གསེར་དབང་། སྒྲ་ལྷ་ཤལ་ཁང་སའི་བྱི་ལི་བེ། ཕབ། བྱི་ལམ་ཕག་གཉན། རྔམ་པ།
+> > > Label 98 (pool img. 96), left panel, the rat month:
+> > > top row: ༄༅། །གནམ་མཛོད་ ་བ། ཧལ་ཁི། མགོ་ལོ། པི་ལིགས་སུར། ཀེ་ཚིགས། སའི་བི་ལམ། པི་ས་རལ་ བ། གནམ་མཛོད་ ་བ། ཧལ་ཁ་ཁི། མགོ་ལོ། པི་ལིང་ས་སུར། ཀེ་ཚིགས། སའི། བི་ལམ། པི་
+> > > left half of the middle band: ཆེ་ཚ་བ་བ་མགོ་ལྷོ་ བྲེད་གཤེད། བླ་མཁྱེན། སོགས། མཆེ་གཉའ། མགོ་ལྷོ་ ཤེལ་ཁང་། ++ བསྣ། བཤུལ། ཁ། གཙུག།རྒྱ་སྲང་། ནག་བདབ། ནང་ཐག ནལ་སྒྱེད་རྡོ། ང་རྩང་མགོ་ཤར། ཁ་ལྷོ། སྨད། རླུངས། སྟག་དཀར། བབ་འཕོངས། མཆེ་མཇུག རྐུབ།
+> > > right half of the middle band: ཚེ་དབང་། ++ལམ་ཕག་མགོ །བབ་སྟང་ཟོར། འཕྱ་མགོ །ལྷོ་ཁ། རྔ་ཟོར། འཕར་མ། འབྲུག །རྔ་ཟོར། འཕྱ་མགོ །འཕྱ་མགོ །འཕྱ་མགོ །རྔ་ཟོར། འཕྱ་མགོ །རྔ་ཟོར། འཕྱམགོ །འཕྱ་མགོ །རྔ་ཟོར ། འཕྱ་མགོ །རྔ་ཟོར ། བབ་སྔོན། བབ་ནག །རྔ་ཟོར། ནག་བདུབ། ནག་བདུབ། ནག །ནག །རྔ་ཟོར། ནག །ཁ་ནུབ། ལྷ་ཆེན། བྲན་ལྷ། ནག་མོ། ཤར། ཤར། བྱི་ལམ། སྔ། སྡོམ་ཁྱི། ཙང་ཀུན། གསེར་རྐུབ། མཛེ། བསས་ཁང་། ++༴ཟིན་ཕུང་།
+> > > Label 98 (pool img. 96), right panel, the ox month:
+> > > top row: བར་གཟིགས་ཤིང་གཤེགས་པ་འབྲེལ་ཁ་ན། དགེའོ། །
+> > > left half of the middle band: ག་དཀར། བབ་ན་འཕྱན་ན་མཐོས། བཤུལ། མཆི་སོགས། གཉའ། མགོ། རྣམ་ཐོས། ཁ། ཅང་ཐབ་ཐ་གྲུམ་འགྲམ་ནལ་བྱང་། ཁ་ རྡོ། ནག་དྲུག་ཁང་། གཟུག་དུར་ས། རྩང་རྩང་མགོ་ འཕོངས། ཁ་ལྷོ། ཁ་ལྷོ། ཧ་ལ་ཁ་ལ་ཁ་ལ་ཁ་ལ་ཁ་ལ་ དབང་། ཧ་ལ་ཁི། ་མཆེ་རྐུབ། མཛེ། །
+> > > right half of the middle band: ༄༅། །གནམ་མང་དང་། བ་ལང་། བྲ་བྷ། ས་སྨན། པ་སྣ། ཧང་བུ། སྟག་གཟིག། བབ་ བའ། མགོ། ལོ་ ཚེ་དབང་། པ་ནལ་བྱང་། ཁ། ཁ་ནུབ། སའི་བྱི་ལམ། ལྷ་ཆེན། ནམ། བྱི་ལམ་སྡོ། འཕར་མ། སྡོམ་ཁྱི།
+> > > bottom row: གཡས། ། བ། འཕར་བ། ཀེ་ཚིགས། བབ བསྟན་མ། ས་དམག། ས་ཁྱི་གནམ་བྱེད། བྲན་ལྷ་བྱ་ལ་ཕག། རྒྱལ་ཟླ་རླུངས། འབྲུག་སྔོན། ཙང་ཀུན། ཟིན་ཕུང་ ག། ཆུ་ཚགས། རྔཾ་པ་བྱ་མ། གཤེད། བབ་མོ། ཝང་ཁྱེ་ལུག་ཉི་དུས་བྱང་བསས་ཁང་། བླ་མཁྱེན། བབ་
+
+> > The twelve framed month panels of KP §14 (BDRC I4CZ65599 labels 93–98, pool img. 91–96, two panels to the page, the left panel the first of the pair in the order tiger, hare | dragon, snake | horse, sheep | monkey, bird | dog, pig | rat, ox, the order of the cartouches of kp:i97-100). Each page was cut into bands per panel (the top row; the middle band in a left and a right half; the bottom row) and read with Yigdzin-1; the bands list the names of the cells in reading order, with the cell boundaries lost, and the signs ++ and ×× dropped. Words the machine runs together or garbles are left as it gave them. The cells that were also looked at on the scan at 3x (the tiger panel's whole left half, the dragon panel's left half, the snake panel's top row) agree with the lists in the words they name, but are not a full reading; the list as a whole is the machine's, not the scan's.
+>
+> The words that recur in the lists, as far as the scan and WB identify them:
+>
+> - The lords of WB vol. 2 ch. 31 (pp. 199–221), in WB's names: the dragon lord Ga-pa (འབྲུག་ལྷ, 'brug lha), Thé-se Grum-bu (ཐེ་སེ་གྲུམ་བུ), the month's luck lord (ཟླ་ཀླུངས, zla klungs), the month itself (ཟླ་དངོས, zla dngos), the earth king (ས་རྒྱལ, sa rgyal) and the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག), the earth army (ས་དམག, sa dmag), the earth medicine (ས་སྨན, sa sman), Tenma (བསྟན་མ, bstan ma), the old couple (རྒན་རྒོན, rgan rgon), the servant gods (བྲན་ལྷ, bran lha), the mouse roads (བྱི་ལམ, byi lam), the nine-headed wolf (འཕར་བ, 'phar ba), the slayer of existence (སྲིད་གཤེད, srid gshed), Pi-ling (པི་ལིང), Zin-phung (ཟིན་ཕུང), Tsang-kun (ཙང་ཀུན), the guard dog (སྡོམ་ཁྱི, sdom khyi), Ngam-pa (རྔམ་པ), Be-sna (བེ་སྣ), the leopard's skin and tail (གཟིག་སློག, གཟིག་མཇུག), the great god (ལྷ་ཆེན), the four queens (རྒྱལ་མོ), the hearth god Se-shar (ཐབ་སེར, thab ser, the machine's spelling of ཐབ་ལྷ་སེ་ཤར), the hal dog (ཧལ་ཁྱི), the belly-crawler (ལྟོ་འཕྱེ, lto 'phye) and the circling rtsang rtsang (རྩང་རྩང་, with «མགོ» mgo, head, and «ཁ» kha, mouth, each followed by a quarter: «མགོ་ནུབ», «ཁ་བྱང་»), and the sky treasury (གནམ་མཛོད, gnam mdzod).
+> - WB's six gods of the yellow-black sky line (the earth lords 23–28, year-month-earth-lords.md): the «བསས་ཁང» (the machine writes «བསས་ཁང» and «བསམ་ཁང»; WB's «གསས་ཁང»), the gold lord (གསེར་དབང, gser dbang), the sky treasury (གནམ་མཛོད), the glass house (ཤེལ་ཁང, shel khang), Vaiśravaṇa (རྣམ་ཐོས, rnam thos) and the lord of life (ཚེ་དབང, tshe dbang).
+> - WB's six black ones of the shadow, of which «ཀེ་ཚིགས» (ke tshigs) is one, and the water-gathering (ཆུ་ཚོགས, chu tshogs).
+> - «བབ» (bab, "falls", "descends"; the sense here is not settled) ends many cells.
+> - The cells of a lord's time of day: the dragon panel has «ཁྱིའི་ཉེ་དུས་ཤར» (the dog's time, east), the dog panel «འབྲུག་གི་ཉི་དུས་ནུབ» (the dragon's time, west), the ox panel «ལུག་ཉི་དུས་བྱང» (the sheep's time, north); the words are those of WB's Wang-khyi (ཝང་ཁྱི), the ride of the last month of each season (ch. 31 no. 49, p. 210).
+
 ## <a id="kp-i97-100"></a>kp:i97-100 §15 the month chart: twelve lotus cartouches with the animal of the month
 
 *Read: scan, 2026-11-14.*
