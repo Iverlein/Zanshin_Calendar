@@ -628,6 +628,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
 | [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
 | [claims/kp-sky-doors-same-pairs-as-wb.md](claims/kp-sky-doors-same-pairs-as-wb.md) | claim, note | KP §18: the sky doors are WB's pairs, each with a remedy; the two headings the machine read differently agree with WB on the scan | cites kp:i114-116, wb.2:p365-368; feeds T2.28 |
+| [claims/kp-year-ring-offsets-against-wb.md](claims/kp-year-ring-offsets-against-wb.md) | claim, table | KP's year ring: the lords keep WB's offsets from the year in six panels; Se-lo, Phe'u and Kungs-myul do not | cites kp:i87b, kp:i87c, kp:i88c, wb.2:p177-189; feeds RD4 |
 | [claims/kp-year-ring-rat-panel-against-wb.md](claims/kp-year-ring-rat-panel-against-wb.md) | claim, table | KP's year ring, Rat panel: thirteen lords in WB's places, four differ | cites kp:i87b, wb.2:p177-189; feeds RD4 |
 | [claims/ktd-dudjom-dreams-and-their-times.md](claims/ktd-dudjom-dreams-and-their-times.md) | claim, note | Dudjom Rinpoche's dreams in his biography carry their hour (dawn, evening), day (tenth, fourteenth, fifteenth) and repeats (KTD) | cites ktd:i181-184, ktd:i185-187; feeds RD363 |
 | [claims/ktd-name-given-by-dakini-in-father-dream.md](claims/ktd-name-given-by-dakini-in-father-dream.md) | claim, note | Dudjom Rinpoche's name from his father's dream before the birth; birth on the tenth day (KTD) | cites ktd:i36-37; feeds RD363 |
@@ -1472,7 +1473,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 12 passages: 3 scan, 9 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 14 passages: 5 scan, 9 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |

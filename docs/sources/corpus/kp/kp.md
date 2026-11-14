@@ -58,6 +58,48 @@ T1: the heading «§13» (the cell's second word is not resolved). T2: Hal-khyi'
 
 Doubtful on the scan and left out of the Tibetan above: the second word of T1; the epithet after «བླ་མཁྱེན» in B2's third line and B2's fourth line; the spelling of the names in B2 to B4 is as the print's cursive allows (Yigdzin-1 over the strips gave the same names, spelled rougher).
 
+## <a id="kp-i87c"></a>kp:i87c §13 the earth lords of the year: the Ox and Tiger panels read cell by cell
+
+*Read: scan, 2026-11-14.*
+
+> (Ox panel; cells in ring order: T1–T4 the top row from the left, R1–R2 the right column from the top, B4–B1 the bottom row from the right, L2–L1 the left column from the bottom)
+> 
+> T1  སེ་ཤར། ཟིན་ཕུང།
+> T2  (empty)
+> T3  ཀུངས་མྱུལ།
+> T4  སེ་བ་བླ་མཁྱེན། སེ་བྱི། བླ་མཁྱེན་ཕེའུ། ཝང་གིང་།
+> R1  (empty)
+> R2  རང་རྟ། རྟ་ཁྲིད། (the rest of both lines not resolved)
+> B4  བླ་མཁྱེན་ནང། ཙང་ཀུན་འཕྱེའོ།
+> B3  ཐེ་ཁྱིམ། བློན་པོ། ཙང་ཀུན།
+> B2  སེ་བྱ་དུས་འཛིན། བླ་མཁྱེན་གསང།
+> B1  ཐེ་སེ་རྒྱལ་པོ། ཧང་ནེ། གདན་འདིངས། (fourth line not resolved)
+> L2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ།
+> L1  ས་རྒྱལ་བཅུ་གཅིག
+> 
+> (Tiger panel; same order)
+> 
+> T1  སེ་བྱི། (second name not resolved) བླ་མཁྱེན་ཕེའུ།
+> T2  སེ་ལོ་ས་འཕྱག
+> T3  བླ་མཁྱེན་ནང།
+> T4  ཟིན་ཕུང། ས་རྒྱལ་བཅུ་གཅིག
+> R1  སེ་བ་བླ་མཁྱེན། ཏེ་སོ་སྲས་པོ།
+> R2  (empty)
+> B4  རང་རྟ། རྟ་ཁྲིད། བྱ་ར་བ། ཙང་ཀུན་འཕྱེའོ།
+> B3  ཧལ་ཁྱིའི་བུ་མོ། མག་པ།
+> B2  ཐེ་ཁྱིམ། བློན་པོ། ཙང་ཀུན།
+> B1  སེ་ཤར། ཀུངས་མྱུལ། སེ་བྱ་དུས་འཛིན།
+> L2  ཐེ་སེ་རྒྱལ་པོ། (the second line, with Hang-ne and the seat-spreader, in part)
+> L1  ཝང་གིང་དམར་པོ། པི་ལིང། བླ་མཁྱེན་གསང།
+
+The Ox and Tiger panels of KP's year chart (§13), the second and third panels of the first page of the chart, read cell by cell on the scan (BDRC I4CZ65599 label 89, pool img. 87) at 2.7x in four strips a panel, 5–8x for the doubtful cells, Yigdzin-1 over the 3x strips as a guide (it gave the names of the cells it read, most of them the same, and no cell places), 2026-11-14. Each panel is the ring of twelve cells of the Rat panel ([kp:i87b](#kp-i87b)); the animals' places in the ring are the same in every panel (T1 the Dragon, T2 the Snake, T3 the Horse, T4 the Sheep, R1 the Monkey, R2 the Bird, B4 the Dog, B3 the Pig, B2 the Rat, B1 the Ox, L2 the Tiger, L1 the Hare), so each cell is the place of one animal and the cell of the year's own animal holds the king. The Ox panel spans the page's x 890–1610, the Tiger panel x 1610–2330 of the 2550-px scan.
+
+Ox panel. T1, the Dragon: Se-shar (སེ་ཤར, se shar) and Zin-phung (ཟིན་ཕུང, zin phung). T2: empty. T3, the Horse: Kungs-myul (ཀུངས་མྱུལ, kungs myul). T4, the Sheep: the life-spirit knower of the se (སེ་བ་བླ་མཁྱེན, se ba bla mkhyen) and Se-byi (སེ་བྱི, se byi) on the first line, the life-spirit knower Phe'u (བླ་མཁྱེན་ཕེའུ, bla mkhyen phe'u) and Wang-ging (ཝང་གིང, wang ging) on the second. R1: empty. R2, the Bird: two lines of which the Se'u Rang-rta (རང་རྟ, rang rta) and the horse-leader (རྟ་ཁྲིད, rta khrid) are read; the other syllables (a life-spirit knower or the minister Tsang-kun) are not resolved. B4, the Dog: a life-spirit knower whose epithet reads «ནང» (nang, the inner one) with a word after it that is not resolved, and Tsang-kun the splitter (ཙང་ཀུན་འཕྱེའོ, tsang kun 'phye bo). B3, the Pig: the queen Te-khyim (ཐེ་ཁྱིམ, the khyim) with the minister (བློན་པོ, blon po) on line 1 and Tsang-kun on line 2. B2, the Rat: the time-holder Se-bya (སེ་བྱ་དུས་འཛིན, se bya dus 'dzin) and the life-spirit knower Gsang (བླ་མཁྱེན་གསང, bla mkhyen gsang). B1, the Ox: the king Te-se (ཐེ་སེ་རྒྱལ་པོ, the se rgyal po), Hang-ne (ཧང་ནེ, hang ne), the seat-spreader (གདན་འདིངས, gdan 'dings), and a fourth line not resolved at 8x. L2, the Tiger: Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo) and the son-in-law (མག་པ, mag pa). L1, the Hare: the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག, sa rgyal bcu gcig).
+
+Tiger panel. T1, the Dragon: Se-byi, a second name not resolved (the machine read «ནོར་སྤུངས»), and the life-spirit knower Phe'u. T2, the Snake: Se-lo Sa-'phyag (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag). T3, the Horse: the life-spirit knower Nang (བླ་མཁྱེན་ནང, bla mkhyen nang). T4, the Sheep: Zin-phung and the eleven earth kings (the name «ས་རྒྱལ་བཅུ་གཅིག» broken across the two lines). R1, the Monkey: the life-spirit knower of the se and Te-so the king's son (ཏེ་སོ་སྲས་པོ, te so sras po). R2: empty. B4, the Dog: the Se'u Rang-rta, the horse-leader, the watchman (བྱ་ར་བ, bya ra ba; the name is broken across two lines) and Tsang-kun the splitter. B3, the Pig: Hal-khyi's girl and the son-in-law. B2, the Rat: the queen Te-khyim with the minister Tsang-kun (the second line reads «ཙང་ཀུན»). B1, the Ox: Se-shar, Kungs-myul and Se-bya the time-holder. L2, the Tiger: the king Te-se on line 1; line 2, partly read, begins Hang-ne and the seat-spreader. L1, the Hare: Wang-ging the red (ཝང་གིང་དམར་པོ, wang ging dmar po), Pi-ling (པི་ལིང, pi ling) and the life-spirit knower Gsang.
+
+Doubtful on the scan: Ox T4's second line, which could be read Phe'u with Wang-ging only because the shapes agree with WB's rules; the Ox R2 and B4 lines named above; the Tiger T1 second name; the fourth line of Ox B1. Where a doubtful word is left out of the Tibetan above it says so there.
+
 ## <a id="kp-i88b"></a>kp:i88b §13 the earth lords of the year: the Hare and Dragon panels in part; the layout of the pages up to img. 100
 
 *Read: scan, 2026-11-14.*
@@ -68,6 +110,61 @@ Doubtful on the scan and left out of the Tibetan above: the second word of T1; t
 The year chart's second page (§13, BDRC label 90, pool img. 88: the Hare, Dragon and Snake years by their drawings) and what of it was read cell by cell. Hare panel, top row: Kungs-myul (ཀུངས་མྱུལ, kungs myul); Te-so the king's son (ཏེ་སོ་སྲས་པོ, te so sras po); Se-lo the sweeper of the earth (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag); the watchman (བྱ་ར་བ, bya ra ba) with Pi-ling (པི་ལིང, pi ling). Dragon panel: T2 Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo) with the son-in-law (མག་པ, mag pa); T3 empty; L1 Se-byi (སེ་བྱི, se byi) with the time-holder (དུས་འཛིན, dus 'dzin); L2 the queen Te-khyim (ཐེ་ཁྱིམ, the khyim) with Te-so.
 
 The rest of img. 88 (the Hare's side columns and bottom row, the Dragon's right column and bottom row, the whole Snake panel) was seen on the scan at 3.1x but not set down cell by cell: the names are the same ones as in the Rat panel, in other cells, but their placing was not checked line by line. The pages after it, read for their layout only: img. 89 (label 91) the Horse, Sheep and Monkey panels and img. 90 (label 92) the Bird, Dog and Pig panels, of the same ring of twelve cells; so §13 is the twelve years over four pages, three panels each. Img. 91–96 (labels 93–98) are another chart, two panels to the page, each a small drawing in a frame (an animal-headed figure, the Rat's, the Ox's and on) set in a block of cells of finer print with the nine-number names beside the frame and rows of short entries above and below, twelve panels in six pages; img. 97–100 (labels 99–102) are a third, three lotus-shaped cartouches to the page, each with one large letter or word in its middle and the cells round it, twelve panels in four pages. Their cells were not read.
+
+## <a id="kp-i88c"></a>kp:i88c §13 the earth lords of the year: the Hare, Dragon and Snake panels, the rest
+
+*Read: scan, 2026-11-14.*
+
+> (Hare panel, the cells not in kp:i88b; ring order as in kp:i87c)
+> 
+> R1  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། (a third word not resolved)
+> R2  སེ་བ་བླ་མཁྱེན། ས་རྒྱལ་བཅུ་གཅིག
+> B4  སེ་ཤར། ཙང་ཀུན་འཕྱེའོ།
+> B3  རང་རྟ། རྟ་ཁྲིད།
+> B2  (two lines, not resolved; the first may read ཝང་གིང་དམར་པོ)
+> B1  ཐེ་ཁྱིམ། སེ་བྱི། དམག་དཔོན། (read in part) བླ་མཁྱེན་ཕེའུ།
+> L2  སེ་བྱ་དུས་འཛིན། བླ་མཁྱེན་གསང།
+> L1  ཐེ་སེ་རྒྱལ་པོ། (three lines, read in part)
+> 
+> (Dragon panel, whole)
+> 
+> T1  ཐེ་སེ་རྒྱལ་པོ། གདན་འདིངས། (three lines, blotted, read in part)
+> T2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ།
+> T3  (empty)
+> T4  སེ་ཤར། ཟིན་ཕུང། (read in part)
+> R1  (empty)
+> R2  བྱ་ར་བ། པི་ལིང།
+> B4  སེ་བ་བླ་མཁྱེན། སེ་བྱི། བླ་མཁྱེན་ཕེའུ། …འཕྱེའོ།
+> B3  ས་རྒྱལ་བཅུ་གཅིག
+> B2  བླ་མཁྱེན་ཕེའུ(?)། བླ་མཁྱེན་ནང། རང་རྟ། རྟ་ཁྲིད།
+> B1  ཀུངས་མྱུལ། ཙང་ཀུན། (three lines, read in part)
+> L2  ཐེ་ཁྱིམ། ཏེ་སོ་སྲས་པོ།
+> L1  སེ་བྱ་དུས་འཛིན།
+> 
+> (Snake panel, whole)
+> 
+> T1  སེ་ཤར། (a second name not resolved) དམག་དཔོན།
+> T2  ཐེ་སེ་རྒྱལ་པོ། (three lines, read in part)
+> T3  བླ་མཁྱེན་གསང།
+> T4  སེ་བྱི། བླ་མཁྱེན་ཕེའུ། ཀུངས་མྱུལ།
+> R1  སེ་ལོ་ས་འཕྱག
+> R2  བླ་མཁྱེན་ནང། (the first line not resolved)
+> B4  ས་རྒྱལ་བཅུ་གཅིག
+> B3  སེ་བ་བླ་མཁྱེན། ཏེ་སོ་སྲས་པོ། པི་ལིང།
+> B2  (empty)
+> B1  རང་རྟ། རྟ་ཁྲིད། བྱ་ར་བ། ཙང་ཀུན་འཕྱེའོ།
+> L2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། (a third word, perhaps ཁྱི་མགོ)
+> L1  ཐེ་ཁྱིམ། བློན་པོ། ཙང་ཀུན།
+
+The rest of the year chart's second page (§13, BDRC label 90, pool img. 88), read cell by cell on the scan at 2.6–2.9x in four strips a panel and 6–8x for single cells, 2026-11-14, with Yigdzin-1 over the strips as a guide for the first Hare cells only. The page's panels: Hare x 200–890, Dragon x 890–1600, Snake x 1600–2330 of the 2550-px scan; the cells in the ring order of [kp:i87c](#kp-i87c). [kp:i88b](#kp-i88b) holds the Hare's top row and the Dragon's four cells; what it read is confirmed here, and the cells it left are set down.
+
+Hare panel, the rest. R1, the Monkey: Hal-khyi's girl and the son-in-law, with a third word not resolved. R2, the Bird: the life-spirit knower of the se and the eleven earth kings. B4, the Dog: Se-shar and Tsang-kun the splitter. B3, the Pig: Se'u Rang-rta and the horse-leader. B2, the Rat: two lines not resolved at 8x. B1, the Ox: the queen Te-khyim with Se-byi on line 1, a second line read as the general (དམག་དཔོན, dmag dpon) in part, a third that ends with the life-spirit knower Phe'u. L2, the Tiger: the time-holder Se-bya and the life-spirit knower Gsang. L1, the Hare: the king Te-se on line 1, then two lines read in part.
+
+Dragon panel. T1, the Dragon: the king Te-se and the seat-spreader, a three-line cell blotted in the print, read in part. T2: Hal-khyi's girl and the son-in-law. T3: empty. T4: Se-shar and Zin-phung, in part. R1: empty. R2, the Bird: the watchman (བྱ་ར་བ) and Pi-ling. B4, the Dog: the life-spirit knower of the se and Se-byi on line 1, the life-spirit knower Phe'u on line 2, a third line ending «འཕྱེའོ» ('phye bo). B3, the Pig: the eleven earth kings. B2, the Rat: three lines, the third the Se'u Rang-rta and the horse-leader, the second the life-spirit knower Nang, the first a life-spirit knower (Phe'u?) read in part. B1, the Ox: three lines, the first ending with Kungs-myul, the second beginning with the end of that name and ending with Tsang-kun, the third a life-spirit knower. L2, the Tiger: the queen Te-khyim and Te-so. L1, the Hare: Se-bya the time-holder.
+
+Snake panel. T1, the Dragon: Se-shar with a second name not resolved, and the general. T2, the Snake: the king Te-se, a three-line cell read in part. T3, the Horse: the life-spirit knower Gsang. T4, the Sheep: Se-byi and a life-spirit knower on line 1, Phe'u and Kungs-myul on line 2. R1, the Monkey: Se-lo Sa-'phyag. R2, the Bird: the life-spirit knower Nang on the second line, the first not resolved. B4, the Dog: the eleven earth kings (the name broken across two lines). B3, the Pig: the life-spirit knower of the se, Te-so and Pi-ling. B2, the Rat: empty. B1, the Ox: the Se'u Rang-rta, the horse-leader, the watchman (the name broken across two lines), Tsang-kun the splitter. L2, the Tiger: Hal-khyi's girl and the son-in-law, a third word on line 2 perhaps Tsang-kun the dog-headed. L1, the Hare: the queen Te-khyim, the minister and Tsang-kun.
+
+What is not read: the second lines of the Hare B2 and L1 cells, the Dragon T1 and B1 cells, the Snake T1 and R2, and the epithets the print abbreviates; they are marked in the Tibetan above. The pages up to img. 100 stand as described in [kp:i88b](#kp-i88b); the Horse to Pig panels (img. 89–90) are read elsewhere.
 
 ## <a id="kp-i101"></a>kp:i101 §16 the earth lords of the day: the hearth god's seats and whom the day harms
 
