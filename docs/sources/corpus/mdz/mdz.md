@@ -820,6 +820,53 @@ Searched and not found (RD400), 2026-11-11: (1) a table of the days a dream is n
 
 Entry "First dream" (初夢, hatsuyume) of the Shiori-gusa, right page of the spring volume, printed leaf 7, read on the page image at 6700 px. It opens with the boxed source label 紀事 (Kiji): "The first dream means, in general, the dream from the night of the last day of the year to the dawn of New Year's Day." Then, read in part, a note on the phrase "the year ends, spring is to come" with a poem attributed to Saigyo, and a sentence that the night is of course included, "New Year's Day and the dawn of the first cock (鶏旦)" (the verb after 鶏旦 is not read), then the cross-reference "annotated in the section け (ke), compare". The entry next to it, 初鶏 (hatsutori, "first cock"), carries 鶏旦 as a second head, cited to 御傘 (Gosan): the cock that crows on New Year's morning (read in part). Further entries on the page: 初暦, 歯固, 春駒, with the labels 雑談拠, 世諺問答, 本朝食鑑, 岷江入楚, 故事要言.
 
+## <a id="mdz-i76425418"></a>mdz:i76425418 東都歳事記 (Meiji reprint 1893, NDL 764254), image 18: the entry for the second day, no 初夢
+
+*Read: by eye on the page images, 2026-11-14 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔東都歳事記、春之部上、画像18、左頁〕
+> 二日　○国主城主…（以下、諸役人方御礼登城／商家小八分日貸／吉原遊女来礼／江戸天満宮裏門連歌会／〔縫〕初）　三日
+
+Tōto saijiki, spring part, upper volume, Meiji reprint 1893 (NDL pid 764254, image 18, left page): the entry for the second day of the first month: the lords' and officials' New Year audience at the castle, the merchants' small-credit day, the courtesans' visit at the Yoshiwara, the linked-verse meeting at the rear gate of the Edo Tenmangū, the first sewing (?), then the third day. No 初夢 and no 宝船 stands in it; the page is the same text as the 1838 Ochanomizu leaf (mdz:i70618). Read on the page image 2026-11-14; the NDL OCR of the 34 images of pids 764254, 764255, 764259, 764260 has no 初夢 either.
+
+## <a id="mdz-i76785615"></a>mdz:i76785615 江戸府内絵本風俗往来 (1905), image 15: 宝船 laid under the pillow on the night of the second, the first dream
+
+*Read: by eye on the page images, 2026-11-14 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔江戸府内絵本風俗往来、上編、画像15、左頁〕
+> 七福神乗合船の図の上に長き夜のとうの眠りのみな目ざめ波乗り船の音のよきかなといふ歌を当時駿河半紙といひし紙半枚に摺りたるを売り来る二日の正午過る頃より夜にかけて「宝船〜〜エー宝船〜〜」と呼ぶ声… 此宝船を枕の下へ敷きて二日の夜に眠れば初夢の吉兆を見ん今年の開運といふ…
+
+Kikuchi Kiichirō (Ashi no ha sanjin), Edo funai ehon fūzoku ōrai, upper part (Tokyo, Nitōdō 1905), NDL pid 767856, image 15, left page, entry 宝船 under the first month (text kept in the historical kana of the print): the picture of the seven gods in a boat, printed on half a sheet of the paper then called Suruga hanshi with the poem "naga-ki yo no ..." is hawked "from past noon on the second until night" with the cry "Takarabune"; "laying this treasure ship under the pillow and sleeping on the night of the second, one sees a lucky sign in the first dream (初夢), the year's good fortune". A reminiscence of Edo written in 1905, not an Edo print.
+
+## <a id="mdz-i87533211"></a>mdz:i87533211 歳時記栞草 (Meiji reprint 1892, NDL 875332), image 11: 初夢 with 紀事, and 初鶏 / 鶏旦
+
+*Read: by eye on the page images, 2026-11-14 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔歳時記栞草、春之部、画像11、右頁〕
+> 初夢（はつゆめ）　〔紀事〕云、凡初夢には大晦日の夜より元日の暁に至るの夢なり。○年くれぬ春来べしとは…思寐のまさしくみえてかなふ初夢　西行
+> 初鶏（はつとり）　鶏旦　〔御傘〕元日の朝鶏の鳴を云、寅刻鳴初る鳥をいへば（左頁）夜分勿論なり、元日を鶏旦ともいふ。○け部注す可見合
+
+Entry "First dream" of the Shiori-gusa as printed in the Meiji reprints (NDL Digital Collections pid 875332, 1892, spring and summer volume, image 11; the same text in pid 875338, 1894): from the source labelled 紀事, "the first dream means in general the dream from the night of the last day of the year to the dawn of New Year's Day". Beside it the entry 初鶏 (hatsutori, "first cock") with the second head 鶏旦 (keitan), from 御傘: "the crowing of the cock on the morning of New Year's Day; since it names the bird that begins to crow at the tiger hour, the night is of course meant; New Year's Day is also called keitan"; then the cross-reference to the section け (ke). Read on the page image 2026-11-14; the OCR of the NDL text corroborates.
+
+## <a id="mdz-i87533228"></a>mdz:i87533228 歳時記栞草 (Meiji reprint 1892), image 28: 〔正月〕寶船敷, the 2 January night of the treasure ship
+
+*Read: by eye on the page images, 2026-11-14 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔歳時記栞草、春之部、画像28、左頁〕
+> 〔正月〕寶船敷（たからぶねしく）　大晦日より元日に至るの夢を初夢と稱す、されど今俗二日の夜に寶船をしくなり、
+
+Entry "Laying the treasure ship" under the first month, Shiori-gusa, Meiji reprint (pid 875332, image 28, left page; same in pid 875338): "The dream from New Year's Eve to New Year's Day is called the first dream; but the custom of today (今俗) is to lay the treasure ship (a picture of the Takarabune) [under the pillow] on the night of the second." The verb after 寶船 is partly worn on the page ("をしくなり" read). The entry names the 2 January night for the picture, not in so many words for the dream.
+
+## <a id="mdz-i87533240"></a>mdz:i87533240 歳時記栞草 (Meiji reprint 1892), image 40: the entry 〔正月〕雞旦 in the section け
+
+*Read: by eye on the page images, 2026-11-14 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔歳時記栞草、春之部、画像40、左頁〕
+> け部
+> 〔正月〕雞旦（けいたん）　〔東方朔占書〕歳後（八）日、一日爲雞　と有より、元日を雞旦と云、七日を人日といふにおなじ。
+
+Entry 鶏旦 (keitan) in the section け of the Shiori-gusa, Meiji reprint (pid 875332, image 40, left page; same in pid 875338): from the 東方朔占書 (Dongfang Shuo's divination book) "after the year, the eighth day..., the first day is the cock", whence New Year's Day is called keitan, as the seventh is called jinjitsu. The entry cites no 紀事, says nothing of a night or a dream. The leaf is printed with the numeral 六十七; the quotation's second word read as 八 is uncertain.
+
 ## <a id="mdz-i100408974"></a>mdz:i100408974 大雑書 (東京学芸大 安永9), image 24: the boxed dream item 百十七, read in single glyphs only (RD400)
 
 *Read: machine.*
