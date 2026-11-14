@@ -1781,7 +1781,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0449.md](questions/q0449.md) | question q449 | Which planet or node is «ཕུང» in «བྱ་གླང་སྦྲུལ་གསུམ་ཕུང་དར་ཚེས» on p. 313 | answered; cites wb.2:p313 |
 | [questions/q0450.md](questions/q0450.md) | question q450 | Who is «ཆུ་བདག» in «ཉི་མ་ཤར་དགེ་ཆུ་བདག་ངན» on p. 313 and which planet stands on which of the eight points | answered; cites wb.2:p313 |
 | [questions/q0451.md](questions/q0451.md) | question q451 | What does «མ་རྒྱབ་གྲོགས་མདུན་གཏད་པ་གཅེས» ask for on p. 313 | answered; cites wb.2:p313 |
-| [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | open; cites wb.2:p313b |
+| [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | answered; cites wb.2:p313b |
 | [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | answered; cites wb.2:p313, wb.2:p328-329 |
 | [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
 | [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | answered; cites wb.2:p305 |
@@ -1789,7 +1789,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | open; cites wb.2:p349-350 |
 | [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | answered; cites wb.2:p349-350 |
 | [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
-| [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
+| [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | answered; cites wb.1:p133b |
 | [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 | [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | open; cites wb.2:p287 |
 | [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | answered; cites wb.2:p282 |
@@ -1812,6 +1812,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | answered; cites wb.2:p9 |
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | answered; cites wb.2:p3, wb.2:p150-151 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
+| [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
+| [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
+| [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | answered; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
 | [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | answered; cites mdz:i772010 |
 | [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | answered; cites — |
@@ -1877,7 +1880,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | answered; cites — |
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
-| [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
+| [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | answered; cites — |
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | answered; cites — |
 | [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | answered; cites — |
 | [questions/q0551.md](questions/q0551.md) | question q551 | Which Sanskrit yogas are WB's good «self-born three, five, seven and two, eight, six» | answered; cites — |
