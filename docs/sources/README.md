@@ -1447,7 +1447,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 9 passages: 5 machine, 4 etext |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
 | [corpus/kcs/kcs.md](corpus/kcs/kcs.md) | corpus | Karma chags med, Rmi lam lung bstan gyi bstab pa tshigs bcad | 1 passages: 1 machine |
-| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 22 passages: 22 etext |
+| [corpus/kd/kd.md](corpus/kd/kd.md) | corpus | KD | 24 passages: 24 etext |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 15 passages: 7 scan, 1 machine, 7 etext |
@@ -1526,7 +1526,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tgb/tgb.md](corpus/tgb/tgb.md) | corpus | Tsong kha pa's Sngags rim chen mo, the vows part (RD401) | 1 passages: 1 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
-| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 8 passages: 8 etext |
+| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 9 passages: 9 etext |
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 37 passages: 37 etext |
@@ -2033,9 +2033,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0700.md](questions/q0700.md) | question q700 | The Sanskrit term of ch. 8 for the instant union of times | answered; cites — |
 | [questions/q0701.md](questions/q0701.md) | question q701 | «ཐིག་ཡོན» in the purified month's multiplier, p. 37 | answered; cites wb.1:p37 |
 | [questions/q0702.md](questions/q0702.md) | question q702 | The dotted syllables of pp. 70, 72 and 75 | open; cites — |
-| [questions/q0703.md](questions/q0703.md) | question q703 | «བསྐལ་ལི» (bskal li) of p. 70 | open; cites — |
-| [questions/q0704.md](questions/q0704.md) | question q704 | The planet names of pp. 76–77 and the Fierce three and Peaceful two | open; cites — |
-| [questions/q0705.md](questions/q0705.md) | question q705 | The pairs of houses of the six summarised meanings (pp. 70–71) | open; cites — |
+| [questions/q0703.md](questions/q0703.md) | question q703 | «བསྐལ་ལི» (bskal li) of p. 70 | answered; cites tmz:box9, wb.1:p70, wb.1:p72 |
+| [questions/q0704.md](questions/q0704.md) | question q704 | The planet names of pp. 76–77 and the Fierce three and Peaceful two | answered; cites tmz:box9, wb.1:p38, wb.1:p76, wb.1:p77 |
+| [questions/q0705.md](questions/q0705.md) | question q705 | The pairs of houses of the six summarised meanings (pp. 70–71) | answered; cites wb.1:p70, wb.1:p71 |
 | [questions/q0706.md](questions/q0706.md) | question q706 | «ཀུན་མཁྱེན་རིན་ཆེན་མཚན» and «རྟ་ལྡང / རྟ་ལྗང» of p. 70's homage | open; cites — |
 | [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | answered; cites wb.1:p206 |
 | [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | answered; cites wb.1:p208, wb.1:p209 |
@@ -2050,10 +2050,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | answered; cites tmz:box6, wb.1:p210 |
 | [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
-| [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | open; cites — |
+| [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | answered; cites tmz:box9, wb.1:p92 |
 | [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | answered; cites wb.1:p98 |
-| [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | open; cites — |
-| [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | open; cites — |
+| [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | answered; cites kd.3:p242-243, tmz:box9, wb.1:p99 |
+| [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | answered; cites kd.3:p476-477, wb.1:p102 |
 | [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
 | [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | open; cites — |
@@ -2075,7 +2075,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0742.md](questions/q0742.md) | question q742 | The bracketed numerals of the great number-names, p. 20 | answered; cites wb.1:p20-21 |
 | [questions/q0743.md](questions/q0743.md) | question q743 | The mantra after «dus 'khor lo'r» on p. 14 | answered; cites wb.1:p14 |
 | [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | answered; cites wb.1:p14, wb.1:p191 |
-| [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
+| [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | answered; cites tmz:box9, wb.1:p183 |
 | [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | open; cites — |
 | [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
 | [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | answered; cites wb.2:p428c |
@@ -2088,10 +2088,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | answered; cites wb.1:p30 |
 | [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | open; cites wb.1:p34 |
 | [questions/q0757.md](questions/q0757.md) | question q757 | The figure after «ཟླ་བ» before «རི་དབང་༥༧་དབྱུག» in the houses of WB p. 36: «(༡)» or «༡༡»? | open; cites wb.1:p36 |
-| [questions/q0758.md](questions/q0758.md) | question q758 | WB p. 244 l. 2, the place-name in «ན་ཀོང་ལྗན་ལྗིན་ཀླུ་ཡི་གནས»: is the first word ལྗན (Yigdzin-1) or ལྡན (MITRA)? A heavy stack on the reprint; another print would settle it. | open; cites wb.2:p244 |
-| [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | open; cites wb.2:p245 |
-| [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | open; cites wb.2:p243 |
-| [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | open; cites wb.2:p245 |
+| [questions/q0758.md](questions/q0758.md) | question q758 | WB p. 244 l. 2, the place-name in «ན་ཀོང་ལྗན་ལྗིན་ཀླུ་ཡི་གནས»: is the first word ལྗན (Yigdzin-1) or ལྡན (MITRA)? A heavy stack on the reprint; another print would settle it. | answered; cites wb.2:p244, tmz:box9, wb.2:p245 |
+| [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | answered; cites wb.2:p245, tmz:box9 |
+| [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | answered; cites wb.2:p243, tmz:box9 |
+| [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | answered; cites wb.2:p245, tmz:box9 |
 | [questions/q0762.md](questions/q0762.md) | question q762 | WB p. 34, the first two syllables of the first verse gloss («གོ་ཌཱ་བ་ལྡོག་པའི་མཛེས་པ་བསྔགས་པ»): «གོ་ཌཱ» or «ཀོ་དྲ»? The print is heavy there. | open; cites wb.1:p34 |
 | [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | open; cites wb.1:p36 |
 | [questions/q0764.md](questions/q0764.md) | question q764 | WB p. 247 print line 4: «ས་རྦད་ཐུ་བཅད་འདྲ» (Yigdzin-1) or «ས་ཐད་ཐུ་བཅད་འདྲ» (MITRA)? The heavy glyph is not settled and neither gives a clear sense. | open; cites wb.2:p247 |
