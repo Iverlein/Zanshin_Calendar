@@ -1420,8 +1420,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
 | [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 9 passages: 4 scan, 5 etext |
 | [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
-| [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 74 passages: 74 etext |
-| [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 73 passages: 73 etext |
+| [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 75 passages: 75 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
@@ -2335,7 +2334,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1006.md](questions/q1006.md) | question q1006 | In the rite of killing of the oath-bound great man (Rin chen gter mdzod vol. 38) the god «who comes alongside» and the demon «born together» are the two attendants of the enemy; is this the use LGD p. 970 follows, so that «མཉམ་པོར་འོང་བའི་བདུད» is the person's attendant demon and not Chöd's self-clinging? | open; cites lgd.42:p962b |
 | [questions/q1007.md](questions/q1007.md) | question q1007 | The third Karmapa's verses (after Marpa) call the dream of midnight (ནམ་ཕྱེད) the power of spirits, LGD's «གུང» the time of the afflictions: are the two the same part of the night under two characterisations, or do the traditions differ? | answered; cites lgd.42:p962b, rrd.5:p57-59 |
 | [questions/q1008.md](questions/q1008.md) | question q1008 | Does the 19-line text of PT 55 (Crescenzi and Torricelli 1995, Chen 2017) give any time of the dream (watch of the night, month, day) or only the good/bad division and the three remedies? The abstracts are silent. | open; cites — |
-| [questions/q1009.md](questions/q1009.md) | question q1009 | Which view of the 13 that IDP gives for PT 55 holds the dream text (the 19 lines below the diagram), and can it be read at a higher resolution (Gallica, or the BnF's own viewer) than IDP's 1024 px? | open; cites — |
+| [questions/q1009.md](questions/q1009.md) | question q1009 | Which view of the 13 that IDP gives for PT 55 holds the dream text (the 19 lines below the diagram), and can it be read at a higher resolution (Gallica, or the BnF's own viewer) than IDP's 1024 px? | answered; cites — |
 | [questions/q1010.md](questions/q1010.md) | question q1010 | Which 'O yug pa (འོ་ཡུག་པ) is meant in the remark of the dream verses (cbl:p236-238), and does a Sakya record give this saying under his name? | open; cites cbl:p237s |
 | [questions/q1011.md](questions/q1011.md) | question q1011 | In the Dpe bsdur ma vol. 46 (I1PD95891, printed p. 1096-1097) is «གཤིན་རྗེའི་ཆུང་མ» the verse or a small-letter gloss run into it? The scan was not reached (images 1098-1099 returned nothing). | open; cites cbl:p237s |
 | [questions/q1012.md](questions/q1012.md) | question q1012 | Which Vairocana-specific preparation text (the Vairocanābhisambodhi or its commentaries) names signs that a teacher reads in the pupils' dawn dreams? | answered; cites cbl:p237s, vab:p329-330, vab:p494-495 |
