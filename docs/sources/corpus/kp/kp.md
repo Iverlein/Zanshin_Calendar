@@ -166,6 +166,124 @@ Snake panel. T1, the Dragon: Se-shar with a second name not resolved, and the ge
 
 What is not read: the second lines of the Hare B2 and L1 cells, the Dragon T1 and B1 cells, the Snake T1 and R2, and the epithets the print abbreviates; they are marked in the Tibetan above. The pages up to img. 100 stand as described in [kp:i88b](#kp-i88b); the Horse to Pig panels (img. 89–90) are read elsewhere.
 
+## <a id="kp-i89b"></a>kp:i89b §13 the earth lords of the year: the Horse, Sheep and Monkey panels read cell by cell
+
+*Read: scan, 2026-11-14.*
+
+> (Horse panel; cells in ring order: T1–T4 the top row from the left, R1–R2 the right column from the top, B4–B1 the bottom row from the right, L2–L1 the left column from the bottom)
+> 
+> T1  ༄། ༼༡༣༽ ། ཐེ་ཁྱིམ། སེ་བྱི། བླ་མཁྱེན་ཕེའུ། དམག་དཔོན། ཀུངས་མྱུལ།
+> T2  ས་བྱ་དུས་འཛིན། བླ་མཁྱེན་གསང།
+> T3  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། བླ་མཁྱེན་ནང། (a last word read བྱི་ལམ, not resolved)
+> T4  (empty)
+> R1  ཏེ་སོ་སྲས་པོ། ཝང་གིང་དམར་པོ།
+> R2  སེ་ལོ་ས་འཕྱག
+> B4  བྱ་ར་བ། པི་ལིང།
+> B3  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། ཟིན་ཕུང།
+> B2  སེ་བ་བླ་མཁྱེན།
+> B1  སེ་ཤར། ཙང་ཀུན་འཕྱེའོ།
+> L2  རང་རྟ། རྟ་ཁྲིད། ས་རྒྱལ་བཅུ་གཅིག
+> L1  བློན་པོ་ཙང་ཀུན། ཁྱི་མགོ (the second name read ཁྱི་མགོ; ཐེ་ཁྱིམ is not excluded)
+> 
+> (Sheep panel; same order)
+> 
+> T1  ཙང་ཀུན། ཁྱི་མགོ (first line, the order of the two names not settled); a second line ending བླ་མཁྱེན་ (the epithet not resolved); a third line of one short name (not resolved)
+> T2  ཐེ་ཁྱིམ་བཙུན་མོ། ཏེ་སོ་སྲས་པོ།
+> T3  (first line not resolved) དུས་འཛིན།
+> T4  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། བླ་མཁྱེན་ (epithet not resolved) དམག་དཔོན། (rest of the line not resolved)
+> R1  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། ས་རྒྱལ་བཅུ་གཅིག
+> R2  (empty)
+> B4  སེ་ལོ་ས་འཕྱག (the second and third lines not resolved)
+> B3  (empty)
+> B2  ཟིན་ཕུང།
+> B1  སེ་བ་བླ་མཁྱེན། … བླ་མཁྱེན་ཕེའུ། (first word of line 2 not resolved)
+> L2  པི་ལིང།
+> L1  བློན་པོ་ཙང་ཀུན། ཁྱི་མགོ། བླ་མཁྱེན་ནང།
+> 
+> (Monkey panel; same order)
+> 
+> T1  བྱ་ར་བ། (rest of line 1 not resolved); a second line not resolved; ཙང་ཀུན་འཕྱེའོ།
+> T2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། (a third line not settled: ཟིན་ཕུང or ས་རྒྱལ་བཅུ་གཅིག)
+> T3  ཐེ་ཁྱིམ། བློན་པོ་ཙང་ཀུན།
+> T4  three lines, the third beginning དམག་དཔོན། (the others not resolved)
+> R1  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། གཟིག་མཇུག
+> R2  བླ་མཁྱེན་གསང།
+> B4  སེ་བྱི། (the next word, ནོར་སྲུངས in the machine or ཀུངས་མྱུལ, not settled) བླ་མཁྱེན་ཕེའུ།
+> B3  སེ་ལོ་ས་འཕྱག
+> B2  བླ་མཁྱེན་… (one life-spirit knower, the epithet and a second word not resolved)
+> B1  (first line, read ཟིན་ཕུང, doubtful) ས་རྒྱལ་བཅུ་གཅིག
+> L2  སེ་བ་བླ་མཁྱེན། ཏེ་སོ་སྲས་པོ།
+> L1  (empty)
+
+The Horse, Sheep and Monkey panels of KP's year chart (§13), the third page of the year chart: BDRC I4CZ65599 label 91, pool img. 89, each panel the ring of twelve cells of the Rat panel (kp:i87b), the animals' places the same in every panel (T1 the Dragon, T2 the Snake, T3 the Horse, T4 the Sheep, R1 the Monkey, R2 the Bird, B4 the Dog, B3 the Pig, B2 the Rat, B1 the Ox, L2 the Tiger, L1 the Hare). Names, for the first mention: the king Te-se (ཐེ་སེ, the se) with his consort Hang-ne (ཧང་ནེ, hang ne) and the seat-spreader (གདན་འདིངས, gdan 'dings); the queen Te-khyim (ཐེ་ཁྱིམ, the khyim); the king's son Te-so (ཏེ་སོ་སྲས་པོ, te so sras po) and Wang-ging the red (ཝང་གིང་དམར་པོ, wang ging dmar po); the minister (བློན་པོ, blon po) Tsang-kun (ཙང་ཀུན, tsang kun), Tsang-kun the dog-headed (ཁྱི་མགོ, khyi mgo) and the splitter (ཙང་ཀུན་འཕྱེའོ, tsang kun 'phye bo); Se-byi (སེ་བྱི, se byi); Se-shar (སེ་ཤར, se shar); Se-lo the sweeper of the earth (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag); Kungs-myul (ཀུངས་མྱུལ, kungs myul); the life-spirit knowers (བླ་མཁྱེན, bla mkhyen) of the se (སེ་བ་བླ་མཁྱེན, se ba bla mkhyen), Phe'u (ཕེའུ, phe'u), Nang the inner one (ནང, nang) and Gsang the secret one (གསང, gsang); the time-holder (ས་བྱ་དུས་འཛིན, sa bya dus 'dzin); Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo) and the son-in-law (མག་པ, mag pa); Zin-phung (ཟིན་ཕུང, zin phung); the watchman (བྱ་ར་བ, bya ra ba); Pi-ling (པི་ལིང, pi ling); the mount Se'u Rang-rta (རང་རྟ, rang rta) and the horse-leader (རྟ་ཁྲིད, rta khrid); the general (དམག་དཔོན, dmag dpon); the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག, sa rgyal bcu gcig).
+
+Horse panel. T1, the Dragon: the queen Te-khyim, Se-byi, the life-spirit knower Phe'u, the general and Kungs-myul, the first line under the heading «§13». T2, the Snake: the time-holder and the secret knower Gsang. T3, the Horse, the year's own place: the king, his consort, the seat-spreader and the inner knower Nang, a last word (read «བྱི་ལམ», byi lam) not resolved. T4, the Sheep: empty. R1, the Monkey: Te-so and Wang-ging. R2, the Bird: Se-lo. B4, the Dog: the watchman and Pi-ling. B3, the Pig: Hal-khyi's girl, the son-in-law and Zin-phung. B2, the Rat: the life-spirit knower of the se. B1, the Ox: Se-shar and the splitter. L2, the Tiger: the mount, the horse-leader and the eleven earth kings. L1, the Hare: the minister Tsang-kun and a second name read as the dog-headed.
+
+Sheep panel. T1, the Dragon: Tsang-kun and the dog-headed (first line, the order of the two not settled), a life-spirit knower whose epithet is not resolved, a short name not resolved. T2, the Snake: the queen and Te-so. T3, the Horse: a first line not resolved and «དུས་འཛིན» (the time-holder's second word). T4, the Sheep, the king's place: the king, his consort, the seat-spreader, a life-spirit knower (epithet not resolved), and the general at the head of the last line. R1, the Monkey: Hal-khyi's girl, the son-in-law and the eleven earth kings. R2, the Bird: empty. B4, the Dog: Se-lo on the first line, two more lines not resolved. B3, the Pig: empty. B2, the Rat: Zin-phung. B1, the Ox: the life-spirit knower of the se and Phe'u. L2, the Tiger: Pi-ling. L1, the Hare: the minister Tsang-kun, the dog-headed and the inner knower Nang.
+
+Monkey panel. T1, the Dragon: the watchman on the first line, the splitter on the last, the middle line not resolved. T2, the Snake: Hal-khyi's girl and the son-in-law, a third line not settled between Zin-phung and the eleven earth kings. T3, the Horse: the queen and the minister. T4, the Sheep: three lines, the general at the head of the last. R1, the Monkey, the king's place: the king, his consort, the seat-spreader and a name read «གཟིག་མཇུག» (gzig mjug). R2, the Bird: the secret knower Gsang. B4, the Dog: Se-byi, a word not settled, and the life-spirit knower Phe'u. B3, the Pig: Se-lo. B2, the Rat: a life-spirit knower, not resolved further. B1, the Ox: a first line read as Zin-phung (doubtful) and the eleven earth kings. L2, the Tiger: the life-spirit knower of the se and Te-so. L1, the Hare: empty.
+
+Read at 4x in single-cell crops (Pillow, 4–9x for the doubtful cells) with Yigdzin-1 over the cells as a guide only, and placed by eye; the doubt of each cell is marked in the Tibetan above, where a doubtful word stands in brackets or is left out.
+
+## <a id="kp-i90b"></a>kp:i90b §13 the earth lords of the year: the Bird, Dog and Pig panels read cell by cell
+
+*Read: scan, 2026-11-14.*
+
+> (Bird panel; cells in ring order: T1–T4 the top row from the left, R1–R2 the right column from the top, B4–B1 the bottom row from the right, L2–L1 the left column from the bottom)
+> 
+> T1  སེ་ཤར། ཙང་ཀུན་འཕྱེའོ།
+> T2  རང་རྟ། རྟ་ཁྲིད།
+> T3  བློན་པོ་ཙང་ཀུན། ཁྱི་མགོ། ས་རྒྱལ་བཅུ་གཅིག (the last two lines doubtful; «ས་རྒྱལ་བཅུ་གཅིག» broken across them)
+> T4  ཐེ་ཁྱིམ། སེ་བྱི། བླ་མཁྱེན་ཕེའུ། དམག་དཔོན། (a last word, read ཀུངས, doubtful)
+> R1  ས་བྱ་དུས་འཛིན། བླ་མཁྱེན་གསང།
+> R2  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། བླ་མཁྱེན་ནང། (a fifth word not resolved)
+> B4  ཀུངས་མྱུལ།
+> B3  ཏེ་སོ་སྲས་པོ།
+> B2  སེ་ལོ་ས་འཕྱག
+> B1  བྱ་ར་བ། པི་ལིང།
+> L2  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། ཟིན་ཕུང།
+> L1  སེ་བ་བླ་མཁྱེན། ཝང་གིང་དམར་པོ།
+> 
+> (Dog panel; same order)
+> 
+> T1  སེ་བ་བླ་མཁྱེན། (a short word after it not resolved); a second line beginning ཐེ་ཁྱིམ (not resolved to its end); བླ་མཁྱེན་ཕེའུ།
+> T2  (empty)
+> T3  བློན་པོ་ཙང་ཀུན། རང་རྟ། རྟ་ཁྲིད། པི་ལིང། བླ་མཁྱེན་ནང། (the last line doubtful)
+> T4  ཀུངས་མྱུལ། (first line, a second name read ཏེ་སོ་, doubtful); two more lines not resolved
+> R1  ཐེ་ཁྱིམ། ཏེ་སོ་སྲས་པོ།
+> R2  ས་བྱ་དུས་འཛིན།
+> B4  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། བླ་མཁྱེན་ནང། དམག་དཔོན། (end of the last line not resolved)
+> B3  ཧལ་ཁྱིའི་བུ་མོ། མག་པ།
+> B2  (empty)
+> B1  སེ… (first line, read སེ་ལོ་ས་འཕྱག, doubtful; སེ་ཤར not excluded) ཙང་ཀུན་འཕྱེའོ།
+> L2  (empty)
+> L1  ཟིན་ཕུང།
+> 
+> (Pig panel; same order)
+> 
+> T1  ཟིན་ཕུང། པི་ལིང། (one line, both words doubtful)
+> T2  སེ་བ་བླ་མཁྱེན། ཏེ་སོ་སྲས་པོ། དུས་འཛིན།
+> T3  (empty)
+> T4  རང་རྟ། རྟ་ཁྲིད། ཙང་ཀུན་འཕྱེའོ།
+> R1  ཧལ་ཁྱིའི་བུ་མོ། མག་པ། (a short word after it not resolved)
+> R2  ཐེ་ཁྱིམ། (a second name not resolved) ཙང་ཀུན།
+> B4  (first line not resolved) དམག་དཔོན།
+> B3  ཐེ་སེ། ཧང་ནེ། གདན་འདིངས། (a third line, a life-spirit knower, not resolved)
+> B2  ས་རྒྱལ་བཅུ་གཅིག། བླ་མཁྱེན་ནང།
+> B1  སེ་བྱི། (a second name read ཀུངས, doubtful) བླ་མཁྱེན་ཕེའུ། (a third line not resolved)
+> L2  སེ་ལོ་ས་འཕྱག
+> L1  བླ་མཁྱེན་ནང།
+
+The Bird, Dog and Pig panels of KP's year chart (§13), the chart's fourth and last page: BDRC I4CZ65599 label 92, pool img. 90, each panel the ring of twelve cells of the Rat panel (kp:i87b, the names there and in kp:i89b), the animals' places the same in every panel (T1 the Dragon, T2 the Snake, T3 the Horse, T4 the Sheep, R1 the Monkey, R2 the Bird, B4 the Dog, B3 the Pig, B2 the Rat, B1 the Ox, L2 the Tiger, L1 the Hare). The Pig panel's right half is narrower than the others (its picture takes two columns of cells, and the right column's cells stand at the page's edge); the cells are still the ring's twelve.
+
+Bird panel. T1, the Dragon: Se-shar (སེ་ཤར, se shar) and Tsang-kun the splitter (ཙང་ཀུན་འཕྱེའོ, tsang kun 'phye bo). T2, the Snake: the mount Se'u Rang-rta (རང་རྟ, rang rta) and the horse-leader (རྟ་ཁྲིད, rta khrid). T3, the Horse: the minister (བློན་པོ, blon po) Tsang-kun (ཙང་ཀུན, tsang kun), the dog-headed (ཁྱི་མགོ, khyi mgo) and the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག, sa rgyal bcu gcig), the last two lines doubtful. T4, the Sheep: the queen Te-khyim (ཐེ་ཁྱིམ, the khyim), Se-byi (སེ་བྱི, se byi), the life-spirit knower Phe'u (བླ་མཁྱེན་ཕེའུ, bla mkhyen phe'u), the general (དམག་དཔོན, dmag dpon) and a word read «ཀུངས». R1, the Monkey: the time-holder (ས་བྱ་དུས་འཛིན, sa bya dus 'dzin) and the secret life-spirit knower Gsang (བླ་མཁྱེན་གསང, bla mkhyen gsang). R2, the Bird, the year's own place: the king Te-se (ཐེ་སེ, the se), his consort Hang-ne (ཧང་ནེ, hang ne), the seat-spreader (གདན་འདིངས, gdan 'dings) and the inner life-spirit knower Nang (བླ་མཁྱེན་ནང, bla mkhyen nang). B4, the Dog: Kungs-myul (ཀུངས་མྱུལ, kungs myul) alone. B3, the Pig: Te-so the king's son (ཏེ་སོ་སྲས་པོ, te so sras po). B2, the Rat: Se-lo the sweeper of the earth (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag). B1, the Ox: the watchman (བྱ་ར་བ, bya ra ba) and Pi-ling (པི་ལིང, pi ling). L2, the Tiger: Hal-khyi's girl (ཧལ་ཁྱིའི་བུ་མོ, hal khyi'i bu mo), the son-in-law (མག་པ, mag pa) and Zin-phung (ཟིན་ཕུང, zin phung). L1, the Hare: the life-spirit knower of the se (སེ་བ་བླ་མཁྱེན, se ba bla mkhyen) and Wang-ging the red (ཝང་གིང་དམར་པོ, wang ging dmar po).
+
+Dog panel. T1, the Dragon: the life-spirit knower of the se, a second line that begins with the queen's name and is not read to its end, and Phe'u. T2: empty. T3, the Horse: the minister, the mount and the horse-leader, Pi-ling and (doubtful) the inner knower Nang. T4, the Sheep: three lines, the first Kungs-myul with a second name read as Te-so, the rest not resolved. R1, the Monkey: the queen and Te-so. R2, the Bird: the time-holder. B4, the Dog, the year's own place: the king, his consort, the seat-spreader, the inner knower Nang and the general (the end of the last line not resolved). B3, the Pig: Hal-khyi's girl and the son-in-law. B2: empty. B1, the Ox: a first line read as Se-lo (doubtful; Se-shar is not excluded) and the splitter. L2, the Tiger: empty. L1, the Hare: Zin-phung.
+
+Pig panel. T1, the Dragon: Zin-phung and Pi-ling on one line, both doubtful. T2, the Snake: the life-spirit knower of the se, Te-so and the time-holder's second word. T3: empty. T4, the Sheep: the mount, the horse-leader and the splitter. R1, the Monkey: Hal-khyi's girl and the son-in-law. R2, the Bird: the queen, a second name not resolved, and the minister Tsang-kun. B4, the Dog: a first line not resolved and the general. B3, the Pig, the year's own place: the king, his consort, the seat-spreader and a life-spirit knower (not resolved). B2, the Rat: the eleven earth kings and the inner knower Nang. B1, the Ox: Se-byi, a name read Kungs (doubtful), Phe'u and a third line not resolved. L2, the Tiger: Se-lo. L1, the Hare: the inner knower Nang.
+
+Read at 4x in single-cell crops (Pillow, 4–9x for the doubtful cells) with Yigdzin-1 over the cells as a guide only, and placed by eye; the doubt of each cell is marked in the Tibetan above.
+
 ## <a id="kp-i101"></a>kp:i101 §16 the earth lords of the day: the hearth god's seats and whom the day harms
 
 *Read: machine, 2026-11-14.*
