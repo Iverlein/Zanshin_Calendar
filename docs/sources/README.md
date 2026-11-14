@@ -2587,6 +2587,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1228.md](questions/q1228.md) | question q1228 | KP month panels: where are Ga-pa in the snake, rat and ox panels and Grum-bu in the snake, sheep, dog, rat and ox panels? | open; cites kp:i91-96b |
 | [questions/q1229.md](questions/q1229.md) | question q1229 | KP month panels: does the sheep (summer 3) panel carry the ox's time of day facing south, as WB's Wang-khyi has it? | open; cites kp:i91-96b |
 | [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | open; cites kp:i91-96b |
+| [questions/q1231.md](questions/q1231.md) | question q1231 | KP box 13's last line: «གདོང་ཐུག» or «གདོང་མ་ཐུག» as in WB? | open; cites kp:i29 |
+| [questions/q1232.md](questions/q1232.md) | question q1232 | KP box 12: is «སའི་འཕུང་བྱེད» the same lord as WB's «ས་ཕུང་ནག་པོ», and «ཉི་ནུབ» the same as WB's «ཉི་ནག»? | open; cites kp:i27 |
+| [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | open; cites kp:i26 |
+| [questions/q1234.md](questions/q1234.md) | question q1234 | KP box 10: is «ཀིང་ཟོར» one name or two (it follows «ཉི་མ་བྱ་ཡོས»)? | open; cites kp:i26 |
 
 <!-- end pool index -->
 
