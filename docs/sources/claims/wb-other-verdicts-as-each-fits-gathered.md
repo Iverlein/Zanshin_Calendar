@@ -4,7 +4,6 @@ type: rule
 terms: [ci-rigs, kha-dmar]
 cites: ['wb.1:p385b']
 feeds: [block-58]
-open: [q169]
 ---
 # «ཁ་དམར་ཅི་རིགས་གདགས»: other verdicts laid as each fits, then gathered into the four
 

@@ -1573,7 +1573,7 @@ the text, not about the app.
     trigram one is born on, the mother's at the birth. Read so, WB's «མ་སྤར་ལི»
     is a natal trigram li, as the notes' «བརྩི་བྱ་ལི་ལ་བབ» take it; the manual
     is not WB, and WB does not gloss the word.*
-
+     *Narrowed 2026-11-14 (inv-yy, [claims/wb-secret-obstacle-ma-spar-in-the-manuals.md](claims/wb-secret-obstacle-ma-spar-in-the-manuals.md), [claims/secret-obstacle-ma-spar-by-cycle.md](claims/secret-obstacle-ma-spar-by-cycle.md)): «མ» is the mother. «མ་སྤར» is the name of one of a set of four relatives of one's own trigram (mother, child, enemy, friends) in three manuals that carry «མ་སྤར་ཁམ་ལ་བུ་སྤར་ལི། དགྲ་སྤར་དྭ་ལ་…», with kham and li as the mother's and the child's of an own zin; by the generating cycle li is the mother of khon and gin and kham of zin and zon, which is where WB's two names fit. The notes' «བརྩི་བྱ་ལི་ལ་བབ» (the year's trigram falling on li) agrees if the li is the mother's of the natal trigram. The page-wide search of 2026-11-14 for «མ་སྤར་ལི་བུ» finds only KD's I4717 again. No text says why li is the thief's and kham the son's. Left open: the mother's trigram of the natal one, as read, rests on the manuals, not on WB or the notes.*
 92. **Answered 2026-10-18. The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
     །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed
     sign reaches? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
@@ -1692,6 +1692,7 @@ the text, not about the app.
      Mipham's colophon follows. Its three results, *mung*, *krung* and
      *kyis*, are not explained. Which text «གཞུང» means is still not found.*
      *2026-10-23 (RD40, [corpus/wb/notes-8.md](corpus/wb/notes-8.md)): the scan reads «ལུ་བཞིན» and «ཐུན་ཀུང»; the meaning of mung, krung and kyis is question 353.*
+     *Searched again 2026-11-14 (inv-yy), nothing new: BDRC's phrase search for «ལག་རྩིས་ལུ་བཞིན» finds only the two prints of WB's vol. 2 (I1KG12907, I3CN5029), «ལུ་བཞིན་རྩིས» only the Gser thang; «ལུ་བཞིན་ལག་རྩིས», «ལུ་བཞིན་གྱི་རྩིས» none; «ལཱུ་བཞིན» only Mongolian ritual lists (MW1NLM2094 and others, a transliterated «pU lU bzhin» in a title) and a Sakya Vinaya passage, no reckoning. «གཞུང་གིས་གསལ» is the notes' habitual "the text makes clear" (also p. 489, p. 532 for the sa dpyad) and names no work here. Still open: who or what "Lu" is; the colophon's Mongol geshe Samten is the only name the page gives.*
 102. **Answered 2026-10-18. «བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
     «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
     might be the rat as the day's animal, «ཟིན་ཕུང» the trigram *zin* with
@@ -2428,12 +2429,12 @@ the text, not about the app.
      (*yug za ma*, *yugs sa mo*, Dan Martin; «ཡུགས་ས», mourning for a dead spouse,
      Jim Valby).*
 
-156. **Ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར».** Work 14 (WB vol. 2 p. 395, img. 403)
+156. ~~**Ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར».** Work 14 (WB vol. 2 p. 395, img. 403)
      names the good dates «གསུམ་བཞི་ལྔ་དང་བཅུ་བཞི་དང་། །བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར»,
      and the editors number only the 21st and the 25th; is
      «ཉེར་གཅིག་ཉེར་ལྔའི་བར» the run 21 to 25, as «དྲུག་ནས་བཅུ་བཞིའི་བར» is 6 to
      14 in the bad line above? (2026-10-14, O10,
-     [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
+     [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")~~
      *Narrowed 2026-10-18 ([white-beryl-ch34.md](white-beryl-ch34.md), work
      14): WB's own usage reads a run. Work 13, just before, writes
      «ཉེར་གཅིག་ནས་ནི་ཉེར་ལྔའི་བར» (pp. 394–395, img. 402–403, read on the
@@ -2442,7 +2443,7 @@ the text, not about the app.
      27–30 are left neutral. Against it, KP (box 16), a digest of WB, reads
      the bad line as a run (16, 17, 18, 20) and the good as 21 and 25 alone.
      The owner chose the run the same day; it is built (`WhiteBerylWorks`).*
-
+     *Answered 2026-11-14 (inv-yy): a run. Three manuals that quote the Vaidurya dkar po carry the line in the same words and as the one good run: the Rebkong anthology of reckonings (MW1KG6014) «…གསུམ་བཞི་ལྔ་བཅུ་བཞི་བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར་བཟང་། །གཞན་མ་རྣམས་བཏང་སྙོམས་ཡིན་ཞེས་བཻ་དཀར་ལས་གསུངས།» (BDRC search snippet; the 16–19 and 26 are the bad), Kon mchog skyabs's *Bod kyi dmangs srol dang 'brel ba'i skar rtsis* (MW29040, the same) and the Vaidurya dkar po's own *Do shal* (MW2PD17386, «བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར། བཟང་ལ་གཞན་རྣམས་བཏང་སྙོམས་ཡིན»). Beside them, where results are grouped by dates, «ཉེར་གཅིག་ཉེར་ལྔའི་བར» is the fourth span after 1–5, 6–12 and 13–20 and before 26–30 (the *Bsam 'phel nor bu'i bang mdzod*'s rtsis kyi lag len text, MW3CN2232, and the Sgo bzhi mdzod lnga'i yang bcud, a Bon text, witness only). So 21 to 25 is good, as built; KP's reading of 21 and 25 alone is its digest's, and the owner's choice of 2026-10-14 stands on WB's own, now the Vaidurya's, usage.*
 157. **Answered 2026-10-19. KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
      has the 19th and 29th where KP's box 21 is carved with the shape of
      KP's own 4 (14, 24); is the box a carving slip for ༡༩, ༢༩, or a
@@ -2532,14 +2533,14 @@ the text, not about the app.
      So the dog and the ox give a speckled pebble, neither white nor black;
      the tiger starts with one black.*
 
-161. **The marriage match's hidden: which mewa stands for each aspect (WB vol. 1, ch. 23, pp. 357–358).** «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།»
+161. ~~**The marriage match's hidden: which mewa stands for each aspect (WB vol. 1, ch. 23, pp. 357–358).** «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།»
      (read on the scan, marriage.md): the life force's mewa is "four up",
      destiny's "four down", the body's the birth mewa, the luck's "the
      three in concord"; a man's five counts as two, a woman's as seven.
      Four up and down from what, along which sequence, and which of the
      three in concord? And the body-cut wheel names the turtle's body
      parts with numbers («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)»), not pairs:
-     which pairs does it hold? The hidden waits on it (ROADMAP R3c).
+     which pairs does it hold? The hidden waits on it (ROADMAP R3c).~~
      *Answered 2026-10-21 (O16, [marriage.md](marriage.md), *Open questions 161–165 (O16)*): four up is the birth mewa less three, four down plus three, the body the birth mewa (WB p. 255's fire hare 4, 1, 7; the *Moonbeams*' wood rat; the notes, p. 536); the luck is the mewa of the triad's wind-horse year (p. 254) in the same sixty, by WB's example its birth mewa, by the *Moonbeams* its life-force mewa (question 234); the notes' drawing (vol. 2, p. 524) pairs the body cut li–khon, zon–dwa, gin–zin, kham–khen, and p. 358's ༦ and ༥ for the left side and leg stand one place off (question 233).*
 162. **Answered 2026-10-21 (O16); confirmed 2026-11-14 (inv-rr).** **«དཱ་ཟླ» in raising the child (WB vol. 1, ch. 22, p. 348).** «དུར་ཞུགས་ཕ་ཡི་དཱ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དཱ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དཱ་ཟླ་ཡིན།»
      (Yigdzin-1, not read on the scan): the readings say the month "bears
@@ -2584,19 +2585,21 @@ the text, not about the app.
      *Narrowed 2026-10-20 ([year-of-life.md](year-of-life.md), RD20, the notes p. 490 read on the Gser thang reprint): the etext dropped «ནི་མ་འཕྲད་དཀར»; it is a **mother meeting's** three white that count as one. The notes' worked example (p. 489) has no tie, so it does not decide. RD18 reads the tie.*
      *Answered 2026-10-20 (RD18, the notes p. 490 and ch. 29 pp. 46–50 read on the 1996 scan): each place counts once by its colour, and a tie lays a speckled pebble, as every tie rule of WB and its notes lays a third value. What a place with both colours counts as is question 171; what a speckled predictive pebble foretells, question 172.*
 
-168. **The household's general pebbles (WB vol. 1, ch. 24, p. 415, img. 425, l. 25).** «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»:
+168. ~~**The household's general pebbles (WB vol. 1, ch. 24, p. 415, img. 425, l. 25).** «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»:
      which pebbles are "the household's general pebbles" (བཟའ་ཚང་སྤྱི་རྡེལ,
      bza' tshang spyi rdel): the round's of p. 385, all members' four
      verdicts together, or another count? And is "of white and black,
      black the more" a condition (where black are more, their rites
      matter most) or a statement (in a household black usually outnumber
-     white)? The notes' section 2 does not comment on the line.
+     white)? The notes' section 2 does not comment on the line.~~
      [year-of-life.md](year-of-life.md), *The year of age gathered* (RD20).
-169. **"Other verdicts as each case fits" (WB vol. 1, ch. 24, p. 385, img. 395).** «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།»:
+     *Answered 2026-11-14 (inv-yy, [claims/wb-household-general-pebbles-black-the-more.md](claims/wb-household-general-pebbles-black-the-more.md)) as far as the text goes: the line is a condition. It opens the closing section and the next lines (pp. 415-416) say at once what each kind of person holds dear and «དེ་ལྟར་རྡེལ་ནག་ནན་གྱིས་བཅོས», so remedy the black pebbles firmly; the household's own verdicts on pp. 407-408 are laid the same way (many black, many white, one white among many black). The pebbles are the household's taken together, the members' deciding pebbles of the round of p. 385; no text counts them another way, and Mipham's notes (section 2) do not gloss the line.*
+169. ~~**"Other verdicts as each case fits" (WB vol. 1, ch. 24, p. 385, img. 395).** «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།»:
      are the verdicts of the mewa, the trigram and the other obstacles
      laid besides the four aspects' and read on their own, or only folded
-     into the four, as the next lines say ("in brief they come to four")?
+     into the four, as the next lines say ("in brief they come to four")?~~
      [year-of-life.md](year-of-life.md), *The year of age gathered* (RD20).
+     *Answered 2026-11-14 (inv-yy, [claims/wb-other-verdicts-as-each-fits-gathered.md](claims/wb-other-verdicts-as-each-fits-gathered.md)): both, in order. «ཅི་རིགས» is WB's ordinary "as each fits"; the line lays the other verdicts where they apply, each by its own rule, and the lines after it say they come to the four aspects and are gathered into those four classes' verdicts (the notes, p. 490: the twenty-four "gathered into four deciding pebbles"). Nothing says the others may not also be read on their own.*
 170. **A son meeting under the notes' count (WB vol. 2, the notes, p. 490, img. 498).** "Even a mother meeting's three white count as one, an enemy meeting's two black are not counted separately":
      how is a son meeting (one white and one black) counted in a place,
      one of each or neither? The notes' example (p. 489) comes out the

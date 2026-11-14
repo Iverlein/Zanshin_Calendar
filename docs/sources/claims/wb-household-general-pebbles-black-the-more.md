@@ -4,7 +4,6 @@ type: rule
 terms: [bza-tshang-spyi-rdel, rim-gro]
 cites: ['wb.1:p415-416']
 feeds: [block-58]
-open: [q168]
 ---
 # The household's general pebbles: black the more, and whose element is dear
 
