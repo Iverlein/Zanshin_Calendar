@@ -2045,7 +2045,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | open; cites — |
 | [questions/q0722.md](questions/q0722.md) | question q722 | The eight near planets of p. 99 | open; cites — |
 | [questions/q0723.md](questions/q0723.md) | question q723 | The seven-star enjoyment's rule on p. 102 | open; cites — |
-| [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | open; cites — |
+| [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
 | [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | open; cites — |
 | [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | open; cites — |
@@ -2054,7 +2054,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | open; cites — |
 | [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | answered; cites wb.1:p23 |
 | [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
-| [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | open; cites — |
+| [questions/q0733.md](questions/q0733.md) | question q733 | «ཀླུ་བརྒྱད» or «གླུ་བརྒྱད» in the digging rite of p. 387 | answered; cites — |
 | [questions/q0734.md](questions/q0734.md) | question q734 | What the 24 charts of pp. 136–147 place, and the cells' lists | open; cites — |
 | [questions/q0735.md](questions/q0735.md) | question q735 | The order of the twelve strip charts, Zhol against the 1996 print | open; cites — |
 | [questions/q0736.md](questions/q0736.md) | question q736 | The 1st month head's weekday numerals in the model almanac | answered; cites wb.1:p157 |
@@ -2069,7 +2069,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | open; cites — |
 | [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | open; cites — |
 | [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
-| [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | open; cites wb.2:p428c |
+| [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | answered; cites wb.2:p428c |
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | open; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
 | [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | answered; cites wb.1:p95 |
