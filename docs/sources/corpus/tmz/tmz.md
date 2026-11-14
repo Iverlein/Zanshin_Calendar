@@ -93,3 +93,20 @@ nam phyed: "one of the twelve times of the day-and-night, the rat's time" (Tshig
 > glo bur | 1) {ma bsams ma dran par 'phral du byung ba/ ...}   (Tshig mdzod chen mo)
 
 Look-ups of 2026-11-14 (Steinert's public set, a sparse clone of `_input/dictionaries/public`, `locate.py dict`). No headword in any of the 64 sets for: «tshom rkun» (only «chom rkun», robbers, in nos. 01, 02, 08, 20, 21, 22, 43, 46, 49), «ltags», «khre'ur», «khol bur», «ཉྭ་བཞིན»/«nywa bzhin». nywa: "the calf of a person's leg" (Tshig mdzod chen mo; Dan Martin); of beasts the muscle between the knee and the hoof; nywa bzhi: "the four limb-muscles" (rkang lag gi nywa ril bzhi); Dag tshig gsar bsgrigs adds nywa log, an illness in which the calf muscle is swollen (nywa 'bros). thang zhing is "a field lying on the plain", ri zhing "a field lying on the face of a hill"; no crop is named. nam gzhug: "the end of a season of the year (nam dus), mostly said of autumn" and «gtan gyi phugs» (the dictionary gives no gloss of it). lhags pa: arrival; "a running current of wind", «lhags bsil» cold wind, «lhags 'phyar» wind arising; "the name of a cold wind" (rlung grang mo), with the example «dgun bod lo'i lhags pa mda' las tsha» and the shortened spelling «lhags» (Dag tshig gsar bsgrigs); no dictionary gives it as hail, which is ser ba. 'ur: a crowd's noise, uproar; (3) = glo bur, suddenly. khol bu: a small servant; a part, limb or fragment; «lus khol bur na ba», "pain in parts of the body" (Dag tshig gsar bsgrigs).
+
+## <a id="tmz-box7"></a>tmz:box7 The entries rbad mgo and dra phad in the keyed Tibetan dictionaries (q989)
+
+*Read: etext, 2026-11-14.*
+
+> rbad mgo | {(yul) dpral ba khebs pa'i skra rbad ling /}   (Bod yig tshig gter rgya mtsho; the same in Tshig mdzod chen mo)
+> rbad mgo ling ling | {skra rbad rbad du bcad pa'i mgo /}   (Bod yig tshig gter rgya mtsho)
+> skra rbad mgo | {skra mig mtshams bar slebs tsam/}   (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho)
+> dra phad | 1) {skud pa'i dra ba can gyi snod/} 2) {gzan pa sogs blug snod dra phad/}   (Tshig mdzod chen mo)
+> dra phad | (1) {ske rags kyi ming ste/}《{brda yig blo gsal mgrin rgyan}》{las/ dra phad ni ske rags/ zhes gsungs/} (2) {rdzas sna tshogs bsdu rgyu'i dra ba can gyi khug ma'i ming ste/}《{dge slong gi bslab bya chen mo'i brda dkrol}》{las/ dra phad ni rdzas sna tshogs bsdu rgyu'i khug ma/ zhes gsungs pa dang /}《{sgra dbyangs rgya mtsho'i 'jug ngogs}》{las/ mkho dgu tshang ba'i dra phad rgyal srid min// pus mkhyud sgom thag skor cig chung ma'ang min// zhes pa lta bu'o//}   (Brda dkrol gser gyi me long)
+> dra phad | {dngos rdzas 'jog byed kyi khug ma dra mig can gyi ming/}   (Dag tshig gsar bsgrigs)
+
+Steinert's public dictionary set (Tibetan-Tibetan nos. 25, 37, 55, 62; English: Ives Waldo no. 08, Valby no. 07, Dan Martin no. 09), read 2026-11-14 for the two words of the Blue Beryl's clause (q989). Headwords «rbad mgo» and «dra phad» exist; «drwa phad», the Blue Beryl etext's spelling, has no headword in the 64 sets («drwa» alone is "net").
+
+rbad mgo: "(a place-word) the fringe of hair that covers the forehead" (Bod yig tshig gter rgya mtsho, Tshig mdzod chen mo); «rbad mgo ling ling», "a head whose hair is cut in a fringe"; skra rbad mgo, "hair reaching just to the space between the eyes". Ives Waldo: "forehead covering bangs (hair)"; «rbad rbad du bcad pa'i mgo», "hair cut in bangs/fringe, neither very long nor short".
+
+dra phad: "a vessel (snod) with a net (dra ba) of cord"; "a bag in which to put what is wanted" (Tshig mdzod chen mo); "a bag with net meshes in which things are kept" (Dag tshig gsar bsgrigs); in the Gold Mirror of Brda dkrol (no. 55) (1) a name of the waistband (ske rags), quoting the Brda yig blo gsal mgrin rgyan: «dra phad is a waistband», and (2) a bag with a net for gathering various goods, quoting the Dge slong gi bslab bya chen mo'i brda dkrol and a verse of the Sgra dbyangs rgya mtsho'i 'jug ngogs: «a net-bag with all nine needs is not a kingdom, a shoulder-cloth and meditation-cord all round is not a small wife either». Ives Waldo: "cord net bag"; Valby: "bag of net-cloth"; Dan Martin: «ske rags», and the net-bag, after Btsan-lha.
