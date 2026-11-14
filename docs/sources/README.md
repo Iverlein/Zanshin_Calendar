@@ -1703,16 +1703,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0372.md](questions/q0372.md) | question q372 | Whose mewa and trigram among the burial reckoning's eleven roots | open; cites dz:i057-061 |
 | [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |
 | [questions/q0374.md](questions/q0374.md) | question q374 | The plank-tree's fifteenth and sixteenth heads, «ལྔ་ཐུན» and «དྲུག་འབྲས» | open; cites dz:i052-055 |
-| [questions/q0375.md](questions/q0375.md) | question q375 | Fire and iron clans' great and small cut-off: LT against the notes | open; cites lt:p26-28, wb.2:p499-500 |
+| [questions/q0375.md](questions/q0375.md) | question q375 | Fire and iron clans' great and small cut-off: LT against the notes | answered; cites lt:p26-28, wb.2:p499-500 |
 | [questions/q0376.md](questions/q0376.md) | question q376 | Which animal a planet rises on, and the Sun, Mercury and Venus | open; cites lt:p9-11 |
 | [questions/q0377.md](questions/q0377.md) | question q377 | The Moonbeams' readings 28 and 29 exchanged | open; cites dz:i029-034, wb.1:p453-454 |
 | [questions/q0378.md](questions/q0378.md) | question q378 | The Moonbeams' eight pebbles without the progressed year | open; cites dz:i029-034, wb.2:p532-533 |
 | [questions/q0379.md](questions/q0379.md) | question q379 | «ལྷ་ཁང་འགོའི» or «ལྷ་གང», «བསྔོས་ཚང» or «བསྡུས་ཚད» | open; cites dz:i029-034 |
-| [questions/q0380.md](questions/q0380.md) | question q380 | «spo» and «spo smad»: the Phalgunī mansions | open; cites wbz:i720, wbz:i805 |
+| [questions/q0380.md](questions/q0380.md) | question q380 | «spo» and «spo smad»: the Phalgunī mansions | answered; cites wbz:i720, wbz:i805 |
 | [questions/q0381.md](questions/q0381.md) | question q381 | The household round's «སྐྱེད་པུར» and «མ་ཏྲཾ» | open; cites wbz:i506 |
 | [questions/q0382.md](questions/q0382.md) | question q382 | The Lord Lama's replies and the iron bird and monkey | answered; cites ys:i494-496 |
 | [questions/q0383.md](questions/q0383.md) | question q383 | The old text of the servants' fine start | open; cites ys:i497-498 |
-| [questions/q0384.md](questions/q0384.md) | question q384 | «དཀར་ནག་བསྔོ་མེད», «རྦད་ཁམ», «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» | open; cites ys:i496, ys:i497-498, ys:i498-499 |
+| [questions/q0384.md](questions/q0384.md) | question q384 | «དཀར་ནག་བསྔོ་མེད», «རྦད་ཁམ», «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» | answered; cites ys:i496, ys:i497-498, ys:i498-499 |
 | [questions/q0385.md](questions/q0385.md) | question q385 | The do gcig of the trigram repetition | open; cites ys:i513-514, wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0386.md](questions/q0386.md) | question q386 | «ཡི་བམ» and «འབྱུང་ཆུང» in reply 152 | open; cites ys:i513-514 |
 | [questions/q0387.md](questions/q0387.md) | question q387 | «སྟོངས», an empty aspect, in reply 148 | answered; cites ys:i506-508 |
