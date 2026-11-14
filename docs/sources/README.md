@@ -942,6 +942,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-remedy.md](claims/svi-remedy.md) | claim, remedy | The Svapna-īkṣā's remedy and method | cites svi:p262; feeds block-73 |
 | [claims/svo-author-and-translator.md](claims/svo-author-and-translator.md) | claim, note | The Svapnohana colophon names only its translator Vibhūticandra; Ngag dbang is not identified | cites svo:p271, svo:p268; feeds block-73 |
 | [claims/svo-authorship-witnesses.md](claims/svo-authorship-witnesses.md) | claim, conflict | Translator only or author as well: the catalogues against the Derge colophon | cites svo:p271, svo:p268; feeds block-73 |
+| [claims/svo-bgrod-min-la-zhugs-is-agamyagamana.md](claims/svo-bgrod-min-la-zhugs-is-agamyagamana.md) | claim, note | The Svapnohana's «བགྲོད་མིན་ལ་ཞུགས» is the Agnipurāṇa's agamyāgamana, an image of its own | cites agp:p282, svo:p268-271, agp:p280-281; feeds S2 |
 | [claims/svo-catalogues-derge-jo-nang.md](claims/svo-catalogues-derge-jo-nang.md) | claim, note | The Derge and Jo nang catalogues and Bu ston: Vibhūticandra's own translation, no author; Padma rdo rje copies the colophon | cites svo:i736, svo:i64, svo:i409, svo:p271; feeds block-73 |
 | [claims/svo-co-ne-machine-tallies.md](claims/svo-co-ne-machine-tallies.md) | claim, note | The Co ne Svapnohana: tallies of the doubtful places by Yigdzin-1 on line strips | cites svo:p271m, svo:p271g; feeds RD311 |
 | [claims/svo-colophons-by-print.md](claims/svo-colophons-by-print.md) | claim, note | The Svapnohana's colophon on three prints: translator only; the work before it by Dīpaṃkaraśrījñāna and Rin chen bzang po | cites svo:p271j, svo:p271; feeds block-73 |
@@ -1392,7 +1393,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
 | [claims/zlos-shig-is-tell-back.md](claims/zlos-shig-is-tell-back.md) | claim, definition | «རྨི་ལམ་ཟློས་ཤིག» is «tell the dream back»: ཟློས is the imperative of ཟློ་བ, to repeat, recite, make known (RD395, q1103) | cites svo:p446b, svo:p446-447; feeds S1 |
 | [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 1 scan, 1 machine |
-| [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 1 passages: 1 scan |
+| [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 2 passages: 2 scan |
 | [corpus/agv/agv.md](corpus/agv/agv.md) | corpus | AGV | 8 passages: 6 scan, 2 machine |
 | [corpus/ahd/ahd.md](corpus/ahd/ahd.md) | corpus | AHD | 1 passages: 1 etext |
 | [corpus/ahr/ahr.md](corpus/ahr/ahr.md) | corpus | AHR | 1 passages: 1 scan |
@@ -2133,7 +2134,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0810.md](questions/q0810.md) | question q810 | Which three watches does WB vol. 1 p. 17 mean by the night's name «ཐུན་གསུམ་ཀུ་མུད་བཞད་རྣམས», against four watches by night on p. 101 and vol. 2 p. 403? | open; cites wb.1:p17b, wb.1:p101, wb.2:p403 |
 | [questions/q0811.md](questions/q0811.md) | question q811 | Is «ཉིན་མཚན་ཐུན་བརྒྱད» one division of the day and night into eight watches, or the day's and night's lengths each divided by eight? | open; cites wb.2:p403, wb.1:p134-135 |
 | [questions/q0812.md](questions/q0812.md) | question q812 | Are the four watches of the night in WB vol. 1 p. 101 equal, and what is the unit of their planets' stretches (ཆུ་ཚོད 5, 4, 6, 3, 7, 4, 1)? | open; cites wb.1:p101 |
-| [questions/q0813.md](questions/q0813.md) | question q813 | What does the clause «བགྲོད་མིན» in SVO's second verse limit? | open; cites svo:p268 |
+| [questions/q0813.md](questions/q0813.md) | question q813 | What does the clause «བགྲོད་མིན» in SVO's second verse limit? | answered; cites svo:p268, agp:p282, agp:p280-281 |
 | [questions/q0814.md](questions/q0814.md) | question q814 | What does the word before «a snake, a water creature seized» in SVO p. 270 («བླ་མོ») read, and is «བཅུ་ཡི་བར» in days? | open; cites svo:p270 |
 | [questions/q0815.md](questions/q0815.md) | question q815 | Is the SVI sign «བྱ་ཤར་ཏེ་རུ» (a bird sent as messenger, Amoghasiddhi's family) a bird, and is it a fortunate sign? | open; cites svi:p261 |
 | [questions/q0816.md](questions/q0816.md) | question q816 | What are the first words of LGD's «རམ་རུག་སྦང་གཡེར», the goods of gossip among the bad signs? | open; cites lgd:p968-969 |
