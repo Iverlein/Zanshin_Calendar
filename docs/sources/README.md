@@ -635,6 +635,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kp-boxes-11-16-22-25-26-earth-lord-runs-against-wb-ch34.md](claims/kp-boxes-11-16-22-25-26-earth-lord-runs-against-wb-ch34.md) | claim, conflict | KP boxes 11, 16–22, 25 and 26 end with earth-lord runs that follow WB ch. 34 with omissions and some changes | cites kp:i26b, kp:i31, kp:i32, kp:i33, kp:i34, kp:i36b, kp:i37, kp:i38b; feeds — |
 | [claims/kp-boxes-34-35-bad-halves-against-wb.md](claims/kp-boxes-34-35-bad-halves-against-wb.md) | claim, note | KP boxes 34 and 35: the bad halves keep WB works 32 and 33 earth lords, shortened | cites kp:i41, kp:i41s; feeds RD5 |
 | [claims/kp-boxes-37-55-earth-lords-by-box.md](claims/kp-boxes-37-55-earth-lords-by-box.md) | claim, note | KP boxes 37 to 55: which boxes name earth lords, and box 42 against WB work 39 | cites kp:i46-57; feeds RD5 |
+| [claims/kp-boxes-52-55-earth-lord-runs-against-wb-ch34.md](claims/kp-boxes-52-55-earth-lord-runs-against-wb-ch34.md) | claim, conflict | KP boxes 52 to 55 end with earth-lord runs that WB's works 49 to 55 do not have | cites kp:i55s; feeds — |
 | [claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md](claims/kp-boxes-57-60-earth-lords-no-work-no-direction.md) | claim, note | KP boxes 57 to 60 name the earth lords as in WB, with no work, day or direction; boxes 61 to 64 are in another order | cites kp:box57, kp:box61; feeds RD5 |
 | [claims/kp-charts-13-16-hold-names-not-verdicts.md](claims/kp-charts-13-16-hold-names-not-verdicts.md) | claim, note | KP §13-§16: the charts of the year's, month's, day's and hour's earth lords are names by cell, with no work and no verdict | cites kp:i87, kp:i101, kp:i102; feeds T2.28 |
 | [claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md](claims/kp-mansions-by-compass-side-for-the-earth-lord-remedy.md) | claim, note | KP §18: the 27 mansions in eight groups by compass side, the side towards which a skull is thrown | cites kp:i109-110; feeds T2.28 |
@@ -1486,7 +1487,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
-| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 39 passages: 24 scan, 15 machine |
+| [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 40 passages: 24 scan, 16 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
@@ -2609,6 +2610,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1247.md](questions/q1247.md) | question q1247 | KP box 48: is the last short line (a single word «ངན།») a separate line or the tail of the line above? | open; cites kp:i52s |
 | [questions/q1248.md](questions/q1248.md) | question q1248 | KP box 35: is «བར» in «བིཥྚི་བར་འཕུང་བྱེད» the earth lord bar of the lists, and why does WB's work 33 lack it? | open; cites kp:i41s |
 | [questions/q1249.md](questions/q1249.md) | question q1249 | KP box 34: what are the two syllables before «མི་འཕྲོད་ཉི་མ» in the bad half's last line, and what follows ཉི་མ་? | open; cites kp:i41s |
+| [questions/q1250.md](questions/q1250.md) | question q1250 | KP boxes 52–55: where in WB or Mipham do the earth-lord runs at the foot of their bad halves come from? | open; cites kp:i55s |
+| [questions/q1251.md](questions/q1251.md) | question q1251 | KP box 55: is the clause «ཀླུ་བཟློག་པ» a remedy against the naga planet or a separate rite? | open; cites kp:i55s |
 
 <!-- end pool index -->
 
