@@ -3315,9 +3315,18 @@ the text, not about the app.
      opening sentence (img. 004) those, or spaces for the reckoner to write
      one child's data and results? [verdicts.md](verdicts.md), "Written
      reckonings on the open scans" (RD29).
-257. **Prajñāmaṇi and *The Precious Key*'s date (I1KG12897, img. 383–384).**
+257. ~~**Prajñāmaṇi and *The Precious Key*'s date (I1KG12897, img. 383–384).**
      Who is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི), "head teacher of the government's
      Mentsikhang", at whose request *The Precious Key* was gathered (img.
-     383), and which water bird year is its date (img. 384)?
+     383), and which water bird year is its date (img. 384)?~~
+     *Answered 2026-11-14 (inv-b), by q526 (2026-11-13) and q642:*
+     Prajñāmaṇi is Khyenrab Norbu (མཁྱེན་རབ་ནོར་བུ, mkhyen rab nor bu, born
+     1883), BDRC's person record giving it as another name of his, the
+     Sanskrit form being the name's parts (*prajñā* wisdom, *maṇi* jewel).
+     A teacher born in 1883 did not teach in 1873 and the 1987 print rules
+     out 1993, so the water bird year «དཔལ་གནོད» (dpal gnod, the seventh of
+     the cycle) is 1933, the sixteenth cycle's; the cycle's number itself
+     stays unread on the scan, so the date rests on the identification.
+     Claim [precious-key-water-bird-year-is-1933](claims/precious-key-water-bird-year-is-1933.md).
      [verdicts.md](verdicts.md), "Written reckonings on the open scans"
      (RD29).

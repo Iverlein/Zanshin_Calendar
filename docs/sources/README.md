@@ -1681,7 +1681,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0347.md](questions/q0347.md) | question q347 | «ཀླུམ་མནན» or «གྲུམ་མནན» on p. 169 | open; cites wb.2:p168-169, wb.2:p169-170 |
 | [questions/q0348.md](questions/q0348.md) | question q348 | «རྨི་ལྟས» or «ཕྱི་ལྟས» at the foot of p. 144 | answered; cites wb.2:p144, wb.2:p144e |
 | [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | answered; cites wb.2:p166 |
-| [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | open; cites wb.2:p164-165, wb.2:p163-164 |
+| [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | answered; cites wb.2:p164-165, wb.2:p163-164, wb.2:p480 |
 | [questions/q0351.md](questions/q0351.md) | question q351 | The thirty 'bri wang and their results | open; cites wb.2:p538 |
 | [questions/q0352.md](questions/q0352.md) | question q352 | «རྒྱ་ཁང» or «གྱོ་ཁང» of the gold reckoning | answered; cites wb.2:p538 |
 | [questions/q0353.md](questions/q0353.md) | question q353 | The watch and the kung of the hand reckoning, and mung, krung, kyis | open; cites wb.2:p538-539 |
