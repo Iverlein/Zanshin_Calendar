@@ -1832,7 +1832,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | answered; cites — |
 | [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | answered; cites — |
 | [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
-| [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | open; cites wb.2:p453 |
+| [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | answered; cites wb.2:p453 |
 | [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | narrowed; cites wb.2:p448 |
 | [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | open; cites wb.2:p450 |
 | [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | narrowed; cites wb.2:p16 |
@@ -1842,13 +1842,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | answered; cites wb.2:p47 |
-| [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | open; cites wb.1:p390 |
+| [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | answered; cites wb.1:p390 |
 | [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | open; cites wb.1:p381 |
 | [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
 | [questions/q0516.md](questions/q0516.md) | question q516 | The la-knower's animals in the second table of p. 133: tiger, pig, monkey, snake | open; cites wb.2:p224d |
 | [questions/q0517.md](questions/q0517.md) | question q517 | The hal khyi's five mothers and five sons as the five elements' pairs | open; cites wb.2:p224d |
 | [questions/q0518.md](questions/q0518.md) | question q518 | The body's friend «བེ་ལུག» or «བུ་ལུག» on the Zhol block | answered; cites wb.1:p334 |
-| [questions/q0519.md](questions/q0519.md) | question q519 | «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» on p. 335 | open; cites wb.1:p334 |
+| [questions/q0519.md](questions/q0519.md) | question q519 | «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» on p. 335 | answered; cites wb.1:p334 |
 | [questions/q0520.md](questions/q0520.md) | question q520 | Item 15 of the forty of the birth wind: «ང་བཞི» (54) for fifty | answered; cites wb.1:p342 |
 | [questions/q0521.md](questions/q0521.md) | question q521 | Does a bad but not utterly bad life reckoning bar the match (reply 111) | open; cites wb.1:p351b |
 | [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | answered; cites wb.1:p351b |
@@ -1857,7 +1857,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | narrowed; cites wb.2:p46 |
 | [questions/q0526.md](questions/q0526.md) | question q526 | Which water bird year dates The Precious Key, and who is Prajñāmaṇi | answered; cites wb.2:p46 |
 | [questions/q0527.md](questions/q0527.md) | question q527 | The Brahmā lineage's count of the steelyard's rope | open; cites wb.2:p165e |
-| [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | open; cites wb.2:p165e |
+| [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | answered; cites wb.2:p165e |
 | [questions/q0529.md](questions/q0529.md) | question q529 | Does UT's chase over the fifteen places read the notes' «ཡར་གསུམ་སོགས» | open; cites wb.2:p144e |
 | [questions/q0530.md](questions/q0530.md) | question q530 | Does today's 高島暦 shade the 歳刑's quarter or its one branch; the Edo wheel's sectors | open; cites — |
 | [questions/q0531.md](questions/q0531.md) | question q531 | The 拾芥抄's 天一太白 sentence: «more strictly than» by the tradition itself | answered; cites — |
