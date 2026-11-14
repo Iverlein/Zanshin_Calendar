@@ -1094,6 +1094,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ttn-sramana-section-closing-verse-spells-kun-dga-snying-po.md](claims/ttn-sramana-section-closing-verse-spells-kun-dga-snying-po.md) | claim, note | Tāranātha's Śramaṇā section closes on a verse whose marked syllables spell his name; it is his own wording, not the be'u bum's text (q1130, q1013) | cites ttn:p137-138, tdr:p337-342e, dds.41:p304-306; feeds S2 |
 | [claims/ur-mnan-spoke-seeds-on-taikhang.md](claims/ur-mnan-spoke-seeds-on-taikhang.md) | claim, note | The ur mnan wheel's spoke seeds on the Taikhang: hrī-like letters | cites wb.2:p112-114; feeds block-31 |
 | [claims/ut-chase-not-wb-up-three-count.md](claims/ut-chase-not-wb-up-three-count.md) | claim, note | UT's chase upward and downward is not WB's up-three count; the same sign-pair harms | cites ut:p224-226, wb.2:p172-173, wb.2:p22-23; feeds — |
+| [claims/ut-turtle-wood-sheep-cow-nine.md](claims/ut-turtle-wood-sheep-cow-nine.md) | claim, conflict | The turtle's wood verse in UT: the wood sheep is the cow's year, the remaining are nine | cites ut:p170-171, wb.2:p20-22; feeds block-31 |
 | [claims/ut-year-store-places-and-wb-four-counts.md](claims/ut-year-store-places-and-wb-four-counts.md) | claim, note | UT's year-store places beside WB's four counts | cites ut:p224-226, wb.2:p171-172; feeds — |
 | [claims/vairocana-abhisambodhi-pupils-dawn-dream-telling.md](claims/vairocana-abhisambodhi-pupils-dawn-dream-telling.md) | claim, note | The Vairocanābhisaṃbodhi has the pupils tell their dreams at dawn and lists good and bad dreams | cites vab:p329-330, vab:p494-495; feeds S1 |
 | [claims/vairocana-text-supplies-only-the-joy-verse-snr-names-no-dawn-dream-text.md](claims/vairocana-text-supplies-only-the-joy-verse-snr-names-no-dawn-dream-text.md) | claim, note | The Sngags rim chen mo takes only the joy verse from the Vairocanābhisambodhi; the dawn-dream steps come from other texts, and no Vairocana text reading the dawn dreams was found (q1012, RD401) | cites snr:p367-371; feeds — |
@@ -1533,7 +1534,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
-| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 7 passages: 1 machine, 6 etext |
+| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 8 passages: 1 machine, 7 etext |
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 7 passages: 1 scan, 6 machine |
@@ -1680,19 +1681,19 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | answered; cites wb.2:p166 |
 | [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | open; cites wb.2:p164-165, wb.2:p163-164 |
 | [questions/q0351.md](questions/q0351.md) | question q351 | The thirty 'bri wang and their results | open; cites wb.2:p538 |
-| [questions/q0352.md](questions/q0352.md) | question q352 | «རྒྱ་ཁང» or «གྱོ་ཁང» of the gold reckoning | open; cites wb.2:p538 |
+| [questions/q0352.md](questions/q0352.md) | question q352 | «རྒྱ་ཁང» or «གྱོ་ཁང» of the gold reckoning | answered; cites wb.2:p538 |
 | [questions/q0353.md](questions/q0353.md) | question q353 | The watch and the kung of the hand reckoning, and mung, krung, kyis | open; cites wb.2:p538-539 |
-| [questions/q0354.md](questions/q0354.md) | question q354 | A name for a match of mixed kinds | open; cites wb.1:p355, wb.2:p524 |
+| [questions/q0354.md](questions/q0354.md) | question q354 | A name for a match of mixed kinds | answered; cites wb.1:p355, wb.2:p524 |
 | [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
 | [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | answered; cites wb.2:p526 |
 | [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | answered; cites wb.1:p355, wbz:i464 |
 | [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | answered; cites wb.1:p445-447, wb.1:p445, lt:p43-44, lt:p20, dz:i051-052 |
 | [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
-| [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | open; cites wb.1:p428-429 |
-| [questions/q0361.md](questions/q0361.md) | question q361 | The sky year of p. 426's table | open; cites wb.1:p425-426, wb.1:p426-427 |
+| [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | answered; cites wb.1:p428-429 |
+| [questions/q0361.md](questions/q0361.md) | question q361 | The sky year of p. 426's table | answered; cites wb.1:p425-426, wb.1:p426-427 |
 | [questions/q0362.md](questions/q0362.md) | question q362 | The time «མྱུར་སྨད» of sending the ransoms | answered; cites wb.1:p431-433, wb.1:p443-444 |
 | [questions/q0363.md](questions/q0363.md) | question q363 | The la's wandering of the snake and horse, the rat and pig | open; cites wb.2:p16 |
-| [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | open; cites wb.2:p20 |
+| [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | answered; cites wb.2:p20 |
 | [questions/q0365.md](questions/q0365.md) | question q365 | For whom the four reckonings of «བརྗེ» are | open; cites wb.2:p23-25 |
 | [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | answered; cites wb.2:p9, wb.2:p17 |
 | [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | answered; cites wb.2:p10-11 |
