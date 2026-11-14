@@ -1624,11 +1624,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | open; cites wb.2:p126-128 |
 | [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | answered; cites wb.2:p104, wbz:i777 |
-| [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | open; cites wb.2:p112 |
-| [questions/q0296.md](questions/q0296.md) | question q296 | The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 | open; cites wb.2:p122 |
+| [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | answered; cites wb.2:p112 |
+| [questions/q0296.md](questions/q0296.md) | question q296 | The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 | answered; cites wb.2:p122 |
 | [questions/q0297.md](questions/q0297.md) | question q297 | Mipham's thirteen remedy classes against the chapter's twelve | open; cites wb.2:p517 |
 | [questions/q0298.md](questions/q0298.md) | question q298 | The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ» | answered; cites wb.2:p109-111, wb.2:p111-112, wb.2:p517 |
-| [questions/q0299.md](questions/q0299.md) | question q299 | The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan | open; cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114 |
+| [questions/q0299.md](questions/q0299.md) | question q299 | The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan | answered; cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114 |
 | [questions/q0300.md](questions/q0300.md) | question q300 | The five clans of the strikes, p. 114 | answered; cites wb.2:p112-114, wb.2:p114-115 |
 | [questions/q0301.md](questions/q0301.md) | question q301 | How the thirty's count runs through the years | open; cites wb.1:p453-454, wb.2:p532-533 |
 | [questions/q0302.md](questions/q0302.md) | question q302 | The thirty pairs and the thirty readings in one order | answered; cites wb.1:p453-454, wb.1:p454, wb.2:p532-533, dz:i029-034 |
