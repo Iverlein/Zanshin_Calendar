@@ -3017,6 +3017,7 @@ the text, not about the app.
      RD25.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how
      the abridgement orders and closes a reckoning" (RD27).
      *Narrowed 2026-10-21 (RD25, [verdicts.md](verdicts.md), *Ch. 20's classes*, by BDRC's catalogue and search, no text read): the root in five topics survives, three folios, in MW2PD17476 vol. 74 (img. 413–418) and MW2PD17386 vol. 28 (pp. 376–378); the Lhasa Mentsikhang's catalogue (MW4CZ354964) lists "rtsa 'grel nyi shu" as book 6 of the *Precious Clear Lamp of the Elements* (question 240); WB's fourth commentary survives as *Bag rtsis mthun sbyor bcu pa* in both collections; the Zhe chen *Rgyud 'grel dmar chung stag mgo* (MW1GS66241) is a commentary in 21 chapters, five of whose titles WB's twenty share, none on the deciding (question 241).*
+     *inv-ww (2026-11-14), narrowed further: Nor brang O rgyan's history (KD vol. 1, etext pp. 659–661, [claims/clear-lamp-root-five-topics.md](claims/clear-lamp-root-five-topics.md)) names the twenty as the second of Duhar Nagpo's six treatises, «འགྲེལ་བ་རྩ་འགྲེལ་ཉི་ཤུ་པ», "the commentary, the twenty root-commentaries"; the third, the eleven secret* tig *(«མན་ངག་གནད་བསྡུས་གསང་ཏིག་བཅུ་གཅིག»), survives: BDRC MW00KG04012, *'Byung ba rin po che gsal ba'i sgron me'i gsang tig bcu gcig pa*, a dbu med manuscript of 12 ff. in eleven parts (the living's reckoning, the trigram, the bride, the earth-examination, the wind reckoning, the dead's reckoning and others), copied from earlier scholars' hand-copy; its images (I00KG04014) were not opened. BDRC's title index (autocomplete `_msearch`, prefix match on `prefLabel_bo_x_ewts`) has no title «rtsa 'grel nyi shu», «rtsa 'grel nyi shu pa» or «'grel pa nyi shu»; the one title of WB's twenty found, *Bag rtsis mthun sbyor bcu pa*, sits in the Rare Old Texts' vol. 66 (MW2PD17476_8D9B27, partIndex 14, pp. 359–380, 4 ff.) among unrelated almanac tables and a Kālacakra commentary, in a miscellany and not a run of twenty. Still unsettled: whether the twenty survives as one book.*
 223. **The works the *Moonbeams* sends its results to (DZ ff. 19b–24a).**
      Which works are *Dmar chung*, *Stag mgo* (f. 19b, f. 22b), the
      commentary *The Black Drop* (f. 23a), the *Precious Road* (f. 21a)
@@ -3025,13 +3026,15 @@ the text, not about the app.
      190.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
      *Narrowed 2026-10-21 (RD25, [verdicts.md](verdicts.md), *Ch. 20's classes*, BDRC's catalogue and outlines): *Dmar chung stag mgo* is one work, the Zhe chen manuscript MW1GS66241, whose ch. 19 is *The Black Drop* and ch. 13 the *Magic Sieve* (a separate *Dar gud 'phrul gyi mig tshags* in MW2PD17476 and MW2PD17386, ascribed by WB p. 472, etext, to Khyung); *Sgang sgril* is Khyungnak Shakdar's work in three sizes (WB p. 258, etext), a practice manual of it in MW2PD17386_02A969; the *Nine-Gathering Trunk* is named by WB (p. 243, etext; p. 250 on the scan); no *Heart Nail of the Hidden* as a title. None was read.*
-224. **The general and the particular verdict (DZ f. 26b–27a, f. 22b).**
+     *inv-ww (2026-11-14), narrowed: the *Nine-Gathering Trunk* has a title in BDRC, *Gtsug lag thugs rgyud sdong po dgu 'dus*, 89 ff., in the Rare Old Texts vol. 70, pp. 3–180 (MW2PD17476_DB9F56) and the Collected Old Texts vol. 27, pp. 27–71 (MW2PD17386_A1E375), one work (WA0XLDB9F568CF0C3) in both; the name is WB's «རྩ་རྒྱུད་སྡོང་པོ་དགུ་འདུས» (vol. 1, p. 250; also «སྤྱི་རྒྱུད་སྡོང་དགུ་འདུས», p. 243), which the Moonbeams' «དགུ་འདུས» abridges. That the manuscript is that tantra is by the name only: its leaves were not seen (the IIIF collection listing answered 401). Title-index searches for «gab pa'i snying gzer», «snying gzer», «rin chen 'gro lam», «rin chen lam» find only unrelated rNying ma* snying gzer *kīla texts and a* Lam 'bras *series: no *Heart Nail of the Hidden*, no *Precious Road*.*
+224. **Answered 2026-11-14 (inv-ww).** **The general and the particular verdict (DZ f. 26b–27a, f. 22b).**
      In the *Moonbeams*' reckoning for the dead, what is the "general"
      verdict as against the "particular" («སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས»),
      and in its Chinese pebble round, what is laying white and black "as
      in general" («དཀར་ནག་རེ་རེ་སྤྱི་ལྟར་བོར»)?
      [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
+     *Answered 2026-11-14 (inv-ww, [corpus/wb/ch29.md](corpus/wb/ch29.md#wb-2-p52-54), [verdicts.md](verdicts.md)): the words are WB's own for the dead's board. WB vol. 2, pp. 52–54 says the twelve la pebbles "have three verdicts: general (སྤྱི), special (ཁྱད་པར) and specific (བྱེ་བྲག)": the general reads the pattern the pebbles make (the old like an empty nit, stars at dawn, black wild dogs, and so on), the specific the black pebble before the power year with the place before the mother year empty or full, the special the black pebble before each place. The Moonbeams' «སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས» (f. 26b) tells the reader to lay the verdicts in these two kinds, and the close of the dead's chapter, «སྤྱི་དང་བྱེ་བྲག་ཁྱད་པར་གྱི། དུར་སའི་སྐྱོན་ཡོན» (f. 27a), names the same three as the faults and merits of the burial place. It defines none, so the identification rests on the identical triple in the same place of the dead's reckoning (WB's introduction lists general, special, specific; its reading takes general, specific, special). «དཀར་ནག་རེ་རེ་སྤྱི་ལྟར་བོར» (f. 22b) is another matter: the household round's plain meeting, one white or black each, with no verdict in it (dz:i048-049).*
 225. **The year of age's five general totals (DZ f. 24a; WB vol. 2, p. 22).**
      Is the *Moonbeams*' gathering of the year of age into five general
      totals by life, illness, food, merit and demons the same reading WB
@@ -3181,18 +3184,20 @@ the text, not about the app.
      deciding texts" (RD25).
 
     *inv-mm (2026-11-14): not tried again; the outline (verdicts.md, "The Little Red Tiger-Head") already settles that it is a sibling series and not the Clear Lamp's commentary rearranged. Only its cursive pages could show whether ch. 10 or 17 lays the deciding pebble.*
-242. **«སྐབས་གསུམ་བཞིར་བགོས» (WB vol. 1, p. 249).**
+242. **Answered 2026-11-14 (inv-ww).** **«སྐབས་གསུམ་བཞིར་བགོས» (WB vol. 1, p. 249).**
      In the hiding of the root in five topics, was the third topic split
      into four, or three topics into four? Nor brang repeats the words
      («སྐབས་གསུམ་བཞི་རུ་བགོས»). [verdicts.md](verdicts.md), "Ch. 20's
      classes of texts and the deciding texts" (RD25).
-243. **The verdict laid with a count (KD vol. 3, p. 724).**
+     *Answered 2026-11-14 (inv-ww, [claims/clear-lamp-root-five-topics.md](claims/clear-lamp-root-five-topics.md), [verdicts.md](verdicts.md) question 242): three topics were divided into four, not "the third". WB writes its ordinals with «པ» (the root "in five" is «ལྔ་པ», the fourth topic in Tshul khrims rgyal mtshan's history «བཞི་པ་ས་དཔྱད», KD vol. 1 etext p. 526), and «གསུམ» here has none; the verse then reads whole: the five-topic root dropped one important starting point, three topics were divided into four, the earth-examination's two roots were bound into one. Nor brang O rgyan retells it in prose so (etext pp. 661–662). Which three: no source says (questions 539 and 656).*
+243. **Answered 2026-11-14 (inv-ww).** **The verdict laid with a count (KD vol. 3, p. 724).**
      On Kun dga' rig 'dzin's sheet of the meadow's ornament the verdict
      row lays counts (three white, two white, one white, white and
      black, one black), not one colour; is the verdict pebble laid with
      a count in practice, and from what is the count taken?
      [verdicts.md](verdicts.md), "Written reckonings: the practitioners'
      form" (RD28).
+     *Answered 2026-11-14 (inv-ww, [claims/kd3-verdict-count-sum.md](claims/kd3-verdict-count-sum.md), read on the lent scan 2026-11-01): yes, the verdict is laid with a count, taken from the five cells above it: whites and blacks counted pebble by pebble, the black taken from the white, the verdict laid on the colour left over, its size read from what is left (1 to 3 white: one; 4 or 5: two; 6 to 9: three; even: a white with a black; 1 black over: one black; 2 to 5 black over: two). 39 of 40 columns fit; the band edges are read off the sheets only, no text states them.*
 244. **The *Spor thang* (KD vol. 3, pp. 718, 726).**
      Which work is the *Spor thang* (གཙུག་ལག་སྤོར་ཐང) that the sheets
      cite for the hundred pebbles and the household, and does it rest on
