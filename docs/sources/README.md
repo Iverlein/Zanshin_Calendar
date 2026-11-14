@@ -1710,25 +1710,25 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0379.md](questions/q0379.md) | question q379 | «ལྷ་ཁང་འགོའི» or «ལྷ་གང», «བསྔོས་ཚང» or «བསྡུས་ཚད» | open; cites dz:i029-034 |
 | [questions/q0380.md](questions/q0380.md) | question q380 | «spo» and «spo smad»: the Phalgunī mansions | open; cites wbz:i720, wbz:i805 |
 | [questions/q0381.md](questions/q0381.md) | question q381 | The household round's «སྐྱེད་པུར» and «མ་ཏྲཾ» | open; cites wbz:i506 |
-| [questions/q0382.md](questions/q0382.md) | question q382 | The Lord Lama's replies and the iron bird and monkey | open; cites ys:i494-496 |
+| [questions/q0382.md](questions/q0382.md) | question q382 | The Lord Lama's replies and the iron bird and monkey | answered; cites ys:i494-496 |
 | [questions/q0383.md](questions/q0383.md) | question q383 | The old text of the servants' fine start | open; cites ys:i497-498 |
 | [questions/q0384.md](questions/q0384.md) | question q384 | «དཀར་ནག་བསྔོ་མེད», «རྦད་ཁམ», «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» | open; cites ys:i496, ys:i497-498, ys:i498-499 |
 | [questions/q0385.md](questions/q0385.md) | question q385 | The do gcig of the trigram repetition | open; cites ys:i513-514, wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0386.md](questions/q0386.md) | question q386 | «ཡི་བམ» and «འབྱུང་ཆུང» in reply 152 | open; cites ys:i513-514 |
-| [questions/q0387.md](questions/q0387.md) | question q387 | «སྟོངས», an empty aspect, in reply 148 | open; cites ys:i506-508 |
-| [questions/q0388.md](questions/q0388.md) | question q388 | Reply 111's verdict pebble and «ངན་ཐ་ཆད» | open; cites ys:i467-468 |
+| [questions/q0387.md](questions/q0387.md) | question q387 | «སྟོངས», an empty aspect, in reply 148 | answered; cites ys:i506-508 |
+| [questions/q0388.md](questions/q0388.md) | question q388 | Reply 111's verdict pebble and «ངན་ཐ་ཆད» | answered; cites ys:i467-468 |
 | [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | answered; cites ys:i491, wb.2:p497, wb.1:p435 |
 | [questions/q0390.md](questions/q0390.md) | question q390 | The Vaiḍūrya line on the moment's trigram: year or month, and the later dates | open; cites ys.2:i016-017 |
 | [questions/q0391.md](questions/q0391.md) | question q391 | The meaning of «རྟ་ཞག་སྔོན་པོ» and «ཐེ་ཁྱིམ་བཙུན་མོ» | open; cites wb.1:p460, wb.1:p462 |
 | [questions/q0392.md](questions/q0392.md) | question q392 | Does a middling life reckoning bar the match | open; cites ys:i467-468, wb.1:p349 |
-| [questions/q0393.md](questions/q0393.md) | question q393 | «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck | open; cites wb.2:p483 |
+| [questions/q0393.md](questions/q0393.md) | question q393 | «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck | answered; cites wb.2:p483 |
 | [questions/q0394.md](questions/q0394.md) | question q394 | Whether «མཐུན་གསུམ་རང་དང་ལྔ་འཛོམ་ན» counts the sick person's own triad | open; cites wb.1:p445 |
 | [questions/q0395.md](questions/q0395.md) | question q395 | Where the day of falling ill turns at night | open; cites wb.1:p428-429 |
-| [questions/q0396.md](questions/q0396.md) | question q396 | A white enemy pebble in the karma reckoning: good or bad | open; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
+| [questions/q0396.md](questions/q0396.md) | question q396 | A white enemy pebble in the karma reckoning: good or bad | answered; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
 | [questions/q0397.md](questions/q0397.md) | question q397 | The son text that lays a trigram pebble in the household round | open; cites lt:p20-25 |
 | [questions/q0398.md](questions/q0398.md) | question q398 | The Spor thang sheet of seven members: fold, leftovers and colours | open; cites kd.3:p726, wb.2:p490-491 |
-| [questions/q0399.md](questions/q0399.md) | question q399 | «བཙས་པ་སྲོག་རླུང» in question 134: the life-wind or the life force and wind-horse | open; cites ys:i099, wb.2:p497 |
-| [questions/q0400.md](questions/q0400.md) | question q400 | «དཔྱད་འགོག་བྱེད་དུ» in reply 134 | open; cites ys:i491-492 |
+| [questions/q0399.md](questions/q0399.md) | question q399 | «བཙས་པ་སྲོག་རླུང» in question 134: the life-wind or the life force and wind-horse | answered; cites ys:i099, wb.2:p497 |
+| [questions/q0400.md](questions/q0400.md) | question q400 | «དཔྱད་འགོག་བྱེད་དུ» in reply 134 | answered; cites ys:i491-492 |
 | [questions/q0401.md](questions/q0401.md) | question q401 | What spirits and conditions add to a split of a third and two thirds | open; cites wb.1:p438 |
 | [questions/q0402.md](questions/q0402.md) | question q402 | What «བཞི་བརྒྱ་དོན་བཞི» counts among the earth lords' comings | answered; cites wb.2:p175-176, wb.2:p175b |
 | [questions/q0403.md](questions/q0403.md) | question q403 | The measure of the digging rite's earth figure | answered; cites wb.2:p387 |
@@ -1850,7 +1850,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0519.md](questions/q0519.md) | question q519 | «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» on p. 335 | open; cites wb.1:p334 |
 | [questions/q0520.md](questions/q0520.md) | question q520 | Item 15 of the forty of the birth wind: «ང་བཞི» (54) for fifty | answered; cites wb.1:p342 |
 | [questions/q0521.md](questions/q0521.md) | question q521 | Does a bad but not utterly bad life reckoning bar the match (reply 111) | open; cites wb.1:p351b |
-| [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | open; cites wb.1:p351b |
+| [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | answered; cites wb.1:p351b |
 | [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
 | [questions/q0524.md](questions/q0524.md) | question q524 | A manual that gives the dead's speckled life, body, power and luck | open; cites wb.2:p46 |
 | [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | narrowed; cites wb.2:p46 |
