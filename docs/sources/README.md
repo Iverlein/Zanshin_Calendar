@@ -1973,14 +1973,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | answered; cites wb.2:p328-329, wb.2:p328 |
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
-| [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | open; cites wb.1:p317 |
+| [questions/q0653.md](questions/q0653.md) | question q653 | Where the do gcig (དོ་གཅིག) is defined | answered; cites wb.1:p317, wb.2:p480 |
 | [questions/q0654.md](questions/q0654.md) | question q654 | The byi sker and the sa khyi of the rat day's wool-thread remedy | open; cites wb.1:p445 |
 | [questions/q0655.md](questions/q0655.md) | question q655 | The Drigung verse work's author and its twelve-day list | answered; cites wb.1:p445 |
 | [questions/q0656.md](questions/q0656.md) | question q656 | The five topics of the Clear Lamp's root | open; cites wb.1:p249 |
 | [questions/q0657.md](questions/q0657.md) | question q657 | The hand-written labels of the Lto-'phye woodcut on the Zhol print | open; cites wb.2:p280 |
 | [questions/q0658.md](questions/q0658.md) | question q658 | Which text is the Mūlatantra of the astrological manuals | open; cites wb.1:p450 |
 | [questions/q0659.md](questions/q0659.md) | question q659 | The cycle number of the Precious Key's colophon | answered; cites — |
-| [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | open; cites — |
+| [questions/q0660.md](questions/q0660.md) | question q660 | Does MW1LT2427 hold the Moonbeams | answered; cites dz:i029-034 |
 | [questions/q0661.md](questions/q0661.md) | question q661 | The crab's house in p. 383's list | open; cites — |
 | [questions/q0662.md](questions/q0662.md) | question q662 | «སྒྲ» or «སྨྲ» in p. 380's lifespan verses | open; cites — |
 | [questions/q0663.md](questions/q0663.md) | question q663 | Is the thirty of Mipham's notes (WB vol. 2, p. 532) the starting points of ch. 27's small reckonings, so that the bare khams of p. 17 is the year-horse's element | answered; cites — |
