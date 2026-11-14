@@ -1225,6 +1225,17 @@ the text, not about the app.
     the ribs follow. The Drigung *Rgyud bzhi'i dka' mchan*, Skal bzang chos
     kyi rgyal mtshan's works and later manuals repeat it (BDRC snippets).
     KL's dropping of the 24th is still not explained.*
+    *Answered as to the text and teacher 2026-11-14 (INV-c; the dropping is
+    question 667): the list is the Indian physician Acārya Phyag rdum's
+    (ཨ་ཙ་ར་ཕྱག་རྡུམ, a tsa ra phyag rdum), as the Blue Beryl quotes him
+    (MW1PD3_254AC6, MW1PD3_BED6AF, BDRC's search 2026-11-14 again); BDRC's
+    medical dictionary and the *Lag len pod dmar* know him as the "Fire
+    god" (མེ་ལྷ, me lha) Acārya, an Indian (རྒྱ་གར་སྐྱེས་བུ), and as the teacher
+    of nine learned Tibetan pupils, among them Yuthok (Mind sel sgron me,
+    Bod kyi sman rtsis ched rtsom, Yuthok snying thig; snippets: MW3CN6458,
+    MW00EGS1017120, MW1KG21754, MW25097_D6125C, MW4PD2074). KL's author
+    belongs to the Yuthok tradition, but no Yuthok text with the six dates
+    was found.*
 
 80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
     the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),
@@ -2600,6 +2611,18 @@ the text, not about the app.
      pa ratna) whose notes Mipham used (p. 538), and does the name read
      so on another print? [verdicts.md](verdicts.md), "Mipham's notes on
      condensing" (RD26).
+     *Narrowed 2026-11-14 (INV-c): the name reads «རཏྣ» on Mipham's own print
+     ([claims/notes-ratna-secretary.md](claims/notes-ratna-secretary.md)).
+     BDRC's exact search finds «དྲུང་མཁས་པ་རཏྣ», «དྲུང་མཁས་པ་རཏྣ་», «རཏྣ་ཟིན་བྲིས»,
+     «དྲུང་རཏྣ་ནག་རྩིས» and «དྲུང་ཡིག་མཁས་པ་རཏྣ» nowhere but in the White
+     Beryl's own etext (MW2CZ8040, the line itself); «རཏྣའི་ཟིན་བྲིས» finds
+     other men's notes (a guide to Lci stod Ra tsha rdzong, MW8751_69294D;
+     a Rnying ma Great Perfection manual's «mkhan chen Ratna», MW21809; a
+     Kadampa digest's «Prajñā-ratna», MW28856), none a reckoner; «དྲུང་རཏྣ»
+     (19 hits) gives a Jo nang «drung Ratna» of c. 1400 (MW1KG13431) and
+     Ratna-śrī in the Jo nang history (MW19816), and «དྲུང་ཡིག་རཏྣ» a Gelug
+     steward «drung yig Ratna Ānanda» (MW1PD137884), none tied to the White
+     Beryl. Still unidentified.*
 202. **The collection of the reckoning's deep points (WB vol. 2, the notes, p. 538).**
      Does the "collection of the reckoning's deep points and
      instructions" that p. 538 says is "to be written separately" exist
