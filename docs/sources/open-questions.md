@@ -2651,6 +2651,7 @@ the text, not about the app.
      P. 334, «གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ», what is «བེ་ལུག»?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
     *Narrowed 2026-11-14 (inv-ll): none of the 64 dictionaries has «བེ་ལུག», «བེ་ལུགས» or «ས་རུ་བལྟ» as a headword; «བེའུ» is the young of cattle and yak-crosses (Tshig mdzod chen mo, Dag tshig gsar bsgrigs, Valby, Ives Waldo 'calf'; the Dag tshig adds «བེའུ་ལི» as the spoken form), «ལུག» the sheep, which supports the reading of a young animal of the herd and nothing more; no new gloss.*
+    *Narrowed 2026-11-14 (inv-last): the line is in both etexts of WB (BDRC phrase search «བེ་ལུག་ས་རུ་བལྟ», 2 hits: MW2CZ8040 etext p. 344, MW3CN5026 etext p. 329): «བུ་ཡིས་བུ་ཚ་དུ་སྐྱེས་བཟུང་། གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ། དགྲ་ཡིས་སྤུན་ཟླ་ན་ཚ་བརྩི།» (the son: which grandchild is born; the friend: «be lug sa ru blta»; the enemy: kin, sickness), in the list of what each of the five reckonings (mother, son, friend, enemy) is read for, with spellings «བེ་ལུག་ས་རུ» in both. The Taikhang's «བེ་ལུགས་རུ་བལྟ» (q583) has no hit at all in BDRC (0 for «བེ་ལུགས་རུ་བལྟ»), so it is a variant of the one copy, not another witness. No gloss of «བེ་ལུག» found.*
 178. **«རག་མི་ལ» (p. 338).**
      P. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
