@@ -1695,6 +1695,11 @@ dtn:
   author: "Co ne Grags pa bshad sgrub (1675–1748, Dge lugs; BDRC's note on his collected works)"
   edition: "in his Gsung 'bum, the computer-set print (glog klad par ma), BDRC's statement pp. 284–303 of its volume"
   bdrc: {work: MW1KG13759_ECAEFD, etext: VEIE0OPIB80F7850_I1KG15429}
+akb:
+  title: "Chos mngon pa'i mdzod kyi bshad pa (Abhidharmakośabhāṣya), the commentary on the Treasury of Abhidharma, with the verses it comments on; chapter 4, Las bstan pa (the teaching on action), the passage on the one-day vow"
+  author: "the Tengyur's Abhidharmakośabhāṣya (the author's name not read in this volume's colophon)"
+  edition: "Bstan 'gyur, Sde dge print (MW23703), Delhi reprint, BDRC volume 140 (image group I1456); the work begins on etext p. 54 after the verses (Toh 4089 as the etext marks them), chapter 4 ends on etext p. 454"
+  bdrc: {work: MW23703, etext: VE23703_1456, scans: [I1456]}
   licence: public-domain
   rank: 3
   role: source
@@ -1706,6 +1711,12 @@ dgk:
   author: "not read in this session (the title page names none)"
   edition: "Sde dge Bstan 'gyur, Delhi Karmapae Choedhey reprint 1982–1985, as served by BDRC"
   bdrc: {work: MW23703, etext: VE23703_1531}
+  notes: "pd-c (2026-11-16): etext page = image number, checked at img. 364 and 366 (the reprint's printed page is the image number minus 2: img. 366 prints 364); scans open, 2000 px wide, about 46 px a line: a sentence can be confirmed on them at 2x, a single syllable not always; the common Abhidharma basis that Lo chen Dharma shrI (dpn) quotes for the one-day vow"
+
+ljz:
+  title: "'Jig rten gzhag pa (Lokaprajñapti as the etext's Sanskrit title line gives it, «ལོ་ཀ་པྲཛྙཱ»; the Arrangement of the World), bam po 3, the gods' watch over the human world on the 8th, 14th and 15th"
+  edition: "Bstan 'gyur, Sde dge print (MW23703), Delhi reprint, BDRC volume 139 (image group I1455); the work begins on etext p. 4, its third bam po on etext p. 41"
+  bdrc: {work: MW23703_4086, etext: VE23703_1455, scans: [I1455]}
   licence: public-domain
   rank: 3
   role: source
@@ -1724,3 +1735,15 @@ sgc:
   role: source
   locator: image
   notes: "one etext volume, VEIE0OPI40212F00_I01JW66, 857 etext pages; the ids count the etext's pages (iN = etext pN), not checked against the scan images; a text in it keeps the rank of its own author (a treasure of Rtsa gsum gling pa rank 2); read in the etext only on 2026-11-16 for the lunar days of practice; the collection's list of contents is on its etext p. 8"
+  notes: "pd-c (2026-11-16): found by BDRC's phrase search «ཚེས་བརྒྱད་ལ་རྒྱལ་པོ་ཆེན་པོ་བཞི» (2 hits: this and the Dpe bsdur ma copy MW1PD95844_3315, VEIE0OPIA3E40644_I1PD95923); etext page taken as the image number as in the neighbouring volume I1456 (not checked on these images: img. 41-45 fetched, not read); the same account of the 15th is quoted in the Vyākhyāyukti's sūtra extracts (MW23703_4060, VE23703_1452) and its commentary (MW23703_4069, VE23703_1453), seen in the search snippets only"
+
+dpn:
+  title: "Sdom gsum rnam par nges pa'i 'grel pa legs bshad ngo mtshar dpag bsam gyi snye ma (the commentary on the Ascertainment of the Three Vows), with the root text Rang bzhin rdzogs pa chen po'i lam gyi cha lag sdom pa gsum rnam par nges pa"
+  author: "Smin gling Lo chen Dharma shrI (commentary); Mnga' ris paN chen Padma dbang rgyal (root text), as BDRC names them"
+  edition: "Sdom gsum rtsa ba dang de'i 'grel pa dpag bsam snye ma sogs, Gser thang bla rung lnga rig nang bstan slob gling, Gser rta rdzong, 617 pp. (typeset); the root text from etext p. 5, the commentary from the volume's printed p. 19, the Thun drug tu sdom gsum gyi bslab bya skyong tshul gyi yi ge from printed p. 360 (the volume's own list of contents, etext p. 4)"
+  bdrc: {work: MW3CN4872, etext: VEIE0OPIA15FC33C_I3CN4874, scans: [I3CN4874]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "pd-c (2026-11-16): a Nyingma (Smin grol gling) work; etext 'excellent quality', etext page = image number (checked at img. 55 and 58); scans open, 1960 x 2916 px, legible at 1x; the printed page number of an image not read (the crops did not take the page's edge); other prints by BDRC's phrase search: MW9088, MW1KG22084, MW3CN5324, MW19229_5AEC9F, MW25983_4A371E, MW9140_5855F5, and in the Bka' ma shin tu rgyas pa (MW1PD100944_FED915, scans on archive.org)"

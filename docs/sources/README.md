@@ -507,7 +507,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/edo-sixty-days-against-the-yongle-days-and-p3908.md](claims/edo-sixty-days-against-the-yongle-days-and-p3908.md) | claim, note | The Edo sixty-day cells against the Yongle dadian's day omens (eighteen days) and P.3908's branch chapter: no agreement beyond chance | cites cdb:box1, cdb:i13-16, mdz:i426556b; feeds S3 |
 | [claims/eighth-fifteenth-new-moon-buddhas.md](claims/eighth-fifteenth-new-moon-buddhas.md) | claim, conflict | Which buddha comes on the 15th and which on the new moon: two orders | cites rcz:p286-288, dtn:i316; feeds SPEC §5.8 |
 | [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
+| [claims/fast-days-three-or-six.md](claims/fast-days-three-or-six.md) | claim, conflict | The fast days: the 8th, 14th and 15th of each half, or the full moon, the new moon and the eighth | cites ljz:i41-47, akb:i364-365, dpn:i55, dpn:i58; feeds SPEC §5.8 |
 | [claims/four-festivals-multiplier.md](claims/four-festivals-multiplier.md) | claim, conflict | The four great festivals' multiplier: a hundred koṭi or a hundred million | cites rcz:p286-288, dtn:i316, dgk:i491; feeds SPEC §5.7 |
+| [claims/four-great-kings-look-over-the-world-8-14-15.md](claims/four-great-kings-look-over-the-world-8-14-15.md) | claim, note | Why the 8th, 14th and 15th: the Four Great Kings' servants, sons and the kings themselves look over the world | cites ljz:i41-47; feeds SPEC §5.8 |
+| [claims/fulfilment-confession-full-moon-new-moon-eighth.md](claims/fulfilment-confession-full-moon-new-moon-eighth.md) | claim, rule | Fulfilment and confession of tantric commitments on the full moon, the new moon and the eighth | cites dpn:i334; feeds SPEC §5.8 |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
@@ -812,6 +815,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-worked-example-six-and-count.md](claims/notes-worked-example-six-and-count.md) | claim, note | The notes' worked example: the six of the 360, and the count through the years lived | cites wb.2:p536-538; feeds block-60 |
 | [claims/o-yug-pa-in-the-death-dream-remark.md](claims/o-yug-pa-in-the-death-dream-remark.md) | claim, note | «འོ་ཡུག་པ» in the remark of the death-dream verse is a name, that of that of a Sakya teacher (or of a man of 'O yug), and the remark gives his saying (RD360) | cites cbl:p237s, cbl:p278-279, cbs:p248-249s, cbd:p1065-1066; feeds S1 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
+| [claims/one-day-vow-eight-branches.md](claims/one-day-vow-eight-branches.md) | claim, list | The eight branches of the one-day vow | cites dpn:i70, dpn:i70-71, akb:i365-366; feeds SPEC §5.8 |
+| [claims/one-day-vow-from-whom-and-until-when.md](claims/one-day-vow-from-whom-and-until-when.md) | claim, rule | The one-day vow: taken from another before sunrise, kept until the next sunrise | cites dpn:i58, akb:i362-363, akb:i364-365, akb:i365-366; feeds SPEC §5.8 |
+| [claims/one-day-vow-householders-full-moon-new-moon-eighth.md](claims/one-day-vow-householders-full-moon-new-moon-eighth.md) | claim, rule | Householders take the one-day vow on the full moon, the new moon and the eighth (Lo chen Dharma shrI) | cites dpn:i55, dpn:i58, akb:i364-365; feeds SPEC §5.8 |
 | [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
 | [claims/ozassho-dream-judgments.md](claims/ozassho-dream-judgments.md) | claim, note | A 大雑書 with a dream section by image only (万代大雑書古今大成) | cites mdz:p5; feeds S3 |
 | [claims/ozassho-dream-not-told-days.md](claims/ozassho-dream-not-told-days.md) | claim, table | The days of the month on which a dream seen is not told (大雑書) | cites mdz:p11; feeds S3 |
@@ -1459,6 +1465,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ahr/ahr.md](corpus/ahr/ahr.md) | corpus | AHR | 1 passages: 1 scan |
 | [corpus/ahs/ahs.md](corpus/ahs/ahs.md) | corpus | AHS | 1 passages: 1 scan |
 | [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
+| [corpus/akb/akb.md](corpus/akb/akb.md) | corpus | AKB | 3 passages: 3 etext |
 | [corpus/apv/apv.md](corpus/apv/apv.md) | corpus | APV | 2 passages: 2 scan |
 | [corpus/asm/asm.md](corpus/asm/asm.md) | corpus | ASM | 1 passages: 1 scan |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
@@ -1481,6 +1488,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dgk/dgk.md](corpus/dgk/dgk.md) | corpus | DGK | 1 passages: 1 etext |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
+| [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 5 passages: 3 scan, 2 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dtn/dtn.md](corpus/dtn/dtn.md) | corpus | DTN | 1 passages: 1 etext |
 | [corpus/dyc/dyc.md](corpus/dyc/dyc.md) | corpus | DYC: the Dbyangs 'char | 2 passages: 1 machine, 1 etext |
@@ -1522,6 +1530,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
 | [corpus/lgd/lgd.md](corpus/lgd/lgd.md) | corpus | LGD | 17 passages: 11 scan, 4 machine, 2 etext |
 | [corpus/lhq/lhq.md](corpus/lhq/lhq.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs (Qinghai 1991) | 1 passages: 1 etext |
+| [corpus/ljz/ljz.md](corpus/ljz/ljz.md) | corpus | LJZ | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
@@ -1531,7 +1540,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 31 passages: 24 scan, 7 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 35 passages: 28 scan, 7 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
@@ -1880,7 +1889,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | answered; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | narrowed; cites — |
-| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | narrowed; cites — |
+| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | narrowed; cites mdz:i2543210 |
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
@@ -2173,7 +2182,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0783.md](questions/q0783.md) | question q783 | Ch. 3 p. 27 line 26: the stack in «བིགས» | open; cites wb.1:p27 |
 | [questions/q0784.md](questions/q0784.md) | question q784 | Written sources on reading dreams, and whether any ties them to the calendar | answered; cites wb.2:p144, wb.2:p144e |
 | [questions/q0785.md](questions/q0785.md) | question q785 | What does the slash inside each cell of the 大雑書 table 夢を見て語らざる日 divide? | answered; cites mdz:p11, mdz:i772010 |
-| [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11 |
+| [questions/q0786.md](questions/q0786.md) | question q786 | Does EB9's 大雑書 or 夢占吉凶秘伝書 name a date, a day of the cycle or a season for a dream beyond the 万代大雑書? | open; cites eb9:p1-378, mdz:p5, mdz:p11, mdz:i898153 |
 | [questions/q0787.md](questions/q0787.md) | question q787 | What is the critical text of the 山家集 poem on the first dream, and its headnote? | answered; cites skf:p1, skf:p3 |
 | [questions/q0788.md](questions/q0788.md) | question q788 | Is the Edo 初夢 night of 2 January counted by the lunar first month or by the Gregorian calendar? | answered; cites nip:p1 |
 | [questions/q0789.md](questions/q0789.md) | question q789 | In the Four Tantras' ch. 2 line on the boy's dream, is ཡང light or also, and is དག clear or a plural? | answered; cites st:p21, st:p350-351c |
@@ -2263,7 +2272,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0873.md](questions/q0873.md) | question q873 | Does the Co ne print's fourth-watch line of the Svapnohana end «པར་དུ» or «པར་བྱ»? | open; cites svo:p271h |
 | [questions/q0874.md](questions/q0874.md) | question q874 | Is the first segment of the Svapnohana's second-watch line «བརྒྱད་པ་ལ» (Narthang, Peking) or «བརྒྱད་བར་ལ» (Derge etext) the older reading, and which does the Dpe bsdur ma's collation give? | narrowed; cites svo:p271h |
 | [questions/q0875.md](questions/q0875.md) | question q875 | Is the string of six ornamental glyphs after the page-opening Om in the first line of LGD p. 962 (and p. 526 of the Palri print) a string of seed syllables, a mantra in ornamental letters or an invocation, and in plain letters what does it read? | open; cites lgd:p962 |
-| [questions/q0876.md](questions/q0876.md) | question q876 | Is «མཉམ་པོར་འོང་བའི་བདུད» the demon of self-clinging that Chöd teaches as the co-born demon (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), or an attendant adversary of the person set beside «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ»? | narrowed; cites lgd:p970 |
+| [questions/q0876.md](questions/q0876.md) | question q876 | Is «མཉམ་པོར་འོང་བའི་བདུད» the demon of self-clinging that Chöd teaches as the co-born demon (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), or an attendant adversary of the person set beside «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ»? | answered; cites lgd:p970 |
 | [questions/q0877.md](questions/q0877.md) | question q877 | Who is the monk Sgra tshad pa (དགེ་སློང་སྒྲ་ཚད་པ) whose notes close MDP's rebirth-seeing rite on p. 137, and is the Rga lo of its lineage the translator Rga lo tsā ba? | answered; cites mdp:p137b |
 | [questions/q0878.md](questions/q0878.md) | question q878 | Is the section numbered «gsum» at the head of the other TDR print's p. 337 (printed p. 309) the third of a series of dream-examination sets in the 'Brong rtse be'u bum, and what do the earlier numbered sections hold? | answered; cites tdr:p337-345e |
 | [questions/q0879.md](questions/q0879.md) | question q879 | The etext heading names Śramaṇā, Śākyamuni and Tārā as three (gsum), yet the lion-faced dakini's rite after White Tārā is numbered «bzhi pa»: is it the fourth of the same set of four rites or a new section whose number was carried on? | answered; cites tdr:p343h |
@@ -2389,7 +2398,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0999.md](questions/q0999.md) | question q999 | What are the last words of Item 687's marginal line «yāme caturthe māsaikaṃ …» (Penn Ms. Coll. first leaf), and is the month a corrector's own wording or taken from another manuscript? | open; cites pn1871:i4 |
 | [questions/q1000.md](questions/q1000.md) | question q1000 | The 雑書夢合 / 三世相小鑑 (Koizumi DIG-ORMK-02344, image 27) and the 清明秘鈔夢判事 (image 34) each carry a table of day branches in seal-script heads with a cell of cursive under each; read the cells letter by letter at 3000 px: is each cell the charm for a bad dream seen on that day, the same in both books, and does either carry the days on which a dream is not told? | answered; cites mdz:i2533938, mdz:i15617 |
 | [questions/q1001.md](questions/q1001.md) | question q1001 | Does the 東都歳事記 (1838) entry for the second day of the first month (the canvases after 16 of the Ochanomizu copy, DIG-OCHA-00706, or the Hiroshima, Tsukuba or Kokubunken copies) name the 初夢, and does the 歳時記栞草's source 紀事 fix the night at New Year's Eve? | answered; cites mdz:i2533938, mdz:i76425418, mdz:i87533211 |
-| [questions/q1002.md](questions/q1002.md) | question q1002 | Do the 東都歳事記's and the 歳時記栞草's wordings of the 初夢 entry, and the 江戸歳事記 reprints of the 1890s, all keep the eve-to-dawn night, and from which year does a 2 January night appear in print? | open; cites mdz:i2533938 |
+| [questions/q1002.md](questions/q1002.md) | question q1002 | Do the 東都歳事記's and the 歳時記栞草's wordings of the 初夢 entry, and the 江戸歳事記 reprints of the 1890s, all keep the eve-to-dawn night, and from which year does a 2 January night appear in print? | open; cites mdz:i2533938, mdz:i8369317 |
 | [questions/q1003.md](questions/q1003.md) | question q1003 | What sentence introduces Padma rdo rje's quotation of the Svapnohana (his pp. 16–17, etext chars about 18600–21345), and does he name the Tengyur, the translator or an author there? | open; cites svo:i736 |
 | [questions/q1004.md](questions/q1004.md) | question q1004 | Does the Narthang Tengyur catalogue (Bstan pa chos 'gyur ro cog gi dkar chag tshangs pa'i dbyangs, vol. 225 of the Tibet House manuscript, I2KG212509; the etext is unreadable, the entry probably near etext pp. 168 and 200) list the Svapnohana, and with what words for its maker? | answered; cites svo:i736, svo:i77 |
 | [questions/q1005.md](questions/q1005.md) | question q1005 | The Shechen etext opens four Lama Gongdü texts of vol. 42 (the dream text and three others) with a run of 6 to 8 placeholder marks before «namo guru deva ḍākinī hūṃ»; is the ornamental string before the homage one fixed opening of the cycle's texts, written with as many glyphs as the text needs, and what is it? | answered; cites lgd.42:p962b, dds.54:p1-2 |
@@ -2415,7 +2424,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1025.md](questions/q1025.md) | question q1025 | In the opening of Mipham's notes on WB (wb.2:p474) «དུས་ཁམས» is printed where the sense wants «རུས་ཁམས» (clan element); is it a misprint? | answered; cites wb.2:p474 |
 | [questions/q1026.md](questions/q1026.md) | question q1026 | Does the Narthang Tengyur catalogue (I2KG212509, vol. 225) list the Svapnohana anywhere, and where? Images 3-140 and the rest were not read; the entry is absent from the Black Lord run (images 202-206) where the Derge and Jo nang order would put it. | answered; cites svo:i197, svo:i77 |
 | [questions/q1027.md](questions/q1027.md) | question q1027 | Are the «two condensed meanings» of the Deceiving Death by Ngag dbang grags pa in the Narthang catalogue (svo:i197) the 360-verse work that stands before the Svapnohana in the Derge? The line names no verse count. | answered; cites svo:i197, svo:i77 |
-| [questions/q1028.md](questions/q1028.md) | question q1028 | What do the two groups of day branches in each month of the table of the days a dream is not told mean (the gap or slash before the last group: mdz:p11, mdz:i234427b, the 萬歳大雑書日用寳 image 121)? No print gives a legend. | open; cites mdz:i234427b |
+| [questions/q1028.md](questions/q1028.md) | question q1028 | What do the two groups of day branches in each month of the table of the days a dream is not told mean (the gap or slash before the last group: mdz:p11, mdz:i234427b, the 萬歳大雑書日用寳 image 121)? No print gives a legend. | open; cites mdz:i234427b, mdz:i897744 |
 | [questions/q1029.md](questions/q1029.md) | question q1029 | Do the 嘉永大雑書三世相 prints (Kokubunken 200024108, 300132222) and the 大雜書三世相 copies of Nagoya and Tohoku (100339325, 100445829, 100445244), and the other eleven 三世相小鑑 prints, carry the same leaf? | open; cites mdz:i234427b |
 | [questions/q1030.md](questions/q1030.md) | question q1030 | Is the list of figures after «the marks of a true dream» (the twelve houses, elephant, god, monkey, asura, siddha, gandharva, yakṣa; mmk.1:p403-404, mmk.2:p152-153) the content of the fourth watch's dream, or a separate statement; and what is the Tibetan «སྡིག་པ» for, where the zodiac has Scorpio? | answered; cites mmk.1:p403-404 |
 | [questions/q1031.md](questions/q1031.md) | question q1031 | How does the Sngags rim chen mo's «the first three watches are not certain, so the fourth is used» come from the root tantra's verse: is it Tsong kha pa's inference from the three humours and «true», or does a commentary on the Mañjuśrīmūlakalpa say it? | answered; cites mmk.1:p397-399 |
