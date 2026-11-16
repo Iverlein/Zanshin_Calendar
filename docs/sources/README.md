@@ -1533,7 +1533,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
 | [corpus/rgd/rgd.md](corpus/rgd/rgd.md) | corpus | RGD | 1 passages: 1 etext |
 | [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 2 passages: 2 scan |
-| [corpus/rrd/rrd.md](corpus/rrd/rrd.md) | corpus | RRD | 38 passages: 38 etext |
+| [corpus/rrd/rrd.md](corpus/rrd/rrd.md) | corpus | RRD | 39 passages: 39 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsk/rsk.md](corpus/rsk/rsk.md) | corpus | RSK | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
@@ -2486,7 +2486,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1120.md](questions/q1120.md) | question q1120 | Does the stack under ལ in line 2 of Lung rigs bstan dar's glossary read ྷ or ྟ in the clause on the time of feeling | open; cites st:p350-351d |
 | [questions/q1121.md](questions/q1121.md) | question q1121 | Do the Blue Beryl's printed page and chapter etexts read ལྟས་ཚོར་བའི་དུས, and is it the Blue Beryl's own text or an editor's | open; cites st:p350-351d |
 | [questions/q1122.md](questions/q1122.md) | question q1122 | Is Paṇḍa pa (Pen ta pa, Piṇḍa pa) of Gtsug lag phreng ba's Life the Nepalese teacher known elsewhere, and why is he seated at the head of the assembly | answered; cites rrd.26:p88-90, dds.44:p15 |
-| [questions/q1123.md](questions/q1123.md) | question q1123 | Is the dream of habit in Paṇḍa pa's question the dream of the previous night or the dream of the evening in the song's rule | open; cites rrd.26:p88-90, rrd.27:p102-105 |
+| [questions/q1123.md](questions/q1123.md) | question q1123 | Is the dream of habit in Paṇḍa pa's question the dream of the previous night or the dream of the evening in the song's rule | answered; cites rrd.26:p88-90, rrd.27:p102-105, rrd.26:p87 |
 | [questions/q1124.md](questions/q1124.md) | question q1124 | From what moment are the water-hours counted in the Cakrasaṃvara commentary De kho na nyid mkhas pa, and does the first watch begin at midnight | open; cites svo:i521-523, svo:i525 |
 | [questions/q1125.md](questions/q1125.md) | question q1125 | Is the middle watch of the Mañjuśrī root tantra's omens a watch between the second and third, or the stretch around midnight, and does a commentary gloss it | open; cites mmk.1:p435-436 |
 | [questions/q1126.md](questions/q1126.md) | question q1126 | Is ཚིག་པ་ཟ in the hour entries «eats burnt food» or «is scorched, pained» | answered; cites kd.3:p588-589b |
@@ -2546,7 +2546,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1180.md](questions/q1180.md) | question q1180 | Which ch. 27 starting points does WB vol. 2 p. 17 belong to, if not the thirty of the notes (p. 532)? p. 17 calls the weapons' one a «སྐོར་འགོ» (starting point) but fights by a rule of its own (the eighteenth and tenth). | answered; cites wb.2:p17, wb.2:p14-15, wb.2:p15-16, wb.2:p16, wb.2:p25, wb.2:p3 |
 | [questions/q1181.md](questions/q1181.md) | question q1181 | Is the printed figure after «གཟུགས་མེ» and «མཁའ་ཡོན» on WB vol. 1 p. 185 really (༧) and (༡༠), and do they match any misprint slip? The number words give 31 and 30 chu tshod (q676). | open; cites — |
 | [questions/q1182.md](questions/q1182.md) | question q1182 | Is the «སྲང» before «ཀཊའི» in the p. 51 verse on the length of the day really «གླང» (Taurus)? | answered; cites wb.1:p51 |
-| [questions/q1183.md](questions/q1183.md) | question q1183 | In the Do shal commentary and the Sgo bzhi mdzod lnga'i yang bcud skar rtsis, is the number-word «དོན» in «ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག» (WB ch. 2) glossed as 70? Is there a word-numeral list with «དོན» = 7? | open; cites wb.1:p14, wb.2:p3 |
+| [questions/q1183.md](questions/q1183.md) | question q1183 | In the Do shal commentary and the Sgo bzhi mdzod lnga'i yang bcud skar rtsis, is the number-word «དོན» in «ཞག་པོ་སུམ་བརྒྱ་དོན་གཅིག» (WB ch. 2) glossed as 70? Is there a word-numeral list with «དོན» = 7? | answered; cites wb.1:p14, wb.2:p3 |
 | [questions/q1184.md](questions/q1184.md) | question q1184 | What is the long way of the Abridged Tantra that multiplies the cut surplus by 8280 (མཁའ་ནོར་མིག་ཀླུ) in the eclipse tables (WB ch. 9 p. 60), and what does the 8280 measure? | open; cites wb.1:p60, wb.1:p66 |
 | [questions/q1185.md](questions/q1185.md) | question q1185 | Does a commentary on WB ch. 9 p. 62 state how the 30 chu srang of the fast course is split between holding and release, and whether pressing (མནན་ཡུན) is the middle or the whole of the covering? | open; cites wb.1:p62 |
 | [questions/q1186.md](questions/q1186.md) | question q1186 | Does Rin chen rnam rgyal's collected works, or the catalogue of them, list a «zin bris» (སྒྲ་ཚད་པའི་ཟིན་བྲིས) on the rebirth-seeing rite of the MDP (q932)? | open; cites — |
