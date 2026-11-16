@@ -6,6 +6,8 @@ cites: ['st:p350-351']
 feeds: [S1]
 open: []
 ---
-# ལྷས/ལྟས་ཚོར་བའི་དུས in ch. 81: the time the omen is felt, ལྷས a spelling of ལྟས
+# ལྷས/ལྟས་ཚོར་བའི་དུས in ch. 81: the time the omen is felt (one of two readings; ལྷས as a spelling of ལྟས is not shown)
 
 The last clause of the Four Tantras' ch. 81 dream list, «ལྷས/ལྟས་ཚོར་བའི་དུས», is glossed by the commentaries as «the time at which the omen is felt», and the sentence is closed with «the signs of being struck by a spirit» (inv-y, 2026-11-16). The Aru ra glossary of the Four Tantras' terms (I5609, I00KG07616) defends the letters: the clause teaches both the time the omen is felt and the time the patient himself feels, so no scribal fault. The great commentary (I5622) and the ch. 81 comments (I1PD412) repeat it as «དེ་རྣམས་ལྟས/ལྷས་ཚོར་བའི་དུས་ཡིན་ཏེ་གདོན་གྱིས་འདེབས་པའི་རྟགས». No commentary reads «the god felt». Etext only; the Aru ra copy is garbled in parts.
+
+Reconciled 2026-11-16 (inv-z6): the commentaries gloss the clause and none says what ལྷས is, so «ལྷས a spelling of ལྟས» and «no commentary reads the god felt» go further than the etexts: the Blue Beryl writes ལྷས in its heading (against «རང་ཚོར་གྱི་དུས») and ལྟས in its gloss, which shows the two were not told apart, not that the god's agent case is excluded. This claim is reading A of q885, st-lhas-tshor-felt-by-the-god is reading B; both are open.
