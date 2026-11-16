@@ -1990,7 +1990,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | answered; cites wb.2:p305-307 |
 | [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | open; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | open; cites — |
-| [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | answered; cites — |
+| [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | narrowed; cites — |
 | [questions/q0615.md](questions/q0615.md) | question q615 | «མགོ་མཇུག་ལོག» in the benefits texts | open; cites — |
 | [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | answered; cites — |
 | [questions/q0617.md](questions/q0617.md) | question q617 | «ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ» in the wheel text under Karma Chagme | open; cites — |
@@ -2212,7 +2212,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0833.md](questions/q0833.md) | question q833 | Is the Svapnohana's fourth-watch line «ཐུན་བཞི་ཟླ་བ་ཕྱེད་བར་དུ» absent in the Narthang prints and the Co ne print too, or only in Peking? | answered; cites svo:p271d, svo:p271h |
 | [questions/q0834.md](questions/q0834.md) | question q834 | What is the Sanskrit title of the Svapnohana on the Peking print (img. 315 line 1)? | answered; cites svo:p271d, svo:p271a |
 | [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | answered; cites svi:p309-312, svi:p310b |
-| [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | answered; cites svi:p309-312, svo:p271v |
+| [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | narrowed; cites svi:p309-312, svo:p271v |
 | [questions/q0837.md](questions/q0837.md) | question q837 | Which is the third syllable of «ཛ་ཏ་པ/ཀ་ཡི་ཕྲེང་བ» (the jātaka garland)? | answered; cites svi:p309-312, svi:p289-291b |
 | [questions/q0838.md](questions/q0838.md) | question q838 | In the Palri print's mixed kind the last clause reads «སྤེལ་ཞིང་མ་བྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ», where the Rin chen gter mdzod has «མ་ཤེས་ན»: does «མ་བྱེད་ན» mean the mixed dream is not to be followed, or is it a misspelling? | open; cites lgd.42:p966-971b |
 | [questions/q0839.md](questions/q0839.md) | question q839 | In the middling yogin's line the Palri print reads «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག་པར་བྱས་ཏེ» against «རང་གཞན་ལ་ཉེ་བརྟགས་པར་བྱས་ཏེ» in the Rin chen gter mdzod: which is the better reading? | narrowed; cites lgd.42:p966-971b |
