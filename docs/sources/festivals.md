@@ -54,3 +54,54 @@ of their month as one's own tradition gives them. The festivals' family
 note says this. WB's ch. 9 merit, «དུས་བཟང་དཀྱུས་རྣམས་བརྒྱ་འགྱུར» (p. 62), a
 hundredfold on the ordinary good occasions, does not name the festivals,
 so no reading uses it for them.
+
+## The buddhas of the days and the multiplied merit (practice days, 2026-11-16)
+
+Read for the owner's question how practice is tied to the lunar days. The
+Tibetan passages are in the corpus; the facts as claims:
+
+- Karma chags med's retreat manual (RCZ, pp. 286–288, read on the scan,
+  [corpus/rcz/rcz.md](corpus/rcz/rcz.md#rcz-p286-288)) gives in one verse
+  the deities of the month's days, the four great festivals with their
+  days and the eclipses, each with its multiplier:
+  [claims/month-days-buddhas-and-deities.md](claims/month-days-buddhas-and-deities.md).
+- Co ne Grags pa bshad sgrub's account of the times (DTN, etext only,
+  [corpus/dtn/dtn.md](corpus/dtn/dtn.md#dtn-i316)) gives three reasons
+  why the 8th, the 15th and the new moon are good days, and the other
+  order of the buddhas:
+  [claims/eighth-fifteenth-new-moon-buddhas.md](claims/eighth-fifteenth-new-moon-buddhas.md).
+- The festivals' multiplier, a hundred koṭi in RCZ and a hundred million
+  in DTN, and the Sde dge Bstan 'gyur catalogue's months (DGK, etext
+  only): [claims/four-festivals-multiplier.md](claims/four-festivals-multiplier.md).
+- RCZ's numbers against the White Beryl's of ch. 9:
+  [claims/good-days-and-eclipses-multipliers.md](claims/good-days-and-eclipses-multipliers.md).
+
+### What Nyingma communities publish, read in the browser on 2026-11-16
+
+Facts only; the pages' wording is theirs.
+
+- Rigpa Wiki, *Four major Buddhist holidays*
+  (rigpawiki.org/index.php?title=Four_major_Buddhist_holidays): the four
+  great festivals (དུས་ཆེན, dus chen) of the Buddha's life are the
+  miracles, the Saga Dawa festival, the turning of the wheel and the
+  descent from heaven; on them the effect of good and bad actions is
+  multiplied ten million times. No source is named. Its page *Bumjur
+  Dawa*: the first month of the Tibetan year, in which the festival of
+  miracles falls and whose first fifteen days are the days of the
+  miracles, multiplies actions a hundred thousand times throughout. No
+  source is named. Its search finds no page on eclipses and multiplied
+  merit, and no page listing the buddhas of the month's days.
+- The Padmasambhava Buddhist Center (padmasambhava.org): the site's menu
+  and its *Events* page carry no lunar practice calendar and no notes on
+  the days; the events listed are dated by the Western calendar (a
+  ganacakra of Guru Padmasambhava on 19 November 2026; the anniversary of
+  Khenchen Palden Sherab's passing kept with a feast offering). The
+  addresses /calendar and /search-results answer "page not found".
+- Lotsawa House (lotsawahouse.org/topics/): the topics index has a topic
+  for the feast offering and none for the days of the month, the
+  festivals or eclipses; no page was opened beyond the index.
+
+Rigpa Wiki's ten million for the festivals is neither RCZ's hundred koṭi
+nor DTN's hundred million, and its hundred thousand for the whole first
+month stands in none of the Tibetan passages read here.
+

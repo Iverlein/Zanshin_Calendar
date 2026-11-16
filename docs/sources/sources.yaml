@@ -1678,3 +1678,37 @@ jgl:
       image_offset: 4
       pages: [739, 742]
       notes: "BDRC part MW27300_18AFE1 (images 743-748); the same prayer in the A 'dzom print MW7477_79BA68 (vol. 12, I0670 img. 559-563, 2170 px, too small to read), in the Rin chen gter mdzod MW20578_8792A9 (vol. 108, I0108 img. 644-651) and, as a machine etext, in a Klong chen snying thig 'don cha (VEIE0OPI0CCC73CC_I01JW184, etext pp. 183-186)"
+
+rcz:
+  title: "Ri chos mtshams kyi zhal gdams (the retreat manual, Mountain Dharma)"
+  author: "Gnas mdo Karma chags med (BDRC's record: a Kamtsang Kagyu master; his dates in the registry's kcm entry, 1613–1678)"
+  edition: "Gser thang Bla rung lnga rig nang bstan slob gling, Gser rta rdzong, 420 pp."
+  bdrc: {work: MW3CN4735, etext: VEIE0OPIA82A2313_I3CN4737, scans: [I3CN4737]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "scans open, 1572 px; printed page = image − 11 (p. 288 = img. 299); the etext's [pN] is the image number; other prints on BDRC: MW23259 (Brag dkar dgon pa 1970), MW23700 (Palampur 1970), MW1AC387 (Lhasa 2012); practice days 2026-11-16: the times that multiply merit, pp. 286–288"
+
+dtn:
+  title: "Dus tshigs kyi rnam gzhag legs par bshad pa'i phreng ba (an account of the times)"
+  author: "Co ne Grags pa bshad sgrub (1675–1748, Dge lugs; BDRC's note on his collected works)"
+  edition: "in his Gsung 'bum, the computer-set print (glog klad par ma), BDRC's statement pp. 284–303 of its volume"
+  bdrc: {work: MW1KG13759_ECAEFD, etext: VEIE0OPIB80F7850_I1KG15429}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext only (2026-11-16), passage ids by the etext's page marker, dtn:iN; scans open on BDRC, not opened; the same text in MW1PD90129 (Pe cin 2009), vol. 11"
+
+dgk:
+  title: "The catalogue of the Sde dge Bstan 'gyur, by its own title page «…གཏམ་ངོ་མཚར་ཆུ་གཏེར་འཕེལ་བའི་ཟླ་བ་གསར་པ»"
+  author: "not read in this session (the title page names none)"
+  edition: "Sde dge Bstan 'gyur, Delhi Karmapae Choedhey reprint 1982–1985, as served by BDRC"
+  bdrc: {work: MW23703, etext: VE23703_1531}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext only (2026-11-16), passage ids by the etext's page marker, dgk:iN"
+
