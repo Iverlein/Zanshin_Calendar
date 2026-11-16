@@ -9,3 +9,5 @@ open: []
 # The waning half's tenth is not named in the tenth-day promise texts read
 
 In the passages read on the tenth day (ཚེས་བཅུ, tshes bcu) of Padmasambhava (mph.127:i302, i303-304, i305; jgl.8:p739-742) the tenth of the waning half, the twenty-fifth, is not named: the texts say "the tenth of each month", "every tenth that comes" and "each time the tenth of the month rises", without the words waxing (ཡར་ངོ, yar ngo) or waning (མར་ངོ, mar ngo). The pairing of the two tenths is given in the pool only by the dictionaries cited in q1168 («ཡར་ངོ་མར་ངོའི་ཚེས་བཅུ་ལ་ཚོགས་འཁོར་གཏོང་བ»). BDRC's full-text search finds «ཡར་ངོ་མར་ངོའི་ཚེས་བཅུ» in 122 places and «མར་ངོའི་ཚེས་བཅུ» in 385; none of them was opened.
+
+Update 2026-11-16: Zhe chen rgyal tshab, read after these passages, does name the waning tenth beside the waxing one: both are kept, the waxing tenth is the Guru's (claim tenth-day-waxing-half-is-the-gurus-both-halves-kept, a machine reading).

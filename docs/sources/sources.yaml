@@ -1733,14 +1733,18 @@ akb:
   rank: 3
   role: source
   locator: image
-  notes: "passage ids by the etext's page marker, akb:iN (the corpus file's ids); the note that stood here described dtn, whose entry had lost its last lines in a rebase (afb77216), and was moved there on 2026-11-16"
+  notes: "pd-c (2026-11-16): etext page = image number, checked at img. 364 and 366 (the reprint's printed page is the image number minus 2: img. 366 prints 364); scans open, 2000 px wide, about 46 px a line: a sentence can be confirmed on them at 2x, a single syllable not always; the common Abhidharma basis that Lo chen Dharma shrI (dpn) quotes for the one-day vow"
 
 dgk:
   title: "The catalogue of the Sde dge Bstan 'gyur, by its own title page «…གཏམ་ངོ་མཚར་ཆུ་གཏེར་འཕེལ་བའི་ཟླ་བ་གསར་པ»"
   author: "not read in this session (the title page names none)"
   edition: "Sde dge Bstan 'gyur, Delhi Karmapae Choedhey reprint 1982–1985, as served by BDRC"
   bdrc: {work: MW23703, etext: VE23703_1531}
-  notes: "pd-c (2026-11-16): etext page = image number, checked at img. 364 and 366 (the reprint's printed page is the image number minus 2: img. 366 prints 364); scans open, 2000 px wide, about 46 px a line: a sentence can be confirmed on them at 2x, a single syllable not always; the common Abhidharma basis that Lo chen Dharma shrI (dpn) quotes for the one-day vow"
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext only (2026-11-16), passage ids by the etext's page marker, dgk:iN"
 
 ljz:
   title: "'Jig rten gzhag pa (Lokaprajñapti as the etext's Sanskrit title line gives it, «ལོ་ཀ་པྲཛྙཱ»; the Arrangement of the World), bam po 3, the gods' watch over the human world on the 8th, 14th and 15th"
@@ -1750,7 +1754,7 @@ ljz:
   rank: 3
   role: source
   locator: image
-  notes: "etext only (2026-11-16), passage ids by the etext's page marker, dgk:iN"
+  notes: "pd-c (2026-11-16): found by BDRC's phrase search «ཚེས་བརྒྱད་ལ་རྒྱལ་པོ་ཆེན་པོ་བཞི» (2 hits: this and the Dpe bsdur ma copy MW1PD95844_3315, VEIE0OPIA3E40644_I1PD95923); etext page taken as the image number as in the neighbouring volume I1456 (not checked on these images: img. 41-45 fetched, not read); the same account of the 15th is quoted in the Vyākhyāyukti's sūtra extracts (MW23703_4060, VE23703_1452) and its commentary (MW23703_4069, VE23703_1453), seen in the search snippets only"
 
 # --- Practice days (2026-11-16): the liturgy collection of Sgo chen dgon, the seat of
 # Rtsa gsum gling pa's lineage, for what it prescribes by lunar day.
@@ -1763,8 +1767,7 @@ sgc:
   rank: 3
   role: source
   locator: image
-  notes: "one etext volume, VEIE0OPI40212F00_I01JW66, 857 etext pages; the ids count the etext's pages (iN = etext pN), not checked against the scan images; a text in it keeps the rank of its own author (a treasure of Rtsa gsum gling pa rank 2); read in the etext only on 2026-11-16 for the lunar days of practice; the collection's list of contents is on its etext p. 8"
-  notes: "pd-c (2026-11-16): found by BDRC's phrase search «ཚེས་བརྒྱད་ལ་རྒྱལ་པོ་ཆེན་པོ་བཞི» (2 hits: this and the Dpe bsdur ma copy MW1PD95844_3315, VEIE0OPIA3E40644_I1PD95923); etext page taken as the image number as in the neighbouring volume I1456 (not checked on these images: img. 41-45 fetched, not read); the same account of the 15th is quoted in the Vyākhyāyukti's sūtra extracts (MW23703_4060, VE23703_1452) and its commentary (MW23703_4069, VE23703_1453), seen in the search snippets only"
+  notes: "one etext volume, VEIE0OPI40212F00_I01JW66, 857 etext pages; the ids count the etext's pages (iN = etext pN), which is the image number of I01JW66 (printed page = image − 48; pp. 208–214, the prayer of the twelve tenth days, read on the scan on 2026-11-16); a text in it keeps the rank of its own author (a treasure of Rtsa gsum gling pa rank 2); the other passages read in the etext only on 2026-11-16 for the lunar days of practice; the collection's list of contents is on its etext p. 8"
 
 dpn:
   title: "Sdom gsum rnam par nges pa'i 'grel pa legs bshad ngo mtshar dpag bsam gyi snye ma (the commentary on the Ascertainment of the Three Vows), with the root text Rang bzhin rdzogs pa chen po'i lam gyi cha lag sdom pa gsum rnam par nges pa"
@@ -1872,6 +1875,16 @@ zgp:
   author: "Zhe chen rgyal tshab 04 'Gyur med pad+ma rnam rgyal (1871–1926; the dates as in the zgt entry)"
   edition: "Gsung 'bum, 'Gyur med pad+ma rnam rgyal, Ngodup, Paro 1975/1994 (BDRC: v. 1-19); vol. 13, printed pp. 535-552"
   bdrc: {work: MW3916}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    13:
+      scan: I2883
+      image_offset: 4
+      pages: [535, 552]
+      notes: "BDRC part MW3916_14B019 (images 539-556; image = printed page + 4, img. 541 prints 537, img. 545 prints 541); a pecha of six lines, 4200 x 896 px, open; images 540-548 read with Yigdzin-1 on 2026-11-16 (pd-f), p. 541 lines 1-4 by eye; images 539 and 549-556 not read; the same author's typeset edition is zgt, where the text was not looked for"
+
 # --- Practice days, second wave (2026-11-16): the sources of the multipliers of the
 # four great festivals and the eclipses.
 bdc:

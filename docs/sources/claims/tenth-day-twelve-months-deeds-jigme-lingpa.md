@@ -26,3 +26,5 @@ open: []
 | Mgo (མགོ་ཟླ, mgo zla) | at Mchims phu prepares his leaving, fills Tibet with treasures and gives their charge to the lords of the ground |
 
 The Hor number of each mansion month is not given by the prayer, and no second list was read, so where sources differ on a month's deed is not established. The monkey month (སྤྲེལ་ཟླ, sprel zla) is not named in the prayer. Tradition: Nyingma (Klong chen snying thig); written for a monk of Bsam yas, recited by anyone.
+
+Update 2026-11-16: two more lists were read since (claim tenth-day-twelve-tenths-three-lists-compared): they name the months by animal and stand one month earlier in every row, the birth on the tenth of the monkey month, the fifth Hor month (claims tenth-day-months-jigme-lingpa-one-month-later-than-the-animal-lists, monkey-month-is-the-fifth-hor-month-snron).
