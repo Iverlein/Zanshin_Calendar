@@ -2050,7 +2050,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | open; cites — |
 | [questions/q0688.md](questions/q0688.md) | question q688 | «ཚད་ནད» and «མཇུག» in ch. 17's colophon | answered; cites — |
 | [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | answered; cites wb.1:p196 |
-| [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | open; cites — |
+| [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | answered; cites wb.1:p213 |
 | [questions/q0691.md](questions/q0691.md) | question q691 | The first year of p. 23: 2587 or 2567 (the Kālacakra taught when the Buddha passed?) | answered; cites wb.1:p23 |
 | [questions/q0692.md](questions/q0692.md) | question q692 | Srong btsan's coming to the kingship, p. 23: 1048 or 1058 | answered; cites wb.1:p23 |
 | [questions/q0693.md](questions/q0693.md) | question q693 | The reductions between 601 and 578 on p. 24 | answered; cites wb.1:p24 |
@@ -2074,7 +2074,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | answered; cites tmz:box6, wb.1:p207, wb.1:p208 |
 | [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | open; cites — |
 | [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | answered; cites tmz:box6 |
-| [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | open; cites — |
+| [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | answered; cites wb.1:p210 |
 | [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
 | [questions/q0716.md](questions/q0716.md) | question q716 | ཚོམ་རྐུན (entry 51) and ཆོམ་རྐུན: one word? | answered; cites tmz:box6, wb.1:p211 |
 | [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | answered; cites tmz:box6, wb.1:p210 |
