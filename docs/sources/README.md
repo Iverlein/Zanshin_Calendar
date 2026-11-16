@@ -1028,6 +1028,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/tdr-sramana-rite-elsewhere.md](claims/tdr-sramana-rite-elsewhere.md) | claim, note | The Śramaṇā rite of the be'u bum is also in Tāranātha's sādhana collection and is said to come from Śākyaśrī; no one names the be'u bum's lama | cites tdr:p337-342e, ttn:p137-138, lcg:p26, mph.128:i189-192; feeds S2 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-work-before-and-title.md](claims/tdr-work-before-and-title.md) | claim, note | The work that ends on TDR p. 343 is the Śramaṇā text; White Tārā's begins at the doubled title in line 6 (RD286) | cites tdr:p21e, tdr:p343h, tdr:p337-345e, tdr:p343-344; feeds — |
+| [claims/tenth-day-monkey-month-monkey-year.md](claims/tenth-day-monkey-month-monkey-year.md) | claim, note | The tenth of the monkey month of the monkey year: the Guru in person | cites mph.127:i302, mph.127:i305, jgl.8:p739-742; feeds SPEC, §5.8 |
+| [claims/tenth-day-padmasambhava-promise-to-come.md](claims/tenth-day-padmasambhava-promise-to-come.md) | claim, rule | Padmasambhava's oath to come on the tenth of every month, and where it is stated | cites mph.127:i302, mph.127:i303-304, mph.127:i305, jgl.8:p739-742; feeds SPEC, §5.8 |
+| [claims/tenth-day-practice-and-benefits.md](claims/tenth-day-practice-and-benefits.md) | claim, rule | The tenth day: what is done and what is promised | cites mph.127:i302, mph.127:i303-304, mph.127:i305, jgl.8:p739-742; feeds SPEC, §5.8 |
+| [claims/tenth-day-twelve-months-deeds-jigme-lingpa.md](claims/tenth-day-twelve-months-deeds-jigme-lingpa.md) | claim, table | The Guru's deed on the tenth of each of the twelve months, after 'Jigs med gling pa | cites jgl.8:p739-742; feeds SPEC, §5.8 |
+| [claims/tenth-day-waning-half-not-named.md](claims/tenth-day-waning-half-not-named.md) | claim, note | The waning half's tenth is not named in the tenth-day promise texts read | cites mph.127:i302, mph.127:i303-304, mph.127:i305, jgl.8:p739-742; feeds SPEC, §5.8 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -1476,6 +1481,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 2 passages: 2 etext |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 6 passages: 4 machine, 2 etext |
+| [corpus/jgl/jgl.md](corpus/jgl/jgl.md) | corpus | JGL | 1 passages: 1 scan |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 9 passages: 5 machine, 4 etext |
 | [corpus/kcm/kcm.md](corpus/kcm/kcm.md) | corpus | KCM | 2 passages: 1 scan, 1 machine |
@@ -1514,7 +1520,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
-| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 11 passages: 1 scan, 8 machine, 2 etext |
+| [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 14 passages: 4 scan, 8 machine, 2 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/nbv/nbv.md](corpus/nbv/nbv.md) | corpus | NBV | 2 passages: 2 etext |
@@ -2720,6 +2726,7 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **LCG** | Lcang lung Paṇḍi ta Ngag dbang blo bzang bstan pa'i rgyal mtshan, the manual of mantra recitations for the deities of the *Rin chen 'byung gnas* collection (BDRC MW1ALS12284E, ACIP); a witness, read by the etext in RD393; page = the etext page marker |
 | **TMZ** | *Bod rgya tshig mdzod chen mo* as keyed in Steinert's public dictionary set, with the *Bod yig tshig gter rgya mtsho* and Ives Waldo beside it; a lexicon, cited by look-up (`tmz:box<n>`), no page numbers; RD393 |
 | **MPH** | 'Ju Mi pham rgya mtsho (1846–1912), the writings on dream signs and dream divination in his *Gsung 'bum* and his notes on the White Beryl (rank 2, owner 2026-10-20); the volumes named in each passage. Read in RD362. |
+| **JGL** | Kun mkhyen 'Jigs med gling pa, *Tshes bcu'i phan yon gsol 'debs*, the prayer on the benefits of the tenth day with the Guru's deed on the tenth of each of the twelve months | *Gsung 'bum*, Sde dge print, vol. 8, pp. 739–742 | BDRC MW27300_18AFE1; scans I4443 img. 743–748, open, 5248 px (image = printed page + 4); the A 'dzom print MW7477_79BA68 (I0670 img. 559–563) is too small to read; a machine etext of the prayer in VEIE0OPI0CCC73CC_I01JW184, pp. 183–186; read 2026-11-16, see [corpus/jgl/jgl.md](corpus/jgl/jgl.md) |
 | **DHD** | The Dunhuang Tibetan dream-interpretation manuscripts (Pelliot tibétain and Stein shelfmarks), read from the images of the International Dunhuang Project and Gallica and the open transcriptions of Old Tibetan Documents Online; the modern editions for facts only, never their wording. Read in RD366. |
 | **DDS** | The hits of a systematic search of the BDRC etexts for dreams tied to a lunar day, a month, a weekday or a season; each passage names its text, author and etext. Read in RD367. |
 | **SCT** | The Common Tantra (Spyi rgyud, Toh 806, Sarvamaṇḍalasāmānyavidhiguhyatantra) in the Derge Kanjur: the pupils' dream at dawn, the good signs and the pacifying fire offering for the bad. The etext VE4CZ5369_I1KG9222 at pp. 284-338 (dream pp. 295-297). Read in RD373. |
