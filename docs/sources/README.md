@@ -1876,7 +1876,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | answered; cites wb.2:p47 |
 | [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | answered; cites wb.1:p390 |
-| [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | open; cites wb.1:p381 |
+| [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | answered; cites wb.1:p381 |
 | [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
 | [questions/q0516.md](questions/q0516.md) | question q516 | The la-knower's animals in the second table of p. 133: tiger, pig, monkey, snake | open; cites wb.2:p224d |
 | [questions/q0517.md](questions/q0517.md) | question q517 | The hal khyi's five mothers and five sons as the five elements' pairs | open; cites wb.2:p224d |
@@ -2011,7 +2011,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | answered; cites wb.2:p323 |
 | [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | open; cites wb.2:p328 |
 | [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | narrowed; cites wb.2:p322 |
-| [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | open; cites wb.2:p323 |
+| [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | answered; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | answered; cites wb.2:p328-329, wb.2:p328 |
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
