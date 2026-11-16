@@ -1638,12 +1638,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0273.md](questions/q0273.md) | question q273 | «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ» | open; cites wb.2:p57-58, wb.2:p55, wb.2:p54-55 |
 | [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | open; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
 | [questions/q0275.md](questions/q0275.md) | question q275 | «སེར་གསུམ» in the rebirth by the mewa | open; cites wb.2:p70-72, wb.2:p500-501 |
-| [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | open; cites wb.2:p68-70, wb.2:p503-504 |
+| [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | narrowed; cites wb.2:p68-70, wb.2:p503-504 |
 | [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | answered; cites wb.2:p68-70 |
 | [questions/q0278.md](questions/q0278.md) | question q278 | Unidentified things of the funeral share and the corpse kinds | open; cites wb.2:p68-70, wb.2:p72, wb.2:p72-74 |
 | [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | answered; cites wb.2:p70-72 |
 | [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | answered; cites wb.2:p70-72 |
-| [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
+| [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | narrowed; cites wb.2:p72-74, wb.2:p503-504 |
 | [questions/q0282.md](questions/q0282.md) | question q282 | How the death day's planet's state is found | open; cites wb.2:p63-65 |
 | [questions/q0283.md](questions/q0283.md) | question q283 | «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended | open; cites wb.2:p503b |
 | [questions/q0284.md](questions/q0284.md) | question q284 | «སྤྲོ» for U. Phalgunī among the mansions | answered; cites wb.2:p65-66 |
@@ -1667,7 +1667,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0302.md](questions/q0302.md) | question q302 | The thirty pairs and the thirty readings in one order | answered; cites wb.1:p453-454, wb.1:p454, wb.2:p532-533, dz:i029-034 |
 | [questions/q0303.md](questions/q0303.md) | question q303 | Whose year serves for the son and bride and the points the notes pass over | open; cites wb.2:p532-533 |
 | [questions/q0304.md](questions/q0304.md) | question q304 | The thirty's 241st pebble | open; cites wb.1:p453-454 |
-| [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454, wbz:i605-607, wbz:i608-627 |
+| [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | narrowed; cites wb.1:p453-454, wb.1:p454, wbz:i605-607, wbz:i608-627 |
 | [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
 | [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | answered; cites wb.2:p90-93 |
 | [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | answered; cites wb.2:p86-90, wb.2:p77-80 |
@@ -1675,7 +1675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | answered; cites wb.2:p86-90 |
 | [questions/q0311.md](questions/q0311.md) | question q311 | «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding | open; cites wb.2:p90-93 |
 | [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
-| [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | open; cites wb.2:p80-82 |
+| [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | narrowed; cites wb.2:p80-82 |
 | [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | answered; cites wb.2:p86-90 |
 | [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | open; cites wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0316.md](questions/q0316.md) | question q316 | The mansions of the sounding's examination under other names | open; cites wb.2:p90-93 |
@@ -1706,7 +1706,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | answered; cites wb.2:p165 |
 | [questions/q0342.md](questions/q0342.md) | question q342 | The five of the thirteen gates' fifth and sixth, and the own-element signs | open; cites wb.2:p170-171 |
 | [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | answered; cites wb.2:p170-171, wbz:i880 |
-| [questions/q0344.md](questions/q0344.md) | question q344 | Which year the sixty fixed signs count | open; cites wb.2:p171-172 |
+| [questions/q0344.md](questions/q0344.md) | question q344 | Which year the sixty fixed signs count | narrowed; cites wb.2:p171-172 |
 | [questions/q0345.md](questions/q0345.md) | question q345 | The right shoulder and «ཡམས་སྐུད» on p. 163 | open; cites wb.2:p163 |
 | [questions/q0346.md](questions/q0346.md) | question q346 | The marks' line of p. 170 and the earth hour's hair | open; cites wb.2:p170 |
 | [questions/q0347.md](questions/q0347.md) | question q347 | «ཀླུམ་མནན» or «གྲུམ་མནན» on p. 169 | open; cites wb.2:p168-169, wb.2:p169-170 |
@@ -1738,7 +1738,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |
 | [questions/q0374.md](questions/q0374.md) | question q374 | The plank-tree's fifteenth and sixteenth heads, «ལྔ་ཐུན» and «དྲུག་འབྲས» | open; cites dz:i052-055 |
 | [questions/q0375.md](questions/q0375.md) | question q375 | Fire and iron clans' great and small cut-off: LT against the notes | narrowed; cites lt:p26-28, wb.2:p499-500 |
-| [questions/q0376.md](questions/q0376.md) | question q376 | Which animal a planet rises on, and the Sun, Mercury and Venus | open; cites lt:p9-11 |
+| [questions/q0376.md](questions/q0376.md) | question q376 | Which animal a planet rises on, and the Sun, Mercury and Venus | narrowed; cites lt:p9-11 |
 | [questions/q0377.md](questions/q0377.md) | question q377 | The Moonbeams' readings 28 and 29 exchanged | open; cites dz:i029-034, wb.1:p453-454 |
 | [questions/q0378.md](questions/q0378.md) | question q378 | The Moonbeams' eight pebbles without the progressed year | open; cites dz:i029-034, wb.2:p532-533 |
 | [questions/q0379.md](questions/q0379.md) | question q379 | «ལྷ་ཁང་འགོའི» or «ལྷ་གང», «བསྔོས་ཚང» or «བསྡུས་ཚད» | open; cites dz:i029-034 |
@@ -1780,7 +1780,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0415.md](questions/q0415.md) | question q415 | Does the supplement set the sky dog above the other nine checks of a bride's going? | answered; cites kd.3:p641-642 |
 | [questions/q0416.md](questions/q0416.md) | question q416 | DZ «སྣ་ཚོགས་བྱ» or KD's «སྣ་ཆོག་བྱ», the nose rite: which is meant? | answered; cites dz:i045 |
 | [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | answered; cites — |
-| [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
+| [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | narrowed; cites bsb:p435-436, sdp:p238-241 |
 | [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | answered; cites sdp:p238-241 |
 | [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
 | [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
@@ -1850,11 +1850,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | answered; cites — |
 | [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | answered; cites — |
 | [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | answered; cites — |
-| [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | open; cites — |
+| [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | narrowed; cites — |
 | [questions/q0489.md](questions/q0489.md) | question q489 | The 歳破 and livestock: forbidden or good | open; cites — |
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | answered; cites — |
-| [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | open; cites — |
+| [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | narrowed; cites — |
 | [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | open; cites — |
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
@@ -1899,14 +1899,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0534.md](questions/q0534.md) | question q534 | The five-day 天一 from 庚戌 in the Meiji 大雑書 | answered; cites — |
 | [questions/q0535.md](questions/q0535.md) | question q535 | Does the Mentsikhang's book 6 hold the Lamp of the Magic of Deciding as its third part | open; cites — |
 | [questions/q0536.md](questions/q0536.md) | question q536 | Does the Little Red Tiger-Head's chapter 10 or 17 lay the deciding pebble | open; cites — |
-| [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | open; cites — |
+| [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | narrowed; cites — |
 | [questions/q0538.md](questions/q0538.md) | question q538 | When were the sheets drawn | open; cites — |
 | [questions/q0539.md](questions/q0539.md) | question q539 | Which three of the five topics of the root were divided into four (p. 249) | open; cites — |
 | [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | narrowed; cites — |
 | [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | answered; cites wb.1:p257 |
 | [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
 | [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | answered; cites — |
-| [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites — |
+| [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | narrowed; cites — |
 | [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | answered; cites — |
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
@@ -2046,7 +2046,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0681.md](questions/q0681.md) | question q681 | The skya of «སྐྱ་རྒྱལ» and «སྐྱ་འཕམ» (WB ch. 18) | answered; cites — |
 | [questions/q0682.md](questions/q0682.md) | question q682 | «ཞོད» and «གཤོངས» in the sixty years' results | answered; cites — |
 | [questions/q0683.md](questions/q0683.md) | question q683 | The seven kinds of conduct of p. 201: the four lists not given | answered; cites wb.1:p201 |
-| [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | open; cites — |
+| [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | narrowed; cites — |
 | [questions/q0685.md](questions/q0685.md) | question q685 | «སད» and «སད་སེར» on the crops (pp. 199, 204, 209) | answered; cites — |
 | [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | answered; cites — |
 | [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | open; cites — |
@@ -2299,7 +2299,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0934.md](questions/q0934.md) | question q934 | On the Kazi print (I6132 img. 559) and the Zhe chen and Ngodrup hands, is the letter after «མ» in the mixed kind's last clause ཕ or བ, that is «མ་ཕྱེད་ན» or «མ་བྱེད་ན»? | open; cites lgd.42:p966-971c |
 | [questions/q0935.md](questions/q0935.md) | question q935 | In the middling yogin's line did the Lama Gongdü read «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག» (Palri and Kazi) or «རང་གཞན་ལ་ཉེ་བརྟགས» (the Rin chen gter mdzod and Shechen)? | open; cites lgd.42:p966-971c |
 | [questions/q0936.md](questions/q0936.md) | question q936 | The Four Tantras' line about the spirit entering has the same «རྨི་ལམ་ཟ་ཟི་མང»; Khro ru adds a rite there (I5622 p. 341) and treats it as the spirit's sign, against the fever places (I5621 p. 120): is the dream the sick one's symptom or the spirit's sign, and does the Tantra mean one by both lines? | answered; cites st:p183, st:p350-351 |
-| [questions/q0937.md](questions/q0937.md) | question q937 | Is ཟ་ཟི་ནི་ཉག་ཉོག in the Lhan thabs's life-wind chapter the same word as in the fevers, or a term in a list? | open; cites st:p183 |
+| [questions/q0937.md](questions/q0937.md) | question q937 | Is ཟ་ཟི་ནི་ཉག་ཉོག in the Lhan thabs's life-wind chapter the same word as in the fevers, or a term in a list? | answered; cites st:p183, lth:p53 |
 | [questions/q0938.md](questions/q0938.md) | question q938 | Who wrote the Sakya Vinaya treatise that places the dawn against the night's watches, and is its last clause on the nine parts the etext's error? | answered; cites svo:p271p |
 | [questions/q0939.md](questions/q0939.md) | question q939 | Do the commentaries on WB say that WB's eight watches of the day and night are the tantric ones of the Muktāvalī and Rang byung rdo rje? | answered; cites svo:p271o, svo:p271s, wb.2:p403c |
 | [questions/q0940.md](questions/q0940.md) | question q940 | Does «སྙིང་སྡུག» in the Svapnohana mean something dear to the heart or heartache? | answered; cites svo:p271n |
