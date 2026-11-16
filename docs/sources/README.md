@@ -2089,7 +2089,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
 | [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | open; cites — |
-| [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | open; cites — |
+| [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | answered; cites wb.1:p105 |
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | answered; cites kd.1:p495a |
@@ -2101,7 +2101,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0736.md](questions/q0736.md) | question q736 | The 1st month head's weekday numerals in the model almanac | answered; cites wb.1:p157 |
 | [questions/q0737.md](questions/q0737.md) | question q737 | The 7th month head's weekday line | open; cites — |
 | [questions/q0738.md](questions/q0738.md) | question q738 | The 10th month head's three stacked figures after dar | answered; cites wb.1:p171b |
-| [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | open; cites — |
+| [questions/q0739.md](questions/q0739.md) | question q739 | The 7th month's note on the rishi in the sky east | answered; cites wb.1:p187, wb.1:p167c |
 | [questions/q0740.md](questions/q0740.md) | question q740 | The weekday lines of the 2nd, 3rd and 6th month heads | answered; cites — |
 | [questions/q0741.md](questions/q0741.md) | question q741 | The 2nd head's last two lines (p. 159): «byed pa'i nyi skar» and the thunder phrase | open; cites — |
 | [questions/q0742.md](questions/q0742.md) | question q742 | The bracketed numerals of the great number-names, p. 20 | answered; cites wb.1:p20-21 |
