@@ -1825,3 +1825,32 @@ tct:
   role: source
   locator: image
   notes: "etext page = image number (img. 351 read on the scan, 2083 x 3029 px, legible at 0.85x); the text runs img. 344–356; the editors' preface (img. 8) says no life of the author was found; the same author's commentary on the Thirty-seven Practices, Gzhung dang gdams ngag zung 'jug bdud rtsi'i bum bzang, stands in the same volume"
+pgl:
+  title: "Gu ru'i tshes bcu'i phan yon (the Benefits of the Guru's Tenth Day), from the Bla ma nor bu rgya mtsho, in Rig 'dzin Padma gling pa'i zab gter chos mdzod rin po che (BDRC: Pad+ma gling pa'i gter chos)"
+  author: "Rig 'dzin Padma gling pa (the colophon: composed by the knowledge-holder Padma gling pa)"
+  edition: "Kunsang Tobgay, Thimphu 1975/1976, 21 vols (BDRC volume numbers 1905-1925); vol. 1, printed pp. 835-837"
+  bdrc: {work: MW21727}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    1:
+      scan: I1905
+      image_offset: 2
+      pages: [835, 837]
+      notes: "BDRC part MW21727_3F55AA; BDRC's contentLocation 835-837 are the printed pages, the images are 837-839 (image = printed page + 2); a calligraphed pecha of six lines, 5100 x 1011 px, open, read by eye in thirds at 1.5x; read 2026-11-16 (pd-f)"
+
+zgp:
+  title: "Tshes bcu'i phan yon (BDRC's title of the part: the benefits of the tenth day; the text goes on as a customary of the tenth-day festival's chant, music and conduct), in the Paro print of the collected works of Zhe chen rgyal tshab 'Gyur med pad+ma rnam rgyal"
+  author: "Zhe chen rgyal tshab 04 'Gyur med pad+ma rnam rgyal (1871–1926; the dates as in the zgt entry)"
+  edition: "Gsung 'bum, 'Gyur med pad+ma rnam rgyal, Ngodup, Paro 1975/1994 (BDRC: v. 1-19); vol. 13, printed pp. 535-552"
+  bdrc: {work: MW3916}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    13:
+      scan: I2883
+      image_offset: 4
+      pages: [535, 552]
+      notes: "BDRC part MW3916_14B019 (images 539-556; image = printed page + 4, img. 541 prints 537, img. 545 prints 541); a pecha of six lines, 4200 x 896 px, open; images 540-548 read with Yigdzin-1 on 2026-11-16 (pd-f), p. 541 lines 1-4 by eye; images 539 and 549-556 not read; the same author's typeset edition is zgt, where the text was not looked for"
