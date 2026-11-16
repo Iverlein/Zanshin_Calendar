@@ -1591,7 +1591,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
-| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 machine |
+| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 1 scan, 8 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 78 passages: 56 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
@@ -2634,6 +2634,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1255.md](questions/q1255.md) | question q1255 | In «འཁོར་བར་ལྟུང་ན་ངེས་ཤེས་ཀྱིས༔ གློ་སྙིང་བྲང་གསུམ་ང་ལ་གཏོད༔», is the sense 'should he fall into saṃsāra, [blame me]: entrust yourself wholly to me with certainty'? | open; cites mph.127:i303-304 |
 | [questions/q1256.md](questions/q1256.md) | question q1256 | Does «སྤྱོད་ལྡན་གཏོར་མ་རིན་ཆེན་འབར་བ» name a particular torma of the tenth-day rite, and is it asked of lay people? | open; cites mph.127:i305 |
 | [questions/q1257.md](questions/q1257.md) | question q1257 | Is the tenth of the waning half kept for the same reason as the waxing tenth in Nyingma texts, or only as the dākinī day? The promise texts read do not name it. | open; cites mph.127:i303-304, jgl.8:p739-742 |
+
+| [questions/q1252.md](questions/q1252.md) | question q1252 | WB p. 70: the name «རྟ་ལྡང» (rta ldang / ljang) in the homage | open; cites wb.1:p70 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
