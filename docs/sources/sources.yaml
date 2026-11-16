@@ -339,7 +339,7 @@ mta:
   licence: "modern, copyrighted: facts only, never its wording"
   rank: 3
   role: witness
-  notes: "a printed Phugpa almanac, read as a witness to how an almanac sets the year's directions beside the day (D4, C, 2026-10-26); printed page = image number − 4 (p. 52 = img. 56); the front matter img. 3–80 machine-read by Yigdzin-1 in scratch; other Men-Tsee-Khang almanacs on BDRC: MW2CZ9132 (1987, I1PD98329), MW2CZ9147, MW2CZ9094; the Lhasa 2013 almanac MW1PD159386 (I4PD4388)"
+  notes: "a printed Phugpa almanac, read as a witness to how an almanac sets the year's directions beside the day (D4, C, 2026-10-26); printed page = image number − 4 (p. 52 = img. 56); the front matter img. 3–80 machine-read by Yigdzin-1 in scratch; other Men-Tsee-Khang almanacs on BDRC: MW2CZ9132 (1987, I1PD98329), MW2CZ9147, MW2CZ9094; the Lhasa 2013 almanac MW1PD159386 (I4PD4388); practice days (2026-11-16): the day pages begin with the third Tibetan month, its head on p. 84 (img. 88) and its days on pp. 88–92 (img. 92–96), the head of month 4 on pp. 94–95 (img. 98–99) and its days from p. 98 (img. 102); img. 81–112 are in the scan cache"
 
 bsb:
   title: "Bod spyi bshad (a general account of Tibet), ch. 29, Bzo bkod rig gnas (building)"
@@ -387,6 +387,7 @@ ckg:
   notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 2 (2026-11-16), the rule of the assembly of Yang ri, Yang ri 'dus pa rgya mtsho'i bca' yig thar pa'i lam ston, the second text of VE22082_002, whose monthly offerings are at its own [p7] (cited ckg.2:p7; the page markers restart with each text); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page RD377 (2026-11-10): vol. 11, the Yang zlog me'i spu gri empowerment text, whose dream examination is at its [p16]-[p17] (the etext's page markers restart with each text of the volume); etext only."
   volumes:
     2: {etext: VE22082_002, notes: "Yang ri 'dus pa rgya mtsho'i bca' yig thar pa'i lam ston, the second text of the volume; page = that text's own [pN] marker"}
+    13: {etext: VE22082_013, notes: "Bsnyen sgrub spyi la gces pa'i yig chung gam+b+hI ra, which begins at character 421 252 of the volume; page = that text's own [pN] marker (p. 19 at character 446 881); the same text in the Rin chen gter mdzod chen mo, MW1KG14, etext VE1KG14_040, from character 469 716, its title line naming 'Bri khung pa Chos kyi grags pa (practice days, 2026-11-16)"}
 
 sll:
   title: "Sa skya'i lam 'bras (the Sakya Lamdre collection), a biography in vol. I2PD19940 on the building of an assembly hall"
@@ -1696,7 +1697,13 @@ dtn:
   title: "Dus tshigs kyi rnam gzhag legs par bshad pa'i phreng ba (an account of the times)"
   author: "Co ne Grags pa bshad sgrub (1675–1748, Dge lugs; BDRC's note on his collected works)"
   edition: "in his Gsung 'bum, the computer-set print (glog klad par ma), BDRC's statement pp. 284–303 of its volume"
-  bdrc: {work: MW1KG13759_ECAEFD, etext: VEIE0OPIB80F7850_I1KG15429}
+  bdrc: {work: MW1KG13759_ECAEFD, etext: VEIE0OPIB80F7850_I1KG15429, scans: [I1KG15429]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "passage ids by the etext's page marker, which is the image number, dtn:iN; img. 316 prints 302 (printed page = image − 14) and was read on the scan on 2026-11-16 (1123 px, enlarged 1.7×); the same text in MW1PD90129 (Pe cin 2009), vol. 11"
+
 akb:
   title: "Chos mngon pa'i mdzod kyi bshad pa (Abhidharmakośabhāṣya), the commentary on the Treasury of Abhidharma, with the verses it comments on; chapter 4, Las bstan pa (the teaching on action), the passage on the one-day vow"
   author: "the Tengyur's Abhidharmakośabhāṣya (the author's name not read in this volume's colophon)"
@@ -1706,7 +1713,7 @@ akb:
   rank: 3
   role: source
   locator: image
-  notes: "etext only (2026-11-16), passage ids by the etext's page marker, dtn:iN; scans open on BDRC, not opened; the same text in MW1PD90129 (Pe cin 2009), vol. 11"
+  notes: "passage ids by the etext's page marker, akb:iN (the corpus file's ids); the note that stood here described dtn, whose entry had lost its last lines in a rebase (afb77216), and was moved there on 2026-11-16"
 
 dgk:
   title: "The catalogue of the Sde dge Bstan 'gyur, by its own title page «…གཏམ་ངོ་མཚར་ཆུ་གཏེར་འཕེལ་བའི་ཟླ་བ་གསར་པ»"
@@ -1845,6 +1852,35 @@ zgp:
   author: "Zhe chen rgyal tshab 04 'Gyur med pad+ma rnam rgyal (1871–1926; the dates as in the zgt entry)"
   edition: "Gsung 'bum, 'Gyur med pad+ma rnam rgyal, Ngodup, Paro 1975/1994 (BDRC: v. 1-19); vol. 13, printed pp. 535-552"
   bdrc: {work: MW3916}
+# --- Practice days, second wave (2026-11-16): the sources of the multipliers of the
+# four great festivals and the eclipses.
+bdc:
+  title: "Bde gshegs bdun gyi mchod pa'i chog bsgrigs yid bzhin dbang rgyal (the arranged rite of offering to the seven Sugatas, the Medicine Buddha's rite)"
+  author: "the Fifth Dalai Lama Ngag dbang blo bzang rgya mtsho (BDRC's record of the work)"
+  edition: "Zhol par khang Dga' ldan phun tshogs gling, Lhasa, 102 ff."
+  bdrc: {work: MW00KG04005, etext: VEIE0OPI6CC9D5D5_I00KG06678, scans: [I00KG06678]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext only (2026-11-16), which BDRC rates mediocre; passage ids by the etext's page marker, bdc:iN, which is not the image number: img. 76–78 as bdrc.py labels them hold the folio marked 37, the description of the Four Great Kings; scans open, 2250 px a folio side; the same work in the author's Collected Works (MW1PD107937_12F37A, pp. 429–510, Pe cin, scans on archive.org) and in the Snga 'gyur bka' ma shin tu rgyas pa (MW1PD100944_731CF1)"
+
+skl:
+  title: "Skar rtsis kyi lag len byed grub sgang dril ltar bkod pa (the practice of star reckoning)"
+  author: "not named in BDRC's record"
+  edition: "one volume, no place, no publisher (BDRC MW3CN3480)"
+  bdrc: {work: MW3CN3480, etext: VEIE0OPI17D73134_I3CN8749}
+  licence: "unknown: the author and the date are not established; quoted for one verse, as a witness"
+  rank: 3
+  role: witness
+  locator: image
+  notes: "etext only (2026-11-16), BDRC rates its OCR good; passage ids by the etext's page marker, skl:iN; BDRC lists the scans as open, not opened; whether the manual is an old text or a modern author's is not known from the record"
+
+dbl:
+  title: "Dbyangs can dga' ba'i blo gros, Gsung 'bum, vol. kha: a short work in verse on the dates of the Buddha's life, the four great festivals and the multiplied merit"
+  author: "Dbyangs can dga' ba'i blo gros (the colophon; BDRC's record of the collection)"
+  edition: "the Sku 'bum print reprinted in Delhi (Lama Guru Deva, New Delhi), BDRC MW1KG9561"
+  bdrc: {work: MW1KG9561, etext: VEIE0OPIC89069CA_I1KG9579, scans: [I1KG9579]}
   licence: public-domain
   rank: 3
   role: source
@@ -1854,3 +1890,8 @@ zgp:
       image_offset: 4
       pages: [535, 552]
       notes: "BDRC part MW3916_14B019 (images 539-556; image = printed page + 4, img. 541 prints 537, img. 545 prints 541); a pecha of six lines, 4200 x 896 px, open; images 540-548 read with Yigdzin-1 on 2026-11-16 (pd-f), p. 541 lines 1-4 by eye; images 539 and 549-556 not read; the same author's typeset edition is zgt, where the text was not looked for"
+    2:
+      scan: I1KG9579
+      image_offset: 8
+      notes: "image = the reprint's page number + 8 (img. 62 prints 54); the margin letter is kha; the etext's [pN] is the image number and its OCR is poor"
+  notes: "scans open, 2510 px a folio; the work fills pp. 54–55, after a prayer written at Ri bo rtse lnga and before a short account of the Tibetan schools"
