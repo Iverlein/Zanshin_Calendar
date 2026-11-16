@@ -1683,13 +1683,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0318.md](questions/q0318.md) | question q318 | A speckled deciding pebble in the household round | open; cites wb.1:p385-387, wb.2:p490-491, dz:i048-049 |
 | [questions/q0319.md](questions/q0319.md) | question q319 | The wealth's places among the household's rows | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | answered; cites wb.2:p490-491 |
-| [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | open; cites wb.2:p26, wb.2:p537 |
+| [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | narrowed; cites wb.2:p26, wb.2:p537 |
 | [questions/q0322.md](questions/q0322.md) | question q322 | The parts of the hand of stars on p. 28's figure | open; cites wb.2:p26-27, wb.2:p27-28 |
 | [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | answered; cites wb.2:p27-28 |
 | [questions/q0324.md](questions/q0324.md) | question q324 | «ནམ་མཇུག», the tail of the year, and the bird «འོལ་བ» | answered; cites wb.2:p27-28, wb.2:p28-29, wb.2:p29-30 |
 | [questions/q0325.md](questions/q0325.md) | question q325 | The sky-bird's parts and «སོ་གཉིས་བར་དུ» | open; cites wb.2:p29-30 |
 | [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
-| [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | open; cites wb.2:p37 |
+| [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | narrowed; cites wb.2:p37 |
 | [questions/q0328.md](questions/q0328.md) | question q328 | The black small feet's months, links and times | open; cites wb.2:p38-39, wbz:i680 |
 | [questions/q0329.md](questions/q0329.md) | question q329 | Whether a black small foot needs year, month and hour together | open; cites wb.2:p38-39 |
 | [questions/q0330.md](questions/q0330.md) | question q330 | The doors of sky and earth and the black days, p. 42 | open; cites wb.2:p42 |
@@ -1791,7 +1791,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
 | [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | narrowed; cites wb.1:p425, wb.2:p496 |
-| [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
+| [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | narrowed; cites wb.2:p502, wb.2:p503 |
 | [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | answered; cites wb.2:p378 |
 | [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | answered; cites wb.2:p387 |
 | [questions/q0432.md](questions/q0432.md) | question q432 | What is the sun's klung (ཉི་མའི་ཀླུང) in Langging's list | open; cites wb.2:p186b |
@@ -1824,7 +1824,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
 | [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | answered; cites wb.1:p133b |
 | [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
-| [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | open; cites wb.2:p287 |
+| [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | narrowed; cites wb.2:p287 |
 | [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | answered; cites wb.2:p282 |
 | [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | answered; cites wb.2:p283-285, wb.2:p291-294 |
 | [questions/q0465.md](questions/q0465.md) | question q465 | Which earth lords of the date follow the Black Moon on pp. 361–363, and in what order | open; cites wb.2:p362-363 |
@@ -1872,7 +1872,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | narrowed; cites wb.2:p23c |
 | [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | narrowed; cites wb.2:p16c |
 | [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | open; cites wb.2:p48 |
-| [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
+| [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | narrowed; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | answered; cites wb.2:p47 |
 | [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | answered; cites wb.1:p390 |
@@ -1976,7 +1976,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | answered; cites wb.2:p305-307 |
 | [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | open; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | open; cites — |
-| [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | open; cites — |
+| [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | answered; cites — |
 | [questions/q0615.md](questions/q0615.md) | question q615 | «མགོ་མཇུག་ལོག» in the benefits texts | open; cites — |
 | [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | answered; cites — |
 | [questions/q0617.md](questions/q0617.md) | question q617 | «ཡབ་སྐོར་ཡུམ་སྐོར་མེད་པར་སྐོར་བ» in the wheel text under Karma Chagme | open; cites — |
@@ -2340,7 +2340,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0975.md](questions/q0975.md) | question q975 | In the verse on the outer signs the Derge reads «ལོ་བརྒྱད» (eight years) and CBL «ལོ་ནི་བརྒྱར» (a hundred years): which is the Indian reading, and which print of the Derge blocks has which? | open; cites cbs:p247-249 |
 | [questions/q0976.md](questions/q0976.md) | question q976 | In the list of the works the treatise rests on (cbs:p267-268, cbl:p278-279) which works are the «བླ་གབ», the «དུས་ཀྱི་ཕྱི་མ» and the «དུས་ཕྲེང་བ», and is the Fifty on Life the Nāgārjuna work that CBL says it is? | answered; cites cbs:p267-268, cbl:p278-279 |
 | [questions/q0977.md](questions/q0977.md) | question q977 | Are WB's eight watches on p. 403 («ཉིན་མཚན་ཐུན་བརྒྱད») eight of the day and night together, or eight of the day with a further eight of the night? Its division line reads «ཉིན་ཚད», its first line «ཉིན་མཚན». | open; cites wb.2:p403c |
-| [questions/q0978.md](questions/q0978.md) | question q978 | On p. 375, the summer's first stretch «དབྱར་གསུམ་ཉི་གོང[?]་ནམ་ཕྱེད་བར»: is the second word «ཉི་གོང» as Yigdzin-1 has it, or «ཉི་ནུབ» as in spring and autumn? | open; cites wb.1:p375 |
+| [questions/q0978.md](questions/q0978.md) | question q978 | On p. 375, the summer's first stretch «དབྱར་གསུམ་ཉི་གོང[?]་ནམ་ཕྱེད་བར»: is the second word «ཉི་གོང» as Yigdzin-1 has it, or «ཉི་ནུབ» as in spring and autumn? | narrowed; cites wb.1:p375 |
 | [questions/q0979.md](questions/q0979.md) | question q979 | On p. 403, line 5, «མིག་དམར་འཇོག[?]»: is the last letter ཇ (the earlier passages) or ཛ (Yigdzin-1)? | open; cites wb.2:p403c |
 | [questions/q0980.md](questions/q0980.md) | question q980 | Which reign or era is «སྲིད་གསལ» in the dated colophon of the 10th text of W1NLM9044 (the ninth year, an ox year, fifteenth of the month Sa ga), and who is the mantra-madman Padma 'od zer? | open; cites gdn:i175 |
 | [questions/q0981.md](questions/q0981.md) | question q981 | Is the writer of the copies, Blo bzang karma bkra shis of the Red-Hat family (GDM's volume, 2nd text) or Blo bzang nyi ma (GDR's volume), the same hand as the dream text's, and can a reader of Mongolian manuscript hands date the three volumes by paper and hand? | open; cites gdm:i82, gdr:i37 |
@@ -2348,7 +2348,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0983.md](questions/q0983.md) | question q983 | Does Dbang chen dgyes rab rdo rje follow a text for the dream step (he cites the Mantra Stages, «སྔགས་རིམ་ཆེན་མོ»), and does the Vairocana initiation tradition name signs a teacher reads in the pupils' dawn dreams? | answered; cites dgd:i80-82, snr:p349 |
 | [questions/q0984.md](questions/q0984.md) | question q984 | Is the 夢合長者鑑, a dream book listed at forty sen in the publisher's list of the 万代大雑書三世相 (Suzuki Kiemon, 1886), set out in the NDL or any library, and does it carry the table of the days on which a dream is not told with a legend for the slash, or a 初夢 night? | answered; cites mdz:i190 |
 | [questions/q0985.md](questions/q0985.md) | question q985 | On the Derge print (I1344 img. 248–249) are the letters of «དྲི་དམར», «ལོ་བརྒྱད» and «ཀོ་པི་ད་ར» (Yigdzin-1 «ཀོ་བི་དར») those of the Derge etext, or does the eye's pa/ba and da/ra reading differ on a sharper image? | open; cites cbs:p248-249s |
-| [questions/q0986.md](questions/q0986.md) | question q986 | Does the Dbyangs 'char verse, the Gso rig gces btus piece and WB vol. 2 p. 403's «ཆུ་སྲང་བཞི་རེ» use the same 56¼-chu-srang unit as the Mchog dga'? | open; cites svo:p271z |
+| [questions/q0986.md](questions/q0986.md) | question q986 | Does the Dbyangs 'char verse, the Gso rig gces btus piece and WB vol. 2 p. 403's «ཆུ་སྲང་བཞི་རེ» use the same 56¼-chu-srang unit as the Mchog dga'? | narrowed; cites svo:p271z |
 | [questions/q0987.md](questions/q0987.md) | question q987 | The Kun 'dus chen mo etext's spellings «ཐུན་ཕྱིད», «བརྒྱུད» for eight and «ང་དྲུག»: are they the print's, and what follows «ཆུ་ཚོད་རེ་བཞིར» where the etext cuts off before the number? | open; cites svo:p271z |
 | [questions/q0988.md](questions/q0988.md) | question q988 | What does the Blue Beryl's clause on Drukpa yogis and Khri srong lde btsan's communities say among those of like kind to the good messenger, broken in the etext, and does the Drikung dka' mchan comment on the verse? | answered; cites gt:i41b, gt:i41c |
 | [questions/q0989.md](questions/q0989.md) | question q989 | What are «རྦད་མགོ» and «དྲྭ་ཕད» among the Drukpa realised ones' marks in the Blue Beryl's clause on those of like kind to the good messenger? | answered; cites gt:i41c, tmz:box7 |
@@ -2614,6 +2614,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1249.md](questions/q1249.md) | question q1249 | KP box 34: what are the two syllables before «མི་འཕྲོད་ཉི་མ» in the bad half's last line, and what follows ཉི་མ་? | open; cites kp:i41s |
 | [questions/q1250.md](questions/q1250.md) | question q1250 | KP boxes 52–55: where in WB or Mipham do the earth-lord runs at the foot of their bad halves come from? | open; cites kp:i55s |
 | [questions/q1251.md](questions/q1251.md) | question q1251 | KP box 55: is the clause «ཀླུ་བཟློག་པ» a remedy against the naga planet or a separate rite? | open; cites kp:i55s |
+| [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
+| [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
 <!-- end pool index -->
 
