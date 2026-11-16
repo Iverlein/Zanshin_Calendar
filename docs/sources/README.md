@@ -1944,7 +1944,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | narrowed; cites wb.1:p380 |
 | [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | answered; cites dz:i046 |
 | [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
-| [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | answered; cites dz:i056, wb.2:p52-54, dz:i055-057 |
+| [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | narrowed; cites dz:i056, wb.2:p52-54, dz:i055-057 |
 | [questions/q0576.md](questions/q0576.md) | question q576 | The notes' «བཅོ་ལྔའོ» against fourteen | open; cites wb.2:p517 |
 | [questions/q0577.md](questions/q0577.md) | question q577 | The Taikhang leaf of the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» | answered; cites wb.1:p362 |
 | [questions/q0578.md](questions/q0578.md) | question q578 | p. 381's «ངོ་ཐོག» or «ངོ་ཐེག» on the Zhol blocks | open; cites wb.1:p381 |
@@ -2018,7 +2018,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | answered; cites wb.2:p323 |
 | [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | open; cites wb.2:p328 |
 | [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | narrowed; cites wb.2:p322 |
-| [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | answered; cites wb.2:p323 |
+| [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | narrowed; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | answered; cites wb.2:p328-329, wb.2:p328 |
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
 | [questions/q0652.md](questions/q0652.md) | question q652 | The kung of «ཐུན་ཀུང» in the hand reckoning | open; cites wb.2:p538-539 |
@@ -2096,7 +2096,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0724.md](questions/q0724.md) | question q724 | The author's name at the close of ch. 12: རྙིང་ནོར or སྙིང་ནོར | answered; cites — |
 | [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | open; cites — |
-| [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | answered; cites wb.1:p105 |
+| [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | narrowed; cites wb.1:p105 |
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | answered; cites kd.1:p495a |
