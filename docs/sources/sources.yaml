@@ -1755,11 +1755,15 @@ zgt:
   title: "Zhe chen rgyal tshab 'Gyur med pad+ma rnam rgyal gyi gsung 'bum (the collected works of the fourth Zhe chen rgyal tshab)"
   author: "Zhe chen rgyal tshab 04 'Gyur med pad+ma rnam rgyal (1871–1926)"
   edition: "Khams Zhe chen bstan gnyis dar rgyas gling, Zhe chen dgon 2011, 13 vols (typeset)"
-  bdrc: {work: MW1PD133163, etext: [VEIE0OPIDB78C0F0_I4PD2451, VEIE0OPIDB78C0F0_I4PD2452, VEIE0OPIDB78C0F0_I4PD2453]}
+  bdrc: {work: MW1PD133163, etext: [VEIE0OPIDB78C0F0_I4PD2441, VEIE0OPIDB78C0F0_I4PD2451, VEIE0OPIDB78C0F0_I4PD2452, VEIE0OPIDB78C0F0_I4PD2453]}
   licence: public-domain
   rank: 3
   role: source
   volumes:
+    1:
+      scan: I4PD2441
+      image_offset: 42
+      notes: "image = printed page + 42 (img. 487 prints 445); the etext's [pN] is the image; Rgyal ba'i rten gsum bzhengs pa dang mchod pa'i phan yon las 'phros pa'i gtam tshogs gnyis pad tshal bzhad byed yid ches lung gi nyi ma (a discourse on the benefits of raising and honouring the Victor's three supports), from img. 281; its fourth part, 'phros don, from img. 484: the householder's five precepts or the one-day vow on the great days, and the benefits of the fasting practice (pd-i, 2026-11-16); scans open, 1400 px wide, legible at 1.2x"
     11:
       scan: I4PD2451
       image_offset: 44
@@ -1798,3 +1802,26 @@ dpk:
       image_offset: 42
       notes: "image = printed page + 42 (the etext's [p422] prints 380); text 21, O rgyan sangs rgyas gnyis pa'i sku tshabs gtso bor gyur pa'i sku gsung thugs rten la gus par byed pa'i tshul brjod pa legs lam dam pa'i gsos sman (MW1PD107142_E1B4F1), printed pp. 367–390"
   notes: "the etext is an OCR of the typeset pages, with line-end fillers and stray marks; scans on archive.org only, not opened"
+
+# --- Practice days, the lay practitioner's days, second pass (pd-i, 2026-11-16).
+zkt:
+  title: "Sku tshe tha ma'i rnam thar byung tshul (how the last part of the life went), the close of the life of Zhabs dkar ba Tshogs drug rang grol, with his last advice to monks, mantra holders and patrons"
+  author: "BDRC lists the collection under Zhabs dkar ba Tshogs drug rang grol (P287, 1781–1851); who wrote down this account of his last days is not named on the pages read"
+  edition: "in Rje zhabs dkar tshogs drug rang grol gyi gsung 'bum, Mtsho sngon mi rigs dpe skrun khang, Zi ling 2002, 10 vols; the etext's volume 2 (image group I2DB57572), pp. 535–644 as BDRC states"
+  bdrc: {work: MW1PD45150_4DA75E, etext: VEIE0OPIE33B3090_I2DB57572}
+  licence: public-domain
+  rank: 3
+  role: source
+  etext_offset: 8
+  notes: "printed page = etext page − 8 (the etext's [p590] carries the printed number 582 at its foot); an OCR etext with line-end fillers and doubled letters; bdrc.py scans I2DB57572 590 returned no image on 2026-11-16, so etext only"
+
+tct:
+  title: "Tshe thar srog bslu'i phan yon 'chi med tshe yi dpal ster (the benefits of freeing lives and ransoming life)"
+  author: "Thub bstan chos kyi grags pa (the colophon; written at the request of Bla ma sprul pa'i sku Lung rtogs bstan pa'i nyin byed); BDRC lists the same title among the works of D+hAr+ma kIr+ti Kun bzang bsod nams, 'Thub bstan chos kyi grags pa or Mi nyag Kun bsod' (MW19837, MW19822_D2CB18); his dates were not read"
+  edition: "the last text of Rgyal sras lag len rtsa 'grel gces bsdus, Ser gtsug nang bstan dpe rnying 'tshol bsdu phyogs sgrig khang, Lha sa 2016 (Gangs can khyad nor dpe tshogs 311), printed pp. 332–344 by its list of contents; typeset"
+  bdrc: {work: MW1KG25122, etext: VEIE0OPID6BE737A_I1KG25124, scans: [I1KG25124]}
+  licence: "the author's dates not established in this reading: the rule-carrying sentences only, the rest as facts"
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext page = image number (img. 351 read on the scan, 2083 x 3029 px, legible at 0.85x); the text runs img. 344–356; the editors' preface (img. 8) says no life of the author was found; the same author's commentary on the Thirty-seven Practices, Gzhung dang gdams ngag zung 'jug bdud rtsi'i bum bzang, stands in the same volume"
