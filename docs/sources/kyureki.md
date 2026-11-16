@@ -3309,6 +3309,65 @@ not say where the other days go. A difference stated, not settled.
   leaves this out; only KK (Chinese, 1741) gives one, and only by
   equating it with 鶴神's, which is 天一's.
 
+### Further printed books on 日遊, 大將軍 and 六畜 (inv-c, 2026-11-16)
+
+Found by the NDL Lab full-text search (`lab.ndl.go.jp/dl/api/book/search?keyword=日遊神`)
+and read as the NDL's machine text (`fulltext-json/<pid>`, page = frame
+number), except where an image is named. Machine text only unless said.
+
+- **Sixteen days in the house, none of 戊 and 己, in every later book.**
+  『除災招福神秘開運法』 (高島易断所, 神宮館, 1924; pid 922749, frame 83, 第七項
+  «天一天上、日遊神の吉凶日»): 天一神's heaven is «癸巳の日から戊申の日まで»,
+  «十六日», 日遊神 «人間の家に住して不淨を忌むこと甚だしい», to be swept clean
+  in these days; then the course «己酉の日から … 四十四日の間は四方を巡る»
+  (five days each from 乙卯 E, 乙亥 W, 乙丑 S, 乙酉 N, 庚辰 NW, 庚戌 NE, 庚申 SE,
+  庚午 SW). The OCR of the ruby text is broken; the figures are those of the
+  parts that read cleanly. Same sixteen days and house places (北 五日, 中央
+  二日, 南 三日, 西 一日, 東 四日, 中央 一日): 『通俗観相易占大鑑』 (石龍子, 栄文堂,
+  1920; pid 925151, frames 48–49), 『鴻池信託寶鑑』 (1928; pid 2535588,
+  frame 26), 『家庭寶鑑』 (pid 2535587, frame 30), 『方位細鑑』 (和佐化竜, MS,
+  享和頃; pid 2541333, frames 66–67: «癸巳日ヨリ天上シテ … 日遊神地ニ下ツテ
+  人間ノ室宅ノ中ニ居ス», 癸巳 北 5, 戊戌 中央 2, 庚子 南 3, 癸卯 西 1, 甲辰 東 4,
+  戊申 中央 1), 『民家日用廣益秘事大全』 (1851 print; pid 2555511, frame 27:
+  «癸巳の日より天にのぼり戊申の日下り給ふなり此十六日の間を天一天上とは
+  いふなり»). None has seventeen days or a 戊・己 rule; the 暦林問答集's
+  «又戊巳日居屋舎内» (§43) is found in none of them. Searched for a 戊己
+  clause with 日遊 in these eight books: none.
+- **Whether the almanac prints it.** 『除災招福神秘開運法』 frame 56 says
+  of the 八將神 and 天一神: «舊曆のうちに昔から之れを記されてある» (the old
+  almanacs have long recorded them). No book says what a 高島暦 of its own
+  year printed against each day; the paper almanac is still the only source
+  for q496.
+- **大將軍's width (q488).** 『方位細鑑』 (pid 2541333, frames 53–55) keeps the
+  old wide rule as the book's own «正説»: 大將軍 is to be avoided in «二干三支»,
+  quoting 安倍晴道's 三鏡暦 «凡ソ大将軍ハ可レ忌二千三支 … 東方ノ之甲乙ノ方也
+  三支寅卯辰ノ之方也», and saying «此伝拾芥抄ニモ抜セリ»; it names 的殺 (the
+  seat), 対殺 (opposite) and their 前殺 and 後殺, four branches in all, and
+  says that during a 遊行 only 的殺 and 対殺 are to be deeply avoided and
+  the two stems and the 前殺 and 後殺 need not be. Later books give the
+  seat as one branch: 『除災招福神秘開運法』 frame 61: 大將軍 in 子 卯 午 酉,
+  «三年塞り», 寅卯辰 three years in the 亥子丑 side (a table by years), no
+  stems; 『独占易学全書』 (pid 760755, frame 26): the table of 大將軍's
+  direction by year, one branch. So the wide rule is in a book of about
+  1801–04 as the author's own, and the 1901–1924 books keep a single
+  branch (with the 3-year stay).
+- **六畜 (q625).** 『独占易学全書』 (1901; pid 760755) page 32 of the book,
+  frame 40, read on the image (IIIF R0000040): «(豹尾)は黄幡対沖に居し変動
+  すること豹尾の動くに似たり此方に向て屎尿すること莫れ又六畜を求むべから
+  ず», and «(死符)死符は是旧歳破とし病符は旧大歳とす共に百事忌むべし».
+  The livestock ban stands with 豹尾, as in the Chinese rows; 歳破 has none.
+  This shows the Japanese almanac handbook of 1901 with the livestock at
+  豹尾 and does not explain the 暦林問答集's clause at 歳破.
+- **金神's two 遊行 (q499).** 『通俗観相易占大鑑』 (1920; pid 925151, frame 61):
+  one table, by season, from a 寅 day: spring 甲寅–戊午 S, summer 丙寅–庚午 W,
+  autumn 庚寅–甲午 N, winter 壬寅–丙午 E, and a fifth line 戊寅–壬午 for
+  the 土用 whose direction the OCR lost;
+  the 遊行 is to be avoided too. 『除災招福神秘開運法』 frame 61 gives the
+  金神 as the 年塞り, the 月塞り and, for the day, 天一神's; no second
+  list by the day's stem and no case where two meet. 『方位細鑑』 frame 54
+  says that where 大將軍's 的殺 and the 金神's curse coincide, the book
+  marks the 大將軍 and does not treat the 金神 («金神ハ説サス»).
+
 ### Open
 
 - Question 492 ([q0492](questions/q0492.md)): the 暦林問答集 keeps 日遊 in the house seventeen days, 癸巳 to
@@ -4445,4 +4504,4 @@ wheel.
 - 馬場真理子's 2024 article on the 暦略註 (時間学研究 15, pp. 15–31) and her 2017 one on
   the 暦林問答集 (東京大学リポジトリ, records/47693): bibliographic records only, no
   full text reachable (the repository answered 503).
-- The 高島暦 of today: not seen; no record found beyond RD163's.
+- The 高島暦 of today: not seen; no record found beyond RD163's. 2026-11-16 (inv-c): NDL full-text search 日遊神 (12 books, eight read, above), 日遊神戊己, 日遊 癸巳 己酉, 日遊神 十七日, 天一神遊行方 0 hits; 歳破 + 馬牛 / 畜類 0 hits.
