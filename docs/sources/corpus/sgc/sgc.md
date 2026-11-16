@@ -89,6 +89,30 @@ BDRC etext only (VEIE0OPI40212F00_I01JW66, etext pp. 214-215), not read on the s
 
 "On every tenth (ཚེས་བཅུ, tshes bcu), for each wonderful deed, if one offers and prays so as to be blessed, all that is unwanted is calmed and what is good now and for long gathers: make that vajra word unfailing. Remembering the promise to come to Tibet each time a tenth comes, with one-pointed devotion and fierce longing we pray from the heart ..." The colophon: this prayer, joined to the offering of the tenth, Guru Rinpoche's great occasion (དུས་ཆེན, dus chen), which the people of the Snowy Land must not leave undone, was made by Padma'i rig 'dzin 'Chi med bstan gnyis g.yung drung gling pa, as the lord guru, the omniscient Padma 'od gsal mdo sngags gling pa, had told him the need for it and its reasons, on the basis of that lord's own profound treasure, the History of the Guru's Four Bodies (བླ་མ་སྐུ་བཞིའི་ལོ་རྒྱུས, bla ma sku bzhi'i lo rgyus), and of the Benefits of the Tenth (ཚེས་བཅུའི་ཕན་ཡོན, tshes bcu'i phan yon) from the treasure of Lho brag Mgon po rin chen. The two persons are named as the colophon names them; they were not looked up on BDRC.
 
+## <a id="sgc-i568"></a>sgc:i568 The fulfilment and confession of the Peaceful and Wrathful Ones: the offerings of the full moon, new moon and six times left undone
+
+*Read: etext, 2026-11-16.*
+
+> ཡན་ལག་དམ་ཚིག་ཉམས་པ་རྣམས༔ ཡི་དམ་ལྷ་ཡི་སྤྱན་སྔར་བཤགས༔ བསྙེན་པ་བསྒྲུབ་པའི་ཏིང་འཛིན་གཡེལ༔ ཉ་སྟོང་དུས་དྲུག་མཆོད་པ་ཆག༔ ལེ་ལོ་གཡེང་བ་གཉིད་ཀྱིས་རྨུག༔ […] ཚོར་དང་མ་ཚོར་ཉམས་པའི་སྐྱོན༔ མཁའ་འགྲོ་དམ་ཅན་སྤྱན་སྔར་བཤགས༔
+
+From the confession of the branch commitments in the fulfilment and confession of the Peaceful and Wrathful Ones that precedes the Stainless Confession Tantra in the collection, etext p. 568 (not read on the scan; the etext drops the mark ༔ after «ཆག», restored here; […] is two lines on hoarding, the feast's first portion and remainders, not quoted because the etext is broken there). Its colophon on etext p. 576 says it joins the rite of the Peaceful and Wrathful Ones' fulfilment and confession of hell from Guru Chos kyi dbang phyug's treasure, the Complete Secret of the Eight Pronouncements, with that of the Northern Treasure's Eight Pronouncements, Fierce, Self-arisen and Self-appearing («གུ་རུ་ཆོས་ཀྱི་དབང་ཕྱུག་གི་གཏེར་བྱོན་བཀའ་བརྒྱད་གསང་བ་ཡོངས་རྫོགས་དང། བྱང་གཏེར་བཀའ་བརྒྱད་དྲག་པོ་རང་བྱུང་རང་ཤར་ལས་བྱུང་བའི་ཞི་ཁྲོ་ན་རག་སྐོང་བཤགས་ཀྱི་ཆོ་ག་ཟུང་འབྲེལ་དུ་བསྡེབས་པ»).
+
+"The impaired branch commitments I confess before the yidam deities. Distracted from the concentration of approach and accomplishment; the offerings of the full moon, the new moon (ཉ་སྟོང, nya stong) and the six times (དུས་དྲུག, dus drug) left undone; dulled by laziness, distraction and sleep; … the faults of impairment, noticed and unnoticed, I confess before the dākinīs and the oath-bound."
+
+The line names the full and new moon and "the six times" as the times of the owed offering; which the six times are, the line does not say.
+
+## <a id="sgc-i580"></a>sgc:i580 The Stainless Confession Tantra: its title and head
+
+*Read: etext, 2026-11-16.*
+
+> ༈ རྒྱ་གར་སྐད་དུ། ཤཱནྟིཀྲོ་དྷ་ནཱ་རཀ་ཁ་དཱ་པྲ་སྥོ་ཊ་ཡོ་ག་ཛཱ་ཏི་སྣ་ནཱ་ནུ་ཏཱ་པ་བྲ་ཧྨ་སྱ་ཀ་ལྤ་བི་མ་ལ་དེ་ཤ་ན་ཏནྟྲ་ནཱ་མ་སྟི༔ བོད་སྐད་དུ། ཞི་ཁྲོ་ན་རག་དོང་སྤྲུགས་རྣལ་འབྱོར་གྱི་སྤྱི་ཁྲུས་འགྱོད་ཚངས་ཀྱི་ཆོ་ག་དྲི་མེད་བཤགས་རྒྱུད་ཅེས་བྱ་བ། བཅོམ་ལྡན་འདས་དཔལ་ཀུན་ཏུ་བཟང་པོ་ལ་ཕྱག་འཚལ་ལོ༔ རྡོ་རྗེ་པདྨ་འབྱུང་གནས་ངས༔ སྐྱོ་ངལ་མེད་པའི་མཚོ་རྒྱལ་ལ༔ ན་རག་གནས་ཀྱང་དོང་སྤྲུགས་པའི༔ ཉུང་འདུས་མན་ངག་ཟབ་མོ་འདི༔ རྒྱུན་གྱི་ཡི་དམ་ནར་མའོ༔ འདི་ཡི་ཕན་ཡོན་བསྟན་པ་ནི༔ རྒྱལ་བ་དགོངས་པ་འདུས་པ་ཡི༔ ཀློང་ཆེན་རྒྱུད་ནས་འདི་སྐད་གསུངས༔
+
+The head of the text that holds the confession of sgc:i589, etext p. 580 of VEIE0OPI40212F00_I01JW66 (the id counts the etext's pages; not read on the scan). The Sanskrit title is given as the etext has it; a space the etext puts inside «སྐྱོ་ངལ་མེད་པའི» is closed.
+
+"In the language of India: … In the language of Tibet: the Stainless Confession Tantra (དྲི་མེད་བཤགས་རྒྱུད, dri med bshags rgyud), the rite of remorse and purification, the general cleansing of the yogin, the Peaceful and Wrathful Ones who Churn the Depths of Hell (ན་རག་དོང་སྤྲུགས, na rag dong sprugs). Homage to the Blessed One, glorious Samantabhadra. I, the vajra Padmasambhava, [give] to Mtsho rgyal, who knows no weariness, this profound instruction, short and gathered, that churns even the realm of hell from its depths: it is the constant, continual pledged practice. Its benefits are taught in the Klong chen tantra of the Gathering of the Victors' Intent as follows: …"
+
+The text is to be recited continually; its head sets no day of the month for it.
+
 ## <a id="sgc-i589"></a>sgc:i589 A confession of the collection: the offerings of the times, the full and new moon, the eighth and the rest, left undone
 
 *Read: etext, 2026-11-16.*
@@ -98,3 +122,15 @@ BDRC etext only (VEIE0OPI40212F00_I01JW66, etext pp. 214-215), not read on the s
 BDRC etext only (VEIE0OPI40212F00_I01JW66, etext p. 589), not read on the scan; the title of the confession text these lines stand in was not read. A like line stands on etext p. 568, «ཉ་སྟོང་དུས་དྲུག་མཆོད་པ་ཆག», the offerings of the full and new moon and of the six times left undone.
 
 "The five to be practised and the five not to be given up, the five to be taken and the five to be accomplished, the five to be known and the rest: the impairments and breaches of the branch commitments (དམ་ཚིག, dam tshig) I confess with a mind of shame and regret. The offerings of the times, the full moon, the new moon (ཉ་སྟོང, nya stong), the eighth (ཚེས་བརྒྱད, tshes brgyad) and the rest, left undone; approach and accomplishment with the concentration unclear and the view wrong; without the first portion and without cleanliness, fallen into defilement and filth; whatever came under the power of laziness and miserliness: I confess with a mind of shame and regret."
+
+## <a id="sgc-i590-591"></a>sgc:i590-591 The Stainless Confession Tantra: its colophon, a treasure of Nyang ral Nyi ma 'od zer
+
+*Read: etext, 2026-11-16.*
+
+> ཞེས་གསུངས་སོ༔ རྣལ་འབྱོར་གྱི་སྤྱི་ཁྲུས༔ ན་རག་དོང་སྤྲུགས་འགྱོད་ཚངས་ཀྱི་རྒྱལ་པོ༔ སློབ་དཔོན་པདྨས་ཇོ་མོ་མཚོ་རྒྱལ་ལ་ཐུགས་དམ་ནར་མར་གདམས་པའོ༔ གསང་སྔགས་འདི་ལན་གཅིག་བརྗོད་པ་ཙམ་གྱིས་ཀྱང༔ མཚམས་མེད་པ་ལྔ་ཡང་དུང་ཕྱིས་པ་ལྟར་འགྱུར༔ དགོངས་འདུས་ཀློང་ཆེན་རྒྱུད་ནས་གསུངས་སོ༔ དེ་བས་འདི་ལ་ཡི་དམ་བྱེད་པ་གལ་ཆེ༔ ས་མ་ཡ༔ རྒྱ་རྒྱ་རྒྱ༔ སྤྲུལ་སྐུ་ཉང་རལ་ཉི་མ་འོད་ཟེར་གྱི་གཏེར་མའོ།།
+
+The colophon of the same text, etext pp. 590–591 (not read on the scan; the etext's «མཚམས་མེདཔ་ལྔ» is written «མཚམས་མེད་པ་ལྔ»); the next text, a Confession of Evil, begins on the same line.
+
+"… so it is said. The general cleansing of the yogin, the King of Remorse and Purification that Churns the Depths of Hell: the master Padma taught it to the lady Mtsho rgyal as a continual practice. By reciting this secret mantra even once, even the five deeds of immediate retribution become like a wiped conch: so the Klong chen tantra of the Gathering of Intent says. Therefore it is important to make this one's pledged practice. Samaya. Seal, seal, seal. It is a treasure of the emanation Nyang ral Nyi ma 'od zer."
+
+So the confession with «ཉ་སྟོང་ཚེས་བརྒྱད་ལ་སོགས་དུས་ཀྱི་མཆོད་པ་ཆག» (sgc:i589) is the closing confession of the Stainless Confession Tantra, a treasure of Nyang ral Nyi ma 'od zer, a text common to the Nyingma school and not a treasure of Rtsa gsum gling pa's lineage.

@@ -425,6 +425,26 @@ mgz:
       scan: I1PD84565
       image_offset: 8
       notes: "Thub chog byin rlabs gter mdzod at the head of the volume"
+    11:
+      scan: I1PD84570
+      image_offset: 8
+      notes: "Dam pa'i chos mngon pa mdzod kyi mchan 'grel rin po che'i do shal blo gsal dgyes pa'i mgul rgyan, Mipham's annotated commentary on the Treasury of Abhidharma (running title in the etext VEIE0OPI08B0BB3C_I1PD84570); image 187 carries the printed page 179 (read on the scan 2026-11-16)"
+    21:
+      scan: I1PD84580
+      image_offset: 8
+      notes: "Yid bzhin mdzod kyi grub mtha' bsdus pa from image 143 (printed p. 135; title from the etext VEIE0OPI08B0BB3C_I1PD84580)"
+    23:
+      scan: I1PD84582
+      image_offset: 9
+      notes: "Bya spyod kyi sngags bsgrub pa'i tshul gnad mdor bsdus at the head of the volume (running title read on image 17); image 16 carries the printed page 7 (read on the scan 2026-11-16)"
+    27:
+      scan: I1PD84586
+      image_offset: 8
+      notes: "Dus 'khor dbang le'i 'grel pa, the commentary on the Kālacakra's empowerment chapter (running title in the etext VEIE0OPI08B0BB3C_I1PD84586); image 27 carries the printed page 19 (read on the scan 2026-11-16)"
+    33:
+      scan: I1PD84592
+      image_offset: 8
+      notes: "'Jam dpal gyi las tshogs kun 'byung nor bu'i rgyal po, Las sna tshogs pa'i sngags kyi be bum dgos 'dod kun 'byung gter gyi bum pa bzang po and Rdzu 'phrul sgyu ma'i be bum (the volume's title page, etext p. 9); images 59, 174 and 188 carry the printed pages 51, 166 and 180 (read on the scan 2026-11-16); the same image group is mph's volume 128, whose ids count images"
     28:
       scan: I1PD84587
       image_offset: 8

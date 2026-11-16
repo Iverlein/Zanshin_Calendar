@@ -97,6 +97,18 @@ Then, when about one year had passed (a year after the telling of the previous e
 
 (The same life in verse, vol. 30, etext page markers p102-103 = images 102-103; the text is that of the lines on image 102 ending «...he went behind a wooden fence» and image 103.) «Having gone to the corner of a wooden fence, in the daylight I slept a little (ཅུང་ཟད་གཉིད་ལ་སོང, cung zad gnyid la song). Then, in a hazy experience-appearance dream (ཉམས་སྣང་རྨི་ལམ་ཟ་ཟི, nyams snang rmi lam za zi), I came to a land where the neu seng flowers grow; and just then, out of the sky before me, a boy with the six bone ornaments, surrounded by four ḍākinī dancers, appeared in a rainbow-light, a drop (ཐིག་ལེ, thig le), clear and vivid. At that time, as soon as I caught my memory (དྲན་པ་ཟིན་པ, dran pa zin pa), I rose, folded my hands and made this prayer.» A vision in a brief daytime doze, called a hazy experience-appearance dream; he leaves it when memory (mindfulness) is taken hold of, and then prays to Padmasambhava; the guru answers in the next lines (image 104).
 
+## <a id="tsl-28-i106-107"></a>tsl.28:i106-107 Pad rgyal gling pa's treasure, the most secret guru sādhana: begun on the tenth of the waxing half or at an auspicious conjunction
+
+*Read: scan, 2026-11-16.*
+
+> […] བླ་མེད་བླ་མ་རྡོ་རྗེ་འཆང་ཆེན་པོ༔ དཀྱིལ་འཁོར་རྒྱ་མཚོའི་ཁྱབ་བདག་ཧེ་རུ་ཀ༔ བདག་གི་སྒྲུབ་ཐབས་ཕྱི་ནང་གསང་གསུམ་ལས༔ འདི་ཉིད་ཡང་གསང་སྤྲོས་མེད་ནོར་བུའི་ལུགས༔ གཅིག་ཤེས་ཀུན་གྲོལ་ཕྱག་རྒྱ་གཅིག་སྒྲུབ་འདི༔ ཉམས་ལེན་སྙིང་པོར་དྲིལ་བ་རྩ་བར་བཟུང་༔ ས་མ་ཡ༔ ང་ཡི་སྐུ་གསུང་ཐུགས་ཀྱི་སྒྲུབ་གནས་སོགས༔ དབེན་གནས་བཟང་པོར་ཡར་ངོའི་ཚེས་བཅུའམ༔ དུས་སྦྱོར་དགེ་བར་འདྲ་འབག་ཚད་ལྡན་དང་༔ གསང་གསུམ་རྟེན་བཀྲམ་ཕྱི་ནང་མཆོད་པས་སྤྲས༔ སྤྱི་ཆིངས་སྦྱོར་དངོས་རྗེས་ཀྱི་རིམ་པར་བསྟན༔ སྦྱོར་བར་སྐྱབས་སེམས་ཚོགས་བསགས་བཀའ་བསྒོ་དང་༔ མཚམས་གཅོད་བྱིན་འབེབས་མཆོད་རྫས་བརླབ་པའོ༔ དང་པོ་སྐྱབས་འགྲོ་ནི༔ ན་མོ༔ ཕྱོགས་བཅུའི་དུས་བཞིའི་སྐྱབས་ཡུལ་མ་ལུས་པ༔ ཡེ་ཤེས་གཅིག་གི་དབྱིངས་སུ་འདུས་པའི་དཔྱིད༔ པདྨ་འབྱུང་གནས་བདེ་གཤེགས་རྩ་གསུམ
+
+The first two pages of a treasure sādhana of Pad rgyal gling pa in vol. 28, read by eye on images 106 and 107 of I1PD108816 (the scans carry the printed page numbers 96 and 97), every syllable; […] is the line of symbolic script at the head, not transcribed. The etext's སྒྲིབ at the end of line 2 of image 106 reads སྒྲུབ on the scan. The title page (etext p. 105, not read on the scan) gives the title: «བླ་མའི་ཐུགས་སྒྲུབ་སྐུ་གསུམ་དགོངས་འདུས་ལས༔ ཡང་གསང་བླ་མའི་སྒྲུབ་ཐབས་ཕྱག་རྒྱ་གཅིག་པ་ཕྲིན་ལས་རྡོ་རྗེ་སྙིང་པོ», "from the Guru's Heart Practice, the Gathering of the Intent of the Three Bodies (སྐུ་གསུམ་དགོངས་འདུས, sku gsum dgongs 'dus): the most secret guru sādhana of the single mudrā, the Vajra Essence of Activity".
+
+"… Unsurpassed guru, great Vajradhara, heruka, lord who pervades the ocean of maṇḍalas: of my sādhanas, the outer, the inner and the secret, this is the most secret, the way of the unelaborate jewel; this accomplishment of the single mudrā, knowing one that frees all, gathered into the heart of practice, is held as the root. Samaya. At the places where my body, speech and mind were accomplished and the like, in a good solitary place, on the tenth of the waxing half (ཡར་ངོའི་ཚེས་བཅུ, yar ngo'i tshes bcu) or at an auspicious conjunction (དུས་སྦྱོར་དགེ་བ, dus sbyor dge ba), set out a likeness of the right measure and the supports of the three secrets, adorned with outer and inner offerings. The general frame is taught as the stages of preparation, main part and conclusion. In the preparation: refuge and the mind of awakening, gathering the accumulations, the command, cutting the boundary, bringing down the blessing and blessing the offering substances. First, going for refuge: Namo. All the objects of refuge of the ten directions and four times, … the glory gathered in the expanse of the one wisdom, Padmasambhava, the sugatas, the three roots …"
+
+The speaker is Padmasambhava ("my sādhanas", "my places of accomplishment"). The day named for beginning the guru sādhana is the tenth of the waxing half; the alternative is any auspicious conjunction. The tenth of the waning half is not named.
+
 ## <a id="tsl-30-i106-108"></a>tsl.30:i106-108 Rtsa gsum gling pa's life: dreams at the middle session and at night, the places named, and not to tell the signs before their time
 
 *Read: etext, 2026-11-10 (RD363): BDRC's etext (IE0OPI46409446) of the volume named in the id, page marker pN = image N; only the excerpt, with the etext's stray spaces and page-start marks left out; not compared with the scan, so every syllable here stands on the etext and is not built on until read on the scan.*
@@ -104,6 +116,20 @@ Then, when about one year had passed (a year after the telling of the previous e
 > གུང་ཐུན་ཉལ་བའི་རྨི་ལམ་དུ། །མཚར་སྟག་དམར་པོ་ཡིན་ཟེར་བའི། །མི་དམར་བཙན་ རྒོད་དུམ་གཅིག་དང་། །རྒ་རྒྱལ་ཇོ་བོ་ཡིན་ཟེར་བའི། །མི་དཀར་འཁོར་གཡོག་མང་ཞིག་དང་། །རྨེ་རྒྱལ་རྟ་རྣ་ཡིན་ཟེར་བའི། །བདུད་ཆས་བཅོས་པ་དུམ་གཅིག་བཅས། ཁོ་བོའི་ དྲུང་དུ་བསྙེགས་པ་དང་། །ཕྱོགས་བཞི་མཚམས་བརྒྱད་འགའ་རེ་ནས། །སྣ་ཚོགས་མཚོན་ལས་གྲུབ་པ་ཡི། །མགོ་ཅན་སྦུ་གུའི་མཆེ་བ་ཅན། །མི་རིང་ཕྱོགས་ཕྱོགས་ཚོགས་པ་ དང་༑ ་ཡུལ་གླིང་མང་པོ་བཅོམ་པ་རྨིས། །དེ་ཚེ་ལྷ་བདུད་བཙན་དམག་གིས། །ང་ཉིད་སྐད་ཅིག་ཁྱེར་ནས་སུ། །བྲག་དམར་ཟངས་གླིང་འདྲ་བའི་དབུས། །ཕོ་བྲང་ཞིག་ཏུ་བཞག་ ནས་སུ། །ད་ནས་བྲོས་རེ་བཙལ་དགོས་མེད། །དམག་འཁྲུག་འདི་ཡིས་མི་གནོད་དེ། །དམག་འདི་འདས་པའི་མཚམས་ཤིག་ནས། །བྲོས་པའི་དུས་ཤིག་ཤར་འོང་ཟེར། །དེ་མ་ ཐག་ཏུ་གཉིད་ཀྱང་སད། །དགོང་མོ་བྱོལ་སོང་དེད་ནས་སུ། །ངེད་རྣམས་ནང་དུ་ལོག་སྟེ་ཕྱིན། །ཀརྨེ་ལ་སོགས་ཡུལ་དེ་རུ། །ཡུན་རིང་ཙམ་དུ་མ་འགོར་བར། །དཔལ་གཏམ་ལ་ སོགས་ཡུལ་དུ་སླེབས། །འདི་སྐབས་དག་སྣང་ལུང་བསྟན་སོགས། །ཕྲན་བུ་ཡོད་ཀྱང་འབྲི་མ་ལོང་། །དེ་ནས་མི་རིང་ཉེ་བ་རུ། །བླ་མ་མགར་ཚང་ཆོས་སྒར་ནས། །ཡུལ་དེར་ འབུལ་སྡུད་ཕེབས་ནས་བྱུང་། །དེ་ཚེ་སྐྲ་བཅད་བསམ་པ་ལ། །ནུབ་མོ་ཉལ་བའི་རྨི་ལམ་དུ། །མི་དམར་བཙན་གྱི་གཟུགས་ཅན་གྱིས། །བུ་ཁྱོད་ཀྱིས་བླ་མ་འདི་དག་ལ། །སྐྲ་བཅད་ པར་བྱ་བའི་ལས་འཕྲོ་མེད། །ཡུལ་འདི་ནས་ཤར་ལྷོའི་མཚམས་ཤེད་ན། །དཔལ་ཐུགས་རྟེན་གླིང་ཞེས་བྱ་བ་རུ། །རྔོག་བློ་ལྡན་ཤེས་རབ་སྤྲུལ་པ་ བཞུགས༑ ༑གཞི་བསླབ་པའི་ཐེག་པ་དེ་རུ་ཞུགས། །ལར་དེ་ནས་མི་རིང་ཉེ་བ་རུ། །ཡུལ་འདི་ནས་ཉི་མ་ནུབ་ཀྱི་ཕྱོགས། །བྱང་འབྲི་གུང་རྩེ་ཞེས་བྱ་བ་རུ། །འབྲོམ་སྟོན་པ་རྒྱལ་ བའི་སྤལ་པ་བཞུགས། །ལམ་ཉེ་མོའི་གདམས་ངག་དེ་ནས་ལོངས། །ལར་དེ་ནས་མི་རིང་ཉེ་བ་རུ། །གནས་རྔ་ཡབ་འོད་ཀྱི་ཞིང་ཁམས་སུ། །ཕ་འགྲོ་མགོན་པདྨ་འབྱུང་གནས་ བཞུགས༑ ༑དོན་མངོན་དུ་གྱུར་པ་དེ་ནས་ལོངས། །མི་ང་ནི་འབར་བ་རྡོ་རྗེ་ཡིན། །དོན་ལུང་བསྟན་མ་བརྗེད་ཡིད་ལ་ཟུངས། །རྟགས་དེ་རྣམས་དུས་ལ་མ་བབ་པར། །ཚིག་ཟུར་ ཙམ་མི་ལ་བཤད་འགྱུར་ན། །རྐྱེན་བར་ཆད་ཉོ་བ་ཐག་གིས་ཆོད། །དུས་རྒྱུན་དུ་ང་ཡིས་གྲོགས་བྱེད་ཟེར།
 
 At the middle-session time (གུང་ཐུན, gung thun) in a dream while lying down (the line before: King Lha bzang raised a great army, the northerners fled in four divisions, the Sog army fell on some of the herders at Na ra gnam mthil, and he fled with the animals to a hill fort): a red man who said he was Mtshar stag dmar po, a btsan, with a white man who said he was Rga rgyal Jo bo and many attendants, and one who said he was Rme rgyal Rta rna in demon dress, pressed in on him and from the four directions and eight corners head-bearing, tusked ones made of many weapons («མགོ་ཅན་སྦུ་གུའི་མཆེ་བ་ཅན», not settled) came gathering; he dreamed that many lands were destroyed. Then the btsan army seized him in an instant and set him in a palace in the middle of a copper-coloured red-rock island, and said: "Now there is no need to seek flight; this war will not harm you; when this war has passed the time to flee will come." At once he woke. In the evening the cattle were driven back and they went home. ... Then, wishing to cut his hair (take vows) when a lama came to collect offerings, in a dream at night (ནུབ་མོ, nub mo) a red man in the form of a btsan said: "Son, you have no deeds that lead to cutting hair before these lamas. To the east-south of this place, at a place called Dpal thugs rten gling, Rngog Blo ldan shes rab's emanation lives; enter the Vehicle of the basic training there. Later, to the west, at Byang 'bri gung rtse, 'Brom ston's emanation (the etext «སྤལ་པ») lives, from whom you will receive the close instruction. Later again, at Rnga yab in the realm of light, Padmasambhava lives, and the meaning will be reached. I am 'Bar ba rdo rje; keep the prophecy in mind. If these signs, before their time has come, are told to people even by a fragment of speech, obstacles will cut you off at a thread; I will always be your helper." At once he woke...
+
+## <a id="tsl-29-i109-110"></a>tsl.29:i109-110 A guru sādhana addressed to Rtsa gsum gling pa and the note on it: the tenth-day offerings of the family seat were done by it
+
+*Read: etext, 2026-11-16.*
+
+> རང་བཞིན་རྫོགས་པ་ཆེན་པོའི་ཆོས་ཉིད་འོད་གསལ་རྡོ་རྗེའི་ཚིགས་རྐང་འགྱུར་བ་མེད་པ་བདེ་ཆེན་ལྷ་ཡི་དགའ་སྟོན་ཞེས་བྱ་བའམ༔ རྣམ་རོལ་སྒོ་ཆེན་ཐེག་དགུའི་ཡང་རྩེ་ཞེས་བྱ་བ་འདི་ཡང་༔ […] ཚེས་བཅུ་དུས་མཆོད་སོགས་ཕལ་ཆེར་འདི་ཉིད་ལ་མཛད་པར་སྣང་བ […]
+
+The end of a guru sādhana in vol. 29 and the note that follows it, etext pp. 109–110 of VEIE0OPI46409446_I1PD108817, not read on the scan. The first sentence quoted is the liturgy's own closing title; of the note, signed «གུ་ཧྱ» (gu hya), whose writer is not identified from the page and may be modern, only the clause that names the tenth is quoted, and the rest is given as facts.
+
+The liturgy's title: "the unchanging vajra verses of the clear light of dharmatā of the natural Great Perfection, called the Feast of the Gods of Great Bliss, or the Peak of the Nine Vehicles, the Great Gate of Display".
+
+The note's facts: the text has no clear colophon of authorship; its verse of homage is addressed to Padma gter bdag gling pa (a name of Rtsa gsum gling pa); it agrees in words and sense with the White Tārā Wish-fulfilling Wheel and other texts and is deep and of great blessing; and at the writer's forefathers' seat, Gnam lcags ri khrod, "the offerings of the times of the tenth and the like appear to have been done mostly by this very [liturgy]"; from this the writer supposes that it belongs to the mind treasures of Rig 'dzin Mi 'jigs rdo rje, and rejects the opinion that it is Rtsa gsum gling pa's own treasure, since nobody composes a homage to himself. It has no empowerment of its own; the empowerment of the Bsam lhun, long or short, is enough for it.
+
+So the offering of the tenth day (ཚེས་བཅུ་དུས་མཆོད, tshes bcu dus mchod) at the lineage's family seat was a guru sādhana addressed to Rtsa gsum gling pa himself. No twenty-fifth is named.
 
 ## <a id="tsl-30-i112-114"></a>tsl.30:i112-114 Rtsa gsum gling pa's life: the Heruka dream, tomorrow the ninth day, the book found in the cave
 
@@ -205,6 +231,18 @@ The text between the two (etext pp. 191-211) runs without a break: the opening h
 
 (From the treasure's recitation instruction, the end of the signs section; the text is in the verse-lines marked ༔ and quoted in the compiled volume, its attribution inside the page not stated.) "The signs of the measure of accomplishment afterwards: actually meeting the deity (ཡི་དམ, yi dam), receiving prophecy, teaching the Dharma, and so on; heat blazing and joy in the creation stage, a comfortable and light body, sickness quieted, a glowing complexion, enjoyments gathering, the signs of others' love and good fortune coming. In dreams (རྨི་ལམ, rmi lam): sun and moon rising; teaching the Dharma, blowing the conch, flying the banner, beating the drum; many kinds of music sounding and a great noise rising; others giving food and enjoyments; a rainbow rising on the body; bathing and putting on white clothes; being adorned with fine new ornaments; sitting on a throne; giving empowerment; everyone devoted and respectful to oneself; horses, wealth and sheep many and a rich harvest growing; irrigating a good field; sowing seed; arriving at the nāga king's flower land, picking many flowers of a god's body-colour; tasting the food of the three whites; climbing up; the body huge, filling the three thousand worlds; crossing the four continents in one step; shouting Hūṃ over the three thousand worlds; shaking mountains, stirring lakes, splitting rocks, crossing rivers, building bridges, leading many boys, building a house, turning a feast-wheel, many adorned women giving food gladly, finding various jewels, and the like: these are the signs of accomplishment. In particular, at the time of the fierce rite's killing (དྲག་པོ་རྦད་བསད, drag po rbad bsad): arriving at a house of swords, the body adorned with armour, leading an army against the enemy and prevailing, scattering another's head and heart and entrails, hunting, spreading flesh and blood, the red and black ging calling for milk, many beasts of prey eating a corpse, putting the enemy in prison, striking another with weapons, hurling the zor (ritual weapon), a mountain turned head over tail, the body aflame, setting a mountain on fire, striking the fierce rite's session: dreaming these is the sign that the fierce rite's work of magic has been accomplished." Dreams here are tied to the rite performed (peaceful and enriching, then fierce), not to an hour. «ཁྱེའུ་མང་པོའི་དཔོན» «ཟོར» «གིང་» renderings not settled.
 
+## <a id="tsl-28-i212-213"></a>tsl.28:i212-213 Pad rgyal gling pa's treasure, the fulfilment and confession Ornament of Vajrasattva's Intent: title and opening of the vajra restoring rite
+
+*Read: etext, 2026-11-16.*
+
+> སྐུ་གསུམ་དགོངས་འདུས་ལས༔ བསྐང་བཤགས་རྡོ་རྗེ་སེམས་དཔའི་དགོངས་རྒྱན་ཞེས་བྱ་བ་བཞུགས་སོ༔ […] བླ་མ་ཡི་དམ་མཁའ་འགྲོའི་ཚོགས་ལ་ཕྱག་འཚལ་ལོ༔ གང་ཞིག་རྒྱུད་གཞི་གསོ་ཞིང་སྦྱོང་བའི་ཕྱིར༔ ཕྱི་ནང་གསང་བའི་མཆོད་བཤམ་བྱིན་གྱིས་བརླབས༔ ཨོཾ་ཨཱཿཧཱུྃ༔ སྟོང་གསུམ་རབ་འབྱམས་ནམ་མཁའི་མཐའ་ཀླས་པ༔ ཕྱི་ནང་གསང་བའི་བཀོད་པ་བླ་ན་མེད༔ དངོས་སུ་བཤམས་དང་ཡིད་ཀྱིས་རྣམ་པར་འཕྲུལ༔ ཀུན་བཟང་མཆོད་པའི་ཕྱག་རྒྱ་ཆེན་པོར་ཤར༔
+
+The title page (etext p. 212) and the first lines (etext p. 213) of the text whose last page is tsl.28:i232, from the etext of vol. 28 (VEIE0OPI46409446_I1PD108816), not read on the scan; […] is the line of symbolic script the etext garbles. No other title page stands between etext pp. 212 and 232, so the "vajra restoring rite" of the closing verse is this text.
+
+"From the Gathering of the Intent of the Three Bodies: the fulfilment and confession (བསྐང་བཤགས, bskang bshags), the Ornament of Vajrasattva's Intent. … Homage to the hosts of gurus, yidams and dākinīs. Whoever would restore and cleanse the ground of the continuum sets out the outer, inner and secret offerings and blesses them: Oṃ āḥ hūṃ. Filling the billionfold universes to the edge of space, the unsurpassed array, outer, inner and secret, set out in fact and emanated by the mind, arises as the great seal of Samantabhadra's offering."
+
+The text then runs through the invitation, the prostrations to the hundred peaceful and wrathful deities and the deities of the eight sādhana classes (etext pp. 214–218), the offerings, the confession, the renewed pledge (pp. 227–229), rejoicing, the request to teach, dedication, and the taking of the four empowerments from Vajrasattva (pp. 230–232). Between the title and the closing verse the etext names no day of the month, no full moon, new moon, eighth or tenth: the only word on time is the closing verse's «ཡར་མར་དུས་དང་རྒྱུན་དུ» (tsl.28:i232). The opening says what the rite is for, "to restore and cleanse" (གསོ་ཞིང་སྦྱོང་བ, gso zhing sbyong ba), the two syllables of the restoring rite's name.
+
 ## <a id="tsl-27-i221"></a>tsl.27:i221 Treasure verse of vol. 27 on the day's course: the actual prophecy, on the tenth the pure vision is met
 
 *Read: etext, 2026-11-13.*
@@ -269,6 +307,18 @@ The first two lines of image 265 of I1PD108818 (printed p. 254), read by eye on 
 
 (Dākinī speech in the life, to the treasure-finder about the tasks ahead.) "When these subduings are complete, the son himself is to come, the sisters sent to meet him; meanwhile with longing he has the request granted by the father; in experience (ཉམས, nyams) and on the tenth he will meet him continually. Now he turns back inward, without obstacle."
 
+## <a id="tsl-30-i279"></a>tsl.30:i279 Rtsa gsum gling pa's life: the animals by the lakes are those made the feast meat on the tenth
+
+*Read: scan, 2026-11-16.*
+
+> སྲིན་པོ་འགའ་རེ་བྲག་དེར་འབྱར་མཁན་འདུག །བྲག་དེའི་སྐེད་པ་རྩ་བ་ལྡེམ་བཞི་རུ། ཁ་དོག་དཀར་སེར་དམར་ལྗང་མཚོ་བཞི་འདུག །མཚོ་འགྲམ་མེ་ཏོག་སྐྱེད་ཚལ་མང་པོ་དང་༑ ༑དེ་རུ་བྱོལ་སོང་འདྲ་ཡང་མང་པོ་འདུག །ཚེས་བཅུར་ཚོགས་ཤ་བགྱིས་དག་སྐྱེ་ཡིན་ཟེར། །དེ་ནི་ཐོད་ཕྲེང་སྡེ་བཞིའི་མཚོ་ཡིན་སྣང་།
+
+Rtsa gsum gling pa's verse life, vol. 30, lines 2 and 3 of image 279 of I1PD108818 (the scan carries the printed page number 268), read by eye; the vision of the Glorious Mountain that also holds tsl.30:i265.
+
+"Some rākṣasas were clinging to that rock. At the waist of the rock, at its four roots, were four lakes, white, yellow, red and green. On the lakes' shores were many flower gardens, and there were many that looked like animals. They are said to be the rebirth of those that were made the feast meat (ཚོགས་ཤ, tshogs sha) on the tenth. That appeared to be the lake of the four families of Thod phreng."
+
+The animals on the shores of the pure land's lakes are those whose flesh was offered in the feast of the tenth day: the feast of the tenth, in the life's world, has meat among its substances, and the animal offered is reborn at the Guru's mountain.
+
 ## <a id="tsl-30-i287"></a>tsl.30:i287 Rtsa gsum gling pa's life: dakinis come on the tenth and other good times to the gathering
 
 *Read: etext, 2026-11-13.*
@@ -301,6 +351,18 @@ That night in a dream while lying down: a leper (མཛེ་ཕོ, mdze pho) o
 
 (Vol. 30, etext page marker p406 = image 406; the treasure-finding journey.) «After about two days had passed, on the night of the fourteenth, in a hazy experience-appearance (ཉམས་སྣང་ཟ་ཟི, nyams snang za zi), a troop of a god, a bdud and a btsan in their dress, each surrounded by a following like himself, came before me and said: "Treasure-revealer, how long since you arrived here?"» Here the vision is of the night of the lunar fourteenth, named only as experience-appearance, hazy; whether he slept is not said.
 
+## <a id="tsl-30-i417"></a>tsl.30:i417 Rtsa gsum gling pa's life: a feast gathering on the fifteenth, a good occasion, before a treasure is opened
+
+*Read: scan, 2026-11-16.*
+
+> ཤོད་བྱེ་མ་རི་ལ་བགྲོད་པ་ལས། །བར་ཞག་གཅིག་གིས་གནས་ཀྱི་ནང་དུ་འབྱོར། །དུས་བཟང་རམ་ཟླའི་ཚེས་པ་བཅོ་ལྔའི་ཉིན། །ཚོགས་ཀྱི་འཁོར་ལོ་བཟང་པོ་གྲབས་ཀྱང་བྱས། །ཨུ་རྒྱན་བཞུགས་ཁྲི་གོང་མར་བགྲོད་ནས་སོང་། །ཚོགས་ཀྱི་འཁོར་ལོ་རྒྱ་ཆེན་བསྐོར་བ་དང་། །མཁར་ཐུང་དཔོན་དག་ཚང་འབུམ་ཞེས་པ་སོགས། །དད་ལྡན་ཁྲོམ་པ་སྟོང་ཕྲག་ལྷག་ཙམ་འདུས། །གཏེར་རྒྱའི་བྲག་ནི་དམ་པོར་ཡིན་འདུག་པས། །རྡོ་ཡིས་བརྡུངས་པས་ཕྱེ་རུ་མ་བཏུབ་ནས། །དགོན་པའི་ནང་ལ་སྟ་རེ་གཡར་དུ་ཕྱིན།
+
+Rtsa gsum gling pa's verse life, vol. 30, the first three lines of image 417 of I1PD108818 (the scan carries the printed page number 406), read by eye; the sentence begins on image 416 with «རྟ», read in the etext only («རྟ་ཤོད་བྱེ་མ་རི», a place name).
+
+"… going to [Rta] shod Bye ma ri, [we] reached the inside of the holy place after one night on the way. On the good occasion (དུས་བཟང, dus bzang), the day of the fifteenth of the ram month (རམ་ཟླ, ram zla), a good feast gathering (ཚོགས་ཀྱི་འཁོར་ལོ, tshogs kyi 'khor lo) was made ready. [I] went up to the upper throne of Uḍḍiyāna; a vast feast gathering was turned, and a faithful crowd of somewhat more than a thousand gathered, the lords of Mkhar thung, the one called Tshang 'bum and others. The rock of the treasure's seal was hard, and striking it with stones could not open it, so [someone] went into the monastery to borrow an axe."
+
+The feast gathering before a treasure is drawn out is set on the fifteenth, which the verse calls a good occasion. Which month «རམ་ཟླ» is, the page does not say.
+
 ## <a id="tsl-30-i473"></a>tsl.30:i473 Rtsa gsum gling pa's life: a hazy, in-between experience-appearance at a treasure-finding
 
 *Read: etext, 2026-11-11.*
@@ -316,6 +378,18 @@ That night in a dream while lying down: a leper (མཛེ་ཕོ, mdze pho) o
 > འདི་ལོར་སྤྲུལ་སྐུ་རྩུབ་སྐག་ཆེ་ཡིན་པས། །སྲུང་སྐྱོབ་སྐུ་རིམ་མཛད་རོགས་གྱིས་ཤིག་ཟེར།
 
 (A passage of the life told in the first person, in a stay at Bal phur: a messenger from the tulku's household has come.) "This year the tulku's rough skag (རྩུབ་སྐག, rtsub skag) is great, so please do a protective creation-stage rite (སྐུ་རིམ, sku rim)", so they said.
+
+## <a id="tsl-28-i569"></a>tsl.28:i569 A torma-repelling manual: the time, the three nines or a date of the waning half
+
+*Read: scan, 2026-11-16.*
+
+> དུས་ཚོད་ཉི་མ་ལྷོ་བགྲོད་ལྟ་བུར་ […] གཟའ་སྐར་རྩུབ་ཅིང་དགུ་གསུམ་མམ། མར་ངོའི་དུས་ཀྱི་ཚེས་ལྟ་བུར་
+
+From the preparation section of a prose manual in vol. 28 whose title page (etext p. 567) reads «དཔལ་ཆེན་དྲེགས་པ་ཟིལ་གནོན་ལས། གཏོར་བཟློག་གི་ལས་རིམ་འགྲིགས་ཆགས་སུ་བཀོད་པ་གནམ་ལྕགས་ཐོག་རྒོད», "from the Great Glorious One who Overpowers the Haughty: the order of the torma-repelling rite set out in sequence, the Wild Thunderbolt of Meteoric Iron". Its author's colophon was not read, so the manual is treated as the edition's modern matter: its facts are given, and of its wording only the clause that names the time, read by eye on line 3 of image 569 of I1PD108816; […] is the clause on the treasure guardian and the planets and nāgas, not quoted.
+
+The clause: "as for the time: such as when the sun travels south … the planets and stars being rough, and on the three nines (དགུ་གསུམ, dgu gsum) or on a date of the time of the waning half (མར་ངོ, mar ngo) and the like".
+
+The fact: for a wrathful rite of repelling by torma, the manual asks for the opposite of an auspicious day: the sun's southward course, rough planets and stars, and either "the three nines" or a date of the waning half. The three nines are not spelled out on the page; as dates of a month they would be the 9th, 19th and 29th, which is the page's likely sense and not its statement.
 
 ## <a id="tsl-27-i591"></a>tsl.27:i591 The colophon of the Commentary «Samsara and Nirvana Self-liberated»: the writer Gnam lcags Gsang sngags bstan 'dzin, aged 51, in the seventeenth cycle's water-sheep year
 
