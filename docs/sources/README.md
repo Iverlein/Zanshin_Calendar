@@ -508,9 +508,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/eighth-fifteenth-new-moon-buddhas.md](claims/eighth-fifteenth-new-moon-buddhas.md) | claim, conflict | Which buddha comes on the 15th and which on the new moon: two orders | cites rcz:p286-288, dtn:i316; feeds SPEC §5.8 |
 | [claims/fang-holders-six-and-ananta.md](claims/fang-holders-six-and-ananta.md) | claim, list | The six fang-holders are the birth and work places and four more places counted from the birth; Ananta stands apart | cites wb.2:p305-307, kd.3:p256-258; feeds — |
 | [claims/fast-days-three-or-six.md](claims/fast-days-three-or-six.md) | claim, conflict | The fast days: the 8th, 14th and 15th of each half, or the full moon, the new moon and the eighth | cites ljz:i41-47, akb:i364-365, dpn:i55, dpn:i58; feeds SPEC §5.8 |
+| [claims/feast-and-torma-not-passed-over-a-month-or-year.md](claims/feast-and-torma-not-passed-over-a-month-or-year.md) | claim, rule | The feast and the torma under the commitment of not interrupting mantra and seal: the lowest practitioner does not let a month or a year pass | cites lcb:p568, zgt.11:p292; feeds SPEC §5.8 |
+| [claims/feast-on-the-tenth-of-both-halves-taught-in-all-tantras.md](claims/feast-on-the-tenth-of-both-halves-taught-in-all-tantras.md) | claim, rule | Dpal sprul: the feast gathering on the tenth of the waxing and of the waning half is taught in all the tantras, new and old | cites dpk.1:p380-381; feeds SPEC §5.8 |
+| [claims/feast-without-fail-on-the-tenth-and-twenty-fifth-in-retreat.md](claims/feast-without-fail-on-the-tenth-and-twenty-fifth-in-retreat.md) | claim, rule | In a recitation retreat the feast offering is done without fail on the tenth and the twenty-fifth | cites zgt.12:p270; feeds SPEC §5.8 |
 | [claims/four-festivals-multiplier.md](claims/four-festivals-multiplier.md) | claim, conflict | The four great festivals' multiplier: a hundred koṭi or a hundred million | cites rcz:p286-288, dtn:i316, dgk:i491; feeds SPEC §5.7 |
 | [claims/four-great-kings-look-over-the-world-8-14-15.md](claims/four-great-kings-look-over-the-world-8-14-15.md) | claim, note | Why the 8th, 14th and 15th: the Four Great Kings' servants, sons and the kings themselves look over the world | cites ljz:i41-47; feeds SPEC §5.8 |
 | [claims/fulfilment-confession-full-moon-new-moon-eighth.md](claims/fulfilment-confession-full-moon-new-moon-eighth.md) | claim, rule | Fulfilment and confession of tantric commitments on the full moon, the new moon and the eighth | cites dpn:i334; feeds SPEC §5.8 |
+| [claims/fulfilment-offering-on-the-twenty-ninth.md](claims/fulfilment-offering-on-the-twenty-ninth.md) | claim, note | The fulfilment offering falls on the twenty-ninth in a Nyingma master's round and in a Drikung rule | cites zgt.13:p441, ckg.2:p7, lcb:p568; feeds SPEC §5.8 |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
@@ -915,6 +919,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/sgc-offerings-of-the-times-full-moon-new-moon-and-eighth.md](claims/sgc-offerings-of-the-times-full-moon-new-moon-and-eighth.md) | claim, rule | Sgo chen's liturgies: the offerings of the times, the full moon, the new moon and the eighth, are a tantric commitment whose neglect is confessed | cites sgc:i589; feeds SPEC, §5.8 |
 | [claims/shugaisho-fugomu-nichi-is-source-of-not-told-days.md](claims/shugaisho-fugomu-nichi-is-source-of-not-told-days.md) | claim, note | The table of undreamt days descends from the 拾芥抄's 不語夢日, which gives the reason; the slash is a column break | cites mdz:i772010, mdz:p11, mdz:i234427b; feeds S3 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
+| [claims/six-times-of-the-month-in-the-larung-note.md](claims/six-times-of-the-month-in-the-larung-note.md) | claim, list | The six times of the month in the Larung print's note: the 8th, 10th, 15th, 25th, 29th and the new moon | cites lcb:p568; feeds SPEC §5.8 |
 | [claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md](claims/sixteen-half-watches-in-the-garuda-treatise-and-the-kalacakra.md) | claim, note | Sixteen half-watches: Śaṅku's Garuḍa treatise and the Kālacakra's great commentary (RD326) | cites svo:p271y; feeds block-73 |
 | [claims/skd-brahmavaivarta-series-second-print.md](claims/skd-brahmavaivarta-series-second-print.md) | claim, note | The Śabdakalpadruma prints the Brahmavaivarta's series of spans on p. 470, with two lines the other print lacks (RD272) | cites skd:p470-471, bvp:p662-665, svo:p268; feeds block-73 |
 | [claims/skd-svapna-article-parts-and-sources.md](claims/skd-svapna-article-parts-and-sources.md) | claim, list | What the Śabdakalpadruma's article svapna holds, and where it names its sources (RD272) | cites skd:p470-471, skd:p471-472, skd:p473; feeds block-73 |
@@ -1457,6 +1462,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/zassho-yumeawase-not-told-days-second-print.md](claims/zassho-yumeawase-not-told-days-second-print.md) | claim, note | The 雑書夢合 / 三世相小鑑 prints the table 夢をみてかたらぬ日 too, agreeing with the 万代大雑書 | cites mdz:i234427, mdz:p11; feeds S3 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
+| [claims/zhe-chen-rgyal-tshab-monthly-round.md](claims/zhe-chen-rgyal-tshab-monthly-round.md) | claim, list | Zhe chen rgyal tshab's monthly round: the 29th's fulfilment, the guru on the 10th, yidam or dākinī on the 25th, offerings on the 15th, 30th and 8th | cites zgt.13:p441; feeds SPEC §5.8 |
 | [claims/zlos-shig-is-tell-back.md](claims/zlos-shig-is-tell-back.md) | claim, definition | «རྨི་ལམ་ཟློས་ཤིག» is «tell the dream back»: ཟློས is the imperative of ཟློ་བ, to repeat, recite, make known (RD395, q1103) | cites svo:p446b, svo:p446-447; feeds S1 |
 | [corpus/adb/adb.md](corpus/adb/adb.md) | corpus | ADB | 2 passages: 1 scan, 1 machine |
 | [corpus/agp/agp.md](corpus/agp/agp.md) | corpus | AGP | 2 passages: 2 scan |
@@ -1482,12 +1488,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/cbl/cbl.md](corpus/cbl/cbl.md) | corpus | CBL | 5 passages: 1 scan, 4 etext |
 | [corpus/cbs/cbs.md](corpus/cbs/cbs.md) | corpus | CBS | 4 passages: 1 scan, 3 etext |
 | [corpus/cdb/cdb.md](corpus/cdb/cdb.md) | corpus | CDB | 9 passages: 4 scan, 5 etext |
-| [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 1 passages: 1 etext |
+| [corpus/ckg/ckg.md](corpus/ckg/ckg.md) | corpus | CKG | 2 passages: 2 etext |
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 75 passages: 75 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dgk/dgk.md](corpus/dgk/dgk.md) | corpus | DGK | 1 passages: 1 etext |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
+| [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 1 passages: 1 etext |
 | [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 5 passages: 3 scan, 2 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dtn/dtn.md](corpus/dtn/dtn.md) | corpus | DTN | 1 passages: 1 etext |
@@ -1525,6 +1532,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
+| [corpus/lcb/lcb.md](corpus/lcb/lcb.md) | corpus | LCB, Longchenpa's Dispelling the Darkness, the Larung print: the commitments | 1 passages: 1 scan |
 | [corpus/lcg/lcg.md](corpus/lcg/lcg.md) | corpus | LCG | 1 passages: 1 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
@@ -1611,7 +1619,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 4 scan, 3 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
-| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 1 scan, 8 machine |
+| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 2 scan, 7 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 81 passages: 59 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
@@ -1654,6 +1662,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/yyt/yyt.md](corpus/yyt/yyt.md) | corpus | YYT | 2 passages: 2 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 5 passages: 3 scan, 1 machine, 1 etext |
+| [corpus/zgt/zgt.md](corpus/zgt/zgt.md) | corpus | ZGT, Zhe chen rgyal tshab's collected works: the days of the feast gathering | 3 passages: 3 scan |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | answered; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
@@ -2720,7 +2729,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | **LCM** | Klong chen rab 'byams pa, *Phyogs bcu'i mun pa thams cad rnam par sel ba* (on the Guhyagarbha tantra), its rite of the ground. A witness | Gsung 'bum, Dpal brtsegs, Mes po'i shul bzhag | BDRC MW1KG4884_3C5394 (etext VE1KG4884_023; page = etext page) |
 | **SDP** | Sādhuputra, *Dpal dus kyi 'khor lo'i dkyil 'khor gyi cho ga* (the Kālacakra maṇḍala rite, Tengyur), its rite of the ground. A witness | Sde dge Bstan 'gyur | BDRC MW23703_1359 (etext VE23703_1330; page = etext page) |
 | **SPD** | Bsod nams dpal ldan, *Bod lugs sman rtsis skor gyi dpyad rtsom mes po'i zhal rgyun* (essays). A witness to practice; facts only | — | BDRC MW1GS88136 (etext VEIE0OPI4337C4F2_I1GS88139, search only) |
-| **CKG** | 'Bri gung Chos kyi grags pa, *Gsung 'bum*: the treatise on the earth lord serpent (vol. 4) and a fierce rite (vol. 11). A witness | — | BDRC MW22082 (etexts VE22082_004, VE22082_011; page = etext page); RD377 (2026-11-10): the Yang zlog me'i spu gri empowerment text in vol. 11, the dream examination, [p16]-[p17] |
+| **CKG** | 'Bri gung Chos kyi grags pa, *Gsung 'bum*: the treatise on the earth lord serpent (vol. 4) and a fierce rite (vol. 11). A witness | — | BDRC MW22082 (etexts VE22082_002, VE22082_004, VE22082_011; page = etext page); the monthly offerings of the Yang ri rule in vol. 2, [p7] of its second text (2026-11-16); RD377 (2026-11-10): the Yang zlog me'i spu gri empowerment text in vol. 11, the dream examination, [p16]-[p17] |
 | **SLL** | *Sa skya'i lam 'bras*, a biography on the building of an assembly hall. A witness | Rdzong sar 2007 | BDRC MW2PD19769 (etext VEIE0OPI336B7478_I2PD19940, printed page = etext page − 7) |
 
 **SN is a witness, never a source** (the owner, 2026-10-08). It may confirm
@@ -2867,6 +2876,9 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **AKB** | *Chos mngon pa'i mdzod kyi bshad pa* (*Abhidharmakośabhāṣya*), chapter 4, the passage on the one-day vow: for a day and a night, taken at sunrise from another, its eight branches, the pledge to keep it always on the eighth | Sde dge Bstan 'gyur, Delhi reprint, BDRC volume 140; etext pp. 362–366 | BDRC MW23703, etext VE23703_1456 (page = image), scans I1456, open, 2000 px; read in the etext, the eighth-day sentence confirmed on img. 364 (pd-c, 2026-11-16); public domain |
 | **LJZ** | *'Jig rten gzhag pa* (*Lokaprajñapti*), bam po 3: the servants of the Four Great Kings on the 8th, their sons on the 14th and the kings themselves on the 15th look over the human world; Śakra's verse on the fast of eight branches | Sde dge Bstan 'gyur, Delhi reprint, BDRC volume 139; etext pp. 41–45 | BDRC MW23703_4086, etext VE23703_1455, scans I1455, open; read in the etext only (pd-c, 2026-11-16); public domain |
 | **DPN** | Smin gling Lo chen Dharma shrI, *Sdom gsum rnam par nges pa'i 'grel pa legs bshad ngo mtshar dpag bsam gyi snye ma*, on Mnga' ris paN chen Padma dbang rgyal's *Sdom pa gsum rnam par nges pa*: the one-day vow of householders on the full moon, the new moon and the eighth | Gser thang bla rung lnga rig nang bstan slob gling, Gser rta, 617 pp. (typeset) | BDRC MW3CN4872, etext VEIE0OPIA15FC33C_I3CN4874 (page = image), scans I3CN4874, open; img. 55 and 58 read by eye, img. 70–71 in the etext (pd-c, 2026-11-16); public domain |
+| **ZGT** | Zhe chen rgyal tshab 'Gyur med pad+ma rnam rgyal (1871–1926), *Gsung 'bum*: the list of commitments for explaining the Guhyagarbha (vol. 11), the manual of the Dkon mchog spyi 'dus recitation retreat (vol. 12), his life (vol. 13), on the days of the feast gathering | Zhe chen dgon 2011, 13 vols, typeset | BDRC MW1PD133163; scans I4PD2451–2453, open; image = printed page + 44, + 48, + 26 in vols. 11, 12, 13; the practice-days investigation, 2026-11-16 |
+| **LCB** | Klong chen rab 'byams pa, *Phyogs bcu'i mun sel* (the work of LCM), the Larung print with notes at the foot of the page: the commitment of not interrupting mantra and seal, p. 568 | Gser rta 2006, 635 pp. | BDRC MW1KG9042 (scans I1KG9074, open; etext VEIE0OPI8A3379D7_I1KG9074 without the notes); image = printed page + 20 |
+| **DPK** | Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po (1808–1887), *Gsung 'bum*, vol. 1: the text on honouring the Guru's representatives, on the feast of the tenth of both halves | Si khron mi rigs dpe skrun khang, Khreng tu'u 2009, 8 vols | BDRC MW1PD107142 (etext VEIE0OPIA84AED1A_I1PD107144, [pN] = image = printed page + 42); scans on archive.org only; etext only |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

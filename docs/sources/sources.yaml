@@ -380,11 +380,13 @@ spd:
 
 ckg:
   title: "'Bri gung Chung tshang Chos kyi grags pa, Gsung 'bum"
-  bdrc: {work: MW22082, etext: [VE22082_004, VE22082_011]}
+  bdrc: {work: MW22082, etext: [VE22082_002, VE22082_004, VE22082_011]}
   licence: public-domain
   rank: 3
   role: witness
-  notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page RD377 (2026-11-10): vol. 11, the Yang zlog me'i spu gri empowerment text, whose dream examination is at its [p16]-[p17] (the etext's page markers restart with each text of the volume); etext only."
+  notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 2 (2026-11-16), the rule of the assembly of Yang ri, Yang ri 'dus pa rgya mtsho'i bca' yig thar pa'i lam ston, the second text of VE22082_002, whose monthly offerings are at its own [p7] (cited ckg.2:p7; the page markers restart with each text); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page RD377 (2026-11-10): vol. 11, the Yang zlog me'i spu gri empowerment text, whose dream examination is at its [p16]-[p17] (the etext's page markers restart with each text of the volume); etext only."
+  volumes:
+    2: {etext: VE22082_002, notes: "Yang ri 'dus pa rgya mtsho'i bca' yig thar pa'i lam ston, the second text of the volume; page = that text's own [pN] marker"}
 
 sll:
   title: "Sa skya'i lam 'bras (the Sakya Lamdre collection), a biography in vol. I2PD19940 on the building of an assembly hall"
@@ -1747,3 +1749,52 @@ dpn:
   role: source
   locator: image
   notes: "pd-c (2026-11-16): a Nyingma (Smin grol gling) work; etext 'excellent quality', etext page = image number (checked at img. 55 and 58); scans open, 1960 x 2916 px, legible at 1x; the printed page number of an image not read (the crops did not take the page's edge); other prints by BDRC's phrase search: MW9088, MW1KG22084, MW3CN5324, MW19229_5AEC9F, MW25983_4A371E, MW9140_5855F5, and in the Bka' ma shin tu rgyas pa (MW1PD100944_FED915, scans on archive.org)"
+
+# The days of the feast gathering in Nyingma sources (the practice-days investigation, 2026-11-16).
+zgt:
+  title: "Zhe chen rgyal tshab 'Gyur med pad+ma rnam rgyal gyi gsung 'bum (the collected works of the fourth Zhe chen rgyal tshab)"
+  author: "Zhe chen rgyal tshab 04 'Gyur med pad+ma rnam rgyal (1871–1926)"
+  edition: "Khams Zhe chen bstan gnyis dar rgyas gling, Zhe chen dgon 2011, 13 vols (typeset)"
+  bdrc: {work: MW1PD133163, etext: [VEIE0OPIDB78C0F0_I4PD2451, VEIE0OPIDB78C0F0_I4PD2452, VEIE0OPIDB78C0F0_I4PD2453]}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    11:
+      scan: I4PD2451
+      image_offset: 44
+      notes: "image = printed page + 44 (img. 336 prints 292); the etext's [pN] is the image; Rgyud bshad skabs nyer mkho'i dam tshig gi rnam grangs 'dzin bde, from img. 330"
+    12:
+      scan: I4PD2452
+      image_offset: 48
+      notes: "image = printed page + 48 (img. 318 prints 270); Yang zab dkon mchog spyi 'dus kyi bsnyen sgrub bya tshul, from img. 317"
+    13:
+      scan: I4PD2453
+      image_offset: 26
+      notes: "image = printed page + 26 (img. 467 prints 441); the life, running head Rdo rje 'chang 'Gyur med pad+ma rnam rgyal gyi rtogs brjod dad pa'i 'jug ngogs; its author is not named on the pages read"
+  notes: "scans open; BDRC's image service answered 429 and 503 on 2026-11-16 (five sessions at once), single pages came on a retry of the .tif address"
+
+lcb:
+  title: "Klong chen rab 'byams pa Dri med 'od zer, Dpal gsang ba'i snying po'i 'grel pa phyogs bcu'i mun sel (the same work as lcm), the Larung print with numbered notes at the foot of the page"
+  author: "Klong chen rab 'byams pa Dri med 'od zer (1308–1364)"
+  edition: "Gser ljongs bla ma rung lnga rig nang bstan slob grwa chen mo, Gser rta 2006, 635 pp. (Bla rung snga 'gyur dpe tshogs 36)"
+  bdrc: {work: MW1KG9042, etext: VEIE0OPI8A3379D7_I1KG9074, scans: [I1KG9074]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "image = printed page + 20 (img. 588 prints 568); the etext's [pN] is the image and leaves the notes out; the notes at the foot of the page (numbered, 1035 at p. 568) gloss single words of the text: whose they are the pages read do not say; scans open, 1010 px wide"
+
+dpk:
+  title: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po, Gsung 'bum (Dpal sprul bka' 'bum)"
+  author: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po (1808–1887)"
+  edition: "Si khron mi rigs dpe skrun khang, Khreng tu'u 2009, 8 vols (typeset)"
+  bdrc: {work: MW1PD107142, etext: VEIE0OPIA84AED1A_I1PD107144}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    1:
+      scan: I1PD107144
+      image_offset: 42
+      notes: "image = printed page + 42 (the etext's [p422] prints 380); text 21, O rgyan sangs rgyas gnyis pa'i sku tshabs gtso bor gyur pa'i sku gsung thugs rten la gus par byed pa'i tshul brjod pa legs lam dam pa'i gsos sman (MW1PD107142_E1B4F1), printed pp. 367–390"
+  notes: "the etext is an OCR of the typeset pages, with line-end fillers and stray marks; scans on archive.org only, not opened"

@@ -7,6 +7,18 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+## <a id="ckg-2-p7"></a>ckg.2:p7 The Yang ri rule's monthly offerings: the fulfilment and the torma of the ninth on the twenty-ninth, Cakrasaṃvara on the new moon
+
+*Read: etext, 2026-11-16.*
+
+> དུས་མཆོད་ཚེས་གསུམ་ལ་མི་འཁྲུགས་པ་དང༌། བསང་རྒྱགས་རྔན། ཨ་ཕྱིའི་ལྷུག་གསོལ། རྒྱལ་གསོལ། ཚེས་བརྒྱད་ལ་མཚན་བརྗོད། བཅུ་ལ་དགོངས་པ་ཡང་ཟབ་བསྐང་བ་དང་སྦྲགས་པ། བཅུ་གསུམ་ལ་ཞི་ཁྲོ། བཅོ་ལྔ་ལ་བསང་རྒྱགས་རྔན་དང༌། ལྷུག་གསོལ། རྒྱལ་གསོལ། ཉེར་བདུན་ལ་བདེ་མཆོག་རྒྱས་པ། ཉེར་དགུ་ལ་བསྐང་གསོལ་ཤེས་པ་རྣམས་ཀྱིས་དགུ་གཏོར་མངའ་གསོལ་རྒྱས་པ་སོགས། གནམ་གང་ལ་བདེ་མཆོག་རྒྱས་པ་རྣམས་ཆག་མེད་དང༌། ཚེས་དགུ་ལ་བཀའ་བརྒྱད་དང༌། ཉེར་ལྔ་ལ་དྲག་པོ་སྔར་གཏོང་སྲོལ་ཡོད་པས་གྲུབ་ན་ལེགས།
+
+'Bri gung Chos kyi grags pa's rule for the assembly of Yang ri, "The rule of the ocean-like assembly of Yang ri, showing the path of liberation" (ཡང་རི་འདུས་པ་རྒྱ་མཚོའི་བཅའ་ཡིག་ཐར་པའི་ལམ་སྟོན, yang ri 'dus pa rgya mtsho'i bca' yig thar pa'i lam ston), the second text of vol. 2 (etext VE22082_002), its own [p7], after the conduct in the assembly. A Drikung Kagyu monastic rule, read as a witness beside the Nyingma sources. Read in the etext only.
+
+"The periodic offerings (དུས་མཆོད, dus mchod): on the third, Akṣobhya (མི་འཁྲུགས་པ, mi 'khrugs pa), the smoke offering with provisions and rewards (བསང་རྒྱགས་རྔན, bsang rgyags rngan), the libation of A phyi (ཨ་ཕྱིའི་ལྷུག་གསོལ, a phyi'i lhug gsol) and the petition called rgyal gsol (རྒྱལ་གསོལ, rgyal gsol; its sense is a doubt); on the eighth, the Recitation of the Names (མཚན་བརྗོད, mtshan brjod); on the tenth, the Dgongs pa yang zab (དགོངས་པ་ཡང་ཟབ, dgongs pa yang zab; a cycle, named so) joined with the fulfilment (བསྐང་བ, bskang ba); on the thirteenth, the peaceful and wrathful ones (ཞི་ཁྲོ, zhi khro); on the fifteenth, the smoke offering with provisions and rewards, the libation and the rgyal gsol; on the twenty-seventh, the extended Cakrasaṃvara; on the twenty-ninth, by those who know the fulfilment and petition (བསྐང་གསོལ, bskang gsol), the torma of the ninth (དགུ་གཏོར, dgu gtor), the extended enthronement (མངའ་གསོལ, mnga' gsol) and the rest; on the new moon (གནམ་གང, gnam gang), the extended Cakrasaṃvara: these without fail. On the ninth the Eight Pronouncements (བཀའ་བརྒྱད, bka' brgyad) and on the twenty-fifth the Wrathful One (དྲག་པོ, drag po) used to be performed by custom, so it is good if they are done."
+
+The rule does not call the twenty-fifth a day of the dākinīs and sets no feast gathering by name on the tenth or the twenty-fifth; its fulfilment falls on the tenth (joined to the tenth's rite) and on the twenty-ninth.
+
 ## <a id="ckg-p16-17"></a>ckg:p16-17 The Yang zlog fire-dagger empowerment text: the dream that comes in the last watch at dawn is taken as the measure (etext VE22082_011; its page markers restart with each text of the volume; the text's own [p1] comes just before character 824 000)
 
 *Read: etext, 2026-11-10.*
