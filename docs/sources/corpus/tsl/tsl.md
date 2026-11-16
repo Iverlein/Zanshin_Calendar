@@ -213,6 +213,18 @@ The text between the two (etext pp. 191-211) runs without a break: the opening h
 
 (The verse is a teaching of the treasure, handed down in vol. 27 among the instructions on how to spend the day; the page names no speaker beyond the treasure's own voice.) "At dawn do not sleep carelessly; request the field of great bliss clear and take the blessing. On rising be not distracted; reflect on the present time; the Dharma protector king guards the teaching. At sunrise, undistracted, gain a vast appearing. I too, going to the land of the rākṣasas, meditate on impermanence. At midday, by the four conducts, the after-attainment arises. Actual prophecy: on the tenth, meet the pure vision (དག་སྣང, dag snang)."
 
+## <a id="tsl-27-i221-222"></a>tsl.27:i221-222 The treasure's verse on the course of the day, whole: ten parts of day and night, the tenth day in the noon line
+
+*Read: scan, 2026-11-16.*
+
+> ཐོ་རངས་སྐབས་སུ་བག་མེད་མ་ཉལ་བར༔ བདེ་ཆེན་ཞིང་སྒྲུབ་གསལ་གདབ་གསོལ་བ་ཐོབ༔ ནམ་ལངས་མ་ཡེངས་ད་ལྟའི་དུས་ལ་སོམས༔ ཆོས་སྐྱོང་རྒྱལ་པོས་ཆོས་ཀྱི་བསྟན་པ་སྐྱོངས༔ ཉི་ཤར་མ་ཡེངས་སྣང་བ་རྒྱ་ཡིས་ཐོབ༔ ཁོ་བོ་སྲིན་ཡུལ་བཞུད་སོགས་མི་རྟག་སྒོམས༔ ཉིན་ཕྱེད་སྤྱོད་ལམ་རྣམ་བཞིས་རྗེས་ཐོབ་སྲེས༔ དངོས་སུ་ལུང་བསྟན་ཚེས་བཅུར་དག་སྣང་མཇལ༔ ཕྱེད་ཡོལ་ལྔ་བརྒྱ་མར་འགྲིབ་དུས་ལ་སོམས༔ དུག་ལྔ་ལམ་ཁྱེར་དུག་གསུམ་ཆགས་མེད་སྦྱོངས༔ ཉི་ཐལ་འབྱུང་བཞི་འདུས་པ་བྲལ་ལ་སྐྱེད༔ ང་ཉིད་སྨན་ལྷར་མོས་པས་ཚེ་འཕྲང་སྒྲོལ༔ ཉི་ནུབ་སྒྱུ་ལུས་ནད་གཅོང་དྲག་པོས་ཞིག༔ ང་ཉིད་སྤྱི་བོར་སྣང་མཐར་རླུང་སེམས་སྲེས༔ སྲོད་ལ་བར་དོ་རྣམ་པ་དྲུག་ལ་མོས༔ བདག་ལ་གསོལ་བཏབ་རིགས་དྲུག་འཁྲུལ་རྒྱུན་ཆོད༔ སྲོད་འཕྲོས་ལས་དབང་སྡུག་བསྔལ་སྨིན་སྲིད་སྙམ༔ བདག་ལ་གསོལ་བཏབ་གནས་ངན་སྒོ་ཁེག་འགྱུར༔ ནམ་སྨད་སྐྱེ་གནས་བཞི་ལ་འཇིག་སྲིད་ […] སྒོམས༔ བདག་ལ་གསོལ་བཏབ་སྔོན་གྱི་འཕྲོ་མཐའ་སད༔ མན་ངག་བཅུ་གསུམ་ཉམས་ལེན་སྙིང་པོ་བཞག༔ ལྷ་སྲས་རྗེ་འབངས་མ་འོངས་དེ་ལྟར་སྤྱོད༔
+
+The whole verse of which tsl.27:i221 quotes the first half, read by eye on images 221 and 222 of I1PD108815 (printed pp. 214-215, so image - 7 here), every syllable; […] is a small-letter note of the modern editor between two words of the verse, not quoted. The editor's frame, in facts only: the verse is cited to explain the practice tied to the six times in general, before the completion-stage practice proper; it is an oral instruction given to the prince, the lord, the dākinī Ye shes mtsho rgyal, Gnubs chen Sangs rgyas ye shes and the other subjects and friends, from the second topic of the instructions in the thirteen sections of the Heart Practice (ཐུགས་སྒྲུབ, thugs sgrub) Bsam pa lhun grub ma.
+
+Rough sense, not a translation. At dawn do not sleep heedlessly: make the accomplishing of the field of great bliss clear and pray. At daybreak, undistracted, think of the present time: as a king who guards the Dharma, guard the teaching. At sunrise, undistracted, take appearance with the seal; meditate on impermanence, "I leave for the land of the rākṣasas" and the rest. At noon mix the after-attainment with the four kinds of conduct; the prophecy in person: on the tenth (ཚེས་བཅུ, tshes bcu) meet in pure vision (དག་སྣང, dag snang). Past noon think of the time of the five hundreds' decline; take the five poisons as the path, train the three poisons without attachment. In the afternoon bring to mind the parting of the four elements that have gathered; by devotion to me as the Medicine deity the narrow passage of life is crossed. At sunset the illusory body is destroyed by fierce wasting illness; mix wind and mind with me as Amitābha at the crown. At dusk be devoted to the six kinds of bardo; pray to me and the stream of the six classes' delusion is cut. After dusk think that by the force of karma suffering may ripen; pray to me and the door of the bad places will be closed. In the last part of the night meditate on destruction and becoming in the four places of birth; pray to me and the remainder of what went before awakens. The thirteen instructions are set down as the heart of practice; prince, lord and subjects, in the future act so.
+
+The verse orders practice by the part of the day (ten parts are named, from dawn to the last part of the night); the only day of the month in it is the tenth, in the noon line. Whether the lines beginning "I" and "pray to me" are each the speaker's promise answering the line before them is this reading, not stated by the page.
+
 ## <a id="tsl-27-i225"></a>tsl.27:i225 Vol. 27, the editor's prose on that verse: on the tenth and the like, pure vision in person, in experience or in dream
 
 *Read: etext, 2026-11-13.*
@@ -221,6 +233,18 @@ The text between the two (etext pp. 191-211) runs without a break: the opening h
 
 (The modern editor's prose in vol. 27, after the verse above, on the same line of the day's course; facts only.) "For those of fortune who have the thread of deeds, at a time of special quality, the tenth and the like, a pure vision (དག་སྣང, dag snang) in person, or in experience (ཉམས, nyams) and dream (རྨི་ལམ, rmi lam) alike, meeting the face (of the deity) and the like, so the accomplishments will be gained."
 
+## <a id="tsl-28-i232"></a>tsl.28:i232 Pad rgyal gling pa's treasure, the vajra restoring rite: its closing verse, to be striven at in the waxing and waning times and continually
+
+*Read: scan, 2026-11-16.*
+
+> རྣམ་པ་ཀུན༔ རྡོ་རྗེ་སེམས་དཔའི་སྐུ་གསུང་ཐུགས་རྡོ་རྗེ༔ དབྱེར་མེད་བདེ་བ་ཆེན་པོར་འབྱམས་ཀླས་གྱུར༔ ཨོཾ་བཛྲ་ས་ཏྭ་ཨཱཿ རིགས་འདུས་ཡང་སྙིང་མཆོད་འདི་ཡང་དག་བཟླ༔ རྡོ་རྗེའི་འདུལ་བར་རྡོ་རྗེ་གསོ་སྦྱོང་འདི༔ ཚིག་ཉུང་དོན་འདུས་གསང་བ་སྤྱི་དང་མཐུན༔ ཡར་མར་དུས་དང་རྒྱུན་དུ་འབད་གྱུར་ན༔ ཉམས་པ་སྐྱོན་གྱི་དྲི་མ་ཀུན་དག་ནས༔ ཚེ་འདིར་མཆོག་ཐུན་དངོས་གྲུབ་དཀའ་བ་མེད༔ ཚེ་གཅིག་སྒྲུབ་ལ་འབད་ཀྱང་འདི་མེད་ན༔ ལམ་མགྲོན་རྐང་པ་ཆག་བཞིན་ཤིན་ཏུ་རྨོངས༔ དངོས་གྲུབ་ཆུ་རྒྱུད་འགོག་པའི་ཉམས་ཆག་སྡིག༔ བཤགས་པའི་ཏནྟྲ་ཀུན་གྱི་དགོངས་བཅུད་བསྡུས༔ བདག་འདྲ་པདྨས་མ་འོངས་དོན་དུ་བཀོད༔ སྐལ་ལྡན་ལས་འཕྲོ་ཅན་དང་འཕྲད་པར་ཤོག༔ ས་མ་ཡ༔ རྒྱ་རྒྱ་རྒྱ༔ གུ་ཧྱ༔ བརྡ་ཐིམ༔ […] ཞེས་པའང་འགྲོ་འདུལ་པད་རྒྱལ་གླིང་པས་སྦས་ཡུལ་པདྨ་བཀོད་ཀྱི་བྱང་གླིང་དབང་དྲག་དགའ་ཚལ་གྱི་ཉེ་ཞོལ་འབྲུག་ལ་མར་མེ་ཀོང་འབུམ་ནས་སྤྱན་དྲངས་པའི་ཟབ་གཏེར་ཡང་དག་པའོ། །སརྦ་མངྒ་ལཾ།
+
+The last page of a short treasure text in vol. 28, read by eye on image 232 of I1PD108816 (the scan carries the printed folio 225-226), every syllable; […] is one closing seal-syllable not read with certainty (the etext has ཨཱི༔). The etext's ཏཎྜ reads ཏནྟྲ on the scan. The text's opening pages were not read.
+
+"... the vajra of Vajrasattva's body, speech and mind, inseparable, pervades as great bliss. Oṃ vajra satva āḥ: recite this, the offering of the innermost essence of the gathered families, rightly. In the vajra Vinaya, this vajra restoring rite (རྡོ་རྗེ་གསོ་སྦྱོང, rdo rje gso sbyong), few in words, gathered in meaning, in accord with the general secret [mantra]: if one strives at it at the times of the waxing and the waning (ཡར་མར་དུས, yar mar dus) and continually, all the stains of impairments and faults are cleansed, and in this life the supreme and common accomplishments are not hard. Without it, though one strive at accomplishment a whole life, one is as deluded as a traveller with a broken leg. It gathers the essential intent of all the tantras of confessing the impairments and breaches that block the stream of accomplishments. One like me, Padma, set it down for the sake of the future; may it meet the fortunate one with the karmic thread. Samaya. Seal, seal, seal. Guhya. The signs dissolved." The colophon: a true profound treasure invited by 'Gro 'dul Pad rgyal gling pa from Mar me kong 'bum at 'Brug la, at the foot of the Dbang drag dga' tshal, the northern continent of the hidden land Padma bkod.
+
+The verse gives the times as the waxing and the waning, without a day's number.
+
 ## <a id="tsl-30-i240"></a>tsl.30:i240 Rtsa gsum gling pa's life: a dakini says that on the tenth they arrive at a monastery of the nagas
 
 *Read: etext, 2026-11-13.*
@@ -228,6 +252,14 @@ The text between the two (etext pp. 191-211) runs without a break: the opening h
 > གཞན་ཡང་མཁའ་འགྲོ་གསང་བའི་ཆོས་སྐོར་ཡོད། །ཚེས་བཅུར་ངེད་རྣམས་དེ་རུ་སླེབ་པ་ཡིན།
 
 (A dākinī describes a monastery in a land of the nāgas.) "There is also a cycle of the dākinīs' secret teachings. On the tenth we arrive there."
+
+## <a id="tsl-30-i265"></a>tsl.30:i265 Rtsa gsum gling pa's life: the dākinīs say who is reborn in their palace, first the patrons of the tenth-day offering's feast substances
+
+*Read: scan, 2026-11-16.*
+
+> ཚེས་བཅུ་གཏོང་དུས་མཆོད་པ་བརྩོན་པའི་ཚེ། །ཚོགས་རྫས་བཟང་པོའི་སྦྱིན་བདག་བགྱིས་ནས་སུ། །འདི་རུ་སྐྱེས་པའི་སྨོན་ལམ་བཏབ་པ་ཡིན། །གར་རྩེད་བྱེད་པའི་ཁྱེའུ་འདི་རྣམས་ནི། །རྡོ་རྗེ་ཐེག་པའི་དཀྱིལ་འཁོར་ཞལ་ཕྱེ་ཚེ། །རིགས་ལྔ་གྱོན་ནས་ཚོགས་བྲོ་བརྡུངས་པ་དང་། །དད་པས་སྨོན་ལམ་བཏབ་པའི་རིགས་རྣམས་ཡིན།
+
+The first two lines of image 265 of I1PD108818 (printed p. 254), read by eye on the scan; the sentence begins on image 264, read in the etext only and not quoted: in a vision of a dākinī land he asks the dākinīs what the people he sees there did, and they answer that those in the palace of the great maṇḍala who make the feast and aspirations are these. "... when [people] strove in the offering at the time the tenth (ཚེས་བཅུ, tshes bcu) was given, they acted as patrons of good feast substances (ཚོགས་རྫས, tshogs rdzas) and made the aspiration to be born here. These boys who dance and play are those who, when a maṇḍala of the Vajra vehicle was opened, put on the five families' [dress] and danced the feast dance, and made aspirations with faith." The following lines name further groups (those who served the ornaments of the Dharma gatherings, and others).
 
 ## <a id="tsl-30-i277"></a>tsl.30:i277 Rtsa gsum gling pa's life: dakinis say he will meet the father in experience and on the tenth continually
 

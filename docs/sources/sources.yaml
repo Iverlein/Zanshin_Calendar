@@ -1712,3 +1712,15 @@ dgk:
   locator: image
   notes: "etext only (2026-11-16), passage ids by the etext's page marker, dgk:iN"
 
+# --- Practice days (2026-11-16): the liturgy collection of Sgo chen dgon, the seat of
+# Rtsa gsum gling pa's lineage, for what it prescribes by lunar day.
+sgc:
+  title: "Dpal gsang chen rnying ma sgo chen rgyal ba'i ri khrod bdud 'dul gsang sngags gling dgon gyi chos spyod gces btus zab bcud rin po che'i gter mdzod (the liturgy collection of Sgo chen dgon; BDRC's English title: The Treasury of Jewels, a collection of essential Nyingmapa prayers and practices)"
+  author: "compiled by Mkhan chen Dpal ldan shes rab (BDRC authorship statement; P5640)"
+  edition: "Pema Samye Chokor Ling, Sarnath, Varanasi (BDRC's record dates it 2000; the KTD entry's 1984 is not confirmed by the record)"
+  bdrc: {work: MW00EGS1016761, etext: IE0OPI40212F00}
+  licence: "the prayers and treasure texts gathered in it public-domain; the compilation's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: image
+  notes: "one etext volume, VEIE0OPI40212F00_I01JW66, 857 etext pages; the ids count the etext's pages (iN = etext pN), not checked against the scan images; a text in it keeps the rank of its own author (a treasure of Rtsa gsum gling pa rank 2); read in the etext only on 2026-11-16 for the lunar days of practice; the collection's list of contents is on its etext p. 8"
