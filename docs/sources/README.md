@@ -1936,7 +1936,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | narrowed; cites wb.1:p380 |
 | [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | answered; cites dz:i046 |
 | [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
-| [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | open; cites dz:i056 |
+| [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | answered; cites dz:i056, wb.2:p52-54, dz:i055-057 |
 | [questions/q0576.md](questions/q0576.md) | question q576 | The notes' «བཅོ་ལྔའོ» against fourteen | open; cites wb.2:p517 |
 | [questions/q0577.md](questions/q0577.md) | question q577 | The Taikhang leaf of the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» | answered; cites wb.1:p362 |
 | [questions/q0578.md](questions/q0578.md) | question q578 | p. 381's «ངོ་ཐོག» or «ངོ་ཐེག» on the Zhol blocks | open; cites wb.1:p381 |
