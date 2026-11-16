@@ -582,6 +582,24 @@ Title, preface and contents leaves of the Dream-matching jewel of long life (夢
 
 Shugaisho (拾芥抄) vol. 下, Kojitsu sosho edition (Yoshikawa Kobunkan, Meiji 39 = 1906; NDL pid 772010, open), image 73, printed page 394, in the calendar section after the entry 裁竹日: the entry 不語夢日 (the days on which a dream is not told). Its note: 件日語吉夢、滅成悪夢凶也, "on those days, a good dream that is told is destroyed, and a bad dream becomes an evil one (comes to pass)" (the construction is read in outline). It is followed by the twelve months, each cell set as a two-column small note (right column, then left column), the same shape as the cells of mdz:p11. Read in outline on the image (right column / left column): month 1 未申 / 戌 (the same set as the 万代's ひつじ さる／いぬ, same grouping); 10 辰 巳 (as the 万代's たつ／ミ); 12 午未 / 亥 (as ひつじ むま／ゐ). The other cells share most of their branches with the 万代 cells but not all (for instance month 2 here has 巳申 / 亥酉, the 万代 とり さる／ミ; month 6 here 子丑 / 午亥, the 万代 ね うし／ゐ; month 3 here reads 甲戌 / 酉, the 万代 ひつじ むま／ゐ), so the Edo table is a descendant of this note, not a copy; months 8 and 9 were not read letter by letter. The print has no legend for the two columns. Same text in the 略要抄 (NDL pid 898152, image 88, 1906), by the NDL OCR only.
 
+## <a id="mdz-i897744"></a>mdz:i897744 古事類苑 (NDL 897744), image 13: ゆめかたらず in the daily notes of the kana calendar of 1223 (inv-z4)
+
+*Read: by eye on the page image, 2026-11-16 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔古事類苑 方技部六 暦道下（NDL 897744）、画像13、右頁（三八六）・左頁（三八七）、〔好古日録本〕貞應二年癸未仮名暦日〕
+> 六月大 一日みづのえさる … かみほとけよし ゆあぶるもよし　二日… めち日 … 五日… かみほとけよし、ゆめかたらず、あしのつめよし … ちこ日 … 〔考〕諸家ニ、古暦ノ傳ル者皆具注暦也、國字暦ハ貞應二年癸未暦日アリ、長暦ヲ以考ルニ、月ノ奇偶異同アリ、其體、中段ハ今ト同ジ、下段遠くゆかず、かみほとけよし、ゆめかたらずノ類、今ト同ジカラズ、但げふく服元はせん〓ノ類、當時古詞ノ存スルコトヲミルベシ
+
+Kojiruien, section Hōgi 6 (calendar way, second part), NDL pid 897744, image 13, read on the page image 2026-11-16: the extract from the 好古日録 of the kana calendar of Jōō 2 (1223), 6th month (big), days 1–7, set in print as a table (day, cycle names, a middle column of the days' qualities, a lower column of the daily notes). The lower column of the first days carries notes such as "kami hotoke yoshi" (good for gods and buddhas), "yu aburu mo yoshi" (bathing good), "mechi-bi", "kan-bi", "chiko-bi", "ashi no tsume yoshi" (cutting the toenails good), and in two places «ゆめかたらず» («yume kataraz-u», "do not tell the dream"), the second time with the note in the commentary's own words: the Japanese-script calendars of old houses keep, in the lower column, items such as «ゆめかたらず», not the same as today's. So a "dream not told" mark stands in a calendar printed from the manuscript of 1223 as a daily note of single days, not as a table of months and branches. Which two days of 1–7 carry it was not made out with certainty on the print (the cells are set in small type).
+
+## <a id="mdz-i898153"></a>mdz:i898153 類聚名物考 (NDL 898153), image 47: the entry 夢不語日 and the Akazome Emon shū (inv-z4)
+
+*Read: by eye on the page image, 2026-11-16 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔類聚名物考 時令部一（NDL 898153）、画像47、右頁（九十二）〕
+> 夢不語日　いめかたらぬひ　○〔赤染衛門集三〕夢かたらぬ日といふものゝ有りしをかき寫しておきしついでに「夢にだに見えずなりなん後よりは是やかたみにならんとすらん」　○竹醉日 … 唐にもその事有るにや拾芥抄に見えたり
+
+Ruijū meibutsukō (Yamazaki Yoshishige, Edo; NDL pid 898153, a 1905 reprint), section on seasons and times, image 47, right page (92), read on the page image 2026-11-16. The entry «夢不語日 いめかたらぬひ» ("the day on which the dream is not told") quotes only the Akazome Emon shū, book 3: "When she had copied out the so-called days on which a dream is not told, as she was putting them aside, [she wrote the poem] 'if even in dream you no longer appear to me, after this, may this be my keepsake'". The next entry (竹醉日) cites the 拾芥抄. The author gives no table and no rule; he shows that the days were a known thing in the time of the poetess (about 1000). The same book's index lists the entry under «いめかたらぬひ».
+
 ## <a id="mdz-i899567"></a>mdz:i899567 RD340: 夢合長者鑑 (1886, NDL pid 899567), the title leaf and the colophon on image 33
 
 *Read: by eye on the page images 3 and 33, 2026-11-10; the tool's state field says machine because it takes the state scan for Tibetan script only.*
@@ -744,6 +762,15 @@ Open:
 
 Searched and not found (RD358), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda.ac.jp/kotenseki), the 夢占吉凶秘傳書 bunko30_e0277 and the search page: HTTP 503 "Site Maintenance" on every page, the third time (RD256, RD343); (2) the Kokubunken search API for 大雑書, 大ざつしよ, 万代大雑書 (no record with this title: the 万代大雑書古今大成 is not in the database as a title, one hit 万代雑書 of the Koizumi collection), 初夢, 夢合, 夢判断, 夢判事, 夢占, 夢解, 守貞謾稿 (five records, the NDL's, restricted, the manifest answers a collection and no images) and 東都歳事記 (83 records, 21 with images at other libraries, only the Ochanomizu copy opened); the NDL 東都歳事記 records DIG-NDLD-29922 and 29923 answer a collection record, not a manifest; (3) the NDL full-text search API (lab.ndl.go.jp/dl/api/book/search) for 夢を見て語らぬ日, 夢を見て語らざる日, 夢をみてかたらぬ日, 夢見て語らぬ日: no hit that is an almanac (the first returned a list of unrelated books by relevance); (4) the 夢合延寿袋大成 copies of Kyushu (DIG-KYUS-11996 and 13960, 77 and 75 images) and Osaka (DIG-OSAK-00875, 32 images) and the 夢合清明囊 (国文研三井 Y1472-005, 53 images, 文久2) have open manifests and were not looked at; neither were the 国文研 大ざつしよ (ヤ0-32, ヤ0-116), the 東京学芸大 大雑書 of 安永9 and 文政11, the 嘉永大雑書 (江戸東京博, 78 images), the 万宝大雑書 and 萬歳大雜書日用寳, the 大雜書三世相 of Nagoya and Kano: they remain the places to look for the table 夢を見て語らざる日; (5) the 守貞謾稿: not opened (no open copy in the Kokubunken); the 江戸歳時記's 初夢 entry not found on canvases 12-16.
 
+## <a id="mdz-i2543210"></a>mdz:i2543210 永暦雑書天文大成綱目 (NDL 2543210), image 20: Nichiyū comes to the house when Ten'ichi ascends and goes up when he returns (inv-z4)
+
+*Read: by eye on the page image, 2026-11-16 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔永暦雑書天文大成綱目（NDL 請求記号 148.8-E38、刊年の記載なし）、画像20、右頁、〔九〕天一神の項〕
+> 天一神は帝釈天の有司として三界をめぐり人間の善悪を記して帝釈に申す … 天一神天上し給ふときは日遊神下界に下りて人の家を我家とする神にて不浄を嫌ふゆへに天一天上十六日のうち万事清浄なるべし不浄なれば日遊神祟をなす也 … 又家を崩し造作することをいむべし … 癸巳の日より天一天上し十六日を経て下界に帰りまた日遊神天上する也 此十六日の内鹿狩・鷹狩・川狩などをいむなり 癸巳の日より天にのぼり戊申の日降り給ふ也 此間十六日を天一天上と云
+
+Almanac handbook *Eireki zassho tenmon taisei kōmoku*, NDL shelfmark 148.8-E38 (the record gives no date), image 20, right page, item 9 "Ten'ichi-jin", read on the page image 2026-11-16 (the NDL full-text layer agrees except in garbled places). It says: Ten'ichi is a functionary of Taishakuten who goes round the three realms and writes down the good and evil of men; when Ten'ichi has gone up to heaven the Nichiyū god comes down to the world and takes a man's house for his own; he dislikes impurity, so for the sixteen days of Ten'ichi's ascent everything is to be kept clean, and else Nichiyū sends a curse; one avoids pulling down the house and building. "From the day Mizunoto-mi Ten'ichi ascends, and after sixteen days returns to the world below, and then Nichiyū ascends to heaven": during the sixteen days deer, hawk and river hunting are avoided; he goes up on mizunoto-mi and comes down on tsuchinoe-saru, and these sixteen days are called "Ten'ichi's ascent". The same page's left half has Ten'ichi's wheel of eight directions (the stay on earth) and an item on earth-breaking (犯土). Nichiyū is given no direction in the days Ten'ichi stays on earth: it is "in the house" for sixteen days and then goes to heaven.
+
 ## <a id="mdz-i7333115"></a>mdz:i7333115 歳時記栞草 (1851, Tokyo TOKY-73331), image 15: the entry 初夢 with the source label 紀事 (RD364)
 
 *Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
@@ -862,6 +889,15 @@ Searched and not found (RD400), 2026-11-11: (1) a table of the days a dream is n
 > 春駒　〔故事要言〕…
 
 Entry "First dream" (初夢, hatsuyume) of the Shiori-gusa, right page of the spring volume, printed leaf 7, read on the page image at 6700 px. It opens with the boxed source label 紀事 (Kiji): "The first dream means, in general, the dream from the night of the last day of the year to the dawn of New Year's Day." Then, read in part, a note on the phrase "the year ends, spring is to come" with a poem attributed to Saigyo, and a sentence that the night is of course included, "New Year's Day and the dawn of the first cock (鶏旦)" (the verb after 鶏旦 is not read), then the cross-reference "annotated in the section け (ke), compare". The entry next to it, 初鶏 (hatsutori, "first cock"), carries 鶏旦 as a second head, cited to 御傘 (Gosan): the cock that crows on New Year's morning (read in part). Further entries on the page: 初暦, 歯固, 春駒, with the labels 雑談拠, 世諺問答, 本朝食鑑, 岷江入楚, 故事要言.
+
+## <a id="mdz-i8369317"></a>mdz:i8369317 東都歳事記 (NDL 8369317, the 1838 print), image 14: the theatre item after New Year's Day, 宝船の絵売, no 初夢 (inv-z4)
+
+*Read: by eye on the page image, 2026-11-16 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
+
+> 〔東都歳事記（NDL 8369317、国会図書館 121-85、4巻付録1巻）、画像14、左頁〕
+> ○三座歌舞妓芝居初興行 式三番翁渡し … 今日昼時頃三番叟終りて脇狂言とて … 初春狂言の標目編号をよみ座元立上り扇を開て千秋楽をうたふ是を哥舞妓の年例とす　道中双六・白酒売出る　今明日宝船の絵売歩行　鳥追来る　大黒舞は続江戸砂子等に出たれど今は山の手のみ売歩行
+
+Edo saijiki of 1838 (NDL pid 8369317, shelfmark 121-85, four volumes and an appendix), vol. 1 spring, image 14, left page, read on the page image and the NDL text layer 2026-11-16. The item after the New Year's Day entries is the first performance of the three Edo theatres (三座歌舞妓芝居初興行); the heading of the day itself is not on the leaf (its small type is not read). It lists the day's street trades: sugoroku sellers, white-sake sellers, "today and tomorrow (今明日) the sellers of treasure-ship pictures walk the streets", bird-chasers, Daikoku dancers. There is no 初夢 entry and no night is named in the leaf. The NDL text layer of the whole book (95 frames) holds no 初夢 and no 二日の夜: 宝船 stands twice, here and in the Kameido sai-no-kami children's treasure ship of the 14th (frame 23).
 
 ## <a id="mdz-i76425418"></a>mdz:i76425418 東都歳事記 (Meiji reprint 1893, NDL 764254), image 18: the entry for the second day, no 初夢
 
