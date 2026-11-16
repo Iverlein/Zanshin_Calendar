@@ -1802,7 +1802,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0423.md](questions/q0423.md) | question q423 | How are the moment's small examinations of the asker combined? | answered; cites wb.2:p168-169, wb.2:p169-170, wb.2:p170 |
 | [questions/q0424.md](questions/q0424.md) | question q424 | Whose aspects fight the landed year of the moment's counts, and what do the notes' «ཡར་གསུམ་སོགས» count? | open; cites wb.2:p171-172, wb.2:p537-538 |
 | [questions/q0425.md](questions/q0425.md) | question q425 | How far does the count of the sixty-year pairs and of the ogre's and demon's seven run? | open; cites wb.2:p171-172, wb.2:p537-538 |
-| [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
+| [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | narrowed; cites wb.2:p537-538 |
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
 | [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | narrowed; cites wb.1:p425, wb.2:p496 |
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | narrowed; cites wb.2:p502, wb.2:p503 |
@@ -1974,7 +1974,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
 | [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | open; cites wb.2:p16 |
-| [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | open; cites wb.2:p165 |
+| [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | narrowed; cites wb.2:p165 |
 | [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | answered; cites wb.2:p167-168, wb.2:p168-169 |
 | [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | answered; cites ys.2:i016-017 |
 | [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | answered; cites dz:i052-055 |
@@ -2055,7 +2055,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
 | [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
 | [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
-| [questions/q0679.md](questions/q0679.md) | question q679 | p. 187's fifth-place count: «བུ་གས» and the quarters' clearing | open; cites — |
+| [questions/q0679.md](questions/q0679.md) | question q679 | p. 187's fifth-place count: «བུ་གས» and the quarters' clearing | narrowed; cites — |
 | [questions/q0680.md](questions/q0680.md) | question q680 | p. 188's sign after «མཁའ་མེ་སྲང» and the four off-step cells of the sage's table | open; cites — |
 | [questions/q0681.md](questions/q0681.md) | question q681 | The skya of «སྐྱ་རྒྱལ» and «སྐྱ་འཕམ» (WB ch. 18) | answered; cites — |
 | [questions/q0682.md](questions/q0682.md) | question q682 | «ཞོད» and «གཤོངས» in the sixty years' results | answered; cites — |
@@ -2128,7 +2128,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | narrowed; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
 | [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | answered; cites wb.1:p95 |
-| [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | open; cites wb.1:p105b |
+| [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | narrowed; cites wb.1:p105b |
 | [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
 | [questions/q0754.md](questions/q0754.md) | question q754 | The figure after «འབྱུང་ཆུས» on WB p. 30 (line «སྐར་མཚམས་ཆུ་ཚོད་འབྱུང་ཆུས(?)སྦྱངས»): the print's figure is damaged, the number words give 54, the machine read 55. | open; cites wb.1:p30 |
 | [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | answered; cites wb.1:p30 |
