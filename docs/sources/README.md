@@ -626,6 +626,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kdl-sound-by-part-of-day.md](claims/kdl-sound-by-part-of-day.md) | claim, rule | A sound in the sky is read by the part of the day (Garga, in Klong rdol's abridgement) | cites kdl:p235-241; feeds S1 |
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/khyenrab-norbu-is-prajnamani.md](claims/khyenrab-norbu-is-prajnamani.md) | claim, note | Prajñāmaṇi (པྲཛྙཱ་མ་ཎི) is Khyenrab Norbu's Sanskrit name, by BDRC's person record | cites pk:i383-385; feeds — |
+| [claims/kin-places-body-right-shoulder-father.md](claims/kin-places-body-right-shoulder-father.md) | claim, definition | The kin's places on the body: the right shoulder is the father's (parallel verses) | cites wb.2:p163-164; feeds block-31 |
 | [claims/kl-moxa-six-dates-commentators-list-with-24th.md](claims/kl-moxa-six-dates-commentators-list-with-24th.md) | claim, note | KL's six moxa dates: the commentators' list, in modern collections too, always with the 24th | cites wb.2:p404; feeds — |
 | [claims/klu-byang-line-bad-dream-purified-by-talk-of-selflessness-padma-dkar-po.md](claims/klu-byang-line-bad-dream-purified-by-talk-of-selflessness-padma-dkar-po.md) | claim, note | Klu'i byang chub's line takes the dream as object; Padma dkar po's prose says «if bad» (RD395, q1063) | cites svo:p273b, nbv:p273-274; feeds S1 |
 | [claims/kokubunken-54-254-colophon-fuyacho.md](claims/kokubunken-54-254-colophon-fuyacho.md) | claim, note | The 国文研 Ebara dream book's colophon: 京綾小路ふや丁西入, 墨屋吉兵衛 (RD398, q1045) | cites mdz:i54254; feeds S3 |
@@ -1627,7 +1628,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0263.md](questions/q0263.md) | question q263 | «སྒོམ» or «སྒོ» in the fifteenth's heading | answered; cites wb.2:p128-129, wbz:i814 |
 | [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
 | [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
-| [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
+| [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | narrowed; cites wb.2:p142-143 |
 | [questions/q0267.md](questions/q0267.md) | question q267 | The la places' cut-off and friend years for the other four clans | answered; cites wb.2:p499-500, wb.2:p52-54, lt:p26-28, lt:p12, ut:p56 |
 | [questions/q0268.md](questions/q0268.md) | question q268 | Which white and which red in the household's birth mewa | answered; cites wb.2:p51-52, wb.2:p54-55 |
 | [questions/q0269.md](questions/q0269.md) | question q269 | The four executioners' pebble door among the la places | narrowed; cites wb.2:p52-54 |
@@ -1988,7 +1989,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0624.md](questions/q0624.md) | question q624 | The 簠簋内伝's §6–§9: added by the print, or cut by the short copies | open; cites — |
 | [questions/q0625.md](questions/q0625.md) | question q625 | Why the 暦林問答集 §11 adds horses and cattle to the 歳破 | open; cites — |
 | [questions/q0626.md](questions/q0626.md) | question q626 | The source of the NDL exhibition's «家畜を求めるを吉» | open; cites — |
-| [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | open; cites — |
+| [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | narrowed; cites — |
 | [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | answered; cites — |
 | [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | open; cites — |
 | [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | open; cites wb.2:p317 |
@@ -2079,7 +2080,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
 | [questions/q0716.md](questions/q0716.md) | question q716 | ཚོམ་རྐུན (entry 51) and ཆོམ་རྐུན: one word? | answered; cites tmz:box6, wb.1:p211 |
 | [questions/q0717.md](questions/q0717.md) | question q717 | The two spellings of hail, ལྷགས and ལྟགས | answered; cites tmz:box6, wb.1:p210 |
-| [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | open; cites — |
+| [questions/q0718.md](questions/q0718.md) | question q718 | The unsettled clauses of Little Tiger-Ear entries 44–60 | narrowed; cites — |
 | [questions/q0719.md](questions/q0719.md) | question q719 | ད་བོར among the nine sme ba (the eight, white) | open; cites — |
 | [questions/q0720.md](questions/q0720.md) | question q720 | «ཁ་དམར་མ་ལྡོག» on p. 92 | answered; cites tmz:box9, wb.1:p92 |
 | [questions/q0721.md](questions/q0721.md) | question q721 | The six mansions of the strongest harms on p. 98 | narrowed; cites wb.1:p98 |
