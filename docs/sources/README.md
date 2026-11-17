@@ -2744,6 +2744,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | open; cites mgz.33:p166 |
 | [questions/q1303.md](questions/q1303.md) | question q1303 | WB vol. 2 p. 176: the number printed after the east lord (Thesé), (༣), (༡) or (༢)? | open; cites wb.2:p176b |
 | [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | open; cites wb.2:p225b |
+| [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | open; cites wb.1:p77 |
+| [questions/q1306.md](questions/q1306.md) | question q1306 | WB vol. 1 p. 77 line 4: «རང» or «དང» before «དཀྱིལ་ཆར»? | open; cites wb.1:p77 |
+| [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
