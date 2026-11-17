@@ -2283,6 +2283,19 @@ verdict, and the owner's decisions of 2026-10-10:
     name war good, outweighed); `TextsTest` checks the combination
     periods' and the month dates' wordings too. `CatalogTest`'s
     allowances unchanged.
+  - **Found by the readings of 2026-11-17, for a block to build once the
+    app is checked against them (none built):** the Crab's own srang
+    measure on WB p. 53 is 360, not 340 (q768: the six measures sum to
+    the page's 1800 only so; `wb-ch08-crab-srang-measure-is-360`; the
+    p. 53 rough-division cell 7740 would then be 7760, an inference not
+    seen on the scan); the black times of WB vol. 2 p. 236 are number 16,
+    not 11, and Rāhu's bracketed numbers there are 6, 10, 13 where the
+    machine read 66, 100, 12 (`ch31-gaps.md` wb.2:p236d); on pp. 381–382
+    the mansion numbers are Khra 11, Byama 12, Byeu 13, Lagsor 16, Shes
+    26 (`ch34.md`, thirteenth pass); ch. 19's divisors are 65 (p. 213)
+    and 804, 3528 (p. 214) (`ch17.md`, ninth look). Which of them the app
+    uses is for the block to check; a change to a reading waits on the
+    owner where it touches a number the app shows.
 
 #### Order
 
