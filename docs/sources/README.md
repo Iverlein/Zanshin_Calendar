@@ -1422,7 +1422,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch12-twelve-results.md](claims/wb1-ch12-twelve-results.md) | claim, list | The twelve results of the seven-star enjoyment (WB p. 102) | cites wb.1:p102; feeds — |
 | [claims/wb1-ch12-wheels.md](claims/wb1-ch12-wheels.md) | claim, list | The wheels of WB ch. 12 in order: turtle, lion throne, parasol, great mutual, Brahma, the mansions' syllables | cites wb.1:p91, wb.1:p92, wb.1:p93, wb.1:p94, wb.1:p95, wb.1:p96, wb.1:p103; feeds — |
 | [claims/wb1-ch13-charts-reprint-eye-read.md](claims/wb1-ch13-charts-reprint-eye-read.md) | claim, note | Ch. 13 charts pp. 136-147: what the reprint gives by eye beyond the etext | cites wb.1:p136b, wb.1:p136-147; feeds — |
-| [claims/wb1-ch13-model-almanac-box-endings.md](claims/wb1-ch13-model-almanac-box-endings.md) | claim, note | The model almanac's day boxes: the oval's element and object follow the date's place; the framed words follow nothing found | cites wb.1:p154, wb.1:p155d, wb.1:p156d, wb.1:p157d, wb.1:p166d; feeds — |
+| [claims/wb1-ch13-model-almanac-box-endings.md](claims/wb1-ch13-model-almanac-box-endings.md) | claim, note | The model almanac's day boxes: the oval's element and object follow the date's place; the framed words follow nothing found | cites wb.1:p154, wb.1:p155d, wb.1:p156d, wb.1:p157d, wb.1:p166d, wb.1:p158d, wb.1:p159d, wb.1:p160d, wb.1:p161d, wb.1:p162d, wb.1:p163d, wb.1:p164d; feeds — |
 | [claims/wb1-ch13-model-almanac-box.md](claims/wb1-ch13-model-almanac-box.md) | claim, note | What a day box of the model almanac holds, and what was read | cites wb.1:p154, wb.1:p154c, wb.1:p165; feeds — |
 | [claims/wb1-ch13-model-almanac-layout.md](claims/wb1-ch13-model-almanac-layout.md) | claim, note | The model almanac: twelve months of thirty boxes, five to a row | cites wb.1:p154, wb.1:p165; feeds — |
 | [claims/wb1-ch13-model-almanac-page-allocation.md](claims/wb1-ch13-model-almanac-page-allocation.md) | claim, note | Which almanac boxes stand on which page, pp. 165-171 | cites wb.1:p156, wb.1:p165, wb.1:p166-171; feeds — |
@@ -1675,7 +1675,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 42 passages: 22 scan, 13 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext Ch. 31 scan pass (2026-11-17): wb.2 p. 174 lines 12-17, p. 176 whole, p. 225's verse block and the lords tiger to dog read on the Gser thang reprint (I3CN5029 img. 180, 182, 231; passages p174b, p176b, p225b); p. 176's north number is 6 not 1, the east number unsettled; pp. 233, 237, 240 not reached |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 41 passages: 24 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 19 passages: 13 scan, 5 machine, 1 etext |
@@ -2742,6 +2742,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1300.md](questions/q1300.md) | question q1300 | Are «དགུ་གསུམ» in the torma-repelling manual the 9th, 19th and 29th, and who wrote the Gnam lcags thog rgod? | open; cites tsl.28:i569 |
 | [questions/q1301.md](questions/q1301.md) | question q1301 | Who is the «གུ་ཧྱ» who signs the note on the tenth-day liturgy of Gnam lcags ri khrod, and is the liturgy Rig 'dzin Mi 'jigs rdo rje's? | open; cites tsl.29:i109-110 |
 | [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | open; cites mgz.33:p166 |
+| [questions/q1303.md](questions/q1303.md) | question q1303 | WB vol. 2 p. 176: the number printed after the east lord (Thesé), (༣), (༡) or (༢)? | open; cites wb.2:p176b |
+| [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | open; cites wb.2:p225b |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
