@@ -1437,6 +1437,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-month-heads-fixed-run.md](claims/wb1-ch13-month-heads-fixed-run.md) | claim, note | The model almanac's month head is one fixed run of phrases (12th and 1st heads read line by line) | cites wb.1:p155, wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-heads-links-and-seasons.md](claims/wb1-ch13-month-heads-links-and-seasons.md) | claim, note | The month heads of the 2nd to 6th months: link word, work and months' names by the fixed run | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b; feeds — |
 | [claims/wb1-ch13-month-heads-solar-turnings.md](claims/wb1-ch13-month-heads-solar-turnings.md) | claim, note | The 2nd head's equinox and the 5th head's solstice | cites wb.1:p158-159, wb.1:p163; feeds — |
+| [claims/wb1-ch13-month-heads-stacked-figures-2nd-3rd.md](claims/wb1-ch13-month-heads-stacked-figures-2nd-3rd.md) | claim, note | The stacked figures of the 2nd and 3rd heads, read in part | cites wb.1:p158-159, wb.1:p160c; feeds — |
 | [claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md](claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md) | claim, note | The 7th head's weekday line has 3 twice and no 4; the 10th's reads 5 1 3 / 6 / 0 / 2 4 | cites wb.1:p167b, wb.1:p171b; feeds — |
 | [claims/wb1-ch13-month-heads-weekday-lines.md](claims/wb1-ch13-month-heads-weekday-lines.md) | claim, note | The weekday lines of the 2nd to 6th heads and the wrapped line | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b, wb.1:p157, wb.1:p159z; feeds — |
 | [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
@@ -1651,7 +1652,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 2 scan, 7 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 91 passages: 69 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 93 passages: 71 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
