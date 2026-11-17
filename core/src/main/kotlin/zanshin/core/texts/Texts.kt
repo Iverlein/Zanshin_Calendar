@@ -173,6 +173,7 @@ data class Source(val title: String, val publisher: String, val url: String)
  */
 enum class ReadingRow(val key: String) {
     ALSO_CALLED("also_called"),
+    PRACTICE("practice"),
     STRONG("strong"),
     AVOID_START("avoid_start"),
     SETTING_OUT("setting_out"),
@@ -851,6 +852,42 @@ object Sources {
         "$KUN_PHAN_ME_LONG_TITLE, the Tolé Gön (མཐོ་ལས་དགོན, mtho las dgon) print, the earth lords of the day (img. 103)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
+    /** Karma chags med's verse on the times that multiply merit: the month's days and who comes on them (SPEC §5.8). */
+    val RI_CHOS_DAYS = Source(
+        "Karma Chakmé (ཀརྨ་ཆགས་མེད, karma chags med), Mountain Dharma (རི་ཆོས, ri chos), the times that multiply merit, Sertar, pp. 286–288",
+        "BDRC MW3CN4735",
+        "https://library.bdrc.io/show/bdr:MW3CN4735",
+    )
+    /** The note on the six times of the month in the Larung print of Longchenpa's commentary on the Guhyagarbha. */
+    val SIX_TIMES_NOTE = Source(
+        "Longchenpa (ཀློང་ཆེན་པ, klong chen pa), Dispelling the Darkness of the Ten Directions (ཕྱོགས་བཅུའི་མུན་སེལ, phyogs bcu'i mun sel), Sertar 2006, p. 568, note 1035",
+        "BDRC MW1KG9042",
+        "https://library.bdrc.io/show/bdr:MW1KG9042",
+    )
+    /** Patrul Rinpoche on the feast of the waxing tenth by day and the waning tenth by night. */
+    val PATRUL_TENTHS = Source(
+        "Patrul Rinpoche (དཔལ་སྤྲུལ, dpal sprul), collected works, Chengdu 2009, vol. 1, pp. 380–381",
+        "BDRC MW1PD107142",
+        "https://library.bdrc.io/show/bdr:MW1PD107142",
+    )
+    /** Shechen Gyaltsab's monthly round: the 29th's fulfilment, the guru on the 10th, the yidam or ḍākinī on the 25th. */
+    val SHECHEN_GYALTSAB_ROUND = Source(
+        "Shechen Gyaltsab (ཞེ་ཆེན་རྒྱལ་ཚབ, zhe chen rgyal tshab) Gyurme Pema Namgyal, collected works, Shechen 2011, vol. 13, p. 441",
+        "BDRC MW1PD133163",
+        "https://library.bdrc.io/show/bdr:MW1PD133163",
+    )
+    /** Lochen Dharmaśrī: householders take the one-day vow on the full moon, the new moon and the eighth. */
+    val LOCHEN_ONE_DAY_VOW = Source(
+        "Minling Lochen Dharmaśrī (སྨིན་གླིང་ལོ་ཆེན, smin gling lo chen), commentary on the Ascertainment of the Three Vows (སྡོམ་གསུམ་རྣམ་ངེས, sdom gsum rnam nges), Sertar, img. 55 and 58",
+        "BDRC MW3CN4872",
+        "https://library.bdrc.io/show/bdr:MW3CN4872",
+    )
+    /** Not killing and freeing lives on the 8th, the 15th and the new moon of every month. */
+    val FREEING_LIVES_DAYS = Source(
+        "Thubten Chökyi Drakpa, the benefits of freeing lives and ransoming life (ཚེ་ཐར་སྲོག་བསླུའི་ཕན་ཡོན, tshe thar srog bslu'i phan yon), Lhasa 2016, img. 351",
+        "BDRC MW1KG25122",
+        "https://library.bdrc.io/show/bdr:MW1KG25122",
     )
     val LOTSAWA_TENTH = Source(
         "A Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu'i phan yon gsol 'debs), " +
@@ -2025,13 +2062,25 @@ object Texts {
         keyed(*GreatCombination.entries.map { it to Reading(source = Sources.WHITE_BERYL_COMBINATIONS) }.toTypedArray())
 
 
-    val SPECIAL_DAY: Map<SpecialDay, Reading> = keyed(
-        SpecialDay.EIGHTH to Reading(source = Sources.RABTEN),
-        SpecialDay.TENTH to Reading(source = Sources.LOTSAWA_TENTH),
-        SpecialDay.FULL_MOON to Reading(source = Sources.RABTEN),
-        SpecialDay.TWENTY_FIFTH to Reading(source = Sources.RABTEN),
-        SpecialDay.NEW_MOON to Reading(source = Sources.RABTEN),
-    )
+    /**
+     * The practice days of the month (SPEC §5.8): who comes or roams on each and the multiplier, after Karma chags
+     * med's verse; the six days themselves after the Larung note; the practices after the Nyingma authors the pool
+     * read (docs/sources/festivals.md and the practice-days claims).
+     */
+    val SPECIAL_DAY: Map<SpecialDay, Reading> = run {
+        val vow = listOf(Sources.SIX_TIMES_NOTE, Sources.LOCHEN_ONE_DAY_VOW, Sources.FREEING_LIVES_DAYS)
+        val tenth = listOf(Sources.SIX_TIMES_NOTE, Sources.LOTSAWA_TENTH, Sources.PATRUL_TENTHS, Sources.SHECHEN_GYALTSAB_ROUND)
+        keyed(
+            SpecialDay.EIGHTH to Reading(source = Sources.RI_CHOS_DAYS, also = vow),
+            SpecialDay.NINTH to Reading(source = Sources.RI_CHOS_DAYS),
+            SpecialDay.TENTH to Reading(source = Sources.RI_CHOS_DAYS, also = tenth),
+            SpecialDay.FULL_MOON to Reading(source = Sources.RI_CHOS_DAYS, also = vow + Sources.RABTEN),
+            SpecialDay.TWENTY_FOURTH to Reading(source = Sources.RI_CHOS_DAYS),
+            SpecialDay.TWENTY_FIFTH to Reading(source = Sources.RI_CHOS_DAYS, also = tenth),
+            SpecialDay.TWENTY_NINTH to Reading(source = Sources.RI_CHOS_DAYS, also = listOf(Sources.SIX_TIMES_NOTE, Sources.SHECHEN_GYALTSAB_ROUND)),
+            SpecialDay.NEW_MOON to Reading(source = Sources.RI_CHOS_DAYS, also = vow + Sources.RABTEN),
+        )
+    }
 
     /** The great occasions the almanac writes at the head of the month (WB vol. 1, p. 176): the festivals' note. */
     private val FESTIVAL_HEADING = listOf(Sources.WHITE_BERYL_MONTH_HEADING)

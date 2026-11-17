@@ -359,15 +359,27 @@ enum class LunarDayClass(val wylie: String, val iast: String, val virtuous: Bool
 /** The nine numbers (sme ba) and their colours, Janson Table 16. */
 val SME_BA_COLOURS = listOf("white", "black", "blue", "green", "yellow", "white", "red", "white", "red")
 
-/** Monthly observances by lunar day, as listed in Rabten's Tibetan calendar. */
-enum class SpecialDay(val day: Int) {
+/**
+ * The practice days of the month (SPEC §5.8): the six times of the Larung note on Longchenpa's commentary, the 8th,
+ * 10th, 15th, 25th, 29th and the new moon, each with the buddha or deity Karma chags med's verse sets on it, and the
+ * 9th and 24th, when Palden Lhamo roams with her retinue in the same verse, as the small days of the Dharma
+ * protectors ([minor]).
+ */
+enum class SpecialDay(val day: Int, val minor: Boolean = false) {
     EIGHTH(8),
+    NINTH(9, minor = true),
     TENTH(10),
     FULL_MOON(15),
+    TWENTY_FOURTH(24, minor = true),
     TWENTY_FIFTH(25),
+    TWENTY_NINTH(29),
     NEW_MOON(30);
 
     val english: String get() = gloss(this)
+
+    companion object {
+        fun of(day: Int): SpecialDay? = entries.firstOrNull { it.day == day }
+    }
 }
 
 /**

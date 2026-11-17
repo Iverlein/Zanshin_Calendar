@@ -112,8 +112,13 @@ data class TibetanDay(
     val lunarDayAnimal: Animal,
     val trigram: Trigram,
     val smeBa: Int,
-    /** Monthly observance on this lunar day, if any; none in leap months' days are excluded. */
+    /**
+     * The practice day kept on this calendar day, if any, leap months included (SPEC §5.8): on the first of two
+     * equal dates only, and a skipped date's on the day its end falls in, the major day before a minor one.
+     */
     val specialDay: SpecialDay?,
+    /** The date of [specialDay] when it was skipped and is kept today, else none. */
+    val specialDayMovedFrom: Int? = null,
     /** The true month count n of the day's month (Janson (5.2)–(5.9)). */
     val monthCount: Long,
     /** The moon at daybreak in revolutions, whose mansion is [mansion]: the almanac's figure of the day. */
@@ -183,6 +188,8 @@ object TibetanCalendar {
         val weekday = Weekday.entries[mod(jd + 2, 7L).toInt()]
         val monthAnimal = amod(month.number + 4, 12)
 
+        val practiceDay = practiceDayOn(jd, n, day, repetition, a2)
+
         val y = month.year
         val yz = amod(y - 3, 10)
         val rabjungOffset = y - 1026
@@ -217,7 +224,8 @@ object TibetanCalendar {
             lunarDayAnimal = Animal.entries[amod(day + 6 * month.number + 8, 12) - 1],
             trigram = Trigram.entries[amod(day + 6 * monthAnimal + 6, 8) - 1],
             smeBa = amod(day + 3 * monthAnimal, 9),
-            specialDay = SpecialDay.entries.firstOrNull { it.day == day },
+            specialDay = practiceDay?.first,
+            specialDayMovedFrom = practiceDay?.second,
             monthCount = n,
             moon = moon,
             sun = sun,
@@ -235,6 +243,27 @@ object TibetanCalendar {
         return (gregorianYear - 1..gregorianYear).asSequence()
             .flatMap { Phugpa.monthsOf(it) }
             .first { it.count == n }
+    }
+
+    /**
+     * The practice day kept on calendar day [jd] (SPEC §5.8), with the date it was moved from: a doubled date's on the
+     * first of the two, a skipped date's on the day both dates end in, as the festivals are kept ([holidayOn]). When
+     * the day holds two, a major day goes before a minor one and the skipped date before the day's own.
+     */
+    private fun practiceDayOn(jd: Long, n: Long, day: Int, repetition: Repetition, a2: Rational): Pair<SpecialDay, Int?>? {
+        if (repetition == Repetition.SECOND_OF_TWO) return null
+        val own = SpecialDay.of(day)
+        val next = day + 1
+        val skipped = if (next <= 30 && Phugpa.endJd(n, next, a2) == Phugpa.endJd(n, day, a2) && Phugpa.endJd(n, day, a2) == jd) {
+            SpecialDay.of(next)
+        } else {
+            null
+        }
+        return when {
+            skipped != null && (own == null || !skipped.minor) -> skipped to next
+            own != null -> own to null
+            else -> null
+        }
     }
 
     private fun holidayOn(jd: Long, month: Phugpa.Month, day: Int, repetition: Repetition, a2: Rational): Holiday? {
