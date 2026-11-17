@@ -1679,7 +1679,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 47 passages: 26 scan, 20 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 23 passages: 17 scan, 5 machine, 1 etext |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 24 passages: 18 scan, 5 machine, 1 etext |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -2754,6 +2754,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | open; cites wb.2:p236d |
 | [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | open; cites wb.2:p236d |
 | [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | open; cites wb.2:p378-384 |
+| [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | open; cites wb.2:p407-411 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
