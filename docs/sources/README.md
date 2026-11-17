@@ -1649,7 +1649,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 7 passages: 1 scan, 6 machine |
-| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 10 passages: 2 scan, 8 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 11 passages: 3 scan, 8 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 12 scan, 4 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 6 scan, 1 machine |
@@ -2758,6 +2758,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | open; cites wb.2:p236d |
 | [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | open; cites wb.2:p378-384 |
 | [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | open; cites wb.2:p407-411 |
+| [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
