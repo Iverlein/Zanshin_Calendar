@@ -11,6 +11,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
@@ -123,14 +125,21 @@ private class BalloonPosition(private val gapPx: Int, private val gutterPx: Int,
     }
 }
 
-/** One label–value pair in a balloon. */
-data class BalloonRow(val label: String, val value: String, val valueStyle: TextStyle? = null)
+/** One label–value pair in a balloon; a [stacked] row puts a long value under its label. */
+data class BalloonRow(val label: String, val value: String, val valueStyle: TextStyle? = null, val stacked: Boolean = false)
 
 /** A tappable line at the foot of a balloon, [label] with an arrow: it closes the balloon and calls [onClick]. */
 data class BalloonAction(val label: String, val onClick: () -> Unit)
 
 @Composable
-fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, actions: List<BalloonAction> = emptyList(), onDismiss: () -> Unit) {
+fun Balloon(
+    rows: List<BalloonRow>,
+    preferAbove: Boolean = false,
+    actions: List<BalloonAction> = emptyList(),
+    /** A paragraph above the rows: a reading's ruling. */
+    lead: String? = null,
+    onDismiss: () -> Unit,
+) {
     val density = androidx.compose.ui.platform.LocalDensity.current
     val provider = with(density) { BalloonPosition(10.dp.roundToPx(), 16.dp.roundToPx(), preferAbove) }
     Popup(popupPositionProvider = provider, onDismissRequest = onDismiss, properties = PopupProperties(focusable = true)) {
@@ -140,10 +149,20 @@ fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, actions: List<
                 .shadow(16.dp, RoundedCornerShape(14.dp))
                 .background(Palette.raised, RoundedCornerShape(14.dp))
                 .border(1.dp, Palette.lineStrong, RoundedCornerShape(14.dp))
+                // A reading with a large font can outgrow the window: it scrolls.
+                .verticalScroll(rememberScrollState())
                 .padding(horizontal = 16.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
+            lead?.let { Text(withTibetan(it), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp)) }
             for (row in rows) {
+                if (row.stacked) {
+                    Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                        Text(row.label, style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                        Text(withTibetan(row.value), style = row.valueStyle ?: body.copy(fontSize = 14.sp, lineHeight = 20.sp))
+                    }
+                    continue
+                }
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                     Text(row.label, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                     Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) {
@@ -180,7 +199,8 @@ fun BalloonText(
     description: String? = null,
     underline: Boolean = true,
     actions: List<BalloonAction> = emptyList(),
-) = BalloonText(AnnotatedString(text), style, open, onToggle, rows, preferAbove, description, underline, actions)
+    lead: String? = null,
+) = BalloonText(AnnotatedString(text), style, open, onToggle, rows, preferAbove, description, underline, actions, lead)
 
 /** As above, for a line that mixes scripts (a Tibetan month name after its number). */
 @Composable
@@ -195,6 +215,8 @@ fun BalloonText(
     /** Lines that are terms (Tibetan or kanji) carry no underline: every term is tappable. */
     underline: Boolean = true,
     actions: List<BalloonAction> = emptyList(),
+    /** A paragraph above the balloon's rows. */
+    lead: String? = null,
 ) {
     Box {
         Text(
@@ -207,7 +229,7 @@ fun BalloonText(
                 .let { if (underline) it.dottedUnderline() else it }
                 .let { m -> if (description != null) m.semantics { contentDescription = description } else m },
         )
-        if (open) Balloon(rows, preferAbove, actions, onDismiss = onToggle)
+        if (open) Balloon(rows, preferAbove, actions, lead, onDismiss = onToggle)
     }
 }
 

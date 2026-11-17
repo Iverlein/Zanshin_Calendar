@@ -102,7 +102,7 @@ import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.element
 import zanshin.core.tibetan.risingSign
 
-private enum class TibetanBalloon { MONTH, YEAR }
+private enum class TibetanBalloon { MONTH, YEAR, PRACTICE }
 
 /** The Tibetan view of one day (SPEC §10.3); a work in its brief or a reading's lists opens its election through [onElect]. */
 @Composable
@@ -176,6 +176,10 @@ fun TibetanPage(
                     Text(withTibetan(Ewts.named(holiday.name, w).removePrefix(holiday.name).trim()), style = body.copy(fontSize = 16.sp, color = Palette.muted))
                 }
                 Text(withTibetan(holiday.festival.english), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
+                // A festival on a practice day keeps the day's practice under its own name (SPEC §10.3).
+                day.specialDay?.let { sd ->
+                    PracticeLine(sd, day.specialDayMovedFrom, balloon == TibetanBalloon.PRACTICE) { toggle(TibetanBalloon.PRACTICE) }
+                }
                 holiday.movedFromDay?.let {
                     Text(stringResource(R.string.tib_moved_from_day, it), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
@@ -185,13 +189,21 @@ fun TibetanPage(
                 }
             }
         } else {
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            val numeral: @Composable () -> Unit = {
                 Text(
                     "${day.day}",
                     style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 168.sp, letterSpacing = (-6).sp, color = Palette.text),
                     modifier = Modifier.capBox(168.sp),
                 )
+            }
+            val practice = day.specialDay
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                // A practice day's numeral stands in its ornament (SPEC §10.3).
+                if (practice != null) PracticeOrnament(practice, numeral) else numeral()
                 Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+            }
+            practice?.let { sd ->
+                PracticeLine(sd, day.specialDayMovedFrom, balloon == TibetanBalloon.PRACTICE) { toggle(TibetanBalloon.PRACTICE) }
             }
         }
 
@@ -268,7 +280,6 @@ fun TibetanPage(
     }) {
 
         // Readings, each opening its sourced text.
-        val observance = stringResource(R.string.tib_monthly_observance)
         val forBirthYear = stringResource(R.string.tib_for_birth_year)
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
@@ -498,10 +509,9 @@ fun TibetanPage(
                 )
             }
         }
-        // The Almanac (ROADMAP U3): the monthly observance, the weighed voices in rank, then the haircut.
+        // The Almanac (ROADMAP U3): the weighed voices in rank, then the haircut. The festival and the practice day
+        // are the headline, which opens their readings; the Almanac does not repeat them.
         val annotations = buildList {
-            // The festival is the headline, which opens its reading; the Almanac does not repeat it.
-            day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
             // An eclipse by WB's reckoning (vol. 1, ch. 9): a day of multiplied virtue, naming no works, so shown and not weighed.
             Eclipses.of(day)?.let { eclipse ->
                 val moon = eclipse.body == Eclipses.Body.MOON

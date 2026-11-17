@@ -89,7 +89,6 @@
     <string name="tib_rabjung">%1$s cycle, year %2$d</string>
     <string name="row_element">Element</string>
     <string name="row_gender">Gender</string>
-    <string name="tib_monthly_observance">monthly observance</string>
     <string name="tib_for_birth_year">for your birth year</string>
     <string name="tib_element_pair_subtitle">elements of weekday and mansion: %1$s</string>
     <!-- the lunar mansion's English name: "lunar mansion: horse-woman" -->
