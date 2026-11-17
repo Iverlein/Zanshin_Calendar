@@ -1675,10 +1675,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 42 passages: 22 scan, 13 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 45 passages: 26 scan, 18 machine, 1 etext |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 47 passages: 26 scan, 20 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 20 passages: 14 scan, 5 machine, 1 etext |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 22 passages: 16 scan, 5 machine, 1 etext |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -2749,6 +2749,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
 | [questions/q1308.md](questions/q1308.md) | question q1308 | WB vol. 2 p. 233 lines 24–25: the gnyan's moving times, 28th or 27th? | open; cites wb.2:p233b |
 | [questions/q1309.md](questions/q1309.md) | question q1309 | WB vol. 2 p. 237 line 13: «བཅོ» or «བཙོ»? | open; cites wb.2:p237b |
+| [questions/q1310.md](questions/q1310.md) | question q1310 | WB vol. 2 p. 236 line 19: the fourth item of Rāhu's reckoning, «བྱི» or «ཕྱི»? | open; cites wb.2:p236d |
+| [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | open; cites wb.2:p236d |
+| [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | open; cites wb.2:p236d |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
