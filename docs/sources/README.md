@@ -1438,6 +1438,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md](claims/wb1-ch13-month-heads-weekday-lines-7th-10th.md) | claim, note | The 7th head's weekday line has 3 twice and no 4; the 10th's reads 5 1 3 / 6 / 0 / 2 4 | cites wb.1:p167b, wb.1:p171b; feeds — |
 | [claims/wb1-ch13-month-heads-weekday-lines.md](claims/wb1-ch13-month-heads-weekday-lines.md) | claim, note | The weekday lines of the 2nd to 6th heads and the wrapped line | cites wb.1:p158-159, wb.1:p160, wb.1:p162, wb.1:p163, wb.1:p165b, wb.1:p157, wb.1:p159z; feeds — |
 | [claims/wb1-ch13-reprint-gap.md](claims/wb1-ch13-reprint-gap.md) | claim, note | The Gser thang reprint lacks pp. 167-174 of WB vol. 1 | cites wb.1:p154; feeds — |
+| [claims/wb1-ch13-ring-chart-woodcuts.md](claims/wb1-ch13-ring-chart-woodcuts.md) | claim, note | Ch. 13 pp. 136-141: the figures of the twelve ring-chart woodcuts | cites wb.1:p136w; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p142.md](claims/wb1-ch13-strip-charts-eye-p142.md) | claim, note | Ch. 13 strip charts: p. 142 legible by place on the reprint, p. 147 mostly empty cells | cites wb.1:p142e, wb.1:p147e; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p143-144.md](claims/wb1-ch13-strip-charts-eye-p143-144.md) | claim, note | Ch. 13 strip charts: pp. 143-144 read by place, the same few names in the cells | cites wb.1:p143e, wb.1:p144e; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p145-146.md](claims/wb1-ch13-strip-charts-eye-p145-146.md) | claim, note | Ch. 13 strip charts: pp. 145-146 read by place, the same names, many cells empty | cites wb.1:p145e, wb.1:p146e; feeds — |
@@ -1648,7 +1649,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 2 scan, 7 machine |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 81 passages: 59 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 82 passages: 60 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
@@ -1660,7 +1661,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 46 passages: 38 scan, 7 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 47 passages: 39 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
@@ -1668,12 +1669,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 39 passages: 20 scan, 12 machine, 7 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 42 passages: 22 scan, 13 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 38 passages: 21 scan, 16 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 58 passages: 32 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 18 passages: 12 scan, 5 machine, 1 etext |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 19 passages: 13 scan, 5 machine, 1 etext |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
