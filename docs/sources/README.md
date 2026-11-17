@@ -1385,6 +1385,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-skar-bras-spyi-sdom-counts.md](claims/wb-skar-bras-spyi-sdom-counts.md) | claim, note | «སྐར་འབྲས་སྤྱི་སྡོམ» heads the match's counts of pebbles; «སྐར་འབྲས» itself stays open | cites wb.1:p351b, wb.1:p355; feeds block-58 |
 | [claims/wb-solstice-sixty-wheels.md](claims/wb-solstice-sixty-wheels.md) | claim, rule | The sixty wheels of twelve petals: the wheel and the cell from the years elapsed | cites wb.1:p185; feeds — |
 | [claims/wb-solstice-summer-from-winter.md](claims/wb-solstice-summer-from-winter.md) | claim, rule | The other solstice from the first: six days and the desired part, seven house-days at the place | cites wb.1:p185; feeds — |
+| [claims/wb-solstice-summer-two-routes.md](claims/wb-solstice-summer-two-routes.md) | claim, rule | The summer solstice of the author's place: both of WB's ways give 5;1;30, and «skar drug zhe lnga» is 6;45 | cites wb.1:p185; feeds — |
 | [claims/wb-solstice-wheel-cell.md](claims/wb-solstice-wheel-cell.md) | claim, rule | The solstice wheel: the year's cell by the years elapsed plus 26 over 65 | cites wb.1:p184, wb.1:p185, wb.1:p186; feeds T2.28 |
 | [claims/wb-spra-khyim-black-times.md](claims/wb-spra-khyim-black-times.md) | claim, remedy | The black times' remedy at the door's right is «སྤྲ་ཁྱིམ»; the first letter of the stack is not settled | cites wb.2:p236b; feeds — |
 | [claims/wb-spra-khyim-is-a-tent.md](claims/wb-spra-khyim-is-a-tent.md) | claim, definition | The black times' door figure «སྤྲ་ཁྱིམ» is a tent | cites wb.2:p236b, wb.2:p236c; feeds — |
@@ -2117,7 +2118,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0675.md](questions/q0675.md) | question q675 | p. 435's «ཉྭ་བཞིན» in WB vol. 1 | answered; cites tmz:box6, wb.1:p435b |
 | [questions/q0676.md](questions/q0676.md) | question q676 | p. 185's winter solstice measure at the author's place | answered; cites — |
 | [questions/q0677.md](questions/q0677.md) | question q677 | The unit of p. 185's solstice measure and the 18 «སྐར་མ» | answered; cites — |
-| [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | open; cites — |
+| [questions/q0678.md](questions/q0678.md) | question q678 | p. 185's «རིག་བྱེད་མཁའ་མེ» and «སྐར་དྲུག་ཞེ་ལྔ» | answered; cites — |
 | [questions/q0679.md](questions/q0679.md) | question q679 | p. 187's fifth-place count: «བུ་གས» and the quarters' clearing | narrowed; cites — |
 | [questions/q0680.md](questions/q0680.md) | question q680 | p. 188's sign after «མཁའ་མེ་སྲང» and the four off-step cells of the sage's table | open; cites — |
 | [questions/q0681.md](questions/q0681.md) | question q681 | The skya of «སྐྱ་རྒྱལ» and «སྐྱ་འཕམ» (WB ch. 18) | answered; cites — |
@@ -2167,7 +2168,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0725.md](questions/q0725.md) | question q725 | The code-numbers of ch. 11 pp. 87–90 digit by digit | open; cites — |
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | open; cites — |
 | [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | narrowed; cites wb.1:p105 |
-| [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | open; cites — |
+| [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | answered; cites wb.2:p191 |
 | [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | answered; cites kd.1:p495a |
 | [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | answered; cites wb.1:p23 |
