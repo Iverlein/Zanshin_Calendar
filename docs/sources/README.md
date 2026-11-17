@@ -998,6 +998,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/svi-bad-signs.md](claims/svi-bad-signs.md) | claim, list | The Svapna-īkṣā's bad signs | cites svi:p262; feeds block-73 |
 | [claims/svi-co-ne-night-and-bird-machine-tallies.md](claims/svi-co-ne-night-and-bird-machine-tallies.md) | claim, note | The Co ne Svapnekṣā: Yigdzin-1's windows give «བརྟགས་པ་ཉལ» for the night and «བྱ་ཤར་ཏེ་རུ» for the bird | cites svi:p263, svi:p130; feeds RD354 |
 | [claims/svi-dpe-bird-note-and-brtags-note.md](claims/svi-dpe-bird-note-and-brtags-note.md) | claim, note | The Dpe bsdur ma's notes on the Svapnekṣā's bird and on «བརྟགས་ལ་ཉལ» | cites svo:p271v; feeds RD323 |
+| [claims/svi-garland-jataka-in-the-siddhasara-print.md](claims/svi-garland-jataka-in-the-siddhasara-print.md) | claim, note | The Siddhasāra volume's Svapnekṣā has the garland «ཛཱ་ཏ་ཀ» as the Derge; «ཛ་ཏ་པ» is in no etext | cites sds:p471-472, svi:p289-291b; feeds S1 |
 | [claims/svi-images-by-family.md](claims/svi-images-by-family.md) | claim, list | The Svapna-īkṣā's fortunate images by Buddha family | cites svi:p261, svi:p262; feeds block-73 |
 | [claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md](claims/svi-narthang-ms-amoghasiddhi-bird-not-settled.md) | claim, note | The Narthang manuscript's Amoghasiddhi line «བྱ་ཤ?་ཏེ…» is not settled | cites svi:p289-291b, svi:p289-291, svi:p309-312, svi:p261-262; feeds RD298 |
 | [claims/svi-narthang-ms-btab-la-nyal.md](claims/svi-narthang-ms-btab-la-nyal.md) | claim, note | The Narthang manuscript reads «ཐ་མར་རྨི་ལམ་བཏབ་ལ་ཉལ», not «བརྟགས» | cites svi:p289-291b, svi:p289-291, svi:p309-312; feeds RD298 |
@@ -1613,7 +1614,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
-| [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 7 passages: 7 etext |
+| [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 8 passages: 8 etext |
 | [corpus/sgc/sgc.md](corpus/sgc/sgc.md) | corpus | SGC, the liturgy collection of Sgo chen dgon | 7 passages: 1 scan, 6 etext |
 | [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/skd/skd.md](corpus/skd/skd.md) | corpus | SKD | 3 passages: 3 scan |

@@ -259,3 +259,57 @@ The colophon counts the chapters as thirty-one, the number the contents and the 
 - A physician's own dream beside the messenger in the Four Tantras' chapter on the messenger: none in Byang pa (I4706, etext pp. 204-232), Rin spungs pa (I4707, pp. 227-240) or Khro ru (I5618, pp. 296-330), searched for «སྨན་པ» within the same clause as «རྨི་ལམ» (no hit in any of the three windows), and none in the Explanatory Tantra's chapter 25 on examining by tricks and deceits (Khro ru, I5619, pp. 445-452).
 - The Instruction Tantra's chapters on the messenger: there are none; «ཕོ་ཉ» stands once in the Bhutan print's etext (I1KG13565 p. 249, in the child-spirits' list, «ལས་མཁན་ཕོ་ཉ་རྒྱལ་པོ»), and in Khro ru's commentary the messenger of the sick is treated in the Explanatory Tantra's chapter 7 (pp. 296-300), in chapter 25 (pp. 450-452) as the household's go-between, and the messenger of the child-spirits in the Instruction Tantra (pp. 124 and 191 of the volume that holds it).
 - The messenger or the physician's own dream elsewhere in the Siddhasāra: the etext of the whole volume (etext pp. 5-503) has «ཕྲིན་པ», the work's word for the messenger, only on pp. 73 and 76 (chapter 5), and «ཕོ་ཉ», the Four Tantras' word, only on p. 471, in the Svapna-īkṣā's sign of the bird sent as messenger (svi); no dream of the physician stands in chapter 5 or anywhere the dream words «རྨི་ལམ» were opened (pp. 32, 75-76).
+
+## <a id="sds-p471-472"></a>sds:p471-472 Advayavajra's Svapnekṣā in the Siddhasāra volume (etext pp. 471-472): the garland «ཛཱ་ཏ་ཀ» and the bird «བྱ་ཤར་ཏེ་རུ» as the Derge has them
+
+*Read: etext, 2026-11-17.*
+
+> རྒྱ་གར་སྐད་དུ། སུ་པན་ཨི་ཀྵ། བོད་སྐད་དུ། རྨི་ལམ་བརྟག་པ།
+> འཕགས་པ་འཇམ་དཔལ་ཡེ་ཤེས་སེམས་དཔའ་ཆེན་པོ་ལ་ཕྱག་འཚལ་ལོ།། ལུས་
+> ངག་ཡིད་གསུམ་རྟག་དུ་དད་པ་ཡིས།། འཇམ་དཔལ་ཡེ་ཤེས་སེམས་དཔའ་ལ་
+> བཏུད་དེ།། རིགས་ཀྱི་ཕྱག་རྒྱ་རིན་ཆེན་ལྟ་བུ་ཡི། གང་དགོངས་འགྱུར་ཕྱིར་རྨི་
+> ལམ་བཤད་པར་བྱ།། ཀུ་ཤའི་གདན་ལ་གནས་ནས་ཀྱང༌།། དྲི་ལྡན་རྩྭ་ལ་སྔས་
+> སུ་གཞུག། ཛཱ་ཏ་ཀ་ཡི་ཕྲེང་བ་བཅིང༌། བུ་མོ་གཞོན་ནུའི་འོ་མ་ལ།། སྔགས་ཀྱི་
+> ཕྲེང་བ་བཟླས་ཤིང་བདར།། གཞན་དང་ལྡན་པ་མིག་ལ་བྱུགས།། དང་པོའི་ཆ་
+> ནི་བག་ཆགས་འཁྲུག། གཉིས་པར་ཡི་དགས་རྒྱུ་བར་འགྱུར། ཐ་མར་རྨི་ལམ་
+> བརྟགས་ལ་ཉལ།། མེ་ལོང་ལག་ཏུ་ཐོགས་པ་དང༌ཚེས་གཅིག་ཟླ་བ་མཐོང་བ་
+> དང་།། ཤིང་རྟའི་འཁོར་ལོ་ཞོན་པ་དང༌།། གོས་དཀར་རྒྱན་དཀར་གྱོན་པ་
+> དང་།། གླང་པོ་ལྕགས་ཀྱུས་འདུལ་བ་དང་།། སྙིང་རྗེས་དད་དཔོན་བྱེད་པའོ།།
+> རྨི་ལམ་ན་ནི་གསེར་རྙེད་དང་།། རང་བཞིན་ཁྲུས་ལ་འཇུག་པ་དང་།། བུམ་པ་
+> སྤྱི་གཙུག་བཞག་པ་དང་།། གླིང་གཞན་ཀུན་ལ་དབང་སྒྱུར་དང་།། རྟ་ཞོན་ནོར་
+> བུའི་གླིང་འགྲོ་དང་། མི་ཡི་ཁྱོགས་ཀྱིས་འདེགས་པའོ།། མེ་ཏོག་པདྨོ་ཐུ་བ་
+> དང་།། གླེགས་བམ་ལག་ན་ཐོགས་པ་དང་།། དུང་ལ་སོགས་པ་འབུད་པ་དང་།།
+> མེ་ཏོག་ཕྲེང་བ་འདོགས་པ་དང་།། རྨ་བྱ་རྙི་ཡིས་འཛིན་པ་དང་།། སྙིང་རྗེས་
+> པདྨ་ཆོས་འཆང་བའོ།། མཚོན་ཐོགས་གཡུལ་ལས་རྒྱལ་བ་དང༌།། རྒྱལ་པོ་
+> འཁོར་དུ་གྱུར་པ་དང་།། དམག་མི་གཡུལ་དུ་བསྐོར་བ་དང་། ཞི་བའི་ལས་ལ་
+> འགོད་པ་དང་།། བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང༌།། ནགས་ཚལ་མེ་ཡིས་བསྲེགས་
+> པའོ།། ཆུ་ལ་མི་ནུབ་རྐྱལ་བ་དང་།། ནམ་མཁའ་ལ་ཡང་འགྲོ་ཞིང་ལྡིང་།། ཉི་ཟླ་
+> རྒྱན་དུ་གོན་པ་དང་། སེང་གེ་ཁྲི་སྟན་གནོན་པ་དང༌། གདུགས་དཀར་ཕུབ་
+> 
+> 
+> ཅིང་རྒྱལ་མཚན་བསྒྲེང་།། ཀུན་གྱིས་མཆོད་པའི་འོས་འགྱུར་བའོ།། ཁྲག་དང་
+> ཆུ་སེར་ཟག་[ཟགས] པ་དང༌།། མེ་དཔུང་རྫི་ཞིང་མི་འཇིགས་དང༌།། སྦྲུལ་
+> དང་སྡིག་པ་ཟ་བ་དང་།། རྡོ་རྗེ་དྲིལ་བུ་འཛིན་པ་དང་།། རི་བོ་རྩེ་ལ་གནོན་པ་
+> དང༌། གྲོང་ཁྱེར་མཛུབ་མོས་སྦྱོར་བའོ།། བླ་མ་ཡི་དམ་མཆོད་པ་དང་།།
+> གླེགས་བམ་འདྲི་ཞིང་མཆོད་རྟེན་བརྩིག། གཅེར་བུར་བྱུང་གླུ་གར་བྱེད་དང་།།
+> དགེ་སློང་ཚོགས་དང་ལྷན་ཅིག་འགྲོགས།། གོས་བཟང་གྱོན་ཞིང་ཤིང་འབྲུ་ཟ།།
+> དེ་བཞིན་གཤེགས་པའི་ཕྱག་རྒྱ་སྟེ།། ཤིས་པ་བརྗོད་ཅིང་ལུང་སྟོན་བྱེད། ཆུ་ཡི་
+> རྫིང་ཆེན་འཁྱིལ་བ་དང་།། གནས་ཁང་མཐོན་པོ་བརྩིག་པ་དང་།། ཡིད་དང་
+> མཐུན་པར་འབྱུང་བའོ།། དགྲ་ཡིས་རྒྱན་དང་བྲལ་བ་དང་།། ན་ཆུང་མྱ་ངན་
+> བྱེད་པ་དང་།། ཁྲི་མོན་ནང་དུ་བཅུག་པ་དང་།། ནོར་ཕྲོགས་ལྕགས་སུ་བཅུག་
+> པ་དང༌།། འགྲོ་བ་ངན་པས་རྫི་བ་དང་།། གཅན་གཟན་ལུས་ལ་འཕྱང་བ་དང་།།
+> སྲད་བུས་དཀྲིས་ཤིང་དྲི་མས་གཡོགས།། དྲི་མ་ཟ་ཞིང་དྲི་མ་འཐུངས།། བླ་མ་
+> སློབ་དཔོན་གྲོགས་པོ་དང༌།། ཕ་མ་རྣམས་ནི་མཐོང་ནས་འབྲོས།། ཤིན་ཏུ་
+> གཅོང་རོང་མི་མང་དང་། ཡང་ན་འབྲོག་དགོན་ལ་སོགས་པར།། ཟས་དང་
+> སྐོམ་གྱིས་ཉམ་ཐག་སྟེ། ཀྱི་ཧུད་བདག་སྡུག་ཟེར་གྱི་གཡའ།། གོ་ཆ་བཤུས་ནས་
+> མཚོན་གྱིས་འདེབས། ནགས་ཀྱི་དཀྱིལ་ནས་ཕྱིན་ནས་ཀྱང་།། སྟག་དང་ཅེ་
+> སྤྱང་དུད་འགྲོ་འདེབས།། དེ་སོགས་ཡིད་གདུང་བར་འབྱུང་བ།། དགེ་དང་མི་
+> དགེའི་ལྟས་སུ་རིགས།། རྣམ་པར་སྣང་མཛད་རིན་ཆེན་འབྱུང་ལྡན་དང༌།།
+> འོད་དཔག་མེད་དང་དོན་ཡོད་གྲུབ་པ་དང་། མི་བསྐྱོད་པ་དང་རྡོ་རྗེ་སེམས་
+> རིགས་དྲུག། གོ་རིམས་ཉིད་དང་སྣ་ཚོགས་འདྲེས་པའོ།། ཤིས་པའི་རྨི་ལམ་ལ་
+> ནི་སྒྲུབ་པ་རྩམ།། རིན་ཆེན་ཕྱག་རྒྱུར་བཤད་པའི་ཆོ་ག་བཞིན།། མི་དགེའི་ལྟས་
+> ལ་ཏིལ་གྱི་སྦྱིན་སྲེག་བྱ།། རིགས་དེ་ཞིག་ལ་སྟོང་གིས་སྦྱངས་པའོ།། བག་ཆགས་
+> ཡི་དགས་ཡིད་བྲིད་པ།།འཁོར་བའི་ཆོས་ཀུན་རྨི་ལམ་བཞིན།། རྣལ་འབྱོར་པ་
+> ཡིས་བལྟ་བར་བྱ།། འཁྲུལ་པ་ཡང་དག་མིན་ཕྱིར་རོ།། བཟང་པོ་རྟོགས་ལས་ཡེ་
+
+Advayavajra's Svapnekṣā (the Examination of Dreams, རྨི་ལམ་བརྟག་པ, rmi lam brtag pa) as the Siddhasāra volume prints it, etext pp. 471-472 (the title leaf is p. 469; the Sanskrit title given as «སུ་པན་ཨི་ཀྵ»). The pool's earlier witnesses are the Derge, Peking and Narthang copies; this is a modern typeset print of the same text. Homage to Mañjuśrījñānasattva. The preparation: sitting on a seat of kuśa grass, the head laid on fragrant grass, a garland «ཛཱ་ཏ་ཀ་ཡི་ཕྲེང་བ» bound, the mantra garland recited over a young girl's milk and the milk put on the eyes. The first part of the night stirs the habits, the second brings hungry ghosts, in the last one lies down to examine the dream. Then the lists of fortunate images, among them the bird that «sends a messenger» (བྱ་ཤར་ཏེ་རུ་ཕོ་ཉར་གཏོང), the unfortunate images, the six families and the ritual remedies (the sesame burnt offering against ill signs); the text breaks off here at the foot of p. 472 (the lines after it, to the colophon on p. 473, are not given). Read as the etext gives it (the page markers [p471] and [p472] folded into one run).
