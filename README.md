@@ -4,7 +4,7 @@ An offline Android app that shows one day at a time in the Tibetan calendar
 (Phugpa) or the old Japanese calendar (旧暦, Tenpō rules), with the almanac
 readings of that day and sunrise, solar noon and sunset for your place.
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Saga Dawa Düchen">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Saga Dawa Düchen, the full moon's day of Amitābha">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="220" alt="Japanese day: 十三夜">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="220" alt="Meditation timer: a zazen of 20, 10 and 30 minutes">
@@ -12,7 +12,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11.png" width="220" alt="A dream read: each tradition's verdict on riding upward, a pit and the sun rising">
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
-  leap months; festivals and monthly observances; lunar mansion, yoga,
+  leap months; festivals; the month's practice days (the 8th, 10th, 15th,
+  25th, 29th and new moon, and the 9th and 24th as small days of the
+  Dharma protectors) in an ornament of their own, each naming who comes
+  and what to practise; lunar mansion, yoga,
   karaṇa, element pair, lunar-day animal, trigram and number, each with its
   reading from the White Beryl and the *kun phan me long*; what changes
   within the day as the White Beryl's almanac writes it: a second mansion,

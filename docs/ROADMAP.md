@@ -2432,6 +2432,34 @@ the device; a person saved before reads as not set, and while it is not
 set the readings that need it are hidden, with a note that says so. Only
 the year of age reads it (its trigram and progressed sign).
 
+### <a id="t6"></a>T6. The practice days, ornamented — built 2026-11-17 (SPEC §5.8, §8.1, §10.3)
+
+The owner's request of 2026-11-17: "beautiful ornate decorations and a
+practice recommendation balloon on the 8, 10, 15, 25, 29 and 30 lunar days,
+and the 9 and 24 as small days of the Dharma protectors", after the
+practice-days investigation of 2026-11-16 (festivals.md, the claims
+`month-days-buddhas-and-deities`, `six-times-of-the-month-in-the-larung-note`,
+`monthly-days-in-the-rigpa-calendar-against-rabten` and the rest of its
+list). Edition Rabten's five monthly observances became eight practice
+days: the Larung note's six times, with the 29th, and the owner's two small
+days, which are the Palden Lhamo days of Karma chags med's verse (its note
+also names the 11th and 26th, not taken; q1263 stays open on the note).
+
+- **Built.** `SpecialDay` with NINTH, TWENTY_FOURTH (minor) and
+  TWENTY_NINTH; a skipped date's day kept on the day it ends in and a
+  doubled date's on its first, as the festivals (`PracticeDayTest`, 2020–2040:
+  every major day once a month but the 29th when the new moon is skipped
+  into its day). The readings rewritten from the pool: who comes or roams,
+  the hundred thousandfold, a new *Practice* row and *Strong when* for the
+  tenths, English and Russian. The page: the day number in an aureole on a
+  lotus seat with a crown (`PracticeDay.kt`), the day's name under it
+  opening a balloon with the reading and its rows; the Almanac's
+  observance row dropped, as the headline holds it.
+- **Left open.** Whether the 11th and 26th join the small days; the order
+  of Amitābha and Śākyamuni on the 15th and the new moon (q1261, RCZ's
+  kept); the practice on the small days rests on the verse's frame (an
+  offering while the deity roams), no text names one for them.
+
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 
 Mind Bell's functions on a screen of its own, opened from the menu's new

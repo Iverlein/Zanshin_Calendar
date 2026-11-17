@@ -234,7 +234,7 @@ day by day against Henning's computed calendars (§9):
 | Lunar-day animal, trigram, number | Janson (E.9)–(E.11); the first date's trigram by the month's animal and its sme ba by the season (1 white, 4 green, 7 in the first, middle and last months of the Chinese reckoning's seasons) as the White Beryl's almanac verse gives them, vol. 1, p. 178 (`AlmanacPageTest`, [sources/almanac-page.md](sources/almanac-page.md)) |
 | Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008); FPMT's list, not the White Beryl's, which gives no haircut results by date (ROADMAP T2.15); the sheet opens on the result and whether the date goes well or badly for a haircut, sixteen good, fourteen to avoid (X10) |
 | Washing the hair | the White Beryl's thirty hair dates (vol. 2, p. 404): what washing the hair on each date brings, a detail of the lunar date's reading; the good and bad dates that follow them are the list of KP box 37, whose worn bad line they fill (the 27th on neither side; `ElectionalTest`, [sources/hair-dates.md](sources/hair-dates.md)) |
-| Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
+| Practice days | the six times of the month in the note of the Larung print of Longchenpa's commentary on the Guhyagarbha (p. 568, note 1035): the 8th, 10th, 15th, 25th, 29th and the new moon; and, as the small days of the Dharma protectors (the owner's choice, 2026-11-17), the 9th and 24th, when Palden Lhamo roams with her retinue in Karma chags med's verse, which also lists the 11th and 26th (*Ri chos*, pp. 286–288; question q1263). Each day's reading names who comes or roams on it after the same verse (8th the Medicine Buddha with White Tārā; 10th Guru Rinpoche, at sunrise; 15th Amitābha; 25th the ḍākinīs with Guru Rinpoche; 29th the protectors, with the new moon; the new moon Śākyamuni), the hundred thousandfold of the 8th, 15th, 29th and new moon (the 8th, 14th and 15th of each half), and a practice row from the Nyingma authors read: the one-day vow, offerings and freeing lives on the 8th, full and new moon (Lo chen Dharma shrI; the freeing of lives, Thub bstan chos kyi grags pa); the feast, the Seven-Line Prayer and the guru's sādhana on the 10th, by day; the feast and the tutelary deity or ḍākinī on the 25th, by night (Dpal sprul, Zhe chen rgyal tshab); the fulfilment offering on the 29th (Zhe chen rgyal tshab); an offering to Palden Lhamo on the small days ([sources/festivals.md](sources/festivals.md) and the practice-days claims). Kept in leap months too; a doubled date's on its first day, a skipped date's on the day it ends in, as the festivals are, a major day before a minor one there (so the 29th is lost when the new moon is skipped into its day) |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table), which are WB vol. 2, p. 330's la, life-force and slayer weekdays (*bla gza'*, *srog gza'*, *gshed gza'*), all 36 alike ([sources/personal-mansions.md](sources/personal-mansions.md)); the readings join Rabten's words to p. 330's (the la weekday's activities at its strong time, the life-force weekday virtuous, the slayer weekday avoided, and forceful rites quick when one's slayer weekday is strong and an enemy's la weekday weak; ROADMAP X8); needs a birth date (§10.5) |
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
 | Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The mansion of conception (no source defines it) is not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
@@ -2503,7 +2503,7 @@ voices, so that the tone and the lists cannot go separate ways.
   Kashmiri paṇḍita's, which the White Beryl sets aside for that order (vol.
   2, p. 376), so the app does not use them. Outweighed voices,
   and works that only outweighed voices name, are not shown: they have no
-  power on the day, and their own readings still say what they say. On a festival or monthly observance the brief
+  power on the day, and their own readings still say what they say. On a festival or practice day the brief
   says that the tone is the day's for its works and does not weigh the
   festival's merit: the texts give no rule placing a festival in the
   weighing.
@@ -2513,7 +2513,7 @@ voices, so that the tone and the lists cannot go separate ways.
   a "Hours" row above the brief; then the day in brief; then "Works", the
   verdicts on single works (the works pinned and the haircut), which are
   results of the weighing and not voices in it; then the Almanac section, which holds
-  what is weighed, after the monthly observance: the voices in rank order
+  what is weighed: the voices in rank order
   (the combination, Rāhu, weekday, mansion, special days, lunar date,
   karaṇa, yoga), each voice one row, so that the named combination and
   the element pair are one "Combination" row with both dots, as the
@@ -3320,7 +3320,7 @@ the same way.
    condition ("except on Thursday"). The paragraph never lists works that
    the sheet's lists repeat under it, and never explains a mechanism.
 3. **Every other fact is a row**, a label and a value, in this order and
-   with these labels and no others: *Also called* · *Strong when* ·
+   with these labels and no others: *Also called* · *Practice* (a practice day's, §5.8) · *Strong when* ·
    *Avoid its start* · *Setting out* · *Rank* · *Remedy* · *Spirits that
    harm* · *Illness* · *Rites* · *La today* · *A birth today* · *A death
    today* · *Livestock* · *Planet* · *Foods* · *Through the day* · *How
@@ -3811,6 +3811,20 @@ canvas "Zanshin Calendar — basic design".
 
 - **Headline:** the day number, with the month under it. On a holiday, the
   holiday's name and glyph take the headline and the date moves under it.
+- **Practice day** (§5.8; the owner, 2026-11-17): on the 8th, 10th, 15th,
+  25th, 29th and 30th the day number stands in an ornament, as a buddha's
+  image does: an aureole round it, a lotus seat bearing a moon disc under
+  it and an emblem at its crown. The aureole is rays and pearls for the
+  buddhas' days (8th, 15th, 30th), three rainbow bands for the guru's and
+  the ḍākinīs' (10th, 25th), a wreath of flames for the protectors' (29th);
+  the crown a wish-fulfilling jewel, a full moon on the 15th, a dark moon on
+  the 30th; saffron for the buddhas and the guru, vermilion for the ḍākinīs
+  and the protectors. The small days of the protectors (9th, 24th) have a
+  lighter wreath of flames and no seat or crown. Under the number the
+  day's name in its colour ("Day of the Medicine Buddha") opens a balloon
+  with the day's reading and its *Practice* and *Strong when* rows; a
+  skipped date's day kept today says "moved from day N". On a festival the
+  name stands under the festival's, without the ornament.
 - **Month:** number plus Tibetan name — "4th month · sa ga". Tapping it opens
   a balloon with the other names: Sanskrit lunar mansion, animal name
   (Janson Table 4), and its two seasons, each labelled, as WB's model
@@ -3986,9 +4000,9 @@ canvas "Zanshin Calendar — basic design".
   always holds it. The pins are kept on the device across days and
   restarts (`pinned_works`, the works' names), none on a fresh install, so
   the store screenshots show the section as before but for its pin.
-- **Almanac:** what is weighed (§5.12, *Order on the page*). The monthly
-  observance; the festival is the headline and opens its reading from
-  there, so the Almanac does not repeat it. On the day of an eclipse
+- **Almanac:** what is weighed (§5.12, *Order on the page*). The festival
+  and the practice day are the headline and open their readings from
+  there, so the Almanac does not repeat them. On the day of an eclipse
   (§5.11) a "Lunar eclipse" or "Solar eclipse" row follows, neutral, its
   subtitle WB's multiplied merit, opening its reading. Then the day's voices in the
   rank of §5.12, one row each: the combination, Rāhu, weekday (§5.11),
