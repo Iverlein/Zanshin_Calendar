@@ -518,7 +518,7 @@ The black times' remedy (WB vol. 2, p. 236) on the other prints; the passage at 
 
 *Read: machine, 2026-10-25.*
 
-*2026-11-17: p. 237 compared with a second machine run on the reprint scan and six places read on it, wb.2:p237b; p. 240 is now read on the scan, wb.2:p240b.*
+*2026-11-17: p. 237 compared with a second machine run on the reprint scan and six places read on it, wb.2:p237b; p. 240 is now read on the scan, wb.2:p240b; pp. 236 and 237 read line by line by eye on the reprint, wb.2:p236d and wb.2:p237c, with corrections: the black times are number (16) not (11), p. 236 line 8 «ཐ་ཆུང» not «རྔ་ཆུང», Rāhu's numbers (6), (10), (13), p. 237 line 16 «སྐྲ་འཁྲུ», line 27 «པའི».*
 
 > [p. 236] བྱ། །
 > ༈ ས་བདག་ཁང་བརྩེགས་(༣)བྱ་བ་དང་། །མཚོ་སྔོན་ཞེས་བྱ་རྣམ་པ་གཉིས། །དུས་ཚོད་རང་རང་ཐོག་ན་གནས། །
@@ -603,6 +603,100 @@ The 4th: at sunset he enters the west; going in the east at dusk, he is for seek
 Page 237 (Gser thang reprint I3CN5029 img. 243 = page 237), Rāhu's course by the lunar date from the 12th to the 25th and the finer course with its counsel (the passage at wb.2:p236-237 has the page whole as machine text). Yigdzin-1 was run again on this reprint scan (2753 characters), and its text compared syllable by syllable with the 1996 print's Yigdzin-1 text already in the passage: the two agree on the whole page except at six places, and each of the six was read on the reprint scan at 2.2x to 3x. The two runs are of one model, so their agreement is not a reading of the page; the rest of the page's twenty-eight lines is **not** read line by line on the scan and stands as the machine text of wb.2:p236-237.
 
 The six places: (1) line 1, the 12th at dawn: the scan has «ལྷོ་ནས་བྱང» (from south to north), as the 1996 text; Yigdzin-1 on the reprint wrote «སྟོ». (2) line 13, «ཆང་བཅོ་བཟང» (brewing beer is good): the glyph reads as «ཅ»; Yigdzin-1 on the reprint has «བཙོ» (boiling), the 1996 text «བཅོ»; not settled with certainty, «བཅོ» is the better fit of the glyph. (3) line 15, «ཧོམ་སྤར་སེར་འབེབས»: «སྤར», not Yigdzin-1's «སྦར». (4) line 17, the reprint-run's «སྒྲ་འཁྲུ» is «སྐྲ་འཁྲུ» (washing the hair), as the 1996 text. (5) line 18, «བྲན་ཉི་རྐང་འགྲོས»: «ཉི», as the 1996 text; Yigdzin-1 on the reprint gave «ཉེ». (6) lines 22 and 27, «ཐོག་སེར་དབབ་པའི་ལས»: the print has «པའི» (the 1996 text «བའི», the reprint-run «པའ» without the vowel).
+
+## <a id="wb-2-p236d"></a>wb.2:p236d The earth lords' times and the beginning of Rāhu's reckoning, p. 236: read by eye on the reprint, five corrections and four figures in doubt
+
+*Read: machine, 2026-11-17.*
+
+> [p. 236, lines 2-28 of the page; line 1 of the machine text in wb.2:p236-237, «བྱ། །», is the tail of p. 235]
+> ༈ ས་བདག་ཁང་བརྩེགས་(༣)བྱ་བ་དང་། །མཚོ་སྔོན་ཞེས་བྱ་རྣམ་པ་གཉིས། །དུས་ཚོད་རང་རང་ཐོག་ན་གནས། །
+> ལས་ཐབས་ཁང་བརྩེགས་གྲལ་གདན་འཛེམ། །མཚོ་སྔོན་༤་བག་མ་རོ་ལས་ངན། །ཀོ་ལོང་དོ་བདག་ཕ་ཚན་སྡོམ། །
+> ཉམས་ན་ཏོག་གཟུངས་སྣང་བརྒྱད་དང་། །གཟུངས་བསྡུས་སྤང་སྐོང་སྒྲོག་པར་བྱ། །སྒྲིབ་ཐབས་སྤྱི་ལྟར་སྦྱོར་བ་ཡིན། །
+> ༈ དུས་ཚོད་ས་རྒྱལ་(༥ ༦ ༧ ༨ ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ ༡༥)མདུན་གྱི་ནི། །བཞི་གཤེད་སྟེང་དུ་གནས་པར་
+> འདོད། །ལྟད་སྟོན་རོ་ཤིད་མཁར་ལས་འཛེམ། །ཉམས་ན་གཙོ་བོ་རྩ་བ་དང་། །ཡུལ་དཔོན་ལ་ངན་རོ་ཤིད་བྱས། །སྤང་མ་
+> སྐམ་ལོང་མེད་པར་འཆི། །འདི་ལ་བཅོས་སྒྲིབ་མ་བཤད་ཀྱང་། །དབང་བསྐུར་བསྐྱེད་རྫོགས་ཚོགས་ཆེན་བསག །
+> ༈ ཡང་ནི་འདི་ལྟར་བཤད་ཀྱང་ཡོད། །དཔྱིད་ར་སྦྲུལ་དུས་ལྷོ་སྟོད་དུ། །འབྲིང་པོ་རྟ་དུས་སྤྲེའུའི་ཐོག །ཐ་ཆུང་ལུག་
+> དུས་ཕག་གི་སྟེང་། །དབྱར་ར་སྤྲེལ་དུས་སྦྲུལ་ཐོག་ཏུ། །འབྲིང་པོ་བྱ་དུས་ཕག་གི་སྟེང་། །ཐ་ཆུང་བྱི་དུས་བྱང་གི་སྟོད། །
+> སྟོན་ར་ཕག་དུས་འབྲུག་ཐོག་ཏུ། །འབྲིང་པོ་བྱི་དུས་ལྷོ་ནུབ་ཕྱོགས། །ཐ་ཆུང་གླང་དུས་ཁྱི་ཡི་སྟེང་། །དགུན་ར་ལྟག་དུས་
+> ཤར་སྨད་དུ། །འབྲིང་པོ་ཡོས་དུས་ལྷོ་སྨད་ཕྱོགས། །ཐ་ཆུང་འབྲུག་དུས་བྱ་ཐོག་ཏུ། །རང་རང་རྒྱུ་ཆོས་ཉིན་མོ་འཆོག །རྒྱུ་
+> ཆོས་པི་ལིང་འཕར་མ་ཡིན།།
+> ༈ དུས་ཚོད་(༡༦)ནག་པོའི་རྩིས་ལ་ཡང་། །གོང་དང་སྦྱར་ཏེ་ཤེས་པར་བྱ། །དེ་ཡང་བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་
+> གཉིས་ཀྱི་དུས་ཚོད་ནག །དེ་ཡི་རིག་པས་ཤེས་པར་བྱ། །ཞག་དུས་ནག་པར་གྱུར་པ་ན། །དུར་ས་མཁར་ལས་སྟོན་མོ་
+> དང་། །རབ་གནས་མངའ་གསོལ་ཆོས་སྟོན་དང་། །ཡུལ་གསར་འཛིན་དང་བག་མ་སོགས། །ཁག་ཆེན་བྱ་བ་ཐམས་ཅད་
+> ངན། །དྲག་ལས་དུས་དང་སྤྲད་ན་ཐེབས། །བཅོས་ཐབས་སྤྲ་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས། །དེ་ཡིས་
+> ཐུབ་པར་བཤད་པ་ཡིན། །དུས་ཚོད་གནམ་ཁྱི་ལོར་བཤད་དང་། །གབ་པ་ཟླ་བའི་དུས་བཞིན་བརྟག །
+> ༈ གཟའ་ཀུན་གཙོ་བོ་རཱ་ཧུའི་རྩིས། །འདིར་ནི་མ་སྦས་གསལ་བར་བརྗོད། །དེ་ཡང་གཏེར་ཆོས་འགའ་ཞིག་དང་། །
+> འབྱུང་རྩིས་དགོངས་པའི་ཆ་མཐུན་པས། །མི་འགལ་ལེགས་ཆ་འདོམས་པར་བརྗོད། །ལོ(༡)ཟླ(༢)སྤྱི་འདོམས(༣)བྱི
+> (༤)ནང(༥)གསང(༦)། །ཐོད་བརྒལ་ཡང་གསང་གཏེར(༧)སྦས་རྒྱུ། །ཡབ(༨)ཡུམ(༩)སྤྲུལ་པ(༡༠)ཕོ་ཉ(༡༡)
+> དང་། །ཕྱག་བརྙན(༡༢)ལྟ་བུར་རྒྱུ་བ་དང་། །ཉིན་ཞག(༡༣)དུས་ལ་རྒྱུ་དུས་བཤད། །ལོ་ལ་ཟས་འཚོལ་བསྟན་པ་ནི། །
+> བྱ་གླང་སྦྲུལ་གསུམ་ལོ་ལ་འཚོལ། །ཟླ་བ་སྟེན་ཟླ་རྣམ་གསུམ་དང་། །ཁྱད་པར་ཡོས་ལུག་ཕག་གསུམ་གྱི། །གནམ་སྟོང་ལ་ནི་
+> ཟས་འཚོལ་ལོ། །སྤྱི་འདོམས་ནུ་རུའི་རྒྱུ་ལུགས་ནི། །ཚེས་གཅིག་ཉི་ཕྱེད་ལྷོ་ནུབ་ནས། །བྱང་ཤར་དུ་རྒྱུ་གཉིས་ཕྱེད་ཡོལ། །
+> ཤར་ནས་ནུབ་ཏུ་གསུམ་ཉི་དྲོས། །ལྷོ་ནུབ་ནས་ནི་བྱང་ཤར་དུ། །བཞི་ལ་དཔུང་པ་གཡོན་པ་དག །མ་མོ་དམག་དཔོན་
+> ལྗང་སྔོན་སྦྲུལ། །འཁོར་དུ་མ་མོ་བརྒྱད་དང་བཅས། །ཟླ་བ་ནུབ་དུས་ནུབ་ནས་ཤར། །ལྔ་ལ་ཉི་དྲོས་ཤར་ནས་ནུབ། །དྲུག་
+> ལ་ཇོ་རེངས་བྱང་ནས་ལྷོ། །བདུན་ལ་སྲོད་དུས་བྱང་ནས་ལྷོར། །བརྒྱད་ལ་དཔུང་གཡས་དྲང་སྲོང་སྦྲུལ། །དགྲ་ལྟས་
+> བསྐོར་ནས་ཤར་ལྷོ་ནས། །རྡེའུ་འགོ་དྲོས་ནུབ་བྱང་རྒྱུ། །ཚེས་དགུའི་སྲོད་ལ་དེ་བཞིན་དུ། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་
+> ཏུ། །བཅུ་ཡི་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གཅིག་སྲོད་ལ་ཆུ་སོ་བདུད། །སྤྲུལ་ཞིང་ཟླ་བཅས་བྱང་ནས་ལྷོར། །བཅུ་
+
+Page 236 (Gser thang reprint I3CN5029 img. 242 = page 236, 27 lines), read line by line in bands at 1.7x, the figures and doubtful stacks at 2.4x to 7x, against the machine text of wb.2:p236-237. The passage above is that machine text with the corrections below; it stays machine-corrected, not a scan reading, because of the doubts named. Yigdzin-1 was not run on this scan (the only slot was held by another reader); the 1996 print was not consulted.
+
+What the scan reads otherwise than the machine text:
+
+- Line 8 (spring's last month): «ཐ་ཆུང་ལུག་དུས» (the small last, the time of the sheep), not «རྔ་ཆུང»: the glyph is the same as the «ཐ» of «ཐ་ཆུང» in the three following seasons' lines, and the last months of summer, autumn and winter (lines 9, 10 and 11) all read «ཐ་ཆུང».
+- Line 13: the number after «དུས་ཚོད» is «(༡༦)», not «༡༡»: a hook and the round «༦» of line 20's «(༦)», the same two glyphs at 7x; so the black times are number 16, the next after the earth kings' times 5 to 15 (line 5), as «(༣)» and «(༤)» are the two earth lords before them. The English of wb.2:p236-237 says "(11)" and must read 16.
+- Lines 19-21, the numbers of Rāhu's reckoning are printed in brackets, each after its word: year (༡), month (༢), general counsel (༣), the stack at the end of line 19 then (༤), inner (༥), secret (༦), the treasure to be hidden (༧), father (༨), mother (༩), emanation (༡༠), messenger (༡༡), hand-seal (༡༢), the day (༡༣). The machine text had «༦༦» for the secret's number and «༡༠༠» for the emanation's: the scan has a single «༦» and «༡༠» (one hook and one circle); and it gave the day's number as «༡༢», the scan has «༡༣» (see the doubt below).
+- Line 28: after «ཏུ» the scan has two shads with a space between them; the machine text had a different mark («༑ ༑») there.
+
+Read as the machine text has it, the rest of the page's 27 lines, compared line by line: no other difference seen. Not read above 3x: the lines other than those named.
+
+Doubts, named:
+
+1. Line 5, the numbers of the earth kings' times, «(༥ ༦ ༧ ༨ ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ ༡༥)»: eleven groups, each read at 6x; in the second-to-last group «༡༤» the second digit is a blot and is read «༤» from the order only.
+2. The stack ending line 19 after «(༣)»: printed «བྱི» in the machine text; the glyph is a smudge, first letter «བ» or «ཕ»; the context (inner, «ནང») would favour «ཕྱི» (outer), which the machine text and the passage's English («the inner (5)», no number 4) do not have. Not settled.
+3. Line 19, «ཟླ» after «ལོ(༡)»: smudged, read from the sense (year, month).
+4. Line 21, «ཉིན་ཞག(༡༣)»: the second digit differs from that of «(༡༢)» a line earlier (a vertical stem against a swinging tail); read «༣», which the order asks; at 3.5x only.
+
+## <a id="wb-2-p237c"></a>wb.2:p237c Rāhu's course by the date, p. 237: all twenty-eight lines read by eye on the reprint, two corrections, one doubt
+
+*Read: machine, 2026-11-17.*
+
+> [p. 237]
+> གཉིས་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གསུམ་ནམ་ལངས་བྱང་ནས་ལྷོར། །བཅུ་བཞི་སྔ་དྲོ་མཁའ་ནས་མཚོར། །བཅོ་ལྔ་ཉི་
+> ཕྱེད་མགོ་སྲིན་པོ། །བྷི་ཏར་སྤྲུལ་ནས་འཁོར་སྲིན་བརྒྱད། །དང་བཅས་ལྷོ་ནུབ་བྱང་ནས་ཤར། །བཅུ་དྲུག་ཉི་ནུབ་བྱང་
+> ཤར་ནས། །ལྷོ་ནུབ་ཏུ་རྒྱུ་བཅུ་བདུན་ལ། །ནམ་ཕྱེད་ནུབ་ནས་ཤར་ཕྱོགས་རྒྱུ། །བཅོ་བརྒྱད་ནམ་ཕྱེད་མཇུག་མ་དག །ཀླུ་
+> བདུད་རཱ་ཛར་སྤྲུལ་ནས་འཁོར། །ཀླུ་བཅས་ལྷོ་ནུབ་བྱང་ཤར་རྒྱུ། །བཅུ་དགུའི་སྔ་དྲོ་དང་པོ་ལ། །ལྷོ་ནས་བྱང་ཕྱོགས་ཉི་ཤུ་
+> ལ། །ཉི་ཕྱེད་ཤར་ལྷོ་ནས་ནུབ་བྱང་། །ཉེར་གཅིག་སྐྱ་རེངས་ཤར་ནས་ནུབ། །ཉེར་གཉིས་ཉི་མ་ཕྱེད་ཡོལ་ལ། །གཤིན་རྗེ་
+> དུ་བ་མཇུག་རིངས་སུ། །སྤྲུལ་འཁོར་ལྔ་བཅས་ནུབ་བྱང་ནས། །ཤར་ལྷོར་རྒྱུ་ཞིང་ཉེར་གསུམ་ལ། །ཉི་ཕྱེད་ནུབ་བྱང་ནས་
+> ཤར་ལྷོ། །ཉེར་བཞི་ཉི་ཕྱེད་བྱང་ནས་ལྷོར། །ཉེར་ལྔ་སྐྱ་རེངས་ཤར་བའི་དུས། །དཔུང་གཡས་ཀླུ་བཙན་ཁྱབ་འཇུག་སྤྲུལ། །
+> ཀླུ་བཙན་གྱིས་བསྐོར་ལྷོ་ནས་བྱང་། །ཉེར་དྲུག་ནམ་གྱི་ཕྱེད་ཡོལ་དུས། །ཤར་ནས་ནུབ་རྒྱུ་ཉེར་བདུན་གྱི། །ནམ་ཕྱེད་ལྷོ་
+> ནུབ་ནས་བྱང་ཤར། །ཉེར་བརྒྱད་ཐོ་རེངས་བྱང་ནས་ལྷོར། །ཉེར་དགུའི་ཉི་མ་མདུང་གང་ལ། །དུམ་བུ་བརྒྱད་པོ་གཅིག་
+> ཏུ་དྲིལ། །སྙིང་མིག་མཆེ་བ་སྒྲ་གཅན་འཛིན། །སྤྲུལ་ཏེ་བགེགས་རིགས་ཀྱིས་བསྐོར་ནས། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་ཏུ། །
+> གནམ་གང་ལྷ་ཡི་འདུན་ས་ནས། །སྟེང་འོག་ཕྱོགས་མཚམས་ཁྱབ་པར་རྒྱུ། །དེ་ནས་ཕྱི་ལྟར་རྒྱུ་བའི་ལུགས། །དུས་བརྒྱད་
+> རྒྱུ་ཚུལ་རགས་པ་ཙམ། །གོང་གི་ནུ་རུར་གཏོགས་མོད་ཀྱང་། །ད་དུང་ཞིབ་པར་འདི་ལྟར་ཡོད། །ཚེས་བཞིའི་ཉི་ནུབ་ནུབ་
+> ཏུ་འཇུག །ཤར་དུ་སྲོད་རྒྱུ་ལས་དོན་གཉེར། །བག་མ་བླང་ཞིང་ཚོང་བྱ་བ། །ཤིང་གཅོད་དཀར་ཆོས་ཆང་བཅོ་བཟང་། །
+> མི་ཤི་ཆོས་སྟོན་འཐབ་མོ་འདུམ། །སྤང་ཞིང་ཞག་གཉིས་ཤར་དུ་གནས། །ཚེས་དྲུག་ནང་པར་ནུབ་ཏུ་འཁོར། །བཟློག་དུས་
+> ཧོམ་སྤར་སེར་འབེབས་བཟང་། །ཚེས་བརྒྱད་ཤར་ནས་ཤར་ལྷོར་འཇུག །སྔ་དྲོ་ནུབ་བྱང་མཚམས་སུ་རྒྱུ། །ཞལ་ཆེ་དགྲ་
+> རྒོལ་རྐུན་མ་བྱ། །མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ། །གོས་འཚེམ་བག་མ་ཁྲུས་ངན་ནོ། །ཞག་གསུམ་ནུབ་བྱང་ཕྱོགས་སུ་
+> གནས། །བཅུ་གཅིག་སྲོད་ལ་འཁོར་རྣམས་བཟློག །བསད་པ་སྙིང་ཐུན་ལས་བྱའོ། །བཅུ་གཉིས་བྱང་སྒོར་སྲོད་ལ་འཇུག །
+> ནམ་བྱིང་བྱང་ནས་ལྷོ་རུ་རྒྱུ། །ཁྲུས་དང་སྟོན་མོ་བུ་ལོན་འཇལ། །སྐྲ་འཁྲུ་བཟང་ཞིང་ས་བོན་གདབ། །བྲན་ཉི་རྐང་འགྲོས་
+> འདུལ་བ་ངན། །ཞག་གཉིས་ལྷོ་ཡི་ཕྱོགས་དེར་གནས། །བཅུ་བཞི་ཉི་ཕྱེད་འཁོར་རྣམས་བཟློག །སེར་བ་དང་ནི་བྲུབ་ལས་
+> བཟང་། །བཅོ་ལྔའི་སྔ་དྲོ་ལྷོ་ནུབ་འཇུག །ཉི་མ་ཕྱེད་ན་བྱང་ཤར་རྒྱུ། །ལྷ་གསོལ་གཡང་སྐྱབས་ཚུར་ལེན་དང་། །སྒྲུབ་པ་
+> དབང་བསྐུར་ཆོས་སྤྱོད་བཟང་། །ཕར་འཇལ་མནའ་སྐྱེལ་བག་མ་དང་། །བུ་འབོགས་ངན་ཞིང་ཞག་གཉིས་བར། །བྱང་
+> ཤར་མཚམས་སུ་གནས་བྱས་ནས། །བཅུ་བདུན་ནམ་ཕྱེད་ལྷོ་ནུབ་ལྡོག །ཐོག་སེར་དབབ་པའི་ལས་ལ་ཤིས། །བཅོ་བརྒྱད་
+> ནམ་ཕྱེད་ཤར་དུ་འཇུག །ནམ་ཕྱེད་ཡོལ་ལ་ནུབ་ཏུ་རྒྱུ། །དེ་ལས་རབ་བྱུང་ལྷ་ཁང་དང་། །མཆོད་རྟེན་ལམ་ཞུགས་དམག་
+> དྲངས་བཟང་། །མནའ་སྐྱེལ་ཕྱག་འཚལ་མཁར་ལས་དང་། །སྒོ་འཛུགས་ཐོག་འབུབས་སྒོ་ཡོལ་ངན། །ཞག་གསུམ་ནུབ་
+> གནས་ཉེར་གཅིག་གི །ཉིན་གུང་འཁོར་ལྡོག་དྲག་ལས་བཟང་། །ཉེར་གཉིས་ཉི་ཕྱེད་ནུབ་བྱང་འཇུག །མྱུར་ཆུང་ལ་ནི་
+> ཤར་ལྷོར་འཇུག །བཟོ་དང་ཡིག་རྩིས་སློབ་པ་དང་། །ཆུ་འདྲུ་གཏད་བཟང་འདུན་མ་བྱ། །ཁང་དུར་ས་བཙལ་རྐང་
+> འགྲོས་འདུལ། །ངན་ཞིང་ཞག་གཉིས་ཤར་ལྷོར་གནས། །ཉེར་བཞིའི་ཉི་ཕྱེད་ཡོལ་ལ་ལྡོག །ཐོག་སེར་དབབ་པའི་ལས་
+> དག་བྱ། །ཉེར་ལྔའི་ནམ་ཕྱེད་ལྷོ་རུ་འཇུག །སྐྱ་རེངས་ཤར་དུས་བྱང་དུ་རྒྱུ། །ཞིང་ཉོ་མཁར་ལས་བྱེད་པ་བཟང་། །ནོར་
+
+Page 237 (Gser thang reprint I3CN5029 img. 243 = page 237, 28 lines), every line read in bands of four lines, left half and right half each at 1.7x (the right half overlapping the left), and compared syllable group by syllable group with the machine text (the 1996 print's Yigdzin-1 text, as in wb.2:p236-237, with the six places of wb.2:p237b already settled). Yigdzin-1 was not run again (no free slot).
+
+Two places the machine text has otherwise than the scan:
+
+- Line 16, «མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ» (the oath-sending is good, washing the hair): the machine text has «སྒྲ་འཁྲུ་བ». At 5x the stack before «འཁྲུ» is the same shape as the stack in line 18's «སྐྲ་འཁྲུ་བཟང» (read in wb.2:p237b), so it is the same word; «སྐྲ་འཁྲུ་བ» is the word of the other line, «སྒྲ་འཁྲུ» is no word known to the passage. The hanging of clothes, the taking of a bride and the washing (the body) are bad in the next clause.
+- Line 27, «ཐོག་སེར་དབབ་པའི་ལས» (the work of bringing down hail): the machine text has «བའི». At 6x the first letter has no inner counter as the «བ» of «དབབ» has: «པའི», as at line 22.
+
+Not changed: the machine text's «ཆང་བཅོ་བཟང» of line 13 stays, with the doubt of wb.2:p237b (the base letter of the syllable before «བཟང» is «ཅ» at 5x, not «ཙ», its top carries the vowel «ོ» as «ཆོས» above it has; «བཅོ» against «བཙོ» is not settled by the glyph, and the 1996 text read «བཅོ»). At the other lines nothing was seen that differs; the lines were not enlarged above 1.7x except the five named here, so a single letter's difference (the vowel signs, «ད» against «ན») in an unenlarged syllable could have been missed. The page stays machine-corrected.
 
 ## <a id="wb-2-p240"></a>wb.2:p240 The close of chapter 31: what was kept from the tantras and what was cast out
 
