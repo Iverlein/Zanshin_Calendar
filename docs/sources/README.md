@@ -2767,6 +2767,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | open; cites wb.1:p74 |
 | [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | open; cites wb.1:p74 |
 | [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | open; cites wb.1:p73 |
+| [questions/q1322.md](questions/q1322.md) | question q1322 | WB ch. 13 p. 154: do the 11th head's day and night stacks (36 and 33 in the upper tier by the page's own digit forms) not make a day-and-night of 60, and which figure is another digit? | open; cites wb.1:p154g |
+| [questions/q1323.md](questions/q1323.md) | question q1323 | WB ch. 13 p. 166: is the second upper figure of the 7th head's night-length stack a thin 3 (37 + 23 = 60) or an 8? | open; cites wb.1:p166e |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
