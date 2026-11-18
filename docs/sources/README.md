@@ -1660,8 +1660,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 scan |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
 | [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 106 passages: 84 scan, 22 machine |
-| [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
-| [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
+| [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 scan |
+| [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 scan |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 17 scan |
