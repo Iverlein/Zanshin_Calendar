@@ -357,6 +357,35 @@ The rat day's three lines (WB vol. 2, p. 224) on three more witnesses; the words
 
 How this earth lord stands in the house: the earth lord called Khar-bu (ཁར་བུ, khar bu), or the twelve of the sun's harm (ཉི་མའི་གདུག་པ་བཅུ་གཉིས, nyi ma'i gdug pa bcu gnyis), or the sky's wheel-son (གནམ་གྱི་འཁོར་བུ, gnam gyi 'khor bu) and the like, are one in essence; then the rat day's seat at the beer jar follows. The Bhutan collection's verse puts "the day god, the yellow golden treasury, and the earth lord Khru-lu" (ས་བདག་ཁྲུ་ལུ, sa bdag khru lu) directly before the same seat, the mouse day (lower north) at the beer jar, with the same strained-beer line and the remedy as p. 224. The page-224 part is the 1996 print's etext (I1KG12907 etext p. 232), the Bhutan part its machine text; neither read on the scan in this session.
 
+## <a id="wb-2-p224e"></a>wb.2:p224e The earth lord of the day's animal in the house, p. 224 read line by line on the reprint scan
+
+*Read: machine, being read on the scan, 2026-11-18: lines 1-10 confirmed (below); lines 11-29 not yet.*
+
+> [p. 224, I3CN5029 img. 230, 29 ink lines]
+> 1 གྱི་བྱ་བ་འཛེམ། །ཀོ་ལོང་བཟའ་ཚང་ཀུན་དང་ནི། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ལ་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་
+> 2 དང་། །སྡོང་པོ་རྒྱན་པ་འདོན་པར་བྱ། །ཀླུ་བརྒྱད་དོང་ཙེ་སྤོམ་གཏའ་དང་། །ཨུར་གནོན་བྱ་ཞིང་སྒྲིབ་པ་ན། །གནའ་བའི་
+> 3 ཐོད་དང་ངར་ཟན་སྔོན། །རྐོ་ཟོར་བཙུགས་པ་ཉི་སྟེང་བཞག །
+> 4 ༈ འདི་ཉིད་ནང་དཔྱད་ལ་གནས་ཚུལ། །ས་བདག་ཁར་བུ་ཞེས་བྱའམ། །ཉི་མའི་གདུག་པ་བཅུ་གཉིས་སམ། །
+> 5 གནམ་གྱི་འཁོར་བུ་ཞེས་པ་སོགས། །ངོ་བོ་གཅིག་ཡིན་འདི་ལྟར་རོ། །༧བྱི་བའི་ཉི་མར་ཆང་རྫར་གནས། །དེ་ལ་གཤིན་གྱི་
+> 6 ཆང་བཙགས་ན། །ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །
+> 7 ༧གླང་ཉིར་བང་མཛོད་དག་ལ་གནས། །གཤིན་གྱི་ནས་བཏོན་འདོན་མཁན་དང་། །བྲེ་ཁ་བ་ལ་ངན་པ་ཡིན། །བང་བའི་
+> 8 ཁ་ནས་འབྲུ་ཡི་ཕུད། །ཕྱོགས་བཞིར་གཏོར་ཞིང་བང་བ་ལ། །བུག་པ་ཕུག་ནས་བཏོན་ན་བཟང་། །༧སྟག་ཉིར་སྒོར་
+> 9 གནས་རོ་མི་འདོན། །སྒོ་ལ་རོ་ཐུག་ཁྱིམ་བདག་ངན། །ཁང་པའི་ཐོག་གམ་བུག་པར་འདོན། །ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་
+> 10 བཞག །༧ཡོས་ཉིར་གཡག་ཤིང་དག་ལ་གནས། །རོ་ཁུར་གཡག་ཤིང་ལ་འཇུས་ན། །བུ་ཚ་བུ་མོར་ངན་པ་ཡིན། །རོ་ཁུར་
+
+Verdicts, line by line (half-lines at 2x on the reprint, flagged stacks at 5-8x; no machine reading counted as truth):
+
+- Line 1: confirmed, every syllable as RD56's machine text.
+- Line 2: confirmed; «སྤོམ་གཏའ» as printed.
+- Line 3: confirmed. The glyph before «ཟོར» is «རྐོ» (ra-head over ka, the o-vowel on the stack's top) read at 7x: the stack's foot is ka's, with no subjoined ra's hook, so it is not «ཀྲོ»; the machine reading's «རྐོ་ཟོར» stands (MITRA's «ཟོ་ཟེར» is its own error).
+- Line 4: confirmed.
+- Line 5: confirmed.
+- Line 6: one correction. The word before «མ་ཕུད» is «སྦྲང», not RD56's machine «སྤང»: at 8x the stack has the head, ba's bowl and a closed subjoined ra at its foot, the same shape as «སྦྲུལ» in line 12 (the snake day's «༧སྦྲུལ་ཉིར»), and as RD63 read it on the same scan. The rest confirmed («ཆང» with ཆ; «བཙགས», «ཡོལ་བས», «འཚག», «ཡོ་ནས»).
+- Line 7: confirmed.
+- Line 8: confirmed.
+- Line 9: confirmed.
+- Line 10: confirmed («བུ་ཚ» with ཚ; «འཇུས»).
+
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
 *Read: machine, 2026-10-25.*
