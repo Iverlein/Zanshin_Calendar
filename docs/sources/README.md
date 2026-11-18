@@ -1655,9 +1655,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 6 scan, 1 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 9 scan, 3 machine |
-| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 2 scan, 7 machine |
+| [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 scan |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 102 passages: 80 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 103 passages: 81 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 machine |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 machine |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
@@ -1681,7 +1681,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 47 passages: 26 scan, 20 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 60 passages: 34 scan, 26 machine |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 61 passages: 35 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 24 passages: 18 scan, 5 machine, 1 etext |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
@@ -2760,6 +2760,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | open; cites wb.2:p407-411 |
 | [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
 | [questions/q1316.md](questions/q1316.md) | question q1316 | WB vol. 1 p. 16 lines 15–18 and 22–28: the syllables and the letter rows | open; cites wb.1:p16 |
+| [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | open; cites wb.1:p77 |
+| [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | open; cites wb.1:p74 |
+| [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | open; cites wb.1:p74 |
+| [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | open; cites wb.1:p74 |
+| [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | open; cites wb.1:p73 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
