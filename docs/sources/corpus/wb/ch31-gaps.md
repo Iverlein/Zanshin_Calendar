@@ -359,7 +359,7 @@ How this earth lord stands in the house: the earth lord called Khar-bu (ཁར�
 
 ## <a id="wb-2-p224e"></a>wb.2:p224e The earth lord of the day's animal in the house, p. 224 read line by line on the reprint scan
 
-*Read: machine, being read on the scan, 2026-11-18: lines 1-10 confirmed (below); lines 11-29 not yet.*
+*Read: machine, being read on the scan, 2026-11-18: lines 1-20 confirmed (below); lines 21-29 not yet.*
 
 > [p. 224, I3CN5029 img. 230, 29 ink lines]
 > 1 གྱི་བྱ་བ་འཛེམ། །ཀོ་ལོང་བཟའ་ཚང་ཀུན་དང་ནི། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ལ་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་
@@ -372,6 +372,16 @@ How this earth lord stands in the house: the earth lord called Khar-bu (ཁར�
 > 8 ཁ་ནས་འབྲུ་ཡི་ཕུད། །ཕྱོགས་བཞིར་གཏོར་ཞིང་བང་བ་ལ། །བུག་པ་ཕུག་ནས་བཏོན་ན་བཟང་། །༧སྟག་ཉིར་སྒོར་
 > 9 གནས་རོ་མི་འདོན། །སྒོ་ལ་རོ་ཐུག་ཁྱིམ་བདག་ངན། །ཁང་པའི་ཐོག་གམ་བུག་པར་འདོན། །ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་
 > 10 བཞག །༧ཡོས་ཉིར་གཡག་ཤིང་དག་ལ་གནས། །རོ་ཁུར་གཡག་ཤིང་ལ་འཇུས་ན། །བུ་ཚ་བུ་མོར་ངན་པ་ཡིན། །རོ་ཁུར་
+> 11 གཡག་ཤིང་མི་རེག་གམ། །ཡང་ན་གཡག་ཤིང་ཕྱུངས་ལ་འདོན།། ༧འབྲུག་ལ་རང་འཐག་ལ་གནས་པས། །གཤིན་རྩམ་
+> 12 རང་འཐག་ལ་བཏགས་ན། །ཕྱེ་མཁན་དང་ནི་ཞང་བློན་འཆི། །རང་འཐག་ཁ་ཕྱེ་ལྟེ་ཕྱེ་གཏོར། །༧སྦྲུལ་ཉིར་རོ་ཐག་ལ་
+> 13 གནས་པས། །ཐག་པས་རོ་དྲངས་རོ་ཁུར་འཆི། །ཐག་པ་གཞན་གྱིས་དུམ་གསུམ་གཏུབས། །སླར་ཡང་མཐུད་ནས་ཁུར་བ་
+> 14 དང་། །སླར་ཡང་གྲིས་གཏུབས་ལམ་ཁ་རུ། །གཟིངས་ལ་བཞག་པས་ཉེས་པ་ཞི།།༧རྟ་ཉིར་སྒར་གནས་སྒ་གོང་དུ། །རོ་
+> 15 བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན། །༧ལུག་ཉིར་གཞོང་པ་
+> 16 ལ་གནས་པས། །གཞོང་པར་ཟན་བརྫིས་ཟན་མར་ངན། །ཟན་མར་ཟངས་སམ་ཕྱར་སྟེང་བརྫི། །ཞག་སར་ཟན་གྱི་མི་
+> 17 གཟུགས་བསྐྱོན། ༧སྤྲེལ་ཉིར་གྲི་དང་སྟ་རེ་ལ། །དེ་ཡིས་ཤ་གཏུབས་གཏུབ་མཁན་འཆི། །སྟ་རེ་གྲི་རྣམས་མེ་ལ་བསྲེག །
+> 18 ༧བྱ་ཉིར་སྡེར་མ་དག་ལ་གནས། །གཤིན་ཟས་སྡེར་དུ་དྲངས་པ་ན། །གྲེལ་དཔོན་ལ་ངན་ཡང་ན་ནི། །གློ་བུར་ཡེ་འདྲོག་
+> 19 འབྱུང་བས་ན། །སྡེར་མེད་རྡོ་ལེབ་བྱེད་པའམ། །ཡང་ན་སྣམ་སྟེང་སྤར་ཟན་བྱ། །༧ཁྱི་ཉིར་ཡ་ཐེམ་མ་ཐེམ་གནས། །ཐེམ་
+> 20 པར་རོ་ཐུག་ཕ་ཁུར་ངན། །ཡང་ན་རོ་ཁུར་དེ་ཉིད་འཆི། །ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ། །མྱ་ངན་ཆང་ཡང་མི་འཐུང་
 
 Verdicts, line by line (half-lines at 2x on the reprint, flagged stacks at 5-8x; no machine reading counted as truth):
 
@@ -385,6 +395,9 @@ Verdicts, line by line (half-lines at 2x on the reprint, flagged stacks at 5-8x;
 - Line 8: confirmed.
 - Line 9: confirmed.
 - Line 10: confirmed («བུ་ཚ» with ཚ; «འཇུས»).
+- Lines 11-14: confirmed. Line 11 reads «གཡག་ཤིང»; line 12 has «སྦྲུལ» at its end (the glyph compared with line 6); line 13 «རོ་ཁུར»; line 14 «གཟིངས».
+- Line 15: confirmed except one glyph named. The two «བང་ཕྱིན» of the line (the horse's carrying, as the line stands) are the same glyph twice at 7x, so they are read alike; the first is «ཕྱིན» (the 1996 print and MITRA have «ཕྱིན»; Yigdzin-1 on the reprint «བྱིན»). The head's curl that tells ཕ from བ is faint in this printing: if the first were «བྱིན» the second would be too, which the print's own text does not give.
+- Lines 16-20: confirmed.
 
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
