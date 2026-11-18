@@ -472,7 +472,7 @@ What the scan shows. All the lines read agree with the 1996 print's Yigdzin-1 te
 
 ## <a id="wb-2-p233b"></a>wb.2:p233b The earth lords' turning, Spug ston's view and the gnyan's moving times, p. 233, read on the reprint scan
 
-*Read: machine, corrected on the scan 2026-11-17: every line read on the reprint, but the 27th or 28th of lines 24 and 25 («ཉེར་བརྒྱད» on the reprint, «ཉེར་བདུན» in the 1996 print) is a named doubt, so the passage is not raised to scan.*
+*Read: scan, 2026-11-18 (x19); every line read on the Gser thang reprint on 2026-11-17 and corrected; one named doubt: the number of lines 24 and 25, «ཉེར་བརྒྱད» (28th) on the reprint against «ཉེར་བདུན» (27th) in the 1996 print, not settled by the glyph; not re-read in this pass.*
 
 > རའི་བཅུ་གསུམ་བཅུ་དྲུག་པར། །གནོད་སྦྱིན་དང་བཅས་སྤེལ་གླང་དུས། །བྱང་ཕྱོགས་ཁ་བལྟ་ཐེབས་པར་འགྱུར། །བརྒྱད་དགུ་བཅོ་བརྒྱད་ཉེར་དྲུག་ལ། །བྱི་བའི་དུས་སུ་བཟློག་པར་བཤད། །འབྲིང་པོའི་བཅུ་བདུན་ཉེར་གཉིས་ནས། །སྟོང་བར་གཤིན་རྗེ་དང་བཅས་ཏེ། །བྱི་རྟའི་དུས་སུ་ཤར་ལྷོར་ཐེབས། །ཉི་ཤུའི་བྱ་དུས་བཟློག་ཐ་མའི། །ཉེར་བདུན་ཁྱི་དུས་བཟློག་པ་ལས། །ཟླ་རིལ་ཉི་མ་མདུང་གང་དུས། །སྐྱེ་འགྲོ་ཁྲོམ་ལ་འདེབས་པས་ཐེབས། །ཁྱད་པར་ཉེར་དགུར་ལུས་དུམ་འཁྲིལ། །སྡེ་བརྒྱད་ཡོངས་བསྐོར་ཐེབས་པའོ། །ཐེབས་ལ་ཟོར་མདོས་གཏད་ཁྲོམ་རྦད། །དམག་ཇག་དྲག་ལས་ཕར་རྒོལ་བཟང་། །བཟློག་ལ་དེ་དག་སྤང་བར་བྱ།།
 > ༈ ས་བདག་བཟློག་པའི(༢༩)དུས་བསྟན་པ། །དཔྱིད་རའི་བཅུ་བདུན་བཅུ་དགུ་ལ། །འབྲིང་པོའི་གཅིག་བརྒྱད་ཐ་ཆུང་གི། །གནམ་སྟོང་དབྱར་རའི་གཉིས་ལྔ་ལ། །འབྲིང་པོའི་གསུམ་དང་ཐ་ཆུང་གི །བཅུ་གཅིག་སྟོན་རའི་ཉི་ཤུ་ལྔ། །འབྲིང་གསུམ་ཐ་ཆུང་ཚེས་གཉིས་ལ། །དགུན་རའི་བཅོ་བརྒྱད་འབྲིང་ཉེར་བདུན། །ཐ་ཆུང་བཅུ་བཞིར་ས་བདག་བཟློག །དམག་དྲང་རོ་གཏོང་གཏད་སེར་དབབ། །ཆར་འབེབས་ས་དབྱེ་ཀླུ་ཆོག་རྣམས། །གང་བརྩམས་ཚུར་བཟློག་བུ་མེད་ནོར། །རང་ཉིད་ཚེ་ཐུང་དབུལ་སྒབ་ངན། །ཞེས་དང་སྤུག་སྟོན་བཞེད་པའི་ལུགས། །དཔྱིད་ར་ལྔ་དང་སྟོང་ལ་གྲུབ། །བརྒྱད་ལ་ཡལ་འགྲོ་ཚེས་གཅིག་དང་། །དྲུག་ལ་ནོར་རྫས་ཕྱིར་མི་བཏང་། །ཡས་ལམ་ལྷོ་ནུབ་ཡོད་པའོ། །འབྲིང་པོའི་བརྒྱད་གྲུབ་དྲུག་ལ་ཡལ། །བཅུ་གཉིས་ལ་ནི་ནོར་མི་དབྱུང་། །ཡས་ལམ་ནུབ་བྱང་མཚམས་སུ་ཡོད། །༧ཐ་ཆུང་བཅོ་བརྒྱད་ལ་གྲུབ་ཅིང་། །དྲུག་ཡལ་བརྒྱད་ལ་ནོར་མི་དབྱུང་། །ཡས་ལམ་བྱང་ཤར་ཕྱོགས་སུ་ཡོད། །༧དབྱར་རའི་གཅིག་གྲུབ་དྲུག་ལ་ཡལ། །བརྒྱད་ལ་ནོར་ནི་ཕྱིར་མི་བཏང་། །ཡས་ལམ་ཤར་ལྷོ་འབྲིང་པོ་ལ། །བཅུ་དགུར་གྲུབ་ཅིང་ཉེར་དྲུག་ཡལ། །བཅུ་དྲུག་ནོར་དག་མི་དབྱུང་ཞིང་། །ཡས་ལམ་ནུབ་བྱང་དབྱར་ཐ་ཡི། །གསུམ་དྲུག་ཉེར་ཡལ་ཉེར་བརྒྱད་ལ། །ནོར་མི་དབྱུང་ཞིང་ཡས་ལམ་ནུབ། །༧སྟོན་རའི་བཅུ་དགུ་ཉི་ཤུ་དགུ། །ཚེས་དགུ་བྱང་ཤར་གོང་ལྟར་འགྲེ། །འབྲིང་པོའི་དགུ་དང་བཅུ་གཉིས་དང་། །བཅུ་དང་ཤར་ལྷོར་ཤེས་པར་བྱ། །༧སྟོན་ཐའི་བདུན་བཞི་ཉི་ཤུ་བདུན། །ནུབ་བྱང་ཡས་ལམ་གོང་ལྟར་སྦྱར། །༧དགུན་རའི་ཉེར་བདུན་དགུ་ཉི་ཤུ། །ལྷོ་དང་འབྲིང་པོའི་སྟོང་གཉིས་དང་། །བཅུ་གཉིས་ཡས་ལམ་ཤར་ལ་ཡོད། །ཉི་ཤུ་ལ་ཡང་ནོར་མི་བཏང་། །༧དགུན་ཐ་བཅུ་དགུ་དྲུག་གནམ་གང་། །ཡས་ལམ་བྱང་ཤར་ཡོད་པའོ། །གྲུབ་ལས་ས་བདག་བཅོས་རིམ་བཟང་། །ཡལ་ལ་མི་ཕན་རང་ལ་བཟློག །ནོར་ཕྱུགས་བཏང་ན་ར་བ་སྟོངས། །ཡས་ཐགས་ཕྱོགས་དེར་བཏང་བ་བཟང་། །
@@ -715,7 +715,7 @@ Not changed: the machine text's «ཆང་བཅོ་བཟང» of line 13 st
 
 RD65, 2026-10-28: questions 404, 405, 432 and 433 on the other witnesses (the Zhol print I1KG1710 and the Taikhang print I5878 over the passages, Yigdzin-1 on each, the doubtful stacks by eye; the 1996, Sakya Centre, Zhol-impression and Gser thang etexts; the Bhutan collection I1KG11905; BDRC's full-text search by `bdrc_search.py`). Passages p224c, p236c, p186c and p185c above; claims `wb-rat-day-lines-on-all-prints`, `wb-spra-khyim-is-a-tent`, `wb-sun-klung-is-the-days-klung-rta`, `wb-hal-khyi-pairs-no-seat-on-any-print`. Settled: the word of p. 236 is a tent. Narrowed: the rat day's «ཡོ་ནས» (a syllable «ཁ» stands before it in the Bhutan table), the sun's klung (a klung-horse counted by the sun, probably the day's). Not settled: «སྦྲང་མ་ཕུད», the sense of «ཡོ་ནས», why a tent, the seats of the hal khyi's mothers and sons.
 
-**Open**
+**Open*
 
 Question: On p. 224 the rat day's remedy ends «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན»; a Bhutan table of the twelve days gives the same as «ཁ་ཡོ་ནས། འདྲེན།» — what is the «ཡོ» (with or without the «ཁ» before it), the place the corpse is led out from, and is the «འདྲེན» the corpse's or the beer's?
 
@@ -727,7 +727,7 @@ Question: On p. 186 Langging the red is produced «ཉི་མའི་ཀླ�
 
 Question: On p. 185, where do the black hal khyi's five mothers and five sons sit in their twenty-two-day turns, and what do the nine numbers «༡༧ … ༢༥» after the hal khyi's own «༡༦» number?
 
-**Searched and not found**
+**Searched and not found*
 
 - Notes of vol. 2 (pp. 474–545; the 1996 etext p. 480 ff.; Mipham's black-reckoning notes, whose close, p. 538, says they cover WB's black reckoning only): searched for «སྦྲང་མ», «ཡོལ་བས་སྒྲིབ», «ཐེམ་བུར», «སྦྲ་ཁྱིམ», «སྤྲ་ཁྱིམ», «ཉི་མའི་ཀླུང», «མ་ལྔ་བུ་ལྔ», «ཧལ་ཁྱི»: no gloss of any of ch. 31's four passages; «ཧལ་ཁྱི» occurs on pp. 526, 529, 539 in the notes' own matters (the funeral earth lords, the marriage), «ཐེམ་བུ» on p. 530 in the potter's threshold rite, both not about these lines.
 - Sakya Centre print (WB2, I1KG12739–40, BDRC etext IE0OPI0BA3A0E0): its etext is too corrupt for a phrase search (the four phrases do not occur in it as typed), its scans are 1210 px wide: not read.
@@ -795,13 +795,13 @@ Mipham's notes on WB (vol. 2, p. 530, the notes' section on the bride's departur
 
 RD72, 2026-10-28: questions 442, 443, 439, 28, 29, 35 and 36 against WB's own other uses of the words, the notes, the year charts of vol. 1 and Steinert's dictionaries. Passages p99c, p210a, p376c, p498b, p515b, p530b (scan) and wb.1:p116-121 (machine); claims `wb-nyi-dus-is-the-day-and-hour`, `wb-dur-is-one-of-the-four-slayer-animals`, `wb-year-charts-hold-names-only`, `wb-klung-is-the-klung-horse-year`. Settled in sense: «ཉི་དུས» is the day and the hour (q442, q29). Narrowed: the «དུར» is one of ox, sheep, dog, dragon, the count for the months not said (q443, q28); the klung is an animal (q35). Not settled: the mothers' and sons' seats (q36), q439.
 
-**Open**
+**Open*
 
 Question: On p. 219 does the light-clearer's «དུར» in the tiger, snake, monkey and pig months follow the element of the month's animal (sheep, dog, ox, dragon: wood, fire, iron, water; the rule of the dictionaries and of the notes' tiger-hare example) or the triads of ch. 23 (dog, ox, dragon, sheep)?
 
 Question: On p. 210, when Wangkhyi's «གླང་གི་ཉི་མ་དུས་ཚོད» is "the ox's day and hour", must the ox day and the ox hour fall together (the notes' «ལུག་གི་ཉི་མ་དང་དུས་ཚོད»), or is the ox day at any hour, or the ox hour on any day, enough?
 
-**Searched and not found**
+**Searched and not found*
 
 - Steinert's 64 dictionaries (`locate.py dict`, a fresh clone, Wylie headwords), 2026-10-28: «nyi dus», «nyi ma dus tshod», «nyi ma'i dus tshod», «nyi ma'i klung», «wang khyi» (Hopkins only: a sa bdag monster), «wang ging», «lang ging», «ma lnga bu lnga», «dur nyi», «dur gyi steng», «dur lo», «dur mi», «gshed bzhi», «dur 'phrod» have no headword that glosses them; «dur mig», «rang dur» and «klung rta» only in no. 62 (used in the claims).
 - BDRC's full-text search, 2026-10-28: «ཉི་དུས» (299 hits, almost all run-ons of other words in sadhanas, e.g. «pad nyi dus mtshan», not this term; the astrological hits are WB's copies), «ཉི་མ་དུས་ཚོད» and «ཉི་མའི་དུས་ཚོད» (51 and 68 hits: WB's own pages, the *Rin chen gter mdzod* («phyogs ngan nyi ma dus tshod ngan pa zlog», the bad direction's day-time turned back), Karma chags med's «zla ba nyi ma dus tshod dang», the month, the day and the hour, listed in a row), «ཝང་ཁྱི» (WB's copies, the Bhutan collection, the 1996 and Gser thang etexts), «ཝང་གིང», «དུར་ཉི» (54 hits, WB's pages and Bon scriptures): none gives a gloss of Wangkhyi's «ཉི་དུས» or of the light-clearer's «དུར».
@@ -830,13 +830,13 @@ The rat day's lines of p. 224 (passages p224b and p224c above) read against the 
 
 **Q433, the hal khyi's mothers and sons.** «ཧལ་ཁྱི» is in no dictionary but as the Dzongkha abbreviation (Laine, «ཧལ་ཡི»), and «མ་ལྔ་བུ་ལྔ» in none. The dictionaries have «མ་བུ» (ma bu) as "mother and son", "in the Chinese reckoning, the mother-son of the elements" (*Tshig mdzod chen mo*: «ནག་རྩིས་ཀྱི་འབྱུང་བ་མ་བུ», Ives Waldo "tech. in CH divination"), the relation of an element and the one it generates: so the five mothers and five sons of the hal khyi are probably the five elements' pairs, five and five; the seats and the order are in none of them.
 
-**Open**
+**Open*
 
 Question: On p. 224 the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (WB vol. 1, p. 133's table: «ཁ་ཡོ་ནས་འདྲེན»): the beer of the dead is not strained at the threshold (the verb is «to strain»), but what is «ཡོ» («ཁ་ཡོ»), the mouth of the jar askew, and what is served or led from it?
 
 Question: On p. 224 «ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» is the first portion scattered and a cloth drawn over (the jar, the beer, the dead's seat?), but what does «སྦྲང་མ» (bee) stand for in «སྦྲང་མ་ཕུད་གཏོར»: a bee's honey, a misprint, or the beer's name?
 
-**Searched and not found**
+**Searched and not found*
 
 - Steinert's 64 dictionaries (2026-10-28, `locate.py dict`): no headword «ཡོ་ནས», «ཁ་ཡོ་ནས», «ཧལ་ཁྱི», «ཉི་མའི་ཀླུང», «མ་ལྔ་བུ་ལྔ»; «ཁ་ཡོ» only in Valby ("mouth crooked"); «ཡོ» alone as "crooked", "all", or a figure; «ཁ་ཡོག» is "false charge".
 - BDRC full-text search, 2026-10-28: «ཁ་ཡོ་ནས་འདྲེན» (0 hits); «ཁ་ཡེ་ནས་འདྲེན» (1: the Bhutan collection's table); «ཡོ་ནས་འདྲེན» (8: WB's five copies, the Bhutan collection, two copies of Ngawang Kunga Sonam's sentence); «ཁ་ཡོ་ནས» (3, all the Bon *Klu 'bum* collections: a sick man «ཁ་ཡོ་ནས», not a source and not about this line); «ཁ་ཡོ» (628 hits, not read through): no text that glosses WB's pair.
@@ -948,7 +948,7 @@ The second table of p. 133 is a ring of twelve cells like the first, but each is
 
 **The la-knower.** The la-knower («བླ་མཁྱེན») is a name in the second table's cells and carries an animal in each; the first table has none. The la-knower of vol. 2, pp. 224–225 may be the one of these cells; the cell does not say, and no link is made here.
 
-**Open**
+**Open*
 
 Question: In the lower table of WB vol. 1, p. 133, each time of the day names its la-knower («བླ་མཁྱེན») with an animal (tiger at midnight and at sunrise; pig for the ox, snake and bird; monkey for the horse, sheep, monkey and pig), but how is that animal chosen, and does the day's own animal or the time's animal give the la-knower of a day?
 
@@ -956,7 +956,7 @@ Question: In the upper table each cell ends with a name of the «གཉན» kin
 
 Question: In the upper table the hearth god's side («ཐབ་ལྷ་…») is read by the machine readers as east, south, west or «ཐབ་འོག» with disagreements («ཐབ་ལྷ་སྲུང» for the rat); which side is it in each cell?
 
-**Searched and not found**
+**Searched and not found*
 
 - The 1996 print's cells (I1KG12906 img. 143, p. 133): 670 px wide, the text of each cell about 12 px high with the reverse page showing through; not read, the layout only compared with the Gser thang page (2026-10-28).
 - Whole-page Yigdzin-1 on I3CN5028 img. 140: five characters («༄༅། །»), the model reads no table cell on the full page; the cells were cropped one by one.
@@ -970,11 +970,11 @@ RD76, 2026-10-28: questions 445, 444 and 36 on the other prints. The Zhol print 
 
 RD76, 2026-10-28: questions 445, 444 and 36. Passages p210d, p219d (Zhol and Taikhang, scan and machine) and wb.1:p138-140 (the almanac cell, scan); claims `wb-wangkhyi-lines-on-zhol-and-taikhang`, `wb-light-clearer-steng-on-zhol-and-taikhang`, `wb-almanac-cell-dragon-nyi-dus-west`. Narrowed: all prints carve the same lines on p. 210 and p. 219, so the open points are not misprints but WB's own meaning; the almanac writes Wangkhyi's day-time as an animal with a direction. Not settled: whether the ox day and ox hour must coincide (q445), the grave's animal by month (q444), the seats of the mothers and sons (q36).
 
-**Open**
+**Open*
 
 Question: Does a reckoner's own gloss (a living almanac maker's, the *Moonbeams*', the Sde-srid's replies) say whether Wangkhyi's «ཉི་མ་དུས་ཚོད» of p. 210 is met only when the day and the hour are both the animal's, or by either?
 
-**Searched and not found**
+**Searched and not found*
 
 - Zhol print, Taikhang reproduction (vol. 2) and Sakya Centre print: the ox's line of p. 210 and the light-clearer's of p. 219 (Zhol img. 925 and 935, Taikhang img. 307 and 317, Sakya img. 309): the words are those of the 1996 print and the Gser thang reprint; no variant that separates the day from the hour, no animal named for the grave in any month.
 - The Sakya Centre print's scans (I1KG12740, 1210 px wide, 190 px high a page): Yigdzin-1 gives a garbled text of the page (img. 295, 296 are other pages; img. 309 holds Wangkhyi), and p. 219 (img. ~317-319) was not fetched: the print is unreadable at that size beyond what the etext shows, which is the same corruption as RD65 found.
@@ -985,11 +985,11 @@ Question: Does a reckoner's own gloss (a living almanac maker's, the *Moonbeams*
 
 RD87, 2026-10-28: pp. 185–186 line by line on the Gser thang reprint (I3CN5029 img. 191–192, crops 1x to 2.8x; no model run, no new scan). Settled by the scan: the print's numbers: hal khyi 16, a bracket of nine numbers 17–25, then Dkar-sham 26, Sbal-te 27, Langging 28, Tsang-kun 29 (the pool's «no. 19» for Langging is its own order); «ཀླུང» in Langging's line stands again; no line of p. 185 gives a seat to any mother or son. Not settled: the seats and the order of the mothers and sons, the meaning of the nine numbers, the sun's klung.
 
-**Open**
+**Open*
 
 Question: On p. 185 the print carves nine numbers (17–25) after «མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ» and the next lord, Dkar-sham, is 26, although five mothers and five sons are ten: which places do the nine numbers count, and does the hal khyi's own place or one of the sons share one?
 
-**Searched and not found**
+**Searched and not found*
 
 - A seat, a direction or an order of the pairs for the hal khyi's mothers and sons in the verse, the note and the remedy lines to the foot of p. 185 (Gser thang reprint img. 191, read line by line by eye, 2026-10-28): none; the lines say only 22 days to each pair and 110 in all.
 - The word of the sun's klung explained in the four blocks of p. 186 (img. 192, by eye): the block of Langging gives the table of twelve year-pairs and the line «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད» and no gloss; Dkar-sham and Sbal-te give a seat and a turn (to the left, three days after), Tsang-kun a turn sixteen days after.
@@ -1002,7 +1002,7 @@ Answered: question 460 (the last names are the day's earth lords' names; the ox'
 
 A finding from the new searches that does not change a question: BDRC's search for «ཆང་མ་བྱིས་པ་དག་ལ་ངན» has two hits only, WB's 1996 and Gser thang etexts; «ཆང་རྫ་ལ་གནས» has seven: WB's etexts, the Bhutan collection, a Bon astrology work (MW1KG13780, a witness only), the Bon students' textbook (I4PD3282), a chapter of an etext whose outline copies WB (MW1KG2733_B72D03, search-only) and the commentary *Dpyod ldan snying nor*; none glosses «ཡོ་ནས» or «སྦྲང་མ». In the Bon textbook's table the rat cell carries no remedy at all (seat, harm, name), so it does not bear on the rat day's «འདྲེན».
 
-**Open**
+**Open*
 
 Question: The grave («དུར») of the light-clearer in the tiger, snake, monkey and pig months is one of ox, sheep, dragon and dog (WB's ch. 23 triads: dog, ox, dragon, sheep; Lha mo tshul khrims' elements: sheep, dog, ox, dragon): which assignment does p. 219 mean? (narrows 443, 444, 28)
 
@@ -1010,7 +1010,7 @@ Question: The la-knower's animals in the second table of p. 133 run tiger, pig, 
 
 Question: The hal khyi's five mothers and five sons (p. 185), if the five elements' mother-son pairs: in which order do the pairs follow, and where does each sit, with nine numbers carved for ten beings? (narrows 36, 433, 470)
 
-**Searched and not found**
+**Searched and not found*
 
 - Steinert's 64 dictionaries (`locate.py dict`, the shared clone, 2026-11-01), headwords «snang sel» (only the Buddhist meditation on impermanence, no. 58), «mar gyi khyim mtshes», «yar gyi gshed», «dur gshed» (a term of black reckoning, no. 62, no gloss; an abbreviation «gshedur» in the Dzongkha list), «sbrang ma phud», «gnas pa'i nyi dus», «nyi ma'i glang», «khar bu», «gtong shes», «sa bdag gtong shes»: none glosses the lines. «sbrang ma» is the bee, and in no. 58 also a fly that haunts the unclean; «phud gtor» the first portion of a torma, «yol ba» the curtain: as RD74 found.
 - BDRC's full-text search, 2026-11-01: «ཡོལ་བས་སྒྲིབ» (82 hits, nearly all of the mandala or the sadhanas' curtain, none an earth-lord text beyond WB's copies and the Bhutan collection), «སྣང་སེལ་དུར» (2: the 1996 etext's list of the scattered lords, and an English book on the White Beryl's elemental divination paintings), «ཉི་དུས་ནག་པོ» (3: WB's three etexts), «ཧལ་ཁྱི་ནག་པོ» (68: the *Rin chen gter mdzod*'s and Karma chags med's lists of the dead's lords and WB's copies; not read through). No gloss of the mothers and sons, the light-clearer's grave or Wangkhyi's day-time.
