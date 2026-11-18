@@ -359,7 +359,7 @@ How this earth lord stands in the house: the earth lord called Khar-bu (ཁར�
 
 ## <a id="wb-2-p224e"></a>wb.2:p224e The earth lord of the day's animal in the house, p. 224 read line by line on the reprint scan
 
-*Read: machine, being read on the scan, 2026-11-18: lines 1-20 confirmed (below); lines 21-29 not yet.*
+*Read: scan, 2026-11-18: all 28 text lines of the page and the page number (the 29th ink line) read on the reprint; one glyph named as a doubt (line 15).*
 
 > [p. 224, I3CN5029 img. 230, 29 ink lines]
 > 1 གྱི་བྱ་བ་འཛེམ། །ཀོ་ལོང་བཟའ་ཚང་ཀུན་དང་ནི། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ལ་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་
@@ -382,6 +382,15 @@ How this earth lord stands in the house: the earth lord called Khar-bu (ཁར�
 > 18 ༧བྱ་ཉིར་སྡེར་མ་དག་ལ་གནས། །གཤིན་ཟས་སྡེར་དུ་དྲངས་པ་ན། །གྲེལ་དཔོན་ལ་ངན་ཡང་ན་ནི། །གློ་བུར་ཡེ་འདྲོག་
 > 19 འབྱུང་བས་ན། །སྡེར་མེད་རྡོ་ལེབ་བྱེད་པའམ། །ཡང་ན་སྣམ་སྟེང་སྤར་ཟན་བྱ། །༧ཁྱི་ཉིར་ཡ་ཐེམ་མ་ཐེམ་གནས། །ཐེམ་
 > 20 པར་རོ་ཐུག་ཕ་ཁུར་ངན། །ཡང་ན་རོ་ཁུར་དེ་ཉིད་འཆི། །ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ། །མྱ་ངན་ཆང་ཡང་མི་འཐུང་
+> 21 སྤང་། །༧ཕག་གི་ཉི་མར་འཇོར་ལ་གནས། །ཏོག་ཙེས་རོ་ཁུང་ས་བརྐོས་ན། །མ་ཕྱི་ས་ཁ་འབྱེ་མཁན་འཆི། །ས་ཁ་ཤ་རུས་
+> 22 དབྱེ་བར་བྱ། །མཁར་ལས་ས་ཡང་དེ་ལྟར་ཞེས། །དུས་ཚོད་ལ་ཡང་དེ་ལྟར་དུ། །འཛེམ་པར་གཏོང་ཤེས་ལས་བཤད་དོ། །
+> 23 ཉམས་ན་སྣང་བརྒྱད་འདོན་པ་དང་། །སྒྲིབ་ན་བ་ཐོད་འཕྱར་ལ་སྒྲིབ། །ཡང་ན་གསེར་མཛོད་ཇི་བཞིན་ནོ། །ཡང་ན་མི་
+> 24 ཧྲེང་མདུང་ཐོགས་སྒྲིབ།།
+> 25 ༧ཞག་གི་བླ་མཁྱེན(༢)གནས་པའི་ཚུལ། །ཞག་དེའི་བདུན་དམར་ཕྱོགས་སུ་གནས། །དཔེར་ན་ཤིང་བྱི་ཐོག་མ་
+> 26 ལ། །ལྷོ་ནུབ་ཕྱོགས་ན་བླ་མཁྱེན་གནས། །འཛེམ་བཅོས་ལོ་ཡི་སྐབས་ལྟར་སྦྱར།།
+> 27 ༧ཐབ་ལྷ(༤)སེ་ཤར་དག་གནས་ཚུལ། །མི་དཀར་ལག་ན་དར་དཀར་འཕྱར། །གཡོན་འཁོར་བྱི་བའི་ཉི་མར་
+> 28 སྲང། །གླང་ལ་ཐབ་འོག་སྟག་ཉིར་ལྷོ། །ཡོས་ཤར་འབྲུག་ནུབ་སྦྲུལ་ཉིར་བྱང་། །རྟ་ཤར་ལུག་ནུབ་སྤྲེལ་ལ་བྱང་། །བྱ་ནུབ་
+> 29 (the page number «༢༢༤» as «224», in Arabic figures)
 
 Verdicts, line by line (half-lines at 2x on the reprint, flagged stacks at 5-8x; no machine reading counted as truth):
 
@@ -398,12 +407,22 @@ Verdicts, line by line (half-lines at 2x on the reprint, flagged stacks at 5-8x;
 - Lines 11-14: confirmed. Line 11 reads «གཡག་ཤིང»; line 12 has «སྦྲུལ» at its end (the glyph compared with line 6); line 13 «རོ་ཁུར»; line 14 «གཟིངས».
 - Line 15: confirmed except one glyph named. The two «བང་ཕྱིན» of the line (the horse's carrying, as the line stands) are the same glyph twice at 7x, so they are read alike; the first is «ཕྱིན» (the 1996 print and MITRA have «ཕྱིན»; Yigdzin-1 on the reprint «བྱིན»). The head's curl that tells ཕ from བ is faint in this printing: if the first were «བྱིན» the second would be too, which the print's own text does not give.
 - Lines 16-20: confirmed.
+- Lines 21-24: confirmed. Line 21's «བརྐོས» has the same ra-over-ka stack as «རྐོ» in line 3; line 22's «དུས་ཚོད» has ཚ; line 24 «ཧྲེང» (ha with subjoined ra).
+- Line 25: one correction. After «བླ་མཁྱེན» the scan has a round-bracketed figure «(༢)», not RD56's «འ»: the figure is the print's note mark («(༢)» at 7x), with no tsheg before the bracket.
+- Line 26: confirmed (the line begins indented, its first word «ལ» ending line 25's «ཐོག་མ»).
+- Line 27: one correction: «ཐབ་ལྷ(༤)སེ་ཤར», the bracketed figure «(༤)» of the print, where RD56 wrote «ཐབ་ལྷ་༤་སེ་ཤར» (the figure is the print's note mark, as in line 25). The line's last word is «ཉི་མར་» and «སྲང» begins line 28.
+- Line 28: confirmed («ལྷོ» with ལྷ, not «ལྟོ»; «སྟག་ཉིར»; «སྦྲུལ་ཉིར»; «སྤྲེལ་ལ»).
+- Line 29: only the page number 224. The page's text ends at «བྱ་ནུབ» (line 28), which continues on p. 225 («ཁྱི་བྱང་ཕག་ལ་ལྷོ»).
+
+Doubt named, and why the page is raised anyway: line 15's «ཕྱིན» (twice) could be «བྱིན» if the head's curl of the ཕ is mistaken at this print's size; the 1996 print's etext and MITRA read «ཕྱིན» both times and the two glyphs on the reprint are the same, so «ཕྱིན» stands. Every other syllable of the 28 lines was read.
+
+What the scan shows against the machine. RD56's passage wb.2:p224-225 stands for page 224 except at three places: «སྤང་མ» (line 6) is «སྦྲང་མ», «བླ་མཁྱེན་འ» (line 25) is «བླ་མཁྱེན(༢)», «ཐབ་ལྷ་༤་སེ་ཤར» (line 27) is «ཐབ་ལྷ(༤)སེ་ཤར». The English there is otherwise a fair rendering; the beer-mash «སྦྲང་མ» of line 6 is the word of wb.2:p224b and the claim wb-sbang-ma-is-the-beer-mash.
 
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
 *Read: machine, 2026-10-25.*
 
-*Superseded, 2026-11-17, for p. 225 in full: the page's opening lines, the rat and ox lines and the last line by wb.2:p225c, the five day-times' verse and the twelve lords from the tiger to the dog by wb.2:p225b (both read on the reprint scan). Page 224 of this passage stands as machine.*
+*Superseded, 2026-11-17, for p. 225 in full: the page's opening lines, the rat and ox lines and the last line by wb.2:p225c, the five day-times' verse and the twelve lords from the tiger to the dog by wb.2:p225b (both read on the reprint scan). Page 224 of this passage is superseded by wb.2:p224e (read line by line on the reprint, 2026-11-18).*
 
 > [p. 224] གྱི་བྱ་བ་འཛེམ། །ཀོ་ལོང་བཟའ་ཚང་ཀུན་དང་ནི། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ལ་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་
 > དང་། །སྡོང་པོ་རྒྱན་པ་འདོན་པར་བྱ། །ཀླུ་བརྒྱད་དོང་ཙེ་སྤོམ་གཏའ་དང་། །ཨུར་གནོན་བྱ་ཞིང་སྒྲིབ་པ་ན། །གནའ་བའི་
