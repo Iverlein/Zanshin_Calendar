@@ -655,9 +655,9 @@ Doubts, named:
 3. Line 19, «ཟླ» after «ལོ(༡)»: smudged, read from the sense (year, month).
 4. Line 21, «ཉིན་ཞག(༡༣)»: the second digit differs from that of «(༡༢)» a line earlier (a vertical stem against a swinging tail); read «༣», which the order asks; at 3.5x only.
 
-## <a id="wb-2-p237c"></a>wb.2:p237c Rāhu's course by the date, p. 237: all twenty-eight lines read by eye on the reprint, two corrections, one doubt
+## <a id="wb-2-p237c"></a>wb.2:p237c Rāhu's course by the date, p. 237: all twenty-eight lines read by eye on the reprint, two corrections, read again 2026-11-18
 
-*Read: machine, 2026-11-17.*
+*Read: scan, 2026-11-18.*
 
 > [p. 237]
 > གཉིས་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གསུམ་ནམ་ལངས་བྱང་ནས་ལྷོར། །བཅུ་བཞི་སྔ་དྲོ་མཁའ་ནས་མཚོར། །བཅོ་ལྔ་ཉི་
@@ -696,7 +696,15 @@ Two places the machine text has otherwise than the scan:
 - Line 16, «མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ» (the oath-sending is good, washing the hair): the machine text has «སྒྲ་འཁྲུ་བ». At 5x the stack before «འཁྲུ» is the same shape as the stack in line 18's «སྐྲ་འཁྲུ་བཟང» (read in wb.2:p237b), so it is the same word; «སྐྲ་འཁྲུ་བ» is the word of the other line, «སྒྲ་འཁྲུ» is no word known to the passage. The hanging of clothes, the taking of a bride and the washing (the body) are bad in the next clause.
 - Line 27, «ཐོག་སེར་དབབ་པའི་ལས» (the work of bringing down hail): the machine text has «བའི». At 6x the first letter has no inner counter as the «བ» of «དབབ» has: «པའི», as at line 22.
 
-Not changed: the machine text's «ཆང་བཅོ་བཟང» of line 13 stays, with the doubt of wb.2:p237b (the base letter of the syllable before «བཟང» is «ཅ» at 5x, not «ཙ», its top carries the vowel «ོ» as «ཆོས» above it has; «བཅོ» against «བཙོ» is not settled by the glyph, and the 1996 text read «བཅོ»). At the other lines nothing was seen that differs; the lines were not enlarged above 1.7x except the five named here, so a single letter's difference (the vowel signs, «ད» against «ན») in an unenlarged syllable could have been missed. The page stays machine-corrected.
+Second reading, 2026-11-18 (state raised to scan). Every one of the page's 28 lines cut in left and right half-lines at 2x on the reprint (img. 243, 1905 px wide) and read syllable by syllable against the passage above, which already carries the two corrections of 2026-11-17 (line 16 «སྐྲ་འཁྲུ་བ», line 27 «པའི»); no machine reader was taken as the truth. Verdict per line: lines 1-28 confirmed as the passage has them, the line breaks included (line 1 ends «བཅོ་ལྔ་ཉི་», line 28 ends «ནོར»). Places read again at 4x to 6x:
+
+- Line 2, «བྷི་ཏར» (the Sanskritised stack): a narrow stack with the vowel hook on top and a foot at the right, not the broad round «ཕྱི» of line 11 (compared side by side); read «བྷི», as the passage has it.
+- Line 13, «ཆང་བཅོ་བཟང»: the syllable is the same glyph pair as «བཅོ» of line 1 («བཅོ་ལྔ», fifteen) at the same size, with the vowel «ོ» above the «ཅ» as two bumps; the «བཙ» of line 26 («ས་བཙལ») has a single flag on the «ཙ» and no vowel on top. So «བཅོ», not «བཙོ»; the doubt of wb.2:p237b is settled.
+- Line 16 against line 18: the stack of «སྐྲ» is the same glyph at 4x in both lines; line 10's «སྒྲ་གཅན» has its own «སྒྲ».
+- The «ཚ» of «ཚུལ» (12), «ཚེས» (12, 15), «ཚོང» (13), «འཚེམ» (16) carries the extra stroke that «ཆ» of «ཆོས», «ཆང», «ཆུ», «མཆེ», «མཆོད» lacks; the pairs read as the passage has them.
+- The print's dots under syllables (lines 11, 12) are not letters.
+
+Not settled: nothing on this page. The reading is of the reprint alone (Zhol print not consulted).
 
 ## <a id="wb-2-p240"></a>wb.2:p240 The close of chapter 31: what was kept from the tantras and what was cast out
 
