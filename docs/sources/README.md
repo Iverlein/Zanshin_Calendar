@@ -1651,7 +1651,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 7 passages: 1 scan, 6 machine |
-| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 13 passages: 5 scan, 8 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 8 scan, 6 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 13 scan, 3 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 6 scan, 1 machine |
@@ -2774,6 +2774,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1326.md](questions/q1326.md) | question q1326 | WB ch. 19 p. 213: do the wheel (འཁོར་ལོ) and the star (སྐར་མ) each count 27 in the first circle's long figure? | open; cites wb.1:p213 |
 | [questions/q1327.md](questions/q1327.md) | question q1327 | WB ch. 19 p. 214: is the figure after «མཁའ་མེ་ལག» 230? | open; cites wb.1:p214 |
 | [questions/q1328.md](questions/q1328.md) | question q1328 | WB ch. 19 p. 214: is the number-word «རྩ» in «མིག་བུག་མདའ་རྩ་མེ» 9? | open; cites wb.1:p214 |
+| [questions/q1329.md](questions/q1329.md) | question q1329 | WB ch. 2 p. 19 line 1: does «རྒུའི» or «ཀྲུའི» stand at the head, and which Sanskrit name stands behind that group of syllables? | open; cites wb.1:p19 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
