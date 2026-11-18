@@ -1650,8 +1650,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 8 passages: 1 machine, 7 etext |
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 16 passages: 10 scan, 6 machine |
-| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 8 scan, 6 machine |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 17 passages: 12 scan, 5 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 10 scan, 4 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 13 scan, 3 machine |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 6 scan, 1 machine |
@@ -2777,6 +2777,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1329.md](questions/q1329.md) | question q1329 | WB ch. 2 p. 19 line 1: does «རྒུའི» or «ཀྲུའི» stand at the head, and which Sanskrit name stands behind that group of syllables? | open; cites wb.1:p19 |
 | [questions/q1330.md](questions/q1330.md) | question q1330 | WB ch. 1 p. 13 line 3: the numeral after Saturn (སྤེན་པ) is a nought where the sequence gives ༧; a printer's error or another count? | open; cites wb.1:p13 |
 | [questions/q1331.md](questions/q1331.md) | question q1331 | WB ch. 1 p. 10 lines 26-28 (after the bracketed figure): what do they say? | open; cites wb.1:p10 |
+| [questions/q1332.md](questions/q1332.md) | question q1332 | WB ch. 1 p. 10 line 23: what are the ~22 digits of the first bracketed figure, and do the page's two figures give the same count in numerals and number-words (lines 24-27)? | open; cites wb.1:p10 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
