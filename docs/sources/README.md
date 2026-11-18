@@ -1663,7 +1663,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 scan |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 scan |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
-| [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 9 scan, 4 machine |
+| [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 14 scan, 3 machine |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
@@ -2771,6 +2771,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1323.md](questions/q1323.md) | question q1323 | WB ch. 13 p. 166: is the second upper figure of the 7th head's night-length stack a thin 3 (37 + 23 = 60) or an 8? | open; cites wb.1:p166e |
 | [questions/q1324.md](questions/q1324.md) | question q1324 | WB ch. 3 p. 22: is the third glyph of the figures printed 2619 and 2613 a ༡ set in the ༤ form, or a typesetting slip for 2649 and 2643? | open; cites wb.1:p22 |
 | [questions/q1325.md](questions/q1325.md) | question q1325 | WB ch. 3 p. 25 print line 14: is the last digit of the year for the Chos lung Tshogs pa monastery (432 by the chain) ༢ or ༩? | open; cites wb.1:p25 |
+| [questions/q1326.md](questions/q1326.md) | question q1326 | WB ch. 19 p. 213: do the wheel (འཁོར་ལོ) and the star (སྐར་མ) each count 27 in the first circle's long figure? | open; cites wb.1:p213 |
+| [questions/q1327.md](questions/q1327.md) | question q1327 | WB ch. 19 p. 214: is the figure after «མཁའ་མེ་ལག» 230? | open; cites wb.1:p214 |
+| [questions/q1328.md](questions/q1328.md) | question q1328 | WB ch. 19 p. 214: is the number-word «རྩ» in «མིག་བུག་མདའ་རྩ་མེ» 9? | open; cites wb.1:p214 |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
