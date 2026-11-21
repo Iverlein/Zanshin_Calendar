@@ -5,7 +5,7 @@ Sigla, numbering and quoting rules are in [README.md](README.md). WB, the
 scans I1KG12906), printed page = image number − 10 (except img. 438–441, which are pp. 430, 431, 430, 431: see ch. 25); vol. 2 (*smad cha*,
 scans I1KG12907), printed page = image number − 8.
 
-The Zhol print's images of vol. 1 (I1KG1710) have no fixed offset; the map from printed page to image, line and folio side is [wb/zhol-map.md](wb/zhol-map.md) (`locate.py zhol PAGE`).
+The Zhol print's images of vol. 1 (I1KG1710) have no fixed offset; the map from printed page to image, line and folio side is `wb/zhol-map.md` (local: the directory is gitignored) (`locate.py zhol PAGE`).
 
 **How this was made** (2026-10-11): the chapter list and first pages are
 the two volumes' contents pages (vol. 1, img. 11; vol. 2, img. 9) in
