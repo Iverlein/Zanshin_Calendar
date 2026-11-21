@@ -2847,6 +2847,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1344.md](questions/q1344.md) | question q1344 | Which days are the six times (dus drug) of the Kun bzang bla ma'i zhal lung (kzl:i275) and of lcb:p568 | open; cites — |
 | [questions/q1345.md](questions/q1345.md) | question q1345 | In mdb:p165 (the Mindroling rule-book's monthly list) which day precedes gcig la after the Rgyal tshab Drung pa tea-day, where the OCR has a gap | answered; cites mdb:p163-166 |
 | [questions/q1346.md](questions/q1346.md) | question q1346 | Does the Mindroling 25th (mdb:p163-166) count the waning tenth by the almanac or only as the 25th of the month | open; cites — |
+| [questions/q1347.md](questions/q1347.md) | question q1347 | WB ch. 17 pp. 195, 213 and 215: three figures against their word-numerals | open; cites — |
+| [questions/q1348.md](questions/q1348.md) | question q1348 | WB ch. 3 p. 34 and ch. 7 p. 49: figures against their word-numerals (429/439, 3111/211, 741/746, 178, 488) | open; cites — |
+| [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | open; cites — |
 
 <!-- end pool index -->
 
