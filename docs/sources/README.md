@@ -1595,7 +1595,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
-| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 35 passages: 28 scan, 7 machine |
+| [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 36 passages: 28 scan, 8 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 11 passages: 11 scan |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
@@ -1954,7 +1954,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
-| [questions/q0497.md](questions/q0497.md) | question q497 | Which of the 簠簋内伝's two 金神 year tables did the Edo almanac follow | open; cites — |
+| [questions/q0497.md](questions/q0497.md) | question q497 | Which of the 簠簋内伝's two 金神 year tables did the Edo almanac follow | answered; cites mdz:i2543902 |
 | [questions/q0498.md](questions/q0498.md) | question q498 | Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉 | answered; cites — |
 | [questions/q0499.md](questions/q0499.md) | question q499 | When the 金神's two 遊行 meet on one day, which wins | open; cites — |
 | [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | answered; cites — |

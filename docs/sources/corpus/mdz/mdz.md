@@ -771,6 +771,16 @@ Searched and not found (RD358), 2026-11-10: (1) Waseda Kotenseki (www.wul.waseda
 
 Almanac handbook *Eireki zassho tenmon taisei kōmoku*, NDL shelfmark 148.8-E38 (the record gives no date), image 20, right page, item 9 "Ten'ichi-jin", read on the page image 2026-11-16 (the NDL full-text layer agrees except in garbled places). It says: Ten'ichi is a functionary of Taishakuten who goes round the three realms and writes down the good and evil of men; when Ten'ichi has gone up to heaven the Nichiyū god comes down to the world and takes a man's house for his own; he dislikes impurity, so for the sixteen days of Ten'ichi's ascent everything is to be kept clean, and else Nichiyū sends a curse; one avoids pulling down the house and building. "From the day Mizunoto-mi Ten'ichi ascends, and after sixteen days returns to the world below, and then Nichiyū ascends to heaven": during the sixteen days deer, hawk and river hunting are avoided; he goes up on mizunoto-mi and comes down on tsuchinoe-saru, and these sixteen days are called "Ten'ichi's ascent". The same page's left half has Ten'ichi's wheel of eight directions (the stay on earth) and an item on earth-breaking (犯土). Nichiyū is given no direction in the days Ten'ichi stays on earth: it is "in the house" for sixteen days and then goes to heaven.
 
+## <a id="mdz-i2543902"></a>mdz:i2543902 拾芥抄 (NDL 2543902), frame 26: 金神七殺方事, the year table of the 金神
+
+*Read: machine, 2026-11-21.*
+
+Shugaisho (拾芥抄), NDL pid 2543902 (open; machine text of the NDL Lab full-text API, frame 26, read again 2026-11-21 by inv-j; first read by eye on the image in the kyureki notes): the entry on the 金神's seven killings, with the small note that when the place falls on the 二白 or 九紫 direction there is no avoidance at that time:
+
+> 金神七殺方事 … 甲己年在午未申酉方、乙庚年在辰巳方、丙辛年在寅卯午未子丑方、丁壬年在寅卯戌亥方、戊癸年在申酉子丑方　已上作犯一拝殺七人、家人不足、隣人慎之　大呂才百忌暦文也、但異本文章頻有削乎
+
+(The OCR has 甲巳 for 甲己, 西 for 酉 and 午 for 壬; the table is read as above.) So the year table of the 金神 is: 甲己 午未申酉, 乙庚 辰巳, 丙辛 寅卯午未子丑, 丁壬 寅卯戌亥, 戊癸 申酉子丑. The same book, frame 54, ends a page with the heading 金神遊行事 (six days a season, not the five of the 簠簋内伝 §8).
+
 ## <a id="mdz-i7333115"></a>mdz:i7333115 歳時記栞草 (1851, Tokyo TOKY-73331), image 15: the entry 初夢 with the source label 紀事 (RD364)
 
 *Read: by eye on the page images, 2026-11-10 (the tool's state field says machine because it takes the state scan for Tibetan script only).*
