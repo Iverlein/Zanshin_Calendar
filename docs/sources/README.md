@@ -2801,7 +2801,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1299.md](questions/q1299.md) | question q1299 | Which month is «རམ་ཟླ» in Rtsa gsum gling pa's life, whose fifteenth is called a good occasion? | open; cites tsl.30:i417 |
 | [questions/q1300.md](questions/q1300.md) | question q1300 | Are «དགུ་གསུམ» in the torma-repelling manual the 9th, 19th and 29th, and who wrote the Gnam lcags thog rgod? | open; cites tsl.28:i569 |
 | [questions/q1301.md](questions/q1301.md) | question q1301 | Who is the «གུ་ཧྱ» who signs the note on the tenth-day liturgy of Gnam lcags ri khrod, and is the liturgy Rig 'dzin Mi 'jigs rdo rje's? | open; cites tsl.29:i109-110 |
-| [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | open; cites mgz.33:p166 |
+| [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | answered; cites mgz.33:p166, dtn:i316 |
 | [questions/q1303.md](questions/q1303.md) | question q1303 | WB vol. 2 p. 176: the number printed after the east lord (Thesé), (༣), (༡) or (༢)? | open; cites wb.2:p176b |
 | [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | open; cites wb.2:p225b |
 | [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | open; cites wb.1:p77 |
