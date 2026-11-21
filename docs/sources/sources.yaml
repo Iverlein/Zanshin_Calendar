@@ -1831,6 +1831,14 @@ dpk:
       scan: I1PD107144
       image_offset: 42
       notes: "image = printed page + 42 (the etext's [p422] prints 380); text 21, O rgyan sangs rgyas gnyis pa'i sku tshabs gtso bor gyur pa'i sku gsung thugs rten la gus par byed pa'i tshul brjod pa legs lam dam pa'i gsos sman (MW1PD107142_E1B4F1), printed pp. 367–390"
+    2:
+      scan: I1PD107145
+      image_offset: 24
+      notes: "printed page = the etext's [pN] - 24 (the etext's [p163] prints 139, [p76] prints 52); texts read: 2, Rtsis gzhung nyin byed snang ba'i 'das lo sogs nges pa gsar spos dge legs snang ba'i nyi ma (MW1PD107142_D2A971), and 7, Rtsis 'bras thor bu spang blang 'dod pa'i snye ma (MW1PD107142_166FE0), a calendar manual's verses with the author's own notes; etext only"
+    3:
+      scan: I1PD107146
+      image_offset: 25
+      notes: "printed page = the etext's [pN] - 25 (the etext's [p160] ends on 135); Dpal sprul's rite of the Mahayana one-day vow joined with Avalokitesvara, printed pp. 135-143; etext only"
   notes: "the etext is an OCR of the typeset pages, with line-end fillers and stray marks; scans on archive.org only, not opened"
 
 # --- Practice days, the lay practitioner's days, second pass (pd-i, 2026-11-16).
@@ -1983,3 +1991,13 @@ bkt:
   role: witness
   locator: page
   notes: "RD rd-a (2026-11-21): etext 'mediocre quality' (the OCR garbles the margins and headers); page = etext marker, the print's page number at the foot reads 231 at etext p. 271; the scans are a lending copy on archive.org, not read; the item is in 18 chapters, ch. 16 begins at etext p. 272; the item follows the Padma bka' thang's wording in the farewell chapters but adds lines; found only in this anthology (BDRC phrase search 1 hit each)"
+kzl:
+  title: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po, Rdzogs pa chen po klong chen snying thig gi sngon 'gro'i khrid yig Kun bzang bla ma'i zhal lung (the Words of My Perfect Teacher), the same text stands in the Gsung 'bum (dpk vol. 7, I1PD107150)"
+  author: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po (1808-1887)"
+  edition: "Gser thang Bla rung lnga rig nang bstan slob gling, Gser rta rdzong 2015, 530 pp. (typeset; BDRC MW3CN4690, etext VEIE0OPIFAC9F61B_I3CN4692, BDRC rates the OCR excellent)"
+  bdrc: {work: MW3CN4690, etext: VEIE0OPIFAC9F61B_I3CN4692, scans: [I3CN4692]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "etext marker [pN] = image number (img. 183 prints 178, img. 178 prints 173, img. 196 prints 191: printed page = image - 5); the typeset page holds 17 lines, the etext reflows them; scans open"
