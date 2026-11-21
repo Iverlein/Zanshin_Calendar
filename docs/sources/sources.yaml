@@ -2018,3 +2018,25 @@ ygr:
   locator: image
   notes: "etext marker [pN] = image number (img. 183 prints 178, img. 178 prints 173, img. 196 prints 191: printed page = image - 5); the typeset page holds 17 lines, the etext reflows them; scans open"
   notes: "scans open, 1990 px, typeset; the etext's [pN] is the image number (img. 374 prints folios 253b-254a, the printed folio marks in the text such as (༢༥༤ན)); the monthly round of the monastery Tshe mchog gling as the master kept it, 2026-11-21 (rd-c)"
+# --- Practice days, third wave (2026-11-21, rd-d): the monthly cycle of a Nyingma and a Rime house.
+mrs:
+  title: "Mi pham 'jam dbyangs rnam rgyal rgya mtsho'i rnam thar snying bsdus ngo mtshar bdud rtsi'i snang ba (the short life of Mipham)"
+  author: "Dil mgo mkhyen brtse rin po che (Dilgo Khyentse, 1910–1991; the title page: mdzad pa po)"
+  edition: "BDRC etext of a typeset print (MW8LS20744, 8LS series); the same text is in the collection Bod kyi skyes chen dam pa rnams kyi rnam thar phyogs bsgrigs (MW3CN5285), where the page is 276"
+  bdrc: {work: MW8LS20744, etext: VEIE0OPIFB44F448_I8LS20758}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  locator: page
+  notes: "etext only (2026-11-21), open access, BDRC rates it best quality; the scans (I8LS20758, I3CN5287) answer every image with an empty file, so nothing was read on a page image; the two prints agree word for word on the passage but for spelling (བསགས་སྦྱང་/གསག་སྦྱོང་, ཟས/ཟོས); etext page = printed page (the marker [p76] is before the page's text)"
+
+ksr:
+  title: "Dkon mchog 'phan dar dang Kong sprul Yon tan rgya mtsho'i rnam thar (the lives of Dkon mchog 'phan dar and of Kong sprul Yon tan rgya mtsho; the second begins at p. 331 of the volume)"
+  author: "not established from the pages read; the printing colophon (p. 382) is by 'Jam dbyangs chos kyi nyi ma blo gros rgyas pa, a pupil of Karma Ngag dbang yon tan rgya mtsho, and the life ends on p. 383"
+  edition: "BDRC etext of a typeset volume of the series Bod kyi gso ba rig pa'i gna' dpe phyogs bsgrigs dpe tshogs, Mi rigs dpe skrun khang (MW1KG14627, volume I1KG15643)"
+  bdrc: {work: MW1KG14627, etext: VEIE0OPI39993599_I1KG15643}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  locator: page
+  notes: "etext only (2026-11-21), the scans (I1KG15643) are not served; the etext's page markers are the printed pages; read pp. 363–368, the account of the foundation's shrines, books and the monthly rites"
