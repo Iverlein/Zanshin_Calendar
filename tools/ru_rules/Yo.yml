@@ -2,6 +2,7 @@
 # texts). The list holds only the forms that are no other word without the dots: «все» and «всё»,
 # «чем» and «чём», «нем» and «нём», «берет» and «берёт», «небо» and «нёбо» cannot be told apart by a
 # list and are the translator's to read.
+# «вышел» is the one form of the family spelled without «ё» (the stress is on «вы»): «вы» is not a prefix here.
 extends: existence
 message: "Written with «ё»: «%s»."
 level: error
@@ -14,7 +15,7 @@ tokens:
   - 'твое'
   - 'свое'
   - 'чье'
-  - '(?:у|при|на|во|вы|подо|про|до|за|пере|обо|ото|разо|со)?шел'
+  - '(?:у|при|на|во|подо|про|до|за|пере|обо|ото|разо|со)?шел'
   - '(?:при|у|по|на|за|про|до|пере|подо|обо|со|во)?йдет'
   - 'идет'
   - 'идем'

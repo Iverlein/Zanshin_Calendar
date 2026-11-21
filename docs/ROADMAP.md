@@ -22,6 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | X1–X10, which reword every reading, so the owner reads them once |
+| 3 | [L5](#l5) The Russian rewritten by the translation rules — planned 2026-11-21 | L | The Russian is right in its terms and grammar (L3) but often English in Russian words; 10,569 units, about 140,000 words, in thirteen blocks, each handed to the owner by letter | The owner's answers to L5.D1–D3 |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis* (built: the eclipses; the rest left out by the owner's rule)), WB's day animals (T2.24, built 2026-10-10), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
@@ -127,6 +128,19 @@ moves up as soon as it is unblocked.
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 | <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
 | <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill — built 2026-11-11 | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216), [RD387](#rd387)–[RD390](#rd390), [RD405](#rd405) ([RD214](#rd214) beside) | — | Built: S2, "Read a dream" in the Reckonings and from the moment's signs (SPEC §5.9.11, §10.11): the night before the day with its part as chips or a clock time on four equal quarters, only the dawn dream read, 94 images in a grouped, searchable picker, each tradition's verdict under its heading, one Remedy row, "The dreamer is ill" with the Four Tantras' rule and rows; no net verdict, no fruit date or span. |
+| <a id="block-74"></a>74 | [L5](#l5) Pilot: the screens read every day, and the catalog's vocabulary | — | — | Build block 74: L5, the Russian of block 74 of `tools/ru_plan.toml` rewritten as L5 says. 1,503 units, 5,900 words: the interface of the day page, the hours, the 旧暦 page, the menu, the notice, the widgets, the election; the catalog's `wording`, row labels, works and their families. The owner's corrections to it become the rules the other blocks follow. |
+| <a id="block-75"></a>75 | [L5](#l5) The rest of the interface | — | [74](#block-74) | Build block 75: L5, the Russian of block 75 of `tools/ru_plan.toml` rewritten as L5 says. 930 units, 5,400 words: every other screen's strings. |
+| <a id="block-76"></a>76 | [L5](#l5) The Tibetan day's readings | — | [74](#block-74) | Build block 76: L5, the Russian of block 76 of `tools/ru_plan.toml` rewritten as L5 says. 1,470 units, 16,800 words: dates, weekdays, mansions, yogas, karaṇas, special days, festivals, links, harsh days, combinations, hours, months, Rāhu, the hundred feet, haircut and building. |
+| <a id="block-77"></a>77 | [L5](#l5) The earth lords | — | [74](#block-74) | Build block 77: L5, the Russian of block 77 of `tools/ru_plan.toml` rewritten as L5 says. 521 units, 10,400 words: of the day, the month and the year. |
+| <a id="block-78"></a>78 | [L5](#l5) The 旧暦's readings | — | [74](#block-74) | Build block 78: L5, the Russian of block 78 of `tools/ru_plan.toml` rewritten as L5 says. 390 units, 3,300 words: bands, selected days, solar terms, festivals, directions. |
+| <a id="block-79"></a>79 | [L5](#l5) Health and the illness reckoning | — | [74](#block-74) | Build block 79: L5, the Russian of block 79 of `tools/ru_plan.toml` rewritten as L5 says. 800 units, 15,200 words. |
+| <a id="block-80"></a>80 | [L5](#l5) The year of age, the birth and the household | — | [74](#block-74) | Build block 80: L5, the Russian of block 80 of `tools/ru_plan.toml` rewritten as L5 says. 1,268 units, 22,700 words. |
+| <a id="block-81"></a>81 | [L5](#l5) The marriage match | — | [74](#block-74) | Build block 81: L5, the Russian of block 81 of `tools/ru_plan.toml` rewritten as L5 says. 289 units, 5,500 words. |
+| <a id="block-82"></a>82 | [L5](#l5) The circles, the starting points and the small reckonings | — | [74](#block-74) | Build block 82: L5, the Russian of block 82 of `tools/ru_plan.toml` rewritten as L5 says. 1,027 units, 16,900 words. |
+| <a id="block-83"></a>83 | [L5](#l5) The dead | — | [74](#block-74) | Build block 83: L5, the Russian of block 83 of `tools/ru_plan.toml` rewritten as L5 says. 565 units, 10,200 words. |
+| <a id="block-84"></a>84 | [L5](#l5) The bride's going | — | [74](#block-74) | Build block 84: L5, the Russian of block 84 of `tools/ru_plan.toml` rewritten as L5 says. 475 units, 9,600 words. |
+| <a id="block-85"></a>85 | [L5](#l5) The present moment and the dreams | — | [74](#block-74) | Build block 85: L5, the Russian of block 85 of `tools/ru_plan.toml` rewritten as L5 says. 1,320 units, 17,800 words. |
+| <a id="block-86"></a>86 | [L5](#l5) What is left, and L3 closed | — | [74](#block-74)–[85](#block-85) | Build block 86: L5, the Russian of block 86 of `tools/ru_plan.toml` rewritten as L5 says. The families no other block takes (11 units today), then the owner's read of the app in Russian on the phone, which closes [L3](#l3). |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -6057,7 +6071,7 @@ Built: the interface strings, the catalog and the ru-RU store listing, with
 the language switch in the menu (SPEC §8.2, §10.5).
 
 - Done when the owner has read the app in Russian on the phone and the
-  fixes that brings are in; after [X1](#x1)–[X10](#x10) ([42](#block-42)–[49](#block-49)),
+  fixes that brings are in, at the end of [L5](#l5) (block [86](#block-86)); after [X1](#x1)–[X10](#x10) ([42](#block-42)–[49](#block-49)),
   which reword every reading, so that the wording is read once.
 - **The project's read-through, built 2026-10-10** (the owner asked for
   it ahead of their own): every string of `values-ru/strings.xml` and
@@ -6075,6 +6089,101 @@ the language switch in the menu (SPEC §8.2, §10.5).
   semicolons; «то же стихия»; Всходы пинеллии for 半夏生; the 旧暦 election note's «Пометка, называющая всё, хорошим…». In both
   languages "setting up a sel" named Wylie alone: now "a clearing rite
   (སེལ, sel)". What is left is the owner's own read on the phone.
+
+### <a id="l5"></a>L5. The Russian rewritten by the translation rules — planned 2026-11-21
+
+The owner asked on 2026-11-21 to bring the translation engine of the Riding
+the Boar site here, adapt it, and plan the Russian of the whole app with it.
+The engine is in the repository: [translation-style.md](translation-style.md)
+(the owner's rules for good Russian, from his corrections to the essays, and
+the method), `tools/ru_rules/` (the Russian rule files) and
+`tools/ru_check.py`, which reads the site, the interface strings and the
+catalog against their English unit by unit. The store listing and the
+website were rewritten by it the same day.
+
+**Why.** L3 made the Russian right in its terms and grammar, and the
+mechanical check finds almost nothing (8 faults in 10,569 units, below).
+What is wrong is what no script sees: English in Russian words. From a
+sample of the catalog and the interface:
+
+| Stands | The fault (translation-style.md) |
+| --- | --- |
+| «Его природа связана с удачей» (Mansion) | the English shape, «its nature is linked with» (rule 15) |
+| «и победа пылает силой» (Yoga) | an image that does not form in Russian (rules 5, 15) |
+| «Помимо него роды не взвешиваются» (brief_note) | «beyond it the kinds are not weighed», word for word |
+| «Взвешено одним правилом…», «перевешено» (brief_note_tibetan) | a participle doing the English passive's work (rule 1) |
+| «Выход в путь идёт плохо» (Weekday and hundreds more) | «goes badly» carried over; the catalog fixes it as vocabulary, so it is D1 below |
+
+**Scope.** `python3 tools/ru_check.py --plan`: 10,569 units, about 140,000
+Russian words — the interface 2,433 units and 11,300 words, the catalog
+9,227 units and 128,000 words — in thirteen blocks
+([74](#block-74)–[86](#block-86)); `tools/ru_plan.toml` assigns every
+family of keys to one block and `--plan` refuses a family that falls in
+none. Blocks follow the app's sections, so that one block's Russian can be
+read on its own screens.
+
+**Decisions for the owner before block 74:**
+
+- **L5.D1 The vocabulary.** The catalog's header fixes «идёт хорошо / идёт
+  плохо» for "goes well / badly", the row labels («Выход в путь», «Избегать
+  начала», «В силе») and the tone words (SPEC §8.1, rules 6 and 13). They
+  stand in thousands of readings; a change is made once, by script, before
+  the families are read. Keep them, or change which?
+- **L5.D2 Detectors.** No AI detector gates the listing and the website since
+  2026-11-21. The app's own strings and readings are still under the rule of
+  2026-11-11 (every edited text through `ai-check`). Recommended: the same
+  as the site, detectors for information only.
+- **L5.D3 The review.** One letter per block with each changed unit before
+  and after (the owner prefers letters to Telegram), or a read on the phone
+  per block from a beta build. Recommended: the letter, and the phone once,
+  in block 86.
+
+**How a block is built.** One session, in its own worktree:
+
+1. `python3 tools/ru_check.py --block <n> --summary` for the families and
+   their size; for each family `--family <prefix> --pairs`, the English and
+   the Russian side by side. Every reading of a family is read before any is
+   changed: the family shares its words.
+2. Rewrite by [translation-style.md](translation-style.md), only where a
+   rule there asks (rule 10, "don't be overzealous"). The English is the
+   original and states the facts: nothing added, dropped or reworded in
+   sense, no source named (SPEC §8.1), every Tibetan word in its bracket
+   (`TibetanNaming`), keys, placeholders and the plural forms untouched,
+   the vocabulary as D1 settles it, the app's own term for each thing (rule
+   S1). A row's subtitle stays a few words.
+3. `python3 tools/ru_check.py --block <n>` clean, `./gradlew :core:test
+   :app:testDebugUnitTest` green (CatalogTest, TranslationsTest).
+4. The block's screens in Russian on the emulator (`tools/emulator/
+   russian_tour.py`, and `scales.py s20,land` where a string grew): no row
+   wraps that did not, nothing cut off.
+5. The hand-over: one letter to the owner with every changed unit, before
+   and after, grouped by family, and what was left as it stood and why.
+   His corrections are applied the same day and entered in
+   translation-style.md as rules (a token in `tools/ru_rules/
+   Translationese.yml` where a script can see the fault); then a new letter
+   for what changed. His approval is his word on that letter.
+6. Commit (`app:` / `core:` / `docs:`), merge; `done` set in
+   `tools/ru_plan.toml` to the date of his approval.
+
+A large block may be split between subagents by family, each in its own
+worktree, with one letter for the block; the pilot (74) is written by one
+hand, since its corrections set the rules for the rest.
+
+**What the check flags today** (`python3 tools/ru_check.py app catalog`): a
+unit much shorter than its English, `year_hour_note`; three compact
+strings where the Russian drops the English words around its placeholders
+(`moment_gate_counted` «%1$s → %2$s», `circles_turtle_with`,
+`LordPlace.along`), to be decided in their blocks; 94 notes, mostly dates
+the readings spell out as words («двадцать четвёртого числа»), which is
+right in a reading.
+
+**Weblate.** From 2026-12-28 ([L4](#l4)) Weblate imports the Russian once
+for review. Blocks done by then are imported as approved; the rest keep
+going in the repository, and a Weblate suggestion on a family still open is
+taken into its block.
+
+- Done when every block of `tools/ru_plan.toml` has its `done` date, and the
+  owner has read the app in Russian on the phone (block 86).
 
 ### <a id="l4"></a>L4. Hosted Weblate
 

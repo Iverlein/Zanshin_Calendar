@@ -1,7 +1,7 @@
 ---
 description: The app, the engines and the CLI — kanji gloss on tap, font rebuilds for new kanji, calendar changes need a vector, emulator-only testing and the tools in tools/emulator/, drawing cue glyphs
 trigger: glob
-globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/tools/subset_fonts.py, **/tools/glyph_sheet.py'
+globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/tools/subset_fonts.py, **/tools/glyph_sheet.py, **/tools/ru_plan.toml'
 paths:
 - app/**
 - core/**
@@ -9,6 +9,7 @@ paths:
 - tools/emulator/**
 - tools/subset_fonts.py
 - tools/glyph_sheet.py
+- tools/ru_plan.toml
 ---
 
 # The app, the engines and the CLI
@@ -19,6 +20,12 @@ paths:
 
 ## Rules
 
+- **Russian text is edited by `docs/translation-style.md`**: a string of
+  `values-ru/strings.xml` or `texts_ru.properties`, new or changed, is
+  written by its rules and checked with `python3 tools/ru_check.py --family
+  <prefix>` before commit; the app's Russian is being rewritten block by
+  block (ROADMAP L5, `tools/ru_plan.toml`), so a change to a family whose
+  block is open goes into that block's letter to the owner.
 - **Test on the emulator only**, never on the owner's phone: tours, taps,
   changed dates, preferences and languages all go to `zanshin-test`. The
   emulator is one for all sessions: queue for `emulator-5554` by message and

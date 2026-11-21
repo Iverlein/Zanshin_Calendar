@@ -1,0 +1,110 @@
+# The Russian of the app rewritten by docs/translation-style.md, block by block (ROADMAP L5).
+# A block takes the families its patterns match, first block first: a pattern is a regular expression
+# matched in full against the family's name with «reading.» taken off, so «Mansion» takes the terms
+# (Mansion.*) and the readings (reading.Mansion.*) of the mansions together. The last block takes what
+# no other does. `python3 tools/ru_check.py --plan` prints each block's families, units and words, and
+# a block's `done` is set to the date the owner approved its Russian.
+
+[[block]]
+id = 74
+title = "Pilot: the screens read every day, and the catalog's vocabulary"
+app = ["brief", "hours", "tib", "kyu", "menu", "theme", "notice", "widget", "works", "row", "detail", "desc", "election", "day"]
+catalog = ["wording", "ReadingRow", "Activity", "ActivityFamily", "DayFactor", "ElectionalFactor", "PairList"]
+done = ""
+
+[[block]]
+id = 75
+title = "The rest of the interface"
+app = [".*"]
+catalog = []
+done = ""
+
+[[block]]
+id = 76
+title = "The Tibetan day: dates, weekdays, mansions, yogas, festivals, links, hours, months"
+app = []
+catalog = ["LunarDate", "LunarDayClass", "DateOrdinal", "Weekday", "Mansion", "Yoga", "Karana", "SpecialDay",
+  "TibetanFestival", "TwelveLinks", "Link", "Harsh", "CombinationDay", "GreatCombination", "ElementPair",
+  "ElementQuarter", "DusSbyor", "GreatBlackDay", "Hour.*", "BlackHour", "NectarPeriods", "RoughTime", "BlaMkhyen",
+  "HundredFeet", "Spear", "GreatSpear", "Comet", "Eclipse", "MonthNames", "DateSmeBa", "NineMultiple", "OwnDay",
+  "OwnYearHour", "PersonalDay", "PersonalMansion", "Haircut", "HairDate", "Building.*", "BurningDate",
+  "GtsugLagDay", "SevenRedYear", "WorksSign", "Element", "Animal", "Trigram", "Gender", "Direction", "Colour",
+  "ZodiacSign", "IndianElement", "LetterElement", "Season", "SeasonSign", "Lord(Entry|Part|Place)", "Course.*",
+  "EarthLordCourse", "SkyDoor", "Holder", "Rahu.*", "RaisingDay", "RaisingMonth"]
+done = ""
+
+[[block]]
+id = 77
+title = "The earth lords of the day, the month and the year"
+app = []
+catalog = ["EarthLord", "MonthLord", "YearLord"]
+done = ""
+
+[[block]]
+id = 78
+title = "The 旧暦: the bands, the selected days, the terms, the directions"
+app = []
+catalog = ["Senjitsu", "Choku", "Shuku", "Rokuyo", "SolarTerm", "SunTermKind", "Festival", "Zassetsu", "Daishogun",
+  "Konjin", "Tenichi", "Ehou", "HasshoGod", "KyuSei", "Kanshi", "Stem", "Branch", "BranchDirection", "Gogyo",
+  "KyurekiMonth", "StarAffinity", "StarRelation", "SaihaWeight"]
+done = ""
+
+[[block]]
+id = 79
+title = "Health and the illness reckoning"
+app = []
+catalog = ["Illness.*", "Humour", "MedicalSeason", "ElementIllness", "La.*", "BodyNature", "Organ", "SenseObject"]
+done = ""
+
+[[block]]
+id = 80
+title = "The year of age, the birth and the household"
+app = []
+catalog = ["Year.*", "SixtyYear", "PowerYear.*", "RiseDecline", "KhaSrog", "DpalByur", "LuckTriad", "Mewa.*",
+  "NatalTrigram", "LogMen.*", "BadYear.*", "HarshYear", "Kin.*", "Kinship", "SpouseKind", "Birth.*",
+  "PreciousPebble", "Sector", "LifeStage", "LineStage", "ObstacleGrade", "SmeBaObstacle", "UnchangingLuck",
+  "BasicSign", "Force", "HundredPebble", "HundredKin", "Household.*", "HousePlace", "HouseSide"]
+done = ""
+
+[[block]]
+id = 81
+title = "The marriage match"
+app = []
+catalog = ["Match.*", "SiblingsWin"]
+done = ""
+
+[[block]]
+id = 82
+title = "The circles, the starting points and the small reckonings"
+app = []
+catalog = ["Circle.*", "Round.*", "Starting.*", "Thirty.*", "Turtle.*", "GraveEntered", "GraveMansion", "WombEnd",
+  "GroupCut"]
+done = ""
+
+[[block]]
+id = 83
+title = "The dead"
+app = []
+catalog = ["Dead.*"]
+done = ""
+
+[[block]]
+id = 84
+title = "The bride's going"
+app = []
+catalog = ["Departure.*"]
+done = ""
+
+[[block]]
+id = 85
+title = "The present moment and the dreams"
+app = []
+catalog = ["Moment.*", "AskingSign", "AskerPlace", "OwnPlaceRole", "Abroad", "TimeMeeting", "Dream.*"]
+done = ""
+
+[[block]]
+id = 86
+title = "What is left, and L3 closed: the owner's read on the phone"
+app = [".*"]
+catalog = [".*"]
+done = ""

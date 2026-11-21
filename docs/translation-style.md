@@ -1,10 +1,13 @@
 # The Russian of the translations
 
-How the Russian side of the store listing and the website should sound. The
-English listing (`fastlane/metadata/android/en-US/`), `website/i18n/en.toml`,
-the English captions and the donate page are the original; the Russian is
-their translation, sense for sense, and says what the English says (the
-owner, 2026-11-06: what one language names, the other names).
+How the Russian of Zanshin Calendar should sound: the app's interface
+(`app/src/main/res/values-ru/strings.xml`), the catalog of terms and
+readings (`core/src/main/resources/texts/texts_ru.properties`), the store
+listing and the website. The English of each is the original; the Russian is
+its translation, sense for sense, and says what the English says (the
+owner, 2026-11-06: what one language names, the other names). The app's
+Russian is rewritten by these rules block by block (ROADMAP L5,
+`tools/ru_plan.toml`).
 
 **Where this comes from.** Ported on 2026-11-21 from the Riding the Boar
 site, whose owner is the same: the rules 1–16 below are his corrections to
@@ -30,8 +33,10 @@ chains and «X идут за Y» shapes that were written to pass Sapling on
    Эдвард Хеннинг).
 3. Write the Russian whole, with no tool running; read it once aloud
    without the English and once against it, unit by unit.
-4. `python3 tools/ru_check.py` — every fault fixed, every note read and
-   decided.
+4. `python3 tools/ru_check.py site` for the site, `--block <n>` or
+   `--family <prefix>` for the app and the catalog — every fault fixed,
+   every note read and decided; `--pairs` prints the English and the
+   Russian side by side for reading.
 5. Read it once more as a visitor of the site: where attention drops or a
    sentence sounds translated, rewrite it by hand and check again.
 
@@ -57,6 +62,20 @@ thing.
 **Rule.** Every term of the Russian site is the app's own Russian term;
 where the app has none, the English original is translated and the app's
 next string follows the site.
+
+### S2. A reading keeps its shape and its facts
+
+The catalog's Russian is held by more than these rules: SPEC §8.1 (the shape
+of a reading, its row labels and vocabulary, no source named, every Tibetan
+word as «русское название (script, wylie)»), the catalog's header (one
+Russian for each row label and word of the vocabulary), and the tests
+(`CatalogTest`, `TranslationsTest`: keys, placeholders, plural forms,
+naming).
+
+**Rule.** A rewrite changes how a reading is said, never what it says or
+how it is laid out: the ruling stays first, the rows keep their labels and
+order, every fact and image of the English stays. A date may be a word in a
+reading («двадцать четвёртого числа»); a row's subtitle stays a few words.
 
 ## The essays' rules (Riding the Boar, 2026-11-19 and 2026-11-20)
 
