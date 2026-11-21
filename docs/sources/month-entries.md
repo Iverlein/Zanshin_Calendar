@@ -699,7 +699,7 @@ these phrases outside the model almanac (searched 2026-10-11:
 
 | Hor month | img. | Printed | Read |
 | --- | --- | --- | --- |
-| 11 | 164 | «བདུན་ལ་དུས་ཚོད་ངན་པ་དགུ་འཛོམ། ཁ་སྨྲས་གླེང་གཞིའི་ཟས་མི་ཟ། རྒྱལ་བའི་བཀའ་གསུང་མི་སྒྲོག» | on the 7th nine bad times meet: no feasting that gives rise to talk, no proclaiming the Victor's word |
+| 11 | 164 | «བདུན་ལ་དུས་ཚོད་ངན་པ་དགུ་འཛོམ། ཁ་སྨྲས་གླེང་གཞིའི་ཟས་མི་ཟ། རྒྱལ་བའི་བཀའ་གསུང་མི་སྒྲོག» | on the 7th nine bad times meet: no feasting that gives rise to talk, no proclaiming the Victor's word; on the 27th, «ཉེར་བདུན་ཐོ་རེངས་ཟླ་སྐྱོར་ཨེ་འཛོམ་བལྟ», look at whether the dawn's moon-conjunction meets (the 12th head has the 25th's, «བར་སྐྱོར»; q1161, read 2026-11-21) |
 | 12 | 165 | «བཅུ་བཞི་ལ་དམག་མི་དྲང་། ཡུལ་དང་ས་ཞིང་མི་འཚོང་།» | on the 14th no leading an army, no selling land or fields |
 | 1 | 167 | «ཉེར་གཅིག་ལ་ཆུ་བདུད་རྒྱལ་པོ་དགྲར་ལྡང་། འབྱུང་བ་ཆུའི་ལས་མི་བྱེད། ཉེར་ལྔར་ཀླུ་ཐེབས། གཉིས་དང་བརྒྱད་མ་གཏོགས་ཟླ་བ་རིལ་པོར་ཀླུ་བཟློག» | on the 21st the king of the water demons rises as an enemy: no work with water; the nāgas strike on the 25th and are turned the whole month but the 2nd and 8th |
 | 2 | 168 | «བརྒྱད་ལ་མེ་ལྷ་ཨགྣི་གདན་འདིང་བའི་དུས། རོ་བསྲེག་པ་དང་ནད་པའི་སེལ་སྒོ་འབྱེད་སར་མི་འགྲོ། བརྒྱད་ལ་རྗེ་རིགས། བཅོ་ལྔ་ལ་རྒྱལ་རིགས་དང་དམངས་རིགས་ལྡང་།» | the 8th is when Agni's seat is spread: no going to a cremation or where a sick person's purification is opened; the lords' caste rises on the 8th, the royal and common castes on the 15th |
