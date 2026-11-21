@@ -2708,7 +2708,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1205.md](questions/q1205.md) | question q1205 | KP label 111: which animal for each of the east mansions (six mansions, five animals)? | narrowed; cites kp:i111-113 |
 | [questions/q1206.md](questions/q1206.md) | question q1206 | KP label 107: is the first lord of the month named «ཐུག་ལྷ་གཱ་པ»? | answered; cites kp:i107-108 |
 | [questions/q1207.md](questions/q1207.md) | question q1207 | KD vol. 1 p. 493: the Dpal ldan effect reckoning's skipped date «༢ ༡ཆད»: the 21st, or the 2nd and the 1st? | open; cites kd.1:p493b |
-| [questions/q1208.md](questions/q1208.md) | question q1208 | KP's year ring: are the life-spirit knowers 'inner' and 'secret' WB's three places of one lord? | answered; cites kp:i87b, wb.2:p177-189, kp:i88c, kp:i89b, kp:i90b |
+| [questions/q1208.md](questions/q1208.md) | question q1208 | KP's year ring: are the life-spirit knowers 'inner' and 'secret' WB's three places of one lord? | narrowed; cites kp:i87b, wb.2:p177-189, kp:i88c, kp:i89b, kp:i90b |
 | [questions/q1209.md](questions/q1209.md) | question q1209 | KP §13–§15: the remaining panels of the year ring and the month charts, cell by cell | narrowed; cites kp:i88b, kp:i87b |
 | [questions/q1210.md](questions/q1210.md) | question q1210 | KP's year ring puts four lords in other places than WB's rules for the mouse year: another reckoning, or a slip? | narrowed; cites kp:i87b, wb.2:p177-189 |
 | [questions/q1211.md](questions/q1211.md) | question q1211 | KD vol. 3 p. 738: what is «thog 'don» in the trigram khen's bad list? | open; cites kd.3:p737-738 |
