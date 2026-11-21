@@ -2063,3 +2063,15 @@ ksr:
   role: source
   locator: page
   notes: "etext only (2026-11-21), the scans (I1KG15643) are not served; the etext's page markers are the printed pages; read pp. 363–368, the account of the foundation's shrines, books and the monthly rites"
+# --- Practice days, fourth wave (2026-11-21, rd-g): the rule-book of Mindroling.
+mdb:
+  title: "O rgyan smin grol gling gi 'dus sde'i bca' khrims kyi yi ge blang dor gsal bar byed pa'i nyi ma (the Sun that makes clear what to take and leave: the rule-book of the Mindroling assembly)"
+  author: "printed in the Gsung 'bum of Gter bdag gling pa 'Gyur med rdo rje (1646-1714); the afterword says it is the word of the Great Treasure Lama (gter chen bla ma'i gsung) and names Smin gling gcung Dharma kirti as the writer of the print's closing verses; the author of the text is not stated outright on the pages read"
+  edition: "Gter bdag gling pa 'Gyur med rdo rje'i gsung 'bum, Khochhen Tulku, Dehradun 1998 (16 vols, BDRC MW22096); the rule-book is in vol. ma (BDRC I2210), listed on the volume's contents leaf as «smin grol gling gi bca' yig, 35 leaves»; the same collection is the 'Khrul snang volume of dds.4 (I2197)"
+  bdrc: {work: MW22096, etext: VEIE0OPID229B8DD_I2210, scans: [I2210]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "rd-g (2026-11-21): etext 'good OCR' but with garbles (the month list of pp. 163-166 has letters lost and mixed); etext page = image number (img. 170 prints leaf 82 and begins with the etext's [p170] text); the scans of img. 168-172 were fetched, those of img. 163-167 answered HTTP 500 on four tries, so the monthly list is etext only; the rule-book runs from the etext's p. 127 (title) to p. 196 (afterword, 'Smin gling gcung Dharma kirti'), p. 197 opens the offshoot letter (bu yig); another print of the same text in the Rdzong sar collection MW00EGS1017717 (search hit only, not read)"
+
