@@ -185,3 +185,20 @@ The five kha yan years (kha yan lo lnga), a term of the elemental reckoning ('by
 bse: (4) rhinoceros, (2) dyed leather. bse rag: "a spirit that eats the essence of food and wealth, the ghost of poverty". gcong: (1) an illness hard to cure, a chronic one (consumption); (2) a cliff, a ravine; glo gcong: one of the eight lung illnesses (constant cough, wasted flesh, a rattle from the throat, heavy movement); dmu chu: dropsy, named after the dmu spirit, "one of the six chronic diseases (gcong chen nad drug)" in Valby. kha smras: "a man's talk, gossip". ljan ljin: "filth, dirt, sweepings; unclean", chu ljan ljin "filthy water". rbad: "boasting; all, wholly; abruptly"; rbad bcad "resolute", rbad de "completely".
 
 No headword found for: do ra'i gar mkhan, 'dren byed g.yos, rta ldang, kha dmar ma ldog, du mjug, sgrid (as a verb), gtsong, bya rtse, khrag zo, khrag tho, sa rbad, sa thad, ཁ་སྤྲས as kha spras, bla bu, nyi bu.
+
+## <a id="tmz-box10"></a>tmz:box10 The entries 'bog pa, gnam stong, gnam gang, nya stong and dus drug in the keyed Tibetan dictionaries (q1338, q1339)
+
+*Read: etext, 2026-11-21.*
+
+> > 'bog pa | 1. {(tha dad pa) 1/ 'bogs pa/ 'bog pa/ 'bogs// rgal ba/ gtsang chu 'bogs nas pha rol tu slebs pa/ 2/ phog pa/ dbog pa/ phog/} 1) {sbyin pa/ sdom pa phog pa/ gdams ngag 'bog pa/} 2) {(rnying) brtson pa/ } 2. {(tha mi dad pa) bog pa/ 'bog pa//} 1) {brgyal ba/ ...} 2) {lhung ba dang/ brul ba/ zags pa/ ...}   (Tshig mdzod chen mo; the same in Bod yig tshig gter rgya mtsho); Ives Waldo: 1) release; 2) give; 3) make an effort; 4) sink/coagulate; 5) fall down on; ...
+> > 'bog chog | conferring ritual   (Ives Waldo)
+> > gnam stong | {zla re'i tshes sum cu pa/ dus 'khor lugs su zla ba kun la gnam stong yod kyang/ rgya rtsis la yod med mi nges te/ yod na zla ba che/ med na zla ba chung zer/}   (Tshig mdzod chen mo; the same in Bod yig tshig gter rgya mtsho); Ives Waldo: new moon day, 30th of the month
+> > gnam gang | {tshes pa sum cu/}   (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho); Ives Waldo: auspicious 30th new moon day of the Tibetan month
+> > nya stong | {nya gang tshes bco lnga dang gnam stong tshes sum cu gnyis kyi bsdus ming/}   (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho); Ives Waldo: the full moon and new moon days, 15th 30th
+> > nya stong brgyad gsum | {tshes bco lnga dang/ sum cu/ brgyad de dus bzang gsum/}   (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho)
+> > nya stong dus drug | the six days such as full moon, new moon etc   (Ives Waldo)
+> > dus drug | 1) {nyin lan gsum/mtshan lan gsum ste drug} 2) {dpyid/ sos ka/ dbyar/ ston/ dgun/ dgun smad bcas drug}   (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho)
+
+'bog pa (transitive, tha dad pa, the pair 'bogs / phog): the Great Dictionary's first sense, "to give" (sbyin pa), with its examples "sdom pa phog pa" (to give the vows) and "gdams ngag 'bog pa" (to give instruction); the second, intransitive 'bog pa / bog pa, is to faint, to fall, to rot. Ives Waldo has "give" and "release" for the first and "conferring ritual" for 'bog chog.
+
+gnam stong: "the thirtieth lunar day of a month"; in the Kalacakra system every month has a gnam stong, but in the Chinese-style reckoning it is uncertain whether there is one (if so, the month is long, if not, short); Ives Waldo: new moon day, the 30th. gnam gang: "the thirtieth lunar day". nya stong: "the abbreviated name of the full moon (nya gang, the fifteenth) and the gnam stong, the thirtieth"; nya stong brgyad gsum: the fifteenth, thirtieth and eighth, "the three good times". nya stong dus drug: Ives Waldo only, "the six days such as full moon, new moon etc", with no list. dus drug in the Great Dictionary is the three day-watches and three night-watches, or the six seasons; it is not tied to the lunar days.

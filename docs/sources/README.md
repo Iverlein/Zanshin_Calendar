@@ -1689,7 +1689,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tgb/tgb.md](corpus/tgb/tgb.md) | corpus | Tsong kha pa's Sngags rim chen mo, the vows part (RD401) | 1 passages: 1 etext |
 | [corpus/tkg/tkg.md](corpus/tkg/tkg.md) | corpus | TKG | 1 passages: 1 machine |
-| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 9 passages: 9 etext |
+| [corpus/tmz/tmz.md](corpus/tmz/tmz.md) | corpus | TMZ | 10 passages: 10 etext |
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 46 passages: 7 scan, 39 etext |
@@ -2837,7 +2837,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1335.md](questions/q1335.md) | question q1335 | Does the line-4 sgab of WB p. 104 (Taikhang img. 160) carry a subjoined ra, so that the word is sgrab | open; cites — |
 | [questions/q1336.md](questions/q1336.md) | question q1336 | Who revealed the pure-vision life of the Guru in the anthology Bka' thang phyogs bsgrigs (BKT), and which Padma bka' thang redaction is it based on | open; cites — |
 | [questions/q1337.md](questions/q1337.md) | question q1337 | Does the Seven Chapters Prayer's 'waxing tenth' (yar ngo'i tshes bcu) exclude the waning tenth | open; cites — |
-| [questions/q1338.md](questions/q1338.md) | question q1338 | Does sdom pa 'bog pa, said of the 11th in Dpal sprul's verse on the days' results (dpk.2:p138-140), mean giving, taking or laying down vows | open; cites — |
+| [questions/q1338.md](questions/q1338.md) | question q1338 | Does sdom pa 'bog pa, said of the 11th in Dpal sprul's verse on the days' results (dpk.2:p138-140), mean giving, taking or laying down vows | answered; cites tmz:box10, dpk.2:p138-140 |
 | [questions/q1339.md](questions/q1339.md) | question q1339 | Is gnam stong in the Kun bzang bla ma'i zhal lung the new moon, as lcb:p568's note says, and is the six times (dus drug) of kzl:i315 the list of lcb:p568 | open; cites — |
 | [questions/q1340.md](questions/q1340.md) | question q1340 | Which authority is behind Karma chags med's yar mar dgu dang bcu gcig for Palden Lhamo (a Kagyu protector text?) | open; cites — |
 | [questions/q1341.md](questions/q1341.md) | question q1341 | What does nam tshes la after nyer dgu in MRS p. 77 mean, and where does the Sngags kyi be bum fix the 15th and Mars-day for Sarasvati | open; cites — |
