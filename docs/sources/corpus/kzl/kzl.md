@@ -17,6 +17,16 @@ text's order, each under its id, with its `*Read:*` line.
 
 Printed p. 173 of the Gser thang print, the end of the paragraph on the ten virtues (the etext's page marker [p178], image 178); the first sentence begins on the page before (printed p. 172). The page was checked on the image by its line breaks and by the words on the days; not every syllable was read at high magnification. Whether the «གནམ་སྟོང» is the new moon is by the note of lcb:p568 (the Larung print's note on the six times), not by this page.
 
+## <a id="kzl-i275"></a>kzl:i275 Offerings to the Three Jewels on the full-moon and new-moon days and the six times, read on the Gser thang scan
+
+*Read: scan, 2026-11-21.*
+
+> རང་གི་ཕྱག་དང་མཆོད་པ་ལྷ་བསྒོམ་སྔགས་བཟླས་ལ་སོགས་དགེ་བའི་རྩ་བ་གང་འགྲུབ་ཐམས་ཅད་ཀྱང་དཀོན་མཆོག་གསུམ་ལ་མཆོད་པར་འབུལ་ཞིང་སེམས་ཅན་གྱི་དོན་དུ་བསྔོ་བ་བྱ། ཉ་སྟོང་དུས་དྲུག་ལ་སོགས་པར་དཀོན་མཆོག་གི་མཆོད་པ་ཅི་ནུས་སུ་བྱ་ཞིང་། རྒྱུན་དུ་དཀོན་མཆོག་གསུམ་གྱི་དུས་མཆོད་མི་བཅག
+
+"Whatever root of virtue is accomplished, of one's own prostrations and offerings, deity meditation, mantra recitation and the like, offer all of it to the Three Jewels and dedicate it for the sake of beings. On the full moon and new moon days and the six times (ཉ་སྟོང་དུས་དྲུག, nya stong dus drug) and the like, make offerings to the Three Jewels as far as one can, and do not break the regular periodic offerings (དུས་མཆོད, dus mchod) to the Three Jewels."
+
+Gser thang print, printed p. 270 = image 275 of I3CN4692 (lines 13 to 16 of the page), the etext's page marker [p275], in the closing counsel of the part on refuge. The days are named only as «ཉ་སྟོང་དུས་དྲུག»; the six times are not listed on the page. The same sentence is at the etext's [p315] of Dpal sprul's Gsung 'bum vol. 7 (kzl:i315); image 315 of the Gser thang scans is printed p. 310 and does not hold it (the etext of the Gser thang print numbers this sentence [p275], the Gsung 'bum's [p315]; the two etexts' markers differ).
+
 ## <a id="kzl-i315"></a>kzl:i315 Offerings to the Three Jewels on the full-moon and new-moon days and the six times
 
 *Read: etext, 2026-11-21.*
@@ -25,4 +35,4 @@ Printed p. 173 of the Gser thang print, the end of the paragraph on the ten virt
 
 "Whatever root of virtue is accomplished, of one's own prostrations and offerings, deity meditation, mantra recitation and the like, offer all of it to the Three Jewels and dedicate it for the sake of beings. On the full moon and new moon days and the six times (ཉ་སྟོང་དུས་དྲུག, nya stong dus drug) and the like, make offerings to the Three Jewels as far as one can, and do not break the regular periodic offerings (དུས་མཆོད, dus mchod) to the Three Jewels. In all times and conditions, whatever comes, happy or sad, do not forget to take refuge in the Three Jewels alone."
 
-Gser thang print, the etext's page marker [p315] (image 315, printed p. 310), in the closing counsel of the part on refuge; the same sentence stands in Dpal sprul's Gsung 'bum, vol. 7 (the etext's [p315], BDRC I1PD107150, which holds the work); the six times are not listed on the page. Read in the etext only.
+Dpal sprul's Gsung 'bum, vol. 7 (the etext's page marker [p315], BDRC I1PD107150, which holds the work), in the closing counsel of the part on refuge; the same sentence stands in the Gser thang print at printed p. 270, image 275 (kzl:i275, read on the scan; image 315 of those scans, printed p. 310, does not hold it); the six times are not listed on the page. Read in the etext only.

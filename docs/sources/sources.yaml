@@ -2008,6 +2008,17 @@ kzl:
   author: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po (1808-1887)"
   edition: "Gser thang Bla rung lnga rig nang bstan slob gling, Gser rta rdzong 2015, 530 pp. (typeset; BDRC MW3CN4690, etext VEIE0OPIFAC9F61B_I3CN4692, BDRC rates the OCR excellent)"
   bdrc: {work: MW3CN4690, etext: VEIE0OPIFAC9F61B_I3CN4692, scans: [I3CN4692]}
+bgs:
+  title: "Yon tan rin po che'i mdzod kyi rgya cher 'grel pa Bden gnyis shing rta (the author's own commentary on the Yon tan mdzod)"
+  author: "Kun mkhyen 'Jigs med gling pa (1729/30-1798)"
+  edition: "Gsung 'bum vol. 1, Sonam T. Kazi, Gangtok 1970 (Ngagyur Nyingmay Sungrab vol. 29); another print MW1GS58460 (Larung 2006, etext 'best quality, unaligned', its etext id not found)"
+  bdrc: {work: MW1KG10193, etext: VEIE0OPI7753427C_I1KG10195, scans: [I1KG10195]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "page = the etext's [pN] = BDRC image number (img. 658 prints 650); the etext is poor OCR, the scan is a 1595 px wide strip of small cursive; rd-f 2026-11-21"
+
 rczp:
   title: "Ri chos mtshams kyi zhal gdams (the retreat manual, Mountain Dharma), Palampur print"
   author: "Gnas mdo Karma chags med (see rcz)"
