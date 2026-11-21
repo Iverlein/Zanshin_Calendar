@@ -1699,7 +1699,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
-| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 8 passages: 1 machine, 7 etext |
+| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 9 passages: 1 machine, 8 etext |
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 18 passages: 12 scan, 6 machine |
@@ -1870,7 +1870,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | answered; cites wb.2:p10-11 |
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
 | [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | answered; cites wb.2:p3-4, wbz:i631 |
-| [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125, wbz:i809 |
+| [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | answered; cites wb.2:p124-125, wbz:i809, ut:p312-314, wb.2:p74-75 |
 | [questions/q0371.md](questions/q0371.md) | question q371 | The root text's count for the la board: the Moonbeams' or LT's | answered; cites dz:i055-057, lt:p26-28, wb.2:p499-500 |
 | [questions/q0372.md](questions/q0372.md) | question q372 | Whose mewa and trigram among the burial reckoning's eleven roots | narrowed; cites dz:i057-061 |
 | [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |

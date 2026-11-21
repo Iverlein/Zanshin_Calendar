@@ -86,6 +86,20 @@ The *Garland of Blue Utpalas* (UT, printed p. 234, etext p. 256) restates the en
 
 The *Garland of Blue Utpalas* (UT, printed pp. 302–304, etext pp. 324–326), the strikes of the trigram on which the dead died: on Khon an ox or sheep year's death is the *ku kung* "bad after" (རྗེས་ངན, rjes ngan) strike, the corpse afterwards five or eight; on Khen a dog or dragon year's death is the *ku kung* "following after" (རྗེས་དེད, rjes ded) strike, nine or seven corpses may come; on Gin an ox or sheep year's death is the *ku kung* "turned back after" (རྗེས་ལོག, rjes log), five or ten corpses come by the strike. (Three strikes of one name, on three trigrams, each by the year of death.)
 
+## <a id="ut-p312-314"></a>ut:p312-314 The five graves' work on the corpse; the fourth, bsgrib, spelled bsgrib and bsgrub
+
+*Read: etext, 2026-11-21.*
+
+> རོ་ལས་བྱེད་ཐབས།
+> གཉིས་པ་རོ་ཡི་ལས་བྱེད་པ། བསྲེག་པ་མེ་དང་སྦ་བ་ས། སྐྱེལ་བ་ཤིང་དང་བསྒྲིབ་པ་ལྕགས། བསྐྱུར་བ་ཆུ་རུ་ཤེས་པར།
+> (headings of the section, as in the contents: མེ་བསྲེག་མི་རུང་བ། སྦ་མི་རུང་བ། བསྒྲིབ་མི་རུང་བ། ཆུར་སྐྱེལ་མི་རུང་བ། རིར་སྐྱེལ་མི་རུང་བ། དུར་ལྔ་མི་རུང་སྤྱི་ཡི་བཅོས།)
+> བསྒྲིབ་མི་རུང་བ།
+> རོ་ཉིད་བསྒྲིབ་ཏུ་མི་རུང་བ། སྟག་ཡོས་ཤིང་ཁམས་སྤར་ཁ་ཟིན། སྨེ་བ་བཞི་ལྗང་གཟའ་ཕུར་བུ། སྨིན་སྣར་མགོ་ལག་ནབས་སོ་རྒྱལ། ཤར་སྐར་དྲུག་དང་དཔྱིད་ར་འབྲིང་། གཅོང་ནད་མཛེ་ལྷོག་འབྲུམ་བུའི་ནད། དམེ་རོ་བན་བོན་རྦོད་གཏོང་ཤི། བསྒྲུབ་པར་མི་བྱ་གཞན་ཡང་ནི། སྟག་ཡོས་དྭ་ཟིན་བདུན་དམར་བབས། ཁྲུ་རྒོད་ཆུ་འཁྲོག་ཁོངས་པ་མྱོང་། འདི་དག་བསྒྲིབ་ན་རོ་གཉིས་འབྱུང་། བསྒྲིབ་མི་རུང་བ་བསྒྲིབ་པ་ན། ལུས་ལ་མེ་བཙའ་བྱས་ནས།
+> དུར་ལྔ་མི་རུང་སྤྱི་ཡི་བཅོས།
+> ཤར་དུར་ས་ཚོན་དཀར་པོ་ཡིས། དྭ་ཡི་ཕྱག་རྒྱ་བྲི་བ་དང་། ... འབྱུང་བ་གོ་ལྡོག་ཨུར་མནན་ཡིན།
+
+The Garland of Blue Utpalas (UT; the etext of I4767, read as an etext, not on a scan), the corpse's work: the second thing, what is done to the corpse: "burning is fire and hiding earth, sending wood and *bsgrib* iron; casting out into water, know it as water" (the five graves by element, as in WB vol. 2, p. 74, where the same verse reads «སྐྱེལ་བ་ཤིང་ལ་སྒྲུབ་པ་ལྕགས»). The section's headings run: not to be burnt, not to be hidden, not to be covered (བསྒྲིབ), not to be cast into water, not to be sent to the mountain, then the common remedy when the five graves are not allowed. The heading «བསྒྲིབ་མི་རུང་བ» ("a corpse not allowed to be covered") has its verse spell the word both ways in one run: «རོ་ཉིད་བསྒྲིབ་ཏུ་མི་རུང་བ» at its head, «བསྒྲུབ་པར་མི་བྱ་གཞན་ཡང་ནི» (do not cover; besides) in the middle, «འདི་དག་བསྒྲིབ་ན་རོ་གཉིས་འབྱུང་» (if these are covered, two corpses come) at its end; the remedy of the five graves that follows is the verses of WB pp. 124–125 («འབྱུང་བ་གོ་ལྡོག་ཨུར་མནན་ཡིན»).
+
 ## <a id="ut-p317"></a>ut:p317 The grave executioners' days: the 6th, the middle four's 26th, the last's 16th
 
 *Read: machine, 2026-11-01.*
