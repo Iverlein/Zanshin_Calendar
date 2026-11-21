@@ -71,6 +71,8 @@ The eighth to the tenth roads, p. 99, l. 2, to p. 100, l. 15.
 
 **(10) The corpse-bearer** (རོ་ཁུར): if the corpse is hard to take out of the house and door, white earth circles drawn round its four sides, two by two at the corners; a yak pen at the outer door for the pyre; outside, bow and arrow head to tail; the khams earth's *nya bo* adorned with the corpse's hair and a human mouth, laid at the upper and lower thresholds, head and tail reversed; the lower threshold not touched, the *Gzungs bsdus* recited. **Bad times for the bearer:** in an ox year the evening to the north; a horse year sunset, east and south; a sheep year sunrise, the south-west; a bird year the great morning warmth, the lower(?) side; a dog year from dawn to the great warmth, the east; on all days the two noons and the two "rays" are demon times; especially the east at sunrise, the south at noon, the west at sunset, the north at midnight are bad for the bearer. Great obstacles on one seat, the seventh and enemy-slayer meeting the dead, the trigram and mewa where the corpse must be avoided; the corpse meeting the triad; one who died on the mouse-pig *kham* not carried by a horse- or snake-year man; the dead and the bearer bad enemies (དགྲ་ངན་གཤིན་དང་རོ་ཁུར་གཉིས), their trigrams' fighting ones («འཐབ་དག») meeting; the three whites fallen, the corpse not carried; otherwise, a corpse-craver carries it. The month's, day's and hour's seventh, obstacle and slayer of the bearer avoided.
 
+*Witnesses 2026-11-21 (rd-ah): «རྨེ[?]་བདུན་ཤར་བའི་གདོང»: the 1996 etext reads «rme bdun shar ba'i gdong la 'dzem» (no further syllable), as the print; but both Vaidūrya etexts read in WB's own gloss on the same verse (the section «sa bdag ngan pa'i phyogs dang / sme bdun shar ba'i gdong ste …») «sme bdun shar ba'i gdong», that is སྨེ་བདུན with the mewa: WB's own commentary takes rme as sme (WB-text only, not independent, but decisive for the sense, the answer to q0337's second question).*
+
 ## <a id="wb-2-p100-103"></a>wb.2:p100-103 Where each kind of corpse is set down or hidden
 
 *Read: scan, 2026-10-23.*
@@ -90,6 +92,8 @@ Where each kind of corpse is set down or hidden, from p. 100, l. 13, to p. 103, 
 **One place each:** over one pass, the leper; over one narrow path, the *snel gri* woman; at a valley's foot, the *dme* corpse; over one water, the *ro gog*; at a crossroads, the *byi phyag*; in an ant hole, the *spre shal*; the *sri'u* where the mill's roar is heard; under the threshold, the *chung ro*; at the foot of the skylight, the *bkra mun*; the newborn at the hearth.
 
 **Not to be hidden** (p. 103): on the roads of the *lha gnyan* and *klu gnyan* spirits, on great roads, on three-cornered ground and mounds, at the corners of walls, where pottery is fired, in marsh and at springs. **The ground for hiding** is pure, clean and pleasing, its soil unbroken and untorn, without ants or scurrying things, flat as a mirror. The page's last syllable, «ངན», opens the next line on p. 104.
+
+*Witnesses 2026-11-21 (rd-ah): «ཤྱེབས[?]» (p. 102, l. 22): both Vaidūrya etexts read «lcebs nas shi ba'i ro dag la» (ལྕེབས, not ཤྱེབས); WB-text only. «མ་མཆན[?]་ཐབས་སྦ»: the 1996 etext reads «ma mchan thabs sbe skyes ma thag» (མཆན with ཆ, and སྦེ for the stored སྦ); WB-text only. No independent printed witness found.*
 
 ## <a id="wb-2-p104"></a>wb.2:p104 The twenty-six places not allowed even if clean, and the repair
 
