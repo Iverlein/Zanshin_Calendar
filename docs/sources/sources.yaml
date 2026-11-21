@@ -1928,3 +1928,58 @@ dbl:
       image_offset: 8
       notes: "image = the reprint's page number + 8 (img. 62 prints 54); the margin letter is kha; the etext's [pN] is the image number and its OCR is poor"
   notes: "scans open, 2510 px a folio; the work fills pp. 54–55, after a prayer written at Ri bo rtse lnga and before a short account of the Tibetan schools"
+
+obk:
+  title: "Padma bka' thang (O rgyan gu ru Padma 'byung gnas kyi skyes rabs rnam par thar pa rgyas par bkod pa Padma bka'i thang yig), the Orgyan gling pa treasure, 108 chapters"
+  author: "Yar rje O rgyan gling pa (b. 1323, the treasure-revealer; BDRC MW1KG25186)"
+  edition: "Ser gtsug nang bstan dpe rnying 'tshol bsdu phyogs sgrig khang, Lha sa 2016 (Gangs can khyad nor dpe tshogs 397), 8 + 383 pp."
+  bdrc: {work: MW1KG25186, etext: VEIE0OPI5D4E8578_I1KG25188, scans: [I1KG25188]}
+  licence: "the treasure public-domain; the modern edition's own matter copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-a (2026-11-21): etext (excellent quality, 299 chunks) page marker [pN] = image N of I1KG25188, printed page = image - 14 (img. 351 prints 337, read on the scan); the etext keeps the folio marks (e.g. (༢༠༥བ)); chapters are numbered in the print's way: ཞེ་གཅིག 41, ང་གཅིག 51, གོ་གཅིག 91, བརྒྱ་ཐམ་པ 100, བརྒྱ་དང་དྲུག 106; the passages on the tenth are in chapters 26, 40, 102, 106, 108; other prints MW3KG914 (Dharma Publishing, no etext), MW22346 (poor etext), MW17320_A6024F, MW1PD83975_6D4D59 (Bka' thang gser phreng, a different redaction); the BDRC image server answered 503 for a time on 2026-11-21 and then served"
+
+lbm:
+  title: "O rgyan gu ru Padma 'byung gnas kyi rdo rje'i gsung 'khrul pa med pa'i gsol 'debs le'u bdun ma lo rgyus dang bcas pa (the Seven Chapters Prayer with its history), Byang gter version in the Rin chen gter mdzod"
+  author: "Padmasambhava's word, revealed by Sprul sku Bzang po grags pa, given to Rig 'dzin Rgod kyi ldem 'phru can (the colophon); in the Rin chen gter mdzod chen mo, ed. 'Jam mgon Kong sprul (BDRC MW1KG14_81B98A, by Bzang po grags pa)"
+  edition: "Rin chen gter mdzod chen mo, Dpal spungs (Shechen) print, vol. 5 (the part on pp. 589-634 of BDRC's W1KG14 volume 5)"
+  bdrc: {work: MW1KG14_81B98A, etext: VE1KG14_005}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-a (2026-11-21): etext VE1KG14_005 (886 chunks, 1964 pages, several texts, each opening its own [p1]); the Seven Chapters begin at character 549 061 under their title at [p1] and run to [p34] (colophon at 594 467); page = that text's own [pN] marker. The seven prayers are, in order, the general lineage prayer to the three bodies (p4), to the king (p5), to Ye shes mtsho rgyal (p11), to Nam mkha'i snying po (p15), to Sna nam rdo rje bdud 'joms (p19), to Mu khri btsan po (p22), and the Bsam pa lhun grub ma to the king of Gung thang (p29-33). The same verses are recited in the daily liturgies of the Sa skya, Bo dong, 'Bri gung and Mdo chen collections (BDRC phrase search, 7 etexts)"
+
+sdd:
+  title: "Rig 'dzin dgyes pa'i mchod sprin (a history of the Rin chen gter mdzod and its Guru treasures)"
+  author: "Si tu Padma don yod nyin byed (the twelfth Situ, 1774-1853, BDRC)"
+  edition: "Palpung Sungrab Nyamso Khang, Bhattu 2007, 330 pp. (BDRC MW1KG854)"
+  bdrc: {work: MW1KG854, etext: VEIE0OPI764E8DE6_I1KG889}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-a (2026-11-21): etext good OCR, 327 pages; the text's own [pN] marker (the passage on the Guru's life at [p19]-[p20]); the author's own numerals 8-9 stand in the margin"
+
+dkm:
+  title: "Mi pham 'jam dbyangs rnam rgyal rgya mtsho'i rnam thar snying po bsdus pa ngo mtshar bdud rtsi'i snang ba (the short life of Mipham)"
+  author: "Skyabs rje Dil mgo Mkhyen brtse (1910-1991, a modern author)"
+  edition: "BDRC MW8LS20744 (etext VEIE0OPIFB44F448_I8LS20758, good OCR, 146 pages)"
+  bdrc: {work: MW8LS20744, etext: VEIE0OPIFB44F448_I8LS20758}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: witness
+  locator: page
+  notes: "RD rd-a (2026-11-21): etext only; the text's own [pN] markers; the passage on Mipham's daily vows at [p76]; also quoted in BDRC's MW3CN5285 (a collection of lives)"
+
+bkt:
+  title: "Slob dpon Padma 'byung gnas kyi rnam thar dpe tshogs: Bka' thang phyogs bsgrigs snyigs ma'i rgud 'joms rdo rje'i me char (anthology of lives of Padmasambhava), item Dag snang rin chen gter mdzod las: O rgyan rnam thar mu tig phreng rgyan"
+  author: "the anthology compiled by Blo gros rgya mtsho; the item is a pure-vision treasure (dag snang) whose revealer the OCR of the contents does not give"
+  edition: "Bod ljongs mi dmangs dpe skrun khang, 2012 (BDRC MW1AC2, vol. I2PD18003)"
+  bdrc: {work: MW1AC2, etext: VEIE0OPIAF862726_I2PD18003}
+  licence: "modern compilation, copyrighted: facts only"
+  rank: 3
+  role: witness
+  locator: page
+  notes: "RD rd-a (2026-11-21): etext 'mediocre quality' (the OCR garbles the margins and headers); page = etext marker, the print's page number at the foot reads 231 at etext p. 271; the scans are a lending copy on archive.org, not read; the item is in 18 chapters, ch. 16 begins at etext p. 272; the item follows the Padma bka' thang's wording in the farewell chapters but adds lines; found only in this anthology (BDRC phrase search 1 hit each)"
