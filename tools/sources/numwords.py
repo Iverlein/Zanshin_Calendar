@@ -3,14 +3,14 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 """Spell a White Beryl figure from its word-numerals and compare it with the printed glyphs.
 
-  numwords.py spell «ཟླ་དག་ཀླུ་ལག་འབྱུང་མེས»        the value the words spell
+  numwords.py spell «ཀླུ་ལག་འབྱུང་མེ»        the value the words spell
   numwords.py check FILE [FILE...]                 every «words(figure)» in the file: OK / NO / ??
   numwords.py key                                  the digit key
 
 WB gives many figures twice: as glyphs in brackets and as a run of word-numerals
 (sky 0, moon 1, ...). The run is read from its last word to its first, the last
-word being the units place of the glyph figure read left to right: «མེ་འབྱུང་ལག་ཀླུ»
-(fire 3, element 5, hand 2, naga 8) spells 3528. This is the check that settled
+word being the leftmost digit of the glyph figure: «ཀླུ་ལག་འབྱུང་མེ»
+(naga 8, hand 2, element 5, fire 3) spells 3528. This is the check that settled
 q1317-q1332 and the nine «victor» glosses of ch. 17 on 2026-11-21; it spells, it
 does not judge: a NO is a lead (a blot misread, a slip of the print, or a key
 entry still missing), settled by a second check (arithmetic, a repeat of the
@@ -40,7 +40,7 @@ for value, words in {
     6: 'རོ་ དུས་ མཚམས་',
     7: 'རི་ ཐུབ་ དྲང་སྲོང་ གཟའ་',
     8: 'ཀླུ་ ནོར་',
-    9: 'བུག་ རྩ་',
+    9: 'བུག་ རྩ་ སྲིན་',
     10: 'ཕྱོགས་',
     11: 'དྲག་',
     12: 'ཉི་ ཁྱིམ་',

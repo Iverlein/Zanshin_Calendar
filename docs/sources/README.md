@@ -2850,6 +2850,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1347.md](questions/q1347.md) | question q1347 | WB ch. 17 pp. 195, 213 and 215: three figures against their word-numerals | open; cites — |
 | [questions/q1348.md](questions/q1348.md) | question q1348 | WB ch. 3 p. 34 and ch. 7 p. 49: figures against their word-numerals (429/439, 3111/211, 741/746, 178, 488) | open; cites — |
 | [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | open; cites — |
+| [questions/q1350.md](questions/q1350.md) | question q1350 | WB ch. 7 p. 49 'victor, fire-pair three' (4898?) and ch. 10 line 82 «དབང་ཉིད ༡༢༥»: figures not backed by their words | open; cites — |
 
 <!-- end pool index -->
 
