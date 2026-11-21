@@ -2066,7 +2066,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | answered; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | answered; cites wb.2:p305-307 |
 | [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | narrowed; cites wb.2:p335-336, wb.2:p341-342 |
-| [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | open; cites — |
+| [questions/q0613.md](questions/q0613.md) | question q613 | «ཕྱི་བསྐོར» in Glag bla's passage | answered; cites — |
 | [questions/q0614.md](questions/q0614.md) | question q614 | The father wheel and mother wheel of a wheel with rims | narrowed; cites — |
 | [questions/q0615.md](questions/q0615.md) | question q615 | «མགོ་མཇུག་ལོག» in the benefits texts | open; cites — |
 | [questions/q0616.md](questions/q0616.md) | question q616 | «འདུག་པར» or «གདུགས་ལྟར» in the Gangtok print | answered; cites — |
