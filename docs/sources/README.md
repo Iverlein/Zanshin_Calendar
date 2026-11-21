@@ -1650,9 +1650,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 8 passages: 1 machine, 7 etext |
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 17 passages: 12 scan, 5 machine |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 18 passages: 12 scan, 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 10 scan, 4 machine |
-| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 16 scan, 0 machine |
+| [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 16 scan |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 6 scan, 1 machine |
 | [corpus/wb/ch08.md](corpus/wb/ch08.md) | corpus | WB ch. 8 | 5 passages: 5 scan |
@@ -1671,7 +1671,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 47 passages: 39 scan, 7 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 48 passages: 40 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
@@ -1679,9 +1679,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 42 passages: 22 scan, 13 machine, 7 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 44 passages: 23 scan, 14 machine, 7 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 47 passages: 27 scan, 19 machine, 1 etext |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 48 passages: 28 scan, 19 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 50 scan, 11 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 61 passages: 35 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 24 passages: 18 scan, 5 machine, 1 etext |
@@ -1992,7 +1992,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | narrowed; cites — |
 | [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | answered; cites — |
 | [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | answered; cites — |
-| [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
+| [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | answered; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | answered; cites — |
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | answered; cites — |
 | [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | answered; cites — |
