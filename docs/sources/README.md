@@ -2727,14 +2727,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1224.md](questions/q1224.md) | question q1224 | KP's last four boxes run fierce, control, pacify, life and wealth; WB runs life and wealth, control, destructive, pacifying: why? | open; cites kp:box61 |
 | [questions/q1225.md](questions/q1225.md) | question q1225 | KP month panels: which cell of a panel stands for which animal's corner? | open; cites kp:i91-96b |
 | [questions/q1226.md](questions/q1226.md) | question q1226 | KP month panels: does each seat the six sky-line gods (WB lords 23–28) and the six black ones of the shadow by WB's month animal pairs? | open; cites kp:i91-96b |
-| [questions/q1227.md](questions/q1227.md) | question q1227 | KP month panels: what does «བབ» (bab) at the end of many cells mean? | open; cites kp:i91-96b |
+| [questions/q1227.md](questions/q1227.md) | question q1227 | KP month panels: what does «བབ» (bab) at the end of many cells mean? | answered; cites kp:i91-96b, wb.2:p224-225 |
 | [questions/q1228.md](questions/q1228.md) | question q1228 | KP month panels: where are Ga-pa in the snake, rat and ox panels and Grum-bu in the snake, sheep, dog, rat and ox panels? | open; cites kp:i91-96b |
 | [questions/q1229.md](questions/q1229.md) | question q1229 | KP month panels: does the sheep (summer 3) panel carry the ox's time of day facing south, as WB's Wang-khyi has it? | open; cites kp:i91-96b |
 | [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | narrowed; cites kp:i91-96b |
 | [questions/q1231.md](questions/q1231.md) | question q1231 | KP box 13's last line: «གདོང་ཐུག» or «གདོང་མ་ཐུག» as in WB? | answered; cites kp:i29 |
 | [questions/q1232.md](questions/q1232.md) | question q1232 | KP box 12: is «སའི་འཕུང་བྱེད» the same lord as WB's «ས་ཕུང་ནག་པོ», and «ཉི་ནུབ» the same as WB's «ཉི་ནག»? | open; cites kp:i27 |
-| [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | open; cites kp:i26 |
-| [questions/q1234.md](questions/q1234.md) | question q1234 | KP box 10: is «ཀིང་ཟོར» one name or two (it follows «ཉི་མ་བྱ་ཡོས»)? | open; cites kp:i26 |
+| [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | answered; cites kp:i26, wb.2:p96-97 |
+| [questions/q1234.md](questions/q1234.md) | question q1234 | KP box 10: is «ཀིང་ཟོར» one name or two (it follows «ཉི་མ་བྱ་ཡོས»)? | answered; cites kp:i26, kp:i32 |
 | [questions/q1235.md](questions/q1235.md) | question q1235 | KP box 34: which half does the last line «བདུད་རྩི་ཐུན་མཚམས་གཟའ་སྐར་ཆུ་ཕྲད་སོགས» belong to? | answered; cites kp:i41 |
 | [questions/q1236.md](questions/q1236.md) | question q1236 | KP box 42: does «བག་མའི་ལོ་ལག་ཙ་ཀྲ» stand for WB's «གདགས་ཀྱི་ལྷ་དྲུག», and does KP name an earth lord WB lacks? | open; cites kp:i46-57 |
 | [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | answered; cites kp:i41 |
@@ -2742,7 +2742,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | narrowed; cites kp:i34 |
 | [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | answered; cites kp:i37, wb.2:p362-363 |
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
-| [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
+| [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | answered; cites kp:i36b, wb.2:p96-97 |
 | [questions/q1243.md](questions/q1243.md) | question q1243 | KP boxes 17 and 20 drop WB's «ལྷ་ལྔ་འཚོག་པ» while box 10 keeps «ལྷ་ལྔ»: why? | open; cites kp:i32 |
 | [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | narrowed; cites kp:i33 |
 | [questions/q1245.md](questions/q1245.md) | question q1245 | KP box 47: is the first word of the last clause «ས་བདག» or «འཇོམས», and does WB work 44 have a matching clause about harsh earth lords? | open; cites kp:i52s |
