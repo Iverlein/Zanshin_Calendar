@@ -2704,7 +2704,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
 | [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
 | [questions/q1243.md](questions/q1243.md) | question q1243 | KP boxes 17 and 20 drop WB's «ལྷ་ལྔ་འཚོག་པ» while box 10 keeps «ལྷ་ལྔ»: why? | open; cites kp:i32 |
-| [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | answered; cites kp:i33 |
+| [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | narrowed; cites kp:i33 |
 | [questions/q1245.md](questions/q1245.md) | question q1245 | KP box 47: is the first word of the last clause «ས་བདག» or «འཇོམས», and does WB work 44 have a matching clause about harsh earth lords? | open; cites kp:i52s |
 | [questions/q1246.md](questions/q1246.md) | question q1246 | KP box 49 against WB work 48 (consecration): does the elided part of WB's verse hold the run (nyi nag, naga planet, black woman, Vishti, destroyer, hal khyi, naked one), or is it from WB work 46? | open; cites kp:i52s |
 | [questions/q1247.md](questions/q1247.md) | question q1247 | KP box 48: is the last short line (a single word «ངན།») a separate line or the tail of the line above? | open; cites kp:i52s |
