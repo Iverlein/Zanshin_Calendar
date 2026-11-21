@@ -2275,7 +2275,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0772.md](questions/q0772.md) | question q772 | p. 411: «འཆོལ» or «འཚོལ», «ཐུར་མ» or «ཟུར་མ» | answered; cites wb.2:p411 |
 | [questions/q0773.md](questions/q0773.md) | question q773 | The unit of the eclipse tables' figures on pp. 60–62 and the four courses | answered; cites wb.1:p60, wb.1:p61, wb.1:p62, wb.1:p58-59 |
 | [questions/q0774.md](questions/q0774.md) | question q774 | The chu srang figures of p. 62: holding, release, pressing | narrowed; cites wb.1:p62 |
-| [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | answered; cites wb.1:p10-11, wb.1:p10 |
+| [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | narrowed; cites wb.1:p10-11, wb.1:p10 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | answered; cites wb.1:p12-13, wb.1:p13 |
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | answered; cites wb.1:p205 |
 | [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
