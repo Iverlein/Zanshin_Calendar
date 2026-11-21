@@ -2842,6 +2842,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1340.md](questions/q1340.md) | question q1340 | Which authority is behind Karma chags med's yar mar dgu dang bcu gcig for Palden Lhamo (a Kagyu protector text?) | open; cites — |
 | [questions/q1341.md](questions/q1341.md) | question q1341 | What does nam tshes la after nyer dgu in MRS p. 77 mean, and where does the Sngags kyi be bum fix the 15th and Mars-day for Sarasvati | open; cites — |
 | [questions/q1342.md](questions/q1342.md) | question q1342 | Which place and author does the list in KSR pp. 367-368 belong to (Tsa 'dra Rin chen brag or Rdzong shod), and is the Sangs gling gnas chog on the 8th a known rite | open; cites — |
+| [questions/q1343.md](questions/q1343.md) | question q1343 | What is nya stong brgyad gsum at bgs:i658 (the one-day fast of householders in 'Jigs med gling pa's own commentary Bden gnyis shing rta), and is sa chen bzhi a spelling of dus chen bzhi | open; cites — |
+| [questions/q1344.md](questions/q1344.md) | question q1344 | Which days are the six times (dus drug) of the Kun bzang bla ma'i zhal lung (kzl:i275) and of lcb:p568 | open; cites — |
+| [questions/q1345.md](questions/q1345.md) | question q1345 | In mdb:p165 (the Mindroling rule-book's monthly list) which day precedes gcig la after the Rgyal tshab Drung pa tea-day, where the OCR has a gap | open; cites — |
+| [questions/q1346.md](questions/q1346.md) | question q1346 | Does the Mindroling 25th (mdb:p163-166) count the waning tenth by the almanac or only as the 25th of the month | open; cites — |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
