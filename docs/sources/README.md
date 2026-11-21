@@ -1737,7 +1737,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0289.md](questions/q0289.md) | question q289 | The five parts of each direction on the grid of the sun and moon | open; cites wb.2:p96-97 |
 | [questions/q0290.md](questions/q0290.md) | question q290 | «ས་བདག་ཁྲུ་ལུ» and the khar bu of p. 224 | narrowed; cites wb.2:p96-97 |
 | [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | answered; cites wb.2:p97-100, wb.2:p126-128 |
-| [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | open; cites wb.2:p126-128 |
+| [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | narrowed; cites wb.2:p126-128 |
 | [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | answered; cites wb.2:p112 |
@@ -1760,7 +1760,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
 | [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | narrowed; cites wb.2:p80-82 |
 | [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | answered; cites wb.2:p86-90 |
-| [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | open; cites wb.2:p86-90, wb.2:p504-512 |
+| [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | narrowed; cites wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0316.md](questions/q0316.md) | question q316 | The mansions of the sounding's examination under other names | narrowed; cites wb.2:p90-93 |
 | [questions/q0317.md](questions/q0317.md) | question q317 | «གསུམ་གྱིས་བགོས» or «བཞི»: dividing the household's pebbles | open; cites wb.2:p490-491 |
 | [questions/q0318.md](questions/q0318.md) | question q318 | A speckled deciding pebble in the household round | open; cites wb.1:p385-387, wb.2:p490-491, dz:i048-049 |
@@ -1774,7 +1774,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
 | [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | narrowed; cites wb.2:p37 |
 | [questions/q0328.md](questions/q0328.md) | question q328 | The black small feet's months, links and times | narrowed; cites wb.2:p38-39, wbz:i680 |
-| [questions/q0329.md](questions/q0329.md) | question q329 | Whether a black small foot needs year, month and hour together | open; cites wb.2:p38-39 |
+| [questions/q0329.md](questions/q0329.md) | question q329 | Whether a black small foot needs year, month and hour together | answered; cites wb.2:p38-39 |
 | [questions/q0330.md](questions/q0330.md) | question q330 | The doors of sky and earth and the black days, p. 42 | narrowed; cites wb.2:p42 |
 | [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43, wbz:i686 |
 | [questions/q0332.md](questions/q0332.md) | question q332 | The trigrams and «བོན་བཞི» of ordination, p. 39 | open; cites wb.2:p39b |
@@ -1840,7 +1840,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0392.md](questions/q0392.md) | question q392 | Does a middling life reckoning bar the match | open; cites ys:i467-468, wb.1:p349 |
 | [questions/q0393.md](questions/q0393.md) | question q393 | «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck | answered; cites wb.2:p483 |
 | [questions/q0394.md](questions/q0394.md) | question q394 | Whether «མཐུན་གསུམ་རང་དང་ལྔ་འཛོམ་ན» counts the sick person's own triad | narrowed; cites wb.1:p445 |
-| [questions/q0395.md](questions/q0395.md) | question q395 | Where the day of falling ill turns at night | open; cites wb.1:p428-429 |
+| [questions/q0395.md](questions/q0395.md) | question q395 | Where the day of falling ill turns at night | answered; cites wb.1:p428-429 |
 | [questions/q0396.md](questions/q0396.md) | question q396 | A white enemy pebble in the karma reckoning: good or bad | answered; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
 | [questions/q0397.md](questions/q0397.md) | question q397 | The son text that lays a trigram pebble in the household round | narrowed; cites lt:p20-25 |
 | [questions/q0398.md](questions/q0398.md) | question q398 | The Spor thang sheet of seven members: fold, leftovers and colours | open; cites kd.3:p726, wb.2:p490-491 |
@@ -1938,7 +1938,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | answered; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | narrowed; cites — |
-| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | narrowed; cites mdz:i2543210 |
+| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | answered; cites mdz:i2543210 |
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
@@ -2027,7 +2027,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0579.md](questions/q0579.md) | question q579 | The daughter's secret obstacle named last with no symptoms | open; cites wb.1:p390 |
 | [questions/q0580.md](questions/q0580.md) | question q580 | The hand reckoning's «ལཱུ་བཞིན» with a long-vowel sign | answered; cites wb.2:p538 |
 | [questions/q0581.md](questions/q0581.md) | question q581 | Which mark of the notes' worked table is the white | open; cites wb.2:p475 |
-| [questions/q0582.md](questions/q0582.md) | question q582 | p. 331's «སྒབ» or «སྐབ» on a sharper impression | open; cites wb.1:p331 |
+| [questions/q0582.md](questions/q0582.md) | question q582 | p. 331's «སྒབ» or «སྐབ» on a sharper impression | narrowed; cites wb.1:p331 |
 | [questions/q0583.md](questions/q0583.md) | question q583 | The Taikhang's «བེ་ལུགས་རུ་བལྟ» against «བེ་ལུག་ས་རུ་བལྟ» | narrowed; cites wb.1:p334 |
 | [questions/q0584.md](questions/q0584.md) | question q584 | «སྣང་པར་བཤད» or «སྣད་པར་བཤད» on p. 391 | narrowed; cites wb.1:p391 |
 | [questions/q0585.md](questions/q0585.md) | question q585 | The Zhol's «མི་ཆེན» and «བོན» on ch. 26's board | open; cites wb.1:p472 |
@@ -2038,7 +2038,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0590.md](questions/q0590.md) | question q590 | A leaf missing at the dog day on the Zhol print (img. 728–729)? | answered; cites wb.2:p70-72 |
 | [questions/q0591.md](questions/q0591.md) | question q591 | The Zhol's «ལོངས་པའི་ཉིན» against «ལངས་པའི་ཉིན» on p. 37 | open; cites wb.2:p37 |
 | [questions/q0592.md](questions/q0592.md) | question q592 | The element of the one reckoned in each illness examination | narrowed; cites wb.1:p417-419 |
-| [questions/q0593.md](questions/q0593.md) | question q593 | The eight seed syllables of the pressing-down wheel on the Taikhang | open; cites wb.2:p112-114 |
+| [questions/q0593.md](questions/q0593.md) | question q593 | The eight seed syllables of the pressing-down wheel on the Taikhang | narrowed; cites wb.2:p112-114 |
 | [questions/q0594.md](questions/q0594.md) | question q594 | Five places of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang | narrowed; cites wb.2:p104-105 |
 | [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
@@ -2093,7 +2093,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | answered; cites wb.2:p323 |
 | [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | narrowed; cites wb.2:p328 |
-| [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | narrowed; cites wb.2:p322 |
+| [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | answered; cites wb.2:p322 |
 | [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | narrowed; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | answered; cites wb.2:p328-329, wb.2:p328 |
 | [questions/q0651.md](questions/q0651.md) | question q651 | The Moonbeams' order of the Tibetan thirteenth and fourteenth pairs: another print or its author's change | open; cites wb.1:p453-454 |
@@ -2283,7 +2283,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0835.md](questions/q0835.md) | question q835 | Does the Peking print's «བྱ་ཤིང་ཏེ…ཕོ་ཉར་གཏོང» in Advayavajra's Amoghasiddhi signs, against the Derge etext's «བྱ་ཤར་ཏེ་རུ», name a bird, and what is its last syllable? | answered; cites svi:p309-312, svi:p310b |
 | [questions/q0836.md](questions/q0836.md) | question q836 | In the examination of dreams, Peking shows «ཐ་མར་རྨི་ལམ་བརྟགས་པ་ལ་ཉལ» with an extra པ; the Derge etext has «བརྟགས་ལ་ཉལ»: which is the text? | narrowed; cites svi:p309-312, svo:p271v |
 | [questions/q0837.md](questions/q0837.md) | question q837 | Which is the third syllable of «ཛ་ཏ་པ/ཀ་ཡི་ཕྲེང་བ» (the jātaka garland)? | answered; cites svi:p309-312, svi:p289-291b |
-| [questions/q0838.md](questions/q0838.md) | question q838 | In the Palri print's mixed kind the last clause reads «སྤེལ་ཞིང་མ་བྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ», where the Rin chen gter mdzod has «མ་ཤེས་ན»: does «མ་བྱེད་ན» mean the mixed dream is not to be followed, or is it a misspelling? | open; cites lgd.42:p966-971b |
+| [questions/q0838.md](questions/q0838.md) | question q838 | In the Palri print's mixed kind the last clause reads «སྤེལ་ཞིང་མ་བྱེད་ན་ཆོ་འཕྲུལ་དུ་ཤེས་པར་བྱའོ», where the Rin chen gter mdzod has «མ་ཤེས་ན»: does «མ་བྱེད་ན» mean the mixed dream is not to be followed, or is it a misspelling? | narrowed; cites lgd.42:p966-971b |
 | [questions/q0839.md](questions/q0839.md) | question q839 | In the middling yogin's line the Palri print reads «རང་བཞིན་གྱིས་ལ་ཉེ་བརྟག་པར་བྱས་ཏེ» against «རང་གཞན་ལ་ཉེ་བརྟགས་པར་བྱས་ཏེ» in the Rin chen gter mdzod: which is the better reading? | narrowed; cites lgd.42:p966-971b |
 | [questions/q0840.md](questions/q0840.md) | question q840 | What are «རམ་རུག» (ram rug) and «སྦང» (sbang) in the Lama Gongdü's goods of gossip, and is the dream phrase one three-word name or two items? | open; cites lgd.42:p969b |
 | [questions/q0841.md](questions/q0841.md) | question q841 | In the Sbas-yul manuscript and the Ngodrup and Sherab Drimay print the phrase begins «རི་ཏུག»/«རྟ་ཏུག» and ends «ཁྱེར»/«ཕྱེར»: the same list item under a different hand, or a different item? | open; cites lgd.42:p969b |
@@ -2320,7 +2320,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0872.md](questions/q0872.md) | question q872 | In Negelein's manuscript i (Leipzig 1178) 'dvitīye cāṣṭame māse triyāme ca tripakṣake' has three fortnights for the third watch: does the Leipzig manuscript itself read tripakṣake, or is it Negelein's emendation of trimāsake? | narrowed; cites neg:p14-16 |
 | [questions/q0873.md](questions/q0873.md) | question q873 | Does the Co ne print's fourth-watch line of the Svapnohana end «པར་དུ» or «པར་བྱ»? | open; cites svo:p271h |
 | [questions/q0874.md](questions/q0874.md) | question q874 | Is the first segment of the Svapnohana's second-watch line «བརྒྱད་པ་ལ» (Narthang, Peking) or «བརྒྱད་བར་ལ» (Derge etext) the older reading, and which does the Dpe bsdur ma's collation give? | narrowed; cites svo:p271h |
-| [questions/q0875.md](questions/q0875.md) | question q875 | Is the string of six ornamental glyphs after the page-opening Om in the first line of LGD p. 962 (and p. 526 of the Palri print) a string of seed syllables, a mantra in ornamental letters or an invocation, and in plain letters what does it read? | open; cites lgd:p962 |
+| [questions/q0875.md](questions/q0875.md) | question q875 | Is the string of six ornamental glyphs after the page-opening Om in the first line of LGD p. 962 (and p. 526 of the Palri print) a string of seed syllables, a mantra in ornamental letters or an invocation, and in plain letters what does it read? | narrowed; cites lgd:p962 |
 | [questions/q0876.md](questions/q0876.md) | question q876 | Is «མཉམ་པོར་འོང་བའི་བདུད» the demon of self-clinging that Chöd teaches as the co-born demon (ལྷན་ཅིག་སྐྱེས་པའི་བདུད), or an attendant adversary of the person set beside «ལྷན་ཅིག་སྐྱེས་པའི་ལྷ»? | answered; cites lgd:p970 |
 | [questions/q0877.md](questions/q0877.md) | question q877 | Who is the monk Sgra tshad pa (དགེ་སློང་སྒྲ་ཚད་པ) whose notes close MDP's rebirth-seeing rite on p. 137, and is the Rga lo of its lineage the translator Rga lo tsā ba? | answered; cites mdp:p137b |
 | [questions/q0878.md](questions/q0878.md) | question q878 | Is the section numbered «gsum» at the head of the other TDR print's p. 337 (printed p. 309) the third of a series of dream-examination sets in the 'Brong rtse be'u bum, and what do the earlier numbered sections hold? | answered; cites tdr:p337-345e |
@@ -2371,7 +2371,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0923.md](questions/q0923.md) | question q923 | Which tantra do Rang byung rdo rje and Kong sprul mean by «rgyud rnams las», and the Blue Beryl and Zur mkhar ba by «རྒྱུད་ནས་མང་དུ་གསུངས་པ», for the verse «སྲོད་ལ་བད་ཀན་ཤས་ཆེ་སྟེ། ནམ་ཕྱེད་དུས་སུ་མཁྲིས་པར་བརྗོད། ཐོ་རངས་རླུང་གི་དུས་ཉིད་དེ»? | open; cites st:p31-32c |
 | [questions/q0924.md](questions/q0924.md) | question q924 | Do the two editions of Byang pa's commentary (MW27496, the Si khron print of 2001, and MW15590, the Mi rigs dpe skrun khang first printing) differ on the page in the Moonbeams' line (མི་བཟང་ against མི་བཟད), and which is the author's own? | narrowed; cites st:p30-31, st:p30-31b |
 | [questions/q0925.md](questions/q0925.md) | question q925 | Does Bya mdo Klu byams rgyal join the Klong rdol line and the Four Tantras' first line into one rule (dusk and midnight without fruit, dawn with), or only set them side by side as two authorities? | answered; cites st:p31-32c, st:p31-32d |
-| [questions/q0926.md](questions/q0926.md) | question q926 | In the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར and the fourth watch's «ཕྱེད་པར་» likewise: is «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it? | open; cites svo:p271m |
+| [questions/q0926.md](questions/q0926.md) | question q926 | In the Co ne print the second watch's first segment machine-reads «བརྒྱད་པར་» with a ར and the fourth watch's «ཕྱེད་པར་» likewise: is «པར» a variant of the Co ne tradition, and does the Dpe bsdur ma note it? | narrowed; cites svo:p271m |
 | [questions/q0927.md](questions/q0927.md) | question q927 | The Co ne's third watch line reads «ཐུན་གཉིས་གསུམ་གྱི་བར» (no «ཟླ་བ», «གཉིས» for «གསུམ»): is it the scribe's slip or the print's own text? | narrowed; cites svo:p271m |
 | [questions/q0928.md](questions/q0928.md) | question q928 | Does the Sanskrit of Nīlakaṇṭha's Ācāramayūkha (Negelein's q, Benares 1876 with Rāmanātha's Hindi commentary) read the fourth watch «māsena phalada» and the dawn «daśāhena» in a printed Sanskrit edition, as the Romanian translation's text layer shows? | open; cites neg:p14-17 |
 | [questions/q0929.md](questions/q0929.md) | question q929 | Can a reader of the manuscript hand confirm the colophon of SKP's first text (p. 50, lines 3–4) as «ཤཱཀྱའི་དགེ་སློང་ཀུན་དགའ་རྒྱལ་མཚན་དཔལ་བཟང་པོ» and tell «གསུམ་པ» from «གསུངས་པ» in the second text's opening line? | open; cites skp:p50 |
