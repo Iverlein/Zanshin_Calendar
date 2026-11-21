@@ -2069,9 +2069,49 @@ mdb:
   author: "printed in the Gsung 'bum of Gter bdag gling pa 'Gyur med rdo rje (1646-1714); the afterword says it is the word of the Great Treasure Lama (gter chen bla ma'i gsung) and names Smin gling gcung Dharma kirti as the writer of the print's closing verses; the author of the text is not stated outright on the pages read"
   edition: "Gter bdag gling pa 'Gyur med rdo rje'i gsung 'bum, Khochhen Tulku, Dehradun 1998 (16 vols, BDRC MW22096); the rule-book is in vol. ma (BDRC I2210), listed on the volume's contents leaf as «smin grol gling gi bca' yig, 35 leaves»; the same collection is the 'Khrul snang volume of dds.4 (I2197)"
   bdrc: {work: MW22096, etext: VEIE0OPID229B8DD_I2210, scans: [I2210]}
+
+lsv:
+  title: "Rgyud kyi rgyal po dpal bde mchog nyung ngu zhes bya ba (Tantrarājaśrīlaghuśaṃvara, the Smaller Śaṃvara, Cakrasaṃvara root tantra, Toh 368) in the Derge Kanjur"
+  author: "the tantra itself; the 84000 catalogue holds it as a placeholder only (translations/kangyur/placeholders/077-009_toh368), no translated text"
+  edition: "the Derge Kanjur as the BDRC etext MW4CZ5369_0368 within the volume etext VE4CZ5369_I1KG9203 (vol. 77, image group I1KG9203; the text begins at etext char. 654501, its ch. 27 colophon at char. 715967); the etext's page markers [pN] = the Derge page (Toh 368 = pp. 426-492)"
+  bdrc: {work: MW4CZ5369_0368, etext: VE4CZ5369_I1KG9203}
   licence: public-domain
   rank: 3
   role: source
   locator: page
   notes: "rd-g (2026-11-21): etext 'good OCR' but with garbles (the month list of pp. 163-166 has letters lost and mixed); etext page = image number (img. 170 prints leaf 82 and begins with the etext's [p170] text); the scans of img. 168-172 were fetched, those of img. 163-167 answered HTTP 500 on four tries, so the monthly list is etext only; the rule-book runs from the etext's p. 127 (title) to p. 196 (afterword, 'Smin gling gcung Dharma kirti'), p. 197 opens the offshoot letter (bu yig); another print of the same text in the Rdzong sar collection MW00EGS1017717 (search hit only, not read)"
 
+  notes: "RD rd-h (2026-11-21): the verse found by BDRC phrase search «རྣལ་འབྱོར་པས། །ཆོ་ག་ཇི་བཞིན་སྦྱིན་པར་བྱ» (8 hits, the 6th is this etext), the volume then downloaded with bdrc.py etext and the verse read in it; no scan opened (the scans are open access, bitonal)"
+
+ysn:
+  title: "Rnal 'byor ma'i kun tu spyod pa (Yoginīsañcāra, Toh 375) in the Derge Kanjur"
+  author: "the tantra itself; translator not read; the 84000 catalogue holds it as a placeholder only (translations/kangyur/placeholders/079-002_toh375), no translated text"
+  edition: "the Derge Kanjur as the BDRC etext MW4CZ5369_0375 within the volume etext VE4CZ5369_I1KG9205 (vol. 79, image group I1KG9205; the text begins at etext char. 95116, p. 70, and ends before the Toh 376 text at char. 127176); the etext's page markers [pN]"
+  bdrc: {work: MW4CZ5369_0375, etext: VE4CZ5369_I1KG9205}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-h (2026-11-21): found by searching the volume etext for ཚེས་བཅུ; ch. 10 is at pp. 79-80; no scan opened"
+
+nsg:
+  title: "Klong chen rab 'byams pa Dri med 'od zer, Rdzogs pa chen po sems nyid ngal gso (the Great Perfection, Resting in the Nature of Mind), the root verses, in the Gsung 'bum, Dpal brtsegs bod yig dpe rnying zhib 'jug khang print"
+  author: "Klong chen rab 'byams pa Dri med 'od zer (1308-1364)"
+  edition: "Krung go'i bod rig pa dpe skrun khang, Beijing 2009, in Mes po'i shul bzhag 106-131 (BDRC MW1KG4884, etext VE1KG4884_020, 'best quality, unaligned'; the scans are lent on archive.org, not read); the etext's page markers [pN]; the same verse in the Shing rta chen po's upper part (VEIE0OPIFFF3FCF6_I1KG4905, [p87])"
+  bdrc: {work: MW1KG4884, etext: VE1KG4884_020}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-h (2026-11-21): ch. 9 (the union of generation and completion) ends at [p58]; the Sde dge print's etext MW00EGS1016299 (VEIE0OPI3C86AC57_I1CZ5004, [p579]) has the same lines but a badly garbled OCR, read only to see that they are there; the verse spells བསྙེད་སྒྲུབ་ in this print, བསྙེན་སྒྲུབ་ in the Zhe chen and Sde dge etexts"
+
+nsc:
+  title: "Klong chen rab 'byams pa Dri med 'od zer, Rdzogs pa chen po sems nyid ngal gso'i 'grel pa shing rta chen po (his own commentary on the Sems nyid ngal gso), the lower part, Dpal brtsegs print"
+  author: "Klong chen rab 'byams pa Dri med 'od zer (1308-1364)"
+  edition: "Krung go'i bod rig pa dpe skrun khang, Beijing 2009 (BDRC MW1KG4884_66179A, etext VEIE0OPIFFF3FCF6_I1KG4906, 'best quality, unaligned', scans lent on archive.org, not read); the etext's page markers [pN]"
+  bdrc: {work: MW1KG4884_66179A, etext: VEIE0OPIFFF3FCF6_I1KG4906}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD rd-h (2026-11-21): the commentary on ch. 9's verse at [p271]-[p272]; the OCR garbles single syllables (ཡར་ངོ་ read ཡང་ངོ་)"
