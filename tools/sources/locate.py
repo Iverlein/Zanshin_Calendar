@@ -11,6 +11,10 @@
       which etext pages each OCR file (one image of another print, read by
       hf_read.py) holds: its 4-syllable shingles looked up in the etext,
       pages with three or more hits, with their counts
+  locate.py zhol PAGE...
+      WB vol. 1 printed pages on the Zhol print (I1KG1710): the images, the
+      lines, the folio and side of each image, from docs/sources/wb/zhol-map.tsv
+      (docs/sources/wb/zhol-map.md says how it was made and checked)
   locate.py dict REPO TERM... [--prefix]
       headwords equal to TERM (Wylie, as the dictionaries key them) in
       Steinert's 64 dictionaries; REPO is a clone of
@@ -94,6 +98,32 @@ def lookup(args):
                     print(entry)
 
 
+ZHOL_MAP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "docs", "sources", "wb", "zhol-map.tsv")
+
+
+def folio(img):
+    """The Zhol folio and side of a vol. 1 image: odd images are the recto, even the verso (checked img. 20-21, 103-105, 197, 251-256, 382-384)."""
+    return f"f. {(img - 1) // 2}{'a' if img % 2 else 'b'}"
+
+
+def zhol(args):
+    rows = {}
+    for ln in open(ZHOL_MAP, encoding="utf-8"):
+        if ln.startswith("#") or ln.startswith("page"):
+            continue
+        c = ln.rstrip("\n").split("\t")
+        rows[int(c[0])] = c
+    for p in args.pages:
+        if p not in rows:
+            print(p, "not in the map (vol. 1 pp. 1-472)")
+            continue
+        _, a, la, b, lb, basis = rows[p]
+        a, b = int(a), int(b)
+        where = f"img. {a}" + (f" l. {la}" if la else "") + (f" - img. {b}" + (f" l. {lb}" if lb else "") if b != a else "")
+        note = "  (interpolated between neighbours: open the range)" if basis == "interp" else "  (line number can be one off)"
+        print(f"p. {p}: {where}  [{folio(a)}..{folio(b)}]{note}")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -106,6 +136,9 @@ def main():
     m.add_argument("etext")
     m.add_argument("ocr", nargs="+")
     m.set_defaults(run=map_pages)
+    z = sub.add_parser("zhol")
+    z.add_argument("pages", nargs="+", type=int)
+    z.set_defaults(run=zhol)
     d = sub.add_parser("dict")
     d.add_argument("repo")
     d.add_argument("terms", nargs="+")
