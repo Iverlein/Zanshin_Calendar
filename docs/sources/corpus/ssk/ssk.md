@@ -9,7 +9,7 @@ text's order, each under its id, with its `*Read:*` line.
 
 ## <a id="ssk-p351"></a>ssk:p351 The discipline of the mantra reciter: the practitioner's constant duties, and the offerings on the eighth, fourteenth and fifteenth in the half-month of miracles
 
-*Read: etext, 2026-11-21.*
+*Read: etext, 2026-11-21. Scan check, 2026-11-21 (Derge Kanjur, BDRC I1KG9222, image 351, one leaf side of seven lines, whose line 1 opens with «གསུམ་དུ་ཡང་སྡིག་པ་བཤགས། །དུས་གསུམ་བྱང་ཆུབ་སེམས་ཀྱང་བསྐྱེད།», as the etext does): the verse's lines are the ends of line 4: «…ཚེས་བརྒྱད་དང་། །བཅུ་བཞི་དང་ནི་བཅྭ་ལྔ་དང་། །ཆོ་འཕྲུལ་» (the line breaks after ཆོ་འཕྲུལ་, as the etext's line does), and the spelling «བཅྭ་ལྔ» is on the scan (a wa-zur under ཅ), not an etext slip. The first words of that segment «སྒྲུབ་པ་པོས་ནི» and the rest of the verse on line 5 were not read syllable by syllable (the print is faint and the crops of lines 4-5 blurred), so the passage stays etext. The folio mark in the left margin of the verso is a blot and was not legible; the folio stays 174v by count.*
 
 > [p351]
 > གསུམ་དུ་ཡང་སྡིག་པ་བཤགས། །དུས་གསུམ་བྱང་ཆུབ་སེམས་ཀྱང་བསྐྱེད། །རྒྱུད་མཐོང་ཆོ་ག་ཤེས་པ་ཡིས། །དུས་གསུམ་དུ་ཡང་སྨོན་ལམ་གདབ། །ཆོ་གར་སྤྱད་པ་དེ་དང་དེ། །ཇི་ལྟར་འདོད་པར་ཅི་ནུས་བྱ། །རྟག་ཏུ་གཏོང་ལ་བརྩོན་པ་དང་། །འཇུངས་བྲལ་
@@ -28,7 +28,7 @@ Then the wise one is to consecrate with this mantra a hundred or a thousand time
 
 ## <a id="ssk-p413-414"></a>ssk:p413-414 The time of accomplishment: the good months, the half-month of miracles, the lunar days and the three times of the day
 
-*Read: etext, 2026-11-21.*
+*Read: etext, 2026-11-21. Scan check, 2026-11-21: image 413 of I1KG9222 is this page (line 1 opens «བྱིན་ཡང་བསྐྱེད། །རྟག་ཏུ་དུས་དང་དུས་མཚམས་ལ། །…», as the etext); the page was not read further, so the passage stays etext.*
 
 > [p413]
 > བྱིན་ཡང་བསྐྱེད། །རྟག་ཏུ་དུས་དང་དུས་མཚམས་ལ། །དེ་ལྟ་བུར་ནི་བྱིན་བསྐྱེད་དེ། །དེ་ནས་ཕྱིས་ནི་མཚན་གཅིག་ཏུ། །བསྒྲུབ་ལ་ལེགས་པར་བརྩམ་པར་བྱ། །རྫས་བྱིན་བསྐྱེད་པའི་ཆོ་ག་རིམ་པར་ཕྱེ་བའོ།། །།དེ་ནས་གཞན་ཡང་ཅི་མཐོང་བའི། །དུས་བཟང་ཡོན་
