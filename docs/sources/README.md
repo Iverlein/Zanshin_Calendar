@@ -1702,7 +1702,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 9 passages: 1 machine, 8 etext |
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
-| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 18 passages: 12 scan, 6 machine |
+| [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 19 passages: 13 scan, 6 machine |
 | [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 10 scan, 4 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 16 scan |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
@@ -2263,7 +2263,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0760.md](questions/q0760.md) | question q760 | WB p. 243 l. 3, «འཁྲུག་སྲིད་པའི་ས»: is it སྲིད (Yigdzin-1) or སྒྲིད (MITRA)? A heavy stack on the reprint. | answered; cites wb.2:p243, tmz:box9 |
 | [questions/q0761.md](questions/q0761.md) | question q761 | WB p. 245 l. 1, the damaged line round «ཐལ་སྐྱ་བསེ་རགས་གནོད» (Yigdzin-1 ཐལ/བསེ, MITRA ཕ/པས): what does an undamaged print read? | narrowed; cites wb.2:p245, tmz:box9 |
 | [questions/q0762.md](questions/q0762.md) | question q762 | WB p. 34, the first two syllables of the first verse gloss («གོ་ཌཱ་བ་ལྡོག་པའི་མཛེས་པ་བསྔགས་པ»): «གོ་ཌཱ» or «ཀོ་དྲ»? The print is heavy there. | narrowed; cites wb.1:p34 |
-| [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | open; cites wb.1:p36 |
+| [questions/q0763.md](questions/q0763.md) | question q763 | WB p. 36 colophon, the book title «བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ» is underdotted in the print: are the vowel signs of «བཻ་ཌཱུར» as read, or another spelling? | answered; cites wb.1:p36, wb.1:p32 |
 | [questions/q0764.md](questions/q0764.md) | question q764 | WB p. 247 print line 4: «ས་རྦད་ཐུ་བཅད་འདྲ» (Yigdzin-1) or «ས་ཐད་ཐུ་བཅད་འདྲ» (MITRA)? The heavy glyph is not settled and neither gives a clear sense. | narrowed; cites wb.2:p247 |
 | [questions/q0765.md](questions/q0765.md) | question q765 | WB p. 249 print line 1: «བྱ་ཟེ་གློ་སྙིང» and «ཁྲག་ཟོ་ནམ་མཁའ་ནས» (Yigdzin-1) or «བྱ་རྩེ» and «ཁྲག་ཐོ» (MITRA)? The top strokes of ཟ, ཙ and ཐ cannot be told apart. | narrowed; cites wb.2:p249 |
 | [questions/q0766.md](questions/q0766.md) | question q766 | WB p. 250: «ཁ་སྨྲས» or «ཁ་སྤྲས», and «གློ་གཅོང» or «བློ་གཙང» (print line 23)? The first letter and the ཅ/ཙ hook are not settled; and does «རྭ» (p. 250 l. 21, p. 252 l. 18) carry a wa-zur (Yigdzin-1) or not (MITRA «ར»)? | narrowed; cites wb.2:p250 |
@@ -2829,7 +2829,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1326.md](questions/q1326.md) | question q1326 | WB ch. 19 p. 213: do the wheel (འཁོར་ལོ) and the star (སྐར་མ) each count 27 in the first circle's long figure? | answered; cites wb.1:p213 |
 | [questions/q1327.md](questions/q1327.md) | question q1327 | WB ch. 19 p. 214: is the figure after «མཁའ་མེ་ལག» 230? | answered; cites wb.1:p214 |
 | [questions/q1328.md](questions/q1328.md) | question q1328 | WB ch. 19 p. 214: is the number-word «རྩ» in «མིག་བུག་མདའ་རྩ་མེ» 9? | answered; cites wb.1:p214, wb.1:p29, wb.1:p30 |
-| [questions/q1329.md](questions/q1329.md) | question q1329 | WB ch. 2 p. 19 line 1: does «རྒུའི» or «ཀྲུའི» stand at the head, and which Sanskrit name stands behind that group of syllables? | open; cites wb.1:p19 |
+| [questions/q1329.md](questions/q1329.md) | question q1329 | WB ch. 2 p. 19 line 1: does «རྒུའི» or «ཀྲུའི» stand at the head, and which Sanskrit name stands behind that group of syllables? | answered; cites wb.1:p19, wb.1:p18 |
 | [questions/q1330.md](questions/q1330.md) | question q1330 | WB ch. 1 p. 13 line 3: the numeral after Saturn (སྤེན་པ) is a nought where the sequence gives ༧; a printer's error or another count? | answered; cites wb.1:p13 |
 | [questions/q1331.md](questions/q1331.md) | question q1331 | WB ch. 1 p. 10 lines 26-28 (after the bracketed figure): what do they say? | answered; cites wb.1:p10 |
 | [questions/q1332.md](questions/q1332.md) | question q1332 | WB ch. 1 p. 10 line 23: what are the ~22 digits of the first bracketed figure, and do the page's two figures give the same count in numerals and number-words (lines 24-27)? | answered; cites wb.1:p10, wb.1:p214 |
