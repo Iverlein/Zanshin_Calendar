@@ -1938,7 +1938,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | answered; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | answered; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | narrowed; cites — |
-| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | answered; cites mdz:i2543210 |
+| [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | narrowed; cites mdz:i2543210 |
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
