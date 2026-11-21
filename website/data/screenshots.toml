@@ -7,7 +7,7 @@ caption = "A Tibetan day"
 alt = "Tibetan day: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), the 15th of the 4th month and the full moon's day of Amitābha, the hours above the day and a lucky day in brief, with the sun's times"
 [shot.ru]
 caption = "Тибетский день"
-alt = "Тибетский день: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), 15-е число 4-го месяца и полнолуние, день Амитабхи, часы над днём и вкратце благоприятный день, со временем солнца"
+alt = "Тибетский день: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), 15-е число 4-го месяца и полнолуние, день Амитабхи, часы выше дня, «День вкратце»: благоприятный день, и время солнца"
 
 [[shot]]
 file = "2.png"
@@ -61,7 +61,7 @@ caption = "Your year of age"
 alt = "The year of age in the Reckonings, for a man born in a Fire Dragon year, now in his 51st. His mewa (སྨེ་བ, sme ba) is 8 white, his trigram the lake (དྭ, dwa) and his progressed sign (ལོག་མེན, log men) Earth Dragon. Below them stand what matters most for him, the vitality, and each aspect's predictive pebble with the stage of its energy"
 [shot.ru]
 caption = "Ваш год жизни"
-alt = "Год жизни в разделе «Расчёты»: мужчина, рождённый в год Огня-Дракона, идёт 51-й год. Его мева (སྨེ་བ, sme ba) 8 белый, триграмма озеро (དྭ, dwa), смещённый знак (ལོག་མེན, log men) Земля-Дракон. Ниже то, что для него важнее всего, жизненная сила, и предсказательный камень каждого аспекта со стадией его энергии"
+alt = "Год жизни в разделе «Расчёты»: мужчина, рождённый в год Огня-Дракона, ему идёт 51-й год. Его мева (སྨེ་བ, sme ba) — 8 белый, триграмма — озеро (དྭ, dwa), смещённый знак (ལོག་མེན, log men) — Земля-Дракон. Ниже — что для него важнее всего, жизненная сила и предсказательный камешек каждого аспекта со стадией его энергии"
 
 [[shot]]
 file = "8.png"
@@ -69,7 +69,7 @@ file = "8.png"
 caption = "Light or dark"
 alt = "The Tibetan day of the first screenshot, Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), in the Paper theme: a warm light page with dark ink"
 [shot.ru]
-caption = "Светлая или темная"
+caption = "Светлая или тёмная"
 alt = "Тибетский день первого снимка, Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), в теме «Бумага»: тёплая светлая страница и тёмный текст"
 
 [[shot]]
@@ -96,5 +96,5 @@ file = "11.png"
 caption = "A dream read"
 alt = "A dream read: a dawn dream of riding upward, a pit and the sun rising, each tradition's verdict on each image with its tone, under the tradition's heading"
 [shot.ru]
-caption = "Прочтенный сон"
-alt = "Прочтенный сон: сон на рассвете о езде вверх, яме и восходе солнца, приговор каждой традиции на каждый образ с его тоном, под заголовком традиции"
+caption = "Прочитанный сон"
+alt = "Прочитанный сон: сон на рассвете, в котором едут вверх, яма и восход солнца; под заголовком каждой традиции — её приговор каждому образу и его тон"
