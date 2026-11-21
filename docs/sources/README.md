@@ -92,6 +92,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/avalokitesvara-dawn-rite-for-a-bad-dream.md](claims/avalokitesvara-dawn-rite-for-a-bad-dream.md) | claim, remedy | A dawn rite of Avalokiteśvara after a fast turns back a bad dream; no part of the night named (RD381) | cites svo:i631-632, svo:i660-661, svo:i816-817; feeds S1 |
 | [claims/ba-ra-herd-milk.md](claims/ba-ra-herd-milk.md) | claim, definition | ba ra is cattle and goats, so «བ་རའི་འོ་མ» is herd milk; the lexicon only | cites tmz:box1, st:p493b, st:p493c; feeds S2 |
 | [claims/bhattotpala-pairs-night-parts-seasons-humours.md](claims/bhattotpala-pairs-night-parts-seasons-humours.md) | claim, rule | Bhaṭṭotpala's gloss pairs the Bṛhadyātrā's parts of the night and seasons with the humours: last third, rains, wind; middle, autumn, bile; first, spring, phlegm (RD312) | cites asm:p179-180, bya:p41-46; feeds block-73 |
+| [claims/bhutan-table-book-parallels-kp-boxes.md](claims/bhutan-table-book-parallels-kp-boxes.md) | claim, note | A Bhutanese table manuscript (MW26041) repeats KP's boxes 12, 13, 19, 56, 57 and 60 in the same words | cites kp:i27, kp:i29, kp:i33, kp:box56, kp:box57; feeds — |
 | [claims/birth-and-year-of-age-no-ranking.md](claims/birth-and-year-of-age-no-ranking.md) | claim, note | No reader ranks the birth reckoning against the year of age for one year | cites wb.1:p349, wb.2:p483; feeds block-58 |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
@@ -634,6 +635,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kd-nag-rtsis-is-the-old-chinese-reckoning.md](claims/kd-nag-rtsis-is-the-old-chinese-reckoning.md) | claim, note | The black reckoning is the old Chinese reckoning of trigrams, mewa and earth lords; the Chinese reckoning is the later astronomical one | cites kd.1:p549, kd.1:p555; feeds — |
 | [claims/kd-nag-rtsis-no-dream-rule-by-the-date.md](claims/kd-nag-rtsis-no-dream-rule-by-the-date.md) | claim, note | No dream line of the Nag rtsis books says what a lunar day's, weekday's or day animal's dream is of; BDRC's exact phrases give no such line | cites kd.3:p564, kd.3:p588-589, kd.3:p597, kd.3:p647-648, kd.3:p650, kd.3:p699, kd.3:p701, wb.2:p157-161, wb.1:p428-429; feeds S1 |
 | [claims/kd-old-tibetan-four-bon-reckonings.md](claims/kd-old-tibetan-four-bon-reckonings.md) | claim, note | The four Bon reckonings of the Gtsug lag: hidden point, garden of trigrams and mewa, wheel of the elements, life reckoning | cites kd.1:p536-537; feeds — |
+| [claims/kd-p632-634-follows-wb-ch20-verse.md](claims/kd-p632-634-follows-wb-ch20-verse.md) | claim, note | KD pp. 632-634 is WB ch. 20's verse on the fifteen circuits in prose; the counts agree (1,624, 84,000, 120+180+180) | cites kd.1:p632-634, wb.1:p242-243; feeds — |
 | [claims/kd-weighing-restates-wb-and-kp-and-ranks-no-earth-lord.md](claims/kd-weighing-restates-wb-and-kp-and-ranks-no-earth-lord.md) | claim, rule | KD vol. 1 pp. 498-499 restates the order of strength; no earth lord in it | cites kd.1:p498-499, kd.1:p495; feeds SPEC-5.12 |
 | [claims/kd3-p726-household-round-not-read.md](claims/kd3-p726-household-round-not-read.md) | claim, note | KD vol. 3, p. 726: the household round of seven members, what the lent scan shows and what it does not | cites kd.3:p726, kd.3:p726b; feeds block-31 |
 | [claims/kd3-p726-leftovers-named.md](claims/kd3-p726-leftovers-named.md) | claim, note | KD's seven-member round: quarter-runs of eight, the three leftovers named 17, 18, 19 | cites kd.3:p726c, kd.3:p726b; feeds block-31 |
@@ -1677,6 +1679,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 scan |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 14 scan, 3 machine |
+| [corpus/wb/ch20.md](corpus/wb/ch20.md) | corpus | Ch. 20: the framework of the element reckoning | 1 passages: 1 etext |
 | [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 6 passages: 6 scan |
@@ -2674,13 +2677,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | open; cites kd.3:p731-732 |
 | [questions/q1215.md](questions/q1215.md) | question q1215 | KD vol. 1 p. 579: what are «མིག་དམར» and «རེའུ་དྲོས» in Manjushri's birth time? | narrowed; cites kd.1:p579 |
 | [questions/q1216.md](questions/q1216.md) | question q1216 | KD vol. 1 p. 627: does the elements table of the harmful spirit classes agree with WB's, and from what text does Nor brang take it? | open; cites kd.1:p627-628 |
-| [questions/q1217.md](questions/q1217.md) | question q1217 | KD vol. 1 p. 634: do the counts of the black reckoning's circuits agree with the source they follow? | open; cites kd.1:p632-634 |
-| [questions/q1218.md](questions/q1218.md) | question q1218 | KD vol. 1 p. 633: which fifteenth-circuit text is the three-headed earth lord's helping gto, and does it hold a rule for the date's earth lords? | open; cites kd.1:p632-634 |
+| [questions/q1217.md](questions/q1217.md) | question q1217 | KD vol. 1 p. 634: do the counts of the black reckoning's circuits agree with the source they follow? | answered; cites kd.1:p632-634, wb.1:p242-243 |
+| [questions/q1218.md](questions/q1218.md) | question q1218 | KD vol. 1 p. 633: which fifteenth-circuit text is the three-headed earth lord's helping gto, and does it hold a rule for the date's earth lords? | answered; cites kd.1:p632-634, wb.1:p242-243, wb.1:p468-469 |
 | [questions/q1219.md](questions/q1219.md) | question q1219 | KD: which of the old or new Chinese reckoning do the trigram, mewa and earth-lord pages of the Phugpa almanac derive from? | open; cites kd.1:p549 |
 | [questions/q1220.md](questions/q1220.md) | question q1220 | KP box 63: do «ཀིང་ ཧལྱི་» in the bad half stand for WB's «ཀ་ཁྱུང་ཀི་ཀང་པི་ལིང་དང་ཧལ་ཁྱི»? | open; cites kp:box61 |
 | [questions/q1221.md](questions/q1221.md) | question q1221 | KP box 57: is the lone «ཉི» after «དབུལ» short for «ཉི་ནག», or WB's «དབུལ་པོ་ལག»? | open; cites kp:box57 |
 | [questions/q1222.md](questions/q1222.md) | question q1222 | KP box 60: what is «ཉི་ནུབ» (the sun's setting) before Rahu, which WB's councils lacks? | open; cites kp:box57 |
-| [questions/q1223.md](questions/q1223.md) | question q1223 | KP box 56: is the order Lady, Khrag sgor, Tsa mundi, Vishnu a difference from WB, and the spellings «ཁྲག་སྒོར»/«ཙ་མུནྡི» against WB's «ཁྲག་ཟོར»/«ཙཱ་མུཀྟྲི»? | open; cites kp:box56 |
+| [questions/q1223.md](questions/q1223.md) | question q1223 | KP box 56: is the order Lady, Khrag sgor, Tsa mundi, Vishnu a difference from WB, and the spellings «ཁྲག་སྒོར»/«ཙ་མུནྡི» against WB's «ཁྲག་ཟོར»/«ཙཱ་མུཀྟྲི»? | answered; cites kp:box56 |
 | [questions/q1224.md](questions/q1224.md) | question q1224 | KP's last four boxes run fierce, control, pacify, life and wealth; WB runs life and wealth, control, destructive, pacifying: why? | open; cites kp:box61 |
 | [questions/q1225.md](questions/q1225.md) | question q1225 | KP month panels: which cell of a panel stands for which animal's corner? | open; cites kp:i91-96b |
 | [questions/q1226.md](questions/q1226.md) | question q1226 | KP month panels: does each seat the six sky-line gods (WB lords 23–28) and the six black ones of the shadow by WB's month animal pairs? | open; cites kp:i91-96b |
@@ -2688,7 +2691,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1228.md](questions/q1228.md) | question q1228 | KP month panels: where are Ga-pa in the snake, rat and ox panels and Grum-bu in the snake, sheep, dog, rat and ox panels? | open; cites kp:i91-96b |
 | [questions/q1229.md](questions/q1229.md) | question q1229 | KP month panels: does the sheep (summer 3) panel carry the ox's time of day facing south, as WB's Wang-khyi has it? | open; cites kp:i91-96b |
 | [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | narrowed; cites kp:i91-96b |
-| [questions/q1231.md](questions/q1231.md) | question q1231 | KP box 13's last line: «གདོང་ཐུག» or «གདོང་མ་ཐུག» as in WB? | open; cites kp:i29 |
+| [questions/q1231.md](questions/q1231.md) | question q1231 | KP box 13's last line: «གདོང་ཐུག» or «གདོང་མ་ཐུག» as in WB? | answered; cites kp:i29 |
 | [questions/q1232.md](questions/q1232.md) | question q1232 | KP box 12: is «སའི་འཕུང་བྱེད» the same lord as WB's «ས་ཕུང་ནག་པོ», and «ཉི་ནུབ» the same as WB's «ཉི་ནག»? | open; cites kp:i27 |
 | [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | open; cites kp:i26 |
 | [questions/q1234.md](questions/q1234.md) | question q1234 | KP box 10: is «ཀིང་ཟོར» one name or two (it follows «ཉི་མ་བྱ་ཡོས»)? | open; cites kp:i26 |
@@ -2701,7 +2704,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
 | [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
 | [questions/q1243.md](questions/q1243.md) | question q1243 | KP boxes 17 and 20 drop WB's «ལྷ་ལྔ་འཚོག་པ» while box 10 keeps «ལྷ་ལྔ»: why? | open; cites kp:i32 |
-| [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | open; cites kp:i33 |
+| [questions/q1244.md](questions/q1244.md) | question q1244 | KP box 19: what is the short last line of two words under «སེ་བྱི»? | answered; cites kp:i33 |
 | [questions/q1245.md](questions/q1245.md) | question q1245 | KP box 47: is the first word of the last clause «ས་བདག» or «འཇོམས», and does WB work 44 have a matching clause about harsh earth lords? | open; cites kp:i52s |
 | [questions/q1246.md](questions/q1246.md) | question q1246 | KP box 49 against WB work 48 (consecration): does the elided part of WB's verse hold the run (nyi nag, naga planet, black woman, Vishti, destroyer, hal khyi, naked one), or is it from WB work 46? | open; cites kp:i52s |
 | [questions/q1247.md](questions/q1247.md) | question q1247 | KP box 48: is the last short line (a single word «ངན།») a separate line or the tail of the line above? | open; cites kp:i52s |
