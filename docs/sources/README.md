@@ -676,6 +676,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ktd-dudjom-dreams-and-their-times.md](claims/ktd-dudjom-dreams-and-their-times.md) | claim, note | Dudjom Rinpoche's dreams in his biography carry their hour (dawn, evening), day (tenth, fourteenth, fifteenth) and repeats (KTD) | cites ktd:i181-184, ktd:i185-187; feeds RD363 |
 | [claims/ktd-name-given-by-dakini-in-father-dream.md](claims/ktd-name-given-by-dakini-in-father-dream.md) | claim, note | Dudjom Rinpoche's name from his father's dream before the birth; birth on the tenth day (KTD) | cites ktd:i36-37; feeds RD363 |
 | [claims/ktd-night-of-dreams-stone-treasure-next-morning.md](claims/ktd-night-of-dreams-stone-treasure-next-morning.md) | claim, note | A night of dreams with signs, a stone treasure taken out next morning, a helper by name (KTD) | cites ktd:i31; feeds RD363 |
+| [claims/kzl-and-bgs-name-nya-stong-and-no-numbered-day.md](claims/kzl-and-bgs-name-nya-stong-and-no-numbered-day.md) | claim, note | Dpal sprul's and Jigs med gling pa's own commentary name the nya stong for offerings and the lay fast, and no numbered day | cites kzl:i275, bgs:i658; feeds SPEC, §5.8 |
 | [claims/kzl-lay-people-pledge-not-to-kill-in-two-months-or-on-the-fifteenth-and-new-moon.md](claims/kzl-lay-people-pledge-not-to-kill-in-two-months-or-on-the-fifteenth-and-new-moon.md) | claim, rule | Dpal sprul, Words of My Perfect Teacher: lay people who cannot give up killing pledge it for two months of the year, or the fifteenth and the new moon | cites kzl:i177-178, lcb:p568; feeds SPEC, §5.8 |
 | [claims/kzl-offerings-to-the-three-jewels-on-nya-stong-and-the-six-times.md](claims/kzl-offerings-to-the-three-jewels-on-nya-stong-and-the-six-times.md) | claim, note | Dpal sprul, Words of My Perfect Teacher: offerings to the Three Jewels on the full and new moon and the six times, no days listed | cites kzl:i315, lcb:p568; feeds SPEC, §5.8 |
 | [claims/la-board-root-is-wb-p45-lt-copies-p260.md](claims/la-board-root-is-wb-p45-lt-copies-p260.md) | claim, rule | The notes' root text for the la board is WB vol. 2, p. 45; LT's count is WB's birth verse copied | cites wb.2:p45, wb.2:p499-500, wb.1:p260-261, lt:p26-28, dz:i055-057; feeds block-31 |
@@ -1540,6 +1541,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/asm/asm.md](corpus/asm/asm.md) | corpus | ASM | 1 passages: 1 scan |
 | [corpus/bdc/bdc.md](corpus/bdc/bdc.md) | corpus | BDC | 1 passages: 1 etext |
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
+| [corpus/bgs/bgs.md](corpus/bgs/bgs.md) | corpus | BGS | 1 passages: 1 etext |
 | [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bkt/bkt.md](corpus/bkt/bkt.md) | corpus | bkt | 1 passages: 1 etext |
@@ -1601,7 +1603,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ksr/ksr.md](corpus/ksr/ksr.md) | corpus | KSR, the lives of Dkon mchog 'phan dar and Kong sprul Yon tan rgya mtsho | 1 passages: 1 etext |
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
-| [corpus/kzl/kzl.md](corpus/kzl/kzl.md) | corpus | KZL | 2 passages: 1 machine, 1 etext |
+| [corpus/kzl/kzl.md](corpus/kzl/kzl.md) | corpus | KZL | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/lbm/lbm.md](corpus/lbm/lbm.md) | corpus | lbm | 1 passages: 1 etext |
 | [corpus/lcb/lcb.md](corpus/lcb/lcb.md) | corpus | LCB, Longchenpa's Dispelling the Darkness, the Larung print: the commitments | 1 passages: 1 scan |
 | [corpus/lcg/lcg.md](corpus/lcg/lcg.md) | corpus | LCG | 1 passages: 1 etext |
