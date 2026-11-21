@@ -73,6 +73,8 @@ The eighth to the tenth roads, p. 99, l. 2, to p. 100, l. 15.
 
 *Witnesses 2026-11-21 (rd-ah): «རྨེ[?]་བདུན་ཤར་བའི་གདོང»: the 1996 etext reads «rme bdun shar ba'i gdong la 'dzem» (no further syllable), as the print; but both Vaidūrya etexts read in WB's own gloss on the same verse (the section «sa bdag ngan pa'i phyogs dang / sme bdun shar ba'i gdong ste …») «sme bdun shar ba'i gdong», that is སྨེ་བདུན with the mewa: WB's own commentary takes rme as sme (WB-text only, not independent, but decisive for the sense, the answer to q0337's second question).*
 
+*Dictionary 2026-11-21 (rd-an):* Steinert's 64 dictionaries (`locate.py dict`, public sets, Wylie headwords). «སྨེ་བདུན» (sme bdun) is a headword: Ives Waldo, Tshig mdzod chen mo, Bod yig tshig gter rgya mtsho, Dag tshig gsar bsgrigs a constellation, an asterism (rgyu skar, skar ma a brtan dang nye ba'i skar tshogs, i.e. the Great Bear (the Seven Stars of the Plough) and the nearby Alcor), Valby's set the same (rgyu skar); Laine abbreviation smu+en. «རྨེ་བདུན» (rme bdun): no headword. So the dictionaries carry only «སྨེ་བདུན», the asterism; this agrees with WB's own gloss. No reading or state changed.*
+
 ## <a id="wb-2-p100-103"></a>wb.2:p100-103 Where each kind of corpse is set down or hidden
 
 *Read: scan, 2026-10-23.*
@@ -94,6 +96,8 @@ Where each kind of corpse is set down or hidden, from p. 100, l. 13, to p. 103, 
 **Not to be hidden** (p. 103): on the roads of the *lha gnyan* and *klu gnyan* spirits, on great roads, on three-cornered ground and mounds, at the corners of walls, where pottery is fired, in marsh and at springs. **The ground for hiding** is pure, clean and pleasing, its soil unbroken and untorn, without ants or scurrying things, flat as a mirror. The page's last syllable, «ངན», opens the next line on p. 104.
 
 *Witnesses 2026-11-21 (rd-ah): «ཤྱེབས[?]» (p. 102, l. 22): both Vaidūrya etexts read «lcebs nas shi ba'i ro dag la» (ལྕེབས, not ཤྱེབས); WB-text only. «མ་མཆན[?]་ཐབས་སྦ»: the 1996 etext reads «ma mchan thabs sbe skyes ma thag» (མཆན with ཆ, and སྦེ for the stored སྦ); WB-text only. No independent printed witness found.*
+
+*Dictionary 2026-11-21 (rd-an):* Steinert's 64 dictionaries (`locate.py dict`, public sets, Wylie headwords). «ལྕེབས» (lcebs) is a headword: imperative or past of «lceb pa» (Rangjung Yeshe, Ives Waldo "committed suicide, took one's life, sought death"; Dung dkar and Tshig gter «rang srog dor ba'i don», to give up one's own life, with the example of the moth flying into a butter lamp's light). «ཤྱེབས» (shyebs): no headword. So «ལྕེབས་ནས་ཤི་བ» is a listed word; the dictionaries carry it, not ཤྱེབས. No reading or state changed.*
 
 *Dictionary 2026-11-21 (rd-am):* «ལྕེབས» (lcebs): carried, with «lceb pa»: Tshig mdzod chen mo «lceb pa'i skul tshig» (the imperative of lceb pa); Bod yig tshig gter rgya mtsho and Dung dkar tshig mdzod chen mo «rang srog dor ba'i don», to give up one's own life, as an insect (sbrang ma) that darts into the light of a butter lamp does; Ives Waldo "committed suicide, took one's life, sought death"; Rangjung Yeshe the imperative or past of lceb pa. «ཤྱེབས» (shyebs): no headword in any set. So the dictionaries carry «ལྕེབས» only, as taking one's own life; the passage's «lcebs nas shi ba'i ro» (a corpse of one who has died by it) agrees. No change.
 
