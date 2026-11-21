@@ -47,6 +47,7 @@ for value, words in {
     13: 'འདོད་',
     14: 'ཡིད་ མ་ནུ་',
     15: 'ཚེས་',
+    16: 'མི་བདག་ རྒྱལ་པོ་',  # mi bdag: Tshig mdzod chen mo, Bod yig tshig gter (rd-an)
     18: 'སྐྱོན་',
     24: 'རྒྱལ་བ་',
     27: 'འཁོར་ལོ་ སྐར་མ་',
