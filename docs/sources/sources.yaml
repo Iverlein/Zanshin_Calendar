@@ -2103,7 +2103,7 @@ nsg:
   rank: 3
   role: source
   locator: page
-  notes: "RD rd-h (2026-11-21): ch. 9 (the union of generation and completion) ends at [p58]; the Sde dge print's etext MW00EGS1016299 (VEIE0OPI3C86AC57_I1CZ5004, [p579]) has the same lines but a badly garbled OCR, read only to see that they are there; the verse spells བསྙེད་སྒྲུབ་ in this print, བསྙེན་སྒྲུབ་ in the Zhe chen and Sde dge etexts"
+  notes: "RD rd-h (2026-11-21): ch. 9 (the union of generation and completion) ends at [p58]; the Sde dge print's etext MW00EGS1016299 (VEIE0OPI3C86AC57_I1CZ5004, [p579]) has the same lines but a badly garbled OCR, read only to see that they are there; the verse spells བསྙེད་སྒྲུབ་ in this print, བསྙེན་སྒྲུབ་ in the Zhe chen and Sde dge etexts; RD rd-m (2026-11-21): scan not reachable: BDRC's iiif serves only 41 images of I1KG4906 (none of img. 271-274 in the sense of this volume's leaves) and answers 500 for I1KG4884's manifest; the archive.org item bdrc-W1KG4884 (the whole 26-volume Gsung 'bum) answers HTTP 400 to a browse loan (not lendable), so the passage stays etext"
 
 nsc:
   title: "Klong chen rab 'byams pa Dri med 'od zer, Rdzogs pa chen po sems nyid ngal gso'i 'grel pa shing rta chen po (his own commentary on the Sems nyid ngal gso), the lower part, Dpal brtsegs print"
@@ -2114,4 +2114,4 @@ nsc:
   rank: 3
   role: source
   locator: page
-  notes: "RD rd-h (2026-11-21): the commentary on ch. 9's verse at [p271]-[p272]; the OCR garbles single syllables (ཡར་ངོ་ read ཡང་ངོ་)"
+  notes: "RD rd-h (2026-11-21): the commentary on ch. 9's verse at [p271]-[p272]; the OCR garbles single syllables (ཡར་ངོ་ read ཡང་ངོ་); RD rd-m (2026-11-21): scan not reachable: BDRC's iiif serves only 41 images of I1KG4906 (none of img. 271-274 in the sense of this volume's leaves) and answers 500 for I1KG4884's manifest; the archive.org item bdrc-W1KG4884 (the whole 26-volume Gsung 'bum) answers HTTP 400 to a browse loan (not lendable), so the passage stays etext"
