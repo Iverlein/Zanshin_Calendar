@@ -2713,9 +2713,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1211.md](questions/q1211.md) | question q1211 | KD vol. 3 p. 738: what is «thog 'don» in the trigram khen's bad list? | open; cites kd.3:p737-738 |
 | [questions/q1212.md](questions/q1212.md) | question q1212 | KD vol. 3 pp. 738-740: does the digest's order of the date's earth lords come from an earlier manual? | narrowed; cites kd.3:p738-740 |
 | [questions/q1213.md](questions/q1213.md) | question q1213 | KD vol. 3 p. 743: do the labels of the Lto-'phye figure read «སྟོན་འབྲིང་ཤར» on the east edge? | open; cites kd.3:p743-745 |
-| [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | open; cites kd.3:p731-732 |
+| [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | answered; cites kd.3:p731-732, wb.2:p341-342 |
 | [questions/q1215.md](questions/q1215.md) | question q1215 | KD vol. 1 p. 579: what are «མིག་དམར» and «རེའུ་དྲོས» in Manjushri's birth time? | narrowed; cites kd.1:p579 |
-| [questions/q1216.md](questions/q1216.md) | question q1216 | KD vol. 1 p. 627: does the elements table of the harmful spirit classes agree with WB's, and from what text does Nor brang take it? | open; cites kd.1:p627-628 |
+| [questions/q1216.md](questions/q1216.md) | question q1216 | KD vol. 1 p. 627: does the elements table of the harmful spirit classes agree with WB's, and from what text does Nor brang take it? | answered; cites kd.1:p627-628, kd.1:p632-634, wb.1:p242-243 |
 | [questions/q1217.md](questions/q1217.md) | question q1217 | KD vol. 1 p. 634: do the counts of the black reckoning's circuits agree with the source they follow? | answered; cites kd.1:p632-634, wb.1:p242-243 |
 | [questions/q1218.md](questions/q1218.md) | question q1218 | KD vol. 1 p. 633: which fifteenth-circuit text is the three-headed earth lord's helping gto, and does it hold a rule for the date's earth lords? | answered; cites kd.1:p632-634, wb.1:p242-243, wb.1:p468-469 |
 | [questions/q1219.md](questions/q1219.md) | question q1219 | KD: which of the old or new Chinese reckoning do the trigram, mewa and earth-lord pages of the Phugpa almanac derive from? | open; cites kd.1:p549 |
@@ -2739,7 +2739,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | answered; cites kp:i41 |
 | [questions/q1238.md](questions/q1238.md) | question q1238 | KP boxes 37 and 38 name no earth lord; do WB's works 34 (bathing) and 35 (divination) name any? | answered; cites kp:i46-57 |
 | [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | narrowed; cites kp:i34 |
-| [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | open; cites kp:i37 |
+| [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | answered; cites kp:i37, wb.2:p362-363 |
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
 | [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
 | [questions/q1243.md](questions/q1243.md) | question q1243 | KP boxes 17 and 20 drop WB's «ལྷ་ལྔ་འཚོག་པ» while box 10 keeps «ལྷ་ལྔ»: why? | open; cites kp:i32 |
@@ -2810,8 +2810,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1308.md](questions/q1308.md) | question q1308 | WB vol. 2 p. 233 lines 24–25: the gnyan's moving times, 28th or 27th? | open; cites wb.2:p233b |
 | [questions/q1309.md](questions/q1309.md) | question q1309 | WB vol. 2 p. 237 line 13: «བཅོ» or «བཙོ»? | answered; cites wb.2:p237b, wb.2:p237c |
 | [questions/q1310.md](questions/q1310.md) | question q1310 | WB vol. 2 p. 236 line 19: the fourth item of Rāhu's reckoning, «བྱི» or «ཕྱི»? | answered; cites wb.2:p236d, dds.9:p173, sk.13:p258, tsl.28:i212-213 |
-| [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | answered; cites wb.2:p236d |
-| [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | answered; cites wb.2:p236d |
+| [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | open; cites wb.2:p236d |
+| [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | open; cites wb.2:p236d |
 | [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | answered; cites wb.2:p378-384, wb.2:p415-416 |
 | [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | answered; cites wb.2:p407-411 |
 | [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
