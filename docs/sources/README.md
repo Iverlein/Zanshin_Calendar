@@ -2805,8 +2805,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | answered; cites mgz.33:p166, dtn:i316 |
 | [questions/q1303.md](questions/q1303.md) | question q1303 | WB vol. 2 p. 176: the number printed after the east lord (Thesé), (༣), (༡) or (༢)? | open; cites wb.2:p176b |
 | [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | open; cites wb.2:p225b |
-| [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | open; cites wb.1:p77 |
-| [questions/q1306.md](questions/q1306.md) | question q1306 | WB vol. 1 p. 77 line 4: «རང» or «དང» before «དཀྱིལ་ཆར»? | open; cites wb.1:p77 |
+| [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | answered; cites wb.1:p77 |
+| [questions/q1306.md](questions/q1306.md) | question q1306 | WB vol. 1 p. 77 line 4: «རང» or «དང» before «དཀྱིལ་ཆར»? | answered; cites wb.1:p77 |
 | [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
 | [questions/q1308.md](questions/q1308.md) | question q1308 | WB vol. 2 p. 233 lines 24–25: the gnyan's moving times, 28th or 27th? | open; cites wb.2:p233b |
 | [questions/q1309.md](questions/q1309.md) | question q1309 | WB vol. 2 p. 237 line 13: «བཅོ» or «བཙོ»? | answered; cites wb.2:p237b, wb.2:p237c |
@@ -2817,9 +2817,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | answered; cites wb.2:p407-411 |
 | [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
 | [questions/q1316.md](questions/q1316.md) | question q1316 | WB vol. 1 p. 16 lines 15–18 and 22–28: the syllables and the letter rows | open; cites wb.1:p16 |
-| [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | open; cites wb.1:p77 |
-| [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | open; cites wb.1:p74 |
-| [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | open; cites wb.1:p74 |
+| [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | answered; cites wb.1:p77 |
+| [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | answered; cites wb.1:p74, wb.1:p192 |
+| [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | answered; cites wb.1:p74, wb.1:p192, wb.1:p196 |
 | [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | open; cites wb.1:p74 |
 | [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | answered; cites wb.1:p73, wb.1:p72, wb.1:p76 |
 | [questions/q1322.md](questions/q1322.md) | question q1322 | WB ch. 13 p. 154: do the 11th head's day and night stacks (36 and 33 in the upper tier by the page's own digit forms) not make a day-and-night of 60, and which figure is another digit? | answered; cites wb.1:p154g, wb.1:p154b, wb.1:p51, wb.1:p52 |
