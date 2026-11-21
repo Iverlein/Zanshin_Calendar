@@ -2809,20 +2809,20 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
 | [questions/q1308.md](questions/q1308.md) | question q1308 | WB vol. 2 p. 233 lines 24–25: the gnyan's moving times, 28th or 27th? | open; cites wb.2:p233b |
 | [questions/q1309.md](questions/q1309.md) | question q1309 | WB vol. 2 p. 237 line 13: «བཅོ» or «བཙོ»? | answered; cites wb.2:p237b, wb.2:p237c |
-| [questions/q1310.md](questions/q1310.md) | question q1310 | WB vol. 2 p. 236 line 19: the fourth item of Rāhu's reckoning, «བྱི» or «ཕྱི»? | open; cites wb.2:p236d |
-| [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | open; cites wb.2:p236d |
-| [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | open; cites wb.2:p236d |
-| [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | open; cites wb.2:p378-384 |
-| [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | open; cites wb.2:p407-411 |
+| [questions/q1310.md](questions/q1310.md) | question q1310 | WB vol. 2 p. 236 line 19: the fourth item of Rāhu's reckoning, «བྱི» or «ཕྱི»? | answered; cites wb.2:p236d, dds.9:p173, sk.13:p258, tsl.28:i212-213 |
+| [questions/q1311.md](questions/q1311.md) | question q1311 | WB vol. 2 p. 236 line 21: the day's number, (༡༣) or (༡༢)? | answered; cites wb.2:p236d |
+| [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | answered; cites wb.2:p236d |
+| [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | answered; cites wb.2:p378-384, wb.2:p415-416 |
+| [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | answered; cites wb.2:p407-411 |
 | [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
 | [questions/q1316.md](questions/q1316.md) | question q1316 | WB vol. 1 p. 16 lines 15–18 and 22–28: the syllables and the letter rows | open; cites wb.1:p16 |
 | [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | open; cites wb.1:p77 |
 | [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | open; cites wb.1:p74 |
 | [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | open; cites wb.1:p74 |
 | [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | open; cites wb.1:p74 |
-| [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | open; cites wb.1:p73 |
-| [questions/q1322.md](questions/q1322.md) | question q1322 | WB ch. 13 p. 154: do the 11th head's day and night stacks (36 and 33 in the upper tier by the page's own digit forms) not make a day-and-night of 60, and which figure is another digit? | open; cites wb.1:p154g |
-| [questions/q1323.md](questions/q1323.md) | question q1323 | WB ch. 13 p. 166: is the second upper figure of the 7th head's night-length stack a thin 3 (37 + 23 = 60) or an 8? | open; cites wb.1:p166e |
+| [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | answered; cites wb.1:p73, wb.1:p72, wb.1:p76 |
+| [questions/q1322.md](questions/q1322.md) | question q1322 | WB ch. 13 p. 154: do the 11th head's day and night stacks (36 and 33 in the upper tier by the page's own digit forms) not make a day-and-night of 60, and which figure is another digit? | answered; cites wb.1:p154g, wb.1:p154b, wb.1:p51, wb.1:p52 |
+| [questions/q1323.md](questions/q1323.md) | question q1323 | WB ch. 13 p. 166: is the second upper figure of the 7th head's night-length stack a thin 3 (37 + 23 = 60) or an 8? | answered; cites wb.1:p166e, wb.1:p166d, wb.1:p51, wb.1:p52 |
 | [questions/q1324.md](questions/q1324.md) | question q1324 | WB ch. 3 p. 22: is the third glyph of the figures printed 2619 and 2613 a ༡ set in the ༤ form, or a typesetting slip for 2649 and 2643? | open; cites wb.1:p22 |
 | [questions/q1325.md](questions/q1325.md) | question q1325 | WB ch. 3 p. 25 print line 14: is the last digit of the year for the Chos lung Tshogs pa monastery (432 by the chain) ༢ or ༩? | open; cites wb.1:p25 |
 | [questions/q1326.md](questions/q1326.md) | question q1326 | WB ch. 19 p. 213: do the wheel (འཁོར་ལོ) and the star (སྐར་མ) each count 27 in the first circle's long figure? | open; cites wb.1:p213 |
