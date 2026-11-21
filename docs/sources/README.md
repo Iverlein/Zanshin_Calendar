@@ -741,6 +741,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
 | [claims/mewa-labels-colour-count.md](claims/mewa-labels-colour-count.md) | claim, note | The number after a mewa's colour on p. 70 and in the notes is best read as a count of pebbles | cites wb.2:p70, wb.2:p501, dz:i055-057; feeds — |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
+| [claims/mindroling-monthly-rites-by-day-10th-and-25th.md](claims/mindroling-monthly-rites-by-day-10th-and-25th.md) | claim, note | Mindroling's monthly order: the Guru's tenth on the 10th and the waning tenth feast on the 25th, the protectors on the 8th, 15th, 29th | cites mdb:p163-166; feeds SPEC, §5.8 |
 | [claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md](claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md) | claim, note | Mipham: the great occasions multiply through blessing and devotion; the eclipse is the special time for mantra practice | cites mgz.21:p135, mgz.33:p51, wb.1:p62; feeds SPEC, §5.8 |
 | [claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md](claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md) | claim, rule | Mipham on the Kālacakra: householders with wealth offer to the yoginīs on the 8th and 14th; six complete dates for the maṇḍala's works | cites mgz.27:p19-20, mgz.27:p45; feeds SPEC, §5.8 |
 | [claims/mipham-keeps-the-tenth-feast-of-both-halves.md](claims/mipham-keeps-the-tenth-feast-of-both-halves.md) | claim, note | Mipham kept the feast of the tenth of both halves without break, the wrathful poison torma on the 29th | cites dkm:p76; feeds SPEC, §5.8 |
@@ -1620,6 +1621,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lth/lth.md](corpus/lth/lth.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs, the Supplement to the Instruction Tantra (Beijing 2005) | 1 passages: 1 etext |
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
+| [corpus/mdb/mdb.md](corpus/mdb/mdb.md) | corpus | MDB, the rule-book of the Mindroling assembly | 1 passages: 1 etext |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 36 passages: 28 scan, 8 machine |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 11 passages: 11 scan |
