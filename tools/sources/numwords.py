@@ -24,6 +24,13 @@ the longest run's spelling is printed. ??: no key word stands before the figure
 The key is the pool's (docs/sources/claims/, the answers of q1317, q1319, q1326,
 q1328, q1332). `yon` is 3 (four places of p. 196, ch. 3's «ཟླ་ཡོན ༣༡»); a place
 where the scan shows 2 is a blot, not a second value.
+
+Checked against Steinert's public dictionaries (rd-ao, 2026-11-21; Ives Waldo, Rangjung
+Yeshe, Valby, Martin): attested are nam mkha' 0, zla ba 1, lag pa 2, rig byed 4, 'byung ba
+and mda' 5, dus 6, drang srong and ri 7 (Martin: gamblers' word), klu and nor 8, bu ga and
+gter 9, drag po 11, khyim 12, ma nu 14, tshes 15, rgyal po 16, rgyal ba 24, so 32. Not
+found as a numeral in them: sa, mig, rna ba, me, rgya mtsho, phyogs, 'dod, nyi ma (kept
+from the pool's answers). Valby gives khyim "numeral 21" against Ives Waldo's 12 (kept 12).
 """
 import re
 import sys
@@ -35,12 +42,12 @@ for value, words in {
     1: 'ཟླ་ གཟུགས་ བསེ་རུ་ ཟླ་བ་ ཤར་',
     2: 'མིག་ ལག་ ཟུང་ ལག་པ་',
     3: 'མེ་ ཡོན་ སྐྱེས་ ཡོན',
-    4: 'ཆུ་ མཚོ་ རྒྱ་མཚོ་',
-    5: 'འབྱུང་ མདའ་ དབང་ མདའ་',
+    4: 'ཆུ་ མཚོ་ རྒྱ་མཚོ་ རིག་བྱེད་',  # rig byed: Ives Waldo, "four [because there are four vedas]" (rd-ao)
+    5: 'འབྱུང་ མདའ་ དབང་ མདའ་ འབྱུང་བ་',  # 'byung ba, mda': Ives Waldo, "five" (rd-ao)
     6: 'རོ་ དུས་ མཚམས་',
     7: 'རི་ ཐུབ་ དྲང་སྲོང་ གཟའ་',
     8: 'ཀླུ་ ནོར་',
-    9: 'བུག་ རྩ་ སྲིན་',
+    9: 'བུག་ རྩ་ སྲིན་ བུ་ག་ གཏེར་',  # bu ga, gter: Ives Waldo, "9 [because the body has 9 holes]", "9 [gter la pad ma can ...]" (rd-ao)
     10: 'ཕྱོགས་',
     11: 'དྲག་',
     12: 'ཉི་ ཁྱིམ་',
