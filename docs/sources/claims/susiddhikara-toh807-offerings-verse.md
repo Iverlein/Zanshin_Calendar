@@ -1,0 +1,17 @@
+---
+kind: claim
+type: note
+terms: [legs-par-grub-par-byed-pa, cho-phrul, rig-sngags-kyi-dul-ba]
+cites: ['ssk:p351', 'ssk:p413-414', 'mgz.23:p7-8']
+feeds: []
+open: []
+---
+# The offerings verse on the 8th, 14th and 15th is in the Susiddhikara (Toh 807), in the section on the discipline of the vidyā-mantra, Derge page 348
+
+The Kangyur's Susiddhikara section on propitiation rituals (Toh 807, Legs par grub par byed pa'i rgyud chen po las sgrub pa'i thabs rim par phye ba) has the verse, in the Derge Kanjur's volume etext VE4CZ5369_I1KG9222 at [p351] (ssk:p351): «སྒྲུབ་པ་པོས་ནི་ཚེས་བརྒྱད་དང་། །བཅུ་བཞི་དང་ནི་བཅྭ་ལྔ་དང་། །ཆོ་འཕྲུལ་གྱི་ནི་ཟླ་ཕྱེད་ལ། །ཁྱད་པར་དུ་ནི་མཆོད་པར་བྱ། །བཟླས་བརྗོད་སྦྱིན་སྲེག་མཆོད་པ་དང་། །དེ་བཞིན་སྡོམ་པ་གཟུང་བུ་དང་། །ཁྱད་པར་དུ་ཡང་བསོད་ནམས་ལ། །གུས་ཤིང་མངོན་པར་བརྩོན་པར་བྱ།» ("the practitioner is to make offerings in particular on the eighth, the fourteenth and the fifteenth, in the half-month of miracles; recitation, fire offering and offering, likewise the taking of vows, and in particular the making of merit he is to do with reverence and effort"). The printed «བཅྭ་ལྔ» is the etext's spelling of «བཅོ་ལྔ»; «གཟུང་བུ» in line 6 is a slip for «གཟུང་བ» (as the Tengyur commentary's copy has it), left as printed.
+
+**Where.** Toh 807 is the whole text, one «rim par phye ba» of the great tantra, and it is divided into sections each closed by a colophon «… རིམ་པར་ཕྱེ་བའོ»: the mantra's mark, the teacher's, the practitioner's, the mantra-servant's, the place's, then «རིག་སྔགས་ཀྱི་འདུལ་བ་རིམ་པར་ཕྱེ་བ» (the section on the discipline of the vidyā-mantra), which opens at [p347] with «གསང་སྔགས་ཟློས་པའི་འདུལ་བ་བཤད» and closes at [p353]. The verse is in that sixth section, at its end (the section follows the list of what the reciter must not do, then lists what he is always to do). The page is Derge page 348 (the etext's [p338] is Derge page 335, 168r, by 84000's header vol. 96 ff. 168r-222v, pp. 335-444, and by the colophon at [p447], 444 + 3), so the folio is 174v by count; the folio mark itself was not read on the scan.
+
+**What the passage says of the days.** The verse is one of the practitioner's constant duties (taking refuge, confession, the thought of awakening, aspiration at the three times; giving, patience, the six recollections; mandala drawing; keeping the four assemblies); the 8th, 14th and 15th named are the three days of the bright half (the «ཆོ་འཕྲུལ་གྱི་ཟླ་ཕྱེད», the half-month of miracles); on them the offerings are to be made «ཁྱད་པར་དུ», in particular, beyond the daily ones, and recitation, fire offering, offering, vows and merit are to be done with reverence. The line says nothing of the dark half or of a count of offerings. The same text's time section (ssk:p413-414) calls the half-month of miracles auspicious for all rites («ཆོ་འཕྲུལ་གྱི་ནི་ཟླ་ཕྱེད་ལ། །ལས་རྣམས་ཐམས་ཅད་རབ་ཏུ་ཤིས») and lists the 5th, 7th, 1st, 3rd and 13th days as good for all rites; the 8th, 14th and 15th are not in that list, only in the practitioner's verse.
+
+**The wording of the witnesses.** The Kangyur line is the one Ngor chen quotes after «ལེགས་གྲུབ་ཏུ» («སྒྲུབ་པ་པོས་ནི་ཚེས་བརྒྱད་དང༌། །བཅུ་བཞི་དང་ནི་བཅོ་ལྔ་དང༌། །ཆོ་འཕྲུལ་གྱི་ནི་ཟླ་ཕྱེད་ལ། །ཁྱད་པར་དུ་ནི་མཆོད་པར་བྱ») word for word. The copy in the Tengyur's Yamāri commentary (the earlier claim) has «བྱེ་བྲག་ཏུ་ནི་མཆོད་པར་བྱ» and the days in another order, so it is a different form of the verse; Mipham's «ཁྱད་པར་དུ་ཡང་མཆོད་པ་བྱ» (mgz.23:p7-8) keeps the Kangyur's «ཁྱད་པར» and changes «ནི … པར» to «ཡང … པ».

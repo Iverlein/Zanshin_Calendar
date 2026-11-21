@@ -1467,6 +1467,18 @@ sct:
   locator: page
   notes: "RD373 (2026-11-10): the dream passage read in the etext; the scan image 295 (7 lines, red print) looked at and not read syllable by syllable"
 
+
+ssk:
+  title: "The Susiddhikaramahātantrasādhanopāyikapaṭala (Legs par grub par byed pa'i rgyud chen po las sgrub pa'i thabs rim par phye ba, Toh 807, the Section on Propitiation Rituals in the Great Tantra Susiddhikara) in the Derge Kanjur"
+  author: "the tantra itself; translators not read (the colophon at [p447] ends «bsgrub pa'i thabs bsdus pa»)"
+  edition: "the Derge Kanjur as the BDRC etext within the volume etext VE4CZ5369_I1KG9222 (image group I1KG9222, BDRC work UT4CZ5369 in 84000's header); Toh 807 stands at etext [p338]-[p447]; 84000's placeholder file for Toh 807 gives vol. 96, ff. 168r-222v, pp. 335-444, so the etext's [pN] is Derge page N-3 and the folio is 168 + (N-338)//2 (recto when N-338 is even); the etext's head {D807}"
+  bdrc: {work: UT4CZ5369, etext: VE4CZ5369_I1KG9222, scans: [I1KG9222]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: page
+  notes: "q1333 (2026-11-21): found by BDRC's exact-string search «བྱེ་བྲག་ཏུ་ནི་མཆོད་པར་བྱ»; 84000 has only a placeholder (translation status 4, no text) for Toh 807; etext only; the folio is computed from the pages, not read on the scan"
+
 vab:
   title: "The Tantra of the Complete Enlightenment of Vairocana (Rnam par snang mdzad chen po mngon par rdzogs par byang chub pa rnam par sprul pa byin gyis rlob pa shin tu rgyas pa mdo sde'i dbang po'i rgyal po zhes bya ba'i chos kyi rnam grangs, Toh 494, the Vairocanābhisaṃbodhi) in the Derge Kanjur, the pupils' dream passages"
   author: "the tantra itself; translator not read"
