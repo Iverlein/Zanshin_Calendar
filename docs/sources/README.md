@@ -2665,7 +2665,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1209.md](questions/q1209.md) | question q1209 | KP §13–§15: the remaining panels of the year ring and the month charts, cell by cell | open; cites kp:i88b, kp:i87b |
 | [questions/q1210.md](questions/q1210.md) | question q1210 | KP's year ring puts four lords in other places than WB's rules for the mouse year: another reckoning, or a slip? | narrowed; cites kp:i87b, wb.2:p177-189 |
 | [questions/q1211.md](questions/q1211.md) | question q1211 | KD vol. 3 p. 738: what is «thog 'don» in the trigram khen's bad list? | open; cites kd.3:p737-738 |
-| [questions/q1212.md](questions/q1212.md) | question q1212 | KD vol. 3 pp. 738-740: does the digest's order of the date's earth lords come from an earlier manual? | open; cites kd.3:p738-740 |
+| [questions/q1212.md](questions/q1212.md) | question q1212 | KD vol. 3 pp. 738-740: does the digest's order of the date's earth lords come from an earlier manual? | narrowed; cites kd.3:p738-740 |
 | [questions/q1213.md](questions/q1213.md) | question q1213 | KD vol. 3 p. 743: do the labels of the Lto-'phye figure read «སྟོན་འབྲིང་ཤར» on the east edge? | open; cites kd.3:p743-745 |
 | [questions/q1214.md](questions/q1214.md) | question q1214 | KD vol. 3 pp. 731-732: what are the «dag pa'i gza'» (pure planets) of the Kalacakra sets? | open; cites kd.3:p731-732 |
 | [questions/q1215.md](questions/q1215.md) | question q1215 | KD vol. 1 p. 579: what are «མིག་དམར» and «རེའུ་དྲོས» in Manjushri's birth time? | narrowed; cites kd.1:p579 |
@@ -2683,7 +2683,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1227.md](questions/q1227.md) | question q1227 | KP month panels: what does «བབ» (bab) at the end of many cells mean? | open; cites kp:i91-96b |
 | [questions/q1228.md](questions/q1228.md) | question q1228 | KP month panels: where are Ga-pa in the snake, rat and ox panels and Grum-bu in the snake, sheep, dog, rat and ox panels? | open; cites kp:i91-96b |
 | [questions/q1229.md](questions/q1229.md) | question q1229 | KP month panels: does the sheep (summer 3) panel carry the ox's time of day facing south, as WB's Wang-khyi has it? | open; cites kp:i91-96b |
-| [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | open; cites kp:i91-96b |
+| [questions/q1230.md](questions/q1230.md) | question q1230 | KP month panels: what do the signs ++ and ×× after cells mean, and is the first wide cell (head sign) a lord of WB's list? | narrowed; cites kp:i91-96b |
 | [questions/q1231.md](questions/q1231.md) | question q1231 | KP box 13's last line: «གདོང་ཐུག» or «གདོང་མ་ཐུག» as in WB? | open; cites kp:i29 |
 | [questions/q1232.md](questions/q1232.md) | question q1232 | KP box 12: is «སའི་འཕུང་བྱེད» the same lord as WB's «ས་ཕུང་ནག་པོ», and «ཉི་ནུབ» the same as WB's «ཉི་ནག»? | open; cites kp:i27 |
 | [questions/q1233.md](questions/q1233.md) | question q1233 | KP box 10: why does its run replace WB's (sky dog, the nine gods' earth, the queen) with the se, tsang kun, se byi, se shar, kungs myul and others? | open; cites kp:i26 |
@@ -2692,7 +2692,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1236.md](questions/q1236.md) | question q1236 | KP box 42: does «བག་མའི་ལོ་ལག་ཙ་ཀྲ» stand for WB's «གདགས་ཀྱི་ལྷ་དྲུག», and does KP name an earth lord WB lacks? | open; cites kp:i46-57 |
 | [questions/q1237.md](questions/q1237.md) | question q1237 | KP box 35: is «སྲོག་ཚེས» WB's «སྲེག་ཚེས», and is «གདོང་འཕུང་བྱེད» one earth lord or two words? | answered; cites kp:i41 |
 | [questions/q1238.md](questions/q1238.md) | question q1238 | KP boxes 37 and 38 name no earth lord; do WB's works 34 (bathing) and 35 (divination) name any? | answered; cites kp:i46-57 |
-| [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | open; cites kp:i34 |
+| [questions/q1239.md](questions/q1239.md) | question q1239 | KP box 21: is «ཉི་ལུས» WB work 9's «ཉི་ཆེན་མོ», and how does «དུར་ཞུགས» stand against WB's «དུར་ཞུགས་མེད»? | narrowed; cites kp:i34 |
 | [questions/q1240.md](questions/q1240.md) | question q1240 | KP boxes 25, 20, 21, 17: is «དབུལ་ལག» the contraction of WB work 18's «དབུལ་པོ་ལག་སྟོང་» or an independent name? | open; cites kp:i37 |
 | [questions/q1241.md](questions/q1241.md) | question q1241 | KP box 16: is «ཟླ་ཀླུང» WB's «ཟླ་[ཆུང]་ཕྱོགས» (one name with ཆུང/ཀླུང/རླུང)? | open; cites kp:i31 |
 | [questions/q1242.md](questions/q1242.md) | question q1242 | KP box 22: does the print have «ཁྱིམ» after «ཐེ་སེ» (RD5 read «ཐེ་སེ་ཁྱིམ»), the queen Tekhyim? | open; cites kp:i36b |
@@ -2701,7 +2701,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1245.md](questions/q1245.md) | question q1245 | KP box 47: is the first word of the last clause «ས་བདག» or «འཇོམས», and does WB work 44 have a matching clause about harsh earth lords? | open; cites kp:i52s |
 | [questions/q1246.md](questions/q1246.md) | question q1246 | KP box 49 against WB work 48 (consecration): does the elided part of WB's verse hold the run (nyi nag, naga planet, black woman, Vishti, destroyer, hal khyi, naked one), or is it from WB work 46? | open; cites kp:i52s |
 | [questions/q1247.md](questions/q1247.md) | question q1247 | KP box 48: is the last short line (a single word «ངན།») a separate line or the tail of the line above? | open; cites kp:i52s |
-| [questions/q1248.md](questions/q1248.md) | question q1248 | KP box 35: is «བར» in «བིཥྚི་བར་འཕུང་བྱེད» the earth lord bar of the lists, and why does WB's work 33 lack it? | open; cites kp:i41s |
+| [questions/q1248.md](questions/q1248.md) | question q1248 | KP box 35: is «བར» in «བིཥྚི་བར་འཕུང་བྱེད» the earth lord bar of the lists, and why does WB's work 33 lack it? | narrowed; cites kp:i41s |
 | [questions/q1249.md](questions/q1249.md) | question q1249 | KP box 34: what are the two syllables before «མི་འཕྲོད་ཉི་མ» in the bad half's last line, and what follows ཉི་མ་? | open; cites kp:i41s |
 | [questions/q1250.md](questions/q1250.md) | question q1250 | KP boxes 52–55: where in WB or Mipham do the earth-lord runs at the foot of their bad halves come from? | open; cites kp:i55s |
 | [questions/q1251.md](questions/q1251.md) | question q1251 | KP box 55: is the clause «ཀླུ་བཟློག་པ» a remedy against the naga planet or a separate rite? | open; cites kp:i55s |
@@ -2786,6 +2786,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1330.md](questions/q1330.md) | question q1330 | WB ch. 1 p. 13 line 3: the numeral after Saturn (སྤེན་པ) is a nought where the sequence gives ༧; a printer's error or another count? | open; cites wb.1:p13 |
 | [questions/q1331.md](questions/q1331.md) | question q1331 | WB ch. 1 p. 10 lines 26-28 (after the bracketed figure): what do they say? | open; cites wb.1:p10 |
 | [questions/q1332.md](questions/q1332.md) | question q1332 | WB ch. 1 p. 10 line 23: what are the ~22 digits of the first bracketed figure, and do the page's two figures give the same count in numerals and number-words (lines 24-27)? | open; cites wb.1:p10 |
+| [questions/q1333.md](questions/q1333.md) | question q1333 | Which chapter of the Susiddhikara, and which Toh number and Derge folio, holds the offerings verse that Mipham's text quotes | open; cites — |
+| [questions/q1334.md](questions/q1334.md) | question q1334 | In which chapter of the Cakrasamvara root tantra are the lines mar gyi ngo yi tshes bcu dang..., and in which work of Klong chen pa are the lines nya dang gnam stong tshes brgyad nyi shu dgu... | open; cites — |
+| [questions/q1335.md](questions/q1335.md) | question q1335 | Does the line-4 sgab of WB p. 104 (Taikhang img. 160) carry a subjoined ra, so that the word is sgrab | open; cites — |
 | [questions/q623.md](questions/q623.md) | question  | q623 | open; cites — |
 | [questions/q992.md](questions/q992.md) | question  | Narrowed 2026-11-16 (inv-r) | open; cites — |
 
