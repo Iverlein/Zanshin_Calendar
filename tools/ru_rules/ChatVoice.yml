@@ -1,0 +1,13 @@
+# The chat-bot's voice: «давайте разберёмся», «погрузимся».
+extends: existence
+message: "The chat-bot's voice: «%s» — a text does not lead the reader by the hand."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bдавайте разбер[её]мся\b'
+  - '\bдавайте разбираться\b'
+  - '\bдавайте посмотрим\b'
+  - '\bдавайте посчитаем\b'
+  - '\bпогрузимся\b'
+  - '\bпосмотрим\s+[а-яё]+\s+поближе\b'

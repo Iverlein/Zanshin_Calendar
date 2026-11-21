@@ -1,0 +1,13 @@
+# Empty connectives: «таким образом,» at a sentence start, «в связи с этим».
+extends: existence
+message: "An empty connective: «%s» — the original's connective, or the translation's?"
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  - '(?:^|[.!?…:;]\s+|\n\s*)таким образом,'
+  - '\bв связи с этим\b'
+  - '\bв свете\s+(?:этого|вышесказанного|сказанного|последних)\b'
+  - '\bпринимая во внимание\b'
+  - '\bв конечном (?:счёте|счете|итоге)\b'
+  - '\bпо своей сути\b'

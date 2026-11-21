@@ -1,0 +1,22 @@
+# English carried word for word into Russian, from the owner's corrections to the translations
+# (docs/translation-style.md). A warning: the place is read, and the rule in that file decides it —
+# «домашняя работа» is right in the anchor, where it is literal.
+# Tokens in order: rule 1, «a made thing» is «рукотворная вещь»; rule 3, «nothing in it malfunctions»;
+# rule 4, «at any hour»; rule 5, «housework» carried from the anchor into the mirror (two tokens);
+# rule 12, code «redrawn»; rule 13, a carried flame called «огонь»; rule 15, «гнуться вслед», «перерисуй, кто с кем».
+# No comment stands inside the list: the reader of tools/prose-scan.py ends a list at its first
+# line that is not an item.
+extends: existence
+message: "Carried from the English: «%s» — see docs/translation-style.md."
+level: warning
+ignorecase: true
+tokens:
+  - 'сделанн(?:ая|ый|ое|ую|ой|ого|ые|ых) (?:вещ[а-яё]*|предмет[а-яё]*|существ[а-яё]*)'
+  - 'ничего (?:в [а-яё]+ )?не ломается'
+  - 'в любой час'
+  - 'домашн[а-яё]+ работ[а-яё]* (?:целой |всей )?(?:компании|команды|отдела|организации|фирмы)'
+  - 'домашн[а-яё]+ работ[а-яё]* (?:на свете|в мире)'
+  - 'перерис[а-яё]+ (?:[а-яё]+ )?код[а-яё]*'
+  - '(?:задува|гас|туши|задул|погас)[а-яё]* (?:[а-яё]+ )?огон[ья]'
+  - 'гнуться вслед'
+  - 'перерис[а-яё]+, кто с кем'

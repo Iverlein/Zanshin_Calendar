@@ -1,0 +1,15 @@
+# Formula openings and conclusions: «в современном мире», «подводя итог».
+extends: existence
+message: "A formula in place of a thought: «%s»."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bв современном мире\b'
+  - '\bв эпоху\s+(?:цифров|стремительн|перемен|высоких)[а-яё]*'
+  - '\bв наше время\b'
+  - '\bподводя итог[а-яё]*'
+  - '\bв заключение\b'
+  - '\bможно сделать вывод\b'
+  - '\bсуммируя вышесказанное\b'
+  - '\bна основании вышеизложенного\b'

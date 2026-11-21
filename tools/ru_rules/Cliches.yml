@@ -1,0 +1,14 @@
+# Motivational clichés. The «не просто X, а Y» turn is left out: the essays use its English
+# counterpart, and a translation follows the original.
+extends: existence
+message: "A cliché: «%s» — translate what the essay says, in the words a person would use."
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  - '\bраскры(?:ть|ва[а-яё]+)\s+потенциал[а-яё]*'
+  - '\bвыв(?:ести|одит|одят)\s+на\s+новый\s+уровень\b'
+  - '\bвыход(?:ит|ят|а)?\s+на\s+новый\s+уровень\b'
+  - '\bоткрыва(?:ет|ют)\s+новые\s+(?:горизонт|перспектив|возможност)[а-яё]*'
+  - '\bрасшир(?:ить|яет|яют)\s+границы\b'
+  - '\bвот (?:здесь|тут) начинается самое интересное\b'

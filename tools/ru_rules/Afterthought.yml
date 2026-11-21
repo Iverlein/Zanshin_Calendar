@@ -1,0 +1,9 @@
+# The owner, 2026-11-20 (docs/translation-style.md, rule 14): «запрети этот оборот» — the quality tacked on
+# after its noun, English «a criterion, and a rather practical one» → «критерий, и вполне практический».
+# The adjective goes before the noun: «вполне практический критерий».
+extends: existence
+message: "The English afterthought: «%s» — put the adjective before its noun (docs/translation-style.md, rule 14)."
+level: error
+ignorecase: true
+tokens:
+  - ', и (?:вполне|весьма|довольно|очень|притом|причём) [а-яё]+(?:ий|ый|ой|ая|яя|ое|ее|ые|ие|ую|юю)'

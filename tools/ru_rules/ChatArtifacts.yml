@@ -1,0 +1,30 @@
+# Traces of a chat-bot and of a copy from a chat window: the wrapper of an answer, a placeholder in
+# brackets, emoji bullets, the citation marks of ChatGPT, Gemini, Grok and Perplexity. A person leaves none.
+extends: existence
+message: "A chat-bot trace: «%s» — it cannot stand in a published text."
+level: error
+ignorecase: true
+nonword: true
+scope: raw
+tokens:
+  - '\bотличный вопрос\b'
+  - '\bрад помочь\b'
+  - '\bнадеюсь,? это было полезно\b'
+  - '\bхотите,?\s+чтобы я\b'
+  - '\bмогу (?:также|подготовить|предложить|адаптировать|переписать|сделать вариант)\b'
+  - '\bесли (?:нужно|хотите|надо)[^.\n]{0,25}[—,-]\s*(?:я\s+)?(?:могу|сделаю|подготовлю|напишу|адаптирую|доработаю)\b'
+  - '\[(?:ваш|ваше|ваша|имя|название|дата|компани|должност|указать|число|телефон|ссылк|город|продукт)(?![А-ЯЁ])[^\]\n]{0,60}\](?!\()'
+  - '(?:^|\n)[ \t]*(?:\*\*)?вот\s+(?:несколько\s+)?(?:вариант|шаблон|черновик)[а-яё]*[^\n]{0,80}:'
+  - '(?:^|\n)[ \t]*(?:[0-9]️?⃣|[❌✅✔➡→▶👉🔹🔸⚡✨🎯🔥💡])'
+  - ':contentReference'
+  - 'oaicite'
+  - 'utm_source=(?:chatgpt\.com|openai)'
+  - 'grok_card://'
+  - 'attached_file://'
+  - 'vertexaisearch\.cloud\.google\.com'
+  - '\]\(sandbox:/mnt/data/'
+  - 'turn\d+(?:search|fetch|file)\d+'
+  - '【\d+(?::\d+)?†source】'
+  - '\[citation:\d+\]'
+  - '\[cite:\s*\d+\]'
+  - '</?think>'

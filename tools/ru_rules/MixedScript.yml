@@ -1,0 +1,11 @@
+# An invisible character, or a Latin letter inside a Cyrillic word («сиcтема» with a Latin c): nobody
+# types that; it is a trace of a copy or of a keyboard layout.
+extends: existence
+message: "An invisible character or a Latin letter inside a Cyrillic word: «%s» — retype the word."
+level: error
+ignorecase: true
+nonword: true
+tokens:
+  - '[\x{E200}-\x{E204}]'
+  - '[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{2060}\x{202F}\x{200E}\x{200F}\x{202A}-\x{202E}\x{2066}-\x{2069}]'
+  - '[а-яё][a-z][а-яё]'

@@ -1,7 +1,7 @@
 ---
 description: Store listing, website, releases — docs on every feature merge in full (SPEC, ROADMAP, README, listing, screenshots, website, GitHub description), the release-build check for R8, how a release is tagged
 trigger: glob
-globs: '**/fastlane/**, **/website/**, **/docs/fdroid/**, **/app/build.gradle.kts, **/app/proguard-rules.pro, **/README.md, **/docs/SPEC.md, **/docs/ROADMAP.md'
+globs: '**/fastlane/**, **/website/**, **/docs/fdroid/**, **/app/build.gradle.kts, **/app/proguard-rules.pro, **/README.md, **/docs/SPEC.md, **/docs/ROADMAP.md, **/docs/translation-style.md, **/tools/ru_check.py, **/tools/ru_rules/**'
 paths:
 - fastlane/**
 - website/**
@@ -11,6 +11,9 @@ paths:
 - README.md
 - docs/SPEC.md
 - docs/ROADMAP.md
+- docs/translation-style.md
+- tools/ru_check.py
+- tools/ru_rules/**
 ---
 
 # Store listing, website and releases
@@ -43,13 +46,15 @@ On every merge of a feature, in the same branch:
    Write sentences a person would say, not a list of nouns: a new reckoning
    joins its item in a sentence or two, the full inventory stays in the
    README. The two languages say the same things: what one names, the other
-   names (the owner, 2026-11-06), so a detector's score is lowered by the
-   wording, never by dropping content. Before merging, run `prose-scan --profile detector --allow рокуё` on
-   the Russian listing and the rendered page through
-   `ai-check --cuts 1500,1300,1100`, as Sapling's score moves with where the text
-   is cut, and read Scribbr and ZeroGPT beside it; `ai-check --ablate` finds the
-   line behind a hot piece. What moves the score: `detector-resistant-prose` in
-   `~/knowledge/`. The Russian site text has no «ё» except in рокуё.
+   names (the owner, 2026-11-06). The Russian is a translation of the
+   English, written and checked by `docs/translation-style.md`: the app's
+   own terms, «ё» and the spaced em dash written, and
+   `python3 tools/ru_check.py` clean before merging (it aligns every
+   Russian unit of the listing, the current changelog, `i18n/`, the
+   captions and the donate page with its English). No AI detector gates
+   either language since 2026-11-21 (the owner, following his decision of
+   2026-11-20 on Riding the Boar); `ai-check` stays for whoever wants a
+   reading.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
    show has changed, review every PNG, then copy them into
