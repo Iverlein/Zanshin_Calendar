@@ -21,7 +21,10 @@ prefs("TIBETAN")
 start()
 tap(r"[Mm]enu")
 shot("menu-en")
-tap(r"^Language")
+# The menu's groups open and close; Language is under Settings.
+if not tap(r"^Language", timeout=2):
+    tap(r"^SETTINGS$")
+    tap(r"^Language")
 shot("language-dialog")
 tap(r"^Русский")
 time.sleep(3)
@@ -79,7 +82,7 @@ if tap(r"(先勝|友引|先負|仏滅|大安|赤口)"):
 top()
 tap(r"[Мм]еню")
 shot("menu-ru")
-if tap(r"^О приложении"):
+if tap(r"^О приложении", timeout=2) or (tap(r"^НАСТРОЙКИ$") and tap(r"^О приложении")):
     shot("about-0")
     up()
     shot("about-1")
