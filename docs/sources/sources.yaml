@@ -1996,8 +1996,25 @@ kzl:
   author: "Rdza Dpal sprul O rgyan 'jigs med chos kyi dbang po (1808-1887)"
   edition: "Gser thang Bla rung lnga rig nang bstan slob gling, Gser rta rdzong 2015, 530 pp. (typeset; BDRC MW3CN4690, etext VEIE0OPIFAC9F61B_I3CN4692, BDRC rates the OCR excellent)"
   bdrc: {work: MW3CN4690, etext: VEIE0OPIFAC9F61B_I3CN4692, scans: [I3CN4692]}
+rczp:
+  title: "Ri chos mtshams kyi zhal gdams (the retreat manual, Mountain Dharma), Palampur print"
+  author: "Gnas mdo Karma chags med (see rcz)"
+  edition: "Palampur, Sungrab Nyamso Junphel Parkhang, 1970 (BDRC MW23700; the Lhasa 2012 print MW1AC387 and the Brag dkar print MW23259 give the same verse and note)"
+  bdrc: {work: MW23700, etext: VEIE0OPI3BB19C62_I2496, scans: [I2496]}
+  licence: public-domain
+  rank: 3
+  role: witness
+  locator: image
+  notes: "scans open, 4800 px a folio; the etext's [pN] is the image number (img. 415 prints 411); the hand-lettered text and the etext's OCR differ in places, the scan was read; practice days, 2026-11-21 (rd-c)"
+
+ygr:
+  title: "Yongs 'dzin Ye shes rgyal mtshan gyi rnam thar thub bstan pad+mo rgyas pa'i nyin byed (life of Yongs 'dzin Ye shes rgyal mtshan, Tshe mchog gling)"
+  author: "The eighth Dalai Lama 'Jam dpal rgya mtsho (1758-1804, by BDRC's authorship statement)"
+  edition: "Ser gtsug nang bstan dpe rnying 'tshol bsdu phyogs sgrig khang, in Gangs can khyad nor dpe tshogs 65, 2009 (BDRC MW1KG25056, etext excellent quality)"
+  bdrc: {work: MW1KG25056, etext: VEIE0OPIF21A2EA6_I1KG25058, scans: [I1KG25058]}
   licence: public-domain
   rank: 3
   role: source
   locator: image
   notes: "etext marker [pN] = image number (img. 183 prints 178, img. 178 prints 173, img. 196 prints 191: printed page = image - 5); the typeset page holds 17 lines, the etext reflows them; scans open"
+  notes: "scans open, 1990 px, typeset; the etext's [pN] is the image number (img. 374 prints folios 253b-254a, the printed folio marks in the text such as (༢༥༤ན)); the monthly round of the monastery Tshe mchog gling as the master kept it, 2026-11-21 (rd-c)"
