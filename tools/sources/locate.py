@@ -34,7 +34,7 @@ import glob
 import os
 import re
 
-SKIP = set("་། \n\t༌༔")
+SKIP = set("་། \n\t༌༔/")  # "/" is a line break in BDRC etexts
 PAGE = re.compile(r"\[p(\d+)\]")
 
 
