@@ -95,6 +95,8 @@ Where each kind of corpse is set down or hidden, from p. 100, l. 13, to p. 103, 
 
 *Witnesses 2026-11-21 (rd-ah): «ཤྱེབས[?]» (p. 102, l. 22): both Vaidūrya etexts read «lcebs nas shi ba'i ro dag la» (ལྕེབས, not ཤྱེབས); WB-text only. «མ་མཆན[?]་ཐབས་སྦ»: the 1996 etext reads «ma mchan thabs sbe skyes ma thag» (མཆན with ཆ, and སྦེ for the stored སྦ); WB-text only. No independent printed witness found.*
 
+*Dictionary 2026-11-21 (rd-am):* «ལྕེབས» (lcebs): carried, with «lceb pa»: Tshig mdzod chen mo «lceb pa'i skul tshig» (the imperative of lceb pa); Bod yig tshig gter rgya mtsho and Dung dkar tshig mdzod chen mo «rang srog dor ba'i don», to give up one's own life, as an insect (sbrang ma) that darts into the light of a butter lamp does; Ives Waldo "committed suicide, took one's life, sought death"; Rangjung Yeshe the imperative or past of lceb pa. «ཤྱེབས» (shyebs): no headword in any set. So the dictionaries carry «ལྕེབས» only, as taking one's own life; the passage's «lcebs nas shi ba'i ro» (a corpse of one who has died by it) agrees. No change.
+
 ## <a id="wb-2-p104"></a>wb.2:p104 The twenty-six places not allowed even if clean, and the repair
 
 *Read: scan, 2026-10-23.*
