@@ -17,6 +17,8 @@ text's order, each under its id, with its `*Read:*` line.
 
 Dpal sprul's text 2 ("The Sun's Light, the calendar treatise: the new incense that fixes the past years", རྩིས་གཞུང་ཉིན་བྱེད་སྣང་བའི་འདས་ལོ་ངེས་པ་གསར་སྤོས, rtsis gzhung nyin byed snang ba'i 'das lo nges pa gsar spos), the end of the section on the calendar's sums; the page break (printed pp. 51-52) falls after «ཉི་འཛིན་ཁྲི». The verse is the Sgang dril manual's (skl:i210) with «ཇོ་བོས» ("the Lord") where that has Dīpaṃkara, and without its small «རིམ» after «འབུམ་འགྱུར».
 
+Scan check rd-k 2026-11-21: the volume's scans (I1PD107145, printed page + 24 = image) are restricted on BDRC: the manifest lists 41 images, none of images 75-76 (printed pp. 51-52) or 162-164 (printed pp. 138-140), so this passage could not be confirmed on the page; it stays etext. An archive.org loan, if one exists, was not tried.
+
 ## <a id="dpk-3-p135-136"></a>dpk.3:p135-136 The one-day vow of eight branches is kept by a householder 'in its time'; the Mahayana restoring rite names no day
 
 *Read: etext, 2026-11-21.*
@@ -40,6 +42,8 @@ The days' results in general ("the results of the lunar days in general", ཚེ
 "Then the series of the great festivals (དུས་ཆེན, dus chen) of the Conqueror's blessing is this: from the eighth to the fifteenth of the Rgyal month (རྒྱལ་ཟླ, rgyal zla), the time he sat at the foot of the Bodhi tree; the waxing half of the Mchu month (མཆུ་ཟླ, mchu zla), the great miracles; at the full moon of the month Saga (ས་ག་ཟླ་བ, sa ga zla ba) the awakening; on the fourth of the Chu stod month (ཆུ་སྟོད, chu stod) the turning of the wheel of the Dharma; at the full moon of Tha skar (ཐ་སྐར, tha skar) the descent from the gods' abode; from the eighth of the Dbo month (དབོ་ཟླ, dbo zla) the entry into the womb; at the full moon of Nag (ནག་པ, nag pa) the Root Tantra of the Wheel of Time was spoken; on the eighth of the Smin drug month (སྨིན་དྲུག, smin drug) he passed into nirvana. Because the Dharmas differ in how they are faithfully regarded (མོས་པ, mos pa), the difference in the multiplication of virtue and vice is great."
 
 Note on the reading: «བཅུ་གཅིག་སྡོམ་པ་འབོག་པ་བཟང» — the verb «འབོག» ('bog) is left unglossed; whether the line means giving the vows, taking them, or laying them down is not settled here (question below).
+
+Scan check rd-k 2026-11-21: the volume's scans (I1PD107145, printed page + 24 = image) are restricted on BDRC: the manifest lists 41 images, none of images 75-76 (printed pp. 51-52) or 162-164 (printed pp. 138-140), so this passage could not be confirmed on the page; it stays etext. An archive.org loan, if one exists, was not tried.
 
 ## <a id="dpk-1-p380-381"></a>dpk.1:p380-381 The feast gathering on the tenth of the waxing and the waning half is taught in all the tantras, new and old: the three authorities
 
