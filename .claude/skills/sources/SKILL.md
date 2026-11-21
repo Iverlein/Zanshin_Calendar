@@ -25,7 +25,12 @@ row or a line of code that states a fact of the texts:
    when the words that matter are not in doubt, else the scan is read first
    (PLAN.md, *Workflow*); **etext** alone is never built on: it is read on the
    scan, or the fact waits. `kb.py coverage <siglum>` says what has never
-   been opened.
+   been opened. **A figure doubted on the print is settled before it is
+   looked at again**: `tools/sources/numwords.py spell` the word-numerals the
+   verse gives beside it (read last word first), then the arithmetic, a repeat
+   of the figure elsewhere or a printed divisor; only what remains goes back to
+   the scan. A figure spelled by its words and a second check is an answer; one
+   inferred from order alone stays narrowed (q1317–q1332, q1311/q1312).
 3. Rank the witnesses by sources.yaml's `rank` and the rule file: WB first,
    the Four Tantras above it on medicine, Mipham next, a Bon text a witness
    only. A disagreement between sources is a claim of `type: conflict`, not a
