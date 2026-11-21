@@ -128,7 +128,7 @@ moves up as soon as it is unblocked.
 | <a id="block-65"></a>65 | [M2](#m2) Counter-clockwise for a line of one's own — built 2026-11-05 | — | [64](#block-64) | Build block 65: a switch under "Your own", off by default, turning the wheel counter-clockwise, with the owner's caution beside it. |
 | <a id="block-72"></a>72 | [R2](#r) The clan taken out of the app — done 2026-11-06 | — | — | Done: the person's clan, the special pebble and what cuts the father removed; only Tibetans have a clan (the owner). |
 | <a id="block-73"></a>73 | [S2](#s2) Read a dream: the watch of the night, the images, the dreamer ill — built 2026-11-11 | [RD207](#rd207)–[RD212](#rd212), [RD215](#rd215), [RD216](#rd216), [RD387](#rd387)–[RD390](#rd390), [RD405](#rd405) ([RD214](#rd214) beside) | — | Built: S2, "Read a dream" in the Reckonings and from the moment's signs (SPEC §5.9.11, §10.11): the night before the day with its part as chips or a clock time on four equal quarters, only the dawn dream read, 94 images in a grouped, searchable picker, each tradition's verdict under its heading, one Remedy row, "The dreamer is ill" with the Four Tantras' rule and rows; no net verdict, no fruit date or span. |
-| <a id="block-74"></a>74 | [L5](#l5) Pilot: the screens read every day, and the catalog's vocabulary | — | — | Build block 74: L5, the Russian of block 74 of `tools/ru_plan.toml` rewritten as L5 says. 1,503 units, 5,900 words: the interface of the day page, the hours, the 旧暦 page, the menu, the notice, the widgets, the election; the catalog's `wording`, row labels, works and their families. The owner's corrections to it become the rules the other blocks follow. |
+| <a id="block-74"></a>74 | [L5](#l5) Pilot: the screens read every day, and the catalog's vocabulary — built 2026-11-21 | — | — | Built: L5, the Russian of block 74 of `tools/ru_plan.toml`. Of 1,503 units (5,900 words: the interface of the day page, the hours, the 旧暦 page, the menu, the notice, the widgets, the election; the catalog's `wording`, row labels, works and their families) 40 were rewritten: 24 interface strings, 16 list wordings and works, among them «изготовление подношений» for "making offerings". The vocabulary kept (D1). `ru_check --block 74` clean, the tests green, the brief, the hours sheet and the election read on the emulator in Russian; the owner approved the letter on 2026-11-21 with no corrections, so no new rule went into `docs/translation-style.md`. |
 | <a id="block-75"></a>75 | [L5](#l5) The rest of the interface | — | [74](#block-74) | Build block 75: L5, the Russian of block 75 of `tools/ru_plan.toml` rewritten as L5 says. 930 units, 5,400 words: every other screen's strings. |
 | <a id="block-76"></a>76 | [L5](#l5) The Tibetan day's readings | — | [74](#block-74) | Build block 76: L5, the Russian of block 76 of `tools/ru_plan.toml` rewritten as L5 says. 1,470 units, 16,800 words: dates, weekdays, mansions, yogas, karaṇas, special days, festivals, links, harsh days, combinations, hours, months, Rāhu, the hundred feet, haircut and building. |
 | <a id="block-77"></a>77 | [L5](#l5) The earth lords | — | [74](#block-74) | Build block 77: L5, the Russian of block 77 of `tools/ru_plan.toml` rewritten as L5 says. 521 units, 10,400 words: of the day, the month and the year. |
@@ -141,6 +141,7 @@ moves up as soon as it is unblocked.
 | <a id="block-84"></a>84 | [L5](#l5) The bride's going | — | [74](#block-74) | Build block 84: L5, the Russian of block 84 of `tools/ru_plan.toml` rewritten as L5 says. 475 units, 9,600 words. |
 | <a id="block-85"></a>85 | [L5](#l5) The present moment and the dreams | — | [74](#block-74) | Build block 85: L5, the Russian of block 85 of `tools/ru_plan.toml` rewritten as L5 says. 1,320 units, 17,800 words. |
 | <a id="block-86"></a>86 | [L5](#l5) What is left, and L3 closed | — | [74](#block-74)–[85](#block-85) | Build block 86: L5, the Russian of block 86 of `tools/ru_plan.toml` rewritten as L5 says. The families no other block takes (11 units today), then the owner's read of the app in Russian on the phone, which closes [L3](#l3). |
+| <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 | — | — | Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -2473,6 +2474,88 @@ also names the 11th and 26th, not taken; q1263 stays open on the note).
   of Amitābha and Śākyamuni on the 15th and the new moon (q1261, RCZ's
   kept); the practice on the small days rests on the verse's frame (an
   offering while the deity roams), no text names one for them.
+- **To be redone.** The frames drawn in code are to be painted in the
+  Tibetan manner: [T6.1](#t6-1).
+
+### <a id="t6-1"></a>T6.1. The practice-day frames painted in the Tibetan manner — planned 2026-11-21 (SPEC §10.3)
+
+The owner, 2026-11-21, on the frames of [T6](#t6) drawn in code
+(`PracticeDay.kt`) and on a vector redraw by Gemini 4 Neon the same day:
+"these are barely different from yours. tell him to draw it in real
+tibetan iconographic style, not this vector nonsense." The vector pass was
+thrown away: rounded rectangles of fine lines, a flat strip of petals. The
+frames are to be **painted**, as a thangka painter paints the aureole and
+the seat of a figure, by agy's Gemini 4 Neon with its image tool
+(`generate_image`), and shipped as pictures. Release 3.5 waits for it.
+
+**The brief for Gemini** (given whole, in its own working folder):
+
+- *Style.* Real Tibetan iconographic painting, as in a Central Tibetan
+  (Menri, New Menri) thangka: mineral-pigment colours (gold, malachite
+  green, azurite and lapis blue, cinnabar and vermilion, shell white, a
+  pink for the lotus), gold contour lines, soft shading by graded washes,
+  the forms of the painting manuals (the aureole, *'od skor*; the lotus
+  seat, *padma'i gdan*; the moon and sun discs; the wish-fulfilling jewel,
+  *nor bu*; the wisdom fire, *ye shes kyi me dpung*). Painted, not drawn:
+  no vector look, no line art, no clip-art, no flat graphic design, no
+  copy of a particular existing painting.
+- *What each day bears.* The colours follow the day's figure:
+  - 8th, Medicine Buddha: a body aureole of lapis blue with gold rays, a
+    flaming triple jewel at the crown, a lotus with a moon disc.
+  - 10th, Guru Rinpoche: an aureole of rainbow light, concentric bands of
+    the five colours, a flaming jewel, a lotus with a moon disc.
+  - 15th, Amitābha: a red-gold aureole of radiant gold rays, the full moon,
+    a white disc, at the crown, a lotus with a moon disc.
+  - 25th, the ḍākinīs: rainbow light leaning to red, a flaming jewel, a
+    lotus with a moon disc.
+  - 29th, the Dharma protectors: a wreath of wisdom fire, curling tongues
+    of red, orange and gold with dark contours, a flaming jewel, a lotus
+    with a sun disc.
+  - 30th, Śākyamuni, the new moon: a gold aureole with fine rays, a dark
+    disc with a thin bright rim at the crown, a lotus with a moon disc.
+  - 9th and 24th, the small days: a lighter, narrower wreath of fire only,
+    with no crown and no seat.
+  The seven are one family, the same hand and the same seat.
+- *Shape.* The large frames are 240 × 210 dp, painted at 3× (720 × 630
+  px). The numeral window, x 44–196, y 54–176 dp (the 8th: x 78–162), stays
+  empty: the day's number, a heavy Mincho numeral, stands there in the
+  page's own text colour and is the hero. A soft glow inside the window is
+  allowed, nothing that crosses it. The crown stands above y 50, the seat
+  below the window, which it may overlap by 6 dp. The small frame is
+  170 × 180 dp (510 × 540 px), its window x 25–145, y 30–148.
+- *Background.* Transparent, or a flat key colour that cuts cleanly. Each
+  picture must sit on the dark pages (Ink `#111311`, Night, Maroon
+  `#521C24`) and the light one (Paper `#F5F1E8`) without a halo at its
+  edges. If one set cannot serve both, a second set for Paper.
+- *What comes back.* The PNGs, a contact sheet of the seven on Ink and on
+  Paper with a sample numeral in each window, and a few lines per picture
+  on what is painted.
+
+**How it is run.**
+`agy --model "Gemini 4 Neon (XHigh)" --mode accept-edits --sandbox -p "…"`
+from the working folder, in the background. The run of 2026-11-21 took 40
+minutes, and its files appeared only at the end.
+`--dangerously-skip-permissions` is refused by the session's auto mode, so
+Gemini cannot run a renderer itself: the session renders the contact
+sheets and gives them back for a second pass with `agy -c`. Each pass is
+shown to the owner before anything goes into the app.
+
+**Into the app,** once the owner accepts the pictures:
+
+1. A script in `tools/` (Python, Pillow) cuts each picture to its size,
+   clears the numeral window, and writes
+   `app/src/main/res/drawable-nodpi/practice_<day>.webp`.
+2. `PracticeOrnament` paints the picture behind the numeral in place of
+   `drawOrnament`, with the same padding. The code-drawn aureole, seat and
+   crowns are deleted.
+3. Check on the emulator: every practice day, the four themes, font scale
+   2.0 and landscape, in English and Russian. Check the APK's size growth.
+4. Update the docs: SPEC §10.3, T6 here, README, both listings, and the
+   Tibetan page's store shot retaken.
+5. Then the release goes on (block 87).
+
+**Done when** the owner has accepted the pictures and the page shows them on
+every practice day, in every theme.
 
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 

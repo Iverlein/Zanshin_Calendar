@@ -10,7 +10,7 @@ id = 74
 title = "Pilot: the screens read every day, and the catalog's vocabulary"
 app = ["brief", "hours", "tib", "kyu", "menu", "theme", "notice", "widget", "works", "row", "detail", "desc", "election", "day"]
 catalog = ["wording", "ReadingRow", "Activity", "ActivityFamily", "DayFactor", "ElectionalFactor", "PairList"]
-done = ""
+done = "2026-11-21"
 
 [[block]]
 id = 75
