@@ -741,6 +741,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md](claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md) | claim, note | Mipham: the great occasions multiply through blessing and devotion; the eclipse is the special time for mantra practice | cites mgz.21:p135, mgz.33:p51, wb.1:p62; feeds SPEC, §5.8 |
 | [claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md](claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md) | claim, rule | Mipham on the Kālacakra: householders with wealth offer to the yoginīs on the 8th and 14th; six complete dates for the maṇḍala's works | cites mgz.27:p19-20, mgz.27:p45; feeds SPEC, §5.8 |
+| [claims/mipham-keeps-the-tenth-feast-of-both-halves.md](claims/mipham-keeps-the-tenth-feast-of-both-halves.md) | claim, note | Mipham kept the feast of the tenth of both halves without break, the wrathful poison torma on the 29th | cites dkm:p76; feeds SPEC, §5.8 |
 | [claims/mipham-names-no-day-for-the-one-day-vow-the-25th-or-the-29th.md](claims/mipham-names-no-day-for-the-one-day-vow-the-25th-or-the-29th.md) | claim, note | What Mipham does not say: no day of the month for the one-day vow, no twenty-fifth of the dākinīs, no twenty-ninth of the protectors | cites mgz.11:p179-180, mgz.33:p180, mgz.23:p7-8, mgz.27:p19-20, mgz.27:p45, mgz.11:p146, mgz.33:p51, mgz.21:p135, mgz.33:p166, mph.127:i302, mph.127:i303-304, mph.127:i305; feeds SPEC, §5.8 |
 | [claims/mipham-notes-no-watch-of-the-night-halves-by-events.md](claims/mipham-notes-no-watch-of-the-night-halves-by-events.md) | claim, note | Mipham's notes name no watch of the night; WB and the notes cut it by sunset, midnight and dawn | cites svo:p271n, wb.2:p532, wb.1:p375; feeds block-73 |
 | [claims/mipham-offering-verse-is-the-susiddhikara.md](claims/mipham-offering-verse-is-the-susiddhikara.md) | claim, note | The verse Mipham quotes for offerings on the 8th, 14th and 15th is in the Susiddhikara | cites mgz.23:p7-8; feeds — |
@@ -861,6 +862,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/p3908-bad-dream-not-told.md](claims/p3908-bad-dream-not-told.md) | claim, rule | P.3908: a bad dream is not told on waking, and not told for three days turns to treasure; bad dreams only, no day or month | cites cdb:i13-16; feeds S3 |
 | [claims/p3908-chapters-1-23-and-the-end-of-the-booklet.md](claims/p3908-chapters-1-23-and-the-end-of-the-booklet.md) | claim, note | P.3908 has twenty-three chapters, the day chapters at 19-21, no ten-stem chapter; the booklet ends without a colophon | cites cdb:i1-4, cdb:i5-12, cdb:i13-16, cdb:i17-21; feeds S3 |
 | [claims/p3908-dream-by-day-hour-officer.md](claims/p3908-dream-by-day-hour-officer.md) | claim, note | P.3908 chapters 19-21: a dream's omen by day branch, double-hour and day officer, not by month; no cell for the Edo table | cites cdb:i13-16; feeds S3 |
+| [claims/padma-bka-thang-and-seven-chapters-name-no-twenty-fifth.md](claims/padma-bka-thang-and-seven-chapters-name-no-twenty-fifth.md) | claim, note | Neither the Padma bka' thang nor the Seven Chapters names the twenty-fifth or a dakini day | cites obk:p337, obk:p374, lbm:p29; feeds SPEC, §5.8 |
+| [claims/padma-bka-thang-every-tenth-i-come-and-the-feast.md](claims/padma-bka-thang-every-tenth-i-come-and-the-feast.md) | claim, rule | Padma bka' thang ch. 102: every time the tenth comes I come to Tibet, and what one has is circulated as the feast | cites obk:p337; feeds SPEC, §5.8 |
+| [claims/padma-bka-thang-tenth-days-in-the-life.md](claims/padma-bka-thang-tenth-days-in-the-life.md) | claim, note | The Padma bka' thang dates five deeds of the Guru's life on a tenth | cites obk:p91, obk:p133, obk:p352, obk:p374; feeds SPEC, §5.8 |
 | [claims/padmini-verse-rite-not-vimalaprabha-own-text.md](claims/padmini-verse-rite-not-vimalaprabha-own-text.md) | claim, note | The Padminī's verse of the bed rite is not the Vimalaprabhā's text; its author is not named | cites kcd.13:p320, kcd.12:p228-229, kcd.13:p323; feeds block-73 |
 | [claims/peking-only-one-tengyur-instance.md](claims/peking-only-one-tengyur-instance.md) | claim, note | BDRC has one Peking Tengyur only, W1KG13126; no second scan of the Peking exists to check the Dpe bsdur ma's Peking entries (RD327) | cites svo:p271w; feeds RD327 |
 | [claims/penn-odia-svapnadhyaya-series.md](claims/penn-odia-svapnadhyaya-series.md) | claim, table | The Svapnādhyāya of the Penn manuscripts, the Srinagar and Ramtek manuscripts and the Odia print: the series of spans, a month for the fourth watch (RD277) | cites pn1871:i2, pn673:i1, pzs:i102-103, rmk:i2, osv:i3, neg:p14-16, neg:p32, neg:p17-19, bvp:p662-665, svo:p268, kpd:p184-189; feeds block-73 |
@@ -964,6 +968,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/snr-cited-texts-identified.md](claims/snr-cited-texts-identified.md) | claim, table | The five texts the Sngags rim chen mo cites for the dawn dream, found in the Kanjur and Tengyur (RD373) | cites snr:p367-371, snr:p349, sct:p295-297, vjv:p230-231, mmb:p155-156, nbv:p273-274, trt:p418-419; feeds — |
 | [claims/snying-sdug-in-the-lexica-a-loved-one.md](claims/snying-sdug-in-the-lexica-a-loved-one.md) | claim, note | The lexica give snying sdug as a loved one, not as heartache (RD322, q940) | cites svo:p271q; feeds block-73 |
 | [claims/son-text-hidden-text.md](claims/son-text-hidden-text.md) | claim, note | The son text and the hidden text as classes of the tradition's texts | cites ys:i492-493, ys:i094b; feeds block-32 |
+| [claims/source-for-the-tenth-in-the-lineage-settled.md](claims/source-for-the-tenth-in-the-lineage-settled.md) | claim, note | What is a source for the tenth in the lineage of Rtsa gsum gling pa and Mipham: the Guru's pledge, the feast, the waxing half; no twenty-fifth | cites mph.127:i302, mph.127:i305, obk:p337, lbm:p29, sdd:p20, dkm:p76, bkt:p272; feeds SPEC, §5.8 |
 | [claims/sources-own-dates-dream-texts.md](claims/sources-own-dates-dream-texts.md) | claim, note | What the dream texts say of their own date: none names one; the dated copy is of 1824; Scheuermann still unread | cites bvp:p660, bvg:p1-2, neg:i20, apv:p445, pn673:i6; feeds block-73 |
 | [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/spo-is-uttaraphalguni.md](claims/spo-is-uttaraphalguni.md) | claim, note | «སྤོ» is a name of U. Phalgunī; «ལག་སོར» is lha mtshams | cites wb.2:p65-66, wb.2:p122, wbz:i720, wbz:i805; feeds block-31 |
@@ -1079,8 +1084,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/tdr-sramana-rite-elsewhere.md](claims/tdr-sramana-rite-elsewhere.md) | claim, note | The Śramaṇā rite of the be'u bum is also in Tāranātha's sādhana collection and is said to come from Śākyaśrī; no one names the be'u bum's lama | cites tdr:p337-342e, ttn:p137-138, lcg:p26, mph.128:i189-192; feeds S2 |
 | [claims/tdr-white-tara-rite.md](claims/tdr-white-tara-rite.md) | claim, rule | White Tārā rite before sleep: the tāṃ, the four mirrors and the lion posture | cites tdr:p343-344; feeds S1 |
 | [claims/tdr-work-before-and-title.md](claims/tdr-work-before-and-title.md) | claim, note | The work that ends on TDR p. 343 is the Śramaṇā text; White Tārā's begins at the doubled title in line 6 (RD286) | cites tdr:p21e, tdr:p343h, tdr:p337-345e, tdr:p343-344; feeds — |
+| [claims/tenth-and-twenty-fifth-in-a-pure-vision-life.md](claims/tenth-and-twenty-fifth-in-a-pure-vision-life.md) | claim, note | A pure-vision life of the Guru lists the tenth, the twenty-fifth and all great occasions for the feast | cites bkt:p272; feeds SPEC, §5.8 |
 | [claims/tenth-day-benefit-of-each-animal-month-padma-lingpa.md](claims/tenth-day-benefit-of-each-animal-month-padma-lingpa.md) | claim, list | What keeping the tenth brings in each animal month, after Padma gling pa | cites pgl.1:p835-837, zgp.13:p537-540; feeds SPEC, §5.8 |
 | [claims/tenth-day-going-forth-under-ananda-or-prabhahasti.md](claims/tenth-day-going-forth-under-ananda-or-prabhahasti.md) | claim, conflict | The going forth on the dragon month's tenth: under Ānanda in Sgo chen's prayer, under Prabhāhasti in the other lists | cites sgc:i208-214, jgl.8:p739-742, zgp.13:p537-540, pgl.1:p835-837; feeds SPEC, §5.8 |
+| [claims/tenth-day-guru-comes-on-the-waxing-tenth-in-the-seven-chapters.md](claims/tenth-day-guru-comes-on-the-waxing-tenth-in-the-seven-chapters.md) | claim, rule | The Seven Chapters Prayer: at the end of the age the Guru comes in person on the waxing tenth | cites lbm:p29, sdd:p20; feeds SPEC, §5.8 |
 | [claims/tenth-day-monkey-month-monkey-year.md](claims/tenth-day-monkey-month-monkey-year.md) | claim, note | The tenth of the monkey month of the monkey year: the Guru in person | cites mph.127:i302, mph.127:i305, jgl.8:p739-742; feeds SPEC §5.8 |
 | [claims/tenth-day-months-jigme-lingpa-one-month-later-than-the-animal-lists.md](claims/tenth-day-months-jigme-lingpa-one-month-later-than-the-animal-lists.md) | claim, conflict | 'Jigs med gling pa's twelve tenths fall one month after those of the animal-month lists when numbered by the White Beryl | cites jgl.8:p739-742, sgc:i208-214, zgp.13:p537-540, zgp.13:p541, wb.1:p154-171; feeds SPEC, §5.8 |
 | [claims/tenth-day-padmasambhava-promise-to-come.md](claims/tenth-day-padmasambhava-promise-to-come.md) | claim, rule | Padmasambhava's oath to come on the tenth of every month, and where it is stated | cites mph.127:i302, mph.127:i303-304, mph.127:i305, jgl.8:p739-742; feeds SPEC §5.8 |
@@ -1530,6 +1537,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bdk/bdk.md](corpus/bdk/bdk.md) | corpus | 'Bri gung Chos kyi grags pa, Dka' mchan, the annotated commentary on the Four Tantras | 5 passages: 5 etext |
 | [corpus/bjp/bjp.md](corpus/bjp/bjp.md) | corpus | Byang pa Rnam rgyal grags pa bzang po, Stream of Nectar, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
+| [corpus/bkt/bkt.md](corpus/bkt/bkt.md) | corpus | bkt | 1 passages: 1 etext |
 | [corpus/bpp/bpp.md](corpus/bpp/bpp.md) | corpus | BPP | 1 passages: 1 etext |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/bsm/bsm.md](corpus/bsm/bsm.md) | corpus | BSM | 1 passages: 1 machine |
@@ -1548,6 +1556,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dgk/dgk.md](corpus/dgk/dgk.md) | corpus | DGK | 1 passages: 1 etext |
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
+| [corpus/dkm/dkm.md](corpus/dkm/dkm.md) | corpus | dkm | 1 passages: 1 etext |
 | [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 4 passages: 4 etext |
 | [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 5 passages: 3 scan, 2 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
@@ -1587,6 +1596,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/kzl/kzl.md](corpus/kzl/kzl.md) | corpus | KZL | 2 passages: 1 machine, 1 etext |
+| [corpus/lbm/lbm.md](corpus/lbm/lbm.md) | corpus | lbm | 1 passages: 1 etext |
 | [corpus/lcb/lcb.md](corpus/lcb/lcb.md) | corpus | LCB, Longchenpa's Dispelling the Darkness, the Larung print: the commitments | 1 passages: 1 scan |
 | [corpus/lcg/lcg.md](corpus/lcg/lcg.md) | corpus | LCG | 1 passages: 1 etext |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
@@ -1616,6 +1626,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ngm/ngm.md](corpus/ngm/ngm.md) | corpus | NGM | 2 passages: 2 etext |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
 | [corpus/nm/nm.md](corpus/nm/nm.md) | corpus | NM | 1 passages: 1 etext |
+| [corpus/obk/obk.md](corpus/obk/obk.md) | corpus | obk | 5 passages: 5 etext |
 | [corpus/osv/osv.md](corpus/osv/osv.md) | corpus | OSV | 1 passages: 1 scan |
 | [corpus/pgl/pgl.md](corpus/pgl/pgl.md) | corpus | PGL | 1 passages: 1 scan |
 | [corpus/pk/pk.md](corpus/pk/pk.md) | corpus | PK | 1 passages: 1 machine |
@@ -1637,6 +1648,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
+| [corpus/sdd/sdd.md](corpus/sdd/sdd.md) | corpus | sdd | 1 passages: 1 etext |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sds/sds.md](corpus/sds/sds.md) | corpus | SDS | 8 passages: 8 etext |
 | [corpus/sgc/sgc.md](corpus/sgc/sgc.md) | corpus | SGC, the liturgy collection of Sgo chen dgon | 7 passages: 1 scan, 6 etext |
@@ -3014,6 +3026,11 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **BDC** | The Fifth Dalai Lama Ngag dbang blo bzang rgya mtsho, *Bde gshegs bdun gyi mchod pa'i chog bsgrigs yid bzhin dbang rgyal* (the Medicine Buddha's rite): the four great festivals multiply virtue a hundred koṭi-fold, by the scripture's minor section and the Nirvāṇa | Zhol par khang, Lhasa, 102 ff. | BDRC MW00KG04005; etext VEIE0OPI6CC9D5D5_I00KG06678 (mediocre), read as etext only; scans I00KG06678 open, the sentence not found on img. 76–78 (2026-11-16); public domain |
 | **SKL** | *Skar rtsis kyi lag len byed grub sgang dril ltar bkod pa* (a manual of star reckoning, author not named in BDRC's record): three traditions of the multipliers of the good days, the eclipses and the four great festivals. A witness | one volume, no place, no publisher | BDRC MW3CN3480; etext VEIE0OPI17D73134_I3CN8749, read as etext only (2026-11-16) |
 | **DBL** | Dbyangs can dga' ba'i blo gros, *Gsung 'bum*, vol. kha: verses on the dates of the Buddha's life, the four great festivals and the multiplied merit, with the eclipses' numbers credited to the great paṇḍita Śākyaśrī | the Sku 'bum print reprinted in Delhi (Lama Guru Deva) | BDRC MW1KG9561; scans I1KG9579, open, 2510 px; pp. 54–55 = img. 62–63, read on the scan (2026-11-16); etext VEIE0OPIC89069CA_I1KG9579, poor; public domain |
+| **OBK** | Yar rje O rgyan gling pa, *Padma bka' thang* (*Padma bka'i thang yig*), the treasure account of the Guru's life in 108 chapters | Ser gtsug nang bstan dpe rnying 'tshol bsdu phyogs sgrig khang, Lha sa 2016, 8 + 383 pp. | BDRC MW1KG25186; etext VEIE0OPI5D4E8578_I1KG25188 (etext page = image number; printed page = image − 14); scans I1KG25188, open; see [corpus/obk/obk.md](corpus/obk/obk.md) |
+| **LBM** | *Gsol 'debs le'u bdun ma* (the Seven Chapters Prayer), the Byang gter version with its history | *Rin chen gter mdzod chen mo*, Dpal spungs print, vol. 5 | BDRC MW1KG14_81B98A; etext VE1KG14_005 from char. 549 061, own [pN] markers; see [corpus/lbm/lbm.md](corpus/lbm/lbm.md) |
+| **SDD** | Si tu Padma don yod nyin byed, *Rig 'dzin dgyes pa'i mchod sprin* | Palpung Sungrab Nyamso Khang, Bhattu 2007 | BDRC MW1KG854; etext VEIE0OPI764E8DE6_I1KG889; see [corpus/sdd/sdd.md](corpus/sdd/sdd.md) |
+| **DKM** | Dil mgo Mkhyen brtse, *Mi pham 'jam dbyangs rnam rgyal rgya mtsho'i rnam thar snying po bsdus pa* (a modern author: facts only) | BDRC MW8LS20744 | etext VEIE0OPIFB44F448_I8LS20758; see [corpus/dkm/dkm.md](corpus/dkm/dkm.md) |
+| **BKT** | *Dag snang rin chen gter mdzod las: O rgyan rnam thar mu tig phreng rgyan*, in the anthology *Bka' thang phyogs bsgrigs snyigs ma'i rgud 'joms rdo rje'i me char* | Bod ljongs mi dmangs dpe skrun khang, 2012 | BDRC MW1AC2; etext VEIE0OPIAF862726_I2PD18003 (poor OCR; scans lent on archive.org, not read); see [corpus/bkt/bkt.md](corpus/bkt/bkt.md) |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two
