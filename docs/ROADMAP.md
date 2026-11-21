@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | X1–X10, which reword every reading, so the owner reads them once |
-| 3 | [L5](#l5) The Russian rewritten by the translation rules — planned 2026-11-21 | L | The Russian is right in its terms and grammar (L3) but often English in Russian words; 10,569 units, about 140,000 words, in thirteen blocks, each handed to the owner by letter | The owner's answers to L5.D1–D3 |
+| 3 | [L5](#l5) The Russian rewritten by the translation rules — planned 2026-11-21 | L | The Russian is right in its terms and grammar (L3) but often English in Russian words; 10,569 units, about 140,000 words, in thirteen blocks, each handed to the owner by letter | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis* (built: the eclipses; the rest left out by the owner's rule)), WB's day animals (T2.24, built 2026-10-10), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
@@ -6122,21 +6122,18 @@ family of keys to one block and `--plan` refuses a family that falls in
 none. Blocks follow the app's sections, so that one block's Russian can be
 read on its own screens.
 
-**Decisions for the owner before block 74:**
+**Decisions** (the owner, 2026-11-21: "keep vocabulary, no detectors,
+letters"):
 
-- **L5.D1 The vocabulary.** The catalog's header fixes «идёт хорошо / идёт
-  плохо» for "goes well / badly", the row labels («Выход в путь», «Избегать
-  начала», «В силе») and the tone words (SPEC §8.1, rules 6 and 13). They
-  stand in thousands of readings; a change is made once, by script, before
-  the families are read. Keep them, or change which?
-- **L5.D2 Detectors.** No AI detector gates the listing and the website since
-  2026-11-21. The app's own strings and readings are still under the rule of
-  2026-11-11 (every edited text through `ai-check`). Recommended: the same
-  as the site, detectors for information only.
-- **L5.D3 The review.** One letter per block with each changed unit before
-  and after (the owner prefers letters to Telegram), or a read on the phone
-  per block from a beta build. Recommended: the letter, and the phone once,
-  in block 86.
+- **L5.D1 The vocabulary stays.** The catalog's header fixes «идёт хорошо /
+  идёт плохо» for "goes well / badly", the row labels («Выход в путь»,
+  «Избегать начала», «В силе») and the tone words (SPEC §8.1, rules 6 and
+  13); a rewrite keeps them.
+- **L5.D2 No detector gate.** As for the listing and the website, the app's
+  strings and readings are no longer put through `ai-check` (the rule of
+  2026-11-11 is lifted for the Russian); a detector is for information only.
+- **L5.D3 A letter per block.** One letter to the owner per block, every
+  changed unit before and after; the phone once, in block 86.
 
 **How a block is built.** One session, in its own worktree:
 
@@ -6149,7 +6146,7 @@ read on its own screens.
    original and states the facts: nothing added, dropped or reworded in
    sense, no source named (SPEC §8.1), every Tibetan word in its bracket
    (`TibetanNaming`), keys, placeholders and the plural forms untouched,
-   the vocabulary as D1 settles it, the app's own term for each thing (rule
+   the vocabulary kept (D1), the app's own term for each thing (rule
    S1). A row's subtitle stays a few words.
 3. `python3 tools/ru_check.py --block <n>` clean, `./gradlew :core:test
    :app:testDebugUnitTest` green (CatalogTest, TranslationsTest).
@@ -6157,7 +6154,8 @@ read on its own screens.
    russian_tour.py`, and `scales.py s20,land` where a string grew): no row
    wraps that did not, nothing cut off.
 5. The hand-over: one letter to the owner with every changed unit, before
-   and after, grouped by family, and what was left as it stood and why.
+   and after, grouped by family (`python3 tools/ru_rewrite.py letter
+   --block <n>`; `ru_rewrite.py apply` writes the rewrites), and what was left as it stood and why.
    His corrections are applied the same day and entered in
    translation-style.md as rules (a token in `tools/ru_rules/
    Translationese.yml` where a script can see the fault); then a new letter

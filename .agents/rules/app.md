@@ -26,6 +26,11 @@ paths:
   <prefix>` before commit; the app's Russian is being rewritten block by
   block (ROADMAP L5, `tools/ru_plan.toml`), so a change to a family whose
   block is open goes into that block's letter to the owner.
+  `python3 tools/ru_rewrite.py apply CHANGES` writes a block's rewrites
+  and reads each back; `ru_rewrite.py letter --block <n>` lists every
+  unit changed since `main`, English, before and after, for the letter.
+  No AI detector gates the app's Russian either (the owner, 2026-11-21,
+  L5.D2): `ai-check` is for information only.
 - **Test on the emulator only**, never on the owner's phone: tours, taps,
   changed dates, preferences and languages all go to `zanshin-test`. The
   emulator is one for all sessions: queue for `emulator-5554` by message and
