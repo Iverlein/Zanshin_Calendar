@@ -3816,11 +3816,13 @@ canvas "Zanshin Calendar — basic design".
   painted in the manner of a Central Tibetan (Menri) thangka, as a buddha's
   image would: an aureole round it, a lotus seat bearing a moon disc under
   it and an emblem at its crown, the colours following the day's figure: a
-  lapis aureole with gold rays and a flaming triple jewel for the Medicine
+  lapis aureole with gold rays and his medicine jar, healing fruits and
+  arura (ཨ་རུ་ར, a ru ra) leaves rising from it, for the Medicine
   Buddha (8th), five-coloured rainbow bands and a flaming jewel for Guru
   Rinpoche (10th), red-gold rays and the full moon for Amitābha (15th),
   rainbow light leaning to red for the ḍākinīs (25th), a wreath of wisdom
-  fire and a sun disc on the seat for the protectors (29th), a gold aureole
+  fire with no crown, a sun disc on the seat and before it the offering of
+  the five senses in a skull cup (ཐོད་པ, thod pa) for the protectors (29th), a gold aureole
   and a dark new moon for Śākyamuni (30th). The small days of the
   protectors (9th, 24th) have a lighter wreath of fire, with no seat or
   crown. The pictures (`res/drawable-nodpi/practice_*.webp`, cut by

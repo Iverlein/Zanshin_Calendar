@@ -2582,6 +2582,14 @@ every practice day, in every theme.
   emulator on every practice day in all five themes, at font scale 2.0 and
   in landscape. Store shot 12 shows a practice day, 13 and 14 a common
   day of each calendar (the owner: the shots show both kinds of day).
+  Two emblems were repainted the same evening on the owner's word, from
+  thangkas he sent, the rest of each painting kept to the pixel: the 8th's
+  triple jewel became the Medicine Buddha's medicine jar with healing
+  fruits and arura leaves ("begging bowl is kinda inaccurate. he holds the
+  jar of medicine"), and the 29th lost its crown and gained, before the
+  seat, the offering of the five senses in a skull cup ("29th crown should
+  be empty, but in the lower part must be the offering of 5 senses in
+  kapala").
 
 ### <a id="t6-2"></a>T6.2. The festival frames painted in the Tibetan manner — planned 2026-11-22 (SPEC §10.3)
 
