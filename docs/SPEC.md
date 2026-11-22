@@ -3811,20 +3811,30 @@ canvas "Zanshin Calendar — basic design".
 
 - **Headline:** the day number, with the month under it. On a holiday, the
   holiday's name and glyph take the headline and the date moves under it.
-- **Practice day** (§5.8; the owner, 2026-11-17): on the 8th, 10th, 15th,
-  25th, 29th and 30th the day number stands in an ornament, as a buddha's
-  image does: an aureole round it, a lotus seat bearing a moon disc under
-  it and an emblem at its crown. The aureole is rays and pearls for the
-  buddhas' days (8th, 15th, 30th), three rainbow bands for the guru's and
-  the ḍākinīs' (10th, 25th), a wreath of flames for the protectors' (29th);
-  the crown a wish-fulfilling jewel, a full moon on the 15th, a dark moon on
-  the 30th; saffron for the buddhas and the guru, vermilion for the ḍākinīs
-  and the protectors. The small days of the protectors (9th, 24th) have a
-  lighter wreath of flames and no seat or crown. Under the number the
-  day's name in its colour ("Day of the Medicine Buddha") opens a balloon
+- **Practice day** (§5.8; the owner, 2026-11-17; painted 2026-11-22): on
+  the 8th, 10th, 15th, 25th, 29th and 30th the day number stands in a frame
+  painted in the manner of a Central Tibetan (Menri) thangka, as a buddha's
+  image would: an aureole round it, a lotus seat bearing a moon disc under
+  it and an emblem at its crown, the colours following the day's figure: a
+  lapis aureole with gold rays and a flaming triple jewel for the Medicine
+  Buddha (8th), five-coloured rainbow bands and a flaming jewel for Guru
+  Rinpoche (10th), red-gold rays and the full moon for Amitābha (15th),
+  rainbow light leaning to red for the ḍākinīs (25th), a wreath of wisdom
+  fire and a sun disc on the seat for the protectors (29th), a gold aureole
+  and a dark new moon for Śākyamuni (30th). The small days of the
+  protectors (9th, 24th) have a lighter wreath of fire, with no seat or
+  crown. The pictures (`res/drawable-nodpi/practice_*.webp`, cut by
+  `tools/practice_frames.py`) are the same in every theme: the plain disc
+  inside the aureole is cleared to a faint glow, so that the number stands
+  in the page's own text colour. The picture is scaled so that its disc
+  holds the number (156 sp on these days, 168 on the others) and made
+  smaller where the row is short of width, "from dawn" keeping the width of
+  its longest word beside it. Under the number the day's name, saffron for
+  the buddhas and the guru, vermilion for the ḍākinīs and the protectors
+  ("Day of the Medicine Buddha"), opens a balloon
   with the day's reading and its *Practice* and *Strong when* rows; a
   skipped date's day kept today says "moved from day N". On a festival the
-  name stands under the festival's, without the ornament.
+  name stands under the festival's, without the frame.
 - **Month:** number plus Tibetan name — "4th month · sa ga". Tapping it opens
   a balloon with the other names: Sanskrit lunar mansion, animal name
   (Janson Table 4), and its two seasons, each labelled, as WB's model

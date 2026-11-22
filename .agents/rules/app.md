@@ -1,14 +1,16 @@
 ---
-description: The app, the engines and the CLI — kanji gloss on tap, font rebuilds for new kanji, calendar changes need a vector, emulator-only testing and the tools in tools/emulator/, drawing cue glyphs
+description: The app, the engines and the CLI — kanji gloss on tap, font rebuilds for new kanji, calendar changes need a vector, emulator-only testing and the tools in tools/emulator/, drawing cue glyphs, the painted practice-day frames
 trigger: glob
-globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/tools/subset_fonts.py, **/tools/glyph_sheet.py, **/tools/ru_plan.toml'
+globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/art/**, **/tools/subset_fonts.py, **/tools/glyph_sheet.py, **/tools/practice_frames.py, **/tools/ru_plan.toml'
 paths:
 - app/**
 - core/**
 - cli/**
+- art/**
 - tools/emulator/**
 - tools/subset_fonts.py
 - tools/glyph_sheet.py
+- tools/practice_frames.py
 - tools/ru_plan.toml
 ---
 
@@ -61,6 +63,19 @@ paths:
   large and at 22 px; look at every new one at 22 px before building. A
   work gets its own glyph (`CueGlyphs.WORK`) only where its family's
   draws it badly; the In brief row keeps the families.
+- **The practice days' frames are paintings** (SPEC §10.3, ROADMAP
+  T6.1), never redrawn in code. The sources are `art/practice/` as they
+  were painted, on a flat magenta key; `tools/practice_frames.py cut
+  art/practice` keys them out, takes the part each frame uses, clears the
+  plain disc round the numeral to a faint glow and writes
+  `res/drawable-nodpi/practice_*.webp`; `practice_frames.py sheet OUT.png`
+  shows them on four page colours with the numeral in each. The window the
+  numeral stands in is in two places, `LARGE` in the script and `frameOf`
+  in `PracticeDay.kt`: change both. Any picture the app needs is painted
+  by Gemini, never drawn in code (the owner, 2026-11-22; machine rule 15):
+  the `paint` skill and `gemini-paint run <folder> --wait`, by the brief
+  of T6.1 for a frame; look at the sheet, then at every practice day on
+  the emulator in every theme, and the owner accepts it.
 - **Calendar changes need a vector**, not only a passing build. The 2033
   leap-month choice is a named constant in `Kyureki.kt`, citing the 暦文協's
   2015 recommendation of 閏11月; the general intercalation rule stays open

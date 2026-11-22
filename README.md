@@ -6,6 +6,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Saga Dawa Düchen, the full moon's day of Amitābha">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="220" alt="Japanese day: 十三夜">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/12.png" width="220" alt="A practice day: the Day of Guru Rinpoche, the date in a painted aureole on a lotus seat">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/13.png" width="220" alt="A common Tibetan day: the 12th of the 11th month">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="220" alt="Meditation timer: a zazen of 20, 10 and 30 minutes">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10.png" width="220" alt="Prayer wheel: a mantra in gold on a turning drum, with the way to the wheel alone and the mantras to choose from below">
@@ -14,7 +16,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
   leap months; festivals; the month's practice days (the 8th, 10th, 15th,
   25th, 29th and new moon, and the 9th and 24th as small days of the
-  Dharma protectors) in an ornament of their own, each naming who comes
+  Dharma protectors) in a frame painted as a thangka's aureole and lotus
+  seat, each naming who comes
   and what to practise; lunar mansion, yoga,
   karaṇa, element pair, lunar-day animal, trigram and number, each with its
   reading from the White Beryl and the *kun phan me long*; what changes

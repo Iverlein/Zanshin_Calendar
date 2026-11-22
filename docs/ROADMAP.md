@@ -141,7 +141,9 @@ moves up as soon as it is unblocked.
 | <a id="block-84"></a>84 | [L5](#l5) The bride's going | — | [74](#block-74) | Build block 84: L5, the Russian of block 84 of `tools/ru_plan.toml` rewritten as L5 says. 475 units, 9,600 words. |
 | <a id="block-85"></a>85 | [L5](#l5) The present moment and the dreams | — | [74](#block-74) | Build block 85: L5, the Russian of block 85 of `tools/ru_plan.toml` rewritten as L5 says. 1,320 units, 17,800 words. |
 | <a id="block-86"></a>86 | [L5](#l5) What is left, and L3 closed | — | [74](#block-74)–[85](#block-85) | Build block 86: L5, the Russian of block 86 of `tools/ru_plan.toml` rewritten as L5 says. The families no other block takes (11 units today), then the owner's read of the app in Russian on the phone, which closes [L3](#l3). |
-| <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 | — | — | Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
+| <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 — built 2026-11-22 | — | — | Built: T6.1 and release 3.5 (versionCode 20); the six large frames accepted by the owner on 2026-11-22, store shots 12–14 for a practice day and a common day of each calendar. Was: Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
+| <a id="block-88"></a>88 | [T6.2](#t6-2) The festival frames painted | [RD408](#rd408) | [87](#block-87) | Build block 88: T6.2, the eleven festival frames painted by Gemini (machine rule 15, the `paint` skill) by the motifs RD408 confirmed, shown to the owner, then built into the Tibetan page's festival headline as T6.2 says. |
+| <a id="block-89"></a>89 | [T6.3](#t6-3) The 旧暦 festival frames painted | [RD409](#rd409) | [87](#block-87) | Build block 89: T6.3, the nine 旧暦 festival frames painted by Gemini in the manner of ukiyo-e (machine rule 15, the `paint` skill) by the motifs RD409 confirmed, shown to the owner, then built into the 旧暦 page's festival headline as T6.3 says; `FestivalGlyph` removed once block 88 is in. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -561,6 +563,8 @@ check them on the scans.
 | <a id="rd405"></a>RD405 | How the Kagyu masters read the midnight dream of Marpa's song (q1114, q1112, q1130 beside): a commentary, a dream-yoga manual or an instruction of the Karma, Dwags po or 'Bri gung Kagyu that quotes «ནམ་གུང་ལ་བདུད་ཀྱི་སྤྲུལ་པ་སྟོན» or the three-watch saying, or says what the dream of midnight is (Māra's emanation, spirits, the mind's deception) and what is done about it; Kong sprul's and Tai si tu's dream-yoga writings and the Six Dharmas manuals (Dwags po bka' brgyud, Karma Kagyu), found by lines quoted from the pool — done 2026-11-11: Karma chags med's rule: the evening dream is habit, the midnight dream (ནམ་ཕྱེད) the display of gods and spirits (ལྷ་འདྲེ), nothing certain, the dawn dream has a result (rrd.19:p271); the third Karmapa's own commentary gives evening phlegm, midnight bile, dawn wind after the Mañjuśrī root tantra, without Māra or spirits (rrd.7:p100-103); Marpa's line on Māra's emanation is quoted or glossed in none of the Kagyu texts read | the Six Dharmas' dream manuals and Kong sprul's Gdams ngag mdzod vol. 9 texts (VE23605_009), Karma chags med (VE23259_001), the Karmapa's works (VE30541), BDRC etext and bdrc_search.py with quoted lines from rrd.23:p102-104, rrd.26:p88-90, rrd.5:p57-59 | — | [S2](#s2) | corpus/rrd/rrd.md | Read RD405: each passage in Tibetan script with etext page and the English beside, who says it and what the midnight dream is said to be; dead ends to PLAN.md |
 | <a id="rd406"></a>RD406 | The Narthang catalogue's tantra images 3–140 for the Examination of Dreams (what RD404 left, q1143 and its follow-up): Yigdzin-1 over the odd and even images of I2KG212509 (vol. 225) img. 3–140, the even images by crops of the text block as in RD365, for the entry of Phur lcog's Examination of Dreams after the Deceiving Death — done 2026-11-11: the Narthang catalogue lists the Examination of Dreams on img. 77 (folio 75), after the Deceiving Death instruction in 360 verses: «རྨི་ལམ་བརྟག་པ་བི་ཌཱུ་ཏི་ཙནྡྲའི་རང་འགྱུར», Vibhūticandra's own translation, no maker named; img. 75 has a Dream Tārā practice by Candragomin's pupil; images 87–140 unread | I2KG212509 images 3–140 on BDRC (the card; scans.py, hf_read.py through schedule.py slot) | — | [S2](#s2) | corpus/svo/svo.md | Read RD406: the catalogue entry, if any, in Tibetan script with image and the English beside, or that no image 3–140 carries it; dead ends to PLAN.md |
 | <a id="rd407"></a>RD407 | The Narthang catalogue's images 87–140 for a second entry of the Examination of Dreams (what RD406 left, q1155): Yigdzin-1 over the odd images 87–139 whole and the even images 88–140 by crops of the text block, and a syllable-by-syllable look at img. 77 on the scan — done 2026-11-11: in part: no second entry of the Examination of Dreams in the Narthang catalogue's images 87–140 (machine reading; img. 93, 105, 111, 121 nearly empty and unread); «རྨི་ལམ» once, img. 140, a different work («the immaculate dream meditation») | I2KG212509 images 77 and 87–140 on BDRC (the card; scans.py, hf_read.py through schedule.py slot) | — | [S2](#s2) | corpus/svo/svo.md | Read RD407: a second entry, if any, in Tibetan script with image and the English beside, or that none of 87–140 carries one; dead ends to PLAN.md |
+| <a id="rd408"></a>RD408 | The emblems of the eleven festivals for their painted frames ([T6.2](#t6-2)): for each festival the motif T6.2 proposes, checked against a published description of how the event is painted (the twelve deeds of the Buddha as painted in a published set or study; an encyclopaedia of Tibetan symbols for the emblems: the Dharma wheel with deer, the eight auspicious symbols, the six-tusked elephant, the triple stair, the twin miracle, Tsongkhapa's sword and book, the Kālacakra mandala's rings of the elements, the bsang smoke offering, the year-end torma) | to be found: a published study or catalogue of the twelve deeds in thangka painting; a reference of Tibetan symbols and motifs; Rabten's and the Rigpa calendar's festival notes already in festivals.md | — | [T6.2](#t6-2) | festivals.md | Read RD408: for each festival, the motif confirmed (with the source's page and the Tibetan name of the emblem, SPEC §8.1) or replaced by the one the source gives; a motif no source supports is dropped for a plain aureole in the day's colours; the result as claims, the open ones as questions; dead ends to PLAN.md |
+| <a id="rd409"></a>RD409 | The things of the nine 旧暦 festivals for their painted frames ([T6.3](#t6-3)): for each festival the motif T6.3 proposes, checked against a published description of what the festival is kept with (the NAOJ koyomi wiki's 節句 and 十三夜 pages, already sources; a Japanese encyclopaedia or a museum's catalogue of seasonal ukiyo-e for 七草, 流し雛, 鯉のぼり, 短冊, 月見団子, 栗名月, 精霊馬) and a published description of the koma-e cartouche and the round window in nishiki-e | NAOJ 暦Wiki (already in Texts.kt); a museum catalogue of ukiyo-e (Tokyo National Museum, the British Museum's or the MFA Boston's online collection) found in the headed browser; Japanese Wikipedia (CC BY-SA, facts only) | — | [T6.3](#t6-3) | festivals.md | Read RD409: for each festival, the motif confirmed (with the source and its page) or replaced by what the source gives; one nishiki-e of the kind named and described in words as the brief's reference; the result as claims, the open ones as questions; dead ends to PLAN.md |
 
 ### Left open in built work
 
@@ -2474,10 +2478,13 @@ also names the 11th and 26th, not taken; q1263 stays open on the note).
   of Amitābha and Śākyamuni on the 15th and the new moon (q1261, RCZ's
   kept); the practice on the small days rests on the verse's frame (an
   offering while the deity roams), no text names one for them.
-- **To be redone.** The frames drawn in code are to be painted in the
-  Tibetan manner: [T6.1](#t6-1).
+- **Redone.** The frames drawn in code were replaced by paintings in the
+  Tibetan manner: [T6.1](#t6-1), built 2026-11-22.
+- **Festivals.** Frames of their own for the eleven festivals, painted in
+  the same hand: [T6.2](#t6-2), planned 2026-11-22. The 旧暦 page's nine
+  festivals in the manner of ukiyo-e: [T6.3](#t6-3), planned the same day.
 
-### <a id="t6-1"></a>T6.1. The practice-day frames painted in the Tibetan manner — planned 2026-11-21 (SPEC §10.3)
+### <a id="t6-1"></a>T6.1. The practice-day frames painted in the Tibetan manner — built 2026-11-22 (SPEC §10.3)
 
 The owner, 2026-11-21, on the frames of [T6](#t6) drawn in code
 (`PracticeDay.kt`) and on a vector redraw by Gemini 4 Neon the same day:
@@ -2556,6 +2563,147 @@ shown to the owner before anything goes into the app.
 
 **Done when** the owner has accepted the pictures and the page shows them on
 every practice day, in every theme.
+
+- **Built.** Gemini 4 Neon (XHigh) painted the six large frames in one
+  Menri hand on a flat magenta key, one geometry for all (1024 × 896); the
+  owner accepted them on 2026-11-22 and made it a standing rule for the
+  machine that pictures are painted by Gemini, never drawn. The small
+  frame of the 9th and 24th was painted after the image quota's reset (a
+  spent quota, 429, after six pictures): the 29th's fire as a closed,
+  lighter wreath, its window a smaller part of the picture than the large
+  frames', so it stands below them round a numeral of the same size. The paintings are kept whole in
+  `art/practice/` as lossless WebP; `tools/practice_frames.py cut` keys
+  them, takes the shared part and clears the painted disc to a glow of
+  14 %, since the disc came opaque and a light numeral on it vanished on the
+  dark themes; `sheet` renders them on four page colours. The page
+  (`PracticeDay.kt`): the picture scaled so its window holds the numeral,
+  set at 156 sp on practice days; made smaller when the row is short, with
+  "from dawn" kept at the width of its longest word. Checked on the
+  emulator on every practice day in all five themes, at font scale 2.0 and
+  in landscape. Store shot 12 shows a practice day, 13 and 14 a common
+  day of each calendar (the owner: the shots show both kinds of day).
+
+### <a id="t6-2"></a>T6.2. The festival frames painted in the Tibetan manner — planned 2026-11-22 (SPEC §10.3)
+
+The owner, 2026-11-22, accepting the frames of [T6.1](#t6-1): "Also plan
+the frames for all festival days according to festival context, same
+style."
+Today a festival's headline is a line glyph drawn in code
+(`FestivalGlyph`, 72 dp), its name at 40 sp and the date small beside
+"from dawn"; on a festival the practice day's frame is not shown. The
+glyph goes, as every picture drawn in code goes (machine rule 15), and
+the date stands in a frame painted for the festival.
+
+**The page.** On a festival the headline becomes the practice day's: the
+date at 156 sp in the festival's frame, "from dawn" beside it
+(`PracticeHeadline`); under it the festival's name at 40 sp, opening its
+sheet as now, its Tibetan and its English; then, on a festival that falls
+on a practice day, the practice day's name and balloon (`PracticeLine`)
+as now. The festival's frame replaces the practice day's: the full moon's
+festivals do not also show Amitābha's aureole. A festival moved from a
+skipped date keeps its "moved from day N". `frameOf` takes the day and
+returns the festival's frame first.
+
+**The pictures.** Eleven, in the hand of T6.1 (Central Tibetan Menri,
+mineral pigments, gold contour, graded washes), on the same geometry as
+the six large frames (1024 × 896, the plain disc where the numeral stands
+at x 251–772, y 221–664, cleared in the cut), so that `LARGE` and
+`frameOf`'s `large()` serve them unchanged. Each keeps the aureole, the
+lotus seat and an emblem at the crown, and carries the festival's own
+event in the aureole's band and at its crown. No figure of a buddha or
+deity, no letters or mantra syllables (the generator mangles script), no
+copy of a particular painting. The proposed motifs, each to be confirmed
+by [RD408](#rd408) before the brief:
+
+| Date | Festival | Aureole | Crown | Seat |
+| --- | --- | --- | --- | --- |
+| 1/1 | Losar | the eight auspicious symbols (བཀྲ་ཤིས་རྟགས་བརྒྱད, bkra shis rtags brgyad) set round a gold band, five-coloured silk streamers | the vase of treasure (གཏེར་གྱི་བུམ་པ, gter gyi bum pa) | lotus, moon disc |
+| 1/15 | Chötrul Düchen, the miracles | the twin miracle: tongues of fire rising on the upper half, streams of water falling on the lower | the full moon | lotus, moon disc |
+| 3/15 | Kālacakra | concentric rings in the colours of the Kālacakra mandala's elements (earth yellow, water white, fire red, wind blue-black, space green) | the full moon on a flaming jewel | lotus, moon disc |
+| 4/7 | Birth of the Buddha | flowering branches of the tree of Lumbinī | a lotus bud opening | seven small lotuses along the seat, for the seven steps |
+| 4/15 | Saga Dawa Düchen | an aureole in the shape of a leaf of the bodhi tree, its foliage in the band | the full moon | the vajra seat (རྡོ་རྗེ་གདན, rdo rje gdan) under the lotus |
+| 5/15 | Zamling Chisang | clouds of juniper smoke (བསང, bsang) rising in blue-white scrolls, plain five-coloured flags without letters | the full moon over a smoke offering burner | lotus, moon disc |
+| 6/4 | Chökhor Düchen | gold rays | the wheel of Dharma (ཆོས་ཀྱི་འཁོར་ལོ, chos kyi 'khor lo) flanked by two deer | lotus, moon disc |
+| 6/15 | Entry into the womb | pale moonlit clouds | the white elephant with six tusks of Māyādevī's dream, on a cloud | lotus, moon disc |
+| 9/22 | Lhabab Düchen | the triple stair of gold, silver and crystal coming down through clouds on both sides | a parasol (གདུགས, gdugs) | lotus, moon disc |
+| 10/25 | Gaden Ngamchö | rows of butter lamps (མཆོད་མེ, mchod me) | Tsongkhapa's emblems, the flaming sword and the book on two lotuses | lotus, moon disc |
+| 12/29 | Thanksgiving to the Protectors (Gutor) | a dark wreath of wisdom fire, deeper than the 29th's | the year-end torma (གཏོར་མ, gtor ma) | lotus, sun disc |
+
+**How it is run.**
+
+1. [RD408](#rd408) confirms or replaces each motif from a published
+   source; the table above is corrected to what it finds.
+2. The brief (the `paint` skill): the eleven in one hand with
+   `art/practice/practice_10.webp` as the reference picture, the
+   geometry above, the flat `#FF00FF` key, the files
+   `festival_<name>.png` (the enum's name in lower case).
+3. `gemini-paint run <folder> --wait`: the image quota gave six pictures
+   on 2026-11-22, so the eleven take two quota windows.
+4. `tools/practice_frames.py` learns the festivals (their names in
+   `FRAMES`, all on `LARGE`); `cut` and `sheet` as for T6.1. The contact
+   sheet goes to the owner by letter; repaint what he rejects.
+5. Into the app: `res/drawable-nodpi/festival_*.webp`, `frameOf` and the
+   festival headline as above; the line glyph stays on the 旧暦 page's
+   festivals until [T6.3](#t6-3). SPEC §10.3, README, both listings, store shot 1 (Saga Dawa
+   Düchen) retaken in its frame.
+
+**Not in it.** The 旧暦 page's festivals: painted in the manner of
+ukiyo-e, [T6.3](#t6-3).
+
+**Done when** the owner has accepted the eleven pictures and the page shows
+each festival in its frame, in every theme, with the practice day's line
+under it where the festival falls on one.
+
+### <a id="t6-3"></a>T6.3. The 旧暦 festival frames painted in the manner of ukiyo-e — planned 2026-11-22 (SPEC §10.4)
+
+The owner, 2026-11-22, on [T6.2](#t6-2): "The plan sounds good, the
+Japanese ones better be painted in ukiyoe style." Today a 旧暦 festival
+heads the page as a line glyph drawn in code (`FestivalGlyph`, 56 dp)
+beside its kanji at 30 sp, above the date. With T6.2 and this the glyph
+and `Glyphs.kt`'s festival drawings go (machine rule 15).
+
+**The page.** On a festival the date, at its 120 sp, stands in the
+festival's painted frame, scaled by its window as `PracticeOrnament` does
+(the composable made general: a frame and a numeral); the festival's
+kanji, romaji and English under it, opening its sheet as now. When the
+kyūreki festival and the Gregorian お盆 (月遅れ) fall on one day, the
+kyūreki festival's frame is shown and both names stand under it.
+
+**The pictures.** Nine, in one hand: Edo woodblock colour prints
+(nishiki-e) of the landscape and flower-and-bird kind, Hiroshige's and
+Hokusai's era: flat areas of colour, key-block outlines, bokashi
+gradations, Prussian blue and vermilion. The frame is the print's own
+convention for an inset picture, the cartouche (コマ絵, koma-e): a round
+window (丸窓) whose border carries the festival's things, on the same
+geometry as the Tibetan frames (1024 × 896, the plain window at x 251–772,
+y 221–664, cleared in the cut), so that `LARGE` serves them. No figures,
+no letters or seals (the generator mangles script), no copy of a
+particular print. The proposed motifs, each to be confirmed by
+[RD409](#rd409) before the brief:
+
+| Kyūreki date | Festival | Round the window |
+| --- | --- | --- |
+| 1/1 | 旧正月 | pine, bamboo and plum (松竹梅), the first sunrise (初日の出) at the crown |
+| 1/7 | 人日の節句 | the seven herbs of spring (春の七草) in a basket, snow on the ground |
+| 3/3 | 上巳の節句 | peach blossom (桃の花) over a stream, paper dolls floating on it (流し雛) |
+| 5/5 | 端午の節句 | irises (菖蒲) in water, carp streamers (鯉のぼり) against the sky |
+| 7/7 | 七夕 | bamboo with five-coloured paper strips left blank (短冊), the Milky Way (天の川) |
+| 8/15 | 十五夜 | the full moon at the crown, pampas grass (薄) and moon-viewing dumplings (月見団子) |
+| 9/9 | 重陽の節句 | chrysanthemums (菊) |
+| 9/13 | 十三夜 | the moon just short of full, chestnuts and soybeans (栗名月, 豆名月) |
+| 7/15, and 8/15 Gregorian | お盆 | the welcoming fire (迎え火) and paper lanterns (盆提灯), the cucumber horse and aubergine ox (精霊馬) |
+
+**How it is run.** As T6.2: [RD409](#rd409), the brief (the `paint`
+skill; the reference a nishiki-e named by RD409 described in words, not
+attached, since no print may be copied), `gemini-paint run <folder>
+--wait` across two quota windows, `tools/practice_frames.py` taught the
+festivals (`kyureki_<romaji>`), the contact sheet by letter, then into the
+app: `res/drawable-nodpi/kyureki_*.webp`, the 旧暦 headline as above,
+SPEC §10.4, README, both listings and store shot 2 (十三夜) retaken in its
+frame.
+
+**Done when** the owner has accepted the nine pictures and the 旧暦 page
+shows each festival in its frame, in every theme.
 
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 

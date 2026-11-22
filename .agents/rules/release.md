@@ -60,6 +60,10 @@ On every merge of a feature, in the same branch:
    show has changed, review every PNG, then copy them into
    `images/phoneScreenshots/`; a new screen gets a shot of its own in the
    script. Captions and alt text in `website/data/screenshots.toml`.
+   They show both kinds of day, a special one and a common one, for each
+   calendar (the owner, 2026-11-22): today shots 1 and 12 (a festival, a
+   practice day) and 13 for the Tibetan page, 2 and 14 for the 旧暦. A
+   new kind of special day gets a shot or replaces the one of its page.
 7. **The website** (`website/`): build it with `hugo`, and change the
    layout or CSS where the listing's new text does not fit; look at both
    languages, wide and at phone width, in a real browser. It deploys on
