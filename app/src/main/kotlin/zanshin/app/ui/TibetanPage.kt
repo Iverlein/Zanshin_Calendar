@@ -189,18 +189,27 @@ fun TibetanPage(
                 }
             }
         } else {
+            val practice = day.specialDay
+            // In a practice day's frame the numeral is a little smaller, so that it stands in the painted disc with room.
+            val size = if (practice != null) 156.sp else 168.sp
             val numeral: @Composable () -> Unit = {
                 Text(
                     "${day.day}",
-                    style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 168.sp, letterSpacing = (-6).sp, color = Palette.text),
-                    modifier = Modifier.capBox(168.sp),
+                    style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = size, letterSpacing = (-6).sp, color = Palette.text),
+                    modifier = Modifier.capBox(size),
                 )
             }
-            val practice = day.specialDay
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                // A practice day's numeral stands in its ornament (SPEC §10.3).
-                if (practice != null) PracticeOrnament(practice, numeral) else numeral()
+            val fromDawn: @Composable () -> Unit = {
                 Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+            }
+            // A practice day's numeral stands in its painted frame (SPEC §10.3).
+            if (practice != null) {
+                PracticeHeadline(practice, numeral, fromDawn)
+            } else {
+                Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    numeral()
+                    fromDawn()
+                }
             }
             practice?.let { sd ->
                 PracticeLine(sd, day.specialDayMovedFrom, balloon == TibetanBalloon.PRACTICE) { toggle(TibetanBalloon.PRACTICE) }
