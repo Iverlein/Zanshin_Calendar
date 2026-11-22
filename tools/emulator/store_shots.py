@@ -2,7 +2,8 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The ten store screenshots, in one language, on the emulator.
+"""The store screenshots, in one language, on the emulator. They show both kinds of day, a common one and a
+special one, in both calendars (the owner, 2026-11-22): shots 1, 2 and 12 special, 13 and 14 common.
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
@@ -18,6 +19,10 @@
 10. The prayer wheel: Om mani padme hum on the drum, gold on black, the settings' defaults
 11. A dream read (ROADMAP S2): a dawn dream of riding upward, a pit and the sun rising, on 2026-10-23 in
     Lhasa, its reading by tradition with the Remedy row
+12. A practice day: Guru Rinpoche's day, the 10th of the 11th month, 2026-12-19 in Lhasa, the date in its
+    painted frame (ROADMAP T6.1)
+13. A common Tibetan day: the 12th of the 11th month, 2026-12-21 in Lhasa, no festival and no practice day
+14. A common 旧暦 day: the 13th of 霜月, 2026-12-21 in Kyoto, 大安, no feast and no term beginning
 
 Shots 1 to 6, 8, 9 and 10 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
@@ -30,7 +35,7 @@ are put back.
 Review the PNGs before copying them to
 fastlane/metadata/android/<locale>/images/phoneScreenshots/.
 
-Usage: tools/emulator/store_shots.py en|ru OUTDIR
+Usage: tools/emulator/store_shots.py en|ru OUTDIR [N,N…]   (only the shots named; 3 needs 1)
 """
 import re
 import sys
@@ -62,6 +67,12 @@ PRESETS = {
 }
 
 lang, out = sys.argv[1], Path(sys.argv[2])
+only = {int(n) for n in sys.argv[3].split(",")} if len(sys.argv) > 3 else None
+
+
+def want(*shots):
+    return only is None or any(n in only for n in shots)
+
 labels = LABELS[lang]
 out.mkdir(parents=True, exist_ok=True)
 
@@ -131,78 +142,97 @@ sh("settings put global auto_time 0")
 sh("settings put global sysui_demo_allowed 1")
 language(lang)
 try:
-    day("06180900", 2027, "TIBETAN", LHASA)
-    shot(1)
-    # The festival's heading opens its reading.
-    tap_at(find(labels["festival"]))
-    shot(3)
+    if want(1, 3):
+        day("06180900", 2027, "TIBETAN", LHASA)
+        shot(1)
+        # The festival's heading opens its reading.
+        tap_at(find(labels["festival"]))
+        shot(3)
 
-    day("10230900", 2026, "KYUREKI", KYOTO)
-    shot(2)
-    # Scroll slowly, without a fling, until 中段 sits under the top bar.
-    for _ in range(4):
-        hits = [y for t, _, _, y in nodes() if t.startswith("中段")]
-        if hits and hits[0] < 1600:
-            adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
-            break
+    if want(2, 4, 5):
+        day("10230900", 2026, "KYUREKI", KYOTO)
+        shot(2)
+        # Scroll slowly, without a fling, until 中段 sits under the top bar.
+        for _ in range(4):
+            hits = [y for t, _, _, y in nodes() if t.startswith("中段")]
+            if hits and hits[0] < 1600:
+                adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
+                break
+            up()
+        shot(4)
+
+        adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
+        adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
+        tap_at(find(labels["menu"], desc=True))
+        # The groups are closed on a fresh install (ROADMAP H3): two opened, two left closed, so the shot shows both.
+        tap_at(find(labels["calendar"]))
+        tap_at(find(labels["practice"]))
+        shot(5)
+
+    if want(6):
+        day("10230900", 2026, "KYUREKI", KYOTO, strings={"sit_plan": ZAZEN, "sit_presets": PRESETS[lang]})
+        tap_at(find(labels["menu"], desc=True))
+        tap_at(find(labels["practice"]))
+        tap_at(find(labels["meditation"]))
+        shot(6)
+
+    if want(7):
+        # A mother born in 1950, so that the year of age shows the natal trigram (ROADMAP P2).
+        day("10230900", 2026, "TIBETAN", LHASA, people=[(labels["person"], BIRTH_1976_06_01, "m")], strings={"relatives": "0\t1\t-\tMOTHER\t\t\t1950\t\t"})
+        tap_at(find(labels["year"]))
+        tap_at(find(labels["year_of_age"]))
+        shot(7)
+
+    if want(8):
+        day("06180900", 2027, "TIBETAN", LHASA, strings={"theme": "PAPER"})
+        shot(8)
+
+    if want(9):
+        # The two widgets on the home screen (ROADMAP W1), on shot 1's day: leaving the app draws them.
+        day("06180900", 2027, "TIBETAN", LHASA)
+        widgets()
+        shot(9)
+
+    if want(10):
+        # The wheel turns: it stands wherever the shot falls.
+        day("10230900", 2026, "KYUREKI", KYOTO)
+        tap_at(find(labels["menu"], desc=True))
+        tap_at(find(labels["practice"]))
+        tap_at(find(labels["wheel"]))
+        time.sleep(2)
+        shot(10)
+
+    if want(11):
+        # A dawn dream of three images, each ticked in its group, then the reading scrolled under the header.
+        day("10230900", 2026, "TIBETAN", LHASA)
+        tap_at(find(labels["menu"], desc=True))
+        tap_at(find(labels["reckonings"]))
+        tap_at(find(labels["element"]))
         up()
-    shot(4)
+        tap_at(find(labels["dream"]))
+        tap_at(find(labels["choose"]))
+        for group, image in labels["dream_images"]:
+            tap_at(find(group))
+            tap_at(find(image))
+            tap_at(find(group))
+        adb("shell", "input", "keyevent", "4")
+        time.sleep(1.5)
+        up()
+        hits = [y for t, _, _, y in nodes() if re.search(labels["reading"], t)]
+        if hits:
+            adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
+        shot(11)
 
-    adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
-    adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
-    tap_at(find(labels["menu"], desc=True))
-    # The groups are closed on a fresh install (ROADMAP H3): two opened, two left closed, so the shot shows both.
-    tap_at(find(labels["calendar"]))
-    tap_at(find(labels["practice"]))
-    shot(5)
-
-    day("10230900", 2026, "KYUREKI", KYOTO, strings={"sit_plan": ZAZEN, "sit_presets": PRESETS[lang]})
-    tap_at(find(labels["menu"], desc=True))
-    tap_at(find(labels["practice"]))
-    tap_at(find(labels["meditation"]))
-    shot(6)
-
-    # A mother born in 1950, so that the year of age shows the natal trigram (ROADMAP P2).
-    day("10230900", 2026, "TIBETAN", LHASA, people=[(labels["person"], BIRTH_1976_06_01, "m")], strings={"relatives": "0\t1\t-\tMOTHER\t\t\t1950\t\t"})
-    tap_at(find(labels["year"]))
-    tap_at(find(labels["year_of_age"]))
-    shot(7)
-
-    day("06180900", 2027, "TIBETAN", LHASA, strings={"theme": "PAPER"})
-    shot(8)
-
-    # The two widgets on the home screen (ROADMAP W1), on shot 1's day: leaving the app draws them.
-    day("06180900", 2027, "TIBETAN", LHASA)
-    widgets()
-    shot(9)
-
-    # The wheel turns: it stands wherever the shot falls.
-    day("10230900", 2026, "KYUREKI", KYOTO)
-    tap_at(find(labels["menu"], desc=True))
-    tap_at(find(labels["practice"]))
-    tap_at(find(labels["wheel"]))
-    time.sleep(2)
-    shot(10)
-
-    # A dawn dream of three images, each ticked in its group, then the reading scrolled under the header.
-    day("10230900", 2026, "TIBETAN", LHASA)
-    tap_at(find(labels["menu"], desc=True))
-    tap_at(find(labels["reckonings"]))
-    tap_at(find(labels["element"]))
-    up()
-    tap_at(find(labels["dream"]))
-    tap_at(find(labels["choose"]))
-    for group, image in labels["dream_images"]:
-        tap_at(find(group))
-        tap_at(find(image))
-        tap_at(find(group))
-    adb("shell", "input", "keyevent", "4")
-    time.sleep(1.5)
-    up()
-    hits = [y for t, _, _, y in nodes() if re.search(labels["reading"], t)]
-    if hits:
-        adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
-    shot(11)
+    # Both kinds of day (the owner, 2026-11-22): a practice day in its frame, then a common day in each calendar.
+    if want(12):
+        day("12190900", 2026, "TIBETAN", LHASA)
+        shot(12)
+    if want(13):
+        day("12210900", 2026, "TIBETAN", LHASA)
+        shot(13)
+    if want(14):
+        day("12210900", 2026, "KYUREKI", KYOTO)
+        shot(14)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")

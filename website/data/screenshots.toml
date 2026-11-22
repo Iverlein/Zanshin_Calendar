@@ -98,3 +98,30 @@ alt = "A dream read: a dawn dream of riding upward, a pit and the sun rising, ea
 [shot.ru]
 caption = "Прочитанный сон"
 alt = "Прочитанный сон: сон на рассвете, в котором едут вверх, яма и восход солнца; под заголовком каждой традиции — её приговор каждому образу и его тон"
+
+[[shot]]
+file = "12.png"
+[shot.en]
+caption = "A practice day"
+alt = "A practice day: the Day of Guru Rinpoche (གུ་རུ་རིན་པོ་ཆེ, gu ru rin po che), the 10th of the 11th month, the date in an aureole of rainbow light on a lotus seat, painted as in a thangka, with the hours and a lucky day in brief"
+[shot.ru]
+caption = "День практики"
+alt = "День практики: День Гуру Ринпоче (གུ་རུ་རིན་པོ་ཆེ, gu ru rin po che), 10-е число 11-го месяца, дата в радужном ореоле на лотосовом троне, написанном как на тханке, с часами и «Вкратце»: благоприятный день"
+
+[[shot]]
+file = "13.png"
+[shot.en]
+caption = "A common Tibetan day"
+alt = "A common Tibetan day: the 12th of the 11th month, no festival and no practice day, the hours, an unlucky day in brief by the combination, a haircut good until 19:00 and the almanac below"
+[shot.ru]
+caption = "Обычный тибетский день"
+alt = "Обычный тибетский день: 12-е число 11-го месяца, без праздника и дня практики, часы, «Вкратце»: неблагоприятный день по сочетанию, стрижка хороша до 19:00 и альманах ниже"
+
+[[shot]]
+file = "14.png"
+[shot.en]
+caption = "A common 旧暦 day"
+alt = "A common Japanese day: the 13th of the 11th month, 大安, the solar term 大雪 to its last day, and the almanac bands 中段 and 二十八宿"
+[shot.ru]
+caption = "Обычный день по 旧暦"
+alt = "Обычный японский день: 13-й день 11-го месяца, 大安, последний день солнечного сезона 大雪, полосы альманаха 中段 и 二十八宿"
