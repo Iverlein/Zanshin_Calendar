@@ -188,7 +188,135 @@ numbers beside it:
 
 ## The emblems of the eleven festivals for their painted frames ([T6.2](#t6-2)): for each festival the motif T6.2 proposes, checked against a published description of how the event is painted (the twelve deeds of the Buddha as painted in a published set or study; an encyclopaedia of Tibetan symbols for the emblems: the Dharma wheel with deer, the eight auspicious symbols, the six-tusked elephant, the triple stair, the twin miracle, Tsongkhapa's sword and book, the Kālacakra mandala's rings of the elements, the bsang smoke offering, the year-end torma) (RD408)
 
-Nothing read yet: RD408's passages, with the English beside them, go here.
+Read in the browser on 2026-11-24, from published pages only; no scan, no
+model. The pages describe events and name emblems in words; none of them
+is a catalogue of how each festival is painted, and the paintings
+themselves (images, no captions) were not read for emblems. Where a page
+gives no Tibetan name, none is written here.
+
+### What was read
+
+- Himalayan Art Resources (HAR, Jeff Watt), *Shakyamuni Buddha: Life
+  Story Main Page* (himalayanart.org/search/set.cfm?setid=558, updated
+  2016–2017): the twelve deeds as painted in the life-story sets, with
+  their Tibetan names, and the eleventh deed divided into the display of
+  miracles, the Lotus Sutra narrative, the descent from Tushita and the
+  miracles at Shravasti. The sets listed: nine-painting sets (Dege block
+  prints, Tibet House, Choying Dorje and others), two-painting sets and a
+  single-composition life story. Its page *Miracles at Shravasti*
+  (setID=2902): fifteen miracles in fifteen days at Shravasti, painted
+  within the life-story sets and at times as a set of their own. Its
+  sub-set pages (346 Māyādevī, 1504 the miracles, 1505 the descent from
+  Tushita, 1507 the parinirvāṇa) carry images and no text on the scenes.
+- HAR, *Eight Auspicious Symbols* (setID=1178, updated 2022): the eight
+  as parasol, golden fish, treasure vase, lotus, right-turning conch,
+  glorious endless knot, victory banner, wheel; shown together or singly;
+  also on initiation cards. English names only on the page.
+- HAR, *Tsongkapa Iconography* (setID=4181, Jeff Watt 2019): the
+  attributes of Tsongkhapa in painting are the yellow pandita hat,
+  monastic dress, the teaching gesture, a sword and a book on flower
+  blossoms, the seat in vajra posture; a separate form shows him
+  descending from Tushita. No flame is named for the sword; no Tibetan
+  names on the page.
+- HAR, *Torma Offering Main Page* (setID=1062): the torma (གཏོར་མ, gtor ma,
+  Sanskrit baliṃta) as a cone-shaped ritual food of barley flour, coloured
+  and adorned with discs of butter; red triangular ones for fierce
+  protectors such as Mahākāla and Śrī Devī; used among other things
+  for turning back obstacles in the New Year celebrations; shown in
+  paintings hung in the protectors' temples.
+- Wikipedia (CC BY-SA, a secondary source; its sentences cite books not
+  seen here): *Ashtamangala* gives the Tibetan names of the eight
+  (the right-turning white conch དུང་དཀར་གཡས་འཁྱིལ་, dung dkar g.yas 'khyil;
+  the endless knot དཔལ་བེའུ་, dpal be'u; the pair of golden fish གསེར་ཉ་,
+  gser nya; the lotus པདྨ, pad ma; the jewelled parasol རིན་ཆེན་གདུགས་,
+  rin chen gdugs; the treasure vase གཏེར་ཆེན་པོའི་བུམ་པ་, gter chen po'i
+  bum pa; the wheel of Dharma ཆོས་ཀྱི་འཁོར་ལོ་, chos kyi 'khor lo; the
+  victory banner རྒྱལ་མཚན་, rgyal mtshan) and says Tibetans use the set
+  in household and public art. *Dharmachakra*: the wheel with deer is
+  the Deer Park of Sarnath, an Indian pairing seen from south to north
+  and still set on the roof ridges of Tibetan monasteries. *Jokhang*:
+  on the roof and its ridges stand golden deer flanking a Dharma wheel,
+  with victory banners and fish. *The Twin Miracle*: from the upper half
+  of the Buddha's body fire, from the lower half streams of water, then
+  alternated, in six colours; Tibetans keep it with Chötrul Düchen.
+  *Chotrul Duchen*: also the Butter Lamp Festival; lamps shaped like
+  deities, flowers and auspicious symbols, lit on the 15th. *Lhabab
+  Duchen* (ལྷ་བབས་དུས་ཆེན, lha babs dus chen): the descent on a triple
+  celestial ladder made by Indra and Brahmā, rainbows about it, landing at
+  Sankassa; the three months of teaching Māyādevī before. *Maya*: in her
+  dream a white elephant holding a white lotus circled her three times and
+  entered her right side. *Losar*: the pre-Buddhist winter incense and
+  smoke offerings to local spirits; houses decked with signs in flour
+  (sun, moon, swastika) and juniper, cedar and rhododendron burnt as
+  incense. *Torma*: gtor ma, from "to scatter", offering and letting go.
+- Lotsawa House, Jigme Lingpa, *Praise of the Twelve Acts of the Buddha*
+  (the Tibetan text, whose author's work is old; the English translation
+  is under a non-commercial licence and was not used): the twelve acts
+  in verse, from the descent from Tuṣita and Māyādevī's womb to the
+  parinirvāṇa. It names no emblem for any of them. The Śrāvastī stanza
+  speaks of the miracles (ཆོ་འཕྲུལ་, cho 'phrul) that silenced the
+  tīrthika teachers, and the "four bases of miraculous powers" (རྫུ་འཕྲུལ་
+  རྐང་པ་བཞི, rdzu 'phrul rkang pa bzhi).
+
+### The eleven, one by one
+
+Confirmed = a published page gives the thing as a Tibetan-Buddhist
+emblem or as part of the festival's story. It is not confirmation that
+the thing is painted as the frame's crown for that festival: no page read
+says so.
+
+| Festival | Proposed motif | Result |
+| --- | --- | --- |
+| Losar | the eight auspicious symbols set round a gold band; the vase of treasure at the crown | The eight symbols and their Tibetan names confirmed (HAR 1178, Wikipedia); the treasure vase is one of the eight. No page links the eight to Losar; the pages tie Losar to smoke and incense, flour signs and a protector's torma. Held as proposed, the link unconfirmed. |
+| Chötrul Düchen | the twin miracle, fire above and water below | Confirmed as the event's content (fire from the upper half, water from the lower, Wikipedia *The Twin Miracle*), and the miracles at Śrāvastī are painted in the life-story sets (HAR 2902). The festival's own folk emblem is the butter lamp (Wikipedia). Both stand; the aureole may carry the lamps instead if the owner prefers. |
+| Kālacakra | rings in the colours of the elements | Not confirmed: the pages read give the mandala as palaces one within another (body, speech, mind, wisdom and bliss), not rings of elements by colour. HAR's Kālacakra pages (setID=167) give no such detail. Dropped for a plain aureole in the day's colours, unless a source is found. |
+| Birth of the Buddha | flowering branches of Lumbinī, a lotus bud, seven small lotuses for the steps | Nothing read gives the branches, the bud or the seven lotuses. The birth is the third of the twelve deeds in HAR's list (Lumbini, sku bltams pa) and Jigme Lingpa's verse has Māyādevī giving birth in the Lumbinī grove, "a lotus opening in blossom" (Tibetan: ལྷུམས་ཀྱི་གེ་སར་བཞད་པ་ལུམྦིའི་ཚལ), a figure of speech. Dropped for a plain aureole. |
+| Saga Dawa Düchen | the bodhi leaf, the vajra seat | The bodhi tree and the vajra seat appear in the twelve deeds (HAR: proceeding to the foot of the bodhi tree, byang chub snying por gshegs pa), but no page read says how they are painted. Dropped for a plain aureole. |
+| Zamling Chisang | juniper smoke over a burner, plain flags | Smoke offering and juniper confirmed as the practice (Wikipedia *Losar*, for the incense custom; the Rigpa and Mindrolling pages above for the day); no source on how it is painted and no Tibetan name read for the burner (bsang itself is given in Rabten's front matter, above). Dropped for a plain aureole. |
+| Chökhor Düchen | the wheel of Dharma with two deer | Confirmed: the wheel (ཆོས་ཀྱི་འཁོར་ལོ, chos kyi 'khor lo) with deer is the Deer Park's pairing, standing on the roof of the Jokhang and on monastery roof ridges (Wikipedia *Dharmachakra*, *Jokhang*). No page names the Tibetan word for the deer. Kept. |
+| Entry into the womb | the six-tusked white elephant on a cloud | The white elephant entering Māyādevī's right side is confirmed (Wikipedia *Maya*, with a white lotus in its trunk); the six tusks are not in any page read. A white elephant with a lotus, the number of tusks left out, is the motif the sources support. |
+| Lhabab Düchen | the triple stair coming down through clouds; a parasol at the crown | The triple ladder with rainbows is confirmed (Wikipedia *Lhabab Duchen*); gold, silver and crystal are not named in it. The parasol is one of the eight (rin chen gdugs) but is not tied to the descent in any page. Ladder kept without the three materials; crown held back. |
+| Gaden Ngamchö | rows of butter lamps; Tsongkhapa's sword and book on two lotuses | The sword and book on flower blossoms is confirmed as Tsongkhapa's painted attribute (HAR 4181, no flame named). The lamps of the festival are not in the pages read for this day. Sword and book kept, "flaming" and "two lotuses" dropped to "on flower blossoms". |
+| Gutor | the year-end torma, dark wreath of fire | The torma confirmed as the offering (HAR 1062: red triangular tormas to the protectors; one use is turning back obstacles at the New Year); nothing on a wreath of fire. Held as a red triangular torma on a plain dark aureole. |
+
+### Claims
+
+[claims/festival-emblems-what-published-pages-support.md](claims/festival-emblems-what-published-pages-support.md).
+
+### Open
+
+- Question: Which emblem do painters of the Tibetan calendar's festivals
+  put at the crown of each festival, if any is fixed, and where is that
+  written? No published page read says how any of the eleven is painted.
+- Question: In a painted set of the twelve deeds, is Māyādevī's dream
+  shown with a six-tusked elephant, and in which published set?
+- Question: Which is the Tibetan name of the deer beside the wheel of
+  Dharma (ri dwags, g.ya', or another) in the Tibetan description of the
+  Jokhang's roof ornament?
+- Question: Does a published description of the Kālacakra mandala give
+  the elements as rings coloured earth, water, fire, wind and space, and
+  in which colours?
+- Question: Is the sword on Tsongkhapa's lotus painted flaming in the
+  Gelug tradition, as the app's plan has it, and where is that written?
+
+### Searched and not found
+
+- DuckDuckGo's HTML search answered with a human-check challenge on
+  2026-11-24; not worked around, so no web search was made and the pages
+  above were reached through the sites' own indexes.
+- HAR's *Twelve Deeds Outline Page* (pages/shakya12deeds/index.html) is an
+  image-only page with no text; the scene sub-sets (346, 1504, 1505,
+  1507, 1501, 1503) hold images and no description; HAR's Eight
+  Auspicious Symbols, Kālacakra and Torma pages carry no Tibetan names.
+- Rigpa Wiki on 2026-11-24: no pages for Chötrul Düchen, Lhabab Düchen,
+  Zamling Chisang, Gutor, Ganden Ngamchö, the six-tusked elephant, the
+  Dharma wheel with deer, the Kālacakra mandala; *Twelve deeds* gives the
+  list and the Tibetan names only.
+- Wikipedia: no pages for Zamling Chisang, the smoke offering (bsang) or
+  Ganden Ngamchö; *Gutor* is a disambiguation without the festival.
+- Lotsawa House, Jigme Lingpa's praise: no emblem named for any act.
+- Not read: Robert Beer's *Encyclopedia of Tibetan Symbols and Motifs*
+  (the archive.org loan is not this reading's).
 
 
 ## The things of the nine 旧暦 festivals for their painted frames ([T6.3](#t6-3)): for each festival the motif T6.3 proposes, checked against a published description of what the festival is kept with (the NAOJ koyomi wiki's 節句 and 十三夜 pages, already sources; a Japanese encyclopaedia or a museum's catalogue of seasonal ukiyo-e for 七草, 流し雛, 鯉のぼり, 短冊, 月見団子, 栗名月, 精霊馬) and a published description of the koma-e cartouche and the round window in nishiki-e (RD409)
