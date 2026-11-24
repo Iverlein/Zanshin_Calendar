@@ -2878,6 +2878,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1360.md](questions/q1360.md) | question q1360 | Do the British Museum's three carp kites in Hiroshige's Surugadai print stand against Wikipedia's single black carp? | open; cites — |
 | [questions/q1361.md](questions/q1361.md) | question q1361 | Does the model almanac's 11th month start on mewa 1 (p. 154 box 1)? | open; cites — |
 | [questions/q1362.md](questions/q1362.md) | question q1362 | ཕུང་རྒྱབ་ཅན (vol. 2 p. 314) against ཕུང་སྐྱབས་ཅན (vol. 1 p. 258) | open; cites — |
+| [questions/q1363.md](questions/q1363.md) | question q1363 | The middle cells of the strip charts' sides (WB ch. 13 pp. 142-147) | open; cites — |
+| [questions/q1364.md](questions/q1364.md) | question q1364 | The light-clearer's corner in the strip charts against the verse's grave, neighbour and slayer | open; cites — |
 
 <!-- end pool index -->
 
