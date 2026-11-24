@@ -144,7 +144,7 @@ moves up as soon as it is unblocked.
 | <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 — built 2026-11-22 | — | — | Built: T6.1 and release 3.5 (versionCode 20); the six large frames accepted by the owner on 2026-11-22, store shots 12–14 for a practice day and a common day of each calendar. Was: Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
 | <a id="block-88"></a>88 | [T6.2](#t6-2) The festival frames painted | [RD408](#rd408) | [87](#block-87) | Build block 88: T6.2, the eleven festival frames painted by Gemini (machine rule 15, the `paint` skill) by the motifs RD408 confirmed, shown to the owner, then built into the Tibetan page's festival headline as T6.2 says. |
 | <a id="block-89"></a>89 | [T6.3](#t6-3) The 旧暦 festival frames painted | [RD409](#rd409) | [87](#block-87) | Build block 89: T6.3, the nine 旧暦 festival frames painted by Gemini in the manner of ukiyo-e (machine rule 15, the `paint` skill) by the motifs RD409 confirmed, shown to the owner, then built into the 旧暦 page's festival headline as T6.3 says; `FestivalGlyph` removed once block 88 is in. |
-| <a id="block-90"></a>90 | [T6.4](#t6-4) The days of the Nyingma and Kagyu schools and of the owner's lineages | [RD410](#rd410), [RD411](#rd411) | [88](#block-88) | Build block 90: T6.4, the festival list of SPEC §5.7 extended by the days RD410 and RD411 confirm and the owner chooses, each with its reading from the pool, and a frame painted for each as T6.2's (machine rule 15, the `paint` skill), shown to the owner. |
+| <a id="block-90"></a>90 | [T6.4](#t6-4) The days of the Nyingma and Kagyu schools and of the owner's lineages — days built 2026-11-24, frames to come | [RD410](#rd410), [RD411](#rd411) | [88](#block-88) | Build block 90: T6.4, the festival list of SPEC §5.7 extended by the days RD410 and RD411 confirm and the owner chooses, each with its reading from the pool, and a frame painted for each as T6.2's (machine rule 15, the `paint` skill), shown to the owner. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -2742,7 +2742,7 @@ frame.
 **Done when** the owner has accepted the nine pictures and the 旧暦 page
 shows each festival in its frame, in every theme.
 
-### <a id="t6-4"></a>T6.4. The days of the Nyingma and Kagyu schools — planned 2026-11-24 (SPEC §5.7, §10.3)
+### <a id="t6-4"></a>T6.4. The days of the Nyingma and Kagyu schools — days built 2026-11-24, frames to come (SPEC §5.7, §10.3)
 
 The owner, 2026-11-24, on the festival list: "why so much attention to
 Kalachakra and Tsongkapa? I asked Nyingma/Kagyu accent, and we ended up
@@ -2768,6 +2768,28 @@ in T6.
   painted in T6.2's hand. A master's passing day falls on the date as the
   Phugpa calendar counts it; a day the sources date differently is not
   kept until the owner decides.
+
+- **Built (2026-11-24, the days).** The owner chose from RD410 and RD411:
+  "add Longchenpa, Jigme Lingpa, Mipham, Dudjom and Guru's 5/10", the five
+  days every source read agrees on. `TibetanFestival` gained MIPHAM (4/29),
+  GURU_BIRTH (5/10), JIGME_LINGPA (9/3), DUDJOM (11/18) and LONGCHENPA
+  (12/18), each named with its Tibetan and with a reading in English and
+  Russian from school-days.md and its claims; their readings stand alone,
+  not under the note of the almanac's great occasions. SPEC §5.7 and both
+  listings name them. Checked on the emulator in Lhasa on all five dates of
+  2026–2027 (2026-06-14, 06-24, 10-13, 12-26, 2027-01-25, the last Mindrolling's
+  own date for Longchenpa), the headline and the sheet, in English and
+  Russian; Mipham's 29th and the Guru's 10th keep the practice day's line
+  under the festival's name. No source names a day kept for Rtsa gsum gling
+  pa, Machig Labdrön or Phadampa Sangye (RD411): none is added.
+- **Left: the frames.** Five paintings in T6.2's hand queued on 2026-11-24
+  (`zanshin-festival-{guru-birth,mipham,jigme-lingpa,dudjom,longchenpa}`,
+  into `art/festivals/`): the Guru's birth with a lotus bud opening from a
+  pool at the crown, after 'Jigs med gling pa's "birth in a lotus bud"; the
+  four masters, whose emblems no source read gives, a plain aureole each in
+  its own colours with the flaming jewel of the practice frames. They are
+  cut and shown once block 88 is merged; until then a festival without a
+  frame keeps the ring the page draws for a festival with no glyph.
 
 **Done when** the chosen days stand on the Tibetan page with their readings
 and frames, in both languages.

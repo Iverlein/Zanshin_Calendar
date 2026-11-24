@@ -3,7 +3,7 @@ Zanshin Calendar opens on today and shows it as a Tibetan almanac or the old Jap
 <b>Tibetan calendar, Phugpa (ཕུག་པ, phug pa)</b>
 <ul>
 <li>The date: lunar day, month and year, including the days the calendar skips or doubles and the leap months.</li>
-<li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others.</li>
+<li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others, with the Nyingma days: Guru Rinpoche's birth on the 10th of the monkey month and the passing of Longchenpa, Jigme Lingpa, Mipham and Dudjom Rinpoche.</li>
 <li>Practice days: the 8th, 10th, 15th, 25th, 29th and the new moon stand in an aureole on a lotus seat, painted as in a thangka, and the 9th and 24th are small days of the Dharma protectors (ཆོས་སྐྱོང, chos skyong). Tap the day's name to see who comes that day, how far merit is multiplied and what to practise.</li>
 <li>A day in brief: the day's factors are weighed in the order the texts rank them, with the hours above the day. You get the tone of the day, the one factor that settles it, and what the lists call good or say to avoid. On today's page the answer follows the present hour.</li>
 <li>Choose a day: pick a wedding, a journey, a haircut or any other work, then a span of one to twelve months. The best days come ranked, with the good hours of each month.</li>

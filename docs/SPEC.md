@@ -216,7 +216,14 @@ Entry into the womb (6/15), Lhabab Düchen (9/22), Thanksgiving to the
 Protectors (12/29). Henning's Revelation of the Kālacakra Tantra (3/15) and
 Rabten's Gaden Ngamchö (10/25), Tsongkhapa's parinirvāṇa, are not kept: the
 owner's decision of 2026-11-24, for the Nyingma and Kagyu accent the app
-keeps; the days of those schools are being read (ROADMAP T6.4). Henning
+keeps. In their place the Nyingma days every source of RD410 agrees on, the
+owner's choice of the same day (ROADMAP T6.4, [sources/school-days.md](sources/school-days.md)):
+Mipham Rinpoche (4/29, his life by Dilgo Khyentse), Guru Rinpoche's birth
+(5/10, the monkey month, which Shechen Gyaltsab gives as the fifth Hor
+month in the Phugpa tradition; Mindroling's rule-book), Jigme Lingpa (9/3),
+Dudjom Rinpoche (11/18, his life by Khenpo Tsewang Dongyal) and Longchenpa
+(12/18). Their readings are not under the note of the almanac's great
+occasions, which they are not. Henning
 also marks festivals inside leap months; this app does not. Rabten's Sangpo
 Chuzom, the Ten Good Omens on 11/6, is not kept: the White Beryl has no ten
 good omens, and names the 7th of that month, the first of spring by its
