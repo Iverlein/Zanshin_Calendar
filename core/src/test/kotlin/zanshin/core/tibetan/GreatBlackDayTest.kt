@@ -35,8 +35,8 @@ class GreatBlackDayTest {
         assertEquals(GreatBlackDay.NINE_BAD, GreatBlackDay.of(11, 7))
         assertNull(GreatBlackDay.of(11, 6))
         assertEquals("reading.GreatBlackDay.0", Texts.GREAT_BLACK_DAY.getValue(GreatBlackDay.NINE_BAD).arg)
-        // Rabten's Ten Good Omens on 11/6 is gone: no festival falls in the 11th month.
-        assertEquals(emptyList<TibetanFestival>(), TibetanFestival.entries.filter { it.month == 11 })
+        // Rabten's Ten Good Omens on 11/6 is gone: no festival falls on 11/6 or 11/7 (Dudjom Rinpoche's 11/18 is kept).
+        assertEquals(emptyList<TibetanFestival>(), TibetanFestival.entries.filter { it.month == 11 && it.day in 6..7 })
     }
 
     @Test

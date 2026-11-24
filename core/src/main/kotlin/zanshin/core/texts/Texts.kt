@@ -877,6 +877,38 @@ object Sources {
         "BDRC MW1PD133163",
         "https://library.bdrc.io/show/bdr:MW1PD133163",
     )
+    /** Dilgo Khyentse's short life of Mipham: his passing at sunset on the 29th of the fourth month. */
+    val MIPHAM_LIFE = Source(
+        "Dilgo Khyentse (དིལ་མགོ་མཁྱེན་བརྩེ, dil mgo mkhyen brtse), the short life of Mipham (མི་ཕམ་འཇམ་དབྱངས་རྣམ་རྒྱལ་རྒྱ་མཚོའི་རྣམ་ཐར་སྙིང་བསྡུས, mi pham 'jam dbyangs rnam rgyal rgya mtsho'i rnam thar snying bsdus), p. 117",
+        "BDRC MW8LS20744",
+        "https://library.bdrc.io/show/bdr:MW8LS20744",
+    )
+    /** Khenpo Tsewang Dongyal's life of Dudjom Rinpoche: his passing on the 18th of the eleventh month. */
+    val DUDJOM_LIFE = Source(
+        "Khenpo Tsewang Dongyal (མཁན་པོ་ཚེ་དབང་དོན་རྒྱལ, mkhan po tshe dbang don rgyal), the life of Dudjom Rinpoche (བདུད་འཇོམས་འཇིགས་བྲལ་ཡེ་ཤེས་རྡོ་རྗེའི་རྣམ་ཐར, bdud 'joms 'jigs bral ye shes rdo rje'i rnam thar), Sarnath 2003, p. 205",
+        "BDRC MW29259",
+        "https://library.bdrc.io/show/bdr:MW29259",
+    )
+    /** The rule-book of the Mindroling assembly: the Guru's tenth of the fifth month with dances and the Lama Sangdü rite. */
+    val MINDROLING_RULES = Source(
+        "The rule-book of the Mindroling (སྨིན་གྲོལ་གླིང, smin grol gling) assembly (བཅའ་ཁྲིམས, bca' khrims), in the collected works of Terdak Lingpa, Dehradun 1998, vol. ma, img. 177",
+        "BDRC MW22096",
+        "https://library.bdrc.io/show/bdr:MW22096",
+    )
+    /** Shechen Gyaltsab on the tenth day: the monkey month is the fifth Hor month in the Phugpa tradition. */
+    val SHECHEN_GYALTSAB_TENTH = Source(
+        "Shechen Gyaltsab (ཞེ་ཆེན་རྒྱལ་ཚབ, zhe chen rgyal tshab), the benefits of the tenth day (ཚེས་བཅུའི་ཕན་ཡོན, tshes bcu'i phan yon), collected works, Paro, vol. 13, p. 541",
+        "BDRC MW3916_14B019",
+        "https://library.bdrc.io/show/bdr:MW3916_14B019",
+    )
+    /** The Nyingma monasteries of Rebkong: Longchenpa's offering of the time on the 18th of the twelfth month. */
+    val REBGONG_NYINGMA = Source(
+        "The Nyingma monasteries of Rebkong (རེབ་གོང་རྫོང་ཁོངས་སུ་ཡོད་པའི་རྙིང་མའི་དགོན་སྡེའི་སྐོར, reb gong rdzong khongs su yod pa'i rnying ma'i dgon sde'i skor)",
+        "BDRC MW1GS91829_4310F3",
+        "https://library.bdrc.io/show/bdr:MW1GS91829_4310F3",
+    )
+    /** The students of Rigpa's calendar: the masters' anniversaries by Tibetan date. */
+    val RIGPA_CALENDAR = Source("Yearly events overview", "Tibetan Buddhist Calendar (students of Rigpa)", "https://tibetanbuddhistcalendar.org/yearly-events-overview/")
     /** Lochen Dharmaśrī: householders take the one-day vow on the full moon, the new moon and the eighth. */
     val LOCHEN_ONE_DAY_VOW = Source(
         "Minling Lochen Dharmaśrī (སྨིན་གླིང་ལོ་ཆེན, smin gling lo chen), commentary on the Ascertainment of the Three Vows (སྡོམ་གསུམ་རྣམ་ངེས, sdom gsum rnam nges), Sertar, img. 55 and 58",
@@ -2095,7 +2127,14 @@ object Texts {
         TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
         TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
-    ).underNote()
+    ).underNote() + keyed(
+        // The Nyingma days of RD410 (school-days.md): not the almanac's great occasions, so not under their note.
+        TibetanFestival.MIPHAM to Reading(source = Sources.MIPHAM_LIFE, also = listOf(Sources.RIGPA_CALENDAR)),
+        TibetanFestival.GURU_BIRTH to Reading(source = Sources.MINDROLING_RULES, also = listOf(Sources.SHECHEN_GYALTSAB_TENTH)),
+        TibetanFestival.JIGME_LINGPA to Reading(source = Sources.RIGPA_CALENDAR),
+        TibetanFestival.DUDJOM to Reading(source = Sources.DUDJOM_LIFE, also = listOf(Sources.RIGPA_CALENDAR)),
+        TibetanFestival.LONGCHENPA to Reading(source = Sources.REBGONG_NYINGMA, also = listOf(Sources.RIGPA_CALENDAR)),
+    )
 
     /** Kyūreki festivals, and those kept by the Gregorian date, by their kanji as in [zanshin.core.kyureki.Festival]. */
     val JAPANESE_FESTIVAL: Map<String, Reading> = mapOf(
