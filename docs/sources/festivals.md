@@ -404,3 +404,74 @@ Searched and not found
 - The Tokyo National Museum's catalogue was not opened: the Proton exit and the headed browser's proxy could not be used at once, and the British Museum's pages answered only without it. Not tried.
 - NAOJ 暦Wiki has no page on 旧正月, お盆, 七草 or 重陽 as such; of the nine, the wiki holds 節句 (the five festivals' names and dates only), 七夕, 中秋の名月 and 十三夜.
 - Wikipedia コマ絵 redirects to 挿絵 (books and magazines); 精霊馬 redirects to お盆.
+
+### Follow-up of 2026-11-24 (RD409, second reader; q1357, q1358, q1360)
+
+Read in a headed Chromium (the shared Playwright browser was in use by
+another session all day), NAOJ and the Tokyo National Museum's ColBase
+(colbase.nich.go.jp, a national institute) through a Japanese Proton exit,
+the Metropolitan Museum and the Art Institute of Chicago directly. Images
+of the prints were looked at in the browser; nothing was copied or kept.
+Japanese as published, the English beside it; Wikipedia's wording is
+CC BY-SA and is not reused, the museums' wording is theirs.
+
+**The passages.**
+
+- Japanese Wikipedia, ショウブ: «ハナショウブと混同されることがあるが、本種は全く別の植物である» (it is sometimes confused with the garden iris, but it is a quite different plant); its flower «目立たない黄緑色の棒のような円柱状の肉穂花序» (an inconspicuous yellow-green rod-like spike); «端午の節句にショウブ湯として用いられてきた» (used for the sweet-flag bath of the boys' festival); hung from the eaves against evil. The plant grows in clumps by water, its leaves sword-shaped.
+- Japanese Wikipedia, 七夕 (日本): «五色の短冊の五色は、五行説にあてはめた五色で、緑・紅・黄・白・黒をいう» (the five colours of the five-coloured strips are the five of the Five Phases: green, red, yellow, white, black). It quotes the *Morisada mankō* (守貞謾稿, late Edo, public domain): «毎戸必ラズ青竹ニ短冊色紙ヲ付テ、高ク屋上ニ建ルコト» (every house without fail sets green bamboo hung with strips and coloured paper high on the roof), and in its own words the strips and coloured paper cut «ホオズキやスイカ、帳面などの形» (in the shapes of ground cherries, watermelons, account books).
+- Tokyo National Museum, ColBase A-10569-5396, the catalogue's note on Kuniyoshi's *Sankai medetai zue*: «「～たい」という言葉を題にした女性の仕草に、諸国の名産を取り込んだ風景画を描いたコマ絵を組み合わせたシリーズ» (a series pairing a woman's gesture, titled "wanting to …", with a koma-e, a landscape inset showing a province's famous product); for this sheet «コマ絵は蔀関月（しとみかんげつ）挿画の『山海名産図会』を引用した摂津西宮の白魚漁» (the koma-e quotes Shitomi Kangetsu's illustration in the *Sankai meisan zue*: whitebait fishing at Nishinomiya in Settsu).
+- Tokyo National Museum, ColBase A-10569-2362 (Utagawa Toyokuni, *Fūryū hakkei, Aki no tsuki*, 18th century): «右上のコマ絵に描かれた秋の石山寺の風景» (the autumn view of Ishiyama-dera drawn in the koma-e at upper right).
+
+**The prints seen.**
+
+- Utagawa Hiroshige, *Meisho Edo hyakkei: Suidōbashi Surugadai* (名所江戸百景・水道橋駿河臺), Ansei 4 (1857), 5th month, ōban nishiki-e; Tokyo National Museum A-10569-7353 (a second copy, A-12499-382). One great black carp streamer fills the left half beside its pole, two smaller dark carp fly farther off over the town, Mt Fuji between; no red carp. So the British Museum's three carp and Wikipedia's single black kind agree: three carp, all black (q1360).
+- Utagawa Hiroshige, *Meisho Edo hyakkei: Shichū han'ei Tanabata matsuri* (市中繁栄七夕祭), 1857, 7th month; the Met JP62. Tall leafy bamboo over the roofs of Edo, hung with paper strips in red, yellow, white and blue, a paper gourd, a watermelon slice, long red-and-white streamers; Fuji far off. The Edo bamboo of the *Morisada mankō*, drawn.
+- Utagawa Hiroshige, *Meisho Edo hyakkei: Tsuki no misaki* (月の岬), 1857; the Met JP1185. The full moon over the bay seen from a room after a feast; no pampas grass or dumplings are drawn.
+- Shibata Zeshin, *Obon tōrō no hitsuke* (お盆燈籠の火付), c. 1860; the Met JP2743. A woman lighting a hanging Bon lantern on a bamboo frame, its paper panels red and blue.
+- Ichirakutei Eisui, *Bijin gosekku: Senzan of the Chōjiya* (美人五節句), c. 1795–1800; Art Institute of Chicago 1934.258 (the Tokyo National Museum lists a sheet of the series with the same courtesan, A-10569-357, not opened). The title cartouche is an open folding fan set with chrysanthemums: a cartouche whose own shape and border carry a festival's flower.
+
+**The reference nishiki-e.** Utagawa Kuniyoshi, *Sankai medetai zue: Tsuzuki ga mitai* (山海めて度図会・つづきが見たい, "Wanting to see the next part"), Kaei 5 (1852), ōban nishiki-e, Tokyo National Museum, A-10569-5396. Described from the museum's image, for the brief in words only:
+
+- *Composition.* A woman, half length, turned three-quarters to the left, fills the lower two thirds; she holds an open illustrated book up in one hand. The koma-e sits at the upper left, the title cartouche at the upper right; her long hairpins cross in front of the koma-e's lower edge, so that the figure stands before the inset.
+- *The koma-e.* A horizontal rectangle, its upper right corner cut off at a slant, drawn round with a thin black line. Inside, a river mouth: a man working a lift net hung from a pole frame, stakes in the water, a thatched shed and bare trees on the far bank. A narrow pale-yellow label with the place's name stands against its right edge.
+- *The title cartouche.* An upright red panel lettered in black, ringed by a wreath of pink and white many-petalled flowers with green leaves: a cartouche whose border is made of things.
+- *Colours.* Prussian blue for the water, deep at the bottom of the inset and paling towards the shore; a band of red at the horizon under a pale sky; a flat lilac-grey ground behind the woman; her robe grey with a fine white pattern, a black collar, red underrobe, a green-and-yellow striped cloth at the lower left; the hairpins orange-red.
+- *Techniques visible.* Black key-block outlines throughout; flat colour areas (the ground, the cartouche); bokashi gradations in the water and the sky of the koma-e and at the top of the ground; fine pattern blocks on the robe.
+
+The inset of every koma-e seen is rectangular (this one, Toyokuni's *Aki no tsuki*, Kuniyoshi's other *Sankai medetai zue* sheets A-10569-5385, -5390, -5395, notched or straight-cornered). A round window remains the frame's own idea: what the print gives the brief is the inset bordered by a line with the figure overlapping it, the cartouche wreathed by the festival's things, and the blue and red bokashi of its landscape.
+
+**The nine after both readings.**
+
+| Festival | T6.3's motif | Verdict | Source |
+| --- | --- | --- | --- |
+| 1/1 旧正月 | 松竹梅, 初日の出 | confirmed | Wikipedia 松竹梅, 門松, 初日の出 (above) |
+| 1/7 人日 | seven herbs in a basket, snow | herbs confirmed; basket and snow no source (q1359) | Wikipedia 人日, 七草 |
+| 3/3 上巳 | peach blossom, 流し雛 | confirmed | Wikipedia 上巳, 雛祭り, 流し雛 |
+| 5/5 端午 | irises in water, 鯉のぼり | replaced: sweet-flag leaves (ショウブ), sword-shaped, by water or bound under the eaves, not the iris flower; the carp black (真鯉) with a five-coloured streamer | Wikipedia ショウブ, こいのぼり; Hiroshige, Suidōbashi Surugadai (TNM A-10569-7353) |
+| 7/7 七夕 | bamboo, five-coloured strips, 天の川 | confirmed, the colours green, red, yellow, white, black; cut-paper shapes may hang with them; the moon a half moon | Wikipedia 七夕 (日本); NAOJ 七夕; Hiroshige, Tanabata (Met JP62) |
+| 8/15 十五夜 | full moon, 薄, 月見団子 | confirmed (round dumplings in Edo) | NAOJ 中秋の名月; Wikipedia 月見 |
+| 9/9 重陽 | 菊 | confirmed | Wikipedia 重陽; Eisui, Bijin gosekku (AIC 1934.258) |
+| 9/13 十三夜 | moon short of full, chestnuts, soybeans | confirmed | NAOJ 十三夜; Wikipedia 月見 |
+| お盆 | 迎え火, 盆提灯, 精霊馬 | confirmed | Wikipedia お盆; Zeshin (Met JP2743) |
+
+Claims:
+[claims/kyureki-festival-things-what-sources-support.md](claims/kyureki-festival-things-what-sources-support.md),
+[claims/tango-shobu-is-the-sweet-flag.md](claims/tango-shobu-is-the-sweet-flag.md),
+[claims/tanabata-strips-five-colours-and-edo-bamboo.md](claims/tanabata-strips-five-colours-and-edo-bamboo.md),
+[claims/surugadai-carp-three-all-black.md](claims/surugadai-carp-three-all-black.md),
+[claims/koma-e-inset-in-nishiki-e.md](claims/koma-e-inset-in-nishiki-e.md).
+
+Open
+
+- Question: Is there a published nishiki-e whose koma-e is round (a round window, 丸窓, or a circular inset), and where is it catalogued? Every koma-e seen in the Tokyo National Museum's and the Met's collections is rectangular.
+- Question: Is the cucumber horse and aubergine ox (精霊馬) of Bon drawn in any Edo-period print or named in an Edo text? The page read calls it widespread in Tokyo and East Japan and gives no date.
+
+Searched and not found
+
+- The Playwright MCP browser was held by another session for the whole reading; pages were read in a headed scratch Chromium (class playwright-work) instead.
+- MFA Boston (collections.mfa.org): a human-check page; the British Museum's search: a Cloudflare check, no results rendered. Not worked around.
+- The Met's search API v1 is retired (since 2026-10-01); v1.1 "Gosekku", "circular cartouche", "round cartouche", "round window", "inset picture", "koma-e", "Sankai", "Sohitsu", "Edo meisho", "Tanabata", "Bon": no print with a round inset among those looked at (Kunisada, *Ukiyo nenjū gyōji: Yayoi*, JP1093.12, a round red title roundel only; Hiroshige, *Edo kōmei kaitei zukushi*, JP1158, a fan-shaped poem cartouche; Hiroshige, *Sankai mitate zumō*, JP2468; Kunisada, *Fifty-Three Stations of the Tōkaidō: Inspired by Famous Pictures*, 2007.49.271, a rectangular inset; Kunisada, *Jūni tsuki no uchi*, 1999.457.1, a round title roundel). The Met's image server answers a script with a bot-check page.
+- The Art Institute of Chicago's IIIF images answer 403 to the browser; its search for "koma-e" finds no print. The Cleveland Museum's open-access search: no koma-e, one Tanabata print (1943.32), not opened.
+- ColBase: 丸窓 one hit (a porcelain bowl), 円窓 one hit (*Hyaku monogatari: Warai hannya*, a chūban, not opened), 七草 three hits (lacquer cups and a dish, no print), 精霊棚 timed out through the exit; コマ絵 four hits, all rectangular insets where seen. The Tokyo National Museum's *Fūryū gosekku: Jinjitsu* (A-10569-2628) shows New Year offerings on a stand; its note did not load, so no herb or basket is read from it.
+- NDL's *日本の暦* exhibition (ndl.go.jp/koyomi): three chapters on the calendar's words, no page on the festivals.
+- Japanese Wikipedia has no article 山海愛度図会, 江戸名所百人美女, 駒絵, 七夕飾り or 若菜摘み; 盆提灯 redirects to 提灯.
