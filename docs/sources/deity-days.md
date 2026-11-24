@@ -400,3 +400,8 @@ the middle days are now national holidays.
 - TS (1838): no 初甲子, no 終い不動 or 納め不動, no 地蔵盆; for the 12th month's
   28th no Fudō rite (frame 62, OCR only).
 - NAOJ 暦Wiki not opened in this reading (see *The texts*).
+
+
+## The Prajñāpāramita's day at a Shingon mountain temple (RD413)
+
+To be read (RD413).
