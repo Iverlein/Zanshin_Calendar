@@ -404,4 +404,285 @@ the middle days are now national holidays.
 
 ## The Prajñāpāramita's day at a Shingon mountain temple (RD413)
 
-To be read (RD413).
+Read 2026-11-24 (RD413). The question: which Shingon temple on a mountain
+keeps a great yearly reading of a Prajñāpāramita sūtra that draws people
+from beyond its own parish, by which date rule, and with what to be seen;
+and, for Daikoku, a second source for the eleventh month's 甲子 (q1386) and
+what a year without one keeps. RD412's *The 大般若 reading* and *甲子* are
+not repeated here.
+
+### The texts
+
+- **KZ**: 紀伊続風土記 (Kii zoku fudoki), 高野山之部 (the Kōyasan part),
+  the print of 1911 in five 輯, NDL Digital Collections pid 765520 (第4輯,
+  高野山部 上) and pid 765521 (第5輯, 高野山部 下); the 歳時記 (the yearly
+  rites) is 巻之四十七–四十八 in 第5輯. Public domain. Frame 44 of 765521
+  was fetched through IIIF (5013 × 3332 px a spread) and read on the scan,
+  in crops at the scan's own size and the small-type notes enlarged 3–4×;
+  the rest is *OCR only* (NDL Lab full text). The page is printed in two
+  tiers: the upper tier of a page is read through first, then the lower.
+- **HN**: 日次紀事 (Hinami kiji), 黒川道祐, Kyoto's yearly rites day by day,
+  NDL pid 1170263 (正月・2月), 1170275 (3–5月), 1170281 (6–8月), 1170282
+  (9–10月), 1170283 (11–12月), dated 1916 in the NDL record; the scans show
+  a woodblock print. Public domain. Frames 33 and 40 of 1170263 and 17 and
+  41 of 1170283 read on the scan (IIIF, about 5400 × 4160 px a spread); the
+  searches through the five volumes are *OCR only*.
+- **DJ**: 醍醐寺's own pages, read in the headed browser 2026-11-24:
+  «五大力尊仁王会｜年中行事» (daigoji.or.jp/event/detail1.html) and
+  «年中行事一覧» (daigoji.or.jp/event/list.html). **KY**: 金剛峯寺's own
+  «年中行事» (koyasan.or.jp/kongobuji/event.html), the same day. The
+  temples' text is under copyright: quoted no further than a fact's words.
+- **KB-N**, **KB-S** (and the dictionaries **KB-D**, 精選版 日本国語大辞典 and
+  デジタル大辞泉; **KB-B**, ブリタニカ国際大百科事典 小項目事典) on Kotobank, the
+  same day: 仁王会, 醍醐寺, 五大力, 五大力菩薩, 金剛峯寺, 室生寺, 根来寺, 神護寺,
+  子祭, 甲子祭, 甲子待ち. Same licence rule.
+
+### Answer in short
+
+| Rank | Temple and rite | Date rule then | Date now | Following | What is seen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 醍醐寺 (Daigo-ji, Kyoto; 上醍醐 on the mountain, 下醍醐 at its foot), 五大力尊仁王会, «五大力さん»: the 仁王経 (仁王般若波羅蜜経, the Benevolent Kings' Prajñāpāramita) read for the state and the people, the five Great-Power bodhisattvas (五大力菩薩) its object | not found in a source read (see *Open*); the temple dates the rite to 907 | 23 February (KB-N «2月23日»; DJ «毎年2月23日»), new calendar; the week 15–21 February before it, the 前行 | «全国から十数万人», the temple's greatest yearly rite (DJ); KB-S names «2月の〈五大力さん〉» first among the rites that make Daigo-ji a centre of faith | the 御影 (mie), a paper charm against theft and disaster pasted at the entrance of Kyoto's town-houses, old shops and homes; red and white giant mirror rice-cakes (大鏡餅) lifted in a contest, 150 kg for men and 90 kg for women; a 柴燈護摩 fire before the 不動堂; the 金堂 (DJ) |
+| 2 | 金剛峯寺, Kōyasan: the New Year's 金堂大仁王会 (11th of the first month) with the five Great-Power bodhisattvas as its 本尊, the 心經會 (8th), and the 山王院's 眞讀大般若 on the 8th–9th of the first, fifth and ninth months (KZ) | old calendar, fixed days (KZ, 1839) | none of them in KY's list of the yearly rites today | the mountain's own monks; KZ says of the 心經會 that nobody attends any more, only the summons is posted | a hundred monks in the 金堂; the 大般若 «眞讀» (read in full, not fanned) in ceremonial robes (KZ) |
+| 3 | 醍醐寺, 桜会開白大般若転読法要 (the opening of the cherry-blossom rite with the fanned reading of the Great Prajñāpāramita) | — | 15 March, 下醍醐 清瀧宮拝殿 (DJ list) | not said | — |
+| — | 室生寺: rain prayers by the 大般若経 and the 仁王経, "kept in the Middle Ages too" (KB-S), no fixed day; 神護寺: Kūkai's 仁王経大法 of 810 (KB-N), once; 根来寺: nothing on a Prajñāpāramita rite in its Kotobank entries | | | | |
+
+The sources make **醍醐寺's 五大力尊仁王会 on 23 February** the strongest
+single yearly day: it is the one Prajñāpāramita rite of a Shingon mountain
+temple that a general encyclopedia names among the temple's main yearly
+rites (KB-N, KB-S), and the temple calls it its greatest, with more than
+a hundred thousand visitors from the whole country. Two limits stand
+beside it: the 仁王経 is a Prajñāpāramita sūtra but not the 大般若経 (the
+fanned folding books are Daigo-ji's March rite, not this one); and the
+rite is now held in the 金堂 of 下醍醐, at the foot of the mountain, while
+its 前行 was formerly held in the 五大堂 of 上醍醐 on the summit (DJ).
+
+### 醍醐寺, 五大力尊仁王会 (23 February)
+
+DJ (detail1.html), facts in its words where they are short: held every
+year on 23 February, «「五大力さん」として親しまれている»; the five wisdom
+kings (五大明王: 不動, 降三世, 軍荼利, 大威徳, 金剛夜叉) and their
+manifestation the five Great-Power bodhisattvas are asked for the peace of
+the land and the people's happiness; its history goes back to the time of
+the emperor Daigo, 907. The charm 御影 against theft and disaster is pasted
+at the entrance of Kyoto's town-houses and old shops and of homes, and the
+queue for it does not break from early morning till evening; «全国から十数万人»
+come; «醍醐寺最大の年中行事». On the day the 仁王会 rite runs all day in the
+金堂 for the state and for «七難即滅» «七福即生», and the 御影 is given; inside
+the 金堂 visitors hold a sword tied by five-coloured cords to the five
+kings; before the 金堂 the rice-cake lifting (餅上げ) is offered to the
+five: red and white great mirror-cakes, 150 kg for men and 90 kg for
+women, lifted for as long as one can. The page's pictures are captioned
+with a 柴燈護摩 before the 不動堂 and the offered mirror-cakes in rows before
+the 金堂. The 前行 (15–21 February), twenty-one sittings by more than a
+thousand priests and 修験 teachers of the Daigo school from the whole
+country, was formerly held at the 五大堂 of 上醍醐 and is now held in the
+金堂 of 下醍醐 so that people can attend. Besides the 御影 for the house
+there is a 懐中守, a pocket charm for the person.
+
+DJ (list.html), the yearly rites: «23日 五大力尊仁王会－五大力さん－ 金堂»;
+«15日～21日 五大力尊仁王会前行 金堂»; and «3月15日 桜会開白大般若転読法要
+下醍醐 清瀧宮拝殿».
+
+KB-N 醍醐寺: «おもな年中行事に五大力尊仁王会(ごだいりきそんにんのうえ)（2月23日）、
+太閤(たいこう)花見（4月第2日曜）がある»; on the summit (上醍醐) stand among
+others the 五大堂 (rebuilt 1940, its date as given there «昭和一五年新造»
+in the 日本歴史地名大系 article quoted on the same page) of the five wisdom
+kings. KB-S 醍醐寺: besides its visitors, Daigo-ji is a centre of faith
+through the 准胝 Kannon of 上醍醐 (the 11th of the Saigoku pilgrimage) and
+its rites, «2月の〈五大力さん〉» named first, then the 清滝 festival and the
+Hideyoshi blossom-viewing procession in April and the Ōmine entry in June.
+
+What the 五大力 are, KB-S 五大力菩薩: the five bodhisattvas taught in the
+«《仁王般若波羅蜜経》», who go to protect a land whose king upholds the
+Three Jewels, venerated as the 本尊 of the 仁王会; KB-B: «その画像は奈良時代以来，
+仁王会の本尊として用いられた», wrathful figures. KB-D (日本国語大辞典,
+語誌): unusual among bodhisattvas, they are drawn wrathful with flames at
+their backs; from the Middle Ages their picture was pasted on gates and
+doors as a charm against disaster, and a paper with the words 五大力菩薩 was
+a charm against theft. KB-S 仁王会 and KB-N 仁王会: the 仁王会 (also 仁王般若会)
+is the rite of the 仁王経, one of the three sūtras for the protection of
+the state, held at court since 660 and as a yearly rite of the great
+temples (KB-N: «諸大寺でも年中行事の一つとして定着»).
+
+HN, the first month (pid 1170263, frame 33), read on the scan: the same
+kind of charm at another temple of Nara, Kōfuku-ji (Hossō, not Shingon), a
+parallel for the motif:
+
+> 南都興福寺〔講堂揭五大尊畫像是謂〕五大力菩薩其札梓板在寺中金藏院正月十四日修牛王加持而後貼札至十八日仕丁武則以下請其札而於講堂下賣之相傳貼是於門戸則免災難
+
+("At Kōfuku-ji in Nara [pictures of the five great ones hang in the
+lecture hall; they are called] the five Great-Power bodhisattvas. The
+block for their charm is kept in the sub-temple Konzō-in; on the 14th of
+the first month the ox-king (牛王) blessing is made, then the charms are
+stamped; until the 18th the servants and those below them take the charms
+and sell them below the lecture hall. It is handed down that pasted on a
+gate or door they ward off disaster.") «仕丁武則以下» is read so on the scan
+but its sense is not sure.
+
+### 金剛峯寺, the New Year's 仁王会 and 大般若 (KZ)
+
+KZ, 第5輯 (pid 765521), 巻之四十七 歳時記上, «年中法會諸法談勤行之部», the
+first month, frame 44, read on the scan. The left page, upper tier then
+lower tier:
+
+> 同日　金堂心經會　請定年預役
+> 導師山籠三﨟　唄士山籠二﨟　散華　有職已下百僧
+> 正應記云此唄散華役自修正時心經會臨時仁王會皆一人勤之自常樂會次﨟替又恒例臨時唄散華各一人悉一年中勤之云云
+> 山史云寛治五年正月八日心經會〔有職衆百人云云〕按是始行歟但今參勤無之唯請定標札沙汰殘矣
+> […]
+> 十一日〔曉七時〕金堂大仁王會〔文永正應兩記云慈尊院政所大仁王會云云〕　本尊五大力尊〔五幅[…]〕擧出於北室院請定等年預沙汰
+> 導師山籠三﨟〔袍裳納衣草鞋捨圓〕
+> 年預代吉事披露〔出于東椽爲之〕畢而導師登壇〔表白〕　請僧阿闍梨百口〔依諸〕
+> 〔百法師經說歟題精好御經各一卷通計五十部讀之〕有布施紙〔出于靑巖院〕　昔大豆一斛出之云云
+> 右今時所勤也正應記云請僧百人講師讀師唄散華梵音錫杖同勤之經百卷之內〔山上五十卷山下五十卷云云〕抑當會元執行于慈尊院政所或時於金堂勤之〔山上山下勤方有異委細出于正應記〕然自何頃止慈尊院會儀專於金堂行之快英案云北室小聖撿挍之時省衆僧山下往來勞移此法會於金堂預本尊乎北室院寄供養領云云
+> 今按此說不審也何者北室小聖天仁二年始補執行長承三年退職矣保延三年重補撿挍同五年遷化而亦如當會至正應年間專於慈尊院行之何謂小聖時移于金堂耶當會者山史云寛治五年正月十一日政所仁王會始之云云又云天長三年〔大師在世〕正月十一日始行大仁王會於慈尊院是因准東寺守護經會〔後來慈尊院大仁王會起本也云云〕按天長三年仁王會事高祖諸傳記中未考日本後紀〔第三十二卷國史第廿六〕云天長二年閏七月庚寅令宮中左右京五畿七道諸國講說仁王護國般若經承前之例呪願文預令命文章者作之少僧都傳燈大法師位空海被配東宮講師卒爾遲思講前卽成其詞曰云云蓋依有此勅宣故天長三年行於慈尊院歟
+
+(The same day, the 8th (the date of the entry before it, and the 山史's): the 金堂's Heart Sūtra rite (心經會), with a leader,
+a chanter, a flower-strewer and a hundred monks of rank; by the 山史 it
+began on the 8th of the first month of 寛治5, «but now no one attends; only
+the posting of the summons is left». The 11th, at the seventh hour before
+dawn: the great 仁王会 in the 金堂, called in the 文永 and 正應 records the
+great 仁王会 of the 政所 of 慈尊院; its 本尊 the five Great-Power
+bodhisattvas, [a note of small type not read in full], brought out from
+北室院; a leader of the third seniority; after the announcement the leader
+mounts the altar; a hundred ācārya monks invited; fifty sets of the sūtra
+read; paper given as alms, of old a 斛 of soybeans. "This is how it is held
+now." The 正應 record had a hundred monks, a hundred rolls, fifty on the
+mountain and fifty below it; the rite was held first at 慈尊院's 政所 below
+the mountain and later in the 金堂 alone. The 山史 dates it to the 11th of
+the first month of 寛治5, and once more to the 11th of the first month of
+天長3, «in the Great Master's lifetime», at 慈尊院, after the model of
+Tō-ji's rite; the compilers find no such rite in Kūkai's biographies, and
+cite the 日本後紀 that in 天長2, intercalary 7th month, the 仁王護國般若經 was
+expounded at court and in all provinces, Kūkai being named lecturer for
+the crown prince's palace, and suppose the 天長3 rite followed from that
+order.) The two notes in brackets marked […] and «百法師經說歟題» are read
+so on the scan with doubt; «遲» in «卒爾遲思» likewise.
+
+The right page, lower tier, the same frame:
+
+> 八日〔自未鐘至九日未鐘〕山王院眞讀大般若三長齋月勤之導師裝束襲精好餘人皆空衣袈裟〔白黒〕也
+> 右爲天下安全國家靜謐御祈禱自元祿年間始之云云
+
+(The 8th, from the hour of the sheep to the same hour of the 9th: at
+the 山王院 the Great Prajñāpāramita read in full (眞讀), in the three
+long-fast months (三長齋月: the first, fifth and ninth); the leader in
+fine layered robes, the others in plain robes and white and black
+袈裟; for the realm's safety and quiet, begun in the Genroku era.)
+
+*OCR only*, KZ 第5輯 frame 45: the 13th–14th, the 山王院's 眞讀大般若 again
+«三長齋月», for the lord of Kii (紀伊殿御祈禱). KZ 第4輯 (pid 765520) frame 43,
+in the chapter on the mountain's shrine (御社): a 大般若 read on the first
+of every month for the quiet of the mountain, and a 眞讀大般若 «正五九月» for
+the shōgun and the lords Toda and Kuroda; frame 140: the 谷上院 reads the
+大般若經 by turning (轉讀) on the 16th of the first month since about 文祿4;
+frames 168, 180, 184, 206: sub-temples' 大般若 on New Year days or «正五九月».
+
+KY (2026): the yearly rites of 金剛峯寺 listed today hold no 仁王会, no
+大般若 and no 心経会 (修正会 1–3 January, 節分会, 常楽会, 正御影供, 彼岸会,
+旧正御影供, 仏生会, 大曼荼羅供, 萬燈会, 結縁灌頂, 山王院竪精 and 御最勝講,
+宗祖降誕会, 盂蘭盆会, ろうそく祭り, 土砂加持, 明神社秋季大祭 and others); its
+note: «旧暦の行事は新暦の日時で執り行います», the rites of the old calendar
+held on the new calendar's day.
+
+### The other mountain temples (Kotobank)
+
+- 室生寺, KB-S: its prayers for and against rain were made not by esoteric
+  rites but by the exoteric 《大般若経》 and 《仁王経》, and so in the
+  Middle Ages too; among its treasures a 大般若経 of 581 folding books,
+  copied in the early Kamakura period. No yearly day.
+- 神護寺, KB-N: in 810 Kūkai, by a memorial to the throne, performed the
+  «仁王経(にんのうきょう)大法» there with the scriptures he had brought from
+  China. A single rite, not a yearly one.
+- 金剛峯寺 and 根来寺: their Kotobank entries (KB-S, KB-N and the others on
+  the page) name no Prajñāpāramita rite.
+
+### 甲子 and 子祭 (Daikoku, q1386)
+
+HN, the first-month volume (pid 1170263), frame 40, among the notes for the
+whole year, read on the scan:
+
+> ○凡一年中六甲子夜禁裏被祭子大乳人被獻小豆粥於御前并饗殿中男女凡每甲子民間買燈心俗称子燈心其内以十一月甲子爲最
+
+("In the six 甲子 nights of a year the court worships the 子 [the rat];
+the chief nurse offers red-bean gruel before the emperor and the men and
+women of the palace are feasted. On every 甲子 the townspeople buy
+lamp-wicks, commonly called 子燈心; of these [甲子 days] the eleventh
+month's is the foremost.") This is the second source q1386 asked for, older
+than the 世界大百科事典's 縁日 article: the eleventh month's 甲子 is
+foremost of the six. The passage does not name Daikoku; KB-N 甲子 (RD412)
+ties the 甲子 night and the 子燈心 to him.
+
+HN, the 11th-month volume (pid 1170283), frame 17, read on the scan (the
+first words «○此» by the OCR only):
+
+> ○此月子日備供物爲子祭○禁裏亦有此儀四辻家參內於御前被奏林歌此樂舞衣因有鼠紋也樂了後則以所供子之調味被饗四辻家[…]○銀座大黒屋尊崇子祭而特祝之家内宴遊間催狂言爲大黒天授槌之戲凡諸商此月子日子時祭之盖買賣之間取其利也欲比鼠子之蕃息也凡所供子之膳食每品加大豆又供兩股大根大豆鼠之所好食也兩股大根俗稱福來
+
+("This month, on the 子 day, offerings are set out: the 子祭. The court
+too: the Yotsutsuji house comes to play the piece 林歌 before the emperor,
+whose dancers' robes bear a rat pattern; then they are feasted with the
+food offered to the 子. ... The Daikoku-ya of the silver mint holds the
+子祭 in honour and celebrates it above all, with feasting and a comic
+play of Daikoku handing over his mallet. All merchants worship on this
+month's 子 day at the hour of the rat, to gain in trade and to multiply
+like the young of rats. Soybeans are added to every dish offered, and
+forked daikon and soybeans, the rats' favourite food, are offered; the
+forked daikon is commonly called 福來.") The 子 day is not said to be the
+first; the passage stands among the month's moveable days.
+
+HN, the same volume, frame 41, read on the scan, among the year's
+unveilings (開帳):
+
+> ○東寺御供所所有弘法大師所刻之大黑像每子年十一月子日開帳寺僧修法事諸人羣集
+
+("Tō-ji's Daikoku, carved by Kūkai and kept in its 御供所, is shown in
+every year of the rat on the eleventh month's 子 day; the monks hold a
+rite and crowds gather.")
+
+KB-D 子祭: デジタル大辞泉, «陰暦10月または11月の甲子(きのえね)の日に行う大黒天の祭り»,
+with sake and food, brown rice, black beans, forked daikon; 日本国語大辞典,
+«旧暦一〇月か一一月の初子(はつね)の日に行なう収穫祭», the same offerings, its
+earliest example «今夜子祭如例» from 実隆公記, 11th month of 大永4 (1524).
+KB-D 甲子待ち: on the night of a 甲子 one stays up until the hour of the
+rat and worships Daikoku with soybeans, black beans and forked daikon; KB-B
+甲子祭: Daikoku's night rite at Buddhist temples on a 甲子, «特に甲子の日が
+重視され», with fairs at the Daikoku temples.
+
+So for a year whose eleventh month has no 甲子 the sources read give the
+same month's 子 day (日本国語大辞典: the first 子 of the 10th or 11th old
+month) as Daikoku's 子祭, with the same offerings; a 子 day falls in every
+month. None of them says the 子 day stands in for a missing 甲子, and none
+says whether the eleventh month is now taken as the old month or as
+November.
+
+### Open
+
+- Question: Was 醍醐寺's 五大力尊仁王会 held on the 23rd of the second
+  month before 1873, so that 23 February is the old date moved to the new
+  calendar, or on another day? Its date in an Edo source was not found.
+- Question: Is 醍醐寺's 23 February rite to be counted a Prajñāpāramita day
+  by its sūtra (the 仁王般若波羅蜜経), though no 大般若 is read at it? Its own
+  page names the 五大明王 and the 五大力菩薩, not the 般若.
+- Question: KZ frame 44: what are the small-type notes after «本尊五大力尊»
+  (read «五幅[…]») and before «有布施紙» (read with doubt
+  «百法師經說歟題精好御經各一卷通計五十部讀之»)?
+- Question: HN frame 33: is «仕丁武則以下» the right reading, and what does
+  it mean in the selling of Kōfuku-ji's 五大力 charms?
+- Question: Is Daikoku's 子祭 of the eleventh month kept today on the old
+  month's 子 or 甲子 day or in November, and is the 子 day kept in a year
+  whose eleventh month has no 甲子?
+
+### Searched and not found
+
+- HN (NDL OCR of all five volumes): no 五大力 at 醍醐寺 and no 仁王会 there
+  in any month; the only 五大力 is Kōfuku-ji's (frame 33).
+- NDL Lab book search (2026-11-24): «醍醐 五大力», «醍醐五大力», «五大力尊仁王会»,
+  «五大力の御影», «五大力の札», «五大力菩薩の札», «醍醐の五大力»: no hit; «五大力尊»
+  (57 hits) and «五大力», «仁王会», «仁王會», «五大力菩薩», «五大尊», «仁王講»
+  (the first 100–300 hits each, read for 醍醐 in the highlights): no
+  passage on the 2/23 rite, only the court 仁王会 of the Heian period.
+- Kotobank: no entry 五大力尊仁王会 (404); its search page gave no result
+  list. 甲子待 is 404 (RD412), but 甲子待ち and 甲子祭 have entries (above).
+- 高尾山薬王院's site (takaosan.or.jp) did not open in the headed browser
+  (certificate error, 2026-11-24); not read.
+- KY: 金剛峯寺's list of yearly rites today names no Prajñāpāramita rite.
