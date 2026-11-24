@@ -2212,7 +2212,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | narrowed; cites — |
 | [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | open; cites — |
 | [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | answered; cites tmz:box6, wb.1:p207, wb.1:p208 |
-| [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | open; cites — |
+| [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | narrowed; cites — |
 | [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | answered; cites tmz:box6 |
 | [questions/q0714.md](questions/q0714.md) | question q714 | The key's lines on women, children and the fields (p. 210) | answered; cites wb.1:p210 |
 | [questions/q0715.md](questions/q0715.md) | question q715 | ལྟོ་ཡི་ཕྱོགས་སུ for ལྷོ་ཡི་ཕྱོགས་སུ (entry 27) | open; cites — |
@@ -2851,6 +2851,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1348.md](questions/q1348.md) | question q1348 | WB ch. 3 p. 34 and ch. 7 p. 49: figures against their word-numerals (429/439, 3111/211, 741/746, 178, 488) | open; cites — |
 | [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | open; cites — |
 | [questions/q1350.md](questions/q1350.md) | question q1350 | WB ch. 7 p. 49 'victor, fire-pair three' (4898?) and ch. 10 line 82 «དབང་ཉིད ༡༢༥»: figures not backed by their words | open; cites — |
+| [questions/q1351.md](questions/q1351.md) | question q1351 | The date of PT 55 IX: late eighth century or 979 | open; cites — |
 
 <!-- end pool index -->
 
