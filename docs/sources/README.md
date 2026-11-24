@@ -1358,6 +1358,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-la-knower-animals-cycle-of-four.md](claims/wb-la-knower-animals-cycle-of-four.md) | claim, note | The la-knower's animals in p. 133's second table run tiger, pig, monkey, snake | cites wb.1:p133c; feeds — |
 | [claims/wb-langging-sun-klung.md](claims/wb-langging-sun-klung.md) | claim, note | Langging the red enters with the sun's klung: the print reads «ཀླུང», not «གླང» | cites wb.2:p186b; feeds — |
 | [claims/wb-langging-table-dragon-on-the-dog.md](claims/wb-langging-table-dragon-on-the-dog.md) | claim, note | Langging's table pairs the dragon year with the dog, not the mouse | cites wb.2:p186d, wb.2:p186b; feeds — |
+| [claims/wb-lgang-phug-is-the-bladder.md](claims/wb-lgang-phug-is-the-bladder.md) | claim, definition | «ལྒང་ཕུག» is the bladder as a bag; WB spells it with ག | cites wb.2:p106, wb.1:p262, wb.1:p433-435; feeds block-31 |
 | [claims/wb-lhog-pa-is-an-illness.md](claims/wb-lhog-pa-is-an-illness.md) | claim, definition | «ལྷོག་པ» is an illness of WB's own, a swelling or sore of the nāga and plague kind | cites wb.2:p54-55, wb.1:p433-435, wb.1:p436, wb.2:p164-165, wb.2:p415-416, wb.2:p97-100, wb.2:p57-58; feeds block-31 |
 | [claims/wb-light-clearer-behind-the-grave.md](claims/wb-light-clearer-behind-the-grave.md) | claim, note | The light-clearer sits behind the grave in the first months, then on the lower neighbour and the upper slayer | cites wb.2:p219b; feeds — |
 | [claims/wb-light-clearer-on-top-of-the-grave.md](claims/wb-light-clearer-on-top-of-the-grave.md) | claim, note | The light-clearer stands on top of the grave («དུར་གྱི་སྟེང»), not behind it | cites wb.2:p219c, wb.2:p219b; feeds — |
@@ -1422,6 +1423,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-secret-obstacle-ma-spar-in-the-manuals.md](claims/wb-secret-obstacle-ma-spar-in-the-manuals.md) | claim, definition | The secret obstacle's «མ་སྤར»: the mother's trigram among the four relatives, in other manuals | cites wb.1:p390, wb.2:p491-492; feeds block-58 |
 | [claims/wb-ser-gsum-is-one-class-label.md](claims/wb-ser-gsum-is-one-class-label.md) | claim, note | p. 70: «དམར་གཉིས་སེར་གསུམ» is one of four classes of mewa, as Mipham's note counts them | cites wb.2:p70-72; feeds block-31 |
 | [claims/wb-seven-red-year-list-and-natal-list.md](claims/wb-seven-red-year-list-and-natal-list.md) | claim, rule | The seven-red: the year's list and the two-black-born's list | cites wb.1:p403-405; feeds block-58 |
+| [claims/wb-sgab-spelled-with-ga.md](claims/wb-sgab-spelled-with-ga.md) | claim, definition | «སྒབ» (sgab) of p. 104 is spelled with ག: 79 places, none with ར or ཀ | cites wb.2:p104-105, wb.2:p104; feeds block-31 |
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
 | [claims/wb-six-day-five-night-is-a-count-of-places-for-the-rig-ldan.md](claims/wb-six-day-five-night-is-a-count-of-places-for-the-rig-ldan.md) | claim, note | WB's six rounds of the day and five of the night are the Rig ldan's count of places (RD326) | cites svo:p271x; feeds block-73 |
@@ -1737,7 +1739,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 44 passages: 23 scan, 14 machine, 7 etext |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 48 passages: 24 scan, 15 machine, 9 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 48 passages: 28 scan, 19 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 51 scan, 10 machine, 7 etext |
