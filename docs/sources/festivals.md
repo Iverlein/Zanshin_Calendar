@@ -318,6 +318,57 @@ says so.
 - Not read: Robert Beer's *Encyclopedia of Tibetan Symbols and Motifs*
   (the archive.org loan is not this reading's).
 
+### Follow-up of 2026-11-24 (inv-h; q1353-q1356)
+
+Read in the browser and in BDRC's full-text search; published pages only.
+
+- **Six tusks (q1353).** Robert Beer Archive, *The Life of the Buddha*
+  (tibetanart.com/artworks/273): a 2011 gouache painting by Sunlal Ratna
+  Tamang of the Twelve Great Deeds of the Tibetan tradition. Mayadevi
+  sleeps on her right side; in her dream a white bull elephant with six
+  tusks circles her three times and enters her womb through her right
+  side; he is shown above on dragon-borne clouds, the wish-granting gem
+  on his silk saddle blanket. No lotus is named. The same page gives the
+  descent as a triple stairway of gold, silver and gemstones built by
+  Vishvakarman, with Brahma and Sakra beside the Buddha, three monks and
+  two gods; three months of teaching in Indra's heaven.
+- **Tsongkhapa's sword (q1356).** Smithsonian National Museum of Asian
+  Art, *Lotus Lama* (asia-archive.si.edu/exhibition/lotus-lama): an
+  appliqué thangka of 1834, "historical Tibet": two lotuses over his
+  shoulders, a flaming sword on the left flower, a book with a red cover on
+  the other. HAR (*Tsongkapa Iconography*, and item 90906 for Manjukirti)
+  names sword and book and no flame. The page does not name the school of
+  the maker.
+- **The deer (q1354).** BDRC, exact phrase «ཆོས་འཁོར་དང་རི་དྭགས» (chos
+  'khor dang ri dwags), 24 hits, all in the descriptions of a mandala
+  palace's gate-roofs in Tibetan ritual texts (Rin chen gter mdzod; Bka'
+  brgyud sngags mdzod; Rgyud sde kun btus; Mar rngog empowerments; Gter
+  bdag gling pa's Vajrakila and Hevajra writings): «…རྟ་བབས་བཞིའི་སྟེང་དུ་
+  པདྨ་ལ་གནས་པའི་གདུགས་དང་ཆོས་འཁོར་དང་རི་དྭགས་ཕོ་མོ་ལ་སོགས་པ་སྣ་ཚོགས་པའི་
+  རྒྱན་གྱིས་མཛེས་པ» (rta babs bzhi'i steng du pad+ma la gnas pa'i gdugs
+  dang chos 'khor dang ri dwags pho mo la sogs pa sna tshogs pa'i rgyan
+  gyis mdzes pa): on the four gate-roofs a parasol, the Dharma wheel and a
+  male and a female deer. So the word for the deer beside the wheel in a
+  roof ornament is ri dwags (རི་དྭགས); no text read describes the Jokhang's
+  roof in Tibetan (bo.wikipedia's Jokhang page names no roof ornament).
+- **Rings of the elements (q1355).** HAR item 90906 (Kalachakra mandala,
+  Tibet, 1500-1599): the palace floor in yellow, white, blue and red; outside
+  the black roof square "concentric rings of various colours" with the last
+  ring of multi-coloured flames of pristine awareness; no ring named for an
+  element. HAR set 4460 (Element Mandalas, Jeff Watt): water a white
+  circle, earth a yellow square, fire a red half-circle, air a blue
+  triangle (the general element mandala). A Cornell course page on the sand
+  mandala (secondary) gives the order, inside out: earth, water, fire,
+  wind, space, wisdom; no colours. Colours per ring: not read (Namgyal
+  Monastery's page did not resolve, Study Buddhism's did not load).
+
+Dead ends: BDRC phrases «ཆོས་འཁོར་ཤ་བ», «ཆོས་འཁོར་དང་ཤ་བ», «ཆོས་འཁོར་ཤ་ཕོ»,
+«ཆོས་འཁོར་དང་ཤ་པ», «ཇོ་ཁང་གི་སྟེང་ཆོས་འཁོར» gave 0 hits; «ཆོས་འཁོར་གཡག» one
+hit, the place Chos 'khor g.yag sde; «རལ་གྲི་འབར་བ» (459) and «རལ་གྲི་མེ་འབར»
+(310) are generic, no Tsongkhapa among the first hits; «རལ་གྲི་དང་དཔེ་ཆ»
+0. HAR search URLs (results.cfm) answer 404; the Rubin Kalachakra page
+is the outer universe, not the mandala's rings.
+
 
 ## The things of the nine 旧暦 festivals for their painted frames ([T6.3](#t6-3)): for each festival the motif T6.3 proposes, checked against a published description of what the festival is kept with (the NAOJ koyomi wiki's 節句 and 十三夜 pages, already sources; a Japanese encyclopaedia or a museum's catalogue of seasonal ukiyo-e for 七草, 流し雛, 鯉のぼり, 短冊, 月見団子, 栗名月, 精霊馬) and a published description of the koma-e cartouche and the round window in nishiki-e (RD409)
 
