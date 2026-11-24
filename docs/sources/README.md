@@ -69,7 +69,7 @@ reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | WB ch. 9: how Rāhu seizes the sun and moon | RD198, RD203 | RD198 (2026-11-07, machine): pp. 56–57 and 67–69 written out (Yigdzin-1 on the 1996 scan and the Gser thang reprint, compared); RD203 (2026-11-08, machine): pp. 58–66, the tables' figures tested against their number-words and the wrong ones corrected (sky-fire 30, 8280, and others) and looked at on the scan, the cells of the tables not each read by eye; RD203a (2026-11-08, scan): pp. 58, 59 and 66 read line by line on the reprint (img. 65, 66, 73), figures at 4×: a broken figure on p. 59 (line 19), p. 66's "season" 6 and "peak" 3 corrected; RD203d (2026-11-08, scan): pp. 60, 61 and 62 read line by line on the reprint (img. 67, 68, 69), every table figure against its number-words, seven figures corrected (p. 61: 166, 99, 126, 136, 76, 86; p. 62: 183); RD203e (2026-11-08, scan): pp. 63, 64 and 65 read line by line on the reprint (img. 70, 71, 72), p. 65's figures 23 (twice), 5 and 6 corrected, one shad restored on p. 63, doubts named (three ink-filled ༤ digits, ཁ/བ of «ཁྱེད་རྩིས»); pp. 58–66 are all scan, the passage wb.1:p64-65 still machine; ch9b (2026-11-17, ad hoc): p. 56 (img. 63) and p. 57 (img. 64) looked at by eye against the machine passage: the print's round brackets round five glosses (p. 56) and its reference figures (1)–(9) restored (the machine's ༢༡ is (2), its ༢ after མདོ is (3); (8) and (9) of p. 57 were missing; the first look's line 16 is line 17), wb.1:p64-65's figure 135 and p. 65 lines 3–9 checked at 1.1×, the ཁ/བ of «ཁྱེད་རྩིས» still a doubt, pp. 67–69 looked at for figures only; all three stayed machine then; y56 (2026-11-18, scan): pp. 56–57 (img. 63–64) read line by line on the reprint, every syllable and bracket agrees with wb.1:p56-57, which is now scan; named doubts: p. 57 line 2's ink-filled reference figure (read ༤ by the series) and an ink blot over «གཡས་སྐོར» in line 19; y56 also raised wb.1:p64-65 to scan (p. 64 lines 26–28, p. 65 lines 1–12; «ཕྱིར། །» moved to the head of p. 65; doubts: བྱེད/ཁྱེད in line 10 read བྱེད by the identical glyph of line 12, ཀྱང་/གིས of line 4, the ཕ of ཕྱིར) |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | WB ch. 14: the almanacs' making | RD198 | RD198 (2026-11-07, machine): p. 179 only; x19 (2026-11-18): p. 179 read line by line on the reprint (img. 178), no syllable differing, state scan |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | WB ch. 15: sign entries, breath terms, leap months | RD198 | RD198 (2026-11-07, machine): p. 183 only; x19 (2026-11-18): p. 183 read line by line on the reprint (img. 182), one stroke pair corrected, state scan |
-| [school-days.md](school-days.md) | School days: the sections below, one per reading | RD410 | Stub: nothing read yet |
+| [school-days.md](school-days.md) | School days: the days of the year the Nyingma and Kagyu schools keep beyond the düchen, day by day with their sources (RD410) | §5.7, T6.4 | RD410 read 2026-11-24: the Mindroling rule-book (MDB img. 172, 177, 179) and KTD's life of Dudjom Rinpoche (img. 215) on the scan by eye; Tshe rnam, the Fifth Dalai Lama and Rta rna dgon in the etext; seven search-only etexts in BDRC's snippets; five calendars and pages on the web in the headed browser; passages in corpus/ under 17 new sigla, 11 claims |
 | [lineage-days.md](lineage-days.md) | Lineage days: the sections below, one per reading | RD411 | Stub: nothing read yet |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
@@ -506,6 +506,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dream-woman-in-white-embraced.md](claims/dream-woman-in-white-embraced.md) | claim, list | A woman in white clothes with a white garland, embraced | cites svo:p270; feeds S2, RD216 |
 | [claims/dream-woman-in-yellow-embraced.md](claims/dream-woman-in-yellow-embraced.md) | claim, list | A woman in yellow clothes with a yellow garland, embraced | cites svo:p270; feeds S2, RD216 |
 | [claims/dtd-induced-dream-fourth-watch.md](claims/dtd-induced-dream-fourth-watch.md) | claim, rule | DTD: the rite of Avalokiteśvara, and the last of four watches | cites dtd:p155-158, dtd:p219-220; feeds block-73 |
+| [claims/dudjom-rinpoche-passed-on-the-18th-of-month-11.md](claims/dudjom-rinpoche-passed-on-the-18th-of-month-11.md) | claim, note | Dudjom Rinpoche passed on the 18th of the eleventh month of the fire-hare year (17 January 1987) | cites ktd:i215, tbc:p1, gtb:p2; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/dus-drug-avalokitesvara-looks-six-times.md](claims/dus-drug-avalokitesvara-looks-six-times.md) | claim, definition | «དུས་དྲུག» in the Showing of dreams is the six times of day and night at which the god looks, not a rule for the dream (RD395, q1091) | cites svo:i329-330, svo:p395c, svo:i660-661; feeds S1 |
 | [claims/dz-dead-board-rows.md](claims/dz-dead-board-rows.md) | claim, rule | The Moonbeams' board of the living out of the dead: four rows by kin, five columns by age and sex | cites dz:i061-063, wb.2:p52-54; feeds block-31 |
 | [claims/dz-five-totals-and-ch27-domains.md](claims/dz-five-totals-and-ch27-domains.md) | claim, note | The Moonbeams' five general totals and ch. 27's five domains: same pairing, third domain differs | cites dz:i050-051, wb.2:p22; feeds block-31 |
@@ -535,6 +536,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
+| [claims/gampopa-day-6-15-or-the-first-autumn-full-moon.md](claims/gampopa-day-6-15-or-the-first-autumn-full-moon.md) | claim, conflict | Gampopa's day: 6/15 in the calendars, the full moon of the first autumn month at Tsurphu | cites tbc:p1, har:p1, mtk:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/garuda-purana-no-dream-chapter.md](claims/garuda-purana-no-dream-chapter.md) | claim, note | The Garuḍapurāṇa has no chapter on dreams (RD265) | cites gpu:p131; feeds block-73 |
 | [claims/gdm-gdn-gdr-three-copies-the-thirds-and-the-donkey.md](claims/gdm-gdn-gdr-three-copies-the-thirds-and-the-donkey.md) | claim, note | Three Mongolian copies of the dream text read side by side: the thirds of the night, the dawn line and the donkey | cites gdm:i88-93, gdn:i252-254, gdr:i151-157, rst:p1-8, kbs:p68-70; feeds S1 |
 | [claims/gdm-is-the-text-rst-names-as-ma-gcigs.md](claims/gdm-is-the-text-rst-names-as-ma-gcigs.md) | claim, note | The Mother's Chöd collection is the text's own first verses: a manuscript holds the whole under that title without an author | cites gdm:i88-93, rst:p1-8, mdp:p138; feeds S1 |
@@ -569,6 +571,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/gt-water-or-beer-fiends-or-the-dead.md](claims/gt-water-or-beer-fiends-or-the-dead.md) | claim, conflict | Ch. 7's lines 13 and 15: water and fiends are Byang pa's alone among the etexts found | cites gt:i42-43, bjp:p177-181; feeds S2 |
 | [claims/gt-ya-mtshan-can-messenger-three-readings-and-sds.md](claims/gt-ya-mtshan-can-messenger-three-readings-and-sds.md) | claim, conflict | The good messenger «ya mtshan can» in the Four Tantras: Byang pa's outsider in a vow, Rin spungs pa's monk or Brahmin, Khro ru's man of qualities; the Siddhasāra's bad non-Buddhist ascetic | cites gt:i41, sds:p75-77; feeds S1 |
 | [claims/guhyasamaja-commentaries-dream-signs-all-favourable-examine-to-give-up-clinging.md](claims/guhyasamaja-commentaries-dream-signs-all-favourable-examine-to-give-up-clinging.md) | claim, note | Two Guhyasamāja commentaries list dreams as signs of accomplishment, all favourable, in the time of sleep with no hour, and say the dream is examined to give up clinging to the sign (RD386) | cites svo:i202-204, svo:i533; feeds S1 |
+| [claims/gurus-tenth-days-in-the-calendars-follow-jigme-lingpas-months.md](claims/gurus-tenth-days-in-the-calendars-follow-jigme-lingpas-months.md) | claim, table | The Guru's tenth days in Jeff Watt's list follow 'Jigs med gling pa's months; the houses keep the birth on 5/10 | cites har:p1, ksl:p2, mdb:p177, mlc:p1, tbc:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/gza-lag-is-mercury.md](claims/gza-lag-is-mercury.md) | claim, definition | «gza' lag» in the Mchog dga's dream list is Mercury: the book gives it as lord of Gemini and Virgo and writes it «gza' lhag» in the root (q1019) | cites kd.3:p84-85, kd.3:p129-130, dyc:p121-122, kd.3:p177-179; feeds block-73 |
 | [claims/gzhob-sel-gung-phur-bon-rites.md](claims/gzhob-sel-gung-phur-bon-rites.md) | claim, note | «གཞོབ་སེལ», «གུང་ཕུར», «ཤ་རུ», «ཤ་རི་བྷྱོ», «མ་ཏྲམ»: what the dictionaries and BDRC give | cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31 |
 | [claims/hand-reckoning-kung-a-lead.md](claims/hand-reckoning-kung-a-lead.md) | claim, note | The kung of the hand reckoning is told by no text; one lead: gung, noon | cites wb.2:p538-539, wb.2:p531; feeds — |
@@ -611,10 +614,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/indian-dream-spans-by-watch-nine-texts.md](claims/indian-dream-spans-by-watch-nine-texts.md) | claim, table | The time of a dream's fruit by the watch of the night in the Indian texts: the Svapnohana's series is the Brahmavaivartapurāṇa's (RD265) | cites apv:p445, kps:p232-236, kpd:p184-189, bya:p41-46, mtp:p453-455, agp:p280-281, bvp:p662-665, neg:p14-16, adb:p513-515, svo:p268; feeds block-73 |
 | [claims/indian-dream-time-atharva-kalaprakasika.md](claims/indian-dream-time-atharva-kalaprakasika.md) | claim, conflict | The time of a dream's fruit by the watches of the night: the Atharva-Veda appendix 68 (eight months), the Kālaprakāśikā (six months) and the Svapnohana (RD263) | cites apv:p445, kps:p232-236, kpd:p184-189, bvp:p662-665, svo:p268; feeds block-73 |
 | [claims/indian-omens-tied-to-lunar-day-nakshatra-season.md](claims/indian-omens-tied-to-lunar-day-nakshatra-season.md) | claim, note | Other Indian omens are tied to the lunar day, the nakṣatra and the season; dreams are not (RD265) | cites kho:p72-74, kho:p58-61, kho:p48, kho:p140-141, adb:p307-309, adb:p513-515, neg:p17-19, neg:p35, yyt:p28-29; feeds block-73 |
+| [claims/jigme-lingpa-passing-offering-on-the-3rd-of-month-9.md](claims/jigme-lingpa-passing-offering-on-the-3rd-of-month-9.md) | claim, note | 'Jigs med gling pa's passing offering is kept on the 3rd of the ninth month | cites tbn:p1, tbc:p1, har:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/kalacakra-vimalaprabha-eight-watches-four-midnight-to-noon-four-noon-to-midnight.md](claims/kalacakra-vimalaprabha-eight-watches-four-midnight-to-noon-four-noon-to-midnight.md) | claim, note | The Kalacakra Vimalaprabha divides its eight watches at midnight and noon, the shape of the Cakrasamvara commentary's clause; no text names the start of the water-hours (q1149) | cites svo:i538, svo:i525; feeds S2 |
 | [claims/kalaprakasika-xlii-67-fourth-span-is-a-month.md](claims/kalaprakasika-xlii-67-fourth-span-is-a-month.md) | claim, note | The Kālaprakāśikā's Sanskrit has a month for the fourth watch and twelve days at dawn: no half-month (RD291) | cites kpd:p184-189; feeds block-73 |
 | [claims/kanjur-svapnanirdesa-sutra-remedies-by-stage.md](claims/kanjur-svapnanirdesa-sutra-remedies-by-stage.md) | claim, remedy | The Kanjur's Showing of Dreams sūtra reads a bodhisattva's dreams by stage and gives remedies of days, months and years, never a part of the night (RD381) | cites svo:i417-420, svo:i243; feeds S1 |
+| [claims/kanying-2027-dates-a-month-ahead-of-the-apps-reckoning.md](claims/kanying-2027-dates-a-month-ahead-of-the-apps-reckoning.md) | claim, note | Ka-Nying Shedrub Ling's 2027 days fall a month ahead of the app's Phugpa reckoning from the third month on | cites ksl:p1, tbc:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
+| [claims/karmapas-days-in-the-calendars.md](claims/karmapas-days-in-the-calendars.md) | claim, list | The Karmapas' days: the first on the 3rd of the mouse month in the Tsurphu almanac, the third on 6/14 or 6/10, the sixteenth on 9/9 | cites mtl:p2, tbc:p1, har:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/kbs-bad-dream-signs.md](claims/kbs-bad-dream-signs.md) | claim, list | Klong rdol, bad omens, for a practitioner and for others | cites kbs:p72-78; feeds S1 |
 | [claims/kbs-death-omen-dreams.md](claims/kbs-death-omen-dreams.md) | claim, list | Klong rdol, dreams that foretell death | cites kbs:p72-78; feeds S1 |
 | [claims/kbs-five-kinds-and-the-waking-feeling.md](claims/kbs-five-kinds-and-the-waking-feeling.md) | claim, note | Klong rdol, five kinds of dawn dream and the waking feeling that decides | cites kbs:p68-70, kbs:p72-78; feeds S1 |
@@ -723,6 +729,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
 | [claims/life-wind-srog-rlung-and-the-clan-stopgap.md](claims/life-wind-srog-rlung-and-the-clan-stopgap.md) | claim, note | The birth's life-wind as one term, and the clan element as a stopgap (replies 134) | cites ys:i099, ys:i491-492, ys:i092, ys:i094b; feeds block-32 |
 | [claims/longchenpa-ngal-gso-ch9-days-of-feast-and-confession.md](claims/longchenpa-ngal-gso-ch9-days-of-feast-and-confession.md) | claim, note | Longchenpa's lines on the days stand in the root verses of Sems nyid ngal gso ch. 9 and his Shing rta chen po fixes the six days | cites nsg:p57-58, nsc:p271-272, dpk.1:p380-381; feeds — |
+| [claims/longchenpa-passing-offering-on-the-18th-of-month-12.md](claims/longchenpa-passing-offering-on-the-18th-of-month-12.md) | claim, note | Longchenpa's passing offering is kept on the 18th of the twelfth month | cites tbc:p1, har:p1, mlc:p1, rgn:p1, gmd:p1, nkc:p1, gtb:p1, ksr:p367-368, wb.1:p154-171; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/lord-lama-replies-on-star-and-chinese-reckonings.md](claims/lord-lama-replies-on-star-and-chinese-reckonings.md) | claim, note | The Lord Lama's replies on the star and Chinese reckonings, and the iron bird and monkey | cites ys:i494-496, ys.2:i016; feeds block-31 |
 | [claims/lt-clan-table-is-wb.md](claims/lt-clan-table-is-wb.md) | claim, conflict | LT's clan table of cut-offs is WB's birth table and conflicts with the notes' corner rule for fire and iron | cites lt:p26-28, wb.1:p260-261, wb.2:p499-500, lt:p12; feeds block-31 |
 | [claims/lt-planet-rise-by-date-and-element.md](claims/lt-planet-rise-by-date-and-element.md) | claim, rule | A planet rises on the day's animal; the Sun, Mercury and Venus are reached through their elements | cites lt:p10-11; feeds block-31 |
@@ -752,7 +759,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
 | [claims/mewa-labels-colour-count.md](claims/mewa-labels-colour-count.md) | claim, note | The number after a mewa's colour on p. 70 and in the notes is best read as a count of pebbles | cites wb.2:p70, wb.2:p501, dz:i055-057; feeds — |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
+| [claims/milarepa-and-marpa-days-differ.md](claims/milarepa-and-marpa-days-differ.md) | claim, conflict | Milarepa's and Marpa's days: 1/14 and 1/15 in the calendars, the other way round in one Kagyu house, a third month in two others | cites tbc:p1, har:p1, mtl:p1, rcw:p1, dl5:p305, rtd:p604, gtb:p3, kgo:p1, wb.1:p154-171; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/mindroling-monthly-rites-by-day-10th-and-25th.md](claims/mindroling-monthly-rites-by-day-10th-and-25th.md) | claim, note | Mindroling's monthly order: the Guru's tenth on the 10th and the waning tenth feast on the 25th, the protectors on the 8th, 15th, 29th | cites mdb:p163-166; feeds SPEC, §5.8 |
+| [claims/mindroling-rule-book-yearly-remembrances.md](claims/mindroling-rule-book-yearly-remembrances.md) | claim, list | The Mindroling rule-book's year: the root lamas' remembrance in Hor month 2, the Guru's tenth with dances in month 5, Bdud 'dul rab brtan's passing offering at the descent from the gods | cites mdb:p172, mdb:p177, mdb:p179, mlc:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md](claims/mipham-great-occasions-multiply-by-blessing-and-devotion-eclipse-the-special-time.md) | claim, note | Mipham: the great occasions multiply through blessing and devotion; the eclipse is the special time for mantra practice | cites mgz.21:p135, mgz.33:p51, wb.1:p62; feeds SPEC, §5.8 |
 | [claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md](claims/mipham-householders-offer-to-the-yoginis-on-the-8th-and-14th.md) | claim, rule | Mipham on the Kālacakra: householders with wealth offer to the yoginīs on the 8th and 14th; six complete dates for the maṇḍala's works | cites mgz.27:p19-20, mgz.27:p45; feeds SPEC, §5.8 |
 | [claims/mipham-keeps-the-tenth-feast-of-both-halves.md](claims/mipham-keeps-the-tenth-feast-of-both-halves.md) | claim, note | Mipham kept the feast of the tenth of both halves without break, the wrathful poison torma on the 29th | cites dkm:p76; feeds SPEC, §5.8 |
@@ -861,6 +870,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/notes-trigram-count-fourteen-fifteen.md](claims/notes-trigram-count-fourteen-fifteen.md) | claim, note | Mipham's counts of the trigram remedies and of his thirteen classes: what the arithmetic allows | cites wb.2:p517, wb.2:p104-105; feeds block-31 |
 | [claims/notes-trigram-remedies-fourteen-or-fifteen.md](claims/notes-trigram-remedies-fourteen-or-fifteen.md) | claim, note | WB counts the trigram's remedies fourteen, the notes fifteen, and no commentary counts them | cites wb.2:p517; feeds — |
 | [claims/notes-worked-example-six-and-count.md](claims/notes-worked-example-six-and-count.md) | claim, note | The notes' worked example: the six of the 360, and the count through the years lived | cites wb.2:p536-538; feeds block-60 |
+| [claims/nyingma-treasure-revealers-and-masters-days-in-the-calendars.md](claims/nyingma-treasure-revealers-and-masters-days-in-the-calendars.md) | claim, table | The Nyingma masters' and treasure revealers' days in the Rigpa students' calendar and Jeff Watt's list, with the houses that keep them | cites tbc:p1, har:p1, mlc:p1, ksl:p1, mdb:p172, mgs:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/o-yug-pa-in-the-death-dream-remark.md](claims/o-yug-pa-in-the-death-dream-remark.md) | claim, note | «འོ་ཡུག་པ» in the remark of the death-dream verse is a name, that of that of a Sakya teacher (or of a man of 'O yug), and the remark gives his saying (RD360) | cites cbl:p237s, cbl:p278-279, cbs:p248-249s, cbd:p1065-1066; feeds S1 |
 | [claims/o-yug-pa-is-bdrc-p3089-and-the-other-o-yug-teacher.md](claims/o-yug-pa-is-bdrc-p3089-and-the-other-o-yug-teacher.md) | claim, note | «འོ་ཡུག་པ» of the death-dream remark: BDRC's P3089 'U yug pa Bsod nams seng ge (died 1253) fits the Sakya company; no Sakya record gives the remark's saying | cites cbl:p237s; feeds S1 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
@@ -1224,6 +1234,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/tsl-treasure-sadhana-dream-signs-of-practice.md](claims/tsl-treasure-sadhana-dream-signs-of-practice.md) | claim, list | Dream signs of practice in the treasure sādhana's verses; the compiled volume's ranks and the tenth day, facts only | cites tsl.27:i152, tsl.27:i167-168; feeds RD363 |
 | [claims/tsl-vajra-restoring-rite-at-the-waxing-and-waning-times.md](claims/tsl-vajra-restoring-rite-at-the-waxing-and-waning-times.md) | claim, rule | Pad rgyal gling pa's treasure: the vajra restoring rite is to be done at the waxing and waning times and continually | cites tsl.28:i232; feeds SPEC, §5.8 |
 | [claims/tsong-kha-pa-cites-mar-me-mdzad-bzang-po-thabs-sbyor-and-the-ender.md](claims/tsong-kha-pa-cites-mar-me-mdzad-bzang-po-thabs-sbyor-and-the-ender.md) | claim, note | Tsong kha pa quotes Mar me mdzad bzang po's lines with «ཐབས་སྦྱོར» in the vows part and gives the Ender of Obstructors only in the dawn-dream part (q1059, RD401) | cites tgb:p360-361, snr:p367-371, mmb:p155-156; feeds — |
+| [claims/tsurphu-almanac-festival-days-after-tsurphu-and-mi-bskyod-rdo-rje.md](claims/tsurphu-almanac-festival-days-after-tsurphu-and-mi-bskyod-rdo-rje.md) | claim, definition | The Tsurphu almanac is Palpung's almanac of the Tsurphu reckoning; its festival days follow Tsurphu 'Jam dbyangs chen po and Mi bskyod rdo rje | cites tsr:p408-409, mtl:p1; feeds SPEC, §5.7, T6.4, block-90 |
 | [claims/ttn-sramana-section-closing-verse-spells-kun-dga-snying-po.md](claims/ttn-sramana-section-closing-verse-spells-kun-dga-snying-po.md) | claim, note | Tāranātha's Śramaṇā section closes on a verse whose marked syllables spell his name; it is his own wording, not the be'u bum's text (q1130, q1013) | cites ttn:p137-138, tdr:p337-342e, dds.41:p304-306; feeds S2 |
 | [claims/ur-mnan-spoke-seeds-on-taikhang.md](claims/ur-mnan-spoke-seeds-on-taikhang.md) | claim, note | The ur mnan wheel's spoke seeds on the Taikhang: hrī-like letters | cites wb.2:p112-114; feeds block-31 |
 | [claims/ut-chase-not-wb-up-three-count.md](claims/ut-chase-not-wb-up-three-count.md) | claim, note | UT's chase upward and downward is not WB's up-three count; the same sign-pair harms | cites ut:p224-226, wb.2:p172-173, wb.2:p22-23; feeds — |
@@ -1600,6 +1611,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dkm/dkm.md](corpus/dkm/dkm.md) | corpus | dkm | 1 passages: 1 etext |
+| [corpus/dl5/dl5.md](corpus/dl5/dl5.md) | corpus | DL5 | 1 passages: 1 etext |
 | [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 4 passages: 4 etext |
 | [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 6 passages: 3 scan, 3 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
@@ -1614,10 +1626,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/gdm/gdm.md](corpus/gdm/gdm.md) | corpus | GDM | 3 passages: 3 machine |
 | [corpus/gdn/gdn.md](corpus/gdn/gdn.md) | corpus | The copy of the dream text in W1NLM9044 | 3 passages: 3 machine |
 | [corpus/gdr/gdr.md](corpus/gdr/gdr.md) | corpus | The copy of the dream text in W1NLM9419 | 2 passages: 2 machine |
+| [corpus/gmd/gmd.md](corpus/gmd/gmd.md) | corpus | GMD | 1 passages: 1 etext |
 | [corpus/gnc/gnc.md](corpus/gnc/gnc.md) | corpus | GNC | 4 passages: 1 scan, 3 machine |
 | [corpus/gpu/gpu.md](corpus/gpu/gpu.md) | corpus | GPU | 1 passages: 1 machine |
 | [corpus/gsm/gsm.md](corpus/gsm/gsm.md) | corpus | GSM | 2 passages: 2 etext |
 | [corpus/gt/gt.md](corpus/gt/gt.md) | corpus | Rgyud bzhi, the Four Tantras, in the Drathang woodblock print with interlinear notes | 6 passages: 4 machine, 2 etext |
+| [corpus/gtb/gtb.md](corpus/gtb/gtb.md) | corpus | GTB | 3 passages: 3 etext |
+| [corpus/har/har.md](corpus/har/har.md) | corpus | HAR | 1 passages: 1 etext |
 | [corpus/jgl/jgl.md](corpus/jgl/jgl.md) | corpus | JGL | 1 passages: 1 scan |
 | [corpus/kbs/kbs.md](corpus/kbs/kbs.md) | corpus | KBS | 2 passages: 2 machine |
 | [corpus/kcd/kcd.md](corpus/kcd/kcd.md) | corpus | KCD | 9 passages: 5 machine, 4 etext |
@@ -1630,14 +1645,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 12 passages: 2 scan, 1 machine, 9 etext |
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
 | [corpus/kdl/kdl.md](corpus/kdl/kdl.md) | corpus | KDL | 1 passages: 1 machine |
+| [corpus/kgo/kgo.md](corpus/kgo/kgo.md) | corpus | KGO | 1 passages: 1 etext |
 | [corpus/kgy/kgy.md](corpus/kgy/kgy.md) | corpus | KGY | 1 passages: 1 etext |
 | [corpus/kho/kho.md](corpus/kho/kho.md) | corpus | KHO | 4 passages: 4 machine |
 | [corpus/kls/kls.md](corpus/kls/kls.md) | corpus | KLS | 1 passages: 1 etext |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 40 passages: 24 scan, 16 machine |
 | [corpus/kpd/kpd.md](corpus/kpd/kpd.md) | corpus | KPD | 1 passages: 1 scan |
 | [corpus/kps/kps.md](corpus/kps/kps.md) | corpus | KPS | 1 passages: 1 machine |
+| [corpus/ksl/ksl.md](corpus/ksl/ksl.md) | corpus | KSL | 2 passages: 2 etext |
 | [corpus/ksr/ksr.md](corpus/ksr/ksr.md) | corpus | KSR, the lives of Dkon mchog 'phan dar and Kong sprul Yon tan rgya mtsho | 1 passages: 1 etext |
-| [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 4 passages: 4 machine |
+| [corpus/ktd/ktd.md](corpus/ktd/ktd.md) | corpus | KTD | 5 passages: 1 scan, 4 machine |
 | [corpus/ktr/ktr.md](corpus/ktr/ktr.md) | corpus | Khro ru Mkhan po Tshe rnam, Rgyud bzhi'i 'grel chen, the great commentary on the Four Tantras (modern author) | 6 passages: 6 etext |
 | [corpus/kzl/kzl.md](corpus/kzl/kzl.md) | corpus | KZL | 3 passages: 1 scan, 1 machine, 1 etext |
 | [corpus/lbm/lbm.md](corpus/lbm/lbm.md) | corpus | lbm | 1 passages: 1 etext |
@@ -1657,21 +1674,26 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lth/lth.md](corpus/lth/lth.md) | corpus | Sde srid Sangs rgyas rgya mtsho, Man ngag lhan thabs, the Supplement to the Instruction Tantra (Beijing 2005) | 1 passages: 1 etext |
 | [corpus/mbl/mbl.md](corpus/mbl/mbl.md) | corpus | Sman pa Blo bzang dbang rgyal, Mchan brgyab lhan thabs (the Supplement to the Instruction Tantra with interlinear annotations) | 1 passages: 1 etext |
 | [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
-| [corpus/mdb/mdb.md](corpus/mdb/mdb.md) | corpus | MDB, the rule-book of the Mindroling assembly | 1 passages: 1 etext |
+| [corpus/mdb/mdb.md](corpus/mdb/mdb.md) | corpus | MDB, the rule-book of the Mindroling assembly | 4 passages: 2 scan, 2 etext |
 | [corpus/mdp/mdp.md](corpus/mdp/mdp.md) | corpus | MDP | 5 passages: 4 scan, 1 etext |
 | [corpus/mdz/mdz.md](corpus/mdz/mdz.md) | corpus | MDZ | 36 passages: 28 scan, 8 machine |
+| [corpus/mgs/mgs.md](corpus/mgs/mgs.md) | corpus | MGS | 1 passages: 1 etext |
 | [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 11 passages: 11 scan |
+| [corpus/mlc/mlc.md](corpus/mlc/mlc.md) | corpus | MLC | 1 passages: 1 etext |
 | [corpus/mmb/mmb.md](corpus/mmb/mmb.md) | corpus | MMB | 2 passages: 2 etext |
 | [corpus/mmk/mmk.md](corpus/mmk/mmk.md) | corpus | MMK | 47 passages: 3 scan, 8 machine, 36 etext |
 | [corpus/mnb/mnb.md](corpus/mnb/mnb.md) | corpus | Man ngag rgyud, the Instruction Tantra in the Bhutan print of Bum thang chos 'khor rab brtan | 2 passages: 1 scan, 1 etext |
 | [corpus/mph/mph.md](corpus/mph/mph.md) | corpus | MPH | 14 passages: 4 scan, 8 machine, 2 etext |
 | [corpus/mrs/mrs.md](corpus/mrs/mrs.md) | corpus | MRS, the short life of Mipham by Dilgo Khyentse | 2 passages: 2 etext |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 2 passages: 2 scan |
+| [corpus/mtk/mtk.md](corpus/mtk/mtk.md) | corpus | MTK | 1 passages: 1 etext |
+| [corpus/mtl/mtl.md](corpus/mtl/mtl.md) | corpus | MTL | 2 passages: 2 etext |
 | [corpus/mtp/mtp.md](corpus/mtp/mtp.md) | corpus | MTP | 1 passages: 1 scan |
 | [corpus/nbv/nbv.md](corpus/nbv/nbv.md) | corpus | NBV | 2 passages: 2 etext |
 | [corpus/neg/neg.md](corpus/neg/neg.md) | corpus | NEG | 6 passages: 3 scan, 3 machine |
 | [corpus/ngm/ngm.md](corpus/ngm/ngm.md) | corpus | NGM | 2 passages: 2 etext |
 | [corpus/nip/nip.md](corpus/nip/nip.md) | corpus | NIP | 2 passages: 2 etext |
+| [corpus/nkc/nkc.md](corpus/nkc/nkc.md) | corpus | NKC | 1 passages: 1 etext |
 | [corpus/nm/nm.md](corpus/nm/nm.md) | corpus | NM | 1 passages: 1 etext |
 | [corpus/nsc/nsc.md](corpus/nsc/nsc.md) | corpus | NSC | 1 passages: 1 etext |
 | [corpus/nsg/nsg.md](corpus/nsg/nsg.md) | corpus | NSG | 1 passages: 1 etext |
@@ -1686,15 +1708,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/pn687/pn687.md](corpus/pn687/pn687.md) | corpus | PN687 | 1 passages: 1 scan |
 | [corpus/pzs/pzs.md](corpus/pzs/pzs.md) | corpus | PZS | 2 passages: 2 scan |
 | [corpus/rbg/rbg.md](corpus/rbg/rbg.md) | corpus | RBG | 1 passages: 1 etext |
+| [corpus/rcw/rcw.md](corpus/rcw/rcw.md) | corpus | RCW | 1 passages: 1 etext |
 | [corpus/rcz/rcz.md](corpus/rcz/rcz.md) | corpus | RCZ | 2 passages: 1 scan, 1 etext |
 | [corpus/rczp/rczp.md](corpus/rczp/rczp.md) | corpus | RCZP | 1 passages: 1 scan |
 | [corpus/rgd/rgd.md](corpus/rgd/rgd.md) | corpus | RGD | 1 passages: 1 etext |
+| [corpus/rgn/rgn.md](corpus/rgn/rgn.md) | corpus | RGN | 1 passages: 1 etext |
 | [corpus/rmk/rmk.md](corpus/rmk/rmk.md) | corpus | RMK | 2 passages: 2 scan |
 | [corpus/rrd/rrd.md](corpus/rrd/rrd.md) | corpus | RRD | 39 passages: 39 etext |
 | [corpus/rrt/rrt.md](corpus/rrt/rrt.md) | corpus | RRT | 1 passages: 1 etext |
 | [corpus/rsk/rsk.md](corpus/rsk/rsk.md) | corpus | RSK | 1 passages: 1 etext |
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
+| [corpus/rtd/rtd.md](corpus/rtd/rtd.md) | corpus | RTD | 1 passages: 1 etext |
 | [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
 | [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
@@ -1717,6 +1742,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/svo/svo.md](corpus/svo/svo.md) | corpus | SVO | 93 passages: 16 scan, 13 machine, 64 etext |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/szb/szb.md](corpus/szb/szb.md) | corpus | Sha za brtsegs pa'i rgyud, the dream-sign chapter | 2 passages: 2 machine |
+| [corpus/tbc/tbc.md](corpus/tbc/tbc.md) | corpus | TBC | 1 passages: 1 etext |
+| [corpus/tbn/tbn.md](corpus/tbn/tbn.md) | corpus | TBN | 1 passages: 1 etext |
 | [corpus/tct/tct.md](corpus/tct/tct.md) | corpus | TCT | 1 passages: 1 scan |
 | [corpus/tdr/tdr.md](corpus/tdr/tdr.md) | corpus | TDR | 8 passages: 1 scan, 1 machine, 6 etext |
 | [corpus/tgb/tgb.md](corpus/tgb/tgb.md) | corpus | Tsong kha pa's Sngags rim chen mo, the vows part (RD401) | 1 passages: 1 etext |
@@ -1725,6 +1752,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/trt/trt.md](corpus/trt/trt.md) | corpus | TRT | 2 passages: 2 etext |
 | [corpus/tsd/tsd.md](corpus/tsd/tsd.md) | corpus | TSD | 2 passages: 2 etext |
 | [corpus/tsl/tsl.md](corpus/tsl/tsl.md) | corpus | TSL | 46 passages: 7 scan, 39 etext |
+| [corpus/tsr/tsr.md](corpus/tsr/tsr.md) | corpus | TSR | 1 passages: 1 etext |
 | [corpus/ttn/ttn.md](corpus/ttn/ttn.md) | corpus | TTN | 1 passages: 1 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
@@ -2260,7 +2288,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0726.md](questions/q0726.md) | question q726 | Columns 12–14 of the sixty-years table (pp. 105, 107, 109) | narrowed; cites — |
 | [questions/q0727.md](questions/q0727.md) | question q727 | Where the year's three sme ba (columns 9–11) are used | narrowed; cites wb.1:p105 |
 | [questions/q0728.md](questions/q0728.md) | question q728 | The strip table of pp. 122–125 and དུས་འདེབས after gshed po | answered; cites wb.2:p191 |
-| [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | open; cites — |
+| [questions/q0729.md](questions/q0729.md) | question q729 | The figure sheets of pp. 127 and 129–132 | narrowed; cites — |
 | [questions/q0730.md](questions/q0730.md) | question q730 | The numeral in box 1 of the model almanac's 11th month | answered; cites kd.1:p495a |
 | [questions/q0731.md](questions/q0731.md) | question q731 | Nagarjuna's birth year on p. 23: 2167 or the first digit | answered; cites wb.1:p23 |
 | [questions/q0732.md](questions/q0732.md) | question q732 | The print's figure slips (2587, 1048, 278) in other editions of the Pad dkar zhal lung | open; cites — |
@@ -2284,7 +2312,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | answered; cites wb.2:p129-130, wb.2:p106 |
 | [questions/q0751.md](questions/q0751.md) | question q751 | How does the end of the first line under the drawing on ch. 12 p. 95 («སྐྱིད་སྡུག་ནས་བརྩམས་ཞེས་བཤད་པོ») read: ཞེས་བཤད་པ and the next line's first syllable, and is སྡུག or དུག the right syllable? | answered; cites wb.1:p95 |
 | [questions/q0752.md](questions/q0752.md) | question q752 | What do columns 12 and 14 of the sixty-years table (WB vol. 1, pp. 105, 107, 109) count? Column 12's words (སེ་ཞིག, ཁ་རལ, ཁ་ཡག, འཆང་ཚོང, འདུག་ཁུར) and column 14's number-words with ལྡན (merged cells in years 2, 16, 25, 28) are not explained on these pages. | narrowed; cites wb.1:p105b |
-| [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
+| [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | narrowed; cites wb.1:p129 |
 | [questions/q0754.md](questions/q0754.md) | question q754 | The figure after «འབྱུང་ཆུས» on WB p. 30 (line «སྐར་མཚམས་ཆུ་ཚོད་འབྱུང་ཆུས(?)སྦྱངས»): the print's figure is damaged, the number words give 54, the machine read 55. | answered; cites wb.1:p30 |
 | [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | answered; cites wb.1:p30 |
 | [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | answered; cites wb.1:p34 |
@@ -2592,7 +2620,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1058.md](questions/q1058.md) | question q1058 | Does the «middle watch» (བར་མའི་ཐུན) of the earthquake omens and of the births mean the second watch, or the middle of the night; and is the fourth watch of the dream verse named anywhere in the tantra? | answered; cites mmk.1:p435-436 |
 | [questions/q1059.md](questions/q1059.md) | question q1059 | The Sngags rim chen mo says Mar me mdzad bzang po (Dīpaṃkarabhadra) says the Ender of Obstructors (བགེགས་མཐར་བྱེད) destroys the obstructors of a bad dream; his Guhyasamāja rite in 450 verses (Derge etext VE23703_1358, pp. 155-156) has «ལས་ཀུན་བྱེད་པ» and «ཐབས་སྦྱོར»; does Tsong kha pa read these as the Ender of Obstructors, or does he cite another work or another reading? | open; cites mmb:p155-156 |
 | [questions/q1060.md](questions/q1060.md) | question q1060 | Does the Sngags rim chen mo's copy of Dārikapa's verse really read «ལྟས་དག་མཐོང་ན་སྤངས་ནས་ནི» and «ནང་པར་ང་ལ་རབ་ཏུ་ཟློས», where both Tengyur prints read «ལངས་ནས་ནི» and (Derge) «ནང་པར་དེ་ལའང་»; which is the sense, «having given up (the work)» or «on rising»? | narrowed; cites trt:p418-419 |
-| [questions/q1061.md](questions/q1061.md) | question q1061 | On the scan of the Derge Kanjur's Common Tantra (I1KG9222, image 295), does the line read «ཤར་ཕྱོགས་སྔས་ལྟས» (the etext) or «སྔས་བལྟས» (the Sngags rim chen mo)? | open; cites sct:p295-297 |
+| [questions/q1061.md](questions/q1061.md) | question q1061 | On the scan of the Derge Kanjur's Common Tantra (I1KG9222, image 295), does the line read «ཤར་ཕྱོགས་སྔས་ལྟས» (the etext) or «སྔས་བལྟས» (the Sngags rim chen mo)? | narrowed; cites sct:p295-297 |
 | [questions/q1062.md](questions/q1062.md) | question q1062 | Is the Garland of the Sngags rim chen mo the Vajrāvalī of Abhayākaragupta, as the matching wording of the whirling-mantra rite and of «ཐེག་པ་ཆེན་པོ་ཉིད་རྒྱུད་ནས་མཆོག་ཏུ་ཆེར་འབྱུང་བ» suggests, and what does the Derge print of the Vajrāvalī read at the line the OCR gives as «ཨ་རི་ལ་ལྷུང་བ» (the Sngags rim chen mo: «རི་ལས་ལྷུང་བ», falling from a mountain)? | answered; cites vjv:p230-231, vjv:p230-231b |
 | [questions/q1063.md](questions/q1063.md) | question q1063 | In Klu'i byang chub's line «མི་དགེ་དགེ་ནི་རྨི་ལམ་བདག །མེད་པའི་གཏམ་གྱིས་རྣམ་པར་སྦྱང་», is the sense «the dream, whether non-virtuous or virtuous, purify it by the talk of selflessness», as the Sngags rim chen mo's «བདག་མེད་པའི་དོན་བསམས་ནས་སྦྱང་བར་བཤད» takes it? | answered; cites nbv:p273-274 |
 | [questions/q1064.md](questions/q1064.md) | question q1064 | Who wrote the companion method on the death signs (the midnight dream, «'pho ba spyi rtol ma'i lhan thabs») that ends the Lho brag pa transference text in the Gdams ngag mdzod, the Bka' brgyud sngags mdzod and Marpa's collected works, and the history of the four sheets before it, which says «I» (བདག) of a holder who received them alone: is the «I» a named disciple of the lineage, and does any Kagyu catalogue give the author of the history and of the companion methods? | narrowed; cites dds.9:p173-174 |
@@ -2604,7 +2632,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1070.md](questions/q1070.md) | question q1070 | Which work in the second volume of Kun dga' rin chen's collected works (BDRC MW1KG4326, etext volume VE1KG4326_009, hit at character 14273) holds his wording of the reason for the last watch, and is it earlier than Nam mkha' dpal bzang's manual of 1581 (a reader with the volume's scan)? | narrowed; cites rsk:p459-461 |
 | [questions/q1071.md](questions/q1071.md) | question q1071 | Is the wording «the first three of the night made four parts are not certain, so the examination is in the fourth» of the Drukpa manuals (Yon tan 'od dam bstan 'dzin don kun grub; Mkhas dbang Sangs rgyas rdo rje, who names Padma dkar po and Lha rtse ba Ngag dbang bzang po as his teachers) taken from Tsong kha pa's Sngags rim chen mo or from a Drukpa manual older than both, for instance one of Padma dkar po's? | answered; cites dkb:p163-164, snr:p367-371 |
 | [questions/q1072.md](questions/q1072.md) | question q1072 | When the Sakya manual says that in the second and third watches «no dream comes», does it mean that no dream is dreamed, or that none is to be counted, given that the root tantra describes dreams of bile and wind for them? | answered; cites rsk:p459-461 |
-| [questions/q1073.md](questions/q1073.md) | question q1073 | Where the Derge print itself has «མེ་དང་ཁྲག» or «མེད་དང་ཁྲག» and «རྨི་བ་ཡིན» or «རྨི་ལམ་ཡིན» (dyc:p121-122, dyc:i121-122), would a scan of the Derge block print at more than the 2008 px BDRC serves, or another Derge scan, say? The Narthang and Peking prints read «མེ» and «རྨི་བ». | open; cites dyc:i121-122 |
+| [questions/q1073.md](questions/q1073.md) | question q1073 | Where the Derge print itself has «མེ་དང་ཁྲག» or «མེད་དང་ཁྲག» and «རྨི་བ་ཡིན» or «རྨི་ལམ་ཡིན» (dyc:p121-122, dyc:i121-122), would a scan of the Derge block print at more than the 2008 px BDRC serves, or another Derge scan, say? The Narthang and Peking prints read «མེ» and «རྨི་བ». | narrowed; cites dyc:i121-122 |
 | [questions/q1074.md](questions/q1074.md) | question q1074 | Who are the «རྒྱ་བལ་ཁ་ཅིག» (some of the Chinese and Nepalese) of the Mchog dga', whose lines give Saturn «bad company and climbing hills» in the dream (kd.3:p177-179)? No print of the root has the lines; BDRC's exact-phrase search finds them in the Kun 'dus chen mo only. | narrowed; cites dyc:i121-122 |
 | [questions/q1075.md](questions/q1075.md) | question q1075 | Does the Mchog dga' take its lines on Saturn in the tenth and eleventh place (kd.3:p187) and on Saturn with Ketu (kd.3:p315) from a book of its own reckoning? They are in no text of the root. | open; cites dyc:i121-122 |
 | [questions/q1076.md](questions/q1076.md) | question q1076 | Do the interlinear glosses of the Narthang, Peking and Gser bris ma prints, which open at the dream verses with a note on whether the instant (tattāla) or the nine-part is looked at (dycn:i127-128), come from the same hand as the Mchog dga's discussion of the field lord (kd.3:p177-179)? | open; cites dyc:i121-122 |
@@ -3126,6 +3154,23 @@ The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](c
 | **YSN** | The Yoginīsañcāra (Rnal 'byor ma'i kun tu spyod pa, Toh 375) in the Derge Kanjur, etext VE4CZ5369_I1KG9205 at pp. 79-80 (ch. 10): the torma and offering on the tenth. Read in rd-h, 2026-11-21. |
 | **NSG** | Longchenpa's Sems nyid ngal gso, the root verses of ch. 9, Dpal brtsegs print (Beijing 2009), etext VE1KG4884_020 at pp. 57-58: the days of approach, feast and confession. Read in rd-h, 2026-11-21. |
 | **NSC** | Longchenpa's own commentary on Sems nyid ngal gso (Shing rta chen po), the lower part, etext VEIE0OPIFFF3FCF6_I1KG4906 at pp. 271-272: the six special times. Read in rd-h, 2026-11-21. |
+| **TBC** | *Tibetan Buddhist Calendar*, by students of Rigpa after Rigpa's printed calendar: the page *Yearly events overview*, anniversaries by Tibetan month and day | web, read 2026-11-24 | tibetanbuddhistcalendar.org/yearly-events-overview; facts only |
+| **HAR** | Jeff Watt, *Anniversaries of the Tibetan Lunar Calendar* (Himalayan Art Resources, 1996, updated 2019) | web, read 2026-11-24 | himalayanart.org set 1743; facts only |
+| **KGO** | *The Anniversaries of Marpa, Milarepa and Gampopa: Kagyu Gunchoe Conference* (2023), the Karmapa's office | web, read 2026-11-24 | kagyuoffice.org; facts only |
+| **KSL** | Mönlam Prayers, the annual activities of Ka-Nying Shedrub Ling and Nagi Nunnery | web, read 2026-11-24 | monlam.org; facts only |
+| **MLC** | Mindrolling Monastery, calendar of the fire horse year (Western dates) | web, read 2026-11-16 | mindrollinginternational.org; facts only |
+| **MTL** | *Rab byung bcu bdun pa'i shing lug lo'i lo tho* (the almanac of 2015, Tsurphu reckoning), Thub bstan phun tshogs and Rta mgrin tshe dbang | Bod ljongs mi dmangs dpe skrun khang | BDRC MW2PD17637, etext search only; read in search snippets |
+| **TSR** | Khro ru Tshe rnam, an article on the history of medicine and astronomy: the Palpung almanac of the Tsurphu reckoning (pp. 408–409) | his *Gsung thor bu* | BDRC MW29701_1D7276, etext VEIE0OPI4CEE4109_I5625 |
+| **DL5** | The Fifth Dalai Lama's autobiography, vol. 3: a foundation for Marpa and its monthly rites (etext p. 305). A witness | Gsung 'bum print | BDRC MW1PD107937_756F59, etext VEIE0OPIEFA32E69_I1PD107945 |
+| **GTB** | *Gtor bshig dang gsar bskrun gyi bang rtsal*, the histories of the monasteries rebuilt in exile | Department of Religion and Culture, Dharamsala 2000 | BDRC MW8LS32709, etext search only; read in search snippets |
+| **RCW** | Rin chen dbang rgyal, *Mi tshe'i bde sdug myong tshor las byung ba'i gtam rgyud* (memoir) | LTWA, Dharamsala 2007 | BDRC MW1KG1356, etext search only; read in search snippets |
+| **TBN** | The life of Rwa skor Mkhan chen Thub bstan nor bu | Mi rigs dpe skrun khang 2011 | BDRC MW1PD137813, etext search only; one search snippet |
+| **RGN** | *Reb gong rdzong khongs su yod pa'i rnying ma'i dgon sde'i skor* | — | BDRC MW1GS91829_4310F3, etext search only; one search snippet |
+| **GMD** | *Ge smad yul gyi lo rgyus dang dmangs srol 'tshol sdud* (a gazetteer) | Yun nan rig gnas sgyu rtsal par skrun khang 2019 | BDRC MW3CN21700, etext search only; one search snippet |
+| **NKC** | Smyo shul mkhan po, *Snga 'gyur rdzogs chen chos 'byung chen mo*, skabs 15 | — | BDRC MW27401_91C4C3, etext search only; one search snippet |
+| **MTK** | Rin chen dpal bzang, *Mtshur phu dgon gyi dkar chag kun gsal me long* | Mi rigs dpe skrun khang 1995 | BDRC MW20850, etext search only; one search snippet |
+| **RTD** | *Rta rna dgon*, in the histories of the monasteries of Nang chen (*Deb ther gser gyi lde mig*): its former yearly rites (etext p. 604) | — | BDRC MW00EGS1016686_E9F06B, etext VEIE0OPI972048BA_I01JW127 |
+| **MGS** | The life of Rje btsun Mi 'gyur dpal sgron, *Dad pa'i gdung sel* | — | BDRC etexts VEIE0OPI31A2DE9A_I1PD27265, VEIE0OPI7D01B4FE_I3CN21430, search only; one search snippet |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

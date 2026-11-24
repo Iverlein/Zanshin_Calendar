@@ -2115,3 +2115,185 @@ nsc:
   role: source
   locator: page
   notes: "RD rd-h (2026-11-21): the commentary on ch. 9's verse at [p271]-[p272]; the OCR garbles single syllables (ཡར་ངོ་ read ཡང་ངོ་); RD rd-m (2026-11-21): scan not reachable: BDRC's iiif serves only 41 images of I1KG4906 (none of img. 271-274 in the sense of this volume's leaves) and answers 500 for I1KG4884's manifest; the archive.org item bdrc-W1KG4884 (the whole 26-volume Gsung 'bum) answers HTTP 400 to a browse loan (not lendable), so the passage stays etext"
+
+# --- RD410 (2026-11-24): the days of the year the Nyingma and Kagyu schools keep. Web calendars
+# read in the headed browser, BDRC etexts, and search-only etexts whose BDRC search snippet is all
+# that is read (the passage ids of such a work number the snippets, p1, p2, ...). Facts only.
+
+tbc:
+  title: "Tibetan Buddhist Calendar (tibetanbuddhistcalendar.org), a calendar published by students of Rigpa after Rigpa's printed calendar: the page Yearly events overview"
+  author: "students of Rigpa (the site names no author)"
+  edition: "web, https://tibetanbuddhistcalendar.org/yearly-events-overview, read in the headed browser 2026-11-24 (and 2026-11-16 for festivals.md); p1 = that page"
+  licence: "copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "lists the special days and, by Tibetan month and day, 'anniversaries and birthdays' of masters of all four schools, without saying which are passing days; English names only, the month and day also in Tibetan numerals"
+
+har:
+  title: "Jeff Watt, Anniversaries of the Tibetan Lunar Calendar (Himalayan Art Resources, set 1743)"
+  author: "Jeff Watt (the page signs 'Jeff Watt 7-1996 [updated 9-2019]')"
+  edition: "web, https://www.himalayanart.org/search/set.cfm?setID=1743, read in the headed browser 2026-11-24; p1 = that page"
+  licence: "copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "a list by Tibetan month and day of anniversaries of masters of all schools and of the Guru's tenth days under his names; no source named"
+
+kgo:
+  title: "The Anniversaries of Marpa, Milarepa and Gampopa: Kagyu Gunchoe Conference, 24-26 January 2023 (the Karmapa's office)"
+  author: "the official website of the 17th Karmapa (kagyuoffice.org)"
+  edition: "web, https://kagyuoffice.org/the-anniversaries-of-marpa-milarepa-and-gampopa-kagyu-gunchoe-conference/, read in the headed browser 2026-11-24; p1 = that page"
+  licence: "copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+
+ksl:
+  title: "Mönlam Prayers (monlam.org), Annual Activities of Ka-Nying Shedrub Ling Monastery and Nagi Nunnery, and its page Anniversary of the Birth of Guru Padmasaṃbhava"
+  author: "Shedrub Development Fund (the site's footer)"
+  edition: "web, https://monlam.org/annual-activities/ (p1) and https://monlam.org/activity/anniversary-of-the-birth-of-guru-padmasambhava/ (p2), read in the headed browser 2026-11-24; Western dates for 2026-2027, the second page also by Tibetan month and day"
+  licence: "copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+
+mlc:
+  title: "Mindrolling Monastery Calendar for the fire horse year (mindrollinginternational.org)"
+  author: "Mindrolling International"
+  edition: "web, https://mindrollinginternational.org/mindrolling-monastery-calendar/, read in the headed browser 2026-11-16 (festivals.md, second wave); p1 = that page; Western dates only, converted to the Phugpa date with the app's engine (cli) on 2026-11-24"
+  licence: "copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+
+mtl:
+  title: "Rab byung bcu bdun pa'i shing lug lo'i lo tho, spyi lo 2015 (the almanac of the wood sheep year, 2015), of the Tsurphu reckoning"
+  author: "Dge rgan chen mo Thub bstan phun tshogs and Rta mgrin tshe dbang (BDRC's record)"
+  edition: "Bod ljongs mi dmangs dpe skrun khang, Lha sa (BDRC gives 2011), 118 pp.; BDRC MW2PD17637, etext VEIE0OPI246D4AB7_I2PD19276 search only (the etext API answers with nothing); scans on archive.org, not read"
+  bdrc: {work: MW2PD17637, etext: VEIE0OPI246D4AB7_I2PD19276}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): read only in BDRC's search snippets: p1 the first month's 14th and 15th (char. 20487 and 25557), p2 the earth-mouse month's 3rd (char. 88570); that the almanacs of the Tsurphu reckoning (mtshur lugs lo tho) follow Thub bstan phun tshogs's model is said in MW4CZ354964 (search snippet)"
+
+tsr:
+  title: "Khro ru Tshe rnam, an article on the history of Tibetan medicine and astronomy in his Gsung thor bu (the Tsurphu almanac of Palpung, pp. 408-409)"
+  author: "Khro ru Tshe rnam (BDRC's collection: gsung 'bum/ tshe rnam)"
+  edition: "BDRC MW29701_1D7276 in the collection MW29701; volume etext VEIE0OPI4CEE4109_I5625 ([pN] = etext page; good OCR), open access; the same article in MW1KG21754 (Lha sa 1986) and Thub bstan phun tshogs's history MW21968"
+  bdrc: {work: MW29701_1D7276, etext: VEIE0OPI4CEE4109_I5625}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): etext pp. 408-409 read, no scan opened"
+
+dl5:
+  title: "The Fifth Dalai Lama Ngag dbang blo bzang rgya mtsho, autobiography ('Di snang 'khrul pa'i rol rtsed rtogs brjod kyi tshul du bkod pa du kU la'i gos bzang), vol. 3"
+  author: "Ngag dbang blo bzang rgya mtsho (1617-1682)"
+  edition: "the Gsung 'bum print of BDRC MW1PD107937_756F59; volume etext VEIE0OPIEFA32E69_I1PD107945 ([pN] = etext page, excellent quality); the same passage in MW175 (Lha sa 1989/1991) and MW1ALD41251"
+  bdrc: {work: MW1PD107937_756F59, etext: VEIE0OPIEFA32E69_I1PD107945}
+  licence: public-domain
+  rank: 3
+  role: witness
+  locator: page
+  notes: "RD410 (2026-11-24): etext p. 305 read (the foundation for Marpa at Gro bo lung and Lho brag), no scan opened; a Geluk author: a witness to a Kagyu foundation's practice"
+
+gtb:
+  title: "Gtor bshig dang gsar bskrun gyi bang rtsal (the histories of the monasteries rebuilt in India, Nepal and Bhutan)"
+  author: "Bod gzhung chos rig las khungs (the Tibetan government's Department of Religion and Culture)"
+  edition: "Dharamsala 2000, 579 + 94 pp.; BDRC MW8LS32709, etext VEIE0OPI65B444BD_I8LS43833, search only"
+  bdrc: {work: MW8LS32709, etext: VEIE0OPI65B444BD_I8LS43833}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): search snippets only: p1 the year of a Nyingma monastery (Mipham's passing offering in month 4, Longchenpa's in month 12; char. 17267), p2 the same house or the next (Dudjom Rinpoche's in month 11; char. 50827), p3 another monastery (Milarepa's in month 3; char. 417764); the monasteries are not named in the snippets"
+
+rcw:
+  title: "Rin chen dbang rgyal, Mi tshe'i bde sdug myong tshor las byung ba'i gtam rgyud (memoir)"
+  author: "Bsam skyil Rin chen dbang rgyal (BDRC: Samkhyil Rinchen Wangyal)"
+  edition: "Library of Tibetan Works and Archives (bod kyi dpe mdzod khang), Dharamsala 2007, xiv + 442 pp., Ngag rgyun lo rgyus deb phreng 23; BDRC MW1KG1356, etext VEIE0OPI3E31E1C4_I1KG1497, search only"
+  bdrc: {work: MW1KG1356, etext: VEIE0OPI3E31E1C4_I1KG1497}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): search snippets only: p1 the first month's rites of a Kagyu house (Marpa on the 14th, Milarepa on the 15th; char. 560968), p2 a Nyingma house's year (char. 496318), which repeats gtb p1"
+
+tbn:
+  title: "Rwa skor mkhan chen Thub bstan nor bu'i mdzad rnam dang gsung chos phyogs bsdus dad pa'i snang ba 'dren pa'i 'od snang (life and teachings of Rwa skor Mkhan chen Thub bstan nor bu)"
+  author: "Mkhan po Thub bstan nor bu (BDRC's record)"
+  edition: "Mi rigs dpe skrun khang, Pe cin 2011, 5 + 422 pp.; BDRC MW1PD137813, etext VEIE0OPI4B1B90AD_I2PD19057, search only"
+  bdrc: {work: MW1PD137813, etext: VEIE0OPI4B1B90AD_I2PD19057}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1, char. 377482): 'Jigs med gling pa's passing offering on the 3rd of month 9"
+
+rgn:
+  title: "Reb gong rdzong khongs su yod pa'i rnying ma'i dgon sde'i skor (the Nyingma monasteries of Reb gong county), in Reb gong yul skor zin tho"
+  author: "not named in the snippet's record"
+  edition: "BDRC MW1GS91829_4310F3, etext search only"
+  bdrc: {work: MW1GS91829_4310F3}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1): Longchenpa's offering on the 18th of month 12"
+
+gmd:
+  title: "Ge smad yul gyi lo rgyus dang dmangs srol 'tshol sdud (a gazetteer of Ge smad)"
+  author: "not named in the record"
+  edition: "Yun nan rig gnas sgyu rtsal par skrun khang, 2019, 164 pp.; BDRC MW3CN21700, etext search only"
+  bdrc: {work: MW3CN21700}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1, char. 18466): Longchenpa's passing offering on the 18th of the twelfth winter month"
+
+nkc:
+  title: "Smyo shul mkhan po 'Jam dbyangs rdo rje, Snga 'gyur rdzogs chen chos 'byung chen mo, skabs 15 (the lives of the lineage's masters)"
+  author: "Smyo shul mkhan po 'Jam dbyangs rdo rje (1932-1999), by the collection's title; BDRC's record of the chapter names no author"
+  edition: "BDRC MW27401_91C4C3 (chapter of MW27401), etext search only"
+  bdrc: {work: MW27401_91C4C3}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1): a master passed on the 18th of the Rgyal month, Longchenpa's passing-offering day; the author is taken from the collection's title as BDRC lists it, not read on a title page"
+
+mtk:
+  title: "Rin chen dpal bzang, Mtshur phu dgon gyi dkar chag kun gsal me long (the history and catalogue of Tsurphu monastery)"
+  author: "Rin chen dpal bzang"
+  edition: "Mi rigs dpe skrun khang, Pe cin 1995, 729 pp.; BDRC MW20850, etext search only; the same words in the life of the first Karmapa in Karma pa sku phreng rim byon gyi mdzad rnam (MW18133_0EC11F) and in Bod ljongs nang bstan 1994/2 (MW20819)"
+  bdrc: {work: MW20850}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1): Gampopa's passing offering at the full moon of the first autumn month"
+
+rtd:
+  title: "Rta rna dgon, in Khams sgom sde nang chen pa'i dgon khag rnams kyi byung ba phyogs bsgrigs rin chen sgrom brgya 'byed pa'i deb ther gser gyi lde mig"
+  author: "not read (BDRC's record of the chapter)"
+  edition: "BDRC MW00EGS1016686_E9F06B; volume etext VEIE0OPI972048BA_I01JW127 ([pN] = etext page, excellent quality), open access"
+  bdrc: {work: MW00EGS1016686_E9F06B, etext: VEIE0OPI972048BA_I01JW127}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): etext p. 604 read (the monastery's former yearly rites), no scan opened"
+
+mgs:
+  title: "Rje btsun Mi 'gyur dpal sgron ma'i rnam thar dad pa'i gdung sel (the life of Mi 'gyur dpal sgron, daughter of Gter bdag gling pa)"
+  author: "not read (BDRC lists the text in MW1PD27265 and in a collection on Rdo rje phag mo's incarnations, I3CN21430)"
+  edition: "BDRC etexts VEIE0OPI31A2DE9A_I1PD27265 and VEIE0OPI7D01B4FE_I3CN21430, search only"
+  licence: "public-domain (an eighteenth-century life; the modern prints not seen): facts only until a print is read"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD410 (2026-11-24): one search snippet (p1, three prints with the same words): Gter bdag gling pa's offering in the second Hor month of an earth-mouse year"
