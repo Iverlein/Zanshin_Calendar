@@ -2867,6 +2867,12 @@ in T6.3.
   Inari's 初午, Fudō's 初不動 (1/28), Kannon's 四万六千日 (7/10), Amida's
   十夜 (10/6–15), 夏越の祓 (the last day of the sixth month), 節分, and
   the spring and autumn 彼岸.
+- **After RD413 (the owner, 2026-11-24).** "Take Daigo-ji, and the 子 day
+  for Daikoku": the Prajñāpāramita's day is 醍醐寺's 五大力尊仁王会, 23
+  February (new calendar, as the temple keeps it); Daikoku's day is the 甲子
+  of the eleventh month and, in a year whose eleventh month has none, that
+  month's first 子 day (the 子祭 of 日次紀事), so Daikoku has a framed day
+  every year.
 - **Then (block 91).** The chosen days built and their frames painted (machine
   rule 15, the `paint` skill), shown to the owner.
 
