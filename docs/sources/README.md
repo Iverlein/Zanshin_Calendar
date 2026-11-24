@@ -1508,7 +1508,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-strip-charts-eye-p142.md](claims/wb1-ch13-strip-charts-eye-p142.md) | claim, note | Ch. 13 strip charts: p. 142 legible by place on the reprint, p. 147 mostly empty cells | cites wb.1:p142e, wb.1:p147e; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p143-144.md](claims/wb1-ch13-strip-charts-eye-p143-144.md) | claim, note | Ch. 13 strip charts: pp. 143-144 read by place, the same few names in the cells | cites wb.1:p143e, wb.1:p144e; feeds — |
 | [claims/wb1-ch13-strip-charts-eye-p145-146.md](claims/wb1-ch13-strip-charts-eye-p145-146.md) | claim, note | Ch. 13 strip charts: pp. 145-146 read by place, the same names, many cells empty | cites wb.1:p145e, wb.1:p146e; feeds — |
+| [claims/wb1-ch13-strip-charts-grave-taker-in-the-grave-corner.md](claims/wb1-ch13-strip-charts-grave-taker-in-the-grave-corner.md) | claim, table | Ch. 13 strip charts: the grave-taker stands in the corner of the grave animal the verse of p. 217 names, 8 of 8 placeable charts | cites wb.2:p216-217, wb.1:p142e, wb.1:p143e, wb.1:p144e, wb.1:p145e, wb.1:p146e, wb.1:p142-147r; feeds — |
 | [claims/wb1-ch13-strip-charts-ring-by-two-lords.md](claims/wb1-ch13-strip-charts-ring-by-two-lords.md) | claim, table | Ch. 13, pp. 142-147: the ring of sixteen cells, twelve animal places fixed by the ba dan and the bya khyung | cites wb.1:p142-147r; feeds — |
+| [claims/wb1-ch13-strip-charts-ro-dgu-by-month.md](claims/wb1-ch13-strip-charts-ro-dgu-by-month.md) | claim, table | Ch. 13 strip charts: each chart's nine-corpses cell gives the month's date and time of vol. 2 p. 216, 12 of 12 | cites wb.2:p216-217, wb.1:p142, wb.1:p143, wb.1:p144, wb.1:p145, wb.1:p146, wb.1:p147; feeds — |
 | [claims/wb1-ch13-strip-charts-zhol-order.md](claims/wb1-ch13-strip-charts-zhol-order.md) | claim, note | The twelve strip charts of WB vol. 1 ch. 13: order on the Zhol print and the 1996 print | cites wb.1:p142, wb.1:p147; feeds — |
 | [claims/wb1-ch13-yogini-dates.md](claims/wb1-ch13-yogini-dates.md) | claim, list | The eight yoginīs by tithi and direction (WB vol. 1, p. 134) | cites wb.1:p134-135; feeds — |
 | [claims/wb1-ch13-zhol-ox-chart-layout.md](claims/wb1-ch13-zhol-ox-chart-layout.md) | claim, note | Ch. 13 Zhol ox chart: same layout and set word as the rat chart | cites wb.1:p147y, wb.1:p147z; feeds — |
@@ -1755,7 +1757,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 48 passages: 24 scan, 15 machine, 9 etext |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 27 passages: 26 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 48 passages: 28 scan, 19 machine, 1 etext |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 49 passages: 28 scan, 19 machine, 2 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 51 scan, 10 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 62 passages: 36 scan, 26 machine |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 25 passages: 19 scan, 5 machine, 1 etext |
@@ -2208,7 +2210,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0684.md](questions/q0684.md) | question q684 | «ཁ་ཚོན» and the speaker of p. 212's closing note | narrowed; cites — |
 | [questions/q0685.md](questions/q0685.md) | question q685 | «སད» and «སད་སེར» on the crops (pp. 199, 204, 209) | answered; cites — |
 | [questions/q0686.md](questions/q0686.md) | question q686 | The White one (དཀར་པོ) among the lords of the year, p. 199 | answered; cites — |
-| [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | open; cites — |
+| [questions/q0687.md](questions/q0687.md) | question q687 | The small stacked figures beside the line ends of pp. 190–196 | narrowed; cites — |
 | [questions/q0688.md](questions/q0688.md) | question q688 | «ཚད་ནད» and «མཇུག» in ch. 17's colophon | answered; cites — |
 | [questions/q0689.md](questions/q0689.md) | question q689 | The constant «མེ་ཚེས་ལག་པ»: 2,152 or 2,153 | answered; cites wb.1:p196 |
 | [questions/q0690.md](questions/q0690.md) | question q690 | The circle of the great thousand on p. 213, its full value | answered; cites wb.1:p213 |
@@ -2288,7 +2290,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0764.md](questions/q0764.md) | question q764 | WB p. 247 print line 4: «ས་རྦད་ཐུ་བཅད་འདྲ» (Yigdzin-1) or «ས་ཐད་ཐུ་བཅད་འདྲ» (MITRA)? The heavy glyph is not settled and neither gives a clear sense. | narrowed; cites wb.2:p247 |
 | [questions/q0765.md](questions/q0765.md) | question q765 | WB p. 249 print line 1: «བྱ་ཟེ་གློ་སྙིང» and «ཁྲག་ཟོ་ནམ་མཁའ་ནས» (Yigdzin-1) or «བྱ་རྩེ» and «ཁྲག་ཐོ» (MITRA)? The top strokes of ཟ, ཙ and ཐ cannot be told apart. | narrowed; cites wb.2:p249 |
 | [questions/q0766.md](questions/q0766.md) | question q766 | WB p. 250: «ཁ་སྨྲས» or «ཁ་སྤྲས», and «གློ་གཅོང» or «བློ་གཙང» (print line 23)? The first letter and the ཅ/ཙ hook are not settled; and does «རྭ» (p. 250 l. 21, p. 252 l. 18) carry a wa-zur (Yigdzin-1) or not (MITRA «ར»)? | narrowed; cites wb.2:p250 |
-| [questions/q0767.md](questions/q0767.md) | question q767 | WB p. 40: the stacked figure after «victor, hand, eye, two, two» (number-words 222224, glyphs not matching), the figure after «mind», and the two seven-glyph figures after «mtshams» (number-words 676405) are not readable on the reprint: what do the 1996 print or the Zhol print give? | open; cites wb.1:p40 |
+| [questions/q0767.md](questions/q0767.md) | question q767 | WB p. 40: the stacked figure after «victor, hand, eye, two, two» (number-words 222224, glyphs not matching), the figure after «mind», and the two seven-glyph figures after «mtshams» (number-words 676405) are not readable on the reprint: what do the 1996 print or the Zhol print give? | narrowed; cites wb.1:p40 |
 | [questions/q0768.md](questions/q0768.md) | question q768 | WB p. 52: is the Crab's own srang measure 360 (as the print's glyphs read on p. 52) or 340 (as p. 53's table reads)? Which glyph reading is right? | answered; cites wb.1:p52 |
 | [questions/q0769.md](questions/q0769.md) | question q769 | WB p. 52: what is the exact spelling of the Sanskrit word printed «ཏཏྐལ» (is its second letter ཏྐ?), and of the Crab's name («ཀཎྜར», «ཀརྚ་ཊ», «ཀརྐ», «ཀརྞ» in one stacked-letter form)? | answered; cites wb.1:p52 |
 | [questions/q0770.md](questions/q0770.md) | question q770 | The planets' and sun's mean-motion word on p. 32: dhruva, «རྒྱུ་བ» or «རླུ་བ» | answered; cites wb.1:p32 |
@@ -2299,7 +2301,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0775.md](questions/q0775.md) | question q775 | The long figure closing p. 10 | narrowed; cites wb.1:p10-11, wb.1:p10 |
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | answered; cites wb.1:p12-13, wb.1:p13 |
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | answered; cites wb.1:p205 |
-| [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
+| [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | narrowed; cites wb.1:p40 |
 | [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | answered; cites wb.1:p41 |
 | [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | answered; cites wb.1:p24 |
 | [questions/q0781.md](questions/q0781.md) | question q781 | Ch. 3 p. 23 line 12: Nāgārjuna's year prints (༧༡༦༧) and (༢༩༤) | answered; cites wb.1:p23 |
@@ -2828,7 +2830,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | answered; cites wb.2:p225b |
 | [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | answered; cites wb.1:p77 |
 | [questions/q1306.md](questions/q1306.md) | question q1306 | WB vol. 1 p. 77 line 4: «རང» or «དང» before «དཀྱིལ་ཆར»? | answered; cites wb.1:p77 |
-| [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
+| [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | narrowed; cites wb.1:p76, wb.1:p77 |
 | [questions/q1308.md](questions/q1308.md) | question q1308 | WB vol. 2 p. 233 lines 24–25: the gnyan's moving times, 28th or 27th? | narrowed; cites wb.2:p233b |
 | [questions/q1309.md](questions/q1309.md) | question q1309 | WB vol. 2 p. 237 line 13: «བཅོ» or «བཙོ»? | answered; cites wb.2:p237b, wb.2:p237c |
 | [questions/q1310.md](questions/q1310.md) | question q1310 | WB vol. 2 p. 236 line 19: the fourth item of Rāhu's reckoning, «བྱི» or «ཕྱི»? | answered; cites wb.2:p236d, dds.9:p173, sk.13:p258, tsl.28:i212-213 |
@@ -2841,7 +2843,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | answered; cites wb.1:p77 |
 | [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | answered; cites wb.1:p74, wb.1:p192 |
 | [questions/q1319.md](questions/q1319.md) | question q1319 | WB ch. 10 p. 74: is the last glyph of the figure after «བུག་མཁའ་མིག་བུག་ཡིད» ༩ or ༡ with a flick? | answered; cites wb.1:p74, wb.1:p192, wb.1:p196 |
-| [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | open; cites wb.1:p74 |
+| [questions/q1320.md](questions/q1320.md) | question q1320 | WB ch. 10 pp. 72, 74–77: what do the small stacked figures hold? | narrowed; cites wb.1:p74 |
 | [questions/q1321.md](questions/q1321.md) | question q1321 | WB ch. 10 p. 73 line 1: is the last syllable of «ཕྲོགས་བུ་ལོན» ལོན or ཡིན? | answered; cites wb.1:p73, wb.1:p72, wb.1:p76 |
 | [questions/q1322.md](questions/q1322.md) | question q1322 | WB ch. 13 p. 154: do the 11th head's day and night stacks (36 and 33 in the upper tier by the page's own digit forms) not make a day-and-night of 60, and which figure is another digit? | answered; cites wb.1:p154g, wb.1:p154b, wb.1:p51, wb.1:p52 |
 | [questions/q1323.md](questions/q1323.md) | question q1323 | WB ch. 13 p. 166: is the second upper figure of the 7th head's night-length stack a thin 3 (37 + 23 = 60) or an 8? | answered; cites wb.1:p166e, wb.1:p166d, wb.1:p51, wb.1:p52 |
