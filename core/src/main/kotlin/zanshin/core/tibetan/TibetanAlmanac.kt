@@ -384,8 +384,9 @@ enum class SpecialDay(val day: Int, val minor: Boolean = false) {
 
 /**
  * Festivals on fixed Tibetan dates. Dates from Henning's Phugpa archive and
- * Rabten's calendars (Zamling Chisang, Gaden Ngamchö, Thanksgiving to the
- * Protectors); not held in leap months except Losar. Rabten's Ten Good Omens
+ * Rabten's calendars (Zamling Chisang, Thanksgiving to the Protectors); not
+ * held in leap months except Losar. Kālacakra (3/15) and Gaden Ngamchö (10/25)
+ * are not kept: the owner's Nyingma and Kagyu accent (2026-11-24). Rabten's Ten Good Omens
  * on 11/6 is not kept: the White Beryl has none, and names the 7th of that
  * month the meeting of the nine bad ([GreatBlackDay], SPEC §5.7).
  */
@@ -393,14 +394,12 @@ enum class SpecialDay(val day: Int, val minor: Boolean = false) {
 enum class TibetanFestival(val month: Int, val day: Int, val wylie: String? = null) {
     LOSAR(1, 1, "lo gsar"),
     CHOTRUL_DUCHEN(1, 15, "cho 'phrul dus chen"),
-    KALACAKRA(3, 15),
     BIRTH(4, 7),
     SAGA_DAWA_DUCHEN(4, 15, "sa ga zla ba'i dus chen"),
     ZAMLING_CHISANG(5, 15, "'dzam gling spyi bsang"),
     CHOKHOR_DUCHEN(6, 4, "chos 'khor dus chen"),
     ENTRY_INTO_WOMB(6, 15),
     LHABAB_DUCHEN(9, 22, "lha babs dus chen"),
-    GADEN_NGAMCHO(10, 25, "dga' ldan lnga mchod"),
     PROTECTORS(12, 29);
 
     val title: String get() = gloss(this, "title")

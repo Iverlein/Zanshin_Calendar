@@ -33,7 +33,6 @@ class HenningPhugpaTest {
 
     private val festivalByText = mapOf(
         "Demonstration of Miracles" to TibetanFestival.LOSAR,
-        "Revelation of the Kalacakra" to TibetanFestival.KALACAKRA,
         "Birth of the Buddha" to TibetanFestival.BIRTH,
         "Enlightenment and Parinirvana" to TibetanFestival.SAGA_DAWA_DUCHEN,
         "Turning of the Wheel" to TibetanFestival.CHOKHOR_DUCHEN,

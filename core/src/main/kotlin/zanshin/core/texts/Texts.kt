@@ -2088,14 +2088,12 @@ object Texts {
     val TIBETAN_FESTIVAL: Map<TibetanFestival, Reading> = keyed(
         TibetanFestival.LOSAR to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.CHOTRUL_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
-        TibetanFestival.KALACAKRA to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
         TibetanFestival.BIRTH to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
         TibetanFestival.SAGA_DAWA_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.ZAMLING_CHISANG to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.CHOKHOR_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
         TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
-        TibetanFestival.GADEN_NGAMCHO to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
         TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
     ).underNote()
 
