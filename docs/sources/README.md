@@ -1566,7 +1566,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 75 passages: 75 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dgk/dgk.md](corpus/dgk/dgk.md) | corpus | DGK | 1 passages: 1 etext |
-| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
+| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read; abstracts only, third look 2026-11-24 |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dkm/dkm.md](corpus/dkm/dkm.md) | corpus | dkm | 1 passages: 1 etext |
 | [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 4 passages: 4 etext |
@@ -1665,7 +1665,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
-| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
+| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read; abstracts only, third look 2026-11-24 |
 | [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
 | [corpus/sdd/sdd.md](corpus/sdd/sdd.md) | corpus | sdd | 1 passages: 1 etext |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |

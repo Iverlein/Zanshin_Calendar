@@ -47,6 +47,18 @@ nothing of it is set down as read.
   dissolving three clods of earth in water, and scattering the ashes of burnt
   mugwort. So the images are not catalogued; the text is a remedy text, with no
   list of dream images and their fruits like the Svapnohana's.
+- **Third look, 2026-11-24 (abstract and first paragraph of the Crescenzi and
+  Torricelli article, as the open Academia.edu page shows them; the PDF is behind
+  a login and was not taken).** The article divides the text into a first, longer
+  section on the dream, good or bad, and a second; the first gives, in a magical
+  view, directions for bringing about good dreams (their 1.1) and for neutralising
+  the power of a bad one (their 1.2); a magical act is analysed as performer,
+  what is spoken and what is done, and the performer must meet certain conditions
+  (the paragraph breaks off there). The summary names purification and offerings
+  among the acts and the orthography as archaic. It dates the manuscript to the
+  late eighth century, against Chen's 979 or soon after: the two dates disagree
+  and neither basis was seen. Still no time of the dream, no list of images and
+  no Tibetan.
 - **Time of the dream.** None stated in any abstract read: no night watch, month
   or day is reported for the dream. Chen's and the Zheng–Chen abstracts say
   nothing of one; this is a silence of the abstracts, not proof that the
@@ -73,6 +85,10 @@ nothing of it is set down as read.
 
 ### Open
 
+Question: The dates of PT 55 IX disagree: late eighth century in Crescenzi and
+Torricelli 1995 (as summarised), 979 or soon after in Chen Jian 2017. Which has the
+palaeographic ground, and does it matter for the time of the dream?
+
 Question: Does the 19-line text of PT 55 (Crescenzi and Torricelli 1995, Chen
 2017) give any time of the dream (watch of the night, month, day) or only the
 good/bad division and the three remedies? The abstracts are silent.
@@ -82,6 +98,15 @@ Question: Which view of the 13 that IDP gives for PT 55 holds the dream text
 (Gallica, or the BnF's own viewer) than IDP's 1024 px?
 
 ### Searched and not found
+
+- Third attempt 2026-11-24: otdo.aa.tufs.ac.jp (browser: connection aborted) and
+  himalaya.socanth.cam.ac.uk (RET 64 pdf, address unreachable) did not serve; the
+  web-fetch tool failed on the same pdf; Academia.edu serves the abstract and a
+  paragraph, the PDF only to a login (not made); IDP and Gallica were not asked
+  again, having answered 403 twice and not being worked around; a search for
+  PT 55's dream text and a dream-practices survey page (slideheaven.com, a
+  parked domain) gave nothing. No Tibetan of PT 55 IX, no Stein or IOL dream
+  manuscript and no Tibetan Zhou gong found.
 
 - Old Tibetan Documents Online (otdo.aa.tufs.ac.jp): server refused the
   connection (2026-11-10), so the transcription could not be reached.
