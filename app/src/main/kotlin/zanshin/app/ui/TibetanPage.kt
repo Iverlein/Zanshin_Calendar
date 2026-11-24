@@ -163,9 +163,31 @@ fun TibetanPage(
     }
 
     PageColumns(modifier, top = {
+        val practice = day.specialDay
+        // In a painted frame the numeral is a little smaller, so that it stands in the painted disc with room.
+        val frame = holiday?.let { frameOf(it.festival) } ?: practice?.let { frameOf(it) }
+        val size = if (frame != null) 156.sp else 168.sp
+        val numeral: @Composable () -> Unit = {
+            Text(
+                "${day.day}",
+                style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = size, letterSpacing = (-6).sp, color = Palette.text),
+                modifier = Modifier.capBox(size),
+            )
+        }
+        val fromDawn: @Composable () -> Unit = {
+            Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+        }
+        // A festival's or a practice day's numeral stands in its painted frame, the festival's first (SPEC §10.3).
+        if (frame != null) {
+            PracticeHeadline(frame, numeral, fromDawn)
+        } else {
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                numeral()
+                fromDawn()
+            }
+        }
         if (holiday != null && holidayAnnotation != null) {
             Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                FestivalGlyph(holiday.festival.name, accent, 72.dp)
                 Text(
                     holiday.name,
                     style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 40.sp, color = accent).tight(1.1f),
@@ -177,40 +199,14 @@ fun TibetanPage(
                 }
                 Text(withTibetan(holiday.festival.english), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
                 // A festival on a practice day keeps the day's practice under its own name (SPEC §10.3).
-                day.specialDay?.let { sd ->
+                practice?.let { sd ->
                     PracticeLine(sd, day.specialDayMovedFrom, balloon == TibetanBalloon.PRACTICE) { toggle(TibetanBalloon.PRACTICE) }
                 }
                 holiday.movedFromDay?.let {
                     Text(stringResource(R.string.tib_moved_from_day, it), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
-                Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("${day.day}", style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 44.sp, color = Palette.text))
-                    Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.padding(bottom = 8.dp))
-                }
             }
         } else {
-            val practice = day.specialDay
-            // In a practice day's frame the numeral is a little smaller, so that it stands in the painted disc with room.
-            val size = if (practice != null) 156.sp else 168.sp
-            val numeral: @Composable () -> Unit = {
-                Text(
-                    "${day.day}",
-                    style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = size, letterSpacing = (-6).sp, color = Palette.text),
-                    modifier = Modifier.capBox(size),
-                )
-            }
-            val fromDawn: @Composable () -> Unit = {
-                Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted))
-            }
-            // A practice day's numeral stands in its painted frame (SPEC §10.3).
-            if (practice != null) {
-                PracticeHeadline(practice, numeral, fromDawn)
-            } else {
-                Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    numeral()
-                    fromDawn()
-                }
-            }
             practice?.let { sd ->
                 PracticeLine(sd, day.specialDayMovedFrom, balloon == TibetanBalloon.PRACTICE) { toggle(TibetanBalloon.PRACTICE) }
             }

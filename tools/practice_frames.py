@@ -2,18 +2,19 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The painted frames of the practice days (SPEC §10.3, ROADMAP T6.1) into the app.
+"""The painted frames of the practice days and the festivals (SPEC §10.3, ROADMAP T6.1, T6.2) into the app.
 
-The paintings are kept in art/practice/ as they came, in lossless WebP, each
-with an alpha channel or on a flat key colour (magenta by default). The script
-keys the background out (removing the key's spill from the soft edges), takes
-the part of the painting its frame uses, clears the plain disc round the
-numeral to a faint glow, and writes
-app/src/main/res/drawable-nodpi/practice_<name>.webp; ``sheet`` renders a
-contact sheet of the results on four page colours with the numeral in each.
+The paintings are kept in art/practice/ and art/festivals/ as they came, in
+lossless WebP, each with an alpha channel or on a flat key colour (magenta by
+default). The script keys the background out (removing the key's spill from
+the soft edges), takes the part of the painting its frame uses, clears the
+plain disc round the numeral to a faint glow, and writes
+app/src/main/res/drawable-nodpi/<name>.webp (practice_8, festival_losar …);
+``sheet`` renders a contact sheet of the results on four page colours with
+the numeral in each.
 
-    python3 tools/practice_frames.py cut art/practice [--key ff00ff]
-    python3 tools/practice_frames.py sheet <out.png> [--src <dir of webp>]
+    python3 tools/practice_frames.py cut art/practice art/festivals [--key ff00ff] [--only festival_]
+    python3 tools/practice_frames.py sheet <out.png> [--src <dir of webp>] [--only festival_]
 """
 
 from __future__ import annotations
@@ -35,18 +36,31 @@ SCALE = 3  # the pictures are written at 3× their size in dp
 # disc less a margin, so that a two-digit numeral's cap box stands in it with room round it.
 LARGE = ((96, 14, 928, 873), 250, 258, (54, 72, 196, 186))
 FRAMES = {
-    "8": LARGE,
-    "10": LARGE,
-    "15": LARGE,
-    "25": LARGE,
-    "29": LARGE,
-    "30": LARGE,
+    "practice_8": LARGE,
+    "practice_10": LARGE,
+    "practice_15": LARGE,
+    "practice_25": LARGE,
+    "practice_29": LARGE,
+    "practice_30": LARGE,
     # The small days' wreath (966 × 976 of its painting, the disc x 135–884, y 155–906): a window as large a part of
     # its disc as the large frames', so the numeral stands as large and the wreath round it is narrower.
-    "small": ((27, 23, 993, 999), 170, 172, (26, 41, 144, 137)),
+    "practice_small": ((27, 23, 993, 999), 170, 172, (26, 41, 144, 137)),
+    # The festivals (T6.2, T6.4), painted on the large frames' geometry; named by TibetanFestival in lower case.
+    **{f"festival_{name}": LARGE for name in (
+        "losar", "chotrul_duchen", "birth", "saga_dawa_duchen", "mipham", "guru_birth", "zamling_chisang",
+        "chokhor_duchen", "entry_into_womb", "jigme_lingpa", "lhabab_duchen", "dudjom", "longchenpa", "protectors")},
 }
+# The numeral each frame is shown with on the sheet: the day of the month.
+SAMPLE = {"practice_small": "9", "festival_losar": "1", "festival_birth": "7", "festival_chokhor_duchen": "4",
+          "festival_lhabab_duchen": "22", "festival_mipham": "29", "festival_guru_birth": "10", "festival_jigme_lingpa": "3",
+          "festival_dudjom": "18", "festival_longchenpa": "18", "festival_protectors": "29"}
 PAGES = {"Ink": (0x11, 0x13, 0x11), "Night": (0x00, 0x00, 0x00), "Maroon": (0x3A, 0x11, 0x17), "Paper": (0xF5, 0xF1, 0xE8)}
-GLOW = 0.14  # how much of the painted disc is kept round the numeral, as a glow
+GLOW = 0.14
+# The plain disc of the large geometry in its 1024 × 896 painting, as ``disc_edges`` finds it on the practice days'
+# paintings (the median of the 10th, 15th, 25th, 29th and 30th): its left, right and top edge. A festival painting comes at another size or with its disc a little larger or smaller, and is scaled
+# and moved so that its disc lies here before it is cut (``register``).
+SIZE = (1024, 896)
+DISC = (243, 779, 221)  # how much of the painted disc is kept round the numeral, as a glow
 
 
 def key_out(img: Image.Image, key: tuple[int, int, int]) -> Image.Image:
@@ -65,6 +79,69 @@ def key_out(img: Image.Image, key: tuple[int, int, int]) -> Image.Image:
     out = Image.fromarray(np.dstack([colour, a * 255]).round().astype(np.uint8), "RGBA")
     # A pixel ring of left-over fringe goes with a one-pixel erosion of the alpha.
     out.putalpha(out.getchannel("A").filter(ImageFilter.MinFilter(3)))
+    return out
+
+
+def corner_key(img: Image.Image) -> tuple[int, int, int]:
+    """The background colour as the painting's corners give it: the generator's magenta is not always #FF00FF."""
+    rgb = np.asarray(img.convert("RGB"), dtype=np.int32)
+    corners = np.concatenate([rgb[:8, :8], rgb[:8, -8:], rgb[-8:, :8], rgb[-8:, -8:]]).reshape(-1, 3)
+    return tuple(int(v) for v in np.median(corners, axis=0))
+
+
+def disc_edges(img: Image.Image) -> tuple[int, int, int]:
+    """The left, right and top edge of the plain disc, by rays from the middle of the painting to the first contour
+    (the top one may stop a little short, on a crown's lotus that hangs over the disc)."""
+    light = np.asarray(img.convert("L").filter(ImageFilter.GaussianBlur(1.5)), dtype=np.float32)
+    h, w = light.shape
+    cx, cy = w // 2, int(h * 0.49)
+    base = light[cy, cx]
+
+    def ray(dx: int, dy: int) -> int:
+        x, y = cx, cy
+        while 0 <= x < w and 0 <= y < h and light[y, x] >= base - 25:
+            x, y = x + dx, y + dy
+        return x if dx else y
+
+    return ray(-1, 0), ray(1, 0), ray(0, -1)
+
+
+def rekey(img: Image.Image, key: tuple[int, int, int], to: tuple[int, int, int]) -> Image.Image:
+    """[img] with its background, the area of [key] joined to the corners, flooded with [to].
+
+    A painting on a magenta darker than the asked one keys badly: a dark pink of the lotus lies as near to it as to
+    the painting's own colours. The background is made the asked key first, then keyed as the others are.
+    """
+    img = img.convert("RGB").copy()
+    w, h = img.size
+    for xy in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)):
+        if img.getpixel(xy) != to:
+            ImageDraw.floodfill(img, xy, to, thresh=60)
+    return img
+
+
+def register(img: Image.Image, key: tuple[int, int, int]) -> Image.Image:
+    """[img] scaled and moved so that its plain disc lies on [DISC] of the large geometry, on a canvas of [SIZE].
+
+    The disc's width sets the scale, its middle and top edge the place; a painting reaching past the part
+    the frame takes (``LARGE``'s crop) is made smaller about that point until it fits, so nothing is cut off.
+    """
+    left, right, top = disc_edges(img)
+    ax, ay = (left + right) / 2, top
+    tx, ty = (DISC[0] + DISC[1]) / 2, DISC[2]
+    rgb = np.asarray(img.convert("RGB"), dtype=np.int32)
+    painted = np.abs(rgb - np.array(key)).max(axis=2) > 60
+    ys, xs = np.nonzero(painted)
+    bx0, by0, bx1, by1 = xs.min(), ys.min(), xs.max() + 1, ys.max() + 1
+    cx0, cy0, cx1, cy1 = LARGE[0]
+    k = min(
+        (DISC[1] - DISC[0]) / (right - left),
+        (tx - cx0) / max(ax - bx0, 1), (cx1 - tx) / max(bx1 - ax, 1),
+        (ty - cy0) / max(ay - by0, 1), (cy1 - ty) / max(by1 - ay, 1),
+    )
+    scaled = img.resize((round(img.width * k), round(img.height * k)), Image.LANCZOS)
+    out = Image.new(img.mode, SIZE, (*key, 255) if img.mode == "RGBA" else key)
+    out.paste(scaled, (round(tx - ax * k), round(ty - ay * k)))
     return out
 
 
@@ -121,23 +198,30 @@ def clear_disc(img: Image.Image, window: tuple[int, int, int, int], radii: np.nd
     return img
 
 
-def cut(src: Path, key: tuple[int, int, int]) -> None:
+def cut(srcs: list[Path], key: tuple[int, int, int], only: str) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     fitted = {}
     for name, (crop, w, h, window) in FRAMES.items():
-        path = next((src / f"practice_{name}{ext}" for ext in (".png", ".webp") if (src / f"practice_{name}{ext}").exists()), None)
-        if path is None:
-            print(f"missing practice_{name} in {src}", file=sys.stderr)
+        if not name.startswith(only):
             continue
-        fitted[name] = fit(key_out(Image.open(path), key), crop, w * SCALE, h * SCALE)
-    # The paintings of one geometry share one disc: the median of their rays.
+        path = next((s / f"{name}{ext}" for s in srcs for ext in (".png", ".webp") if (s / f"{name}{ext}").exists()), None)
+        if path is None:
+            print(f"missing {name} in {', '.join(map(str, srcs))}", file=sys.stderr)
+            continue
+        img = Image.open(path).convert("RGB")
+        if name.startswith("festival_"):
+            img = rekey(register(img, corner_key(img)), corner_key(img), key)
+        fitted[name] = fit(key_out(img, key), crop, w * SCALE, h * SCALE)
+    # The paintings of one set and one geometry share one disc: the median of their rays.
+    def group(name: str) -> tuple:
+        return name.split("_")[0], FRAMES[name]
     shapes: dict[tuple, list] = {}
     for name, img in fitted.items():
-        shapes.setdefault(FRAMES[name], []).append(disc_radii(img, FRAMES[name][3]))
+        shapes.setdefault(group(name), []).append(disc_radii(img, FRAMES[name][3]))
     for name, img in fitted.items():
         window = FRAMES[name][3]
-        img = clear_disc(img, window, np.median(shapes[FRAMES[name]], axis=0))
-        dest = OUT / f"practice_{name}.webp"
+        img = clear_disc(img, window, np.median(shapes[group(name)], axis=0))
+        dest = OUT / f"{name}.webp"
         img.save(dest, "WEBP", quality=88, method=6, alpha_quality=100)
         print(f"{dest.relative_to(ROOT)}  {dest.stat().st_size // 1024} KB")
 
@@ -146,22 +230,20 @@ def numeral_font(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(MINCHO / "shippori_medium.ttf"), size)
 
 
-def sheet(dest: Path, src: Path) -> None:
+def sheet(dest: Path, src: Path, only: str) -> None:
     """The frames in rows, one row per page colour, with the day's numeral in each window."""
-    names = list(FRAMES)
+    names = [n for n in FRAMES if n.startswith(only) and (src / f"{n}.webp").exists()]
     cell_w, cell_h = max(f[1] for f in FRAMES.values()) * SCALE + 40, max(f[2] for f in FRAMES.values()) * SCALE + 40
     out = Image.new("RGB", (cell_w * len(names), cell_h * len(PAGES)))
     for row, (page, bg) in enumerate(PAGES.items()):
         text = (0xEC, 0xE8, 0xDF) if page != "Paper" else (0x1F, 0x1D, 0x19)
         for col, name in enumerate(names):
             _, w, h, (x0, y0, x1, y1) = FRAMES[name]
-            if not (src / f"practice_{name}.webp").exists():
-                continue
             cell = Image.new("RGBA", (cell_w, cell_h), (*bg, 255))
-            img = Image.open(src / f"practice_{name}.webp").convert("RGBA")
+            img = Image.open(src / f"{name}.webp").convert("RGBA")
             ox, oy = (cell_w - img.width) // 2, (cell_h - img.height) // 2
             cell.alpha_composite(img, (ox, oy))
-            label = {"small": "9", "30": "30"}.get(name, name)
+            label = SAMPLE.get(name, name.removeprefix("practice_") if name.startswith("practice_") else "15")
             d = ImageDraw.Draw(cell)
             # The numeral as the app sets it: its cap box fills the window's height, its baseline on the window's foot.
             size = round((y1 - y0) * SCALE / 0.72)  # 156 sp in the app, its cap box 0.72 of it
@@ -175,16 +257,18 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
     c = sub.add_parser("cut", help="key, fit and write the frames into the app")
-    c.add_argument("src", type=Path)
+    c.add_argument("src", type=Path, nargs="+", help="folders of the paintings, searched in order")
     c.add_argument("--key", default="ff00ff", help="the flat background colour, hex")
+    c.add_argument("--only", default="", help="only the frames whose name starts so (practice_, festival_)")
     s = sub.add_parser("sheet", help="a contact sheet on the four page colours")
     s.add_argument("dest", type=Path)
     s.add_argument("--src", type=Path, default=OUT)
+    s.add_argument("--only", default="", help="only the frames whose name starts so")
     a = p.parse_args()
     if a.cmd == "cut":
-        cut(a.src, tuple(int(a.key[i:i + 2], 16) for i in (0, 2, 4)))
+        cut(a.src, tuple(int(a.key[i:i + 2], 16) for i in (0, 2, 4)), a.only)
     else:
-        sheet(a.dest, a.src)
+        sheet(a.dest, a.src, a.only)
 
 
 if __name__ == "__main__":

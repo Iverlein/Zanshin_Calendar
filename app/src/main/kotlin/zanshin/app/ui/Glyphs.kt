@@ -25,8 +25,9 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 /**
- * Line glyphs for festivals, drawn for this project (MPL-2.0) on a 24-unit
- * grid, in the stroke style of the interface icons.
+ * Line glyphs for the 旧暦 festivals, drawn for this project (MPL-2.0) on a 24-unit
+ * grid, in the stroke style of the interface icons, until their painted frames come (ROADMAP T6.3); the Tibetan
+ * festivals stand in painted frames (PracticeDay.kt, T6.2).
  */
 private class Glyph(val path: String, val dots: List<Offset> = emptyList(), val description: Int)
 
@@ -43,23 +44,7 @@ private fun rays(count: Int, inner: Float, outer: Float) = (0 until count).joinT
     "M${12 + inner * cos(a)} ${12 + inner * sin(a)}L${12 + outer * cos(a)} ${12 + outer * sin(a)}"
 }
 
-private val LOTUS = "M12 5c2 2.5 2.5 5.5 0 9c-2.5-3.5-2-6.5 0-9zM11 14c-3-.5-6-2.5-7-6c3 .2 5.5 2 7 6zM13 14c3-.5 6-2.5 7-6c-3 .2-5.5 2-7 6zM5 17h14M7 20h10"
-private val LAMP = "M12 3c1.8 2.2 2 4 0 6c-2-2-1.8-3.8 0-6zM6 11h12c0 3-2.7 5-6 5s-6-2-6-5zM12 16v3M8 21h8"
-
 private val GLYPHS: Map<String, Glyph> = mapOf(
-    "LOSAR" to Glyph(LOTUS, description = R.string.glyph_lotus),
-    "CHOTRUL_DUCHEN" to Glyph(LAMP, description = R.string.glyph_butter_lamp),
-    "BIRTH" to Glyph("M12 4c2.5 3 2.5 6 0 9c-2.5-3-2.5-6 0-9zM12 13v7M12 17c-2-1-3.5-1-5 0M12 17c2-1 3.5-1 5 0", description = R.string.glyph_lotus_bud),
-    "SAGA_DAWA_DUCHEN" to Glyph("M12 20c-5-3-8-7-7-11c.7-2.6 3.3-3.6 5.3-2.3L12 8l1.7-1.3c2-1.3 4.6-.3 5.3 2.3c1 4-2 8-7 11zM12 8v14", description = R.string.glyph_bodhi_leaf),
-    "ZAMLING_CHISANG" to Glyph("M7 16h10l-1.5 4h-7zM10 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5M14 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5", description = R.string.glyph_smoke_offering),
-    "CHOKHOR_DUCHEN" to Glyph(circle(12f, 12f, 8f) + circle(12f, 12f, 2.5f) + rays(8, 2.5f, 8f), description = R.string.glyph_wheel_of_dharma),
-    "ENTRY_INTO_WOMB" to Glyph(circle(12f, 12f, 8f) + circle(12f, 12f, 2f), description = R.string.glyph_seed_within_a_circle),
-    "LHABAB_DUCHEN" to Glyph(
-        "M5 3v18M9 3v18M10.5 3v18M13.5 3v18M15 3v18M19 3v18M5 7h4M5 12h4M5 17h4M10.5 7h3M10.5 12h3M10.5 17h3M15 7h4M15 12h4M15 17h4",
-        description = R.string.glyph_triple_ladder,
-    ),
-    "PROTECTORS" to Glyph("M12 3c3 4 6 6 6 10a6 6 0 0 1-12 0c0-2 1-3.5 2-4.5c0 2 1 3 2 3c-1-3 0-6 2-8.5z", description = R.string.glyph_flame),
-
     "旧正月" to Glyph("M8 20V9l2-2v13M11 20V6l2-2v16M14 20V8l2-2v14M6 20h12M7 16h10", description = R.string.glyph_kadomatsu),
     "人日の節句" to Glyph(
         "M12 21V9M12 13c-3 0-5-2-5-5c3 0 5 2 5 5zM12 11c3 0 5-2 5-5c-3 0-5 2-5 5zM12 17c-2.5 0-4-1.5-4-4c2.5 0 4 1.5 4 4zM12 16c2.5 0 4-1.5 4-4c-2.5 0-4 1.5-4 4z",
@@ -80,7 +65,7 @@ private val GLYPHS: Map<String, Glyph> = mapOf(
     "十三夜" to Glyph(circle(12f, 12f, 8f) + "M12 4a5 8 0 0 1 0 16", description = R.string.glyph_gibbous_moon),
 )
 
-/** The glyph of a festival, by its key (a Tibetan festival's enum name or a Japanese festival's kanji). */
+/** The glyph of a 旧暦 festival, by its kanji. */
 @Composable
 fun FestivalGlyph(key: String, color: Color, size: Dp) {
     val glyph = GLYPHS[key]

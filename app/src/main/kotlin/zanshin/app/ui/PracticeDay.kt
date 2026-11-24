@@ -21,23 +21,45 @@ import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.SpecialDay
+import zanshin.core.tibetan.TibetanFestival
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.math.roundToInt
 
 /*
- * The practice days of the month on the Tibetan page (SPEC §10.3): the date stands in an aureole, as a buddha's
- * image does, on a lotus seat, with an emblem at its crown, painted in the manner of a Central Tibetan thangka
- * (ROADMAP T6.1; the pictures cut by tools/practice_frames.py), and the day's name under it opens a balloon with
- * what is practised.
+ * The practice days of the month and the festivals on the Tibetan page (SPEC §10.3): the date stands in an aureole,
+ * as a buddha's image does, on a lotus seat, with an emblem at its crown, painted in the manner of a Central Tibetan
+ * thangka (ROADMAP T6.1, T6.2; the pictures cut by tools/practice_frames.py), and the day's name under it opens a
+ * balloon with what is practised.
  */
 
-/** The picture of a practice day, [w] × [h] dp, with the numeral's window from ([x0], [y0]) to ([x1], [y1]). */
-private class Frame(@DrawableRes val res: Int, val w: Float, val h: Float, val x0: Float, val y0: Float, val x1: Float, val y1: Float)
+/** The picture of a day, [w] × [h] dp, with the numeral's window from ([x0], [y0]) to ([x1], [y1]). */
+class Frame internal constructor(@DrawableRes val res: Int, val w: Float, val h: Float, val x0: Float, val y0: Float, val x1: Float, val y1: Float)
 
-private fun frameOf(day: SpecialDay): Frame {
-    // The six large paintings share one geometry, the numeral's window inside the plain disc (tools/practice_frames.py).
-    fun large(res: Int) = Frame(res, 250f, 258f, 54f, 72f, 196f, 186f)
+// The large paintings, the practice days' and the festivals', share one geometry, the numeral's window inside the
+// plain disc (tools/practice_frames.py).
+private fun large(res: Int) = Frame(res, 250f, 258f, 54f, 72f, 196f, 186f)
+
+/**
+ * The frame of a festival, which on a practice day stands in place of the day's own (T6.2); null for a festival not
+ * yet painted (the Nyingma days of T6.4), which keeps the practice day's frame or none.
+ */
+fun frameOf(festival: TibetanFestival): Frame? = when (festival) {
+    TibetanFestival.LOSAR -> R.drawable.festival_losar
+    TibetanFestival.CHOTRUL_DUCHEN -> R.drawable.festival_chotrul_duchen
+    TibetanFestival.BIRTH -> R.drawable.festival_birth
+    TibetanFestival.SAGA_DAWA_DUCHEN -> R.drawable.festival_saga_dawa_duchen
+    TibetanFestival.ZAMLING_CHISANG -> R.drawable.festival_zamling_chisang
+    TibetanFestival.CHOKHOR_DUCHEN -> R.drawable.festival_chokhor_duchen
+    TibetanFestival.ENTRY_INTO_WOMB -> R.drawable.festival_entry_into_womb
+    TibetanFestival.LHABAB_DUCHEN -> R.drawable.festival_lhabab_duchen
+    TibetanFestival.PROTECTORS -> R.drawable.festival_protectors
+    TibetanFestival.MIPHAM, TibetanFestival.GURU_BIRTH, TibetanFestival.JIGME_LINGPA, TibetanFestival.DUDJOM,
+    TibetanFestival.LONGCHENPA -> null
+}?.let(::large)
+
+/** The frame of a practice day. */
+fun frameOf(day: SpecialDay): Frame {
     return when (day) {
         SpecialDay.EIGHTH -> large(R.drawable.practice_8)
         SpecialDay.TENTH -> large(R.drawable.practice_10)
@@ -56,13 +78,13 @@ fun practiceColor(day: SpecialDay): Color = when (day) {
 }
 
 /**
- * [content], the day's numeral, in the painted frame of [day]: the picture is scaled so that its window holds the
+ * [content], the day's numeral, in the painted [frame]: the picture is scaled so that its window holds the
  * numeral, whatever the font scale, and the numeral stands at the window's centre. Where the width is short of
  * that, the picture is made smaller to fit and the numeral with it.
  */
 @Composable
-fun PracticeOrnament(day: SpecialDay, content: @Composable () -> Unit) {
-    val f = frameOf(day)
+fun PracticeOrnament(frame: Frame, content: @Composable () -> Unit) {
+    val f = frame
     val painter = painterResource(f.res)
     Layout(content = {
         Image(painter, contentDescription = null, contentScale = ContentScale.FillBounds)
@@ -85,13 +107,13 @@ fun PracticeOrnament(day: SpecialDay, content: @Composable () -> Unit) {
 }
 
 /**
- * The practice day's numeral in its frame, with [label] ("from dawn") beside it: the label keeps the width of its
+ * The day's numeral in [frame], a practice day's or a festival's, with [label] ("from dawn") beside it: the label keeps the width of its
  * longest word, so that it never breaks inside one, and the frame takes the rest.
  */
 @Composable
-fun PracticeHeadline(day: SpecialDay, numeral: @Composable () -> Unit, label: @Composable () -> Unit) {
+fun PracticeHeadline(frame: Frame, numeral: @Composable () -> Unit, label: @Composable () -> Unit) {
     Layout(content = {
-        PracticeOrnament(day, numeral)
+        PracticeOrnament(frame, numeral)
         label()
     }) { (frame, text), constraints ->
         val gap = 12.dp.roundToPx()

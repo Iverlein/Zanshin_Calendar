@@ -566,27 +566,6 @@
 
     <!-- Glyphs -->
     <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_lotus">lotus</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_butter_lamp">butter lamp</string>
-    <!-- describes a festival glyph for screen readers -->
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_lotus_bud">lotus bud</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_bodhi_leaf">bodhi leaf</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_smoke_offering">smoke offering</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_wheel_of_dharma">wheel of Dharma</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_seed_within_a_circle">seed within a circle</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_triple_ladder">triple ladder</string>
-    <!-- describes a festival glyph for screen readers -->
-    <!-- describes a festival glyph for screen readers -->
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_flame">flame</string>
-    <!-- describes a festival glyph for screen readers -->
     <string name="glyph_kadomatsu">kadomatsu</string>
     <!-- describes a festival glyph for screen readers -->
     <string name="glyph_herb_sprig">herb sprig</string>
