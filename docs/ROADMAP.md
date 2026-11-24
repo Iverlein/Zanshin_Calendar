@@ -2849,6 +2849,12 @@ in T6.3.
   one only, such as 初午 and 初不動, or every 縁日 of that deity), one
   painting per deity reused on its days. A day new to the page joins it
   with its reading from the pool (SPEC §8).
+- **Decided (the owner, 2026-11-24, the same day).** "Only the yearly days,
+  one frame per deity. Take the main day of the year, Amida, Prajnaparamita
+  and Avalokiteshvara too": each deity gets its main day of the year and one
+  painting, the monthly 縁日 none; Amida, Prajñāpāramita (般若) and Kannon
+  (観音) join Inari, Daikoku, Fudō and Jizō; RD412 reads which day is each
+  one's main day.
 - **Then (block 91).** The chosen days built and their frames painted (machine
   rule 15, the `paint` skill), shown to the owner.
 
