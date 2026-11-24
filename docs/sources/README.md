@@ -1476,7 +1476,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb1-ch13-model-almanac-box-endings.md](claims/wb1-ch13-model-almanac-box-endings.md) | claim, note | The model almanac's day boxes: the oval's element and object follow the date's place; the framed words follow nothing found | cites wb.1:p154, wb.1:p155d, wb.1:p156d, wb.1:p157d, wb.1:p166d, wb.1:p158d, wb.1:p159d, wb.1:p160d, wb.1:p161d, wb.1:p162d, wb.1:p163d, wb.1:p164d; feeds — |
 | [claims/wb1-ch13-model-almanac-box.md](claims/wb1-ch13-model-almanac-box.md) | claim, note | What a day box of the model almanac holds, and what was read | cites wb.1:p154, wb.1:p154c, wb.1:p165; feeds — |
 | [claims/wb1-ch13-model-almanac-layout.md](claims/wb1-ch13-model-almanac-layout.md) | claim, note | The model almanac: twelve months of thirty boxes, five to a row | cites wb.1:p154, wb.1:p165; feeds — |
-| [claims/wb1-ch13-model-almanac-mewa-numerals.md](claims/wb1-ch13-model-almanac-mewa-numerals.md) | claim, note | The model almanac's mewa numerals rise one a date and a month starts three higher: p. 156 read, p. 154 box 1 is 1 | cites wb.1:p156e, wb.1:p154, wb.1:p156; feeds — |
+| [claims/wb1-ch13-model-almanac-mewa-numerals.md](claims/wb1-ch13-model-almanac-mewa-numerals.md) | claim, note | The model almanac's mewa numerals rise one a date and a month starts three higher: p. 156 read, p. 154 box 1 is 1 | cites wb.1:p156e, wb.1:p154-166m, wb.1:p154, wb.1:p156; feeds — |
 | [claims/wb1-ch13-model-almanac-page-allocation.md](claims/wb1-ch13-model-almanac-page-allocation.md) | claim, note | Which almanac boxes stand on which page, pp. 165-171 | cites wb.1:p156, wb.1:p165, wb.1:p166-171; feeds — |
 | [claims/wb1-ch13-month-head-1st-beyond-rd2.md](claims/wb1-ch13-month-head-1st-beyond-rd2.md) | claim, note | The 1st month's head: the festival of wonders and an unsettled weekday line beyond RD2's table | cites wb.1:p157; feeds — |
 | [claims/wb1-ch13-month-head-3rd-stacked-figures.md](claims/wb1-ch13-month-head-3rd-stacked-figures.md) | claim, note | The 3rd head's stacked figures, read in part | cites wb.1:p160; feeds — |
@@ -1726,7 +1726,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 12 scan |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 scan |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 110 passages: 88 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 111 passages: 89 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 scan |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 scan |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
@@ -2880,6 +2880,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1362.md](questions/q1362.md) | question q1362 | ཕུང་རྒྱབ་ཅན (vol. 2 p. 314) against ཕུང་སྐྱབས་ཅན (vol. 1 p. 258) | open; cites — |
 | [questions/q1363.md](questions/q1363.md) | question q1363 | The middle cells of the strip charts' sides (WB ch. 13 pp. 142-147) | open; cites — |
 | [questions/q1364.md](questions/q1364.md) | question q1364 | The light-clearer's corner in the strip charts against the verse's grave, neighbour and slayer | open; cites — |
+| [questions/q1365.md](questions/q1365.md) | question q1365 | The two boxes of the model almanac that break the mewa rule (p. 154 box 11, p. 161 box 19) | open; cites — |
 
 <!-- end pool index -->
 
