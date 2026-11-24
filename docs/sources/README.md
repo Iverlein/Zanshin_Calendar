@@ -2277,7 +2277,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0753.md](questions/q0753.md) | question q753 | In the mother-goddesses table (WB vol. 1, p. 129), do the right block's row 5 and row 6's middle cell (དཔལ་མོ where its counterparts read དབང་མོ) hold misprints? What are the numerals under each name, and what is the lobed label's second line? | open; cites wb.1:p129 |
 | [questions/q0754.md](questions/q0754.md) | question q754 | The figure after «འབྱུང་ཆུས» on WB p. 30 (line «སྐར་མཚམས་ཆུ་ཚོད་འབྱུང་ཆུས(?)སྦྱངས»): the print's figure is damaged, the number words give 54, the machine read 55. | answered; cites wb.1:p30 |
 | [questions/q0755.md](questions/q0755.md) | question q755 | «ཚེས་བསྲེས་མ་ནུས(༡༤)བགོ» on WB p. 30: is the word «མ་ནུས» or «ཡིད» (14, as the same verse has on p. 31)? | answered; cites wb.1:p30 |
-| [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | open; cites wb.1:p34 |
+| [questions/q0756.md](questions/q0756.md) | question q756 | The figure after «དེ་ལ་འཁོར་ཕྱེད» on WB p. 34 is damaged in the print: a half wheel (27) is 13½, which is no whole figure; what does the line give? | answered; cites wb.1:p34 |
 | [questions/q0757.md](questions/q0757.md) | question q757 | The figure after «ཟླ་བ» before «རི་དབང་༥༧་དབྱུག» in the houses of WB p. 36: «(༡)» or «༡༡»? | narrowed; cites wb.1:p36 |
 | [questions/q0758.md](questions/q0758.md) | question q758 | WB p. 244 l. 2, the place-name in «ན་ཀོང་ལྗན་ལྗིན་ཀླུ་ཡི་གནས»: is the first word ལྗན (Yigdzin-1) or ལྡན (MITRA)? A heavy stack on the reprint; another print would settle it. | answered; cites wb.2:p244, tmz:box9, wb.2:p245 |
 | [questions/q0759.md](questions/q0759.md) | question q759 | WB p. 245, «གཅོང་» or «གཙོང་» (lines 2 and 18, «ནག་སྟུག་པ་གཅོང་ཅན་མང་», «ཅན་གཅོང་དང་དམུ་ཆུ»): the hook of ཅ/ཙ is lost under the vowel on the reprint; which word is meant? | answered; cites wb.2:p245, tmz:box9 |
@@ -2300,7 +2300,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0776.md](questions/q0776.md) | question q776 | The figures beside the houses on p. 13 | answered; cites wb.1:p12-13, wb.1:p13 |
 | [questions/q0777.md](questions/q0777.md) | question q777 | p. 205: «རྐུ་འཕྲོག» or «སྐུ་འཕྲོག» | answered; cites wb.1:p205 |
 | [questions/q0778.md](questions/q0778.md) | question q778 | Ch. 6 p. 40 line 1: the stack ༡༡ over ༡༡ | open; cites wb.1:p40 |
-| [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | open; cites wb.1:p41 |
+| [questions/q0779.md](questions/q0779.md) | question q779 | Ch. 6 p. 41: the stacked pairs of figures | answered; cites wb.1:p41 |
 | [questions/q0780.md](questions/q0780.md) | question q780 | Ch. 3 p. 24 line 9: the year name «ཛ་ཆེན་ལོ» | answered; cites wb.1:p24 |
 | [questions/q0781.md](questions/q0781.md) | question q781 | Ch. 3 p. 23 line 12: Nāgārjuna's year prints (༧༡༦༧) and (༢༩༤) | answered; cites wb.1:p23 |
 | [questions/q0782.md](questions/q0782.md) | question q782 | Ch. 3 p. 24: figures (༩༣), (༥༤), (༧༩༠), (༦༩༠), (༦༠༧) against the chain | answered; cites wb.1:p24 |
@@ -2825,7 +2825,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1301.md](questions/q1301.md) | question q1301 | Who is the «གུ་ཧྱ» who signs the note on the tenth-day liturgy of Gnam lcags ri khrod, and is the liturgy Rig 'dzin Mi 'jigs rdo rje's? | open; cites tsl.29:i109-110 |
 | [questions/q1302.md](questions/q1302.md) | question q1302 | Is «གནམ་གང» in Mipham's Sarasvatī instruction the new moon or the full moon? | answered; cites mgz.33:p166, dtn:i316 |
 | [questions/q1303.md](questions/q1303.md) | question q1303 | WB vol. 2 p. 176: the number printed after the east lord (Thesé), (༣), (༡) or (༢)? | answered; cites wb.2:p176b |
-| [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | open; cites wb.2:p225b |
+| [questions/q1304.md](questions/q1304.md) | question q1304 | WB vol. 2 p. 225: the horse lord's line, «བང་བྱིན» or «བང་ཕྱིན», and «རྟས་སྤང» or «ནས་སྤང»? | answered; cites wb.2:p225b |
 | [questions/q1305.md](questions/q1305.md) | question q1305 | WB vol. 1 p. 77 line 8: the figure after «མཚམས་མིག», 26 or 24? | answered; cites wb.1:p77 |
 | [questions/q1306.md](questions/q1306.md) | question q1306 | WB vol. 1 p. 77 line 4: «རང» or «དང» before «དཀྱིལ་ཆར»? | answered; cites wb.1:p77 |
 | [questions/q1307.md](questions/q1307.md) | question q1307 | WB vol. 1 pp. 76–77: the stacked tiny figures at the line ends | open; cites wb.1:p76, wb.1:p77 |
@@ -2870,7 +2870,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1346.md](questions/q1346.md) | question q1346 | Does the Mindroling 25th (mdb:p163-166) count the waning tenth by the almanac or only as the 25th of the month | open; cites — |
 | [questions/q1347.md](questions/q1347.md) | question q1347 | WB ch. 17 pp. 195, 213 and 215: three figures against their word-numerals | narrowed; cites — |
 | [questions/q1348.md](questions/q1348.md) | question q1348 | WB ch. 3 p. 34 and ch. 7 p. 49: figures against their word-numerals (429/439, 3111/211, 741/746, 178, 488) | narrowed; cites — |
-| [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | open; cites — |
+| [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | answered; cites — |
 | [questions/q1350.md](questions/q1350.md) | question q1350 | WB ch. 7 p. 49 'victor, fire-pair three' (4898?) and ch. 10 line 82 «དབང་ཉིད ༡༢༥»: figures not backed by their words | narrowed; cites — |
 | [questions/q1351.md](questions/q1351.md) | question q1351 | The date of PT 55 IX: late eighth century or 979 | open; cites — |
 | [questions/q1352.md](questions/q1352.md) | question q1352 | Which emblem do painters put at the crown of each Tibetan calendar festival, if one is fixed? | open; cites — |
