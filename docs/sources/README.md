@@ -1720,7 +1720,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch09.md](corpus/wb/ch09.md) | corpus | WB ch. 9 | 12 passages: 12 scan |
 | [corpus/wb/ch10.md](corpus/wb/ch10.md) | corpus | Ch10 | 9 passages: 9 scan |
 | [corpus/wb/ch12.md](corpus/wb/ch12.md) | corpus | Ch12 | 21 passages: 21 scan |
-| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 108 passages: 86 scan, 22 machine |
+| [corpus/wb/ch13.md](corpus/wb/ch13.md) | corpus | Ch13 | 109 passages: 87 scan, 22 machine |
 | [corpus/wb/ch14.md](corpus/wb/ch14.md) | corpus | WB ch. 14 | 1 passages: 1 scan |
 | [corpus/wb/ch15.md](corpus/wb/ch15.md) | corpus | WB ch. 15 | 1 passages: 1 scan |
 | [corpus/wb/ch16.md](corpus/wb/ch16.md) | corpus | Ch16 | 6 passages: 6 scan |
@@ -2870,6 +2870,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1358.md](questions/q1358.md) | question q1358 | Are the 七夕 strips in five colours in a published Japanese source? | open; cites — |
 | [questions/q1359.md](questions/q1359.md) | question q1359 | Is a basket, or snow, a published part of the 七草 picture? | open; cites — |
 | [questions/q1360.md](questions/q1360.md) | question q1360 | Do the British Museum's three carp kites in Hiroshige's Surugadai print stand against Wikipedia's single black carp? | open; cites — |
+| [questions/q1361.md](questions/q1361.md) | question q1361 | Does the model almanac's 11th month start on mewa 1 (p. 154 box 1)? | open; cites — |
 
 <!-- end pool index -->
 
