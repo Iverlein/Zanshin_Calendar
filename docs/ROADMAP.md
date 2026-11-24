@@ -142,7 +142,7 @@ moves up as soon as it is unblocked.
 | <a id="block-85"></a>85 | [L5](#l5) The present moment and the dreams | — | [74](#block-74) | Build block 85: L5, the Russian of block 85 of `tools/ru_plan.toml` rewritten as L5 says. 1,320 units, 17,800 words. |
 | <a id="block-86"></a>86 | [L5](#l5) What is left, and L3 closed | — | [74](#block-74)–[85](#block-85) | Build block 86: L5, the Russian of block 86 of `tools/ru_plan.toml` rewritten as L5 says. The families no other block takes (11 units today), then the owner's read of the app in Russian on the phone, which closes [L3](#l3). |
 | <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 — built 2026-11-22 | — | — | Built: T6.1 and release 3.5 (versionCode 20); the six large frames accepted by the owner on 2026-11-22, store shots 12–14 for a practice day and a common day of each calendar. Was: Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
-| <a id="block-88"></a>88 | [T6.2](#t6-2) The festival frames painted | [RD408](#rd408) | [87](#block-87) | Build block 88: T6.2, the eleven festival frames painted by Gemini (machine rule 15, the `paint` skill) by the motifs RD408 confirmed, shown to the owner, then built into the Tibetan page's festival headline as T6.2 says. |
+| <a id="block-88"></a>88 | [T6.2](#t6-2) The festival frames painted — built 2026-11-24 | [RD408](#rd408) | [87](#block-87) | Build block 88: T6.2, the eleven festival frames painted by Gemini (machine rule 15, the `paint` skill) by the motifs RD408 confirmed, shown to the owner, then built into the Tibetan page's festival headline as T6.2 says. |
 | <a id="block-89"></a>89 | [T6.3](#t6-3) The 旧暦 festival frames painted | [RD409](#rd409) | [87](#block-87) | Build block 89: T6.3, the nine 旧暦 festival frames painted by Gemini in the manner of ukiyo-e (machine rule 15, the `paint` skill) by the motifs RD409 confirmed, shown to the owner, then built into the 旧暦 page's festival headline as T6.3 says; `FestivalGlyph` removed once block 88 is in. |
 | <a id="block-90"></a>90 | [T6.4](#t6-4) The days of the Nyingma and Kagyu schools and of the owner's lineages — days built 2026-11-24, frames to come | [RD410](#rd410), [RD411](#rd411) | [88](#block-88) | Build block 90: T6.4, the festival list of SPEC §5.7 extended by the days RD410 and RD411 confirm and the owner chooses, each with its reading from the pool, and a frame painted for each as T6.2's (machine rule 15, the `paint` skill), shown to the owner. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
@@ -2597,7 +2597,7 @@ every practice day, in every theme.
   be empty, but in the lower part must be the offering of 5 senses in
   kapala").
 
-### <a id="t6-2"></a>T6.2. The festival frames painted in the Tibetan manner — planned 2026-11-22 (SPEC §10.3)
+### <a id="t6-2"></a>T6.2. The festival frames painted in the Tibetan manner — built 2026-11-24 (SPEC §10.3)
 
 The owner, 2026-11-22, accepting the frames of [T6.1](#t6-1): "Also plan
 the frames for all festival days according to festival context, same
@@ -2670,6 +2670,34 @@ by [RD408](#rd408) before the brief:
    festival headline as above; the line glyph stays on the 旧暦 page's
    festivals until [T6.3](#t6-3). SPEC §10.3, README, both listings, store shot 1 (Saga Dawa
    Düchen) retaken in its frame.
+
+- **Painted and built (2026-11-24), waiting for the owner's word.** The
+  owner chose the event's own content for the four frames RD408 left
+  without a source (Kālacakra: rings of the elements in a wreath of
+  flames; the Birth: Lumbinī's flowering branches, an opening lotus,
+  seven small lotuses on the seat; Saga Dawa: bodhi leaves and a double
+  vajra on the seat; Zamling Chisang: juniper smoke, plain flags and a
+  censer), and the sources' details for the rest: six tusks and a jewel on
+  the elephant's saddle cloth (q1353), a flaming sword and a red-covered
+  book (q1356), the stair of gold, silver and gems. Eleven queued through
+  `paint-queue` with the 15th's and 10th's frames as references; they came
+  1200 × 896 with the disc a little off the set's, so
+  `practice_frames.py` gained a step that scales and moves a festival
+  painting until its disc lies on the practice frames' (`register`,
+  shrinking a painting that would reach past the crop) and evens out a
+  background painted on another magenta (`rekey`); the practice frames
+  cut unchanged. Saga Dawa's first painting spread its leaves outside the
+  aureole and stood on a slab that ran off the picture: repainted. The
+  page as above, checked on all eleven dates of 2027–2028 in Lhasa in the
+  five themes, at font scale 2.0, in landscape and in Russian. The ten
+  sent to the owner by letter on 2026-11-24.
+- **Accepted and merged (2026-11-24).** The owner: "88 is fine". Merged
+  after Kālacakra and Gaden Ngamchö were dropped (T6.4): their two frames
+  went with them, nine are in the app. The frame of Saga Dawa Düchen in
+  the app is the first painting (leaves outside the aureole, a slab under
+  the seat), which the owner accepted with the rest; its repaint,
+  `zanshin-festival-saga-dawa` in `paint-queue`, may take its place if he
+  prefers it. The Nyingma days of T6.4 take the frames queued for them.
 
 **Not in it.** The 旧暦 page's festivals: painted in the manner of
 ukiyo-e, [T6.3](#t6-3).

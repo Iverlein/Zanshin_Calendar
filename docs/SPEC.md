@@ -3805,7 +3805,8 @@ canvas "Zanshin Calendar — basic design".
   are hidden, and a tap on the title there goes back to the days. Any
   month of the range is three taps from the days (title, year, month),
   with a scroll of the years between.
-- Festivals and holidays carry a line glyph drawn for this app.
+- The 旧暦 page's festivals carry a line glyph drawn for this app; the
+  Tibetan page's stand in painted frames (§10.3).
 - **Local sky line** at the bottom of both calendars (§10.5).
 - **First-run line** (ROADMAP U18, built 2026-10-11): under the In brief
   row, on the first three opens of each page, one line that can be put
@@ -3819,8 +3820,11 @@ canvas "Zanshin Calendar — basic design".
 
 ### 10.3 Tibetan view
 
-- **Headline:** the day number, with the month under it. On a holiday, the
-  holiday's name and glyph take the headline and the date moves under it.
+- **Headline:** the day number, with the month under it. On a festival
+  the number stands in the festival's painted frame and the festival's
+  name, at 40 sp, under it, opening its reading; its Tibetan and its
+  English follow, then the practice day's name where the festival falls on
+  one, and "moved from day N" for a festival kept on another date.
 - **Practice day** (§5.8; the owner, 2026-11-17; painted 2026-11-22): on
   the 8th, 10th, 15th, 25th, 29th and 30th the day number stands in a frame
   painted in the manner of a Central Tibetan (Menri) thangka, as a buddha's
@@ -3846,7 +3850,27 @@ canvas "Zanshin Calendar — basic design".
   ("Day of the Medicine Buddha"), opens a balloon
   with the day's reading and its *Practice* and *Strong when* rows; a
   skipped date's day kept today says "moved from day N". On a festival the
-  name stands under the festival's, without the frame.
+  day's name stands under the festival's, and the festival's frame takes
+  the place of the day's.
+- **Festival frames** (ROADMAP T6.2, painted 2026-11-24): the nine great
+  festivals each have a frame in the same hand and on the same geometry as
+  the practice days', the aureole's band and the crown carrying the
+  festival's event: the eight auspicious symbols (བཀྲ་ཤིས་རྟགས་བརྒྱད, bkra
+  shis rtags brgyad) on gold, the treasure vase at the crown, for Losar;
+  the twin miracle, fire above and water below, under the full moon for
+  Chötrul Düchen; flowering branches, an opening lotus and seven small lotuses
+  on the seat, for the seven steps, for the Birth; bodhi leaves, the full
+  moon and a double vajra on the seat for Saga Dawa Düchen; juniper smoke,
+  plain five-coloured flags and a censer under the full moon for Zamling
+  Chisang; the Dharma wheel between two deer (རི་དྭགས, ri dwags) for
+  Chökhor Düchen; moonlit clouds and the six-tusked white elephant for the
+  entry into the womb; the triple stair of gold, silver and gems among
+  rainbows for Lhabab Düchen; a red torma (གཏོར་མ, gtor ma) on a dark aureole and
+  a sun disc on the seat for the thanksgiving to the protectors
+  (`res/drawable-nodpi/festival_*.webp`, the paintings in `art/festivals/`,
+  cut by `tools/practice_frames.py`, which scales each so its disc lies on
+  the practice days'). The Nyingma days of §5.7 (T6.4) have no frame yet:
+  Mipham's 29th and the Guru's 10th show the practice day's, the others none.
 - **Month:** number plus Tibetan name — "4th month · sa ga". Tapping it opens
   a balloon with the other names: Sanskrit lunar mansion, animal name
   (Janson Table 4), and its two seasons, each labelled, as WB's model

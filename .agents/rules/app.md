@@ -63,10 +63,13 @@ paths:
   large and at 22 px; look at every new one at 22 px before building. A
   work gets its own glyph (`CueGlyphs.WORK`) only where its family's
   draws it badly; the In brief row keeps the families.
-- **The practice days' frames are paintings** (SPEC §10.3, ROADMAP
-  T6.1), never redrawn in code. The sources are `art/practice/` as they
-  were painted, on a flat magenta key; `tools/practice_frames.py cut
-  art/practice` keys them out, takes the part each frame uses, clears the
+- **The practice days' and the festivals' frames are paintings** (SPEC
+  §10.3, ROADMAP T6.1, T6.2), never redrawn in code. The sources are
+  `art/practice/` and `art/festivals/` as they were painted, on a flat
+  magenta key; `tools/practice_frames.py cut art/practice art/festivals`
+  (`--only festival_` for one set) first scales a festival painting so its
+  disc lies on the practice frames' and evens out an off-key background,
+  then keys them out, takes the part each frame uses, clears the
   plain disc round the numeral to a faint glow and writes
   `res/drawable-nodpi/practice_*.webp`; `practice_frames.py sheet OUT.png`
   shows them on four page colours with the numeral in each. The window the

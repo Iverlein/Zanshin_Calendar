@@ -14,8 +14,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11.png" width="220" alt="A dream read: each tradition's verdict on riding upward, a pit and the sun rising">
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
-  leap months; festivals; the month's practice days (the 8th, 10th, 15th,
-  25th, 29th and new moon, and the 9th and 24th as small days of the
+  leap months; festivals, the date in a frame painted for each; the
+  month's practice days (the 8th, 10th, 15th, 25th, 29th and new moon, and the 9th and 24th as small days of the
   Dharma protectors) in a frame painted as a thangka's aureole and lotus
   seat, each naming who comes
   and what to practise; lunar mansion, yoga,
