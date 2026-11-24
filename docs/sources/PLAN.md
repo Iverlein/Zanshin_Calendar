@@ -2466,3 +2466,10 @@ Scan investigations, 2026-11-14 (scan-e, WB vol. 2 pp. 240–545):
   - Kotobank has no entry 甲子待, 夏越の祓, 初甲子 or 終い不動 (404); 大般若会, 初観音 and 初不動 only dictionary lines; no 国史大辞典 entry on any page opened; its search page gives no result list in the page text.
   - 東都歳事記 (1838) has no 初甲子, no 終い不動 or 納め不動, no 地蔵盆.
   - The Playwright browser follows only the default Proton instance, so NAOJ 暦Wiki was not opened through a reader's own JP instance.
+- ****RD413, the Prajñāpāramita's day at a Shingon mountain temple (2026-11-24)**** (RD413, 2026-11-24):
+  - HN (NDL OCR of all five volumes): no 五大力 at 醍醐寺 and no 仁王会 there in any month; the only 五大力 is Kōfuku-ji's (frame 33).
+  - NDL Lab book search: «醍醐 五大力», «醍醐五大力», «五大力尊仁王会», «五大力の御影», «五大力の札», «五大力菩薩の札», «醍醐の五大力» no hit; «五大力尊», «五大力», «仁王会», «仁王會», «五大力菩薩», «五大尊», «仁王講» (first 100–300 hits each) no passage on the 2/23 rite, only the court 仁王会 of the Heian period.
+  - Kotobank: no entry 五大力尊仁王会 (404); 甲子待 is 404 but 甲子待ち and 甲子祭 have entries (corrects RD412's dead end).
+  - 高尾山薬王院's site (takaosan.or.jp) did not open in the headed browser (certificate error); not read.
+  - 金剛峯寺's list of yearly rites today (KY) names no Prajñāpāramita rite.
+  - 高野山通念集 and 諸国年中行事大成 not found in NDL Lab by title.

@@ -657,18 +657,18 @@ November.
 
 ### Open
 
-- Question: Was 醍醐寺's 五大力尊仁王会 held on the 23rd of the second
+- Question 1393 ([q1393](questions/q1393.md)): Was 醍醐寺's 五大力尊仁王会 held on the 23rd of the second
   month before 1873, so that 23 February is the old date moved to the new
   calendar, or on another day? Its date in an Edo source was not found.
-- Question: Is 醍醐寺's 23 February rite to be counted a Prajñāpāramita day
+- Question 1394 ([q1394](questions/q1394.md)): Is 醍醐寺's 23 February rite to be counted a Prajñāpāramita day
   by its sūtra (the 仁王般若波羅蜜経), though no 大般若 is read at it? Its own
   page names the 五大明王 and the 五大力菩薩, not the 般若.
-- Question: KZ frame 44: what are the small-type notes after «本尊五大力尊»
+- Question 1395 ([q1395](questions/q1395.md)): KZ frame 44: what are the small-type notes after «本尊五大力尊»
   (read «五幅[…]») and before «有布施紙» (read with doubt
   «百法師經說歟題精好御經各一卷通計五十部讀之»)?
-- Question: HN frame 33: is «仕丁武則以下» the right reading, and what does
+- Question 1396 ([q1396](questions/q1396.md)): HN frame 33: is «仕丁武則以下» the right reading, and what does
   it mean in the selling of Kōfuku-ji's 五大力 charms?
-- Question: Is Daikoku's 子祭 of the eleventh month kept today on the old
+- Question 1397 ([q1397](questions/q1397.md)): Is Daikoku's 子祭 of the eleventh month kept today on the old
   month's 子 or 甲子 day or in November, and is the 子 day kept in a year
   whose eleventh month has no 甲子?
 

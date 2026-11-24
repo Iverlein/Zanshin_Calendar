@@ -2966,6 +2966,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1390.md](questions/q1390.md) | question q1390 | 東都歳事記 frame 35: 一町に三五社 | open; cites — |
 | [questions/q1391.md](questions/q1391.md) | question q1391 | 東都歳事記 frame 38: the drum-sellers before 初午 | open; cites — |
 | [questions/q1392.md](questions/q1392.md) | question q1392 | 東都歳事記 frame 56: the 節分 beans on the first thunder | open; cites — |
+| [questions/q1393.md](questions/q1393.md) | question q1393 | The old date of Daigo-ji's 五大力尊仁王会 | open; cites — |
+| [questions/q1394.md](questions/q1394.md) | question q1394 | Is the 仁王会 a Prajñāpāramita day | open; cites — |
+| [questions/q1395.md](questions/q1395.md) | question q1395 | KZ frame 44's small-type notes | open; cites — |
+| [questions/q1396.md](questions/q1396.md) | question q1396 | HN frame 33's «仕丁武則以下» | open; cites — |
+| [questions/q1397.md](questions/q1397.md) | question q1397 | Daikoku's 子祭 today and in a year without 甲子 | open; cites — |
 
 <!-- end pool index -->
 
