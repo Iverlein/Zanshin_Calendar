@@ -101,16 +101,16 @@ Kagyu days of a Tsurphu almanac need not fall on the Phugpa dates.
 
 ### Open
 
-- Question: Which days does the Karma Kagyu keep for the passing of Milarepa and Marpa: Milarepa 1/14 and Marpa 1/15 (the Rigpa students' calendar, Jeff Watt, the Tsurphu almanac of 2015), Marpa 1/14 and Milarepa 1/15 (a Kagyu house in Rin chen dbang rgyal's memoir, MW1KG1356), or Milarepa in the third (horse) month (Rta rna dgon; a house in Gtor bshig dang gsar bskrun gyi bang rtsal)? The Karmapa's conference of 2023 set none (claim milarepa-and-marpa-days-differ).
-- Question: Is the first autumn month (ston zla ra ba) at whose full moon Tsurphu held Gampopa's passing offering (Mtshur phu dgon gyi dkar chag, MW20850) the sixth month of the calendars' 6/15, or another?
-- Question: Is the 3rd Karmapa Rangjung Dorje's day the 14th (the Rigpa students' calendar) or the 10th (Jeff Watt) of the sixth month, and in which reckoning?
-- Question: In the 2015 Tsurphu almanac (MW2PD17637) the first Karmapa's day is the 3rd of "the reckoners' middle winter month, the earth-mouse month, which farmers and nomads call the monkey month": which Hor month is that in the Tsurphu reckoning, and why would the mouse month be called the monkey month?
-- Question: Who are "the two root lamas" whose yearly remembrance the Mindroling rule-book holds from the 19th to the 29th of the second Hor month (MDB, img. 172), and is it Terdak Lingpa's own day, which the calendars put on 2/2?
-- Question: Who is Rje Bdud 'dul rab brtan, whose passing offering the Mindroling rule-book moved from the Saga month to the ninth month's descent from the gods (MDB, img. 179)?
-- Question: Ka-Nying Shedrub Ling's dates for 2027 (monlam.org) fall one month ahead of the Phugpa reckoning as computed (a doubled second month in 2027) from the third month on: does the Men-Tsee-Khang almanac of 2027 double the second month too, or does the monastery follow another reckoning (Tsurphu)?
-- Question: Nyag bla Padma bdud 'dul's day: 4/30 (the Rigpa students' calendar) or 4/18 (Jeff Watt)?
-- Question: Is any day of the year kept for Tilopa and Nāropa in the Karma Kagyu, and with what source?
-- Question: Is the eleventh month of KTD's date for Dudjom Rinpoche's passing (ch. 10, p. 205) the Phugpa calendar's eleventh month, so that a Phugpa 11/18 falls on the day his lineage keeps?
+- Question 1369 ([q1369](questions/q1369.md)): Which days does the Karma Kagyu keep for the passing of Milarepa and Marpa: Milarepa 1/14 and Marpa 1/15 (the Rigpa students' calendar, Jeff Watt, the Tsurphu almanac of 2015), Marpa 1/14 and Milarepa 1/15 (a Kagyu house in Rin chen dbang rgyal's memoir, MW1KG1356), or Milarepa in the third (horse) month (Rta rna dgon; a house in Gtor bshig dang gsar bskrun gyi bang rtsal)? The Karmapa's conference of 2023 set none (claim milarepa-and-marpa-days-differ).
+- Question 1370 ([q1370](questions/q1370.md)): Is the first autumn month (ston zla ra ba) at whose full moon Tsurphu held Gampopa's passing offering (Mtshur phu dgon gyi dkar chag, MW20850) the sixth month of the calendars' 6/15, or another?
+- Question 1371 ([q1371](questions/q1371.md)): Is the 3rd Karmapa Rangjung Dorje's day the 14th (the Rigpa students' calendar) or the 10th (Jeff Watt) of the sixth month, and in which reckoning?
+- Question 1372 ([q1372](questions/q1372.md)): In the 2015 Tsurphu almanac (MW2PD17637) the first Karmapa's day is the 3rd of "the reckoners' middle winter month, the earth-mouse month, which farmers and nomads call the monkey month": which Hor month is that in the Tsurphu reckoning, and why would the mouse month be called the monkey month?
+- Question 1373 ([q1373](questions/q1373.md)): Who are "the two root lamas" whose yearly remembrance the Mindroling rule-book holds from the 19th to the 29th of the second Hor month (MDB, img. 172), and is it Terdak Lingpa's own day, which the calendars put on 2/2?
+- Question 1374 ([q1374](questions/q1374.md)): Who is Rje Bdud 'dul rab brtan, whose passing offering the Mindroling rule-book moved from the Saga month to the ninth month's descent from the gods (MDB, img. 179)?
+- Question 1375 ([q1375](questions/q1375.md)): Ka-Nying Shedrub Ling's dates for 2027 (monlam.org) fall one month ahead of the Phugpa reckoning as computed (a doubled second month in 2027) from the third month on: does the Men-Tsee-Khang almanac of 2027 double the second month too, or does the monastery follow another reckoning (Tsurphu)?
+- Question 1376 ([q1376](questions/q1376.md)): Nyag bla Padma bdud 'dul's day: 4/30 (the Rigpa students' calendar) or 4/18 (Jeff Watt)?
+- Question 1377 ([q1377](questions/q1377.md)): Is any day of the year kept for Tilopa and Nāropa in the Karma Kagyu, and with what source?
+- Question 1378 ([q1378](questions/q1378.md)): Is the eleventh month of KTD's date for Dudjom Rinpoche's passing (ch. 10, p. 205) the Phugpa calendar's eleventh month, so that a Phugpa 11/18 falls on the day his lineage keeps?
 
 ### Searched and not found
 
