@@ -7,6 +7,22 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+## <a id="tsl-30-i4-5"></a>tsl.30:i4-5 The modern editor's preface to vol. 30: Rtsa gsum gling pa born in the twelfth Rab byung's wood-dog year (1694), the first treasure in the fire-monkey year (1716)
+
+*Read: scan, 2026-11-24 (RD411): the dated clauses read on the scan of images 4-5 (front-matter folios 1-2, typeset); modern matter, quoted no further than the dates.*
+
+> … དེ་ཉིད་ཐོག་མར་རབ་བྱུང་བཅུ་གཉིས་པའི་ཤིང་ཁྱི་ལོ་སྤྱི་ལོ་༡༦༩༤ སྒོམ་སྡེ་ནང་ཆེན་རྒྱལ་པོའི་མངའ་ཁོངས་དཔའ་རོང་[i5]བྱ་བར། རླངས་ཆེན་དཔལ་གྱི་སེངྒེའི་གདུང་རྒྱུད་རླངས་ནག་གི་རིགས་སུ་སྐུ་བལྟམ། དགུང་གྲངས་ཉེར་གཅིག་པར་འབྲོང་པ་རྡོ་ཤུལ་ཨ་མྱེ་མུ་ཁྲི་ནས་གཏེར་གྱི་ལྡེ་མིག་ཕྱག་ཏུ་སོན་ཞིང་། མེ་སྤྲེལ་ལོ་སྤྱི་ལོ་༡༧༡༦ ལོར་འབྲི་གུང་ཏི་སྒྲོ་ཚོགས་ཁང་ཆེན་མོ་ནས་ … ཆོས་སྡེ་ཐོག་མར་བཞེས་ཤིང་། …
+
+(The modern editor's preface to vol. 30, its list of contents in verse and prose, images 4-11; modern matter, so quoted no further than the dates. Images 4 and 5 carry the front-matter folios 1 and 2.) Facts in our own words: Rtsa gsum gling pa (རྩ་གསུམ་གླིང་པ, rtsa gsum gling pa) was born in the twelfth sixty-year cycle (རབ་བྱུང, rab byung), in the wood-dog year (ཤིང་ཁྱི་ལོ, shing khyi lo), which the editor gives as 1694 of the common era (སྤྱི་ལོ, spyi lo), at Dpa' rong in the domain of the king of Nang chen, in the Black Rlangs line of Rlangs chen Dpal gyi seng ge. At twenty-one (དགུང་གྲངས་ཉེར་གཅིག, dgung grangs nyer gcig) the key to the treasures came into his hands at A mye Mu khri of 'Brong pa Rdo shul; in the fire-monkey year (མེ་སྤྲེལ་ལོ, me sprel lo), 1716, he took out his first treasure teachings (those of Bla ma Drag po Padma khrag 'thung and Mkha' 'gro Gsang ba ye shes) from the great assembly hall of the ḍākinīs at Ti sgro of 'Bri gung. The editor gives no month or day of birth.
+
+## <a id="tsl-30-i8"></a>tsl.30:i8 The modern editor's preface: the passing at forty-five in the twelfth Rab byung's earth-horse year (1738); the autobiography to his twenty-eighth year
+
+*Read: scan, 2026-11-24 (RD411): read on the scan of image 8 (front-matter folio 5).*
+
+> … ཉིད་དགུང་གྲངས་ཞེ་ལྔར་བཞེས་པ་རབ་བྱུང་བཅུ་གཉིས་པ་ས་རྟ་ལོ་སྤྱི་ལོ་༡༧༣༨ དགོངས་པ་ཆོས་དབྱིངས་སུ་ཐིམ་རྗེས། … ཞུས་ངོར་དགུང་གྲངས་ཉེར་བརྒྱད་བར་རྣམ་ཐར་རྩ་ཚིག་རང་གསུང་དང་། …
+
+(The same preface, front-matter folio 5; quoted no further than the dates.) Facts in our own words: at forty-five (དགུང་གྲངས་ཞེ་ལྔ, dgung grangs zhe lnga), in the earth-horse year (ས་རྟ་ལོ, sa rta lo) of the twelfth cycle, which the editor gives as 1738, his mind dissolved into the expanse of phenomena (དགོངས་པ་ཆོས་དབྱིངས་སུ་ཐིམ, dgongs pa chos dbyings su thim), the honorific for a master's passing. The preface adds that the autobiography in his own words (the Zhal gsung ma) runs to his twenty-eighth year, told at the request of the king of Spo bo Ka gnam and his ministers, with a short supplement asked for later by the king of Nang chen. No month or day of the passing is given.
+
 ## <a id="tsl-27-i14"></a>tsl.27:i14 A torma offering verse of vol. 27: bad dreams and bad signs asked to be absent
 
 *Read: etext, 2026-11-10 (RD363): BDRC's etext (IE0OPI46409446) of the volume named in the id, page marker pN = image N; only the excerpt, with the etext's stray spaces and page-start marks left out; not compared with the scan, so every syllable here stands on the etext and is not built on until read on the scan.*
@@ -379,6 +395,22 @@ The feast gathering before a treasure is drawn out is set on the fifteenth, whic
 
 (A passage of the life told in the first person, in a stay at Bal phur: a messenger from the tulku's household has come.) "This year the tulku's rough skag (རྩུབ་སྐག, rtsub skag) is great, so please do a protective creation-stage rite (སྐུ་རིམ, sku rim)", so they said.
 
+## <a id="tsl-30-i564"></a>tsl.30:i564 The close of the autobiography (Zhal gsung ma): arranged in the second month of a fire-sheep year
+
+*Read: scan, 2026-11-24 (RD411): the small-letter dating line read on the scan.*
+
+> … ཐིམ། མེ་ལུག་ཟླ་བ་གཉིས་པའི་ཚེས་ལ་བསྒྲིགས་ཆགས་བགྱིས་པ་བཀྲ་ཤིས་དགེ་ལེགས་འཕེལ། …
+
+(The last lines of the autobiography, the Zhal gsung ma, printed p. 552; the dating line stands in small letters after the verse. Who wrote it, Rtsa gsum gling pa or a later arranger, the page does not say.) "… Arranged on a day (ཚེས, tshes, the number not given) of the second month (ཟླ་བ་གཉིས་པ, zla ba gnyis pa) of the fire-sheep year (མེ་ལུག, me lug); may auspiciousness, virtue and goodness increase." The year is not converted on the page.
+
+## <a id="tsl-30-i565"></a>tsl.30:i565 Khyentse Wangpo's brief life: born within the eleventh Rab byung, the year not clear
+
+*Read: scan, 2026-11-24 (RD411): read on the scan of image 565 (printed p. 553).*
+
+> གནུབས་ཆེན་སངས་རྒྱས་ཡེ་ཤེས་ཀྱི་སྐྱེ་མཐའ་རྩ་གསུམ་གཏེར་བདག་གླིང་པའམ་གར་དབང་གནམ་ལྕགས་རྡོ་རྗེ་ཞེས་གྲགས་པ་ནི། ལྷོ་ཟླ་ནང་ཆེན་གྱི་སའི་ཆ་གནས་ཆེན་ཇོ་བོ་གཟེ་རྒྱལ་དང་སྐུ་རྒྱལ་ཤེ་ནེ་སོགས་ཀྱི་འདབས། ནགས་རོང་ཞེས་པར་ཡབ་འབྲུ་ཆེན་རླངས་ཀྱི་རིགས་བཀྲ་ཤིས་དང་། ཡུམ་དགེ་ལེགས་མ་གཉིས་ཀྱི་སྲས་སུ་རབ་འབྱུང་བཅུ་གཅིག་པའི་ནང་འཁྲུངས། ལོ་རྟགས་གསལ་བར་མི་སྣང་། འཁྲུངས་རྟགས་དང་གཟིགས་སྣང་སོགས་ངོ་མཚར་ཆེ་བ་མང་དུ་བྱུང་།
+
+(The opening of the brief life by Jamyang Khyentse Wangpo (འཇམ་དབྱངས་མཁྱེན་བརྩེའི་དབང་པོ, 'jam dbyangs mkhyen brtse'i dbang po), «Gter chen rtsa gsum gling pa'i rnam thar bsdus pa», printed p. 553; the vol. 30 contents give it pp. 553-560.) "He who is known as Rtsa gsum gter bdag gling pa, or Gar dbang gnam lcags rdo rje, the last birth of Gnubs chen Sangs rgyas ye shes, was born at the place called Nags rong, on the slopes of the great sacred mountains Jo bo Gze rgyal, Sku rgyal She ne and others, in the lands of Lho zla Nang chen, the son of the father Bkra shis, of the 'Bru chen Rlangs clan, and the mother Dge legs ma, within the eleventh sixty-year cycle (རབ་འབྱུང་བཅུ་གཅིག་པ, rab 'byung bcu gcig pa). The sign of the year (ལོ་རྟགས, lo rtags) does not appear clearly. Many wonders, signs at his birth, visions and the like, occurred." Khyentse names the cycle and says the year itself is not known to him; no month or day.
+
 ## <a id="tsl-28-i569"></a>tsl.28:i569 A torma-repelling manual: the time, the three nines or a date of the waning half
 
 *Read: scan, 2026-11-16.*
@@ -390,6 +422,22 @@ From the preparation section of a prose manual in vol. 28 whose title page (etex
 The clause: "as for the time: such as when the sun travels south … the planets and stars being rough, and on the three nines (དགུ་གསུམ, dgu gsum) or on a date of the time of the waning half (མར་ངོ, mar ngo) and the like".
 
 The fact: for a wrathful rite of repelling by torma, the manual asks for the opposite of an auspicious day: the sun's southward course, rough planets and stars, and either "the three nines" or a date of the waning half. The three nines are not spelled out on the page; as dates of a month they would be the 9th, 19th and 29th, which is the page's likely sense and not its statement.
+
+## <a id="tsl-30-i569"></a>tsl.30:i569 Khyentse Wangpo's brief life: Rtsa gsum gling pa's own verse counting the treasures up to the fire-horse year
+
+*Read: scan, 2026-11-24 (RD411): read on the scan of image 569 (printed p. 557).*
+
+> གཏེར་ཆོས་ཀྱི་རྣམ་གྲངས་རྗེ་ཉིད་སྤོ་བོར་བཞུགས་སྐབས་ཚིགས་སུ་བཅད་པ། དེ་སྐབས་རྒྱུད་སྡེ་དཔེར་འཁོད་ཀ་ཐོ་ནི། །ཚེ་སྒྲུབ་རྣམ་བཞི་ཡང་ཕུར་དམར་ནག་དང་། །དྲག་པོ་རིགས་གསུམ་ཐུགས་རྗེ་ཆེན་པོ་དང་། །མཁའ་འགྲོ་སེང་གདོང་ཞིང་སྐྱོང་སྡེ་ཚན་གཉིས། །ཡེ་ཤེས་མགོན་པོ་སྡེ་ལྔ་ལ་སོགས་དང་། །དྲེགས་པ་འབུམ་ཏིག་དང་བཅས་མ་ལུས་ཀྱི། །སྔ་ཕྱི་གདན་དྲངས་དགོས་རིམ་ཁོལ་ཕྱུང་ལ། །མེ་རྟ་ཡན་ཆད་ཤོག་སེར་བུ་དཔེ་ནི། །པོ་ཏིའི་སྡེར་ལོང་བཅུ་བཞི་ལྷག་ཙམ་བྱུང་། །ཞེས་གསུངས་པ་ནི་རགས་རིམ་ཙམ་ཞིག་ཡིན་སྣང་བ་ལས་གཏེར་ཆོས་རྒྱ་ཆེར་བཞུགས་སྐད།
+
+(Khyentse's brief life, printed p. 557, quoting Rtsa gsum gling pa's own verse.) "The count of the treasure teachings, in a verse spoken by the Lord himself while he stayed in Spo bo: 'The list of the tantra sections set down as books at that time: the four kinds of long-life practice, the Yang phur red and black, the three wrathful families, the Great Compassionate One, the lion-faced ḍākinī, two sections of the field protector, the five classes of the wisdom protector and others, and the Hundred Thousand Essences of the arrogant ones: all of them, revealed early and late, taken out in the order needed: up to the fire-horse year (མེ་རྟ, me rta) the yellow scrolls and their copies came to somewhat more than fourteen volumes of pothi.' This seems only a rough count; the treasure teachings are said to be vaster." The year is named by element and animal only. (The KTD translation of this life on padmasambhava.org renders it "Fire Dog year" and dates it 1726, pbc:p2; the print reads «མེ་རྟ», fire-horse; the year is not converted here.)
+
+## <a id="tsl-30-i575"></a>tsl.30:i575 Kongtrul's life of Rtsa gsum gling pa: passed at about forty-four
+
+*Read: scan, 2026-11-24 (RD411): read on the scan of image 575 (printed p. 563), the age word checked at 2x.*
+
+> གདན་སའི་མཐིལ་སྤོ་བོ་ཁྲོམ་གཟིགས་རྔམས་ཆེན་རོང་དུ་མཛད། སློབ་ཚོགས་ཅི་རིགས་པར་འདུས་ཤིང་ཕྲིན་ལས་རྒྱས་པར་བྱུང་ནའང་དགུང་ལོ་བཞི་བཅུ་རྩ་བཞི་པ་ཙམ་ལ་སྐུ་གཤེགས་པས་མཛད་པ་མཐར་ཕྱིན་མ་བྱུང་བར་སྣང་། གཤེགས་རྗེས་ཀྱི་བྱ་བ་སློབ་ཚོགས་རྣམས་ཀྱིས་ལེགས་པར་སྤེལ་ཤིང་། …
+
+(The life by Jamgön Kongtrul Lodrö Thayé (འཇམ་མགོན་བློ་གྲོས་མཐའ་ཡས, 'jam mgon blo gros mtha' yas), «Gter chen rtsa gsum gling pa'i rnam thar», printed p. 563; the contents give it pp. 561-564.) "He made the heart of his seat at Khrom gzigs Rngams chen rong in Spo bo. Disciples of every kind gathered and his activity spread, but he passed away (སྐུ་གཤེགས, sku gshegs) at about forty-four (དགུང་ལོ་བཞི་བཅུ་རྩ་བཞི་པ་ཙམ, dgung lo bzhi bcu rtsa bzhi pa tsam), so that his deeds seem not to have been brought to completion. The work after his passing his disciples carried on well …" Kongtrul gives the age only, «about», with no year, month or day; his own account of the birth (printed p. 561, read in the etext only) names no year either.
 
 ## <a id="tsl-27-i591"></a>tsl.27:i591 The colophon of the Commentary «Samsara and Nirvana Self-liberated»: the writer Gnam lcags Gsang sngags bstan 'dzin, aged 51, in the seventeenth cycle's water-sheep year
 

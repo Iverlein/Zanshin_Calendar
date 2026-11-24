@@ -511,7 +511,7 @@ tsl:
     27: {scan: I1PD108815, image_offset: 0, notes: "etext (IE0OPI46409446) pN = image N; printed page = image - 11 at the places first checked, but image - 7 at images 190 and 211 (printed 183 and 204, read on the scan 2026-11-14), so check the page number on the image before computing; modern compilation by Mkhan chen Dpal ldan shes rab of the treasure teachings' instruction texts (Grol byed khrid kyi rim pa phyogs bsdus, Theg mchog rtse mor 'jug pa'i them skas), verses of the treasure quoted in it; his own prose facts only"}
     28: {scan: I1PD108816, image_offset: 0, notes: "etext (IE0OPI46409446, volume VEIE0OPI46409446_I1PD108816, 662 pages) pN = image N, printed page = image - 10 (image 72 carries the printed folio 61-62); the volume's own title page and thematic heading: Zab gter pod nyer brgyad pa, 'from the profound treasure of Pad rgyal gling pa, who keeps the border of the Lord's (Rtsa gsum gling pa's) treasures, set down as supplements' with the Gnam lcags thor bu them skas; i.e. mostly the treasure of the successor Gter chen Pad rgyal gling pa (Gar dbang 'gro 'dul gling pa), not of Rtsa gsum gling pa himself (the Dgongs 'dus colophons at pp. 72 and 79; the prayers against the skag kinds of year, month, day and time at pp. 612-637); read in the etext only, image 72 seen on the scan for its layout"}
     29: {scan: I1PD108817, image_offset: 0, notes: "prayers and sadhanas, 46 etext parts (the table is in the etext refs of IE0OPI46409446); pN = image N"}
-    30: {scan: I1PD108818, image_offset: 0, notes: "Gter chen's own life story (Zhal gsung ma, from image 36 = printed p. 25; pN = image N, printed page = image - 11) with the Mkhyen kong versions and the life of Gter ston Pad rgyal gling pa; images 3-8 the modern editor's table of contents, facts only"}
+    30: {scan: I1PD108818, image_offset: 0, notes: "Gter chen's own life story (Zhal gsung ma, from image 36 = printed p. 25; pN = image N, printed page = image - 11) with the Mkhyen kong versions and the life of Gter ston Pad rgyal gling pa; images 3-8 the modern editor's table of contents, facts only; at images 565, 569 and 575 (Khyentse's and Kongtrul's lives, printed pp. 553, 557, 563) printed page = image - 12, read on the scan 2026-11-24 (RD411)"}
   locator: image
   notes: "a source at the owner's word (2026-11-07), equal to Mipham's word (rank 2; a disagreement between the two is the owner's to settle), with everything that traces back to Rtsa gsum gling pa: his incarnations (the second, Rig 'dzin mi 'jigs rdo rje, P8LS3512) and the holders of his lineage at Sgo chen dgon (G1KG5757) and Padma Samye Ling (KTD); vol. n = I1PD1087(88+n), open, etext excellent; other prints MW1KG15423 (12 vols, etext unaligned), MW27492 (dbu med, 11 vols, I4560–I4570, no etext), MW4CZ302225 (no etext); the catalogue read on BDRC on 2026-11-07, no page yet"
 
@@ -525,6 +525,54 @@ ktd:
   role: source
   locator: page
   notes: "a source at the owner's word (2026-11-07) as a holder of Rtsa gsum gling pa's lineage (TSL): every text of his, in Tibetan or in translation, under the same licence rule; on BDRC also MW24036 and MW2KG5060 (Khyad chos che ba drug gi tshul nas brjod pa'i mkhan slob chos rgyal lo paN rnams kyi bka' drin rjes dran gyi gtam, open scans; the second with an unaligned etext) and the Sgo chen dgon chos spyod MW00EGS1016761 (1984, etext); the catalogue read on BDRC on 2026-11-07; RD363 (2026-11-10): MW29259 (scans only, no etext; I1GS105464, 254 images, image N = N) read by Yigdzin-1 over every image and searched for the dream words, 4 passages; MW00EGS1016761 (etext IE0OPI40212F00) is a liturgy collection compiled by Mkhan chen Dpal ldan shes rab (BDRC authorship statement), not Khenpo Tsewang Dongyal's own text, read only for the dream words; MW24036 (I3655, I3656, 542 and 594 images, scans only) not read"
+
+# --- RD411 (2026-11-24): the dates of Rtsa gsum gling pa, Machig Labdrön and Phadampa Sangye.
+dsn:
+  title: "Deb ther sngon po (the Blue Annals), vol. 2, the chapters on the Zhi byed lineages (ch. 12, «zhi byed brgyud pa snga phyi bar gsum gyi skabs») and on Gcod and Kha rag pa (ch. 13, «gcod yul dang kha rag pa'i skabs»)"
+  author: "'Gos lo tsA ba Gzhon nu dpal (the Gser thang title page as the etext reads it: «'gos lo gzhon nu dpal gyis brtsams»)"
+  edition: "Gser thang bla rung lnga rig nang bstan slob gling, Gser rta, 2 vols, 1302 pp. (typeset, BDRC MW3CN3380; vol. 2 = smad cha, scans I3CN8594, etext VEIE0OPI9D7F778A_I3CN8594, etext page = image number)"
+  bdrc: {work: MW3CN3380, etext: VEIE0OPI9D7F778A_I3CN8594, scans: [I3CN8594]}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    2: {scan: I3CN8594, image_offset: 0, notes: "printed page = image + 665 at image 477 (printed 1142, read on the scan 2026-11-24); the page numbers stand at the foot of the page and are cut off on most images, so passages are cited by image"}
+  locator: image
+  notes: "RD411 (2026-11-24): read in the etext and on the scan at images 399, 402, 477-478. Witnesses: the Yeshe De print (Cazadero, 2 vols, MW2KG207574, etext VEIE0OPI1490667C_I2KG208011; ch. 12 from etext p. 318 = printed 301, ch. 13 from etext p. 426 = printed 409; the same words where compared); the Chengdu 1984 edition (MW1KG5762, ch. 12 = vol. 2 pp. 1012-1335, ch. 13 pp. 1337-; etext VE1KG5762_002 answers 403, search only); the Sku 'bum print (MW4CZ74375, etext VEIE0OPI9D94BA84_I4CZ74377, OCR unusable). Roerich's translation (1949) not opened."
+
+pgz:
+  title: "Phung po gzan skyur gyi rnam bshad gcod kyi don gsal byed (the Explanation of Offering the Aggregates as Food, Clarifying the Meaning of Chöd), ch. 1-2: Machig Labdrön's life"
+  author: "the text names Ma gcig lab sgron as its source; ch. 2's closing note names Nam mkha' rgyal mtshan as the writer of its last part and the lineage down to Bkra shis rgyal mtshan (printed p. 66)"
+  edition: "Ser gtsug nang bstan dpe rnying 'tshol bsdu phyogs sgrig khang, Lha sa 2016 (Gangs can khyad nor dpe tshogs 45), 373 pp., typeset, BDRC MW1KG24644, scans I1KG24707 (open, 2090 px), etext VEIE0OPI22CD49D1_I1KG24707 (etext page = image number)"
+  bdrc: {work: MW1KG24644, etext: VEIE0OPI22CD49D1_I1KG24707, scans: [I1KG24707]}
+  licence: "the text public-domain; the 2016 edition's own matter (headings, notes of the editors if any) copyrighted"
+  rank: 3
+  role: source
+  locator: page
+  notes: "RD411 (2026-11-24): printed page = image - 10 (p. 5 = img. 15, p. 9 = img. 19, p. 43 = img. 53, p. 65 = img. 75, read on the scan); the dates of conception, birth and the age at passing stand in small interlinear letters beside the main line (mchan), which the 1992 Zi ling edition (MW1KG14796, «Pha dam pa dang ma cig lab sgron gyi rnam thar», Mtsho sngon mi rigs dpe skrun khang, etext VEIE0OPI174D2705_I1KG14927, Machig's life from etext p. 253, printed p. = etext p. - 10) sets in the running text; that 1992 etext lacks etext pages 65-164 (Phadampa's later life and passing); its Gser thang reprint is VEIE0OPI8A39A341_I3CN4779. Other prints of the Gzan skyur found by title on BDRC and not read: MW1KG17585 (Kathmandu 2008), MW8LS16565, MW8LS17541 (dbu med), MW1KG22083 (Rong po dgon chen), MW00EGS1016278_8B2648 (the Gcod kyi chos skor, PL480), MW1NLM3262 and MW2KG208159 (Mongolia), MW8LS36317 (Rdor gling 2001 with Phadampa's life, scans I8LS36355)."
+
+zbc:
+  title: "Zhi byed snga phyi bar gsum gyi chos skor phyogs bsgrigs (the collected teachings of the early, middle and later Zhi byed), vol. 5 (ca): Khams smyon Dharma seng ge's life of Phadampa Sangye, «Grub pa'i dbang phyug chen po rje btsun dam pa sangs rgyas kyi rnam par thar pa dngos grub 'od stong 'bar ba'i nyi ma»"
+  author: "Khams smyon Dharma seng ge, as BDRC records the same life in MW8LS36317 (the 1992 edition MW1KG14796 names «Chos kyi seng ge and Gang pa» on its title page, etext p. 5); his dates not read"
+  edition: "Ding ri glang skor gtsug lag khang, Kathmandu 2012/2013, 13 vols (BDRC MW1KG22147, a copy from the LTWA, acc. D32930-D32942), vol. 5 (ca) = I1KG22169, typeset pecha, 5120 px, etext VEIE0OPI956399FF_I1KG22169 (etext page = image number)"
+  bdrc: {work: MW1KG22147, etext: VEIE0OPI956399FF_I1KG22169, scans: [I1KG22169]}
+  licence: "the text public-domain; the 2012 edition's own matter copyrighted"
+  rank: 3
+  role: source
+  volumes:
+    5: {scan: I1KG22169, image_offset: 0, notes: "image N = etext page N; the folio numbers not read"}
+  locator: image
+  notes: "RD411 (2026-11-24): the passing chapter («zhi ba mya ngan las 'das pa'i che ba», the ninth) from image 114, read in the etext and on the scan at images 123, 152, 157; the collection is the Ding ri tradition's own (published by the Glang skor temple, the seat at Ding ri)"
+
+pbc:
+  title: "Padmasambhava Buddhist Center (Padma Samye Ling), web pages on Rtsa gsum gling pa: «Tsasum Lingpa Autobiography» (the opening chapters of the Zhal gsung ma, «Clear Garland Crystals of Fire») and «Who is Tsasum Lingpa?» (Jamyang Khyentse Wangpo's brief life)"
+  author: "translated by Khenpo Tsewang Dongyal (KTD), the second with Pema Dragpa (Padma Samye Ling, August 2006); the one-line introduction to the first page is unsigned"
+  edition: "https://www.padmasambhava.org/tsasum-lingpa-autobiography (p1) and https://www.padmasambhava.org/who-is-tsasum-lingpa (p2), read 2026-11-24 in a headed Chromium; the pages have no page numbers, the ids number the pages"
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  locator: page
+  notes: "a KTD text (ranked beside the manuals, the rule of the owner of 2026-11-07); the second page's notes say Khyentse's whole life is printed in «The Dark Red Amulet» (Snow Lion 2008), not seen"
 
 # --- Dreams (question q784, 2026-11-09): the dream manuals found by title on BDRC and the
 # two sides' modern studies. All rank 3; WB's dream omens (ch. 30) and the Four Tantras (st)
