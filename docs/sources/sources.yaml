@@ -1927,7 +1927,7 @@ skl:
   rank: 3
   role: witness
   locator: image
-  notes: "etext only (2026-11-16), BDRC rates its OCR good; passage ids by the etext's page marker, skl:iN; BDRC lists the scans as open, not opened; whether the manual is an old text or a modern author's is not known from the record"
+  notes: "etext only (2026-11-16), BDRC rates its OCR good; passage ids by the etext's page marker, skl:iN; BDRC lists the scans as open, not opened; the author is Dkon mchog bstan 'dzin (Gzu ru Dkon mchog bstan 'dzin in BDRC's catalogue; his own colophon in the etext, 2026-11-24), his date not found"
 
 dbl:
   title: "Dbyangs can dga' ba'i blo gros, Gsung 'bum, vol. kha: a short work in verse on the dates of the Buddha's life, the four great festivals and the multiplied merit"
