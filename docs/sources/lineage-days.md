@@ -30,13 +30,13 @@ Read 2026-11-24 (RD411), on the scan wherever the state below says so; the passa
 
 ### Open
 
-- Question: Rtsa gsum gling pa's birth is given as the twelfth cycle's wood-dog year (1694) by TSL vol. 30's modern editor, as within the eleventh cycle with the year unclear by Jamyang Khyentse Wangpo, and as 1685 in the introduction to KTD's translation on padmasambhava.org; on what does each rest, and which does the lineage at Sgo chen and Padma Samye Ling hold? (tsl.30:i4-5, tsl.30:i565, pbc:p1)
-- Question: Does the lineage of Rtsa gsum gling pa keep the day of his passing (forty-five in the earth-horse year by the editor, about forty-four by Kongtrul), and if so on which month and day? No source read names one. (tsl.30:i8, tsl.30:i575)
-- Question: Is «Ma gcig» of the Mindroling rule-book's monthly offering on the twenty-first Machig Labdrön, or another lady of the house (the same list has the Mother, Yum, on the fifteenth)? (mdb:p163-166)
-- Question: In the 2016 Gzan skyur the child calls «Mother» on «the third of the dragon month» (འབྲུག་གི་ཟླ་བའི་ཚེས་གསུམ), in the 1992 edition on «the thirteenth of the third month» (ཚེས་བཅུ་གསུམ); which do the older prints of the Gzan skyur read? (pgz:p9)
-- Question: Machig's age at her passing is ninety-five in the Blue Annals and ninety-nine in the Gzan skyur; which does the Chöd lineage hold, and does any Chöd text give the day? (dsn.2:i477-478, pgz:p65)
-- Question: Is the tenth on which Phadampa Sangye died the tenth of the middle winter month named with the fourth, as the narrative implies, and does the Ding ri tradition keep that day? (zbc.5:i123, zbc.5:i152, zbc.5:i157)
-- Question: TSL vol. 30 prints the fire-horse year (མེ་རྟ) for Rtsa gsum gling pa's count of his treasures, KTD's translation the Fire Dog year of 1726; is the translation's year name a slip, or does another print read «ཁྱི»? (tsl.30:i569, pbc:p2)
+- Question 1379 ([q1379](questions/q1379.md)): Rtsa gsum gling pa's birth is given as the twelfth cycle's wood-dog year (1694) by TSL vol. 30's modern editor, as within the eleventh cycle with the year unclear by Jamyang Khyentse Wangpo, and as 1685 in the introduction to KTD's translation on padmasambhava.org; on what does each rest, and which does the lineage at Sgo chen and Padma Samye Ling hold? (tsl.30:i4-5, tsl.30:i565, pbc:p1)
+- Question 1380 ([q1380](questions/q1380.md)): Does the lineage of Rtsa gsum gling pa keep the day of his passing (forty-five in the earth-horse year by the editor, about forty-four by Kongtrul), and if so on which month and day? No source read names one. (tsl.30:i8, tsl.30:i575)
+- Question 1381 ([q1381](questions/q1381.md)): Is «Ma gcig» of the Mindroling rule-book's monthly offering on the twenty-first Machig Labdrön, or another lady of the house (the same list has the Mother, Yum, on the fifteenth)? (mdb:p163-166)
+- Question 1382 ([q1382](questions/q1382.md)): In the 2016 Gzan skyur the child calls «Mother» on «the third of the dragon month» (འབྲུག་གི་ཟླ་བའི་ཚེས་གསུམ), in the 1992 edition on «the thirteenth of the third month» (ཚེས་བཅུ་གསུམ); which do the older prints of the Gzan skyur read? (pgz:p9)
+- Question 1383 ([q1383](questions/q1383.md)): Machig's age at her passing is ninety-five in the Blue Annals and ninety-nine in the Gzan skyur; which does the Chöd lineage hold, and does any Chöd text give the day? (dsn.2:i477-478, pgz:p65)
+- Question 1384 ([q1384](questions/q1384.md)): Is the tenth on which Phadampa Sangye died the tenth of the middle winter month named with the fourth, as the narrative implies, and does the Ding ri tradition keep that day? (zbc.5:i123, zbc.5:i152, zbc.5:i157)
+- Question 1385 ([q1385](questions/q1385.md)): TSL vol. 30 prints the fire-horse year (མེ་རྟ) for Rtsa gsum gling pa's count of his treasures, KTD's translation the Fire Dog year of 1726; is the translation's year name a slip, or does another print read «ཁྱི»? (tsl.30:i569, pbc:p2)
 
 ### Searched and not found
 
