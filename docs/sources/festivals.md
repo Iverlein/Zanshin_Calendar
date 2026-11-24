@@ -153,7 +153,7 @@ Facts only; the pages' wording and lists are theirs.
   offering on 4/15; Mipham's anniversary on 4/30; the summer retreat from
   6/15 to 7/29; the Nyingma prayer festival at Bodh Gaya from 12/1 to
   12/10; Longchen Rabjam's anniversary on 12/18; Gutor from 12/25 to
-  12/29. The page lists no monthly days.
+  12/29. The page lists no monthly days. (Mipham's anniversary: Dilgo Khyentse's life puts his passing on the 29th of the fourth month, q1295, mrs:p117; the page's 4/30 has no support there.)
 - Mindrolling Monastery, *Calendar* for the fire horse year
   (mindrollinginternational.org/mindrolling-monastery-calendar/), Western
   dates only: Losar, the festival of miracles, Saga Dawa, the smoke
