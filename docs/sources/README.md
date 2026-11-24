@@ -2122,7 +2122,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | narrowed; cites wb.1:p373-375 |
 | [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | answered; cites sdp:p238-241 |
 | [questions/q0608.md](questions/q0608.md) | question q608 | Ch. 32 p. 241 l. 1: «སྤོར་ཐང» or «སྤྱོར་ཐང» | answered; cites wb.2:p241 |
-| [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | narrowed; cites wb.2:p305 |
+| [questions/q0609.md](questions/q0609.md) | question q609 | «དབོ» in p. 305's fifth meeting: the mansion or the vowel O | answered; cites wb.2:p305 |
 | [questions/q0610.md](questions/q0610.md) | question q610 | The images of p. 336's Mara days and their mansions | answered; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0611.md](questions/q0611.md) | question q611 | The six fang-holders under seven heads, pp. 305–306 | answered; cites wb.2:p305-307 |
 | [questions/q0612.md](questions/q0612.md) | question q612 | «ཆུབ» in the Chub day of pp. 335 and 341 | narrowed; cites wb.2:p335-336, wb.2:p341-342 |
@@ -2143,8 +2143,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | narrowed; cites — |
 | [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | answered; cites — |
 | [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | narrowed; cites — |
-| [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | narrowed; cites wb.2:p317 |
-| [questions/q0631.md](questions/q0631.md) | question q631 | Bharaṇī's minor star on p. 314: «ཕུང་རྒྱབ་ཅན» or «ཕུང་རྒྱང་ཅན» | narrowed; cites wb.2:p314 |
+| [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | answered; cites wb.2:p317 |
+| [questions/q0631.md](questions/q0631.md) | question q631 | Bharaṇī's minor star on p. 314: «ཕུང་རྒྱབ་ཅན» or «ཕུང་རྒྱང་ཅན» | answered; cites wb.2:p314 |
 | [questions/q0632.md](questions/q0632.md) | question q632 | «རྒྱུག» in the notes' «སྤུད་པ་དགུ་རྒྱུག་དྲུག» | narrowed; cites wb.2:p517 |
 | [questions/q0633.md](questions/q0633.md) | question q633 | The goat's bladder on p. 106: lost by the Zhol or added by the 1996 print | narrowed; cites — |
 | [questions/q0634.md](questions/q0634.md) | question q634 | The snake's «སྦོ་སྨད» on p. 122 | narrowed; cites wb.2:p122 |
@@ -2160,7 +2160,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | answered; cites wb.2:p360-361 |
 | [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | answered; cites wb.2:p323 |
-| [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | narrowed; cites wb.2:p328 |
+| [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | answered; cites wb.2:p328 |
 | [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | answered; cites wb.2:p322 |
 | [questions/q0649.md](questions/q0649.md) | question q649 | «ཆུ་ཀ་ལེན» in Jyeṣṭhā's good list, p. 323 | narrowed; cites wb.2:p323 |
 | [questions/q0650.md](questions/q0650.md) | question q650 | Aśvinī's numeral «༤» on p. 328 | answered; cites wb.2:p328-329, wb.2:p328 |
@@ -2875,6 +2875,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1359.md](questions/q1359.md) | question q1359 | Is a basket, or snow, a published part of the 七草 picture? | open; cites — |
 | [questions/q1360.md](questions/q1360.md) | question q1360 | Do the British Museum's three carp kites in Hiroshige's Surugadai print stand against Wikipedia's single black carp? | open; cites — |
 | [questions/q1361.md](questions/q1361.md) | question q1361 | Does the model almanac's 11th month start on mewa 1 (p. 154 box 1)? | open; cites — |
+| [questions/q1362.md](questions/q1362.md) | question q1362 | ཕུང་རྒྱབ་ཅན (vol. 2 p. 314) against ཕུང་སྐྱབས་ཅན (vol. 1 p. 258) | open; cites — |
 
 <!-- end pool index -->
 
