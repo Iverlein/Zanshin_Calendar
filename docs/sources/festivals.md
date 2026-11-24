@@ -185,3 +185,12 @@ a star-reckoning manual sets Atiśa's and the Root Tantra of Mañjuśrī's
 numbers beside it:
 [claims/three-traditions-of-the-multipliers.md](claims/three-traditions-of-the-multipliers.md).
 
+
+## The emblems of the eleven festivals for their painted frames ([T6.2](#t6-2)): for each festival the motif T6.2 proposes, checked against a published description of how the event is painted (the twelve deeds of the Buddha as painted in a published set or study; an encyclopaedia of Tibetan symbols for the emblems: the Dharma wheel with deer, the eight auspicious symbols, the six-tusked elephant, the triple stair, the twin miracle, Tsongkhapa's sword and book, the Kālacakra mandala's rings of the elements, the bsang smoke offering, the year-end torma) (RD408)
+
+Nothing read yet: RD408's passages, with the English beside them, go here.
+
+
+## The things of the nine 旧暦 festivals for their painted frames ([T6.3](#t6-3)): for each festival the motif T6.3 proposes, checked against a published description of what the festival is kept with (the NAOJ koyomi wiki's 節句 and 十三夜 pages, already sources; a Japanese encyclopaedia or a museum's catalogue of seasonal ukiyo-e for 七草, 流し雛, 鯉のぼり, 短冊, 月見団子, 栗名月, 精霊馬) and a published description of the koma-e cartouche and the round window in nishiki-e (RD409)
+
+Nothing read yet: RD409's passages, with the English beside them, go here.
