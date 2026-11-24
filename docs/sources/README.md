@@ -1720,7 +1720,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/vab/vab.md](corpus/vab/vab.md) | corpus | VAB | 2 passages: 2 etext |
 | [corpus/vjv/vjv.md](corpus/vjv/vjv.md) | corpus | VJV | 3 passages: 2 machine, 1 etext |
 | [corpus/wb/ch01.md](corpus/wb/ch01.md) | corpus | WB ch. 1 | 19 passages: 13 scan, 6 machine |
-| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 14 passages: 10 scan, 4 machine |
+| [corpus/wb/ch02.md](corpus/wb/ch02.md) | corpus | WB ch. 2 | 15 passages: 11 scan, 4 machine |
 | [corpus/wb/ch03.md](corpus/wb/ch03.md) | corpus | Ch03 | 16 passages: 16 scan |
 | [corpus/wb/ch06.md](corpus/wb/ch06.md) | corpus | WB ch. 6 | 5 passages: 5 scan |
 | [corpus/wb/ch07.md](corpus/wb/ch07.md) | corpus | WB ch. 7 | 7 passages: 7 scan |
@@ -1768,7 +1768,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ymk/ymk.md](corpus/ymk/ymk.md) | corpus | 夢合延寿袋大成 | 7 passages: 7 machine |
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 32 passages: 12 scan, 20 machine |
-| [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 7 scan |
+| [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/ysn/ysn.md](corpus/ysn/ysn.md) | corpus | YSN | 1 passages: 1 etext |
 | [corpus/yyt/yyt.md](corpus/yyt/yyt.md) | corpus | YYT | 2 passages: 2 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 5 passages: 3 scan, 1 machine, 1 etext |
@@ -2832,7 +2832,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1312.md](questions/q1312.md) | question q1312 | WB vol. 2 p. 236 line 5: the earth kings' times, the second digit of 14 | answered; cites wb.2:p236d |
 | [questions/q1313.md](questions/q1313.md) | question q1313 | WB vol. 2 p. 380: the bracketed numbers 0–9 after the mansions of the life-measure verses, what do they count? | answered; cites wb.2:p378-384, wb.2:p415-416 |
 | [questions/q1314.md](questions/q1314.md) | question q1314 | WB vol. 2 p. 409: the narrow sixth line between «བྲ་ཉེ་ལག» and «སྨིན་དྲུག་དང་», its words and the human family's mansions | answered; cites wb.2:p407-411 |
-| [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | open; cites wb.1:p19 |
+| [questions/q1315.md](questions/q1315.md) | question q1315 | WB vol. 1 p. 19 line 8: the syllables naming the mansion of Jyeṣṭhā between «ཞེས་རྣམས» and «འདོད» | answered; cites wb.1:p19 |
 | [questions/q1316.md](questions/q1316.md) | question q1316 | WB vol. 1 p. 16 lines 15–18 and 22–28: the syllables and the letter rows | open; cites wb.1:p16 |
 | [questions/q1317.md](questions/q1317.md) | question q1317 | WB ch. 10 p. 77 line 25: does the long figure after «ནོར་རི་མདའ་ཆུ་མེ་སྟོང་གཟུགས» have 13 or 14 glyphs? | answered; cites wb.1:p77 |
 | [questions/q1318.md](questions/q1318.md) | question q1318 | WB ch. 10 p. 74: does «མཚམས» in the figure after «དུས་མདའ་མཚམས་དབང» count 4 or 6? | answered; cites wb.1:p74, wb.1:p192 |
