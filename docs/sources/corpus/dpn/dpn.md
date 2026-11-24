@@ -47,6 +47,16 @@ The root text: "If these eight are kept for as long as one lives, one is a lay d
 
 Etext only (img. 70-71 fetched; the lines not read on the page).
 
+## <a id="dpn-i71"></a>dpn:i71 The lay devotee's four roots: taking life, taking what is not given, wrong sexual conduct, false speech
+
+*Read: etext, 2026-11-24.*
+
+> གསུམ་པ་དགེ་བསྙེན་གྱི་བསླབ་བྱ་ལ་གསུམ་སྟེ། དགེ་བསྙེན་གྱི་སྤང་བྱ་ལྔ་ངོས་བཟུང་། དེ་བསྲུང་ཚུལ་གྱི་གྲངས་ལས་དགེ་བསྙེན་གྱི་དབྱེ་བ་བཤད། ཕྱོགས་མཐུན་གྱི་བསླབ་བྱ་བསྟན་པའོ། །དང་པོ་ནི། གསོད་རྐུ་རྫུན་སྨྲ་འདོད་པས་ལོག་པར་གཡེམ། །མྱོས་འགྱུར་སྤོང་རྣམས་དགེ་བསྙེན་སྡོམ་པ་སྟེ། །ཞེས་པས་དགེ་བསྙེན་གྱི་སྤང་བྱ་ལ་རྩ་བ་དང་། ཡན་ལག་གཉིས་ལས། རྩ་བ་ནི་བཞི་སྟེ། སྲོག་གཅོད་པ་དང་། མ་བྱིན་པར་ལེན་པ་དང་། འདོད་པས་ལོག་པར་གཡེམ་པ་དང་། རྫུན་དུ་སྨྲ་བའོ། །འདི་དག་ལ་ཡུལ་གྱི་ཡན་ལག་ཏུ་མི་ཡིན་པ་དགོས་ཏེ། དེ་མ་ཚང་ན་རྩ་བར་གཏོགས་པའི་ཉེས་པ་ཙམ་དུ་ཟད་ཀྱི། རྩ་བ་དངོས་མ་ཡིན་པས་སྡོམ་པ་ཉམས་པར་མི་འགྱུར་ཞིང་། འདིར་བསླབ་གཞིར་མི་ཚངས་སྤྱོད་མི་འཇོག་པར་འདོད་ལོག་འཇོག་པ་ནི། ཁྱིམ་པས་བསྲུང་སླ་བ་སོགས་ཀྱི་ཕྱིར་ཏེ། མཛོད་ལས། ལོག་གཡེམ་ཤིན་ཏུ་དམད་ཕྱིར་དང་། །སླ་ཕྱིར་མི་བྱེད་ཐོབ་ཕྱིར་རོ། །ཞེས་སོ། །
+
+Third, the trainings of the lay devotee (དགེ་བསྙེན, dge bsnyen), in three: what he gives up, the kinds of lay devotee by how much he keeps, and the trainings that agree with these. The first, the root verse: "Giving up killing, stealing, lying, wrong sexual conduct and beer-drinking is the lay devotee's vow." The commentary: what the lay devotee gives up is of two kinds, roots and branches. The roots are four: taking life (སྲོག་གཅོད་པ, srog gcod pa), taking what is not given (མ་བྱིན་པར་ལེན་པ, ma byin par len pa), wrong sexual conduct (འདོད་པས་ལོག་པར་གཡེམ་པ, 'dod pas log par g.yem pa) and speaking falsely (རྫུན་དུ་སྨྲ་བ, rdzun du smra ba). The fifth, beer, is the branch. The commentary adds that unchastity is not put among the trainings here but wrong conduct, because the householder keeps it more easily (after the Treasury: "because wrong conduct is most reproached, is easy, and is not done, and is gained").
+
+Etext (BDRC, img. 71 = printed p. 66); the page image was looked at for the list of the four and it stands as the etext has it, but not every syllable was read. The same four, in the same order, stand in the root text's verse of the novice's ten trainings on etext p. 9: «སྲོག་གཅོད་རྐུ་དང་མི་ཚངས་སྤྱོད་དང་རྫུན» (killing, stealing, unchastity, lying), and the four root downfalls of the novice on etext p. 74 are «རྩ་བ་བཞི» again.
+
 ## <a id="dpn-i334"></a>dpn:i334 Fulfilment and confession on the full moon, the new moon and the eighth
 
 *Read: etext, 2026-11-16.*

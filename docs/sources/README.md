@@ -1571,7 +1571,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dkm/dkm.md](corpus/dkm/dkm.md) | corpus | dkm | 1 passages: 1 etext |
 | [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 4 passages: 4 etext |
-| [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 5 passages: 3 scan, 2 etext |
+| [corpus/dpn/dpn.md](corpus/dpn/dpn.md) | corpus | DPN | 6 passages: 3 scan, 3 etext |
 | [corpus/dtd/dtd.md](corpus/dtd/dtd.md) | corpus | DTD | 4 passages: 2 scan, 2 machine |
 | [corpus/dtn/dtn.md](corpus/dtn/dtn.md) | corpus | DTN | 1 passages: 1 scan |
 | [corpus/dyc/dyc.md](corpus/dyc/dyc.md) | corpus | DYC: the Dbyangs 'char | 2 passages: 1 machine, 1 etext |
@@ -2778,7 +2778,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1274.md](questions/q1274.md) | question q1274 | In the Lokaprajñapti's «ཅི་སྟེ་དེ་དག་གིས་སྐྱེན་པར་ཚོར་ན་ནི་དེ་དག་གནས་མཐོན་པོ་ལ་འགོད་དོ», who is set in the high or low station, the guardians posted at the crossroads or the people found there, and what does «སྐྱེན་པར་ཚོར» mean here? | open; cites ljz:i41-47 |
 | [questions/q1275.md](questions/q1275.md) | question q1275 | The Treasury's verse on the one-day vow reads «ནམ་ནི་ལངས་བར་དུ» in Lo chen's print and «ནམ་ནི་ནང་པར་དུ» in the Derge etext of the commentary: which is the Derge blocks' reading? | answered; cites dpn:i58, akb:i364-365 |
 | [questions/q1276.md](questions/q1276.md) | question q1276 | The Derge etext of the Treasury commentary has «སྐྱེ་བོའི་རྗེས་སུ་མཐུན་པའི་ཕྱིར» for why the last three branches are ascetic observance, and «སྐྱོ་བའི་དྲན་པ» four lines on: is the first a slip for «སྐྱོ་བའི»? | open; cites akb:i365-366 |
-| [questions/q1277.md](questions/q1277.md) | question q1277 | Which are the four roots of the one-day vow in Lo chen Dharma shrI's own list, and in what order? Only unchastity and false speech are named in the passages read. | open; cites dpn:i70, akb:i365-366 |
+| [questions/q1277.md](questions/q1277.md) | question q1277 | Which are the four roots of the one-day vow in Lo chen Dharma shrI's own list, and in what order? Only unchastity and false speech are named in the passages read. | answered; cites dpn:i70, akb:i365-366, dpn:i71 |
 | [questions/q1278.md](questions/q1278.md) | question q1278 | Whose are the numbered notes at the foot of the page in the Larung print (2006) of Klong chen pa's Phyogs bcu'i mun sel, among them note 1035, which counts the six times of the month as the 8th, 10th, 15th, 25th, 29th and the new moon? | open; cites lcb:p568 |
 | [questions/q1279.md](questions/q1279.md) | question q1279 | What does «ར་བའི་དུས» mean in the Rngam glog's verse on reciting and offering without interruption, as Klong chen pa and Zhe chen rgyal tshab quote it? | open; cites lcb:p568, zgt.11:p292 |
 | [questions/q1280.md](questions/q1280.md) | question q1280 | Where in the Cakrasaṃvara root tantra, the Yoginīsañcāra and Klong chen pa's works do the three quotations stand with which Dpal sprul shows that the feast on the tenth of both halves is taught in all tantras, the waxing tenth by day and the waning tenth by night? | answered; cites dpk.1:p380-381, lsv:p467, ysn:p79-80, nsg:p57-58, nsc:p271-272 |
