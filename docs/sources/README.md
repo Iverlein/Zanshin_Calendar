@@ -1745,7 +1745,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 42 passages: 26 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 48 passages: 40 scan, 7 machine, 1 etext |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 49 passages: 41 scan, 7 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 12 passages: 11 scan, 1 machine |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 6 passages: 6 scan |
@@ -2025,7 +2025,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | answered; cites — |
 | [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
 | [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | answered; cites wb.2:p453 |
-| [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | narrowed; cites wb.2:p448 |
+| [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | answered; cites wb.2:p448 |
 | [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | narrowed; cites wb.2:p450 |
 | [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | narrowed; cites wb.2:p16 |
 | [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | narrowed; cites wb.2:p23c |
@@ -2887,6 +2887,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1363.md](questions/q1363.md) | question q1363 | The middle cells of the strip charts' sides (WB ch. 13 pp. 142-147) | open; cites — |
 | [questions/q1364.md](questions/q1364.md) | question q1364 | The light-clearer's corner in the strip charts against the verse's grave, neighbour and slayer | open; cites — |
 | [questions/q1365.md](questions/q1365.md) | question q1365 | The two boxes of the model almanac that break the mewa rule (p. 154 box 11, p. 161 box 19) | open; cites — |
+| [questions/q1366.md](questions/q1366.md) | question q1366 | The begging verse's stack against the monk's own བནྡེ on Zhol img. 717 | open; cites — |
 
 <!-- end pool index -->
 
