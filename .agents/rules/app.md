@@ -76,8 +76,9 @@ paths:
   numeral stands in is in two places, `LARGE` in the script and `frameOf`
   in `PracticeDay.kt`: change both. Any picture the app needs is painted
   by Gemini, never drawn in code (the owner, 2026-11-22; machine rule 15):
-  the `paint` skill and `gemini-paint run <folder> --wait`, by the brief
-  of T6.1 for a frame; look at the sheet, then at every practice day on
+  the `paint` skill and the machine's one painting queue (`paint-queue add
+  zanshin-<picture> … --out art/practice/ --reference <a frame of the set>`),
+  by the brief of T6.1 for a frame; look at the sheet, then at every practice day on
   the emulator in every theme, and the owner accepts it.
 - **Calendar changes need a vector**, not only a passing build. The 2033
   leap-month choice is a named constant in `Kyureki.kt`, citing the 暦文協's
