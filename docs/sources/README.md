@@ -1795,7 +1795,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0271.md](questions/q0271.md) | question q271 | «དགྲ་དར» or «དགྲ་ལོ» in the special verdict | answered; cites wb.2:p52-54 |
 | [questions/q0272.md](questions/q0272.md) | question q272 | Which mewa the second examination reads | narrowed; cites wb.2:p57-58, wb.2:p503 |
 | [questions/q0273.md](questions/q0273.md) | question q273 | «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ» | narrowed; cites wb.2:p57-58, wb.2:p55, wb.2:p54-55 |
-| [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | open; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
+| [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | narrowed; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
 | [questions/q0275.md](questions/q0275.md) | question q275 | «སེར་གསུམ» in the rebirth by the mewa | narrowed; cites wb.2:p70-72, wb.2:p500-501 |
 | [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | narrowed; cites wb.2:p68-70, wb.2:p503-504 |
 | [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | answered; cites wb.2:p68-70 |
@@ -2030,7 +2030,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | narrowed; cites wb.2:p16 |
 | [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | narrowed; cites wb.2:p23c |
 | [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | narrowed; cites wb.2:p16c |
-| [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | open; cites wb.2:p48 |
+| [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | answered; cites wb.2:p48 |
 | [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | narrowed; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | narrowed; cites wb.2:p50a |
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | answered; cites wb.2:p47 |
@@ -2116,7 +2116,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0592.md](questions/q0592.md) | question q592 | The element of the one reckoned in each illness examination | narrowed; cites wb.1:p417-419 |
 | [questions/q0593.md](questions/q0593.md) | question q593 | The eight seed syllables of the pressing-down wheel on the Taikhang | narrowed; cites wb.2:p112-114 |
 | [questions/q0594.md](questions/q0594.md) | question q594 | Five places of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang | narrowed; cites wb.2:p104-105 |
-| [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
+| [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | narrowed; cites wb.2:p51-52 |
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | narrowed; cites wb.2:p54-55 |
 | [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | narrowed; cites wb.2:p16 |
 | [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | narrowed; cites wb.2:p165 |
@@ -2166,7 +2166,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | answered; cites pk:i383-385 |
 | [questions/q0643.md](questions/q0643.md) | question q643 | The ko long of pp. 360 and 370 | answered; cites wb.2:p370 |
 | [questions/q0644.md](questions/q0644.md) | question q644 | The bstan ma and the the khyim beside the Sky Dog on p. 360 | answered; cites wb.2:p360-361 |
-| [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | open; cites wb.2:p323 |
+| [questions/q0645.md](questions/q0645.md) | question q645 | «བསྐྱུར» or «བསྒྱུར» closing each ransom of the 28 verses | narrowed; cites wb.2:p323 |
 | [questions/q0646.md](questions/q0646.md) | question q646 | «བརྩིག» or «འཛིག» in Mūla's good list, p. 323 | answered; cites wb.2:p323 |
 | [questions/q0647.md](questions/q0647.md) | question q647 | Revatī's minor star on p. 328: «དྲོ་ལོད» or «དྲོ་ཡོད» | answered; cites wb.2:p328 |
 | [questions/q0648.md](questions/q0648.md) | question q648 | «རུས་མཚན» in Viśākhā's verse, p. 322 | answered; cites wb.2:p322 |
@@ -2231,7 +2231,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0707.md](questions/q0707.md) | question q707 | The year Aṅgiras: ཨདྒིར or ཨངྒིར (entry 9, p. 206) | answered; cites wb.1:p206 |
 | [questions/q0708.md](questions/q0708.md) | question q708 | Printed year-name variants against ch. 13's list (entries 39, 43, 58–60) | answered; cites wb.1:p208, wb.1:p209 |
 | [questions/q0709.md](questions/q0709.md) | question q709 | ཁྲེའུར and ཁོལ་བུར over the epidemics | narrowed; cites — |
-| [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | open; cites — |
+| [questions/q0710.md](questions/q0710.md) | question q710 | ནམ་སྟོད and ནམ་སྨད with ཐན and ཞོད | narrowed; cites — |
 | [questions/q0711.md](questions/q0711.md) | question q711 | ནམ་གཞུག in entries 21, 31 and 51 | answered; cites tmz:box6, wb.1:p207, wb.1:p208 |
 | [questions/q0712.md](questions/q0712.md) | question q712 | The clauses on water, wind and the frost of entries 14, 42, 50 and the sheep year | narrowed; cites — |
 | [questions/q0713.md](questions/q0713.md) | question q713 | ཐང་ཞིང and རི་ཞིང: plain and mountain field | answered; cites tmz:box6 |
@@ -2268,7 +2268,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0744.md](questions/q0744.md) | question q744 | The asterism's motion on p. 14: 1620 and 301 | answered; cites wb.1:p14, wb.1:p191 |
 | [questions/q0745.md](questions/q0745.md) | question q745 | The black-month lines of p. 183 | answered; cites tmz:box9, wb.1:p183 |
 | [questions/q0746.md](questions/q0746.md) | question q746 | The Sanskritised month, mansion and yoga spellings of pp. 16 and 19 | narrowed; cites — |
-| [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | open; cites wb.2:p329-330 |
+| [questions/q0747.md](questions/q0747.md) | question q747 | Does the Zhol print or the 1996 edition write «ཀྱང» and «ཁུངས» where the Gser thang reprint has «ཀུང» (pp. 329–330: «གྲོགས་ཀུང་དར», «ལུགས་ཀུང་ཡོད་མོད་ཏུང») and «ཁུང» («ལུང་ཁུང་དབེན»), or is the reprint's spelling the older one? | answered; cites wb.2:p329-330 |
 | [questions/q0748.md](questions/q0748.md) | question q748 | Does WB's «ས་རོད་ཡའི་རྒྱུད» (the Svarodaya) in the ch. 34 colophon name the Tanjur treatise on life-reckoning results (Derge, «སྭ་རོད་ཡ») or a tantra of that name, and which of ch. 34's kinds of works come from it? | answered; cites wb.2:p428c |
 | [questions/q0749.md](questions/q0749.md) | question q749 | Is the «ཕྱ་ཐེར» of work 17 in ch. 34 (a sewn tent-like shelter in the manuals) the same word as «ཕྱར», spelled two ways, or a second article sewn beside the tent? | narrowed; cites wb.2:p378-384 |
 | [questions/q0750.md](questions/q0750.md) | question q750 | Which Zhol leaf holds the dwa passage of p. 106 («དྭ་ལ་གང་ཤི་སྙིང་འགྲམས…»), and does it carry the two lines with «ལྷང་ཕུག»? | open; cites wb.2:p129-130 |
@@ -2677,7 +2677,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1153.md](questions/q1153.md) | question q1153 | In Karma chags med's verses on the hours, are Māra's obstacles from evening to midnight the reason the midnight dream is not Māra's, or only hours of recitation | answered; cites rrd.19:p328, rrd.19:p271, rrd.23:p102-104 |
 | [questions/q1154.md](questions/q1154.md) | question q1154 | In the Narthang catalogue entry on img. 77 does the Padmadra practice by Dpal ye shes (translated by Sumanaśrī and Rin chen grub) belong to the next work rather than to the Examination of Dreams | answered; cites svo:i77, svo:i736, svo:i472-473, svo:p271j |
 | [questions/q1155.md](questions/q1155.md) | question q1155 | Is the Dream Tārā practice of img. 75 the work whose text stands in this file's first passage | answered; cites svo:i75, svo:p177-179 |
-| [questions/q1156.md](questions/q1156.md) | question q1156 | What stands in the line of WB vol. 1 p. 19 (img. 26, line 7 or 8) that names the mansion of Jyeṣṭhā, where the machine reads «མོ་དུ་འདོད»? | open; cites — |
+| [questions/q1156.md](questions/q1156.md) | question q1156 | What stands in the line of WB vol. 1 p. 19 (img. 26, line 7 or 8) that names the mansion of Jyeṣṭhā, where the machine reads «མོ་དུ་འདོད»? | answered; cites wb.1:p19 |
 | [questions/q1157.md](questions/q1157.md) | question q1157 | Are the second and fourth band labels of WB vol. 1 p. 44 (img. 51) Mercury and Venus, and is the Venus word «པ་སངས»? | narrowed; cites — |
 | [questions/q1158.md](questions/q1158.md) | question q1158 | Is there a legend or parallel table, in another print or in Mipham's notes, that gives the constants of WB vol. 1 pp. 44–47 as numbers, so that the table digits can be checked? | narrowed; cites — |
 | [questions/q1159.md](questions/q1159.md) | question q1159 | Does the numeral under the trigram letter in box 5 of the model almanac (WB vol. 1 p. 156 reads 1 or 7; p. 165 differs) run by the day's place in a cycle that the tradition states, so that the cells need not be read one by one? | answered; cites kd.1:p495a |
@@ -2720,9 +2720,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1196.md](questions/q1196.md) | question q1196 | Which of the first works of MW1KG4326 (Kun dga' rin chen, vol. 2: the Arapacana sādhana pp. 9-22 or the Mol gtam pp. 23-38) holds the last-watch passage at etext character 14273 (q1070)? | answered; cites — |
 | [questions/q1197.md](questions/q1197.md) | question q1197 | Which work of the Rgyud sde kun btus (MW2PD14777) carries the sentence «dbang bskur ba'i dus dpa' bo mkha' 'gro rnams kyis rgyud byin gyis brlabs nas lung ston par mdzad pas…», and is it a copy of Kun dga' rin chen's Phur pa dbang mtshams sbyor (VE1KG4326_009) or of an older Sakya initiation manual (q1070)? | answered; cites — |
 | [questions/q1198.md](questions/q1198.md) | question q1198 | Does the colophon of MW8LS19380 (the Nyin dgon Bya bral ba's sems sde pra khrid man ngag, 72 p.) give Dpal gnam steng ri khrod and a water-bird year? A reader with the scan is needed (q1145). | open; cites — |
-| [questions/q1199.md](questions/q1199.md) | question q1199 | On the Gser thang scan (WB vol. 1 ch. 13, img. 205–211) is the first glyph of entry 9's year name «ཨངྒིར» (Aṅgiras) a stack with nga under the head, not da (q707)? | open; cites — |
-| [questions/q1200.md](questions/q1200.md) | question q1200 | On the scan of ch. 13 do entries 39, 43 and 58–60 read ཟིལ་གནོན (not ཐིལ), གདོང་ངན (not གདང་ངན), རྔ་ཆེན (not ཇ་ཆེན) and ཁྲག་སྐྱུག་པ (not ཁྲག་སྨྱུག་པ), as the prints' phrase searches favour (q708)? | open; cites — |
-| [questions/q1201.md](questions/q1201.md) | question q1201 | On the scan of p. 207 line 7 does entry 27 read ལྷོ་ཡི་ཕྱོགས་སུ (not ལྟོ་ཡི), and on p. 211 does entry 51 read ཆོམ་རྐུན (not ཚོམ་རྐུན) and entry 50 ལྷགས (not ལྟགས) (q715–q717)? | open; cites — |
+| [questions/q1199.md](questions/q1199.md) | question q1199 | On the Gser thang scan (WB vol. 1 ch. 13, img. 205–211) is the first glyph of entry 9's year name «ཨངྒིར» (Aṅgiras) a stack with nga under the head, not da (q707)? | answered; cites — |
+| [questions/q1200.md](questions/q1200.md) | question q1200 | On the scan of ch. 13 do entries 39, 43 and 58–60 read ཟིལ་གནོན (not ཐིལ), གདོང་ངན (not གདང་ངན), རྔ་ཆེན (not ཇ་ཆེན) and ཁྲག་སྐྱུག་པ (not ཁྲག་སྨྱུག་པ), as the prints' phrase searches favour (q708)? | answered; cites — |
+| [questions/q1201.md](questions/q1201.md) | question q1201 | On the scan of p. 207 line 7 does entry 27 read ལྷོ་ཡི་ཕྱོགས་སུ (not ལྟོ་ཡི), and on p. 211 does entry 51 read ཆོམ་རྐུན (not ཚོམ་རྐུན) and entry 50 ལྷགས (not ལྟགས) (q715–q717)? | answered; cites — |
 | [questions/q1202.md](questions/q1202.md) | question q1202 | KP label 117: «མཁར་སྒོ» (fortress) or «མཁའ་སྒོ» for the six-three sky door? | answered; cites kp:i114-116 |
 | [questions/q1203.md](questions/q1203.md) | question q1203 | KP label 118: «ཤིང་སྒོ» or «ཤིད་སྒོ» (funeral feast) for the nine-three sky door? | answered; cites kp:i117-118 |
 | [questions/q1204.md](questions/q1204.md) | question q1204 | KP year and month panels: which side of its cell does each name stand on? | narrowed; cites kp:i87 |
@@ -2856,7 +2856,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1332.md](questions/q1332.md) | question q1332 | WB ch. 1 p. 10 line 23: what are the ~22 digits of the first bracketed figure, and do the page's two figures give the same count in numerals and number-words (lines 24-27)? | answered; cites wb.1:p10, wb.1:p214 |
 | [questions/q1333.md](questions/q1333.md) | question q1333 | Which chapter of the Susiddhikara, and which Toh number and Derge folio, holds the offerings verse that Mipham's text quotes | answered; cites ssk:p351, ssk:p413-414 |
 | [questions/q1334.md](questions/q1334.md) | question q1334 | In which chapter of the Cakrasamvara root tantra are the lines mar gyi ngo yi tshes bcu dang..., and in which work of Klong chen pa are the lines nya dang gnam stong tshes brgyad nyi shu dgu... | answered; cites lsv:p467, ysn:p79-80, nsg:p57-58, nsc:p271-272 |
-| [questions/q1335.md](questions/q1335.md) | question q1335 | Does the line-4 sgab of WB p. 104 (Taikhang img. 160) carry a subjoined ra, so that the word is sgrab | open; cites — |
+| [questions/q1335.md](questions/q1335.md) | question q1335 | Does the line-4 sgab of WB p. 104 (Taikhang img. 160) carry a subjoined ra, so that the word is sgrab | answered; cites — |
 | [questions/q1336.md](questions/q1336.md) | question q1336 | Who revealed the pure-vision life of the Guru in the anthology Bka' thang phyogs bsgrigs (BKT), and which Padma bka' thang redaction is it based on | narrowed; cites — |
 | [questions/q1337.md](questions/q1337.md) | question q1337 | Does the Seven Chapters Prayer's 'waxing tenth' (yar ngo'i tshes bcu) exclude the waning tenth | narrowed; cites — |
 | [questions/q1338.md](questions/q1338.md) | question q1338 | Does sdom pa 'bog pa, said of the 11th in Dpal sprul's verse on the days' results (dpk.2:p138-140), mean giving, taking or laying down vows | answered; cites tmz:box10, dpk.2:p138-140 |
