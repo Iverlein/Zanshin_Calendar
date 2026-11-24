@@ -1376,14 +1376,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-p281-rang-zhal-do.md](claims/wb-p281-rang-zhal-do.md) | claim, note | p. 281: the width's «do» reads clearly on the reprint | cites wb.2:p281; feeds block-31 |
 | [claims/wb-p303-304-seed-letters-vs-khadbon-sites.md](claims/wb-p303-304-seed-letters-vs-khadbon-sites.md) | claim, note | WB pp. 303-304: the Kalacakra seed-letter sites and the sites of the Phug uncle and nephew differ on most dates; both climb from the foot to the head and come back | cites wb.2:p303-304; feeds — |
 | [claims/wb-p303-khu-dbon-uncle-and-nephew.md](claims/wb-p303-khu-dbon-uncle-and-nephew.md) | claim, note | WB p. 303: the Phugpa way of the life-spirit sites is the uncle and nephew's, ཁུ་དབོན, not Khadbon | cites wb.2:p303-304; feeds — |
+| [claims/wb-p305-dbo-is-vowel-o.md](claims/wb-p305-dbo-is-vowel-o.md) | claim, note | WB p. 305: «དབོ» ending the fifth meeting is the vowel O, as p. 407 spells out | cites wb.2:p305, wb.2:p407-411; feeds — |
 | [claims/wb-p305-four-meetings-by-name.md](claims/wb-p305-four-meetings-by-name.md) | claim, note | WB p. 305: the four meetings are given by names, no numerals on the page | cites wb.2:p305; feeds — |
 | [claims/wb-p306-307-vowel-remedies-peaceful-planets.md](claims/wb-p306-307-vowel-remedies-peaceful-planets.md) | claim, remedy | WB pp. 306–307: the remedies run through twelve vowels; the three peaceful planets are Moon, Mercury and Venus | cites wb.2:p305-307; feeds block-25 |
 | [claims/wb-p313-phung-jupiter-chu-bdag-west.md](claims/wb-p313-phung-jupiter-chu-bdag-west.md) | claim, note | WB p. 313: «ཕུང» is Jupiter after the Lamp, «ཆུ་བདག» the west | cites wb.2:p313, lt:p10-11; feeds — |
+| [claims/wb-p314-bharani-minor-star-phung-rgyab.md](claims/wb-p314-bharani-minor-star-phung-rgyab.md) | claim, note | WB p. 314: Bharaṇī's minor star is «ཕུང་རྒྱབ་ཅན», with a final བ; vol. 1's list has «ཕུང་སྐྱབས་ཅན» | cites wb.2:p314, wb.1:p258b; feeds — |
 | [claims/wb-p317-p323-rjon-in-print.md](claims/wb-p317-p323-rjon-in-print.md) | claim, note | WB pp. 317, 323: the prints have རྗོན where the machine had རྔོན | cites wb.2:p317, wb.2:p323-324; feeds — |
+| [claims/wb-p317-p323-rjon-is-rngon.md](claims/wb-p317-p323-rjon-is-rngon.md) | claim, note | WB pp. 317 and 323: «རྗོན» is «རྔོན», the hunter, by WB's own usage | cites wb.2:p317, wb.2:p323; feeds — |
 | [claims/wb-p322-rus-mtshan.md](claims/wb-p322-rus-mtshan.md) | claim, note | WB p. 322: Viśākhā's line reads «རུས་མཚན», not «དུས་མཚན» | cites wb.2:p322; feeds — |
 | [claims/wb-p322-tshe-sgrub-anuradha.md](claims/wb-p322-tshe-sgrub-anuradha.md) | claim, note | WB p. 322: Anurādhā's good list has rites for long life | cites wb.2:p322-323; feeds — |
 | [claims/wb-p322-visakha-deities-indra-agni.md](claims/wb-p322-visakha-deities-indra-agni.md) | claim, note | WB p. 322: «དབང་པོ་མེ་ལྷ» in Viśākhā's verse is Indra and Agni by the verses' own usage | cites wb.2:p322; feeds — |
 | [claims/wb-p328-aswini-numeral-zero.md](claims/wb-p328-aswini-numeral-zero.md) | claim, note | WB p. 328: Aśvinī's numeral in the unstable-mansions class is 0 on the Zhol and Taikhang prints; the 4 of the 1996 print and the reprint is a shared misprint | cites wb.2:p328; feeds — |
+| [claims/wb-p328-revati-minor-star-lod.md](claims/wb-p328-revati-minor-star-lod.md) | claim, note | WB p. 328: Revatī's minor star is «ལས་སྣ་…ལོད», with ལ, in three places of WB | cites wb.2:p328, wb.1:p258b; feeds — |
 | [claims/wb-p328-tha-skar-numeral.md](claims/wb-p328-tha-skar-numeral.md) | claim, note | WB p. 328: Aśvinī's numeral is printed ༤ | cites wb.2:p328-329; feeds — |
 | [claims/wb-p329-editors-note-bharani.md](claims/wb-p329-editors-note-bharani.md) | claim, note | WB p. 329: the editors' note on Bharaṇī names no source | cites wb.2:p328-329; feeds — |
 | [claims/wb-p335-336-digits-in-brackets-saturn-zero.md](claims/wb-p335-336-digits-in-brackets-saturn-zero.md) | claim, note | WB pp. 335-336: the print gives each planet and mansion its number in brackets, Saturn as 0; the 1996 etext carries them, the reprint machine reading does not reliably | cites wb.2:p335-336; feeds — |
@@ -1727,7 +1731,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch17.md](corpus/wb/ch17.md) | corpus | Ch17 | 13 passages: 13 scan |
 | [corpus/wb/ch18.md](corpus/wb/ch18.md) | corpus | WB ch. 18 | 17 passages: 17 scan |
 | [corpus/wb/ch20.md](corpus/wb/ch20.md) | corpus | Ch. 20: the framework of the element reckoning | 1 passages: 1 etext |
-| [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 1 passages: 1 scan |
+| [corpus/wb/ch21.md](corpus/wb/ch21.md) | corpus | WB ch. 21 | 2 passages: 2 scan |
 | [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 6 passages: 6 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 10 passages: 5 scan, 5 machine |
