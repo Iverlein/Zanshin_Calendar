@@ -2895,6 +2895,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1364.md](questions/q1364.md) | question q1364 | The light-clearer's corner in the strip charts against the verse's grave, neighbour and slayer | narrowed; cites — |
 | [questions/q1365.md](questions/q1365.md) | question q1365 | The two boxes of the model almanac that break the mewa rule (p. 154 box 11, p. 161 box 19) | open; cites — |
 | [questions/q1366.md](questions/q1366.md) | question q1366 | The begging verse's stack against the monk's own བནྡེ on Zhol img. 717 | open; cites — |
+| [questions/q1367.md](questions/q1367.md) | question q1367 | Is there a published nishiki-e whose koma-e is round (a round window, 丸窓, or a circular inset), and where is it catalogued? | open; cites — |
+| [questions/q1368.md](questions/q1368.md) | question q1368 | Is the cucumber horse and aubergine ox (精霊馬) of Bon drawn in any Edo-period print or named in an Edo text? | open; cites — |
 
 <!-- end pool index -->
 

@@ -463,8 +463,8 @@ Claims:
 
 Open
 
-- Question: Is there a published nishiki-e whose koma-e is round (a round window, 丸窓, or a circular inset), and where is it catalogued? Every koma-e seen in the Tokyo National Museum's and the Met's collections is rectangular.
-- Question: Is the cucumber horse and aubergine ox (精霊馬) of Bon drawn in any Edo-period print or named in an Edo text? The page read calls it widespread in Tokyo and East Japan and gives no date.
+- q1367: is there a published nishiki-e whose koma-e is round?
+- q1368: is the 精霊馬 drawn in any Edo print or named in an Edo text?
 
 Searched and not found
 
