@@ -520,6 +520,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/feast-and-torma-not-passed-over-a-month-or-year.md](claims/feast-and-torma-not-passed-over-a-month-or-year.md) | claim, rule | The feast and the torma under the commitment of not interrupting mantra and seal: the lowest practitioner does not let a month or a year pass | cites lcb:p568, zgt.11:p292; feeds SPEC §5.8 |
 | [claims/feast-on-the-tenth-of-both-halves-taught-in-all-tantras.md](claims/feast-on-the-tenth-of-both-halves-taught-in-all-tantras.md) | claim, rule | Dpal sprul: the feast gathering on the tenth of the waxing and of the waning half is taught in all the tantras, new and old | cites dpk.1:p380-381; feeds SPEC §5.8 |
 | [claims/feast-without-fail-on-the-tenth-and-twenty-fifth-in-retreat.md](claims/feast-without-fail-on-the-tenth-and-twenty-fifth-in-retreat.md) | claim, rule | In a recitation retreat the feast offering is done without fail on the tenth and the twenty-fifth | cites zgt.12:p270; feeds SPEC §5.8 |
+| [claims/festival-emblems-what-published-pages-support.md](claims/festival-emblems-what-published-pages-support.md) | claim, finding | What the published pages support of the eleven festivals' painted emblems | cites ; feeds ROADMAP T6.2 |
 | [claims/four-festivals-multiplier.md](claims/four-festivals-multiplier.md) | claim, conflict | The four great festivals' multiplier: a hundred koṭi or a hundred million | cites rcz:p286-288, dtn:i316, dgk:i491; feeds SPEC §5.7 |
 | [claims/four-great-kings-look-over-the-world-8-14-15.md](claims/four-great-kings-look-over-the-world-8-14-15.md) | claim, note | Why the 8th, 14th and 15th: the Four Great Kings' servants, sons and the kings themselves look over the world | cites ljz:i41-47; feeds SPEC §5.8 |
 | [claims/fulfilment-confession-full-moon-new-moon-eighth.md](claims/fulfilment-confession-full-moon-new-moon-eighth.md) | claim, rule | Fulfilment and confession of tantric commitments on the full moon, the new moon and the eighth | cites dpn:i334; feeds SPEC §5.8 |
@@ -1566,7 +1567,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/dds/dds.md](corpus/dds/dds.md) | corpus | DDS | 75 passages: 75 etext |
 | [corpus/dgd/dgd.md](corpus/dgd/dgd.md) | corpus | Dbang chen dgyes rab rdo rje, the instruction to examine dreams | 1 passages: 1 machine |
 | [corpus/dgk/dgk.md](corpus/dgk/dgk.md) | corpus | DGK | 1 passages: 1 etext |
-| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read; abstracts only, third look 2026-11-24 |
+| [corpus/dhd/dhd.md](corpus/dhd/dhd.md) | corpus | DHD | 0 passages: nothing read yet |
 | [corpus/dkb/dkb.md](corpus/dkb/dkb.md) | corpus | DKB | 1 passages: 1 etext |
 | [corpus/dkm/dkm.md](corpus/dkm/dkm.md) | corpus | dkm | 1 passages: 1 etext |
 | [corpus/dpk/dpk.md](corpus/dpk/dpk.md) | corpus | DPK, Dpal sprul's collected works: the feast of the tenth of both halves | 4 passages: 4 etext |
@@ -1665,7 +1666,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/rsp/rsp.md](corpus/rsp/rsp.md) | corpus | Rin spungs pa Bsod nams ye shes rgyal mtshan, Stainless All-Clarifying, the commentary on the Explanatory Tantra | 4 passages: 4 etext |
 | [corpus/rst/rst.md](corpus/rst/rst.md) | corpus | RST | 5 passages: 1 machine, 4 etext |
 | [corpus/sbk/sbk.md](corpus/sbk/sbk.md) | corpus | SBK | 2 passages: 2 etext |
-| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read; abstracts only, third look 2026-11-24 |
+| [corpus/sch/sch.md](corpus/sch/sch.md) | corpus | SCH | 0 passages: nothing read yet |
 | [corpus/sct/sct.md](corpus/sct/sct.md) | corpus | SCT | 2 passages: 2 etext |
 | [corpus/sdd/sdd.md](corpus/sdd/sdd.md) | corpus | sdd | 1 passages: 1 etext |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
@@ -1737,7 +1738,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 48 passages: 28 scan, 19 machine, 1 etext |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 68 passages: 51 scan, 10 machine, 7 etext |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 62 passages: 36 scan, 26 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 24 passages: 18 scan, 5 machine, 1 etext |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 25 passages: 19 scan, 5 machine, 1 etext |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 30 passages: 27 scan, 3 etext |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 5 passages: 4 scan, 1 machine |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 2 passages: 1 scan, 1 machine |
@@ -2852,6 +2853,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1349.md](questions/q1349.md) | question q1349 | WB ch. 16 p. 185 ma nu (18 or 14) and vol. 2 p. 334's three digits | open; cites — |
 | [questions/q1350.md](questions/q1350.md) | question q1350 | WB ch. 7 p. 49 'victor, fire-pair three' (4898?) and ch. 10 line 82 «དབང་ཉིད ༡༢༥»: figures not backed by their words | open; cites — |
 | [questions/q1351.md](questions/q1351.md) | question q1351 | The date of PT 55 IX: late eighth century or 979 | open; cites — |
+| [questions/q1352.md](questions/q1352.md) | question q1352 | Which emblem do painters put at the crown of each Tibetan calendar festival, if one is fixed? | open; cites — |
+| [questions/q1353.md](questions/q1353.md) | question q1353 | Is Mayadevi's dream shown with a six-tusked elephant in a painted set of the twelve deeds? | open; cites — |
+| [questions/q1354.md](questions/q1354.md) | question q1354 | What is the Tibetan name of the deer beside the Dharma wheel on the Jokhang's roof? | open; cites — |
+| [questions/q1355.md](questions/q1355.md) | question q1355 | Does a published description of the Kalacakra mandala give the elements as rings, and in which colours? | open; cites — |
+| [questions/q1356.md](questions/q1356.md) | question q1356 | Is the sword on Tsongkhapa's lotus painted flaming in the Gelug tradition? | open; cites — |
 
 <!-- end pool index -->
 
