@@ -372,22 +372,22 @@ the middle days are now national holidays.
 
 ### Open
 
-- Question: Is the 甲子 of the eleventh month the one main yearly Daikoku
+- Question 1386 ([q1386](questions/q1386.md)): Is the 甲子 of the eleventh month the one main yearly Daikoku
   day in a source beside the old 世界大百科事典's 縁日 article, and is it kept
   now by the old month or the new?
-- Question: Which calendar do the shrines that keep 夏越の祓 and 年越の祓 use
+- Question 1387 ([q1387](questions/q1387.md)): Which calendar do the shrines that keep 夏越の祓 and 年越の祓 use
   today: 30 June and 31 December, or the old sixth and twelfth months'
   last days? The encyclopedias read say only «6月晦日».
-- Question: Is Sensō-ji's 四万六千日 now on 9–10 July (KB-N) or on 8–9 July
+- Question 1388 ([q1388](questions/q1388.md)): Is Sensō-ji's 四万六千日 now on 9–10 July (KB-N) or on 8–9 July
   (KB-S's «現在は8，9日»)?
-- Question: Does a published source name one yearly day of the great
+- Question 1389 ([q1389](questions/q1389.md)): Does a published source name one yearly day of the great
   Prajñāpāramita reading (大般若会) kept widely, or is it only the New Year
   and first-fifth-ninth-month readings of single temples?
-- Question: In TS frame 35's note, is «一町に三五社» right (three or five
+- Question 1390 ([q1390](questions/q1390.md)): In TS frame 35's note, is «一町に三五社» right (three or five
   shrines to a ward)? The cursive after 三 was not read with certainty.
-- Question: TS frame 38: what are the cursive words after «神田紺屋町の辺には»
+- Question 1391 ([q1391](questions/q1391.md)): TS frame 38: what are the cursive words after «神田紺屋町の辺には»
   and in «○初午の…太鼓…» (drum-sellers before 初午, as the OCR suggests)?
-- Question: TS frame 56: is «初雷の日家内是を服してまじなひとす» the right reading
+- Question 1392 ([q1392](questions/q1392.md)): TS frame 56: is «初雷の日家内是を服してまじなひとす» the right reading
   of the use of the 節分 beans on the day of the first thunder?
 
 ### Searched and not found

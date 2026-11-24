@@ -2959,6 +2959,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q1383.md](questions/q1383.md) | question q1383 | Machig's age at her passing is ninety-five in the Blue Annals and ninety-nine in the Gzan skyur; which does the Chöd lineage hold, and does any Chöd text give the day? (dsn.2:i477-478, pgz:p65) | open; cites dsn.2:i477-478, pgz:p65 |
 | [questions/q1384.md](questions/q1384.md) | question q1384 | Is the tenth on which Phadampa Sangye died the tenth of the middle winter month named with the fourth, as the narrative implies, and does the Ding ri tradition keep that day? (zbc.5:i123, zbc.5:i152, zbc.5:i157) | open; cites zbc.5:i123, zbc.5:i152, zbc.5:i157 |
 | [questions/q1385.md](questions/q1385.md) | question q1385 | TSL vol. 30 prints the fire-horse year (མེ་རྟ) for Rtsa gsum gling pa's count of his treasures, KTD's translation the Fire Dog year of 1726; is the translation's year name a slip, or does another print read «ཁྱི»? (tsl.30:i569, pbc:p2) | open; cites tsl.30:i569, pbc:p2 |
+| [questions/q1386.md](questions/q1386.md) | question q1386 | Daikoku's main yearly 甲子 | open; cites — |
+| [questions/q1387.md](questions/q1387.md) | question q1387 | Which calendar keeps 夏越の祓 and 年越の祓 today | open; cites — |
+| [questions/q1388.md](questions/q1388.md) | question q1388 | Sensō-ji's 四万六千日 today: 9–10 or 8–9 July | open; cites — |
+| [questions/q1389.md](questions/q1389.md) | question q1389 | A yearly day of the 大般若会 | open; cites — |
+| [questions/q1390.md](questions/q1390.md) | question q1390 | 東都歳事記 frame 35: 一町に三五社 | open; cites — |
+| [questions/q1391.md](questions/q1391.md) | question q1391 | 東都歳事記 frame 38: the drum-sellers before 初午 | open; cites — |
+| [questions/q1392.md](questions/q1392.md) | question q1392 | 東都歳事記 frame 56: the 節分 beans on the first thunder | open; cites — |
 
 <!-- end pool index -->
 
