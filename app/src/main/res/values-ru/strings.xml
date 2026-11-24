@@ -200,7 +200,7 @@
     <string name="desc_tenichi_compass">Компас направления Тэнъити-дзина сегодня: %1$s</string>
     <string name="year_gods_konjin">%1$s · по стволу года %2$s</string>
     <string name="year_gods_title">Направления года</string>
-    <string name="year_gods_head">Год %1$s, от 立春: 恵方, восемь богов года (八将神) и 金神, где стоит каждый.</string>
+    <string name="year_gods_head">Год %1$s, от 立春: где стоят 恵方, восемь богов года (八将神) и 金神.</string>
     <string name="year_gods_note">Того, чего избегают, избегают лицом к направлению бога или в его сторону весь год; 大将軍 закрывает всю свою четверть, она показана дугой. Нажмите на ветвь, чтобы узнать, какие боги в ней.</string>
     <string name="desc_year_gods_compass">Компас богов года: %1$s</string>
     <string name="detail_direction">Направление</string>
@@ -329,11 +329,11 @@
     <string name="back">Назад</string>
     <string name="about_title">О приложении и источниках</string>
     <string name="about_tibetan_title">Тибетский календарь</string>
-    <string name="about_tibetan">Версия Пхугпа (ཕུག་པ, phug pa), рассчитанная по арифметике Сванте Янсона, «Tibetan Calendar Mathematics» (2007, исправлено в 2014 и 2022), эпоха 806, с суточной аномалией Луны 1/28, как в альманахе Мен-Ци-Кханга (སྨན་རྩིས་ཁང, sman rtsis khang). Лунное созвездие, йога, карана и циклы лунного дня следуют Янсону, §10 и приложение E. Проверено по таблице дат Лосара (ལོ་གསར, lo gsar) у Янсона за 1927–2046 годы и, день за днём, по рассчитанным календарям Пхугпа Эдварда Хеннинга (kalacakra.org).</string>
+    <string name="about_tibetan">Версия Пхугпа (ཕུག་པ, phug pa), рассчитанная по арифметике Сванте Янсона, «Tibetan Calendar Mathematics» (2007, исправленные издания 2014 и 2022), эпоха 806, с суточной аномалией Луны 1/28, как в альманахе Мен-Ци-Кханга (སྨན་རྩིས་ཁང, sman rtsis khang). Лунное созвездие, йога, карана и циклы лунного дня следуют Янсону (§10 и приложение E). Проверено по таблице дат Лосара (ལོ་གསར, lo gsar) у Янсона за 1927–2046 годы и, день за днём, по рассчитанным календарям Пхугпа Эдварда Хеннинга (kalacakra.org).</string>
     <string name="about_kyureki_title">旧暦</string>
     <string name="about_kyureki">Правила Тэмпо по японскому стандартному времени: месяц начинается в день новолуния и нумеруется по главному солнечному сезону, который в него попадает. В 2033 году вставной месяц — 閏11月, рекомендованное решение «проблемы 2033 года». Солнечные сезоны, новолуния и 雑節 проверены по данным Национальной астрономической обсерватории Японии (暦要項).</string>
     <string name="about_rekichu_title">暦注</string>
-    <string name="about_rekichu">Пометки альманаха (十二直, 二十八宿, 九星, 選日 и 暦注下段) следуют правилам, сведённым в таблицы в японской Википедии по книге 岡田芳朗・阿久根末忠『現代こよみ読み解き事典』 (1993), и проверены день за днём по こよみのページ (koyomi8.com). 神吉日 и 凶会日 не включены: их полные правила не восстановимы.</string>
+    <string name="about_rekichu">Пометки альманаха (十二直, 二十八宿, 九星, 選日 и 暦注下段) следуют правилам, сведённым в таблицы в японской Википедии по книге 岡田芳朗・阿久根末忠『現代こよみ読み解き事典』 (1993), и проверены день за днём по こよみのページ (koyomi8.com). 神吉日 и 凶会日 не включены: их полные правила невосстановимы.</string>
     <string name="about_astronomy_title">Солнце и Луна</string>
     <string name="about_astronomy">Жан Меёс, «Astronomical Algorithms» (2-е изд., 1998): новолуния по главе 49, Солнце по ряду VSOP87D Бретаньона и Франку, ΔT по многочленам Эспенака и Меёса (NASA). Всё вычисляется на этом телефоне; у приложения нет доступа в интернет.</string>
     <string name="about_readings_title">Толкования</string>
@@ -349,7 +349,7 @@
     <string name="about_fonts_title">Шрифты</string>
     <string name="about_fonts">Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho Project Authors; Noto Serif Tibetan, © 2022 The Noto Project Authors; все под лицензией SIL Open Font License 1.1.</string>
     <string name="about_licence_title">Лицензия</string>
-    <string name="about_licence">Zanshin Calendar — свободная программа под лицензией Mozilla Public License 2.0. Места пяти планет и Раху рассчитываются так, как их рассчитывает тибетская календарная программа Эдварда Хеннинга, перенесённая из неё: © 2009–2013 Edward Henning, по лицензии MIT, уведомление которой сохранено в исходном коде.</string>
+    <string name="about_licence">Zanshin Calendar — свободная программа под лицензией Mozilla Public License 2.0. Места пяти планет и Раху рассчитываются так же, как в тибетской календарной программе Эдварда Хеннинга, — код перенесён из неё: © 2009–2013 Edward Henning, по лицензии MIT, уведомление которой сохранено в исходном коде.</string>
 
     <!-- Location -->
     <string name="loc_my_location_label">Моё место · %1$s</string>
@@ -529,11 +529,11 @@
     <string name="desc_mansion_ring">27 лунных созвездий, отмечено %1$s</string>
     <string name="desc_pair_grid">Десять сочетаний стихий дня недели и созвездия</string>
     <string name="pair_grid_axes">Строки — день недели · столбцы — созвездие</string>
-    <string name="haircut_days">Дни этого месяца, взвешенные</string>
+    <string name="haircut_days">Взвешенные дни этого месяца</string>
     <string name="haircut_cell">%1$d-е число, %2$s: %3$s</string>
     <string name="haircut_day">День %1$d: %2$s</string>
     <string name="haircut_by">%1$s · решает: %2$s</string>
-    <string name="haircut_note">Взвешено одним правилом: решает сильнейший фактор, называющий стрижку; сегодня: %1$s.</string>
+    <string name="haircut_note">Взвешивается по одному правилу: решает сильнейший из факторов, называющих стрижку, здесь это %1$s.</string>
     <string name="haircut_date_agrees">собственный день даты, совпадает</string>
     <string name="haircut_date_outweighed">собственный день даты, перевешен: %1$s</string>
     <string name="haircut_now">%1$s до %2$s · решает: %3$s</string>
@@ -694,7 +694,7 @@
     <string name="year_predictive_incomplete">не все шесть камней рассчитаны</string>
     <string name="year_all_white">Все четыре предсказательных камня белые</string>
     <string name="year_all_black">Все четыре предсказательных камня чёрные</string>
-    <string name="year_hour_note">Час расчёта — нынешний: %1$s (%2$s), знак %3$s.</string>
+    <string name="year_hour_note">Час расчёта — нынешний: %1$s (%2$s); его знак — %3$s.</string>
     <string name="year_sector_title">%1$s · энергия: %2$s</string>
     <string name="year_sector_subtitle">%1$s: вдох — %2$s; год — %3$s</string>
     <string name="year_care_title">Важнее всего: %1$s</string>
@@ -702,7 +702,7 @@
     <string name="year_matters_most">важнее всего для вас</string>
     <string name="year_section_obstacles">Препятствия года</string>
     <string name="year_no_obstacles">В этом году нет ни суровых лет, ни девяток, ни малых препятствий мева (སྨེ་བ, sme ba).</string>
-    <string name="year_harsh_subtitle">Стихия года к вашей: %1$s</string>
+    <string name="year_harsh_subtitle">Стихия года по отношению к вашей: %1$s</string>
     <string name="year_nine_title">Девятка (དགུ་མིག, dgu mig): %1$s-й год</string>
     <string name="year_combined_subtitle">%1$s · %2$s-я</string>
     <string name="year_earth_and_water">земля и вода</string>
@@ -768,7 +768,7 @@
     <string name="menu_group_closed">закрыта</string>
     <string name="menu_group_close">закрыть группу</string>
     <string name="menu_group_expand">открыть группу</string>
-    <string name="your_day_health">Ваша стихия, ла, жизненность и тело</string>
+    <string name="your_day_health">Ваша стихия, ла, жизненная сила и тело</string>
     <string name="health_day_before">Предыдущий день</string>
     <string name="health_day_after">Следующий день</string>
     <string name="health_not_advice">Толкования традиции, а не медицинский совет.</string>
@@ -790,7 +790,7 @@
     <string name="health_la_title">Ла сегодня</string>
     <string name="health_la_subtitle">%1$s; там не лечат</string>
     <string name="health_la_on_date">%1$s-е число</string>
-    <string name="health_no_person">Для вашей стихии, вашего ла, жизненности и тела по числу нужна дата рождения.</string>
+    <string name="health_no_person">Для вашей стихии, вашего ла, жизненной силы и тела по числу нужна дата рождения.</string>
     <string name="health_choose_person">Выберите человека или добавьте</string>
     <string name="health_section_element">Ваша стихия</string>
     <string name="health_quarter_subtitle">%1$s, в четверти стихии: %2$s</string>
@@ -801,12 +801,12 @@
     <string name="health_la_element_title">Ваш ла</string>
     <string name="health_la_element_subtitle">%1$s, мать вашей жизненной силы, %2$s</string>
     <string name="health_section_pebbles">Число против года рождения</string>
-    <string name="health_section_year">Ваш год возраста</string>
-    <string name="health_seven_red_title">На семь-красном</string>
-    <string name="health_seven_red_subtitle">Ваш %1$s-й год жизни приходится на семь-красный</string>
+    <string name="health_section_year">Ваш год жизни</string>
+    <string name="health_seven_red_title">На семи красных</string>
+    <string name="health_seven_red_subtitle">Ваш %1$s-й год жизни приходится на семь красных</string>
     <string name="health_section_works">Врачебные дела</string>
-    <string name="health_works_note">Как их даёт взвешивание дня, с вашими собственными днями.</string>
-    <string name="health_avoid_all">сегодня вы избегаете любого дела</string>
+    <string name="health_works_note">По взвешиванию дня, с учётом ваших личных дней.</string>
+    <string name="health_avoid_all">сегодня вам следует избегать любого дела</string>
     <string name="health_no_works">Сегодня ни одно толкование не называет врачебного дела.</string>
     <string name="health_work_good">хорошо сегодня, по: %1$s</string>
     <string name="health_work_avoid">избегать сегодня, по: %1$s</string>
@@ -827,7 +827,7 @@
     <string name="menu_reckonings">Расчёт по стихиям</string>
     <string name="menu_reckonings_subtitle">Ваш год жизни и его камни</string>
     <string name="reckonings_note">Расчёт по стихиям (འབྱུང་རྩིས, \'byung rtsis) выкладывает белые и чёрные камни по тому, как стихии ваших знаков встречаются со стихиями времени; ничего в нём не выпадает случайно.</string>
-    <string name="reckonings_no_person">Расчёты делаются от даты рождения.</string>
+    <string name="reckonings_no_person">Расчёты строятся по дате рождения.</string>
     <string name="reckonings_section_built">Ваши расчёты</string>
     <string name="reckonings_year_subtitle">%1$s-й год жизни · год: %2$s</string>
     <string name="reckonings_year_header">год: %1$s · %2$d–%3$d</string>
@@ -843,7 +843,7 @@
     <string name="moment_period_title">Время дня · %1$s</string>
     <string name="moment_element_title">Стихия часа · %1$s</string>
     <string name="moment_period_night">Ночью у времени дня нет своего чтения.</string>
-    <string name="moment_note">Из расчёта мгновения считается всё, что выводится из часов и выбранного человека как спрашивающего: время дня и его стихия, триграмма и мева, от собственных даты на рассвете, в 05:00, по триграмме каждые полтора часа и по меве каждые восемьдесят минут, восемь и девять за день и снова за ночь; мева как дух, место и места родни; днём знак мгновения, животное часа с его стихией, против года спрашивающего для дома, поля и могилы, своего места, богатства, пива, домов, больного, пищи, волос и торговли; три мевы вместе, мева дня шестидесятидневного счёта в середине, мева года против каждого квадрата; тринадцать врат и счёты после них; части жизни человека и родни, внесённой с годом рождения, год предков, зерно и знаки на теле; сражающиеся враги. То, что встречается, а не считается, — сны, приход и поза спрашивающего, путь, клятва и её принадлежности, голоса и входящие, — стоит в разделе «Знаки, за которыми следить», чтобы читать его по встреченному.</string>
+    <string name="moment_note">Из расчёта мгновения считается всё, что выводится из часов и выбранного человека как спрашивающего: время дня и его стихия, триграмма и мева, отсчитанные от тех, что у даты на рассвете, в 05:00: по триграмме каждые полтора часа и по меве каждые восемьдесят минут, восемь и девять за день и снова за ночь; мева как дух, место и места родни; днём знак мгновения, животное часа с его стихией, против года спрашивающего для дома, поля и могилы, своего места, богатства, пива, домов, больного, пищи, волос и торговли; три мевы вместе, мева дня шестидесятидневного счёта в середине, мева года против каждого квадрата; тринадцать врат и отсчёты после них; части жизни человека и родни, внесённой с годом рождения, год предков, зерно и знаки на теле; сражающиеся враги. То, что встречается, а не считается, — сны, приход и поза спрашивающего, путь, клятва и её принадлежности, голоса и входящие, — стоит в разделе «Знаки, за которыми следить», чтобы читать его по встреченному.</string>
     <string name="moment_wealth_title">Богатство, болезнь и дух по стихии: %1$s</string>
     <string name="moment_spirit_title">Дух, требующий доли · %1$d %2$s</string>
     <string name="moment_mewa_place_title">Место мевы · %1$d %2$s</string>
@@ -873,12 +873,12 @@
     <string name="moment_gates_down">вниз</string>
     <string name="moment_gates_up">вверх</string>
     <string name="moment_gate_title">%1$d · %2$s</string>
-    <string name="moment_gate_counted">%1$s → %2$s</string>
+    <string name="moment_gate_counted">от года %1$s до года %2$s</string>
     <string name="moment_gate_reached">Достигнутый год · %1$s</string>
     <string name="moment_gate_up">%1$d вверх · %2$s</string>
     <string name="moment_gate_down">%1$d вниз · %2$s</string>
-    <string name="moment_sixty_section">Счёты после врат</string>
-    <string name="moment_sixty_none">Ни один из счётов после врат не падает на спрашивающего в это мгновение.</string>
+    <string name="moment_sixty_section">Отсчёты после врат</string>
+    <string name="moment_sixty_none">Ни один из отсчётов после врат не приходится на спрашивающего в это мгновение.</string>
     <string name="moment_sixty_title">Год начала: %1$s</string>
     <string name="moment_sixty_reached">достигнутый год: %1$s</string>
     <string name="moment_fight_title">Сражающиеся враги · белых %1$d, чёрных %2$d</string>
@@ -906,7 +906,7 @@
     <string name="moment_bed_food">Пища</string>
     <string name="moment_eaten_title">Что было съедено</string>
     <string name="moment_eaten_twice">Съедено · дважды</string>
-    <string name="moment_eaten_once">Съедено · однажды</string>
+    <string name="moment_eaten_once">Съедено · один раз</string>
     <string name="moment_eaten_none">Съедено · нет, или не досыта</string>
     <string name="moment_seat_title">Где болезнь · %1$s</string>
     <string name="moment_seat_none">ни один орган не в упадке</string>
@@ -938,10 +938,10 @@
     <string name="dream_section_when">Когда</string>
     <string name="dream_time_title">По часам</string>
     <string name="dream_time_set">Приснилось в %1$s</string>
-    <string name="dream_time_subtitle">Ночь от заката до восхода в четырёх равных частях, с %1$s, %2$s и %3$s; ни один источник не ограничивает стражу часами</string>
+    <string name="dream_time_subtitle">Ночь от заката до восхода, поделённая на четыре равные части: с %1$s, %2$s и %3$s; границ стражи по часам не даёт ни один источник</string>
     <string name="dream_time_outside">%1$s — не ночь: ночь идёт от заката до восхода.</string>
     <string name="dream_time_dialog">Когда был сон?</string>
-    <string name="dream_ill">Видевший сон болен</string>
+    <string name="dream_ill">Сон видел больной</string>
     <string name="dream_ill_subtitle">Добавляются толкования для больного и их правило ночи</string>
     <string name="dream_section_images">Что приснилось</string>
     <string name="dream_choose">Выбрать образы</string>
@@ -981,7 +981,7 @@
     <string name="illness_year_title">По могуществу и небесному году · %1$s, %2$s</string>
     <string name="illness_ransom_title">Выкуп · год: %1$s</string>
     <string name="illness_section_nineteen">Девятнадцать камешков</string>
-    <string name="illness_nineteen_line">Из шестнадцати сражённых %1$d белых и %2$d чёрных; число читается по его богине, на вкладке «Сегодня».</string>
+    <string name="illness_nineteen_line">Из шестнадцати камешков сражения белых %1$d, чёрных %2$d; число читается по его богине на вкладке «Сегодня».</string>
     <string name="illness_pebble_title">%1$s · %2$s · %3$s</string>
     <string name="illness_white">белый</string>
     <string name="illness_black">чёрный</string>
@@ -1012,13 +1012,13 @@
     <string name="illness_point_spoken">Точка %1$d: белых %2$d, чёрных %3$d</string>
     <string name="illness_trigram_ransom_title">Выкуп · %1$s</string>
     <string name="illness_flee_title">Бегство · %1$s</string>
-    <string name="illness_note">По мгновению болезни считаются её триграмма, животное дня, мева и планета, и пять камешков: жизненная сила года, месяца, дня и часа и стихия, которой больше всего среди их триграмм; триграмма и мева — собственные даты на рассвете, в 05:00, и дальше идут через день, а триграмма года следует его животному, как триграмма месяца. С выбранным человеком: род духа по меве рождения, смещённый знак, могущество и небесный год, выкуп года рождения, шестнадцать сражённых камешков, люди, нужные больному, стадия хранителя очага в час вопроса и доска пятнадцати начальных точек, каждая отсчитана от своего начала на столько лет, сколько прожито, «вниз» — вперёд по шестидесятилетию; древо стоит, когда все белые, и сломано, когда все чёрные; девять разрядов — по тому, насколько в пятнадцати тела больше белых или чёрных, пёстрый камешек не идёт ни в те, ни в другие. Вместе, наверху: болезнь, дух, древа, закрытые двери и разряд, а средства всех не белых строк собраны в одну. Не считаются: разряд, когда одного цвета больше на один, два, семь и более, страж изголовья и приговор о смерти.</string>
+    <string name="illness_note">По мгновению болезни считаются её триграмма, животное дня, мева и планета, и пять камешков: жизненная сила года, месяца, дня и часа и стихия, которой больше всего среди их триграмм; триграмма и мева — те, что у даты на рассвете, в 05:00, и дальше сменяются в течение дня, а триграмма года следует его животному, как триграмма месяца. С выбранным человеком: род духа по меве рождения, смещённый знак, могущество и небесный год, выкуп года рождения, шестнадцать камешков сражения, люди, нужные больному, стадия хранителя очага в час вопроса и доска пятнадцати начальных точек, каждая отсчитана от своего начала на столько лет, сколько прожито, «вниз» — вперёд по шестидесятилетию; дерево стоит, когда все белые, и сломано, когда все чёрные; девять разрядов — по тому, насколько в пятнадцати тела больше белых или чёрных, пёстрый камешек не идёт ни в те, ни в другие. Вместе, наверху: болезнь, дух, деревья, закрытые двери и разряд, а средства всех не белых строк собраны в одну. Не считаются: разряд, когда одного цвета больше на один, два, семь и более, страж изголовья и приговор о смерти.</string>
     <string name="circles_title">Тринадцать кругов</string>
     <string name="reckonings_circles_subtitle">%1$s-й год жизни · белых %2$d, чёрных %3$d</string>
     <string name="circles_subtitle">%1$s · %2$s-й год жизни · год рождения: %3$s, его могущество — %4$s</string>
     <string name="circles_counted">от года %1$s, достигнут год %2$s</string>
     <string name="circles_turtle_title">Золотая черепаха · %1$s</string>
-    <string name="circles_turtle_with">%1$s · %2$s</string>
+    <string name="circles_turtle_with">%1$s и вы · %2$s</string>
     <string name="circles_note">Каждый круг начинается от своего животного в стихии, поставленной против вашего могущества, стихии года рождения: враг, друг, мать или та же. Он отсчитывается вверх по шестидесяти годам по числу прожитых лет, начальный год — первый, для мужчины и женщины одинаково, и достигнутый год сталкивается с вашими жизненной силой, телом, могуществом и конём ветра, по камешку на каждый: мать или друг — белый, ребёнок или враг — чёрный, та же стихия — белый для земли и воды, чёрный для дерева, железа и огня. Круг слуг начинается по четырём гвоздям, от вашего собственного года. Пятый камешек, мева, не считается.</string>
     <string name="asking_abroad_section">Об ушедшем на чужбину</string>
     <string name="asking_abroad_title">Месяц вопроса против ваших четырёх аспектов</string>
@@ -1126,9 +1126,9 @@
     <string name="birth_detail_father">Отец: триграмма и год</string>
     <string name="birth_detail_child">Рождённый</string>
     <string name="birth_natal_needed">Рождение считается от триграммы рождения — триграммы вашей матери в год вашего рождения: укажите год её рождения среди родственников в разделе «Люди», чтобы увидеть её.</string>
-    <string name="birth_father_needed">Если указать год рождения отца среди родственников, будут прочитаны и те чтения, что спрашивают его триграмму.</string>
+    <string name="birth_father_needed">Если указать год рождения отца среди родственников, будут прочитаны и те чтения, для которых нужна его триграмма.</string>
     <string name="birth_gender_needed">Часть чтений триграмм родителей — для сына или для дочери: укажите пол в разделе «Люди», чтобы увидеть их.</string>
-    <string name="birth_parents_none">Ни одно из чтений о триграммах родителей не выпадает на это рождение.</string>
+    <string name="birth_parents_none">Ни одно из чтений о триграммах родителей не относится к этому рождению.</string>
     <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из дат рождения и родителей: могущество, тройка удачи и место года, отсечение его аспектов, пятеро по триграмме рождения, триграммы родителей при рождении и сто камешков, прочитанные в целом. Камень времени и двадцать один ребёнок не считаются.</string>
     <string name="reckonings_birth_subtitle">Триграмма рождения: %1$s · %2$s</string>
     <string name="reckonings_birth_needed">Нужен год рождения матери</string>
@@ -1152,13 +1152,13 @@
     <string name="birth_section_dpal_byur">Слава и беда</string>
     <string name="birth_dpal_byur_father">У рождённого: %1$s · у отца: %2$s</string>
     <string name="birth_dpal_byur_mother">У рождённого: %1$s · у матери: %2$s</string>
-    <string name="birth_dpal_byur_father_needed">С годом рождения отца среди родственников жизненная сила и конь ветра ставятся и против его.</string>
+    <string name="birth_dpal_byur_father_needed">Если указать год рождения отца среди родственников, ваши жизненная сила и конь ветра будут поставлены и против отцовских.</string>
     <string name="birth_section_line">Линия рождений</string>
     <string name="birth_line_father">Линия отца</string>
     <string name="birth_line_grandfather">Линия деда</string>
     <string name="birth_line_subtitle">Рождён в год %1$s, жизненная сила: %2$s</string>
     <string name="birth_line_clear">%1$s: рождён в год %2$s, его жизненная сила не падает ни на одну из четырёх.</string>
-    <string name="birth_line_needed">С годом рождения отца среди родственников, и его отца, указанного под ним, линия рождений отсчитывает их жизненную силу до вашего года.</string>
+    <string name="birth_line_needed">Если указать год рождения отца среди родственников, а под ним — год его отца, линия рождений отсчитает их жизненную силу до вашего года.</string>
     <string name="match_title">Сопоставление супругов</string>
     <string name="match_spouse">супругом</string>
     <string name="reckonings_match_subtitle">С %1$s</string>
@@ -1187,7 +1187,7 @@
     <string name="match_mewa_none">У мужчины %1$s, у женщины %2$s: одна стихия, и они не встречаются ни одним из прочитанных способов.</string>
     <string name="match_section_trigram">Триграммы рождения</string>
     <string name="match_trigram_title">Триграммы · %1$s</string>
-    <string name="match_trigram_needs">Каждой триграмме рождения нужен год рождения матери: укажите в «Людях» мать человека и мать супруга под супругом.</string>
+    <string name="match_trigram_needs">Каждой триграмме рождения нужен год рождения матери: укажите в разделе «Люди» мать человека и мать супруга под супругом.</string>
     <string name="match_trigram_children">Дети по триграммам</string>
     <string name="match_hand_waver">один из восьми машущих рукой</string>
     <string name="match_hand_waver_subtitle">%1$s на триграмме: %2$s</string>
@@ -1203,13 +1203,13 @@
     <string name="match_way_outer">внешний способ</string>
     <string name="match_way_secret">тайный способ</string>
     <string name="match_parent_title">%1$s, %2$s · %3$s</string>
-    <string name="match_parents_needs">Для отсчёта от родителей нужны их годы рождения: укажите в «Людях» родителей человека и родителей супруга под супругом.</string>
+    <string name="match_parents_needs">Для отсчёта от родителей нужны их годы рождения: укажите в разделе «Люди» родителей человека и родителей супруга под супругом.</string>
     <string name="match_path_first">первый путь мевы</string>
     <string name="match_path_middle">средний путь мевы</string>
     <string name="match_path_lower">нижний путь мевы</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
-    <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
+    <string name="match_years_none">Ни один из двух годов не входит в число дурных, и вид у них разный.</string>
     <string name="match_planet_title">Оба рождены: %1$s</string>
     <string name="match_section_together">Вместе</string>
     <string name="together_remedies">Средства вместе</string>
@@ -1248,10 +1248,10 @@
     <string name="birth_together_title">Рождение в целом</string>
     <string name="birth_together_subtitle">Из двадцати решающих камешков добрых %1$d, дурных %2$d</string>
     <string name="birth_board_title">Как читать доску</string>
-    <string name="birth_together_needed">Рождение читается в целом по ста камешкам, а для них нужен ваш пол и, для сына, год отца.</string>
+    <string name="birth_together_needed">Рождение читается в целом по ста камешкам, а для них нужны ваш пол и, для сына, год отца.</string>
     <string name="year_together_title">Год в целом</string>
     <string name="year_together_needed">Год читается в целом по четырём предсказательным камням, а для них нужен ваш пол.</string>
-    <string name="year_together_clear">Ни одно из препятствий года ниже не встречает ваши аспекты так, чтобы лечь против них.</string>
+    <string name="year_together_clear">Ни одно из препятствий года ниже не сходится с вашими аспектами так, чтобы обернуться против них.</string>
     <string name="year_colour_white">белый</string>
     <string name="year_colour_black">чёрный</string>
     <string name="year_colour_speckled">пёстрый</string>
@@ -1292,7 +1292,7 @@
     <string name="relative_died_when">Умер в</string>
     <string name="relative_year">Год</string>
     <string name="relative_year_sign">год: %1$s</string>
-    <string name="relative_year_note">Один год считается тибетским годом, который в нём начинается.</string>
+    <string name="relative_year_note">Если указан только год, считается тибетский год, который в нём начинается.</string>
     <string name="relative_day">День</string>
     <string name="relative_hour">Час</string>
     <string name="relative_year_only">Только год</string>
@@ -1371,7 +1371,7 @@
     <string name="wheel_own_title">Своя строка</string>
     <string name="wheel_own_hint">Слова на колесе, любым письмом; если пусто, первая мантра.</string>
     <string name="household_title">Домашний круг</string>
-    <string name="reckonings_household_subtitle">В круге %1$d из дома</string>
+    <string name="reckonings_household_subtitle">Домочадцев в круге: %1$d</string>
     <string name="reckonings_household_needed">Нужны четверо из дома</string>
     <string name="household_needed">Кругу нужны не меньше четырёх человек одного дома, у каждого год рождения и пол. Отметьте родственников как живущих в доме в разделе «Люди».</string>
     <string name="household_missing">Не посчитаны, нет года рождения или пола: %1$s</string>
@@ -1419,7 +1419,7 @@
     <string name="wheel_set_wallpaper">Поставить на обои</string>
     <string name="wheel_wallpaper_note">Обои показывают то, что выбрано здесь, и ускоряются от касания главного экрана.</string>
     <!-- the wheel in the system's list of live wallpapers -->
-    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; касание или взмах ускоряет её, удержание пальца останавливает. Выбирается в Zanshin, в разделе «Практика».</string>
+    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; касание или взмах ускоряет её, прижатый палец останавливает. Выбирается в Zanshin, в разделе «Практика».</string>
     <!-- describes the turning wheel for screen readers -->
     <string name="desc_wheel">Молитвенное колесо медленно вращается; касание или взмах ускоряет его, прижатый палец останавливает</string>
 </resources>
