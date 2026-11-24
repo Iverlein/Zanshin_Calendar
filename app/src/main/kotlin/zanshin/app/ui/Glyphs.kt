@@ -49,10 +49,6 @@ private val LAMP = "M12 3c1.8 2.2 2 4 0 6c-2-2-1.8-3.8 0-6zM6 11h12c0 3-2.7 5-6 
 private val GLYPHS: Map<String, Glyph> = mapOf(
     "LOSAR" to Glyph(LOTUS, description = R.string.glyph_lotus),
     "CHOTRUL_DUCHEN" to Glyph(LAMP, description = R.string.glyph_butter_lamp),
-    "KALACAKRA" to Glyph(
-        circle(12f, 12f, 9f) + "M7 7h10v10H7zM11 7V5.5h2V7M11 17v1.5h2V17M7 11H5.5v2H7M17 11h1.5v2H17" + circle(12f, 12f, 1.5f),
-        description = R.string.glyph_mandala,
-    ),
     "BIRTH" to Glyph("M12 4c2.5 3 2.5 6 0 9c-2.5-3-2.5-6 0-9zM12 13v7M12 17c-2-1-3.5-1-5 0M12 17c2-1 3.5-1 5 0", description = R.string.glyph_lotus_bud),
     "SAGA_DAWA_DUCHEN" to Glyph("M12 20c-5-3-8-7-7-11c.7-2.6 3.3-3.6 5.3-2.3L12 8l1.7-1.3c2-1.3 4.6-.3 5.3 2.3c1 4-2 8-7 11zM12 8v14", description = R.string.glyph_bodhi_leaf),
     "ZAMLING_CHISANG" to Glyph("M7 16h10l-1.5 4h-7zM10 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5M14 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5", description = R.string.glyph_smoke_offering),
@@ -61,11 +57,6 @@ private val GLYPHS: Map<String, Glyph> = mapOf(
     "LHABAB_DUCHEN" to Glyph(
         "M5 3v18M9 3v18M10.5 3v18M13.5 3v18M15 3v18M19 3v18M5 7h4M5 12h4M5 17h4M10.5 7h3M10.5 12h3M10.5 17h3M15 7h4M15 12h4M15 17h4",
         description = R.string.glyph_triple_ladder,
-    ),
-    "GADEN_NGAMCHO" to Glyph(
-        "M8 5c1.3 1.6 1.4 3 0 4.4c-1.4-1.4-1.3-2.8 0-4.4zM16 5c1.3 1.6 1.4 3 0 4.4c-1.4-1.4-1.3-2.8 0-4.4z" +
-            "M4.5 11h7c0 2-1.6 3.4-3.5 3.4S4.5 13 4.5 11zM12.5 11h7c0 2-1.6 3.4-3.5 3.4S12.5 13 12.5 11zM8 14.4v3.6M16 14.4v3.6M5 20h14",
-        description = R.string.glyph_butter_lamps,
     ),
     "PROTECTORS" to Glyph("M12 3c3 4 6 6 6 10a6 6 0 0 1-12 0c0-2 1-3.5 2-4.5c0 2 1 3 2 3c-1-3 0-6 2-8.5z", description = R.string.glyph_flame),
 

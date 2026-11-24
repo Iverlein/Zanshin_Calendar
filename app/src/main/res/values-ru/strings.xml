@@ -500,14 +500,12 @@
     <!-- Glyphs: descriptions for screen readers -->
     <string name="glyph_lotus">лотос</string>
     <string name="glyph_butter_lamp">масляная лампада</string>
-    <string name="glyph_mandala">мандала</string>
     <string name="glyph_lotus_bud">бутон лотоса</string>
     <string name="glyph_bodhi_leaf">лист дерева бодхи</string>
     <string name="glyph_smoke_offering">дымное подношение</string>
     <string name="glyph_wheel_of_dharma">колесо Дхармы</string>
     <string name="glyph_seed_within_a_circle">семя в круге</string>
     <string name="glyph_triple_ladder">тройная лестница</string>
-    <string name="glyph_butter_lamps">масляные лампады</string>
     <string name="glyph_flame">пламя</string>
     <string name="glyph_kadomatsu">кадомацу</string>
     <string name="glyph_herb_sprig">веточка трав</string>
