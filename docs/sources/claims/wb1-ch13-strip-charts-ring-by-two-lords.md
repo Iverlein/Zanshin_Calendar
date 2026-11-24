@@ -1,0 +1,13 @@
+---
+kind: claim
+type: table
+terms: [ba-dan, bya-khyung, snang-sel]
+cites: ['wb.1:p142-147r']
+feeds: []
+open: []
+---
+# Ch. 13, pp. 142-147: the ring of sixteen cells, twelve animal places fixed by the ba dan and the bya khyung
+
+Each strip chart has sixteen cells round its woodcut, and twelve of them are the places of the twelve animals, in the order KP's year chart gives for its ring. Clockwise from the top-left corner: dragon (the corner), snake (the left cell of the top row), horse (the right cell of the top row), sheep (the top-right corner), monkey (the upper cell of the right column), bird (its lower cell), dog (the bottom-right corner), pig (the right cell of the bottom row), rat (its left cell), ox (the bottom-left corner), tiger (the lower cell of the left column), hare (its upper cell). The middle cell of each side holds no animal's place. The test is the verse of vol. 2, p. 219 that places two lords by month and animal: the speckled banner (ba dan khra bo) stands on the tiger in the bird, ox and snake months, on the monkey in the hare, sheep and pig months, on the snake in the tiger, horse and dog months, and on the pig in the mouse, dragon and monkey months; the sky's garuḍa Hongphan (bya khyung) on the pig in the tiger, horse and dog months, on the dog in the bird, ox and snake months, on the horse in the mouse, dragon and monkey months, and on the bird in the hare, sheep and pig months. In the twelve charts the word ba dan stands in the cell of the animal the verse names, 12 of 12, and bya khyung likewise, 12 of 12 (the dog's place is the bottom-right corner, where the word stands in the snake, bird and ox charts together with snang sel and, in the snake chart, bshan pa). The same word is the same printed block, so identical blocks were matched by program across the twelve charts and each match was then looked at on the crop; the two readings agree.
+
+What the check does not give: the readings of the other cells. snang sel (the light-clearer) stands in one corner for each group of three months, as bya khyung does, the tiger, horse and dog at the top-right corner, the hare and pig at the top-left, the dragon, monkey and rat at the bottom-left, the snake, bird and ox at the bottom-right; the sheep chart's top-left corner is empty and no snang sel was found in its corners. The verse (p. 219) puts it on the grave, the downward neighbour or the upward slayer by the month's place in its season, and which animal that is for each month was not set against the chart. The other lords (dur len, bshan pa, gshed po, bla mkhyen, nang bdud, gza' thog and the words of the multi-line cells) were not read to the letter and are not placed.
