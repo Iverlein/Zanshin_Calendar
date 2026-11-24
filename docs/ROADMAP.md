@@ -144,6 +144,7 @@ moves up as soon as it is unblocked.
 | <a id="block-87"></a>87 | [T6.1](#t6-1) The practice-day frames painted, and release 3.5 — built 2026-11-22 | — | — | Built: T6.1 and release 3.5 (versionCode 20); the six large frames accepted by the owner on 2026-11-22, store shots 12–14 for a practice day and a common day of each calendar. Was: Build block 87: T6.1, the frames of the practice days painted by Gemini 4 Neon in the Tibetan manner, shown to the owner, then built into the page as T6.1 says; then release 3.5 (versionCode 20): the practice days and the L5 Russian of block 74 since 3.4, with the changelog drafted in the work state of 2026-11-21. |
 | <a id="block-88"></a>88 | [T6.2](#t6-2) The festival frames painted | [RD408](#rd408) | [87](#block-87) | Build block 88: T6.2, the eleven festival frames painted by Gemini (machine rule 15, the `paint` skill) by the motifs RD408 confirmed, shown to the owner, then built into the Tibetan page's festival headline as T6.2 says. |
 | <a id="block-89"></a>89 | [T6.3](#t6-3) The 旧暦 festival frames painted | [RD409](#rd409) | [87](#block-87) | Build block 89: T6.3, the nine 旧暦 festival frames painted by Gemini in the manner of ukiyo-e (machine rule 15, the `paint` skill) by the motifs RD409 confirmed, shown to the owner, then built into the 旧暦 page's festival headline as T6.3 says; `FestivalGlyph` removed once block 88 is in. |
+| <a id="block-90"></a>90 | [T6.4](#t6-4) The days of the Nyingma and Kagyu schools and of the owner's lineages | [RD410](#rd410), [RD411](#rd411) | [88](#block-88) | Build block 90: T6.4, the festival list of SPEC §5.7 extended by the days RD410 and RD411 confirm and the owner chooses, each with its reading from the pool, and a frame painted for each as T6.2's (machine rule 15, the `paint` skill), shown to the owner. |
 | <a id="block-71"></a>71 | [R2](#r) Who does not handle the corpse — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 93's offices by the mewa and the trigram of death. |
 | <a id="block-70"></a>70 | [R2](#r) The death's eye, in part — built 2026-11-06 | — (read: RD33) | [31](#block-31) | Built: p. 94's eight sending places by the trigram of death, and the living of the dead's year animal and its seventh named. |
 | <a id="block-69"></a>69 | [R9](#r9) The mewa's copper vessel — built 2026-11-06 | — (read: RD30) | [58](#block-58) | Built: pp. 54–55's readings for a birth mewa half the household or more share, a section of the household round. |
@@ -565,6 +566,8 @@ check them on the scans.
 | <a id="rd407"></a>RD407 | The Narthang catalogue's images 87–140 for a second entry of the Examination of Dreams (what RD406 left, q1155): Yigdzin-1 over the odd images 87–139 whole and the even images 88–140 by crops of the text block, and a syllable-by-syllable look at img. 77 on the scan — done 2026-11-11: in part: no second entry of the Examination of Dreams in the Narthang catalogue's images 87–140 (machine reading; img. 93, 105, 111, 121 nearly empty and unread); «རྨི་ལམ» once, img. 140, a different work («the immaculate dream meditation») | I2KG212509 images 77 and 87–140 on BDRC (the card; scans.py, hf_read.py through schedule.py slot) | — | [S2](#s2) | corpus/svo/svo.md | Read RD407: a second entry, if any, in Tibetan script with image and the English beside, or that none of 87–140 carries one; dead ends to PLAN.md |
 | <a id="rd408"></a>RD408 | The emblems of the eleven festivals for their painted frames ([T6.2](#t6-2)): for each festival the motif T6.2 proposes, checked against a published description of how the event is painted (the twelve deeds of the Buddha as painted in a published set or study; an encyclopaedia of Tibetan symbols for the emblems: the Dharma wheel with deer, the eight auspicious symbols, the six-tusked elephant, the triple stair, the twin miracle, Tsongkhapa's sword and book, the Kālacakra mandala's rings of the elements, the bsang smoke offering, the year-end torma) — done 2026-11-24: the eight auspicious symbols, twin miracle, Dharma wheel with deer, white elephant, triple ladder, Tsongkhapa's sword and book, and the red torma are confirmed as emblems by published pages; the Kalacakra rings, the birth, Saga Dawa and Zamling Chisang motifs have no source and drop to a plain aureole; no page says how any festival is painted | to be found: a published study or catalogue of the twelve deeds in thangka painting; a reference of Tibetan symbols and motifs; Rabten's and the Rigpa calendar's festival notes already in festivals.md | — | [T6.2](#t6-2) | festivals.md | Read RD408: for each festival, the motif confirmed (with the source's page and the Tibetan name of the emblem, SPEC §8.1) or replaced by the one the source gives; a motif no source supports is dropped for a plain aureole in the day's colours; the result as claims, the open ones as questions; dead ends to PLAN.md |
 | <a id="rd409"></a>RD409 | The things of the nine 旧暦 festivals for their painted frames ([T6.3](#t6-3)): for each festival the motif T6.3 proposes, checked against a published description of what the festival is kept with (the NAOJ koyomi wiki's 節句 and 十三夜 pages, already sources; a Japanese encyclopaedia or a museum's catalogue of seasonal ukiyo-e for 七草, 流し雛, 鯉のぼり, 短冊, 月見団子, 栗名月, 精霊馬) and a published description of the koma-e cartouche and the round window in nishiki-e — done 2026-11-24: the 旧暦 festival things confirmed by NAOJ and Japanese Wikipedia (kadomatsu, peach blossom and nagashi-bina, susuki and dango, chrysanthemum, chestnut and bean moons, mukae-bi and the cucumber horse and aubergine ox, carp streamers, bamboo and tanzaku, the seven herbs); the 7th's moon is a first-quarter half moon with the Milky Way after it sets, not a full moon; reference nishiki-e Hiroshige's Suidobashi Surugadai (BM 1906,1220,0.723); no source for a round window or koma-e cartouche in nishiki-e | NAOJ 暦Wiki (already in Texts.kt); a museum catalogue of ukiyo-e (Tokyo National Museum, the British Museum's or the MFA Boston's online collection) found in the headed browser; Japanese Wikipedia (CC BY-SA, facts only) | — | [T6.3](#t6-3) | festivals.md | Read RD409: for each festival, the motif confirmed (with the source and its page) or replaced by what the source gives; one nishiki-e of the kind named and described in words as the brief's reference; the result as claims, the open ones as questions; dead ends to PLAN.md |
+| <a id="rd410"></a>RD410 | The days of the year the Nyingma and Kagyu schools keep, beyond the düchen the app has ([T6.4](#t6-4)): for each day its Tibetan date (month and lunar day), what it commemorates and how it is kept, with the school that keeps it: Guru Rinpoche's days of the year (the tenth of the Monkey month and the others), the passing days (*dus mchod*) of the Nyingma masters (Longchenpa, Jigme Lingpa, Mipham, Dudjom Rinpoche and the treasure revealers the almanacs name) and of the Kagyu (Tilopa, Nāropa, Marpa, Milarepa, Gampopa, the Karmapas) | a Nyingma almanac or annual calendar of the source ranking first (Padma Samye Ling's, the holders of Rtsa gsum gling pa's lineage, KTD), then Mipham's writings, the Smin grol gling or Kaḥ thog calendars, the Rigpa calendar already in festivals.md; for the Kagyu, the Tsurphu almanac (*mtshur phu'i lo tho*) or a Karma Kagyu centre's published calendar; BDRC for the Tibetan of each master's passing day | — | [90](#block-90) | school-days.md (new) | Read RD410: each day with its Tibetan date, the event, the school and the source with its page; a day the sources give differently, each version with its source; Tibetan as printed for each name and date (SPEC §8.1); the result as claims, the open ones as questions; dead ends to PLAN.md |
+| <a id="rd411"></a>RD411 | The dates of Rtsa gsum gling pa, Machig Labdrön (མ་གཅིག་ལབ་སྒྲོན, ma gcig lab sgron) and Phadampa Sangye (ཕ་དམ་པ་སངས་རྒྱས, pha dam pa sangs rgyas) ([T6.4](#t6-4)): birth, passing and the other days their lives and their lineages (Chöd, གཅོད, gcod; Shijé, ཞི་བྱེད, zhi byed) mark, each with its Tibetan date and how the day is kept | TSL vol. 30, Rtsa gsum gling pa's own life (etext, already partly read for RD363), and the lineage's calendar at Sgo chen dgon or Padma Samye Ling (KTD); Machig's life (*Ma gcig gi rnam thar*, in the Gcod tshogs collections on BDRC) and the Blue Annals' chapters on Gcod and Zhi byed (*Deb ther sngon po*); Phadampa's life in the Zhi byed collection (*Zhi byed snga phyi bar gsum gyi skor*) and the Ding ri tradition; the published translations of these lives for facts only | — | [90](#block-90) | lineage-days.md (new) | Read RD411: for each of the three, every date the sources give (year, month, lunar day; birth, passing, other events) on the scan or etext, Tibetan as printed with the English beside, which of them a lineage keeps as a day of practice, and where the sources disagree, each with its source; the result as claims, the open ones as questions; dead ends to PLAN.md |
 
 ### Left open in built work
 
@@ -2483,6 +2486,9 @@ also names the 11th and 26th, not taken; q1263 stays open on the note).
 - **Festivals.** Frames of their own for the eleven festivals, painted in
   the same hand: [T6.2](#t6-2), planned 2026-11-22. The 旧暦 page's nine
   festivals in the manner of ukiyo-e: [T6.3](#t6-3), planned the same day.
+- **Lineage.** Kālacakra and Gaden Ngamchö dropped, the days of the
+  Nyingma and Kagyu schools and of the owner's lineages to be read and
+  added: [T6.4](#t6-4), planned 2026-11-24.
 
 ### <a id="t6-1"></a>T6.1. The practice-day frames painted in the Tibetan manner — built 2026-11-22 (SPEC §10.3)
 
@@ -2735,6 +2741,36 @@ frame.
 
 **Done when** the owner has accepted the nine pictures and the 旧暦 page
 shows each festival in its frame, in every theme.
+
+### <a id="t6-4"></a>T6.4. The days of the Nyingma and Kagyu schools — planned 2026-11-24 (SPEC §5.7, §10.3)
+
+The owner, 2026-11-24, on the festival list: "why so much attention to
+Kalachakra and Tsongkapa? I asked Nyingma/Kagyu accent, and we ended up
+with Gelukpa", and then "drop both, and plan a reading for Nyingma/Kagyu
+days, also look for info on dates around Tsasum Lingpa, Machig Labdron
+and Phadampa Sangye". The list of SPEC §5.7 came with 1.0 from Henning's
+Phugpa archive (Kālacakra, 3/15) and Rabten's calendars (Gaden Ngamchö,
+10/25), and was never weighed against the accent the practice days took
+in T6.
+
+- **Done the same day.** Kālacakra (3/15) and Gaden Ngamchö (10/25)
+  dropped: `TibetanFestival`, their readings in both languages, their line
+  glyphs, SPEC §5.7. Block 88's frames for the two (`festival_kalacakra`,
+  `festival_gaden_ngamcho`, painted on 2026-11-24) go with them when that
+  block is rebased.
+- **To read.** [RD410](#rd410), the days the Nyingma and Kagyu schools
+  keep; [RD411](#rd411), the dates of Rtsa gsum gling pa (TSL), Machig
+  Labdrön and Phadampa Sangye, the lineages the owner holds (Chöd of the
+  Shijé lineage).
+- **Then (block 90).** The owner chooses from what the readings confirm;
+  each chosen day joins `TibetanFestival` with its Tibetan date, its name
+  with its Tibetan (SPEC §8.1) and a reading from the pool, and a frame
+  painted in T6.2's hand. A master's passing day falls on the date as the
+  Phugpa calendar counts it; a day the sources date differently is not
+  kept until the owner decides.
+
+**Done when** the chosen days stand on the Tibetan page with their readings
+and frames, in both languages.
 
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 

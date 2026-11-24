@@ -210,10 +210,13 @@ Fixed Tibetan dates, from Henning, *Kālacakra and the Tibetan Calendar*,
 Appendix II (via Janson §11). If the date is skipped, the holiday falls on the
 preceding day; if repeated, on the first of the pair; holidays are not held in
 leap months, except Losar. Dates from Henning's Phugpa archive and Edition
-Rabten's calendars: Losar (1/1), Chötrul Düchen (1/15), Kālacakra (3/15), Birth
-of the Buddha (4/7), Saga Dawa Düchen (4/15), Zamling Chisang (5/15), Chökhor
-Düchen (6/4), Entry into the womb (6/15), Lhabab Düchen (9/22), Gaden Ngamchö
-(10/25), Thanksgiving to the Protectors (12/29). Henning
+Rabten's calendars: Losar (1/1), Chötrul Düchen (1/15), Birth of the Buddha
+(4/7), Saga Dawa Düchen (4/15), Zamling Chisang (5/15), Chökhor Düchen (6/4),
+Entry into the womb (6/15), Lhabab Düchen (9/22), Thanksgiving to the
+Protectors (12/29). Henning's Revelation of the Kālacakra Tantra (3/15) and
+Rabten's Gaden Ngamchö (10/25), Tsongkhapa's parinirvāṇa, are not kept: the
+owner's decision of 2026-11-24, for the Nyingma and Kagyu accent the app
+keeps; the days of those schools are being read (ROADMAP T6.4). Henning
 also marks festivals inside leap months; this app does not. Rabten's Sangpo
 Chuzom, the Ten Good Omens on 11/6, is not kept: the White Beryl has no ten
 good omens, and names the 7th of that month, the first of spring by its
