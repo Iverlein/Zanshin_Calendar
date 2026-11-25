@@ -2,18 +2,19 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The painted frames of the practice days and the festivals (SPEC §10.3, ROADMAP T6.1, T6.2) into the app.
+"""The painted frames of the practice days and the festivals (SPEC §10.3, §10.4, ROADMAP T6.1–T6.4) into the app.
 
-The paintings are kept in art/practice/ and art/festivals/ as they came, in
+The paintings are kept in art/practice/, art/festivals/ and art/kyureki/ (the
+旧暦 festivals, kyureki_<romaji>) as they came, in
 lossless WebP, each with an alpha channel or on a flat key colour (magenta by
 default). The script keys the background out (removing the key's spill from
 the soft edges), takes the part of the painting its frame uses, clears the
 plain disc round the numeral to a faint glow, and writes
-app/src/main/res/drawable-nodpi/<name>.webp (practice_8, festival_losar …);
+app/src/main/res/drawable-nodpi/<name>.webp (practice_8, festival_losar, kyureki_tanabata …);
 ``sheet`` renders a contact sheet of the results on four page colours with
 the numeral in each.
 
-    python3 tools/practice_frames.py cut art/practice art/festivals [--key ff00ff] [--only festival_]
+    python3 tools/practice_frames.py cut art/practice art/festivals art/kyureki [--key ff00ff] [--only festival_]
     python3 tools/practice_frames.py sheet <out.png> [--src <dir of webp>] [--only festival_]
 """
 
@@ -49,13 +50,19 @@ FRAMES = {
     **{f"festival_{name}": LARGE for name in (
         "losar", "chotrul_duchen", "birth", "saga_dawa_duchen", "mipham", "guru_birth", "zamling_chisang",
         "chokhor_duchen", "entry_into_womb", "jigme_lingpa", "lhabab_duchen", "dudjom", "longchenpa", "protectors")},
+    # The 旧暦 festivals (T6.3), in the manner of ukiyo-e on the same geometry; named by their romaji.
+    **{f"kyureki_{name}": LARGE for name in (
+        "kyu_shogatsu", "jinjitsu", "joshi", "tango", "tanabata", "jugoya", "choyo", "jusanya", "obon")},
 }
 # The numeral each frame is shown with on the sheet: the day of the month.
 SAMPLE = {"practice_small": "9", "festival_losar": "1", "festival_birth": "7", "festival_chokhor_duchen": "4",
           "festival_lhabab_duchen": "22", "festival_mipham": "29", "festival_guru_birth": "10", "festival_jigme_lingpa": "3",
-          "festival_dudjom": "18", "festival_longchenpa": "18", "festival_protectors": "29"}
+          "festival_dudjom": "18", "festival_longchenpa": "18", "festival_protectors": "29",
+          "kyureki_kyu_shogatsu": "1", "kyureki_jinjitsu": "7", "kyureki_joshi": "3", "kyureki_tango": "5",
+          "kyureki_tanabata": "7", "kyureki_jugoya": "15", "kyureki_choyo": "9", "kyureki_jusanya": "13", "kyureki_obon": "15"}
 PAGES = {"Ink": (0x11, 0x13, 0x11), "Night": (0x00, 0x00, 0x00), "Maroon": (0x3A, 0x11, 0x17), "Paper": (0xF5, 0xF1, 0xE8)}
 GLOW = 0.14
+SUMI = (0x1F, 0x1D, 0x19)  # the numeral on a 旧暦 cartouche, KyurekiPage's SUMI
 # The plain disc of the large geometry in its 1024 × 896 painting, as ``disc_edges`` finds it on the practice days'
 # paintings (the median of the 10th, 15th, 25th, 29th and 30th): its left, right and top edge. A festival painting comes at another size or with its disc a little larger or smaller, and is scaled
 # and moved so that its disc lies here before it is cut (``register``).
@@ -209,7 +216,7 @@ def cut(srcs: list[Path], key: tuple[int, int, int], only: str) -> None:
             print(f"missing {name} in {', '.join(map(str, srcs))}", file=sys.stderr)
             continue
         img = Image.open(path).convert("RGB")
-        if name.startswith("festival_"):
+        if not name.startswith("practice_"):
             img = rekey(register(img, corner_key(img)), corner_key(img), key)
         fitted[name] = fit(key_out(img, key), crop, w * SCALE, h * SCALE)
     # The paintings of one set and one geometry share one disc: the median of their rays.
@@ -220,7 +227,10 @@ def cut(srcs: list[Path], key: tuple[int, int, int], only: str) -> None:
         shapes.setdefault(group(name), []).append(disc_radii(img, FRAMES[name][3]))
     for name, img in fitted.items():
         window = FRAMES[name][3]
-        img = clear_disc(img, window, np.median(shapes[group(name)], axis=0))
+        # A 旧暦 festival's cartouche is the print's paper and stays, the numeral printed on it in sumi on every
+        # page colour; a thangka's disc is cleared, the numeral standing on the page.
+        if not name.startswith("kyureki_"):
+            img = clear_disc(img, window, np.median(shapes[group(name)], axis=0))
         dest = OUT / f"{name}.webp"
         img.save(dest, "WEBP", quality=88, method=6, alpha_quality=100)
         print(f"{dest.relative_to(ROOT)}  {dest.stat().st_size // 1024} KB")
@@ -236,8 +246,8 @@ def sheet(dest: Path, src: Path, only: str) -> None:
     cell_w, cell_h = max(f[1] for f in FRAMES.values()) * SCALE + 40, max(f[2] for f in FRAMES.values()) * SCALE + 40
     out = Image.new("RGB", (cell_w * len(names), cell_h * len(PAGES)))
     for row, (page, bg) in enumerate(PAGES.items()):
-        text = (0xEC, 0xE8, 0xDF) if page != "Paper" else (0x1F, 0x1D, 0x19)
         for col, name in enumerate(names):
+            text = (0xEC, 0xE8, 0xDF) if page != "Paper" and not name.startswith("kyureki_") else SUMI
             _, w, h, (x0, y0, x1, y1) = FRAMES[name]
             cell = Image.new("RGBA", (cell_w, cell_h), (*bg, 255))
             img = Image.open(src / f"{name}.webp").convert("RGBA")
@@ -259,7 +269,7 @@ def main() -> None:
     c = sub.add_parser("cut", help="key, fit and write the frames into the app")
     c.add_argument("src", type=Path, nargs="+", help="folders of the paintings, searched in order")
     c.add_argument("--key", default="ff00ff", help="the flat background colour, hex")
-    c.add_argument("--only", default="", help="only the frames whose name starts so (practice_, festival_)")
+    c.add_argument("--only", default="", help="only the frames whose name starts so (practice_, festival_, kyureki_)")
     s = sub.add_parser("sheet", help="a contact sheet on the four page colours")
     s.add_argument("dest", type=Path)
     s.add_argument("--src", type=Path, default=OUT)
