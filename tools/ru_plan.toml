@@ -17,7 +17,7 @@ id = 75
 title = "The rest of the interface"
 app = [".*"]
 catalog = []
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 76
@@ -31,14 +31,14 @@ catalog = ["LunarDate", "LunarDayClass", "DateOrdinal", "Weekday", "Mansion", "Y
   "GtsugLagDay", "SevenRedYear", "WorksSign", "Element", "Animal", "Trigram", "Gender", "Direction", "Colour",
   "ZodiacSign", "IndianElement", "LetterElement", "Season", "SeasonSign", "Lord(Entry|Part|Place)", "Course.*",
   "EarthLordCourse", "SkyDoor", "Holder", "Rahu.*", "RaisingDay", "RaisingMonth"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 77
 title = "The earth lords of the day, the month and the year"
 app = []
 catalog = ["EarthLord", "MonthLord", "YearLord"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 78
@@ -47,14 +47,14 @@ app = []
 catalog = ["Senjitsu", "Choku", "Shuku", "Rokuyo", "SolarTerm", "SunTermKind", "Festival", "Zassetsu", "Daishogun",
   "Konjin", "Tenichi", "Ehou", "HasshoGod", "KyuSei", "Kanshi", "Stem", "Branch", "BranchDirection", "Gogyo",
   "KyurekiMonth", "StarAffinity", "StarRelation", "SaihaWeight"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 79
 title = "Health and the illness reckoning"
 app = []
 catalog = ["Illness.*", "Humour", "MedicalSeason", "ElementIllness", "La.*", "BodyNature", "Organ", "SenseObject"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 80
@@ -64,14 +64,14 @@ catalog = ["Year.*", "SixtyYear", "PowerYear.*", "RiseDecline", "KhaSrog", "Dpal
   "NatalTrigram", "LogMen.*", "BadYear.*", "HarshYear", "Kin.*", "Kinship", "SpouseKind", "Birth.*",
   "PreciousPebble", "Sector", "LifeStage", "LineStage", "ObstacleGrade", "SmeBaObstacle", "UnchangingLuck",
   "BasicSign", "Force", "HundredPebble", "HundredKin", "Household.*", "HousePlace", "HouseSide"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 81
 title = "The marriage match"
 app = []
 catalog = ["Match.*", "SiblingsWin"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 82
@@ -79,28 +79,28 @@ title = "The circles, the starting points and the small reckonings"
 app = []
 catalog = ["Circle.*", "Round.*", "Starting.*", "Thirty.*", "Turtle.*", "GraveEntered", "GraveMansion", "WombEnd",
   "GroupCut"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 83
 title = "The dead"
 app = []
 catalog = ["Dead.*"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 84
 title = "The bride's going"
 app = []
 catalog = ["Departure.*"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 85
 title = "The present moment and the dreams"
 app = []
 catalog = ["Moment.*", "AskingSign", "AskerPlace", "OwnPlaceRole", "Abroad", "TimeMeeting", "Dream.*"]
-done = ""
+done = "2026-11-25"
 
 [[block]]
 id = 86
