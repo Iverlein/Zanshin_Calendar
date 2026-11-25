@@ -6549,7 +6549,11 @@ letters"):
    sense, no source named (SPEC §8.1), every Tibetan word in its bracket
    (`TibetanNaming`), keys, placeholders and the plural forms untouched,
    the vocabulary kept (D1), the app's own term for each thing (rule
-   S1). A row's subtitle stays a few words.
+   S1). A row's subtitle stays a few words. Small changes are easiest
+   written as substring edits (`python3 tools/ru_rewrite.py edit EDITS
+   --out CHANGES`, then `apply CHANGES`); `apply` warns of a reading
+   that falls under CatalogTest's 20 words, where the Russian's padding
+   has to stay.
 3. `python3 tools/ru_check.py --block <n>` clean, `./gradlew :core:test
    :app:testDebugUnitTest` green (CatalogTest, TranslationsTest).
 4. The block's screens in Russian on the emulator (`tools/emulator/
