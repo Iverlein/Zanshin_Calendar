@@ -3871,8 +3871,9 @@ canvas "Zanshin Calendar — basic design".
   a sun disc on the seat for the thanksgiving to the protectors
   (`res/drawable-nodpi/festival_*.webp`, the paintings in `art/festivals/`,
   cut by `tools/practice_frames.py`, which scales each so its disc lies on
-  the practice days'). The Nyingma days of §5.7 (T6.4) have no frame yet:
-  Mipham's 29th and the Guru's 10th show the practice day's, the others none.
+  the practice days'). The Nyingma days of §5.7 (T6.4) have a frame each,
+  like the other festivals, which on Mipham's 29th and the Guru's 10th
+  stands in place of the practice day's.
 - **Month:** number plus Tibetan name — "4th month · sa ga". Tapping it opens
   a balloon with the other names: Sanskrit lunar mansion, animal name
   (Janson Table 4), and its two seasons, each labelled, as WB's model

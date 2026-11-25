@@ -2821,6 +2821,11 @@ in T6.
   its own colours with the flaming jewel of the practice frames. They are
   cut and shown once block 88 is merged; until then a festival without a
   frame keeps the ring the page draws for a festival with no glyph.
+  Wired on 2026-11-25 (`frameOf`, no festival without a frame any more) on
+  placeholder copies of practice_10, checked on the emulator on the Guru's
+  birth, 2026-06-24; the Saga Dawa repaint queued into
+  `art/festivals/festival_saga_dawa_duchen.png` too. Left: cut the six
+  paintings over the placeholders, the sheet by letter, the owner's word.
 
 **Done when** the chosen days stand on the Tibetan page with their readings
 and frames, in both languages.
