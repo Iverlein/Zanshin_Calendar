@@ -57,9 +57,11 @@ import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.Tenichi
 import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.YearGods
+import zanshin.core.kyureki.Zassetsu
 import zanshin.core.texts.Activity
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DaySummary
@@ -82,6 +84,23 @@ private fun festivalFrame(festival: Festival): Frame? = when (festival.kanji) {
     "重陽の節句" -> R.drawable.kyureki_choyo
     "十三夜" -> R.drawable.kyureki_jusanya
     "お盆" -> R.drawable.kyureki_obon
+    // The deities' yearly days (ROADMAP T6.5), one painting per deity: Daikoku's 甲子祭 and 子祭 share his.
+    "初午" -> R.drawable.kyureki_hatsuuma
+    "甲子祭", "子祭" -> R.drawable.kyureki_kinoene
+    "初不動" -> R.drawable.kyureki_hatsufudo
+    "五大力尊仁王会" -> R.drawable.kyureki_godairiki
+    "四万六千日" -> R.drawable.kyureki_shiman
+    "地蔵盆" -> R.drawable.kyureki_jizobon
+    "十夜" -> R.drawable.kyureki_juya
+    "夏越の祓" -> R.drawable.kyureki_nagoshi
+    else -> null
+}?.let(::largeFrame)
+
+/** 節分's frame on its day, and each 彼岸's on its middle day, the equinox (T6.5); the other 雑節 have none. */
+private fun zassetsuFrame(day: KyurekiDay, rk: RekichuDay): Frame? = when {
+    Zassetsu.SETSUBUN in rk.zassetsu -> R.drawable.kyureki_setsubun
+    day.termBeginning == SolarTerm.SHUNBUN -> R.drawable.kyureki_higan_haru
+    day.termBeginning == SolarTerm.SHUBUN -> R.drawable.kyureki_higan_aki
     else -> null
 }?.let(::largeFrame)
 
@@ -142,7 +161,7 @@ fun KyurekiPage(
     // On a festival the date stands in the festival's painted frame (SPEC §10.4); when the kyūreki festival and the
     // Gregorian お盆 fall on one day, the kyūreki one's frame is shown and both names stand under it.
     val festivals = listOfNotNull(day.festival, day.gregorianFestival)
-    val festivalFrame = festivals.firstNotNullOfOrNull { festivalFrame(it) }
+    val festivalFrame = festivals.firstNotNullOfOrNull { festivalFrame(it) } ?: zassetsuFrame(day, rk)
 
     PageColumns(modifier, top = {
         Row(verticalAlignment = Alignment.Top) {
