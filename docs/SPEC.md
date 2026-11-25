@@ -3003,6 +3003,18 @@ today on the Gregorian day of the same number (NAOJ 暦Wiki 節句), but the
 page names them on their kyūreki day, the calendar it shows
 ([sources/kyureki.md](sources/kyureki.md)).
 
+The deities' yearly days (ROADMAP T6.5; [sources/deity-days.md](sources/deity-days.md),
+RD412, RD413), one main day a year for each deity, never the monthly 縁日:
+by the kyūreki, as the sources date them, Fudō's 初不動 1/28, 夏越の祓 on
+the last day of the sixth month (of the leap sixth when there is one), the
+Jōdo school's 十夜 for Amida from 10/6 to 10/15, and Daikoku's day in the
+eleventh month, its 甲子 (甲子祭) or, in a month without one, its first 子
+day (子祭, the owner's choice); by the Gregorian date, as their great shrines
+and temples keep them today, Inari's 初午 on the first 午 day of February
+(伏見稲荷大社), 醍醐寺's 五大力尊仁王会 for the Prajñāpāramita on 23 February,
+Kannon's 四万六千日 on 10 July (浅草寺), and Jizō's 地蔵盆 on 24 August (the
+Kinki's 23–24 August). 節分 and the two 彼岸 stay among the 雑節 (§7.5).
+
 ### 7.4 Kanshi
 
 - Day: (JD + 49) mod 60, with 0 = 甲子. Check: JD 2451545 (2000-01-01) → 54 = 戊午.
@@ -4295,7 +4307,9 @@ canvas "Zanshin Calendar — basic design".
   the numeral at 120 sp. The festival's kanji, romaji and English stand
   under the date, opening its sheet; when a kyūreki festival and the
   Gregorian お盆 fall on one day, the kyūreki festival's frame is shown and
-  both names stand under it.
+  both names stand under it. The deities' yearly days (§7.3) stand under the
+  date the same way; their frames, one painting per deity (ROADMAP T6.5),
+  are shown once they are painted, and until then the plain numeral.
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
