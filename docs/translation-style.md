@@ -77,6 +77,40 @@ how it is laid out: the ruling stays first, the rows keep their labels and
 order, every fact and image of the English stays. A date may be a word in a
 reading («двадцать четвёртого числа»); a row's subtitle stays a few words.
 
+### S3. The catalog's single choices (the owner, 2026-11-25)
+
+Asked once for the whole catalog after the letters of blocks 76–85; each
+answer holds in every block, old and new.
+
+- **A remedy is an imperative**, as the catalog's header has it:
+  «совершите обряд», never «совершить обряд».
+- **Tibetan names in Cyrillic follow the spelling's consonants, without
+  the silent prefix letters** (g, d, b, m, ' before the root, s, r, l
+  above it): gnyan khra is «Ньен-кхра», not «Гньен-тха» (written as
+  spoken) nor «Гньян-кхра» (letter by letter); the se «Тхесе». A name with
+  a settled Russian form («Пхугпа», «Мипам») keeps it.
+- **«мева»** is masculine and undeclined: «дурной мева», «на мева».
+- **bdud gcod** is «демоническое отсечение» everywhere.
+- **The turning-back rite** ("turn back", ཟློག, zlog) is «отбрасывание»,
+  not «отвращение»; **the senses** are «органы чувств».
+- **"Goes badly" / "goes well"** is «идёт плохо» / «идёт хорошо» (D1) even
+  where a bare «плохо» reads shorter: «у родителей идёт плохо».
+- **"Fell ill on a mouse day: …"** is a condition: «Если заболели в день
+  мыши, …»; the dead's «Умер …: …» the same way, «Если умер …, …».
+- **"The blue vault of the sky, not torn"** keeps its shape: «голубой свод
+  неба, не разорванный» (rule 14 yields here).
+- **Dream verdicts and signs**: «хороший/плохой сон», «хороший/плохой
+  знак», never «добрый/дурной».
+- **師走** is «месяц, когда убегают учителя».
+- **The 20-word floor** (SPEC §8.1 rule 2) holds for the English; the
+  Russian follows its sense and may be shorter. Whatever reads more
+  pleasantly wins: no padding to reach a count.
+- **The eight trigram goddesses' names** stay undeclined: «день Тэнма».
+- **"The four orders of monks"** is «монашеская община»: «чтите
+  монашескую общину».
+- **A word the Russian has from the White Beryl but the English lacks** is
+  added to the English, not taken out of the Russian.
+
 ## The essays' rules (Riding the Boar, 2026-11-19 and 2026-11-20)
 
 ### 1. A made thing is «рукотворная», not «сделанная»
