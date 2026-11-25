@@ -84,7 +84,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   with one Remedy row for a bad one; nothing is summed into a verdict on
   the whole dream and no date of its fruit is given. "The dreamer is ill"
   brings in the medical texts' readings and their own rule of the night.
-- **旧暦:** month and day with the moon's age, 六曜, the current solar term
+- **旧暦:** month and day with the moon's age; on 旧正月, the five 節句, 十五夜,
+  十三夜 and お盆 the date in a round window painted as an Edo colour print
+  with the festival's things; 六曜, the current solar term
   with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
   九星 of the day, month and year, 選日 and 暦注下段 (with the lower band's
   own rules), 雑節, 干支, 恵方 with the year's eight direction gods (八将神) and 金神 on a compass, 天一神's direction of the day and where the 大将軍 is that day; every row opens its reading or its facts,
