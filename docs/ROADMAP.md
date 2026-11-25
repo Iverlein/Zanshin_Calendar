@@ -2880,6 +2880,14 @@ in T6.3.
   every year.
 - **Then (block 91).** The chosen days built and their frames painted (machine
   rule 15, the `paint` skill), shown to the owner.
+- **Built so far (2026-11-25, `work/block-91` on block 89).** The days, their
+  calendars (SPEC §7.3) and their readings in English and Russian; the page
+  names them under the plain numeral. Eleven paintings queued
+  (`zanshin-kyureki-{hatsuuma,kinoene,hatsufudo,godairiki,shiman,jizobon,juya,nagoshi,setsubun,higan-haru,higan-aki}`,
+  out to `art/kyureki/`, the T6.3 prints of 七夕 and 重陽 as references): one
+  per deity (Daikoku's 甲子祭 and 子祭 share one), 夏越の祓, 節分 and each
+  彼岸, whose frames stand on 節分 and on the 彼岸's middle day. Left: cut
+  them, wire them in `KyurekiPage.kt`, the sheet by letter, the owner's word.
 
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 
