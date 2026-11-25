@@ -6572,6 +6572,14 @@ A large block may be split between subagents by family, each in its own
 worktree, with one letter for the block; the pilot (74) is written by one
 hand, since its corrections set the rules for the rest.
 
+Blocks rewritten side by side each change a shared name in every block's
+units, since CatalogTest's naming check holds one Cyrillic form per Wylie
+across the catalog; their branches then clash on those lines. `python3
+tools/ru_rewrite.py compose 75=work/block-75 76=work/block-76 …`, run in a
+tree on `main`, gives each unit its owner's text, and a unit its owner left
+alone the other blocks' change: the catalog the merged blocks will have,
+to test before any of them merges.
+
 **What the check flags today** (`python3 tools/ru_check.py app catalog`): a
 unit much shorter than its English, `year_hour_note`; three compact
 strings where the Russian drops the English words around its placeholders

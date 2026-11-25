@@ -8,6 +8,9 @@
     ru_rewrite.py letter [--base REV] [--block N] [--out FILE]
                                        every Russian unit changed since REV (default main),
                                        grouped by family: the English, before, after
+    ru_rewrite.py compose N=REV... [--base REV]
+                                       write into this tree every Russian unit as block N's REV
+                                       has it, for blocks rewritten in branches side by side
 
 CHANGES is plain text, one unit per paragraph: a header line «app <key>» or
 «catalog <key>» (a plural item as «key#few»), then the new Russian on one
@@ -18,6 +21,12 @@ EDITS is the same shape with two lines under each header, the part of the
 present Russian to replace and its replacement: «catalog <key>», «old»,
 «new». Several edits of one unit apply in order; each old part must stand in
 the unit exactly once.
+
+compose takes, for each unit, the text of the REV of the block that owns it
+(tools/ru_plan.toml), when that block changed it since --base; a unit its
+owner left alone takes the change the other blocks made (a block renaming a
+term in other blocks' units, as CatalogTest's naming check asks). Units the
+other blocks changed in different ways are listed and keep the first.
 """
 import argparse
 import html
@@ -193,6 +202,44 @@ def letter(rev, block, out):
     return 0
 
 
+def compose(pairs, base):
+    plan = ru_check.blocks()
+    revs = {}
+    for pair in pairs:
+        n, _, rev = pair.partition("=")
+        if not n.isdigit() or not rev:
+            sys.exit(f"not N=REV: {pair!r}")
+        revs[int(n)] = rev
+    xml, props = RU_XML.read_text(), RU_PROPS.read_text().split("\n")
+    written, split = 0, []
+    for scope, ru_path, parse in (("app", RU_XML, ru_check.android_strings),
+                                  ("catalog", RU_PROPS, ru_check.properties)):
+        old = at_rev(base, ru_path, parse)
+        texts = {n: at_rev(rev, ru_path, parse) for n, rev in revs.items()}
+        for key, was in old.items():
+            owner = ru_check.block_of(scope, ru_check.family(scope, key), plan)
+            if owner in texts and texts[owner].get(key, was) != was:
+                text = texts[owner][key]
+            else:
+                changed = list(dict.fromkeys(t[key] for t in texts.values() if t.get(key, was) != was))
+                if not changed:
+                    continue
+                if len(changed) > 1:
+                    split.append(f"{scope} {key}")
+                text = changed[0]
+            if scope == "app":
+                xml = set_app(xml, key, text)
+            else:
+                set_catalog(props, key, text)
+            written += 1
+    RU_XML.write_text(xml)
+    RU_PROPS.write_text("\n".join(props))
+    for x in split:
+        print(f"changed differently outside its block, the first kept: {x}", file=sys.stderr)
+    print(f"{written} unit(s) composed from {len(revs)} block(s)")
+    return 1 if split else 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -205,11 +252,16 @@ def main():
     l.add_argument("--base", default="main")
     l.add_argument("--block", type=int)
     l.add_argument("--out")
+    c = sub.add_parser("compose")
+    c.add_argument("pairs", nargs="+", metavar="N=REV")
+    c.add_argument("--base", default="main")
     args = ap.parse_args()
     if args.cmd == "apply":
         return apply(args.changes)
     if args.cmd == "edit":
         return edit(args.edits, args.out)
+    if args.cmd == "compose":
+        return compose(args.pairs, args.base)
     return letter(args.base, args.block, args.out)
 
 

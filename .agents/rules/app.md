@@ -31,6 +31,8 @@ paths:
   `python3 tools/ru_rewrite.py apply CHANGES` writes a block's rewrites
   and reads each back; `ru_rewrite.py letter --block <n>` lists every
   unit changed since `main`, English, before and after, for the letter.
+  `ru_rewrite.py compose N=REV...` writes the Russian of blocks rewritten
+  in branches side by side, each unit as its owner has it (ROADMAP L5).
   No AI detector gates the app's Russian either (the owner, 2026-11-21,
   L5.D2): `ai-check` is for information only.
 - **Test on the emulator only**, never on the owner's phone: tours, taps,
