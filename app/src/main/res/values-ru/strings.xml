@@ -498,14 +498,6 @@
     <string name="birth_cancel">Отмена</string>
 
     <!-- Glyphs: descriptions for screen readers -->
-    <string name="glyph_kadomatsu">кадомацу</string>
-    <string name="glyph_herb_sprig">веточка трав</string>
-    <string name="glyph_peach_blossom">цветок персика</string>
-    <string name="glyph_carp_streamers">вымпелы-карпы</string>
-    <string name="glyph_two_stars_across_the_river">две звезды по берегам реки</string>
-    <string name="glyph_full_moon_and_susuki_grass">полная луна и трава сусуки</string>
-    <string name="glyph_chrysanthemum">хризантема</string>
-    <string name="glyph_gibbous_moon">луна после первой четверти</string>
     <string name="brief_good">хорошо</string>
     <string name="brief_avoid">избегать</string>
     <string name="brief_row_good">хорошо %1$d</string>

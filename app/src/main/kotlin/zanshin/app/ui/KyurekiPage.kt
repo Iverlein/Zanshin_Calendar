@@ -30,6 +30,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -37,38 +38,52 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.res.stringResource
+import io.github.iverlein.zanshin.R
 import zanshin.app.DayInfo
 import zanshin.app.Labels
 import zanshin.app.LocalLabels
-import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Band
 import zanshin.core.kyureki.Choku
+import zanshin.core.kyureki.Daishogun
 import zanshin.core.kyureki.DayMark
+import zanshin.core.kyureki.Festival
+import zanshin.core.kyureki.HasshoGod
+import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.Kigaku
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.KyurekiDay
 import zanshin.core.kyureki.Rekichu
-import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
-import zanshin.core.kyureki.Daishogun
-import zanshin.core.kyureki.HasshoGod
 import zanshin.core.kyureki.Tenichi
-import zanshin.core.kyureki.YearGods
 import zanshin.core.kyureki.Tone
-import zanshin.core.texts.Catalog
-import zanshin.core.texts.Reading
-import zanshin.core.texts.DaySummary
-import zanshin.core.texts.Texts
-import zanshin.core.texts.rokuyoTone
-import zanshin.core.texts.rokuyoTimes
-import zanshin.core.tibetan.Animal
+import zanshin.core.kyureki.YearGods
 import zanshin.core.texts.Activity
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.DaySummary
 import zanshin.core.texts.KyurekiElection
+import zanshin.core.texts.Reading
+import zanshin.core.texts.Texts
+import zanshin.core.texts.rokuyoTimes
+import zanshin.core.texts.rokuyoTone
 import zanshin.core.texts.toneOf
+import zanshin.core.tibetan.Animal
+
+/** The painted frame of a 旧暦 festival (ROADMAP T6.3; the pictures cut by tools/practice_frames.py). */
+private fun festivalFrame(festival: Festival): Frame? = when (festival.kanji) {
+    "旧正月" -> R.drawable.kyureki_kyu_shogatsu
+    "人日の節句" -> R.drawable.kyureki_jinjitsu
+    "上巳の節句" -> R.drawable.kyureki_joshi
+    "端午の節句" -> R.drawable.kyureki_tango
+    "七夕" -> R.drawable.kyureki_tanabata
+    "十五夜" -> R.drawable.kyureki_jugoya
+    "重陽の節句" -> R.drawable.kyureki_choyo
+    "十三夜" -> R.drawable.kyureki_jusanya
+    "お盆" -> R.drawable.kyureki_obon
+    else -> null
+}?.let(::largeFrame)
 
 /**
  * The 旧暦 view of one day with its almanac annotations (SPEC §10.4). [birthStar]
@@ -76,6 +91,7 @@ import zanshin.core.texts.toneOf
  * breakdown or a reading's lists opens its 旧暦 election through [onElect] (ROADMAP E5).
  */
 @OptIn(ExperimentalLayoutApi::class)
+
 @Composable
 fun KyurekiPage(
     info: DayInfo,
@@ -123,22 +139,12 @@ fun KyurekiPage(
     )
     val term = termAnnotation(day, rk, labels)
 
-    PageColumns(modifier, top = {
-        for (festival in listOfNotNull(day.festival, day.gregorianFestival)) {
-            val a = Annotation(festival.kanji, "${festival.romaji} — ${festival.english}", Tone.GOOD, Texts.JAPANESE_FESTIVAL[festival.kanji])
-            Row(
-                Modifier.clickable(role = Role.Button) { sheet = a },
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(14.dp),
-            ) {
-                FestivalGlyph(festival.kanji, accent, 56.dp)
-                Column {
-                    Text(festival.kanji, style = kanjiStyle.copy(fontSize = 30.sp, color = accent))
-                    Text("${festival.romaji} — ${festival.english}", style = body.copy(fontSize = 14.sp, color = Palette.muted))
-                }
-            }
-        }
+    // On a festival the date stands in the festival's painted frame (SPEC §10.4); when the kyūreki festival and the
+    // Gregorian お盆 fall on one day, the kyūreki one's frame is shown and both names stand under it.
+    val festivals = listOfNotNull(day.festival, day.gregorianFestival)
+    val festivalFrame = festivals.firstNotNullOfOrNull { festivalFrame(it) }
 
+    PageColumns(modifier, top = {
         Row(verticalAlignment = Alignment.Top) {
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -146,15 +152,25 @@ fun KyurekiPage(
                     // The date and the moon open one balloon of facts (ROADMAP K6): the moon's age, as the almanac
                     // prints it beside the date, its phase, the month's length and the Gregorian date.
                     Box {
-                        Text(
-                            "${day.day}",
-                            style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 120.sp, letterSpacing = (-4).sp, color = Palette.text),
-                            modifier = Modifier
-                                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning)) { dateOpen = !dateOpen }
-                                .semantics { contentDescription = dateDescription }
-                                .capBox(120.sp),
-                        )
+                        val numeral: @Composable () -> Unit = {
+                            Text(
+                                "${day.day}",
+                                style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 120.sp, letterSpacing = (-4).sp, color = if (festivalFrame != null) Sumi else Palette.text),
+                                modifier = Modifier
+                                    .clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning)) { dateOpen = !dateOpen }
+                                    .semantics { contentDescription = dateDescription }
+                                    .capBox(120.sp),
+                            )
+                        }
+                        if (festivalFrame != null) FrameOrnament(festivalFrame, numeral) else numeral()
                         if (dateOpen) Balloon(dateRows) { dateOpen = false }
+                    }
+                }
+                for (festival in festivals) {
+                    val a = Annotation(festival.kanji, "${festival.romaji} — ${festival.english}", Tone.GOOD, Texts.JAPANESE_FESTIVAL[festival.kanji])
+                    Column(Modifier.clickable(role = Role.Button) { sheet = a }.padding(vertical = 4.dp)) {
+                        Text(festival.kanji, style = kanjiStyle.copy(fontSize = 30.sp, color = accent))
+                        Text("${festival.romaji} — ${festival.english}", style = body.copy(fontSize = 14.sp, color = Palette.muted))
                     }
                 }
                 BalloonText(

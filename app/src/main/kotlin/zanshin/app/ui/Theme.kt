@@ -160,6 +160,12 @@ val SepiaColors = ZanshinColors(
 /** The themes offered in Settings (SPEC §10.5), by the owner's names (D5); System follows the phone's dark setting. */
 enum class AppTheme { SYSTEM, INK, PAPER, NIGHT, MAROON, SEPIA }
 
+/**
+ * The numeral on a 旧暦 festival's cartouche (SPEC §10.4), which is the print's paper on every theme: sumi, as the
+ * woodblock printed it (tools/practice_frames.py's SUMI).
+ */
+val Sumi = Color(0xFF1F1D19)
+
 /** The colours [theme] draws with, [systemDark] deciding System between Ink and Paper. */
 fun AppTheme.colors(systemDark: Boolean): ZanshinColors = when (this) {
     AppTheme.SYSTEM -> if (systemDark) InkColors else PaperColors

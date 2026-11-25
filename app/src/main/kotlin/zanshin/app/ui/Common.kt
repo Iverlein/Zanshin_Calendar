@@ -233,19 +233,6 @@ fun BalloonText(
     }
 }
 
-/** Placeholder for a festival or holiday glyph; the artwork is chosen later (SPEC §10.6). */
-@Composable
-fun GlyphRing(color: Color, size: Dp) {
-    Canvas(Modifier.size(size)) {
-        val stroke = 1.5.dp.toPx()
-        drawCircle(
-            color = color,
-            radius = this.size.minDimension / 2 - stroke,
-            style = Stroke(width = stroke, pathEffect = PathEffect.dashPathEffect(floatArrayOf(5.dp.toPx(), 4.dp.toPx()))),
-        )
-    }
-}
-
 /**
  * The moon as seen at [elongation] degrees from the sun: the lit limb on
  * the right while waxing, on the left while waning.

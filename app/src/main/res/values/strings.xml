@@ -564,23 +564,6 @@
     <string name="birth_save">Save</string>
     <string name="birth_cancel">Cancel</string>
 
-    <!-- Glyphs -->
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_kadomatsu">kadomatsu</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_herb_sprig">herb sprig</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_peach_blossom">peach blossom</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_carp_streamers">carp streamers</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_two_stars_across_the_river">two stars across the river</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_full_moon_and_susuki_grass">full moon and susuki grass</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_chrysanthemum">chrysanthemum</string>
-    <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_gibbous_moon">gibbous moon</string>
     <!-- R4 visual cues (SPEC §10.4) -->
     <!-- label before the glyphs of what the day is good for -->
     <string name="brief_good">good</string>

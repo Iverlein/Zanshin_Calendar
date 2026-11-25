@@ -36,9 +36,9 @@ import kotlin.math.roundToInt
 /** The picture of a day, [w] × [h] dp, with the numeral's window from ([x0], [y0]) to ([x1], [y1]). */
 class Frame internal constructor(@DrawableRes val res: Int, val w: Float, val h: Float, val x0: Float, val y0: Float, val x1: Float, val y1: Float)
 
-// The large paintings, the practice days' and the festivals', share one geometry, the numeral's window inside the
+// The large paintings, the practice days', the festivals' and the 旧暦 festivals', share one geometry, the numeral's window inside the
 // plain disc (tools/practice_frames.py).
-private fun large(res: Int) = Frame(res, 250f, 258f, 54f, 72f, 196f, 186f)
+fun largeFrame(@DrawableRes res: Int) = Frame(res, 250f, 258f, 54f, 72f, 196f, 186f)
 
 /**
  * The frame of a festival, which on a practice day stands in place of the day's own (T6.2); null for a festival not
@@ -56,17 +56,17 @@ fun frameOf(festival: TibetanFestival): Frame? = when (festival) {
     TibetanFestival.PROTECTORS -> R.drawable.festival_protectors
     TibetanFestival.MIPHAM, TibetanFestival.GURU_BIRTH, TibetanFestival.JIGME_LINGPA, TibetanFestival.DUDJOM,
     TibetanFestival.LONGCHENPA -> null
-}?.let(::large)
+}?.let(::largeFrame)
 
 /** The frame of a practice day. */
 fun frameOf(day: SpecialDay): Frame {
     return when (day) {
-        SpecialDay.EIGHTH -> large(R.drawable.practice_8)
-        SpecialDay.TENTH -> large(R.drawable.practice_10)
-        SpecialDay.FULL_MOON -> large(R.drawable.practice_15)
-        SpecialDay.TWENTY_FIFTH -> large(R.drawable.practice_25)
-        SpecialDay.TWENTY_NINTH -> large(R.drawable.practice_29)
-        SpecialDay.NEW_MOON -> large(R.drawable.practice_30)
+        SpecialDay.EIGHTH -> largeFrame(R.drawable.practice_8)
+        SpecialDay.TENTH -> largeFrame(R.drawable.practice_10)
+        SpecialDay.FULL_MOON -> largeFrame(R.drawable.practice_15)
+        SpecialDay.TWENTY_FIFTH -> largeFrame(R.drawable.practice_25)
+        SpecialDay.TWENTY_NINTH -> largeFrame(R.drawable.practice_29)
+        SpecialDay.NEW_MOON -> largeFrame(R.drawable.practice_30)
         SpecialDay.NINTH, SpecialDay.TWENTY_FOURTH -> Frame(R.drawable.practice_small, 170f, 172f, 26f, 41f, 144f, 137f)
     }
 }
@@ -83,7 +83,7 @@ fun practiceColor(day: SpecialDay): Color = when (day) {
  * that, the picture is made smaller to fit and the numeral with it.
  */
 @Composable
-fun PracticeOrnament(frame: Frame, content: @Composable () -> Unit) {
+fun FrameOrnament(frame: Frame, content: @Composable () -> Unit) {
     val f = frame
     val painter = painterResource(f.res)
     Layout(content = {
@@ -113,7 +113,7 @@ fun PracticeOrnament(frame: Frame, content: @Composable () -> Unit) {
 @Composable
 fun PracticeHeadline(frame: Frame, numeral: @Composable () -> Unit, label: @Composable () -> Unit) {
     Layout(content = {
-        PracticeOrnament(frame, numeral)
+        FrameOrnament(frame, numeral)
         label()
     }) { (frame, text), constraints ->
         val gap = 12.dp.roundToPx()
