@@ -88,7 +88,10 @@ answer holds in every block, old and new.
   the silent prefix letters** (g, d, b, m, ' before the root, s, r, l
   above it): gnyan khra is «Ньен-кхра», not «Гньен-тха» (written as
   spoken) nor «Гньян-кхра» (letter by letter); the se «Тхесе». A name with
-  a settled Russian form («Пхугпа», «Мипам») keeps it.
+  a settled Russian form («Пхугпа», «Мипам») keeps it. ph and tsh carry no
+  mark of aspiration (the owner, the same day): «Зинпунг», «Парма»,
+  «пурба», «цомен», like «цог»; a Sanskrit name keeps its own
+  («Пурвапхалгуни»).
 - **«мева»** is masculine and undeclined: «дурной мева», «на мева».
 - **bdud gcod** is «демоническое отсечение» everywhere.
 - **The turning-back rite** ("turn back", ཟློག, zlog) is «отбрасывание»,
