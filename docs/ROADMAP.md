@@ -2886,8 +2886,10 @@ in T6.3.
   (`zanshin-kyureki-{hatsuuma,kinoene,hatsufudo,godairiki,shiman,jizobon,juya,nagoshi,setsubun,higan-haru,higan-aki}`,
   out to `art/kyureki/`, the T6.3 prints of 七夕 and 重陽 as references): one
   per deity (Daikoku's 甲子祭 and 子祭 share one), 夏越の祓, 節分 and each
-  彼岸, whose frames stand on 節分 and on the 彼岸's middle day. Left: cut
-  them, wire them in `KyurekiPage.kt`, the sheet by letter, the owner's word.
+  彼岸, whose frames stand on 節分 and on the 彼岸's middle day. Wired in
+  `KyurekiPage.kt` on placeholder copies of practice_10 and the README and listing
+  written (2026-11-25). Left: cut the paintings over the placeholders, the sheet by
+  letter, the screenshots, the owner's word.
 
 ### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 
