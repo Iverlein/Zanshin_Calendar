@@ -23,7 +23,7 @@ present Russian to replace and its replacement: «catalog <key>», «old»,
 the unit exactly once.
 
 compose takes, for each unit, the text of the REV of the block that owns it
-(tools/ru_plan.toml), when that block changed it since --base; a unit its
+(tools/ru_plan.toml), when that block changed it since its fork from --base; a unit its
 owner left alone takes the change the other blocks made (a block renaming a
 term in other blocks' units, as CatalogTest's naming check asks). Units the
 other blocks changed in different ways are listed and keep the first.
@@ -215,13 +215,20 @@ def compose(pairs, base):
     for scope, ru_path, parse in (("app", RU_XML, ru_check.android_strings),
                                   ("catalog", RU_PROPS, ru_check.properties)):
         old = at_rev(base, ru_path, parse)
-        texts = {n: at_rev(rev, ru_path, parse) for n, rev in revs.items()}
+        # a block's change is what its REV has against its own fork point, so a branch behind
+        # --base does not undo what --base gained since
+        texts, forks = {}, {}
+        for n, rev in revs.items():
+            fork = subprocess.run(["git", "-C", str(REPO), "merge-base", base, rev],
+                                  capture_output=True, text=True, check=True).stdout.strip()
+            texts[n], forks[n] = at_rev(rev, ru_path, parse), at_rev(fork, ru_path, parse)
+        mine = lambda n, key: texts[n].get(key) != forks[n].get(key)
         for key, was in old.items():
             owner = ru_check.block_of(scope, ru_check.family(scope, key), plan)
-            if owner in texts and texts[owner].get(key, was) != was:
+            if owner in texts and mine(owner, key):
                 text = texts[owner][key]
             else:
-                changed = list(dict.fromkeys(t[key] for t in texts.values() if t.get(key, was) != was))
+                changed = list(dict.fromkeys(texts[n][key] for n in texts if mine(n, key)))
                 if not changed:
                     continue
                 if len(changed) > 1:
