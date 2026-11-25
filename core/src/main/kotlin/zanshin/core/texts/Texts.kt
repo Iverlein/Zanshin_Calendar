@@ -427,6 +427,36 @@ object Sources {
     val KB_TORA = Source("「寅の日」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典, Seisenban Nihon kokugo daijiten)", "Kotobank", "https://kotobank.jp/word/寅の日")
     val KB_MI = Source("「巳の日」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典, Seisenban Nihon kokugo daijiten)", "Kotobank", "https://kotobank.jp/word/巳の日")
     val KB_KINOENE = Source("「甲子」, in the Encyclopedia Nipponica (日本大百科全書, Nihon daihyakka zensho) and the World Encyclopedia (世界大百科事典, Sekai daihyakka jiten)", "Kotobank", "https://kotobank.jp/word/甲子")
+    /** The deities' yearly days of the 旧暦 page (ROADMAP T6.5; docs/sources/deity-days.md, RD412, RD413). */
+    val TOTO_SAIJIKI = Source(
+        "The Eastern Capital's Year of Rites (東都歳事記, Tōto saijiki), 斎藤月岑, 1838, vols. 1–2",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/8369317",
+    )
+    val TOTO_SAIJIKI_AUTUMN = Source(
+        "The Eastern Capital's Year of Rites (東都歳事記, Tōto saijiki), 斎藤月岑, 1838, vols. 3–4",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/8369318",
+    )
+    val HINAMI_KIJI = Source(
+        "Kyoto's Rites Day by Day (日次紀事, Hinami kiji), 黒川道祐, the first month",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/1170263/1/40",
+    )
+    val HINAMI_KIJI_ELEVENTH = Source(
+        "Kyoto's Rites Day by Day (日次紀事, Hinami kiji), 黒川道祐, the eleventh month",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/1170283/1/17",
+    )
+    val DAIGOJI_GODAIRIKI = Source("五大力尊仁王会｜年中行事", "醍醐寺 (Daigo-ji)", "https://www.daigoji.or.jp/event/detail1.html")
+    val KB_HATSUUMA = Source("「初午」 and 「伏見稲荷大社」, in the Encyclopedia Nipponica (日本大百科全書) and the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/初午")
+    val KB_HATSUFUDO = Source("「初不動」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典), and 「縁日」, in the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/初不動")
+    val KB_SHIMAN = Source("「四万六千日」, in the Encyclopedia Nipponica (日本大百科全書) and the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/四万六千日")
+    val KB_JIZOBON = Source("「地蔵盆」, in the Encyclopedia Nipponica (日本大百科全書) and the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/地蔵盆")
+    val KB_OHARAE = Source("「大祓」 and 「茅の輪」, in the Encyclopedia Nipponica (日本大百科全書) and the Yamakawa Dictionary of Japanese History (山川 日本史小辞典)", "Kotobank", "https://kotobank.jp/word/大祓")
+    val KB_JUYA = Source("「十夜」, in the Encyclopedia Nipponica (日本大百科全書) and the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/十夜")
+    val KB_NEMATSURI = Source("「子祭」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典) and デジタル大辞泉", "Kotobank", "https://kotobank.jp/word/子祭")
+    val KB_DAIGOJI = Source("「醍醐寺」 and 「五大力菩薩」, in the Encyclopedia Nipponica (日本大百科全書) and the World Encyclopedia (世界大百科事典)", "Kotobank", "https://kotobank.jp/word/醍醐寺")
     val NAOJ_SEKKU = Source("暦Wiki「節句」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C0E1B6E7.html")
     val NAOJ_JUSANYA = Source("暦Wiki「中秋の名月とは/十三夜」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C3E6BDA9A4CECCBEB7EEA4C8A4CF2FBDBDBBB0CCEB.html")
     val NAOJ_ZASSETSU = Source("暦Wiki「雑節とは？」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html")
@@ -2147,6 +2177,16 @@ object Texts {
         "重陽の節句" to Reading(source = Sources.NAOJ_SEKKU),
         "十三夜" to Reading(source = Sources.NAOJ_JUSANYA),
         "お盆" to Reading(source = Sources.WP_OBON, license = License.CC_BY_SA),
+        // The deities' yearly days (ROADMAP T6.5).
+        "初午" to Reading(source = Sources.KB_HATSUUMA, also = listOf(Sources.TOTO_SAIJIKI)),
+        "初不動" to Reading(source = Sources.KB_HATSUFUDO, also = listOf(Sources.TOTO_SAIJIKI)),
+        "五大力尊仁王会" to Reading(source = Sources.DAIGOJI_GODAIRIKI, also = listOf(Sources.KB_DAIGOJI)),
+        "四万六千日" to Reading(source = Sources.KB_SHIMAN, also = listOf(Sources.TOTO_SAIJIKI_AUTUMN)),
+        "地蔵盆" to Reading(source = Sources.KB_JIZOBON),
+        "夏越の祓" to Reading(source = Sources.KB_OHARAE, also = listOf(Sources.TOTO_SAIJIKI)),
+        "十夜" to Reading(source = Sources.KB_JUYA, also = listOf(Sources.TOTO_SAIJIKI_AUTUMN)),
+        "甲子祭" to Reading(source = Sources.KB_KINOENE, also = listOf(Sources.HINAMI_KIJI)),
+        "子祭" to Reading(source = Sources.HINAMI_KIJI_ELEVENTH, also = listOf(Sources.KB_NEMATSURI)),
     ).mapValues { (kanji, r) -> r.copy(key = "reading.Festival.$kanji") }
 
     /** The la, life-force and slayer weekdays of the birth animal: Rabten's luck, life and anti days, WB p. 330's three weekdays. */

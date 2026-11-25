@@ -118,7 +118,15 @@ object Kyureki {
         (8 to 15) to Festival("十五夜", "Jūgoya"),
         (9 to 9) to Festival("重陽の節句", "Chōyō"),
         (9 to 13) to Festival("十三夜", "Jūsanya"),
+        // The deities' yearly days kept by the old calendar in the sources (SPEC §7.3, ROADMAP T6.5, RD412).
+        (1 to 28) to Festival("初不動", "Hatsu-fudō"),
     )
+
+    private val NAGOSHI = Festival("夏越の祓", "Nagoshi no harae")
+    private val JUYA = Festival("十夜", "Jūya")
+    private val KINOENE_MATSURI = Festival("甲子祭", "Kinoe-ne matsuri")
+    private val NE_MATSURI = Festival("子祭", "Ne-matsuri")
+    private val HATSUUMA = Festival("初午", "Hatsu-uma", gregorian = true)
 
     /**
      * Festivals most of Japan now keeps by the Gregorian date (SPEC §7.3).
@@ -129,7 +137,41 @@ object Kyureki {
      */
     private val GREGORIAN_FESTIVALS = mapOf(
         (8 to 15) to Festival("お盆", "O-Bon", gregorian = true),
+        // The deities' yearly days that their great temples keep by the new calendar today (ROADMAP T6.5, RD412,
+        // RD413): 醍醐寺's 五大力尊仁王会, 浅草寺's 四万六千日, the Kinki's 地蔵盆 (on its main day, the 24th).
+        (2 to 23) to Festival("五大力尊仁王会", "Godairikison ninnōe", gregorian = true),
+        (7 to 10) to Festival("四万六千日", "Shiman-rokusennichi", gregorian = true),
+        (8 to 24) to Festival("地蔵盆", "Jizō-bon", gregorian = true),
     )
+
+    /**
+     * The festival of a kyūreki day by its rule (SPEC §7.3): the fixed days; 夏越の祓 on the last day of the
+     * sixth month, of the leap sixth when there is one (東都歳事記); 十夜 from the 6th to the 15th of the tenth;
+     * Daikoku's day in the eleventh, its 甲子 or, in a month without one, its first 子 day (the owner, 2026-11-24).
+     */
+    private fun festivalOf(month: Month, day: Int, jd: Long): Festival? {
+        if (month.leap) return NAGOSHI.takeIf { month.number == 6 && day == month.days }
+        FESTIVALS[month.number to day]?.let { return it }
+        return when (month.number) {
+            6 -> NAGOSHI.takeIf { day == month.days && sui(month.year - 1).none { it.leap && it.number == 6 } }
+            10 -> JUYA.takeIf { day in 6..15 }
+            11 -> {
+                val first = mod(jd - (day - 1) + 49, 60L).toInt()  // the sexagenary index of the month's first day
+                val kinoene = (60 - first) % 60 + 1                 // the day of the month that is 甲子
+                val ne = (12 - first % 12) % 12 + 1                 // the first 子 day
+                when {
+                    kinoene <= month.days -> KINOENE_MATSURI.takeIf { day == kinoene }
+                    else -> NE_MATSURI.takeIf { day == ne }
+                }
+            }
+            else -> null
+        }
+    }
+
+    /** The festival kept by the Gregorian date: the fixed ones and Inari's 初午, February's first 午 day (伏見稲荷大社). */
+    private fun gregorianFestivalOf(date: LocalDate, jd: Long): Festival? =
+        GREGORIAN_FESTIVALS[date.monthValue to date.dayOfMonth]
+            ?: HATSUUMA.takeIf { date.monthValue == 2 && date.dayOfMonth <= 12 && mod(jd + 49, 60L).toInt() % 12 == 6 }
 
     /** Major terms that fix a month number regardless of leap months (Tenpō rule 4). */
     private val FIXED = mapOf(0 to 2, 90 to 5, 180 to 8, 270 to 11)
@@ -178,8 +220,8 @@ object Kyureki {
             currentTerm = current.first,
             currentTermStart = current.second,
             nextTermStart = next.second,
-            festival = if (month.leap) null else FESTIVALS[month.number to day],
-            gregorianFestival = GREGORIAN_FESTIVALS[date.monthValue to date.dayOfMonth],
+            festival = festivalOf(month, day, jd),
+            gregorianFestival = gregorianFestivalOf(date, jd),
         )
     }
 
