@@ -3320,7 +3320,8 @@ the same way.
    rows, then the app's workings (how the entry was counted). A reading
    gives its facts in that order whatever order its source gives them in.
 2. **The paragraph is the ruling.** One to three sentences, 20 to 60
-   words. The first sentence says what this is on the shown day and which
+   words (the lower bound in the English only: a translation follows its sense
+   and may be shorter, the owner, 2026-11-25). The first sentence says what this is on the shown day and which
    way it cuts: "The 1st of the month is a virtuous day, the day of joy
    (དགའ་བ, dga' ba): pacifying rites, crafts, games and all white work go
    well." The sentences after

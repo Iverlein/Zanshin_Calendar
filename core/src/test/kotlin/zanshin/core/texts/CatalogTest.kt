@@ -674,7 +674,8 @@ class CatalogTest {
                 if (!isRow(k)) ReadingShape.words(v).let { if (it > 60) out += where to "paragraph of $it words" }
                 ReadingShape.APP_OR_EDITOR.getValue(suffix).find(v)?.let { out += where to "«${it.value}»" }
             }
-            out += shortParagraphs(suffix)
+            // The lower bound holds for the English, the original; a translation may be shorter (the owner, 2026-11-25).
+            if (suffix == "") out += shortParagraphs(suffix)
             val russian = suffix == "_ru"
             val namings = namedTexts(russian).flatMap { (where, text) -> ReadingShape.namings(where, text, russian) }
             ReadingShape.odd(namings, plain = { !it.contains(":reading.") }, exceptions = NAMED_TWO_WAYS, oneBracket = !russian)

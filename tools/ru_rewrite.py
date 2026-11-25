@@ -12,9 +12,7 @@
 CHANGES is plain text, one unit per paragraph: a header line «app <key>» or
 «catalog <key>» (a plural item as «key#few»), then the new Russian on one
 line; a line starting with «#» is a comment. Each unit is read back after
-writing and must parse to the text given. apply warns of a catalog reading
-whose paragraph falls below 20 words, CatalogTest's floor (SPEC §8.1 rule 2),
-counted as the test counts them; the test has the last word.
+writing and must parse to the text given.
 
 EDITS is the same shape with two lines under each header, the part of the
 present Russian to replace and its replacement: «catalog <key>», «old»,
@@ -95,37 +93,6 @@ def set_catalog(lines, key, text):
     sys.exit(f"no catalog key {key}")
 
 
-TIBETAN_BRACKET = re.compile(r"\([^()]*[\u0F00-\u0FFF][^()]*\)")
-# The 旧暦 families CatalogTest leaves out of the shape (its KYUREKI).
-KYUREKI = {"Rokuyo", "Choku", "Shuku", "Senjitsu", "Zassetsu", "KyuSei", "StarRelation", "Ehou", "Festival"}
-WORD = re.compile(r"\{\d\}|[^\W_][\w'’-]*")
-
-
-def words(text):
-    """The words of a paragraph as CatalogTest's ReadingShape counts them: {0} one word, a Tibetan bracket none."""
-    return len(WORD.findall(TIBETAN_BRACKET.sub("", text)))
-
-
-def paragraph(key, text, cat):
-    """A reading's paragraph as its sheet shows it: the family's note filled with the entry's text, when it has one."""
-    parts = key.split(".")
-    note = cat.get(".".join(parts[:2]))
-    if len(parts) > 2 and note and "{0}" in note:
-        return note.replace("{0}", text)
-    return text
-
-
-def short(units, before, after):
-    """The catalog readings of units that were at 20 words or more and are now under."""
-    out = []
-    for scope, key, _ in units:
-        if scope != "catalog" or not key.startswith("reading.") or key not in before or key.split(".")[1] in KYUREKI:
-            continue
-        old, new = (words(paragraph(key, d[key], d)) for d in (before, after))
-        if old >= 20 > new:
-            out.append((key, old, new))
-    return out
-
 
 def edit(path, out):
     lines = [l.rstrip() for l in Path(path).read_text().splitlines()]
@@ -165,7 +132,6 @@ def edit(path, out):
 
 def apply(path):
     units = parse_changes(path)
-    before = ru_check.properties(RU_PROPS)
     xml = RU_XML.read_text()
     props = RU_PROPS.read_text().split("\n")
     for scope, key, text in units:
@@ -180,8 +146,6 @@ def apply(path):
     for s, k in bad:
         print(f"read back differs: {s} {k}", file=sys.stderr)
     print(f"{len(units)} unit(s) written, {len(bad)} differ")
-    for key, old, new in short(units, before, cat):
-        print(f"under CatalogTest's 20 words: {key} ({old} → {new})", file=sys.stderr)
     return 1 if bad else 0
 
 
