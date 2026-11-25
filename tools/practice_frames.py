@@ -52,14 +52,20 @@ FRAMES = {
         "chokhor_duchen", "entry_into_womb", "jigme_lingpa", "lhabab_duchen", "dudjom", "longchenpa", "protectors")},
     # The 旧暦 festivals (T6.3), in the manner of ukiyo-e on the same geometry; named by their romaji.
     **{f"kyureki_{name}": LARGE for name in (
-        "kyu_shogatsu", "jinjitsu", "joshi", "tango", "tanabata", "jugoya", "choyo", "jusanya", "obon")},
+        "kyu_shogatsu", "jinjitsu", "joshi", "tango", "tanabata", "jugoya", "choyo", "jusanya", "obon",
+        # The deities' yearly days, 節分 and the two 彼岸 (T6.5).
+        "hatsuuma", "kinoene", "hatsufudo", "godairiki", "shiman", "jizobon", "juya", "nagoshi", "setsubun",
+        "higan_haru", "higan_aki")},
 }
 # The numeral each frame is shown with on the sheet: the day of the month.
 SAMPLE = {"practice_small": "9", "festival_losar": "1", "festival_birth": "7", "festival_chokhor_duchen": "4",
           "festival_lhabab_duchen": "22", "festival_mipham": "29", "festival_guru_birth": "10", "festival_jigme_lingpa": "3",
           "festival_dudjom": "18", "festival_longchenpa": "18", "festival_protectors": "29",
           "kyureki_kyu_shogatsu": "1", "kyureki_jinjitsu": "7", "kyureki_joshi": "3", "kyureki_tango": "5",
-          "kyureki_tanabata": "7", "kyureki_jugoya": "15", "kyureki_choyo": "9", "kyureki_jusanya": "13", "kyureki_obon": "15"}
+          "kyureki_tanabata": "7", "kyureki_jugoya": "15", "kyureki_choyo": "9", "kyureki_jusanya": "13", "kyureki_obon": "15",
+          "kyureki_hatsuuma": "3", "kyureki_kinoene": "21", "kyureki_hatsufudo": "28", "kyureki_godairiki": "6",
+          "kyureki_shiman": "26", "kyureki_jizobon": "12", "kyureki_juya": "6", "kyureki_nagoshi": "30",
+          "kyureki_setsubun": "16", "kyureki_higan_haru": "4", "kyureki_higan_aki": "11"}
 PAGES = {"Ink": (0x11, 0x13, 0x11), "Night": (0x00, 0x00, 0x00), "Maroon": (0x3A, 0x11, 0x17), "Paper": (0xF5, 0xF1, 0xE8)}
 GLOW = 0.14
 SUMI = (0x1F, 0x1D, 0x19)  # the numeral on a 旧暦 cartouche, KyurekiPage's SUMI
