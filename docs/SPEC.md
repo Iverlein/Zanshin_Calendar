@@ -3806,8 +3806,9 @@ canvas "Zanshin Calendar — basic design".
   are hidden, and a tap on the title there goes back to the days. Any
   month of the range is three taps from the days (title, year, month),
   with a scroll of the years between.
-- The 旧暦 page's festivals carry a line glyph drawn for this app; the
-  Tibetan page's stand in painted frames (§10.3).
+- The festivals of both pages stand in painted frames: the Tibetan
+  page's in the manner of a thangka (§10.3), the 旧暦 page's in the
+  manner of ukiyo-e (§10.4).
 - **Local sky line** at the bottom of both calendars (§10.5).
 - **First-run line** (ROADMAP U18, built 2026-10-11): under the In brief
   row, on the first three opens of each page, one line that can be put
@@ -4281,6 +4282,19 @@ canvas "Zanshin Calendar — basic design".
   as the printed almanac gives it beside the date (月齢, days since the
   last new moon at or before noon, `Kyureki.moonAge`), the phase, the
   month's length (大, 30 days, or 小, 29) and the Gregorian date.
+- **Festival:** on one of the nine festivals (§7.3) the day number stands
+  in the festival's painted frame, a round window (丸窓) in the manner of
+  an Edo colour print (nishiki-e), its border carrying the festival's
+  things (ROADMAP T6.3: 松竹梅 and the first sunrise, the seven herbs,
+  peach blossom and 流し雛, sweet flag and black carp streamers, bamboo
+  with the five-coloured strips under the half moon and the Milky Way,
+  the full moon with pampas grass and dumplings, chrysanthemums, the
+  moon short of full with chestnuts and soybeans, the Bon lanterns,
+  welcoming fire and 精霊馬). The picture is scaled so its window holds
+  the numeral at 120 sp. The festival's kanji, romaji and English stand
+  under the date, opening its sheet; when a kyūreki festival and the
+  Gregorian お盆 fall on one day, the kyūreki festival's frame is shown and
+  both names stand under it.
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
