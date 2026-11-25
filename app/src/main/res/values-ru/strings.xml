@@ -49,7 +49,7 @@
     <string name="black_dates">даты %1$d–%2$d</string>
     <string name="black_months">месяцы: %1$s и %2$s</string>
     <string name="black_months_this">месяцы: %1$s и %2$s · этот, даты %3$d–%4$d</string>
-    <string name="row_kikang_month">Кикан (ཀི་ཀང, ki kang)</string>
+    <string name="row_kikang_month">Киканг (ཀི་ཀང, ki kang)</string>
     <string name="tib_rishi_title">Семь дней мудреца (དྲང་སྲོང་རི་ཏི, drang srong ri ti)</string>
     <string name="tib_pig_title">Семь дней свиньи (ཕག་ཞག, phag zhag)</string>
     <string name="kikang_month">чёрный месяц, дата %1$d%2$s: %3$s</string>
