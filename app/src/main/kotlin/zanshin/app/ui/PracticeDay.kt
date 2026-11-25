@@ -41,10 +41,9 @@ class Frame internal constructor(@DrawableRes val res: Int, val w: Float, val h:
 fun largeFrame(@DrawableRes res: Int) = Frame(res, 250f, 258f, 54f, 72f, 196f, 186f)
 
 /**
- * The frame of a festival, which on a practice day stands in place of the day's own (T6.2); null for a festival not
- * yet painted (the Nyingma days of T6.4), which keeps the practice day's frame or none.
+ * The frame of a festival, which on a practice day stands in place of the day's own (T6.2, T6.4).
  */
-fun frameOf(festival: TibetanFestival): Frame? = when (festival) {
+fun frameOf(festival: TibetanFestival): Frame = when (festival) {
     TibetanFestival.LOSAR -> R.drawable.festival_losar
     TibetanFestival.CHOTRUL_DUCHEN -> R.drawable.festival_chotrul_duchen
     TibetanFestival.BIRTH -> R.drawable.festival_birth
@@ -54,9 +53,12 @@ fun frameOf(festival: TibetanFestival): Frame? = when (festival) {
     TibetanFestival.ENTRY_INTO_WOMB -> R.drawable.festival_entry_into_womb
     TibetanFestival.LHABAB_DUCHEN -> R.drawable.festival_lhabab_duchen
     TibetanFestival.PROTECTORS -> R.drawable.festival_protectors
-    TibetanFestival.MIPHAM, TibetanFestival.GURU_BIRTH, TibetanFestival.JIGME_LINGPA, TibetanFestival.DUDJOM,
-    TibetanFestival.LONGCHENPA -> null
-}?.let(::largeFrame)
+    TibetanFestival.MIPHAM -> R.drawable.festival_mipham
+    TibetanFestival.GURU_BIRTH -> R.drawable.festival_guru_birth
+    TibetanFestival.JIGME_LINGPA -> R.drawable.festival_jigme_lingpa
+    TibetanFestival.DUDJOM -> R.drawable.festival_dudjom
+    TibetanFestival.LONGCHENPA -> R.drawable.festival_longchenpa
+}.let(::largeFrame)
 
 /** The frame of a practice day. */
 fun frameOf(day: SpecialDay): Frame {
