@@ -4308,8 +4308,11 @@ canvas "Zanshin Calendar — basic design".
   under the date, opening its sheet; when a kyūreki festival and the
   Gregorian お盆 fall on one day, the kyūreki festival's frame is shown and
   both names stand under it. The deities' yearly days (§7.3) stand under the
-  date the same way; their frames, one painting per deity (ROADMAP T6.5),
-  are shown once they are painted, and until then the plain numeral.
+  date the same way, each in its deity's frame, one painting per deity
+  (ROADMAP T6.5; Daikoku's 甲子祭 and 子祭 share his). 節分 on its day and
+  each 彼岸 on its middle day, the equinox, stand in frames of their own,
+  named by the 雑節 row; the other 雑節 have none. A festival's frame wins
+  over a 雑節's when both fall on one day.
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
